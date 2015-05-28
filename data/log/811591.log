@@ -1,0 +1,564 @@
+<!-- Title: Day shift. Fri Sep  7, 2007 -->
+<!-- SciCo: Takuo Yoshida -->
+<!-- DAQAce: Takayuki Wakisaka -->
+<!-- MonAce: Francesco Crescioli -->
+<!-- CO: &nbsp; -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre></pre>
+
+
+<!-- Date: Fri Sep 7 08:22:58.066 2007 -->
+DAQ is running with Cosmics with no L2.
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Fri Sep 7 08:23:45.423 2007 -->
+Steve is testing the power supply monitoring.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249029' target=_top>249029</a>) -->
+
+
+<!-- Date: Fri Sep 7 08:40:39.281 2007 -->
+Jonathan Lewis is working to make L2 work.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249029' target=_top>249029</a>) -->
+
+<!-- Date: Fri Sep 7 09:02:59.028 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249029>249029</A>
+ Terminated at 2007.09.07 09:02:48
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 09:03:33.589 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249029>249029</A>
+TERMINATE: Run ended to give b0xft06 to David Cox
+<!-- Author: Miguel M. / Claudia -->
+
+
+
+<!-- Date: Fri Sep 7 09:05:20.465 2007 -->
+procmon error from csl loggers. checked it. now ok.
+<!-- Author: Francesco and Koji :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249029' target=_top>249029</a>) -->
+<!-- Comment: Fri Sep  7 09;08;04 comment by...Francesco and Koji -->
+We found an ssh rsa key fingerprint error for b0csl23 from b0control12. 
+
+<!-- Date: Fri Sep 7 09:08:47.818 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249030>249030</A>
+ Activated at 2007.09.07 09:08:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 09:09:36.165 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249030>249030</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,954,639] 
+<!-- Author: Koji / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 09:12:04.992 2007 -->
+We restarted cosmic run without b0xft06.
+<!-- Author: Francesco and Koji :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249030' target=_top>249030</a>) -->
+
+
+<!-- Date: Fri Sep 7 09:18:28.188 2007 -->
+I'm pretty sure that our scaler problems are the fault of the Global Level 2  or its transition card.  The L1 scalers are OK.  So are the TS scalers that come from other transition cards.  I checked the signal for bunch zero that goes from GL2T to scaler card 7, channel 24.  It is flat (with noise).  I don't know if this is related to the ongoing L2 problems or if the problem is GL2 or GL2T.  Greg is on his way in.
+<!-- Author: jdl -->
+
+<!-- Date: Fri Sep 7 10:03:53.768 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249030>249030</A>
+ Terminated at 2007.09.07 10:03:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:03:54.761 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249030>249030</A>
+TERMINATE: to do calibration
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:08:13.021 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249033>249033</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:08:14.790 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249033>249033</A>
+TERMINATE: done.
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:08:46.334 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249033>249033</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep  7 10;41;59 comment by...Taka and Francesco -->
+Bad; Mean=0 in 11 W CHA; Sig>5 in 21 E WHA;
+<!-- Date: Fri Sep 7 10:10:25.533 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249034>249034</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:10:26.075 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249034>249034</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep  7 10;45;55 comment by...Taka and Francesco -->
+ok
+<!-- Date: Fri Sep 7 10:14:07.867 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249035>249035</A>
+ Activated at 2007.09.07 10:13:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:14:09.330 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249035>249035</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL_L2UP  Trigger: COSMICS [15,954,639] 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:15:12.402 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249035>249035</A>
+ Terminated at 2007.09.07 10:14:29
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:15:13.439 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249035>249035</A>
+TERMINATE: Changed configuration. Removed PulsarB and activated L2 Auto accept
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:21:40.317 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249036>249036</A>
+ Activated at 2007.09.07 10:20:00
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:21:41.171 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249036>249036</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL_L2UP  Trigger: COSMICS [15,954,639] 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:21:42.180 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249036>249036</A>
+ Terminated at 2007.09.07 10:20:56
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:21:43.253 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249036>249036</A>
+TERMINATE: to remove PCAL_07 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:24:37.709 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249037>249037</A>
+ Activated at 2007.09.07 10:24:05
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:24:38.758 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249037>249037</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL_L2UP  Trigger: COSMICS [15,954,639] 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:26:12.491 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249037>249037</A>
+ Terminated at 2007.09.07 10:25:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:28:20.716 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249038>249038</A>
+ Activated at 2007.09.07 10:28:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:28:21.523 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249038>249038</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,954,639] 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:29:58.219 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249038>249038</A>
+ Terminated at 2007.09.07 10:29:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 10:32:41.915 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249039>249039</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 10:32:58.853 2007 -->
+We got an alarm at EMERGENCY DUMP STATION in the control room, but there is no such alarm at the Cryo station.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249037' target=_top>249037</a>) -->
+<!-- Comment: Fri Sep  7 10;39;55 comment by...Takuo Yoshida -->
+The alarm has disappeared.
+<!-- Comment: Fri Sep  7 11;34;14 comment by...Takuo Yoshida -->
+The Cryo techs fixed the comunication problem between control room and cryo station.
+<!-- Date: Fri Sep 7 10:38:02.318 2007 -->
+<h3>The trigger is back!</h3><p> 
+As suspected, the two problems were really one.  The scaler issues were a bit of a <font color=red>herring</font>.  I should have noticed that the numeric displays on some of the trigger supervisors had funny values, including "--".  Greg came in, stared at the TS crate, pulled unused logic analyzer probes off the backplane and power cycled the crate (without power cycling b0l2cl00).
+<!-- Author: jdl -->
+<!-- Comment: Fri Sep  7 11;10;36 comment by...Greg -->
+<pre>Now we just need L2 to work!
+
+</pre>
+<!-- Date: Fri Sep 7 10:46:42.430 2007 -->
+Bob Wagner comes to tell us that we will have COT low voltage alarms because they will work on it.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249039' target=_top>249039</a>) -->
+
+
+<!-- Date: Fri Sep 7 10:51:42.751 2007 -->
+WE sheperd b0clc00 after reset for CLC QIE calib
+<!-- Author: Taka and Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249039' target=_top>249039</a>) -->
+
+<!-- Date: Fri Sep 7 10:53:29.323 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249039>249039</A>
+TERMINATE: to run calibration
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:55:55.950 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249040>249040</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 10:55:56.972 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249040>249040</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep  7 10;58;53 comment by...Taka and Francesco -->
+ok
+
+<!-- Date: Fri Sep 7 11:02:57.984 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249041>249041</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep  7 11;07;15 comment by...Taka and Francesco -->
+ok except usual admem_tof_04 problem, slot 9 removed from WCAL_04
+<!-- Date: Fri Sep 7 11:03:24.040 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249041>249041</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 11:09:25.913 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249041>249041</A>
+TERMINATE: done
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 11:11:57.608 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249042>249042</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 11:13:35.520 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249042>249042</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep  7 11;20;43 comment by...Taka and Francesco -->
+bad; channels West 6 2R and 5 2R
+
+<!-- Date: Fri Sep 7 11:24:18.612 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249042>249042</A>
+TERMINATE: done
+
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 11:27:28.460 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249043>249043</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 11:27:29.598 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249043>249043</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Fri Sep 7 11:27:30.027 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249043>249043</A>
+TERMINATE: done
+<!-- Author: Takayuki / Francesco -->
+
+
+
+
+<!-- Date: Fri Sep 7 11:38:53.475 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6460&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6460' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6461&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6461' width='300'></a></center>
+<!-- Author: Taka and Francesco -->
+<!-- Comment: Fri Sep  7 11;41;12 comment by...Taka and Francesco -->
+calxef plots shows less dead channels than reference plots. East 13 L and R.
+
+<!-- Date: Fri Sep 7 11:47:08.818 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249044>249044</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 11:47:26.526 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249044>249044</A>
+TERMINATE: done
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 11:55:22.993 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249045>249045</A>
+TERMINATE: done
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 11:55:23.171 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249045>249045</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 12:09:31.581 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249046>249046</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 12:09:49.753 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249045>249045</A>
+CALIBRATION: <U><B>toftac</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+
+
+
+<!-- Date: Fri Sep 7 12:10:29.899 2007 -->
+Had to restart SoftEVB proxy because sevb was not responding. Now ok. TOF_TAC_CALIB rerun.
+<!-- Author: Taka and Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249046' target=_top>249046</a>) -->
+
+<!-- Date: Fri Sep 7 12:11:44.774 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249046>249046</A>
+TERMINATE: done
+<!-- Author: Takayuki / Francesco -->
+<!-- Comment: Fri Sep  7 12;22;10 comment by...Taka and Francesco -->
+no results arrived after 10 minutes, rerun the calibration.
+<!-- Date: Fri Sep 7 12:21:46.644 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249047>249047</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 12:27:44.361 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249047>249047</A>
+TERMINATE: done
+<!-- Author: Takayuki / Francesco -->
+<!-- Comment: Fri Sep  7 12;39;03 comment by...Taka and Francesco -->
+Problems passing from Done to Idle like 249044, sevb not responding. Emailed experts.
+
+<!-- Date: Fri Sep 7 12:39:32.729 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249048>249048</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 12:54:22.675 2007 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Regarding missing or bad channels in the COT calibration: 
+ 
+1. We are still missing 1 TDC in b0cot09 slot 2. Eric James is  
+planning to replace it (thought it was going to be yesterday) 
+ 
+2. Two ASDQs at SL8 USE (48 channels) were unplugged for an easy  
+access to fix LV problem. These two ASDQ boards will remain  
+unplugged at least until Monday morning. 
+ 
+3. Bob and Morris will continue SL8 USE LV work on Monday.  
+(Bob and Morris found the possible drop of SL1 LNE LV could come  
+the loose ground connection on the CV board)</pre></td></tr></td></table>
+<!-- Author: Shin-Shan Yu (Eiko) -->
+
+<!-- Date: Fri Sep 7 12:56:41.773 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249048>249048</A>
+TERMINATE: ended to give b0etdc00 and b0cot09 to run some tests
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 12:59:39.727 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249050>249050</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 14:18:30.840 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249050>249050</A>
+TERMINATE: done. change to cosmic run.
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 14:24:56.893 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249070>249070</A>
+ Activated at 2007.09.07 14:24:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 14:25:14.851 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249070>249070</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,954,639] csl test
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 14:25:43.131 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249070>249070</A>
+ Terminated at 2007.09.07 14:25:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 14:25:44.284 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249070>249070</A>
+TERMINATE: pcal07 timeout
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 14:28:45.274 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249071>249071</A>
+ Activated at 2007.09.07 14:27:52
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 14:28:46.030 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249071>249071</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,954,639] csl test
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 14:45:06.881 2007 -->
+csl test ended, we'll continue with new csl so we don't restart the current cosmic run (249071)
+<!-- Author: Taka and Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249071' target=_top>249071</a>) -->
+<!-- Comment: Fri Sep  7 14;48;25 comment by...Willis -->
+The test CSL version seems to be running OK, so I have decided
+to leave it running. If the CSL starts doing unusual things,
+please put back the default CSL version as per instructions
+in the ACE help page.  
+<!-- Date: Fri Sep 7 14:47:00.084 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249071>249071</A>
+ Terminated at 2007.09.07 14:46:43
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 14:47:01.550 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249071>249071</A>
+TERMINATE: to investigate zero deadtime
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 14:50:10.125 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249075>249075</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 14:50:11.699 2007 -->
+I am upgrading OS on b0desktop08, followed by b0desktop07.
+<!-- Author: Ling Ho -->
+
+<!-- Date: Fri Sep 7 14:51:58.892 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249075>249075</A>
+TERMINATE: l2 torture has normal deadtime (~4.3%)
+<!-- Author: Takayuki / Francesco -->
+
+
+<!-- Date: Fri Sep 7 14:54:52.927 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249076>249076</A>
+ Activated at 2007.09.07 14:54:34
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 7 14:57:24.303 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249076>249076</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,954,639] 
+<!-- Author: Takayuki / Francesco -->
+
+
+
+<!-- Date: Fri Sep 7 15:01:32.361 2007 -->
+<font color=red>Shift Summary: </font><pre>L2 is back. 
+COT still have some bad channels. Experts are working on it. 
+We ran with Calibration, Cosmics, and L2_TORTURE. 
+</pre> 
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Fri Sep 7 15:17:15.586 2007 -->
+Eve shift starts and cosmics taking is continue...
+<!-- Author: Scico :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=249076' target=_top>249076</a>) -->
+
+
+<!-- Date: Fri Sep 7 15:42:25.181 2007 -->
+<pre>HV Status:   
+ 
+ ON: CEM, CHA   
+ Disabled (grey):  PEM, PHA, PSH; CSW, MSK, CSX, CSP, BSU, TSU   
+ (also in global alarms PEM, PHA, PSH are red) 
+ OFF: COT, TOF, L00, SVX, ISL, CMU, CMP, CMX, BMU, CES, CPR, CLC, MNP, BSC,   
+ Warning: GAM (spare 1,2 at 4 V,  D button grey)  
+         CHA, (-7|22L), (-2|22L), (+0|2R)   
+         WHA (channnels are blinking, HV bars are missing)  
+         CES (off, but yellow, max voltage 0.2%)  
+ 
+ 
+</pre>
+<!-- Author: Miguel M. -->
+
+
+<!-- Date: Fri Sep 7 15:45:47.463 2007 -->
+PMT was cyan or light blue in global alarms for the last 1/2 hour. David Clark found that some alarms in the PTM monitor were disabled; after setting them back to enable, PTM became green.
+<!-- Author: Miguel M. -->
+
+<!-- Date: Fri Sep 7 15:55:18.464 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:01</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Sep 7 16:03:18.510 2007 -->
+<font color=red>Shift Summary: </font><pre>End of today's day shift e-log</pre> 
+<!-- Author: SciCo -->

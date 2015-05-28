@@ -1,0 +1,616 @@
+<!-- Title: Owl shift. Fri Oct 25, 2002 -->
+<!-- SciCo: R.J. Tesarek -->
+<!-- DAQAce: Reid Mumford -->
+<!-- MonAce: Natalia Kuznetsova -->
+<!-- CO: Arnold Pompos -->
+<!-- OpManager: Matthew Jones -->
+<!-- Notes: -->
+<pre>Try to keep kaos down to a minimum during access. 
+Bring the detector back after access.</pre>
+
+
+<!-- Date: Fri Oct 25 00:33:52 2002 -->
+Shift crew members are: 
+  DAQ ACES:      Jian Kang/Lucio Cerrito 
+  Monitor ACES:  Chris Hayes, Bernd Stelzer 
+  CO:            Arnold Pompos
+<!-- Author: R.J. TEsarek -->
+
+<!-- Date: Fri Oct 25 00:35:58 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153281">153281</A>
+ACTIVATE: CAL LED Calibration
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd -->
+
+
+
+<!-- Date: Fri Oct 25 00:40:17 2002 -->
+<br /><b>Access:</b> 
+<br />The access begins.  The jobs for this shift are: 
+<pre> 
+  + evaluate/swap WHA power supply (b0wcal04) 
+  + Replacing 2 silicon power supplies 
+      1 SVX supply 
+      1 ISL supply 
+  + swap silicon FIB board locations 
+  
+</pre>
+<!-- Author: R.J. Tesarek -->
+
+<!-- Date: Fri Oct 25 00:49:22 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153283">153283</A>
+ACTIVATE: CAL XEF Calibration
+<!-- processed by 131.225.235.217 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 00:58:31 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153284">153284</A>
+ACTIVATE: COT Calibration
+<!-- processed by 131.225.104.15 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 01:02:01 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153285">153285</A>
+ACTIVATE: MUON Calibration
+<!-- processed by 131.225.236.36 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 01:19:51 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153286">153286</A>
+ACTIVATE: SMX calibration
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 01:29:52 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153287">153287</A>
+ACTIVATE: BSC-Miniplug Calibration
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 02:04:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153288">153288</A>
+ACTIVATE: Plug Laser Non-Myron Mode Calibration
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 02:07:05 2002 -->
+As requested by the calibration web page, here is the log book entry for the most recent COT callibration: 
+ 
+ 
+ave start time for good channels is 305.578 
+number of missing channels = 0 
+number of good channels = 29832 
+number of drifted good channels = 267 
+ave drift = 0.0356331 
+num drifted good channels, crate 0 is 0 
+num drifted good channels, crate 1 is 0 
+num drifted good channels, crate 2 is 0 
+num drifted good channels, crate 3 is 3 
+num drifted good channels, crate 4 is 0 
+num drifted good channels, crate 5 is 1 
+num drifted good channels, crate 6 is 96 
+num drifted good channels, crate 7 is 1 
+num drifted good channels, crate 8 is 0 
+num drifted good channels, crate 9 is 0 
+num drifted good channels, crate 10 is 3 
+num drifted good channels, crate 11 is 1 
+num drifted good channels, crate 12 is 2 
+num drifted good channels, crate 13 is 95 
+num drifted good channels, crate 14 is 8 
+num drifted good channels, crate 15 is 12 
+num drifted good channels, crate 16 is 15 
+num drifted good channels, crate 17 is 26 
+num drifted good channels, crate 18 is 3 
+num drifted good channels, crate 19 is 1 
+average start time is 305.578 ns 
+average channel drift is 0.0743785 ns 
+number of good channels that drifted is 267 
+Will write a new COMPLETE run 
+Times have drifted, writing new ref run 
+ave start time for good channels is 305.578 
+numBad channels = 408  
+<!-- Author: Arnold Pompos :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153284' target=_top>153284</a>) -->
+
+<!-- Date: Fri Oct 25 02:15:26 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153289">153289</A>
+ACTIVATE: Plug Laser Myron Mode Calibration
+<!-- processed by 131.225.236.161 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 02:52:07 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153290">153290</A>
+ACTIVATE: CLC QIE Calibration
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 03:07:32 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153291">153291</A>
+ACTIVATE: CAL QIE calibration
+<!-- processed by 131.225.121.27 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 03:10:20 2002 -->
+<p><b>Silicon Power Controlled Access</b> 
+<p>Investigated <b>SB5W7L0</b> Bias.  Rebooted crate and it operated normally, reporting both non-zero voltages and currents. 
+<p><b>IB0W2 Bias 3.0</b> responded to changes to its max current setting via the crate front panel--I suspect the problems of last night are from the GUI.  This channel does trip Ovc, however, when turned on.  Removed the cables and turned the supply on and it worked normally, i.e. the problem appears to be downstream of the PS.  I tried changing it's bias current sensitivity to the coarse setting, but it still trips Ovc. 
+<p>By request I unplugged the remote sense cable from <b>IB2W2</b> and put in the jumper over-riding the cable enable.
+<!-- Author: Napora and Hays -->
+
+<!-- Date: Fri Oct 25 03:12:25 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153292">153292</A>
+ACTIVATE: TOF TAC calibration
+<!-- processed by 131.225.233.221 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 03:18:31 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153293">153293</A>
+ACTIVATE: TOF QIE calibration
+<!-- processed by 131.225.235.217 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 03:22:35 2002 -->
+<br><b>Access Status:</b> 
+<ul> 
+ <li>Rob Napora is out after work on the silicon power supplies. 
+ </li> 
+ <li>Dervin and Roberto have finished power supply work.  The 
+     crate was checked by RickT and everything is ok for the 
+     WHA ADMEMs. 
+ </li> 
+ <li>Fib work is still in progress</li> 
+ 
+</ul>  
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Fri Oct 25 03:45:09 2002 -->
+<br><b>Access status:</b> 
+<br>The TOF TAC calibration finds that one of the transition 
+boards in b0wcal07 likely blew a fuse.  Matthew Jones is going 
+in to fix the problem.  Unfortunately, the IMU steel was already 
+closed and will have to be re-opened. 
+<br> 
+<br> 
+The silicon work on the FIBs is continuing with the FIBs being 
+tested. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Fri Oct 25 03:59:30 2002 -->
+<br><b>Accelerator Status:</b> 
+<br>Booster start up after access at 03:30. 
+<pre> 
+  Stack:         90.18e10 pbars  
+  Stacking Rate:  7.19    mA/hr 
+</pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Fri Oct 25 04:05:03 2002 -->
+During today's access we checked (CONET-4) PEI power supply and found the +5V analog was faulting. I Power cycled the supply by switching  the breaker of the supply off & on  and the +5V ANALOG came back on for only ~2 seconds and faulted, then I reset it by pressing the reset button on front panel but it continued to fault. So then I placed meter probes on the load to measure the voltage level as I was resetting the supply and noticed that the voltage level was set @4.94V. I increased the voltage output to 5.15V and the +5V output seemed to behave just fine at this point. 
+I also measured the voltage difference after adjusting the output @ the power supply output=5.37V  and @ the load =5.15  
+the difference was ~22mV.  
+We allowed the supply to run for ~1 hr. And it was decided not to change supply. So far supply is OK.   
+ 
+<!-- Author: Roberto Davila -->
+
+<!-- Date: Fri Oct 25 04:46:54 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153295">153295</A>
+ACTIVATE: TOF TAC Calibration
+<!-- processed by 131.225.235.91 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 04:48:33 2002 -->
+<br><b>Access Status:</b> 
+<br> Dervin phones from the collision hall.  The cause of the 
+power supply trips appears to have been the TOF transition board 
+(TOMAIN?).  Replacing the transition board cures both the power 
+supply problem and the transition board problem.  
+<br>  
+The IMU steel is closing and we are performing a TOF TAC  
+calibration to check out the system. 
+<br> 
+Silicon work continues.  Steve Nahn is on his way in to aid  
+diagnosing the problems. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+<!-- Date: Fri Oct 25 04:51:54 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153296">153296</A>
+ Activated at 2002.10.25 04:46:43
+<!-- processed by 131.225.236.229 -->
+<!-- Author: RunControl -->
+<!-- Comment: Fri Oct 25 04;58;53 comment by...Jian -->
+L1 trigger rates about 80Hz
+<!-- Date: Fri Oct 25 04:51:54 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153296">153296</A>
+ACTIVATE: Rick's Run(software EVB) [1,168,327]
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 04:58:37 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153296">153296</A>
+ Terminated at 2002.10.25 04:54:20
+<!-- processed by 63.215.232.72 -->
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Oct 25 05:04:18 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153297">153297</A>
+ Activated at 2002.10.25 05:00:41
+<!-- processed by 131.225.235.217 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 05:05:18 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153297">153297</A>
+ACTIVATE: Rick's Run
+<!-- processed by 131.225.236.162 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 05:10:27 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153297">153297</A>
+ Terminated at 2002.10.25 05:06:57
+<!-- processed by 131.225.236.157 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 05:10:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153297">153297</A>
+TERMINATE: L1 trigger rates is about 80 Hz, no beam, plug HV is standby.
+<!-- processed by 131.225.236.157 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 05:10:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153297">153297</A>
+TERMINATE: L1 trigger rates is about 80 Hz, no beam, plug HV is standby.
+<!-- processed by 131.225.236.157 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 05:13:14 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153298">153298</A>
+ACTIVATE: TOF TAC Calibration
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+<!-- Date: Fri Oct 25 05:17:37 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153299">153299</A>
+ACTIVATE: TOF QIE calibration
+<!-- processed by 131.225.235.217 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 05:21:07 2002 -->
+<br /><b>CONET-4 power supply summary:</b> 
+All faults noted below are on the +5V analog power supply. 
+<pre> 
+  10/23/02 17:15 fault   
+                 Power cycle E endwall and the supply recovers.  
+  10/24/02 02:24 fault   
+                 Power cycle 400Hz for E. wall, supply recovers. 
+           15:03 fault   
+                 Power cycle 400Hz for E. wall, supply recovers. 
+           21:16 fault 
+                 Power cycle 400Hz for E. wall, fault persists. 
+           21:35 Power cycle 400Hz for E. wall, fault persists. 
+                 Leave the supply in this state until access. 
+  10/25/02 00:00 Access to investigate power supply. 
+           05:16 Problems with PS diagnosed to TOF transition     
+                 board.  TOF transition board swapped.  
+            
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Fri Oct 25 07;53;55 comment by...M Jones -->
+<a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=tof&action=view&page=10&frame=2&anchor=07:52:02'>
+Here</a> is a longer explanation of what we think was
+happening during the access.
+<!-- Date: Fri Oct 25 05:25:39 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153300">153300</A>
+ Activated at 2002.10.25 05:20:40
+<!-- processed by 217.133.187.207 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 05:25:39 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153300">153300</A>
+ACTIVATE: COSMICS Run
+<!-- processed by 217.133.187.207 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 05:26:42 2002 -->
+</pre> 
+<br><b>Status:</b> 
+<br>CDF out of access.  Accelerator status is as follows: 
+<pre> 
+  Stack:         100.7E10 pbars 
+  Stacking rate:   1.58   mA/hr 
+</pre>
+<!-- Author: R.J. Tesarek -->
+
+<!-- Date: Fri Oct 25 05:53:40 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153300">153300</A>
+ Terminated at 2002.10.25 05:43:08
+<!-- processed by 131.225.236.229 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 05:53:40 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153300">153300</A>
+TERMINATE: End the Run
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 05:53:40 2002 -->
+<br><b>Shot Status:</b> 
+<br>Phoned MCR to understand their schedule. The current plan 
+is to shoot from a stack of 105mA. 
+<pre> 
+  Stack:         103.57E10 pbars 
+  Stacking rate:   3.90    mA/hr 
+</pre> 
+<br><br> 
+<b>Silicon Status:</b> 
+<br>The silicon is experiencing DVDD overcurrent trips on 
+most of the detector.  Steve Nahn and Cigdem are working on the 
+problem.  Gino Bolla just walked in. 
+<br>  
+<!-- Author: R.J. Tesarek -->
+
+<!-- Date: Fri Oct 25 06:10:33 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153301">153301</A>
+ Activated at 2002.10.25 05:57:49
+<!-- processed by 131.225.236.229 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 06:10:34 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153301">153301</A>
+ACTIVATE: COSMICS Run
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 06:12:52 2002 -->
+Tevatron comleting dry ramp.
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Fri Oct 25 07;04;06 comment by...R.J. Tesarek -->
+<br><b>Accelerator status:<\b>
+<br>Phoned MCR and learned that the Tevatron quenched about
+half an hour ago (no beam in the machine when the quench occured).  Recovery in progress.
+<pre>
+   Stack:          105.78 pbars
+   Stacking Rate:    0.00 mA/hr
+</pre>
+<br><b>Silicon Status:<\b>
+<br>The DVDD overcurrent problems appear to have been resolved.
+Powering silicon and taking calibrations.
+<br>
+<!-- Date: Fri Oct 25 06:53:01 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153301">153301</A>
+ Terminated at 2002.10.25 06:49:05
+<!-- processed by 131.225.236.168 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 06:53:01 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153301">153301</A>
+TERMINATE: End this Cosmic Run
+<!-- processed by 131.225.236.168 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+
+<!-- Date: Fri Oct 25 07:04:31 2002 -->
+</b> Formatting
+<!-- Author: RJT -->
+
+
+<!-- Date: Fri Oct 25 07:04:56 2002 -->
+</b>
+<!-- Author: RJT -->
+
+<!-- Date: Fri Oct 25 07:19:05 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153308">153308</A>
+ACTIVATE: Silicon D-Mode Calibration with DPS on.
+<!-- processed by 131.225.231.59 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 07:19:51 2002 -->
+<br><b>Consumer Call in list:</b> 
+<br>After finding problems with SVXMon, went through the list 
+of consumers and found that the following consumers have no 
+contact person/pager: 
+<ul> 
+ <li>YMon</li> 
+ <li>Stage0</li> 
+ <li>SiliMon</li> 
+ <li>BeamMon</li> 
+ <li>L3RegionalMon</li> 
+ <li>SVXMon</li> 
+ <li>DAQMon</li> 
+</ul> 
+Because some of these consumers are critical for running the 
+experiment and determining data quality, we should have a contact 
+person to ensure that problems encountered on shift are fixed 
+quickly. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Fri Oct 25 07:24:34 2002 -->
+<pre>SVXMon problem.  
+This is a cosmic run. I was not able to restart SVXMon. 
+AFTER TYPING 
+ 
+b0dap51:109:~/consumer_scripts&gt; startMon.sh SVXMon 0 
+ 
+IT CLAIMS 
+ 
+/cdf/people1/cdfdaq/consumer_scripts/startMon.sh: pf+0w: command not found 
+  
+This script should be executed by a Consumer Operator 
+  
+starting SVXMon partition 0 on b0dap66 
+  
+to view the results of consumer monitors, 
+type: 
+  
+./startDisplay.sh All 
+b0dap51:110:~/consumer_scripts&gt; aklog: can't get afs configuration (afsconf_Open(/usr/vice/etc)) 
+ 
+ 
+IT ALSO CLAIMS  
+ 
+xhost: Command not found. 
+running SVXMon on partition 0 
+runSVXMon: SVXMon results will be stored in /data1/consumer/results/SVXMon. 
+runSVXMon: executing SVXMon /cdf/code-Linux-2.0.34/cdfoffline/dist/cdfsoftb0/4.8.4b/SvxDaqMods/test/SVXMon/runSVXMon.tcl in /data1/consumer/runarea/SVXMon. 
+runSVXMon: logfile = /data1/consumer/runarea/SVXMon/SVXMon.cdfdaq.log 
+ 
+         Release version = 4.8.4 
+ 
+         ======================================================= 
+ 
+ 
+         Error Log established 
+         25-Oct-2002 07:09:09 
+ 
+         ======================================================= 
+          
+ CHKLOG: BFIELDM logical translation: /cdf/code-Linux-2.0.34/cdfoffline/dist/packages/GeometryBase/V00-00-75/src/bfieldmap.dbt       
+ Bfield::print: nominal magnetic field is:     14.116;  field is  NON-UNIFORM  
+Switched to a newer tcl file 
+Updating the list of bad ladders from the pb database.. 
+. Done. 
+invalid command name "=====================" 
+AC++&gt; 
+</pre>
+<!-- Author: Arnold Pompos :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153301' target=_top>153301</a>) -->
+
+<!-- Date: Fri Oct 25 07:33:59 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153310">153310</A>
+ACTIVATE: Silicon D-Mode Calobration with DPS off
+<!-- processed by 131.225.236.157 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+<!-- Date: Fri Oct 25 07:33:59 2002 -->
+<pre>Access Report of Julia, David, Rob, Cigdem: 
+=========================================== 
+ 
+Silicon is up and happy.  
+We moved FIB and FTM of IB0W4/5 from slot 10 to 8.  
+One PS is back (SB5W7L0) and one PS work did not work out 
+(IB0W2L3).  
+We had some troubles with the Silicon Detector aroudn 3:30am, which caused us not to be able to turn on the  
+Silicon, because it was tripping on DVDD OC.  
+We contacted Steve, Andy, Evah, Lester..... 
+ 
+We investigated the clocks, they were ok.  
+We rebooted the SRC and restarted the PS GUI.  
+Which apparently solved the problem.  
+Detector is up, we tested it and took some data with the  
+whole system in RC and we are taking calibration data.  
+ 
+</pre>
+<!-- Author: cigdem  -->
+
+<!-- Date: Fri Oct 25 07:49:24 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153311">153311</A>
+ Activated at 2002.10.25 07:45:36
+<!-- processed by 131.225.242.89 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 25 07:49:35 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153311">153311</A>
+ACTIVATE: COSMICS Run
+<!-- processed by 131.225.232.152 -->
+<!-- Author: Jian/Bernd/lucio -->
+
+
+
+
+<!-- Date: Fri Oct 25 07:54:28 2002 -->
+<font color=red>Shift Summary: </font><pre>Controlled access most of the shift.  All problems resolved 
+by 0800, but rocky road on the way.  Too many details to  
+mention here.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             nan
+   
+</td></tr></table></pre>
+<!-- Author: R.J. Tesarek -->
+
+<!-- Date: Fri Oct 25 07:58:39 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:01</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- processed by 131.225.236.229 -->
+<!-- Author: End of Shift Report -->
+

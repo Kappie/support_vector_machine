@@ -1,0 +1,1406 @@
+123 Log Analyzer Report
+Domain name:www.cftt.nist.gov
+Using Filter: 
+generated on Wed Feb 23 16:33:30 2005
+
+Time Period:01/Jan/2005:00:02:55 - 31/Jan/2005:23:27:41 total 31 day(s)
+
+General Statistics
+Total Hits,25830
+Total Cached Hits,25830
+Average Hits Per Day,833
+Average Hits Per Hour,34
+Average Hits Per Visitor,4.5
+Average Data Transferred per Hit,0.0 KB
+Total Visitors,5727
+Average Visitors Per Day ,184
+Average Time Spent,149 Seconds
+Average PageViews per visitor,1.39
+Average Downloads per visitor,1.05
+Average Data Transferred per Visitor,0.0 KB
+Total Uniq IPs,2840
+Visitors Who Visit Once,2346
+Visitors Who Visit more than Once,494
+Total PageViews,7939
+Average PageViews Per Day,256
+Total File Downloads,5988
+Average File Downloads Per Day,193
+Total Images,8424
+Average Images Per Day,271
+Total failed requests,2889
+Total Incomplete File downloads requests,2837
+Number of visitors bookmarked your web site,1333
+Total Data Transferred,0.00 KB
+Average Data Transferred per Day,0.00 KB
+
+
+Access Report
+Daily Report
+Date,Hits,Visitors,Uniq IPs,Data Transferred(KB)
+Sat Jan 01 2005,347,114,54,0
+Sun Jan 02 2005,462,123,72,0
+Mon Jan 03 2005,797,188,115,0
+Tue Jan 04 2005,993,211,143,0
+Wed Jan 05 2005,836,202,135,0
+Thu Jan 06 2005,903,210,131,0
+Fri Jan 07 2005,1033,202,136,0
+Sat Jan 08 2005,465,153,99,0
+Sun Jan 09 2005,424,124,83,0
+Mon Jan 10 2005,707,167,107,0
+Tue Jan 11 2005,896,193,124,0
+Wed Jan 12 2005,997,228,167,0
+Thu Jan 13 2005,812,206,144,0
+Fri Jan 14 2005,1226,222,158,0
+Sat Jan 15 2005,573,165,124,0
+Sun Jan 16 2005,557,156,105,0
+Mon Jan 17 2005,680,184,139,0
+Tue Jan 18 2005,999,254,188,0
+Wed Jan 19 2005,1322,216,158,0
+Thu Jan 20 2005,2208,219,162,0
+Fri Jan 21 2005,720,166,126,0
+Sat Jan 22 2005,674,146,105,0
+Sun Jan 23 2005,484,151,104,0
+Mon Jan 24 2005,857,189,153,0
+Tue Jan 25 2005,1052,225,167,0
+Wed Jan 26 2005,1166,201,158,0
+Thu Jan 27 2005,881,200,162,0
+Fri Jan 28 2005,780,189,142,0
+Sat Jan 29 2005,571,151,114,0
+Sun Jan 30 2005,613,158,114,0
+Mon Jan 31 2005,795,214,162,0
+Weekly Report
+Day of week,Hits, Visitors,Uniq IPs,Data Transferred(KB)
+ Sunday,2540,712,417,0
+Monday,3836,942,601,0
+Tuesday,3940,883,566,0
+Wednesday,4321,847,560,0
+Thursday,4804,835,549,0
+Friday,3759,779,507,0
+Saturday,2630,729,411,0
+Hourly Report
+Hour of day,Hits,Visitors,Uniq IPs,Data Transferred(KB)00:00-00:59,1183,233,166,0
+01:00-01:59,843,209,166,0
+02:00-02:59,1114,197,160,0
+03:00-03:59,1078,274,172,0
+04:00-04:59,821,266,179,0
+05:00-05:59,838,210,159,0
+06:00-06:59,555,184,127,0
+07:00-07:59,1758,171,128,0
+08:00-08:59,682,155,114,0
+09:00-09:59,774,183,134,0
+10:00-10:59,894,229,130,0
+11:00-11:59,732,193,149,0
+12:00-12:59,862,186,145,0
+13:00-13:59,866,212,151,0
+14:00-14:59,1356,266,199,0
+15:00-15:59,1100,258,193,0
+16:00-16:59,1563,284,219,0
+17:00-17:59,1246,277,195,0
+18:00-18:59,1334,330,227,0
+19:00-19:59,1347,314,202,0
+20:00-20:59,1356,268,196,0
+21:00-21:59,1299,283,210,0
+22:00-22:59,1065,306,181,0
+23:00-23:59,1164,239,157,0
+Daily Pageviews Report
+Date,Pageviews,Total Visitor Stay Length,Average Visitor Stay Length
+Sat Jan 01 2005,156,10 hours 16 mins 38 secs,5 mins 24 secs
+Sun Jan 02 2005,137,5 hours 27 mins 36 secs,2 mins 39 secs
+Mon Jan 03 2005,250,6 hours 51 mins 5 secs,2 mins 11 secs
+Tue Jan 04 2005,313,9 hours 53 mins 3 secs,2 mins 48 secs
+Wed Jan 05 2005,279,11 hours 31 mins 6 secs,3 mins 25 secs
+Thu Jan 06 2005,331,9 hours 59 mins 22 secs,2 mins 51 secs
+Fri Jan 07 2005,326,8 hours 5 mins 1 secs,2 mins 24 secs
+Sat Jan 08 2005,158,5 hours 9 mins 50 secs,2 mins 1 secs
+Sun Jan 09 2005,118,4 hours 1 mins 22 secs,1 mins 56 secs
+Mon Jan 10 2005,246,4 hours 39 mins 45 secs,1 mins 40 secs
+Tue Jan 11 2005,248,9 hours 29 mins 25 secs,2 mins 57 secs
+Wed Jan 12 2005,316,10 hours 58 mins 35 secs,2 mins 53 secs
+Thu Jan 13 2005,239,6 hours 25 mins 59 secs,1 mins 52 secs
+Fri Jan 14 2005,333,5 hours 49 mins 1 secs,1 mins 34 secs
+Sat Jan 15 2005,239,7 hours 39 mins 36 secs,2 mins 47 secs
+Sun Jan 16 2005,188,5 hours 43 mins 34 secs,2 mins 12 secs
+Mon Jan 17 2005,216,3 hours 4 mins 19 secs,1 mins 0 secs
+Tue Jan 18 2005,261,5 hours 40 mins 59 secs,1 mins 20 secs
+Wed Jan 19 2005,380,20 hours 4 mins 33 secs,5 mins 34 secs
+Thu Jan 20 2005,655,17 hours 57 mins 2 secs,4 mins 55 secs
+Fri Jan 21 2005,207,4 hours 21 mins 58 secs,1 mins 34 secs
+Sat Jan 22 2005,206,9 hours 25 mins 6 secs,3 mins 52 secs
+Sun Jan 23 2005,142,4 hours 51 mins 40 secs,1 mins 55 secs
+Mon Jan 24 2005,263,6 hours 13 mins 54 secs,1 mins 58 secs
+Tue Jan 25 2005,325,8 hours 2 mins 55 secs,2 mins 8 secs
+Wed Jan 26 2005,319,5 hours 28 mins 35 secs,1 mins 38 secs
+Thu Jan 27 2005,274,4 hours 51 mins 22 secs,1 mins 27 secs
+Fri Jan 28 2005,235,6 hours 4 mins 23 secs,1 mins 55 secs
+Sat Jan 29 2005,189,5 hours 33 mins 43 secs,2 mins 12 secs
+Sun Jan 30 2005,164,5 hours 29 mins 28 secs,2 mins 5 secs
+Mon Jan 31 2005,226,8 hours 25 mins 32 secs,2 mins 21 secs
+
+
+Visitor Information
+Most Recent Visitors
+Rank#,IP address,Domain name,Country,Time of Last Access,Who owns this IP address
+1,129.6.54.214,Disabled,United States of America,31/Jan/2005:23:27:41,N/A
+2,66.196.90.61,Disabled,United States of America,31/Jan/2005:23:24:02,N/A
+3,66.196.90.103,Disabled,United States of America,31/Jan/2005:23:23:29,N/A
+4,67.125.29.194,Disabled,United States of America,31/Jan/2005:23:04:33,N/A
+5,12.147.194.2,Disabled,United States of America,31/Jan/2005:22:51:02,N/A
+6,221.186.146.26,Disabled,United States of America,31/Jan/2005:22:49:54,N/A
+7,66.147.154.3,Disabled,United States of America,31/Jan/2005:22:45:42,N/A
+8,192.132.64.2,Disabled,United States of America,31/Jan/2005:22:44:31,N/A
+9,195.219.22.42,Disabled,United Kingdom,31/Jan/2005:22:27:53,N/A
+10,129.6.54.214,Disabled,United States of America,31/Jan/2005:22:27:09,N/A
+Visitors who had the most hits on the web site
+Rank#,IP address,Domain name,Country,Total Hits,Who owns this IP address
+1,81.65.24.181,Disabled,the European Union,609,N/A
+2,129.6.13.210,Disabled,United States of America,596,N/A
+3,202.58.80.11,Disabled,United States of America,581,N/A
+4,66.147.154.3,Disabled,United States of America,559,N/A
+5,202.58.80.20,Disabled,United States of America,464,N/A
+6,65.54.188.72,Disabled,United States of America,456,N/A
+7,204.76.195.33,Disabled,United States of America,310,N/A
+8,129.119.111.9,Disabled,United States of America,264,N/A
+9,129.6.54.214,Disabled,United States of America,252,N/A
+10,209.220.233.21,Disabled,United States of America,233,N/A
+Visitors who used the most bandwidth
+Rank#,IP address,Domain name,Country,Bandwidth(Megabytes),Who owns this IP address
+1,4.4.55.6,Disabled,United States of America,0.00,N/A
+2,4.7.46.48,Disabled,United States of America,0.00,N/A
+3,4.10.163.52,Disabled,United States of America,0.00,N/A
+4,4.10.166.164,Disabled,United States of America,0.00,N/A
+5,4.13.160.177,Disabled,United States of America,0.00,N/A
+6,4.16.141.221,Disabled,United States of America,0.00,N/A
+7,4.16.255.153,Disabled,United States of America,0.00,N/A
+8,4.26.156.179,Disabled,United States of America,0.00,N/A
+9,4.26.173.144,Disabled,United States of America,0.00,N/A
+10,4.27.129.83,Disabled,United States of America,0.00,N/A
+Visitors who spent the most time on the web site
+Rank#,IP address,Domain name,Country,Visitor Stay Length,Who owns this IP address
+1,65.54.188.72,Disabled,United States of America,8 hours 34 mins 27 secs,N/A
+2,65.54.188.71,Disabled,United States of America,7 hours 15 mins 27 secs,N/A
+3,207.68.146.62,Disabled,United States of America,7 hours 8 mins 11 secs,N/A
+4,210.173.179.19,Disabled,Australia,6 hours 55 mins 36 secs,N/A
+5,64.124.85.192,Disabled,United States of America,6 hours 14 mins 13 secs,N/A
+6,209.237.238.180,Disabled,United States of America,5 hours 58 mins 26 secs,N/A
+7,209.237.238.176,Disabled,United States of America,5 hours 25 mins 21 secs,N/A
+8,66.163.170.166,Disabled,United States of America,3 hours 31 mins 35 secs,N/A
+9,65.54.188.74,Disabled,United States of America,3 hours 25 mins 37 secs,N/A
+10,64.242.88.10,Disabled,United States of America,2 hours 32 mins 17 secs,N/A
+Top Authenticated Visitors
+Rank#,User Name,Last Visit Time,Visits,PageViews,Stay Length,Bandwidth(Megabytes)
+1,Non Authenticated Visitors,31/Jan/2005:23:27:41,5727,7939,9 days 21 hours 36 mins 27 secs,0.00
+
+
+Visiting Spiders (Automated programs which search the Internet)
+Rank#,Spider,Hits
+1,Google.com/Googlebot,363
+2,ia_archiver,172
+
+
+Web pages and files statistics
+Most Popular Web Pages
+Rank#,Page,Hits,Incomplete requests,Data Transfered(KB)
+1,/index.html,2928,48,0
+2,/disk_imaging.htm,804,0,0
+3,/software_write_block.htm,480,0,0
+4,/documents.htm,368,0,0
+5,/project_overview.htm,355,0,0
+6,/hardware_write_block.htm,345,0,0
+7,/presentations.htm,319,0,0
+8,/Methodology_Overview.htm,317,0,0
+9,/contact.htm,201,0,0
+10,/testdocs.html,183,1,0
+11,/usage/index.html,156,0,0
+12,/,109,0,0
+13,/archived_documents.htm,81,0,0
+14,/itlbulletin.html,53,0,0
+15,/teststat.html,36,0,0
+16,/usage/2002_archive/index.html,32,0,0
+17,/usage/2003_archive/index.html,31,0,0
+18,/index_printable.htm,27,1,0
+19,/usage/2004_11/index.htm,25,0,0
+20,/usage/2004_01/index.htm,20,0,0
+21,/usage/2004_09/index.htm,19,0,0
+22,/usage/2004_06/index.htm,19,0,0
+23,/usage/2004_02/index.htm,18,0,0
+24,/usage/2004_07/index.htm,18,0,0
+25,/usage/2004_03/index.htm,18,0,0
+26,/usage/2004_08/index.htm,17,0,0
+27,/usage/2004_11/menu.htm,17,0,0
+28,/usage/2004_05/index.htm,17,0,0
+29,/usage/2004_04/index.htm,17,0,0
+30,/usage/2004_11/p0.htm,16,0,0
+31,/usage/2003_archive/2003_01/index.htm,15,0,0
+32,/documents/,15,0,0
+33,/usage/2003_archive/2003_06/index.htm,13,0,0
+34,/usage/2003_archive/2003_04/index.htm,13,0,0
+35,/usage/2003_archive/2003_09/index.htm,13,0,0
+36,/usage/2003_archive/2003_03/index.htm,13,0,0
+37,/usage/2002_archive/2002_12/index.htm,12,0,0
+38,/usage/2003_archive/2003_08/index.htm,12,0,0
+39,/usage/2003_archive/2003_05/index.htm,12,0,0
+40,/usage/2002_archive/2002_11/index.htm,12,0,0
+41,/usage/2003_archive/2003_07/index.htm,12,0,0
+42,/usage/2004_01/p0.htm,11,0,0
+43,/usage/2003_archive/2003_02/index.htm,11,0,0
+44,/usage/2003_archive/2003_10/index.htm,11,0,0
+45,/usage/2004_06/p0.htm,9,0,0
+46,/usage/2004_04/menu.htm,9,0,0
+47,/usage/2004_02/menu.htm,9,0,0
+48,/usage/2004_01/menu.htm,9,0,0
+49,/usage/2004_04/p0.htm,9,0,0
+50,/usage/2004_03/menu.htm,8,0,0
+51,/usage/2002_archive/2002_11/p0.htm,8,0,0
+52,/usage/2004_03/p0.htm,7,0,0
+53,/usage/2004_09/p0.htm,7,0,0
+54,/usage/2004_01/print.htm,7,0,0
+55,/usage/2004_02/p0.htm,7,0,0
+56,/usage/2004_08/p0.htm,7,0,0
+57,/usage/2004_05/p0.htm,7,0,0
+58,/usage/2004_08/menu.htm,7,0,0
+59,/usage/2004_05/menu.htm,7,0,0
+60,/usage/2004_09/menu.htm,7,0,0
+61,/usage/2004_07/p0.htm,7,0,0
+62,/usage/2004_06/menu.htm,7,0,0
+63,/usage/2004_06/print.htm,7,0,0
+64,/usage/2004_07/menu.htm,7,0,0
+65,/usage/2004_11/print.htm,7,0,0
+66,/usage/2002_archive/2002_12/p0.htm,6,0,0
+67,/usage/2003_archive/2003_01/p0.htm,6,0,0
+68,/usage/2004_05/print.htm,6,0,0
+69,/usage/2004_04/print.htm,6,0,0
+70,/usage/2002_archive/2002_11/print.htm,6,0,0
+71,/usage/2004_07/print.htm,6,0,0
+72,/usage/2003_archive/2003_07/print.htm,5,0,0
+73,/usage/2004_03/print.htm,5,0,0
+74,/usage/2002_archive/2002_11/menu.htm,5,0,0
+75,/usage/2004_08/print.htm,5,0,0
+76,/usage/2003_archive/2003_04/p0.htm,5,0,0
+77,/usage/2003_archive/2003_06/menu.htm,5,0,0
+78,/usage/2002_archive/2002_12/menu.htm,5,0,0
+79,/usage/2003_archive/2003_04/menu.htm,5,0,0
+80,/usage/2004_11/p3.htm,5,0,0
+81,/usage/2003_archive/2003_06/p0.htm,5,0,0
+82,/usage/2004_02/print.htm,5,0,0
+83,/usage/2003_archive/2003_10/print.htm,5,0,0
+84,/usage/2003_archive/2003_01/menu.htm,5,0,0
+85,/usage/2004_09/print.htm,5,0,0
+86,/usage/2003_02/p0.htm,5,0,0
+87,/usage/2004_11/p2.htm,5,0,0
+88,/usage/2004_11/p8.htm,5,0,0
+89,/usage/2003_archive/2003_09/print.htm,5,0,0
+90,/usage/2003_archive/2003_02/print.htm,4,0,0
+91,/usage/2003_archive/2003_02/p0.htm,4,0,0
+92,/usage/2003_archive/2003_03/print.htm,4,0,0
+93,/usage/2003_archive/2003_01/print.htm,4,0,0
+94,/usage/2004_11/p4.htm,4,0,0
+95,/usage/2003_archive/2003_02/menu.htm,4,0,0
+96,/usage/2003_archive/2003_10/menu.htm,4,0,0
+97,/usage/2003_archive/2003_10/p0.htm,4,0,0
+98,/usage/2003_archive/2003_09/p0.htm,4,0,0
+99,/usage/2003_archive/2003_09/menu.htm,4,0,0
+100,/usage/2004_11/p1.htm,4,0,0
+101,/usage/2003_archive/2003_05/menu.htm,4,0,0
+102,/usage/2003_archive/2003_07/menu.htm,4,0,0
+103,/usage/2004_11/p6.htm,4,0,0
+104,/usage/2003_archive/2003_07/p0.htm,4,0,0
+105,/usage/2003_archive/2003_05/p0.htm,4,0,0
+106,/usage/2004_11/p7.htm,4,0,0
+107,/usage/2003_archive/2003_08/print.htm,4,0,0
+108,/usage/2003_archive/2003_08/menu.htm,4,0,0
+109,/usage/2003_archive/2003_08/p0.htm,4,0,0
+110,/usage/,4,0,0
+111,/usage/2002_archive/2002_12/print.htm,4,0,0
+112,/usage/2003_04/p0.htm,3,0,0
+113,/usage/2003_archive/2003_01/p8.htm,3,0,0
+114,/usage/2003_archive/2003_06/print.htm,3,0,0
+115,/usage/2004_04/p7.htm,3,0,0
+116,/usage/2003_02/print.htm,3,0,0
+117,/usage/2003_08/p0.htm,3,0,0
+118,/usage/2004_09/p7.htm,3,0,0
+119,/usage/2003_03/print.htm,3,0,0
+120,/usage/2003_04/print.htm,3,0,0
+121,/usage/2003_archive/,3,0,0
+122,/usage/2003_archive/2003_03/p0.htm,3,0,0
+123,/usage/2003_archive/2003_03/menu.htm,3,0,0
+124,/usage/2004_07/p7.htm,3,0,0
+125,/usage/2003_archive/2003_04/print.htm,3,0,0
+126,/usage/2004_06/p7.htm,3,0,0
+127,/usage/2004_08/p7.htm,3,0,0
+128,/usage/2003_archive/2003_05/print.htm,3,0,0
+129,/usage/2004_05/p7.htm,3,0,0
+130,/usage/2003_07/p0.htm,3,0,0
+131,/usage/2002_archive/2002_11/p7.htm,3,0,0
+132,/usage/2004_11/p5.htm,3,0,0
+133,/usage/2002_archive/,3,0,0
+134,/usage/2002_archive/2002_11/p8.htm,3,0,0
+135,/usage/2003_archive/2003_10/p8.htm,2,0,0
+136,/usage/2004_05/p4.htm,2,0,0
+137,/usage/2004_05/p3.htm,2,0,0
+138,/usage/2004_05/p5.htm,2,0,0
+139,/usage/2004_05/p2.htm,2,0,0
+140,/usage/2004_05/p1.htm,2,0,0
+141,/usage/2004_05/p6.htm,2,0,0
+142,/usage/2003_archive/2003_10/p4.htm,2,0,0
+143,/usage/2003_archive/2003_10/p5.htm,2,0,0
+144,/usage/2003_archive/2003_10/p6.htm,2,0,0
+145,/usage/2003_archive/2003_10/p7.htm,2,0,0
+146,/usage/2003_archive/2003_10/p3.htm,2,0,0
+147,/usage/2004_06/p4.htm,2,0,0
+148,/usage/2004_06/p5.htm,2,0,0
+149,/usage/2004_06/p3.htm,2,0,0
+150,/usage/2004_06/p6.htm,2,0,0
+151,/usage/2004_06/p2.htm,2,0,0
+152,/usage/2004_06/p1.htm,2,0,0
+153,/usage/2004_06/p8.htm,2,0,0
+154,/usage/2004_05/p8.htm,2,0,0
+155,/usage/2004_06/,2,0,0
+156,/usage/2003_archive/2003_08/p6.htm,2,0,0
+157,/usage/2003_archive/2003_08/p5.htm,2,0,0
+158,/usage/2003_archive/2003_08/p7.htm,2,0,0
+159,/usage/2003_archive/2003_08/p4.htm,2,0,0
+160,/usage/2003_archive/2003_08/p3.htm,2,0,0
+161,/usage/2002_archive/2002_12/p5.htm,2,0,0
+162,/usage/2003_archive/2003_08/p8.htm,2,0,0
+163,/usage/2002_archive/2002_12/p6.htm,2,0,0
+164,/usage/2003_archive/2003_08/p2.htm,2,0,0
+165,/usage/2003_archive/2003_08/p1.htm,2,0,0
+166,/usage/2003_archive/2003_09/p8.htm,2,0,0
+167,/usage/2003_archive/2003_09/p7.htm,2,0,0
+168,/usage/2003_archive/2003_09/p6.htm,2,0,0
+169,/usage/2004_02/p7.htm,2,0,0
+170,/usage/2002_archive/2002_12/p8.htm,2,0,0
+171,/usage/2002_archive/2002_12/p7.htm,2,0,0
+172,/usage/2003_archive/2003_09/p5.htm,2,0,0
+173,/usage/2003_archive/2003_09/p4.htm,2,0,0
+174,/usage/2003_archive/2003_09/p3.htm,2,0,0
+175,/usage/2003_archive/2003_09/p1.htm,2,0,0
+176,/usage/2003_archive/2003_09/p2.htm,2,0,0
+177,/usage/2003_archive/2003_10/p2.htm,2,0,0
+178,/usage/2004_01/p7.htm,2,0,0
+179,/usage/2003_archive/2003_10/p1.htm,2,0,0
+180,/usage/2004_04/p8.htm,2,0,0
+181,/usage/2002_archive/2002_12/p2.htm,2,0,0
+182,/usage/2004_03/p7.htm,2,0,0
+183,/usage/2002_archive/2002_12/p3.htm,2,0,0
+184,/usage/2002_archive/2002_12/p1.htm,2,0,0
+185,/usage/2002_archive/2002_12/p4.htm,2,0,0
+186,/usage/2003_03/p0.htm,2,0,0
+187,/usage/2003_09/p0.htm,2,0,0
+188,/usage/2003_12/p0.htm,2,0,0
+189,/usage/2003_10/index.htm,2,0,0
+190,/usage/2003_archive/2003_01/p1.htm,2,0,0
+191,/usage/2003_archive/2003_01/p2.htm,2,0,0
+192,/usage/2003_archive/2003_01/p7.htm,2,0,0
+193,/usage/2003_archive/2003_01/p6.htm,2,0,0
+194,/usage/2003_archive/2003_01/p4.htm,2,0,0
+195,/usage/2003_archive/2003_01/p5.htm,2,0,0
+196,/usage/2003_06/print.htm,2,0,0
+197,/usage/2002_archive/2002_11/p2.htm,2,0,0
+198,/usage/2002_archive/2002_11/p3.htm,2,0,0
+199,/usage/2002_archive/2002_11/p5.htm,2,0,0
+200,/usage/2003_05/p0.htm,2,0,0
+Most Downloaded Files
+Rank#,File,Hits,Incomplete requests,Data Transfered(KB)
+1,/documents/SWB-STP-V3_1a.pdf,923,792,0
+2,/Pub-Draft-1-DDA-Require.pdf,577,207,0
+3,/documents/SafeBack+2.18+Procedures.pdf,495,389,0
+4,/documents/Atlanta.pdf,368,300,0
+5,/SWB-STP-V3.pdf,346,257,0
+6,/WB-spec-jan-07-1.pdf,336,108,0
+7,/DI-spec-3-1-6.doc,235,26,0
+8,/documents/CFTTandNRSLatMoscow.pdf,223,173,0
+9,/HWB-v2-post-19-may-04.pdf,222,86,0
+10,/setup_for_dd_tests.pdf,215,67,0
+11,/Test+Methodology+7.doc,200,5,0
+12,/EnCase-setup-procs.pdf,191,70,0
+13,/HWB-posted.pdf,183,74,0
+14,/documents/ieee-at-canavaral.pdf,147,101,0
+15,/fs-tst10.zip,135,36,0
+16,/SWB+test+procedures.pdf,128,49,0
+17,/documents/Atlanta-04.ppt,119,5,0
+18,/FreeBSDdd-setup-procs.pdf,118,19,0
+19,/Notes_on_dd_and_Odd_Sized_Disks4.doc,89,1,0
+20,/HWB-comments-on-v1.pdf,87,29,0
+21,/documents/Amalfi-04.ppt,80,2,0
+22,/WB-spec-assert-1-may-02.doc,78,5,0
+23,/fs-tst-1_0-update.zip,70,3,0
+24,/documents/comments-v3.0.pdf,52,11,0
+25,/fgcharter-5.doc,48,2,0
+26,/DI-spec-3-1-1.doc,36,0,0
+27,/DI-SPEC-COMMENTS-AND-RESPONSES-3.doc,35,1,0
+28,/WB-Spec-Jan-07-1.pdf,30,10,0
+29,/DI-SPEC-COMMENTS-AND-RESPONSES-5.doc,28,0,0
+30,/DI-SPEC-COMMENTS-AND-RESPONSES-6.doc,24,0,0
+31,/HWB-v2-post-19-May-04.pdf,24,6,0
+32,/Disk_Imaging_Specification_6.doc,22,0,0
+33,/Disk_Imaging_Specification_5.doc,22,0,0
+34,/DI-spec-3-1-5.doc,22,2,0
+35,/DI-spec-3-1-3.doc,20,0,0
+36,/Disk_Imaging_Specification_11.doc,19,0,0
+37,/DI-spec-3-0.doc,17,0,0
+38,/Notes_on_dd_and_Odd_Sized_Disks3.doc,10,0,0
+39,/techno2003/cftt-nsrl-techno.pdf,5,0,0
+40,/Fs-tst10.zip,5,1,0
+41,/Test%20Methodology%207.doc,4,0,0
+Most Popular Images
+Rank#,Image,Hits,Incomplete requests,Data Transfered(KB)
+1,/cftt_images/cftt.jpg,2163,22,0
+2,/background_4.gif,2117,4,0
+3,/cftt_images/CFTT_Banner_7.gif,2112,12,0
+4,/CFTT_Banner_7.gif,224,1,0
+5,/cftt.jpg,135,6,0
+6,/img4.gif,117,1,0
+7,/usage/2004_11/hits_daily.png,64,0,0
+8,/usage/2004_11/ac_daily.png,64,0,0
+9,/usage/cftt.jpg,64,0,0
+10,/usage/CFTT_Banner_4.gif,63,0,0
+11,/usage/background_4.gif,62,0,0
+12,/usage/2004_11/ftv2folderopen.gif,15,0,0
+13,/usage/2004_11/ftv2mnode.gif,11,0,0
+14,/usage/2004_11/ftv2vertline.gif,10,0,0
+15,/usage/2004_11/ftv2node.gif,10,0,0
+16,/usage/2004_11/ftv2lastnode.gif,10,0,0
+17,/usage/2004_11/ftv2doc.gif,10,0,0
+18,/usage/2004_11/ftv2folderclosed.gif,9,0,0
+19,/usage/2004_11/ftv2blank.gif,9,0,0
+20,/usage/2004_11/ftv2pnode.gif,9,0,0
+21,/usage/2004_11/ftv2plastnode.gif,9,0,0
+22,/usage/2004_11/ftv2mlastnode.gif,6,0,0
+23,/usage/2004_11/t10_file.png,5,0,0
+24,/usage/2004_11/t10_page.png,5,0,0
+25,/usage/2004_11/t10_dir.png,5,0,0
+26,/usage/2004_11/ref_domain.png,4,0,0
+27,/usage/2004_11/ref_url.png,4,0,0
+28,/usage/2004_01/ac_daily.png,4,0,0
+29,/usage/2002_archive/2002_11/t10_country.png,4,0,0
+30,/usage/2002_archive/2002_11/ftv2folderopen.gif,4,0,0
+31,/usage/2002_archive/2002_11/ac_daily.png,4,0,0
+32,/usage/2004_04/ftv2mnode.gif,3,0,0
+33,/usage/2002_archive/2002_12/hits_hourly.png,3,0,0
+34,/usage/2004_04/ftv2mlastnode.gif,3,0,0
+35,/usage/2004_04/ftv2folderopen.gif,3,0,0
+36,/usage/2004_05/ftv2folderopen.gif,3,0,0
+37,/usage/2002_archive/2002_12/hits_daily.png,3,0,0
+38,/usage/2004_04/t10_country.png,3,0,0
+39,/usage/2002_archive/2002_11/t10_dir.png,3,0,0
+40,/usage/2004_09/ftv2mnode.gif,3,0,0
+41,/usage/2002_archive/2002_11/ref_domain.png,3,0,0
+42,/usage/2002_archive/2002_11/ref_url.png,3,0,0
+43,/usage/2002_archive/2002_12/hits_weekly.png,3,0,0
+44,/usage/2004_03/ftv2folderopen.gif,3,0,0
+45,/usage/2004_09/ftv2folderopen.gif,3,0,0
+46,/usage/2003_archive/2003_01/ac_daily.png,3,0,0
+47,/usage/2004_09/t10_country.png,3,0,0
+48,/usage/2002_archive/2002_12/ac_hourly.png,3,0,0
+49,/usage/2002_archive/2002_12/ac_weekly.png,3,0,0
+50,/usage/2002_archive/2002_12/ac_daily.png,3,0,0
+51,/usage/2004_07/ac_daily.png,3,0,0
+52,/usage/2002_archive/2002_12/bw_hourly.png,3,0,0
+53,/usage/2004_07/ftv2mnode.gif,3,0,0
+54,/usage/2002_archive/2002_12/bw_daily.png,3,0,0
+55,/usage/2002_archive/2002_12/bw_weekly.png,3,0,0
+56,/usage/2004_05/ftv2mlastnode.gif,3,0,0
+57,/usage/2002_archive/2002_11/t10_page.png,3,0,0
+58,/usage/2002_archive/2002_11/t10_file.png,3,0,0
+59,/usage/2002_archive/2002_11/ua_os.png,3,0,0
+60,/usage/2004_08/ftv2mnode.gif,3,0,0
+61,/usage/2004_05/ftv2mnode.gif,3,0,0
+62,/usage/2002_archive/2002_11/ua_ua.png,3,0,0
+63,/usage/2004_06/ftv2folderopen.gif,3,0,0
+64,/usage/2004_08/ftv2folderopen.gif,3,0,0
+65,/usage/2002_archive/2002_12/ftv2folderopen.gif,3,0,0
+66,/usage/2004_07/ftv2folderopen.gif,3,0,0
+67,/usage/2004_11/bw_weekly.png,3,0,0
+68,/usage/2004_11/t10_country.png,3,0,0
+69,/usage/2002_archive/2002_12/ua_ua.png,3,0,0
+70,/usage/2004_11/se_w10.png,3,0,0
+71,/usage/2002_archive/2002_12/ua_os.png,3,0,0
+72,/usage/2004_11/bw_daily.png,3,0,0
+73,/usage/2004_11/bw_hourly.png,3,0,0
+74,/usage/2004_11/ac_weekly.png,3,0,0
+75,/usage/2002_archive/2002_12/pvs_daily.png,3,0,0
+76,/usage/2002_archive/2002_12/t10_page.png,3,0,0
+77,/usage/2004_11/se_e10.png,3,0,0
+78,/usage/2002_archive/2002_12/t10_dir.png,3,0,0
+79,/usage/2002_archive/2002_12/t10_country.png,3,0,0
+80,/usage/2004_11/se_p10.png,3,0,0
+81,/usage/2002_archive/2002_12/se_p10.png,3,0,0
+82,/usage/2002_archive/2002_12/ref_domain.png,3,0,0
+83,/usage/2002_archive/2002_12/t10_file.png,3,0,0
+84,/usage/2004_01/ftv2folderopen.gif,3,0,0
+85,/usage/2002_archive/2002_12/se_e10.png,3,0,0
+86,/usage/2002_archive/2002_12/ref_url.png,3,0,0
+87,/usage/2004_11/pvs_daily.png,3,0,0
+88,/usage/2004_11/hits_hourly.png,3,0,0
+89,/usage/2004_11/ac_hourly.png,3,0,0
+90,/usage/2002_archive/2002_12/se_w10.png,3,0,0
+91,/usage/2004_11/hits_weekly.png,3,0,0
+92,/usage/2002_archive/2002_11/ftv2mnode.gif,3,0,0
+93,/usage/2004_01/ftv2mnode.gif,3,0,0
+94,/usage/2002_archive/2002_12/ftv2mnode.gif,2,0,0
+95,/usage/2002_archive/2002_12/ftv2mlastnode.gif,2,0,0
+96,/usage/2004_05/ftv2doc.gif,2,0,0
+97,/usage/2004_05/ftv2blank.gif,2,0,0
+98,/usage/2004_05/ftv2folderclosed.gif,2,0,0
+99,/usage/2004_05/ftv2lastnode.gif,2,0,0
+100,/usage/2004_04/ua_os.png,2,0,0
+101,/usage/2004_05/ac_daily.png,2,0,0
+102,/usage/2004_04/ua_ua.png,2,0,0
+103,/usage/2002_archive/2002_12/ftv2node.gif,2,0,0
+104,/usage/2004_05/ftv2pnode.gif,2,0,0
+105,/usage/2004_05/ftv2plastnode.gif,2,0,0
+106,/usage/2004_05/ftv2vertline.gif,2,0,0
+107,/usage/2004_05/ftv2node.gif,2,0,0
+108,/usage/2004_01/ftv2node.gif,2,0,0
+109,/usage/2004_01/ftv2plastnode.gif,2,0,0
+110,/usage/2002_archive/2002_12/ftv2blank.gif,2,0,0
+111,/usage/2002_archive/2002_12/ftv2doc.gif,2,0,0
+112,/usage/2004_01/ftv2doc.gif,2,0,0
+113,/usage/2004_07/ftv2doc.gif,2,0,0
+114,/usage/2004_07/ftv2blank.gif,2,0,0
+115,/usage/2004_07/ftv2folderclosed.gif,2,0,0
+116,/usage/2004_01/ftv2lastnode.gif,2,0,0
+117,/usage/2004_01/ftv2blank.gif,2,0,0
+118,/usage/2004_06/t10_country.png,2,0,0
+119,/usage/2004_06/ac_daily.png,2,0,0
+120,/usage/2004_06/ftv2blank.gif,2,0,0
+121,/usage/2004_06/ftv2doc.gif,2,0,0
+122,/usage/2004_06/ftv2folderclosed.gif,2,0,0
+123,/usage/2002_archive/2002_12/ftv2lastnode.gif,2,0,0
+124,/usage/2004_05/t10_country.png,2,0,0
+125,/usage/2004_01/ftv2vertline.gif,2,0,0
+126,/usage/2002_archive/2002_12/ftv2folderclosed.gif,2,0,0
+127,/usage/2004_06/ftv2plastnode.gif,2,0,0
+128,/usage/2004_06/ftv2pnode.gif,2,0,0
+129,/usage/2004_06/ftv2node.gif,2,0,0
+130,/usage/2004_06/ftv2vertline.gif,2,0,0
+131,/usage/2004_01/ftv2pnode.gif,2,0,0
+132,/usage/2004_06/ftv2lastnode.gif,2,0,0
+133,/usage/2004_06/ftv2mnode.gif,2,0,0
+134,/usage/2004_06/ftv2mlastnode.gif,2,0,0
+135,/usage/2004_02/ftv2lastnode.gif,2,0,0
+136,/usage/2004_02/t10_country.png,2,0,0
+137,/usage/2004_03/ac_daily.png,2,0,0
+138,/usage/2004_02/ftv2blank.gif,2,0,0
+139,/usage/2004_03/ftv2lastnode.gif,2,0,0
+140,/usage/2004_02/ftv2doc.gif,2,0,0
+141,/usage/2004_03/ftv2mlastnode.gif,2,0,0
+142,/usage/2004_03/ftv2blank.gif,2,0,0
+143,/usage/2004_03/ftv2folderclosed.gif,2,0,0
+144,/usage/2004_03/ftv2doc.gif,2,0,0
+145,/usage/2004_03/ftv2mnode.gif,2,0,0
+146,/usage/2004_02/ftv2plastnode.gif,2,0,0
+147,/usage/2004_02/ftv2folderclosed.gif,2,0,0
+148,/usage/2004_02/ftv2mlastnode.gif,2,0,0
+149,/usage/2004_02/ftv2mnode.gif,2,0,0
+150,/usage/2004_02/ftv2folderopen.gif,2,0,0
+151,/usage/2004_02/ftv2node.gif,2,0,0
+152,/usage/2004_02/ftv2vertline.gif,2,0,0
+153,/usage/2004_02/ftv2pnode.gif,2,0,0
+154,/usage/2004_04/ftv2pnode.gif,2,0,0
+155,/usage/2004_04/ftv2vertline.gif,2,0,0
+156,/usage/2004_04/ftv2plastnode.gif,2,0,0
+157,/usage/2004_04/hits_daily.png,2,0,0
+158,/usage/2004_04/hits_hourly.png,2,0,0
+159,/usage/2004_04/ftv2folderclosed.gif,2,0,0
+160,/usage/2004_04/ftv2lastnode.gif,2,0,0
+161,/usage/2004_04/ftv2node.gif,2,0,0
+162,/usage/2004_04/ftv2doc.gif,2,0,0
+163,/usage/2004_04/ref_domain.png,2,0,0
+164,/usage/2004_04/ref_url.png,2,0,0
+165,/usage/2004_04/pvs_daily.png,2,0,0
+166,/usage/2002_archive/2002_12/ftv2plastnode.gif,2,0,0
+167,/usage/2004_04/hits_weekly.png,2,0,0
+168,/usage/2002_archive/2002_12/ftv2vertline.gif,2,0,0
+169,/usage/2002_archive/2002_12/ftv2pnode.gif,2,0,0
+170,/usage/2004_03/ftv2node.gif,2,0,0
+171,/usage/2004_02/ac_daily.png,2,0,0
+172,/usage/2004_03/ftv2plastnode.gif,2,0,0
+173,/usage/2004_03/ftv2pnode.gif,2,0,0
+174,/usage/2004_03/ftv2vertline.gif,2,0,0
+175,/usage/2004_04/bw_weekly.png,2,0,0
+176,/usage/2004_04/ftv2blank.gif,2,0,0
+177,/usage/2004_04/bw_hourly.png,2,0,0
+178,/usage/2004_01/t10_country.png,2,0,0
+179,/usage/2004_03/t10_country.png,2,0,0
+180,/usage/2004_04/ac_daily.png,2,0,0
+181,/usage/2004_04/bw_daily.png,2,0,0
+182,/usage/2004_04/ac_weekly.png,2,0,0
+183,/usage/2004_01/ftv2folderclosed.gif,2,0,0
+184,/usage/2003_archive/2003_01/ftv2doc.gif,2,0,0
+185,/usage/2003_archive/2003_01/ftv2blank.gif,2,0,0
+186,/usage/2003_archive/2003_01/ftv2folderclosed.gif,2,0,0
+187,/usage/2003_archive/2003_01/ftv2folderopen.gif,2,0,0
+188,/usage/2003_archive/2003_01/bw_hourly.png,2,0,0
+189,/usage/2003_archive/2003_01/bw_weekly.png,2,0,0
+190,/usage/2003_archive/2003_01/bw_daily.png,2,0,0
+191,/usage/2003_archive/2003_01/ftv2plastnode.gif,2,0,0
+192,/usage/2003_archive/2003_01/ftv2node.gif,2,0,0
+193,/usage/2003_archive/2003_01/ftv2pnode.gif,2,0,0
+194,/usage/2003_archive/2003_01/ftv2lastnode.gif,2,0,0
+195,/usage/2003_archive/2003_01/ftv2mlastnode.gif,2,0,0
+196,/usage/2003_archive/2003_01/ftv2mnode.gif,2,0,0
+197,/usage/2003_archive/2003_01/ftv2vertline.gif,2,0,0
+198,/usage/2004_09/ftv2pnode.gif,2,0,0
+199,/usage/2004_09/ftv2vertline.gif,2,0,0
+200,/usage/2004_09/ftv2plastnode.gif,2,0,0
+Most Popular Directories
+Rank#,Directory,Hits,Data Transfered(KB)
+1,/,12777,0
+2,/cftt_images/,4275,0
+3,/documents/,2422,0
+4,/usage/2004_11/,416,0
+5,/usage/,349,0
+6,/usage/2002_archive/2002_11/,144,0
+7,/usage/2004_09/,135,0
+8,/usage/2002_archive/2002_12/,134,0
+9,/usage/2004_04/,125,0
+10,/usage/2004_06/,117,0
+11,/usage/2003_archive/2003_01/,117,0
+12,/usage/2004_08/,117,0
+13,/usage/2004_01/,115,0
+14,/usage/2004_07/,115,0
+15,/usage/2004_05/,113,0
+16,/usage/2004_02/,110,0
+17,/usage/2004_03/,109,0
+18,/usage/2003_archive/2003_10/,84,0
+19,/usage/2003_archive/2003_09/,84,0
+20,/usage/2003_archive/2003_02/,84,0
+21,/usage/2003_archive/2003_08/,81,0
+22,/usage/2003_archive/2003_04/,74,0
+23,/usage/2003_archive/2003_07/,74,0
+24,/usage/2003_archive/2003_06/,71,0
+25,/usage/2003_archive/2003_03/,69,0
+26,/usage/2003_archive/2003_05/,53,0
+27,/usage/2002_archive/,35,0
+28,/usage/2003_archive/,34,0
+29,/usage/2003_08/,31,0
+30,/usage/2003_07/,28,0
+31,/usage/2003_04/,27,0
+32,/usage/2003_03/,26,0
+33,/usage/2003_06/,25,0
+34,/usage/2003_02/,10,0
+35,/usage/2003_09/,6,0
+36,/usage/2003_05/,6,0
+37,/techno2003/,5,0
+38,/usage/2003_12/,4,0
+39,/usage/2003_10/,3,0
+40,/usage/2002_12/,2,0
+41,/usage/2002_11/,1,0
+42,/usage/2003_11/,1,0
+43,/usage/2003_01/,1,0
+Top Entry Pages and Files
+Rank#,Page/File,Count
+1,/index.html,2274
+2,/disk_imaging.htm,241
+3,/testdocs.html,153
+4,/software_write_block.htm,95
+5,/documents.htm,64
+6,/hardware_write_block.htm,53
+7,/Methodology_Overview.htm,51
+8,/,40
+9,/project_overview.htm,34
+10,/contact.htm,29
+11,/archived_documents.htm,24
+12,/presentations.htm,23
+13,/itlbulletin.html,19
+14,/index_printable.htm,15
+15,/teststat.html,14
+16,/usage/index.html,13
+17,/documents/,12
+18,/usage/2004_09/index.htm,8
+19,/usage/2003_06/p0.htm,6
+20,/usage/2002_archive/index.html,5
+21,/usage/2003_02/p0.htm,4
+22,/usage/2003_archive/index.html,4
+23,/usage/2003_archive/2003_10/p2.htm,4
+24,/usage/2004_01/index.htm,4
+25,/usage/,4
+26,/usage/2004_11/p0.htm,4
+27,/usage/2002_archive/2002_11/print.htm,4
+28,/usage/2004_02/menu.htm,3
+29,/usage/2004_02/index.htm,3
+30,/usage/2003_07/p0.htm,3
+31,/usage/2003_archive/,3
+32,/usage/2003_08/p0.htm,3
+33,/usage/2003_archive/2003_01/index.htm,3
+34,/usage/2004_04/menu.htm,3
+35,/usage/2004_07/index.htm,3
+36,/usage/2003_04/p0.htm,3
+37,/usage/2004_04/index.htm,3
+38,/usage/2003_archive/2003_10/p0.htm,2
+39,/usage/2004_08/index.htm,2
+40,/usage/2004_11/print.htm,2
+41,/usage/2003_archive/2003_10/index.htm,2
+42,/usage/2003_archive/2003_09/index.htm,2
+43,/usage/2004_03/menu.htm,2
+44,/usage/2004_02/p0.htm,2
+45,/usage/2004_06/,2
+46,/usage/2004_01/p0.htm,2
+47,/usage/2004_06/index.htm,2
+48,/usage/2002_archive/,2
+49,/usage/2003_05/p0.htm,2
+50,/usage/2003_03/p0.htm,2
+51,/usage/2003_08/index.htm,2
+52,/usage/2003_03/print.htm,2
+53,/usage/2003_09/p0.htm,2
+54,/usage/2002_archive/2002_11/p0.htm,2
+55,/usage/2003_05/print.htm,1
+56,/usage/2004_06/p3.htm,1
+57,/usage/2004_06/p0.htm,1
+58,/usage/2004_06/p8.htm,1
+59,/usage/2004_05/p0.htm,1
+60,/usage/2004_05/p1.htm,1
+61,/usage/2004_05/p7.htm,1
+62,/usage/2004_06/menu.htm,1
+63,/usage/2003_05/,1
+64,/usage/2004_05/index.htm,1
+65,/usage/2003_06/print.htm,1
+66,/usage/2004_11/menu.htm,1
+67,/usage/2002_archive/2002_12/p0.htm,1
+68,/usage/2004_11/index.htm,1
+69,/usage/2004_09/p7.htm,1
+70,/usage/2002_archive/2002_12/menu.htm,1
+71,/usage/2004_11/p1.htm,1
+72,/usage/2004_07/,1
+73,/usage/2004_07/p5.htm,1
+74,/usage/2004_08/p7.htm,1
+75,/usage/2004_07/p0.htm,1
+76,/usage/2004_09/menu.htm,1
+77,/usage/2003_02/print.htm,1
+78,/usage/2004_08/print.htm,1
+79,/usage/2003_archive/2003_01/print.htm,1
+80,/usage/2003_archive/2003_05/p0.htm,1
+81,/usage/2003_archive/2003_06/index.htm,1
+82,/usage/2003_archive/2003_05/,1
+83,/usage/2003_archive/2003_04/print.htm,1
+84,/usage/2003_archive/2003_08/index.htm,1
+85,/usage/2003_archive/2003_06/p0.htm,1
+86,/usage/2003_archive/2003_07/index.htm,1
+87,/usage/2003_12/p0.htm,1
+88,/usage/2003_archive/2003_02/p0.htm,1
+89,/usage/2003_archive/2003_03/,1
+90,/usage/2003_archive/2003_02/menu.htm,1
+91,/usage/2003_archive/2003_04/index.htm,1
+92,/usage/2003_archive/2003_03/print.htm,1
+93,/usage/2003_archive/2003_03/index.htm,1
+94,/usage/2004_03/p0.htm,1
+95,/usage/2003_08/menu.htm,1
+96,/usage/2003_07/print.htm,1
+97,/usage/2004_01/print.htm,1
+98,/usage/2003_08/print.htm,1
+99,/usage/2003_07/index.htm,1
+100,/usage/2004_03/index.htm,1
+101,/usage/2003_12/,1
+102,/usage/2003_archive/2003_10/p5.htm,1
+103,/usage/2003_archive/2003_10/print.htm,1
+104,/usage/2003_10/index.htm,1
+105,/usage/2004_01/menu.htm,1
+106,/usage/2003_09/,1
+107,/usage/2003_09/index.htm,1
+Top Exit Pages and Files
+Rank#,Page/File,Count
+1,/index.html,1638
+2,/disk_imaging.htm,421
+3,/software_write_block.htm,174
+4,/testdocs.html,153
+5,/documents.htm,139
+6,/hardware_write_block.htm,118
+7,/usage/index.html,97
+8,/Methodology_Overview.htm,73
+9,/project_overview.htm,71
+10,/presentations.htm,70
+11,/,47
+12,/contact.htm,36
+13,/archived_documents.htm,29
+14,/itlbulletin.html,22
+15,/documents/,18
+16,/index_printable.htm,18
+17,/teststat.html,16
+18,/usage/2002_archive/index.html,11
+19,/usage/2004_03/index.htm,8
+20,/usage/2003_archive/index.html,7
+21,/usage/2004_11/p0.htm,6
+22,/usage/2003_06/p0.htm,6
+23,/usage/2003_02/p0.htm,4
+24,/usage/2004_01/p0.htm,4
+25,/usage/2003_archive/2003_09/p6.htm,4
+26,/usage/2004_01/index.htm,4
+27,/usage/2003_archive/2003_01/index.htm,3
+28,/usage/2003_04/p0.htm,3
+29,/usage/2003_08/p0.htm,3
+30,/usage/2003_07/p0.htm,3
+31,/usage/2004_07/print.htm,3
+32,/usage/2004_11/index.htm,3
+33,/usage/2003_09/p0.htm,2
+34,/usage/2004_07/p0.htm,2
+35,/usage/2004_07/index.htm,2
+36,/usage/2003_archive/2003_10/p0.htm,2
+37,/usage/2004_06/,2
+38,/usage/2003_archive/2003_02/print.htm,2
+39,/usage/2004_01/menu.htm,2
+40,/usage/2003_archive/2003_03/index.htm,2
+41,/usage/2004_06/index.htm,2
+42,/usage/2003_12/p0.htm,2
+43,/usage/2004_06/p0.htm,2
+44,/usage/2004_05/index.htm,2
+45,/usage/2004_11/menu.htm,2
+46,/usage/2004_03/menu.htm,2
+47,/usage/2003_03/p0.htm,2
+48,/usage/2003_03/print.htm,2
+49,/usage/2002_archive/2002_11/index.htm,2
+50,/usage/2002_archive/2002_11/print.htm,2
+51,/usage/2004_11/print.htm,2
+52,/usage/2004_08/index.htm,2
+53,/usage/2003_08/index.htm,2
+54,/usage/2004_08/p0.htm,2
+55,/usage/2003_08/menu.htm,2
+56,/usage/2004_02/p0.htm,2
+57,/usage/2004_02/menu.htm,2
+58,/usage/2003_05/p0.htm,2
+59,/usage/2004_04/menu.htm,1
+60,/usage/2004_04/p0.htm,1
+61,/usage/2004_03/p5.htm,1
+62,/usage/2004_04/index.htm,1
+63,/usage/2004_03/print.htm,1
+64,/usage/2004_03/p0.htm,1
+65,/usage/2004_09/index.htm,1
+66,/usage/2004_09/menu.htm,1
+67,/usage/2004_08/print.htm,1
+68,/usage/2004_07/p4.htm,1
+69,/usage/2004_11/p6.htm,1
+70,/usage/2004_09/p6.htm,1
+71,/usage/2004_11/p3.htm,1
+72,/usage/2004_04/p8.htm,1
+73,/usage/2004_05/menu.htm,1
+74,/usage/2004_05/p6.htm,1
+75,/usage/2004_04/print.htm,1
+76,/usage/2004_07/,1
+77,/usage/2004_06/p7.htm,1
+78,/usage/2004_06/p2.htm,1
+79,/documents,1
+80,/usage/2003_07/index.htm,1
+81,/usage/2003_06/print.htm,1
+82,/usage/2003_07/print.htm,1
+83,/usage/2003_05/print.htm,1
+84,/usage/2003_05/,1
+85,/usage/2003_09/index.htm,1
+86,/usage/2003_08/print.htm,1
+87,/usage/2003_09/,1
+88,/usage/2003_10/index.htm,1
+89,/usage/2002_archive/2002_11/p0.htm,1
+90,/usage/2002_archive/2002_12/index.htm,1
+91,/usage/2002_archive/2002_11/menu.htm,1
+92,/usage/2003_02/print.htm,1
+93,/usage/2002_archive/2002_12/print.htm,1
+94,/usage/2002_archive/2002_12/menu.htm,1
+95,/usage/2002_archive/2002_12/p0.htm,1
+96,/usage/2004_02/index.htm,1
+97,/usage/2003_archive/2003_08/print.htm,1
+98,/usage/2003_archive/2003_08/index.htm,1
+99,/usage/2003_archive/2003_09/index.htm,1
+100,/usage/2003_archive/2003_07/p0.htm,1
+101,/usage/2003_archive/2003_06/print.htm,1
+102,/usage/2004_01/print.htm,1
+103,/usage/2003_archive/2003_10/index.htm,1
+104,/usage/2003_archive/2003_10/menu.htm,1
+105,/usage/2003_12/,1
+106,/usage/2003_archive/2003_03/,1
+107,/usage/2003_archive/2003_04/index.htm,1
+108,/usage/2003_archive/2003_01/menu.htm,1
+109,/usage/2003_archive/2003_06/menu.htm,1
+110,/usage/2003_archive/2003_05/index.htm,1
+111,/usage/2003_archive/2003_04/p0.htm,1
+112,/usage/2003_archive/2003_05/,1
+Most Path Throughs
+Rank#,Path,Count,Percentage
+1,/index.html,1534,57.03%
+2,/disk_imaging.htm,203,7.55%
+3,/testdocs.html,141,5.24%
+4,/index.html->/disk_imaging.htm,119,4.42%
+5,/software_write_block.htm,71,2.64%
+6,/documents.htm,55,2.04%
+7,/hardware_write_block.htm,41,1.52%
+8,/index.html->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/contact.htm->/disk_imaging.htm->/software_write_block.htm->/hardware_write_block.htm->/documents.htm->/usage/index.html,40,1.49%
+9,/index.html->/software_write_block.htm,40,1.49%
+10,/,38,1.41%
+11,/index.html->/project_overview.htm->/disk_imaging.htm,32,1.19%
+12,/index.html->/project_overview.htm,27,1.00%
+13,/Methodology_Overview.htm,24,0.89%
+14,/index.html->/documents.htm,21,0.78%
+15,/archived_documents.htm,20,0.74%
+16,/index.html->/software_write_block.htm->/disk_imaging.htm,19,0.71%
+17,/presentations.htm,16,0.59%
+18,/index.html->/disk_imaging.htm->/documents.htm,16,0.59%
+19,/index.html->/hardware_write_block.htm,16,0.59%
+20,/itlbulletin.html,15,0.56%
+21,/index_printable.htm,15,0.56%
+22,/project_overview.htm,15,0.56%
+23,/disk_imaging.htm->/index.html,14,0.52%
+24,/software_write_block.htm->/disk_imaging.htm->/documents.htm->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/contact.htm->/hardware_write_block.htm->/usage/index.html,14,0.52%
+25,/index.html->/disk_imaging.htm->/software_write_block.htm,13,0.48%
+26,/index.html->/presentations.htm,13,0.48%
+27,/index.html->/Methodology_Overview.htm,13,0.48%
+28,/contact.htm->/hardware_write_block.htm,11,0.41%
+29,/index.html->/disk_imaging.htm->/documents.htm->/Methodology_Overview.htm,10,0.37%
+30,/index.html->/disk_imaging.htm->/index.html,10,0.37%
+31,/teststat.html,10,0.37%
+32,/documents/,9,0.33%
+33,/index.html->/software_write_block.htm->/disk_imaging.htm->/documents.htm->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/contact.htm->/hardware_write_block.htm->/usage/index.html,9,0.33%
+34,/index.html->/disk_imaging.htm->/software_write_block.htm->/disk_imaging.htm->/index.html->/disk_imaging.htm->/index.html,9,0.33%
+35,/Methodology_Overview.htm->/contact.htm->/disk_imaging.htm->/documents.htm->/hardware_write_block.htm->/presentations.htm->/project_overview.htm->/software_write_block.htm,9,0.33%
+36,/index.html->/presentations.htm->/disk_imaging.htm->/software_write_block.htm,9,0.33%
+37,/hardware_write_block.htm->/contact.htm,9,0.33%
+38,/contact.htm,9,0.33%
+39,/index.html->/software_write_block.htm->/hardware_write_block.htm,9,0.33%
+40,/index.html->/software_write_block.htm->/hardware_write_block.htm->/software_write_block.htm->/documents.htm->/disk_imaging.htm->/software_write_block.htm->/archived_documents.htm->/index.html->/software_write_block.htm->/hardware_write_block.htm,8,0.30%
+41,/index.html->/project_overview.htm->/Methodology_Overview.htm,7,0.26%
+42,/usage/2004_09/index.htm->/usage/2003_archive/index.html->/usage/2004_03/index.htm,7,0.26%
+43,/index.html->/disk_imaging.htm->/software_write_block.htm->/documents.htm,7,0.26%
+44,/usage/index.html,7,0.26%
+45,/index.html->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm,7,0.26%
+46,/index.html->/presentations.htm->/Methodology_Overview.htm,7,0.26%
+47,/index.html->/presentations.htm->/documents/,6,0.22%
+48,/index.html->/software_write_block.htm->/documents.htm,6,0.22%
+49,/index.html->/disk_imaging.htm->/software_write_block.htm->/hardware_write_block.htm->/documents.htm,6,0.22%
+50,/Methodology_Overview.htm->/contact.htm->/disk_imaging.htm->/documents.htm->/hardware_write_block.htm->/presentations.htm->/project_overview.htm->/software_write_block.htm->/usage/index.html,6,0.22%
+51,/index.html->/contact.htm->/index.html->/presentations.htm,6,0.22%
+52,/usage/2003_06/p0.htm,6,0.22%
+53,/index.html->/presentations.htm->/index.html,6,0.22%
+54,/index.html->/teststat.html->/testdocs.html,5,0.19%
+55,/index.html->/project_overview.htm->/index.html,5,0.19%
+56,/index.html->/software_write_block.htm->/index.html,5,0.19%
+57,/index.html->/presentations.htm->/disk_imaging.htm,5,0.19%
+58,/usage/2003_02/p0.htm,4,0.15%
+59,/index.html->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/disk_imaging.htm->/software_write_block.htm,4,0.15%
+60,/Methodology_Overview.htm->/hardware_write_block.htm,4,0.15%
+61,/index.html->/disk_imaging.htm->/software_write_block.htm->/hardware_write_block.htm,4,0.15%
+62,/usage/2004_11/p0.htm,4,0.15%
+63,/usage/->/usage/index.html,4,0.15%
+64,/usage/2002_archive/index.html,4,0.15%
+65,/usage/2003_archive/2003_10/p2.htm->/usage/2003_archive/2003_10/p1.htm->/usage/2003_archive/2003_09/p8.htm->/usage/2003_archive/2003_09/p7.htm->/usage/2003_archive/2003_09/p4.htm->/usage/2003_archive/2003_09/p5.htm->/usage/2003_archive/2003_09/print.htm->/usage/2003_archive/2003_09/p6.htm,4,0.15%
+66,/index.html->/disk_imaging.htm->/hardware_write_block.htm,4,0.15%
+67,/index.html->/Methodology_Overview.htm->/presentations.htm,3,0.11%
+68,/Methodology_Overview.htm->/contact.htm->/disk_imaging.htm->/hardware_write_block.htm->/presentations.htm->/project_overview.htm->/software_write_block.htm,3,0.11%
+69,/usage/2003_08/p0.htm,3,0.11%
+70,/index.html->/disk_imaging.htm->/presentations.htm,3,0.11%
+71,/software_write_block.htm->/hardware_write_block.htm,3,0.11%
+72,/usage/2003_archive/index.html,3,0.11%
+73,/index.html->/contact.htm,3,0.11%
+74,/index.html->/testdocs.html,3,0.11%
+75,/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/contact.htm->/disk_imaging.htm->/software_write_block.htm->/hardware_write_block.htm->/documents.htm->/usage/index.html,3,0.11%
+76,/index.html->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/disk_imaging.htm,3,0.11%
+77,/index.html->/usage/index.html,3,0.11%
+78,/teststat.html->/testdocs.html,3,0.11%
+79,/usage/2003_07/p0.htm,3,0.11%
+80,/index.html->/software_write_block.htm->/documents.htm->/disk_imaging.htm->/project_overview.htm->/Methodology_Overview.htm->/usage/index.html->/project_overview.htm->/disk_imaging.htm->/documents.htm->/software_write_block.htm->/index.html,3,0.11%
+81,/disk_imaging.htm->/software_write_block.htm,3,0.11%
+82,/project_overview.htm->/hardware_write_block.htm,3,0.11%
+83,/usage/2003_04/p0.htm,3,0.11%
+84,/index.html->/Methodology_Overview.htm->/disk_imaging.htm,3,0.11%
+85,/index.html->/project_overview.htm->/Methodology_Overview.htm->/presentations.htm->/contact.htm->/disk_imaging.htm,3,0.11%
+86,/usage/2003_archive/->/usage/2003_archive/index.html,3,0.11%
+87,/usage/2004_04/menu.htm->/usage/index.html,2,0.07%
+88,/index.html->/project_overview.htm->/presentations.htm->/disk_imaging.htm,2,0.07%
+89,/usage/2002_archive/->/usage/2002_archive/index.html,2,0.07%
+90,/usage/2004_01/p0.htm,2,0.07%
+91,/documents.htm->/index_printable.htm,2,0.07%
+92,/disk_imaging.htm->/project_overview.htm,2,0.07%
+93,/presentations.htm->/contact.htm,2,0.07%
+94,/testdocs.html->/,2,0.07%
+95,/project_overview.htm->/disk_imaging.htm,2,0.07%
+96,/testdocs.html->/teststat.html,2,0.07%
+97,/testdocs.html->/index.html,2,0.07%
+98,/usage/2004_07/index.htm,2,0.07%
+99,/project_overview.htm->/Methodology_Overview.htm,2,0.07%
+100,/presentations.htm->/disk_imaging.htm,2,0.07%
+101,/index.html->/hardware_write_block.htm->/software_write_block.htm,2,0.07%
+102,/index.html->/hardware_write_block.htm->/disk_imaging.htm,2,0.07%
+103,/usage/2003_archive/2003_01/index.htm,2,0.07%
+104,/contact.htm->/index.html,2,0.07%
+105,/index.html->/Methodology_Overview.htm->/project_overview.htm->/software_write_block.htm,2,0.07%
+106,/project_overview.htm->/Methodology_Overview.htm->/disk_imaging.htm,2,0.07%
+107,/documents.htm->/project_overview.htm->/hardware_write_block.htm->/index.html,2,0.07%
+108,/index.html->/hardware_write_block.htm->/index.html,2,0.07%
+109,/usage/2004_01/index.htm,2,0.07%
+110,/index.html->/disk_imaging.htm->/software_write_block.htm->/hardware_write_block.htm->/index.html,2,0.07%
+111,/usage/2003_09/p0.htm,2,0.07%
+112,/usage/2002_archive/2002_11/print.htm,2,0.07%
+113,/usage/2003_03/p0.htm,2,0.07%
+114,/usage/2003_08/index.htm,2,0.07%
+115,/usage/2003_05/p0.htm,2,0.07%
+116,/index.html->/documents.htm->/index.html,2,0.07%
+117,/index.html->/software_write_block.htm->/presentations.htm->/disk_imaging.htm,2,0.07%
+118,/index.html->/documents.htm->/disk_imaging.htm,2,0.07%
+119,/index.html->/documents.htm->/project_overview.htm,2,0.07%
+120,/usage/2004_06/,2,0.07%
+121,/usage/2003_archive/2003_10/p0.htm,2,0.07%
+122,/index.html->/documents.htm->/project_overview.htm->/presentations.htm,2,0.07%
+123,/index.html->/documents.htm->/presentations.htm->/project_overview.htm,2,0.07%
+124,/usage/2004_02/index.htm->/usage/2004_01/index.htm,2,0.07%
+125,/index.html->/project_overview.htm->/presentations.htm,2,0.07%
+126,/index.html->/hardware_write_block.htm->/software_write_block.htm->/disk_imaging.htm,2,0.07%
+127,/usage/2004_02/p0.htm,2,0.07%
+128,/index.html->/project_overview.htm->/software_write_block.htm,2,0.07%
+129,/usage/2004_03/menu.htm,2,0.07%
+130,/usage/2004_02/menu.htm,2,0.07%
+131,/index.html->/disk_imaging.htm->/software_write_block.htm->/index.html,2,0.07%
+132,/usage/2002_archive/2002_11/print.htm->/usage/2003_archive/2003_02/print.htm,2,0.07%
+133,/usage/2004_06/index.htm,2,0.07%
+134,/usage/2003_03/print.htm,2,0.07%
+135,/index.html->/software_write_block.htm->/archived_documents.htm,1,0.04%
+136,/index.html->/disk_imaging.htm->/,1,0.04%
+137,/index.html->/documents.htm->/presentations.htm,1,0.04%
+138,/index.html->/disk_imaging.htm->/documents/,1,0.04%
+139,/index.html->/disk_imaging.htm->/project_overview.htm,1,0.04%
+140,/software_write_block.htm->/index.html->/contact.htm,1,0.04%
+141,/documents.htm->/software_write_block.htm->/disk_imaging.htm,1,0.04%
+142,/software_write_block.htm->/documents.htm->/,1,0.04%
+143,/software_write_block.htm->/hardware_write_block.htm->/index.html,1,0.04%
+144,/disk_imaging.htm->/Methodology_Overview.htm->/disk_imaging.htm,1,0.04%
+145,/disk_imaging.htm->/->/project_overview.htm,1,0.04%
+146,/disk_imaging.htm->/Methodology_Overview.htm->/,1,0.04%
+147,/disk_imaging.htm->/hardware_write_block.htm->/,1,0.04%
+148,/contact.htm->/hardware_write_block.htm->/archived_documents.htm,1,0.04%
+149,/usage/2003_archive/2003_04/index.htm->/usage/2003_archive/2003_05/index.htm->/usage/2002_archive/2002_11/index.htm,1,0.04%
+150,/hardware_write_block.htm->/contact.htm->/archived_documents.htm,1,0.04%
+151,/software_write_block.htm->/project_overview.htm->/hardware_write_block.htm,1,0.04%
+152,/usage/2004_01/index.htm->/Methodology_Overview.htm->/index.html,1,0.04%
+153,/usage/2003_archive/2003_07/index.htm->/usage/2003_archive/2003_02/index.htm->/usage/2004_06/p0.htm,1,0.04%
+154,/index.html->/software_write_block.htm->/project_overview.htm,1,0.04%
+155,/index.html->/hardware_write_block.htm->/project_overview.htm,1,0.04%
+156,/index.html->/contact.htm->/hardware_write_block.htm,1,0.04%
+157,/index.html->/testdocs.html->/index.html,1,0.04%
+158,/index.html->/project_overview.htm->/documents.htm,1,0.04%
+159,/index.html->/usage/index.html->/presentations.htm,1,0.04%
+160,/index.html->/contact.htm->/index.html,1,0.04%
+161,/disk_imaging.htm->/documents.htm->/software_write_block.htm,1,0.04%
+162,/disk_imaging.htm->/index.html->/hardware_write_block.htm,1,0.04%
+163,/archived_documents.htm->/index.html->/itlbulletin.html,1,0.04%
+164,/disk_imaging.htm->/archived_documents.htm->/documents.htm,1,0.04%
+165,/index.html->/Methodology_Overview.htm->/index.html,1,0.04%
+166,/index.html->/Methodology_Overview.htm->/hardware_write_block.htm,1,0.04%
+167,/index.html->/Methodology_Overview.htm->/project_overview.htm,1,0.04%
+168,/testdocs.html->/->/itlbulletin.html,1,0.04%
+169,/usage/2003_12/p0.htm,1,0.04%
+170,/usage/2003_08/menu.htm,1,0.04%
+171,/usage/2003_08/print.htm,1,0.04%
+172,/usage/2003_09/,1,0.04%
+173,/usage/2003_10/index.htm,1,0.04%
+174,/usage/2003_02/print.htm,1,0.04%
+175,/usage/2003_05/print.htm,1,0.04%
+176,/usage/2003_07/print.htm,1,0.04%
+177,/usage/2003_06/print.htm,1,0.04%
+178,/usage/2002_archive/2002_11/p0.htm,1,0.04%
+179,/usage/2003_12/,1,0.04%
+180,/usage/2003_09/index.htm,1,0.04%
+181,/usage/2003_archive/2003_03/,1,0.04%
+182,/usage/2004_07/index.htm->/usage/2004_11/index.htm,1,0.04%
+183,/usage/2004_07/,1,0.04%
+184,/usage/2003_archive/2003_05/,1,0.04%
+185,/usage/2003_07/index.htm,1,0.04%
+186,/usage/2003_05/,1,0.04%
+187,/index.html->/archived_documents.htm,1,0.04%
+188,/usage/2004_06/p0.htm,1,0.04%
+189,/usage/2004_09/menu.htm,1,0.04%
+190,/usage/2003_archive/2003_09/index.htm,1,0.04%
+191,/usage/2004_01/menu.htm,1,0.04%
+192,/usage/2004_03/p0.htm,1,0.04%
+193,/usage/2004_11/index.htm,1,0.04%
+194,/usage/2004_04/index.htm,1,0.04%
+195,/usage/2004_11/print.htm,1,0.04%
+196,/usage/2003_archive/2003_10/index.htm,1,0.04%
+197,/usage/2004_02/index.htm,1,0.04%
+198,/usage/2002_archive/2002_12/p0.htm,1,0.04%
+199,/usage/2004_08/index.htm,1,0.04%
+200,/usage/2003_archive/2003_03/index.htm,1,0.04%
+
+
+Top Referring Domains
+Most linked domains
+Rank#,Domain,Hits
+1,No Referrer,25830
+Top Referring URLs
+Rank#,URL,Hits
+1,No Referrer,25830
+
+
+Top Search Engines
+Rank#,Search Engine,Hits
+1,Northern Light,0
+2,Netscape Search,0
+3,Overture/GOTO.COM/Go.com,0
+4,Search.com,0
+5,Mamma.com,0
+6,Metacrawler(Go2Net),0
+7,MSN Search,0
+8,iWon,0
+9,Yahoo,0
+10,ilse,0
+11,Swiss Search Engine: Search.ch,0
+12,Teoma,0
+13,WWW.FIREBALL.DE,0
+14,AOL Search,0
+15,DirectHit,0
+16,AskJeeves,0
+17,Dogpile,0
+18,Excite,0
+19,About.com,0
+20,Altavista,0
+21,Lycos,0
+22,LookSmart,0
+23,HotBot(Lycos),0
+24,FAST/All The Web,0
+25,Goo.net.jp,0
+26,Google,0
+Top Search Phrases and keywords
+Rank#,Search Phrases,Counts,Rank#,Search words,Counts
+Top Search Phrases on each Search Engine
+Rank#,Search Phrases,Count
+Altavista (0 Hits)
+Google (0 Hits)
+Yahoo (0 Hits)
+AOL Search (0 Hits)
+MSN Search (0 Hits)
+Lycos (0 Hits)
+HotBot(Lycos) (0 Hits)
+Overture/GOTO.COM/Go.com (0 Hits)
+Netscape Search (0 Hits)
+Excite (0 Hits)
+WWW.FIREBALL.DE (0 Hits)
+DirectHit (0 Hits)
+LookSmart (0 Hits)
+Dogpile (0 Hits)
+Metacrawler(Go2Net) (0 Hits)
+Search.com (0 Hits)
+About.com (0 Hits)
+iWon (0 Hits)
+FAST/All The Web (0 Hits)
+Mamma.com (0 Hits)
+AskJeeves (0 Hits)
+Northern Light (0 Hits)
+Teoma (0 Hits)
+ilse (0 Hits)
+Swiss Search Engine: Search.ch (0 Hits)
+Goo.net.jp (0 Hits)
+
+
+Web Access Errors Report
+Page Not Found Errors(404 Error)
+NO.,Request,Referrer,Count
+1,/favicon.ico,No referrer,1333
+2,/robots.txt,No referrer,874
+3,/project_overview.htm£¬CFTT,No referrer,511
+4,/usage/2004_10/index.htm,No referrer,27
+5,/_vti_inf.html,No referrer,26
+6,/usage/index.htm,No referrer,20
+7,/abcdefghijklmn.htm,No referrer,9
+8,/_vti_bin/owssvr.dll?UL=1&ACT=4&BUILD=4219&STRMV
+ER=4&CAPREQ=0,No referrer,5
+9,/MSOffice/cltreq.asp?UL=1&ACT=4&BUILD=4219&STRMV
+ER=4&CAPREQ=0|-|0|404_Object_Not_Found,No referrer,5
+10,/_vti_bin/owssvr.dll?UL=1&ACT=4&BUILD=2614&STRMV
+ER=4&CAPREQ=0,No referrer,4
+11,/_Toc532194078,No referrer,4
+12,/MSOffice/cltreq.asp?UL=1&ACT=4&BUILD=2614&STRMV
+ER=4&CAPREQ=0|-|0|404_Object_Not_Found,No referrer,4
+13,/_vti_bin/owssvr.dll?UL=1&ACT=4&BUILD=6403&STRMV
+ER=4&CAPREQ=0,No referrer,3
+14,/MSOffice/cltreq.asp?UL=1&ACT=4&BUILD=6403&STRMV
+ER=4&CAPREQ=0|-|0|404_Object_Not_Found,No referrer,3
+15,/project<a,No referrer,2
+16,/index.html20041006000545,No referrer,2
+17,/'writeblocker',No referrer,2
+18,/disk+imaging.htm,No referrer,2
+19,/evangelism/xbProjects/_files/errors/index.html?
+msg=,No referrer,2
+20,/usage/2004_09/++this.link++,No referrer,1
+21,/usage/2004_09/++this.iconSrc+,No referrer,1
+22,/usage/2004_11/++this.hreference++,No referrer,1
+23,/usage/2004_08/++this.iconSrc+,No referrer,1
+24,/usage/2004_09/++this.hreference++,No referrer,1
+25,/usage/2004_08/++this.link++,No referrer,1
+26,/usage/2004_08/++this.hreference++,No referrer,1
+27,/usage/2004_12/index.htm,No referrer,1
+28,/usage/2004_11/_files/errors/,No referrer,1
+29,/usage/2004_11/++this.iconSrc+,No referrer,1
+30,/usage/2004_11/++this.link++,No referrer,1
+31,/usage/2004_11/+this.id+,No referrer,1
+32,/usage/2004_11/+this.iconSrc+,No referrer,1
+33,/content.23261.html,No referrer,1
+34,/cgi-bin/formmail.pl,No referrer,1
+35,/disk%imaging.htm,No referrer,1
+36,/MSOffice/cltreq.asp?UL=1&ACT=4&BUILD=6254&STRMV
+ER=4&CAPREQ=0|-|0|404_Object_Not_Found,No referrer,1
+37,/_vti_bin/owssvr.dll?UL=1&ACT=4&BUILD=6254&STRMV
+ER=4&CAPREQ=0,No referrer,1
+38,/'hard+drive+write+block+devices',No referrer,1
+39,/documents/SafeBack%202.18%20Procedures.pdf,No referrer,1
+40,/documents/'write+software+specification',No referrer,1
+41,/disk_imaging.+htm,No referrer,1
+42,/diskimaging.htm,No referrer,1
+43,/documents/'how+to+write+test+plan',No referrer,1
+44,/documents/temp/2a3664d6-32f2-45b7-94c1-41ba452f
+0475.html,No referrer,1
+45,/'hard+disk+specification',No referrer,1
+46,/'forensic+bit+stream+hardware+clone',No referrer,1
+47,/'TST+1.0',No referrer,1
+48,/usage/2004_07/++this.link++,No referrer,1
+49,/usage/2004_05/++this.iconSrc+,No referrer,1
+50,/usage/2004_05/++this.hreference++,No referrer,1
+51,/usage/2004_05/++this.link++,No referrer,1
+52,/temp/cceeabca-7d35-44a6-98ef-ef7196a113f2.html,No referrer,1
+53,/us.i1.yimg.com/us.yimg.com/i/s/nw.g,No referrer,1
+54,/temp/c5aa7f63-184a-4ea6-bfbb-a4343bf471c6.html,No referrer,1
+55,/usage/2004_07/++this.iconSrc+,No referrer,1
+56,/usage/2004_07/++this.hreference++,No referrer,1
+57,/usage/2004_06/++this.hreference++,No referrer,1
+58,/usage/2004_06/++this.iconSrc+,No referrer,1
+59,/usage/2004_06/++this.link++,No referrer,1
+60,/documents/temp/4668f6e9-216c-45d9-b115-3da1a4e2
+14a0.html,No referrer,1
+61,/download,No referrer,1
+62,/documents/temp/69221902-63e8-4055-ba96-81936ced
+dce7.html,No referrer,1
+63,/project<a+href=,No referrer,1
+64,/documents/temp/4a84b85d-a198-419c-af85-c9e72347
+f4ff.html,No referrer,1
+65,/documents/temp/5aecba40-bbc4-4c6f-a93d-f4c4e7d3
+e51d.html,No referrer,1
+66,/temp/8b176087-f6e8-4560-9e51-6d34350e5ddb.html,No referrer,1
+67,/temp/6bc02c2c-75a6-4b5f-9c42-f8850c3afab4.html,No referrer,1
+68,/temp/68c94939-1d25-4edc-ba31-a83242f8d4d0.html,No referrer,1
+69,/temp/221d94bf-70b2-4e3a-85b9-2c13da12396d.html,No referrer,1
+70,/temp/39d24658-4b6c-4285-bf5b-caa4a510ee9f.html,No referrer,1
+Other Errors Report
+NO.,Error Code,Request,Referrer,Count
+1,501,/DI-spec-3-1-6.doc,No referrer,35
+2,405,/_vti_bin/shtml.dll/_vti_rpc,No referrer,25
+3,501,/Notes_on_dd_and_Odd_Sized_Disks4.doc,No referrer,22
+4,501,/Test%20Methodology%207.doc,No referrer,18
+5,403,/usage/2004_01/,No referrer,16
+6,403,/usage/2004_10/,No referrer,15
+7,403,/usage/2003_archive/2003_03/,No referrer,10
+8,501,/DI-SPEC-COMMENTS-AND-RESPONSES-5.doc,No referrer,9
+9,501,/WB-spec-assert-1-may-02.doc,No referrer,9
+10,403,/usage/2004_04/,No referrer,8
+11,403,/usage/2004_09/,No referrer,8
+12,403,/usage/2004_03/,No referrer,8
+13,403,/usage/2004_02/,No referrer,8
+14,403,/usage/2004_06/,No referrer,8
+15,403,/usage/2004_11/,No referrer,8
+16,403,/usage/2004_08/,No referrer,7
+17,403,/usage/2004_07/,No referrer,7
+18,403,/usage/2004_05/,No referrer,7
+19,403,/usage/2002_archive/2002_11/,No referrer,6
+20,403,/usage/2002_archive/2002_12/,No referrer,6
+21,403,/usage/2003_archive/2003_05/,No referrer,5
+22,403,/usage/2003_archive/2003_04/,No referrer,5
+23,403,/usage/2003_archive/2003_06/,No referrer,5
+24,403,/usage/2003_archive/2003_07/,No referrer,5
+25,403,/documents/,No referrer,5
+26,403,/usage/2003_archive/2003_02/,No referrer,5
+27,403,/usage/2003_archive/2003_01/,No referrer,5
+28,403,/usage/2003_archive/2003_10/,No referrer,5
+29,403,/usage/2003_archive/2003_08/,No referrer,5
+30,403,/usage/2003_archive/2003_09/,No referrer,5
+31,501,/Test+Methodology+7.doc,No referrer,4
+32,501,/DI-SPEC-COMMENTS-AND-RESPONSES-3.doc,No referrer,3
+33,403,/usage/2003_09/,No referrer,3
+34,501,/DI-spec-3-1-1.doc,No referrer,3
+35,501,/DI-SPEC-COMMENTS-AND-RESPONSES-6.doc,No referrer,3
+36,403,/usage/2003_12/,No referrer,3
+37,500,-,No referrer,3
+38,406,/DI-spec-3-1-6.doc,No referrer,2
+39,403,/usage/2003_11/,No referrer,2
+40,403,/usage/2003_10/,No referrer,2
+41,403,/usage/2003_07/,No referrer,2
+42,403,/usage/2003_08/,No referrer,2
+43,403,/usage/2003_05/,No referrer,1
+44,501,/DI-SPEC-3-1-6.DOC,No referrer,1
+45,406,/usage/2003_archive/2003_04/report.csv,No referrer,1
+46,500,/usage/background_4.gif,No referrer,1
+47,406,/usage/2003_archive/2003_06/report.csv,No referrer,1
+48,501,/documents/Amalfi-04.ppt,No referrer,1
+49,501,/xiforinfola.htm,No referrer,1
+50,406,/usage/2004_06/report.csv,No referrer,1
+51,406,/usage/2004_11/report.csv,No referrer,1
+52,405,/cgi-bin/form_mail.cgi,No referrer,1
+
+
+Top Geographic Regions Report
+Most Active Countries
+Rank#,Countries,Visitors,Page Views,File Downloads,Total Data Transferred
+1,United States of America,4714,6199 (78.08%),4341 (72.49%),0.00 KB (0.00%)
+2,the European Union,108,362 (4.56%),229 (3.82%),0.00 KB (0.00%)
+3,United Kingdom,106,215 (2.71%),147 (2.45%),0.00 KB (0.00%)
+4,Germany,104,167 (2.10%),112 (1.87%),0.00 KB (0.00%)
+5,Canada,93,159 (2.00%),187 (3.12%),0.00 KB (0.00%)
+6,Australia,91,168 (2.12%),134 (2.24%),0.00 KB (0.00%)
+7,China,71,78 (0.98%),35 (0.58%),0.00 KB (0.00%)
+8,India,57,92 (1.16%),114 (1.90%),0.00 KB (0.00%)
+9,Singapore,35,53 (0.67%),65 (1.09%),0.00 KB (0.00%)
+10,Korea (Republic Of),22,24 (0.30%),42 (0.70%),0.00 KB (0.00%)
+11,Brazil,21,22 (0.28%),21 (0.35%),0.00 KB (0.00%)
+12,Switzerland,21,18 (0.23%),29 (0.48%),0.00 KB (0.00%)
+13,Japan,20,25 (0.31%),28 (0.47%),0.00 KB (0.00%)
+14,Taiwan (Province Of China),19,15 (0.19%),29 (0.48%),0.00 KB (0.00%)
+15,France,19,12 (0.15%),23 (0.38%),0.00 KB (0.00%)
+16,Italy,17,24 (0.30%),47 (0.78%),0.00 KB (0.00%)
+17,Hong Kong,15,15 (0.19%),17 (0.28%),0.00 KB (0.00%)
+18,Netherlands,13,12 (0.15%),10 (0.17%),0.00 KB (0.00%)
+19,Sweden,11,37 (0.47%),61 (1.02%),0.00 KB (0.00%)
+20,Spain,10,30 (0.38%),71 (1.19%),0.00 KB (0.00%)
+21,Poland,9,17 (0.21%),40 (0.67%),0.00 KB (0.00%)
+22,Belgium,9,10 (0.13%),10 (0.17%),0.00 KB (0.00%)
+23,Austria,8,6 (0.08%),8 (0.13%),0.00 KB (0.00%)
+24,Norway,8,10 (0.13%),9 (0.15%),0.00 KB (0.00%)
+25,Czech Republic,8,25 (0.31%),30 (0.50%),0.00 KB (0.00%)
+26,South Africa,7,10 (0.13%),3 (0.05%),0.00 KB (0.00%)
+27,Tunisia,6,11 (0.14%),1 (0.02%),0.00 KB (0.00%)
+28,Russian Federation,6,7 (0.09%),8 (0.13%),0.00 KB (0.00%)
+29,Thailand,6,12 (0.15%),7 (0.12%),0.00 KB (0.00%)
+30,Ireland,6,12 (0.15%),3 (0.05%),0.00 KB (0.00%)
+31,Slovakia (slovak Republic),5,1 (0.01%),32 (0.53%),0.00 KB (0.00%)
+32,Slovenia,5,2 (0.03%),4 (0.07%),0.00 KB (0.00%)
+33,Philippines,5,11 (0.14%),4 (0.07%),0.00 KB (0.00%)
+34,Indonesia,5,5 (0.06%),13 (0.22%),0.00 KB (0.00%)
+35,Mexico,4,9 (0.11%),0 (0.00%),0.00 KB (0.00%)
+36,Finland,4,4 (0.05%),2 (0.03%),0.00 KB (0.00%)
+37,Portugal,4,3 (0.04%),10 (0.17%),0.00 KB (0.00%)
+38,Israel,4,4 (0.05%),4 (0.07%),0.00 KB (0.00%)
+39,Malaysia,4,6 (0.08%),18 (0.30%),0.00 KB (0.00%)
+40,Greece,3,7 (0.09%),4 (0.07%),0.00 KB (0.00%)
+41,Bulgaria,3,1 (0.01%),5 (0.08%),0.00 KB (0.00%)
+42,Turkey,3,2 (0.03%),3 (0.05%),0.00 KB (0.00%)
+43,Yugoslavia,2,1 (0.01%),1 (0.02%),0.00 KB (0.00%)
+44,Romania,2,3 (0.04%),3 (0.05%),0.00 KB (0.00%)
+45,Ukraine,2,2 (0.03%),2 (0.03%),0.00 KB (0.00%)
+46,Algeria,2,1 (0.01%),3 (0.05%),0.00 KB (0.00%)
+47,Iran (islamic Republic Of),2,1 (0.01%),1 (0.02%),0.00 KB (0.00%)
+48,New Zealand,2,5 (0.06%),1 (0.02%),0.00 KB (0.00%)
+49,Macedonia,2,3 (0.04%),0 (0.00%),0.00 KB (0.00%)
+50,Lithuania,2,4 (0.05%),0 (0.00%),0.00 KB (0.00%)
+51,Kenya ,2,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+52,Bangladesh,2,1 (0.01%),1 (0.02%),0.00 KB (0.00%)
+53,Chile,1,0 (0.00%),1 (0.02%),0.00 KB (0.00%)
+54,Egypt,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+55,Croatia (local Name: Hrvatska),1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+56,Trinidad And Tobago,1,1 (0.01%),2 (0.03%),0.00 KB (0.00%)
+57,Argentina,1,0 (0.00%),1 (0.02%),0.00 KB (0.00%)
+58,Barbados,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+59,United Arab Emirates,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+60,Belarus,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+61,Peru,1,1 (0.01%),2 (0.03%),0.00 KB (0.00%)
+62,Malta,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+63,Nigeria,1,1 (0.01%),4 (0.07%),0.00 KB (0.00%)
+64,Liechtenstein,1,2 (0.03%),1 (0.02%),0.00 KB (0.00%)
+65,Oman,1,1 (0.01%),3 (0.05%),0.00 KB (0.00%)
+66,Estonia,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+67,Hungary,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+68,Iceland,1,1 (0.01%),0 (0.00%),0.00 KB (0.00%)
+69,Sri Lanka,1,0 (0.00%),1 (0.02%),0.00 KB (0.00%)
+70,Sudan,1,0 (0.00%),1 (0.02%),0.00 KB (0.00%)
+
+

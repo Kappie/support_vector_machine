@@ -1,0 +1,526 @@
+<!-- Title: Eve shift. Sat Jul 28, 2001 -->
+<!-- SciCo: Mike Lindgren -->
+<!-- DAQAce: Yanwen Liu -->
+<!-- MonAce: rolf oldeman -->
+<!-- CO: Alvin Laasanen -->
+<!-- OpManager: D. "Grumpy" Benjamin -->
+<!-- Notes: -->
+<pre>No Beam, but they are trying.  The CSL pager was called  
+a couple hours ago, and have tried all known phone numbers, 
+but they have not responded.  Getting poor response from  
+that.  The BSC have been repaired, and we will page silicon  
+if there is a store.</pre>
+
+
+<!-- Date: Sat Jul 28 16:18:01 2001 -->
+<a href= 
+'/cgi/elog/elog.pl?nb=2001&action=view&page=525&frame=2&anchor=14:17:59'> 
+A reminder from the previous shift log. </a> : need to drop the  last four subfarms anytime convenient, if no response from CSL...   
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121894' target=_top>121894</a>) -->
+
+
+<!-- Date: Sat Jul 28 17:08:33 2001 -->
+<pre>We have 36 proton bunches in the tev.</pre>
+<!-- Author: Lindgren -->
+
+
+<!-- Date: Sat Jul 28 17:10:26 2001 -->
+3600e9 protons in. proton losses around 5k. Got about 1 rad on SVRAD3.
+<!-- Author: rolf -->
+<!-- Comment: Sat Jul 28 17;21;40 comment by...Yanwen -->
+RC GUI reads "b0 Proton losses 16 143.2Hz(red)" at the Accelerator Status panel.
+
+
+<!-- Comment: Sat Jul 28 17;32;16 comment by...rolf -->
+Now we have 302E9 antiprotons in.
+<!-- Comment: Sat Jul 28 17;37;24 comment by...rolf -->
+Brief CLC alarm resets it self. Happened while 2/3 of the pbars
+were lost while ramping to 980 GeV
+<!-- Date: Sat Jul 28 17:30:19 2001 -->
+Very high dead time. 88.40%. end the run to take the last four farms out.. 
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121894' target=_top>121894</a>) -->
+
+
+
+
+<!-- Date: Sat Jul 28 17:46:44 2001 -->
+low beta squeeze done, pbar loss about 50 k , but stil no luminosity. I don't understand.
+<!-- Author: rolf -->
+
+
+<!-- Date: Sat Jul 28 17:53:59 2001 -->
+Reset b0 lum. with RC. and move to physics(default) trigger table:physics_0_00[2,161]. Here is store 585. 
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121899' target=_top>121899</a>) -->
+<!-- Comment: Sat Jul 28 17;55;07 comment by...Yanwen -->
+Triggering at 10 Hz, zero deadtime. 
+
+
+<!-- Date: Sat Jul 28 18:13:00 2001 -->
+SVRAD reset (was 4.5, 3.0, 1.3 and 0.3 rad). 
+Losses at 2kHz(p), 500Hz(pbar). Stunning 0.9E29 luminosity. 
+<!-- Author: rolf -->
+<!-- Comment: Sat Jul 28 18;44;51 comment by...rolf -->
+<pre>Exact numbers from the lumberjack plotter are:
+SVRAD0: 1.40 SVRAD1: 0.23 SVRAD2: 2.97 SVRAD3: 4.20</pre>
+<!-- Date: Sat Jul 28 18:16:10 2001 -->
+Level 2: no interface boards were sending data to the processor.  Reset the SVTlist board and all interface boards began sending.  SVTlist started in sync with the rest of the system; XTRPlist is out of sync and will remain so until an HRR.
+<!-- Author: Matt :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121899' target=_top>121899</a>) -->
+
+
+<!-- Date: Sat Jul 28 18:17:07 2001 -->
+<pre>Just got a call from Darrin in mcr.  Says they lost 2/3 of  
+the pbars in ramping.  The initial lum. is 10**29, so not 
+high.  They will leave this store in until 6 am Sunday, then 
+will drop it and do about 4 hours of investigation.  They will 
+try to go to shot setup around noon Sunday.  Will do flying wires 
+at 8 after the hour.</pre>
+<!-- Author: Lindgren -->
+
+
+<!-- Date: Sat Jul 28 18:23:21 2001 -->
+Stable beam. Ramping up all HV (COT, muons, showermax, TOF)
+<!-- Author: rolf -->
+
+
+<!-- Date: Sat Jul 28 18:28:47 2001 -->
+<pre>Store is 585.  Occupancy plots show a problem in wedges 0-5 
+of the west wall cal.  Crate = b0wcal00.  Cal. pager called.</pre>
+<!-- Author: Lindgren -->
+
+
+<!-- Date: Sat Jul 28 18:29:23 2001 -->
+<pre>Busy timeout..  
+Error Condition in XPT from crates: 
+CCAL_01 
+CCAL_02 
+CCAL_03 
+CCAL_04 
+CCAL_06 
+CCAL_08 
+CCAL_09 
+CCAL_10 
+CCAL_12 
+CCAL_13 
+CCAL_14 
+CCAL_15 
+WCAL_00 
+WCAL_01 
+WCAL_02 
+WCAL_03 
+WCAL_05 
+WCAL_06 
+WCAL_07 
+PCAL_00 
+PCAL_01 
+PCAL_02 
+PCAL_03 
+PCAL_04 
+PCAL_05 
+PCAL_06 
+PCAL_07 
+PCAL_08 
+PCAL_10 
+PCAL_11 
+COT_00 
+COT_01 
+COT_02 
+COT_03 
+COT_04 
+COT_05 
+COT_06 
+COT_07 
+COT_08 
+COT_09 
+COT_10 
+COT_11 
+COT_12 
+COT_13 
+COT_14 
+COT_15 
+COT_16 
+COT_17 
+COT_18 
+COT_19 
+IMU_00 
+IMU_01 
+CMU_01 
+CMU_00 
+CMP_00 
+MUON_SCINT_00 
+CMX_00 
+CMX_01 
+XFT_XTRP_00 
+XFT_LINKER_01 
+XFT_LINKER_03 
+XFT_LINKER_05 
+CLC_00 
+SVT_FANOUT_07 
+SVT_TRACKING_05 
+LEVEL1_CAL_00 
+LEVEL1_CAL_01 
+LEVEL1_CAL_02 
+LEVEL1_CAL_03 
+LEVEL1_CAL_04 
+LEVEL1_CAL_05 
+LEVEL1_GLOBAL_00 
+TRIGGER_SCALERS_00 
+COT_PULSER_00 
+LEVEL2_CAL_02 
+LEVEL2_CAL_03 
+LEVEL2_CAL_05 
+HADRON_TIMING_00 
+ 
+                       </pre>
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121899' target=_top>121899</a>) -->
+<!-- Comment: Sat Jul 28 18;41;13 comment by...Yanwen -->
+<pre>HRR leads RC to error state.
+(MLE) b0tsi00:Messenger:6:24:59 PM->TS failed to Recover (State 2)        
+Ended the run </pre>
+<!-- Date: Sat Jul 28 18:31:44 2001 -->
+CMP trip. Spike in the beam losses. MCR doesn't know why.
+<!-- Author: rolf -->
+
+
+
+
+<!-- Date: Sat Jul 28 18:46:31 2001 -->
+<pre>Starting a new run. Get a busy timeout forwarded by cotpulser. 
+- 
+32'31" 1 crate/s: b0puls00(139),  busy.1 crate/s: b0pcal00(32),  in error.[RXPT]triggered readout sent events mismatch[EOR]     
+ 
+tried again, cotpulser still give trouble activating the run.
+
+can not get Bill Ashmanskas by the number left in the control room. will send him a email-message instead. cot_pulser crate is taken out..  
+ 
+Run 121902 started, again triggering at around 8~9 Hz. zero deadtime.  
+</pre>
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121902' target=_top>121902</a>) -->
+
+
+<!-- Date: Sat Jul 28 19:01:13 2001 -->
+RC javaoutofmem. restarting.. errh
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=n/a' target=_top>n/a</a>) -->
+
+
+<!-- Date: Sat Jul 28 19:14:03 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-1701&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-1701' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-1702&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-1702' width='300'></a></center>
+<!-- Author: Matt -->
+<!-- Comment: Sat Jul 28 19;26;06 comment by...Matt -->
+Data vs simulation mismatches from the CMX, run 121902.  Plots from CMU and CMP look good.  Full muon trigger monitor coverage in: /data1/consumer/results/TrigMon/TrigMon121902aa.root.  Paged Eric James.
+<!-- Comment: Sat Jul 28 19;26;44 comment by...Matt -->
+Same behavior in run 121903.
+<!-- Date: Sat Jul 28 19:24:33 2001 -->
+Took COT to hi standby and CMP to standby for flying wire, 
+but didn't see any come by. Called MCR, apparently the flying wire comes at a x:29 instead of x:08.
+<!-- Author: rolf -->
+
+
+
+<!-- Date: Sat Jul 28 19:26:22 2001 -->
+Lot's of fake alarms from the COT. they reset themselves. 
+Now there's a real trip in SL4.  
+<!-- Author: rolf -->
+
+
+
+<!-- Date: Sat Jul 28 19:26:51 2001 -->
+COt to high-standby and CMp to standby for flying wire
+<!-- Author: rolf -->
+
+
+<!-- Date: Sat Jul 28 19:36:46 2001 -->
+All systems trip. Looks like beam is lost. 
+(COT, muons, CPR)
+<!-- Author: Rolf -->
+<!-- Comment: Sat Jul 28 19;44;02 comment by...rolf -->
+Switching all back on, I guess we go for cosmics now.
+
+
+<!-- Date: Sat Jul 28 19:47:48 2001 -->
+continuous DONETIMEOUT from wcal00. Rick said one of the admems is misconfigured, and asked me to page Arnd.  
+ 
+did it.. 
+ 
+RC died again with  huge pile of java errors.. restarting. 
+<!-- Author: Yanwen -->
+
+
+<!-- Date: Sat Jul 28 19:50:35 2001 -->
+<pre>Quench at E0(?) lost the beam.  MCR called and says that they 
+will do some studies.  They think they know why they lost so many 
+pbars on ramp, and will do some proton only stores.  Then will 
+go to shot setup tomorrow at 8am.  We are still trying to figure 
+out why wcal00 is not giving us events.</pre>
+<!-- Author: lindgren -->
+
+
+<!-- Date: Sat Jul 28 19:53:10 2001 -->
+<br><b>b0wcal00 problems:</b> 
+<br>I was pages to try and understand the reason the endwall 
+wedges 0-5 west show no occupancy.  Was unable to find anything 
+wrong with the ADMEMs for the endwall calorimeter.  However, 
+while spying on the crate via minicom I observed the following 
+messages: 
+<pre> 
+b0wcal00-> Messenger: processPartition 0 
+Sent ack to Run Control: 0 IDLE SUCCESS 
+Messenger: processStatechange Config [0] 
+Slot  2: 0097 001 TRACER__V2.1A 
+Slot  5: 0237 003 ADMEM_V4.0470 
+Slot  6: 0366 003 ADMEM_V4.0460 
+Slot  7: 0179 003 ADMEM_V4.0470          
+Slot  8: 0087 003 ADMEM_V4.0470          
+Slot  9: 0364 003 ADMEM_V4.0460          
+Slot 10: 0202 003 ADMEM_V4.0460          
+Slot 16: 0207 003 ADMEM_V4.0470          
+Slot 17: 0090 003 ADMEM_V4.0470          
+Slot 18: 0111 003 ADMEM_V4.0470          
+Slot 19: 0165 003 ADMEM_V4.0470          
+Slot 20: 0128 003 ADMEM_V4.0470          
+Slot 21: 0121 003 ADMEM_V4.0470          
+Messenger: processReadoutlist  
+TOF ADMEM slot  5 - base = 0x02a18 (0/0x2a/24)     
+TOF ADMEM slot  6 - base = 0x00c19 (0/0x0c/25)     
+TOF ADMEM slot  7 - base = 0x0151a (0/0x15/26)     
+TOF ADMEM slot  8 - base = 0x02d1b (0/0x2d/27)     
+TOF ADMEM slot  9 - base = 0x02b1c (0/0x2b/28)     
+TOF ADMEM slot 10 - base = 0x0221d (0/0x22/29)     
+TOF ADMEM slot 16 - base = 0x02a00 (0/0x2a/0)      
+TOF ADMEM slot 17 - base = 0x00c01 (0/0x0c/1)      
+TOF ADMEM slot 18 - base = 0x01502 (0/0x15/2)      
+TOF ADMEM slot 19 - base = 0x02d03 (0/0x2d/3)      
+TOF ADMEM slot 20 - base = 0x02b04 (0/0x2b/4)      
+TOF ADMEM slot 21 - base = 0x02205 (0/0x22/5)     
+Current r/o settings:                    
+---------------------                    
+EVB node / port   
+b0dap62 / 6500          
+Crate Id         17  
+Output->EVB/VRB  0/2 
+Trigger mode     2   
+Verbosity:       Minimal                 
+Mode             0  (RE 0)               
+Mode             0  (RE 1)               
+TRACER: VISIONopen Name=geo32:/slot=2    
+TRACER: done enabled 
+TRACER: select VRB busy                  
+ADMEM: VISIONopen Name=geo32:/slot=5     
+ADMEM: VISIONopen Name=geo32:/slot=6     
+ADMEM: VISIONopen Name=geo32:/slot=7     
+ADMEM: VISIONopen Name=geo32:/slot=8     
+ADMEM: VISIONopen Name=geo32:/slot=9     
+ADMEM: VISIONopen Name=geo32:/slot=10    
+FER_imp: setting cafe sleep default = 25 
+ADMEM_setCafeSleep: set to 25            
+ADMEM: VISIONopen Name=geo32:/slot=16    
+ADMEM: VISIONopen Name=geo32:/slot=17    
+ADMEM: VISIONopen Name=geo32:/slot=18    
+ADMEM: VISIONopen Name=geo32:/slot=19    
+ADMEM: VISIONopen Name=geo32:/slot=20    
+ADMEM: VISIONopen Name=geo32:/slot=21    
+FER_imp: setting cafe sleep default = 25 
+ADMEM_setCafeSleep: set to 25            
+Slot 16 pipeline length/offset 29 / 7    
+ADMEM_config: using pedestal = 50        
+==> ADMEM_setCafeDelay: geo32:/slot=16 status 0 cafe delay old/target/new 0x2d/d 
+Slot 17 pipeline length/offset 29 / 7    
+ADMEM_config: using pedestal = 50        
+==> ADMEM_setCafeDelay: geo32:/slot=17 status 0 cafe delay old/target/new 0x2d/d 
+Slot 18 pipeline length/offset 29 / 7    
+ADMEM_config: using pedestal = 50        
+==> ADMEM_setCafeDelay: geo32:/slot=18 status 0 cafe delay old/target/new 0x2d/d 
+Slot 19 pipeline length/offset 29 / 7    
+ADMEM_config: using pedestal = 50        
+==> ADMEM_setCafeDelay: geo32:/slot=19 status 0 cafe delay old/target/new 0x2d/d 
+Slot 20 pipeline length/offset 29 / 7    
+ADMEM_config: using pedestal = 50        
+==> ADMEM_setCafeDelay: geo32:/slot=20 status 0 cafe delay old/target/new 0x2d/d 
+Slot 21 pipeline length/offset 29 / 7    
+ADMEM_config: using pedestal = 50        
+==> ADMEM_setCafeDelay: geo32:/slot=21 status 0 cafe delay old/target/new 0x2d/d 
+Configuring  6 TOF ADMEMs                
+gth/offset = 29/7 
+ADMEM_config: using pedestal = 50  
+==> ADMEM_setCafeDelay: geo32:/slot=8 status 0 cafe delay old/target/new 0x78/0x78/78 
+Slot 9: 
+  Configuring TOMAIN S/N = 0x2b (0x2b) 
+  VCC5= 4.935 V, VEE5=-5.075 V, VCC15=14.980 V, VEE15=-14.980 V, VTT=-1.906 V 
+  Board temperature: 70.098 deg F (top), 66.045 deg F (bottom). 
+  TOF ADMEM pipeline length/offset = 29/7 
+ADMEM_config: using pedestal = 50  
+==> ADMEM_setCafeDelay: geo32:/slot=9 status 0 cafe delay old/target/new 0x78/0x78/78 
+Slot 10: 
+  Configuring TOMAIN S/N = 0x22 (0x22) 
+  VCC5= 4.938 V, VEE5=-5.075 V, VCC15=14.989 V, VEE15=-14.980 V, VTT=-1.870 V 
+  Board temperature: 71.692 deg F (top), 66.103 deg F (bottom). 
+  TOF ADMEM pipeline length/offset = 29/7 
+ADMEM_config: using pedestal = 50  
+==> ADMEM_setCafeDelay: geo32:/slot=10 status 0 cafe delay old/target/new 0x78/0x78/78 
+>>> ADMEM_init: Finished... 
+</pre> 
+Somehow, the ADMEMs in slots 16-21 are thought to be TOF ADMEMs. 
+This is certainly incorrect. I'm not sure I know how to address 
+this problem, recommend that the ACE page the Arnd Meyer or the 
+DAQ pager to learn the reason for this. 
+<br>
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Sat Jul 28 22;24;15 comment by...Arnd -->
+The Admems in slots 16-21 are correctly configured as calorimeter Admems. The above printout may be a little hard to sort out.
+
+<!-- Date: Sat Jul 28 19:54:55 2001 -->
+Get going, with very low rate, since beam's lost.. 
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121905' target=_top>121905</a>) -->
+
+
+<!-- Date: Sat Jul 28 20:03:15 2001 -->
+COT SL8 trip. Seems that all segments are affected. 
+Doesn't come up by clicking 'ON'.
+<!-- Author: rolf -->
+<!-- Comment: Sat Jul 28 20;21;07 comment by...rolf -->
+Called COT expert (Morris) he suggested to try harder. Indeed
+COT came back on using the 'ON' button on the HV summary page.
+<!-- Date: Sat Jul 28 20:07:51 2001 -->
+<a href= 
+'/cgi/elog/elog.pl?nb=2001&action=view&page=526&frame=2&anchor=18:46:31'> 
+COT PULSER was taken out </a>, noticed there was another pcal crate there made trouble. I suspected the real cause wasnt the crate itself.. As a trial, I took cotpulser back to the readout list, it behaved fine..   
+  
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121905' target=_top>121905</a>) -->
+
+
+
+<!-- Date: Sat Jul 28 20:24:35 2001 -->
+L3 monitoring died. tried to close it but could never bring it up again. paged & expert is on the way.
+<!-- Author: Yanwen -->
+<!-- Comment: Sat Jul 28 20;27;24 comment by...Yanwen -->
+the memory of this node is almost exhausted... L3 people is playing with it: rebooting.. 
+
+<!-- Comment: Sat Jul 28 20;41;51 comment by...Yanwen -->
+Everything is restarted. killed some very heavy processes of cslmon.. 
+
+
+<!-- Date: Sat Jul 28 20:46:08 2001 -->
+Starting L2 tests with the full system.  Trigger table: L2_RATE_TEST.
+<!-- Author: David and associates :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121906' target=_top>121906</a>) -->
+
+
+<!-- Date: Sat Jul 28 21:11:10 2001 -->
+The YMON plots of the TOF for run 121903 show no hits in b0wcal07, even though the crate is instrumented.
+<!-- Author: rolf -->
+
+
+<!-- Date: Sat Jul 28 21:12:36 2001 -->
+When popping up the two-ring display of the TOF high voltage, 
+all channels are displayed as light-green, while only 75% 
+should be on
+<!-- Author: rolf -->
+
+
+<!-- Date: Sat Jul 28 21:19:29 2001 -->
+RC died of javaoutofmemeory error.
+<!-- Author: Yanwen -->
+<!-- Comment: Sat Jul 28 21;23;48 comment by...Yanwen -->
+tons of error messages
+<!-- Date: Sat Jul 28 21:22:08 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1705&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1705  width='300' align='top'></td><td>losses during this store</a></td></tr></table>
+<!-- Author: rolf -->
+
+
+
+
+<!-- Date: Sat Jul 28 22:32:17 2001 -->
+Restarting L2 tests after rc died with only CCAL, WCAL, L1CAL, L1GLOBAL, L2CAL, L2DECISION, SCALERS, SVT06-07, XTRP, and L3 (all nodes).
+<!-- Author: David -->
+
+
+<!-- Date: Sat Jul 28 22:32:32 2001 -->
+The fourth time to see RC dies during this shift. restarted it to continue L2 tests. 
+<!-- Author: Yanwen -->
+
+
+<!-- Date: Sat Jul 28 22:41:45 2001 -->
+I was called to look into the problems with b0wcal00. Nothing 
+appears to be wrong with the configuration, all Admems are 
+configured correctly and nothing relevant changed in the 
+database. The last calibration/download apparently happened on 
+7/25 at 10am. 
+<P> 
+I also dumped WHAD and TOFD banks of one of the runs (121906); 
+data from b0wcal00 are present (at least pedestals).  
+<!-- Author: Arnd -->
+
+
+<!-- Date: Sat Jul 28 22:43:51 2001 -->
+CMU and CMX trip for no apparent reason. reset.
+<!-- Author: rolf -->
+<!-- Comment: Sat Jul 28 22;48;23 comment by...Rolf -->
+HV is back up, but CMU remains in alarm state for a quarter arch.
+Ifix doesn't let me clilck on the individual channels anymore to understand what's going on.
+
+<!-- Comment: Sat Jul 28 22;56;22 comment by...rolf -->
+Zoomed display actually shows occasional high currents.
+So we decide to switch CMU and CMX HV off for a while and then ramp it up again
+
+<!-- Comment: Sat Jul 28 23;04;12 comment by...rolf -->
+Don't manage to get the HV down with Ifix. Even tried downstairs.
+Paging muon people.
+
+
+<!-- Date: Sat Jul 28 23:17:45 2001 -->
+Do a CAL QIE Calib. with only wcal crates.. 
+<!-- Author: Yanwen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121910' target=_top>121910</a>) -->
+<!-- Comment: Sat Jul 28 23;39;01 comment by...Yanwen -->
+<pre>Done, but can not find it with DBANA. I recall we were told at the ace_meeting the correct thing to do is to wait until the calib consumer to finish.. wait until forever maybe.. 
+
+Lost. and looking around for online instructions, just to find that the cdfnote 5397 needs to be updated... </pre>
+<!-- Comment: Sat Jul 28 23;45;47 comment by...Yanwen -->
+almost half an hour passed. give up waiting. try again. 
+<!-- Comment: Sat Jul 28 23;49;11 comment by...Yanwen -->
+This time the consumer finishes by itself. and got it in database (seen with DBANA) run number is 121912
+<!-- Date: Sat Jul 28 23:21:48 2001 -->
+Done with L2 tests.  Details in <a href= 
+'/cgi/elog/det-system-elog.pl?nb=l2&action=view&page=13&frame=2&anchor=23:16:26'>L2 e-log</a>.  Release system to shift crew.
+<!-- Author: David and co. -->
+
+
+
+
+
+<!-- Date: Sat Jul 28 23:54:40 2001 -->
+setting up a cosmic run. 
+<!-- Author: Yanwen -->
+
+
+<!-- Date: Sat Jul 28 23:57:05 2001 -->
+We did a calibration run on the endwall calorimeter and looked 
+at the results in DBANA.  Pedestals look ok - a little quiet, but 
+like they are connected to the detector. 
+Don't quite understand why the occupancy plots for wcal00 wedges 
+are empty, as the hv is on, Arnd assures that the cards are  
+correctly configured in the crate.  I would like to see a source 
+or laser run done, so that we can see some > pedestal responses 
+out of the detector.  Would also like to check the lut table 
+contents.
+<!-- Author: Lindgren :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=121912' target=_top>121912</a>) -->
+
+
+<!-- Date: Sun Jul 29 00:02:49 2001 -->
+<font color=red>Shift Summary: </font><pre>Well, we did get one run done.  Still have muon system hv 
+problems, which Hyunsoo is looking into - he thinks it may  
+be that the hv pc hard drives are full.  Also have not figured  
+out the wcal00 occupancy problem.  </pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   21
+Delivered Luminosity   0.8  
+Acquired Luminosity    0.3  
+Efficiency             
+   
+</td></tr></table></pre>
+<!-- Author: lindgren -->
+
+
+<!-- Date: Sun Jul 29 00:11:52 2001 -->
+<pre>Changed a couple of TOF HV settings...see TOF elog for details</pre>
+<!-- Author: bauer -->

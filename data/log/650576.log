@@ -1,0 +1,203 @@
+#
+#----- (codegen) mcpp_gen p21-br-02
+#
+<--> (GNUmakefile.main        ; __mcpp_gen__            ) _codegen_ Thu Apr 10 14:39:47 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _codegen_ Thu Apr 10 14:39:48 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _codegen_ Thu Apr 10 14:39:48 CDT 2008 mcpp_gen (/src)
+#
+#----- (d0omgen) mcpp_gen p21-br-02
+#
+<--> (GNUmakefile.main        ; __mcpp_gen__            ) _d0omgen_ Thu Apr 10 15:01:06 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _d0omgen_ Thu Apr 10 15:01:06 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _d0omgen_ Thu Apr 10 15:01:06 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _d0omref_ Thu Apr 10 15:01:06 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _d0omref_ Thu Apr 10 15:01:07 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _d0omref_ Thu Apr 10 15:01:07 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _rtcint_  Thu Apr 10 15:01:07 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _rtcint_  Thu Apr 10 15:01:07 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _rtcint_  Thu Apr 10 15:01:07 CDT 2008 mcpp_gen (/test)
+#
+#----- (include) mcpp_gen p21-br-02
+#
+<--> (GNUmakefile.main        ; __mcpp_gen__            ) _include_ Thu Apr 10 15:34:20 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _include_ Thu Apr 10 15:34:20 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _include_ Thu Apr 10 15:34:20 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for simplebins binary testISApartons.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenByHand.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenHervecStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenHerwigStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenInterPoint.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenIsaStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenIsajet.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenPhojetStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenPompytStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenPomwigStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenPythiaStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenScipytStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgenVecbos.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCgetEvent.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCisajet.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCreadIsajet.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCreadStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object MCstdHepInfo.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object decadd.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object pyupev.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object std_getnext.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object stddecayqq.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object stdhep_read.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for static library object stdqqdcy.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building dependencies for standalone object alphas2.
+#
+#----- (lib) mcpp_gen p21-br-02
+#
+<--> (GNUmakefile.main        ; __mcpp_gen__            ) _lib_     Thu Apr 10 16:37:55 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _lib_     Thu Apr 10 16:37:55 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _lib_     Thu Apr 10 16:37:55 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libdmr_  Thu Apr 10 16:37:56 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libdmr_  Thu Apr 10 16:37:56 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libdmr_  Thu Apr 10 16:37:56 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libobjs_ Thu Apr 10 16:37:57 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libobjs_ Thu Apr 10 16:37:57 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libobjs_ Thu Apr 10 16:37:57 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object upinit.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object upinit_herwig.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object upevnt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object upevnt_herwig.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object upveto_herwig.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object hwaend.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object herdum-fragmt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object upveto.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object pythia_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object pythia_alpgen_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object feynhiggs_dummy.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling standalone object alphas2.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenByHand.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenHervecStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenHerwigStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenInterPoint.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenIsaStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenIsajet.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenPhojetStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenPompytStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenPomwigStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenPythiaStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenScipytStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgenVecbos.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCgetEvent.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCisajet.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCreadIsajet.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCreadStdHep.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object MCstdHepInfo.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object addzfrag.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object atoher.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object d0deftaubr.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object d0heedt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object d0pyedt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object eupinevt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object facetotau.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object hepevt_repair.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object hervec_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object herwig_event_info.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object herwig_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object herwig_gen_util.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object hwdbos.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object ipartns_event.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object ipartns_ini.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_event_info.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_files.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_getnext.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_particles.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_partons.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_primaries.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_read.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_read_partons.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_set_files.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_singlp.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isa_write.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isahep1.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isaini_dky.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object isaini_f.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object noevolve.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object phojet_event_info.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object phojet_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pompyt_event_info.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pompyt_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pomwig_event_info.
+/shared/D0/dist5/packages/mcpp_gen/p21-br-02/src/pompyt_gen.f: In subroutine `pompyt_gen':
+/shared/D0/dist5/packages/mcpp_gen/p21-br-02/src/pompyt_gen.f:51: warning:
+         COMMON/POMSIG/NEVT,SIGTOT
+                ^
+Initial padding for common block `pomsig' is 4 bytes at (^) -- consider reordering members, largest-type-size first
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pomwig_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pydum_upveto.
+/shared/D0/dist5/packages/mcpp_gen/p21-br-02/src/pomwig_gen.f: In subroutine `pomwig_gen':
+/shared/D0/dist5/packages/mcpp_gen/p21-br-02/src/pomwig_gen.f:19: warning:
+         common /POMWCO/energy,run,nevts,prevts,prlvl,editlvl,dostat
+                 ^
+Padding of 4 bytes required before `pmin' in common block `pomwco' at (^) -- consider reordering members, largest-type-size first
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pythia_event_info.
+/shared/D0/dist5/packages/mcpp_gen/p21-br-02/src/pomwig_gen.f: In subroutine `powcmd':
+/shared/D0/dist5/packages/mcpp_gen/p21-br-02/src/pomwig_gen.f:863: warning:
+         common /POMWCO/energy,run,nevts,prevts,prlvl,editlvl,dostat
+                 ^
+Padding of 4 bytes required before `pmin' in common block `pomwco' at (^) -- consider reordering members, largest-type-size first
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pythia_read_cards.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pyupin.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object ran_ent.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object rdmpro.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object scipyt_event_info.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object scipyt_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object srtflt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object stdhep_event_info.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object stopro.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upevnt_led.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upevnt_madgrapher.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upevnt_madgraphpyt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upevnt_mcatnloher.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upinit_led.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upinit_madgrapher.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upinit_madgraphpyt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object upinit_mcatnloher.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecbos_end.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecbos_gen.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecbos_isa.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecbos_read_cards.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecbos_wgt.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecgive.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object veclib.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecmat1.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecmat2.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vecmat3.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vflavas.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object viq.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object viso.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vwepro.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vwhfcc.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object vwrdin.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object decadd.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object pyupev.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object std_getnext.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object stddecayqq.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object stdhep_read.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling static library object stdqqdcy.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libcons_ Thu Apr 10 16:38:16 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libcons_ Thu Apr 10 16:38:16 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Building library libmcpp_gen.a
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _libcons_ Thu Apr 10 16:38:17 CDT 2008 mcpp_gen (/test)
+#
+#----- (bin) mcpp_gen p21-br-02
+#
+<--> (GNUmakefile.main        ; __mcpp_gen__            ) _bin_     Thu Apr 10 17:43:26 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _bin_     Thu Apr 10 17:43:26 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _bin_     Thu Apr 10 17:43:26 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _bincmp_  Thu Apr 10 17:43:28 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _bincmp_  Thu Apr 10 17:43:29 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _bincmp_  Thu Apr 10 17:43:29 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Compiling simplebins binary testISApartons.x.
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _binlnk_  Thu Apr 10 17:43:30 CDT 2008 mcpp_gen ()
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _binlnk_  Thu Apr 10 17:43:30 CDT 2008 mcpp_gen (/test)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) _binlnk_  Thu Apr 10 17:43:30 CDT 2008 mcpp_gen (/src)
+<--> (SRT_rules.mk            ; __mcpp_gen__            ) Linking simplebins binary testISApartons.x.

@@ -1,0 +1,465 @@
+<!-- Title: Day shift. Wed Sep  4, 2002 -->
+<!-- SciCo: chertok -->
+<!-- DAQAce: Jian Kang -->
+<!-- MonAce: Chris Hays -->
+<!-- CO: Wolfgang Wagner -->
+<!-- OpManager: Eric James -->
+<!-- Notes: -->
+<pre></pre>
+
+<!-- Date: Wed Sep 4 08:21:57 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150958">150958</A>
+ Terminated at 2002.09.04 08:23:21
+<!-- processed by 131.225.127.7 -->
+<!-- Author: RunControl -->
+<!-- Comment: Wed Sep  4 15;45;28 comment by...chertok -->
+A1,A2,A3,A4 and F1 quenched...
+<!-- Comment: Wed Sep  4 15;53;56 comment by...chertok -->
+Actually, it was : A1-4, B1 and F4
+<!-- Date: Wed Sep 4 08:23:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150958">150958</A>
+TERMINATE: We ended the run coz COT CMU CCAL Trigger inhibits. We are trying to find the problem, Monitor Ace has put hardware to standby
+<!-- processed by 131.225.235.50 -->
+<!-- Author: ace Jian 2080 -->
+
+
+<!-- Date: Wed Sep 4 08:23:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150958">150958</A>
+TERMINATE: We ended the run coz COT CMU CCAL Trigger inhibits. We are trying to find the problem, Monitor Ace has put hardware to standby
+<!-- processed by 131.225.235.50 -->
+<!-- Author: ace Jian 2080 -->
+
+
+
+<!-- Date: Wed Sep 4 08:24:28 2002 -->
+Beam lost.  COT, CMU, CMP, CMX, BMU, CES, CPR, and CCR tripped.  All have been moved to standby and TOF has been turned off.
+<!-- Author: Chris -->
+<!-- Comment: Wed Sep  4 08;26;48 comment by...Chris -->
+Called MCR -- they confirmed a quench.
+
+<!-- Comment: Wed Sep  4 08;30;38 comment by...Chris -->
+COT low voltage still showing a trip in SL2.  Trying to contact expert.
+
+
+<!-- Date: Wed Sep 4 08:37:07 2002 -->
+Contacted COT expert (Morris Binkley).  He told us to try clicking on standby again, but that didn't change anything.  SL2 is completely off.  He is coming in. 
+ 
+CLC and MNP have been turned off.
+<!-- Author: Chris -->
+<!-- Comment: Wed Sep  4 09;31;13 comment by...Chris -->
+Aseet came in and brought SL2 up to standby.
+<!-- Date: Wed Sep 4 08:37:52 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150959">150959</A>
+ACTIVATE: CAL QIE Calibration
+<!-- processed by 131.225.235.54 -->
+<!-- Author: ace Jian 2080 -->
+
+
+<!-- Date: Wed Sep 4 08:44:16 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150960">150960</A>
+ACTIVATE: CAL LEAD Calibration
+<!-- processed by 131.225.130.64 -->
+<!-- Author: ace Jian 2080 -->
+
+
+
+<!-- Date: Wed Sep 4 08:57:07 2002 -->
+Paged Fiodar regarding MSK, CSX, CSW, TSU, BSU, and CSP heartbeats.  He said they should come on at 9, he will come in to make sure.
+<!-- Author: Chris -->
+<!-- Comment: Wed Sep  4 09;07;39 comment by...Chris -->
+Turned PEM high voltage to standby.
+<!-- Comment: Wed Sep  4 09;20;31 comment by...Chris -->
+Fiodar says there seems to be something wrong with the PC -- he is investigating.
+<!-- Comment: Wed Sep  4 10;05;13 comment by...Fiodar -->
+There was system crash, posibly caused driver conflict..
+A cleanup was performed by Mark, now system restarted
+<!-- Date: Wed Sep 4 08:57:26 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150961">150961</A>
+ACTIVATE: CAL XEF Calibration Run
+<!-- processed by 131.225.236.26 -->
+<!-- Author: ace Jian 2080 -->
+
+
+
+<!-- Date: Wed Sep 4 09:11:55 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150962">150962</A>
+ACTIVATE: CLC Calibration Run
+<!-- processed by 131.225.127.7 -->
+<!-- Author: ace Jian 2080 -->
+
+
+
+<!-- Date: Wed Sep 4 09:13:11 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7228&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7228  width='300' align='top'></td><td>End of run SVX rad.</a></td></tr></table>
+<!-- Author: Chris -->
+
+<!-- Date: Wed Sep 4 09:17:19 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150963">150963</A>
+ACTIVATE: SMX QIE Calibration
+<!-- processed by 128.135.102.40 -->
+<!-- Author: ace Jian 2080 -->
+
+
+
+
+<!-- Date: Wed Sep 4 09:29:17 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7230&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7230  width='300' align='top'></td><td>Beam conditions before quench.</a></td></tr></table>
+<!-- Author: Chris -->
+
+
+
+<!-- Date: Wed Sep 4 09:45:55 2002 -->
+<table border=0><td><tr><td bgcolor=#e0e030>CMX HV WORK: 
+ 
+ SW 11 & 12 and SE 16 &17 are on. They should be on during the 
+ whole quiet time. If they trip they can be reset following  
+ usual procedure. </td></tr></td></table>
+<!-- Author: Abraham Gallas -->
+
+
+<!-- Date: Wed Sep 4 09:56:31 2002 -->
+At about 9:30am, rc has been crashed on b0dap59, and after that, I found b0dap52, b0dap59, b0dap58, xdisplay doesn't work. We called Frank, we just exied from the above 3 computers. Things work fine now.
+<!-- Author: Jian -->
+
+<!-- Date: Wed Sep 4 10:01:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150966">150966</A>
+ACTIVATE: DAQ L2_toture Run
+<!-- processed by 131.225.81.219 -->
+<!-- Author: ace 2080 -->
+<!-- Comment: Wed Sep  4 10;01;42 comment by...Greg -->
+<pre>svt mode = hwstephen4
+</pre>
+
+
+<!-- Comment: Wed Sep  4 10;05;23 comment by...Greg -->
+<pre>The SRC is in but the Silicon is off.
+Steve is looking at SRC stuff with the scope.</pre>
+
+<!-- Comment: Wed Sep  4 10;14;56 comment by...Jian -->
+changer the prescale around 100,000 events 
+
+<!-- Comment: Wed Sep  4 10;26;38 comment by...Jian -->
+SCPU-P0-E-VRBReadFailed:Error Reading VRB in slot 1.  
+Done timeout in every crate, and L2, L3 trigger goes to 0.
+
+<!-- Comment: Wed Sep  4 10;27;06 comment by...Jian -->
+Sorry, it should be slot 14.
+
+<!-- Comment: Wed Sep  4 10;30;07 comment by...Jian -->
+b0wcal03 bunchcounter in slot5 and 20 disagree.
+
+<!-- Comment: Wed Sep  4 10;34;13 comment by...Greg -->
+<pre>Note:  No sync errors from the Scalers and no apparent 
+clock glitch  ... what could cause such a thing?
+
+</pre>
+
+<!-- Comment: Wed Sep  4 10;45;39 comment by...Greg and Steve -->
+<pre>Ending run to go to Myron MOe.
+</pre>
+
+<!-- Date: Wed Sep 4 10:49:10 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150967">150967</A>
+ACTIVATE: Start a New Run on Myron Mode
+<!-- processed by 131.225.127.7 -->
+<!-- Author: ace 2080 -->
+<!-- Comment: Wed Sep  4 10;50;02 comment by...Greg -->
+<pre>Masked some L1 triggers to lower the rate</pre>
+
+
+<!-- Date: Wed Sep 4 10:50:12 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7233&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7233' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7232&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7232' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7231&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7231' width='300'></a></center>
+<!-- Author: Chris -->
+<!-- Comment: Wed Sep  4 10;50;40 comment by...Chris -->
+Plots added at request of Gino.  Correspond to details of abort.
+
+
+<!-- Date: Wed Sep 4 10:54:12 2002 -->
+<pre>Results of Calorimeter calibration run 150959 
+============================================= 
+ 
+BAD channels: 
+============= 
+ 
+Run, Wedge, Channel, Cap, Detector, Mean(ref), Mean, RMS(ref), Sigma 
+150959   2 W   4  0  PHA  206#pm 5  201  0&lt;rms&lt;4   1.34  
+150959   2 W   4  2  PHA  211#pm 5  206  0&lt;rms&lt;4   1.51  
+150959   3 W  16  0  PHA  186#pm 5  181  0&lt;rms&lt;4   1.42  
+150959   3 W  16  2  PHA  185#pm 5  180  0&lt;rms&lt;4   1.29  
+150959  15 W   2  2  PHA  183#pm 5  178  0&lt;rms&lt;4   1.40  
+150959  16 W   1  2  PHA  171#pm 5  165  0&lt;rms&lt;4   1.55  
+150959  19 W   7  2  PHA  179#pm 5  174  0&lt;rms&lt;4   1.25  
+150959  20 W   7  3  PHA  190#pm 5  185  0&lt;rms&lt;4   1.44  
+150959  22 W  17  3  PHA  200#pm 5  195  0&lt;rms&lt;4   1.37  
+150959   3 E   1  2  PHA  163#pm 5  158  0&lt;rms&lt;4   1.51  
+150959  13 E   7  3  PHA  182#pm 5  177  0&lt;rms&lt;4   1.33  
+150959  14 W   5  0  WHA  184#pm 5  178  0&lt;rms&lt;4   2.44  
+150959  14 W   5  2  WHA  188#pm 5  182  0&lt;rms&lt;4   2.39  
+150959  21 E   3  0  WHA  183#pm 5  175  0&lt;rms&lt;4   1.63  
+150959  21 E   3  1  WHA  185#pm 5  177  0&lt;rms&lt;4   1.66  
+150959  21 E   3  2  WHA  182#pm 5  174  0&lt;rms&lt;4   1.65  
+150959  21 E   3  3  WHA  188#pm 5  181  0&lt;rms&lt;4   1.70  
+150959   9 W   1  1  CHA  166#pm 5  161  0&lt;rms&lt;4   1.38  
+150959   2 E  11  0  CHA  186#pm 5  181  0&lt;rms&lt;4   1.53  
+150959  15 E  12  0  CHA  194#pm 5  152  0&lt;rms&lt;4   1.45  
+150959  15 E  12  1  CHA  197#pm 5  155  0&lt;rms&lt;4   1.42  
+150959  15 E  12  2  CHA  197#pm 5  158  0&lt;rms&lt;4   1.55  
+150959  15 E  12  3  CHA  204#pm 5  162  0&lt;rms&lt;4   1.60  
+150959  16 W  17  2  CEM  187#pm 5  182  0&lt;rms&lt;4   1.46  
+150959  17 W   3  0  CEM  187#pm 5  182  0&lt;rms&lt;4   1.26  
+150959  17 W   9  0  CEM  191#pm 5  186  0&lt;rms&lt;4   1.42  
+150959  17 W  11  0  CEM  182#pm 5  177  0&lt;rms&lt;4   1.31  
+150959  17 W  19  0  CEM  182#pm 5  177  0&lt;rms&lt;4   1.30  
+150959  17 W  19  2  CEM  185#pm 5  180  0&lt;rms&lt;4   1.37  
+150959   1 E   4  3  CEM  195#pm 5  190  0&lt;rms&lt;4   1.35  
+150959  18 E  17  0  CEM  168#pm 5  163  0&lt;rms&lt;4   1.44  
+150959   1 W  16  2  PEM  188#pm 5  183  0&lt;rms&lt;4   1.33  
+150959   2 W   2  1  PEM  181#pm 5  176  0&lt;rms&lt;4   1.34  
+150959   2 W  10  2  PEM  191#pm 5  186  0&lt;rms&lt;4   1.53  
+150959   2 W  10  3  PEM  197#pm 5  192  0&lt;rms&lt;4   1.38  
+150959   6 W   2  2  PEM  189#pm 5  184  0&lt;rms&lt;4   1.35  
+150959   6 W   4  0  PEM  178#pm 5  173  0&lt;rms&lt;4   1.46  
+150959   6 W   5  3  PEM  178#pm 5  173  0&lt;rms&lt;4   1.55  
+150959  19 W   3  0  PEM  167#pm 5  162  0&lt;rms&lt;4   1.50  
+150959  20 W   6  0  PEM  186#pm 5  181  0&lt;rms&lt;4   1.40  
+150959  21 W  14  0  PEM  210#pm 5  205  0&lt;rms&lt;4   1.37  
+Run, Wedge, Channel, Cap, Detector, Mean(ref), Mean, RMS(ref), Sigma 
+150959  21 W  14  2  PEM  211#pm 5  206  0&lt;rms&lt;4   1.33  
+150959  21 W  14  3  PEM  214#pm 5  209  0&lt;rms&lt;4   1.28  
+150959  22 W  10  2  PEM  178#pm 5  173  0&lt;rms&lt;4   1.43  
+150959  22 W  17  2  PEM  191#pm 5  186  0&lt;rms&lt;4   1.49  
+150959   1 E   2  1  PEM  197#pm 5  192  0&lt;rms&lt;4   1.50  
+150959  20 E   3  2  PEM  168#pm 5  163  0&lt;rms&lt;4   1.41  
+ 
+ 
+</pre>
+<!-- Author: Wolfgang Wagner :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150959' target=_top>150959</a>) -->
+
+<!-- Date: Wed Sep 4 11:32:59 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150973">150973</A>
+ACTIVATE: L2_toture Run
+<!-- processed by 131.225.232.1 -->
+<!-- Author: ace 2080 -->
+
+
+<!-- Date: Wed Sep 4 11:39:19 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150975">150975</A>
+ACTIVATE: L2_TORTURE Run
+<!-- processed by 131.225.236.26 -->
+<!-- Author: ace 2080 -->
+<!-- Comment: Wed Sep  4 12;38;10 comment by...Greg -->
+<pre>This run had L2R only.  L1A rate small and primarily
+from the BC trigger.
+
+</pre>
+<!-- Date: Wed Sep 4 12:02:45 2002 -->
+Took miniplug LED calibration runs with HV on. Then, lowered the HV for some PMTs and took other LED runs to see how much the gain 
+changes. We will leave new HV setting as it is.
+<!-- Author: K. Terashi -->
+
+
+<!-- Date: Wed Sep 4 12:59:51 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150982">150982</A>
+ACTIVATE: L2_TORTURE Run again
+<!-- processed by 131.225.235.105 -->
+<!-- Author: ace 2080 -->
+
+
+
+<!-- Date: Wed Sep 4 13:22:12 2002 -->
+<pre>Silicon test runs up to now have had SVTmode = hwstephen4. 
+We are now switching to hw=notracks whichc was what was employed 
+last night, 
+ 
+</pre>
+<!-- Author: Greg -->
+
+<!-- Date: Wed Sep 4 13:24:07 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150983">150983</A>
+ACTIVATE: L2_TORTURE without Myron Mode, SVTmode hw-notracks
+<!-- processed by 131.225.236.162 -->
+<!-- Author: ace 2080 -->
+<!-- Comment: Wed Sep  4 13;25;47 comment by...Greg and Steve -->
+<pre>Now: MMode off. L2R only turned off. Set the SRC 
+digitize time to 40 us.  hw=notracks. L1A =24 kHz.
+</pre>
+
+<!-- Comment: Wed Sep  4 13;29;02 comment by...Jian -->
+b0ccal01 :  Messenger : 1:28:12 PM
+ -> Runtime Error 2, Event 26359: SMXR in slot 5 is not responding, header 0x0x3bfe576
+
+
+<!-- Comment: Wed Sep  4 13;37;37 comment by...Jian -->
+<pre>got 5 more 'VRB had no event' error messages: 
+ see ErrorHandler log file for ALL 'VRB had no event' messages. 
+
+(MLE) b0tsi02:Messenger:1:37:03 PM-&gt;DONE timeout
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:37:55 PM-&gt;*** Received error from /_b0dap59.fnal.gov_155fd08f
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:37:55 PM-&gt; ** Error message received:
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:37:55 PM-&gt; ** Error sender    = /_b0dap59.fnal.gov_155fd08f
+(MLE) b0l3gate1.fnal.gov:main:1:37:55 PM-&gt;Host b0eb15.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 12 for event 99832.
+The VRB had no event.
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:37:55 PM-&gt; ** Error nodeStr   = errmon
+ got 4 more 'VRB had no event' error messages: 
+ see ErrorHandler log file for ALL 'VRB had no event' messages. 
+
+(MLE) b0tsi02:Messenger:1:37:07 PM-&gt;DONE timeout
+(MLE) b0tsi02:Messenger:1:37:11 PM-&gt;DONE timeout
+(MLE) b0tsi02:Messenger:1:37:15 PM-&gt;DONE timeout
+</pre>
+<!-- Comment: Wed Sep  4 13;45;22 comment by...Jian -->
+1 crate/s: b0svx02(112),  Done TO.[RXPT]
+(MLE) b0tsi02:Messenger:1:43:22 PM->DONE timeout
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:13 PM->*** Received error from /_b0dap59.fnal.gov_155fd08f
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:13 PM-> ** Error message received:
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:13 PM-> ** Error sender    = /_b0dap59.fnal.gov_155fd08f
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:13 PM-> ** Error nodeStr   = errmon
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:13 PM-> ** Error stateStr  = Active
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:13 PM-> ** Error command   = HaltRecoverRun
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:14 PM-> *** Received error message: errmon Active HaltRecoverRun 1 crate/s: b0svx02(112),  Done TO.[RXPT]
+(MLE) b0tsi02:Messenger:1:43:26 PM->DONE timeout
+(RC)   13:44:20 Halt -> HALTED
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:44:27 PM->Errors reported by the Trigger Supervisor:
+  Level 2 Error
+
+<!-- Date: Wed Sep 4 13:36:27 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7234&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7234  width='300' align='top'></td><td>L2 Timing for Whole Event.  Greg says it looks interesting. It is how long it takes L2 to decide, but we are running under Greg's special conditions.  However, the START time is not well understood (by us, anyway).  In this run we see L1 DONE deadtime.</a></td></tr></table>
+<!-- Author: Steve Nahn -->
+
+
+
+
+<!-- Date: Wed Sep 4 13:50:19 2002 -->
+ 
+(MLE) b0ccal01:Messenger:1:50:33 PM->Runtime Error 4, Event 185283: SMXR in slot 5 is not responding, header 0x0x3bfe51b 
+1 crate/s: b0ccal01(1),  Done TO.[RXPT] 
+(MLE) b0tsi02:Messenger:1:49:45 PM->DONE timeout 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM->*** Received error from /_b0dap59.fnal.gov_155fd08f 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM-> ** Error message received: 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM-> ** Error sender    = /_b0dap59.fnal.gov_155fd08f 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM-> ** Error nodeStr   = errmon 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM-> ** Error stateStr  = Active 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM-> ** Error command   = HaltRecoverRun 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:50:37 PM-> *** Received error message: errmon Active HaltRecoverRun 1 crate/s: b0ccal01(1),  Done TO.[RXPT] 
+(MLE) b0tsi02:Messenger:1:49:49 PM->DONE timeout 
+(RC)   13:50:45 Halt -> HALTED 
+(RC)   13:50:52 Recover -> RECOVERED 
+(RC)   13:50:56 Run -> ACTIVE
+<!-- Author: Jian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150983' target=_top>150983</a>) -->
+<!-- Comment: Wed Sep  4 13;51;45 comment by...Jian -->
+Exactly the same thing happens after 10 seconds. HRR come back.
+
+
+<!-- Date: Wed Sep 4 14:02:34 2002 -->
+Stefano ________ and Steve Gordon made a quick access to check helium levels in the collision hall.  Dzero apparently has a helium leak from the Tevatron.  In lieu of an e-log entry from the controlled accessors (ahem), I was told that they do not see elevated helium levels at B0.
+<!-- Author: chertok -->
+
+
+<!-- Date: Wed Sep 4 14:35:59 2002 -->
+Heartbeats for GAM, WHA, CHA, and CEM have been on for several hours now.  We paged Nikolay, who said everything looks fine from his end.  He restarted the programs as a check.  I called J.C., who said to wait a half an hour and to call him back if the heartbeats don't go away. 
+ 
+Meanwhile, Fiodar continues to work on MSK, CSX, etc.
+<!-- Author: Chris -->
+
+<!-- Date: Wed Sep 4 15:20:18 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150984">150984</A>
+ Activated at 2002.09.04 15:21:40
+<!-- processed by 131.225.232.133 -->
+<!-- Author: RunControl -->
+<!-- Comment: Wed Sep  4 15;27;09 comment by...Jian -->
+End the L2_TORTURE Run.
+<!-- Date: Wed Sep 4 15:20:34 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150984">150984</A>
+ACTIVATE: Cosmic Run [7.137.292]
+<!-- processed by 131.225.236.162 -->
+<!-- Author: ace 2080 -->
+
+
+
+
+<!-- Date: Wed Sep 4 15:40:00 2002 -->
+Called the MCR: 
+A3 compressor still being worked on, 
+A2 and A4 still need cooldown 
+Call back in 1 hour for update!
+<!-- Author: chertok -->
+
+
+<!-- Date: Wed Sep 4 15:53:30 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150958>150958</A> 
+x24DAE</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [3,136,313]</TD>                                       
+<TD ALIGN=CENTER>07:59:19</TD>                                          
+<TD ALIGN=CENTER>08:23:21</TD>                                          
+<TD ALIGN=CENTER>00:23:07</TD>                                          
+<TD ALIGN=RIGHT>      6,312,767</TD>                                    
+<TD ALIGN=RIGHT>       134,904</TD>                                     
+<TD ALIGN=RIGHT>      23,775</TD>                                       
+<TD ALIGN=RIGHT>   16.172</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:01</TD>                                                       
+<TD ALIGN=CENTER>00:23:07</TD>                                          
+<TD ALIGN=RIGHT>       6,312,767</TD>                                   
+<TD ALIGN=RIGHT>        134,904</TD>                                    
+<TD ALIGN=RIGHT>        23,775</TD>                                     
+<TD ALIGN=RIGHT>   16.172</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- processed by 141.211.99.96 -->
+<!-- Author: End of Shift Report -->
+
+
+
+
+<!-- Date: Wed Sep 4 16:13:04 2002 -->
+<font color=red>Shift Summary: </font><pre>Day shift Sept. 04, 2002 summary 
+-------------------------------- 
+Quenches at 8:25am:  A1-4, B1 and F4  
+	 Most detectors tripped. 
+	 (at least Silicon was off) 
+Ran calibrations, cosmics. 
+Fiodar paged due to some various heartbeats.  Cleanup done, system 
+       restarted. 
+CMX HV SW 11&12, SE 16&17 turned on.   
+L2 torture tests by Greg. 
+Stefano and Steve made quick access to check helium levels in 
+	collision hall.  Seems to be OK?  Verification? 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   150958-150984
+Delivered Luminosity   16.2  
+Acquired Luminosity    16  
+Efficiency             98.8
+   
+</td></tr></table></pre>
+<!-- Author: chertok -->

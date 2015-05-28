@@ -1,0 +1,420 @@
+untarring netcdf
+Installation of netcdf to /usr/local/cdat
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for top-level source-directory... /work/main/exsrc/build/netcdf-3.6.0-p1/src
+checking for xlc... no
+checking for cc... no
+checking for c89... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for cl... no
+checking for KCC... no
+checking for CC... no
+checking for cxx... no
+checking for cc++... no
+checking for xlC... no
+checking for aCC... no
+checking for c++... c++
+checking whether we are using the GNU C++ compiler... yes
+checking whether c++ accepts -g... yes
+checking C++ compiler "c++"... works
+checking whether we are using the GNU Fortran compiler... yes
+checking whether /usr/local/bin/gfortran accepts -g... yes
+checking if Fortran-related pre-processor flag needed...  -DpgiFortran
+checking "/usr/local/bin/gfortran" as Fortran-90 compiler... works
+configure: checking for m4 preprocessor...
+checking for m4... m4
+checking m4 flags... -B10000
+checking how to make dependencies... false
+checking if we need to set _LARGE_FILES on AIX with OBJECT_MODE=64 or CFLAGS includes -q64... 
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+configure: checking for ar utility...
+checking for ar... ar
+checking ar flags... cru
+configure: checking for nm utility...
+checking for nm... nm
+checking nm flags... 
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/install -c
+checking CPPFLAGS...  -DpgiFortran
+checking CC CFLAGS... gcc -g
+checking which gcc... /usr/local/bin/gcc
+checking CXX... c++
+checking CXXFLAGS... -g -O2
+checking which c++... /usr/local/bin/c++
+checking FC... /usr/local/bin/gfortran
+checking FFLAGS... 
+checking which /usr/local/bin/gfortran... /usr/local/bin/gfortran
+checking F90... /usr/local/bin/gfortran
+checking F90FLAGS... 
+checking which /usr/local/bin/gfortran... /usr/local/bin/gfortran
+checking AR... ar
+checking ARFLAGS... cru
+checking which ar... /usr/bin/ar
+checking NM... nm
+checking NMFLAGS... 
+checking which nm... /usr/bin/nm
+checking RANLIB... ranlib
+checking RANLIBFLAGS... 
+checking which ranlib... /usr/bin/ranlib
+checking for SunOS Fortran -ftrap= option... 
+checking how to run the C preprocessor... gcc -E
+checking user-defined Fortran-77 compiler "/usr/local/bin/gfortran"... works
+checking for Fortran .F compiler... 
+checking if Fortran-77 compiler handles *.F files... yes
+checking for C-equivalent to Fortran routine "SUB"... sub_
+checking for Fortran "byte"... no
+checking for Fortran "integer*1"... yes
+checking for Fortran "integer*2"... yes
+checking if Fortran "integer*1" is C "signed char"... yes
+checking if Fortran "integer*1" is C "short"... no
+checking if Fortran "integer*1" is C "int"... no
+checking if Fortran "integer*1" is C "long"... no
+checking if Fortran "integer*2" is C "short"... yes
+checking if Fortran "integer*2" is C "int"... no
+checking if Fortran "integer*2" is C "long"... no
+checking if Fortran "integer" is C "int"... yes
+checking if Fortran "real" is C "float"... yes
+checking if Fortran "doubleprecision" is C "double"... yes
+checking for Fortran-equivalent to netCDF "byte"... integer*1
+checking for Fortran-equivalent to netCDF "short"... integer*2
+configure: checking for math library...
+checking for tanh in -lc... no
+checking for tanh in -lm... yes
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdlib.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for strerror... yes
+checking for working ftruncate()... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for struct stat.st_blksize... yes
+checking for IEEE floating point format... yes
+checking for size_t... yes
+checking for off_t... yes
+checking for ssize_t... yes
+checking for ptrdiff_t... yes
+checking for uchar... no
+checking whether char is unsigned... no
+checking whether byte ordering is bigendian... no
+checking for short... yes
+checking size of short... 2
+checking for int... yes
+checking size of int... 4
+checking for long... yes
+checking size of long... 4
+checking for float... yes
+checking size of float... 4
+checking for double... yes
+checking size of double... 8
+checking size of off_t... 8
+checking size of size_t... 4
+checking for manual-page index command... 
+checking binary distribution directory... /home/ftp/pub/binary/dummy_system
+configure: creating ./config.status
+config.status: creating macros.make
+config.status: creating libsrc/ncconfig.h
+config.status: creating fortran/nfconfig.inc
+config.status: executing default commands
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc'
+gcc -c -g -I.   -DpgiFortran attr.c
+gcc -c -g -I.   -DpgiFortran dim.c
+gcc -c -g -I.   -DpgiFortran error.c
+gcc -c -g -I.   -DpgiFortran -DVERSION=`cat ../VERSION` libvers.c
+gcc -c -g -I.   -DpgiFortran nc.c
+gcc -c -g -I.   -DpgiFortran ncio.c
+gcc -c -g -I.   -DpgiFortran ncx.c
+gcc -c -g -I.   -DpgiFortran putget.c
+gcc -c -g -I.   -DpgiFortran string.c
+gcc -c -g -I.   -DpgiFortran v1hpg.c
+gcc -c -g -I.   -DpgiFortran v2i.c
+gcc -c -g -I.   -DpgiFortran var.c
+ar cru libnetcdf.a attr.o dim.o error.o libvers.o nc.o ncio.o ncx.o putget.o string.o v1hpg.o v2i.o var.o
+ranlib libnetcdf.a
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump'
+gcc -c -g -I../libsrc   -DpgiFortran ncdump.c
+gcc -c -g -I../libsrc   -DpgiFortran vardata.c
+gcc -c -g -I../libsrc   -DpgiFortran dumplib.c
+gcc -o ncdump -g  ncdump.o vardata.o dumplib.o ../libsrc/libnetcdf.a  
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen'
+gcc -c -g -I../libsrc -I.   -DpgiFortran main.c
+gcc -c -g -I../libsrc -I.   -DpgiFortran load.c
+gcc -c -g -I../libsrc -I.   -DpgiFortran ncgentab.c
+gcc -c -g -I../libsrc -I.   -DpgiFortran escapes.c
+gcc -c -g -I../libsrc -I.   -DpgiFortran getfill.c
+gcc -c -g -I../libsrc -I.   -DpgiFortran init.c
+gcc -c -g -I../libsrc -I.   -DpgiFortran genlib.c
+gcc -o ncgen -g  main.o load.o ncgentab.o escapes.o getfill.o init.o genlib.o ../libsrc/libnetcdf.a  
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx'
+c++ -c -g -O2 -I../libsrc -I.   -DpgiFortran netcdf.cpp
+c++ -c -g -O2 -I../libsrc -I.   -DpgiFortran ncvalues.cpp
+ar cru libnetcdf_c++.a netcdf.o ncvalues.o
+ranlib libnetcdf_c++.a
+c++ -c -g -O2 -I../libsrc -I.   -DpgiFortran nctst.cpp
+c++ -o nctst -g -O2  nctst.o libnetcdf_c++.a -L../libsrc -lnetcdf 
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran'
+gcc -c -g -I../libsrc   -DpgiFortran fort-attio.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-control.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-dim.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-genatt.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-geninq.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-genvar.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-lib.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-misc.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-v2compat.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-vario.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-var1io.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-varaio.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-varmio.c
+gcc -c -g -I../libsrc   -DpgiFortran fort-varsio.c
+ar cru ../libsrc/libnetcdf.a fort-attio.o fort-control.o fort-dim.o fort-genatt.o fort-geninq.o fort-genvar.o fort-lib.o fort-misc.o fort-v2compat.o fort-vario.o fort-var1io.o fort-varaio.o fort-varmio.o fort-varsio.o
+ranlib ../libsrc/libnetcdf.a
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/f90
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+/usr/local/bin/gfortran -c  typeSizes.f90
+/usr/local/bin/gfortran -c  netcdf.f90
+ar cru ../libsrc/libnetcdf.a netcdf.o typeSizes.o
+ranlib ../libsrc/libnetcdf.a
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc'
+ar cru libnetcdf.a attr.o dim.o error.o libvers.o nc.o ncio.o ncx.o putget.o string.o v1hpg.o v2i.o var.o
+ranlib libnetcdf.a
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump'
+gcc -o ncdump -g  ncdump.o vardata.o dumplib.o ../libsrc/libnetcdf.a  
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen'
+gcc -o ncgen -g  main.o load.o ncgentab.o escapes.o getfill.o init.o genlib.o ../libsrc/libnetcdf.a  
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx'
+ar cru libnetcdf_c++.a netcdf.o ncvalues.o
+ranlib libnetcdf_c++.a
+c++ -o nctst -g -O2  nctst.o libnetcdf_c++.a -L../libsrc -lnetcdf 
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran'
+ar cru ../libsrc/libnetcdf.a fort-attio.o fort-control.o fort-dim.o fort-genatt.o fort-geninq.o fort-genvar.o fort-lib.o fort-misc.o fort-v2compat.o fort-vario.o fort-var1io.o fort-varaio.o fort-varmio.o fort-varsio.o
+ranlib ../libsrc/libnetcdf.a
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `all' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/f90
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+ar cru ../libsrc/libnetcdf.a netcdf.o typeSizes.o
+ranlib ../libsrc/libnetcdf.a
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `install' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc'
+test -d /usr/local/cdat/NetCDF/lib || mkdir /usr/local/cdat/NetCDF/lib
+ar cru libnetcdf.a attr.o dim.o error.o libvers.o nc.o ncio.o ncx.o putget.o string.o v1hpg.o v2i.o var.o
+ranlib libnetcdf.a
+/usr/bin/install -c libnetcdf.a /usr/local/cdat/NetCDF/lib/libnetcdf.a
+test -d /usr/local/cdat/NetCDF/include || mkdir /usr/local/cdat/NetCDF/include
+/usr/bin/install -c netcdf.h /usr/local/cdat/NetCDF/include/netcdf.h
+test -d /usr/local/cdat/NetCDF/man || mkdir /usr/local/cdat/NetCDF/man
+test -d /usr/local/cdat/NetCDF/man/man3 || mkdir /usr/local/cdat/NetCDF/man/man3
+/usr/bin/install -c netcdf.3 /usr/local/cdat/NetCDF/man/man3/netcdf.3
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/libsrc'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `install' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran'
+/usr/bin/install -c netcdf.inc /usr/local/cdat/NetCDF/include/netcdf.inc
+/usr/bin/install -c netcdf.3f /usr/local/cdat/NetCDF/man/man3/netcdf.3f
+test -d /usr/local/cdat/NetCDF/man/man3f || mkdir /usr/local/cdat/NetCDF/man/man3f
+rm -f /usr/local/cdat/NetCDF/man/man3f/netcdf.3f
+ln -s /usr/local/cdat/NetCDF/man/man3/netcdf.3f /usr/local/cdat/NetCDF/man/man3f/netcdf.3f
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/fortran'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `install' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/f90
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+make[3]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+/usr/bin/install -c netcdf.mod /usr/local/cdat/NetCDF/include/netcdf.mod
+make[3]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+make[3]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+/usr/bin/install -c typesizes.mod /usr/local/cdat/NetCDF/include/typesizes.mod
+make[3]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+test -d /usr/local/cdat/NetCDF/man/man3 || mkdir /usr/local/cdat/NetCDF/man/man3
+/usr/bin/install -c netcdf.3f90 /usr/local/cdat/NetCDF/man/man3/netcdf.3f90
+test -d /usr/local/cdat/NetCDF/man/man3f90 || mkdir /usr/local/cdat/NetCDF/man/man3f90
+rm -f /usr/local/cdat/NetCDF/man/man3f90/netcdf.3f90
+ln -s /usr/local/cdat/NetCDF/man/man3/netcdf.3f90 /usr/local/cdat/NetCDF/man/man3f90/netcdf.3f90
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/f90'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `install' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump'
+test -d /usr/local/cdat/NetCDF/bin || mkdir /usr/local/cdat/NetCDF/bin
+gcc -o ncdump -g  ncdump.o vardata.o dumplib.o ../libsrc/libnetcdf.a  
+/usr/bin/install -c ncdump /usr/local/cdat/NetCDF/bin/ncdump
+test -d /usr/local/cdat/NetCDF/man/man1 || mkdir /usr/local/cdat/NetCDF/man/man1
+/usr/bin/install -c ncdump.1 /usr/local/cdat/NetCDF/man/man1/ncdump.1
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncdump'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `install' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen'
+gcc -o ncgen -g  main.o load.o ncgentab.o escapes.o getfill.o init.o genlib.o ../libsrc/libnetcdf.a  
+/usr/bin/install -c ncgen /usr/local/cdat/NetCDF/bin/ncgen
+/usr/bin/install -c ncgen.1 /usr/local/cdat/NetCDF/man/man1/ncgen.1
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/ncgen'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+make[1]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'
+
+Making `install' in directory /work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx
+
+make[2]: Entering directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx'
+ar cru libnetcdf_c++.a netcdf.o ncvalues.o
+ranlib libnetcdf_c++.a
+/usr/bin/install -c libnetcdf_c++.a /usr/local/cdat/NetCDF/lib/libnetcdf_c++.a
+/usr/bin/install -c netcdfcpp.h /usr/local/cdat/NetCDF/include/netcdfcpp.h
+/usr/bin/install -c ncvalues.h /usr/local/cdat/NetCDF/include/ncvalues.h
+/usr/bin/install -c netcdf.hh /usr/local/cdat/NetCDF/include/netcdf.hh
+make[2]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src/cxx'
+
+Returning to directory /work/main/exsrc/build/netcdf-3.6.0-p1/src
+
+make[1]: Leaving directory `/lgm2/work/main/exsrc/build/netcdf-3.6.0-p1/src'

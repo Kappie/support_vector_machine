@@ -1,0 +1,330 @@
+<!-- Title: Owl shift. Sun May 19, 2002 -->
+<!-- SciCo: Tipton -->
+<!-- DAQAce: Phil Yoon -->
+<!-- MonAce: Niccolo Moggi -->
+<!-- CO: Sarah Case -->
+<!-- OpManager: Bill Orejudos -->
+<!-- Notes: -->
+<pre>We inherit a working CDF, with silicon integrated.  Run number is 145034.  Inst. lum is 11e30.</pre>
+
+
+<!-- Date: Sun May 19 00:16:47 2002 -->
+<br><b> Start of DAQ </b> 
+<ul><li> Store #: 1333  </li></ul> 
+<ul><li> Inherited run: 145034 </li></ul> 
+<ul><li> PHYSICS_TABLE_1_01[8,49,296] </li></ul> 
+<ul><li> PHYSICS/Beam Data </li></ul> 
+<ul><li> Total DT: 1.13 % </li></ul>
+<ul><li> L1A/L2A/L3A/Fred L1A: 4,353/178/24/4,412 Hz </li></ul>
+<ul><li> B0 Initial Lum: 11 E30 (nb-1) </li></ul>  
+<!-- Author: PY -->
+
+
+<!-- Date: Sun May 19 00:49:33 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3210&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3210' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3209&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3209' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3208&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3208' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Sun May 19 01:07:14 2002 -->
+BSU alarm again. I'll just forget about it...
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145034' target=_top>145034</a>) -->
+
+<!-- Date: Sun May 19 01:20:30 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145034">145034</A>
+ Terminated at 2002.05.19 01:20:14
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun May 19 01:41:02 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145035">145035</A>
+ Activated at 2002.05.19 01:40:28
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun May 19 01:41:58 2002 -->
+TOF high voltage bars went yellow for a moment and the right bar 
+went up to 120%.  
+Missing heartbeat from all four forward detectors. 
+Everything back to normality in a minute.
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Sun May 19 01:47:14 2002 -->
+<pre> 
+(1) DTO detected in the following crates: 
+      COT_XX (00 - 06, 11 - 19), IMU_01, and VRB_SVX_02 
+(2) DTO again: 
+      COT_XX (01 - 06, 11 -  18) 
+ 
+(3) L3 Trigger rate dropped to zero. 
+ 
+ ==> (1), (2), and (3): Recovered by the Auto-HRR. 
+ 
+(4) L2 Error ==> HRR failed to recover the run.
+             ==> Caused the saturation (~ 100%) of Total DT.   
+             ==> Paged the expert and advised to reset the L2    
+                 crates. 
+             ==> b0l2de01 client got stuck in Halt state. 
+             ==> Ended the run 145034. 
+ 
+(5) At first attempt, b0l2de01 couldn't go through the       
+    partitioning stage. 
+ 
+(6) At the second trial, succeeded in partitioning and were 
+    able to activate a new run 145035. 
+  
+</pre>      
+<!-- Author: PY -->
+<!-- Comment: Sun May 19 01;58;07 comment by...PY -->
+We just learned from Myron that it is necessary to wait about 5 mins after resetting the L2 crates before taking next actions.
+It is believed that that's why the first partitioning failed.
+<!-- Comment: Sun May 19 02;01;37 comment by...PY -->
+Current Total DT: 1.54 %
+<!-- Comment: Sun May 19 02;53;16 comment by...Masa -->
+<pre>!!!We shouldn't reset the L2 crate without ending Run!!!
+ L2 processor has scaler information which is lost by reseting
+the crate. In any case HRR doesn't recover the L2 timeout, we
+should End Run before any further action. It's particularly 
+important for Physics Runs.
+</pre>
+<!-- Date: Sun May 19 01:57:13 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3213&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3213' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3211&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3211' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3212&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3212' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+<!-- Comment: Sun May 19 02;00;45 comment by...niccolo&#39; -->
+Note that L1COLI moved down a little bit...
+
+
+<!-- Date: Sun May 19 02:01:05 2002 -->
+BTO due to VRB_SVX_02 ==> Recovered by HRR.
+<!-- Author: PY :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145035' target=_top>145035</a>) -->
+<!-- Comment: Sun May 19 02;38;16 comment by...PY -->
+<pre>
+Since the BTO occurred in the beginning of the run 145035, 
+as a sanity check, did <i>vxlogin b0tsi00</i>, and found NO
+suspended processes. Assume that TSI is in healthy condition.
+</pre>
+<!-- Date: Sun May 19 02:03:56 2002 -->
+BSU alarm recovered now.
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145035' target=_top>145035</a>) -->
+
+
+<!-- Date: Sun May 19 02:35:20 2002 -->
+At about 02:25 all three silicon HB boxes in the high voltage summary page (lower one) went purple (but the HB boxes in the 
+global alarm page remained green!). I'm not sure about what this 
+means, anyway it recovered within 5 min.
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145035' target=_top>145035</a>) -->
+
+
+
+<!-- Date: Sun May 19 02:51:54 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3214&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3214' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3215&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3215' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3216&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3216' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+
+
+<!-- Date: Sun May 19 03:07:59 2002 -->
+L2 Decision TO ==> Auto-HRR
+<!-- Author: PY -->
+
+
+<!-- Date: Sun May 19 03:13:20 2002 -->
+ I called MCR.  They plan to stack to 130mA (currently at 80) then end the store.  Current plan is to end the store at 9:30am. 
+ 
+<!-- Author: tipton -->
+
+
+<!-- Date: Sun May 19 03:55:50 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3217&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3217' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3218&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3218' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3219&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3219' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Sun May 19 03:58:47 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-3221&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-3221  width='300' align='top'></td><td>?????? or it's just me ??????</a></td></tr></table>
+<!-- Author: niccolo&#39; -->
+<!-- Comment: Sun May 19 09;51;28 comment by...muge -->
+Dear Niccolo', why the ???. if for the spike not being visible
+ in seperate counters: the logging rates are 1min for these quantities in this plot, so we may not see.. 
+<!-- Date: Sun May 19 04:57:09 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3224&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3224' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3223&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3223' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3222&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3222' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Sun May 19 05:47:02 2002 -->
+L3 Trigger Rate dropped to 0. ==> HRR
+<!-- Author: PY -->
+
+<!-- Date: Sun May 19 05:52:32 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145035">145035</A>
+ Terminated at 2002.05.19 05:52:12
+<!-- Author: RunControl -->
+<!-- Comment: Sun May 19 05;58;53 comment by...PY -->
+Trigger Inhibit is set from SVX.
+
+
+<!-- Date: Sun May 19 06:11:18 2002 -->
+The reason for the prevoius trigger inhibit was a trip from SVX 
+in B0W6L3. We paged Gino and under his instructions brought the 
+ladder to standby and then to ON agin. Everything seems ok now.
+<!-- Author: niccolo&#39; -->
+<!-- Comment: Sun May 19 06;27;35 comment by...niccolo&#39; -->
+I did not notice any particular reason for this trip. Losses
+from Tevatron seemed to be ok when it happened (check the plots
+below).
+<!-- Date: Sun May 19 06:12:48 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145036">145036</A>
+ Activated at 2002.05.19 06:12:24
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun May 19 06:25:08 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3227&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3227' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3226&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3226' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3225&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3225' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+
+
+<!-- Date: Sun May 19 07:26:02 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3230&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3230' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3229&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3229' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3228&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3228' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+<!-- Date: Sun May 19 07:55:08 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145034>145034</A> 
+x2368A</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [8,49,296]</TD>                                        
+<TD ALIGN=CENTER>23:08:10</TD>                                          
+<TD ALIGN=CENTER>01:20:14</TD>                                          
+<TD ALIGN=CENTER>01:54:45</TD>                                          
+<TD ALIGN=RIGHT>     29,625,492</TD>                                    
+<TD ALIGN=RIGHT>     1,210,021</TD>                                     
+<TD ALIGN=RIGHT>     166,679</TD>                                       
+<TD ALIGN=RIGHT>   76.401</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145035>145035</A> 
+x2368B</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [8,49,296]</TD>                                        
+<TD ALIGN=CENTER>01:40:28</TD>                                          
+<TD ALIGN=CENTER>05:52:12</TD>                                          
+<TD ALIGN=CENTER>04:04:01</TD>                                          
+<TD ALIGN=RIGHT>     50,264,842</TD>                                    
+<TD ALIGN=RIGHT>     2,053,026</TD>                                     
+<TD ALIGN=RIGHT>     302,613</TD>                                       
+<TD ALIGN=RIGHT>  130.984</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145036>145036</A> 
+x2368C</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [8,49,296]</TD>                                        
+<TD ALIGN=CENTER>06:12:24</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>01:41:48</TD>                                          
+<TD ALIGN=RIGHT>     17,496,805</TD>                                    
+<TD ALIGN=RIGHT>       715,270</TD>                                     
+<TD ALIGN=RIGHT>     111,873</TD>                                       
+<TD ALIGN=RIGHT>   45.767</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:01</TD>                                                       
+<TD ALIGN=CENTER>07:40:35</TD>                                          
+<TD ALIGN=RIGHT>      97,387,139</TD>                                   
+<TD ALIGN=RIGHT>      3,978,317</TD>                                    
+<TD ALIGN=RIGHT>       581,165</TD>                                     
+<TD ALIGN=RIGHT>  253.152</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun May 19 07:56:19 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3231&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3231' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3232&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3232' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3233&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3233' width='300'></a></center>
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Sun May 19 07:57:45 2002 -->
+<font color=red>Shift Summary: </font><pre>  
+Shift started with Run 145034 in progress during shot 1333. Starting luminosity:  266nb-1 delivered, 183nb-1 live. 
+  
+12:05 MCR calls to say their tune modifications are complete. 
+  
+1:10am We called Myron's cell because of  L2 problems.  We reset L2 crate controller and started a new run.  It turns out you need to wait of order 3 minutes to let the crate controller reboot before  crate will respond as part of R_C partition.  We finally got L3 to partition,   Myron came and 
+explained this to us but we were already up and running.  Back up around 
+1:40pm. 
+  
+       Run 145035 in progress. 
+  
+        5:50 SVX gui software HV trip  High AVDD current on one ladder. 135035 ended. Down for about 15 minutes. 
+  
+	Run 145036 still in progress 
+ 
+Store is scheduled to end between 9:30 and 10:00am.  Now seems like a good time for Masa to run L2 b test. 
+         
+luminosities at end of shift:  526nb-1 delivered, 406nb-1 live        </pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   145034-145036
+Delivered Luminosity   223  
+Acquired Luminosity    260  
+Efficiency             86%
+   
+</td></tr></table></pre>
+<!-- Author: Tipton -->
+
+<!-- Date: Sun May 19 08:02:51 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145036">145036</A>
+ Terminated at 2002.05.19 08:02:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun May 19 08:09:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145037">145037</A>
+ Activated at 2002.05.19 08:09:00
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun May 19 08:13:06 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145037">145037</A>
+ Terminated at 2002.05.19 08:11:37
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun May 19 08:22:58 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=145039">145039</A>
+ Activated at 2002.05.19 08:22:03
+<!-- Author: RunControl -->
+
+

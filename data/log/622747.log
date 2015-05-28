@@ -1,0 +1,445 @@
+<!-- Title: Eve shift. Mon Aug  5, 2002 -->
+<!-- SciCo: Fumi Ukegawa -->
+<!-- DAQAce: Min-Jeong Kim -->
+<!-- MonAce: Kathy Copic -->
+<!-- CO: Jim Pinfold -->
+<!-- OpManager: Bill Orejudos -->
+<!-- Notes: -->
+<pre>TeV ready for proton only store studies. 
+Stacking, 79 mA + 2 mA/h. 
+ 
+MCR calls and they are about to inject beam. 
+ 
+New CMX policy will be placed starting today. 
+Trigger inhibit will be in.</pre>
+
+
+<!-- Date: Mon Aug 5 16:10:09 2002 -->
+<pre>Currently, keep going a cosmic run activated in previous shift. 
+COSMICS[6,117,292]. </pre>
+<!-- Author: Min-Jeong :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149450' target=_top>149450</a>) -->
+
+<!-- Date: Mon Aug 5 16:43:16 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149450">149450</A>
+ Terminated at 2002.08.05 16:42:04
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Mon Aug 5 16:43:16 2002 -->
+<pre>Greg Feild is going to some test of the trigger, 
+so we will end the cosmic run.</pre>
+<!-- Author: Ukegawa -->
+
+<!-- Date: Mon Aug 5 16:43:32 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149450">149450</A>
+TERMINATE: End this run for trigger superviser test. We will hear more from Greg Field later.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 16:58:48 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149451">149451</A>
+ Activated at 2002.08.05 16:58:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 17:01:11 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149451">149451</A>
+ACTIVATE: Test for Greg.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 17:01:12 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149451">149451</A>
+ Terminated at 2002.08.05 16:59:57
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 17:01:12 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149451">149451</A>
+TERMINATE: Finished test.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 17:09:07 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149452">149452</A>
+ Activated at 2002.08.05 17:08:24
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 17:09:19 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149452">149452</A>
+ACTIVATE: Another test run for Greg.
+<!-- Author: mjkim 2080 -->
+<!-- Comment: Mon Aug  5 17;27;43 comment by...Min-Jeong -->
+<pre>With default physics table. Silicon FIB and VRB crates are out.</pre>
+<!-- Date: Mon Aug 5 17:09:20 2002 -->
+<pre>Still waiting for a proton-only store. 
+Stack = 83 mA + 4 mA/h.</pre>
+<!-- Author: Ukegawa -->
+
+
+<!-- Date: Mon Aug 5 17:29:48 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149452">149452</A>
+ Terminated at 2002.08.05 17:29:22
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 17:30:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149452">149452</A>
+TERMINATE: Finished L2 TS handshake test.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 17:39:04 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149453">149453</A>
+ Activated at 2002.08.05 17:38:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 17:40:09 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149453">149453</A>
+ACTIVATE: Test with L2_TORTURE[4,123,297] for Greg.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 17:50:24 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149453">149453</A>
+ Terminated at 2002.08.05 17:49:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 17:51:05 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149453">149453</A>
+TERMINATE: Had to abort due to donetime out.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 18:03:11 2002 -->
+<pre>Summary of the CMX work done during the quiet time in the day shift: 
+ 
+Mainly we were working on the HV problems in the arches. 
+ 
+East side:  
+ 
+ Wedges  NE 22 & 23 are not holding HV. The drift trips during  
+ the ramping up (@ 318 Volts / 71 muA). We plugged the cables for 
+ those wedges in the Caen pod for SE 14. We observed the same 
+ behaviour. We tested the Caen pod for NE 22 & 23 with and   
+ without load and no failure was found. Since these wedges do not 
+ hold voltage the settings in HVMON were modified in such a way 
+ they do not trip. 
+ 
+ Wedges SW 13 & 14 tripped last week. With no beam they were 
+ drawing 7.4 muA last weekend. Today we swapped the Caen pod 
+ for these guys with the one for wedges SW 9 &10. The Caen pod  
+ for SW 13 &14 seems to be fine. These wedges are drawing 3.4  
+ muA (3.2 if we use the Caen pod for SW 9 & 10).</pre>
+<!-- Author: Abraham Gallas -->
+<!-- Comment: Mon Aug  5 18;32;58 comment by...k copic -->
+<table border=0><td><tr><td bgcolor=#e0e030>There are new CMX instructions for monitoring aces, posted near the iFix monitors.</td></tr></td></table>
+<!-- Date: Mon Aug 5 18:04:50 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454">149454</A>
+ Activated at 2002.08.05 18:04:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 18:06:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454">149454</A>
+ACTIVATE: DAQ testing run after TS test. We reboot b0l1cl05 before this run due to done timeout.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 18:14:17 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454">149454</A>
+ Terminated at 2002.08.05 18:12:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 18:14:17 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454">149454</A>
+TERMINATE: Finished test.
+<!-- Author: mjkim 2080 -->
+
+
+<!-- Date: Mon Aug 5 18:14:17 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454">149454</A>
+ Terminated at 2002.08.05 18:12:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 18:14:17 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454">149454</A>
+TERMINATE: Finished test.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 18:18:15 2002 -->
+<pre>They seem to be trying a proton only store.  
+Stack = 86 mA + 3 mA/h.</pre>
+<!-- Author: Ukegawa -->
+
+<!-- Date: Mon Aug 5 18:24:12 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149455">149455</A>
+ACTIVATE: DAQ testing run.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 18:26:17 2002 -->
+<pre>On Controlled access today Rob and I moved the south wall and 
+I recycled the power on ccal10 to try to recover the error 
+in shower max calibration noticed in ccal10, slot 4 ch 3. 
+After calibration everything looks ok.</pre>
+<!-- Author: lindgren -->
+
+<!-- Date: Mon Aug 5 18:32:20 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149455">149455</A>
+TERMINATE: Finish this run for another task.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 18:43:19 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149456">149456</A>
+ Activated at 2002.08.05 18:42:34
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 18:45:06 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149456">149456</A>
+ACTIVATE: We test new physics table, <B>PHYSICS_TEST_1_02[5,127,310]</B>, without beam. 
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 19:40:05 2002 -->
+<pre>Tev studies continuing.  
+Stack = 92 mA.</pre>
+<!-- Author: Ukegawa -->
+
+<!-- Date: Mon Aug 5 19:43:38 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149456">149456</A>
+ Terminated at 2002.08.05 19:42:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 19:43:38 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149456">149456</A>
+TERMINATE: We ran for an hour for new physics table.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 19:52:57 2002 -->
+Ming and I disconnected one of the CLC cables from the ADMEM transition board. This is channel 32, counting from 0. 
+ MJK wants to know why. This channel was flaky... we found that 
+ the connector is loose. We'll have it replaced as soon as possible.
+<!-- Author: Jaco K. -->
+
+
+<!-- Date: Mon Aug 5 20:01:25 2002 -->
+<pre>Now the 36x0 store is in progress.</pre>
+<!-- Author: Ukegawa -->
+<!-- Comment: Mon Aug  5 20;33;19 comment by...Ukegawa -->
+<pre>Quench at DC.</pre>
+<!-- Date: Mon Aug 5 20:16:02 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149463">149463</A>
+ Activated at 2002.08.05 20:15:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 20:19:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149463">149463</A>
+ACTIVATE: Another run to test new physics table, <B>PHYSICS_TEST_1_02[5,127,310]</B>, without beam. Instruction doesn't describe how much data we want. Just in case the statistics is not enough with the previous run.
+<!-- Author: mjkim 2080 -->
+<!-- Comment: Mon Aug  5 20;21;02 comment by...Min-Jeong -->
+<pre>Previous run means Run 149456.</pre>
+
+
+<!-- Comment: Mon Aug  5 20;41;20 comment by...Jonathan Lewis -->
+30 minutes is enough, so you are done.
+
+<!-- Date: Mon Aug 5 21:22:19 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149463">149463</A>
+TERMINATE: Finished new physics table test.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 21:29:01 2002 -->
+<pre>We called MCR for an estimate of a real store, 
+perhaps midnight, so we dismissed CO.</pre>
+<!-- Author: Ukegawa -->
+
+<!-- Date: Mon Aug 5 21:34:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149464">149464</A>
+ Activated at 2002.08.05 21:33:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Aug 5 21:35:06 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149464">149464</A>
+ACTIVATE: I go back to cosmic runs.
+<!-- Author: mjkim 2080 -->
+
+
+
+<!-- Date: Mon Aug 5 22:14:51 2002 -->
+<pre>Quench recovery continues. 
+Stack = 95 mA + 5 mA/h.</pre>
+<!-- Author: Ukegawa -->
+
+
+<!-- Date: Mon Aug 5 23:52:39 2002 -->
+<font color=red>Shift Summary: </font><pre>Aug 5, 2002 (Mon)  Evening shift 
+ 
+16:00 TeV ready for proton only store studies. They are about to inject beam 
+      to TeV, MCR calls us and say. 
+      Stack = 79 mA + 2 mA/h. 
+ 
+      New CMX policy is in place starting today. Trigger inhibit will be in 
+      for data taking, Melissa says. 
+      See the instructions for more. 
+ 
+18:15 They seem to be trying a proton only store.  
+      Stack = 86 mA + 3 mA/h. 
+ 
+18:45 MCR e-log says the plan is to do an uncoalesced beam  
+      and then another 36x0 store. If both are successful, then 
+      go for a real store. 
+ 
+19:30 TeV studies continuing. 
+ 
+19:45 Jaco and Ming are taking the CLC crates to remove one bad channel. 
+ 
+20:00 36x0 store. Low beta quench at DC at 20:25. Recovering. 
+ 
+21:30 Called MCR. Recovering from quench. 36x0 store to follow. 
+      Estimate for a HEP shot setup perhaps midnight. CO dismissed. 
+ 
+23:55 We end shift as MCR tries the 36x0 store. Shot setup to follow. 
+      Stack = 101 mA. 
+      Another evening of waiting.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   no
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             undefined
+   
+</td></tr></table></pre>
+<!-- Author: Fumi Ukegawa -->
+
+<!-- Date: Mon Aug 5 23:56:49 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149452>149452</A> 
+x247CC</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [1,124,306]</TD>                                       
+<TD ALIGN=CENTER>17:08:24</TD>                                          
+<TD ALIGN=CENTER>17:29:22</TD>                                          
+<TD ALIGN=CENTER>00:20:55</TD>                                          
+<TD ALIGN=RIGHT>         18,178</TD>                                    
+<TD ALIGN=RIGHT>         5,866</TD>                                     
+<TD ALIGN=RIGHT>       2,519</TD>                                       
+<TD ALIGN=RIGHT>    0.000</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149453>149453</A> 
+x247CD</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>L2_TORTURE [4,123,297]</TD>                                         
+<TD ALIGN=CENTER>17:38:28</TD>                                          
+<TD ALIGN=CENTER>17:49:47</TD>                                          
+<TD ALIGN=CENTER>00:02:04</TD>                                          
+<TD ALIGN=RIGHT>      3,514,427</TD>                                    
+<TD ALIGN=RIGHT>        96,215</TD>                                     
+<TD ALIGN=RIGHT>      96,213</TD>                                       
+<TD ALIGN=RIGHT>    0.000</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149454>149454</A> 
+x247CE</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [1,124,306]</TD>                                       
+<TD ALIGN=CENTER>18:04:23</TD>                                          
+<TD ALIGN=CENTER>18:12:58</TD>                                          
+<TD ALIGN=CENTER>00:08:28</TD>                                          
+<TD ALIGN=RIGHT>          7,306</TD>                                    
+<TD ALIGN=RIGHT>         2,283</TD>                                     
+<TD ALIGN=RIGHT>         993</TD>                                       
+<TD ALIGN=RIGHT>    0.000</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149456>149456</A> 
+x247D0</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_TEST_1_02 [5,127,310]</TD>                                  
+<TD ALIGN=CENTER>18:42:34</TD>                                          
+<TD ALIGN=CENTER>19:42:25</TD>                                          
+<TD ALIGN=CENTER>00:59:48</TD>                                          
+<TD ALIGN=RIGHT>         51,638</TD>                                    
+<TD ALIGN=RIGHT>        16,469</TD>                                     
+<TD ALIGN=RIGHT>       7,224</TD>                                       
+<TD ALIGN=RIGHT>    0.000</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149463>149463</A> 
+x247D7</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_TEST_1_02 [5,127,310]</TD>                                  
+<TD ALIGN=CENTER>20:15:15</TD>                                          
+<TD ALIGN=CENTER>21:20:05</TD>                                          
+<TD ALIGN=CENTER>01:04:54</TD>                                          
+<TD ALIGN=RIGHT>         54,685</TD>                                    
+<TD ALIGN=RIGHT>        17,491</TD>                                     
+<TD ALIGN=RIGHT>       7,634</TD>                                       
+<TD ALIGN=RIGHT>    0.000</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:02</TD>                                                       
+<TD ALIGN=CENTER>02:36:10</TD>                                          
+<TD ALIGN=RIGHT>       3,646,234</TD>                                   
+<TD ALIGN=RIGHT>        138,324</TD>                                    
+<TD ALIGN=RIGHT>       114,583</TD>                                     
+<TD ALIGN=RIGHT>    0.000</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+

@@ -1,0 +1,460 @@
+<!-- Title: Eve shift. Wed Dec 29, 2004 -->
+<!-- SciCo: Mako Shimojima -->
+<!-- DAQAce: Saverio Da Ronco -->
+<!-- MonAce: Tuula Maki -->
+<!-- CO: Tetsuo Arisawa -->
+<!-- OpManager: Bob Wagner -->
+<!-- Notes: -->
+<pre>No beam, no pbars...</pre>
+
+<!-- Date: Wed Dec 29 16:08:04.925 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191682">191682</A>
+TERMINATE: RunSet: BOTHPLUGS_NORMAL  Trigger: COSMICS [14,503,442] done
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:10:40.052 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191683">191683</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C  Trigger: COSMICS [14,503,442] 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:12:59.429 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191683">191683</A>
+TERMINATE: RunSet: BOTHPLUGS_MM_C  Trigger: COSMICS [14,503,442] done
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:15:04.635 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191684">191684</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM  Trigger: COSMICS [14,503,442] 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:16:23.158 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191684">191684</A>
+TERMINATE: RunSet: BOTHPLUGS_MM  Trigger: COSMICS [14,503,442] done
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:24:54.599 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191686">191686</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:25:48.998 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191686">191686</A>
+TERMINATE: RunSet: SMQIECALIB done
+<!-- Author: Saverio (2080) -->
+
+
+
+<!-- Date: Wed Dec 29 16:32:13.941 2004 -->
+<pre>The plan: 
+ 
+- Finish plug laser calibrations. 
+- 2 hours cosmic-rays w/ Si. 
+- Bring down Si to standby. 
+- Finish calibrations. 
+- Cosmic-rays w/o Si. 
+- Bring up HVs on all except Si, COT, plug. 
+- Check they are OK after the quench.</pre>
+<!-- Author: mako -->
+
+
+<!-- Date: Wed Dec 29 16:35:49.118 2004 -->
+<pre>After the DBANA calibration check by "checkDBANAcalib.pl clcqie," current run number 191675 does not show up. It seems that the calibration did not make it into the database.</pre>
+<!-- Author: Tetsuo :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191675' target=_top>191675</a>) -->
+<!-- Comment: Wed Dec 29 17;00;24 comment by...ryo -->
+We got same situation last week.
+At that time, we did do clcqie calibration one more time.
+Then it was ok.
+<!-- Date: Wed Dec 29 16:39:41.525 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191690">191690</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 16:48:41.914 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191690">191690</A>
+TERMINATE: RunSet: TOF_TAC_CALIB done
+<!-- Author: Saverio (2080) -->
+
+
+
+<!-- Date: Wed Dec 29 17:17:02.191 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191697">191697</A>
+ Activated at 2004.12.29 17:16:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 17:17:03.791 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191697">191697</A>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [14,503,487] 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 17:20:23.846 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191697">191697</A>
+ Terminated at 2004.12.29 17:19:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 17:20:25.841 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191697">191697</A>
+TERMINATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [14,503,487] Keep out the  crate b9etdc00
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 17:25:13.441 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191700">191700</A>
+ Activated at 2004.12.29 17:25:05
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 17:25:56.057 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191700">191700</A>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [14,503,487] 
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 17;29;00 comment by...Saverio -->
+<pre>So we are taking cosmics with silicon in, but without COT.
+To do that, I used the COSMIC_SILICON_TAPE configuration and keep out manually :
+All the COT crates;
+All the XFT crates;
+Also the b0etdc00 crate.
+</pre>
+<!-- Date: Wed Dec 29 17:27:51.156 2004 -->
+We brought up voltages for all detectors except for COT (Silicon was already on). Everything works fine.
+<!-- Author: Tuula -->
+
+
+
+<!-- Date: Wed Dec 29 17:38:20.393 2004 -->
+Silicon channel S_AVDD_B2W4L4 turned pink.
+<!-- Author: Tuula -->
+
+
+<!-- Date: Wed Dec 29 17:43:29.617 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-13281&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-13281  width='300' align='top'></a></td><td>History plot of channel S_AVDD_B2W4L4.</td></tr></table>
+<!-- Author: Tuula -->
+<!-- Comment: Wed Dec 29 17;46;33 comment by...Tuula -->
+After unmarking the cell it turned pink again. DAQ Ace performed HRR, and then unmarking turned the cell green.
+
+
+<!-- Date: Wed Dec 29 18:27:41.136 2004 -->
+<pre>Again the cell: 
+SVX AVDD B2 W4 L4 turn into pink at current 800 ( Nominal 1110.0 Low 1070 High 1120.) a couple of times. 
+unmarking it sees to fix.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Wed Dec 29 18:29:32.530 2004 -->
+<pre>Again: same  cell & same curent as before. 
+Unmarking fix.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Wed Dec 29 18:31:30.694 2004 -->
+third time: 
+same cell same current same procedure. 
+Unmarked.
+<!-- Author: Saverio -->
+
+
+<!-- Date: Wed Dec 29 18:40:07.642 2004 -->
+<pre>For almost 5 times the cell SVX AVDD B2 W4 L4 turn into pink color. 
+even if HRR solve the problem, because the SVxMon plot is almost completely RED I tried an HRR followed by unmark (the sixth one). 
+This time the cell turn into green (not yellow as before). Fixed?!</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Wed Dec 29 18:41:12.664 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-13282&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-13283  width='300' align='top'></a></td><td>This the History plot for the belligerant cell!</td></tr></table>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Wed Dec 29 18:51:12.646 2004 -->
+<pre>Have exchanged the crate CPU in XFT_XTRP_00 b0xtrp00  
+crate from an MVME2400 (FNAL prop number 567649) with  
+a brand new MVME5500 (FNAL prop number 570360) in an  
+attempt to see if this helps with the CONFIG transition  
+time of this crate.   This crate is currently the  
+slowest RunControl client to complete CONFIG when  
+the L3 already has the trigger table stuff loaded. 
+ 
+Have requested that DAQ Ace take a COSMICS ALL run  
+with the COT, XFT, and XTRP crates included.   They  
+are running a special SVX cosmic run now, so we wait  
+an hour.   Also, a L2TORTURE run would be good to make  
+sure things work.  (I have tested the crate in stand-alone  
+readout mode w/o problems) 
+ 
+</pre>
+<!-- Author: W.Badgett -->
+
+
+<!-- Date: Wed Dec 29 18:54:36.134 2004 -->
+<pre>Report: 
+I want to report some messages appeared on Error Display: 
+(MLE) b0svx04:Messenger:6:11:50 PM-&gt;Silicon Resonator: Sl 12 Ch 7 -&gt; e452: Bytes: 00168 
+ 
+(MLE) b0svx00:Messenger:6:11:50 PM-&gt;Silicon Resonator: Sl 16 Ch 9 -&gt; e074: Bytes: 00144 
+e000 18:e080 12:e040 
+ 
+(MLE) b0svx01:Messenger:6:11:51 PM-&gt;Silicon Resonator: Sl 20 Ch 4 -&gt; e1a4: Bytes: 00134 
+e100 18:e180 12:e140 
+(MLE) b0svx08:Messenger:6:35:24 PM-&gt;Silicon Resonator: Sl 16 Ch 3 -&gt; f103: Bytes: 00394 
+ 
+Are they correlated with the anomalous behavior of the cell reported before?</pre>
+<!-- Author: Saverio -->
+
+<!-- Date: Wed Dec 29 20:00:03.844 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191700">191700</A>
+ Terminated at 2004.12.29 19:59:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 20:00:39.598 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191700">191700</A>
+TERMINATE: RunSet: COSMICS_SILICON_TAPE Trigger: COSMICS [14,503,487] end of Run
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 22;35;06 comment by...Saverio -->
+<pre>After this run all HV (except Central Calorimeter HV) was moved OFF toward the standard configuration, executing the </pre>
+<!-- Comment: Wed Dec 29 22;36;28 comment by...Saverio -->
+sorry missed some words....
+executing "dump store procedure".
+<!-- Date: Wed Dec 29 20:03:17.224 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191713">191713</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 20:03:46.600 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191713">191713</A>
+TERMINATE: RunSet: CALIB_CLC_QIE done
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 20;07;33 comment by...Saverio -->
+<pre>Now the CO had found this calibration in database!!</pre>
+
+<!-- Date: Wed Dec 29 20:09:38.466 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191714">191714</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 20:11:07.807 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191714">191714</A>
+TERMINATE: RunSet: ACE_QIE done
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 20:13:06.260 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191715">191715</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 20:15:33.467 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191715">191715</A>
+TERMINATE: RunSet: ACE_LED_ALL done
+<!-- Author: Saverio (2080) -->
+
+
+<!-- Date: Wed Dec 29 20:23:19.944 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191716">191716</A>
+ Activated at 2004.12.29 20:22:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 20:23:45.738 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191716">191716</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [14,503,487] 
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 20;29;46 comment by...Saverio -->
+<pre>Got problems during "config" with crate b0svt06. shepherding procedure fixed.</pre>
+<!-- Date: Wed Dec 29 20:27:55.546 2004 -->
+As requested by W. Badgett 
+(<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2004&action=view&page=915&frame=2&anchor=18:51:12.646'> 
+here the link  </a>) 
+ I started a new COSMIC run. 
+<pre> 
+The configuration is COSMIC_ALL: 
+COT XFT & XTRP crates are inclued. 
+No HV in COT nor on Si-system. 
+ 
+  
+<!-- Author: Saverio :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191716' target=_top>191716</a>) -->
+<!-- Comment: Wed Dec 29 21;38;16 comment by...html fixer -->
+</pre>Fixed<br>
+<!-- Date: Wed Dec 29 21:26:14.782 2004 -->
+<pre>MCR called. Tev studies to begin shortly.</pre>
+<!-- Author: mako -->
+
+
+<!-- Date: Wed Dec 29 22:24:50.720 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191716">191716</A>
+ Terminated at 2004.12.29 22:24:10
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 22:24:51.313 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191716">191716</A>
+TERMINATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [14,503,487] done
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 22;26;12 comment by...Saverio -->
+<pre>Report for this run.
+The following messagges appeared during this run on Error Display:
+
+b0dau32.fnal.gov:csl_mon_send:8:32:26 PM-&gt;CSL received a "BAD EVENT" in partition 0.[MLW]
+(MLE) b0cot16:Messenger:8:55:41 PM-&gt;TDC Invalid Header evt 57415 slot 15: exp/fnd mod 482/58 l2b 1/0
+(MLE) b0cot16:Messenger:8:55:41 PM-&gt;TDC Header Mismatch evt 57415 slot 15: static/fifo 0xF1062688/0x1D406857 550/106
+(MLE) b0cot16:Messenger:8:55:41 PM-&gt;Event 57415: Bunchcounters in slot 3 (BC=136) and slot 15 (BC=222) disagree (L2B=1) 
+(MLE) b0cot16:Messenger:8:55:41 PM-&gt;Runtime Error 3, Event 57415: Bunch counter mismatch, mismatch count = 1
+(MLE) b0xft00:Messenger:9:26:46 PM-&gt;Event 111935: Bunchcounters in slot 13 (BC=136) and slot 6 (BC=33) disagree (L2B=0) Failure at read of flashram contents 
+(MLE) b0xft00:Messenger:9:26:46 PM-&gt;Runtime Error 1, Event 111935: Bunch counter mismatch, mismatch count = 1
+(MLE) b0cot04:Messenger:9:52:31 PM-&gt;TDC Invalid Header evt 185030 slot 16: exp/fnd mod 409/42 l2b 1/0
+(MLE) b0cot04:Messenger:9:52:31 PM-&gt;TDC Header Mismatch evt 185030 slot 16: static/fifo 0xCC85D221/0x1540002B 466/2
+(MLE) b0cot04:Messenger:9:52:31 PM-&gt;Event 185030: Bunchcounters in slot 6 (BC=33) and slot 16 (BC=222) disagree (L2B=1) 
+(MLE) b0cot04:Messenger:9:52:32 PM-&gt;Runtime Error 3, Event 185030: Bunch counter mismatch, mismatch count = 1
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;TDC Invalid Header evt 309114 slot 13: exp/fnd mod 484/51 l2b 1/0
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;TDC Header Mismatch evt 309114 slot 13: static/fifo 0xF205FE15/0x198078C2 510/122
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;TDC Invalid Header evt 309114 slot 15: exp/fnd mod 482/57 l2b 1/0
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;TDC Header Mismatch evt 309114 slot 15: static/fifo 0xF1059E15/0x1CC088A2 414/138
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;Event 309114: Bunchcounters in slot 3 (BC=21) and slot 13 (BC=222) disagree (L2B=1) 
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;Event 309114: Bunchcounters in slot 3 (BC=21) and slot 15 (BC=222) disagree (L2B=1) 
+(MLE) b0cot16:Messenger:10:04:14 PM-&gt;Runtime Error 8, Event 309114: Bunch counter mismatch, mismatch count = 2
+b0dau32.fnal.gov:csl_mon_send:10:04:14 PM-&gt;CSL received a "BAD EVENT" in partition 0.[MLW]</pre>
+
+<!-- Date: Wed Dec 29 22:34:24.629 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191717">191717</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,466,444] 
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 22;37;59 comment by...Saverio -->
+<pre>This is the L2_TORTURE requested by W. Budgett</pre>
+<a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2004&action=view&page=915&frame=2&anchor=18:51:12.646'>
+link to request </a>
+
+
+
+
+
+<!-- Comment: Thu Dec 30 00;50;54 comment by...W.Badgett -->
+Thank you.
+<!-- Date: Wed Dec 29 22:46:30.405 2004 -->
+<pre>Got  a lot of this kind of error in Error Display: 
+ RunNumber   191717 
+  CreateTime  2004-12-29 22:33:15.0 
+  TextComment RunSet: L2TORTURE  Trigger: L2_TORTURE [16,466,444]  
+  Name        Saverio (2080) 
+  State       ACTIVATE 
+(MLE) b0svt06:Messenger:10:34:31 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=78676a event=31896 
+(MLE) b0svt06:Messenger:10:34:36 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=686300 event=34146 
+(MLE) b0svt06:Messenger:10:35:34 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=68678b event=59486 
+(MLE) b0svt06:Messenger:10:35:38 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=786735 event=61196 
+(MLE) b0svt06:Messenger:10:36:17 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=78671e event=78076 
+(MLE) b0svt06:Messenger:10:36:34 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=68676a event=85546 
+(MLE) b0svt06:Messenger:10:36:50 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=686779 event=92566 
+(MLE) b0svt06:Messenger:10:37:01 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=686300 event=97206 
+(MLE) b0svt06:Messenger:10:37:44 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=68670c event=115806 
+(MLE) b0svt06:Messenger:10:37:46 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=78676a event=116916 
+(MLE) b0svt06:Messenger:10:38:54 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=686744 event=146286 
+(MLE) b0svt06:Messenger:10:40:40 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=78678b event=192496 
+(MLE) b0svt06:Messenger:10:40:57 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=78676a event=199776 
+(MLE) b0svt06:Messenger:10:40:57 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=78676a event=200016 
+(MLE) b0svt06:Messenger:10:41:00 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=786744 event=201076 
+(MLE) b0svt06:Messenger:10:41:47 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=68676a event=221326 
+(MLE) b0svt06:Messenger:10:42:15 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=68676d event=233606 
+ 
+In the meanwhile Total deadtime was around 100% due to L2 deadtime. HRR was performed. This turn off the deadtime to reasonables values (~6%) but we got still the same errors as before.</pre>
+<!-- Author: Saverio -->
+
+<!-- Date: Wed Dec 29 23:27:26.026 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191717">191717</A>
+TERMINATE: RunSet: L2TORTURE Trigger: L2_TORTURE [16,466,444] end of Run
+<!-- Author: Saverio (2080) -->
+<!-- Comment: Wed Dec 29 23;28;17 comment by...Saverio -->
+<pre>During this L2_TORTURE run we got a lot of:
+(MLE) b0svt06:Messenger:11:25:36 PM-&gt;FER_E_SVT, GB 6.1 nw=29 (mod7=1) ee=60673b event=935375a
+</pre>
+
+<!-- Date: Wed Dec 29 23:35:34.613 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191718">191718</A>
+ Activated at 2004.12.29 23:34:57
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 29 23:35:35.602 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191718">191718</A>
+ACTIVATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,467,487] 
+<!-- Author: Saverio -->
+<!-- Comment: Wed Dec 29 23;36;04 comment by...Saverio -->
+<pre>Usual cosmics.</pre>
+
+<!-- Date: Wed Dec 29 23:55:36.100 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:04</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Wed Dec 29 23:58:30.111 2004 -->
+<font color=red>Shift Summary: </font><pre>Tevatron quench recovery and studies throughout 
+the shift. Dry squeeze from 21:00 and Tev octupole 
+studies since 21:30. MCR says studies will last 
+till 5:30. 
+ 
+Took 2.5 hours of cosmic-rays with Si (~5000 
+events to SVXMON) and 3.5+ hours w/o Si. COT 
+is kept off. 
+                                                                                 
+Bill Badget upgraded a CPU in XFT_XTRP_00. 
+Took a brief L2_TORTURE run. 
+                                                                                 
+Took all calibration runs. 
+                                                                                 
+Pbars accumulated from 19 E10 at 16:00 to 96 
+E10 at 24:00.                                                                                </pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   N/A
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             N/A
+   
+</td></tr></table></pre>
+<!-- Author: mako -->
+<!-- Comment: Thu Dec 30 00;52;22 comment by...W.Badgett -->
+My name has two t's:  Badgett    ;-)

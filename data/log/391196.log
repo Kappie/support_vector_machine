@@ -1,0 +1,503 @@
+<!-- Title: Eve shift. Mon Jul 23, 2007 -->
+<!-- SciCo: Pekka Sinervo -->
+<!-- DAQAce: Sasha Paramonov -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Orioil Salto -->
+<!-- OpManager: Max Goncharov -->
+<!-- Notes: -->
+<pre>We inherit a working detector, and waiting for a store.  Keep watch on new SVT Tracklists and L2 trigger configuration when we start running.</pre>
+
+
+<!-- Date: Mon Jul 23 16:10:12.758 2007 -->
+MCR called to inform us that they will be starting to inject beam for TeV Studies in about 5-10 minutes.
+<!-- Author: Pekka -->
+<!-- Comment: Mon Jul 23 16;15;07 comment by...Pekka -->
+Run Coordinator's plan is to have 3-4 hours of studies while they get the stash to 150E30, then they will initiate Shot Setup.  Looks like it will be somewhere around 7-8 PM.
+<!-- Date: Mon Jul 23 16:12:21.307 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245610>245610</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP_L2UP  Trigger: PHYSICS_4_02 [10,929,698] tracklist
+<!-- Author: flanagan -->
+
+
+
+<!-- Date: Mon Jul 23 16:22:31.448 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245611>245611</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP_L2UP  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: flanagan -->
+
+
+<!-- Date: Mon Jul 23 16:24:12.290 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245611>245611</A>
+TERMINATE: stop to include l2pu02
+<!-- Author: flanagan -->
+
+
+
+<!-- Date: Mon Jul 23 16:24:12.383 2007 -->
+Gene is working on checking various processes for L2, so has the DAQ system for the next 45 minutes or so.
+<!-- Author: Pekka -->
+
+<!-- Date: Mon Jul 23 16:25:51.715 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245612>245612</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP_L2UP  Trigger: PHYSICS_4_02 [10,929,698] tracklist
+<!-- Author: flanagan -->
+
+
+<!-- Date: Mon Jul 23 16:30:18.996 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245614>245614</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP_L2UP  Trigger: PHYSICS_4_02 [10,929,698] tracklist
+<!-- Author: flanagan -->
+
+
+<!-- Date: Mon Jul 23 16:33:04.662 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245614>245614</A>
+TERMINATE: Tracklist ran smoothly in shotsetup ( this is based on new tracklist software- not the same stuff as the weekend )
+
+<!-- Author: flanagan -->
+
+
+<!-- Date: Mon Jul 23 16:40:18.802 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245616>245616</A>
+ACTIVATE: RunSet: L2TORTURE_L2UP  Trigger: PHYSICS_4_02 [10,929,698] tracklist
+<!-- Author: flanagan -->
+
+
+<!-- Date: Mon Jul 23 16:44:44.560 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245616>245616</A>
+TERMINATE: end run to enable extra D bank readout
+<!-- Author: flanagan -->
+
+
+<!-- Date: Mon Jul 23 16:53:03.239 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245618>245618</A>
+ACTIVATE: RunSet: L2TORTURE_L2UP  Trigger: PHYSICS_4_02 [10,929,698] this run has tracklist, slam has diagnostic tracks. SVT is out and ignored at l2
+<!-- Author: flanagan -->
+
+
+
+<!-- Date: Mon Jul 23 16:53:29.978 2007 -->
+<pre>DAQ Test for SL4 transition: changing boot node from b0vxboot01 to b0vxboot00: 
+Taking available crates and updating the boot parameters, rebooting, and taking short runs to make sure things are OK. 
+- Already comverted and tested all the cot crates. 
+- Now working on the wcal crates ...</pre>
+<!-- Author: M. Datta -->
+<!-- Comment: Mon Jul 23 17;12;33 comment by...M. Datta -->
+<pre>successfully shepherded for: cot16 (5500), cot04 (2400), wcal (2300)</pre>
+<!-- Comment: Mon Jul 23 19;11;13 comment by...M. Datta -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Updated add the DAQ crates to boot from b0vxboot00. All the crates rebooted. Taking a L2 torture run. 
+Since don't see any problem (yet), keep the change.</pre></td></tr></td></table>
+<!-- Date: Mon Jul 23 17:12:11.374 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245620>245620</A>
+ACTIVATE: RunSet: L2TORTURE_L2UP  Trigger: PHYSICS_4_02 [10,929,698] run same as previous l2torture run- added 
+some identifiers 
+<!-- Author: flanagan -->
+<!-- Comment: Mon Jul 23 17;30;58 comment by...Heather -->
+This run didn't show up in the look area.
+<!-- Date: Mon Jul 23 17:18:02.381 2007 -->
+<pre>Finished the tracklist tests for now.  
+L2torture was smooth 
+shotsetup was smooth 
+ 
+Will try again at the end of the next store 
+</pre>
+<!-- Author: gene & heather -->
+
+
+<!-- Date: Mon Jul 23 17:30:23.985 2007 -->
+Trying to run L2_Torture. CSL error
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245621' target=_top>245621</a>) -->
+
+
+<!-- Date: Mon Jul 23 17:48:35.560 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245623>245623</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+<!-- Date: Mon Jul 23 17:53:24.790 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245623>245623</A>
+TERMINATE: DAQ Mon complains about CSL
+<!-- Author: Alexander Paramonov -->
+<!-- Comment: Mon Jul 23 18;04;29 comment by...Geumbong -->
+CSL is not in error condition right now. Sometimes DAQ Mon light up red on CSL, but it is not believed as far as CSL on ProcMon is fine. 
+
+<!-- Date: Mon Jul 23 18:06:06.536 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245624>245624</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 18:20:43.659 2007 -->
+DAQ Mon shows CSL as red. However Proc MOn is just fine. Everything else is working fine.
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245624' target=_top>245624</a>) -->
+
+<!-- Date: Mon Jul 23 18:41:24.906 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245625>245625</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+<!-- Date: Mon Jul 23 18:45:46.763 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245625>245625</A>
+TERMINATE: test change of bootnode for the "muon" crates
+<!-- Author: Alexander Paramonov -->
+
+
+<!-- Date: Mon Jul 23 19:06:06.485 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245626>245626</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+
+<!-- Date: Mon Jul 23 19:37:39.308 2007 -->
+<pre>Attention !!!. FERML_TM2_HEVB2B_EVENTS_PENDING_TIMEOUT !!!  
+Fixed by 2 HRRs.</pre>
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245626' target=_top>245626</a>) -->
+<!-- Comment: Mon Jul 23 19;40;28 comment by...Sasha -->
+Once Again.
+
+<!-- Date: Mon Jul 23 19:42:38.525 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245626>245626</A>
+TERMINATE: trying cosmics run
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 19:47:29.379 2007 -->
+It complained about CSL/L3. Reseting the run.
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245627' target=_top>245627</a>) -->
+
+<!-- Date: Mon Jul 23 19:48:55.564 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245627>245627</A>
+TERMINATE: fixing CSL
+<!-- Author: Alexander Paramonov -->
+
+
+<!-- Date: Mon Jul 23 19:58:25.762 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245628>245628</A>
+ Activated at 2007.07.23 19:58:21
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Jul 23 19:58:39.837 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245628>245628</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 19:58:54.621 2007 -->
+The ACNET console is not running  on CNS46PC--the ACnet PC on the west wall of the control room.  It does not restart normally when clicking the link on the desktop. The CDF Permit Control application gets stuck (while running on the other ACNET PCs). Do not know if related but this machine went blank on  
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2007&action=view&page=602&frame=2&anchor=14:46:45.778'> 
+ Friday </a>. 
+<!-- Author: Ricardo/Ignacio -->
+<!-- Comment: Mon Jul 23 21;20;39 comment by...jj -->
+I told SciCo that shift crew could attempt to reboot
+this console either from windows START menu or the
+reset or power button on the PC.
+<!-- Date: Mon Jul 23 20:01:34.446 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245628>245628</A>
+ Terminated at 2007.07.23 20:01:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Jul 23 20:09:04.948 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245629>245629</A>
+ Activated at 2007.07.23 20:07:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Jul 23 20:09:05.815 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245629>245629</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,927,674] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 20:13:20.449 2007 -->
+We are running cosmics and we keep getting <br> 
+Attention !!!. FERML_TM2_HEVB2B_EVENTS_PENDING_TIMEOUT !!! 
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245629' target=_top>245629</a>) -->
+<!-- Comment: Mon Jul 23 20;14;10 comment by...Sasha -->
+Diagnose timeouts does not show any problems...
+
+<!-- Comment: Mon Jul 23 20;16;11 comment by...Sasha\ -->
+Again
+
+<!-- Comment: Mon Jul 23 20;18;03 comment by...Sasha -->
+It processes 3 events and crashes after that.
+
+<!-- Comment: Mon Jul 23 21;06;47 comment by...Si -->
+For additional information:
+
+The Events Pending timeout may occur due to back-pressure, in this case it seems caused by some issue with the CSL. When level3 cannot pass events off, this causes EVB to be unable to pass events to the L3 converters, causing the timeouts.
+<!-- Date: Mon Jul 23 20:18:27.478 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245629>245629</A>
+ Terminated at 2007.07.23 20:18:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Jul 23 20:19:01.826 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245629>245629</A>
+TERMINATE: fixing evb2b
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 20:26:37.046 2007 -->
+<pre> 
+ Attention!!!. CSL_RECEIVER_MAX_CLIENTS Error !!!.   
+ CSL rejected connection !!!.   
+ We STRONGLY RECOMMEND the following steps:  
+ - Reset Transition  
+ - Restart CSL 			     
+ If problem persists, please page the CSL and EVB/L3 experts. </pre>
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245630' target=_top>245630</a>) -->
+<!-- Comment: Mon Jul 23 20;30;41 comment by...Sasha -->
+<pre>Filters died...
+
+(MLE) b0eproxy02.fnal.gov:main:Jul 23, 2007 08:26:27 PM-&gt;Error on L3 node b0l3s06p14 (partition 0) Mon Jul 23 20:26:26 2007 l3_node 
+  in exe_exchange (l3_ana_exe.c:570)
+  @L3_EXE_TERM:  Filter 2 died</pre>
+<!-- Date: Mon Jul 23 20:29:18.088 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245630>245630</A>
+TERMINATE: CSL error
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 20:41:32.882 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245631>245631</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+
+<!-- Date: Mon Jul 23 21:27:00.718 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245631>245631</A>
+TERMINATE: preparing for shotsetup
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 21:43:39.639 2007 -->
+Now starting shot setup.  Proton's will be injected in a few minutes.
+<!-- Author: Pekka -->
+
+
+<!-- Date: Mon Jul 23 21:58:59.929 2007 -->
+Solenoid current in iFix is @@@@A but filed is fine. It looks like communication failure.
+<!-- Author: Sasha -->
+<!-- Comment: Mon Jul 23 22;02;43 comment by...Pekka -->
+Called Cryo tech, who said he thought he understood the problem and would investigate.
+<!-- Date: Mon Jul 23 22:01:01.083 2007 -->
+JJ called to tell us that the machines that run the ACNET monitors (in particular, the one on the west side of the control room -- 2RR03G) can be rebooted by the shift ACE, either through the Start menu or front panel.  See if that fixes the problems we've been having restarting the ACNET monitoring.
+<!-- Author: Pekka -->
+<!-- Comment: Mon Jul 23 22;31;41 comment by...Pekka -->
+Reboot from Start menu failed.  Had to punch the front panel twice to get it to restart properly.  Now have ACNET monitors up.
+<!-- Comment: Tue Jul 24 01;09;38 comment by...William -->
+<pre>This console re-booted spontaneously. Processes came up but then we got an error with "Memory location 0000000000X0" (don't quote me on the number of 0's). We try to 'accept' this error and re-start ACNET on this console. So far no joy... We don't try "punching" it.</pre>
+<!-- Date: Mon Jul 23 22:01:46.612 2007 -->
+Starting to load protons -- pilot shots to begin with.
+<!-- Author: Pekka -->
+
+
+<!-- Date: Mon Jul 23 22:04:26.111 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245632>245632</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 22:11:38.862 2007 -->
+<pre>ACTIVE is RED. No HRRs are issued: 
+ 
+MLE) b0felix.fnal.gov:TEDCpp:Jul 23, 2007 10:09:54 PM-&gt;{ 22:9:54, 7/23/2007 }: L2-Pulsar-Linux: Control node is unable to activate decision node #0 at address 192.168.0.11 
+(RC)   22:09:55 Recover -&gt; RECOVERED 
+(RC)   22:09:59 Run -&gt; ACTIVE 
+(MLE) b0control21.fnal.gov:Thread-25:Jul 23, 2007 10:10:07 PM-&gt;  Level 2 Decision Timeout 
+</pre>
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245632' target=_top>245632</a>) -->
+
+<!-- Date: Mon Jul 23 22:14:31.413 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245632>245632</A>
+TERMINATE: L2 Decision Timeouts
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 22:16:08.363 2007 -->
+We've had a number of silicon (ISL) cooling problems... experts are working on it.
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245632' target=_top>245632</a>) -->
+<!-- Comment: Mon Jul 23 22;26;08 comment by...the silis -->
+<h3>Chiller incident</h3>
+The chiller is back. ISL temperatures are close to stable condition. We have switch ISL west back to standby. We are ready to take data.
+<!-- Comment: Mon Jul 23 23;28;51 comment by...Ricardo, Ignacio, Ulrich -->
+More details, as usual, in the <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=363&frame=2&anchor=21:50:03'>
+Silicon e-log</a>.
+<!-- Date: Mon Jul 23 22:18:15.214 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245635>245635</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 22:19:00.913 2007 -->
+We've restarted the run. L2 is working now.
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245635' target=_top>245635</a>) -->
+
+
+<!-- Date: Mon Jul 23 22:25:28.028 2007 -->
+Message queue in logger is growing... I'ts red now.
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245635' target=_top>245635</a>) -->
+<!-- Comment: Mon Jul 23 22;26;00 comment by...Sasha -->
+it's in CSL status page.
+
+
+
+
+<!-- Date: Mon Jul 23 22:34:39.068 2007 -->
+Final protons are being loaded.  Already have 20 bunches in the machine around 305E10 each.
+<!-- Author: Pekka :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245635' target=_top>245635</a>) -->
+<!-- Comment: Mon Jul 23 22;45;26 comment by...Pekka -->
+Full proton load in -- 1.023E13 protons total.
+<!-- Date: Mon Jul 23 22:36:22.387 2007 -->
+<pre> Attention !!!. FERML_TM2_HEVB2B_EVENTS_PENDING_TIMEOUT !!!  
+ - AUTO HRR will be issued.  
+ 
+Fixed by an HRR.</pre>
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245635' target=_top>245635</a>) -->
+<!-- Comment: Mon Jul 23 22;37;20 comment by...Sasah -->
+<pre>The same thing again:
+
+[MLE]
+(MLW) b0control21.fnal.gov:Thread-25:Jul 23, 2007 10:36:27 PM-&gt;Received error message: errmon Not a state HaltRecoverRun HRR suggested for:b0tsi00:Messenger:Jul 23, 2007 10:36:28 PM-&gt;TM2 Timeout waiting for pending events from HEVB2b, partition 0, lastEvent 4299(MLE) b0control21.fnal.gov:Thread-25:Jul 23, 2007 10:36:27 PM-&gt;Requested Halt-Recover-Run issued (errmon)
+(MLE) b0felix.fnal.gov:TEDCpp:Jul 23, 2007 10:36:37 PM-&gt;{ 22:36:37, 7/23/2007 }: L2-Pulsar-Linux: Halted while  processing happily</pre>
+
+<!-- Comment: Mon Jul 23 22;39;23 comment by...Sasha -->
+Ace control Panel does not show TimeOut any issues.
+
+<!-- Comment: Mon Jul 23 22;41;53 comment by...Sasha -->
+again and . Paging L3/EVB
+
+
+<!-- Comment: Mon Jul 23 22;57;03 comment by...Pekka -->
+L3 experts (Si Xie) calls in.  Suspects it is a problem with CSL.  We go through the restart procedure, but also page the CSL LRP.
+<!-- Comment: Mon Jul 23 22;57;45 comment by...Si -->
+Ace (Sasha) mentioned that the L3 display is green and purple. This points to a problem with the CSL due to hot trigger perhaps (this is more likely during cosmics, which was the case earlier tonight). We recommend cleaning up the EVB and seeing if the problem persists. If it does we recommend contacting CSL experts.
+<!-- Date: Mon Jul 23 22:47:00.426 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245635>245635</A>
+TERMINATE: High Rate of Busy timeouts from EVB2B
+<!-- Author: Alexander Paramonov -->
+
+
+<!-- Date: Mon Jul 23 22:54:05.661 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245636>245636</A>
+TERMINATE: CSL Error
+<!-- Author: Alexander Paramonov -->
+
+
+
+
+<!-- Date: Mon Jul 23 23:04:03.848 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245637>245637</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_4_02 [10,929,698] 
+<!-- Author: Alexander Paramonov -->
+
+
+
+<!-- Date: Mon Jul 23 23:04:03.759 2007 -->
+Starting to load pbars.
+<!-- Author: Pekka :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245637' target=_top>245637</a>) -->
+<!-- Comment: Mon Jul 23 23;22;20 comment by...Pekka -->
+Finished loading pbars -- 1.41E12.  This exhausts the stash.
+<!-- Date: Mon Jul 23 23:13:25.315 2007 -->
+L2 Busy timeout. Fixed by an HRR
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245637' target=_top>245637</a>) -->
+
+
+<!-- Date: Mon Jul 23 23:14:28.001 2007 -->
+ProcMon complains about ICICLE. ICICLE restarted. 
+<!-- Author: Sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245637' target=_top>245637</a>) -->
+
+
+<!-- Date: Mon Jul 23 23:22:59.449 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=245637>245637</A>
+TERMINATE: new store.
+<!-- Author: Alexander Paramonov -->
+
+
+
+
+<!-- Date: Mon Jul 23 23:30:03.968 2007 -->
+Start scraping.
+<!-- Author: Pekka -->
+<!-- Comment: Mon Jul 23 23;44;21 comment by...Pekka -->
+MCR calls to tell us Scraping complete.  While on the phone, LOSTP jumps to 50kHz.  They call back to report that apparently not all the collimators went to their appropriate positions, and that they are re-scraping.
+
+<!-- Date: Mon Jul 23 23:55:17.108 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:01</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Mon Jul 23 23:58:25.076 2007 -->
+<font color=red>Shift Summary: </font><pre>Evening Shift Summary 
+ 
+Most of the shift was spent waiting for enough pbars to merit a store.  Highlights: 
+ 
+1)  The upgrades to L2 were implemented by Gene and the default physics trigger table was changed.  We checked that L2Torture and Cosmics still worked. 
+ 
+2)  The switch from SL3 to SL4 on the nodes used to download the crates was completed successfully. 
+ 
+3)  We were able to get the ACNET Monitor running on 2RR03G – several front panel restarts did the trick. 
+ 
+4)  Had another silicon cooling anomaly, with the chiller dropping significantly below the set point.  The usual sophisticated technique – a well-placed hammer stroke – brought the chiller back to sanity.  Experts are discussing next steps. 
+ 
+5)   Had recurring problems with – apparently – the CSL.  Numerous times, runs aborted with CSL errors.  Also, DAQMON reported CSL problems that didn't appear to be there, based on the CSL Monitor and PROCMON.  Experts stated that the DAQMON reporting was not to be trusted.  So why do we have it here to confuse? 
+ 
+6)   At end of shift, store has come in with high LOSTP rates.  We hand over to the owl shift. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             100
+   
+</td></tr></table></pre>
+<!-- Author: Pekka -->
+

@@ -1,0 +1,492 @@
+<!-- Title: Eve shift. Wed Apr  4, 2007 -->
+<!-- SciCo: Fumi Ukegawa -->
+<!-- DAQAce: Michal Kreps / Shih-Chieh Hsu -->
+<!-- MonAce: -- -->
+<!-- CO: Ye Li -->
+<!-- OpManager: Farrukh Azfar -->
+<!-- Notes: -->
+<pre>Tev studies started at 15:00, expected to last for &gt; 4 hours, 
+then a shot setup. 
+ 
+RR = 193E10, Stack = 0. 
+ 
+So, we can have the first store after the access sometime during the eve shift.</pre>
+
+
+<!-- Date: Wed Apr 4 16:14:38.217 2007 -->
+<pre>From Run Coordinator e-log: 
+--------------------------- 
+ 
+14:30:58-  
+ 
+Tevatron Delays and Approved Studies: 
+ 
+    * Tevatron 
+          o Tevatron had T:B0Q5 trip off during the squeeze caused by the DC lead flow being too cold.   Another dry squeeze was required as well as warming up the lead flow.  The lead flow warm up was taking longer than expected and is not quite done. 
+          o This delays the Tevatron schedule and ensures that we will have our target quantity of pbars for the shot.  
+          o We do not have an estimate for shot setup yet, but it will probably be on the evening shift. 
+    * Pbar 
+          o Beam sweeping studies.  These are mostly parasitic, buy may impact the reading on M:TOR109. 
+          o Stacktail measurements:  Require one hour of not stacking with very little beam in the Accumulator.  We can complete these studies after the next set of transfers. 
+          o Lets set a maximum stash size of 250e10 in the Recycler.  We will leave any additional pbars behind in the Accumulator. 
+    * Main Injector:   As time allows, we will also open up the possibility of some of the Main Injector studies, especially during the stacktail measurements. 
+          o 120 Gev lattice on $29 cycle to the Main Injector dump (2 hours).    
+          o Barrier bucket studies on the $2E cycles (2 hours). Experts changed the Booster event on the required TLG module from a $13 to a $1C, which eliminates the incompatibility with SY120 operations. 
+ 
+         
+ 
+ - B Drendel</pre>
+<!-- Author: Ukegawa (SciCo) -->
+
+
+<!-- Date: Wed Apr 4 16:43:18.700 2007 -->
+<pre>Plan: 
+----- 
+16:18:45-  
+ 
+The Collider Plan:   Finish fixing the Tevatron and go into HEP shot setup. 
+ 
+    * Pbars 
+          o We will want a maximum of only one more set of transfers to the Recycler before our Tevatron shot.   If there are any additional pbars, leave them behind in the Accumulator. 
+    * Before Shot 
+          o Tevatron experts get as long as they need to parse the squeeze, and get the Tevatron ready for shot setup. 
+          o Follow any directions left by Tevatron experts for getting into shot setup. 
+    * Shot Setup Guidelines: 
+          o Protons:  
+                + 275-295E9 per bunch in the Tevatron at 150 GeV, unless Tevatron experts request a different amount of beam. 
+                + Look for longitudinal bunch length in the Tevatron at 150GeV to be less than 3.0 nsec.  
+          o Recycler: 
+                + Follow the suggestions given in the Recycler Collider Shot Guidelines. 
+    * After the shot 
+          o Resume iterations of stack to 50mA and transfer to Recycler. 
+          o Keep timelines optimized, and maintain proton beam efficiency and intensity through the accelerator chain. 
+ 
+ - B Drendel  </pre>
+<!-- Author: Ukegawa -->
+
+<!-- Date: Wed Apr 4 17:12:42.404 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238215>238215</A>
+ Terminated at 2007.04.04 17:11:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:12:43.830 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238215>238215</A>
+TERMINATE: Giving SVT crates to experts
+<!-- Author: Michal & Shih-Chieh -->
+
+
+<!-- Date: Wed Apr 4 17:15:28.737 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238218>238218</A>
+ Activated at 2007.04.04 17:14:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:15:29.794 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238218>238218</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+<!-- Date: Wed Apr 4 17:21:51.072 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238218>238218</A>
+ Terminated at 2007.04.04 17:21:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:24:45.719 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238219>238219</A>
+ Activated at 2007.04.04 17:24:39
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:25:00.844 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238219>238219</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+<!-- Date: Wed Apr 4 17:34:17.106 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238219>238219</A>
+ Terminated at 2007.04.04 17:33:59
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:38:25.627 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238222>238222</A>
+ Activated at 2007.04.04 17:36:51
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:38:26.135 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238222>238222</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+<!-- Date: Wed Apr 4 17:38:40.692 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238222>238222</A>
+ Terminated at 2007.04.04 17:38:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:48:17.758 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238224>238224</A>
+ Activated at 2007.04.04 17:48:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 17:49:00.399 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238224>238224</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+
+<!-- Date: Wed Apr 4 17:49:17.662 2007 -->
+SVT experts are done with their work.
+<!-- Author: Michal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238224' target=_top>238224</a>) -->
+
+
+<!-- Date: Wed Apr 4 17:59:27.487 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3320&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3320  width='300' align='top'></a></td><td><p>Strange.  When I went to work on PISABOX, this error 
+dialog was up.  I see no indication that any device was 
+disconnected from PISABOX.  I cleared the dialog.  I'll  
+have Mark Knapp look at this tomorrow.</p></td></tr></table>
+<!-- Author: Steve Hahn -->
+
+
+<!-- Date: Wed Apr 4 18:10:56.897 2007 -->
+<h2> SVT work</h2> 
+ 
+ We redid the test of new GB firmware to check the BC mismatches  
+between VME backplane and End of Event word. We had good  
+progresses 
+using teststand (tstsvt1), fakehits (SVT local), and cosmic ray run however, we should solve some issues before installing  
+although the feeling is close to finish our task.<br> 
+ Details are written in  
+<a href= 
+'/cgi/elog/det-system-elog.pl?nb=svt&action=view&page=25&frame=2&anchor=18:05:11'> 
+SVT e-log </a><br> 
+   
+<!-- Author: Taichi Kubo and Taka Maruyama -->
+
+<!-- Date: Wed Apr 4 18:23:33.560 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238224>238224</A>
+ Terminated at 2007.04.04 18:23:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 18:27:40.356 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238225>238225</A>
+ Activated at 2007.04.04 18:27:23
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Apr 4 18:30:03.031 2007 -->
+L2PULSAR_NODELOST- control node is unable to contact decision node process and cause L2 timeouts
+<!-- Author: Shih-Chieh/Michal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238225' target=_top>238225</a>) -->
+<!-- Comment: Wed Apr  4 18;41;01 comment by...Michal -->
+I found following error in errorHandler: L2-Pulsar-Linux: Control node is unable to activate decision node #0 at address 192.168.0.4 
+
+<!-- Comment: Wed Apr  4 18;47;45 comment by...Michal -->
+We called Vadim as primary pager didn't answer and he says that somebody from L2 has to come in. He will find somebody to come and get back to us.
+<!-- Comment: Wed Apr  4 18;58;17 comment by...Michal & Shih-Chieh -->
+Vadim couldn't get anybody to come in, he navigated me to check L2 decision node but we couldn't log in. He asked me to reboot it and now we are starting run to see whether things are working again.
+<!-- Comment: Wed Apr  4 18;59;30 comment by...Michal & Shih-Chieh -->
+And we are getting events again.
+<!-- Date: Wed Apr 4 18:31:57.312 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238225>238225</A>
+ Terminated at 2007.04.04 18:31:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 18:34:53.560 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238226>238226</A>
+ Activated at 2007.04.04 18:34:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 18:34:54.329 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238226>238226</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+
+
+<!-- Date: Wed Apr 4 18:47:58.477 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238226>238226</A>
+ Terminated at 2007.04.04 18:47:50
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Apr 4 18:58:54.878 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238227>238227</A>
+ Activated at 2007.04.04 18:58:39
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 18:58:55.685 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238227>238227</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+
+
+<!-- Date: Wed Apr 4 19:23:28.556 2007 -->
+Just to keep people outside informed, Tevatron experts are still doing checkout and tuning of the Tevatron. In addition MCR just finished another set of transfers to Recycler, so my personal estimate is that we will not get beam earlier than in three hours, but will probably take longer. I will keep you informed.
+<!-- Author: Michal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238227' target=_top>238227</a>) -->
+
+
+<!-- Date: Wed Apr 4 19:44:01.684 2007 -->
+<pre>We looked into why YMon was crashing some more with cosmic runs. 
+YMon crashes at:Consumer/YMon/CESDMonitor.cc:485  
+(see cdfsoftb0 e-log for more details). 
+Unfortunately, this problem is intermittent. At a moment, 
+6.1.4ar version YMon crashes on b0server06 (YMon runs on this 
+node normally), but the same version YMon does not crash when  
+we run it on a different node.  For now, we set YMon to run 
+on a spare machine, b0server11.  
+No need to call consumer monitor pager tonight, when a store 
+comes in.  Tomorrow, we plan to change monitors to the new  
+version for TrigMon people. 
+</pre>
+<!-- Author: kaori and koji nakamura -->
+
+
+<!-- Date: Wed Apr 4 20:10:23.083 2007 -->
+We checked with MCR and they still do Tevatron studies which still might take couple of hours, so no idea when shot-setup will be.
+<!-- Author: Michal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238227' target=_top>238227</a>) -->
+
+<!-- Date: Wed Apr 4 20:11:16.421 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238227>238227</A>
+ Terminated at 2007.04.04 20:11:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 20:15:45.750 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238229>238229</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [18,791,633] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+
+<!-- Date: Wed Apr 4 21:36:28.301 2007 -->
+<pre>MCR calls. They are going for a shot setup right now.</pre>
+<!-- Author: Ukegawa (SciCo) -->
+<!-- Comment: Wed Apr  4 21;39;16 comment by...Michal -->
+<table border=0><td><tr><td bgcolor=#e0e030>Finaly we are there, lets hope that they will make it up to the collisions. </td></tr></td></table>
+
+<!-- Date: Wed Apr 4 22:04:13.711 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238230>238230</A>
+ Activated at 2007.04.04 22:04:04
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 22:04:19.160 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238230>238230</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,674] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+
+<!-- Date: Wed Apr 4 22:06:30.558 2007 -->
+L2 decision timeout shows up and HRR fix the problem
+<!-- Author: Shih-Chieh/Michal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238230' target=_top>238230</a>) -->
+<!-- Comment: Wed Apr  4 22;17;41 comment by...Shih-Chieh/Michal -->
+Again
+<!-- Comment: Wed Apr  4 22;23;40 comment by...Shih-Chieh/Michal -->
+again
+<!-- Date: Wed Apr 4 22:17:02.004 2007 -->
+Final Protons are being loaded. 
+Store # is 5328.
+<!-- Author: Ukegawa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238230' target=_top>238230</a>) -->
+<!-- Comment: Wed Apr  4 22;21;53 comment by...Ukegawa -->
+Well, they were not the final ones.
+
+
+<!-- Date: Wed Apr 4 22:25:35.222 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238230>238230</A>
+ Terminated at 2007.04.04 22:25:27
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 22:35:57.313 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238231>238231</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_TEST_4_02 [32,876,682] 
+<!-- Author: Michal & Shih-Chieh -->
+<!-- Comment: Wed Apr  4 22;38;13 comment by...Michal -->
+Failed in L3 during activate (L3 turned red in runControl). Trying one more time.
+
+<!-- Date: Wed Apr 4 22:38:28.929 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238232>238232</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_TEST_4_02 [32,876,682] 
+<!-- Author: Michal & Shih-Chieh -->
+<!-- Comment: Wed Apr  4 22;38;47 comment by...Michal -->
+This time it went OK and running.
+
+
+<!-- Comment: Wed Apr  4 22;52;42 comment by...Emily Nurse -->
+No beam test, went ok.
+<!-- Date: Wed Apr 4 22:43:03.526 2007 -->
+All protons are in. 
+Antiprotons are about to be injected. 
+ 
+RR = 214E10, Stack = 61 mA.
+<!-- Author: Ukegawa -->
+
+<!-- Date: Wed Apr 4 22:49:20.298 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238233>238233</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_4_02 [3,873,681] 
+<!-- Author: Michal & Shih-Chieh -->
+
+
+
+
+<!-- Date: Wed Apr 4 23:09:50.727 2007 -->
+All antiprotons are in.
+<!-- Author: Ukegawa -->
+<!-- Comment: Wed Apr  4 23;11;59 comment by...Michal -->
+ramping
+
+<!-- Comment: Wed Apr  4 23;12;55 comment by...Michal -->
+Flattop
+
+<!-- Comment: Wed Apr  4 23;22;40 comment by...Michal -->
+second scraping
+
+
+<!-- Comment: Wed Apr  4 23;27;54 comment by...Michal -->
+Ramping up HV
+<!-- Date: Wed Apr 4 23:25:57.748 2007 -->
+<table border=0><td><tr><td bgcolor=#e0e030>MCR called. Scraping done.</td></tr></td></table>
+<!-- Author: Ukegawa -->
+<!-- Comment: Wed Apr  4 23;30;32 comment by...Ukegawa -->
+Store 5328, that is.
+<!-- Date: Wed Apr 4 23:28:34.497 2007 -->
+Store 5328 is in. CLC HV is up. Notified MCR. 
+ 
+Lum = 198E30, TeVPR = 8927E9, TeVPB = 2070E9.
+<!-- Author: Ukegawa -->
+
+
+<!-- Date: Wed Apr 4 23:31:13.731 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238234>238234</A>
+ Activated at 2007.04.04 23:30:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Apr 4 23:31:14.301 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238234>238234</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_4_02 [3,873,681] 
+<!-- Author: Michal & Shih-Chieh -->
+<!-- Comment: Wed Apr  4 23;55;13 comment by...Emily -->
+Running with DPS disabled for the first half hour
+<!-- Comment: Wed Apr  4 23;56;37 comment by...Emily -->
+I just enabled DPS
+<!-- Date: Wed Apr 4 23:37:32.400 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-3321&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-3321' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-3322&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-3322' width='300'></a></center>
+<!-- Author: Shih-Chieh/Michal -->
+<!-- Comment: Wed Apr  4 23;38;03 comment by...Shih-Chieh/Michal -->
+Those are plots during shot setup
+
+<!-- Date: Wed Apr 4 23:55:13.777 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=238234 target=_runSummary>238234</A> x3A29A</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_02 [3,873,681]</FONT></TD>
+<TD ALIGN=CENTER>23:30:45</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>00:22:00</TD>
+<TD ALIGN=RIGHT>     133,116</TD>   <TD ALIGN=RIGHT>    253.83</TD>
+<TD ALIGN=RIGHT>    244.82</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:00</TD>
+<TD ALIGN=CENTER>00:22:00</TD>
+<TD ALIGN=RIGHT>       133,116</TD> <TD ALIGN=RIGHT>    253.83</TD>
+<TD ALIGN=RIGHT>    244.82</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+
+
+<!-- Date: Wed Apr 4 23:57:30.460 2007 -->
+<font color=red>Shift Summary: </font><pre>Eve shift: Wednesday April 4, 2007 
+---------------------------------- 
+16:00   Proton is back in TeV since 15:00. 
+	They will do studies for &gt;4 hours, then a shot setup. 
+ 
+	RR = 193E10, Stack = 0. 
+ 
+17:15	SVT experts (Kubo, Maruyama) use the crate for tests. 
+  
+18:10	Kaori and Nakamura check consumers with cosmics. 
+ 
+18:35	Paged L2 Pulsar expert. No answer, so called Vadim cell. 
+	He says somebody has to come in to investigate. 
+	After a while, ACE fixed it with Vadim on the phone. 
+	Expert came in as well. 
+ 
+19:30	More than 4 hours have passed since they started Tev studies,  
+	and still going. 
+	RR = 226E10, Stack = 10 mA. 
+ 
+19:45	Consumers (YMON) are ok. No need to page at the shot setup. 
+ 
+20:10	Called MCR to check the status. They are still doing Tev studies. 
+	May take another couple of hours. 
+ 
+21:35	MCR calls. Shot setup. 
+ 
+21:40	All protons are in. Now anti-protons. 
+ 
+23:25	Store 5328 is in. Lum = 198E30, TevPR = 8927E9, PB = 2070E9. 
+	Losses are ok; HV is up, including silicon. 
+	Emily is doing trigger tests. 
+ 
+23:59	Have set up a pretty decent store for the owl shift.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   238234
+Delivered Luminosity   316.8 nb-1  
+Acquired Luminosity    274.7 nb-1  
+Efficiency             86.7%
+   
+</td></tr></table></pre>
+<!-- Author: Ukegawa -->
+
+
+<!-- Date: Thu Apr 5 00:03:05.240 2007 -->
+"GER_SVXMON_HALT_RECOVER_RUN_ERROR" Stuck Cellid S/B3/W9/L3/CO-5. Auto HRR works fine.
+<!-- Author: Shih-Chieh/Michal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=238234' target=_top>238234</a>) -->

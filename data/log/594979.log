@@ -1,0 +1,414 @@
+!xsel 12 02:38:58  7-Dec-94
+ Command not found; type ? for a command listing
+!ad70011000g200170m:ASCA >
+!ad70011000g200170m:ASCA > set dumpcat
+Obscat listing off
+!ad70011000g200170m:ASCA > set mission ASCA
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+/bin/rm -f ad70011000g200170m_*.xsl
+/bin/rm -f ad70011000g200170m_*.def
+/bin/rm -f ad70011000g200170m_*.tmp
+exit 0
+ 
+ Notes: XSELECT set up for      ASCA
+ Keywords for time and pha are  TIME       PHA
+ Units of time are              s
+ Default timing binsize =    16.00
+ Keywords for images are          DETX       DETY
+ Keywords for the WMAP are        DETX       DETY
+ 
+!ad70011000g200170m:ASCA > load obscat load_str=ad70011000g200170m.cat
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+exit 0
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+/bin/rm -f ad70011000g200170m_*.xsl
+/bin/rm -f ad70011000g200170m_*.def
+/bin/rm -f ad70011000g200170m_*.tmp
+exit 0
+ 
+ Notes: XSELECT set up for      ASCA
+ Keywords for time and pha are  TIME       PHA
+ Units of time are              s
+ Default timing binsize =    16.00
+ Keywords for images are          DETX       DETY
+ Keywords for the WMAP are        DETX       DETY
+ 
+ 
+Setting: IMAGE binning    =    1
+         WMAP binning     =    1
+         Energy Column    =  PI
+         Energy rebinning =    1
+ 
+!ad70011000g200170m:ASCA-GIS2 > set datadir .
+ 
+Setting data directory to /data/data32/seq_proc/70011000.003/
+!ad70011000g200170m:ASCA-GIS2 > choose 1-**
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+exit 0
+ 
+   Setting datamode to PH
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   1023
+ 
+ 
+Number of files read in:   21
+ 
+Files currently in use:
+ 
+   1   ft930724_1829_1641G200570M.fits
+   2   ft930724_1829_1641G200970M.fits
+   3   ft930724_1829_1641G201370M.fits
+   4   ft930724_1829_1641G202270M.fits
+   5   ft930724_1829_1641G203070M.fits
+   6   ft930724_1829_1641G203870M.fits
+   7   ft930724_1829_1641G204470M.fits
+   8   ft930724_1829_1641G204670M.fits
+   9   ft930724_1829_1641G204870M.fits
+  10   ft930724_1829_1641G205070M.fits
+  11   ft930724_1829_1641G205270M.fits
+  12   ft930724_1829_1641G205470M.fits
+  13   ft930724_1829_1641G205670M.fits
+  14   ft930724_1829_1641G205870M.fits
+  15   ft930724_1829_1641G206070M.fits
+  16   ft930724_1829_1641G206270M.fits
+  17   ft930724_1829_1641G206470M.fits
+  18   ft930724_1829_1641G206770M.fits
+  19   ft930724_1829_1641G207370M.fits
+  20   ft930724_1829_1641G207670M.fits
+  21   ft930724_1829_1641G208270M.fits
+ 
+!ad70011000g200170m:ASCA-GIS2-PH > extract events
+#!/bin/sh
+CMDNAME=extractor
+extractor filename = "@ad70011000g200170m_files.tmp" eventsout = ad70011000g200
+170m_out_event.xsl regionfile = "NONE" qdpfile = NONE fitsbinlc = "NONE"  unbin
+lc = NONE phafile = NONE imgfile = NONE gtifil = NONE asctem = NONE winfile = N
+ONE timeorder = no phalcut =    0 phahcut = 1023 phalow =    0 phahigh = 1023 x
+colf = DETX ycolf = DETY xcolh = DETX ycolh = DETY xfkey = DET_XSIZ yfkey = DET
+_YSIZ xhkey = DET_XSIZ yhkey = DET_YSIZ phamax = PHA_BINS specbin =    1 binh =
+    1 binf =    1 binlc =  1.6000000E+01 xcf =      0 ycf =      0 sizef =     
+-1 xch =      0 ych =      0 sizeh =     -1 tcol = TIME ecol = PI gti = "STDGTI
+" events = "EVENTS" gtitxt = ad70011000g200170m_ascii_out.xsl timeref =   40000
+.00 wtmapb = yes 2> /tmp/$$ad70011000g200170m_error.tmp
+err_return=$?
+err_file=`grep -v "ld.so:" /tmp/$$ad70011000g200170m_error.tmp|wc -l`
+if [ $err_file -ne 0 -o $err_return -ne 0 ]
+       then
+           cat /tmp/$$ad70011000g200170m_error.tmp
+           echo 'Failure for ' $CMDNAME
+           rm -f /tmp/$$ad70011000g200170m_error.tmp
+           exit 1
+fi
+rm -f /tmp/$$ad70011000g200170m_error.tmp
+exit 0
+ filename = @ad70011000g200170m_files.tmp eventsout = ad70011000g200170m_out_ev
+ent.xsl regionfile = NONE qdpfile = NONE fitsbinlc = NONE unbinlc = NONE phafil
+e = NONE imgfile = NONE gtifil = NONE asctem = NONE winfile = NONE timeorder = 
+no phalcut = 0 phahcut = 1023 phalow = 0 phahigh = 1023 xcolf = DETX ycolf = DE
+TY xcolh = DETX ycolh = DETY xfkey = DET_XSIZ yfkey = DET_YSIZ xhkey = DET_XSIZ
+ yhkey = DET_YSIZ phamax = PHA_BINS specbin = 1 binh = 1 binf = 1 binlc = 1.600
+0000E+01 xcf = 0 ycf = 0 sizef = -1 xch = 0 ych = 0 sizeh = -1 tcol = TIME ecol
+ = PI gti = STDGTI events = EVENTS gtitxt = ad70011000g200170m_ascii_out.xsl ti
+meref = 40000.00 wtmapb = yes
+ Doing file: ./ft930724_1829_1641G200570M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2080      2080              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G200970M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2971      2971              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G201370M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     3313      3313              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G202270M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     3354      3354              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G203070M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     3120      3120              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G203870M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2814      2814              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G204470M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2689      2689              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G204670M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2389      2389              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G204870M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+      411       411              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G205070M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2411      2411              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G205270M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+      591       591              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G205470M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     3170      3170              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G205670M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     1539      1539              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G205870M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2652      2652              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G206070M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+      985       985              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G206270M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2454      2454              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G206470M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     2772      2772              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G206770M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+      869       869              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G207370M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     1029      1029              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G207670M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+      679       679              0         0         0         0
+ Writing events file
+ Doing file: ./ft930724_1829_1641G208270M.fits
+    Total      Good    Bad: Region      Time     Phase       PHA
+     1413      1413              0         0         0         0
+ Writing events file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       PHA
+         43705     43705              0         0         0         0
+!ad70011000g200170m:ASCA-GIS2-PH > save events outfile=ad70011000g200170m.unf u
+se_events=yes
+Wrote events list to file ad70011000g200170m.unf
+Changing Data directory from:
+    ./
+to the current working directory.
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+exit 0
+!ad70011000g200170m:ASCA-GIS2-PH > select mkf "@xexpr" data_dir=. mkf_def_expr=
+ft*.mkf
+#!/bin/sh
+CMDNAME=maketime
+maketime infile = /data/data32/seq_proc/70011000.003/ft930724_1829_1641.mkf out
+file = /data/data32/seq_proc/70011000.003/ad70011000g200170m_work2001.xsl expr 
+= "@xexpr" name = NAME value = VALUE time = TIME start = START stop = STOP  com
+pact = no histkw = yes 2> /tmp/$$ad70011000g200170m_error.tmp
+err_return=$?
+err_file=`grep -v "ld.so:" /tmp/$$ad70011000g200170m_error.tmp|wc -l`
+if [ $err_file -ne 0 -o $err_return -ne 0 ]
+       then
+           cat /tmp/$$ad70011000g200170m_error.tmp
+           echo 'Failure for ' $CMDNAME
+           rm -f /tmp/$$ad70011000g200170m_error.tmp
+           exit 1
+fi
+rm -f /tmp/$$ad70011000g200170m_error.tmp
+/bin/mv -f /data/data32/seq_proc/70011000.003/ad70011000g200170m_work2001.xsl /
+data/data32/seq_proc/70011000.003/ad70011000g200170m_mkf_out.xsl
+exit 0
+  infile = "/data/data32/seq_proc/70011000.003/ft930724_1829_1641.mkf" outfile 
+= "/data/data32/seq_proc/70011000.003/ad70011000g200170m_work2001.xsl" expr = "
+@xexpr" name = NAME value = VALUE time = TIME start = START stop = STOP compact
+ = no histkw = yes
+!ad70011000g200170m:ASCA-GIS2-PH > filter region /aps/config/GIS2_REGION256.1.0
+!ad70011000g200170m:ASCA-GIS2-PH > gisclean
+Using table:/tmp_mnt/usr/local/ftools/ftools.3.1.5/refdata/rti_gis_1024_040693.
+fits
+#!/bin/sh
+echo Now processing /data/data32/seq_proc/70011000.003/ad70011000g200170m.unf
+CMDNAME=flookup
+flookup /data/data32/seq_proc/70011000.003/ad70011000g200170m.unf /data/data32/
+seq_proc/70011000.003/ad70011000g200170m_work1001.xsl /tmp_mnt/usr/local/ftools
+/ftools.3.1.5/refdata/rti_gis_1024_040693.fits tcolumn = PHA lcolumn = CHAN lbc
+ol = RTI_MIN ubcol = RTI_MAX column = RTI bounds = '[]' history = yes copyall =
+ yes 2> /tmp/$$ad70011000g200170m_error.tmp
+err_return=$?
+err_file=`grep -v "ld.so:" /tmp/$$ad70011000g200170m_error.tmp|wc -l`
+if [ $err_file -ne 0 -o $err_return -ne 0 ]
+       then
+           cat /tmp/$$ad70011000g200170m_error.tmp
+           echo 'Failure for ' $CMDNAME
+           rm -f /tmp/$$ad70011000g200170m_error.tmp
+           exit 1
+fi
+rm -f /tmp/$$ad70011000g200170m_error.tmp
+exit 0
+  "/data/data32/seq_proc/70011000.003/ad70011000g200170m.unf" "/data/data32/seq
+_proc/70011000.003/ad70011000g200170m_work1001.xsl" "/tmp_mnt/usr/local/ftools/
+ftools.3.1.5/refdata/rti_gis_1024_040693.fits" tcolumn = PHA lcolumn = CHAN lbc
+ol = RTI_MIN ubcol = RTI_MAX column = RTI bounds = "[]" history = yes copyall =
+ yes
+Infile # of rows    Outfile # of rows    # filtered
+----------------    -----------------    ----------
+       43705               35275              8430
+!ad70011000g200170m:ASCA-GIS2-PH > extract "events image"
+#!/bin/sh
+CMDNAME=extractor
+extractor filename = "@ad70011000g200170m_files.tmp" eventsout = ad70011000g200
+170m_out_event.xsl regionfile = "ad70011000g200170m_region.xsl" qdpfile = NONE 
+fitsbinlc = "NONE"  unbinlc = NONE phafile = NONE imgfile = "ad70011000g200170m
+_image.xsl" gtifil = "@ad70011000g200170m_fits_in.xsl" asctem = NONE winfile = 
+NONE timeorder = no phalcut =    0 phahcut = 1023 phalow =    0 phahigh = 1023 
+xcolf = DETX ycolf = DETY xcolh = DETX ycolh = DETY xfkey = DET_XSIZ yfkey = DE
+T_YSIZ xhkey = DET_XSIZ yhkey = DET_YSIZ phamax = PHA_BINS specbin =    1 binh 
+=    1 binf =    1 binlc =  1.6000000E+01 xcf =      0 ycf =      0 sizef =    
+ -1 xch =      0 ych =      0 sizeh =     -1 tcol = TIME ecol = PI gti = "STDGT
+I" events = "EVENTS" gtitxt = ad70011000g200170m_ascii_out.xsl timeref =   4000
+0.00 wtmapb = yes 2> /tmp/$$ad70011000g200170m_error.tmp
+err_return=$?
+err_file=`grep -v "ld.so:" /tmp/$$ad70011000g200170m_error.tmp|wc -l`
+if [ $err_file -ne 0 -o $err_return -ne 0 ]
+       then
+           cat /tmp/$$ad70011000g200170m_error.tmp
+           echo 'Failure for ' $CMDNAME
+           rm -f /tmp/$$ad70011000g200170m_error.tmp
+           exit 1
+fi
+rm -f /tmp/$$ad70011000g200170m_error.tmp
+exit 0
+ filename = @ad70011000g200170m_files.tmp eventsout = ad70011000g200170m_out_ev
+ent.xsl regionfile = ad70011000g200170m_region.xsl qdpfile = NONE fitsbinlc = N
+ONE unbinlc = NONE phafile = NONE imgfile = ad70011000g200170m_image.xsl gtifil
+ = @ad70011000g200170m_fits_in.xsl asctem = NONE winfile = NONE timeorder = no 
+phalcut = 0 phahcut = 1023 phalow = 0 phahigh = 1023 xcolf = DETX ycolf = DETY 
+xcolh = DETX ycolh = DETY xfkey = DET_XSIZ yfkey = DET_YSIZ xhkey = DET_XSIZ yh
+key = DET_YSIZ phamax = PHA_BINS specbin = 1 binh = 1 binf = 1 binlc = 1.600000
+0E+01 xcf = 0 ycf = 0 sizef = -1 xch = 0 ych = 0 sizeh = -1 tcol = TIME ecol = 
+PI gti = STDGTI events = EVENTS gtitxt = ad70011000g200170m_ascii_out.xsl timer
+ef = 40000.00 wtmapb = yes
+ Doing file: /data/data32/seq_proc/70011000.003/ad70011000g200170m_work1001.xsl
+ Getting FITS WCS Keywords
+ 
+    Total      Good    Bad: Region      Time     Phase       PHA
+    35275      8889          20932      5454         0         0
+ Writing events file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       PHA
+         35275      8889          20932      5454         0         0
+ Total Counts for image :    8889
+ Total Time for image :      23296.294855963
+ Total Counts/Time for image :     0.38156282168298
+!ad70011000g200170m:ASCA-GIS2-PH > save events outfile=ad70011000g200170m.evt u
+se_events=yes
+Wrote events list to file ad70011000g200170m.evt
+Changing Data directory from:
+    /data/data32/seq_proc/70011000.003/
+to the current working directory.
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+exit 0
+!ad70011000g200170m:ASCA-GIS2-PH > save image outfile=ad70011000g200170m.detimg
+Wrote image to file ad70011000g200170m.detimg
+!ad70011000g200170m:ASCA-GIS2-PH > clear mkf
+!ad70011000g200170m:ASCA-GIS2-PH > clear region all
+!ad70011000g200170m:ASCA-GIS2-PH > set XYNAME X Y
+!ad70011000g200170m:ASCA-GIS2-PH > extract image
+#!/bin/sh
+CMDNAME=extractor
+extractor filename = "@ad70011000g200170m_files.tmp" regionfile = "NONE" qdpfil
+e = NONE fitsbinlc = "NONE"  unbinlc = NONE phafile = NONE imgfile = "ad7001100
+0g200170m_image.xsl" gtifil = NONE asctem = NONE winfile = NONE timeorder = no 
+phalcut =    0 phahcut = 1023 phalow =    0 phahigh = 1023 xcolf = X ycolf = Y 
+xcolh = DETX ycolh = DETY xfkey = AXLEN1 yfkey = AXLEN2 xhkey = DET_XSIZ yhkey 
+= DET_YSIZ phamax = PHA_BINS specbin =    1 binh =    1 binf =    1 binlc =  1.
+6000000E+01 xcf =      0 ycf =      0 sizef =     -1 xch =      0 ych =      0 
+sizeh =     -1 tcol = TIME ecol = PI gti = "STDGTI" events = "EVENTS" gtitxt = 
+ad70011000g200170m_ascii_out.xsl timeref =   40000.00 wtmapb = yes 2> /tmp/$$ad
+70011000g200170m_error.tmp
+err_return=$?
+err_file=`grep -v "ld.so:" /tmp/$$ad70011000g200170m_error.tmp|wc -l`
+if [ $err_file -ne 0 -o $err_return -ne 0 ]
+       then
+           cat /tmp/$$ad70011000g200170m_error.tmp
+           echo 'Failure for ' $CMDNAME
+           rm -f /tmp/$$ad70011000g200170m_error.tmp
+           exit 1
+fi
+rm -f /tmp/$$ad70011000g200170m_error.tmp
+exit 0
+ filename = @ad70011000g200170m_files.tmp regionfile = NONE qdpfile = NONE fits
+binlc = NONE unbinlc = NONE phafile = NONE imgfile = ad70011000g200170m_image.x
+sl gtifil = NONE asctem = NONE winfile = NONE timeorder = no phalcut = 0 phahcu
+t = 1023 phalow = 0 phahigh = 1023 xcolf = X ycolf = Y xcolh = DETX ycolh = DET
+Y xfkey = AXLEN1 yfkey = AXLEN2 xhkey = DET_XSIZ yhkey = DET_YSIZ phamax = PHA_
+BINS specbin = 1 binh = 1 binf = 1 binlc = 1.6000000E+01 xcf = 0 ycf = 0 sizef 
+= -1 xch = 0 ych = 0 sizeh = -1 tcol = TIME ecol = PI gti = STDGTI events = EVE
+NTS gtitxt = ad70011000g200170m_ascii_out.xsl timeref = 40000.00 wtmapb = yes
+ Doing file: /data/data32/seq_proc/70011000.003/ad70011000g200170m.evt
+ Getting FITS WCS Keywords
+ 
+    Total      Good    Bad: Region      Time     Phase       PHA
+     8889      8889              0         0         0         0
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       PHA
+          8889      8889              0         0         0         0
+ Total Counts for image :    8889
+ Total Time for image :      23296.294855963
+ Total Counts/Time for image :     0.38156282168298
+!ad70011000g200170m:ASCA-GIS2-PH > save image outfile=ad70011000g200170m.img
+Wrote image to file ad70011000g200170m.img
+!ad70011000g200170m:ASCA-GIS2-PH > exit save_session=no
+#!/bin/sh
+/bin/rm -f ad70011000g200170m_*work*.xsl
+/bin/rm -f ad70011000g200170m_*mer*.xsl
+/bin/rm -f ad70011000g200170m_*.xsl
+/bin/rm -f ad70011000g200170m_*.def
+/bin/rm -f ad70011000g200170m_*.tmp
+exit 0
+#!/bin/sh
+pset fdump.par infile=" " columns="-"
+ad70011000g200170m
+ 
+%ED%off
+set dumpcat
+set mission ASCA
+load obscat load_str=ad70011000g200170m.cat
+set datadir .
+choose 1-**
+extract events
+save events outfile=ad70011000g200170m.unf use_events=yes
+select mkf "@xexpr" data_dir=. mkf_def_expr=ft*.mkf
+filter region /aps/config/GIS2_REGION256.1.0
+gisclean
+extract "events image"
+save events outfile=ad70011000g200170m.evt use_events=yes
+save image outfile=ad70011000g200170m.detimg
+clear mkf
+clear region all
+set XYNAME X Y
+extract image
+save image outfile=ad70011000g200170m.img
+exit save_session=no

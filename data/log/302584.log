@@ -1,0 +1,474 @@
+<!-- Title: Day shift. Sun Dec 30, 2001 -->
+<!-- SciCo: Larry N. -->
+<!-- DAQAce: Jong-Young Chong -->
+<!-- MonAce: Ayana! -->
+<!-- CO: Mauro -->
+<!-- OpManager: Kevin -->
+<!-- Notes: -->
+<pre>Continue no cpr, some muons, L=3, dead si ps running</pre>
+
+
+<!-- Date: Sun Dec 30 08:39:37 2001 -->
+<pre> current status 
+ 
+ Rates 
+ L1A 231 Hz 
+ L2A 92  Hz 
+ L3A 23  Hz 
+ total deadtime ~.20% 
+ 
+ Logger 5.09MB/s 
+ 
+ B0 luminosity 2.9E30 
+ delivered 249.7 nb-1 
+ acquired  171.6 nb-1</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Sun Dec 30 08:46:56 2001 -->
+Kevin shamed me into turning CPR on
+<!-- Author: Larry :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135925' target=_top>135925</a>) -->
+
+
+<!-- Date: Sun Dec 30 08:51:59 2001 -->
+mauro notices problem with b2w7 in silicon monitoring.  This 
+doesn't correspond to the fib that's off (fib00), at least not in the somewhat-outdated cabling summary. 
+  
+<!-- Author: ath -->
+
+
+<!-- Date: Sun Dec 30 09:12:21 2001 -->
+PEM HB alarm. H-C says wait 10m. 
+  
+<!-- Author: ath -->
+
+
+<!-- Date: Sun Dec 30 09:22:21 2001 -->
+PEM HB has cleared but still in alarm state.  Upstairs, comm. 
+seems to be lost to 2 of the 6 west(?) power supplies.  This 
+might be why the "bars" show 66.7% for the west(?) voltage. 
+<br> 
+Paging.
+<!-- Author: ath -->
+
+<!-- Date: Sun Dec 30 09:31:55 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135925">135925</A>
+ Terminated at 2001.12.30 09:28:50
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 09:38:49 2001 -->
+After 2 trips, set CPR to standby
+<!-- Author: Larry -->
+
+
+<!-- Date: Sun Dec 30 09:44:44 2001 -->
+<pre>SiliMon Errors: 
+"Error in Raw Monitor 
+ All ADC zero in SB2W7L4NC0 to  5 
+ All ADC zero in SB2W7L4PC5 and 6 
+ Landau  bad  in SB2W7L4NC5 
+ Landau  bad  in IB5W4L4NC3 
+ page silicon!" 
+ 
+Ayana says this crate has power on. 
+ 
+Silicon paged.</pre>
+<!-- Author: Mauro :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135925' target=_top>135925</a>) -->
+
+
+<!-- Date: Sun Dec 30 09:45:40 2001 -->
+ stopped the run and coldstart by request of silicon expert.
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135925' target=_top>135925</a>) -->
+<!-- Comment: Sun Dec 30 09;48;59 comment by...jy -->
+ before finished this run, there was also DTO from fcal00, it didn't halt either. so reset it.
+
+
+<!-- Date: Sun Dec 30 10:13:08 2001 -->
+L3 transition failed during coldstart during quite long time. 
+restarted L3 proxy. <p> 
+but during partitioning after that, L3 is dead (red in RC) 
+cleaned up EVB. but it didn't help.<p> 
+paged L3.
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135927' target=_top>135927</a>) -->
+<!-- Comment: Sun Dec 30 11;26;07 comment by...Nuno/Boris -->
+<pre>u01 had a 300M relay core file, no space left 
+on the hard drive , removed it.
+Killed all relay processes
+
+EventFunnels get stuck in a bad state on the
+outputs. We had to "killall -9 EventFunnel" 
+everuwhere.
+
+Cleaned up L3, restarted Level3 Proxy. 
+
+</pre>
+<!-- Date: Sun Dec 30 10:49:35 2001 -->
+silicon: pink channels went green after coldstart.  few channels in the micron layers returned to pink, but we ignore this.
+<!-- Author: ath -->
+
+
+<!-- Date: Sun Dec 30 10:53:17 2001 -->
+Plug monitoring: expert is looking into PEM/PHA monitoring problems (from italy; 21st century operations....) 5/6 channels West and 1/6 East complain "no Comm"; this is presumably noisy comm line and not caen error. expert might just turn off IFIX alarms for a while. 
+  
+<!-- Author: ath -->
+<!-- Comment: Sun Dec 30 11;30;26 comment by...ath -->
+expert works her magic; plug monitoring is happy now.
+<!-- Date: Sun Dec 30 11:12:56 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135928">135928</A>
+ Activated at 2001.12.30 11:09:40
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 11:17:43 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135928">135928</A>
+ Terminated at 2001.12.30 11:13:50
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 11:20:09 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135929">135929</A>
+ Activated at 2001.12.30 11:16:38
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 11:23:31 2001 -->
+ L3 crash seemed to be caused by one of the output node (b0l3u01) 
+ That node's disk was full due to core  file.<BR> 
+ now expert fixed the problem. <BR> 
+ resume taking data.<BR> 
+ at the restart. fcal00 stopped to respond again. so reset it.<BR> 
+ at laat, we are taking data again.  
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135929' target=_top>135929</a>) -->
+
+
+
+<!-- Date: Sun Dec 30 11:34:39 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135929">135929</A>
+ Terminated at 2001.12.30 11:29:55
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 11:43:37 2001 -->
+<pre>I notice that in the last few days the rate into the CSL has 
+sometimes been limited to 15 MB/sec (instead of the more usual 
+20-22 MB/sec). This is probably because the CSL was 
+writing to disk3 which is the slower, backup disk. 
+I restarted the CSL with some debugging code to 
+understand why the csl is writing to disk3 even though the 
+main disks aren't full. 
+</pre>
+<!-- Author: tony vaiciulis :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135930' target=_top>135930</a>) -->
+
+<!-- Date: Sun Dec 30 11:47:50 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135930">135930</A>
+ Activated at 2001.12.30 11:44:13
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 13:00:30 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135930">135930</A>
+ Terminated at 2001.12.30 12:56:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 13:09:04 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135931">135931</A>
+ Activated at 2001.12.30 13:05:23
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 13:09:04 2001 -->
+ changed trigger table to MINIMUM_DIAS_1[5,233]
+<!-- Author: JY :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135931' target=_top>135931</a>) -->
+
+
+<!-- Date: Sun Dec 30 13:11:50 2001 -->
+Run out the last hour of the store on min bias
+<!-- Author: Larry  :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135931' target=_top>135931</a>) -->
+
+<!-- Date: Sun Dec 30 13:59:00 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135931">135931</A>
+ Terminated at 2001.12.30 13:55:41
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 13:59:25 2001 -->
+10 minute drop store warning
+<!-- Author: Larry -->
+
+
+<!-- Date: Sun Dec 30 14:01:58 2001 -->
+ to prepare dump of the store. stopped the run
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135931' target=_top>135931</a>) -->
+
+
+<!-- Date: Sun Dec 30 14:07:40 2001 -->
+ cosmic_notracks[3,233]
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135932' target=_top>135932</a>) -->
+
+
+<!-- Date: Sun Dec 30 14:10:49 2001 -->
+MCR warns that they will bump the beam around some in an attempt to avoid quench on dump.  Good to be off, may be a while.
+<!-- Author: Larry -->
+<!-- Comment: Sun Dec 30 14;21;36 comment by...Larry -->
+Yes, turn off solenoid to pump
+
+
+<!-- Date: Sun Dec 30 14:29:13 2001 -->
+took out silicons from the run
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135934' target=_top>135934</a>) -->
+<!-- Comment: Sun Dec 30 14;33;54 comment by...jy -->
+due to many reformatter errors drom silicon unbiased.
+
+
+<!-- Date: Sun Dec 30 14:43:14 2001 -->
+Store 869 dropped
+<!-- Author: Larry -->
+<!-- Comment: Sun Dec 30 14;46;50 comment by...Larry -->
+Quenched a4 and b0 quads
+<!-- Date: Sun Dec 30 14:44:25 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3180&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3180' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3181&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3181' width='300'></a></center>
+<!-- Author: monitoring ace -->
+
+
+
+<!-- Date: Sun Dec 30 14:57:02 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-3182&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-3182  width='300' align='top'></td><td>complex plot showing how the beam was dumped.  </a></td></tr></table>
+<!-- Author: ath -->
+<!-- Comment: Sun Dec 30 15;03;33 comment by...ath -->
+there's no imaginary axis, i just mean there's lots of
+info plotted here.
+
+
+<!-- Date: Sun Dec 30 15:07:56 2001 -->
+CAL QIE calibration. appeared on db. following is error mesg.<BR> 
+(MLE) b0puls01:Messenger:3:00:03 PM->QIE calibration failed  <BR> 
+(b0puls01) QIE calib: slot 21, qie 00:Warn  3: Raw ped low        , val 148.9650, cap 0, rng0.<BR> 
+(MLE) b0puls01:Readout_Calib:3:00:03 PM->ADMEM=21 QIE=4 Fail 10: No fitting          (0.0) (0) (0) <BR> 
+(b0puls01) QIE calib: slot 21, qie 04:Fail 10: No fitting         , val 00.0000, cap 0, rng0. <BR> 
+(MLE) b0ccal09:Readout_Calib:3:00:05 PM->ADMEM=19 QIE=6 Fail 14: Sigma(off) big      (1.4248966) (1) (0)<BR> 
+(b0ccal09) QIE calib: slot 19, qie 06:Fail 14: Sigma(off) big     , val 01.4249, cap 1, rng0.  <BR> 
+(MLE) b0pcal11:Readout_Calib:3:00:14 PM->ADMEM=17 QIE=3 Fail 14: Sigma(off) big      (1.1806831) (0) (0) <BR> 
+(b0pcal11) QIE calib: slot 17, qie 03:Fail 14: Sigma(off) big     , val 01.1807, cap 0, rng0. <BR>
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135935' target=_top>135935</a>) -->
+
+
+<!-- Date: Sun Dec 30 15:10:35 2001 -->
+SMX Calibration done. appeared in DB.
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135936' target=_top>135936</a>) -->
+
+
+<!-- Date: Sun Dec 30 15:15:21 2001 -->
+CLC QIE calibration done. following is error mesg.<BR> 
+(MLE) b0clc00:Messenger:5:19:10 AM->QIE calibration failed    <BR> 
+(b0clc00) QIE calib: slot 03, qie 00:Warn 11: Sigma(off) high    , val 00.8020, cap 0, rng0.  <BR> 
+(MLE) b0clc00:Readout_Calib:5:19:10 AM->ADMEM=4 QIE=2 Fail 14: Sigma(off) big      (18.417084) (0) (0) <BR> 
+(b0clc00) QIE calib: slot 04, qie 02:Fail 14: Sigma(off) big     , val 18.4171, cap 0, rng0.<BR>  
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135937' target=_top>135937</a>) -->
+<!-- Comment: Sun Dec 30 15;17;31 comment by...jy -->
+ appeared in DB.
+<!-- Date: Sun Dec 30 15:17:10 2001 -->
+TOF OIE Calibration done. appeared in DB.
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135938' target=_top>135938</a>) -->
+<!-- Comment: Sun Dec 30 15;20;20 comment by...jy -->
+warning mesg.<BR>
+(b0wcal02) QIE calib: slot 06, qie 08:Warn 10: Slope low          , val 03.0309, cap 0, rng0.<BR>
+(b0wcal05) QIE calib: slot 07, qie 02:Warn 10: Slope low          , val 00.0258, cap 1, rng4.    <BR>    
+<!-- Date: Sun Dec 30 15:17:34 2001 -->
+The numbers: silicon rad during shift (all during dump/quench) 
+<ul><li>blm 1 0.163 
+<li>blm 2 0.017 
+<li>blm 3 0.032 
+<li>blm 4 0.014 
+</ul> 
+and our luminosity 
+<ul> 
+<li> total 60.1 nb-1 
+<li> live  30.3 nb-1 
+<li> efficient 50.4% 
+</ul>
+<!-- Author: ath -->
+
+
+<!-- Date: Sun Dec 30 15:19:16 2001 -->
+TOF TAC calibration done 7000 L3A  taken
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135939' target=_top>135939</a>) -->
+
+
+
+<!-- Date: Sun Dec 30 15:23:48 2001 -->
+BSC QIE calibration done, appeard in DB
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135940' target=_top>135940</a>) -->
+
+
+<!-- Date: Sun Dec 30 15:26:44 2001 -->
+COT Calibration. entry appeared in DB.
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135941' target=_top>135941</a>) -->
+
+
+<!-- Date: Sun Dec 30 15:30:46 2001 -->
+Muon calibration, 282 L2A before <BR> 
+29'43" 1 crate/s: b0imu01(81),  Done TO.[RXPT] 
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135942' target=_top>135942</a>) -->
+
+<!-- Date: Sun Dec 30 15:37:57 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135943">135943</A>
+ Activated at 2001.12.30 15:33:12
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 15:43:40 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135943">135943</A>
+ Terminated at 2001.12.30 15:40:35
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 15:43:40 2001 -->
+PMT spike run,  30k events taken<BR> 
+L1 rate is 75Hz
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135943' target=_top>135943</a>) -->
+
+
+<!-- Date: Sun Dec 30 15:47:53 2001 -->
+CEM LED calibration done. appeared in DB
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135944' target=_top>135944</a>) -->
+
+<!-- Date: Sun Dec 30 15:58:24 2001 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135925>135925</A> 
+x212F5</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_0_03 [1,238]</TD>                                           
+<TD ALIGN=CENTER>00:43:28</TD>                                          
+<TD ALIGN=CENTER>09:28:50</TD>                                          
+<TD ALIGN=CENTER>08:21:12</TD>                                          
+<TD ALIGN=RIGHT>      8,642,892</TD>                                    
+<TD ALIGN=RIGHT>     4,060,750</TD>                                     
+<TD ALIGN=RIGHT>     706,387</TD>                                       
+<TD ALIGN=RIGHT>  120.745</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135929>135929</A> 
+x212F9</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_0_03 [1,238]</TD>                                           
+<TD ALIGN=CENTER>11:16:38</TD>                                          
+<TD ALIGN=CENTER>11:29:55</TD>                                          
+<TD ALIGN=CENTER>00:13:10</TD>                                          
+<TD ALIGN=RIGHT>        149,311</TD>                                    
+<TD ALIGN=RIGHT>        64,478</TD>                                     
+<TD ALIGN=RIGHT>      11,771</TD>                                       
+<TD ALIGN=RIGHT>    1.828</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135930>135930</A> 
+x212FA</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_0_03 [1,238]</TD>                                           
+<TD ALIGN=CENTER>11:44:13</TD>                                          
+<TD ALIGN=CENTER>12:56:30</TD>                                          
+<TD ALIGN=CENTER>01:11:12</TD>                                          
+<TD ALIGN=RIGHT>        769,461</TD>                                    
+<TD ALIGN=RIGHT>       331,240</TD>                                     
+<TD ALIGN=RIGHT>      60,140</TD>                                       
+<TD ALIGN=RIGHT>    9.733</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135931>135931</A> 
+x212FB</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>MINIMUM_BIAS_1 [5,233]</TD>                                         
+<TD ALIGN=CENTER>13:05:23</TD>                                          
+<TD ALIGN=CENTER>13:55:41</TD>                                          
+<TD ALIGN=CENTER>00:25:08</TD>                                          
+<TD ALIGN=RIGHT>        320,957</TD>                                    
+<TD ALIGN=RIGHT>       320,957</TD>                                     
+<TD ALIGN=RIGHT>     290,028</TD>                                       
+<TD ALIGN=RIGHT>    3.195</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:53:01</TD>                                                       
+<TD ALIGN=CENTER>10:10:43</TD>                                          
+<TD ALIGN=RIGHT>       9,882,621</TD>                                   
+<TD ALIGN=RIGHT>      4,777,425</TD>                                    
+<TD ALIGN=RIGHT>     1,068,326</TD>                                     
+<TD ALIGN=RIGHT>  135.501</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Dec 30 16:03:23 2001 -->
+CEM XEF calibration done - appeared in DB
+<!-- Author: jy :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135945' target=_top>135945</a>) -->
+
+
+<!-- Date: Sun Dec 30 16:04:39 2001 -->
+<font color=red>Shift Summary: </font><pre>8:00 	Continue running, no CPR, some CMX, CMP 
+ 
+9:45	Sillimon problem - experts reqest cold start 
+	PEM/PHA communication problem, get budget code, call 
+	   Italy, they are on it 
+ 
+10:10	L3 problems, experts come in, see report above 
+11:20	Back on 
+ 
+11:44	Rony V. reports CSL was using slow disk, start new code 
+	with debug features 
+ 
+13:00	Go to minbias for the last hour of the store 
+ 
+13:59	10 minute warning -&gt; turn off 
+ 
+14:40	attempts to avoid quinch on drop failed 
+	-&gt; calibrations, pumping 
+ 
+15:30	Mary B trying to figure out si errors</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   135925-43
+Delivered Luminosity   60  
+Acquired Luminosity    30  
+Efficiency             50%
+   
+</td></tr></table></pre>
+<!-- Author: Larry -->

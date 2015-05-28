@@ -1,0 +1,452 @@
+<!-- Title: Owl shift. Thu May 16, 2002 -->
+<!-- SciCo: L. Kirsch -->
+<!-- DAQAce: D. Jang -->
+<!-- MonAce: K. Lannon -->
+<!-- CO: B. Whitehouse -->
+<!-- OpManager: B. Orejudos -->
+<!-- Notes: -->
+<pre>Run 144877 [8,49,296] in DAQ test mode 
+ 
+Waiting for shot setup</pre>
+
+
+<!-- Date: Thu May 16 00:19:44 2002 -->
+Now we ended the DAQtesting run and will switch to cosmic run.
+<!-- Author: Dongwook -->
+
+<!-- Date: Thu May 16 00:25:21 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144878">144878</A>
+ Activated at 2002.05.16 00:24:57
+<!-- Author: RunControl -->
+<!-- Comment: Thu May 16 00;27;36 comment by...Dongwook -->
+<pre>This is the cosmic run with COSMICS[6,18,292]
+using all crates except for fibs.
+</pre>
+<!-- Date: Thu May 16 00:27:09 2002 -->
+MCR anticpates shot setup in ~15 minutes
+<!-- Author: LK -->
+
+
+
+<!-- Date: Thu May 16 01:59:32 2002 -->
+Final protons are going in now. . .
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 02;05;43 comment by...K.Lannon -->
+And now they're all in.
+
+<!-- Date: Thu May 16 02:08:21 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144878">144878</A>
+ Terminated at 2002.05.16 02:08:00
+<!-- Author: RunControl -->
+<!-- Comment: Thu May 16 02;08;52 comment by...Dongwook -->
+Now need to switch default physics table
+<!-- Date: Thu May 16 02:08:42 2002 -->
+<pre>SVRAD totals: 
+ 
+W Inner BLM: 12.7  (initially 12.1) 
+W Outer BLM: 3.2   (initially 2.9) 
+E Inner BLM: 39.5  (initially 37.3) 
+E Outer BLM: 51.5  (initially 49.3) 
+</pre>
+<!-- Author: K.Lannon -->
+
+
+
+<!-- Date: Thu May 16 02:37:15 2002 -->
+Final antiprotons in a few minutes ago.  Now they're scraping.
+<!-- Author: K.Lannon -->
+
+
+<!-- Date: Thu May 16 02:47:01 2002 -->
+Store 1328--scraping complete.
+<!-- Author: K.Lannon -->
+
+
+<!-- Date: Thu May 16 02:47:44 2002 -->
+Store #1328 Scraping Complete
+<!-- Author: LK -->
+
+
+<!-- Date: Thu May 16 02:50:34 2002 -->
+<pre>Initial Luminosity: 18.3E30 
+Proton current: 6700E9 
+Antiproton current: 395E9</pre>
+<!-- Author: K.Lannon -->
+
+
+<!-- Date: Thu May 16 02:51:29 2002 -->
+Initial L=18.3E30 
+  Turning on HV
+<!-- Author: LK -->
+
+
+<!-- Date: Thu May 16 03:03:18 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-3054&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-3054  width='300' align='top'></td><td>Losses at start of store.</a></td></tr></table>
+<!-- Author: K.Lannon -->
+
+
+<!-- Date: Thu May 16 03:06:02 2002 -->
+Paged Si. Chris will evaluate situation in ~1 hour. 
+Starting run wo Si.
+<!-- Author: LK -->
+
+<!-- Date: Thu May 16 03:07:36 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880">144880</A>
+ Activated at 2002.05.16 03:07:11
+<!-- Author: RunControl -->
+<!-- Comment: Thu May 16 03;09;36 comment by...Dongwook -->
+<pre>using default physics table : physics_1_01[8,49,296]
+using all crates except for fibs
+
+Initial lum : 16.7 E30
+Total dead time : 1.81%
+L1/L2/L3 rates : 6.6kHz/178Hz/22Hz</pre>
+
+
+<!-- Date: Thu May 16 03:14:10 2002 -->
+<pre>Problems bringing the HV up: 
+ 
+When we tried to bring the HV up at the start of this store, we 
+ran into a number of annoying problems: 
+ 
+1.  CLC HV status not displayed:  When we clicked the CLC to ON 
+in the HV summary window, the HV status bars did not change to 
+reflect the CLC status.  In other words, they didn't start 
+flashing green for ramping or show solid green when at voltage. 
+The only way we knew the CLC was up was that we started reading 
+a luminosity at B0 
+ 
+2.  Trips in COT and BMU:  After determining that the losses were 
+OK ( < 15kHz for p and p_bar), we started ramping all HV.  At  
+that time, the entire COT and BMU NE 254 tripped.  There were 
+no apparent spikes in the losses at the time of the trip.  On 
+trying to reset the COT trip, SL2 tripped again.  We were  
+eventually able to get the entire COT up by going to low standby, 
+then high standby, then on.  The tripped BMU wedge reset with 
+no problems. 
+ 
+3.  Communications problems to the CLC/MNP/BSC/RPS HV PC:  Around 
+the time when the COT and BMU were ramping after tripping, we 
+got a heartbeat alarm from the CLC, MNP. BSC, and RPS.  After 
+a minute or so, we got a trip alarm from the CLC.  A little while 
+later, this cleared itself and the MNP signaled a trip.  Shortly 
+after that, the MNP trip alarm cleared itself.  IFix is still 
+showing a heartbeat alarm for these systems.  Dongwook checked 
+the PC and said that it seems to be running fine.  Is this a  
+virus scan related problem?</pre>
+<!-- Author: K.Lannon -->
+
+
+<!-- Date: Thu May 16 03:14:26 2002 -->
+Now one of converter(c01) seems to be dead whose color went black in L3 display.
+<!-- Author: Dongwook :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880' target=_top>144880</a>) -->
+
+
+<!-- Date: Thu May 16 03:22:21 2002 -->
+ccal13 done time out --> HRR
+<!-- Author: Dongwook :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880' target=_top>144880</a>) -->
+
+
+<!-- Date: Thu May 16 03:33:39 2002 -->
+We are getting heartbeat alarm from CLC,BSC,RPS,MNP.<br> 
+The PC itself is frozen to mouse commands.<br>  
+<b>So much for direct control of HV when virus scans are running!</b>
+<!-- Author: LK :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880' target=_top>144880</a>) -->
+
+
+<!-- Date: Thu May 16 03:40:47 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3055&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3055' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3056&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3056' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 03;46;09 comment by...K.Lannon -->
+Shot setup plots.
+
+
+<!-- Date: Thu May 16 04:09:26 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3057&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3057' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3058&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3058' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3059&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3059' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 04;10;11 comment by...K.Lannon -->
+Hourly silicon plots.  These plots show from just after scraping
+until a few minutes ago.
+
+<!-- Date: Thu May 16 04:20:12 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880">144880</A>
+ Terminated at 2002.05.16 04:20:06
+<!-- Author: RunControl -->
+<!-- Comment: Thu May 16 04;21;20 comment by...Dongwook -->
+We stopped this run to include silicon.
+<!-- Date: Thu May 16 04:20:12 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880">144880</A>
+ Terminated at 2002.05.16 04:20:06
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Thu May 16 04:26:45 2002 -->
+<pre>In trying to make the ACNET plots for silicon, we encountered 
+a problem with plotting the ACNET variable T:SBDMS in the  
+lumberjack plotter.  Apparently (according to MCR), whatever 
+generates values for this variable has been down since yesterday 
+afternoon and apparently there are no plans to recover this 
+variable in the near future.  It may be missing from silicon 
+hourly plots for the time being.</pre>
+<!-- Author: K.Lannon -->
+
+
+<!-- Date: Thu May 16 04:30:15 2002 -->
+Chris approved turning on Si. Will start by doing a 
+D-mode calibration
+<!-- Author: LK -->
+
+
+<!-- Date: Thu May 16 04:53:18 2002 -->
+<pre>We did silicon D-mode calibration. The only problem was rc complained about doing calib. with high luminosity beam. 
+ 
+DPS-on : 144881 
+DPS-off: 144882 
+ 
+MUON_SCINT_00 done time out error was reported after eding run.</pre>
+<!-- Author: Dongwook -->
+
+<!-- Date: Thu May 16 04:57:37 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144883">144883</A>
+ Activated at 2002.05.16 04:57:34
+<!-- Author: RunControl -->
+<!-- Comment: Thu May 16 05;00;07 comment by...Dongwook -->
+<pre>This run inclues all crates with silicon
+
+lum:              13.9 E30
+total dead time : 3.10%
+L1/L2/L3 rates  : 5158Hz/243Hz/34Hz
+
+I hope this run last long</pre>
+<!-- Date: Thu May 16 04:57:52 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3060&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3060' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3061&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3061' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3062&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3062' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 04;58;36 comment by...K.Lannon -->
+Silicon hourly plots.  Note: no T:SBDMS.  See above entry about problems with this variable.
+
+
+
+<!-- Date: Thu May 16 05:06:25 2002 -->
+<pre>Just a few minutes ago, total dead time was above 80% and L3 display went mostly dark blue. This means L3 processes are not fast enough to handle this trigger table. 
+However the average total dead time is around 3%.  
+</pre>
+<!-- Author: Dongwook :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144883' target=_top>144883</a>) -->
+<!-- Comment: Thu May 16 05;07;01 comment by...Dongwook -->
+BUSY time out from vrb_svx_02 --> HRR
+
+
+<!-- Date: Thu May 16 05:26:02 2002 -->
+West side of CCR trips off.  There is no indication of a spike 
+in the losses.  It resets without complaint.
+<!-- Author: K.Lannon :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144883' target=_top>144883</a>) -->
+<!-- Comment: Thu May 16 05;26;50 comment by...Dongwook -->
+followed by ccal trigger inhibit
+
+
+<!-- Date: Thu May 16 05:50:15 2002 -->
+<pre>L2 decision time out --&gt; HRR 
+ 
+error log said: 
+ 
+45'45" L2 Decision Timeout.[RXPT] 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:5:45:44 AM-&gt;Errors reported by the Trigger Supervi 
+sor: 
+  Level 2 Decision Timeout 
+ 
+(MLE) b0l2de01:Messenger:5:45:46 AM-&gt;CListMonitor: Sync error in L2 pipeline, event 618286 
+(MLE) b0l2de01:Messenger:5:45:50 AM-&gt;CListMonitor: Sync error in L2 pipeline, event 618286 
+(MLE) b0l2de01:Messenger:5:45:54 AM-&gt;CListMonitor: Sync error in L2 pipeline, event 618286 
+ 
+This kind of error is always displayed when we got L2 TO.</pre>
+<!-- Author: Dongwook :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144883' target=_top>144883</a>) -->
+<!-- Comment: Thu May 16 07;48;38 comment by...SCN -->
+Yes, they are correlated in that the error is the cause of the
+timeout...
+<!-- Date: Thu May 16 05:59:39 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3063&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3063' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3064&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3064' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3065&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3065' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 06;00;18 comment by...K.Lannon -->
+Hourly silicon plots.  T:SBDMS seems to have returned to life
+around 5:40.
+
+<!-- Date: Thu May 16 06:16:00 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144883">144883</A>
+ Terminated at 2002.05.16 06:15:41
+<!-- Author: RunControl -->
+<!-- Comment: Thu May 16 06;17;02 comment by...Dongwook -->
+XFT_FINDER_04 DTO. Three times of HRR didn't help.
+So we ended the run and will try to coldstart.
+
+<!-- Date: Thu May 16 06:22:41 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144884">144884</A>
+ Activated at 2002.05.16 06:22:33
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu May 16 06:49:34 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-3066&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-3066  width='300' align='top'></td><td>Like CDF</a></td></tr></table>
+<!-- Author: LK -->
+
+
+<!-- Date: Thu May 16 06:58:16 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3067&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3067' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3068&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3068' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3069&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3069' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 06;58;41 comment by...K.Lannon -->
+Silicon plots.  Looks like smooth running so far.
+
+
+
+<!-- Date: Thu May 16 07:50:09 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3070&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3070' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3071&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3071' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3072&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3072' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 07;50;34 comment by...K.Lannon -->
+Last regular silicon plot of this shift.
+
+<!-- Date: Thu May 16 07:55:13 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144880>144880</A> 
+x235F0</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [8,49,296]</TD>                                        
+<TD ALIGN=CENTER>03:07:11</TD>                                          
+<TD ALIGN=CENTER>04:20:06</TD>                                          
+<TD ALIGN=CENTER>01:09:00</TD>                                          
+<TD ALIGN=RIGHT>     27,269,152</TD>                                    
+<TD ALIGN=RIGHT>       736,715</TD>                                     
+<TD ALIGN=RIGHT>     102,037</TD>                                       
+<TD ALIGN=RIGHT>   64.884</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144883>144883</A> 
+x235F3</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [8,49,296]</TD>                                        
+<TD ALIGN=CENTER>04:57:34</TD>                                          
+<TD ALIGN=CENTER>06:15:41</TD>                                          
+<TD ALIGN=CENTER>01:07:48</TD>                                          
+<TD ALIGN=RIGHT>     21,770,016</TD>                                    
+<TD ALIGN=RIGHT>       962,181</TD>                                     
+<TD ALIGN=RIGHT>     124,366</TD>                                       
+<TD ALIGN=RIGHT>   53.017</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144884>144884</A> 
+x235F4</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [8,49,296]</TD>                                        
+<TD ALIGN=CENTER>06:22:33</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>01:29:56</TD>                                          
+<TD ALIGN=RIGHT>     25,525,670</TD>                                    
+<TD ALIGN=RIGHT>     1,083,268</TD>                                     
+<TD ALIGN=RIGHT>     142,961</TD>                                       
+<TD ALIGN=RIGHT>   62.964</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:02</TD>                                                       
+<TD ALIGN=CENTER>03:46:45</TD>                                          
+<TD ALIGN=RIGHT>      74,564,838</TD>                                   
+<TD ALIGN=RIGHT>      2,782,164</TD>                                    
+<TD ALIGN=RIGHT>       369,364</TD>                                     
+<TD ALIGN=RIGHT>  180.866</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu May 16 08:00:06 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3073&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3073' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3074&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3074' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3075&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3075' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3076&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3076' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-3077&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-3077' width='300'></a></center>
+<!-- Author: K.Lannon -->
+<!-- Comment: Thu May 16 08;00;29 comment by...K.Lannon -->
+End of shift plots
+
+
+<!-- Date: Thu May 16 08:02:56 2002 -->
+<font color=red>Shift Summary: </font><pre>0:00 Run 144877 [8,49,296] in DAQ test mode 
+ 
+02:50 Store #1328 in at 18.3E30 
+Unable to see CLC HV on IFIX display. We know it is up because 
+B0Lum appears on TeV monitor 
+ 
+02:55 COT/BMU(NE254) trip bringing up HV. Restarted COT by going 
+to low standby, high standby. 
+ 
+ 
+03:07 Started run 144880 wo Si. 
+ 
+03:15 Trip alarm from CLC. PC says it is OK 
+ 
+ 
+03:30 Heartbeat alarm from LC/MNP/BSC/RPS HV PC is frozen to 
+mouse commands. Cannot control HV when virus checks running. 
+ 
+04:26 Can't get ACNET variable T:SBDMS. Called MCR to restart 
+ 
+04:30 Turned on Si. Running D-mode calbration( runs 144881, 144882) 
+ 
+05:16 Started run 144883 with all subsystems 
+ 
+06:06 EVB problem?. Read out fail (b0xft04), (b0eb12). HRR could not 
+recover. Restart of RC. 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   144880-144883
+Delivered Luminosity   253.8  
+Acquired Luminosity    191.2  
+Efficiency             .75
+   
+</td></tr></table></pre>
+<!-- Author: Larry Kirsch -->
+
+<!-- Date: Thu May 16 08:09:22 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144884">144884</A>
+ Terminated at 2002.05.16 08:09:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu May 16 08:09:22 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144884">144884</A>
+ Terminated at 2002.05.16 08:09:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu May 16 08:09:22 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=144884">144884</A>
+ Terminated at 2002.05.16 08:09:19
+<!-- Author: RunControl -->
+

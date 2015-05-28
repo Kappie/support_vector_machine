@@ -1,0 +1,442 @@
+<!-- Title: Eve shift. Thu Mar 27, 2008 -->
+<!-- SciCo: K. Hara -->
+<!-- DAQAce: Elisa Pueschel -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Manoj Kumar Jha - Michael Peskin -->
+<!-- OpManager: Massimo Casarsa -->
+<!-- Notes: -->
+<pre>inherit store 6008 at B0LUM = 96.2E30</pre>
+
+
+<!-- Date: Thu Mar 27 16:24:49.141 2008 -->
+16:13  FrountEnd Crate error from svt00. HRR solved.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260017' target=_top>260017</a>) -->
+
+
+<!-- Date: Thu Mar 27 16:25:30.117 2008 -->
+L2 Decision Timeout. Auto HRR'ed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260017' target=_top>260017</a>) -->
+<!-- Comment: Thu Mar 27 17;12;23 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 18;08;48 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 18;12;25 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 23;51;14 comment by...Elisa -->
+20 L2 Decision timeouts during this shift.
+<!-- Comment: Fri Mar 28 00;05;10 comment by...Pierluigi -->
+again.
+<!-- Comment: Fri Mar 28 00;08;05 comment by...Pierluigi -->
+again.
+<!-- Date: Thu Mar 27 16:30:17.616 2008 -->
+TevMon alarm! AGIGI2 spiked. 
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260017' target=_top>260017</a>) -->
+<!-- Comment: Thu Mar 27 16;32;26 comment by...Elisa -->
+Brought Silicon to standby. It took a long time. 
+
+<!-- Comment: Thu Mar 27 16;32;42 comment by...Elisa -->
+Paged Silicon and called MCR.
+
+<!-- Comment: Thu Mar 27 16;36;53 comment by...K. Hara -->
+called MCR: "RF station tripped off, and it should be OK now"
+<!-- Comment: Thu Mar 27 16;40;37 comment by...Elisa -->
+Ricardo, Oscar, and Sebastian G are here.
+<!-- Comment: Thu Mar 27 16;43;19 comment by...Elisa -->
+Beam conditions seemed to be stabilized. The problem was an RF trip. We turned silicon back on. I messed up and restarted the run. pcal02 and pcal07 hung in partition and config, respectively. Started taking data again. The B0AAGC started rise, silicon went into and warning and alarm. We are halted. Silicon is in standby.
+<!-- Comment: Thu Mar 27 16;46;25 comment by...Elisa -->
+B0AAGC is staying at 40K. Not going down, we are starting a run without silicon.
+<!-- Comment: Thu Mar 27 16;47;43 comment by...ronmoore -->
+Classic case of DC pbars spiraling into a collimator 15-20 minutes after an RF trip.  The really high values of AAGC should pass soon.
+<!-- Comment: Thu Mar 27 17;00;06 comment by...Elisa -->
+Losses are back down. We are waiting a while to make sure they are really stable.
+<!-- Comment: Thu Mar 27 17;08;47 comment by...Elisa -->
+Stable again. We are starting new run with silicon.
+<!-- Date: Thu Mar 27 16:33:46.638 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260017>260017</A>
+ Terminated at 2008.03.27 16:33:16
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Mar 27 16:40:08.861 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260018>260018</A>
+ Activated at 2008.03.27 16:39:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Mar 27 16:40:09.910 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260018>260018</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [5,1037,719] 
+<!-- Author: Elisa -->
+
+
+
+
+<!-- Date: Thu Mar 27 16:45:15.008 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260018>260018</A>
+ Terminated at 2008.03.27 16:44:46
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Mar 27 16:45:15.143 2008 -->
+TrigMon has been restarted.
+<!-- Author: Michael & Manoj  :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260018' target=_top>260018</a>) -->
+
+
+
+<!-- Date: Thu Mar 27 16:48:17.509 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260019>260019</A>
+ Activated at 2008.03.27 16:48:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Mar 27 16:48:49.425 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260019>260019</A>
+ACTIVATE: RunSet: AAA_NOSILICON  Trigger: PHYSICS_5_01 [5,1037,719] Running without silicon until we are sure beam conditions are okay.
+<!-- Author: Elisa -->
+<!-- Comment: Thu Mar 27 16;55;57 comment by...Sebastian -->
+Problem is that for MCR beam is ok, they look at AGIGI2, not B0AAGC. We will have to wait till the electron lens brings the losses down, so that silicon is "safe".
+
+<!-- Comment: Thu Mar 27 16;59;09 comment by...ronmoore -->
+The electron lens is optimized for PROTONS, not PBARS!  Once most of the DC pbars spiral into a collimator, the average B0AAGC will fall.  The RMS may stay higher than normal for the remainder for the store since the bunch lengths blew up due to the RF station trip.
+
+
+<!-- Date: Thu Mar 27 17:05:03.806 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260019>260019</A>
+ Terminated at 2008.03.27 17:04:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Mar 27 17:05:04.864 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260019>260019</A>
+TERMINATE: Putting silicon back in.
+<!-- Author: Elisa -->
+
+
+<!-- Date: Thu Mar 27 17:07:59.574 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+ Activated at 2008.03.27 17:07:44
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Mar 27 17:08:00.157 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [5,1037,719] Silicon back in.
+<!-- Author: Elisa -->
+
+
+
+<!-- Date: Thu Mar 27 17:10:08.656 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260017>260017</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+IMU more than 5 new contiguous channels bad
+</PRE>
+<!-- Author: cdfscico -->
+
+
+
+<!-- Date: Thu Mar 27 17:18:39.376 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260019>260019</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+IMU : more than 5 new contiguous bad channels
+SVX 
+ISL 
+L00 
+SVT 
+  Silicon not included for large B0AAGC
+</PRE>
+<!-- Author: cdfscico -->
+
+
+
+<!-- Date: Thu Mar 27 18:01:02.928 2008 -->
+TevMon went into to Warning, and then cleared. This was due to a B0AAGC spike. We will be having this all night, I would guess.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+<!-- Comment: Thu Mar 27 18;37;24 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 18;43;21 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 18;46;05 comment by...Elisa -->
+Again. 
+<!-- Comment: Thu Mar 27 18;47;55 comment by...Elisa -->
+Again, twice. Calling silicon.
+<!-- Comment: Thu Mar 27 18;49;49 comment by...Elisa -->
+Again. Expert is on the way.
+<!-- Comment: Thu Mar 27 18;50;35 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 19;00;49 comment by...Elisa -->
+Oscar called. He said that since the losses are not rising dramatically, we should just ignore the warnings. If TevMon goes into alarm, then we will page him again. He suggested that we look for Ricardo to see if we could disable the voice alarm for this particular problem, but I think he has gone home. I will not note the warnings any more, because they are quite frequent.
+<!-- Comment: Thu Mar 27 19;18;36 comment by...Elisa -->
+Oy vey. Glad I have aspirin. Lots of warnings.
+<!-- Date: Thu Mar 27 18:23:54.345 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1666&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1666  width='300' align='top'></a></td><td>CCRPad Canvas has more than 4 contiguous dead channels.</td></tr></table>
+<!-- Author: Michael and Manoj -->
+<!-- Comment: Thu Mar 27 19;33;15 comment by...Larry N -->
+Patience, it is ok
+<!-- Date: Thu Mar 27 18:41:36.831 2008 -->
+TrigMon has been restarted.
+<!-- Author: Michael and Manoj :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+<!-- Date: Thu Mar 27 18:45:49.842 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+trigger: <tt>East IMA and IMB HAT wedge distribution is red.</tt>
+<!-- Author: Consumer Operator( Michael Peskin and Manoj Jha) -->
+
+
+<!-- Date: Thu Mar 27 18:45:50.376 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+muons: <tt>CSP occupancy canvas has more than 4 contiguous dead channels.<br>
+BMUCOCellsWest is red. It was also present in the erlier runs.</tt>
+<!-- Author: Consumer Operator( Michael Peskin and Manoj Jha) -->
+<!-- Comment: Thu Mar 27 20;52;18 comment by...Manoj -->
+There is a typo error above. CSP ----> CCR 
+<!-- Date: Thu Mar 27 18:53:36.770 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1667&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1667  width='300' align='top'></a></td><td>   </td></tr></table>
+<!-- Author: Elisa -->
+<!-- Comment: Thu Mar 27 19;01;13 comment by...Elisa -->
+Tevatron losses.
+
+
+
+<!-- Date: Thu Mar 27 19:23:08.081 2008 -->
+Consumer Controller has been restarted due to problem in TrigMon display. Now the TrigMon display is updating.
+<!-- Author: Michael and Manoj :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+
+<!-- Date: Thu Mar 27 20:03:13.838 2008 -->
+pcal04 became unresponsive. Shepherded. Followed by L2 Decision TO. HRR'ed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+<!-- Date: Thu Mar 27 20:28:47.516 2008 -->
+pcal08 hung in halt during an auto HRR from an L2 DTO. Shepherded. 
+<!-- Author: Elisa  :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+
+<!-- Date: Thu Mar 27 21:25:21.646 2008 -->
+Icicle lost heartbeat. Restarted.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+<!-- Comment: Thu Mar 27 22;03;45 comment by...Elisa -->
+Again.
+<!-- Comment: Thu Mar 27 22;30;03 comment by...Elisa -->
+Icicle red in ProcMon. Restarted. Now it is green.
+<!-- Comment: Thu Mar 27 22;52;40 comment by...Elisa -->
+Again (ProcMon).
+<!-- Comment: Thu Mar 27 23;11;56 comment by...Elisa -->
+Again (Heartbeat).
+<!-- Date: Thu Mar 27 21:49:15.870 2008 -->
+TevMon going in and out of alarm. Paged Silicon.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+<!-- Comment: Thu Mar 27 22;02;04 comment by...Elisa -->
+Run went to halt, silicon to standby. Oscar called. It looks like AAGC is going back down again. He recommended to keep running with silicon and page him if it goes back into alarm. 
+<!-- Date: Thu Mar 27 21:50:35.778 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1668&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1668  width='300' align='top'></a></td><td>East IMU Hat canvas is red</td></tr></table>
+<!-- Author: Michael and Manoj -->
+<!-- Comment: Thu Mar 27 21;51;39 comment by...Michael and Manoj -->
+This problem is also reported in earlier shift.
+
+
+<!-- Date: Thu Mar 27 21:53:16.384 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1669&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1669  width='300' align='top'></a></td><td>  </td></tr></table>
+<!-- Author: Elisa -->
+
+<!-- Date: Thu Mar 27 21:57:34.151 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+muons: <tt>BMUCOCellsWest is red.</tt>
+<!-- Author: Consumer Operator( Michael Peskin and Manoj Jha) -->
+
+
+<!-- Date: Thu Mar 27 21:57:35.029 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+trigger: <tt>East IMU Hat canvas is red</tt>
+<!-- Author: Consumer Operator( Michael Peskin and Manoj Jha) -->
+
+
+
+
+
+<!-- Date: Thu Mar 27 22:04:33.256 2008 -->
+IMON went red in ProcMon. Turned green again while I was deal with Icicle.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+<!-- Date: Thu Mar 27 22:28:18.247 2008 -->
+CMP trip. Top two channels on the top of the North Wall. Turned back on. Trip recovered. 
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+<!-- Date: Thu Mar 27 22:28:47.399 2008 -->
+clc02 Done Timeout. HRR'ed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+<!-- Date: Thu Mar 27 22:29:47.337 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1670&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1671  width='300' align='top'></a></td><td>pinkie, AVDD L00 B0W3L2. unmark did not work, but HRR worked</td></tr></table>
+<!-- Author: K. Hara -->
+
+
+
+<!-- Date: Thu Mar 27 22:41:55.422 2008 -->
+<pre>Attention !!!. CER_SVXMON_HALT_RECOVER_RUN_ERROR !!!  
+  
+ Stuck Cellid S/B2/W4/L4/C7-13 .  
+ AUTO HRR will be issued  </pre>
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+<!-- Date: Thu Mar 27 22:42:53.113 2008 -->
+pcal10 done timeout. Shepherded.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+
+
+
+<!-- Date: Thu Mar 27 23:00:14.129 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1672&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1672  width='300' align='top'></a></td><td>  </td></tr></table>
+<!-- Author: Elisa -->
+
+
+<!-- Date: Thu Mar 27 23:01:19.005 2008 -->
+Silicon going in and out of alarm. Paged Silicon.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020' target=_top>260020</a>) -->
+<!-- Comment: Thu Mar 27 23;06;34 comment by...Elisa -->
+Oscar called back. Once again, the losses went down after a couple of minutes, although we are at the upper limit. Turning silicon back on.
+
+
+<!-- Comment: Thu Mar 27 23;49;43 comment by...Elisa -->
+Silicon in and out of alarm. Paged silicon.
+<!-- Comment: Thu Mar 27 23;52;27 comment by...Elisa -->
+Oscar called back, he is talking to Pierluigi.
+<!-- Date: Thu Mar 27 23:48:33.004 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+muons: <tt>BMUCOCellsWest is red.</tt>
+<!-- Author: Consumer Operator( Michael Peskin and Manoj Jha) -->
+
+
+<!-- Date: Thu Mar 27 23:48:34.078 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=260020>260020</A>
+trigger: <tt>IMU HAT east canvas is red as mentioned in previous shift.</tt>
+<!-- Author: Consumer Operator( Michael Peskin and Manoj Jha) -->
+
+
+
+<!-- Date: Thu Mar 27 23:49:02.547 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1673&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1673  width='300' align='top'></a></td><td>   </td></tr></table>
+<!-- Author: Elisa -->
+
+
+
+
+<!-- Date: Thu Mar 27 23:56:37.060 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=260017 target=_runSummary>260017</A> x3F7B1</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [5,1037,719]</FONT></TD>
+<TD ALIGN=CENTER>06:57:10</TD>
+<TD ALIGN=CENTER>16:33:16</TD>
+<TD ALIGN=CENTER>08:36:52</TD>
+<TD ALIGN=RIGHT>   4,321,306</TD>   <TD ALIGN=RIGHT>  4,782.42</TD>
+<TD ALIGN=RIGHT>  4,268.80</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=260018 target=_runSummary>260018</A> x3F7B2</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [5,1037,719]</FONT></TD>
+<TD ALIGN=CENTER>16:39:42</TD>
+<TD ALIGN=CENTER>16:44:46</TD>
+<TD ALIGN=CENTER>00:00:49</TD>
+<TD ALIGN=RIGHT>       2,200</TD>   <TD ALIGN=RIGHT>     29.95</TD>
+<TD ALIGN=RIGHT>      4.40</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>0</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=260019 target=_runSummary>260019</A> x3F7B3</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [5,1037,719]</FONT></TD>
+<TD ALIGN=CENTER>16:48:08</TD>
+<TD ALIGN=CENTER>17:04:15</TD>
+<TD ALIGN=CENTER>00:16:00</TD>
+<TD ALIGN=RIGHT>      52,862</TD>   <TD ALIGN=RIGHT>     83.02</TD>
+<TD ALIGN=RIGHT>     80.84</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=260020 target=_runSummary>260020</A> x3F7B4</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [5,1037,719]</FONT></TD>
+<TD ALIGN=CENTER>17:07:44</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>05:49:34</TD>
+<TD ALIGN=RIGHT>   2,053,737</TD>   <TD ALIGN=RIGHT>  1,696.29</TD>
+<TD ALIGN=RIGHT>  1,475.56</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:01</TD>
+<TD ALIGN=CENTER>14:43:16</TD>
+<TD ALIGN=RIGHT>     6,430,105</TD> <TD ALIGN=RIGHT>  6,591.68</TD>
+<TD ALIGN=RIGHT>  5,829.60</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu Mar 27 23:59:47.037 2008 -->
+<font color=red>Shift Summary: </font>inherit store 6008 and run 250017 
+ 
+16:30 RF station tripped, TeVMon in alarm. Paged Silicon. 
+      start new run 260019 w/o Si since the beam is not stable 
+      (B0AAGC=40k) 
+17:08 back to normal run w/ Si. 
+      TeVMon worning frequently due to large B0AAGC fluctuation (ave=18k). 
+      TrigMon did not update. OK after restarting the monitor from scratch. 
+21:49 TeVMon alarm (ave=20k) and set Si standby. 
+      As suggested by Si expert, we resume the run w/ Si included. 
+23:01 above happened again 
+23:49 once again 
+      CMP tripped once 
+      pinkie once at AVDD L00 B0W3L2 
+ 
+plan: terminate the store at 5:30, followed by shot setup right after. 
+   
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   250017-250020
+Delivered Luminosity   2075.3  
+Acquired Luminosity    1702.6  
+Efficiency             82.0
+   
+</td></tr></table></pre>
+<!-- Author: K. Hara -->
+
+

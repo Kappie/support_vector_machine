@@ -1,0 +1,579 @@
+<!-- Title: Day shift. Thu Jun 27, 2002 -->
+<!-- SciCo: P Schlabach -->
+<!-- DAQAce: SM Wang -->
+<!-- MonAce: S Carron -->
+<!-- CO: B Blumenfeld -->
+<!-- OpManager: B Orejudos -->
+<!-- Notes: -->
+<pre>twiddle thumbs</pre>
+
+
+<!-- Date: Thu Jun 27 08:22:36 2002 -->
+<table border=0><td><tr><td bgcolor=#e0e030>BMU HV is being shut off and will remain off. A nitrogen purge is to commence prior to a chamber replacement tomorrow.</td></tr></td></table>
+<!-- Author: ps -->
+<!-- Comment: Thu Jun 27 08;52;30 comment by...Camille Ginsburg -->
+I changed all the set voltages (standby/on) for BMU in HVMon to zero.
+<!-- Date: Thu Jun 27 08:28:10 2002 -->
+Access tomorrow
+<!-- Author: ps -->
+
+
+<!-- Date: Thu Jun 27 08:48:55 2002 -->
+Heart beat missing from CMU, CMP, CMX, BMU, CES, CPR, CCR. Will wait a couple of minuttes to see if problem dissapears, if not will check IFIX and/or call Experts.
+<!-- Author: Sebastian -->
+
+
+
+<!-- Date: Thu Jun 27 08:56:03 2002 -->
+Heartbeat problem could be related to network scheduled work.
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Thu Jun 27 08:57:08 2002 -->
+Recieved Gas Alarm. Cryo people have been contacted, they were  
+working with the gas.
+<!-- Author: Sebastian -->
+<!-- Comment: Thu Jun 27 08;57;55 comment by...Sebvastian -->
+We have been told to ignoreb the alarm
+
+
+<!-- Date: Thu Jun 27 09:05:31 2002 -->
+We had a gas alarm when the IMU flush started (red button, siren). Its now yellow.
+<!-- Author: ps -->
+<!-- Comment: Thu Jun 27 09;13;22 comment by...ps -->
+I see, the fast flush exceeds the upper flow limit.
+<!-- Date: Thu Jun 27 09:06:51 2002 -->
+Muon (chambers), CES, CPR, CCR PC is not talking to IFIX (heartbeat lost). Investigating.
+<!-- Author: ps -->
+
+
+<!-- Date: Thu Jun 27 09:07:42 2002 -->
+Willis is doing some testing of the plug hv for an hour or two.
+<!-- Author: ps -->
+
+
+<!-- Date: Thu Jun 27 09:08:52 2002 -->
+Paged muon expert, because all heartbeat missing components are controlled by a single muon pc
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Thu Jun 27 09:12:29 2002 -->
+Willis is working with the Plug components, so we were told to ignore the alarms on HV plug components
+<!-- Author: Sebastian -->
+
+
+
+<!-- Date: Thu Jun 27 09:15:06 2002 -->
+<pre>The crates b0vrb00 -to- b0vrb05, and b0clk00, b0res00, b0res01 
+are red as shown in VXMON. The other crates would appear red 
+for awhile and then changed back to green again. Will check 
+with Arnd about this when he comes in.</pre>
+<!-- Author: song ming wang -->
+
+
+<!-- Date: Thu Jun 27 09:44:27 2002 -->
+Yeongdae Shong, the muon HV expert took a look into the missing HV heartbeat for the muon copmponents problem. He is trying to diagnose the problem. The muon computer downstairs seems to be working fine but the Monitor does not to comunicate. He is working on the problem now. 
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 10:13:04 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147257">147257</A>
+ Terminated at 2002.06.27 10:12:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 10:14:07 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147257">147257</A>
+TERMINATE: end run to release muon crates
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+<!-- Date: Thu Jun 27 10:24:58 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147259">147259</A>
+ Activated at 2002.06.27 10:24:09
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 10:25:12 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147259">147259</A>
+ACTIVATE: Start cosmic run without muon crates
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+<!-- Date: Thu Jun 27 10:31:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147259">147259</A>
+ Terminated at 2002.06.27 10:30:59
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 10:31:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147259">147259</A>
+TERMINATE: end cosmic run to take plug laser run
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+<!-- Date: Thu Jun 27 10:40:39 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147260">147260</A>
+ACTIVATE: start plug laser calibration run
+<!-- Author: Ace Extraordinaire x2080 -->
+<!-- Comment: Thu Jun 27 11;20;20 comment by...Phil Y. -->
+This is just for DAQ testing.The Plug HV is in STBY mode.
+We're planning to take several Plug Calibration runs during Day shift today.
+<!-- Date: Thu Jun 27 10:49:27 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147260">147260</A>
+TERMINATE: End plug laser run
+<!-- Author: smwang -->
+
+
+<!-- Date: Thu Jun 27 11:01:55 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147261">147261</A>
+ Activated at 2002.06.27 11:01:01
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 11:01:59 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147261">147261</A>
+ACTIVATE: Start another cosmic run, without SVX and muon crates.
+<!-- Author: ming -->
+
+
+<!-- Date: Thu Jun 27 11:03:24 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147261">147261</A>
+ Terminated at 2002.06.27 11:03:10
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 11:04:37 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147261">147261</A>
+TERMINATE: abort run because I did not switch back to DAQ state
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+<!-- Date: Thu Jun 27 11:11:20 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147262">147262</A>
+ Activated at 2002.06.27 11:10:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 11:11:26 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147262">147262</A>
+ACTIVATE: re-start cosmic run, without SVX and Muon crates
+<!-- Author: ming -->
+
+
+
+
+<!-- Date: Thu Jun 27 11:27:46 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-4035&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-4035  width='300' align='top'></td><td>This is the recent TEV test activity going on.</a></td></tr></table>
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 11:31:55 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147262">147262</A>
+ Terminated at 2002.06.27 11:30:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 27 11:31:55 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147262">147262</A>
+TERMINATE: end cosmic to include svx
+<!-- Author: ming -->
+
+
+<!-- Date: Thu Jun 27 11:42:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147265">147265</A>
+ACTIVATE: take plug laser run
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 11:45:39 2002 -->
+<pre>Updated the hardware database for CMU and CMX tdc crates - to use verison 36 of DSP code for tdc readout. Then I reprogrammed the FRAM0 of each TDC in these crates.  
+ 
+I then did tdctest on the available muon crates.</pre>
+<!-- Author: dan -->
+<!-- Comment: Thu Jun 27 11;48;59 comment by...dan -->
+releasing crates back to shift crew
+
+<!-- Date: Thu Jun 27 11:48:47 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147265">147265</A>
+TERMINATE: end plug laser run
+<!-- Author: ming 6699 -->
+
+
+
+
+<!-- Date: Thu Jun 27 11:49:39 2002 -->
+On 11:41 We brought the HV from standby to Full voltage. 
+We next will test how long it takes the pmts to reach the 
+their full gain
+<!-- Author: Howard Budd :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147265' target=_top>147265</a>) -->
+
+<!-- Date: Thu Jun 27 11:54:46 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147266">147266</A>
+ACTIVATE: start another laser run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 12:01:01 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147266">147266</A>
+TERMINATE: end plug laser run
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 12:03:46 2002 -->
+Paged Youndae twice to get status of Muon HV heartbeat problem but got no response so far.
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 12:11:26 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147268">147268</A>
+ACTIVATE: start another plug laser run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 12:22:36 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147268">147268</A>
+TERMINATE: end plug laser run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 12:27:40 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147267">147267</A>
+TERMINATE: end run due to svx trip
+<!-- Author: ming -->
+
+
+
+<!-- Date: Thu Jun 27 12:32:19 2002 -->
+chilled water problems tripped L00 and SVX, ISL was shut down by Chris. More to follow.
+<!-- Author: ps -->
+
+<!-- Date: Thu Jun 27 12:33:30 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147269">147269</A>
+ACTIVATE: Plug Laser run
+<!-- Author: ming 6699 -->
+<!-- Comment: Thu Jun 27 12;34;21 comment by...PY -->
+Protons are being loaded during this calibration.
+
+
+<!-- Date: Thu Jun 27 12:36:15 2002 -->
+now an HVAC alarm
+<!-- Author: ps -->
+
+<!-- Date: Thu Jun 27 12:40:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147269">147269</A>
+TERMINATE: End Plug Laser run
+
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 12:45:31 2002 -->
+The Gas system has been iun warning for some time already. This is because the flamable gas is being dumped and replaced by nitrogen. We were told to ignore this warning by the cryo people. 
+ 
+The Water system gave an alarm and we have notified the cryo people about it. They are looking into it. As a result the SVX tripped. ISL was having temperature oscillations and was close to a trip, while monitoring it with the silicon  eexperts the SVX tripped.  
+ 
+The HVAC system also gave an alarm, but returned to normal just now. Cryo people were informed. They are very busy people right now.
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 12:46:17 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147271">147271</A>
+ACTIVATE: Plug Laser run
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 12:49:43 2002 -->
+Regarding the muon HV heartbeat problems, Youngdae finally 
+answered the pager. He said he did not have the oportunity 
+to work on it yet but today he would try to Fix it. Him being  
+the expert I will just wait until it is fixed by him.
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Thu Jun 27 12:51:29 2002 -->
+Finally, the Plug is still being worked on, so we lost the  
+heartbeat on its HV monitors.
+<!-- Author: Sebastian -->
+<!-- Comment: Thu Jun 27 12;58;10 comment by...Sebastian -->
+Phil Yon told us not to worry about the heartbeat problem on the Plug.
+<!-- Date: Thu Jun 27 12:55:15 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147271">147271</A>
+TERMINATE: End Plug Laser
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 13:04:24 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147273">147273</A>
+ACTIVATE: Plug Laser run
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 13:06:40 2002 -->
+<h3>Cooling water problems:</h3> 
+<p /> 
+There were various water alarms and silicon cooling alarms.  On looking deeply into Phil's puppy-dog eyes, I went down to inquire further in the cryo area.  The system tech was off dealing with the problem, but when he came back he told us that apparently all the chillers and evaporators turned (tripped?) off simultaneously.  He had gone and reset them.  I pointed out one evaporator was still off; he reset that one, also. 
+<p> 
+Andy Hocker, meanwhile, had had problems with the silicon cooling compressor complaining about a HPS (high pressure side?) problem.  Once the cooling water out of the chillers (TE66) came down to around 50 degrees F., Andy could reset the compressor.
+<!-- Author: Steve Hahn -->
+
+<!-- Date: Thu Jun 27 13:11:36 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147273">147273</A>
+TERMINATE: End Plug Laser
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 13:34:57 2002 -->
+I shutdown iFIX on MUON3, then restarted iFIX and then the ground control program.  Now the muon and central chamber systems no longer have heartbeat problems and are controllable from VNODE1.
+<!-- Author: Steve Hahn -->
+
+
+<!-- Date: Thu Jun 27 13:35:40 2002 -->
+I updated the HDWDB for the COT tdc crates to DSP version 36.  
+<!-- Author: dan -->
+
+<!-- Date: Thu Jun 27 13:51:38 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147277">147277</A>
+TERMINATE: abort run due to clock problem
+<!-- Author: ming -->
+
+
+
+<!-- Date: Thu Jun 27 13:55:41 2002 -->
+Silicon is off and will be off until after the access. This is the plan until it's not the plan any more.
+<!-- Author: ps -->
+
+<!-- Date: Thu Jun 27 13:55:51 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147282">147282</A>
+ACTIVATE: Plug Laser run
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 13:56:04 2002 -->
+We got some clock errors which I reset.
+<!-- Author: ps -->
+<!-- Comment: Thu Jun 27 13;58;25 comment by...ps -->
+and again
+<!-- Date: Thu Jun 27 13:56:15 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147282">147282</A>
+TERMINATE: Error on b0tsi00
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 13:56:44 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147279">147279</A>
+ACTIVATE: start another L2 torture test run
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+
+<!-- Date: Thu Jun 27 13:56:44 2002 -->
+Water alarm went off again, problems with the Back-up Pump. Cryo people know about it.
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 13:57:37 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147283">147283</A>
+ACTIVATE: Plug Laser run
+<!-- Author: ming 6699 -->
+
+
+
+
+<!-- Date: Thu Jun 27 13:58:38 2002 -->
+The Silicon has been giving intermitent alarms citing GUI-Ifix communication problems. After some time it fixes itself. Silicon experts know about it.
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 13:59:21 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147279">147279</A>
+TERMINATE: abort, due to clock error again
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+
+<!-- Date: Thu Jun 27 14:01:50 2002 -->
+Finally the Plug HV monitors are green again, no hartbeat problem anymore Steve Hahn solved the problem.
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Thu Jun 27 14:06:46 2002 -->
+In the unending quest to remove all error message from the iFIX Global Alarms, I went upstairs and checked the end plug HV monitoring, only to find it was frozen.  In the end, I had to ^C out of both the server and client programs, shutdown iFIX, restart iFIX, restart the server and client, check groups and parameters, and start the plug HV monitoring.  It all looks OK now.
+<!-- Author: Steve Hahn -->
+
+<!-- Date: Thu Jun 27 14:08:51 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147287">147287</A>
+ACTIVATE: start another L2 torture test
+<!-- Author: ming -->
+
+
+<!-- Date: Thu Jun 27 14:36:47 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147288">147288</A>
+ACTIVATE: take another plug laser run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 14:38:34 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147287">147287</A>
+TERMINATE: End run to replace card
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+
+<!-- Date: Thu Jun 27 14:39:13 2002 -->
+SOLENOID TRIPPED. It is going into a slow dump. Cryo people say the water alarm cause the trip.
+<!-- Author: Sebastian  -->
+<!-- Comment: Thu Jun 27 14;51;12 comment by...ps -->
+I called Roser, he's looking into it to see if the 2 cooling problems are possibly related.
+<!-- Comment: Thu Jun 27 15;00;54 comment by...ps -->
+I think a pump tripped, but I usually have it wrong.
+<!-- Date: Thu Jun 27 14:44:54 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147288">147288</A>
+TERMINATE: End plug laser run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 14:49:59 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147289">147289</A>
+ACTIVATE: start another L2 torture test
+<!-- Author: ming -->
+
+
+
+<!-- Date: Thu Jun 27 14:50:45 2002 -->
+<pre>Release calpulse crate for TOF calibration run. Will take it 
+back in in about 20 minutes</pre>
+<!-- Author: ming -->
+<!-- Comment: Thu Jun 27 14;51;31 comment by...ming -->
+<pre>take back calpulse crate for plug laser calibration</pre>
+
+<!-- Date: Thu Jun 27 15:00:01 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147300">147300</A>
+ACTIVATE: L2 torture test run
+<!-- Author: Ace Extraordinaire x2080 -->
+
+
+
+<!-- Date: Thu Jun 27 15:00:15 2002 -->
+<pre>Online Products rundb and cdfdb have  
+been updated to frozen versions v1_8 and  
+v1_4, respectively.   These are used by  
+Run Control and other online utilities. 
+Changes are minor and should not affect  
+DAQ.   See RELNOTES file in top product  
+directory for more info. 
+ 
+ 
+</pre>
+<!-- Author: W.Badgett -->
+
+
+
+<!-- Date: Thu Jun 27 15:04:10 2002 -->
+The solenoid is back up.
+<!-- Author: ps -->
+
+
+<!-- Date: Thu Jun 27 15:04:40 2002 -->
+Solenoid has been ramped back up by cryo people.
+<!-- Author: Sebastian -->
+
+<!-- Date: Thu Jun 27 15:13:46 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147314">147314</A>
+ACTIVATE: take another plug laser run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 15:21:16 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147314">147314</A>
+TERMINATE: end plug laser calibration run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 15:29:36 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147316">147316</A>
+ACTIVATE: another L2 torture test run
+<!-- Author: ming -->
+
+
+<!-- Date: Thu Jun 27 15:36:24 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147320">147320</A>
+ACTIVATE: cosmic no track run for trigger test
+<!-- Author: ming -->
+
+
+
+<!-- Date: Thu Jun 27 15:41:12 2002 -->
+Finished using WCAL + b0puls01 crates. 
+Did a scan of CalibInterval for CalibInterval > L1 pipeline depth (=29) for TOF TAC calibrations.  
+Found that CalibInterval=44 workd for ALL Interval0 values. 
+Success! Will take a detailed look at full TAC calibration and change default run configuration parameters if everything is OK. 
+<!-- Author: Gervasio -->
+
+<!-- Date: Thu Jun 27 15:51:13 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147322">147322</A>
+ACTIVATE: start plug laser calib run
+<!-- Author: ming 6699 -->
+
+
+
+<!-- Date: Thu Jun 27 15:53:07 2002 -->
+<pre>Worked on the 1% off diagonal elements in Isolation. 
+Will require a firmware modification in order 
+to get a proper signal to trigger the scope on the  
+error.  Depending on progress during the access on  
+shower max,  will return Friday afternoon to try this...</pre>
+<!-- Author: Steve Kuhlmann, John Dawson -->
+
+<!-- Date: Thu Jun 27 15:55:37 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Thu Jun 27 15:57:25 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147322">147322</A>
+TERMINATE: end plug laser calib run
+<!-- Author: ming 6699 -->
+
+
+<!-- Date: Thu Jun 27 16:04:04 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147320">147320</A>
+TERMINATE: end trigger test run
+
+<!-- Author: ming -->
+
+
+
+<!-- Date: Thu Jun 27 16:04:28 2002 -->
+BMU HV was turned off in preparation for the access. We had two cooling related problems. The first caused L00 and SVX to trip. ISL was also turned off at this time. Silicon people decided to leave it off. The second took out the solenoid. That was caught on the way down and was back up shortly. Plug HV work continues. Kuhlmann, Colman, Kuhlman and Dawson worked on the isolation trigger and are finished for now. But Greg, Maria and Carla are still working on the trigger. There were some problems with ifix not communicating with the hv control programs. These were eventually all fixed. Pitts is back tomorrow.
+<!-- Author: ps -->

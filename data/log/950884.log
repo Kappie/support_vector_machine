@@ -1,0 +1,525 @@
+<!-- Title: Eve shift. Mon Mar 24, 2003 -->
+<!-- SciCo: Manfred Paulini -->
+<!-- DAQAce: Gavril Giurgiu -->
+<!-- MonAce: Sal Rappoccio -->
+<!-- CO: Mike Mulhearn -->
+<!-- OpManager: Steve H. for Andy H. -->
+<!-- Notes: -->
+<pre>Well, about 2 h access just started for SVX work. Will do  calibrations. Afterwards TeV studies (for probably 2 shifts until tomorrow morning) and stacking (though there are problems with stacking).  
+Current stack 68E10. Temp 66 (to end report on a positive note)</pre>
+
+<!-- Date: Mon Mar 24 16:13:43.701 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160546">160546</A>
+ACTIVATE: Start roman pot calib.
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 16:13:43.685 2003 -->
+CLC LED calibration in progress by CLC expert.
+<!-- Author: Manfred -->
+
+<!-- Date: Mon Mar 24 16:15:18.366 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160546">160546</A>
+TERMINATE: End roman pot calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:17:28.462 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160549">160549</A>
+ACTIVATE: Start SMX QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:19:55.704 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160549">160549</A>
+TERMINATE: End SMX QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:19:56.294 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160550">160550</A>
+ACTIVATE: Start CLC QIE calib.
+<!-- Author: Gavril -->
+<!-- Comment: Mon Mar 24 17;00;07 comment by...Gavril/Sal -->
+reseted admems
+<!-- Date: Mon Mar 24 16:22:16.847 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160550">160550</A>
+TERMINATE: End CLC QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:22:17.711 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160551">160551</A>
+ACTIVATE: Start BSC QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:24:41.629 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160551">160551</A>
+TERMINATE: End BSC QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:27:07.350 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160552">160552</A>
+ACTIVATE: Start TOF QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:27:08.080 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160552">160552</A>
+TERMINATE: End TOF QIE calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:29:20.980 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160553">160553</A>
+ACTIVATE: Start CEM LED calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:29:21.536 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160553">160553</A>
+TERMINATE: End CEM LED calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:38:09.554 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160554">160554</A>
+ACTIVATE: Start CEM XEF calib.
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 16:38:09.247 2003 -->
+Peter W. will take over system for muon trigger tests. Also need XTRP, ... Want COT, muon and ToF HV up. OK, got it.
+<!-- Author: Manfred -->
+
+<!-- Date: Mon Mar 24 16:40:11.616 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160554">160554</A>
+TERMINATE: End CEM XEF calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:50:58.283 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160555">160555</A>
+ACTIVATE: Start Plug Laser calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:57:18.722 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160555">160555</A>
+TERMINATE: End Plug Laser calib (normal mode)
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 16:59:38.590 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160557">160557</A>
+ACTIVATE: Start Plug Laser calib (Myron mode)
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 17:01:19.477 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160557">160557</A>
+TERMINATE: End plug laser calib (Myron mode)
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 17:01:59.461 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160556">160556</A>
+TERMINATE: Junk Run
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:04:09.716 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160558">160558</A>
+ACTIVATE: Muon Trigger Test Run
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:08:56.570 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160558">160558</A>
+TERMINATE: end run to change ExtraX parameters to zero
+<!-- Author: wittich -->
+
+
+
+<!-- Date: Mon Mar 24 17:08:56.705 2003 -->
+Icicle crashed twice in the last hour. Restart.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 17:09:44.573 2003 -->
+Switched YMon, SiliMon to "cosmics mode" to run a Rick's Run
+<!-- Author: Sal -->
+
+<!-- Date: Mon Mar 24 17:11:04.713 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160559">160559</A>
+ACTIVATE: new muon trigger run with extra words set to zero
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:15:09.681 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160540">160540</A>
+RUNSTATUS: <PRE>Marked Bad, explanation: Silicon off due to high losses at begin of RUn
+ISU_STATUS 
+SVX_STATUS 
+ISL_STATUS 
+L00_STATUS 
+SVT_STATUS 
+</PRE>
+<!-- Author: cdfscico -->
+
+
+<!-- Date: Mon Mar 24 17:25:33.012 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160559">160559</A>
+TERMINATE: looks like a good test of the new muon triggers - so far, so good
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:28:26.063 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160560">160560</A>
+ACTIVATE: 'nother test for muon trigger
+
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:29:28.932 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160560">160560</A>
+TERMINATE: end of final trigger test for the night
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:45:33.079 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160561">160561</A>
+ Activated at 2003.03.24 17:42:12
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 17:45:34.642 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160561">160561</A>
+ACTIVATE: back to the previous settings for the muon trigger.
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Mar 24 17:46:36.978 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160561">160561</A>
+ Terminated at 2003.03.24 17:43:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 17:46:37.478 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160561">160561</A>
+TERMINATE: looks good.
+<!-- Author: wittich -->
+
+
+
+<!-- Date: Mon Mar 24 17:47:09.948 2003 -->
+Did a test of the some new L1 muon trigger and XTRP setup. Initial test had fake tracks from XTRP (run 160558), and hence higher than expected rates. Run 160559 had the xtrp fake tracks turned off and the rates were as expected. This was a successful first test. 
+ 
+<p>We are returning the XTRP and muon trigger to the shift crew in its original configuration.
+<!-- Author: Eric, Jim, Mike, Peter -->
+
+
+<!-- Date: Mon Mar 24 17:47:44.754 2003 -->
+We are done with our access. SVX guys looking forward to go home ...
+<!-- Author: Manfred -->
+
+<!-- Date: Mon Mar 24 17:51:27.876 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160562">160562</A>
+ACTIVATE: Start COT calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 17:51:28.395 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160562">160562</A>
+TERMINATE: End COT calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 17:53:29.338 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160563">160563</A>
+ACTIVATE: Start Muon calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 17:55:35.065 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160563">160563</A>
+TERMINATE: End Muon calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 17:57:09.226 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160564">160564</A>
+ACTIVATE: Start TOF TAC calib.
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 17:58:05.170 2003 -->
+Gas alarm (CLC west chamber pressure at 16.1 instead of 17 psi)
+<!-- Author: Sal -->
+<!-- Comment: Tue Mar 25 07;21;26 comment by...Ming -->
+We purge CLC west and refill with fresh Isobutane.
+<!-- Date: Mon Mar 24 17:59:53.217 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160564">160564</A>
+TERMINATE: End TOF TAC calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 18:08:17.281 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160566">160566</A>
+ Activated at 2003.03.24 18:05:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 18:08:18.714 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160566">160566</A>
+ACTIVATE: Start PMT spike run.
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 18:10:43.434 2003 -->
+Busy Timeout as soon as the run started. Increased BusyTimeout by a factor of 10. Works now.
+<!-- Author: Gavril :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160566' target=_top>160566</a>) -->
+<!-- Comment: Mon Mar 24 18;15;21 comment by...Gavril -->
+Gino aslo uses HEVB.
+
+<!-- Date: Mon Mar 24 18:17:29.720 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160566">160566</A>
+ Terminated at 2003.03.24 18:14:54
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 18:18:02.713 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160566">160566</A>
+TERMINATE: End rick's run
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 18:22:28.412 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-2358&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-2358' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-2359&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-2359' width='300'></a></center>
+<!-- Author: mulhearn -->
+<!-- Comment: Mon Mar 24 18;24;35 comment by...mulhearn -->
+<P> When I tried to start TrigMon for a Rick's Run, I got the these errors.  Since we are not taking data till tommorrow night, we will not page L2 unless this problem persists. </P>
+
+<!-- Comment: Tue Mar 25 00;05;31 comment by...Saltzberg -->
+Looks to me like the XTRP was not sending its BC to either
+SVT or L2. 
+In fact XTRP was not booked in the "rick's run".  Normally you don't get an error as long as nobody changes the configuration/ partition of the XTRP.   But there was some concurrent XTRP work so that probably changed it.  It
+all should be fine once the system is pulled back
+together.   Anyway, we can 
+change TrigMon to detect this odd running condition and not 
+give an error.
+<!-- Date: Mon Mar 24 18:35:27.189 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160568">160568</A>
+ Activated at 2003.03.24 18:32:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 18:35:28.042 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160568">160568</A>
+ACTIVATE: Start cosmics.
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 18:42:18.058 2003 -->
+ 
+ 
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=147&frame=2&anchor=18:27:15'> 
+Silicon Access Report </a>   
+<!-- Author: Stan Steve and Gino -->
+
+
+<!-- Date: Mon Mar 24 18:44:12.488 2003 -->
+<a href='http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=147&frame=2&anchor=18:39:46'> 
+Changes in the Silicon transition from STDBY to ON </a> This is purely informative. No changes in procedures. 
+</p> 
+From NOW on all Silicon Alarms are real (the access is over)!  
+<!-- Author: Gino -->
+
+
+<!-- Date: Mon Mar 24 19:09:32.644 2003 -->
+<P> COT calibration has written a new COMPLETE run (160562).  Looks fine.  Here are the crates with a large number of drifts from the log file: </P> 
+ 
+<PRE> 
+ave start time for good channels is 305.425 
+number of missing channels = 0 
+number of good channels = 29813 
+number of drifted good channels = 194 
+ave drift = -0.0733815 
+num drifted good channels, crate 6 is 31 
+num drifted good channels, crate 8 is 29 
+num drifted good channels, crate 9 is 25 
+num drifted good channels, crate 11 is 63 
+average start time is 305.425 ns 
+average channel drift is 0.0794144 ns 
+number of good channels that drifted is 194 
+ave start time for good channels is 305.425 
+numBad channels = 427 
+</PRE>
+<!-- Author: mulhearn -->
+
+
+<!-- Date: Mon Mar 24 19:23:07.182 2003 -->
+Gas alarm from the mix and storage shed.
+<!-- Author: Sal -->
+
+
+<!-- Date: Mon Mar 24 19:26:13.505 2003 -->
+Error (91) >>  (MLE) b0cot18:Messenger:7:20:47 PM->Runtime Error 6, Event 77076: Timeout on global TDC Done 
+ 
+Shepherded crate. Works.
+<!-- Author: Gavril :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160568' target=_top>160568</a>) -->
+<!-- Comment: Mon Mar 24 20;18;40 comment by...Sal -->
+Actually didn't work.
+<!-- Date: Mon Mar 24 20:15:45.567 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160568">160568</A>
+ Terminated at 2003.03.24 20:12:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 20:15:46.015 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160568">160568</A>
+TERMINATE: End the run because repeated cot_18 donetimeout errors.
+<!-- Author: Gavril -->
+
+
+
+<!-- Date: Mon Mar 24 20:17:27.986 2003 -->
+Getting done timeouts from b0cot18. Shepherded crates, didn't work. Reset VRB in b0eb14 slot 10, didn't work. Ending run to try and fix problem.
+<!-- Author: Sal :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160568' target=_top>160568</a>) -->
+<!-- Comment: Mon Mar 24 20;18;04 comment by...Sal -->
+Sorry, the error looked like:
+<br>7:18:49 PM->Host b0eb14.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 10 for event 77068.
+<br>
+<br>(MLE) b0cot18:Messenger:7:19:09 PM->Runtime Error 5, Event 77075: Timeout on global TDC Done
+<br>(MLE) b0cot18:Messenger:7:19:09 PM->Runtime Error 5, Event 77075: TDC in slot 4 not ready for readout
+<br>(MLE) b0cot18:Messenger:7:19:09 PM->Runtime Error 5, Event 77075: TDC in slot 7 not ready for readout
+<br> ...
+
+<!-- Comment: Mon Mar 24 22;33;51 comment by...Sal -->
+<table border=0><td><tr><td bgcolor=#e0e030>This happened again, but this time shepherding the crate worked.</td></tr></td></table>
+<!-- Date: Mon Mar 24 20:24:09.685 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160569">160569</A>
+ Activated at 2003.03.24 20:21:13
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 20:24:10.829 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160569">160569</A>
+ACTIVATE: Start new run.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 20:32:33.153 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160569">160569</A>
+ Terminated at 2003.03.24 20:29:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 20:32:34.415 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160569">160569</A>
+TERMINATE: End the run to take central laser calib.
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 20:39:19.847 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160570">160570</A>
+ACTIVATE: CHA/WHA laser run, B on,default admem delays for calorimeter crates 
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 20:59:19.858 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160570">160570</A>
+TERMINATE: good run
+<!-- Author: Gavril -->
+
+
+<!-- Date: Mon Mar 24 21:14:30.721 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160572">160572</A>
+ Activated at 2003.03.24 21:10:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Mar 24 21:14:53.217 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160572">160572</A>
+ACTIVATE: Begin cosmics. Ra.
+<!-- Author: Sal -->
+
+
+
+<!-- Date: Mon Mar 24 21:16:46.536 2003 -->
+MCR calls to let us know that they plan to inject beam soon (for studies). 
+<!-- Author: Manfred -->
+
+
+<!-- Date: Mon Mar 24 23:57:39.314 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Mar 25 00:00:19.630 2003 -->
+<font color=red>Shift Summary: </font><pre>Another exciting and glorious shift on the U.S.S. CDF comes to an end.  
+The highlights: 
+- 2 hour access at beginning of shift: SVX swapped previously superbuffed (11) FTMs for SB1W4/5 and SB1W6/7 with regular buffed FTM (7) (Buffy the FTM slayer?) 
+- Test of some new L1 muon trigger and XTRP setups by Wittich et al. Test successful - to be continued 
+- Did calibrations including CLC LED (by expert) 
+- CHA/WHA laser run by Fotis & Fabio 
+- Running cosmics 
+PLAN: 
+- TeV studies until morning, continue taking cosmics 
+- Fix issues with stacking; currently still at 67; to be hopefully resumed soon 
+==&gt; Looks like an exciting night for owl shift (withstand showers of cosmics, bombardements of solar neutrinos, ...) 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   noope
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             0/0=?
+   
+</td></tr></table></pre>
+<!-- Author: Manfred -->
+
+

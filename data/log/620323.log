@@ -1,0 +1,636 @@
+<!-- Title: 08:03:43  Thu Feb 14 2002 -->
+<!-- Crewchief: . -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>.</pre>
+
+
+<!-- Date: Thu Feb 14 08:04:14 2002 -->
+<pre>On the online b0dap cluster, dbrep version v1_5 has been  
+installed & declared current</pre>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Thu Feb 14 08:14:04 2002 -->
+<pre>
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 08:16:42 2002 -->
+<pre>
+Target Name : cdfofprd.fnal.gov
+Target Type : Database
+Node Name : fcdfora1.fnal.gov
+
+Node UpDown
+Event test "Node UpDown" is cleared
+CLEARED
+Feb 14 2002 09:16:27 AM
+Database UpDown
+Event test "Database UpDown" is cleared
+CLEARED
+Sep 27 2001 08:53:03 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 08:20:53 2002 -->
+<pre>
+Target Name : cdfofprd.fnal.gov
+Target Type : Database
+Node Name : fcdfora1.fnal.gov
+
+Node UpDown
+ VNI-4044 : Cannot contact agent. Node may be down, or the network may be down or slow.
+NODE UNREACHABLE
+Feb 14 2002 09:20:27 AM
+Database UpDown
+Event test "Database UpDown" is cleared
+CLEARED
+Sep 27 2001 08:53:03 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 08:22:57 2002 -->
+<pre>
+Target Name : cdfofprd.fnal.gov
+Target Type : Database
+Node Name : fcdfora1.fnal.gov
+
+Node UpDown
+Event test "Node UpDown" is cleared
+CLEARED
+Feb 14 2002 09:22:27 AM
+Database UpDown
+Event test "Database UpDown" is cleared
+CLEARED
+Sep 27 2001 08:53:03 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Thu Feb 14 08:41:04 2002 -->
+<pre>fcdfora1 and fcdfora2 rebooted - thanks richard  
+ 
+cdfofprd up in restricted session for gave restricted priv 
+dbreader 
+REPADMIN_PRD HDWDB_PRD_REP and RUNDB_PRD_REP  
+ 
+ 
+Will remove restricted priv once Bill completes replication.    Scheduled uptime is 9am. 
+ 
+ 
+ 
+</pre>
+<!-- Author: nstanfield  -->
+
+
+<!-- Date: Thu Feb 14 08:46:50 2002 -->
+<pre>Resynched replication for table HDWDB.CHIPCHAINS  
+and RUNDB.RUNSETS due to recent DDL changes;  all  
+applications are up-to-date in replication cdfonprd -&gt; 
+cdfofprd now. 
+ 
+</pre>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Thu Feb 14 08:48:58 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Alert
+The following errors are in the ALERT file : ORA-959 signalled during: alter tablespace hdwdb_prd_rep_index coalesce....
+WARNING
+Feb 14 2002 08:47:29 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Thu Feb 14 08:52:57 2002 -->
+<pre>Coalesced failed since the db was in restricted mode: 
+ 
+The following tablespaces in cdfofprd require coalescing: 
+ 
+Tablespace Tablespace                     Coalescable 
+    Number Name                               Extents 
+---------- ------------------------------ ----------- 
+        22 HDWDB_PRD_REP_INDEX                      3 
+        23 RUNDB_PRD_REP_DATA                       1 
+        25 RUNDB_PRD_REP_INDEX                      2 
+beginning coalescing of cdfofprd 
+ERROR: 
+ORA-01035: ORACLE only available to users with RESTRICTED SESSION privilege 
+ 
+ 
+SP2-0306: Invalid option. 
+Usage: CONN[ECT] [logon] [AS {SYSDBA|SYSOPER}] | [INTERNAL] 
+where &lt;logon&gt;  ::= &lt;username&gt;[/&lt;password&gt;][@&lt;connect_string&gt;] | / 
+SP2-0306: Invalid option. 
+</pre>
+<!-- Author: nstanfield  -->
+
+
+<!-- Date: Thu Feb 14 08:57:23 2002 -->
+<pre>SVRMGR&gt; revoke restricted session from dbreader; 
+Statement processed. 
+SVRMGR&gt; revoke restricted session from repadmin_prd; 
+Statement processed. 
+SVRMGR&gt; revoke restricted session from rundb_prd_rep; 
+Statement processed. 
+SVRMGR&gt; revoke restricted session from hdwdb_prd_rep; 
+Statement processed. 
+SVRMGR&gt; </pre>
+<!-- Author: nstanfield -->
+
+<!-- Date: Thu Feb 14 08:58:10 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Alert
+The following errors are in the ALERT file : ORA-959 signalled during: alter tablespace hdwdb_prd_rep_index coalesce... ORA-959 signalled during: alter tablespace hdwdb_prd_rep_index coalesce... ORA-959 signalled during:  alter tablespace HDWDB_PRD_REP_INDEX coalesce....
+WARNING
+Feb 14 2002 08:57:30 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Thu Feb 14 09:36:49 2002 -->
+<pre>MOVE SICHIPTHRESH FK TO LRG TABLESPACES. 
+ 
+SQL&gt; select index_name, status from all_indexes where index_name like 'SICHIPTH% 
+'; 
+ 
+INDEX_NAME                     STATUS 
+------------------------------ -------- 
+SICHIPTHRESH_PK                VALID 
+SICHIPTHRESH_FK_I              VALID 
+SICHIPTHRESH_ID_I              VALID 
+ 
+SQL&gt;  
+SQL&gt; @fk_move.sql 
+ 
+Index altered. 
+ 
+ 
+Index altered. 
+ 
+  1* select index_name, tablespace_name from all_indexes where index_name like ' 
+SICHIPTHRES%' 
+SQL&gt; / 
+ 
+INDEX_NAME                     TABLESPACE_NAME 
+------------------------------ ------------------------------ 
+SICHIPTHRESH_PK                CALIB_LRG_INDEX 
+SICHIPTHRESH_FK_I              CALIB_LRG_INDEX 
+SICHIPTHRESH_ID_I              CALIB_LRG_INDEX 
+ 
+ 
+</pre>
+<!-- Author: nstanfield  -->
+
+
+<!-- Date: Thu Feb 14 10:32:47 2002 -->
+<pre>Alert 
+----- 
+&gt; The following errors are in the ALERT file : ORA-02068: following severe error from CDFOFPRD ORA-03113: end-of-file on communication channel. 
+&gt; WARNING 
+&gt; Feb 14 2002 06:47:17 AM 
+ 
+Observation : 
+No Local process is hanging between cdfonprd and cdfofprd since yesterday. Reboot of fcdfora1 might have cleared up. 
+ 
+However, 
+ 
+a) There are Local Oracle Unix processesses on b0dau35  since Jan 30 and these are inactive in cdfonprd : 
+ 
+b0dau35&gt; ps -ef | grep LOCAL | grep Jan 
+  oracle  2227     1  0   Jan 30 ?        1:22 oraclecdfonprd (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq))) 
+  oracle  3533     1  0   Jan 30 ?       448:49 oraclecdfonprd (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq))) 
+  oracle  2249     1  0   Jan 30 ?        0:00 oraclecdfonprd (DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq))) 
+ 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 2227 
+ 
+2227       DBSNMP     dbsnmp@b0dau35 (TNS  INACTIVE  01/30/2002 12:20 
+ 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 3533 
+ 
+3533       DBREADER   dbsnmp@b0dau35 (TNS  INACTIVE  01/30/2002 12:24 
+ 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 2249 
+ 
+2249       DBSNMP     dbsnmp@b0dau35 (TNS  INACTIVE  01/30/2002 12:20 
+ 
+ 
+b) Local Oracle processes on b0dau35 having inactive Oracle session for Feb month : 
+ 
+b0dau35&gt; ps -ef | grep LOCAL | grep Feb 
+ 
+  oracle 13520     1  0   Feb 13 ?        0:00 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 13520 
+13520      CDF_READER triggertable.gui.Mai INACTIVE  02/13/2002 09:34 
+ 
+ 
+  oracle  7497     1  0   Feb 13 ?        0:01 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 7497 
+7497       RUN_USER   si_ss.BootLoader     INACTIVE  02/13/2002 09:14 
+ 
+ 
+  oracle 23958     1  0   Feb 12 ?        0:02 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 23958 
+23958      RUN_USER   runedit.RunStatusEdi INACTIVE  02/12/2002 07:43 
+ 
+ 
+ 
+  oracle 11383     1  0   Feb 08 ?        0:00 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 11383 
+11383      RUN_USER   runedit.RunStatusEdi INACTIVE  02/08/2002 13:17 
+ 
+ 
+  oracle  5762     1  0   Feb 13 ?        2:03 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 5762 
+5762       RUN_USER   rc.acnet.AcnetMonito INACTIVE  02/13/2002 07:27 
+ 
+ 
+  oracle 21776     1  0   Feb 12 ?        0:00 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 21776 
+21776      RUN_USER   resusr.ResourceSelec INACTIVE  02/12/2002 15:41 
+ 
+  oracle 28406     1  0   Feb 12 ?        0:01 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 28406 
+28406      RUN_USER   resusr.ResourceSelec INACTIVE  02/12/2002 21:02 
+ 
+  oracle  1736     1  0   Feb 09 ?        0:00 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 1736 
+1736       RUN_USER   cdfevb/ace/EventBuil INACTIVE  02/09/2002 20:09 
+ 
+ 
+  oracle  5410     1  5   Feb 04 ?       3387:10 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 5410 
+5410       RUN_USER   cdfdb.DatabaseMonito INACTIVE  02/04/2002 11:31 
+ 
+ 
+  oracle  1612     1  0   Feb 08 ?        0:03 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 1612 
+1612       RUN_USER   si_ss.BootLoader     INACTIVE  02/08/2002 20:50 
+ 
+  oracle  5280     1  0   Feb 11 ?       65:43 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 5280 
+5280       ICICLE     icicle.exe           INACTIVE  02/11/2002 13:57 
+ 
+  oracle  1546     1  0   Feb 05 ?        0:00 oraclecdfonprd (LOCAL=NO)= 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 1546 
+1546       RUN_USER   resusr.ResClient -cc INACTIVE  02/05/2002 12:11 
+ 
+  oracle 22927     1  0   Feb 11 ?        0:00 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 22927 
+22927      CDF_READER                      INACTIVE  02/11/2002 13:16 
+ 
+ 
+  oracle 14343     1  0   Feb 11 ?        0:01 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 14343 
+14343      CDF_READER JDBC Thin Client     INACTIVE  02/11/2002 12:47 
+ 
+  oracle 13944     1  0   Feb 13 ?        0:00 oraclecdfonprd (LOCAL=NO) 
+b0dau35&gt; runscript cdfonprd show_active_and_inactive_users | grep 13944 
+13944      VARGANOV   sqlplus@b0dap14.fnal INACTIVE  02/13/2002 09:35 
+ 
+ 
+There are lot unix processes by RUN_USER hanging. It is worth looking into 
+respective programs "Why the programs are not exiting out cleanly ?" 
+ 
+Then we can kill the Unix processes. 
+ 
+Thanks, 
+ 
+Anil. 
+ 
+ 
+</pre>
+<!-- Author: akumar -->
+
+<!-- Date: Thu Feb 14 11:02:33 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Event test "Unscheduled Jobs" is cleared
+CLEARED
+Feb 14 2002 11:01:43 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 11:32:37 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Event test "Unscheduled Jobs" is cleared
+CLEARED
+Feb 14 2002 11:31:44 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 12:02:24 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Maximum Extents
+Segment CDFTRIG_PRD.TBS_PTS_FK_I in tablespace CDFTRIG_IDX can only allocate 1 additional extents.
+WARNING
+Feb 14 2002 12:01:44 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Thu Feb 14 13;46;32 comment by...ns -->
+<pre>ALTER INDEX "CDFTRIG_PRD"."TBS_PTS_FK_I"
+    STORAGE ( MAXEXTENTS 40)
+
+was at 20.
+</pre>
+<!-- Date: Thu Feb 14 12:02:24 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled.
+CRITICAL
+Feb 14 2002 12:01:45 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 12:32:23 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled. Job 7526 was not rescheduled. Job 7527 was not rescheduled. Job 7528 was not rescheduled. Job 7529 was not rescheduled.
+CRITICAL
+Feb 14 2002 12:31:46 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 13:02:49 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled. Job 7526 was not rescheduled. Job 7527 was not rescheduled. Job 7528 was not rescheduled. Job 7529 was not rescheduled. Job 7530 was not rescheduled. Job 7531 was not rescheduled.
+CRITICAL
+Feb 14 2002 01:01:47 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 13:32:57 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Maximum Extents
+Event test "Maximum Extents" is cleared
+CLEARED
+Feb 14 2002 01:31:48 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+
+<!-- Date: Thu Feb 14 13:59:10 2002 -->
+<pre>Proceeding with testing of partial rman on cdfofint. 
+ 
+The cdfofint database will be unavailable the rest of the afternoon.  
+</pre>
+<!-- Author: nstanfield  -->
+
+<!-- Date: Thu Feb 14 14:03:11 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled. Job 7526 was not rescheduled. Job 7527 was not rescheduled. Job 7528 was not rescheduled. Job 7529 was not rescheduled. Job 7530 was not rescheduled. Job 7531 was not rescheduled. Job 7532 was not rescheduled.
+CRITICAL
+Feb 14 2002 02:01:49 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 14:32:29 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled. Job 7526 was not rescheduled. Job 7527 was not rescheduled. Job 7528 was not rescheduled. Job 7529 was not rescheduled. Job 7530 was not rescheduled. Job 7531 was not rescheduled. Job 7532 was not rescheduled. Job 7533 was not rescheduled.
+CRITICAL
+Feb 14 2002 02:31:50 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 15:03:38 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled. Job 7526 was not rescheduled. Job 7527 was not rescheduled. Job 7528 was not rescheduled. Job 7529 was not rescheduled. Job 7530 was not rescheduled. Job 7531 was not rescheduled. Job 7532 was not rescheduled. Job 7533 was not rescheduled. Job 7534 was not rescheduled. Job 7535 was not rescheduled.
+CRITICAL
+Feb 14 2002 03:01:51 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 15:32:28 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7504 was not rescheduled. Job 7505 was not rescheduled. Job 7524 was not rescheduled. Job 7525 was not rescheduled. Job 7526 was not rescheduled. Job 7527 was not rescheduled. Job 7528 was not rescheduled. Job 7529 was not rescheduled. Job 7530 was not rescheduled. Job 7531 was not rescheduled. Job 7532 was not rescheduled. Job 7533 was not rescheduled. Job 7534 was not rescheduled. Job 7535 was not rescheduled. Job 7536 was not rescheduled.
+CRITICAL
+Feb 14 2002 03:31:52 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 16:32:30 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Event test "Unscheduled Jobs" is cleared
+CLEARED
+Feb 14 2002 04:31:54 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 19:33:48 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Event test "Unscheduled Jobs" is cleared
+CLEARED
+Feb 14 2002 07:32:01 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Thu Feb 14 22:17:08 2002 -->
+<pre>Miro, Pasha and Rob Snihur report no. of processes reached on cdfoprd.   We also received an email alert about 200 processes reached so the db could not coalesce. 
+ 
+I got lucky and got in but there are many active processes, 
+so it's not clear what I could or should kill off.  Many many connections with CDFPROD0 user. 
+ 
+The ProductionExe seems to be not closing connections.  Will have to wait for the FARMS to finish to free up some of the processes. 
+ 
+==mail replying to Miro and Rob 
+ 
+Miro is correct, the processes have reached 200 on the cdfofprd, and once 
+the number of open connections fall -- others will be available. 
+ 
+Tomorrow a.m. I will take a look and see how many connections we are 
+averaging on this instance.  We could consider increasing this number, bu 
+we generally like to keep this number at something close to what we ar 
+'really' expecting allowing us to monitor if there are connections problems. 
+ 
+I believe 200 is already high. 
+ 
+</pre>
+<!-- Author: nstanfield -->
+<!-- Comment: Thu Feb 14 22;38;17 comment by...ns -->
+<pre>julie was paged as primary
+
+pasha wants to leave things alone till the morning.   he does not want 
+the db bounced.  he does not understand why all of a sudden this is an 
+issue, since they have been running fine for quite some time.  i told 
+him it  would not be the first time that someone made a change, did not 
+inform people and things broke.  he is assuming you and he will touch 
+base in the morning.  i called 2080, they said as long as it is not 
+effecting data taking, they are fine to leave it till morning.
+</pre>
+
+<!-- Date: Thu Feb 14 23:03:14 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Event test "Unscheduled Jobs" is cleared
+CLEARED
+Feb 14 2002 11:02:08 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Feb 14 23:34:31 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Event test "Unscheduled Jobs" is cleared
+CLEARED
+Feb 14 2002 11:32:09 PM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Feb 15 00:33:03 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7544 was not rescheduled. Job 7564 was not rescheduled. Job 7565 was not rescheduled. Job 7566 was not rescheduled.
+CRITICAL
+Feb 15 2002 12:32:11 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Feb 15 03:03:10 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7544 was not rescheduled. Job 7564 was not rescheduled. Job 7565 was not rescheduled. Job 7566 was not rescheduled. Job 7567 was not rescheduled.
+CRITICAL
+Feb 15 2002 03:02:16 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Feb 15 03:33:07 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7544 was not rescheduled. Job 7564 was not rescheduled. Job 7565 was not rescheduled. Job 7566 was not rescheduled. Job 7567 was not rescheduled. Job 7568 was not rescheduled. Job 7569 was not rescheduled.
+CRITICAL
+Feb 15 2002 03:32:17 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Feb 15 04:03:15 2002 -->
+<pre>
+Target Name : cdfonprd.fnal.gov
+Target Type : Database
+Node Name : b0dau35.fnal.gov
+
+Unscheduled Jobs
+Job 7544 was not rescheduled. Job 7564 was not rescheduled. Job 7565 was not rescheduled. Job 7566 was not rescheduled. Job 7567 was not rescheduled. Job 7568 was not rescheduled. Job 7569 was not rescheduled. Job 7570 was not rescheduled.
+CRITICAL
+Feb 15 2002 04:02:18 AM
+</pre>
+<!-- Author: oem-admin (email) -->
+

@@ -1,0 +1,425 @@
+<!-- Title: Eve shift. Tue Jan 14, 2003 -->
+<!-- SciCo: Ted Liu -->
+<!-- DAQAce: Mat Martin -->
+<!-- MonAce: Stan Lai -->
+<!-- CO: -- -->
+<!-- OpManager: M. Jones -->
+<!-- Notes: -->
+<pre>access cont...</pre>
+
+
+<!-- Date: Tue Jan 14 16:17:08 2003 -->
+<pre>Work for CEM LED/XEF hardware. 
+Transition card in ccal01 (wedge 3,4,5 west) was replaced. 
+The cables and cards for 13E and 16W were checked. 
+ 
+We would like to request CEM LED and Xef calibration run 
+as soon as possible to see if problem were solved. 
+ 
+I.Nakamura and A. Kovalev 
+</pre>
+<!-- Author: I.Nakamura -->
+
+
+<!-- Date: Tue Jan 14 16:18:27 2003 -->
+<pre>IMU access report 
+ 
+I physically removed the four South-West CCU's for TSU and BSU: 
+CCU14 
+CCU07 
+CCU06 
+CCU21</pre>
+<!-- Author: Camille Ginsburg -->
+
+
+<!-- Date: Tue Jan 14 16:32:25 2003 -->
+COSWB-3 PEI power supply +5VA has continuously been tripping. 
+I set sense switch to internal only to get it out of the faulty state and tracer board may be checked. I adjusted all of the the outputs although the +5VA could not be adjusted to 5.0V. The +5VA was adjusted to 4.78 as maximum.  This power supply will be replaced within the next 36 hrs. 
+<!-- Author: Roberto Davila -->
+
+
+<!-- Date: Tue Jan 14 16:33:58 2003 -->
+<pre>Attempted a QIE calibration. Had to take pcal04-08;10-11 out in order to get past partition. When the setup stage was attempted, b0wcal06 gave a "statechange failed" error: 
+ 
+ 
+(MLE) b0svx06:Messenger:12:42:39 AM->Statechange failed 
+(RC)   0:42:54 Reset -> START 
+43'8" -----Status cleared---- 
+(RC)   0:43:24 Reset -> IDLE 
+Error Handler Log File 
+All timestamps are referred to CT 
+CT: 1/14/2003, 16:29'55"  
+Partition:0 Run number: 156458 (0x2632a) 
+(MLE) b0wcal06:Messenger:4:29:57 PM->ID PROM check failure in slot 2 (ASCII blank) 
+(MLE) b0wcal06:Messenger:4:29:57 PM->No connection to tracer 
+(MLE) b0wcal06:Messenger:4:29:57 PM->VISIONread/write failed in slot 2 
+(MLE) b0wcal06:Messenger:4:29:57 PM->ID PROM check failure in slot 16 (ASCII blank) 
+(MLE) b0wcal06:Messenger:4:29:57 PM->VISIONread/write failed in slot 16 
+(MLE) b0wcal06:Messenger:4:29:57 PM->Resetting card in slot 16 failed 
+(MLE) b0wcal06:Messenger:4:29:58 PM->Statechange failed</pre>
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156458' target=_top>156458</a>) -->
+
+
+<!-- Date: Tue Jan 14 16:39:01 2003 -->
+We will be turning the HV of the SE miniskirt of CMX on.
+<!-- Author: Phil Schlabach -->
+<!-- Comment: Tue Jan 14 16;55;44 comment by...ps/sr -->
+We'll leave it on overnight or as long as it stays on. If it trips, don't reset it more than once.
+<!-- Date: Tue Jan 14 16:43:12 2003 -->
+<pre>Calibration completed when b0wcal06 was removed. There were significant numbers of "ped low/high" and "sigma off" messages (about 40).</pre>
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156459' target=_top>156459</a>) -->
+
+
+<!-- Date: Tue Jan 14 16:45:31 2003 -->
+<pre>Tried the same calibration run again with wcal06, and it consistently fails the setup phase.</pre>
+<!-- Author: Mat -->
+
+
+
+<!-- Date: Tue Jan 14 16:56:28 2003 -->
+Crate b0tsi00 failed during the activate phase of the LED calib run. We logged into the crate and this is the error message: 
+ 
+TS L2 FSM failed to start (State 14)
+<!-- Author: Stan/Mat -->
+
+
+<!-- Date: Tue Jan 14 17:01:39 2003 -->
+<pre>I get VME bus errors from every card in b0wcal06: 
+b0dap30:/cdf/people2/cdf_tof/ readadc b0wcal06 7 -get VCC5 
+FISION: Input/output error (0x5): VME BERR received! 
+readadc - VISIONwrite() - 5 
+ 
+Also, VISIONdemo's map crate shows all slots as (EMPTY). 
+ 
+I thought I saw cards in the crate when I was just down there... 
+</pre>
+<!-- Author: M Jones -->
+
+
+<!-- Date: Tue Jan 14 17:11:45 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Paged Greg about trigger supervisor crate 0. He suggested running another calibration to see if it did the same thing. We ran a COT calibration (removing COT crates 1,7,8,12,16,18) and the calibration ran fine. b0tsi00 operated fine. Strange. Why does b0tsi00 fail during the activate phase of a CEM LED calib run, but not during a COT calib run?</td></tr></td></table>
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156464' target=_top>156464</a>) -->
+
+
+<!-- Date: Tue Jan 14 17:14:56 2003 -->
+Guillelmo is testing L3 turned over run control to him for the moment.  
+<!-- Author: Mat -->
+
+
+<!-- Date: Tue Jan 14 17:15:58 2003 -->
+We spent the day working on the high voltage for CMX wedge 16E. At the end of the day we had all of 16 and 17 holding nominal voltage levels on the grid and the anodes. 
+<!-- Author: Phil Schlabach, Sal Rappoccio -->
+
+
+<!-- Date: Tue Jan 14 17:42:43 2003 -->
+<pre>Integration run numbers have been bumped forward  
+past 156561 in order to allow the possibility of  
+writing runs to the look area.  (Tony V. request) 
+</pre>
+<!-- Author: W.Badgett :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156561' target=_top>156561</a>) -->
+
+
+<!-- Date: Tue Jan 14 18:11:31 2003 -->
+Clock Guy here. Earlier this afternoon, Steve Hahn phoned me with concerns of faulty Clock operation. First, Steve, you mentioned that the PCC was in Freq_Lock mode. Strange, this is a mode the Clock's PCC no longer uses. Upon examination, the scope was not being triggered due to the fact that the Sequencer's Trig Bucket counter setting was not set. When initializing the Sequencer, this parameter must be set to "6" using the Clock GUI. Second, the Clock's PCC was put in Free_Run mode. This is the CORRECT mode when you want to run the Clock external to the Tevatron. The only modes of operation, at present, for the Clock"s PCC module is Normal or FRee_Run. Freq_Lock mode is now a purely diagnostic tool and is no longer used due to the improvement of the PCC's PLL circuit.
+<!-- Author: Steve Chappa -->
+
+
+<!-- Date: Tue Jan 14 18:11:41 2003 -->
+Level3 and Evb are already available. L3 network has been fully recabled. <br> All L3 farm, with 268 processor nodes, is working online.
+<!-- Author: Guillelmo/Boris/Arkadiy -->
+<!-- Comment: Tue Jan 14 18;13;10 comment by...L3 people -->
+L3 Display and (integration) hardware database have also been updated.
+
+
+<!-- Date: Tue Jan 14 18:36:48 2003 -->
+CSL code modified, temporarily, to turn off checking 
+of database instance (i.e. production vs. integration). 
+This should allow data taken this week to go to the 
+look area or tape just as it normally would, even though 
+the integration instance of the online db is being used 
+(normally a dangerous thing to do because previously 
+used run numbers might be used again.)  
+<!-- Author: Tony Vaiciulis :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156565' target=_top>156565</a>) -->
+
+
+<!-- Date: Tue Jan 14 19:11:31 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Replaced eleven MVME 2301 crate CPU processors  
+with new MVME 2400's (significantly faster to improve  
+readout latency) in the following crates: 
+ 
+  b0pcal04, 05, 07, 08, 10, 11  
+  b0cot07, 08, 12, 16, 18 
+ 
+and programmed the MVMEs as such.  Most are behaving  
+fine, except for: 
+ 
+  b0pcal10 -- returns spurious busy t/o's 
+  b0pcal11 -- immediately returns done timeout 
+  b0cot07  -- non-responsive 
+ 
+b0pcal10, 11 are probably tracer connection mis-matches; 
+b0cot07 probably doesn't have power;  it's too late to  
+get a key, so will wait until tomorrow to repair these. 
+So don't try to use these crates overnight! 
+ 
+Also, tomorrow we will replace b0pcal01 and 02 
+</pre></td></tr></td></table>
+<!-- Author: W.Badgett, Steve Nahn, Natalia_Kuznetsova -->
+<!-- Comment: Tue Jan 14 19;14;46 comment by...SCN -->
+Uh, I must say that I had nothing to do with this...
+
+
+<!-- Comment: Wed Jan 29 14;17;04 comment by...Steve H-that&#39;s H-ahn -->
+<b>Why must I be so maligned?</b>
+<!-- Date: Tue Jan 14 19:20:04 2003 -->
+SVX chiller tripped. Eva came and took a look. Still looking into it. May have a bad silicon cooling module.
+<!-- Author: Mat -->
+<!-- Comment: Tue Jan 14 22;50;20 comment by...Eva H. -->
+Many strange occurances this evening, summarized in the <a href=
+'/cgi/elog/det-system-elog.pl?nb=cryo-gas&action=view&page=747&frame=2&anchor=20:59:26'> cryo elog. </a> 
+ 
+<br>
+<br>
+In the end we found that a manual valve in the collision hall was closed! (don't know who to blame) In the process of investigating, Roser and Stanek replaced the solenoid for the valve PV_CHSUP.  The cooling for SVX is back online and all alarms should be taken seriously.
+
+<!-- Date: Tue Jan 14 19:54:59 2003 -->
+A worrying burning smell wafted into the control room...but we are fairly sure it is the heating system. The smell seems to be localised underneath the heating vents. Also Rob Roser has been turning the heating up throughout the evening. Gave us a "funny five minutes" though :)
+<!-- Author: Mat -->
+
+
+<!-- Date: Tue Jan 14 20:16:25 2003 -->
+With the removal of wcal06, the TOF QIE calibration completed with only a couple of "off sigma" messages.
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156574' target=_top>156574</a>) -->
+
+
+<!-- Date: Tue Jan 14 20:32:00 2003 -->
+<pre>
+For the SMX QIE all the crates made it through partition and setup, but in the activate phase excessive numbers of the following messages were seen: 
+</pre> 
+MLE) b0pcal10:Messenger:8:28:06 PM->Runtime Error 950, Event 1: SMXR in slot 4 is not responding, header 0x0x3d004b2 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 951, Event 1: SMXR in slot 4 is not responding, header 0x0x3d00446 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 952, Event 1: SMXR in slot 4 is not responding, header 0x0x3d0049d 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 955, Event 1: SMXR in slot 4 is not responding, header 0x0x3d00455 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 958, Event 1: SMXR in slot 4 is not responding, header 0x0x3d0044c 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 962, Event 1: SMXR in slot 4 is not responding, header 0x0x3d004be 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 967, Event 1: SMXR in slot 4 is not responding, header 0x0x3d004c3 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 972, Event 1: SMXR in slot 4 is not responding, header 0x0x3d0047f 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 973, Event 1: SMXR in slot 4 is not responding, header 0x0x3d00497 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 974, Event 1: SMXR in slot 4 is not responding, header 0x0x3d00422 
+(MLE) b0pcal10:Messenger:8:28:07 PM->Runtime Error 976, Event 1: SMXR in slot 4 is not responding, header 0x0x3d0049b 
+(MLE) b0pcal10:Messenger:8:28:08 PM->Runtime Error 984, Event 1: SMXR in slot 4 is not responding, header 0x0x3d00423 
+(MLE) b0pcal10:Messenger:8:28:08 PM->Runtime Error 988, Event 1: SMXR in slot 4 is not responding, header 0x0x3d00423 
+ 
+<pre> 
+It got up to about 800 of such messages in about 1 minute. So I stopped the run.
+</pre>
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156575' target=_top>156575</a>) -->
+<!-- Comment: Wed Jan 15 08;30;18 comment by...Jimmy Proudfoot -->
+I checked both plug and central calorimeter crates in SMXR
+diagnostic readout mode. pcal10 is definitely sick - the read
+buffer value is not constant on all of the data channels.
+I see this on both boards and so I suspect that either the 
+TRACER or the processor work might be responsible (I haven't
+seen this particular class of failure before).
+<!-- Date: Tue Jan 14 20:41:47 2003 -->
+Muon Calibration went through all stages fine.
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156576' target=_top>156576</a>) -->
+
+
+<!-- Date: Tue Jan 14 20:55:48 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-750&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-750  width='300' align='top'></td><td>We nominate Ted Liu for the best SciCo award (pizza yesterday, and dumplings today)</a></td></tr></table>
+<!-- Author: Stan/Mat -->
+
+
+<!-- Date: Tue Jan 14 20:58:55 2003 -->
+Tried a rick's run. Had to remove pcal06 to get through partition. Then during cold start, b0wcal06 had these problems: 
+ 
+<pre> 
+(MLE) b0wcal06:Messenger:8:49:59 PM->ID PROM check failure in slot 2 (ASCII blank) 
+(MLE) b0wcal06:Messenger:8:49:59 PM->No connection to tracer 
+(MLE) b0wcal06:Messenger:8:50:00 PM->VISIONread/write failed in slot 2 
+(MLE) b0wcal06:Messenger:8:50:00 PM->ID PROM check failure in slot 16 (ASCII blank) 
+(MLE) b0wcal06:Messenger:8:50:00 PM->VISIONread/write failed in slot 16 
+(MLE) b0wcal06:Messenger:8:50:00 PM->Resetting card in slot 16 failed 
+(MLE) b0wcal06:Messenger:8:50:00 PM->ID PROM check failure in slot 5 (ASCII blank) 
+(MLE) b0wcal06:Messenger:8:50:00 PM->VISIONread/write failed in slot 5 
+(MLE) b0wcal06:Messenger:8:50:00 PM->Resetting card in slot 5 failed 
+(MLE) b0wcal06:Messenger:8:50:00 PM->Statechange failed 
+</pre> 
+ 
+These (probably the last one) caused wcal06 to turn red in the monitor. 
+ 
+ 
+Also, a number of pcal crates had problems which didn't cause them to turn red like: 
+ 
+ 
+<pre> 
+(MLE) b0pcal03:Messenger:8:49:58 PM->ADMEM in slot 15 not properly configured 
+</pre> 
+ 
+Finally, there was a L3 Manager error 
+ 
+ 
+<pre> 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:8:49:55 PM->*** Error fetching L3CalibTag info for run 156577 
+Additional Information:  
+ We RECOMMEND the following steps:  
+ - Please page L3 Filter software expert immediately.  
+</pre>
+<!-- Author: Mat :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156577' target=_top>156577</a>) -->
+<!-- Comment: Tue Jan 14 21;09;49 comment by...Mat/Stan -->
+Good news however, in that L3 passed partition and coldstart, even with this L3CalibTag error.  We try again without WCAL06
+
+
+<!-- Date: Tue Jan 14 21:11:18 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>b0tsi00 trigger supervisor that didn't pass through Cal LED calibration also doesn't make it through PMT spike run.  It fails upon activation. 
+ 
+Perhaps Greg Feild will look at this closer tomorrow.</pre></td></tr></td></table>
+<!-- Author: Mat/Stan -->
+
+
+<!-- Date: Tue Jan 14 21:20:15 2003 -->
+Note that all these calibrations will not be in DBANA since the online database is down.
+<!-- Author: Stan/Mat -->
+
+
+<!-- Date: Tue Jan 14 21:34:10 2003 -->
+Successfully took calorimeter XEF calibration.  Note that b0tsi00 trigger supervisor activated successfully, though it did not pass PMT spike run and cal LED calibration before.
+<!-- Author: Mat/Stan -->
+
+
+<!-- Date: Tue Jan 14 22:00:45 2003 -->
+Tried again the PMT spike run on partition 2.  b0tsi00 fails upon activate.
+<!-- Author: Stan -->
+
+
+<!-- Date: Tue Jan 14 22:06:12 2003 -->
+Tried calorimeter LED calibration again on partition 4, and this time b0tsi00 activated successfully.  (This failed on partition 0 before)  
+<!-- Author: Stan -->
+
+
+<!-- Date: Tue Jan 14 22:08:22 2003 -->
+<pre>While doing a PMT spike run, L3 display shows one stubborn processor node that will not abort. (this was the one on partition 2) 
+Processor # is 235 on subfarm 14.</pre>
+<!-- Author: Stan -->
+<!-- Comment: Tue Jan 14 22;12;50 comment by...Stan -->
+cleaned up L3 so that L3 could pass abort state
+
+
+<!-- Date: Tue Jan 14 22:18:19 2003 -->
+When I try on partition 4, b0tsi00 falls coldstart. 
+(during PMT spike run)
+<!-- Author: Stan -->
+
+
+<!-- Date: Tue Jan 14 22:22:37 2003 -->
+<pre>Took all calibrations except: 
+PMT spike run 
+silicon 
+plug laser 
+ 
+Any problems with crates are documented in elog. 
+No validation as online db is down.</pre>
+<!-- Author: Stan -->
+
+
+<!-- Date: Tue Jan 14 22:37:30 2003 -->
+In trying to do cosmic run, b0tsi00 will not pass coldstart (in partition 4)
+<!-- Author: Stan -->
+<!-- Comment: Tue Jan 14 23;10;39 comment by...ted -->
+<pre>TS failed to allocate L2 processor, most likely due to an orphaned partition
+TS failed to allocate Scalers, most likely due to an orphaned partition
+</pre>
+
+<!-- Comment: Tue Jan 14 23;13;37 comment by...ted -->
+OOps, above was partition seven.
+
+
+<!-- Date: Tue Jan 14 23:18:04 2003 -->
+<pre>I ambushed Peter Wittich as he walked through B0.  We tried the following to solve the b0tsi00 problem. 
+ 
+Different partitions 
+reset_crate 
+reboot from minicom 
+ 
+Other than the error message 
+TS L2 FSM failed to start (State 14) 
+ 
+there didn't seem to be anything else for Peter to fix the problem quickly. 
+ 
+We'll leave the problem for L2 tomorrow to follow-up. 
+Meanwhile, we can't even exercise DAQ system because cosmic/shotsetup runs all require b0tsi00, and there's no way to remove it.</pre>
+<!-- Author: Stan -->
+
+
+<!-- Date: Tue Jan 14 23:33:47 2003 -->
+<pre>Sal Rappocio calls to inquire about any CMX trips during the night (on miniskirts).  I tell him that no trips in this whole shift. 
+ 
+Just as I hang up, the CMX trips on miniskirt 30. 
+I bring up the voltage again.....</pre>
+<!-- Author: Stan -->
+
+<!-- Date: Tue Jan 14 23:56:37 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Jan 14 23:59:18 2003 -->
+<font color=red>Shift Summary: </font><pre>a few things for the summary: 
+ 
+(1) ACEs have had problem with B0TSI00 (state 14 error),  
+    even though they tried many things... 
+(2) did most calibrations, with some minor errors  
+   (see above entries); 
+(3) keep an key on SVX chiller alarm; 
+(4) Steve Chappa came, pointed out that there are now  
+    only two clock modes useful:  
+    free mode or normal mode. Freq_Lock mode               
+    is now a diagnostic mode only. he initialized  
+    the Sequsencer. 
+(5) our ACEs like dumplings ...  
+    hint for the next SciCo working with them...  
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   -
+Delivered Luminosity   -  
+Acquired Luminosity    -  
+Efficiency             -
+   
+</td></tr></table></pre>
+<!-- Author: Ted  -->
+
+

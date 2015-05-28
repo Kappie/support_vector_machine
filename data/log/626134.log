@@ -1,0 +1,488 @@
+<!-- Title: Day shift. Sun Jan 20, 2008 -->
+<!-- SciCo: Franco Bedeschi -->
+<!-- DAQAce: Samantha Hewamanage -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Alexander Simonenko -->
+<!-- OpManager: Massimo Casarsa -->
+<!-- Notes: -->
+<pre>No beam. D0 in access until 18:00 today. 
+Waiting for CDF access plan from Massimo.</pre>
+
+
+<!-- Date: Sun Jan 20 08:15:30.075 2008 -->
+picked from Run Co elog<br> 
+<pre> 
+Sun Jan 20 07:13:06-   Pelletron SF6 fill began by about 0400hrs. This process should be done by noon.  - S.Chaurize 
+</pre>
+<!-- Author: sam :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256512' target=_top>256512</a>) -->
+
+<!-- Date: Sun Jan 20 08:24:58.746 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256512>256512</A>
+ Terminated at 2008.01.20 08:24:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 20 08:34:32.383 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256513>256513</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Sam -->
+<!-- Comment: Sun Jan 20 08;37;38 comment by...sam -->
+done. but very stange, sevb did not parition several times. picked diff run config and retry. while it was calibrating all clients were yellow except one ro two. then near the end, they all turned green except sevb, which is still yellow!
+<!-- Date: Sun Jan 20 08:36:09.184 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256513>256513</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 08;56;24 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 08:38:45.444 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256513>256513</A>
+TERMINATE: done.
+
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:41:10.834 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256514>256514</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:41:11.498 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256514>256514</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 08;58;58 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 08:41:12.485 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256511>256511</A>
+CALIBRATION: <U><B>toftac</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 13;55;11 comment by...sam -->
+this was done @0645. i did it again several hours ago and still waiting for results to show up!
+<!-- Date: Sun Jan 20 08:42:47.244 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256514>256514</A>
+TERMINATE: done. excluded clc02. clc00, sevb was yellow while calibrating. clc00 turned
+green only when calibration is done. sevb was still yellow!
+
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:44:57.721 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256515>256515</A>
+TERMINATE: aborted.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:47:06.471 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256516>256516</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:47:07.274 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256515>256515</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Jan 20 08:47:08.910 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256516>256516</A>
+TERMINATE: done. same thing. clc00 was yellow until done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:49:15.037 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256517>256517</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 08:50:08.125 2008 -->
+from Run Coord elog<br> 
+<pre> 
+Sun Jan 20 08:45:09-   Pelletron work has been going very well. Pelletron experts and Mechanical support have been working around the clock to get the Pelletron repaired. The repairs to the electronic was completed by about 0200hrs. which was followed by checkout and the refilling of SF6 by about 0400hrs as note earlier. Several things were found and related to loose connections. Perhaps there were also loose IC in sockets. One in particular was soldered directly to the PCB and the socket removed altogether. We will not know for sure how things are until the Pelletron is turned on and conditioned and then we try to cool beam. It could have HV by noon. - S.Chaurize   
+</pre>
+<!-- Author: sam :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256517' target=_top>256517</a>) -->
+
+<!-- Date: Sun Jan 20 08:55:48.832 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256517>256517</A>
+TERMINATE: done. this time all clients were green, as they should be, including sevb!
+<!-- Author: Sam -->
+
+
+
+
+<!-- Date: Sun Jan 20 08:59:21.566 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256518>256518</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 08:59:50.875 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256518>256518</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;08;31 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 09:01:27.522 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256518>256518</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:01:28.522 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256519>256519</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:04:18.387 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256519>256519</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:07:28.971 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256520>256520</A>
+ Activated at 2008.01.20 09:07:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 20 09:07:29.414 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256520>256520</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,1023,706] 
+<!-- Author: Sam -->
+<!-- Comment: Sun Jan 20 09;19;44 comment by...sam -->
+L1A=45.1Hz
+<!-- Date: Sun Jan 20 09:17:58.777 2008 -->
+from Run Coord elog<br> 
+<pre> 
+Sun Jan 20 09:06:30-   ..... The MCR will be thinking about transferring Pbars to The Recycler this morning in anticipation for the Pelletron recovery. We should be able to get some of the Pbars cleared out of the Accumulator and sent to the Recycler without Pelletron use. If things go well we could be ready for a HEP shot on the evening shift. - S.Chaurize   
+</pre>
+<!-- Author: sam :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256520' target=_top>256520</a>) -->
+
+<!-- Date: Sun Jan 20 09:19:13.806 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256520>256520</A>
+ Terminated at 2008.01.20 09:18:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 20 09:19:14.697 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256520>256520</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 09:21:53.393 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256521>256521</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:22:44.913 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256521>256521</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;28;29 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 09:22:55.479 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256521>256521</A>
+TERMINATE: done. but same behaviour from clc00 and sevb. both yellow while calibrating.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:24:54.972 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256522>256522</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:28:02.198 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256522>256522</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:28:03.740 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256522>256522</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;31;07 comment by...Simonenko A. -->
+Calibration is very well.
+<!-- Date: Sun Jan 20 09:28:04.474 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256523>256523</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:28:29.785 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256523>256523</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+
+
+<!-- Date: Sun Jan 20 09:29:38.850 2008 -->
+Called Massimo: no major access planned. Phil Schlabach needs a 15 minute access. He'll show up sometimes during the morning. This is already coordinated with Dee.
+<!-- Author: Franco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256523' target=_top>256523</a>) -->
+
+<!-- Date: Sun Jan 20 09:29:44.300 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256523>256523</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;35;44 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 09:31:07.098 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256524>256524</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 09:31:51.970 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256524>256524</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:31:52.797 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256524>256524</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;38;21 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 09:34:22.092 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256525>256525</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:34:23.372 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256525>256525</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 09:37:53.029 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256525>256525</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;40;04 comment by...Simonenko A. -->
+Calibration is good.
+<!-- Date: Sun Jan 20 09:37:54.215 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256526>256526</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:38:20.411 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256526>256526</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:38:21.664 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256526>256526</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Jan 20 09;48;50 comment by...Simonenko A. -->
+Two wedges are hot, as observed in the previous calibration. Then it was considered good, so I'll do the same. See below.
+<!-- Date: Sun Jan 20 09:42:09.748 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256527>256527</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:42:10.104 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256527>256527</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 09:43:21.666 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256528>256528</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 09:47:42.695 2008 -->
+Dee and Phil start access.
+<!-- Author: Franco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256528' target=_top>256528</a>) -->
+
+
+<!-- Date: Sun Jan 20 09:49:09.535 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256528>256528</A>
+TERMINATE: done.
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 09:50:50.466 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-485&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-485  width='300' align='top'></a></td><td>Two wedges are hot, as observed in the some previous calibration.</td></tr></table>
+<!-- Author: Simonenko A. -->
+
+<!-- Date: Sun Jan 20 09:51:51.155 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256529>256529</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,1021,705] 
+<!-- Author: Sam -->
+<!-- Comment: Sun Jan 20 10;00;54 comment by...sam -->
+L2 decision TO. auto hrr
+<!-- Date: Sun Jan 20 10:00:31.867 2008 -->
+Dee and Phil are back. Access is over.
+<!-- Author: Franco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256529' target=_top>256529</a>) -->
+
+
+<!-- Date: Sun Jan 20 10:05:04.586 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256529>256529</A>
+TERMINATE: not much trouble.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 10:06:11.674 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256530>256530</A>
+ Activated at 2008.01.20 10:05:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 20 10:06:12.331 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256530>256530</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1019,706] 
+<!-- Author: Sam -->
+
+
+
+<!-- Date: Sun Jan 20 10:16:53.997 2008 -->
+Dee and I accessed. I've resegmented the SE BMU HV again. Since the <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2008&action=view&page=49&frame=2&anchor=07:50:51.672'> 
+last resegmentation</a>, 156E tripped once (none since Thursday), 144E 3 times. I've disconnected stacks 152 and 153. I've moved 154 and 155 to the cables labeled 144E. I've restored 156E to it's nominal configuration. The channel labeled 132E now has stacks 132-151 (20 stacks); 144E has 154-155 (2); 156E has 156-167 (12).  I've restored all 3 to nominal BMU HV settings. Thanks to Dee for the help.
+<!-- Author: Phil Schlabach -->
+
+
+<!-- Date: Sun Jan 20 11:12:36.976 2008 -->
+any bets on AFC, NFC champs? NFL? anyone? 
+i say GB and NE. NE will bag another ring!  
+<!-- Author: sam :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256530' target=_top>256530</a>) -->
+<!-- Comment: Sun Jan 20 11;54;34 comment by...Sepp Herberger -->
+The ball is round, and a game lasts 90 minutes!
+
+<!-- Comment: Sun Jan 20 12;39;16 comment by...anon -->
+And do you recommend the movie <i>Run Lola Run</i>?
+
+<!-- Comment: Sun Jan 20 13;32;30 comment by...Sepp -->
+I liked <em>Goodbye Lenin</em>, too.
+
+
+<!-- Comment: Sun Jan 20 15;01;59 comment by...old german ACE -->
+Ugh.. german overload.. what's an AFC by the way? must be something international if Great Britain and the NEtherlands are allowed to compete.
+<!-- Comment: Sun Jan 20 15;42;17 comment by...sam -->
+Q? how many physicists are needed to figure out AFC (American Football Conference) from NFC(National Football Conference)? mmmmm!
+<!-- Comment: Sun Jan 20 15;43;06 comment by...sam -->
+and ofcourse Green Bay from from New England!
+<!-- Date: Sun Jan 20 13:42:39.298 2008 -->
+<pre>Tidied up COT HV configuration (no more unused channels in the display).  Added debug printout to look for problems. Please call 
+     Bob Wagner (240-476-8615) 
+  or Aseet Mukherjee (630-399-1447) 
+when the next store goes in.</pre>
+<!-- Author: Aseet Mukherjee :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256530' target=_top>256530</a>) -->
+
+
+<!-- Date: Sun Jan 20 13:55:59.265 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256530>256530</A>
+ Terminated at 2008.01.20 13:55:38
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 20 13:58:29.433 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256531>256531</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,1021,705] 
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 14:40:52.565 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256531>256531</A>
+TERMINATE: only one L2 decision TO.
+<!-- Author: Sam -->
+
+
+<!-- Date: Sun Jan 20 14:50:44.836 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256532>256532</A>
+ Activated at 2008.01.20 14:42:59
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 20 14:50:45.314 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256532>256532</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1019,706] 
+<!-- Author: Sam -->
+
+
+
+
+
+
+<!-- Date: Sun Jan 20 15:51:11.152 2008 -->
+update from Runc Co elog<br> 
+<pre> 
+15:40:09-   News from Pelletron experts is not great. I seems the HV stability issues were resolved by the access and repairs but electron cooling is effectively not there. We are trying to plan out some additional tuning activities to sort this out. The main thing we are currently trying to figure out is if we should try to shoot again to the Tevatron before scraping down Recycler beam to 3E10 for detailed drag rate measurements and what the optimal stash size is. I am currently leaning towards a 100-120E10 stash to shoot from to Tevatron.  - S.Chaurize   
+</pre>
+<!-- Author: sam :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256532' target=_top>256532</a>) -->
+
+<!-- Date: Sun Jan 20 15:55:24.194 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:01</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Jan 20 15:57:11.400 2008 -->
+<font color=red>Shift Summary: </font><pre>- No beam. D0 in access until 18:00 today.  
+  Waiting for CDF access plan from Massimo. 
+  In the meantime do calibrations and then trigger tortures. 
+ 
+- Only plan is a 15 minutes access by Phil 
+ 
+- Aseet is working on the COT HV 
+ 
+- Start access Phil and Dee. 9:47 end about 15 min later. 
+ 
+- Very boring shift!</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             100
+   
+</td></tr></table></pre>
+<!-- Author: Franco -->

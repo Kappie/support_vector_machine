@@ -1,0 +1,187 @@
+#
+#----- (codegen) mcatnlo p21-br-01
+#
+<--> (GNUmakefile.main        ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:45 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:45 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:45 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:46 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:46 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:46 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:47 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:47 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:47 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:47 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _codegen_ Thu Apr 10 14:39:47 CDT 2008 mcatnlo (/interf/st)
+#
+#----- (d0omgen) mcatnlo p21-br-01
+#
+<--> (GNUmakefile.main        ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:00 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:00 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:00 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:00 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omgen_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:01 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:02 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:02 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:02 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:02 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:03 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:03 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:03 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:03 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:03 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _d0omref_ Thu Apr 10 15:01:04 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:04 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:04 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:04 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _rtcint_  Thu Apr 10 15:01:05 CDT 2008 mcatnlo (/interf/cards)
+#
+#----- (include) mcatnlo p21-br-01
+#
+<--> (GNUmakefile.main        ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:18 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:18 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:18 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:19 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Building dependencies for static library object mcatnlo_uxdate.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:19 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Building dependencies for static library object trapfpe.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:19 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:19 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:19 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:19 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:20 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _include_ Thu Apr 10 15:34:20 CDT 2008 mcatnlo (/interf/cards)
+#
+#----- (lib) mcatnlo p21-br-01
+#
+<--> (GNUmakefile.main        ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:47 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:47 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:47 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:47 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:47 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:48 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:48 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:48 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:48 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:48 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _lib_     Thu Apr 10 16:37:48 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:48 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:49 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:49 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:49 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:49 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:49 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:50 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:50 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:50 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:50 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libdmr_  Thu Apr 10 16:37:50 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:50 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:51 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:51 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:51 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object mcatnlo_uxdate.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:51 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object trapfpe.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object mcatnlo_date.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:51 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object mcatnlo_int.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:52 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:52 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object mcatnlo_str.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object mcatnlo_uti.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:52 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object mcatnlo_mlmtolha.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object dummies.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:52 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling static library object linux.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libobjs_ Thu Apr 10 16:37:53 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:53 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:53 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Building library libmcatnlo.a
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:53 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:54 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:54 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:54 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:54 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:54 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:55 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:55 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _libcons_ Thu Apr 10 16:37:55 CDT 2008 mcatnlo (/interf/cards)
+#
+#----- (bin) mcatnlo p21-br-01
+#
+<--> (GNUmakefile.main        ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:03 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:04 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:04 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:04 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:04 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:05 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:05 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:05 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:05 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:05 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bin_     Thu Apr 10 17:43:06 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:06 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:06 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:06 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:06 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:06 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_vbmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_qqmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_vbxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_qqxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_helas2.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:10 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_hgmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_hgxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:11 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_sbmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:11 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_llmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_sbxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_llxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:12 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:13 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_vhmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_stmain.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_vhxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _bincmp_  Thu Apr 10 17:43:15 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_stxsec.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object makecards.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_pdftomlm.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Compiling complexbin object mcatnlo_libofpdf.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:18 CDT 2008 mcatnlo ()
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:18 CDT 2008 mcatnlo (/interf)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:18 CDT 2008 mcatnlo (/src)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:19 CDT 2008 mcatnlo (/interf/vv)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:19 CDT 2008 mcatnlo (/interf/qq)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloVV.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloQQ.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:19 CDT 2008 mcatnlo (/interf/hg)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:20 CDT 2008 mcatnlo (/interf/sb)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloHG.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloSB.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:20 CDT 2008 mcatnlo (/interf/ll)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:20 CDT 2008 mcatnlo (/interf/vh)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloLL.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloVH.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:21 CDT 2008 mcatnlo (/interf/st)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) _binlnk_  Thu Apr 10 17:43:21 CDT 2008 mcatnlo (/interf/cards)
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloST.x.
+<--> (SRT_rules.mk            ; __mcatnlo__             ) Linking complexbin binary mcatnloCards.x.
+/d0usr/products/stdhep/Linux-2-4/v5_01a/lib/libFmcfio.a(mcf_NTuIOFiles.o)(.text+0xd4b): In function `mcf_ComputeNTuOffsets':
+: warning: the use of `mktemp' is dangerous, better use `mkstemp'

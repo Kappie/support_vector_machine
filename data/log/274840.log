@@ -1,0 +1,509 @@
+<!-- Title: Owl shift. Fri Jul  4, 2008 -->
+<!-- SciCo: Mark Lancaster -->
+<!-- DAQAce: Jan Morlock -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Andrew Mehta -->
+<!-- OpManager: Massimo Casara -->
+<!-- Notes: -->
+<pre>Happy Independence Day (all over a few tea bags..)  
+Inherited run 264194 (store 6262); lumi @ 94.5 & running smoothly; 
+p-bar stacking has resumed. </pre>
+
+
+<!-- Date: Fri Jul 4 00:13:11.610 2008 -->
+SlowControl Icicle got red on daqmon. I clicked away all error messages on solenoid2. It now became green again.
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194' target=_top>264194</a>) -->
+<!-- Comment: Fri Jul  4 00;44;02 comment by...Jan -->
+Again
+<!-- Comment: Fri Jul  4 01;45;05 comment by...Jan -->
+Again
+<!-- Comment: Fri Jul  4 02;19;36 comment by...Jan -->
+Again
+<!-- Comment: Fri Jul  4 03;40;23 comment by...Jan -->
+Again
+<!-- Comment: Fri Jul  4 04;15;07 comment by...Jan -->
+Again
+<!-- Comment: Fri Jul  4 06;23;12 comment by...Jan -->
+Again
+<!-- Date: Fri Jul 4 00:41:00.666 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+general: <tt>All OK</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+
+<!-- Date: Fri Jul 4 01:11:59.021 2008 -->
+IMON got red on ProcMon. I initiated a check and it got green again immediatelly.
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194' target=_top>264194</a>) -->
+
+
+<!-- Date: Fri Jul 4 01:12:10.978 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-3433&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-3434  width='300' align='top'></a></td><td>Pinkie : VBIAS1/ISL/b3w1l1</td></tr></table>
+<!-- Author: ML -->
+
+
+<!-- Date: Fri Jul 4 01:33:48.269 2008 -->
+Trip in L00 west (PS #4, #7 - auto-switch off error); ISLB0/1W2, ISLB2W1, L00B0W2/3 were successfully auto-recovered.  No evidence of spike in beams.
+<!-- Author: ML :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194' target=_top>264194</a>) -->
+<!-- Comment: Fri Jul  4 01;36;27 comment by...Jan -->
+While doing Recover and Run, b0cot01 became unresponsive. Shepherding fixed the problem. We are now taking data again.
+
+
+
+<!-- Date: Fri Jul 4 02:03:04.969 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-3435&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-3435  width='300' align='top'></a></td><td>Status is not OK. Experts paged.</td></tr></table>
+<!-- Author: Andrew Mehta -->
+<!-- Comment: Fri Jul  4 02;05;45 comment by...ML -->
+Martin Frank is looking at it..
+
+<!-- Comment: Fri Jul  4 02;16;14 comment by...Martin -->
+Plot is in the known problems list.  Thanks for the page, but don't worry about it.
+<!-- Comment: Fri Jul  4 02;16;23 comment by...ML -->
+Martin called - known problem - no need to worry.
+<!-- Date: Fri Jul 4 02:11:28.218 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+trigger: <tt>'Too many errors' in 1.5.12</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Jul 4 02:11:29.629 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+general: <tt>OK apart from trigmod 1.5.1.2</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+
+
+<!-- Date: Fri Jul 4 02:18:30.213 2008 -->
+b0ccal08 became unresponsive. Shepherding fixed it.
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194' target=_top>264194</a>) -->
+
+
+
+
+<!-- Date: Fri Jul 4 03:56:18.391 2008 -->
+Done TO for b0cot16. Auto HRR fixed it.
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194' target=_top>264194</a>) -->
+
+
+<!-- Date: Fri Jul 4 04:17:34.918 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+general: <tt>All OK. Problem with Trigmon 1.5.1.2 is a known problem</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Jul 4 04:47:58.203 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+ Terminated at 2008.07.04 04:46:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jul 4 04:47:59.173 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+TERMINATE: End of store
+<!-- Author: Jan -->
+
+
+
+<!-- Date: Fri Jul 4 04:51:19.183 2008 -->
+Tevatron quench - end store procedures begun. MCR called and are investigating - as yet they don't think their plan will change significantly.
+<!-- Author: ML :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194' target=_top>264194</a>) -->
+<!-- Comment: Fri Jul  4 04;57;05 comment by...ML -->
+Beginning quiet time calibrations
+
+<!-- Comment: Fri Jul  4 05;06;18 comment by...ML -->
+<pre>We have at least an hour of quiet time while AD work on their safety systems post quench.</pre>
+<!-- Comment: Fri Jul  4 06;12;26 comment by...ML -->
+Post-quench silicon procedure also carried out. All OK.
+<!-- Date: Fri Jul 4 05:01:19.491 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264203>264203</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:01:20.386 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264203>264203</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:01:21.080 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264203>264203</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;14;07 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:03:08.098 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264194>264194</A>
+general: <tt>all ok</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Jul 4 05:04:56.344 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264204>264204</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:06:00.427 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264204>264204</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:06:01.302 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264204>264204</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;15;59 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:10:32.980 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264205>264205</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:10:33.659 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264205>264205</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:10:34.922 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264205>264205</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;17;14 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:12:24.464 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264206>264206</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Jan -->
+
+
+
+
+
+<!-- Date: Fri Jul 4 05:20:00.212 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264206>264206</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:21:52.405 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264207>264207</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:23:05.665 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264207>264207</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:24:01.990 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264207>264207</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;28;09 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:24:13.498 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264208>264208</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:26:21.052 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264208>264208</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+
+
+<!-- Date: Fri Jul 4 05:32:48.927 2008 -->
+Starting PMT Spike run during quiet time
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264208' target=_top>264208</a>) -->
+<!-- Comment: Fri Jul  4 05;47;01 comment by...Jan -->
+I aborted this calibration because the state didn't change from START to IDLE. Responsible for this was l3, which got red each time. For now I will continue with the non-quiet-time calibrations and perhaps retry later if there is still time.
+<!-- Comment: Fri Jul  4 06;22;59 comment by...Jan -->
+New attempt didn't succeed either
+<!-- Date: Fri Jul 4 05:43:28.669 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264209>264209</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:43:29.602 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264209>264209</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:43:30.567 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264209>264209</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;45;50 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:44:22.286 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264210>264210</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:45:39.955 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264210>264210</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+
+
+<!-- Date: Fri Jul 4 05:47:23.478 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264211>264211</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:48:46.230 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264211>264211</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:49:06.943 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264211>264211</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;52;45 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:49:07.584 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264210>264210</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 05;54;16 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 05:51:17.696 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264212>264212</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:51:18.510 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264212>264212</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+
+<!-- Date: Fri Jul 4 05:53:26.953 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264212>264212</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 06;08;31 comment by...Andrew Mehta -->
+OK
+<!-- Comment: Sat Jul  5 03;42;57 comment by...Andrew Mehta -->
+Problem with wedges 0,1,2 west
+<!-- Date: Fri Jul 4 05:54:08.865 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264213>264213</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Jan -->
+
+
+
+<!-- Date: Fri Jul 4 05:56:25.867 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264213>264213</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 05:56:26.025 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264213>264213</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 06;10;14 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 06:00:57.955 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264214>264214</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 06:00:58.543 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264214>264214</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 06:00:59.334 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264215>264215</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 06:06:37.194 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264215>264215</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+
+
+
+<!-- Date: Fri Jul 4 06:18:42.010 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264216>264216</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+
+
+
+<!-- Date: Fri Jul 4 06:24:20.139 2008 -->
+ProcMon reported an error on RTSERVER. However a check showed that it is working OK.
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264216' target=_top>264216</a>) -->
+
+
+<!-- Date: Fri Jul 4 06:31:04.189 2008 -->
+I noticed a bit too late the silicon post-quench checkout instructions. When we followed the instructions, the result was the following: 
+1. We got through the CONFIG state. 
+2. No pinkies on IMON Main Control Window after unmarking 
+3. I wasn't able to plot the abort data because the CDF radiation monitoring application was closed on my computer
+<!-- Author: Jan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264216' target=_top>264216</a>) -->
+
+<!-- Date: Fri Jul 4 06:46:08.508 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264217>264217</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 06:46:09.414 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264217>264217</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 06:52:33.353 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264218>264218</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Jan -->
+
+
+<!-- Date: Fri Jul 4 06:52:34.860 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264215>264215</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Jul  4 06;55;58 comment by...Andrew Mehta -->
+OK
+<!-- Date: Fri Jul 4 06:53:18.199 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=264218>264218</A>
+TERMINATE: Done
+<!-- Author: Jan -->
+
+
+
+
+<!-- Date: Fri Jul 4 07:07:47.153 2008 -->
+Problems starting cosmic test with L3 - expert paged.
+<!-- Author: ML -->
+<!-- Comment: Fri Jul  4 07;24;47 comment by...ML -->
+Sasha G phones and talks with Jan (ACE)
+
+<!-- Comment: Fri Jul  4 07;51;21 comment by...ML -->
+L3 diagnostics continuing with Sasha and ACE
+
+<!-- Comment: Fri Jul  4 08;02;02 comment by...Sasha Golossanov -->
+<pre>
+L3 failed partition because of s14p02.  Cleaning up L3 and Event Builder and then trying to partition again...
+
+ </pre>
+<!-- Comment: Fri Jul  4 08;19;27 comment by...Sas -->
+<pre>
+L3 fails partition again, but now all the converter nodes turned puprle...
+
+</pre>
+<!-- Comment: Fri Jul  4 08;57;39 comment by...Saasha Golossanov -->
+<pre>
+it appears that the 3rd (and last) stage of converter nodes initialization fails and they all turn purple on the L3 dysplay.
+and the RC partition fails due to L3.
+
+this situation has been reproduced 3 times.
+
+don't know how to fix it, yet.  investigating ...  meanwhile suggest to contact Jonathan Lewis  for a consulataion.
+
+ </pre>
+<!-- Comment: Fri Jul  4 09;00;37 comment by...Jan -->
+This situation started when trying to perform the PMT Spike Run calibration. Here Partition always stuck because of L3 (see above).
+So when I tried to start Cosmics, it happenened again. With Sasha I already tried a few times to clean up L3 farm, clean up EVB and afterwards Partition on RC. This didn't help either. A restart of RC didn't help as well.
+In detail, Partition 0 of Level 3 Display starts its Phases and gets stuck after the third one ("start converter nodes"). When this fails, L3 becomes red at the same time.
+<!-- Date: Fri Jul 4 07:56:03.508 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=264194 target=_runSummary>264194</A> x40802</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1095,721]</FONT></TD>
+<TD ALIGN=CENTER>13:12:51</TD>
+<TD ALIGN=CENTER>04:46:53</TD>
+<TD ALIGN=CENTER>14:09:51</TD>
+<TD ALIGN=RIGHT>   6,407,983</TD>   <TD ALIGN=RIGHT>  7,541.36</TD>
+<TD ALIGN=RIGHT>  6,704.09</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>14:09:51</TD>
+<TD ALIGN=RIGHT>     6,407,983</TD> <TD ALIGN=RIGHT>  7,541.36</TD>
+<TD ALIGN=RIGHT>  6,704.09</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Jul 4 07:59:49.007 2008 -->
+<font color=red>Shift Summary: </font><pre>Ran smoothly (modulo one L00 trip) with 95% efficiency until 04:46 when Tevatron quenched. SVX checked out OK afterwards. 
+ 
+Quiet & non-quiet calibs (except PMT spike) done 
+ 
+Problems at end of shift starting cosmic run due to L3 - presently being worked on 
+ 
+Tevatron has "dump" problems and do not have estimate yet of when they will be solved.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   264194
+Delivered Luminosity   1412  
+Acquired Luminosity    1394  
+Efficiency             94.8
+   
+</td></tr></table></pre>
+<!-- Author: ML -->
+
+
+
+
+

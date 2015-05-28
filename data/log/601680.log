@@ -1,0 +1,309 @@
+Package build of nano started.  (Tuesday, 11 October 2005 02:23:35 EDT)
+/bin/ls: /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/SRPMS/../: No such file or directory
+Resetting chroot jail, please wait.
+pkg-installer:  Setting up Install Process
+pkg-installer:  Setting up Repos
+pkg-installer:  Reading repository metadata in from local files
+pkg-installer:  Parsing package install arguments
+pkg-installer:  Nothing to do
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.94873
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD
++ LANG=C
++ export LANG
++ unset DISPLAY
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD
++ rm -rf nano-1.2.3
++ /bin/gzip -dc /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/SOURCES/nano-1.2.3.tar.gz
++ tar -xf -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd nano-1.2.3
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.94873
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD
++ cd nano-1.2.3
++ LANG=C
++ export LANG
++ unset DISPLAY
++ CFLAGS=-O2
++ export CFLAGS
++ CXXFLAGS=-O2
++ export CXXFLAGS
++ FFLAGS=-O2
++ export FFLAGS
+++ find . -name config.guess -o -name config.sub
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.guess
++ '[' -f /usr/lib/rpm/caos/config.guess ']'
++ /bin/rm -f ./config.guess
+++ basename ./config.guess
++ /bin/cp -fv /usr/lib/rpm/caos/config.guess ./config.guess
+`/usr/lib/rpm/caos/config.guess' -> `./config.guess'
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.sub
++ '[' -f /usr/lib/rpm/caos/config.sub ']'
++ /bin/rm -f ./config.sub
+++ basename ./config.sub
++ /bin/cp -fv /usr/lib/rpm/caos/config.sub ./config.sub
+`/usr/lib/rpm/caos/config.sub' -> `./config.sub'
++ ./configure --host=x86_64-caos-linux-gnu --build=x86_64-caos-linux-gnu --target=x86_64-caos-linux-gnu --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-all
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for x86_64-caos-linux-gnu-gcc... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... none
+checking for strerror in -lcposix... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGE_FILES value needed for large files... no
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking build system type... x86_64-caos-linux-gnu
+checking host system type... x86_64-caos-linux-gnu
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking for regex.h... (cached) yes
+checking for broken regexec... no
+configure: WARNING:
+
+***********************************************************************
+*** WARNING: Color support is far from perfect, but functional.     ***
+*** Be careful with syntax in your .nanorc or nano may malfunction. ***
+***********************************************************************
+
+checking whether to use slang... no
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking return type of signal handlers... void
+checking for vprintf... yes
+checking for _doprnt... no
+checking for getopt_long... yes
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking for tgetent in -lncurses... yes
+Using ncurses as the termcap library
+checking for use_default_colors in -lncurses... yes
+checking for wresize in -lncurses... yes
+checking for resizeterm in -lncurses... yes
+checking for private member _use_keypad in WINDOW... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating po/Makefile.in
+config.status: creating nano.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
++ make
+make  all-recursive
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
+Making all in po
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/po'
+Making all in m4
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/m4'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'color.c' || echo './'`color.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'cut.c' || echo './'`cut.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'files.c' || echo './'`files.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'global.c' || echo './'`global.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'move.c' || echo './'`move.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'nano.c' || echo './'`nano.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'rcfile.c' || echo './'`rcfile.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'search.c' || echo './'`search.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'utils.c' || echo './'`utils.c
+gcc -DSYSCONFDIR=\"/etc\" -I. -I. -I. -Iintl -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include    -O2 -c `test -f 'winio.c' || echo './'`winio.c
+gcc  -O2   -o nano  color.o cut.o files.o global.o move.o nano.o rcfile.o search.o utils.o winio.o  -lncurses
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.95856
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD
++ cd nano-1.2.3
++ LANG=C
++ export LANG
++ unset DISPLAY
++ rm -rf /var/tmp/mezzanine-buildroot.14752/nano.31905
++ make DESTDIR=/var/tmp/mezzanine-buildroot.14752/nano.31905 install
+Making install in po
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/po'
+/bin/sh `case "./mkinstalldirs" in /*) echo "./mkinstalldirs" ;; *) echo ".././mkinstalldirs" ;; esac` /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/es/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/de/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/fr/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/it/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/id/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/fi/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/hu/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ca/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/cs/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/gl/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/uk/LC_MESSAGES
+installing uk.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/uk/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ru/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/sv/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/nn/LC_MESSAGES
+installing nn.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/nn/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/nl/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/da/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/pl/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/nb/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ms/LC_MESSAGES
+installing ms.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ms/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/pt_BR/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/tr/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/eu/LC_MESSAGES
+installing eu.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/eu/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/ro/LC_MESSAGES/nano.mo
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/sr/LC_MESSAGES
+installing sr.gmo as /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/locale/sr/LC_MESSAGES/nano.mo
+if test "nano" = "gettext"; then \
+  /bin/sh `case "./mkinstalldirs" in /*) echo "./mkinstalldirs" ;; *) echo ".././mkinstalldirs" ;; esac` /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/gettext/po; \
+  for file in Makefile.in.in Makevars remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot  ; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/po'
+Making install in m4
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/m4'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/m4'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3/m4'
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
+/bin/sh ./mkinstalldirs /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/bin
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/bin
+  /usr/bin/install -c nano /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/bin/nano
+/bin/sh ./mkinstalldirs /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/info
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/info
+ /usr/bin/install -c -m 644 ./nano.info /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/info/nano.info
+ install-info --info-dir=/var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/info /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/info/nano.info
+/bin/sh ./mkinstalldirs /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/man/man1
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./nano.1 /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/man/man1/nano.1
+/bin/sh ./mkinstalldirs /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/man/man5
+mkdir -p -- /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/man/man5
+ /usr/bin/install -c -m 644 ./nanorc.5 /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/man/man5/nanorc.5
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD/nano-1.2.3'
++ rm -f /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/info/dir
++ /usr/lib/rpm/caos/find-lang.sh /var/tmp/mezzanine-buildroot.14752/nano.31905 nano
++ /usr/lib/rpm/caos/brp-compress
++ /usr/lib/rpm/caos/brp-strip /usr/bin/strip
++ /usr/lib/rpm/caos/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/caos/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
+Processing files: nano-1.2.3-2
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.47874
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD
++ cd nano-1.2.3
++ DOCDIR=/var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/doc/nano-1.2.3
++ export DOCDIR
++ rm -rf /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/doc/nano-1.2.3
++ /bin/mkdir -p /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/doc/nano-1.2.3
++ cp -pr AUTHORS BUGS COPYING ChangeLog INSTALL NEWS README THANKS TODO nanorc.sample /var/tmp/mezzanine-buildroot.14752/nano.31905/usr/share/doc/nano-1.2.3
++ exit 0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh
+Requires(postun): /bin/sh
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /var/tmp/mezzanine-buildroot.14752/nano.31905
+warning: Could not canonicalize hostname: x86_64-build.caosity.org
+Wrote: /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/SRPMS/nano-1.2.3-2.src.rpm
+Wrote: /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/RPMS/x86_64/nano-1.2.3-2.x86_64.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.47874
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/sysutil/nano/BUILD
++ cd nano-1.2.3
++ rm -rf /var/tmp/mezzanine-buildroot.14752/nano.31905
++ exit 0
+Package build for nano completed successfully.  (Tuesday, 11 October 2005 02:24:01 EDT)

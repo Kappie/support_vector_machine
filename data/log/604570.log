@@ -1,0 +1,546 @@
+This is TeX, Version 3.14159 (Web2C 7.3.7) (format=latex 2002.4.11)  1 MAY 2002 13:43
+**talk.tex
+(./talk.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/share/texmf/tex/latex/prosper/prosper.cls
+Document Class: prosper 2001/01/23, v. 1.1
+(c) 2000 Frederic Goualard, CWI, The Netherlands
+CVSId: $Id: prosper.cls,v 1.5 2001/01/31 10:20:44 exupery Exp $
+ 
+(/usr/share/texmf/tex/latex/seminar/seminar.cls
+Document Class: seminar 1997/10/13, 1.4
+Document Style: `seminar' v1.4 <1997/10/13> (tvz)
+\slidewidth=\dimen102
+\slideheight=\dimen103
+\footheight=\dimen104
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/leqno.clo
+File: leqno.clo 1998/08/17 v1.1c Standard LaTeX option (left equation numbers)
+)
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen105
+)
+(/usr/share/texmf/tex/latex/seminar/sem-page.sty)
+\before@document=\toks14
+\after@document=\toks15
+\before@enddocument=\toks16
+\c@slide=\count87
+\slide@count=\count88
+\@slidebox=\box26
+\not@slidebox=\box27
+\slide@hook=\toks17
+\after@slide=\toks18
+\slide@footins=\insert233
+\slide@listdepth=\count89
+\saved@specials=\box28
+\before@newslide=\toks19
+\after@slidepage=\toks20
+\slidesep=\skip43
+\c@note=\count90
+\slideframewidth=\dimen106
+\slideframesep=\dimen107
+\semin=\dimen108
+\semcm=\dimen109
+)
+(/usr/share/texmf/tex/latex/config/seminar.con)
+(/usr/share/texmf/tex/latex/seminar/semcolor.sty
+Style Option: `semcolor' for doc style `seminar' 1.0 <93/04/01> (tvz)
+(/usr/share/texmf/tex/generic/pstricks/pstricks.tex
+`PSTricks' v97 patch 14  <1999/12/23> (tvz)
+\pst@dima=\dimen110
+\pst@dimb=\dimen111
+\pst@dimc=\dimen112
+\pst@dimd=\dimen113
+\pst@dimg=\dimen114
+\pst@dimh=\dimen115
+\pst@hbox=\box29
+\pst@boxg=\box30
+\pst@cnta=\count91
+\pst@cntb=\count92
+\pst@cntc=\count93
+\pst@cntd=\count94
+\pst@cntg=\count95
+\pst@cnth=\count96
+\pst@toks=\toks21
+(/usr/share/texmf/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen116
+\psxunit=\dimen117
+\psyunit=\dimen118
+\pslinewidth=\dimen119
+\pst@customdefs=\toks22
+\pslinearc=\dimen120
+\everypsbox=\toks23
+\psframesep=\dimen121
+\pslabelsep=\dimen122
+\theoverlaybox=\box31
+))
+(/usr/share/texmf/tex/latex/seminar/semlayer.sty
+\@@slidebox=\box32
+\c@overlay=\count97
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen123
+\Gin@req@width=\dimen124
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2001/11/12 v6.71v Hypertext links for LaTeX
+\@linkdim=\dimen125
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2001/11/12 v6.71v Hyperref: PDFDocEncoding definition (HO)
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 1654.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 1654.
+Package hyperref Info: Option `pdfcenterwindow' set `true' on input line 1654.
+Package hyperref Info: Bookmarks ON on input line 1712.
+Package hyperref Info: Hyper figures OFF on input line 1731.
+Package hyperref Info: Link nesting OFF on input line 1736.
+Package hyperref Info: Hyper index ON on input line 1739.
+Package hyperref Info: Plain pages ON on input line 1744.
+Package hyperref Info: Backreferencing OFF on input line 1751.
+
+Implicit mode ON; LaTeX internals redefined
+(/usr/share/texmf/tex/latex/latex2html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+LaTeX Info: Redefining \url on input line 1961.
+\Fld@menulength=\count100
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+\Choice@toks=\toks25
+\Field@toks=\toks26
+Package hyperref Info: Hyper figures OFF on input line 2407.
+Package hyperref Info: Link nesting OFF on input line 2412.
+Package hyperref Info: Hyper index ON on input line 2415.
+Package hyperref Info: backreferencing OFF on input line 2422.
+Package hyperref Info: Link coloring OFF on input line 2427.
+\c@Item=\count101
+\c@Hfootnote=\count102
+)
+*hyperref using driver hdvips*
+(/usr/share/texmf/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2001/11/12 v6.71v Hyperref driver for dvips
+
+(/usr/share/texmf/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2001/11/12 v6.71v Hyperref definitions for pdfmark specials
+\pdf@docset=\toks27
+\pdf@box=\box33
+\pdf@toks=\toks28
+\pdf@defaulttoks=\toks29
+\Fld@listcount=\count103
+\@outlinefile=\write3
+))
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\slideWidth=\skip44
+\c@trueSlideCounter=\count104
+
+(/home/bviren/share/texlib/PPRyellowplane.sty
+
+LaTeX Warning: You have requested package `PPRyellowplane',
+               but the package provides `PPRsharkey'.
+
+Package: PPRsharkey 2002/04/05
+`Gy^^f4m personal' style for Prosper ---
+(c) 2000 Gy^^f4m Raschia, IRIN, France
+CVSId: $Id: PPRyellowplane.sty,v 1.1 2002/05/01 13:29:40 bviren Exp $
+ 
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 1996/11/03 v2.2b
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 1997/09/17 v2.2e
+\@emptytoks=\toks30
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 133.
+))
+(/usr/share/texmf/tex/generic/pstricks/pst-grad.sty
+Package: pst-grad 1997/03/25 package wrapper for PSTricks pst-grad.tex
+
+(/usr/share/texmf/tex/generic/pstricks/pst-grad.tex  v97 patch 1, 1997/04/28))
+(/usr/share/texmf/tex/latex/seminar/semhelv.sty
+Style Option: `semhelv' for the `seminar' doc style 1.4 <2000/05/08> (tvz)
+Modified by Stefan (see source for details)
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 8.20007pt on input line 176.
+))
+\c@item@step=\count105
+\c@overlay@page=\count106
+\theoverlays=\box34
+\c@overlaysCount=\count107
+\c@limitOverlays=\count108
+) (/home/bviren/share/texlib/prosutil.tex) (./talk.aux)
+\openout1 = `talk.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+Package hyperref Info: Link coloring OFF on input line 15.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
+\c@section@level=\count109
+)
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+ (./talk.out) (./talk.out)
+\openout3 = `talk.out'.
+
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 14.16972pt on input line 16.
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 11.80809pt on input line 16.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 16.
+
+(/usr/share/texmf/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
+
+(/usr/share/texmf/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 5.74005pt on input line 16.
+LaTeX Font Info:    Font shape `OT1/courier/m/n' will be
+(Font)              scaled to size 6.895pt on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 1995/01/05 v2.2e AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 1995/01/05 v2.2e AMS font definitions
+)
+File: BNLlogo.eps Graphic file (type eps)
+ <BNLlogo.eps>
+LaTeX Font Info:    Font shape `OT1/helvetica/m/n' will be
+(Font)              scaled to size 4.10004pt on input line 16.
+ [1
+
+
+]
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+ <BNLlogo.eps> [2
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 37.
+LaTeX Font Info:    Calculating math sizes for size <8.4> on input line 39.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.2> not available
+(Font)              size <5> substituted on input line 39.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.2> not available
+(Font)              size <5> substituted on input line 39.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.2> not available
+(Font)              size <5> substituted on input line 39.
+
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <4.2> not available
+(Font)              size <5> substituted on input line 39.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <4.2> not available
+(Font)              size <5> substituted on input line 39.
+
+File: parent-tracks.eps Graphic file (type eps)
+<parent-tracks.eps>
+File: BNLlogo.eps Graphic file (type eps)
+ <BNLlogo.eps> [3
+
+]
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 51.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 51.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 51.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 51.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 51.
+
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 51.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 51.
+
+File: spectrum-pnp-numu-onaxis.eps Graphic file (type eps)
+<spectrum-pnp-numu-onaxis.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+
+<BNLlogo.eps> [4
+
+]
+File: parents-numu-onaxis-noplug.eps Graphic file (type eps)
+ <parents-numu-onaxis-noplug.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]\T1/phv/m/n/8.4 Under fo-cussed give
+ []
+
+File: BNLlogo.eps Graphic file (type eps)
+<BNLlogo.eps> [5
+
+]
+File: parents-numu-onaxis-shortplug.eps Graphic file (type eps)
+ <parents-numu-onaxis-shortplug.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]\T1/phv/m/n/8.4 Starts 4m from
+ []
+
+File: BNLlogo.eps Graphic file (type eps)
+<BNLlogo.eps> [6
+
+]
+File: spectrum-numu-noplug-offaxis-survey.eps Graphic file (type eps)
+ <spectrum-numu-noplug-offaxis-survey.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+ <BNLlogo.eps> [7
+
+]
+File: spectrum-numu-pnp-offaxis-survey.eps Graphic file (type eps)
+
+<spectrum-numu-pnp-offaxis-survey.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+
+<BNLlogo.eps> [8
+
+]
+File: off-axis-effect.eps Graphic file (type eps)
+ <off-axis-effect.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+Overfull \hbox (12.09454pt too wide) in paragraph at lines 116--117
+[]  [] []
+ []
+
+File: BNLlogo.eps Graphic file (type eps)
+<BNLlogo.eps> [9
+
+]
+File: spectrum-numu-pions-noplug-offaxis-survey.eps Graphic file (type eps)
+ <spectrum-numu-pions-noplug-offaxis-survey.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+ <BNLlogo.eps> [10
+
+]
+File: spectrum-numu-kaons-noplug-offaxis-survey.eps Graphic file (type eps)
+
+<spectrum-numu-kaons-noplug-offaxis-survey.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\T1/phv/m/n/8.4 Neck-Neck Kaons pro-vide
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+\T1/phv/m/n/8.4 The dom-i-nant con-tri-bu-tion
+ []
+
+File: BNLlogo.eps Graphic file (type eps)
+<BNLlogo.eps> [11
+
+]
+File: parents-numu-offaxis-noplug.eps Graphic file (type eps)
+ <parents-numu-offaxis-noplug.eps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+
+<BNLlogo.eps> [12
+
+]
+File: spectrum-anumu-pnp-offaxis-survey.eps Graphic file (type eps)
+ <spectrum-anumu-pnp-offaxis-survey.eps>
+Underfull \hbox (badness 1603) in paragraph at lines 169--169
+[]\T1/phv/m/n/8.4 No qual-i-ta-tive dif-fer-ence to
+ []
+
+File: BNLlogo.eps Graphic file (type eps)
+<BNLlogo.eps> [13
+
+]
+File: spectrum-nue-pnp-offaxis-survey.eps Graphic file (type eps)
+ <spectrum-nue-pnp-offaxis-survey.eps>
+File: spectrum-anue-pnp-offaxis-survey.eps Graphic file (type eps)
+
+<spectrum-anue-pnp-offaxis-survey.eps>
+Overfull \hbox (3.56157pt too wide) in paragraph at lines 176--178
+[]  []  
+ []
+
+File: BNLlogo.eps Graphic file (type eps)
+<BNLlogo.eps> [14
+
+]
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+ <red-bullet-on-white.ps>
+File: red-bullet-on-white.ps Graphic file (type eps)
+
+<red-bullet-on-white.ps>
+File: BNLlogo.eps Graphic file (type eps)
+ <BNLlogo.eps> [15
+
+] (./talk.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4091 strings out of 10847
+ 52524 string characters out of 70946
+ 113943 words of memory out of 263001
+ 6955 multiletter control sequences out of 10000+0
+ 35635 words of font info for 76 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 37i,12n,28p,280b,888s stack positions out of 300i,100n,500p,50000b,4000s
+
+Output written on talk.dvi (15 pages, 45504 bytes).

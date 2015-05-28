@@ -1,0 +1,430 @@
+<!-- Title: Eve shift. Fri Apr 26, 2002 -->
+<!-- SciCo: Debbie Errede -->
+<!-- DAQAce: Niccolo Moggi -->
+<!-- MonAce: Phil Yoon -->
+<!-- CO: Davit Chokkeli -->
+<!-- OpManager: Dave Ambrose -->
+<!-- Notes: -->
+<pre>Should go into shot-setup soon. 
+CMU was tripping this morning with beam.  Tested 
+without beam and seems stable.  Shall run CMU with beam 
+and watch.  No silicon today.  Test new physics table... 
+physics1_01[6,39,288].  Tesarek wants to test abort gap  
+monitors with protons.  </pre>
+
+
+<!-- Date: Fri Apr 26 16:25:10 2002 -->
+<pre>Inherit store 1251. 
+Waiting for shot setup. In the meanwhile we'll do the remaining 
+calibrations.</pre>
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Fri Apr 26 16:26:33 2002 -->
+Cal LED calibration done (Cal QIE was done at the end of previous shift).
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143930' target=_top>143930</a>) -->
+
+
+<!-- Date: Fri Apr 26 16:30:32 2002 -->
+<pre> 
+<b> Current HV Config: </b> 
+<li><i>off</i>: TOF, CLC, MNP, L00, SVX, ISL </LI> 
+<li><i>Standby</i>: COT, CMU, CMP, CMX, BMU, CES, CPR, CCR </li> 
+<li><i>On</i>: CEM, CHA, WHA, PEM, PHA, PSH, GAM, BSC, PRS </li> 
+</pre> 
+  
+<!-- Author: py -->
+
+
+<!-- Date: Fri Apr 26 16:54:29 2002 -->
+Cal Xenon calibration done. 
+<p> 
+While restarting the PMT HV readout process the following alarm 
+appeared on the pisabox pc: " iFix alert: alarm queue SUMMARY 
+LIST has overflowed..."
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143931' target=_top>143931</a>) -->
+
+<!-- Date: Fri Apr 26 17:21:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143932">143932</A>
+ Activated at 2002.04.26 17:21:27
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Apr 26 17:25:59 2002 -->
+Just started a COSMICS[6,18,233] run.
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143932' target=_top>143932</a>) -->
+
+
+<!-- Date: Fri Apr 26 18:17:25 2002 -->
+<br><b>Abort Gap Halo:</b> 
+<br> Removed 100ns from the leading part of the abort gap 
+signal used to gate the halo counters.  This should remove 
+the peak Rick Vidal saw earlier due to collision remanents. 
+The net effect will be to reduce the rate by about a factor  
+10 and an attending increase in the sensitivity to beam halo 
+in the abort gap. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+<!-- Date: Fri Apr 26 18:37:36 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143932">143932</A>
+ Terminated at 2002.04.26 18:37:18
+<!-- Author: RunControl -->
+<!-- Comment: Fri Apr 26 18;46;52 comment by...niccolo&#39; -->
+During the End transition both boxes of cpu 147 went black in the
+L3 display. They recovered before Idle state was reached.
+<!-- Date: Fri Apr 26 18:38:16 2002 -->
+<pre> 
+<li> ~17:15 Shot setup began. </li> 
+<li>  18:28 Loading final protons </li> 
+</pre> 
+ 
+<!-- Author: py -->
+
+
+<!-- Date: Fri Apr 26 18:43:12 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-2288&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-2288  width='300' align='top'></td><td>SVRAD totals</a></td></tr></table>
+<!-- Author: py -->
+
+
+
+<!-- Date: Fri Apr 26 19:21:28 2002 -->
+<pre> 
+<li> TeV Ramping. </li> 
+<li> Halo Removal in progress. </li> 
+</pre>
+<!-- Author: py -->
+
+
+<!-- Date: Fri Apr 26 19:32:09 2002 -->
+Store # 1253 started colliding!
+<!-- Author: py -->
+
+
+<!-- Date: Fri Apr 26 19:36:01 2002 -->
+Ramping up the HVs.
+<!-- Author: py -->
+
+
+<!-- Date: Fri Apr 26 19:38:33 2002 -->
+CPR and TOF yellow warning received. 
+<!-- Author: py -->
+<!-- Comment: Fri Apr 26 19;43;29 comment by...py -->
+CPR HV turned all the way up, and the warning went away.
+But, the TOF warning persists, so TOF expert paged.
+<!-- Comment: Fri Apr 26 19;46;45 comment by...py -->
+A TOF expert stopped by and his investigation is underway. 
+<!-- Comment: Fri Apr 26 19;55;56 comment by...Stefano -->
+One channel (Crate 1, Board 6, PM 51) was in undervoltage status.
+After turning off and on again the channel everything went OK.
+
+<!-- Date: Fri Apr 26 19:41:54 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143933">143933</A>
+ Activated at 2002.04.26 19:41:40
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Apr 26 19:45:37 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143933">143933</A>
+ Terminated at 2002.04.26 19:45:13
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Fri Apr 26 19:48:45 2002 -->
+Stacking resumed.
+<!-- Author: py -->
+
+
+<!-- Date: Fri Apr 26 19:52:50 2002 -->
+<pre>Started a new run with PHYSICS_1_01[4,22,285]. 
+Since the TOF seemed to have one channell off, I tried to  
+set the ignore-inhibit falg for TOF but we did not get any 
+event. 
+Then I tried to set the ignore-inhibit flag for all detectors, 
+but still did not get any trigger. So I ended the run. 
+In the meanwhile the TOF came up completely. 
+I'm starting another run with same trigger table.</pre>
+<!-- Author: niccolo&#39; -->
+
+<!-- Date: Fri Apr 26 19:54:53 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143934">143934</A>
+ Activated at 2002.04.26 19:54:04
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Fri Apr 26 20:04:27 2002 -->
+<pre>Luminosity at beginning of run is 17.6E30 ! 
+Trigger table PHYSICS_1_01[4,22,285] 
+Trigger rates: 
+L1 / L2 / L3 = 6566 / 285 / 35 
+Dead Time = 3.7 
+Subfarm 1 in L3 display is dark blue with no hints of light blue. 
+We are afraid it may be frosen ??? </pre>
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143934' target=_top>143934</a>) -->
+
+
+<!-- Date: Fri Apr 26 20:33:33 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-2290&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-2290  width='300' align='top'></td><td>Beam Halos and TEL currents</a></td></tr></table>
+<!-- Author: py -->
+<!-- Comment: Fri Apr 26 21;01;02 comment by...R.J. Tesarek -->
+Rates in the abort gap counters are now approximately half of
+their previous values at the same beam currents/luminosity.
+
+<!-- Date: Fri Apr 26 21:16:46 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143934">143934</A>
+ Terminated at 2002.04.26 21:15:47
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Apr 26 21:23:23 2002 -->
+<pre>Going to do some tests. First try PHYSICS_1_01[4,38,285] 
+No FIB crates and L2_DECISION_01 as usual.</pre>
+<!-- Author: niccolo&#39; -->
+
+<!-- Date: Fri Apr 26 21:25:25 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143935">143935</A>
+ Activated at 2002.04.26 21:24:51
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Apr 26 22:25:30 2002 -->
+With PHYSICS_1_01[4,38,285] we get: 
+L1A/L2A/L3A=5527/243/30.5 
+Total dead time=2%
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143935' target=_top>143935</a>) -->
+
+<!-- Date: Fri Apr 26 22:29:41 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143935">143935</A>
+ Terminated at 2002.04.26 22:28:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Apr 26 22:45:09 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143936">143936</A>
+ Activated at 2002.04.26 22:44:17
+<!-- Author: RunControl -->
+<!-- Comment: Fri Apr 26 23;09;05 comment by... niccolo&#39; -->
+This run has the same Trigger Table as the previous one.
+<!-- Date: Fri Apr 26 23:08:06 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143936">143936</A>
+ Terminated at 2002.04.26 23:07:32
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Apr 26 23:16:35 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143937">143937</A>
+ Activated at 2002.04.26 23:15:16
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Apr 26 23:16:50 2002 -->
+<pre>We tried to switch to test PHYSICS_1_01_v7 which is in
+the L2 tag list but not in the selectable physics table list.
+So we found that we don't know how to select this table. 
+We decide to hand this test to tomorrow's day shift... 
+Turned back to default table PHYSICS_1_01[4,22,285].</pre>
+<!-- Author: niccolo&#39; -->
+
+
+<!-- Date: Fri Apr 26 23:23:23 2002 -->
+<pre>Received Gas Alarm twice. Paged Gas syst. expert.  
+Meanwhile, called Cryo tech, and he said that he's looking into 
+it.</pre>
+<!-- Author: py -->
+<!-- Comment: Fri Apr 26 23;26;23 comment by...py -->
+Cryo tech just called and things are normal now.
+
+
+<!-- Date: Fri Apr 26 23:44:30 2002 -->
+<pre>L2 decision TO. Message from alpha minicom: 
+ 
+ClistMon: Error on pass 2, cluster 0: 1 != 2 
+CListMon: Dumping CLIST data: 
+Word       upper 32 bits  lower 32 bits 
+ 0: 0xffffffff83921801  0x00220004  
+ 1: 0x03921801  0x00220004  
+ClistMon: done. 
+FaultmManager: Fatal error, sending L2 timeout directly</pre>
+<!-- Author: niccolo&#39; :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143937' target=_top>143937</a>) -->
+
+<!-- Date: Fri Apr 26 23:56:53 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143934>143934</A> 
+x2323E</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [4,22,285]</TD>                                        
+<TD ALIGN=CENTER>19:54:04</TD>                                          
+<TD ALIGN=CENTER>21:15:47</TD>                                          
+<TD ALIGN=CENTER>01:18:23</TD>                                          
+<TD ALIGN=RIGHT>     30,616,798</TD>                                    
+<TD ALIGN=RIGHT>     1,334,977</TD>                                     
+<TD ALIGN=RIGHT>     163,876</TD>                                       
+<TD ALIGN=RIGHT>   76.887</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143935>143935</A> 
+x2323F</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [4,38,285]</TD>                                        
+<TD ALIGN=CENTER>21:24:51</TD>                                          
+<TD ALIGN=CENTER>22:28:58</TD>                                          
+<TD ALIGN=CENTER>01:00:10</TD>                                          
+<TD ALIGN=RIGHT>     21,117,250</TD>                                    
+<TD ALIGN=RIGHT>       927,824</TD>                                     
+<TD ALIGN=RIGHT>     116,184</TD>                                       
+<TD ALIGN=RIGHT>   53.954</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143936>143936</A> 
+x23240</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [4,38,285]</TD>                                        
+<TD ALIGN=CENTER>22:44:17</TD>                                          
+<TD ALIGN=CENTER>23:07:32</TD>                                          
+<TD ALIGN=CENTER>00:22:19</TD>                                          
+<TD ALIGN=RIGHT>      7,300,505</TD>                                    
+<TD ALIGN=RIGHT>       322,209</TD>                                     
+<TD ALIGN=RIGHT>      40,678</TD>                                       
+<TD ALIGN=RIGHT>   18.856</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=143937>143937</A> 
+x23241</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [4,22,285]</TD>                                        
+<TD ALIGN=CENTER>23:15:16</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>00:37:12</TD>                                          
+<TD ALIGN=RIGHT>     11,636,301</TD>                                    
+<TD ALIGN=RIGHT>       515,845</TD>                                     
+<TD ALIGN=RIGHT>      63,775</TD>                                       
+<TD ALIGN=RIGHT>   30.374</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:02</TD>                                                       
+<TD ALIGN=CENTER>03:18:05</TD>                                          
+<TD ALIGN=RIGHT>      70,670,854</TD>                                   
+<TD ALIGN=RIGHT>      3,100,855</TD>                                    
+<TD ALIGN=RIGHT>       384,513</TD>                                     
+<TD ALIGN=RIGHT>  180.072</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sat Apr 27 00:04:46 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-2291&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-2291' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-2292&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-2292' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-2293&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-2293' width='300'></a></center>
+<!-- Author: py -->
+<!-- Comment: Sat Apr 27 16;05;13 comment by...py -->
+Shift Summary Plots
+<!-- Date: Sat Apr 27 00:10:55 2002 -->
+<font color=red>Shift Summary: </font><pre> 
+     Evening Shift Summary  Friday  April 26, 2002  Debbie Errede 
+     ------------------------------------------------------------ 
+ 
+1600 No beam most of the day shift.  CMU tripping with beam 
+     this morning.  Was stable without beam and we'll watch 
+     the CMU NE cathodes during the next run.  Rick Tesarek  
+     wants to run abort gap monitor tests during shot setup 
+     (with a few protons).  No silicon today.  Jonathan Lewis 
+     wants to test new physics table..physics1_01[6,39,288]. 
+ 
+1645 Estimate for shot setup at 1715.   
+ 
+1713 Paged Rick Tesarek and he's coming over for the abort 
+     gap tests.   
+     Lewis changed the trigger table test request. 
+ 
+1810 Still taking cosmics. 
+ 
+1829 7 proton bunches in the Tevatron. 
+ 
+1849 Loading antiprotons. 
+ 
+1919 Scraping.   
+ 
+1941 High voltage up...told MCR. 
+ 
+1942 Run 143933 started in store 1253.  One TOF module isn't  
+     powering up.  We ended Run because we couldn't take data 
+     through level 3.  Immediately thereafter the TOF module came 
+     to full volts.  We are starting a new run. 
+        
+      BoLUM = 17.7 10**30 
+          
+ 
+1954 Run 143934 started and taking data. The electron lens is in. 
+ 
+2009 Run control error temporarily halted data-taking but was 
+     immediately restarted. 
+ 
+2112 Niccolo (DAQ Ace) is testing a physics trigger table for J.Lewis. 
+     physics_1_01[4,38,285].   
+ 
+2228 We will now run physics_test_1_01_v7....couldn't grab it from 
+     run control...so we are going back to physics_1_01[4,38,285]. 
+ 
+2250 CMU seems to be running fine. 
+ 
+2305 Back to default trigger table.  physics1_01[4,22,285] 
+ 
+2321 Gas alarms.  Called gas expert.  Talked with cryo tech... 
+     doesn't think it's serious...Steve says it's related to  
+     the COT cold trap. 
+ 
+2359 Smooth running. 
+ 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   143943,35,36,37
+Delivered Luminosity   239.7 nb-1  
+Acquired Luminosity    184.8 nb-1  
+Efficiency             77%
+   
+</td></tr></table></pre>
+<!-- Author: Debbie Errede -->
+

@@ -1,0 +1,169 @@
+#
+#----- (codegen) l3node v02-05-05
+#
+<--> (GNUmakefile.main        ; __l3node__              ) _codegen_ Thu May  8 14:29:45 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _codegen_ Thu May  8 14:29:46 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _codegen_ Thu May  8 14:29:46 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _codegen_ Thu May  8 14:29:46 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _codegen_ Thu May  8 14:29:46 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _codegen_ Thu May  8 14:29:46 CDT 2008 l3node (/testbins)
+#
+#----- (d0omgen) l3node v02-05-05
+#
+<--> (GNUmakefile.main        ; __l3node__              ) _d0omgen_ Thu May  8 15:00:38 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omgen_ Thu May  8 15:00:38 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omgen_ Thu May  8 15:00:39 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omgen_ Thu May  8 15:00:39 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omgen_ Thu May  8 15:00:39 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omgen_ Thu May  8 15:00:40 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omref_ Thu May  8 15:00:40 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omref_ Thu May  8 15:00:40 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omref_ Thu May  8 15:00:41 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omref_ Thu May  8 15:00:41 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omref_ Thu May  8 15:00:41 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _d0omref_ Thu May  8 15:00:42 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) _rtcint_  Thu May  8 15:00:42 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _rtcint_  Thu May  8 15:00:42 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _rtcint_  Thu May  8 15:00:42 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _rtcint_  Thu May  8 15:00:43 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _rtcint_  Thu May  8 15:00:43 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _rtcint_  Thu May  8 15:00:43 CDT 2008 l3node (/testbins)
+#
+#----- (include) l3node v02-05-05
+#
+<--> (GNUmakefile.main        ; __l3node__              ) _include_ Thu May  8 16:13:04 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _include_ Thu May  8 16:13:05 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _include_ Thu May  8 16:13:05 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Event_Sender.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Monitor_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Event_Writer.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Hara_Kiri.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Dummy_SR.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Event_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object SR_Caller.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Filtershell.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Control_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object FS_Alarm_Sender.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Exit_Notifier.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object L3_Output_Filter.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary l3filtershell.
+<--> (SRT_rules.mk            ; __l3node__              ) _include_ Thu May  8 16:13:18 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Timeout_Handler.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary L3_Output_Filter_t.
+<--> (SRT_rules.mk            ; __l3node__              ) _include_ Thu May  8 16:13:20 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary evgen.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object IOP.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary evsink.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary siop.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Connecting_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary raw2edm.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object IOP_Alarm_Sender.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary portforward.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Signal_Catcher.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object IOP_Thread.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Trigger_Cache.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object Test_Event_Builder.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for static library object xmlquote.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary l3ioprocess.
+<--> (SRT_rules.mk            ; __l3node__              ) _include_ Thu May  8 16:13:36 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary Exit_Notifier_t.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary Monitor_Receiver_t.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary Receiver_t.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary Timeout_Handler_t.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary Trigger_Cache_t.
+<--> (SRT_rules.mk            ; __l3node__              ) Building dependencies for simplebins binary xmlquote_t.
+#
+#----- (lib) l3node v02-05-05
+#
+<--> (GNUmakefile.main        ; __l3node__              ) _lib_     Thu May  8 18:07:00 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _lib_     Thu May  8 18:07:00 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _lib_     Thu May  8 18:07:00 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _lib_     Thu May  8 18:07:01 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _lib_     Thu May  8 18:07:01 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _lib_     Thu May  8 18:07:01 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) _libdmr_  Thu May  8 18:07:01 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _libdmr_  Thu May  8 18:07:02 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _libdmr_  Thu May  8 18:07:02 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _libdmr_  Thu May  8 18:07:02 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _libdmr_  Thu May  8 18:07:03 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _libdmr_  Thu May  8 18:07:03 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) _libobjs_ Thu May  8 18:07:03 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _libobjs_ Thu May  8 18:07:03 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _libobjs_ Thu May  8 18:07:03 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Event_Sender.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Monitor_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Event_Writer.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Hara_Kiri.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Dummy_SR.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Event_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object SR_Caller.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Control_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Filtershell.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Exit_Notifier.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object FS_Alarm_Sender.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object L3_Output_Filter.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Timeout_Handler.
+<--> (SRT_rules.mk            ; __l3node__              ) _libobjs_ Thu May  8 18:07:23 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _libobjs_ Thu May  8 18:07:23 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object IOP.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Connecting_Receiver.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object IOP_Alarm_Sender.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Signal_Catcher.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object IOP_Thread.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Trigger_Cache.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object Test_Event_Builder.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling static library object xmlquote.
+<--> (SRT_rules.mk            ; __l3node__              ) _libobjs_ Thu May  8 18:07:37 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _libcons_ Thu May  8 18:07:38 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _libcons_ Thu May  8 18:07:38 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) Building library libl3filtershell.a
+<--> (SRT_rules.mk            ; __l3node__              ) _libcons_ Thu May  8 18:07:39 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _libcons_ Thu May  8 18:07:40 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) Building library libl3ioprocess.a
+<--> (SRT_rules.mk            ; __l3node__              ) _libcons_ Thu May  8 18:07:42 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _libcons_ Thu May  8 18:07:42 CDT 2008 l3node (/testbins)
+#
+#----- (bin) l3node v02-05-05
+#
+<--> (GNUmakefile.main        ; __l3node__              ) _bin_     Thu May  8 19:54:07 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _bin_     Thu May  8 19:54:08 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _bin_     Thu May  8 19:54:08 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _bin_     Thu May  8 19:54:09 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _bin_     Thu May  8 19:54:10 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _bin_     Thu May  8 19:54:11 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) _bincmp_  Thu May  8 19:54:11 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _bincmp_  Thu May  8 19:54:12 CDT 2008 l3node (/ioprocess)
+<--> (SRT_rules.mk            ; __l3node__              ) _bincmp_  Thu May  8 19:54:12 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary l3filtershell.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary l3ioprocess.x.
+<--> (SRT_rules.mk            ; __l3node__              ) _bincmp_  Thu May  8 19:54:15 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary L3_Output_Filter_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) _bincmp_  Thu May  8 19:54:16 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _bincmp_  Thu May  8 19:54:17 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary Exit_Notifier_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary evgen.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary evsink.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary Monitor_Receiver_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary siop.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary raw2edm.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary Receiver_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary portforward.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary Timeout_Handler_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary Trigger_Cache_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Compiling simplebins binary xmlquote_t.x.
+<--> (SRT_rules.mk            ; __l3node__              ) _binlnk_  Thu May  8 19:54:31 CDT 2008 l3node ()
+<--> (SRT_rules.mk            ; __l3node__              ) _binlnk_  Thu May  8 19:54:31 CDT 2008 l3node (/filtershell)
+<--> (SRT_rules.mk            ; __l3node__              ) _binlnk_  Thu May  8 19:54:31 CDT 2008 l3node (/ioprocess)
+Warning: wow, that is a lot of libraries on the link line (280)
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary l3filtershell.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary l3ioprocess.x.
+<--> (SRT_rules.mk            ; __l3node__              ) _binlnk_  Thu May  8 19:54:35 CDT 2008 l3node (/ioprocess/ioptests)
+<--> (SRT_rules.mk            ; __l3node__              ) _binlnk_  Thu May  8 19:54:36 CDT 2008 l3node (/filtershell/fstests)
+<--> (SRT_rules.mk            ; __l3node__              ) _binlnk_  Thu May  8 19:54:37 CDT 2008 l3node (/testbins)
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary evgen.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary evsink.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary siop.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary raw2edm.x.
+<--> (SRT_rules.mk            ; __l3node__              ) Linking simplebins binary portforward.x.

@@ -1,0 +1,449 @@
+<!-- Title: Day shift. Thu Dec 15, 2005 -->
+<!-- SciCo: Rick Field -->
+<!-- DAQAce: Ping-Han Chu -->
+<!-- MonAce: A. Varganov/S. Carrillo -->
+<!-- CO: F. Vazquez/I. Gorlov -->
+<!-- OpManager: Bob Wagner -->
+<!-- Notes: -->
+<pre>Expect shot set-up mid morning.</pre>
+
+
+<!-- Date: Thu Dec 15 08:18:42.963 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-21466&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-21466' width='300'></a></center>
+<!-- Author: pinghan -->
+<!-- Comment: Thu Dec 15 08;20;32 comment by...pinghan -->
+Busy Timeout. HRR. 
+
+<!-- Comment: Thu Dec 15 08;20;40 comment by...pinghan -->
+I got this kind error popped out. It is new to me.
+
+
+<!-- Comment: Thu Dec 15 08;40;36 comment by...Donatella T. -->
+I removed the list of the FER crates from the Busy pop-up window since most of the time it was misleading. When (if) we'll have a more reliable information about the FER crates, I'll display it again. This new feature was mentioned in the e-log two days ago...
+<!-- Date: Thu Dec 15 08:39:57.587 2005 -->
+CLC, MNP & CPR  are ON according to the High Voltage Summary.  But there are not HV bars (high and low).  And there is no light green status (ON STBY or OFF).  Steve Hahn check the computer downstairs and click the "End of Store" button and after a minute they were set in an OFF status correctly.
+<!-- Author: Salvador & Pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208941' target=_top>208941</a>) -->
+
+
+<!-- Date: Thu Dec 15 08:48:53.924 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208941">208941</A>
+ Terminated at 2005.12.15 08:47:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 08:48:54.346 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208941">208941</A>
+TERMINATE: try to run L2 torture.
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 08:50:13.583 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208942">208942</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,729,599] 
+<!-- Author: pinghan x2080 -->
+
+
+
+<!-- Date: Thu Dec 15 08:52:02.099 2005 -->
+L2 Decision Timeout. AUTO HRR.
+<!-- Author: pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208942' target=_top>208942</a>) -->
+<!-- Comment: Thu Dec 15 08;52;28 comment by...pinghan -->
+again
+
+<!-- Comment: Thu Dec 15 08;53;24 comment by...pinghan -->
+previous ace told me I may get several L2 decision timeout. Let's see what happen.
+
+<!-- Comment: Thu Dec 15 08;53;50 comment by...pinghan -->
+again, this the 3rd L2 TO in few mins.
+
+<!-- Comment: Thu Dec 15 08;56;10 comment by...pinghan -->
+again, page expert.
+
+<!-- Comment: Thu Dec 15 09;01;33 comment by...pinghan -->
+again. expert suggested me to reboot ccal13. let's see what happen next
+<!-- Date: Thu Dec 15 09:00:15.067 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208942">208942</A>
+TERMINATE: L2 Decision Timeout persist. Try expert's suggestion.
+<!-- Author: pinghan x2080 -->
+
+
+
+
+<!-- Date: Thu Dec 15 09:05:07.474 2005 -->
+iFix Retrospect Client popup message:  "You have not been backed up since Thu, Dec 08, 2005.  Contact your backup administrator"
+<!-- Author: Salvador :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=20898942' target=_top>20898942</a>) -->
+
+
+<!-- Date: Thu Dec 15 09:08:13.328 2005 -->
+Greg needs COT crates. Release them.
+<!-- Author: pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208944' target=_top>208944</a>) -->
+
+<!-- Date: Thu Dec 15 09:08:46.124 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208944">208944</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,729,599] 
+<!-- Author: pinghan x2080 -->
+
+
+
+<!-- Date: Thu Dec 15 09:10:12.743 2005 -->
+L2 Decision Timeout. AUTO HRR
+<!-- Author: pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208944' target=_top>208944</a>) -->
+<!-- Comment: Thu Dec 15 09;10;52 comment by...pinghan -->
+again
+
+<!-- Comment: Thu Dec 15 09;12;15 comment by...pinghan -->
+again
+
+<!-- Comment: Thu Dec 15 09;12;37 comment by...pinghan -->
+again
+
+<!-- Comment: Thu Dec 15 09;13;29 comment by...pinghan -->
+again, page expert
+
+<!-- Comment: Thu Dec 15 09;14;44 comment by...pinghan -->
+again, Daniel will come to check it.
+
+<!-- Comment: Thu Dec 15 09;15;06 comment by...pinghan -->
+again
+
+<!-- Comment: Thu Dec 15 09;16;56 comment by...pinghan -->
+again. back to cosmic
+<!-- Comment: Thu Dec 15 10;23;55 comment by...pinghan -->
+Since it is fine during cosmic ray and shotsetup is close. L2 experts won't do anything.
+<!-- Comment: Thu Dec 15 10;24;38 comment by...pinghan -->
+Well, we won't have beam in 24 hours......Maybe experts can check it.
+<!-- Date: Thu Dec 15 09:16:45.927 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208944">208944</A>
+TERMINATE: back to cosmic
+<!-- Author: pinghan x2080 -->
+
+
+
+
+<!-- Date: Thu Dec 15 09:19:01.969 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-21467&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-21467  width='300' align='top'></a></td><td>I check the calibrations made in the owl shift and again (as posted by the eve CO for the calibrations made at that time) the calxef_0 plot has a dead tower (10 West).</td></tr></table>
+<!-- Author: Fabiola -->
+<!-- Comment: Thu Dec 15 09;24;47 comment by...Fabiola -->
+You can see the <a href=
+'/cgi/elog/elog.pl?nb=2005&action=view&page=1044&frame=2&anchor=23:52:17.398'>
+log-entry </a> of the eve CO.
+<!-- Date: Thu Dec 15 09:19:45.473 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208945">208945</A>
+ Activated at 2005.12.15 09:19:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 09:19:46.593 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208945">208945</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: pinghan x2080 -->
+
+
+
+
+<!-- Date: Thu Dec 15 09:40:10.671 2005 -->
+MCR called to say that shot set-up would be in 45 min.
+<!-- Author: Rick Field -->
+
+
+<!-- Date: Thu Dec 15 09:51:36.805 2005 -->
+Eva will work on the Silicon, we are going to have some alarms until she is finished.  
+<!-- Author: Salvador :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208945' target=_top>208945</a>) -->
+<!-- Comment: Thu Dec 15 09;56;33 comment by...Eva H. -->
+Did regular bi-monthly reboot of SVXIICON PC to avoid crashes.  Please consider all alarms real from now on.
+
+
+<!-- Date: Thu Dec 15 10:06:36.095 2005 -->
+Donatella T. made some update of errlog. Please make an entry if we don't see AUTO HRR while ace thinks it SHOULD.
+<!-- Author: pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208945' target=_top>208945</a>) -->
+
+<!-- Date: Thu Dec 15 10:14:01.247 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208945">208945</A>
+ Terminated at 2005.12.15 10:13:34
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 10:14:03.122 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208945">208945</A>
+TERMINATE: do TOF QIE calibration
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 10:16:24.178 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208946">208946</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 10:16:55.039 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208946">208946</A>
+TERMINATE: TOF QIE calibration done
+<!-- Author: pinghan x2080 -->
+<!-- Comment: Thu Dec 15 10;25;00 comment by...Fabiola -->
+TOF QIE calibration seems o.k.
+<!-- Date: Thu Dec 15 10:21:55.708 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208948">208948</A>
+ Activated at 2005.12.15 10:20:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 10:21:56.263 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208948">208948</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: pinghan x2080 -->
+
+
+
+
+
+<!-- Date: Thu Dec 15 10:25:54.755 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208948">208948</A>
+ Terminated at 2005.12.15 10:25:46
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 10:25:55.970 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208948">208948</A>
+TERMINATE: TOF test
+<!-- Author: pinghan x2080 -->
+
+
+
+<!-- Date: Thu Dec 15 10:26:08.824 2005 -->
+*** Bad News *** No collisions for 24 hours.  The are going to do some "conditioning" work on the separator that has been sparking.  It is the one that caused the original problem and also caused the quench yesterday.  No access during this time, but we do have quiet time.  We well do quiet time calabrations.
+<!-- Author: Rick Field -->
+
+<!-- Date: Thu Dec 15 10:28:51.337 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208949">208949</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 10:30:20.734 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208949">208949</A>
+TERMINATE: we can't load
+<!-- Author: pinghan x2080 -->
+<!-- Comment: Thu Dec 15 10;31;37 comment by...pinghan -->
+<pre>Expert tried to do calib_load. we got error:
+Error:CalibLoad not allowed without LoadQIEFRAM.</pre>
+
+<!-- Comment: Thu Dec 15 10;35;00 comment by...Guillelmo -->
+We will try to fix it as soon as possible
+
+<!-- Comment: Thu Dec 15 11;52;29 comment by...Guillelmo -->
+I have just loaded the QIE calibration constants, after enabling that option in the run control settings.
+<!-- Date: Thu Dec 15 10:36:47.658 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208950">208950</A>
+ Activated at 2005.12.15 10:35:56
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 10:36:48.697 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208950">208950</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: pinghan x2080 -->
+
+
+
+<!-- Date: Thu Dec 15 11:01:23.714 2005 -->
+A Trip on TOF, and come back automatically.
+<!-- Author: Salvador :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208950' target=_top>208950</a>) -->
+
+
+<!-- Date: Thu Dec 15 11:10:02.445 2005 -->
+MCR called to say that limited access will be allowed, but right now we do not have anything pending.  So unless someone makes a request we are not going to access.
+<!-- Author: Rick Field -->
+
+<!-- Date: Thu Dec 15 11:46:40.665 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208950">208950</A>
+ Terminated at 2005.12.15 11:46:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 11:46:41.938 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208950">208950</A>
+TERMINATE: TOF test
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 11:51:55.849 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208951">208951</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 11:51:56.931 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208951">208951</A>
+TERMINATE: Load QIE TOF calibration constants
+<!-- Author: pinghan x2080 -->
+<!-- Comment: Thu Dec 15 12;00;24 comment by...Fabiola -->
+TOF QIE Calibration checked. Looks O.K.!
+<!-- Date: Thu Dec 15 11:54:23.016 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208952">208952</A>
+ Activated at 2005.12.15 11:54:12
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 11:54:24.461 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208952">208952</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: pinghan x2080 -->
+
+
+
+<!-- Date: Thu Dec 15 12:18:28.169 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208952">208952</A>
+ Terminated at 2005.12.15 12:18:14
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 12:18:56.900 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208952">208952</A>
+TERMINATE: to do TOF TAC calibration
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 12:21:25.527 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208953">208953</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: pinghan x2080 -->
+
+
+<!-- Date: Thu Dec 15 12:26:02.557 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208953">208953</A>
+TERMINATE: TOF TAC calibration done
+<!-- Author: pinghan x2080 -->
+<!-- Comment: Thu Dec 15 12;35;54 comment by...Fabiola -->
+TOF TAC calibration checked. Looks O.K.!
+<!-- Date: Thu Dec 15 12:28:08.110 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954">208954</A>
+ Activated at 2005.12.15 12:27:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Dec 15 12:28:10.273 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954">208954</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: pinghan x2080 -->
+
+
+
+<!-- Date: Thu Dec 15 12:29:26.163 2005 -->
+Heap Corrupt for crate b0pcal11 while config. Shepherd it.
+<!-- Author: pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954' target=_top>208954</a>) -->
+
+
+<!-- Date: Thu Dec 15 12:29:55.423 2005 -->
+TM2 Events Pending Timeout Error. AUTO HRR.
+<!-- Author: pinghan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954' target=_top>208954</a>) -->
+
+
+
+<!-- Date: Thu Dec 15 12:44:08.798 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-21468&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-21468' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-21469&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-21469' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-21470&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-21470' width='300'></a></center>
+<!-- Author: Fabiola -->
+<!-- Comment: Thu Dec 15 12;45;42 comment by...Fabiola -->
+These are the TOF QIE and TOF TAC plots for the last calibrations...
+
+<!-- Comment: Thu Dec 15 12;48;54 comment by...pinghan -->
+For run 208951 and 208953
+
+
+<!-- Date: Thu Dec 15 13:03:05.405 2005 -->
+ACNET Monitor Display was not abailable from the Icon Box, only the current Graphs were abailable.  Steven Hahn restarted it.
+<!-- Author: Salvador :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954' target=_top>208954</a>) -->
+
+
+<!-- Date: Thu Dec 15 13:32:41.093 2005 -->
+I am going over to the LPC at 2:00pm to give a talk.  Steve Hahn is going to take over for me for the rest of this shift.
+<!-- Author: Rick Field -->
+
+
+<!-- Date: Thu Dec 15 13:40:34.832 2005 -->
+Ahother Trip on TOF, and come back automatically
+<!-- Author: Salvador :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954' target=_top>208954</a>) -->
+<!-- Comment: Thu Dec 15 15;07;08 comment by...pinghan -->
+again
+<!-- Date: Thu Dec 15 13:48:53.320 2005 -->
+Work for the XFT upgrade: I have reprogrammed all the XTC2 cards to FPGA version 25. I have also turned them all on for readout. As of the last TDC installation we have XTC2 cards in every slot. There are 11 that are not working and I have turned off readout for those cards. We are still trying to see if we can recover some of them. This is a problem that will be fixed in the March shutdown, and does not affect normal data taking.  
+<!-- Author: Greg Veramendi -->
+
+
+<!-- Date: Thu Dec 15 14:03:27.721 2005 -->
+More XFT upgrade work!  I have updated xftmod v2_1 to include the newest changes in CVS.<br>  <b>Shift crew:  Please reboot b0xft00-05 
+sometime before the next store.</b>  Thanks,
+<!-- Author: Jay Dittmann -->
+<!-- Comment: Thu Dec 15 23;16;35 comment by...Conor -->
+I have rebooted these crates using the LocalClientController from RunControl.
+<!-- Date: Thu Dec 15 14:16:59.923 2005 -->
+Responded to the Cal ADMEM pager.  Steve H. mentions that they are planning a WHA source run, and the wcal crates will need to be re-calibrated when that is finished.  When the people planning this run have a time table ready, please post in the e-log, so I can plan my time later today.
+<!-- Author: m mattson (ADMEM) -->
+<!-- Comment: Thu Dec 15 15;21;13 comment by...Steve Hahn, Fabio Happacher -->
+<p>Well, looks like we are not going to do endwall sourcing 
+today.  There is some problem with the N<sub>2</sub> pump.
+Despite the Magnehelic gauge upstream showing there is flow and
+pressure, the ball flowmeter on the pump shows no flow.  It's not
+clear if the problem is with nitrogen flow or the pump.
+Continuing to investigate.</p>
+<!-- Date: Thu Dec 15 14:41:38.518 2005 -->
+ICICLE Stops.  We restarted.
+<!-- Author: Salvador :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208954' target=_top>208954</a>) -->
+<!-- Comment: Thu Dec 15 14;54;18 comment by...pinghan -->
+ICICLE HB alarm
+
+<!-- Comment: Thu Dec 15 14;55;44 comment by...Salvador -->
+Heart Beat back for Icicle in iFix.
+
+
+<!-- Comment: Thu Dec 15 15;14;19 comment by...pinghan -->
+again
+
+
+<!-- Date: Thu Dec 15 15:55:30.827 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>Physics able</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L1Accepts</TH>
+<TH>L2Accepts</TH>
+<TH>L3Accepts</TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu Dec 15 15:59:57.450 2005 -->
+<font color=red>Shift Summary: </font><p>No hits.  No runs.  No errors.</p> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   None
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             NAN
+   
+</td></tr></table></pre>
+<!-- Author: Steve Hahn -->
+

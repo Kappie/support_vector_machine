@@ -1,0 +1,505 @@
+<!-- Title: Eve shift. Thu Jun 17, 2004 -->
+<!-- SciCo: Larry -->
+<!-- DAQAce: Johannes -->
+<!-- MonAce: Bo -->
+<!-- CO: Jen -->
+<!-- OpManager: Mary -->
+<!-- Notes: -->
+<pre>Searched, secure, finishing si bias tests</pre>
+
+<!-- Date: Thu Jun 17 16:05:37.772 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184166">184166</a>
+ACTIVATE: Bias scan dV=4
+<!-- Author: canelli -->
+
+
+<!-- Date: Thu Jun 17 16:06:55.094 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184164">184164</a>
+TERMINATE: b0cmp00 is acting up.  JDL wants to work on the trigger, so we'll do the muon calib later.
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 16:08:17.323 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184166">184166</a>
+TERMINATE: Bias Scan dV=4
+<!-- Author: canelli -->
+
+
+
+<!-- Date: Thu Jun 17 16:10:19.935 2004 -->
+b0cmp00 keeps getting done TOs during muon calibration.  We've tried resetting the crate; aborting the run, resetting and starting over; but neither action has fixed b0cmp00.
+<!-- Author: Johannes & Takashi -->
+
+<!-- Date: Thu Jun 17 16:13:23.031 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184167">184167</a>
+TERMINATE: b0cmp00 done TO problems again
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 16:15:18.064 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184168">184168</a>
+ACTIVATE: One last futile attempt at muon calib
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 16:15:53.763 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184168">184168</a>
+TERMINATE: ... and futile it was.
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 16:25:06.966 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9003&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9003  width='300' align='top'></a></td><td>Results of CALQIE calibration after closing up detector.  Shows some black channels, but all off by less than 2 Sig.</td></tr></table>
+<!-- Author: Jen -->
+<!-- Comment: Thu Jun 17 17;03;12 comment by...m mattson -->
+<br>We had replaced several CAFE cards for 3E CEM, which accounts for the change in pedestal.  I updated the reference files after the earlier work, but forgot to do it after this case.<p>
+If you check this calibration now, the black channels will no longer be there.  (The reference value will be different.)  The <b>green</b> channels will be the same, because they only update when the expert (Mario S.) changes them.
+<!-- Date: Thu Jun 17 16:32:58.111 2004 -->
+Tev elog: 16:04:01-   The CDF lowbeta quad supports have had four wedges installed in an attempt to reduce the vibrations. The tiltmeters show very minimal disturbance to the quads; less than what is seen during a normal ramp-off temperature excursion. Looking at the geophone on the Q3, we do not see any reduction in the baseline vibration level, and a quick test with a van shows that we are still sensitive to road traffic. M. McGee will supply specific details of the wedge installation. - TJ, DP<br> 
+-- Thu Jun 17 16:05:55 comment by...TJ --  The only change we observe is a slight increase in the resonant frequency of the system from 12 to 12.6 Hz.  <br>
+<!-- Author: convery -->
+<!-- Comment: Thu Jun 17 17;05;33 comment by...jj -->
+Perhaps also of note from Tev eLog....<br><br>
+"15:32:05-   I modified the scraping order for the next proton only store and store. I changed the order of E03h and F48h and insert the A48H but fully retract it in TEVCOL 5. Pictures of the sequence follow. - DAS"<br><br>
+Recall that A48H was not used at all until a few stores. When it
+is "in", CDF observes "fake missing et events" in the detector.
+<br><br>
+It is not clear if this entry applies just to proton only store
+or is "permanent". We should check movement of A48H after next
+colliding store goes in.
+<!-- Date: Thu Jun 17 16:45:39.751 2004 -->
+<pre>Icicle heartbeat alarm. The usual false kind.</pre>
+<!-- Author: Bo -->
+
+
+<!-- Date: Thu Jun 17 16:56:46.052 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030>run coord: 16:20:21-   The Plan: Cryo work is wrapping up. CDF and D0 are done with their accesses. We should be ready to start the TeV up shortly. The Tevatron experts will do orbit studies followed up with a 12x0 store. After that, they will be ready for shot setup. Once we put the store in the Tevatron, we will stack back up to ~40mA. Recycler has some sequencer issues they are working on. They hope to have them resolved later. If they are ready, we can shoot 30mA to them and then return to stacking. If they aren't ready, just keep stacking. - DAJ</td></tr></td></table>
+<!-- Author: convery -->
+<!-- Comment: Thu Jun 17 17;07;18 comment by...jj -->
+Note also that Rob Roser believes surveyors found positions of
+CDF low beta quads were changed by "anti-vibration shims"
+noted above. We should check beam position soon after next
+store goes in and note results in eLog.
+
+
+<!-- Date: Thu Jun 17 17:08:47.222 2004 -->
+CMX access summary: 
+<p> 
+We looked at the SW CMX miniskirt and couldn't get it to trip on the wedge itself.  We think the problem might be cable related but we couldn't get our detector to trip to search for the problem.  Se also looked at an ASD card in the SE arch but concluded that it was working fine and the problem was before it.  We will have to search for this another day as well. 
+</p> 
+<p> 
+<a href= 
+'/cgi/elog/det-system-elog.pl?nb=cmx&action=view&page=6&frame=2&anchor=16:51:25'> 
+For more details see the CMX e-log.</a> 
+</p> 
+On a good note, George and Roberto were able to recovered the over-saturated CMX HV anode current monitor channel (for CMX west 13-14 - aka C:MUHVC1) by replacing the bad chip.
+<!-- Author: Ingyin, Dale, Phil -->
+
+
+<!-- Date: Thu Jun 17 17:08:47.233 2004 -->
+Rainer, pleas call the control room! Your pager seems not to be working.
+<!-- Author:  Larry -->
+
+<!-- Date: Thu Jun 17 17:14:29.885 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184172">184172</a>
+ACTIVATE: more ps tests
+
+<!-- Author: jdl -->
+
+
+
+<!-- Date: Thu Jun 17 17:14:35.967 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Silicon should go OFF if aperture scans as per Rainer.  Page silicon to turn it back up.</td></tr></td></table>
+<!-- Author: convery -->
+
+
+<!-- Date: Thu Jun 17 17:40:14.631 2004 -->
+<pre>Icicle crashed but did NOT give a heartbeat alarm. I restarted it.</pre>
+<!-- Author: Bo -->
+
+
+<!-- Date: Thu Jun 17 18:14:16.910 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9004&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9005  width='300' align='top'></a></td><td>This is the Prefred page from the test of fractional and uber prescale.  It appears that the UPS line is not properly required in Fred with the bunch0 input.  Thus we saw the full 47kHz of bunch 0.  For FPS, we got the correct intial values.  However, it took two tries each time to set the prescale.  First the PS was set to 1 (register value 255), that made the rate jump up.  Then the PS changed again and got it about right with a L1A rate of 18.5kHz compared to a  target of 19kHz (=max_rate*.95).   </td></tr></table>
+<!-- Author: jdl -->
+
+
+<!-- Date: Thu Jun 17 18:14:46.335 2004 -->
+<pre>Gas alarm on "Mix & Storage Shed Alarm". went away after a minute...</pre>
+<!-- Author: Bo -->
+<!-- Comment: Thu Jun 17 18;15;38 comment by...Larry -->
+Cryo is messing with argon CO2
+
+
+<!-- Date: Thu Jun 17 18:21:12.645 2004 -->
+Restore default firmware after fractional prescal test.<BR> 
+Ask Ace to power cycle the XTRP crate<BR>
+<!-- Author: Anyes -->
+<!-- Comment: Thu Jun 17 18;31;46 comment by...Johannes -->
+Done.
+<!-- Date: Thu Jun 17 18:30:12.764 2004 -->
+Test of new csl code to modify a run summary message doesn't 
+work properly so we fall back to old code. Will test again 
+agter fixing the code.  
+<!-- Author: Tony,Jedong -->
+
+
+<!-- Date: Thu Jun 17 18:31:40.191 2004 -->
+<pre>Summary of TDC rate tests: 
+ 
+We performed a series of readout rate  
+measurements with both the current and 
+development versions of the TDC DSP code. 
+ 
+We took two runs to disk in the look area 
+for further study offline.  The two runs  
+are as follows: 
+ 
+Run #184169 : 70500 events 
+              DSP code = v61 
+              SL1-4 ON, SL5-8 OFF 
+              TDC pulsing frequency swept 
+              between 2MHz and 14MHz. 
+ 
+Run #184170 : 52155 events 
+              DSP code = v61 
+              SL1-8 ON 
+              TDC pulsing frequency swept 
+              between 2MHz and 14 MHz 
+ 
+v45 DSP code was returned to all TDCs and  
+the system was checked out by Dave Ambrose.  </pre>
+<!-- Author: Eric, Bill, & Ron -->
+
+
+<!-- Date: Thu Jun 17 18:38:03.919 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184175">184175</a>
+ACTIVATE: COSMICS_NOTRACKS [9,467,441] run without HV for CSL test
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 18:50:49.293 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184178">184178</a>
+ACTIVATE: COSMICS_NOTRACKS [9,467,441] without HV to test that the fallen-back-onto CSL is still working
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 18:52:20.856 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184178">184178</a>
+TERMINATE: We're not getting any events.  I'll try cleaning up the event builder.
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 19:02:50.782 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184179">184179</a>
+ACTIVE:   
+  Done TO. for crate/s: 
+    b0cot08   b0cot11   
+
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Thu Jun 17 19:05:58.254 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184179">184179</a>
+ACTIVATE: Test run for CSL and COT crates; COSMICS_NOTRACKS [9,467,441]
+<!-- Author: Johannes (x2080) -->
+<!-- Comment: Thu Jun 17 19;15;35 comment by...Johann -->
+CSL and COT crates look like they're working (b0cot08 and 11 needed to be shepherded but have been working fine since)
+
+<!-- Date: Thu Jun 17 19:21:00.915 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184179">184179</a>
+ACTIVE:   
+  Done TO. for crate/s: 
+    b0cot00   
+
+<!-- Author: ErrorHandler -->
+<!-- Comment: Thu Jun 17 19;23;52 comment by...Johannes -->
+Fixed by shepherding
+
+<!-- Date: Thu Jun 17 19:25:59.836 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184179">184179</a>
+TERMINATE: Ending to do COT calib
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 19:28:12.035 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184180">184180</a>
+TERMINATE: COT calib
+
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 19:28:13.465 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184180">184180</a>
+ACTIVATE: COT calib
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 19:37:46.884 2004 -->
+<pre>COT Calibration 19:26:48 on 2004-06-17 
+aveStart:                        304.66    
+total numBad:                    549     - o.k. 
+   numBad  cells:                  6       
+   numBad cables:                  2       
+   numBad slots:                   0       
+ 
+aveDrift:                       0.027     
+max number drifted in crate:    64        
+total numDrifted:              170  
+   number of drifted  cells        1       
+   number of drifted cables        1      
+   number of drifted  slots        0       
+ 
+ 
+This calibration is o.k. 
+*** Timing has drifted, constants updated (i.e new COMPLETE file written to DB)*** 
+ 
+ 
+Calibration passed quality checks, but there are Potential Bad Cells, Cables or Slots -  
+See Expert Section 
+  
+Out of the last 10 calibrations, constants have been updated 5 timesCOT Calibration 19:26:48 on 2004-06-17 
+aveStart:                        304.66    
+total numBad:                    549     - o.k. 
+   numBad  cells:                  6       
+   numBad cables:                  2       
+   numBad slots:                   0       
+ 
+aveDrift:                       0.027     
+max number drifted in crate:    64        
+total numDrifted:              170  
+   number of drifted  cells        1       
+   number of drifted cables        1      
+   number of drifted  slots        0       
+ 
+ 
+This calibration is o.k. 
+*** Timing has drifted, constants updated (i.e new COMPLETE file written to DB)*** 
+ 
+ 
+Calibration passed quality checks, but there are Potential Bad Cells, Cables or Slots -  
+See Expert Section 
+  
+Out of the last 10 calibrations, constants have been updated 5 times 
+ 
+---COT Calibration results - same as they've been the last couple of times with 6 bad cells, 2 bad cables.</pre>
+<!-- Author: Jen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184180' target=_top>184180</a>) -->
+<!-- Comment: Thu Jun 17 19;39;00 comment by...Jen -->
+Oops, sorry about that... must have double clicked...
+
+<!-- Date: Thu Jun 17 20:17:42.841 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184175">184175</a>
+TERMINATE: test failed
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 20:58:18.201 2004 -->
+<pre>Finished working with the HEVB and the b0diag01 crate,  
+debugging TDC readout code while running with the new  
+MVME 5500 processors.   Still have not solved the problem,  
+but have narrowed down the scope significantly. 
+</pre>
+<!-- Author: W.Badgett -->
+
+
+<!-- Date: Thu Jun 17 21:05:17.593 2004 -->
+<pre>iFix indicated a PSM warning resulting from a communication error with SVX_SEB_1. It cleared itself after a minute or two.</pre>
+<!-- Author: Bo -->
+
+<!-- Date: Thu Jun 17 21:06:54.520 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184184">184184</a>
+ACTIVATE: Trigger table test: PHYSICS_2_05 [8,495,467]
+<!-- Author: Johannes (x2080) -->
+<!-- Comment: Thu Jun 17 21;12;10 comment by...Johannes -->
+L3 is outputting at about 130 Hz.  97% deadtime, of which 94% is busy.  L3 display is pretty much completely green.
+
+<!-- Comment: Thu Jun 17 21;16;00 comment by...Johannes -->
+Almost all the bandwidth is taken up by the MONITOR_COT_SPIKE [1] trigger.  
+
+<!-- Comment: Thu Jun 17 21;52;03 comment by...jdl -->
+Ack!  I forgot to unplug Sparky the Random Phototube.  I have instructed the SciCo on how to remedy the problem.
+<!-- Comment: Thu Jun 17 22;24;34 comment by...Larry -->
+Done
+<!-- Date: Thu Jun 17 21:16:59.114 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184184">184184</a>
+TERMINATE: Ending trigger table test
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 21:24:00.802 2004 -->
+"Beam in the TeV in half an hour."  But then it is illegal to turn COT on anyway
+<!-- Author: Larry -->
+
+<!-- Date: Thu Jun 17 21:27:25.597 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184185">184185</A>
+ACTIVATE: COSMICS_NOTRACKS [9,467,441], no SVT crates
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 21:34:29.811 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030>MCR 10 minute warning, no aperature scans planned, shot setup some time on owl shift</td></tr></td></table>
+<!-- Author: Larry -->
+
+
+<!-- Date: Thu Jun 17 22:02:47.327 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184185">184185</A>
+TERMINATE: Quiet time is over, so we're switching to L2 torture.
+<!-- Author: Johannes (x2080) -->
+
+
+<!-- Date: Thu Jun 17 22:10:25.085 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184186">184186</A>
+ACTIVATE: L2_TORTURE [16,466,444]
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 22:13:51.119 2004 -->
+<pre>Trips in HV in CMP, CMX, BMU, CES, CPR as proton beam went into Tevatron. Bringing everything to standby (except COT and SVX which have remained safely off)</pre>
+<!-- Author: Bo -->
+<!-- Comment: Thu Jun 17 22;16;57 comment by...Larry -->
+My bad
+
+
+<!-- Comment: Thu Jun 17 22;27;30 comment by...Bo -->
+That should read COT and TOF (not SVX). SVX has been at standby.
+
+
+<!-- Comment: Fri Jun 18 00;21;54 comment by...Lucio Cerrito -->
+For the shift crew: can it be avoided to have to trip everything
+when the beam is coming in ? you had a warning and wrote a line
+saying TeV is putting beam in 30 minutes  ---> set all to STDBY
+at that time. Thanks
+<!-- Date: Thu Jun 17 22:30:31.115 2004 -->
+<pre>PSM alarm. 1RR18D_1: +5 Digital was reporting about 6 volts. Went green within 30 seconds or so.</pre>
+<!-- Author: Bo -->
+
+
+<!-- Date: Thu Jun 17 22:59:47.758 2004 -->
+<pre>SVX AVDD B0 W0 L2 had turned pink. Unmarked and turned yellow. </pre>
+<!-- Author: Bo -->
+<!-- Comment: Thu Jun 17 23;03;23 comment by...Bo -->
+Current (810) is (and has been) below the nominal value (850)
+
+<!-- Comment: Fri Jun 18 00;37;36 comment by...Else -->
+<pre>This is still the case now at 00:30. Unmarking only turns the cell yellow for a short moment, then it is back to pink.</pre>
+<!-- Date: Thu Jun 17 23:04:15.389 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184186">184186</A>
+TERMINATE: Stopping to include the newly liberated SVT crates
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 23:17:11.241 2004 -->
+<pre>Gave back the SVT crates after some SVTMON testing.  All is ready 
+for high lum tests of the beam-width fitter in the next store.</pre>
+<!-- Author: neu -->
+<!-- Comment: Fri Jun 18 00;17;14 comment by...neu -->
+<pre>Note that the default SVTMON code is presently in the system.  The fitter will be tested after the shakedown of the new beam position.</pre>
+<!-- Date: Thu Jun 17 23:39:30.750 2004 -->
+Paging L3
+<!-- Author: Larry -->
+<!-- Comment: Thu Jun 17 23;49;12 comment by...Johannes -->
+I couldn't get L3 through the configure transition; the Error Handler said it couldn't initialize any of the converter nodes.  When I checked the SM+SCPUs b0eb10 didn't responding.  On instruction from the L3 pager carrier I reset b0eb10.  Everything works again now.
+<!-- Date: Thu Jun 17 23:48:45.482 2004 -->
+"Thu Jun 17 22:11:08 comment by...maggie --  The orbit studies are beginning. These are estimated to take 4 hours" 
+Guess shot setup after 2AM (at least)
+<!-- Author: Larry -->
+
+<!-- Date: Thu Jun 17 23:49:12.337 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184187">184187</A>
+ACTIVATE: L2_TORTURE [16,466,444] with SVT crates
+<!-- Author: Johannes (x2080) -->
+
+
+
+<!-- Date: Thu Jun 17 23:53:58.652 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184187">184187</A>
+ACTIVE: 
+ Attention!!!. SCPU_TRACER_EVENT_ID Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb12 ( FER crate : NOT_AVAILABLE). 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+<!-- Comment: Thu Jun 17 23;54;42 comment by...Johannes -->
+fixed by auto-HRR
+
+<!-- Date: Thu Jun 17 23:55:23.572 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Jun 18 00:02:09.388 2004 -->
+<font color=red>Shift Summary: </font><pre>16:00   searched, secure, silicon bias scan finishing 
+ 
+        Note: low bet quads have moved, tuning and perhaps aperture scans, 
+        if aperature scan then si off 
+ 
+18:20   JDL finishes fraction study, Anyes restores firmware, Eric James 
+        finishes COT work 
+ 
+        Cosmics, COT calib, Bill B takes EVB 
+ 
+21:06   Trigger Table Test (featuring JDL's Sparky the hot pmt!) 
+ 
+21:24   SVT studies, cosmic rays 
+ 
+22:00   make that L2 torture, beam in TeV and now (cough) HV off 
+ 
+23:04   SVT crates liberated - "ready" 
+ 
+ 
+Good luck!!</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   tp 184187
+Delivered Luminosity   -  
+Acquired Luminosity    -  
+Efficiency             nan
+   
+</td></tr></table></pre>
+<!-- Author: Larry -->
+
+
+

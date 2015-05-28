@@ -1,0 +1,598 @@
+<!-- Title: Owl shift. Sat Oct 21, 2000 -->
+<!-- Leader: P.Koehn/G.Pauletta -->
+<!-- Ace: Eiko Yu -->
+<!-- Co1: Mako Shimojima -->
+<!-- Co2: Ahskan Alavi -->
+<!-- Co3: Dave Toback(SOS1) -->
+<!-- Co4: Stan (sos2) -->
+<!-- Co5: &nbsp; -->
+<!-- Notes: -->
+<pre>As there is no shot, excersize the trigger tables. 
+Keep the system warm.</pre>
+
+
+<!-- Date: Sat Oct 21 00:30:12 2000 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Ivan called and said L3 processor node in subfarm 9 is blocking 
+itself. So remove L3 subfarm 9 and use only subfarm 10,11,12. 
+</pre></td></tr></td></table>
+<!-- Author: Eiko -->
+
+
+<!-- Date: Sat Oct 21 00:59:26 2000 -->
+<pre>Started a run with min_bias(2,58), no Myron mode. No event since  
+there's no beam. Switch back to zero_bias(2,58), 
+ 
+Run 102079, 
+Trigger type: COMMISSIONING_ZERO_BIAS (2,58) 
+at event 11002, 
+ 
+ b0cot14 gave a busy timeout. 
+The error display says, 
+(RC) Activate -> ACTIVE 
+(MLE) b0cot11:Messenger:12:45:00 AM->Runtime Error 1, event 8802: data truncated 
+(MLE) b0cot10:Messenger:12:45:00 AM->Runtime Error 1, event 8802: data truncated 
+(MLE) b0cot13:Messenger:12:45:00 AM->Runtime Error 1, event 8802: data truncated 
+(MLE) b0cot12:Messenger:12:45:00 AM->Runtime Error 1, event 8802: data truncated 
+ 
+45'53" 1 crate/s: b0cot14(62),  busy.[RXPT] 
+ 
+ 
+Maybet b0cot10-13 have too many noisy hits. 
+So when we readout b0cot14, the vrb can't accept more events. 
+I will reset b0cot10-14,  
+ 
+ 
+</pre>
+<!-- Author: Eiko :: (run 11032) -->
+<!-- Comment: Sat Oct 21 07;35;30 comment by...Frank Chlebana -->
+<pre>
+The data truncated message indicates that there is more than 
+8k of data coming from the crate.
+
+The daq should be able to work while this error is reported.
+
+No need to reboot the crate from which you get this message...
+</pre>
+<!-- Date: Sat Oct 21 01:43:52 2000 -->
+<pre>Turned on CMU,CMP,CMX,BMU.</pre>
+<!-- Author: P.Koehn :: (run 102082) -->
+<!-- Comment: Sat Oct 21 03;57;11 comment by...P. Koehn -->
+Correction for BMU. Initially only brought to standby (we
+meant to turn all muon HV on). It is on now.
+<!-- Date: Sat Oct 21 01:48:13 2000 -->
+<pre>The trigger rate for the last run 102079 was: 
+ 
+Before prescaled FRED, 
+ 
+ Trigger bit  type  average rate count(final) 
+    1     sumET_10/0    7.8       840 
+   4     jet-plug2/0    0.1        7 
+   14     2-jet-4/0   13.8       1465 
+   15     2-jet-4/0   0.1       14 
+   23     zero-bias    47657.7   5046796 
+ 
+ After prescaled FRED, 
+ the zero-bias trigger rate= 105 Hz. total count 11044 
+ 
+</pre>
+<!-- Author: Eiko -->
+<!-- Comment: Sat Oct 21 02;59;23 comment by...Eiko -->
+This run is in normal mode. no Myron mode, no L1 early, no ignore
+BC
+<!-- Date: Sat Oct 21 01:55:44 2000 -->
+<pre>Run 102080, 
+same condition as last run. 
+ 
+ b0cot01 gave a busy timeout. 
+ 
+ The error is 
+ 
+  Activate -> ACTIVE 
+(MLE) b0cot01:Messenger:1:11:46 AM->Runtime Error 1, event 16925: data truncated 
+(MLE) b0cot01:Messenger:1:11:46 AM->Runtime Error 2, event 16926: data truncated 
+(MLE) b0cot01:Messenger:1:11:46 AM->Runtime Error 3, event 16927: data truncated 
+(MLE) b0cot01:Messenger:1:11:46 AM->Runtime Error 4, event 16928: data truncated 
+(MLE) b0cot01:Messenger:1:11:46 AM->Runtime Error 5, event 16929: data truncated 
+(MLE) b0cot01:Messenger:1:11:46 AM->Runtime Error 6, event 16930: data truncated 
+(MLE) b0cot01:Messenger:1:11:47 AM->Runtime Error 7, event 16931: data truncated 
+(MLE) b0cot01:Messenger:1:11:47 AM->Runtime Error 8, event 16932: data truncated 
+(MLE) b0cot01:Messenger:1:11:47 AM->Runtime Error 9, event 16933: data truncated 
+(MLE) b0cot01:Messenger:1:11:47 AM->Runtime Error 92: Timeout on global TDC Done 
+ 
+ 
+Figure the default threshold 250mV is probably low. So set every 
+layer dthr back to 350mV. 
+</pre>
+<!-- Author: Eiko :: (run 102080) -->
+<!-- Comment: Sat Oct 21 07;38;20 comment by...Frank Chlebana -->
+<pre>
+The run most likely stopped due to the global done timeout
+
+This is the TDC dropping off problem.
+
+The data truncated message should not cause problems...
+</pre>
+<!-- Date: Sat Oct 21 01:58:11 2000 -->
+<pre>b0cot01 slot5 TDC drop out. 
+ <table border=0><td><tr><td bgcolor="turquoise">
+Remove slot5 from that crate, and change parameter extra 4 to 99. 
+extra 6 to 3000.  </td></tr></td></table>
+ 
+error says, 
+b0cot01:Messenger:1:16:12 AM->Resetting card in slot 5 failed 
+map the crate and slot 5 is empty. 
+ 
+</pre>
+<!-- Author: Eiko :: (run 102081) -->
+
+
+<!-- Date: Sat Oct 21 01:59:17 2000 -->
+<pre>b0cot04, b0cot18 gave busy timeouts. 
+ 
+Error display says, 
+LE) b0l3gate1.fnal.gov:main:1:39:25 AM->Host b0eb14.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 10 for event 5263. 
+The VRB had no event. 
+36'15" 2 crate/s: b0cot14(62), b0cot18(66),  busy.[RXPT] 
+ 
+</pre>
+<!-- Author: Eiko :: (run 102082) -->
+
+
+<!-- Date: Sat Oct 21 02:02:18 2000 -->
+<pre>Earlier b0l3024 was dead, clean L3 and now it came back  
+alive. Started a new run. 
+ 
+Run 102083, 
+Trigger type, jet_plug2 
+still with all the cot crates, and subfarm 10,11,12, 
+Now we go 33 L2 accepts. 
+</pre>
+<!-- Author: Eiko :: (run 102083) -->
+
+
+<!-- Date: Sat Oct 21 02:28:13 2000 -->
+<pre>Prescaled FRED, 
+jet-plug2 rate=0.1Hz 
+ 
+FRED, 
+Trigger bit  type  average rate  
+    1     sumET_10/0    7.8        
+ *  4     jet-plug2/0    0.1 
+   11    photon-plug     0         
+   14     2-jet-4/0     14.3        
+   15     2-jet-4/0     0.2        
+   21     min-bias       0         0  --> no beam right now  
+   23     zero-bias    47646.3   
+   24         ?          74.6  
+   26         ?          46.0 
+   30         ?           3.0  
+   41 cmu-lopt-dphi-120  0.8 
+</pre>
+<!-- Author: Eiko :: (run 102083) -->
+<!-- Comment: Sat Oct 21 03;00;07 comment by...Eiko -->
+This run is also in normal mode.
+
+
+
+<!-- Comment: Sat Oct 21 07;56;46 comment by...M. Shochet -->
+What the extra bits mean:
+
+	The level-1 trigger systems send all of their trigger
+	bits to FRED.  FRED then selects the bits that are to
+	be part of the trigger.  Bits 24-43 are from the muon
+	system.  Bit 24,  for example, is a single low-PT muon
+	stub in the CMU.  For this trigger table, the only muon
+	trigger we are using is bit 41: two CMU low-PT stubs
+	separated by at least 120 degrees in phi.  Bits that
+	are not participating in the trigger table will always
+	have zero rate after the prescale.
+<!-- Date: Sat Oct 21 03:16:17 2000 -->
+<table border=0><td><tr><td bgcolor="turquoise">
+We thought it made more sense for people to do rate study in 
+normal mode. But now we take the run for people who are working on timing study.
+</td></tr></td></table>
+<pre>Run 102084: 
+Trigger type: COMMISSIONIING_2_JET4(1,58) 
+Early Myron mode, 
+add L3 subfarm 0 so that to reduce busy timeouts of cot crates. 
+ 
+Prescaled FRED,  
+2-jet4 rate=0.2Hz  
+  
+FRED,  
+Trigger bit  type  average rate   
+    1     sumET_10/0    7.6         
+   4     jet-plug2/0    0  
+   11    photon-plug     0          
+   14     2-jet-4/0     14.1         
+*  15     2-jet-4/0     0.2         
+   21     min-bias       0         0  --> no beam right now   
+   23     zero-bias    47646.4    
+   24         ?          72.8   
+   26         ?          44.3  
+   30         ?           3.0   
+   41 cmu-lopt-dphi-120  0.8 </pre>
+<!-- Author: Eiko :: (run 102084) -->
+<!-- Comment: Sat Oct 21 03;32;51 comment by...Eiko -->
+Ended the run at L2 accept=1040.
+
+               
+
+
+<!-- Date: Sat Oct 21 03:34:21 2000 -->
+<pre>Processor b0l3026 is dead.  
+Cleaned up L3 subfarms.</pre>
+<!-- Author: Eiko -->
+
+
+
+<!-- Date: Sat Oct 21 04:03:51 2000 -->
+<pre>Failed to book many crates again. Restart run control. 
+Evb wasn't too happy. Check EVB proxy was not running. 
+Clean up EVB. 
+Start EVB proxy. 
+ 
+Now we pass the partition state.</pre>
+<!-- Author: Eiko -->
+<!-- Comment: Sat Oct 21 07;58;47 comment by...Frank Chlebana -->
+When this happens try to release the partition then rebook it...
+<!-- Date: Sat Oct 21 04:19:09 2000 -->
+<pre>Run 102085, 
+ 
+Trigger type: COMMISSIONING_CMU_LOPT_DPHI_120(1,58) 
+Early Myron Mode 
+Crate status: 
+All ccal, pcal,wcal crates, clc00, 
+     fib_svx_0,2,4,6, svx0-5, svt01,02,06 
+   all l1cal, l2 cal, l1 global00, l2 decision01,  
+     muon trigger, muon scint,     
+   imu00,01,cmu00,01,cmp00.cmx00,cmx01 
+   cot all but 06, 
+   xft00-05, xtrp00 
+ 
+ 
+</pre>
+<!-- Author: Eiko :: (run 102085) -->
+
+
+<!-- Date: Sat Oct 21 04:20:37 2000 -->
+<pre>Run 102085 
+ 
+Prescaled FRED,   
+cmu-low-pt-dphi-120 rate=0.8Hz   
+   
+FRED,   
+Trigger bit  type  average rate    
+    1     sumET_10/0    7.5          
+   4     jet-plug2/0    0   
+   11    photon-plug     0           
+   14     2-jet-4/0     14.1          
+   15     2-jet-4/0     0.2          
+   21     min-bias       0         0  --> no beam right now    
+   23     zero-bias    47646.4     
+   24         ?          71.9    
+   26         ?          43.7   
+   30         ?           2.7    
+ * 41 cmu-lopt-dphi-120  0.8</pre>
+<!-- Author: Eiko :: (run 102085) -->
+
+
+<!-- Date: Sat Oct 21 04:52:58 2000 -->
+<pre>Trigger rate had been pretty stable. 
+</pre>
+<!-- Author: Eiko :: (run 102085) -->
+
+
+<!-- Date: Sat Oct 21 04:59:25 2000 -->
+<table border=0><td><tr><td bgcolor="turquoise"><pre>Note: pcal04 failed the coldstart state once at the early stage 
+of the shift. Rick, sorry I didn't page you. Because it was saved 
+by reset_crate.  Until now, it's still happy. 
+</pre></td></tr></td></table>
+<!-- Author: Eiko -->
+<!-- Comment: Mon Oct 23 10;49;49 comment by...R.J. Tesarek -->
+<table border=0><td><tr><td bgcolor=#e0e030>Please be careful with "reset_crate".  We have noted several
+instances of a power supply fault when a reset_crate is issued,
+particularly in the plug (pcal) crates.</td></tr></td></table>
+<!-- Date: Sat Oct 21 05:04:33 2000 -->
+<pre>b0l3001 and b0l3021 were dead. Clean up L3.</pre>
+<!-- Author: Eiko -->
+
+
+<!-- Date: Sat Oct 21 05:13:56 2000 -->
+<pre>Since we have got 4 L3 subfarms, according to Jim Patrick, this  
+shall help reduce the chance of busy timeouts. So I want to 
+see if cot crates give more noise hits when lowering the  
+threshold to 250mV for SL1~7. 
+ 
+do setcv -f def after Coldstart.  
+ 
+Trigger type: COMMISSIONING_ZERO_BIAS(1,58) 
+</pre>
+<!-- Author: Eiko :: (run 102087) -->
+
+
+<!-- Date: Sat Oct 21 05:22:26 2000 -->
+<pre>Run 102087: 
+Trigger:  COMMISSIONING_ZERO_BIAS(1,58) 
+ 
+Prescaled FRED,   
+0-bias rate=0.1Hz   
+   
+FRED,   
+Trigger bit  type  average rate    
+    1     sumET_10/0    7.7          
+   4     jet-plug4/0    0   
+   11    photon-plug     0           
+   14     2-jet-4/0     14.1          
+   15     2-jet-4/0     0.1          
+   21     min-bias       0         0  --> no beam right now    
+  *23     zero-bias    47646.4     
+   24         ?          71.6    
+   26         ?          43.5   
+   30         ?           2.8    
+   41 cmu-lopt-dphi-120  0.8  
+ 
+</pre>
+<!-- Author: Eiko :: (run 102087) -->
+<!-- Comment: Sat Oct 21 05;24;20 comment by...Eiko -->
+cot seems to behave well now since the rate is so low.
+
+<!-- Comment: Sat Oct 21 05;39;43 comment by...Eiko -->
+Ended the run with total L1 accepts=280.
+
+
+
+<!-- Date: Sat Oct 21 06:02:43 2000 -->
+<pre>Run 102088: 
+ 
+Trigger: COMMISSIONING_ZERO_BIAS(2,58) 
+Early Myron Mode, 
+COT SL1-SL7 at dthr 250mV. 
+ 
+Prescaled FRED,    
+0-bias rate=104Hz    
+    
+FRED,    
+Trigger bit  type  average rate     
+    1     sumET_10/0    7.7           
+   4     jet-plug2/0    0    
+   11    photon-plug     0            
+   14     2-jet-4/0     14.1           
+   15     2-jet-4/0     0.1           
+   21     min-bias       0         0  --> no beam right now     
+  *23     zero-bias    47646.4      
+   24         ?          70.7     
+   26         ?          43.0    
+   30         ?           3.2     
+   41 cmu-lopt-dphi-120  0.9   
+ 
+ End the run at event 28284. 
+It proved the number of L3 subfarms does affect COT's busy  
+timeouts. Just to show my ignorance of threshold. 
+ </pre>
+<!-- Author: Eiko :: (run 102088) -->
+
+
+<!-- Date: Sat Oct 21 06:03:48 2000 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>COT Alarm (COT colored red on slow control gui). 
+ 
+Locate alarm as channel s11 out of voltage range on SL2: 
+ 
+	Set  Value = 760.3 V 
+	Read Value = 771.0 V 
+ 
+It does not look that far out of range, but we play it safe and 
+page Bob Wagner. He tells us to reset the voltage on SL2  - this 
+is done by Stan and Eiko. They reset(ramp voltage down then up) 
+the voltage successfully. Bob can go back to bed. </pre></td></tr></td></table>
+<!-- Author: P.Koehn :: (run 102087) -->
+
+
+<!-- Date: Sat Oct 21 06:05:08 2000 -->
+<pre>While on the phone with Bob, the BMU tripped. We reset it.</pre>
+<!-- Author: P.Koehn :: (run 102087) -->
+
+
+<!-- Date: Sat Oct 21 06:10:23 2000 -->
+<pre>Run 102889, 
+Trigger type: COMMISSIONING_JET_PLUG4(1,58) 
+ 
+Prescaled FRED,     
+jet-plug4 rate=0.025Hz   (by looking at L1A rate) 
+     
+FRED,     
+Trigger bit  type  average rate      
+    1     sumET_10/0    7.7            
+ *  4     jet-plug4/0    0.025     
+   11    photon-plug     0             
+   14     2-jet-4/0     14.2            
+   15     2-jet-4/0     0.1            
+   21     min-bias       0         0  --> no beam right now      
+   23     zero-bias    47646.4       
+   24         ?          72.4      
+   26         ?          44.3     
+   30         ?           3.0      
+   41 cmu-lopt-dphi-120  0.7   
+ </pre>
+<!-- Author: Eiko :: (run 102089) -->
+
+
+<!-- Date: Sat Oct 21 06:56:39 2000 -->
+<pre>CLC calibration: done at quiet time 
+ 
+ datafile: ar018eca.0001cali 
+</pre>
+<!-- Author: Eiko -->
+
+
+
+
+<!-- Date: Sat Oct 21 07:42:26 2000 -->
+<pre>Calibration: 
+ 
+QIE: run 102091, as usual, pcal00, ADMEM 14, QIE 7 no fitting   
+error. 
+ 
+COT calibration: run 102092 
+ 
+LED calibration: run 102093 
+ 
+XEF calibration: terminal dead, try following P. Gris's  
+instruction to save the terminal, in vain.... 
+ 
+</pre>
+<!-- Author: Eiko -->
+
+
+<!-- Date: Sat Oct 21 07:45:10 2000 -->
+<pre>Started run 102095, 
+ 
+Trigger type: COMMISSIONING_ZERO_BIAS(2,58) 
+Early Myron Mode, 
+COT SL1-7 dthr=250mV 
+Rate looks pretty much the same as before.</pre>
+<!-- Author: Eiko :: (run 102095) -->
+
+
+<!-- Date: Sat Oct 21 07:55:06 2000 -->
+<font color=red>Shift Summary: </font><pre>Shift Summary: 12am-8am/21-Oct 2000    
+				 
+				      -- Phillip Koehn      SciCo 
+				      -- Giovanni Pauletta  SciCo 
+                                      -- Eiko Yu            Ace 
+				      -- Mako Shimojima     Co 
+				      -- Ashkan Alavi       Co 
+				       
+Plan: 
+  Work on taking data with new trigger tables with as much of  
+  the system as possible[2,58] in (1X8 clock mode):    
+	COMMISSIONING_ZERO_BIAS      
+        COMMISSIONING_MIN_BIAS 
+        COMMISSIONING_JET_PLUG_2   
+        COMMISSIONING_PHOTON_PLUG_2   
+        COMMISSIONING_JET_PLUG_4   
+        COMMISSIONING_PHOTON_PLUG_4   
+        COMMISSIONING_2_JET_4   
+        COMMISSIONING_CMU_LOPT_DPHI1120 	  
+ 
+Crate Status at start of shift:  
+	COT:1-5,7-19 
+	CAL:ALL 
+	SVX:FIB_00,02,04,06,VSB_SVX_00->5,VRB_ISL_06->8 
+	SVT:b0svt01,02,06,b0l2de01 
+	CLC:clc00 
+	MUON:CMU00,01,CMP00,MUSC00,IMU00,IMU01,MUTR00,CMX00,01 
+	XFT:00-05 
+	XTRP:00 
+	L1CAL:00-05, L2CAL:00-05 
+ 
+Accelerator Status: 
+	Stacking. No beam. 
+	 
+Shift Operations 
+---------------- 
+* Runs Taken(102078-)	 
+ 
+* Began shift w/L3 problems. Ivan called and said L3 processor node in  
+  subfarm 9 is blocking itself. So remove L3 subfarm 9 and use only subfarms 10,11,12. 
+ 
+* COT Alarm - Channel s11 on SL2. The voltage just out of range. 
+              Reset SL2 as instructed by Bob.W. 
+ 
+* CALIBRATIONS: CLC LED, QIE, COT, CAL LED, MUON  
+ 
+* Runs of Note: 
+ 
+Run     Trigger                         Comment 
+---     -------                         ------- 
+102079  COMMISSIONING_ZERO_BIAS[2,58]   11044 evts @ 105 hz  Normal mode. No beam. 
+102080  COMMISSIONING_ZERO_BIAS[2,58]   17019 evts @ 105 hz  Normal mode. No beam. 
+102082  COMMISSIONING_ZERO_BIAS[2,58]    5267 evts @ 105 hz  Normal mode. No beam. 
+ 
+102083  COMMISSIONING_JET_PLUG_2[1,58]    250 evts @ 0.1 hz  Normal mode. No beam. 
+ 
+102084  COMMISSIONING_2_JET_4[1,58]      1040 evts @  14 hz  EMyron mode. No beam. 
+ 
+102085  COMMISSIONING_CMU_LOPT_DPHI120[1,58] 10186 evts @ 0.8 hz  EMyron mode. No beam. 
+ 
+102087  COMMISSIONING_ZERO_BIAS[2,58]     280 evts @ 0.1 hz    EMyron mode. No beam. 
+102088  COMMISSIONING_ZERO_BIAS[2,58]   28516 evts @ 104 hz    EMyron mode. No beam. 
+ 
+102089  COMMISSIONING_JET_PLUG_4[1,58]    132 evts @ 0.1/4 hz  EMyron mode. No beam. 
+ 
+102095  COMMISSIONING_ZERO_BIAS[2,58]   xxxxx evts @ 111 hz    EMyron mode. No beam. 
+                              
+		 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   102078-102095
+Delivered Luminosity     pb-1
+Acquired Luminosity      pb-1
+Efficiency             
+   
+</td></tr></table></pre>
+<!-- Author: P.Koehn -->
+
+
+
+
+<!-- Date: Sat Oct 21 07:58:57 2000 -->
+<pre>Looked at the QIE and LED calibration runs (102091 and 102094) 
+They look exactly the same as the previous runs taken yesterday 
+with an exception that the noisy channel in the RMS/ADC plots 
+for the LED calibration "moved" from 35-9L to 05-6R.</pre>
+<!-- Author: mako :: (run 102091 and 102094) -->
+
+
+<!-- Date: Sat Oct 21 08:05:31 2000 -->
+<pre>b0l3022 is dead, clean up l3.  
+b0cot01 gave a busy timeout first and then done timeout. 
+ 
+Also the error display shows there's reformatter error. 
+ 
+(MLE) b0l3gate2:main:7:41:12 AM->Error on L3 node b0l3001 (partition 0) Sat Oct 21 07:41:12 2000 l3_node  
+  in refoInt_reformatProc (l3_refevt.c:584) 
+  @L3_REFORMAT_ERROR 
+ 
+RAWREF Error - UTILSILDEC - with code 36 (n= 1,1)  -- START 
+ Line  -  288  in File: src/library/rr_rawevt.c 
+ Buffer Position: 8003 
+ 
+ Specific Message: 
+ Detector ID not known (yet?). 
+ 
+ 
+ Error location code: 0x00001030 
+ 
+ 
+ Crate Id?: 0x00000000 
+ 
+ Error during scanning MINI structure! 
+ Last Unit prob. worked on (all counts from 0): 
+  SCPU: 1 
+  VRB : 0 
+  LINK: 3 
+  MINI: 0 
+ 
+ Event Buffer dump (7983 until posi+2=8005) 
+ 0x07340333  0x01360c35  0x06390138  0x083b033a  0x003e043c  0x0340063f  
+ 0x07430342  0x05450444  0x05470546  0x05490748  0x074b024a  0x004f024c  
+ 0x01510950  0x06560255  0x05580057  0x005a0659  0x05690068  0x007f006a  
+ 0x0000c1c1  0x00000000  0x2c29e3c3  0x041081f9  0x750e730d  
+ 
+ 
+</pre> <font color=red><cite>(Entry started on Sat Oct 21 08:05:30 2000)</cite></font>
+<!-- Author: Eiko -->
+<!-- Comment: Mon Oct 23 09;27;17 comment by...SCN -->
+<pre>Explanation <a href=/cgi/elog/elog.pl?nb=2000&action=view&page=188&anchor=18:39:24 target=_top>here</a>.  Seems to
+be happening a fair amount (1/day).  Currently blaming CLOCK
+glitch, but will investigate other things too.  </pre>
+<!-- Date: Sat Oct 21 08:32:23 2000 -->
+<font color=red>Shift Summary: </font>
+<!-- Author: M. Shochet -->
+
+

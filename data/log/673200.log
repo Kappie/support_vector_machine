@@ -1,0 +1,518 @@
+<!-- Title: Eve shift. Wed Dec  7, 2005 -->
+<!-- SciCo: Stephan Lammel -->
+<!-- DAQAce: Conor Henderson -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: &nbsp; -->
+<!-- OpManager: Greg Feild -->
+<!-- Notes: -->
+<pre>Tevatron off 
+collision hall search and secure in progress</pre>
+
+<!-- Date: Wed Dec 7 16:18:01.228 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208354">208354</A>
+ Activated at 2005.12.07 16:17:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 7 16:18:02.516 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208354">208354</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [5,732,600] 
+<!-- Author: Taichi x2080 -->
+
+
+<!-- Date: Wed Dec 7 16:18:03.717 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208354">208354</A>
+ Terminated at 2005.12.07 16:17:57
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Dec 7 16:19:28.222 2005 -->
+ProcMon RTserver check failed: 'Unknown exception, exitValue 1' 
+I pressed the 'check' button again and the check returned okay.
+<!-- Author: Conor -->
+
+
+<!-- Date: Wed Dec 7 16:26:57.945 2005 -->
+<P> 
+The b0ccal05 crate has the BUSY line asserted true at <BR> 
+all times, so it is hanging up when trying to send data <BR> 
+to the VRB, hence the combination of busy and done timeouts <BR> 
+experienced earlier.   Also, the serial line for minicom <BR> 
+does not work on this crate.<BR> 
+<P> 
+I suspect <I>monkey business</I> to have taken place sometime<BR>  
+this week on or near this crate.   Most likely reseating the <BR> 
+cables and fibres would solve the problem.   If not, a tracer <BR> 
+reseat may behoove us. 
+<P> 
+  
+<!-- Author: W.Badgett, Jane Nachtman -->
+<!-- Comment: Wed Dec  7 16;28;34 comment by...WB -->
+...or cables were plugged back in correctly...  it's 
+very unlikely to be a tracer problem.
+<!-- Date: Wed Dec 7 16:28:33.584 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208355">208355</A>
+ Activated at 2005.12.07 16:27:50
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 7 16:28:34.765 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208355">208355</A>
+ Terminated at 2005.12.07 16:28:01
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Dec 7 16:30:12.604 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208356">208356</A>
+ Activated at 2005.12.07 16:30:05
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 7 16:30:43.493 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208356">208356</A>
+ Terminated at 2005.12.07 16:30:32
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Dec 7 16:36:34.727 2005 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Collison hall crates are now running on the new cyclades servers.  To access use the following command: 
+ 
+   vxcom b0ccal00 
+ 
+To exit type &lt;CTRL-A&gt;&lt;PERIOD&gt; 
+ 
+I'm going to proceed with at least some of the counting room crates.  There may be some that don't work over night.  You can page me at 314-3148 until midnight for instructions on a work around.</pre></td></tr></td></table>
+<!-- Author: jdl -->
+<!-- Comment: Wed Dec  7 17;11;40 comment by...jdl -->
+First floor crates also now on vxcom instead of old minicom.  I'd appreciate the aces testing the connections for the new system.  Note that ethernet and power connections for the new servers are temporary.  I'll have to take down the system tomorrow to clean that up.
+
+<!-- Comment: Wed Dec  7 19;00;48 comment by...Conor -->
+I checked all 120 or so crates in the list I was given. All cot, ccal, pcal, wcal and fib crates were fine, with the following exceptions:
+<br> ccal12 and 14 were swapped
+<br> wcal 00 and 01 were swapped
+<br> pcal02,03,04 and wcal04 were unresponsive to vxcom; they are also unresponsive according to the VxWorks system monitor
+<br> ccal10 was unresponsive but does not show errors in VxWorks system monitor
+
+<br><br>For all crates named 'spareXX', the 'name or service was not found'.
+<br><br>All other crates prompted for a password, eg:
+<br>b0dap73:238:~> vxcom b0muca00
+<br>
+<br>Escape sequence is ^A. (ctrl-A period)
+<br>One moment please...
+<br>
+<br>cdfdaq:b0muca00@b0dap10's password: 
+<br>12935: Permission denied, please try again.
+
+<!-- Date: Wed Dec 7 17:15:55.275 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208357">208357</A>
+TERMINATE: xft slam test v4
+<!-- Author: lannon -->
+
+
+
+<!-- Date: Wed Dec 7 17:19:19.992 2005 -->
+<pre>Search and Secure is complete. 
+ 
+</pre>
+<!-- Author: greg, guram -->
+
+<!-- Date: Wed Dec 7 17:21:26.483 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208359">208359</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,729,599] testing L3
+<!-- Author: Georgios -->
+
+
+<!-- Date: Wed Dec 7 17:21:27.455 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208359">208359</A>
+TERMINATE: Testing l3
+<!-- Author: Georgios -->
+
+
+<!-- Date: Wed Dec 7 17:32:51.798 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208358">208358</A>
+TERMINATE: xft slam
+<!-- Author: lannon -->
+
+
+<!-- Date: Wed Dec 7 17:34:40.697 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208360">208360</A>
+TERMINATE: xft slam test v4
+<!-- Author: lannon -->
+
+
+
+<!-- Date: Wed Dec 7 17:41:30.878 2005 -->
+We fixed the Level3 code to be robust in case somebody uses an outdated version of the Run Control.
+<!-- Author: Georgios -->
+
+<!-- Date: Wed Dec 7 18:27:48.219 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208364">208364</A>
+ACTIVATE: RunSet: SVT_500HZ 
+<!-- Author: annovi -->
+
+
+<!-- Date: Wed Dec 7 18:34:59.018 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208365">208365</A>
+TERMINATE: xft long slam test v4
+<!-- Author: lannon -->
+
+
+
+<!-- Date: Wed Dec 7 18:38:31.915 2005 -->
+<pre>Included Level 3 nodes that were down after the power outage: 
+ 
+b0l3002, b0l3047, b0l3057, b0l3226, b0l3229, b0l3257, b0l3258.   
+ 
+Still out (bigger problems with the following :-) : 
+ 
+b0l3070, b0l3081, b0l3083, b0l3117.   
+ 
+</pre>
+<!-- Author: khaldoun -->
+
+
+
+<!-- Date: Wed Dec 7 19:16:28.792 2005 -->
+<pre>Done testing XFT SLAM boards for the day.  
+We leave the system such that all the SLAMS are installed and  
+there are no errors on 10,000 event (no-track) events.  
+ 
+No errors means the XTRP receives the same thing that the Linkers 
+sends out, thus confirming that the SLAM is not f-ing everything  
+up. 
+ 
+We will check overnight on a 100 K run for errors in our offline  
+TrigMon executable.  
+ 
+Tomorrow, we plan on running the same tests but with linker  
+firmware which sends sequences of real tracks in every linker  
+every event.    This is the last test we need to do to confirm 
+the SLAM installation is successful (in passthrough mode). 
+ 
+You are welcome to the XFT crates.   
+ 
+We'd like them back at ~8:00 AM tomorrow.  
+</pre>
+<!-- Author: Ben Kilminster & Kevin Lannon -->
+
+
+<!-- Date: Wed Dec 7 19:20:43.879 2005 -->
+<table border=0><td><tr><td bgcolor=#e0e030>I am moving sevb from b0dap83 to b0server03...</td></tr></td></table>
+<!-- Author: W.Badgett -->
+
+
+<!-- Date: Wed Dec 7 19:25:20.551 2005 -->
+<pre>Performed an ASDQ calibration test. As Jianrong pointed out, cot02 slot 2 showed as dead channels due to the broken 3.3V power on the TDC board.</pre>
+<!-- Author: Shin-Shan Yu -->
+
+
+<!-- Date: Wed Dec 7 19:36:18.407 2005 -->
+The following crates are unresponsive and will not shepherd: pcal02,03,04 and wcal04. Nor am I able to login with vxcom. reset_crate does not help either.
+<!-- Author: Conor -->
+
+<!-- Date: Wed Dec 7 19:40:32.410 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208379">208379</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,729,599] 
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 19:57:02.020 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208382">208382</A>
+ACTIVATE: RunSet: ACE_QIE Bill wanted a calib test
+<!-- Author: Conor x2080 -->
+
+
+
+<!-- Date: Wed Dec 7 19:57:02.723 2005 -->
+Okay, I see that pcal02,03,04 are listed on the white-board as having no power. And Bill thinks that wcal04 has its ethernet cable disconnected.
+<!-- Author: Conor -->
+
+
+<!-- Date: Wed Dec 7 19:57:44.186 2005 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>The move of the Software EventBuilder from b0dap83  
+to b0server03 has been completed.   Please report any  
+problems you encounted to me.</pre></td></tr></td></table>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Wed Dec 7 19:59:10.892 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208381">208381</A>
+ACTIVATE: RunSet: SVT_500HZ 
+<!-- Author: annovi -->
+
+
+<!-- Date: Wed Dec 7 20:00:24.626 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208382">208382</A>
+TERMINATE: Calib test for Bill
+<!-- Author: Conor x2080 -->
+
+
+
+<!-- Date: Wed Dec 7 20:06:25.589 2005 -->
+<pre>The crate CPU b0wcal04 WCAL_04 has its ethernet cable  
+unplugged; it will not boot completely without a network  
+connection.    The serial line works fine, tho'.</pre>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Wed Dec 7 20:08:28.263 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208383">208383</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 Another calib test for Bill. Muon HV is on. No beam in machine
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:08:29.545 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208383">208383</A>
+TERMINATE: Calib done
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:13:41.614 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208384">208384</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,729,599] Trying to run with as much of the system as possible
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:15:43.129 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208381">208381</A>
+TERMINATE: ending SVT test
+<!-- Author: annovi -->
+
+
+
+<!-- Date: Wed Dec 7 20:18:39.842 2005 -->
+<pre>Summary of today SVT work: 
+ 
+We did replace the 12 half loaded AM++ boards that were in use with 12 fully loaded AM++ boards. This is in preparation for 512k patterns/wedge operations. 
+We did also work on the SVT file migration. 
+</pre>
+<!-- Author: Laura & Alberto -->
+
+
+<!-- Date: Wed Dec 7 20:27:31.390 2005 -->
+Got GAM IFIX alarm. While clicking on the display, workspace crashed and I had to restart it. After the restart, GMA no longer shows alarm. Now there is a COT heartbeat alarm
+<!-- Author: Conor -->
+
+<!-- Date: Wed Dec 7 20:31:39.407 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208385">208385</A>
+ Activated at 2005.12.07 20:30:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 7 20:31:40.849 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208385">208385</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] SVT asked for a quick cosmics test after they finished today's work
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:32:24.235 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208385">208385</A>
+ Terminated at 2005.12.07 20:31:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 7 20:32:25.684 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208385">208385</A>
+TERMINATE: end quick cosmics test
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:40:31.823 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208386">208386</A>
+TERMINATE: testing enw trigger table
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:44:26.261 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208387">208387</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_3_07 [2,725,597] 
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:44:28.781 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208387">208387</A>
+TERMINATE: try new trigger table again
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:51:59.826 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208388">208388</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_3_07_DIFFLOWL [1,756,606] 
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 20:57:35.208 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208388">208388</A>
+TERMINATE: trigger table test
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 21:01:00.209 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208389">208389</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_TEST_4_00 [1,755,607] 
+<!-- Author: Conor x2080 -->
+
+
+<!-- Date: Wed Dec 7 21:10:51.233 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208389">208389</A>
+TERMINATE: end of trigger table tests
+<!-- Author: Conor x2080 -->
+
+
+
+<!-- Date: Wed Dec 7 21:14:44.088 2005 -->
+Veronica has finished the trigger table tests.
+<!-- Author: Conor -->
+
+<!-- Date: Wed Dec 7 21:29:20.994 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208390">208390</A>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [15,730,598] 
+<!-- Author: Conor x2080 -->
+
+
+
+<!-- Date: Wed Dec 7 21:46:01.210 2005 -->
+We are running cosmics with Silicon. The L2 cosmics rate is far too  high - 80 Hz from muons and 20 Hz from calorimeter. The CSL stream I is running at 25MB/s, which I believe is basically maxed out. Can  we find the source of the hot triggers?
+<!-- Author: Conor :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208390' target=_top>208390</a>) -->
+<!-- Comment: Wed Dec  7 22;09;34 comment by...Phil -->
+The muon rate is way too high. It looks to me like one of the CMU TDCs should be reseated.
+<!-- Comment: Wed Dec  7 22;15;56 comment by...ps -->
+see <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2005&action=view&page=1023&frame=2&anchor=22:13:12.192'>
+below</a>
+
+<!-- Date: Wed Dec 7 21:48:42.537 2005 -->
+In order to take data with the COSMICS_SILICON run configuration, I had to mask out the following trigger inhibits: CLC; MP; BSC; VMEPower; CPR, CCR; PLUG HV; RP; TOF HV. At Greg's suggestion, we also masked the flying wires, because we were getting those often.
+<!-- Author: Conor -->
+
+
+<!-- Date: Wed Dec 7 21:58:28.223 2005 -->
+Here's my list of crates that I currently have to exclude: ccal05, pcal02, pcal03, pcal04, wcal04, cot01 (it was believed that only 1 TDC in cot01 is bad, but I am unable to decipher from the error log messages which one that is...)
+<!-- Author: Conor -->
+
+<!-- Date: Wed Dec 7 22:06:19.131 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208390">208390</A>
+TERMINATE: ended because of busy TOs
+<!-- Author: Conor x2080 -->
+<!-- Comment: Wed Dec  7 22;09;40 comment by...Conor -->
+Got persistent busy TOs which were not cleared by HRRs. Restarted the run
+<!-- Date: Wed Dec 7 22:09:11.995 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208391">208391</A>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [15,730,598] 
+<!-- Author: Conor x2080 -->
+
+
+
+
+
+<!-- Date: Wed Dec 7 22:13:12.192 2005 -->
+<table><tr><td><a href=/elog/notebooks/2005/Wed_Dec__7_2005_Eve.221302.ps align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-21321  align='top'></a></td><td>wedges E18/E19 show a large data sim disrepancy.</td></tr></table>
+<!-- Author: Phil -->
+<!-- Comment: Wed Dec  7 22;15;04 comment by...Phil -->
+Get the TDC person to reseat the TDC in slot 19 of CMU01.
+
+
+
+<!-- Comment: Wed Dec  7 22;24;40 comment by...Jianrong -->
+<pre>I will reseat the TDC in slot 19 tomorrow morning. </pre>
+<!-- Date: Wed Dec 7 22:16:45.515 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-21322&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-21322  width='300' align='top'></a></td><td>The muon trigger rate of the cosmic run today (and also yesterday) is very high, around 120 Hz. Greg spotted CMU wedges 18 and 19 on the east side having high rate. Could the muon experts please take a look. Thanks!</td></tr></table>
+<!-- Author: Stephan Lammel -->
+<!-- Comment: Wed Dec  7 22;29;31 comment by...Phil -->
+muon experts didn't have time to wait for the trigger experts to figure it out.
+<!-- Comment: Wed Dec  7 22;34;12 comment by...phil -->
+hmm, did i want to dis greg as trigger expert or ops man? let's go for both.
+<!-- Comment: Wed Dec  7 22;41;20 comment by...Stephan -->
+Nils is still around and is going to re-seat the TDC...
+<!-- Comment: Wed Dec  7 22;42;47 comment by...Stephan -->
+Actually, Greg was quick. It was me not finding the .gif file on the disk, in the first three save attempts.
+<!-- Date: Wed Dec 7 22:17:31.497 2005 -->
+Nils arrived with pumpkin pie, apparently from the D0 collaboration party. Hurray!
+<!-- Author: Conor -->
+
+
+
+
+
+<!-- Date: Wed Dec 7 22:34:15.829 2005 -->
+Got another GAM Ifix alarm, which set a trigger inhibit, but then cleared in a minute. 
+<!-- Author: Conor :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208931' target=_top>208931</a>) -->
+
+
+<!-- Date: Wed Dec 7 22:41:36.851 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208391">208391</A>
+TERMINATE: taking out silicon. their job is done
+<!-- Author: Conor x2080 -->
+
+
+
+<!-- Date: Wed Dec 7 22:45:12.049 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208392">208392</A>
+ Activated at 2005.12.07 22:44:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Dec 7 22:45:13.483 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=208392">208392</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: Conor x2080 -->
+
+
+
+<!-- Date: Wed Dec 7 23:06:07.603 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-21323&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-21323  width='300' align='top'></a></td><td>The HCAL trigger shows a hot tower and "cold" region. Could the expert please take a look? Thanks</td></tr></table>
+<!-- Author: Stephan Lammel -->
+<!-- Comment: Wed Dec  7 23;10;18 comment by...Stephan -->
+Cold area should be ccal05 if the mapping the the control room is correct.
+
+<!-- Date: Wed Dec 7 23:55:14.779 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>Physics able</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L1Accepts</TH>
+<TH>L2Accepts</TH>
+<TH>L3Accepts</TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:00</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu Dec 8 00:02:10.654 2005 -->
+<font color=red>Shift Summary: </font><pre>Tevatron off 
+collision hall searched and secured 
+triger table tests done 
+cosmic run with COT, muon, silicon done</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   208354 to 208392
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             0
+   
+</td></tr></table></pre>
+<!-- Author: Stephan Lammel -->

@@ -1,0 +1,502 @@
+<!-- Title: Eve shift. Tue Nov 11, 2003 -->
+<!-- SciCo: Liss -->
+<!-- DAQAce: Lecci -->
+<!-- MonAce: Tafirout -->
+<!-- CO: Sjoelin (outgoing Ace) -->
+<!-- OpManager: &nbsp; -->
+<!-- Notes: -->
+<pre>Start shift with L3/EVB work re-commencing</pre>
+
+<!-- Date: Tue Nov 11 16:10:37.698 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173851">173851</A>
+ACTIVATE: TOF TAC
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 16:12:52.684 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173851">173851</A>
+TERMINATE: TOF TAC
+<!-- Author: JeffM x2080 -->
+
+
+
+<!-- Date: Tue Nov 11 16:32:25.254 2003 -->
+PSM alarm.  Lindgren pokes around and can't figure it out.  We page expert.
+<!-- Author: Liss -->
+<!-- Comment: Tue Nov 11 16;43;04 comment by...Liss -->
+No response from PSM pager.  Mike checked PC and thinks there is a PS off in the collision hall.  Paged calorimeter electronics expert to tell them that they will have to go in in the AM.
+<!-- Comment: Tue Nov 11 17;04;35 comment by...m mattson -->
+Some details would be nice:
+<ul>
+<li>which power supplies
+<li>is there any work going on in the hall, or did these PS just spontaneously go bad
+<li>is this monitoring or a real problem?  Suggest taking a cal QIE calibration.  (The one taken earlier today showed no abnormal problems.  If a PS is off, should see the problem pretty clearly)
+</ul>
+<!-- Comment: Tue Nov 11 17;07;54 comment by...Liss -->
+ccal00 is the crate.
+<!-- Comment: Tue Nov 11 22;07;44 comment by...Steve Hahn -->
+<p>For the life of me, I can't get a screen copy of voltman plots, so I'll just summarize here:</p>
+
+<p>This the crate CANWT_2 or b0ccal00.  Plots from voltman (which Mike and
+I could only look at after I rebooted VOLTMAN, it seemed to be in some funny
+state where it was not hung but would not report on individual power supplies
+or do plot) clearly show the +15 V supply failing at about 1330 today.  The
+embarrassing part is I didn't notice until after the search and secure.  To the
+best of my knowledge, no one was working in this area (and I have asked 
+several accessors).</p>
+
+<p>I will notify Roberto to take a look at this first thing tomorrow.  It may be
+as simple as simply clearing a fault on the crate or as complicated as a swap
+and investigation, but I'd like him to have the first oppurtunity to take a look
+at it.</p>
+<!-- Comment: Wed Nov 12 10;31;27 comment by...Steve Hahn -->
+Well, I was wrong. The real source of the problem is <a href=
+'/cgi/elog/elog.pl?nb=2003&action=view&page=946&frame=2&anchor=10:27:36.972'>here</a>.
+<!-- Date: Tue Nov 11 16:35:43.414 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Matt Martin is doing some sort of QIE calibration  
+cleanup in the online production database. 
+ 
+Expect slow response until that is finished.  Please  
+don't ask me how long it will take. 
+</pre></td></tr></td></table>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Tue Nov 11 16:37:55.877 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173855">173855</A>
+ Activated at 2003.11.11 16:35:39
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 16:38:47.467 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173855">173855</A>
+ Terminated at 2003.11.11 16:36:33
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Nov 11 16:39:47.168 2003 -->
+Dear Ace, 
+ would you please restart the  merlin server process on b0dap62 (instructions are in the Procmon web page). 
+Last night errlog died apparently trying to un-pack a 'bad' merlin message. No merlin DBs or log files are currently written. So it is difficult to track down what happened. 
+Thank you.  
+<!-- Author: Donatella T. -->
+
+
+
+<!-- Date: Tue Nov 11 16:53:25.536 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Matt Martin has stopped his QIE calibration  
+database cleanup job for the day. 
+ 
+Expect better db response. 
+</pre></td></tr></td></table>
+<!-- Author: W.Badgett -->
+<!-- Comment: Tue Nov 11 17;05;27 comment by...WFB -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>On 2nd look, replication is now backed up, 
+so the sluggishness will continue until 
+it clears up.
+</pre></td></tr></td></table>
+<!-- Date: Tue Nov 11 16:54:47.631 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173858">173858</A>
+ Activated at 2003.11.11 16:52:31
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 16:55:22.283 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173858">173858</A>
+ Terminated at 2003.11.11 16:52:50
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 16:55:23.205 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173858">173858</A>
+ Terminated at 2003.11.11 16:52:51
+<!-- Author: RunControl -->
+
+
+
+
+
+<!-- Date: Tue Nov 11 17:41:18.923 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173862">173862</A>
+ Activated at 2003.11.11 17:39:01
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 17:43:43.072 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173862">173862</A>
+ Terminated at 2003.11.11 17:40:38
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 17:45:51.268 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173864">173864</A>
+ Activated at 2003.11.11 17:42:21
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 17:45:52.448 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173864">173864</A>
+ Terminated at 2003.11.11 17:42:29
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 17:45:54.610 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173863">173863</A>
+ACTIVATE: L3 test with 6 subfarms (RedHat7.3.1)
+<!-- Author: guillelmo x 2080 -->
+
+
+<!-- Date: Tue Nov 11 17:52:07.005 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173863">173863</A>
+TERMINATE: Yohoo!, RedHat7 is working
+<!-- Author: guillelmo x 2080 -->
+
+
+<!-- Date: Tue Nov 11 17:54:20.911 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173865">173865</A>
+ Activated at 2003.11.11 17:51:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 17:59:16.161 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173866">173866</A>
+ACTIVATE: L3 tests with 6 subfarms, Physics table
+<!-- Author: guillelmo x 2080 -->
+
+
+
+<!-- Date: Tue Nov 11 18:03:57.723 2003 -->
+L3 and EVB status:<br> 
+We think we have fixed the problem between EVB and converters, which avoid to take data at all. The root of the problem came from ATM driver. There was a kind of quota core limit of ~65Kb in the socket object (we receive data inside it), when our standard data size is bigger than that quantity. This was the reason because system was working with very few crates. We don't need quota for anything (it doesn't make any sense in this case), so we have increased that quota limit, and everything is working well.<br> 
+We have made several L2 torture runs, and I'm making a test run including as many crates as possible with the current Physics trigger table (no silicon). No problems in the L3 (but deadtime is huge coming from L2).<br> 
+We will make a few more tests tomorrow to be sure that everything is ok.<br>  
+<!-- Author: Guillelmo/Steve -->
+<!-- Comment: Tue Nov 11 18;04;53 comment by...Guillelmo -->
+<table border=0><td><tr><td bgcolor=#e0e030>L3 will be back to the old RedHat6, just in case...</td></tr></td></table>
+
+<!-- Date: Tue Nov 11 18:05:37.635 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173866">173866</A>
+TERMINATE: No problems...
+<!-- Author: guillelmo x 2080 -->
+
+
+<!-- Date: Tue Nov 11 19:02:51.184 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173874">173874</A>
+ACTIVATE: delay=-10ns 
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:07:27.563 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173876">173876</A>
+ACTIVATE: delay=-20ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:12:39.950 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173878">173878</A>
+ACTIVATE: delay=-30ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:16:44.733 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173880">173880</A>
+ACTIVATE: delay=-40ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:16:44.506 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173880">173880</A>
+ACTIVATE: delay=-40ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:27:01.647 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173882">173882</A>
+ACTIVATE: delay=-50ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:27:02.612 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173884">173884</A>
+TERMINATE: it was delay=0ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:29:46.142 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173886">173886</A>
+ACTIVATE: delay=+10ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:33:44.413 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173888">173888</A>
+ACTIVATE: delay=+5ns
+<!-- Author: cauzd -->
+
+
+
+<!-- Date: Tue Nov 11 19:33:45.347 2003 -->
+<pre>I performed a hot extraction/insertion of all  
+the TDC boards in b0cmx01.  The hope is that  
+this will clear up the excess CMX east trigger  
+primitives observed in TrigMon during cosmic  
+running.  Please check the muon trigger slides  
+in TrigMon during the next cosmic run. </pre>
+<!-- Author: Eric James -->
+<!-- Comment: Tue Nov 11 21;05;56 comment by...Phil Schlabach -->
+thanks Eric. I will check in the morning. B0CMX01 was the only one showing the pathological behavior described <A href="http://www-cdfonline.fnal.gov/ops/cdf_muon/troubleshooting/ts_guide.html#triggermismatchhere">here</a> most recently (in the last couple of days). Aces can check overnight if they wish.
+<!-- Date: Tue Nov 11 19:41:23.417 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173890">173890</A>
+ACTIVATE: delay=-5ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:41:24.809 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173892">173892</A>
+ACTIVATE: delay=-15ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:45:32.343 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173894">173894</A>
+ACTIVATE: delay=-25ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:52:22.572 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173896">173896</A>
+ACTIVATE: delay=-35ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:53:13.471 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173898">173898</A>
+TERMINATE: it was delay=-45ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 19:56:26.313 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173900">173900</A>
+ACTIVATE: delay=+15ns
+<!-- Author: cauzd -->
+
+
+<!-- Date: Tue Nov 11 20:00:43.851 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173902">173902</A>
+ACTIVATE: delay=+20ns this is the last run
+<!-- Author: cauzd -->
+
+
+
+<!-- Date: Tue Nov 11 20:05:18.735 2003 -->
+done a laser timing scan for both plugs, from -50 to +20 ns, in 5ns steps.
+<!-- Author: diego -->
+
+<!-- Date: Tue Nov 11 20:19:32.881 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173903">173903</A>
+ACTIVATE: Cal QIE calibration
+<!-- Author: Reda -->
+
+
+<!-- Date: Tue Nov 11 20:19:33.940 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173903">173903</A>
+TERMINATE: cal qie calibration (b0ccal00 was in)
+<!-- Author: Reda -->
+
+
+<!-- Date: Tue Nov 11 20:22:32.768 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173905">173905</A>
+ACTIVATE: TOF TAC Calibration
+<!-- Author: Claudia -->
+
+
+<!-- Date: Tue Nov 11 20:22:33.943 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173905">173905</A>
+TERMINATE: TOF TAC
+<!-- Author: Claudia -->
+
+
+<!-- Date: Tue Nov 11 20:25:49.440 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173906">173906</A>
+ACTIVATE: TOF qie calibration
+<!-- Author: Claudia -->
+
+
+<!-- Date: Tue Nov 11 20:25:50.446 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173906">173906</A>
+TERMINATE: TOF qie calibration
+<!-- Author: Claudia -->
+
+
+<!-- Date: Tue Nov 11 20:27:55.900 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173865">173865</A>
+ Terminated at 2003.11.11 20:25:02
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Nov 11 20:30:30.378 2003 -->
+Paged Si to come for L2 torture w/ Guinea pigs
+<!-- Author: Liss -->
+
+
+<!-- Date: Tue Nov 11 20:40:25.406 2003 -->
+RESULT OF CAL QIE CALIBRATION 
+ 
+Found 408 bad channels, all in wedges 0W, 1W, 2W. The result is compatible with the power supply problem of crate b0ccal00 (<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2003&action=view&page=944&frame=2&anchor=16:32:25.254'> look here </a>)
+<!-- Author: Claudia -->
+
+<!-- Date: Tue Nov 11 20:59:00.302 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173907">173907</A>
+ Activated at 2003.11.11 20:55:09
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 20:59:01.782 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173907">173907</A>
+ACTIVATE: Start a cosmic test
+<!-- Author: Reda -->
+
+
+<!-- Date: Tue Nov 11 21:02:48.083 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173907">173907</A>
+ Terminated at 2003.11.11 21:00:16
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 11 21:03:44.742 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173907">173907</A>
+TERMINATE: aborted, problems with b0cot16, cannot be shepered properly.
+<!-- Author: Reda -->
+
+
+
+<!-- Date: Tue Nov 11 21:13:04.585 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173908">173908</A>
+ACTIVATE: L2_TORTURE with silicon
+<!-- Author: Reda -->
+
+
+<!-- Date: Tue Nov 11 21:15:05.184 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173908">173908</A>
+TERMINATE: TS problems/ aborted
+<!-- Author: Reda -->
+<!-- Comment: Tue Nov 11 21;22;14 comment by...Liss -->
+Paged TSI
+<!-- Comment: Tue Nov 11 21;34;46 comment by...Liss -->
+No answer to TSI pager.  Glad there's no beam...
+<!-- Comment: Tue Nov 11 21;37;30 comment by...Liss -->
+OK OK, Greg called .
+<!-- Comment: Wed Nov 12 09;34;41 comment by...SCN  -->
+Greg was probably too demure to say so, but to note, according to the <a href="http://www-cdfonline.fnal.gov/daq/runSummary/errorlog/errorfile173908.log">error  log</a> the real problem was that b0cot00 pulled error which 
+generates the (misleading) message "TS failed when trying to Run (State 2)".  This is in fact not a  TS problem, and the Aces should learn to recognize it (it would help if the message indicated where the real problem is)
+<!-- Date: Tue Nov 11 21:18:14.105 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173909">173909</A>
+ACTIVATE: start of L2_TORTURE with Si
+<!-- Author: Reda -->
+
+
+
+
+
+
+<!-- Date: Tue Nov 11 21:49:25.959 2003 -->
+Start sili guinea pig test, no cot00 crate because it cause problems to tsi00.
+<!-- Author: Claudia :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173912' target=_top>173912</a>) -->
+<!-- Comment: Tue Nov 11 21;56;20 comment by...Claudia -->
+also taken out: cot09 and cot17 (dead), cot08 and cot16 (were giving done TO and busy TO, see run number 173907 error log)
+
+<!-- Comment: Tue Nov 11 21;58;52 comment by...Liss -->
+Paged Dave Ambrose who is here now lending advice.
+
+<!-- Date: Tue Nov 11 22:00:32.524 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173912">173912</A>
+TERMINATE: End run to remove cot01 and cot02 since cot00 control the thresholds of these.
+<!-- Author: Reda -->
+
+
+<!-- Date: Tue Nov 11 22:06:51.050 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173913">173913</A>
+ACTIVATE: Start SiliGuineapig
+<!-- Author: Reda -->
+
+
+
+
+<!-- Date: Tue Nov 11 22:35:38.666 2003 -->
+It appears that L1 track triggers were running at the BC rate of 1.7Mhz using the physics table earlier today.  Since the problem shows up in both the L1_TRK4 and L1_CMU0_PT4 triggers (before prescale), it is either an XFT or XTRP problem and not a problem with the two-track board.
+<!-- Author: jdl :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173866' target=_top>173866</a>) -->
+
+
+<!-- Date: Tue Nov 11 23:41:43.518 2003 -->
+Lost heartbeat of TOF while HV was on, 
+paged expert,    
+rebooted the TOF PC on the first floor with the help of Gerry Bauer, 
+now TOF heartbeat is ok again.
+<!-- Author: Claudia -->
+
+<!-- Date: Tue Nov 11 23:57:48.315 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:03</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Nov 11 23:57:52.176 2003 -->
+<font color=red>Shift Summary: </font><pre>L3/EVB work at star of shift.  They have found and fixed the problem, which  
+turned out to be quota set for socket objects (that is, data) passing through 
+the ATM .  This was fixed and tested (at some level), but they returned us to 
+old system becuase none of us thought the full suite of trigger tables were  
+ready for the new system. 
+ 
+A PSM alarm was eventually traced to a +15V PS on b0ccal00 that failed earlier 
+this aft but was undetected due to a VOLTMAN failure.  PS on the list for 
+fixing in the AM. 
+ 
+While waiting for Si expert to arrive for guinea pig torture we tried to start 
+cosmics.  Ran into TSI problems eventually traced to six COT crates that 
+were ill behaved.  cot00,01,02,07,08,16 .  We speculate that this is somehow 
+related to COT crate CPU swap done on day shift. 
+ 
+Started guinea pig torture at 22:06 
+ 
+JDL called (and put note in log) that L1 track triggers were running at BC rate 
+during L3 test run.  This appears (to him) to be due to an XFT or XTRP problem. 
+It needs to be looked at in the AM because we can't run cosmics in this state.</pre> 
+<!-- Author: Liss -->
+
+
+<!-- Date: Wed Nov 12 00:12:54.697 2003 -->
+just hade Done Timeout in ccal03 crate. Went through Halt, Recover, Run ---helped
+<!-- Author: Alex :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173913' target=_top>173913</a>) -->
+
+

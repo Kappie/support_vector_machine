@@ -1,0 +1,718 @@
+<!-- Title: 07:57:12  Sat Mar 18 2006 -->
+<!-- Crewchief: New day -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>database activity</pre>
+
+
+<!-- Date: Sat Mar 18 08:15:55 2006 -->
+<pre>I checked on bzora1~cdfonprd and the only events/errors we received were during the interruption to switch over off the main power to the diesel generator. The event/errors we received were ONLY network related plus UPS related.    
+ 
+b0dau36~cdfondev & cdfonint are up and running on the diesel generator as well. 
+ 
+------------------------------------------------- 
+ 
+We did receive the error below from the UPS monitoring tool. I do not know what it means & Maurine can look at it on Monday.  But last time we had a power outage the problem occurred when we switched back to MAIN POWER.  The cable was not seeded properly & the UPS kicked in and the box gracefully shut itself down when the UPS ran out. 
+ 
+Maintenance work is scheduled to complete at 3 p.m. and we've spoken to Frank & Dervin, and they will check on this then. 
+ 
+ 
+ Date:       Mar 18, 2006 
+    Time:       7:14:06 AM 
+    Server:     131.225.236.156 bzora1 
+    Severity:   Critical 
+    Error code: 010b0401-0c010001 
+    Message:    Enclosure #1 state change: Power supply #0 is not present in the system. FRU Item: 370-5398-02 Serial No: 131597 HW Revision: 02 Description: SE3310/SE3510 AC PWR SUPPLY w/FAN Vendor JEDEC ID: 0x048F Date: Sat Mar  6 06:24:12 2004   (Left, #0) Chassis FRU Item: 370-5535-02 Serial No: 0802AC HW Revision: 02 Description: SE3510 FC Chassis/backplane Vendor JEDEC ID: 0x0301 Date: Fri May 14 15:59:31 2004   {Unique ID#: 0802ac} 
+ 
+ 
+ 
+ 
+ 
+ 
+</pre>
+<!-- Author: nstanfield  -->
+<!-- Comment: Sat Mar 18 08;26;06 comment by...ns -->
+<pre>ERRORS  INCLUDED about UPS because I don't know what they mean but I believe as long as we go to MAIN POWER after the maintenace work we are ok!  and these can be investigated Monday.   Just want CDF people watching to be aware.
+
+
+Diagnostic Reporter(ver:1.5 Release Build 0) server event report:
+    Date:       Mar 18, 2006
+    Time:       7:13:53 AM
+    Server:     131.225.236.156 bzora1
+    Severity:   Critical
+    Error code: 010b1d04
+    Message:    Controller Event, Power Supply Failure Detected. Replace power supply. Check LED indicators to identify supply.  (Primary, Sat Mar 18 07:10:06 2006) {Unique ID#: 0802ac}
+
+
+Diagnostic Reporter(ver:1.5 Release Build 0) server event report:
+    Date:       Mar 18, 2006
+    Time:       7:14:19 AM
+    Server:     131.225.236.156 bzora1
+    Severity:   Critical
+    Error code: 010b0401-1c020001
+    Message:    Enclosure #2 state change: Power supply #0 is not present in the system. FRU Item: 370-6776-01 Serial No: GM0HRW HW Revision: 01 Description: AC PWR SPLY FAN MOD 2U FC/SATA Vendor JEDEC ID: 0x048F Date: Tue Aug 10 21:36:55 2004   (Left, #0) Chassis FRU Item: 370-5535-02 Serial No: 001CE4 HW Revision: 02 Description: SE3510 FC Chassis/backplane Vendor JEDEC ID: 0x0301 Date: Mon Jan 16 19:26:54 2006   {Unique ID#: 0802ac}</pre>
+
+<!-- Date: Sat Mar 18 15:19:28 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12012: error on auto execute of job 910868 ORA-12152: TNS:unable to send break message ORA-02063: preceding line from CDFOFPR2 ORA-02068: following severe error from CDFOFPR2 ORA-12570: TNS:packet reader failure ORA-25254: time-out in LISTEN while waiting for a message ORA-06512: at "SYS.DBMS_AQADM_SYS", line 5636 ORA-06512: at "SYS.DBMS_AQADM_SYS", line 6061 ORA-06512: at "SYS.DBMS_AQADM", line 895 ORA-06512: at line 1. 
+WARNING 
+Mar 18 2006 03:09:49 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Mar 18 15:19:28 2006 -->
+<pre>
+Name : bzora1_node_down 
+Target Name : bzora1.fnal.gov 
+Target Type : Node 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Node UpDown 
+Event test "Node UpDown" is cleared 
+CLEARED 
+Mar 18 2006 04:16:47 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Mar 18 15:19:28 2006 -->
+<pre>
+Name : cdfonprd_db_down 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Node UpDown 
+Event test "Node UpDown" is cleared 
+CLEARED 
+Mar 18 2006 04:16:47 PM 
+Database UpDown 
+Event test "Database UpDown" is cleared 
+CLEARED 
+Mar 08 2006 01:47:54 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Mar 18 15:21:34 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12535: TNS:operation timed out. 
+WARNING 
+Mar 18 2006 03:19:49 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Mar 18 16:11:38 2006 -->
+<pre>
+Name : bzora1_node_down 
+Target Name : bzora1.fnal.gov 
+Target Type : Node 
+Node Name : bzora1.fnal.gov 
+Status : NODE UNREACHABLE 
+
+Node UpDown 
+ VNI-4009 : Cannot contact agent on the node. Agent may be down or network communication to the node has failed.  
+NODE UNREACHABLE 
+Mar 18 2006 04:04:23 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Mar 18 16:15:47 2006 -->
+<pre>
+Name : cdfonprd_db_down 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : NODE UNREACHABLE 
+
+Node UpDown 
+ VNI-4009 : Cannot contact agent on the node. Agent may be down or network communication to the node has failed.  
+NODE UNREACHABLE 
+Mar 18 2006 04:04:23 PM 
+Database UpDown 
+Event test "Database UpDown" is cleared 
+CLEARED 
+Mar 08 2006 01:47:54 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Mar 19 00:02:39 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 19 2006 12:02:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Mar 19 00:10:01 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 19 2006 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Mar 19 02:20:21 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+Alert 
+The following errors are in the ALERT file : ORA-00600: internal error code, arguments: [5250], [0x3DB69EF4], [2], [0], [0], [], [], []. 
+CRITICAL 
+Mar 19 2006 02:19:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Mon Mar 20 09;09;18 comment by...ns -->
+<pre>user that rec'd error... no action will monitor  
+
+
+SQL&gt; set head off
+SQL&gt; /
+
+26430804 DBREADER toolman
+cdfonprd
+bzora1
+sqlplus@bzora1 (TNS V1-V3)
+9344 131.225.236.156
+tcp
+19-MAR-06 42 36537 19-MAR-06 1.63
+</pre>
+<!-- Date: Mon Mar 20 00:02:31 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 20 2006 12:02:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Mar 20 00:10:17 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 20 2006 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Mar 20 08:51:33 2006 -->
+<pre>
+Name : cdfofpr2_tablespaces 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Tablespace Full 
+Event test "Tablespace Full" is cleared 
+CLEARED 
+Mar 20 2006 08:51:01 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Tue Mar 21 00:02:52 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 21 2006 12:02:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Tue Mar 21 00:11:28 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 21 2006 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Tue Mar 21 23:07:26 2006 -->
+<pre>
+Name : cdfofpr2_max_extents 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+Maximum Extents 
+Segment RUNDB_PRD.RUN_STATUS_UPDATES in tablespace RUNDB_DATA can only allocate 19 additional extents. Segment RUNDB_PRD.SILICON_RUN_STATUS in tablespace RUNDB_DATA can only allocate 19 additional extents. Segment RUNDB_PRD.STORE_RUNS in tablespace RUNDB_DATA can only allocate 19 additional extents. Segment RUNDB_PRD.BEAM_CONDITIONS in tablespace RUNDB_DATA can only allocate 18 additional extents. Segment RUNDB_PRD.BEAM_EVENTS in tablespace RUNDB_DATA can only allocate 19 additional extents. Segment RUNDB_PRD.BEAM_EVENTS_FULL in tablespace RUNDB_DATA can only allocate 19 additional extents. Segment RUNDB_PRD.BEAM_EVENT_DESCRIPTIONS in tablespace RUNDB_DATA can only allocate 19 additional extents. Segment HDWDB_PRD.CRATEUPDATES in tablespace HARDWARE can only allocate 19 additional extents. Segment HDWDB_PRD.DSPCODE in tablespace HARDWARE can only allocate 19 additional extents. Segment HDWDB_PRD.FIRMWAREHISTORY in tablespace HARDWARE can only allocate 19 additional extents. Segment H
+CRITICAL 
+Mar 21 2006 11:06:58 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 00:02:53 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 22 2006 12:02:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 00:11:10 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 22 2006 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 02:12:49 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=6305 sec, SCN: 0x056f.ec1d0a6c):. 
+WARNING 
+Mar 22 2006 02:12:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 02:58:38 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=7877 sec, SCN: 0x056f.ec1d6e60):. 
+WARNING 
+Mar 22 2006 02:57:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 03:33:56 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=8895 sec, SCN: 0x056f.ec1dc1a5): ORA-01555 caused by SQL statement below (Query Duration=9722 sec, SCN: 0x056f.ec1d7c74):. 
+WARNING 
+Mar 22 2006 03:32:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 04:09:07 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=10965 sec, SCN: 0x056f.ec1dd619):. 
+WARNING 
+Mar 22 2006 04:07:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 04:13:15 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=12755 sec, SCN: 0x056f.ec1d4070):. 
+WARNING 
+Mar 22 2006 04:12:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 05:23:31 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=16126 sec, SCN: 0x056f.ec1da001):. 
+WARNING 
+Mar 22 2006 05:22:14 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 05:27:40 2006 -->
+<pre>
+Name : cdfofpr2_processes 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Process Limit 
+The process usage is reaching its limit.  Current value: 167, limit: 200. 
+WARNING 
+Mar 22 2006 05:25:50 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 05:43:12 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=16384 sec, SCN: 0x056f.ec1def5b):. 
+WARNING 
+Mar 22 2006 05:42:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 06:12:22 2006 -->
+<pre>
+Name : cdfofpr2_processes 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+Process Limit 
+The process usage is reaching its limit.  Current value: 183, limit: 200. 
+CRITICAL 
+Mar 22 2006 06:11:11 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 06:29:52 2006 -->
+<pre>
+Name : cdfofpr2_processes 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Process Limit 
+The process usage is reaching its limit.  Current value: 175, limit: 200. 
+WARNING 
+Mar 22 2006 06:28:39 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 06:42:19 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-01555 caused by SQL statement below (Query Duration=19713 sec, SCN: 0x056f.ec1dfdb2):. 
+WARNING 
+Mar 22 2006 06:42:10 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Wed Mar 22 06:49:33 2006 -->
+<pre>Fcdfora4 run queue has been high since 1:30 a.m.  
+ 
+Dmitri is running 96  JpsiXFind_sl3  which is causing the load average to be between 65 & 70 and the machine is 0% idle.    
+ 
+There are no connections from Japan this round. 
+ 
+Anil had posted this question earlier,  I post it again.    Can Dmitri use the metering code? 
+ 
+Also last round this activity ran,  we learned that the code Dmitri copied to the Sci Linux 3 may have a problem,  this needs futher investigtion if it is to run on the production box.  
+ 
+ 
+This code is causing  is causing several errors: 
+ 
+ ORA-01555  - so some of the quries are not completing 
+ 
+cpu idle%   - run queue high events  plus the cpu high events 
+ 
+and just as of 5:30  processes limit events    Current value: 183, limit: 200.  
+ 
+ 
+So we are getting very close to a service denial on cdfofpr2~cdfofpr2. 
+ 
+ 
+Activity on this box needs discussion, I will add a bullet to discuss at today's CDF DB Mtg. 
+ 
+</pre>
+<!-- Author: nstanfield -->
+
+<!-- Date: Wed Mar 22 08:38:57 2006 -->
+<pre>
+Name : cdfofpr2_long_transaction 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: stager CDF_READER 37 38775 sqlplus@fcdflnx6.fnal.gov (TNS V1-V3) fcdflnx6.fnal.gov INSERT /*+ APPEND BYPASS_RECURSIVE_CHECK */ INTO "SYS"."SYS_TEMP_0FD9D66D5_DB9F776C"  SELECT /*+ */  "SYS_TBL_$5$"."PARAM_VALUE", TRUNC(TO_DATE('2006-03-22 00:00:00', 'yyyy-mm-dd hh24:mi:ss')-"SYS_TBL_$2$"."PNFS_DATE"), "SYS_TBL_$7$"."EVENT_COUNT", "SYS_TBL_$7$"."FILE_SIZE_IN_BYTES", "SYS_TBL_$1$"."VOLUME"  FROM "SAMPRD"."PARAM_CATEGORIES" "SYS_TBL_$9$","SAMPRD"."PARAM_TYPES" "SYS_TBL_$8$","SAMPRD"."DATA_FILES" "SYS_TBL_$7$","SAMPRD"."DATA_FILES_PARAM_VALUES" "SYS_TBL_$6$","SAMPRD"."PARAM_VALUES" "SYS_TBL_$5$","SAMPRD"."DATA_FILE_LOCATIONS" "SYS_TBL_$4$","SAMPRD"."DATA_STORAGE_LOCATIONS" "SYS_TBL_$3$","HERBER"."EN_FILES" "SYS_TBL_$2$","HERBER"."EN_VOLUMES" "SYS_TBL_$1$" WHERE "SYS_TBL_$2$"."FILE_NAME"="SYS_TBL_$3$"."FULL_PATH"||'/'||"SYS_TBL_$7$"."FILE_NAME" AND "SYS_TBL_$2$"."PNFS_DATE">=TO_DATE('2006-03-15 00:00:00', 'yyyy-mm-dd hh24:mi:ss') AND "SYS_TBL_$2$"."PNFS_DATE"<TO_DATE('2006-
+CRITICAL 
+Mar 22 2006 08:38:41 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Mar 22 08:56:56 2006 -->
+<pre>
+Name : cdfofpr2_processes 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Process Limit 
+Event test "Process Limit" is cleared 
+CLEARED 
+Mar 22 2006 08:55:50 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Mar 23 00:02:40 2006 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 23 2006 12:02:11 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Mar 23 00:10:57 2006 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Mar 23 2006 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+

@@ -1,0 +1,388 @@
+PREPARE PATCH chrome/browser.jar
+PREPARE PATCH chrome/toolkit.jar
+PREPARE PATCH components/browser.xpt
+PREPARE PATCH components/libxpinstall.so
+PREPARE PATCH components/nsHelperAppDlg.js
+PREPARE PATCH defaults/pref/firefox.js
+PREPARE PATCH extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+PREPARE PATCH extensions/inspector@mozilla.org/install.rdf
+PREPARE PATCH extensions/talkback@mozilla.org/components/talkback/master.ini
+PREPARE PATCH extensions/talkback@mozilla.org/install.rdf
+PREPARE PATCH firefox
+PREPARE PATCH firefox-bin
+PREPARE ADD libfreebl3.chk
+PREPARE PATCH libfreebl3.so
+PREPARE PATCH libmozjs.so
+PREPARE PATCH libnspr4.so
+PREPARE PATCH libnss3.so
+PREPARE PATCH libnssckbi.so
+PREPARE PATCH libplc4.so
+PREPARE PATCH libplds4.so
+PREPARE PATCH libsmime3.so
+PREPARE ADD libsoftokn3.chk
+PREPARE PATCH libsoftokn3.so
+PREPARE PATCH libssl3.so
+PREPARE PATCH plugins/libnullplugin.so
+PREPARE PATCH res/charsetalias.properties
+PREPARE PATCH res/charsetData.properties
+PREPARE PATCH res/mathml.css
+PREPARE PATCH updater
+PREPARE PATCH xpicleanup
+PREPARE REMOVE chrome/US.jar
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/en-win.jar
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/help.jar
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/chrome.rdf
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/installed-chrome.txt
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/app-chrome.manifest
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/m3ffxtbr.manifest
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE chrome/m3ffxtbr.jar
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/all.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/security-prefs.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/winpref.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/xpinstall.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/bug307259.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/bug259708.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/pref/firefox-branding.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/profile/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/profile/extensions/Extensions.rdf
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE defaults/profile/extensions/installed-extensions.txt
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE extensions/{641d8d09-7dda-4850-8228-ac0ab65e2ac9}/install.rdf
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE searchplugins/dictionary.src
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE searchplugins/dictionary.png
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE searchplugins/tr-tdk.src
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE searchplugins/tr-tdk.png
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/component.reg
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/compreg.dat
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/xpti.dat
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/xptitemp.dat
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsBackgroundUpdateService.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/autocomplete.xpt
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE libzlib.so
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/BrandRes.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/FeedConverter.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/FeedProcessor.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/FeedWriter.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/WebContentConverter.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/myspell.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsBookmarkTransactionManager.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsMicrosummaryService.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsSafebrowsingApplication.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsSearchService.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsSearchSuggestions.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsSessionStartup.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsSessionStore.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsURLFormatter.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsUrlClassifierLib.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsUrlClassifierListManager.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/nsUrlClassifierTable.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/spellchk.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/fullsoft.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/master.ini
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/qfaservices.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/qfaservices.xpt
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback-l10n.ini
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback.cnt
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback.exe
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback.hlp
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/libqfaservices.so
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback/master.ini
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback/talkback
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback/talkback.so
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE components/talkback/XTalkback.ad
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE extensions/reporter@mozilla.org/install.rdf
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE extensions/reporter@mozilla.org/chrome.manifest
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE extensions/reporter@mozilla.org/chrome/reporter.jar
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE extensions/reporter@mozilla.org/defaults/preferences/reporter.js
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE old-homepage-default.properties
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE uninstall/UninstallFirefox.exe
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE uninstall/UninstallDeerPark.exe
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE uninstall/helper.exe
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE uninstall/uninst.exe
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE Microsoft.VC80.CRT.manifest
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE msvcm80.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE msvcp80.dll
+file cannot be removed because it does not exist; skipping
+PREPARE REMOVE msvcr80.dll
+file cannot be removed because it does not exist; skipping
+EXECUTE PATCH chrome/browser.jar
+EXECUTE PATCH chrome/toolkit.jar
+EXECUTE PATCH components/browser.xpt
+EXECUTE PATCH components/libxpinstall.so
+EXECUTE PATCH components/nsHelperAppDlg.js
+EXECUTE PATCH defaults/pref/firefox.js
+EXECUTE PATCH extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+EXECUTE PATCH extensions/inspector@mozilla.org/install.rdf
+EXECUTE PATCH extensions/talkback@mozilla.org/components/talkback/master.ini
+EXECUTE PATCH extensions/talkback@mozilla.org/install.rdf
+EXECUTE PATCH firefox
+EXECUTE PATCH firefox-bin
+EXECUTE ADD libfreebl3.chk
+EXECUTE PATCH libfreebl3.so
+EXECUTE PATCH libmozjs.so
+EXECUTE PATCH libnspr4.so
+EXECUTE PATCH libnss3.so
+EXECUTE PATCH libnssckbi.so
+EXECUTE PATCH libplc4.so
+EXECUTE PATCH libplds4.so
+EXECUTE PATCH libsmime3.so
+EXECUTE ADD libsoftokn3.chk
+EXECUTE PATCH libsoftokn3.so
+EXECUTE PATCH libssl3.so
+EXECUTE PATCH plugins/libnullplugin.so
+EXECUTE PATCH res/charsetalias.properties
+EXECUTE PATCH res/charsetData.properties
+EXECUTE PATCH res/mathml.css
+EXECUTE PATCH updater
+EXECUTE PATCH xpicleanup
+EXECUTE REMOVE chrome/US.jar
+EXECUTE REMOVE chrome/en-win.jar
+EXECUTE REMOVE chrome/help.jar
+EXECUTE REMOVE chrome/chrome.rdf
+EXECUTE REMOVE chrome/installed-chrome.txt
+EXECUTE REMOVE chrome/app-chrome.manifest
+EXECUTE REMOVE chrome/m3ffxtbr.manifest
+EXECUTE REMOVE chrome/m3ffxtbr.jar
+EXECUTE REMOVE defaults/pref/all.js
+EXECUTE REMOVE defaults/pref/security-prefs.js
+EXECUTE REMOVE defaults/pref/winpref.js
+EXECUTE REMOVE defaults/pref/xpinstall.js
+EXECUTE REMOVE defaults/pref/bug307259.js
+EXECUTE REMOVE defaults/pref/bug259708.js
+EXECUTE REMOVE defaults/pref/firefox-branding.js
+EXECUTE REMOVE defaults/profile/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+EXECUTE REMOVE defaults/profile/extensions/Extensions.rdf
+EXECUTE REMOVE defaults/profile/extensions/installed-extensions.txt
+EXECUTE REMOVE extensions/{641d8d09-7dda-4850-8228-ac0ab65e2ac9}/install.rdf
+EXECUTE REMOVE searchplugins/dictionary.src
+EXECUTE REMOVE searchplugins/dictionary.png
+EXECUTE REMOVE searchplugins/tr-tdk.src
+EXECUTE REMOVE searchplugins/tr-tdk.png
+EXECUTE REMOVE components/component.reg
+EXECUTE REMOVE components/compreg.dat
+EXECUTE REMOVE components/xpti.dat
+EXECUTE REMOVE components/xptitemp.dat
+EXECUTE REMOVE components/nsBackgroundUpdateService.js
+EXECUTE REMOVE components/autocomplete.xpt
+EXECUTE REMOVE libzlib.so
+EXECUTE REMOVE components/BrandRes.dll
+EXECUTE REMOVE components/FeedConverter.js
+EXECUTE REMOVE components/FeedProcessor.js
+EXECUTE REMOVE components/FeedWriter.js
+EXECUTE REMOVE components/WebContentConverter.js
+EXECUTE REMOVE components/myspell.dll
+EXECUTE REMOVE components/nsBookmarkTransactionManager.js
+EXECUTE REMOVE components/nsMicrosummaryService.js
+EXECUTE REMOVE components/nsSafebrowsingApplication.js
+EXECUTE REMOVE components/nsSearchService.js
+EXECUTE REMOVE components/nsSearchSuggestions.js
+EXECUTE REMOVE components/nsSessionStartup.js
+EXECUTE REMOVE components/nsSessionStore.js
+EXECUTE REMOVE components/nsURLFormatter.js
+EXECUTE REMOVE components/nsUrlClassifierLib.js
+EXECUTE REMOVE components/nsUrlClassifierListManager.js
+EXECUTE REMOVE components/nsUrlClassifierTable.js
+EXECUTE REMOVE components/spellchk.dll
+EXECUTE REMOVE components/fullsoft.dll
+EXECUTE REMOVE components/master.ini
+EXECUTE REMOVE components/qfaservices.dll
+EXECUTE REMOVE components/qfaservices.xpt
+EXECUTE REMOVE components/talkback-l10n.ini
+EXECUTE REMOVE components/talkback.cnt
+EXECUTE REMOVE components/talkback.exe
+EXECUTE REMOVE components/talkback.hlp
+EXECUTE REMOVE components/libqfaservices.so
+EXECUTE REMOVE components/talkback/master.ini
+EXECUTE REMOVE components/talkback/talkback
+EXECUTE REMOVE components/talkback/talkback.so
+EXECUTE REMOVE components/talkback/XTalkback.ad
+EXECUTE REMOVE extensions/reporter@mozilla.org/install.rdf
+EXECUTE REMOVE extensions/reporter@mozilla.org/chrome.manifest
+EXECUTE REMOVE extensions/reporter@mozilla.org/chrome/reporter.jar
+EXECUTE REMOVE extensions/reporter@mozilla.org/defaults/preferences/reporter.js
+EXECUTE REMOVE old-homepage-default.properties
+EXECUTE REMOVE uninstall/UninstallFirefox.exe
+EXECUTE REMOVE uninstall/UninstallDeerPark.exe
+EXECUTE REMOVE uninstall/helper.exe
+EXECUTE REMOVE uninstall/uninst.exe
+EXECUTE REMOVE Microsoft.VC80.CRT.manifest
+EXECUTE REMOVE msvcm80.dll
+EXECUTE REMOVE msvcp80.dll
+EXECUTE REMOVE msvcr80.dll
+FINISH PATCH chrome/browser.jar
+FINISH PATCH chrome/toolkit.jar
+FINISH PATCH components/browser.xpt
+FINISH PATCH components/libxpinstall.so
+FINISH PATCH components/nsHelperAppDlg.js
+FINISH PATCH defaults/pref/firefox.js
+FINISH PATCH extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+FINISH PATCH extensions/inspector@mozilla.org/install.rdf
+FINISH PATCH extensions/talkback@mozilla.org/components/talkback/master.ini
+FINISH PATCH extensions/talkback@mozilla.org/install.rdf
+FINISH PATCH firefox
+FINISH PATCH firefox-bin
+FINISH ADD libfreebl3.chk
+FINISH PATCH libfreebl3.so
+FINISH PATCH libmozjs.so
+FINISH PATCH libnspr4.so
+FINISH PATCH libnss3.so
+FINISH PATCH libnssckbi.so
+FINISH PATCH libplc4.so
+FINISH PATCH libplds4.so
+FINISH PATCH libsmime3.so
+FINISH ADD libsoftokn3.chk
+FINISH PATCH libsoftokn3.so
+FINISH PATCH libssl3.so
+FINISH PATCH plugins/libnullplugin.so
+FINISH PATCH res/charsetalias.properties
+FINISH PATCH res/charsetData.properties
+FINISH PATCH res/mathml.css
+FINISH PATCH updater
+FINISH PATCH xpicleanup
+FINISH REMOVE chrome/US.jar
+FINISH REMOVE chrome/en-win.jar
+FINISH REMOVE chrome/help.jar
+FINISH REMOVE chrome/chrome.rdf
+FINISH REMOVE chrome/installed-chrome.txt
+FINISH REMOVE chrome/app-chrome.manifest
+FINISH REMOVE chrome/m3ffxtbr.manifest
+FINISH REMOVE chrome/m3ffxtbr.jar
+FINISH REMOVE defaults/pref/all.js
+FINISH REMOVE defaults/pref/security-prefs.js
+FINISH REMOVE defaults/pref/winpref.js
+FINISH REMOVE defaults/pref/xpinstall.js
+FINISH REMOVE defaults/pref/bug307259.js
+FINISH REMOVE defaults/pref/bug259708.js
+FINISH REMOVE defaults/pref/firefox-branding.js
+FINISH REMOVE defaults/profile/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+FINISH REMOVE defaults/profile/extensions/Extensions.rdf
+FINISH REMOVE defaults/profile/extensions/installed-extensions.txt
+FINISH REMOVE extensions/{641d8d09-7dda-4850-8228-ac0ab65e2ac9}/install.rdf
+FINISH REMOVE searchplugins/dictionary.src
+FINISH REMOVE searchplugins/dictionary.png
+FINISH REMOVE searchplugins/tr-tdk.src
+FINISH REMOVE searchplugins/tr-tdk.png
+FINISH REMOVE components/component.reg
+FINISH REMOVE components/compreg.dat
+FINISH REMOVE components/xpti.dat
+FINISH REMOVE components/xptitemp.dat
+FINISH REMOVE components/nsBackgroundUpdateService.js
+FINISH REMOVE components/autocomplete.xpt
+FINISH REMOVE libzlib.so
+FINISH REMOVE components/BrandRes.dll
+FINISH REMOVE components/FeedConverter.js
+FINISH REMOVE components/FeedProcessor.js
+FINISH REMOVE components/FeedWriter.js
+FINISH REMOVE components/WebContentConverter.js
+FINISH REMOVE components/myspell.dll
+FINISH REMOVE components/nsBookmarkTransactionManager.js
+FINISH REMOVE components/nsMicrosummaryService.js
+FINISH REMOVE components/nsSafebrowsingApplication.js
+FINISH REMOVE components/nsSearchService.js
+FINISH REMOVE components/nsSearchSuggestions.js
+FINISH REMOVE components/nsSessionStartup.js
+FINISH REMOVE components/nsSessionStore.js
+FINISH REMOVE components/nsURLFormatter.js
+FINISH REMOVE components/nsUrlClassifierLib.js
+FINISH REMOVE components/nsUrlClassifierListManager.js
+FINISH REMOVE components/nsUrlClassifierTable.js
+FINISH REMOVE components/spellchk.dll
+FINISH REMOVE components/fullsoft.dll
+FINISH REMOVE components/master.ini
+FINISH REMOVE components/qfaservices.dll
+FINISH REMOVE components/qfaservices.xpt
+FINISH REMOVE components/talkback-l10n.ini
+FINISH REMOVE components/talkback.cnt
+FINISH REMOVE components/talkback.exe
+FINISH REMOVE components/talkback.hlp
+FINISH REMOVE components/libqfaservices.so
+FINISH REMOVE components/talkback/master.ini
+FINISH REMOVE components/talkback/talkback
+FINISH REMOVE components/talkback/talkback.so
+FINISH REMOVE components/talkback/XTalkback.ad
+FINISH REMOVE extensions/reporter@mozilla.org/install.rdf
+FINISH REMOVE extensions/reporter@mozilla.org/chrome.manifest
+FINISH REMOVE extensions/reporter@mozilla.org/chrome/reporter.jar
+FINISH REMOVE extensions/reporter@mozilla.org/defaults/preferences/reporter.js
+FINISH REMOVE old-homepage-default.properties
+FINISH REMOVE uninstall/UninstallFirefox.exe
+FINISH REMOVE uninstall/UninstallDeerPark.exe
+FINISH REMOVE uninstall/helper.exe
+FINISH REMOVE uninstall/uninst.exe
+FINISH REMOVE Microsoft.VC80.CRT.manifest
+FINISH REMOVE msvcm80.dll
+FINISH REMOVE msvcp80.dll
+FINISH REMOVE msvcr80.dll
+succeeded
+calling QuitProgressUI

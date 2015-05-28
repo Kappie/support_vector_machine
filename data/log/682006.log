@@ -1,0 +1,437 @@
+<!-- Title: Eve shift. Thu Jul 19, 2001 -->
+<!-- SciCo: Giovanni Pauletta -->
+<!-- DAQAce: Andras Zsenei -->
+<!-- MonAce: Alexei Sedov -->
+<!-- CO: None -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre>At start of eve shift:   
+Magnet on. COT on. CLC back on. SVX off. 
+Monica has level 1 & 2 so we are taking cosmics 
+with the Soft. Evb.</pre>
+
+
+<!-- Date: Thu Jul 19 16:38:10 2001 -->
+<pre>Switching to hardware event builder and getting back 
+MUON_TRIGGER_00 (setting Interval 0 back to 30 from 30000 and 
+Done Timeout to 8000000 from 80000000). Trigger table is the 
+usual Cosmics_All[2,150] with Calib Continuous and Auto L2 
+Accept.</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120870' target=_top>120870</a>) -->
+<!-- Comment: Thu Jul 19 16;51;52 comment by...Andras -->
+<pre>The nodes corresponding to the b0l3u04 output node are all green
+while the other 3/4 of the L3 is cyan or blue. Other difference:
+on the cyan nodes the numbers are increasing while on the green
+ones they are not. Paged L3. Boris called back and while we were
+talking b0l3u04 turned magenta, then red. Continuing to run 
+because 75% of the L3 is still fine. Ilya called a few minutes 
+later and told us to continue, he is coming to see the problem
+live (apparently CSL has closed connection, that's why the
+output node turned green...)</pre>
+
+
+<!-- Date: Thu Jul 19 16:52:49 2001 -->
+<pre>SMX -   
+ 
+Swapped out the SMXR in Ccal00, slot 4 because it was 
+giving SMXR not responding  errors with header bits 
+0x03b....   
+ 
+Afterwards, we cannot read ped on any SMXR and ADMEN boards in ccal00.   We measure the +5 Volt digital power and find it 
+reading 4.9.  We tweek the Voltage to read 5V at the VME 
+backplane.   This doesn't fix the problem.   Still we 
+cannot read ped on SMXR boards.  We removed 
+the SMXR in slot 4, but still cannot read ped on the 
+other two SMXR boards.    
+ 
+Will continue investigating this tomorrow morning.  In the 
+meantime, remove ccal00 from run configuration.   </pre>
+<!-- Author: byrum,lindgren -->
+<!-- Comment: Fri Jul 20 07;49;51 comment by...R.J. Tesarek -->
+<pre>
+The ADMEMs do read pedestals, but the pedestals for even numbered
+channels are ~400 counts whereas the odd numbered channels are
+~200 counts (nominal value).  </pre>
+<!-- Date: Thu Jul 19 17:16:14 2001 -->
+<pre>   Level 3 has been paged about one output node  that has 
+shut itself down in the middle of the run. 
+ 
+  Our output node at some point complained that it can 
+not run to CSL and exited. Right now we can not ping 
+b0dau32d from our output node b0l3u04. Also we have  
+ended this run and I made sure that there are no processes 
+on that output node, but still "Receiver" of CSL was 
+showing b0l3u04 connected. 
+ 
+  We have seen this problem before, as far as I remember 
+Hiro cleaned up and restarted CSL and all worked, 1-2 month 
+ago. I suggested to page CSL pager. 
+ 
+  For now, it is possible to run normally with 12 subfarms  
+and looks like we can include all 16 without failing transitions, 
+but of course data from subfarms 12-15 are not reaching CSL. 
+</pre>
+<!-- Author: Ilya :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120870' target=_top>120870</a>) -->
+
+
+<!-- Date: Thu Jul 19 17:18:22 2001 -->
+<pre>Plug HAD ASD/TDC: west PHA wedge 8 HAD ASD/TDC trigger and 
+non-trigger channels were reversed -- EPSW-1/slot 9, 
+209-4/T04-23 <--> 209-5/N02-23. The cables were swapped. 
+                                          -- Howard and Willis </pre>
+<!-- Author: Willis -->
+
+
+<!-- Date: Thu Jul 19 17:19:43 2001 -->
+<pre>Started new run to see whether L3 fails due to the CSL problem. 
+The run got started (even though the startup time was much 
+longer) and we reached the situation of the end of the previous 
+run where the data from subfarms 12-15 is not logged. Stopping 
+the run in order to restart CSL.</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120871' target=_top>120871</a>) -->
+
+
+<!-- Date: Thu Jul 19 17:32:29 2001 -->
+<pre>Restarting CSL according to the procedure described on the CSL 
+web page 
+ 
+b0dau32> cslcom check  
+Number of CSL processes running             = 13 
+  (0: OFF, >=7: ON, anything else: error) 
+Number of shared memory segments            = 4 
+  (0: OFF, 4: ON, anything else: error) 
+Number of message queues                    = 6 
+  (0: OFF, 6: ON, anything else: error)               
+ 
+The web page does not say what should we expect as result from 
+this command!!!! So I pasted the output... I do not know  
+whether it is ok or not... Then stopping CSL 
+ 
+ace@b0dau32 22% cslcom stop 
+CDFVME_COMMON: Last updated by nahn on Thu Mar 23 13:03:15 CST 2000 
+ 
+Running diagnostics... 
+Shutting down the CSL on b0dau32... 
+CDFVME_COMMON: Last updated by nahn on Thu Mar 23 13:03:15 CST 2000 
+Sending STOP command to CSL via SmartSockets... 
+Attempting connection to <tcp:b0dau30:5101> RTserver. 
+Connected to <tcp:b0dau30:5101> RTserver. 
+============================= 
+Driver state is RUNNING 
+rc_command is Stop 
+rc_command_effect is SUCCESS 
+============================= 
+  
+Sending STOP_ALL command to CSL via SmartSockets... 
+Attempting connection to <tcp:b0dau30:5101> RTserver. 
+Connected to <tcp:b0dau30:5101> RTserver. 
+============================= 
+Driver state is ENDING 
+rc_command is Stop_all 
+rc_command_effect is SUCCESS 
+============================= 
+  
+Warning: The following CSL processes did not stop: 
+   22407711 ?       0:19 csl_recei 
+   22454032 ?       0:19 csl_recei 
+rm: No match.                    
+ 
+ace@b0dau32 24% cslcom cleanup 
+CDFVME_COMMON: Last updated by nahn on Thu Mar 23 13:03:15 CST 2000 
+  
+csl_cleanup: Removing Consumer-Server/Logger processes owned by ace 
+csl_cleanup:   Round 1... SIGUSR1 
+csl_cleanup:     signalling process 22407711 matching *csl_receiver* 
+csl_cleanup:   Round 2... SIGUSR1 
+csl_cleanup:     no processes remain which match name templates 
+csl_cleanup: Removing IPC services owned by ace, CSL_BASE_KEY = 0x4000 
+list of processes to go = 
+csl_cleanup: Done   
+ 
+ace@b0dau32 25% cslcom start  started it up with success</pre>
+<!-- Author: Andras -->
+
+
+<!-- Date: Thu Jul 19 17:33:04 2001 -->
+Turned off all silicon CAEN crates since, without 
+VME controller, cannot monitor state of power suuplies. 
+If Fred Lewis finishes the controller, please call 
+silicon pager 218-8227.
+<!-- Author: ADF / NT -->
+
+
+<!-- Date: Thu Jul 19 17:43:32 2001 -->
+<pre>Started new run, but the problem persists, b0l3u04 can not log 
+to CSL (by the way we got back all the XFT and XTRP crates and  
+ccal02, the expert said we should not use ccal00 until further  
+notice). Ending the run.</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120872' target=_top>120872</a>) -->
+
+
+<!-- Date: Thu Jul 19 17:56:22 2001 -->
+<pre>As a last try, we cleaned up L3 and EVB, but it did not help 
+(well, it was sort of last try even though you don't expect 
+cleaning up L3 and EVB will cure a CSL problem...) 
+Paging CSL.</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120873' target=_top>120873</a>) -->
+
+
+<!-- Date: Thu Jul 19 18:39:55 2001 -->
+<pre>Mike Lindgren was here. He told me that Upper fan problems in 14W & 06E central arches are well known and he plans to look at 03W tomorrow. Meanwhile, Marcin is still working w/ PSM program upstairs.</pre>
+<!-- Author: Alexei Sedov -->
+
+
+<!-- Date: Thu Jul 19 19:10:56 2001 -->
+<pre>PROBLEM:  One of the Level 3 output nodes was not connecting 
+to the CSL. Specifically, b0l3u04 could not connect to b0dau32d. 
+ 
+TESTS:  b0dau32d could not be pinged from the level gateway. 
+        CSL was stopped, cleaned, checked for rogue processes, 
+	and restarted. 
+ 
+Problem persisted. 
+ 
+NEXT TRY: b0dau32 REBOOTED.  Problem  goes away. Next run  
+     	  success. 
+          Thank god my trump card worked ... 
+ 
+  
+</pre>
+<!-- Author: Ben -->
+
+
+<!-- Date: Thu Jul 19 19:22:01 2001 -->
+Done with wcal03. see <a href= 
+'/cgi/elog/det-system-elog.pl?nb=tof&action=view&page=1&frame=2&anchor=19:20:08'> 
+TOF logbook </a> 
+<!-- Author: Rolf -->
+
+
+<!-- Date: Thu Jul 19 19:28:43 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1662&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1662  width='300' align='top'></td><td>Starting new run with everything in except wcal03, ccal00, cmx00 and silicon. When in the READY state I noticed that b0l3u01's name is red. It had the following errors.</a></td></tr></table>
+<!-- Author: Andras -->
+<!-- Comment: Thu Jul 19 23;10;06 comment by...monica -->
+Done with cluster merging tests. See L2 trigger e-Logbook.
+<!-- Date: Thu Jul 19 19:30:18 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1663&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1663  width='300' align='top'></td><td>And on the b0l3007 we had the following errors... </a></td></tr></table>
+<!-- Author: Andras -->
+<!-- Comment: Thu Jul 19 19;47;50 comment by...Ilya -->
+<pre>   This and the previous screenshots of L3 node information
+display shows a known problem that started to be more frequent
+over the last several days.
+   With some probability a processor node will exit its 
+dataflow processes at the end of Warm/ColdStart. We would not
+normally worry too much about a single processor node, but when
+it exits it also generates EoR message that confuses CSL.
+You might get a window from RC/EH saying "CSL is not logging
+events anymore".
+   While we are trying to fix this problem, please restart
+the run whenever this happens and page L3 pager if it fails
+to start several times. Try to recover by simply End-&gt;WarmStart.
+</pre>
+<!-- Date: Thu Jul 19 19:45:23 2001 -->
+<pre>Trying to start a run (with everything except silicon and ccal00) 
+When Activating got the following errors 
+ 
+(RC)   19:34:41 Config -&gt; READY 
+(MLE) b0l3gate1.fnal.gov:main:7:34:56 PM-&gt;Host b0eb10.fnal.gov, task tsmDisp 
+SM-P0-E-DuplicateAck: Duplicate Load Event ack from SCPU b0eb25 for event 1. 
+(MLE) b0l3gate1.fnal.gov:main:7:34:56 PM-&gt;Host b0eb10.fnal.gov, task tsmDisp 
+SM-P0-E-DuplicateAck: Duplicate Load Event ack from SCPU b0eb13 for event 1. 
+(MLE) b0l3gate1.fnal.gov:main:7:34:56 PM-&gt;Host b0eb10.fnal.gov, task tsmDisp 
+SM-P0-E-DuplicateAck: Duplicate Load Event ack from SCPU b0eb16 for event 1. 
+ 
+Then we got the same error as the previous shift: 
+ 
+(MLE) b0l3gate1.fnal.gov:main:7:39:50 PM-&gt;Host b0eb10.fnal.gov, task tsmHot 
+SM-P0-E-ScpuUnresponsive: One or more SCPUs failed to respond to Delete Partition. Check SCRAMNet.               
+ 
+And on the End partition evb became red. Cleaning up EVB... 
+</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120877' target=_top>120877</a>) -->
+
+
+
+<!-- Date: Thu Jul 19 19:57:52 2001 -->
+<pre>Started a new run and so far we are running (13k events already)</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120878' target=_top>120878</a>) -->
+<!-- Comment: Thu Jul 19 20;00;12 comment by...Andras -->
+<pre>Everything worked fine. Arkadij has appeared and we stopped the
+run so that he could change back to the old SCPU code. </pre>
+
+
+<!-- Date: Thu Jul 19 20:02:30 2001 -->
+<pre>Switched back to old SCPU code , cleaned up EVB  
+and restrted the run </pre>
+<!-- Author: Arkadiy -->
+
+
+<!-- Date: Thu Jul 19 20:26:32 2001 -->
+<pre>PSM monitoring back online</pre>
+<!-- Author: Marcin -->
+
+
+<!-- Date: Thu Jul 19 20:31:29 2001 -->
+<pre>Started new run, so far got 50k events.</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120879' target=_top>120879</a>) -->
+<!-- Comment: Thu Jul 19 21;20;02 comment by...Andras -->
+<pre>Ending the run at 161k events to start L2 torture tests.</pre>
+
+
+<!-- Date: Thu Jul 19 21:49:35 2001 -->
+<pre>Starting L2 torture tests (changing  trigger table to  
+L2_TORTURE[1,150])</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120880' target=_top>120880</a>) -->
+<!-- Comment: Thu Jul 19 23;07;37 comment by...monica and matt -->
+<pre>Alpha crate has L1, XTRP, SVT and Cluster Interface in. Trying CLIST#2 (normally CLIST#1 is in). Observed stuck bit 19 in the first FRED L1 mask word sent to the Alpha. </pre>
+<!-- Date: Thu Jul 19 21:50:14 2001 -->
+<pre>Ben upgraded CSL and we are starting a new run for L2</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120881' target=_top>120881</a>) -->
+<!-- Comment: Thu Jul 19 22;25;17 comment by...Andras -->
+<pre>OutOfMemory error after 106k events</pre>
+<!-- Comment: Thu Jul 19 23;05;07 comment by...monica -->
+<pre>All of the events from that run are in the look area. Experts please check your data. CLIST "loses sync" at event 11614.</pre>
+<!-- Date: Thu Jul 19 21:50:49 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030>CSL now running so that it will only end data taking in a given 
+run if half of the nodes which sent a BOR also send an EOR. 
+Hopefully, this will win me some more sleep tonight ...:) 
+</td></tr></td></table>
+<!-- Author: Ben -->
+<!-- Comment: Thu Jul 19 22;33;15 comment by...Ben -->
+<pre>This was reverted back because of problems with consumers.
+See subsequent entry.
+</pre>
+<!-- Date: Thu Jul 19 22:07:26 2001 -->
+Work on IMU Scintillators: 
+ 
+East Toroid was split about 11:00. During the day 6 TSU counters 
+were replaced. All TSU counters (72) in the East Toroid are now  
+operational. We are done working within the East Toroid for this 
+week. It can be closed at any time. 
+ 
+Preparations were made to continue debugging and installing TSU  
+counters in the West Toroid tomorrow. A request has been made to  
+split the West Toroid ASAP on Friday morning, preferably by 0900.  
+We estimate 2 hrs to complete the work. The West toroid could then be closed. 
+ 
+ 
+ 
+<!-- Author: C. Bromberg -->
+
+
+
+<!-- Date: Thu Jul 19 22:32:43 2001 -->
+<pre>Consumers stopped receiving events after last CSL patch. 
+Investigating... 
+</pre>
+<!-- Author: Ben -->
+
+
+
+<!-- Date: Thu Jul 19 22:40:53 2001 -->
+<pre>Consumer Problem: 
+ 
+Although the logger can ignore EORs to some degree,  
+the consumer-send process does not.   It keeps the BORs and EORs 
+saved to send to the consumers.  When it receives 
+an EOR, it stops sending events to consumers. 
+ 
+In the previous run, level 3 sent two PEORs (Premature End of Run) 
+and the cons-send process then stopped sending out events to 
+consumers. 
+ 
+I had to revert back to the orignal code and restart 
+the CSL.</pre>
+<!-- Author: Ben -->
+
+
+<!-- Date: Thu Jul 19 22:45:20 2001 -->
+<pre>BMU Trip (NW 254). Turned it on.</pre>
+<!-- Author: Alexei Sedov -->
+
+
+<!-- Date: Thu Jul 19 22:45:58 2001 -->
+<pre>Tried to start new run. On ColdStart errlog remained yellow 
+and the individual crate recovery did not help. When hitting 
+reset the following error came out of RC: 
+ 
+2001.07.19 22:42:30 Thread group thread Thread[Thread-7,5,main] uncaught exception java.lang.ArrayIndexOutOfB 
+oundsException 
+2001.07.19 22:42:30 Free/Total memory: 11838208 29949952 
+2001.07.19 22:42:30 Thread group thread Thread[Thread-7,5,main] uncaught exception java.lang.ArrayIndexOutOfB 
+oundsException 
+2001.07.19 22:42:30 Free/Total memory: 11834032 29949952 
+2001.07.19 22:42:30 Free/Total memory: 11832040 29949952 
+2001.07.19 22:42:30 java.lang.Throwable 
+        at rc.PrintStreamMultiplexor.date(PrintStreamMultiplexor.java:53) 
+        at rc.PrintStreamMultiplexor.println(PrintStreamMultiplexor.java:221) 
+        at java.lang.Throwable.printStackTrace(Throwable.java:194) 
+        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:907) 
+        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:904) 
+java.lang.ArrayIndexOutOfBoundsException 
+2001.07.19 22:42:30 java.lang.Throwable 
+        at rc.PrintStreamMultiplexor.date(PrintStreamMultiplexor.java:53) 
+        at rc.PrintStreamMultiplexor.println(PrintStreamMultiplexor.java:205) 
+        at java.lang.Throwable.printStackTrace0(Native Method) 
+        at java.lang.Throwable.printStackTrace(Throwable.java:195) 
+        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:907) 
+        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:904) 
+        at rc.messenger$ProcessLevel3.process(messenger.java:1097) 
+2001.07.19 22:42:30 java.lang.Throwable 
+        at rc.PrintStreamMultiplexor.date(PrintStreamMultiplexor.java:53) 
+        at java.lang.Throwable.printStackTrace(Throwable.java:195)           
+ 
+(actually CSL was restarted during the partitioning and CSL 
+was partitioned separately, then the whole system was 
+ColdStarted...)</pre>
+<!-- Author: Andras :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=120882' target=_top>120882</a>) -->
+
+
+
+
+
+<!-- Date: Thu Jul 19 23:13:15 2001 -->
+<pre>Tried to start the run several times (including restarting RC), 
+but errlog always failed to pass ColdStart... Tried to do 
+individual recovery on errlog - did not succeed, tried to 
+close and reopen from RC ErrorHandler - did not help either. 
+We are running out of ideas, so we paged the expert. The  
+expert called back and told us to disable the Error Handler 
+in the expert options of RC while he investigates the problem...</pre>
+<!-- Author: Alexei and Andras -->
+
+
+<!-- Date: Thu Jul 19 23:52:09 2001 -->
+<font color=red>Shift Summary: </font><pre>At start of eve shift:    
+Magnet on. COT on. CLC back on. SVX off.  
+Monica has level 1 & 2 so we are taking cosmics  
+with the Soft. Evb. 
+Fred Lewis is working on a Si crate backplane. 
+Si is unable to implement monitors without this  
+crate and prefers to stay off until fixed. 
+Fred finished at about 8. Si could have turned 
+on at that point but no expert available until midnight. 
+Monica finished level 2 work at about 10 pm. 
+Lots of problems with the CSL (see log) 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   120870 - 120882
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             100%
+   
+</td></tr></table></pre>
+<!-- Author: G.P. -->
+
+
+<!-- Date: Fri Jul 20 00:04:06 2001 -->
+<pre>At ColdStart the ArrayIndexOutOfBounds etc error reported 2 
+ entries earlier reappears, XTRP fails ColdStart... 
+Expert called for RC. We run with only 1 crate ccal01... 
+He advised us to incrementally add some more crates and see  
+what happens...</pre>
+<!-- Author: Andras -->
+

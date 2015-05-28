@@ -1,0 +1,443 @@
+<!-- Title: Day shift. Fri Jan 23, 2004 -->
+<!-- SciCo: bauer &  fujii -->
+<!-- DAQAce: Catalin Ciobanu  -->
+<!-- MonAce: Simon Sabik -->
+<!-- CO: Matteo/Akrahm/Burkard -->
+<!-- OpManager: Mary Convery -->
+<!-- Notes: -->
+<pre>Waiting for the next shot to come.</pre>
+
+<!-- Date: Fri Jan 23 08:14:38.449 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178331">178331</A>
+TERMINATE: Plug Laser Cal BOTHPLUGS_MM_C
+<!-- Author: Tom x2080 -->
+
+
+<!-- Date: Fri Jan 23 08:16:16.506 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178333">178333</A>
+ACTIVATE: Plug Laser Cal BOTHPLUGS_MM
+<!-- Author: Tom x2080 -->
+
+
+<!-- Date: Fri Jan 23 08:24:09.778 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178333">178333</A>
+TERMINATE: End of plug calibrations
+<!-- Author: Tom x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 08:37:51.125 2004 -->
+Called MCR, at least an hour before shot setup,  
+in mean time take some cosmics.
+<!-- Author: bauer -->
+
+<!-- Date: Fri Jan 23 08:44:50.437 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178334">178334</A>
+ Activated at 2004.01.23 08:44:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 23 08:46:16.695 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178334">178334</A>
+ACTIVATE: Start of Cosmics Run: COSMIC_NOSILICON_NOTAPE, COSMICS[12,358,403]
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 09:16:15.120 2004 -->
+<b> Si post-quench checkout performed ? </b> there apparently was a quench of the tev on abort (or did the tev abort because of the quench ?) <p> 
+if it was not done, please plot the BLM FIFOs and put them into the e-log (if they are not empty), perform a post-quench checkout according to these <a href=' http://www-cdfonline.fnal.gov/internal/ops/svxii/runii/quench.html'> instructions </a> and perform the pager carrier about the quench and the ensuing quiet time.  in particular the trip of SB2W2L4 can be studied. If quiet time is >30min, it would be also good to inform  in addition the detector WGL pager# 722 8740 david clark such that he could make use of the quiet time for studies.
+<!-- Author: rainer -->
+<!-- Comment: Fri Jan 23 09;22;26 comment by...convery -->
+The store ended cleanly; there was a quench later on a dry run.
+
+<!-- Comment: Fri Jan 23 09;38;33 comment by...rainer -->
+ok, thanks. hard to tell sometimes from afar ...
+
+
+<!-- Date: Fri Jan 23 09:42:55.684 2004 -->
+Followed Rainer's instructions - went through config and got no errors. No pinkys - and the FIFOs llok fine. That is, today's date is not in the list of logged data, and FIFOs are currently empty.  
+<!-- Author: Catalin/Simon -->
+<!-- Comment: Fri Jan 23 09;53;21 comment by...rainer -->
+thank you!
+<!-- Date: Fri Jan 23 09:46:41.535 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178334">178334</A>
+ Terminated at 2004.01.23 09:46:09
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 23 09:46:42.229 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178334">178334</A>
+TERMINATE: Expert need a crate (b0mutr00)
+<!-- Author: Catalin x2080 -->
+
+
+<!-- Date: Fri Jan 23 09:51:31.177 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178335">178335</A>
+ Activated at 2004.01.23 09:50:37
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 23 09:52:31.489 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178335">178335</A>
+ACTIVATE: Start run COSMICS_NOSILICON_NOTAPE. Will end it shortly.
+<!-- Author: Catalin x2080 -->
+
+
+<!-- Date: Fri Jan 23 09:52:47.516 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178335">178335</A>
+ Terminated at 2004.01.23 09:52:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 23 09:52:54.778 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178335">178335</A>
+TERMINATE: End of run. 
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 09:53:12.498 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1774&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1775' ></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1776&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1777' ></a></center>
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Fri Jan 23 10;02;42 comment by...R.J. Tesarek -->
+<br>
+Beam current and loss behavior for protons (left) and
+antiprotons (right) as a function of time during the 
+last store.  Note the monotonic behavior for the proton 
+current (T:FBIPNG) and the erratic behavior for the 
+antiproton current (T:FBIANG).  I suspect the structure 
+for the antiproton current is an instrumentation artifact
+as I can't come up with a scenario where we gain antiprotons
+in the Tevatron. 
+<p>
+The proton and antiproton losses also appear to have a very
+different character.  The fractional width of the proton
+losses is considerably narrower than that for antiprotons.
+Further, we note significant improvements (steps) in the 
+proton losses when the E0 collimators are moved closer to the
+beam (narrowing of the fractional width of the losses).  While
+this doesn't appear to cause us (CDF) too much trouble now,
+Muon chamber trips have been correlated with spikes in 
+antiproton losses in the past.
+<br>
+<!-- Comment: Fri Jan 23 11;41;34 comment by...ronmoore -->
+The problems with the FBI are usually background-subtraction related.  Try using T:SBDAIS (antiproton intensities using the SBD).
+<!-- Date: Fri Jan 23 09:58:53.343 2004 -->
+MCR calls with 30 min warning for beam in TeV
+<!-- Author: bauer -->
+
+
+
+<!-- Date: Fri Jan 23 10:29:16.751 2004 -->
+MCR calls--protons going into Tev momentarily
+<!-- Author: bauer -->
+
+
+<!-- Date: Fri Jan 23 10:35:22.437 2004 -->
+<pre>Icicle crashed - restarted </pre>
+<!-- Author: Catalin -->
+
+
+<!-- Date: Fri Jan 23 10:57:39.733 2004 -->
+<pre>Replaced the muon matchbox card in slot 13 of b0mutr00 
+with a spare to see if it will eliminate low level  
+errors seen in xtrp->matchbox bits coming from this  
+card.  New board tests ok in situ.  Will need to take 
+a close look at trigger data at the beginning of the  
+next store.</pre>
+<!-- Author: Eric James -->
+
+
+<!-- Date: Fri Jan 23 11:38:55.354 2004 -->
+<TABLE bgcolor=#cdc9a5> 
+<TR><TH>Date</th><th>Time</th><th>BLM</th><th colspan=2>Dose</th></tr> 
+<tr><td>2004.01.23</td><td>11:38:04</td><td>W Inner BLM</td><td>0.00</td><td>RADS</td></tr> 
+<tr><td>2004.01.23</td><td>11:38:04</td><td>W Outer BLM</td><td>0.00</td><td>RADS</td></tr> 
+<tr><td>2004.01.23</td><td>11:38:04</td><td>E Inner BLM</td><td>0.00</td><td>RADS</td></tr> 
+<tr><td>2004.01.23</td><td>11:38:04</td><td>E Outer BLM</td><td>0.10</td><td>RADS</td></tr> 
+</TABLE> 
+<strong>Integrated dosage</strong>
+<!-- Author: Simon -->
+
+
+
+<!-- Date: Fri Jan 23 11:45:52.087 2004 -->
+Modified monitoring code on COT2 to fix iFix display for COT.  Colors should now work correctly.
+<!-- Author: Aseet -->
+
+<!-- Date: Fri Jan 23 11:52:16.453 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178336">178336</A>
+ACTIVATE: Start run AAA_SHOTSETUP, PHYSICS_2_01[3,402,419]
+<!-- Author: Catalin x2080 -->
+
+
+<!-- Date: Fri Jan 23 11:56:16.272 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178336">178336</A>
+TERMINATE: End of shotsetup run
+<!-- Author: Catalin x2080 -->
+
+
+<!-- Date: Fri Jan 23 12:04:35.251 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178337">178337</A>
+ACTIVATE: Start the run: AAA_SHOTSETUP, PHYSICS_TEST_2_02[5,404,422]
+<!-- Author: Catalin x2080 -->
+
+
+<!-- Date: Fri Jan 23 12:11:54.888 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178337">178337</A>
+TERMINATE: End of test run, new trigger table OK (MB-XING rate = 1.7 MHz)
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 12:14:27.451 2004 -->
+Will start AAA_SHOTSETUP run with the default trigger table until scraping is done.
+<!-- Author: Catalin -->
+
+
+<!-- Date: Fri Jan 23 12:19:22.936 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030>PINKIES, see the following <a href='http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=181&frame=2&anchor=12:00:29'> 
+Picture of IMON. </a> This is not normal!  Upon seeing this the ACE paged silicon and asked if this was normal (GOOD JOB), but I did not understand exactly how unusual this actually was.  Posting a plot would have helped.  <p>  Action taken was to take the silicon system through a coldstart which reinitalized the ladders with the correct voltages.  This cleared the condition.  
+</td></tr></td></table>
+<!-- Author: ssf -->
+
+<!-- Date: Fri Jan 23 12:20:18.232 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178338">178338</A>
+ACTIVATE: Start AAA_SHOTSETUP run, with default trigger table: PHYSICS_2_01[3,402,419]
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 12:49:14.466 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Today we have finally gone ahead for good with the new L2 Alpha bootloader software.  Unfortunately, all new L2 tagsets are needed for this to work.  I have built new executables for all of the trigger tables that appear to be in use, updated the white board, and updated the current run configurations in run control.  I have also retired every old L2 tagset which will not work with the new bootloader.  If you find that your favorite run configuration does not work anymore because it specifies a tagset which has been retired, please check the white board for the latest version.  If you don't see it there let me know and I will build a new one for you. 
+</td></tr></td></table>
+<!-- Author: Tom Wright -->
+
+<!-- Date: Fri Jan 23 13:43:04.492 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178338">178338</A>
+TERMINATE: End of run
+
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 13:55:16.240 2004 -->
+store 3187 in...scraping done...initial lum 13E30  
+<!-- Author: bauer -->
+
+
+<!-- Date: Fri Jan 23 13:59:19.643 2004 -->
+Summary of shot from Recycler from MCR elog: 
+<P> 
+12:11:34-   Attempting to load pbars. - ollie 
+<BR>-- Fri Jan 23 12:13:19 comment by...ollie --  1st transfer away. It went INTO Tev. We are looking for it now in the Tev. 
+<BR>-- Fri Jan 23 12:27:59 comment by...ollie --  It's in the Tev. 17E10 was extracted from RR. 16.9E10 made it to Tor902. T:IBEAM increased by ~10E10. It was 3 buckets early. Tev does not believe they can do anything with this & it would be dangerous to ramp & squeeze with this. They plan to get rid of this & transfer again. RR is only able to transfer 9 times, so we will be missing a transfer. 
+<BR>-- Fri Jan 23 12:39:26 comment by...ollie --  Tev used the seperators to knob the helix (~40%) to scrape the Pbars away using protons........seriously.......that's what they did. 
+<BR>-- Fri Jan 23 12:40:35 comment by...ollie --  RR still has 77E10. Is will, in fact, be able to do 9 additional transfers. <BR>12:46:41-  5.3E10 just made it into Tev (in the right bucket) 15e10 came out of RR. - ollie 
+<BR>-- Fri Jan 23 12:54:24 comment by...ollie --  2nd in Tev. MI coalescing is ~50%. Looks like we're ~1 bucket off in coalescing. Experts are adjusting it. 
+<BR>-- Fri Jan 23 13:01:16 comment by...ollie --  3rd away <BR>13:01:50-  Transfer 4 away. - ollie 
+<BR>-- Fri Jan 23 13:06:27 comment by...ollie --  Long emit is big (~3x vs. Accumulator transfers) this is limiting coalescing. This was, of course, not unexpected. 
+<BR>-- Fri Jan 23 13:09:11 comment by...ollie --  5 made it in. 
+<BR>-- Fri Jan 23 13:11:06 comment by...ollie --  Transfer 6 fell out of MI. 
+<BR>-- Fri Jan 23 13:24:16 comment by...ollie --  Transfer 6a (8th actual attempt made it). RR can only do 1 more transfer after all. 
+<BR>-- Fri Jan 23 13:29:03 comment by...ollie --  Transfer 7 (9th attempt) has made it. RR has 1 more transfer in them. 
+<BR>-- Fri Jan 23 13:32:11 comment by...ollie --  Transfer 8 (10th attempt) is in. This is all we've got. Gonna ramp & squeeze this.
+<!-- Author: convery -->
+<!-- Comment: Fri Jan 23 15;45;24 comment by...convery -->
+From the run coordinator elog:
+<P>
+14:27:26-   To make it clear, the next transfer will be a standard one from the Accumulator. The Recycler shot was a dedicated study that produced some luminosity (a pbar tax rebate). We don't have any short-term plans for additional shots from the Recycler. - JPM  
+
+
+<!-- Date: Fri Jan 23 13:59:56.418 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178339">178339</A>
+ Activated at 2004.01.23 13:59:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 23 14:01:15.762 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178339">178339</A>
+ACTIVATE: Start the run: AAA_CURRENT, PHYSICS_2_01[3,402,419]
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Fri Jan 23 14:06:11.358 2004 -->
+<pre>summary of the shot setup:  
+--------------------------------------------------------  
+Jan.23, 2004    Store 3187      Time    p       pbar  
+--------------------------------------------------------  
+                                      783.8E10  31.91E10  
+proton injection started        11:37  Ops Man Already Here 
+                 finished       11:44 
+                                11:50      CALL Silicon Ex 
+pbars start loading             12:11  (from recycler!) 
+pbars loaded                    13:32 
+Scraping end                    13:50 
+MCR called us at                13:50 
+lostP                           3.3kHz 
+lostpb                          215 kHz 
+CLC HV up (call MCR)            13:53 
+         Lumi = E30             13.1  
+H.V. (except Si) ON             13:56  
+H.V. Silicon     ON             14:00 
+Physics RUN# 178339 start       14:00 
+         Lumi = E30             12.8 E30  
+ 
+Full detector with silicon.</pre>
+<!-- Author: bauer :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178339' target=_top>178339</a>) -->
+
+
+<!-- Date: Fri Jan 23 14:10:13.602 2004 -->
+CMP bottom channel tripped (the one north of center bottom). We put it back on.
+<!-- Author: Simon :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178339' target=_top>178339</a>) -->
+<!-- Comment: Fri Jan 23 15;23;06 comment by...ps -->
+that dog <a href=
+'/cgi/elog/elog.pl?nb=2004&action=view&page=62&frame=2&anchor=14:50:08.452'>A2</A> again. Up much longer this time.
+<!-- Date: Fri Jan 23 14:10:44.463 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-1778&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-1778  width='300' align='top'></a></td><td> </td></tr></table>
+<!-- Author: Simon -->
+
+
+<!-- Date: Fri Jan 23 14:11:14.973 2004 -->
+Trigger Invibit from CMP. HV trip.  
+Run paused and resumed after fix
+<!-- Author: Catalin/Simon -->
+
+
+<!-- Date: Fri Jan 23 14:13:52.690 2004 -->
+Run Coorinator says;<BR> 
+<B>I'm hoping the luminosity lifetime is good enough to leave it 
+in for perhaps 4 hoursor so as we build the stack. </B>
+<!-- Author: Yoshiaki Fujii -->
+
+
+<!-- Date: Fri Jan 23 14:18:45.413 2004 -->
+L2 decision timeouts: 1 every 4-5 minutes (5 since the beginning of the run). Coming from Slot 12, no data from SVT. 
+<!-- Author: Catalin/Tom -->
+
+
+<!-- Date: Fri Jan 23 14:22:37.604 2004 -->
+MCR: drop store at 21:00 and then set up and shoot from accumulator
+<!-- Author: bauer -->
+
+
+<!-- Date: Fri Jan 23 14:44:30.486 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-1779&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-1779  width='300' align='top'></a></td><td>vertex z0, pbars where taken out of the recycler</td></tr></table>
+<!-- Author: Burkard -->
+
+
+<!-- Date: Fri Jan 23 15:06:33.144 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1780&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1780' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1781&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1781' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1782&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1782' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1783&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1783' width='300'></a></center>
+<!-- Author: Simon -->
+<!-- Comment: Fri Jan 23 15;36;17 comment by...Simon -->
+Proton abort gap rate spikes a lot. Notified silicon. It is not significant since BOPAGC doesn't display the same feature.
+
+
+<!-- Date: Fri Jan 23 15:39:27.161 2004 -->
+Spy_aplha failed in ProcMon. Restarted and it is fine now.
+<!-- Author: Catalin -->
+
+
+
+<!-- Date: Fri Jan 23 15:53:42.494 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-1785&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-1785  width='300' align='top'></a></td><td>B0PBSM is much wider than B0PAGC. Abort gaps should be ok. But it's unclear we see this.</td></tr></table>
+<!-- Author: Simon -->
+
+<!-- Date: Fri Jan 23 15:55:51.121 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178339>178339</A> 
+x2B8A3</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_01 [3,402,419]</TD>                                       
+<TD ALIGN=CENTER>13:59:45</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>01:46:29</TD>                                          
+<TD ALIGN=RIGHT>     50,272,870</TD>                                    
+<TD ALIGN=RIGHT>       825,634</TD>                                     
+<TD ALIGN=RIGHT>     205,463</TD>                                       
+<TD ALIGN=RIGHT>   75.566</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:02</TD>                                                       
+<TD ALIGN=CENTER>01:46:29</TD>                                          
+<TD ALIGN=RIGHT>      50,272,870</TD>                                   
+<TD ALIGN=RIGHT>        825,634</TD>                                    
+<TD ALIGN=RIGHT>       205,463</TD>                                     
+<TD ALIGN=RIGHT>   75.566</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Jan 23 16:00:47.108 2004 -->
+Trigger Inhibit from the plug HV. 
+Alison fixed in ifix; Run resumed.
+<!-- Author: Catalin/Simon/Alison -->
+
+
+<!-- Date: Fri Jan 23 16:05:12.166 2004 -->
+<font color=red>Shift Summary: </font><pre> Store 3187 came in from recycler with 13.1E30 
+ Some p-bar injections failed, so we are running 36X32 
+ 
+ CMP trip 
+ 
+ Start of run had numerous L2 time-outs....cleared up by itself 
+ 
+ Notice much spikier behavior on B0PBSM, consulted experts 
+and MCR. No conclusion yet. 
+ 
+ otherwise relatively quite 
+ 
+Date: 
+                 2004.01.23 
+ Shift: 
+                 day 
+ Delivered luminosity: 
+                 89.13 nb-1 
+ Acquired luminosity: 
+                 77.29 nb-1 
+ Efficiency: 
+                 86.72</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   178339
+Delivered Luminosity   89.13  
+Acquired Luminosity    77.29  
+Efficiency             86.72
+   
+</td></tr></table></pre>
+<!-- Author: Bauer & Fujii -->
+
+
+<!-- Date: Fri Jan 23 16:13:16.377 2004 -->
+L2 timeout from b0l2cl03. Shepherded and OK, HRR. DAQ was stuck for a couple of minutes trying to halt the run.
+<!-- Author: alison -->
+

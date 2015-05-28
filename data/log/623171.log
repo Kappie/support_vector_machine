@@ -1,0 +1,358 @@
+<!-- Title: Owl shift. Tue Jul 19, 2005 -->
+<!-- SciCo: Maxwell Chertok -->
+<!-- DAQAce: Greg Williams -->
+<!-- MonAce: Fabrizio Margaroli -->
+<!-- CO: Chunlei Liu -->
+<!-- OpManager: Sungwon Lee -->
+<!-- Notes: -->
+<pre>inherited store 4280 with b0lum 42e30 
+plan:  high efficiency data taking!</pre>
+
+
+<!-- Date: Tue Jul 19 00:13:52.306 2005 -->
+<pre>I called Sungwon, and told him that the white board is not updated for the new table. He asked me to update it. And just to be clear for shift crew, I will write them down here as well. 
+ 
+the new default tables are: 
+ 
+PHYSICS_3_05 [1,677,580]  
+PHYSICS_HIGHLUM_3_05 [1,679,581]  
+ 
+The performance of the new table are documented in the previous shift.  All look pretty good... 
+ 
+</pre>
+<!-- Author: Ted  -->
+
+
+<!-- Date: Tue Jul 19 00:21:25.993 2005 -->
+<pre>RXPT error for crate b0svx02, followed by silicon resonance. 
+L1 Accept Rate = 26.5 kHz. 
+ 
+details: 
+ 
+MLE) b0svx05:Messenger:Jul 19, 2005 12:04:47 AM->Silicon Resonator: Sl 08 Ch 4 -> e504: Bytes: 00082 
+e560 18:e580 20:e5a0 
+ 
+(MLE) b0svx00:Messenger:Jul 19, 2005 12:04:47 AM->Silicon Resonator: Sl 16 Ch 7 -> e072: Bytes: 00064 
+e080 12:e040 
+ 
+(MLE) b0svx02:Messenger:Jul 19, 2005 12:04:47 AM->Silicon Resonator: Sl 13 Ch 9 -> e254: Bytes: 00072 
+e2a0 
+ 
+CT: 2005.07.19 00:04:49 
+4'49" b0svx02:Messenger:Jul 19, 2005 12:04:47 AM->SRC Fatal Error:Sl 6 Resonance Detected  
+ -->   
+ Additional Information:  
+ 
+ Attention !!!. FERML_SRC_FATALITY ERROR !!!  
+  
+ SRC Fatal Error from b0svx02: Sl 6 Resonance Detected  
+  
+ - HALT the run                    
+ - record any relevant information in e-log      
+ - RECOVER - RUN      
+[MLE] 
+(MLW) b0cot19:Messenger:Jul 19, 2005 12:04:51 AM->No new event ... 
+(MLW) b0imu00:Messenger:Jul 19, 2005 12:04:50 AM->No new event ... 
+(MLW) b0cot13:Messenger:Jul 19, 2005 12:04:49 AM->No new event ... 
+(MLW) b0cmp00:Messenger:Jul 19, 2005 12:04:49 AM->No new event ... 
+(MLW) b0clc00:Messenger:Jul 19, 2005 12:04:47 AM->No new event ... 
+(RC)   0:04:50 Halt -> HALTED 
+CT: 2005.07.19 00:04:51 
+4'51" 1 crate/s: b0svx02(112),  in error. [RXPT] 
+(RC)   0:05:05 Recover -> RECOVERED 
+(RC)   0:05:11 Run -> ACTIVE 
+CT: 2005.07.19 00:17:55</pre>
+<!-- Author: Greg :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+
+
+<!-- Date: Tue Jul 19 00:22:00.661 2005 -->
+L2 Decision Timeout
+<!-- Author: Greg :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+<!-- Comment: Tue Jul 19 01;07;00 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 01;24;07 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 01;29;56 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 02;15;29 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 03;02;17 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 03;12;58 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 03;31;53 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 04;00;30 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 04;39;17 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 04;46;58 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 04;49;47 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 05;28;12 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 05;57;18 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 06;34;06 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 06;38;26 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 06;41;27 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 06;55;10 comment by...Greg -->
+again
+<!-- Date: Tue Jul 19 00:27:54.568 2005 -->
+Tevatron Flying Wire Scan
+<!-- Author: Greg :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+<!-- Comment: Tue Jul 19 01;28;27 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 02;27;55 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 03;27;43 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 04;27;53 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 05;27;53 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 06;27;40 comment by...Greg -->
+again
+<!-- Date: Tue Jul 19 00:29:51.212 2005 -->
+<pre>We got a PSM alarm from rack 1RR18E 1 - channel 2 voltage went down to -6.2. I masked it.</pre>
+<!-- Author: Fabrizio :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+<!-- Comment: Tue Jul 19 00;36;57 comment by...Greg -->
+This PSM alarm caused a trigger inhibit, and it didn't clear when Fabrizio masked it.  So I disabled the inhibit and did a manual Recover - Run.  After 1 minute we re-enabled the inhibit and had no further problems.  
+
+
+<!-- Date: Tue Jul 19 00:43:06.473 2005 -->
+Trigger Inhibit from pcal06 trip.  The inhibit cleared by itself after a few seconds.  I did a manual HRR, successfully.
+<!-- Author: Greg :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+<!-- Comment: Tue Jul 19 00;49;15 comment by...Fabrizio -->
+Right after that we got a PEM trip. Plug HV monitor (hv.exe) was hunging. I restarted both hvServer.exe and hv.exe, now it's cleared.
+
+
+<!-- Date: Tue Jul 19 00:58:42.912 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12318&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12318' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12319&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12319' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12320&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12320' width='300'></a></center>
+<!-- Author: Fabrizio -->
+
+
+
+
+
+
+<!-- Date: Tue Jul 19 01:53:46.526 2005 -->
+Done Timeout b0clc00, Auto HRR successful
+<!-- Author: Greg :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+<!-- Comment: Tue Jul 19 02;27;10 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 05;54;26 comment by...Greg -->
+again
+<!-- Comment: Tue Jul 19 05;56;16 comment by...Greg -->
+again
+<!-- Date: Tue Jul 19 02:19:03.442 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12321&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12321' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12322&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12322' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12323&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12323' width='300'></a></center>
+<!-- Author: Fabrizio -->
+
+
+
+
+
+
+
+
+<!-- Date: Tue Jul 19 03:39:28.160 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12324&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12324' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12325&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12325' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12326&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12326' width='300'></a></center>
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jul 19 03:52:52.268 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-12327&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-12327  width='300' align='top'></a></td><td>Pink cell. Just some fluctuations. Unmarked it.</td></tr></table>
+<!-- Author: Fabrizio -->
+<!-- Comment: Tue Jul 19 04;03;52 comment by...f -->
+actually i see that "good" values are between 0.5 and 100, while "caution" between 0.0 and 100.5. What does that mean?
+
+
+
+
+
+<!-- Date: Tue Jul 19 04:47:00.124 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12328&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12328' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12329&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12329' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12330&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12330' width='300'></a></center>
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jul 19 04:51:02.578 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-12331&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-12331  width='300' align='top'></a></td><td>Same cell as before went pink. Unmarked it.</td></tr></table>
+<!-- Author: Fabrizio -->
+<!-- Comment: Tue Jul 19 05;28;05 comment by...Fabrizio -->
+again & again & again....
+<!-- Comment: Tue Jul 19 05;35;28 comment by...f -->
+Just to be sure I had the CO check in SVXMon Cell ID Status Map and everything looks fine.
+<!-- Comment: Tue Jul 19 05;43;28 comment by...Rong-Shyang -->
+It's nothing urgent. You can ignore for this shift and ask the expert to work on it after 8am meeting.
+<!-- Date: Tue Jul 19 05:27:32.681 2005 -->
+Greg got a TOF Trip. I got no notice from either High Voltage Summary and Global Alarms windows. Looking at TOF I found that we had 160 channels trip off. They are 0-79 and 216-295. They were BLUE instead of RED. "Reset trip and turn on" did not work; I tried to turn on from the High Voltage Summary and it worked. Now it's fine.
+<!-- Author: Fabrizio :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212' target=_top>201212</a>) -->
+<!-- Comment: Tue Jul 19 05;49;58 comment by...Greg -->
+<pre>Here's some more details from the daq side:  
+
+(MLW) b0dap73.fnal.gov:Thread-42:Jul 19, 2005 5:04:20 AM->Inhibit flag SET : [TOF00 Trip]
+(RC)   5:04:32 Halt -> HALTED
+(MLW) b0dap73.fnal.gov:Thread-42:Jul 19, 2005 5:04:37 AM->Inhibit flag CLEAR 
+(MLW) b0dap73.fnal.gov:Thread-42:Jul 19, 2005 5:04:45 AM->Inhibit flag SET : [TOF:HV iFix]
+(RC)   5:05:16 Recover -> RECOVERED
+(RC)   5:10:40 Run -> ACTIVE
+(RC)   5:11:14 Halt -> HALTED
+(MLW) b0dap73.fnal.gov:Thread-42:Jul 19, 2005 5:11:21 AM->Inhibit flag CLEAR 
+(RC)   5:11:25 Recover -> RECOVERED
+(RC)   5:11:52 Run -> ACTIVE
+(MLW) b0dap73.fnal.gov:Thread-42:Jul 19, 2005 5:15:59 AM->Inhibit flag SET : [TOF:HV ifix]
+(RC)   5:16:10 Halt -> HALTED
+(MLW) b0dap73.fnal.gov:Thread-42:Jul 19, 2005 5:16:12 AM->Inhibit flag CLEAR 
+(RC)   5:16:26 Recover -> RECOVERED
+(RC)   5:16:31 Run -> ACTIVE
+
+So all in all there were 3 inhibits that were set and cleared.  </pre>
+
+
+
+
+
+<!-- Date: Tue Jul 19 06:08:10.142 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12332&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12332' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12333&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12333' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12334&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12334' width='300'></a></center>
+<!-- Author: Fabrizio -->
+
+
+
+
+
+
+<!-- Date: Tue Jul 19 07:01:25.348 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212">201212</A>
+ Terminated at 2005.07.19 07:01:16
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jul 19 07:04:31.939 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212">201212</A>
+TERMINATE: Store lost
+<!-- Author: Greg x2080 -->
+
+
+
+<!-- Date: Tue Jul 19 07:04:50.568 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-12335&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-12335  width='300' align='top'></a></td><td>BLM summary plot.</td></tr></table>
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jul 19 07:05:38.408 2005 -->
+Tev Anode supply tripped about 5 minutes ago. 
+Store gone. 
+Paged Ops Man and Silicon SPL
+<!-- Author: chertok -->
+<!-- Comment: Tue Jul 19 07;10;10 comment by...chertok -->
+Silicon SPL told us to do post quench checkout.  Greg started it.
+
+Markus Klute also called.  Said he'll be in around 8.
+
+<!-- Comment: Tue Jul 19 07;11;55 comment by...chertok -->
+There was no quench, by the way.
+
+<!-- Comment: Tue Jul 19 07;13;23 comment by...chertok -->
+Ops Man tells us to start calibrations.
+
+
+<!-- Comment: Tue Jul 19 07;23;43 comment by...Fabrizio -->
+you're right!Well, it won't harm....
+<!-- Date: Tue Jul 19 07:22:47.729 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12336&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12336' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12337&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12337' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-12338&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-12338' width='300'></a></center>
+<!-- Author: Fabrizio -->
+
+<!-- Date: Tue Jul 19 07:23:12.468 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201213">201213</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL plug laser calibration
+<!-- Author: Greg x2080 -->
+<!-- Comment: Tue Jul 19 07;53;32 comment by...Chunlei Liu -->
+checked, looks fine.
+<!-- Date: Tue Jul 19 07:31:35.657 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201213">201213</A>
+TERMINATE: End Plug Laser Calibration: Normal mode
+<!-- Author: Greg x2080 -->
+
+
+<!-- Date: Tue Jul 19 07:33:13.209 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201214">201214</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C Plug Laser Calibration
+<!-- Author: Greg x2080 -->
+<!-- Comment: Tue Jul 19 07;53;55 comment by...Chunlei Liu -->
+checked,looks fine.
+<!-- Date: Tue Jul 19 07:35:31.913 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201214">201214</A>
+TERMINATE: End Plug laser calibration MM_C mode
+<!-- Author: Greg x2080 -->
+
+
+<!-- Date: Tue Jul 19 07:38:57.864 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201215">201215</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM plug laser calibration
+<!-- Author: Greg x2080 -->
+<!-- Comment: Tue Jul 19 07;54;15 comment by...Chunlei Liu -->
+checked,looks fine.
+<!-- Date: Tue Jul 19 07:43:22.626 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201215">201215</A>
+TERMINATE: end calibration plug laser MM 
+<!-- Author: Greg x2080 -->
+
+
+
+
+
+<!-- Date: Tue Jul 19 07:55:59.151 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=201212>201212</A> 
+x311FC</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_3_05 [1,677,580]</TD>                                       
+<TD ALIGN=CENTER>15:13:20</TD>                                          
+<TD ALIGN=CENTER>07:01:16</TD>                                          
+<TD ALIGN=CENTER>14:26:37</TD>                                          
+<TD ALIGN=RIGHT>  1,161,177,591</TD>                                    
+<TD ALIGN=RIGHT>    15,192,920</TD>                                     
+<TD ALIGN=RIGHT>   3,847,419</TD>                                       
+<TD ALIGN=RIGHT> 2559.113</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:01</TD>                                                       
+<TD ALIGN=CENTER>14:26:37</TD>                                          
+<TD ALIGN=RIGHT>   1,161,177,591</TD>                                   
+<TD ALIGN=RIGHT>     15,192,920</TD>                                    
+<TD ALIGN=RIGHT>     3,847,419</TD>                                     
+<TD ALIGN=RIGHT> 2559.113</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+<!-- Comment: Wed Jul 20 00;45;34 comment by...Chertok -->
+<table border=0><td><tr><td bgcolor=#e0e030>Shift summary for this OWL shift inadvertantly posted to previous shift elog (DAY).  See there for all the details.</td></tr></td></table>

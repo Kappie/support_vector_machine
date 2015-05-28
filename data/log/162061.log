@@ -1,0 +1,528 @@
+<!-- Title: Day shift. Sat Jul  9, 2005 -->
+<!-- SciCo: Beate Heinemann -->
+<!-- DAQAce: Clark Cullly -->
+<!-- MonAce: Collin Wolfe -->
+<!-- CO: Athanasios Staveris -->
+<!-- OpManager: Aron Soha -->
+<!-- Notes: -->
+<pre>Store 4254 at L=15E30. Store will be dropped at 11am and a new shot will be prepared
+using only the accumulator</pre>
+
+
+<!-- Date: Sat Jul 9 08:22:42.403 2005 -->
+L2 Decision TO. Auto HRR'd. 
+<!-- Author: Clark Cully :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725' target=_top>200725</a>) -->
+<!-- Comment: Sat Jul  9 08;57;15 comment by...Clark Cully -->
+Again
+<!-- Comment: Sat Jul  9 09;16;25 comment by...Clark Cully -->
+Again
+<!-- Date: Sat Jul 9 08:29:03.281 2005 -->
+Flying wire scan.
+<!-- Author: Clark Cully :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725' target=_top>200725</a>) -->
+<!-- Comment: Sat Jul  9 08;29;56 comment by...Clark Cully -->
+Brief RPS HV inhibit. 
+
+
+<!-- Date: Sat Jul 9 08:31:02.222 2005 -->
+Got an RPS alarm. It went away.
+<!-- Author: collin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725' target=_top>200725</a>) -->
+
+
+<!-- Date: Sat Jul 9 08:35:07.560 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11667&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11667' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11668&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11668' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11669&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11669' width='300'></a></center>
+<!-- Author: collin -->
+<!-- Comment: Sat Jul  9 08;35;34 comment by...collin -->
+hourly plots: 7:30-8:30
+
+
+
+
+<!-- Date: Sat Jul 9 09:29:13.545 2005 -->
+Flying wire scan
+<!-- Author: Clark Cully :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725' target=_top>200725</a>) -->
+<!-- Comment: Sat Jul  9 10;29;05 comment by...Clark Cully -->
+Again
+<!-- Date: Sat Jul 9 09:31:53.170 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11670&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11670' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11671&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11671' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11672&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11672' width='300'></a></center>
+<!-- Author: collin -->
+<!-- Comment: Sat Jul  9 09;32;30 comment by...collin -->
+hourly plots: 8:30-9:30
+
+
+
+<!-- Date: Sat Jul 9 10:30:58.363 2005 -->
+PSM warning in 1RR06C 1 -- no response from crate. cleared itself.
+<!-- Author: collin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725' target=_top>200725</a>) -->
+
+
+<!-- Date: Sat Jul 9 10:33:04.121 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11673&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11673' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11674&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11674' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11675&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11675' width='300'></a></center>
+<!-- Author: collin -->
+<!-- Comment: Sat Jul  9 10;33;28 comment by...collin -->
+hourly plots: 9:30-10:30
+
+<!-- Date: Sat Jul 9 10:52:04.507 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725">200725</A>
+ Terminated at 2005.07.09 10:51:37
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jul 9 10:52:05.832 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725">200725</A>
+ Terminated at 2005.07.09 10:51:38
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jul 9 10:52:16.148 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725">200725</A>
+TERMINATE: End of Store 4254
+<!-- Author: Clark  x8020 -->
+
+
+
+<!-- Date: Sat Jul 9 11:00:08.750 2005 -->
+ramped down high voltages.
+<!-- Author: collin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725' target=_top>200725</a>) -->
+
+
+<!-- Date: Sat Jul 9 11:04:20.829 2005 -->
+MCR dropped the store. They will go into the next shot setup without any quiet time. This will be an accumulator only shot: the stack is 150E10.
+<!-- Author: Beate -->
+
+<!-- Date: Sat Jul 9 11:04:44.030 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200726">200726</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:05:39.754 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200726">200726</A>
+TERMINATE: End of Calorimeter calib run. 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:07:41.666 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200727">200727</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:08:47.083 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200727">200727</A>
+TERMINATE: End of CLC QIE calib run. 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:11:13.372 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200728">200728</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:11:51.180 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200728">200728</A>
+TERMINATE: End of BSC QIE calib run. 
+<!-- Author: Clark  x8020 -->
+
+
+
+<!-- Date: Sat Jul 9 11:12:20.966 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11676&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11676' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11677&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11677' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11678&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11678' width='300'></a></center>
+<!-- Author: collin -->
+<!-- Comment: Sat Jul  9 11;12;46 comment by...collin -->
+End of store plots: 10:30-11:00
+
+<!-- Date: Sat Jul 9 11:13:25.443 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200729">200729</A>
+ACTIVATE: RunSet: CALIB_RP_SMQIE 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:14:32.091 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200729">200729</A>
+TERMINATE: End of Roman Pot SMQIE calib run. 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:17:29.926 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200730">200730</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:18:15.275 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200730">200730</A>
+TERMINATE: End of TOF QIE calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:43.214 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200731">200731</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:44.939 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200731">200731</A>
+TERMINATE: End SMX QIE calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:45.785 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200732">200732</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:46.844 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200732">200732</A>
+TERMINATE: End CEM LED calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:47.170 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200733">200733</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:48.345 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200733">200733</A>
+TERMINATE: End COT calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:31:49.613 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200734">200734</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:33:30.349 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200734">200734</A>
+TERMINATE: End of CEM XEF caib. 
+<!-- Author: Clark  x8020 -->
+
+
+
+<!-- Date: Sat Jul 9 11:33:30.249 2005 -->
+Starting EVB upgrade work as soon as calibrations are done.
+<!-- Author: markus -->
+
+<!-- Date: Sat Jul 9 11:35:55.278 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200735">200735</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:38:07.650 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200735">200735</A>
+TERMINATE: End CEM LED calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:38:08.802 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200736">200736</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:38:09.279 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200736">200736</A>
+TERMINATE: End COT calib. 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:42:24.770 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200737">200737</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:42:25.852 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200737">200737</A>
+TERMINATE: End COT calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 11:51:33.314 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200738">200738</A>
+TERMINATE: EVB upgrade: TM2 test 
+<!-- Author: markus -->
+
+
+
+<!-- Date: Sat Jul 9 11:53:22.426 2005 -->
+<table><tr><td><a href=/elog/notebooks/2005/Sat_Jul__9_2005_Day.115315.ps align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-11680  align='top'></a></td><td>/n 
+bad channels</td></tr></table>
+<!-- Author: staveris -->
+
+
+<!-- Date: Sat Jul 9 12:07:14.180 2005 -->
+After checking the CLC1 PC on shot setup check list, I noticed CPR HV was on. Turned back to standby.
+<!-- Author: collin -->
+
+
+<!-- Date: Sat Jul 9 12:14:56.874 2005 -->
+channel 11 Detector PEM gives slop 0. 
+This is a known problem
+<!-- Author: staveris :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER= 200726' target=_top> 200726</a>) -->
+
+<!-- Date: Sat Jul 9 12:24:26.659 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200741">200741</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,623,539] test with TM interface
+<!-- Author: markus -->
+
+
+
+<!-- Date: Sat Jul 9 12:33:13.414 2005 -->
+From COT calibration 
+gto message: 
+ 
+his calibration is o.k. 
+*** Timing has drifted, constants updated (i.e new COMPLETE file written to DB)*** 
+ 
+Out of the last 10 calibrations, constants have been updated 9 times 
+ 
+David Ambrose should be informed.  
+<!-- Author: staveris :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200736' target=_top>200736</a>) -->
+
+<!-- Date: Sat Jul 9 12:49:51.896 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200741">200741</A>
+TERMINATE: EVB rate test. Decrease L1 acc rate to 20K and increase L2 acc in steps to 680Hz. At this rate the system is limited by the TSI ~10% deadtime.
+<!-- Author: markus -->
+
+
+
+<!-- Date: Sat Jul 9 12:52:10.239 2005 -->
+<pre>Not much progress in the shot setup: still only few protons in the Tevatron.</pre>
+<!-- Author: Beate -->
+
+<!-- Date: Sat Jul 9 13:00:31.370 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200742">200742</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,623,579] "L3" torture 
+<!-- Author: markus -->
+
+
+<!-- Date: Sat Jul 9 13:06:27.138 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200742">200742</A>
+TERMINATE: Done!!! TSI does not want to go faster than 700Hz. New L3 trigger description for L3 torture works.
+<!-- Author: markus -->
+
+
+<!-- Date: Sat Jul 9 13:19:59.112 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200743">200743</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,623,539] 
+<!-- Author: markus -->
+
+
+
+<!-- Date: Sat Jul 9 13:20:18.319 2005 -->
+<pre>Tested the TM and TM2 communitcation and ran some rate tests. 
+System is back to default, but w/o L3 Subfarm 8 and 16 which will be used for debugging later today.</pre>
+<!-- Author: markus -->
+<!-- Comment: Sat Jul  9 13;27;13 comment by...Ted -->
+<pre>Markus:  maybe it is worth to do a test with the exisitng EVB and system in this "L3 torture" mode and see how the numbers look. this may have been done in the past, or may not, but it is worth to get the numbers with the system we have now. it shouldn't take long. </pre>
+<!-- Date: Sat Jul 9 13:20:47.071 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200743">200743</A>
+TERMINATE: test default system in L2T run.
+<!-- Author: markus -->
+
+
+
+<!-- Date: Sat Jul 9 13:30:17.372 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200744">200744</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 13:30:18.985 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200744">200744</A>
+TERMINATE: End CEM XEF calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 13:37:24.302 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200745">200745</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 13:37:25.878 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200745">200745</A>
+TERMINATE: End Muon calib.
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 13:37:26.526 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200746">200746</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 13:44:28.969 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200746">200746</A>
+TERMINATE: End TOF TAC calib.
+<!-- Author: Clark  x8020 -->
+
+
+
+<!-- Date: Sat Jul 9 13:54:52.824 2005 -->
+TOF TAC calibration OK
+<!-- Author: staveris :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200746' target=_top>200746</a>) -->
+
+<!-- Date: Sat Jul 9 13:59:06.833 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200748">200748</A>
+ Activated at 2005.07.09 13:57:22
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jul 9 13:59:07.083 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200748">200748</A>
+ACTIVATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,620,538] 
+<!-- Author: Clark  x8020 -->
+
+
+
+<!-- Date: Sat Jul 9 14:25:03.313 2005 -->
+Still no sign of progress with beams. In MCR e-log they say that they are "having problems with reverse proton tuneup for Pbar".
+<!-- Author: Beate -->
+
+<!-- Date: Sat Jul 9 15:06:42.962 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200748">200748</A>
+ Terminated at 2005.07.09 15:06:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jul 9 15:06:43.924 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200748">200748</A>
+TERMINATE: Switching to shot setup. 
+<!-- Author: Clark  x8020 -->
+
+
+
+<!-- Date: Sat Jul 9 15:06:43.471 2005 -->
+Finally we got protons!
+<!-- Author: Beate -->
+
+
+<!-- Date: Sat Jul 9 15:07:43.890 2005 -->
+<TABLE bgcolor=#cdc9a5> 
+<TR><TH>Date</th><th>Time</th><th>BLM</th><th colspan=2>Dose</th></tr> 
+<tr><td>2005.07.09</td><td>15:04:50</td><td>W Inner BLM</td><td>0.19</td><td>RADS</td></tr> 
+<tr><td>2005.07.09</td><td>15:04:50</td><td>W Outer BLM</td><td>0.00</td><td>RADS</td></tr> 
+<tr><td>2005.07.09</td><td>15:04:50</td><td>E Inner BLM</td><td>0.11</td><td>RADS</td></tr> 
+<tr><td>2005.07.09</td><td>15:04:50</td><td>E Outer BLM</td><td>0.24</td><td>RADS</td></tr> 
+</TABLE> 
+<strong>Integrated dosage</strong>
+<!-- Author: collin -->
+
+
+<!-- Date: Sat Jul 9 15:14:40.284 2005 -->
+Proton bunches are loaded
+<!-- Author: Beate -->
+
+<!-- Date: Sat Jul 9 15:19:52.392 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200749">200749</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_3_04 [1,670,576] 
+<!-- Author: Clark  x8020 -->
+
+
+<!-- Date: Sat Jul 9 15:39:15.596 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200749">200749</A>
+TERMINATE: Need to verify Dynamic Prescale resources have been added to this partition.
+<!-- Author: Clark  x8020 -->
+<!-- Comment: Sat Jul  9 15;44;32 comment by...Clark Cully -->
+Someone left open a process on dap74 which was using the Dynamic Prescaling Resource, listed as rc partition 16. All xterms and monitors were closed, and the resource recovered for partion 0.
+<!-- Date: Sat Jul 9 15:39:51.011 2005 -->
+Pbars are done. They lost 4 bunches though: so we run 32x36!
+<!-- Author: Beate -->
+
+
+
+<!-- Date: Sat Jul 9 15:45:26.247 2005 -->
+Heap corrupt on cot01. Crate was shepherded. 
+<!-- Author: Clark Cully :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200750' target=_top>200750</a>) -->
+
+<!-- Date: Sat Jul 9 15:55:51.021 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200725>200725</A> 
+x31015</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_3_04 [1,670,576]</TD>                                       
+<TD ALIGN=CENTER>02:30:49</TD>                                          
+<TD ALIGN=CENTER>10:51:38</TD>                                          
+<TD ALIGN=CENTER>07:41:53</TD>                                          
+<TD ALIGN=RIGHT>    362,126,612</TD>                                    
+<TD ALIGN=RIGHT>     4,069,145</TD>                                     
+<TD ALIGN=RIGHT>   1,219,299</TD>                                       
+<TD ALIGN=RIGHT>  452.252</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:01</TD>                                                       
+<TD ALIGN=CENTER>07:41:53</TD>                                          
+<TD ALIGN=RIGHT>     362,126,612</TD>                                   
+<TD ALIGN=RIGHT>      4,069,145</TD>                                    
+<TD ALIGN=RIGHT>     1,219,299</TD>                                     
+<TD ALIGN=RIGHT>  452.252</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sat Jul 9 15:57:15.682 2005 -->
+Colliding beams: initial Lumi=72.4E30
+<!-- Author: Beate -->
+
+
+<!-- Date: Sat Jul 9 15:59:51.147 2005 -->
+<font color=red>Shift Summary: </font><pre>- store 4552 was droped at 11am. We were running smmothly until then 
+                                                                                 
+- Markus Klute worked on the event builder in between stores 
+                                                                                 
+- MCR had some problems getting the new shot in but we got it then 
+at 3.45pm. They shot only from the accumulator and thus the initial lumi was not great: L=72.4E30 
+ 
+- some DAQ problems at the end of the shift which are still being resolved</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   200719, 200725
+Delivered Luminosity   156.7  
+Acquired Luminosity    145.5  
+Efficiency             92.9
+   
+</td></tr></table></pre>
+<!-- Author: Beate -->
+
+
+<!-- Date: Sat Jul 9 16:11:44.429 2005 -->
+Several HV trips in L00 and ISL. L00 East Wedge 2 & 3. ISL Barrel 4 Wedge 4 & 5. ISL Barrel 5 Wedge 2. Jumped the gun and paged Silicon. Followed instructions to reset trips, but L00 didn't respond. Error message was: Could not turn on poser. DVDD3 Overcurrent. So as per Rong, I turned on channels 0-3 by hand. 
+ 
+Also four cells in L00 turned red. Unmarked and they went away.
+<!-- Author: collin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200750' target=_top>200750</a>) -->

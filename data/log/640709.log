@@ -1,0 +1,489 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2006.5.9)  22 AUG 2006 14:29
+**RBUPforRun7andBeyond
+(./RBUPforRun7andBeyond.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/01/22 v6.73n Hypertext links for LaTeX
+\@linkdim=\dimen107
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/01/22 v6.73n Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 1744.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 1744
+.
+Package hyperref Info: Hyper figures OFF on input line 1792.
+Package hyperref Info: Link nesting OFF on input line 1797.
+Package hyperref Info: Hyper index ON on input line 1800.
+Package hyperref Info: Plain pages ON on input line 1805.
+Package hyperref Info: Backreferencing ON on input line 1810.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 1916.
+(/usr/share/texmf/tex/latex/hyperref/backref.sty
+Package: backref 2002/06/09 v1.20 Bibliographical back referencing
+)
+(/usr/share/texmf/tex/latex/html/url.sty
+Package: url 1999/03/02  ver 1.4  Verb mode for urls, email addresses, and file
+ names
+)
+LaTeX Info: Redefining \url on input line 2055.
+\Fld@menulength=\count90
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+\Choice@toks=\toks15
+\Field@toks=\toks16
+Package hyperref Info: Hyper figures OFF on input line 2513.
+Package hyperref Info: Link nesting OFF on input line 2518.
+Package hyperref Info: Hyper index ON on input line 2521.
+Package hyperref Info: backreferencing ON on input line 2526.
+Package hyperref Info: Link coloring OFF on input line 2533.
+\c@Item=\count91
+\c@Hfootnote=\count92
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2003/01/22 v6.73n Hyperref driver for pdfTeX
+
+(/usr/share/texmf/tex/latex/psnfss/pifont.sty
+Package: pifont 2002/09/08 PSNFSS-v9.0a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 62.
+
+(/usr/share/texmf/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 63.
+
+(/usr/share/texmf/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\Fld@listcount=\count93
+\@outlinefile=\write3
+) (./RBUPforRun7andBeyond.aux)
+\openout1 = `RBUPforRun7andBeyond.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count94
+\scratchcounter=\count95
+\scratchtoks=\toks17
+\scratchdimen=\dimen110
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write4
+\zeropoint=\dimen111
+\minusone=\count96
+\thousandpoint=\dimen112
+\emptytoks=\toks18
+\nextbox=\box27
+\nextdepth=\dimen113
+\everyline=\toks19
+\!!counta=\count97
+\!!countb=\count98
+\recursecounter=\count99
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPtoPDFconversion=\toks20
+)
+Package hyperref Info: Link coloring OFF on input line 46.
+ (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
+\c@section@level=\count102
+)
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+ (./RBUPforRun7andBeyond.out) (./RBUPforRun7andBeyond.out)
+\openout3 = `RBUPforRun7andBeyond.out'.
+
+ [1
+
+{/usr/share/texmf/dvips/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 95.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 95.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 95.
+
+[2] <PHENIXRun6.png, id=187, 374.8404pt x 427.8384pt>
+File: PHENIXRun6.png Graphic file (type png)
+ <use PHENIXRun6.png>
+<HBDPrototype.png, id=188, 392.1852pt x 295.8252pt>
+File: HBDPrototype.png Graphic file (type png)
+ <use HBDPrototype.png>
+[3] <MPCPhiAsymmetry.png, id=210, 346.19661pt x 216.22717pt>
+File: MPCPhiAsymmetry.png Graphic file (type png)
+
+<use MPCPhiAsymmetry.png>
+<Run6L2PairSpectra.png, id=211, 307.3884pt x 445.665pt>
+File: Run6L2PairSpectra.png Graphic file (type png)
+
+<use Run6L2PairSpectra.png> <Pi0EtaRun6.png, id=212, 529.0164pt x 456.2646pt>
+File: Pi0EtaRun6.png Graphic file (type png)
+
+<use Pi0EtaRun6.png>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 183.
+
+ (/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 183.
+ [4 <./PHENIXRun6.png>] <AccumulatedLumRun6.png, id=223, 637.4214pt x 451.4466p
+t>
+File: AccumulatedLumRun6.png Graphic file (type png)
+
+<use AccumulatedLumRun6.png> <FOMRun6.png, id=224, 634.0488pt x 439.4016pt>
+File: FOMRun6.png Graphic file (type png)
+
+<use FOMRun6.png> [5 <./HBDPrototype.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 263.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 263.
+
+<UpgradesSchedulePhysics.png, id=243, 505.89pt x 311.7246pt>
+File: UpgradesSchedulePhysics.png Graphic file (type png)
+
+<use UpgradesSchedulePhysics.png> [6 <./MPCPhiAsymmetry.png>]
+<Run4ElectronPairs.png, id=258, 485.56406pt x 467.49657pt>
+File: Run4ElectronPairs.png Graphic file (type png)
+
+<use Run4ElectronPairs.png>
+<HBDBackgroundRejection.png, id=259, 465.9006pt x 449.5194pt>
+File: HBDBackgroundRejection.png Graphic file (type png)
+
+<use HBDBackgroundRejection.png> [7 <./Run6L2PairSpectra.png> <./Pi0EtaRun6.png
+>] [8 <./AccumulatedLumRun6.png> <./FOMRun6.png>]
+<MPCSouth.png, id=276, 234.8775pt x 176.15813pt>
+File: MPCSouth.png Graphic file (type png)
+ <use MPCSouth.png>
+<MPCSpectrum.png, id=277, 355.5684pt x 289.5618pt>
+File: MPCSpectrum.png Graphic file (type png)
+ <use MPCSpectrum.png>
+[9] <RXNPDrawing3D.png, id=285, 529.98pt x 414.79968pt>
+File: RXNPDrawing3D.png Graphic file (type png)
+
+<use RXNPDrawing3D.png>
+<RXNPResolution.png, id=286, 444.58955pt x 301.34009pt>
+File: RXNPResolution.png Graphic file (type png)
+
+<use RXNPResolution.png> [10 <./UpgradesSchedulePhysics.png>]
+<TOFWTiming.png, id=295, 324.2514pt x 219.7008pt>
+File: TOFWTiming.png Graphic file (type png)
+ <use TOFWTiming.png>
+<TOFWInstallation.png, id=296, 277.78781pt x 210.03468pt>
+File: TOFWInstallation.png Graphic file (type png)
+
+<use TOFWInstallation.png> [11 <./Run4ElectronPairs.png> <./HBDBackgroundReject
+ion.png>] [12 <./MPCSouth.png> <./MPCSpectrum.png> <./RXNPDrawing3D.png> <./RXN
+PResolution.png>]
+Overfull \hbox (5.57538pt too wide) in paragraph at lines 431--434
+[]/cmbx12/Nose-Cone Calorime-ter (NCC)/cmr12/, a Si-W calorime-ter re-places th
+e cur-rent PHENIX
+ []
+
+[13 <./TOFWTiming.png> <./TOFWInstallation.png>] [14] [15
+
+] [16] [17] [18
+
+]
+[19] <RAA_gam_pi0_eta.png, id=362, 581.92406pt x 405.76593pt>
+File: RAA_gam_pi0_eta.png Graphic file (type png)
+
+<use RAA_gam_pi0_eta.png>
+<PHENIXFocusElectronFlow.png, id=363, 397.485pt x 403.7484pt>
+File: PHENIXFocusElectronFlow.png Graphic file (type png)
+
+<use PHENIXFocusElectronFlow.png> [20 <./RAA_gam_pi0_eta.png>] [21 <./PHENIXFoc
+usElectronFlow.png>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 818.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\@ifnextchar' on input line 818.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 818.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 818.
+
+[22] <Horowitz06.png, id=386, 349.524pt x 333.756pt>
+File: Horowitz06.png Graphic file (type png)
+ <use Horowitz06.png>
+<CurrentPi0Raa.png, id=387, 548.0475pt x 323.2075pt>
+File: CurrentPi0Raa.png Graphic file (type png)
+ <use CurrentPi0Raa.png>
+<FourTimesPi0Raa.png, id=388, 548.0475pt x 323.2075pt>
+File: FourTimesPi0Raa.png Graphic file (type png)
+
+<use FourTimesPi0Raa.png>
+<Pi0v2CurrentStat.png, id=389, 497.86pt x 323.2075pt>
+File: Pi0v2CurrentStat.png Graphic file (type png)
+
+<use Pi0v2CurrentStat.png>
+<Pi0v2FourTimesStat.png, id=390, 497.86pt x 323.2075pt>
+File: Pi0v2FourTimesStat.png Graphic file (type png)
+
+<use Pi0v2FourTimesStat.png> [23] [24 <./Horowitz06.png>] [25 <./CurrentPi0Raa.
+png> <./FourTimesPi0Raa.png>] [26 <./Pi0v2CurrentStat.png> <./Pi0v2FourTimesSta
+t.png>] [27] <pi0AN.pdf, id=442, 569.12625pt x 408.52625pt>
+File: pi0AN.pdf Graphic file (type pdf)
+ <use pi0AN.pdf>
+<b2b-AN.pdf, id=443, 585.18625pt x 439.6425pt>
+File: b2b-AN.pdf Graphic file (type pdf)
+ <use b2b-AN.pdf> [28]
+<pi0_all_1.pdf, id=459, 790.955pt x 567.11874pt>
+File: pi0_all_1.pdf Graphic file (type pdf)
+ <use pi0_all_1.pdf> [29 <./pi0AN.pdf>] <pi0_errors.pdf, id=488, 569.12625pt x 
+599.23875pt>
+File: pi0_errors.pdf Graphic file (type pdf)
+
+<use pi0_errors.pdf> [30 <./b2b-AN.pdf>] [31 <./pi0_all_1.pdf>] [32 <./pi0_erro
+rs.pdf>] [33] <dphoton.pdf, id=553, 614.295pt x 794.97pt>
+File: dphoton.pdf Graphic file (type pdf)
+ <use dphoton.pdf>
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\hbox' on input line 1328.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 1328.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\@ifnextchar' on input line 1328.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 1328.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 1328.
+
+<JPsiAlphaPt2.png, id=554, 340.6326pt x 469.12105pt>
+File: JPsiAlphaPt2.png Graphic file (type png)
+ <use JPsiAlphaPt2.png>
+<JPsiRdAu.png, id=555, 405.6756pt x 425.01643pt>
+File: JPsiRdAu.png Graphic file (type png)
+ <use JPsiRdAu.png> [34]
+[35 <./dphoton.pdf>] <JPsiDAuAbs.png, id=581, 529.98pt x 487.5816pt>
+File: JPsiDAuAbs.png Graphic file (type png)
+
+<use JPsiDAuAbs.png> <JPsiAAAbs.png, id=582, 535.7616pt x 424.9476pt>
+File: JPsiAAAbs.png Graphic file (type png)
+
+<use JPsiAAAbs.png> [36 <./JPsiAlphaPt2.png> <./JPsiRdAu.png>] [37 <./JPsiDAuAb
+s.png> <./JPsiAAAbs.png>] [38]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\hbox' on input line 1468.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 1468.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\@ifnextchar' on input line 1468.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 1468.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 1468.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\hbox' on input line 1488.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 1488.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\@ifnextchar' on input line 1488.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 1488.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 1488.
+
+[39] [40] [41] (./RBUP07bib.tex (./RBUPforRun7andBeyond.brf)
+\tf@brf=\write5
+\openout5 = `RBUPforRun7andBeyond.brf'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations / RBUP99 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations / RBUP00 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations / RBUP03 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations / RBUP04 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]$/cmtt10@10.95pt/http : / / www . phenix . bnl . gov / phenix / WWW / publish
+ / zajc / sp / presentations / RBUP05 /
+ []
+
+[42
+
+]
+Underfull \hbox (badness 2134) in paragraph at lines 68--68
+/cmr12/June 1, 2006, avail-able from []$/cmtt12/http : / / www . agsrhichome . 
+bnl . gov / RHIC / Runs /
+ []
+
+[43]) [44] (./RBUPforRun7andBeyond.aux) ) 
+Here is how much of TeX's memory you used:
+ 3046 strings out of 95437
+ 41752 string characters out of 1190234
+ 95199 words of memory out of 1000001
+ 5853 multiletter control sequences out of 10000+50000
+ 11098 words of font info for 39 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 32i,10n,40p,939b,335s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 722 PDF objects out of 300000
+ 152 named destinations out of 131072
+ 442 words of extra memory for PDF output out of 65536
+{/usr/share/texmf/dvips/tetex/09fbbfac
+.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmtt12.pfb></usr/share/texmf/font
+s/type1/bluesky/cm/cmtt10.pfb>{/usr/share/texmf/dvips/tetex/bbad153f.enc}</usr/
+share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb>{/usr/share/texmf/dvips/tetex/aae4
+43f0.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/
+fonts/type1/bluesky/cm/cmmi6.pfb>{/usr/share/texmf/dvips/tetex/f7b6d320.enc}</u
+sr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bl
+uesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/shar
+e/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky
+/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/tex
+mf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
+mmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/
+fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx1
+0.pfb>{/usr/share/texmf/dvips/tetex/74afc74c.enc}</usr/share/texmf/fonts/type1/
+bluesky/cm/cmti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb>
+Output written on RBUPforRun7andBeyond.pdf (44 pages, 5607848 bytes).

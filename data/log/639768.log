@@ -1,0 +1,529 @@
+<!-- Title: Owl shift. Fri Mar 14, 2008 -->
+<!-- SciCo: Fumihiko Ukegawa -->
+<!-- DAQAce: Elisa Pueschel -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Mark Hartz -->
+<!-- OpManager: Alon Attal -->
+<!-- Notes: -->
+<pre>Shot setup.</pre>
+
+
+<!-- Date: Fri Mar 14 00:09:32.471 2008 -->
+<pre>RRI = 306 E30.  Stack = 34 mA.</pre>
+<!-- Author: Ukegawa  -->
+
+<!-- Date: Fri Mar 14 00:20:17.423 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259536>259536</A>
+ Terminated at 2008.03.14 00:19:54
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 00:20:18.886 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259536>259536</A>
+TERMINATE: Switching to AAA_shotsetup
+<!-- Author: Martin x2080 -->
+<!-- Comment: Fri Mar 14 00;25;57 comment by...Elisa -->
+Actually Elisa.
+<!-- Date: Fri Mar 14 00:23:35.718 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259537>259537</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [4,1032,717] 
+<!-- Author: Martin x2080 -->
+
+
+
+
+<!-- Date: Fri Mar 14 00:35:40.974 2008 -->
+Final proton bunches have been loaded, and we have paged silicon.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259537' target=_top>259537</a>) -->
+
+
+<!-- Date: Fri Mar 14 00:36:23.162 2008 -->
+Protons are loaded
+<!-- Author: Ukegawa -->
+
+
+<!-- Date: Fri Mar 14 00:45:54.746 2008 -->
+Front end crate error from cot18, followed by Done TO in cot18. Two HRRs solved.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259537' target=_top>259537</a>) -->
+<!-- Comment: Fri Mar 14 01;14;57 comment by...Elisa -->
+Again.
+<!-- Date: Fri Mar 14 00:54:02.882 2008 -->
+They are loading antiprotons.
+<!-- Author: Ukegawa -->
+<!-- Comment: Fri Mar 14 01;05;59 comment by...Ukegawa -->
+<pre>All antiprotons are loaded.</pre>
+
+
+<!-- Comment: Fri Mar 14 01;16;42 comment by...Ukegawa -->
+<pre>Store 5984, it is.</pre>
+<!-- Date: Fri Mar 14 01:11:53.980 2008 -->
+Rack alarm. Was silenced.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259537' target=_top>259537</a>) -->
+<!-- Comment: Fri Mar 14 01;17;38 comment by...Elisa -->
+Cryo was aware of the issue - gamma power supply voltage was off.
+
+
+<!-- Date: Fri Mar 14 01:24:41.710 2008 -->
+<pre>MCR called. Scraping is complete. 
+Storte 5984. 
+Protons = 9150 E09 
+Pbars   = 2510 E09</pre>
+<!-- Author: Ukegawa -->
+<!-- Comment: Fri Mar 14 01;26;36 comment by...Ukegawa -->
+Lum = 236 E30 for the store,
+from a stash of about 300.
+
+<!-- Date: Fri Mar 14 01:29:33.131 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+ Activated at 2008.03.14 01:29:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 01:29:34.052 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [4,1032,717] 
+<!-- Author: Elisa -->
+
+
+
+<!-- Date: Fri Mar 14 01:33:22.938 2008 -->
+TOF keeps going in and out of warning -trigger inhibit coming on and off. The problem is TOF_PM_18.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+<!-- Comment: Fri Mar 14 01;38;47 comment by...Elisa -->
+Masking trigger inhibit.
+
+
+<!-- Comment: Fri Mar 14 01;41;01 comment by...Elisa -->
+Seems to have stabilized. Unmasked inhibit.
+<!-- Comment: Fri Mar 14 01;57;27 comment by...Elisa -->
+Just want to emphasize - this was not a trip. PM 18 was yellow.
+<!-- Date: Fri Mar 14 01:39:17.542 2008 -->
+pcal10 hung during HRR loop. Shepherded.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+
+
+
+<!-- Date: Fri Mar 14 01:43:40.414 2008 -->
+L2 Decision TO, followed by Done TO for cot18, imu00, imu01, cmp00, cmx01, clc02. Auto HRR fixed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+
+
+
+<!-- Date: Fri Mar 14 01:58:43.748 2008 -->
+<center><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-1389&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-1389' width='300'></a><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-1390&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-1390' width='300'></a></center>
+<!-- Author: Elisa -->
+<!-- Comment: Fri Mar 14 01;59;02 comment by...Elisa -->
+Losses during shot.
+
+<!-- Date: Fri Mar 14 02:01:10.044 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259484>259484</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=259484 target=_runSummary>259484</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Mar 14 02:04:37.958 2008 -->
+L2 Decision TO.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+<!-- Comment: Fri Mar 14 02;09;32 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 03;18;01 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 03;30;46 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 04;02;52 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 04;33;33 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 05;54;49 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 06;28;19 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 06;51;04 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 07;53;24 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 08;12;32 comment by...Pierluigi -->
+again
+<!-- Comment: Fri Mar 14 08;14;23 comment by...Pierluigi -->
+again
+<!-- Comment: Fri Mar 14 08;45;24 comment by...Pierluigi -->
+again
+<!-- Date: Fri Mar 14 02:09:15.402 2008 -->
+EventBuilder Proxy red in DAQMon. Checked, it is running.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+<!-- Comment: Fri Mar 14 02;33;40 comment by...Elisa -->
+Green again.
+<!-- Date: Fri Mar 14 02:33:29.342 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259486>259486</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=259486 target=_runSummary>259486</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Fri Mar 14 02:39:48.014 2008 -->
+pcal07 became unresponsive. Saved the analyzer trace as 080314.trc. Shepherded.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+
+
+<!-- Date: Fri Mar 14 02:47:49.633 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1391&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1391  width='300' align='top'></a></td><td>SVXII AVDD pinkie. 
+Came back to green after a minute.</td></tr></table>
+<!-- Author: Ukegawa -->
+
+
+<!-- Date: Fri Mar 14 02:50:33.479 2008 -->
+L2 Decision TO, followed by Done TO for cot18, imu00, imu01, cmp00, musc00, cmx00, clc02. Auto HRR fixed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+
+
+<!-- Date: Fri Mar 14 02:58:10.550 2008 -->
+Again L2 Decision TO followed by a long string of Done TO's. ErrorHandler has complaints about BC_MISMATCH and TDC_INVALID_HEADER.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+<!-- Comment: Fri Mar 14 03;00;51 comment by...Elisa -->
+I definitely cleared the clock errors after shot setup. Hmmm...
+
+<!-- Comment: Fri Mar 14 03;01;43 comment by...Elisa -->
+Checked whether there are any clock errors. There are not.
+
+
+<!-- Comment: Fri Mar 14 04;18;55 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 06;03;43 comment by...Elisa -->
+Again.
+<!-- Date: Fri Mar 14 03:08:17.351 2008 -->
+pcal10 became unresponsive. Shepherded. 
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+
+<!-- Date: Fri Mar 14 03:10:52.454 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+clc: <tt>Still not 1000 events for cotcanvas1, but mean is 0.4561.</tt>
+<!-- Author: Consumer Operator( Mark Hartz) -->
+
+
+<!-- Date: Fri Mar 14 03:10:53.824 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+central: <tt>TOF voltage was on, but a bit below nominal at the very beginning of the store.  After a few minutes it was fine.</tt>
+<!-- Author: Consumer Operator( Mark Hartz) -->
+
+
+
+
+<!-- Date: Fri Mar 14 03:20:03.013 2008 -->
+TevMon warning set, and immediately cleared, due to a spike in lost p's and pbar's. Neither got about 12.5 kHz. Keeping an eye on it.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+<!-- Comment: Fri Mar 14 03;20;56 comment by...Elisa -->
+*above* 12.5 kHz. Getting sleepy, it seems.
+
+
+<!-- Date: Fri Mar 14 03:29:45.214 2008 -->
+Plug crate 06 tripped. Check passed LED was out. Reset crate, restarted monitoring. pcal05 hung in recover, shepherded. Then evb2b was red in active. HRR'ed. Now we are taking data again.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+
+
+
+<!-- Date: Fri Mar 14 03:45:30.912 2008 -->
+Front end crate error followed by done TO for cot18. HRR'ed twice.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538' target=_top>259538</a>) -->
+<!-- Comment: Fri Mar 14 03;49;01 comment by...Elisa -->
+Again.
+
+<!-- Comment: Fri Mar 14 03;50;29 comment by...Elisa -->
+Again.
+
+<!-- Comment: Fri Mar 14 03;53;07 comment by...Elisa -->
+Again. Disabling auto-HRR so that I can shepherd cot18 next time.
+
+<!-- Comment: Fri Mar 14 03;55;30 comment by...Elisa -->
+Shepherded cot18.
+
+
+<!-- Comment: Fri Mar 14 04;05;25 comment by...Elisa -->
+Again.
+
+<!-- Comment: Fri Mar 14 04;11;29 comment by...Elisa -->
+Shepherded cot18.
+
+<!-- Comment: Fri Mar 14 04;12;37 comment by...Elisa -->
+Again.
+
+<!-- Comment: Fri Mar 14 04;15;39 comment by...Elisa -->
+Again.
+
+
+
+<!-- Comment: Fri Mar 14 07;16;00 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 07;19;42 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 07;23;00 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 07;25;07 comment by...Elisa -->
+Shepherded cot18.
+<!-- Comment: Fri Mar 14 07;27;06 comment by...Elisa -->
+Again.
+<!-- Comment: Fri Mar 14 07;27;20 comment by...Elisa -->
+Shepherded cot18.
+<!-- Comment: Fri Mar 14 07;28;46 comment by...Elisa -->
+Again.
+<!-- Date: Fri Mar 14 04:34:59.337 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+ Terminated at 2008.03.14 04:34:29
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 04:35:42.836 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+TERMINATE: Ending run due to XFT errors. See if starting a new run helps.
+<!-- Author: Elisa -->
+
+
+<!-- Date: Fri Mar 14 04:38:02.074 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539>259539</A>
+ Activated at 2008.03.14 04:37:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 04:39:33.153 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539>259539</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [4,1032,717] 
+<!-- Author: Elisa -->
+<!-- Comment: Fri Mar 14 04;41;56 comment by...Elisa -->
+We are starting a new run to see if we can make XFT errors go away. If problem plots do not look better in 30 minutes, we'll page XFT.
+<!-- Comment: Fri Mar 14 05;16;57 comment by...Elisa -->
+All the problem plots looks fine, except for the Xtc slots efficiency. Mark checked the elog, this problem came up last week, and the data was deemed good. 
+<!-- Date: Fri Mar 14 04:40:30.073 2008 -->
+<center><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-1392&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-1392' width='300'></a><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-1393&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-1393' width='300'></a><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-1394&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-1394' width='300'></a></center>
+<!-- Author: Mark -->
+<!-- Comment: Fri Mar 14 04;45;13 comment by...Mark -->
+We see a dip in the Xtc hit efficiency for COT08.  There are also high "Finder to Linker Connector" and "COT SL2 Trigsim vs. Data Discrepency".  Elisa restarted the run.
+
+
+<!-- Comment: Fri Mar 14 07;32;34 comment by...Mark -->
+Turns out that the Xtc problem is <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2008&action=view&page=198&frame=2&anchor=22:21:13.062'>
+known</a>.
+<!-- Date: Fri Mar 14 04:46:38.566 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1395&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1395  width='300' align='top'></a></td><td>The last plot in the previous entry was not the correct one.  This is.</td></tr></table>
+<!-- Author: Mark -->
+
+
+<!-- Date: Fri Mar 14 04:54:10.498 2008 -->
+Done TO in cot06. HRR'ed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539' target=_top>259539</a>) -->
+
+<!-- Date: Fri Mar 14 05:01:13.478 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+trigger: <tt>Problems with the XFT plots. &nbsp;Marked the L1 TrigMon as "Bad".</tt>
+<!-- Author: Consumer Operator( Mark Hartz) -->
+
+
+
+
+
+<!-- Date: Fri Mar 14 06:01:48.010 2008 -->
+Front end crate error from svt00, followed by L2 Decision TO. HRR fixed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539' target=_top>259539</a>) -->
+
+
+
+<!-- Date: Fri Mar 14 06:08:34.890 2008 -->
+Small spike in B0AAGC, not enough to cause a warning. 
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539' target=_top>259539</a>) -->
+
+
+
+
+
+
+
+
+
+
+<!-- Date: Fri Mar 14 07:30:51.723 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539>259539</A>
+ Terminated at 2008.03.14 07:30:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 07:30:52.597 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259539>259539</A>
+TERMINATE: Starting new run, due to cot18 continuous errors.
+<!-- Author: Elisa -->
+
+
+
+<!-- Date: Fri Mar 14 07:35:26.250 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259540>259540</A>
+ Activated at 2008.03.14 07:34:50
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Mar 14 07:37:59.216 2008 -->
+Started new run because cot18 was giving so many errors. pcal01 had a heap corrupt error, had to shepherd. Error popped up about Level3  relay failure. Said that level3 should recover itself, which it has. As soon as we got to active, had a cot18 front end crate error. HRR'ed.
+<!-- Author: Elisa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259540' target=_top>259540</a>) -->
+<!-- Comment: Fri Mar 14 07;50;51 comment by...Elisa -->
+On second look, level3 accept rate is 0, even though level2 accept rate is nonzero. Paging level3.
+<!-- Comment: Fri Mar 14 07;59;26 comment by...Elisa -->
+Si called back. Recommended that we restart the run. L3 accept came back. 
+<!-- Date: Fri Mar 14 07:38:35.422 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259540>259540</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [4,1032,717] 
+<!-- Author: Elisa -->
+
+
+
+
+<!-- Date: Fri Mar 14 07:54:28.472 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259540>259540</A>
+ Terminated at 2008.03.14 07:54:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 07:54:51.211 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259540>259540</A>
+TERMINATE: L3 problems.
+<!-- Author: Elisa -->
+
+
+<!-- Date: Fri Mar 14 07:55:16.909 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=259538 target=_runSummary>259538</A> x3F5D2</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [4,1032,717]</FONT></TD>
+<TD ALIGN=CENTER>01:29:02</TD>
+<TD ALIGN=CENTER>04:34:29</TD>
+<TD ALIGN=CENTER>02:27:27</TD>
+<TD ALIGN=RIGHT>   1,585,603</TD>   <TD ALIGN=RIGHT>  2,021.26</TD>
+<TD ALIGN=RIGHT>  1,592.49</TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=259539 target=_runSummary>259539</A> x3F5D3</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [4,1032,717]</FONT></TD>
+<TD ALIGN=CENTER>04:37:55</TD>
+<TD ALIGN=CENTER>07:30:15</TD>
+<TD ALIGN=CENTER>02:34:01</TD>
+<TD ALIGN=RIGHT>   1,382,643</TD>   <TD ALIGN=RIGHT>  1,323.54</TD>
+<TD ALIGN=RIGHT>  1,181.51</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=259540 target=_runSummary>259540</A> x3F5D4</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [4,1032,717]</FONT></TD>
+<TD ALIGN=CENTER>07:34:50</TD>
+<TD ALIGN=CENTER>07:54:17</TD>
+<TD ALIGN=CENTER>00:18:29</TD>
+<TD ALIGN=RIGHT>     111,633</TD>   <TD ALIGN=RIGHT>    129.74</TD>
+<TD ALIGN=RIGHT>    120.62</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>0</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>05:19:58</TD>
+<TD ALIGN=RIGHT>     3,079,879</TD> <TD ALIGN=RIGHT>  3,474.55</TD>
+<TD ALIGN=RIGHT>  2,894.62</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Fri Mar 14 07:56:20.075 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259538>259538</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+L1T  Marked bad because XFT needs to be checked off-line.
+</PRE>
+<!-- Author: cdfscico -->
+
+
+<!-- Date: Fri Mar 14 07:58:27.271 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259541>259541</A>
+ Activated at 2008.03.14 07:57:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Mar 14 07:58:28.935 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259541>259541</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [4,1032,717] 
+<!-- Author: Elisa -->
+
+
+
+
+<!-- Date: Fri Mar 14 08:01:10.854 2008 -->
+<font color=red>Shift Summary: </font><pre>Owl Shift  Friday, March 14, 2008 
+ 
+00:00	   Shot setup is underway. 
+00:35	   Protons are loaded, paged Si. 
+01:05	   All antiprotons are loaded. Store 5984. 
+01:22	   Store 5984 is in, lum = 236E30. 
+01:30	   One TOF PMT HV is giving us an alarm. 
+	   Following the philosophy by Henry (previous eve Scico), 
+	   we decided to disable the trigger inhibit and take 
+	   data; "Do not lose high luminosity". 
+	   After a couple of minutes, the PMT became stable. 
+03:20	   TevMon warning, spike in lostp/lostpbar. 
+03:25	   Plug crate trip. 
+04:30	   Mark (CO) notices that XFT is giving errors at a high rate. 
+	   The plot says we should page expert. 
+	   Elisa (Ace) suggests restarting a run and see what happens. 
+	   The problem went away in the new run. So we decide not to page. 
+	   The old run (259538) is marked bad tentatively. 
+	   We send an e-mail asking what to do exactly about the good/bad. 
+	   Expert called us at 07:50, and tells we should makr it bad and 
+	   with a comment "XFT needs to be checked offline". 
+07:52	   Paged L3 by Ace's request. 
+08:00	   Store is six hours old and lum = 100E30. 
+	   RB = 147E10, stack = 28 mA + 22 mA/h. 
+	   Pretty smooth data taking, with a few minor problems; 
+	   cot18 TDC errors persisted.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   259538 - 259540
+Delivered Luminosity   3613.2 nb-1  
+Acquired Luminosity    2897.3 nb-1  
+Efficiency             80.2 %
+   
+</td></tr></table></pre>
+<!-- Author: Fumi Ukegawa -->
+
+
+
+
+<!-- Date: Fri Mar 14 08:36:16.801 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1396&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1396  width='300' align='top'></a></td><td>This is a new hot channel.  It was first sighted on March 10.  If it is a known problem, please add to the known problems list.</td></tr></table> <font color=red><cite>(entry outside this shift's time range )</cite></font>
+<!-- Author: Peter Dong -->
+
+
+<!-- Date: Fri Mar 14 08:42:22.421 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1397&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1397  width='300' align='top'></a></td><td>Warm spot in CES plots.</td></tr></table> <font color=red><cite>(entry outside this shift's time range )</cite></font>
+<!-- Author: Peter Dong -->
+

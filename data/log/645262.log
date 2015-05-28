@@ -1,0 +1,170 @@
+#
+#----- (codegen) d0om_zm v00-44-00
+#
+<--> (GNUmakefile.main        ; __d0om_zm__             ) _codegen_ Mon Aug 25 14:29:01 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _codegen_ Mon Aug 25 14:29:02 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _codegen_ Mon Aug 25 14:29:02 CDT 2008 d0om_zm (/tests)
+#
+#----- (d0omgen) d0om_zm v00-44-00
+#
+<--> (GNUmakefile.main        ; __d0om_zm__             ) _d0omgen_ Mon Aug 25 14:45:18 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _d0omgen_ Mon Aug 25 14:45:19 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _d0omgen_ Mon Aug 25 14:45:19 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for Matrix.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for TFT.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for Tmatrixd.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for HepMatrix.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for HepDiagMatrix.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for HepSymMatrix.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for HepVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for ColumnVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for TPV.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for SpaceVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for UnitVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_ThreeVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_LorentzVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_Rotation.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_LorentzRotation.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_RotationInterfaces.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_AxisAngle.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_EulerAngles.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_TwoVector.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_RotationX.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_RotationY.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_RotationZ.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_Boost.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_BoostX.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_BoostY.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for CLHEP_BoostZ.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Generating D0OM linkage sources for GenMatrix.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _d0omref_ Mon Aug 25 14:45:24 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _d0omref_ Mon Aug 25 14:45:24 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _d0omref_ Mon Aug 25 14:45:24 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _rtcint_  Mon Aug 25 14:45:25 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _rtcint_  Mon Aug 25 14:45:25 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _rtcint_  Mon Aug 25 14:45:25 CDT 2008 d0om_zm (/tests)
+#
+#----- (include) d0om_zm v00-44-00
+#
+<--> (GNUmakefile.main        ; __d0om_zm__             ) _include_ Mon Aug 25 15:10:39 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _include_ Mon Aug 25 15:10:39 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _include_ Mon Aug 25 15:10:39 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for TFT_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for Matrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for HepMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for Tmatrixd_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for TPV_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for HepDiagMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for HepSymMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object TFT.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for HepVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object Tmatrixd.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for ColumnVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object TPV.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for SpaceVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for UnitVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary tzmtypes.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_ThreeVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary twrite_ft.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_LorentzVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary tread_ft.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_Rotation_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary twrite_matrixd.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_LorentzRotation_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary tread_matrixd.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_RotationInterfaces_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary twrite_pv.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_AxisAngle_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary tread_pv.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_EulerAngles_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_TwoVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for simplebins binary tcopy_unknown.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_RotationX_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_RotationY_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_RotationZ_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_Boost_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_BoostX_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_BoostY_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for CLHEP_BoostZ_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building staticlib D0OM linkage dependencies for GenMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object HepDiagMatrix_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object HepMatrix_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object HepSymMatrix_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object HepVector_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object MatrixC_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object MatrixD_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building dependencies for static library object converters.
+#
+#----- (lib) d0om_zm v00-44-00
+#
+<--> (GNUmakefile.main        ; __d0om_zm__             ) _lib_     Mon Aug 25 15:53:50 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _lib_     Mon Aug 25 15:53:50 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _lib_     Mon Aug 25 15:53:50 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libdmr_  Mon Aug 25 15:53:51 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libdmr_  Mon Aug 25 15:53:51 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libdmr_  Mon Aug 25 15:53:51 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libobjs_ Mon Aug 25 15:53:51 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libobjs_ Mon Aug 25 15:53:52 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libobjs_ Mon Aug 25 15:53:52 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object TFT_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object Matrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object Tmatrixd_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object HepMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object TPV_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object HepDiagMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object HepSymMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object TFT.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object HepVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object Tmatrixd.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object ColumnVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object TPV.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object SpaceVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object UnitVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_ThreeVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_LorentzVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_Rotation_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_LorentzRotation_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_RotationInterfaces_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_AxisAngle_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_EulerAngles_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_TwoVector_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_RotationX_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_RotationY_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_RotationZ_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_Boost_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_BoostX_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_BoostY_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object CLHEP_BoostZ_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library D0OM linkage object GenMatrix_lnk.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object HepDiagMatrix_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object HepMatrix_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object HepSymMatrix_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object HepVector_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object MatrixC_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object MatrixD_Translator.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling static library object converters.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libcons_ Mon Aug 25 15:54:10 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libcons_ Mon Aug 25 15:54:10 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building library libd0om_zm.a
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _libcons_ Mon Aug 25 15:54:11 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Building library libd0om_zm_test.a
+#
+#----- (bin) d0om_zm v00-44-00
+#
+<--> (GNUmakefile.main        ; __d0om_zm__             ) _bin_     Mon Aug 25 16:57:39 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _bin_     Mon Aug 25 16:57:40 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _bin_     Mon Aug 25 16:57:40 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _bincmp_  Mon Aug 25 16:57:41 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _bincmp_  Mon Aug 25 16:57:41 CDT 2008 d0om_zm (/tests)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _bincmp_  Mon Aug 25 16:57:41 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary tzmtypes.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary twrite_ft.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary tread_ft.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary twrite_matrixd.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary tread_matrixd.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary twrite_pv.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary tread_pv.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) Compiling simplebins binary tcopy_unknown.x.
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _binlnk_  Mon Aug 25 16:57:47 CDT 2008 d0om_zm ()
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _binlnk_  Mon Aug 25 16:57:47 CDT 2008 d0om_zm (/src)
+<--> (SRT_rules.mk            ; __d0om_zm__             ) _binlnk_  Mon Aug 25 16:57:47 CDT 2008 d0om_zm (/tests)

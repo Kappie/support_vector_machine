@@ -1,0 +1,342 @@
+<!-- Title: Owl shift. Wed Oct  5, 2005 -->
+<!-- SciCo: Slawek Tkaczyk -->
+<!-- DAQAce: Sasha Baroiant -->
+<!-- MonAce: Lester Pinera -->
+<!-- CO: Roberto Rossin -->
+<!-- OpManager: Aron Soha -->
+<!-- Notes: -->
+<pre>Record store 4431 in the machine, we continue to take data ridiculously!</pre>
+
+
+<!-- Date: Wed Oct 5 00:17:20.996 2005 -->
+busy to cot08 abd cot09 auto hrr.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205074' target=_top>205074</a>) -->
+
+
+<!-- Date: Wed Oct 5 00:36:08.023 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-17970&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-17970  width='300' align='top'></a></td><td>.</td></tr></table>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 00;39;22 comment by...Lester -->
+Pinkie SVX Bias B0W3L3.  This is the same ladder that was fluctuating the previous shift.
+
+
+<!-- Comment: Wed Oct  5 00;57;46 comment by...Lester -->
+unmarked cell and after some time it went back down. I'll keep an eye on it 
+<!-- Comment: Wed Oct  5 01;06;57 comment by...Ankush, you friendly neighbourhood Silicon SPL -->
+<p>Please keep an eye on this ladder and we'll probably bump up the limit in the morning.  What you're observing is the effect of radiation damage on Silicon.  The upper IMON BIAS limits were all set to some sensible value. Radiataion damage increases the BIAS current and now many ladders are starting to hit their limits. So every week, a few ladders give PINKINES in BIAS.</p>
+
+<p>HRR will not have an effect here as this only affects the chips.  BIAS is related to the actual Silicon "sensors".</p>
+
+<p>So carry on keeping us informed of these and we'll deal with them.</p>  
+<!-- Date: Wed Oct 5 00:43:25.604 2005 -->
+SVXMon found a stuck cell ID: B1/W4/L2/C8-11. 
+Auro HRR.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205074' target=_top>205074</a>) -->
+
+<!-- Date: Wed Oct 5 00:50:22.052 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205074">205074</a>
+ Terminated at 2005.10.05 00:49:44
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 5 00:50:23.753 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205074">205074</a>
+TERMINATE: way too many errors. will explain in elog.
+<!-- Author: Gian Piero -->
+
+
+
+<!-- Date: Wed Oct 5 00:54:59.379 2005 -->
+TOF tripped.  Wierd thing is that no alarm was issued and iFix was green the entire time.  DAQ Ace was getting many errors all at once and realized something was wrong.  Ramped up high voltage and TOF was back online. 
+<!-- Author: Lester :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+<!-- Date: Wed Oct 5 00:56:30.850 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075">205075</a>
+ Activated at 2005.10.05 00:56:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 5 00:56:59.958 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075">205075</a>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_3_07 [2,713,594] 
+<!-- Author: Gian Piero -->
+
+
+
+<!-- Date: Wed Oct 5 00:57:20.150 2005 -->
+Immediataly after the stuck cell-id hrr, we ran into many errors, mostly about l2 trigger rates dropping to zero. There was a trigger inhibit from TOF (thought the trip birdcall was somewhat delayed.) Still, after trip had cleared, we could not get any triggers.  
+I have stopped the run, and am restarting another. I will detail actual sequence of events later. We are now taking data.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+
+<!-- Date: Wed Oct 5 01:01:10.712 2005 -->
+Pinkie ISL Bias1 B3W0L2.  Unmarked it and it went back to normal.
+<!-- Author: Lester :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 01:02:55.541 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-17971&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-17971  width='300' align='top'></a></td><td>.</td></tr></table>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 01;04;29 comment by...Lester -->
+SVX Bias B0W3L3 is pink again.  May have to call experts
+
+
+
+<!-- Date: Wed Oct 5 01:09:30.010 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17972&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17972' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17973&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17973' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17974&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17974' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 01;10;35 comment by...Lester -->
+Hourlies 11:30-12:30 (sorry these are late. . .lots going on in the CR) 
+<!-- Date: Wed Oct 5 01:10:22.942 2005 -->
+<pre>Errors were, in approximate order 
+- the aforementioned stuck cell id 
+-  busy to l2pu01  
+- tm2 events pending  timeout auto hrr 
+- l2 rates 0  
+- l3 dropped to 0  
+- tof trip 
+- tm2 events pending  timeout auto hrr 
+- l2 rates 0  
+ 
+ I think the tof trip probably happened earlier than reported, and was inhibiting triggers though I did not see the inhibit turn red till after a couple of hrr's. Also, if no triggers then why complain abour evb being the bottleneck? 
+ After TOF looked like it was back up, I still could not get any triggers, even though inhibit display was all green. 
+ At this point I restarted run. </pre>
+<!-- Author: sasha -->
+
+
+
+<!-- Date: Wed Oct 5 01:22:29.434 2005 -->
+DAQ button is red in Silicon PS Gui. There has been no cooling problem and RT Server is ok. Paged expert he's looking into it.
+<!-- Author: Lester :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+<!-- Comment: Wed Oct  5 01;24;13 comment by...Lester -->
+also mentioned to the Silicon expert the pinkie situation with SVX Bias B0W3L3.  He says he'll look into it in the morning
+
+<!-- Comment: Wed Oct  5 01;32;52 comment by...Jared -->
+As long as there aren't any other problems I think this is ok for now.   
+
+<!-- Comment: Wed Oct  5 01;36;31 comment by...Lester -->
+Silicon expert wasn't clear on why DAQ button is red.  Everything seems to be working fine.  Silicon folks will look into it in the morning.
+
+
+<!-- Date: Wed Oct 5 01:43:19.279 2005 -->
+SVXMon found another cell id stuck. 
+S/b1/w5/l4/c0-6
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 01:43:27.182 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17975&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17975' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17976&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17976' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17977&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17977' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 01;44;04 comment by...Lester -->
+Hourlies 12:30-1:30
+
+
+<!-- Date: Wed Oct 5 01:44:07.380 2005 -->
+Busy TO for c0t7,8,9. Auto HRR. 
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 02:08:18.232 2005 -->
+Wire Scan.
+<!-- Author: sasha baroiant :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+<!-- Comment: Wed Oct  5 03;06;16 comment by...sasha -->
+again.
+<!-- Comment: Wed Oct  5 04;07;03 comment by...nipsy -->
+again
+<!-- Comment: Wed Oct  5 05;06;41 comment by...sasha -->
+again
+<!-- Comment: Wed Oct  5 06;07;11 comment by...sasha -->
+again
+<!-- Comment: Wed Oct  5 07;08;25 comment by...sasha -->
+again
+<!-- Date: Wed Oct 5 02:14:45.471 2005 -->
+Done TO b0cot17. Auto HRR followed by another done TO HRR followed by another done TO. Sheparded. 
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 02:39:59.572 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17978&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17978' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17979&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17979' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17980&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17980' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 02;40;32 comment by...Lester -->
+Hourlies 1:30-2:30
+
+
+
+<!-- Date: Wed Oct 5 03:35:51.645 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17981&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17981' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17982&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17982' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17984&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17984' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 03;36;24 comment by...Lester -->
+Hourlies 2:30-3:30
+
+
+<!-- Date: Wed Oct 5 03:43:54.015 2005 -->
+PhysMon notifies that run 205070 is bad.  That's a run from last morning, and is 1.5pb^-1 !!  
+I better find out why physmon says so. Isn't it kind of late for a quality check? If something has been bad all along, we have potentially lost another 2pb-1.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+<!-- Comment: Wed Oct  5 03;53;32 comment by...sasha -->
+So the W->mu nu cross section is low. That is why. 205072 is shopwing up as OK. I'm not yet sure why there are not enough w->MuNu events there.
+<!-- Comment: Wed Oct  5 04;56;05 comment by...Lester -->
+Looks like CMP preamp had problems during this 
+ <a href=
+'/cgi/elog/elog.pl?nb=2005&action=view&page=830&frame=2&anchor=10:19:44'> run</a>.  
+<!-- Comment: Wed Oct  5 05;43;47 comment by...sasha -->
+Good sleuth work Lester. If the preamp is dank then the data might well be schwag. I was inspired by your work and looked at physmon output for a  buncha recent runs.
+There may also be a correlation between the 'bad w mu nu' bit and high instantaneous luminosity. 
+
+<!-- Comment: Wed Oct  5 08;33;52 comment by...Phil Schlabach -->
+I don't think the CMP preamp has anything to do with this, guys. The preamp is ~1/300 of the acceptance. Even if it were completely dead, it wouldn't be noticable. Furthermore 205072 and 205073 aren't flagged and they have the same preamp problem.
+<!-- Comment: Wed Oct  5 13;17;49 comment by...collin -->
+Thanks for noticing this! What you saw here was not the preamp, but rather a steady decline in the Wmunu yield. It's not clear at the moment whether this is real or an artifact of Physmon. See <a href="http://www-cdfonline.fnal.gov/java/cdfdb/servlet/PlotPhysmon?PLOT=WMCROSS&SUMLUM=TRUE&LUM=5000.0&WHERE=+WHERE+PS.RC_RUNNUMBER=RSO.RUNNUMBER+AND+RC.RUNNUMBER=PS.RC_RUNNUMBER+AND+RSO.RUNNUMBER=RC.RUNNUMBER+AND+PS.DATATYPE=1+AND+PS.RC_RUNNUMBER%3E=198000+AND+PS.GOODRUN">
+this plot</a> of the Wmunu yield from run 198000 summed in 5 pb^-1 chunks.
+<!-- Date: Wed Oct 5 03:48:33.096 2005 -->
+Busy TO b0l2pu01. Auto HRR.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+
+
+<!-- Date: Wed Oct 5 04:40:34.295 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17985&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17985' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17986&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17986' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17987&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17987' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 04;41;15 comment by...Lester -->
+Hourlies 3:30-4:30
+
+
+
+<!-- Date: Wed Oct 5 04:57:14.537 2005 -->
+busy to b0cot03. auto hrr.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=2005075' target=_top>2005075</a>) -->
+
+
+
+<!-- Date: Wed Oct 5 05:33:07.200 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17988&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17988' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17989&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17989' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17990&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17990' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 05;34;50 comment by...Lester -->
+Hourlies 4:30-5:30
+
+
+
+
+<!-- Date: Wed Oct 5 06:07:57.563 2005 -->
+busy to b0l2pu01 coinsident w/ fws. 
+ 
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 06:33:57.762 2005 -->
+busy to b0cot08. auto hrr.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 06:35:42.300 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17991&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17991' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17992&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17992' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17993&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17993' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 06;36;13 comment by...Lester -->
+Hourlies 5:30-6:30
+
+
+<!-- Date: Wed Oct 5 06:44:49.840 2005 -->
+<pre>Received no less than 13 error messages in 30seconds, regarding rxpt errors from b0svx02. I think it was because of a resonance. 
+ 
+b0svx00:Messenger:Oct 5, 2005 6:34:34 AM->Silicon Resonator: Sl 16 Ch 4 -> e064: Bytes: 00096 
+ 
+(MLE) b0svx05:Messenger:Oct 5, 2005 6:34:35 AM->Silicon Resonator: Sl 08 Ch 3 -> e503: Bytes: 00078 
+ 
+CT: 2005.10.05 06:34:36 
+34'36" b0svx02:Messenger:Oct 5, 2005 6:34:35 AM->SRC Fatal Error:Sl 6 Resonance Detected  
+ -->  </pre>
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+<!-- Date: Wed Oct 5 06:45:12.394 2005 -->
+Busy TO b0svx06. Auto HRR.
+<!-- Author: sasha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075' target=_top>205075</a>) -->
+
+
+
+<!-- Date: Wed Oct 5 07:35:39.938 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17994&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17994' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17995&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17995' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-17996&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-17996' width='300'></a></center>
+<!-- Author: Lester -->
+<!-- Comment: Wed Oct  5 07;36;47 comment by...Lester -->
+Hourlies 6:30-7:30
+
+
+<!-- Date: Wed Oct 5 07:55:31.083 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>Physics able</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L1Accepts</TH>
+<TH>L2Accepts</TH>
+<TH>L3Accepts</TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205074 target=_blank>205074</A> x32112</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_3_07 [2,713,594]</FONT></TD>
+<TD ALIGN=CENTER>18:59:37</TD>
+<TD ALIGN=CENTER>00:49:44</TD>
+<TD ALIGN=CENTER>05:05:31</TD>
+<TD ALIGN=RIGHT>    433,046,724</TD>
+<TD ALIGN=RIGHT>     5,329,187</TD>
+<TD ALIGN=RIGHT>   1,447,547</TD>
+<TD ALIGN=RIGHT>  808.606</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205075 target=_blank>205075</A> x32113</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_3_07 [2,713,594]</FONT></TD>
+<TD ALIGN=CENTER>00:56:02</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>06:49:06</TD>
+<TD ALIGN=RIGHT>    562,539,313</TD>
+<TD ALIGN=RIGHT>     5,214,398</TD>
+<TD ALIGN=RIGHT>   1,832,112</TD>
+<TD ALIGN=RIGHT>  766.743</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>11:54:38</TD>
+<TD ALIGN=RIGHT>     995,586,037</TD>
+<TD ALIGN=RIGHT>     10,543,585</TD>
+<TD ALIGN=RIGHT>     3,279,659</TD>
+<TD ALIGN=RIGHT> 1575.349</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Wed Oct 5 07:58:15.076 2005 -->
+<font color=red>Shift Summary: </font><pre>Nice running... keep it this way! </pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   
+Delivered Luminosity   920 nb-1  
+Acquired Luminosity    864 nb-1  
+Efficiency             94%
+   
+</td></tr></table></pre>
+<!-- Author: Slawek -->
+
+

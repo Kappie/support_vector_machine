@@ -1,0 +1,250 @@
+Package build of mktemp started.  (Tuesday, 25 March 2008 03:43:08 EST)
+[PkgVars.pm/160/pkgvar_set()] Setting buildroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "buildroot" -> "/var/tmp/mezzanine-buildroot.5661/mktemp.28693"
+[PkgVars.pm/160/pkgvar_set()] Setting instroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instroot" -> "/var/tmp/mezzanine.temp.dironly.5661.2db2"
+[buildtool/399/build_single_package()] Building mktemp in /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp.
+[PkgVars.pm/160/pkgvar_set()] Setting name
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "name" -> "mktemp"
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/core/mktemp
+[buildtool/201/is_build_needed()] Args:  ""
+[Config.pm/155/Config::get] Config::get(REBUILD):  1
+[buildtool/203/is_build_needed()] Rebuild forced by configuration.
+[PkgVars.pm/160/pkgvar_set()] Setting instroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instroot" -> "/var/tmp/mezzanine.temp.dironly.5661.2db2"
+Resetting chroot jail, please wait.
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "lamebrain" -> ""
+[Util.pm/1346/run_cmd()] About to run true /var/tmp/mezzanine.temp.dironly.5661.2db2
+[Util.pm/1384/run_cmd()] "true /var/tmp/mezzanine.temp.dironly.5661.2db2" returned 0
+[PkgVars.pm/160/pkgvar_set()] Setting builduser
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "builduser" -> "nobody"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "builduser" -> "nobody"
+[buildtool/442/build_single_package()] Building as nobody (99:99)
+[buildtool/452/build_single_package()] Build tree layout style:  orc
+[Build.pm/1105/build_package()] Args:  ""
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/core/mktemp
+[PkgVars.pm/232/pkgvar_type()] SPM
+[Build.pm/682/build_spm()] Args:  ""
+[Build.pm/212/prepare_build_tree()] mktemp | /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp | /var/tmp/mezzanine-buildroot.5661/mktemp.28693 | /var/tmp/mezzanine.temp.dironly.5661.2db2 | 
+[PkgVars.pm/160/pkgvar_set()] Setting name
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "name" -> "mktemp"
+[PkgVars.pm/160/pkgvar_set()] Setting topdir
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "topdir" -> "/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp"
+[PkgVars.pm/160/pkgvar_set()] Setting buildroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "buildroot" -> "/var/tmp/mezzanine-buildroot.5661/mktemp.28693"
+[Build.pm/247/prepare_build_tree()] I'm creating /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD.
+[Build.pm/247/prepare_build_tree()] I'm creating /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES.
+[Build.pm/271/prepare_build_tree()] Creating /var/tmp/mezzanine.temp.dironly.5661.2db2/var/tmp/mezzanine-buildroot.5661/mktemp.28693 with mkdirhier().
+[Build.pm/278/prepare_build_tree()] I created:  /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES /var/tmp/mezzanine-buildroot.5661/mktemp.28693 /var/tmp/mezzanine.temp.dironly.5661.2db2/var/tmp/mezzanine-buildroot.5661/mktemp.28693
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "hints" -> ""
+[Build.pm/298/install_hints()] No hint information provided.
+[Util.pm/1164/find_spec_file()] Found single spec file for mktemp in F:  F/mktemp.spec
+[Util.pm/865/copy_files()] Copying F/mktemp.spec to /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SPECS/.
+[Util.pm/865/copy_files()] Copying F/mktemp.spec to /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SPECS/.
+[PkgVars.pm/160/pkgvar_set()] Setting instructions
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instructions" -> "/var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SPECS/mktemp.spec"
+[RPM.pm/216/parse_spec_file()] Parsing spec file /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SPECS/mktemp.spec.
+[RPM.pm/236/parse_spec_file()] Attempting to launch helper to parse spec file contents.
+[RPM.pm/248/parse_spec_file()] Child process 28695 launched; reading from child's STDOUT.
+[RPM.pm/257/RPM::parse_spec_file] Got 113 lines back from helper.
+[RPM.pm/265/parse_spec_file()] Internal parser reading spec file.
+[RPM.pm/359/parse_spec_file()] Got the following sources:
+[RPM.pm/361/parse_spec_file()]     Source 0 -> mktemp-1.5.tar.gz
+[RPM.pm/363/parse_spec_file()] Got the following patches:
+[RPM.pm/367/parse_spec_file()] Got the following header info:
+[RPM.pm/369/parse_spec_file()]     buildroot -> /var/tmp/mktemp-1.5-root
+[RPM.pm/369/parse_spec_file()]     group -> System Environment/Base
+[RPM.pm/369/parse_spec_file()]     license -> BSD
+[RPM.pm/369/parse_spec_file()]     release -> 19.caos
+[RPM.pm/369/parse_spec_file()]     summary -> A small utility for safely making temporary files.
+[RPM.pm/369/parse_spec_file()]     url -> http://www.mktemp.org
+[RPM.pm/369/parse_spec_file()]     version -> 1.5
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "allow_epoch" -> "0"
+[PkgVars.pm/160/pkgvar_set()] Setting instructions
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instructions" -> "/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SPECS/mktemp.spec"
+[Util.pm/865/copy_files()] Copying S/mktemp-1.5.tar.gz 0 to /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES/.
+[Prod.pm/482/parse_prod_file()] Args:  ""
+[Prod.pm/166/find_product_file()] Args:  "<undef>", "<undef>"
+[Prod.pm/484/parse_prod_file()] find_product_file() failed.  Returning 0.
+[Build.pm/602/build_topdir()] Args:  ""
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "lamebrain" -> ""
+[PkgVars.pm/160/pkgvar_set()] Setting target
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "target" -> "rpms"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "buildpkglist_filename" -> "/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/mktemp.pkglist"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "buildpkglist_filename" -> "/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/mktemp.pkglist"
+[RPM.pm/565/rpm_build()] Saving package list to /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/mktemp.pkglist.
+[RPM.pm/107/rpm_form_command()] Args:  ""
+[Util.pm/298/file_user()] UID:  99
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "builduser" -> "nobody"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> "/bin/su -s /bin/sh nobody -c /bin/sh -c "/bin/rpm"
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/core/mktemp
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/core/mktemp
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/core/mktemp
+buildtool:  Warning:  /cvs/caos/core/mktemp does not exist under /var/tmp/mezzanine.temp.dironly.5661.2db2.
+[RPM.pm/203/rpm_form_command()] Command:  chroot /var/tmp/mezzanine.temp.dironly.5661.2db2 /bin/su -s /bin/sh nobody -c /bin/sh -c "/bin/rpm --define '_topdir /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp' -qa --qf '%25{NAME} %10{EPOCH} %15{VERSION} %15{RELEASE}
+' | sort -bf"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> ""
+[RPM.pm/107/rpm_form_command()] Args:  ""
+[Util.pm/298/file_user()] UID:  99
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "builduser" -> "nobody"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> "chroot /var/tmp/mezzanine.temp.dironly.5661.2db2 /bin/su -s /bin/sh nobody -c /bin/sh -c "/usr/bin/rpmbuild"
+[RPM.pm/203/rpm_form_command()] Command:  chroot /var/tmp/mezzanine.temp.dironly.5661.2db2 /bin/su -s /bin/sh nobody -c /bin/sh -c "/usr/bin/rpmbuild --define '_topdir /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp' --define 'optflags -O2 -m64' --buildroot '/var/tmp/mezzanine-buildroot.5661/mktemp.28693' -ba /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SPECS/mktemp.spec"
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.18181
+sh-trace: umask 022
+sh-trace: cd /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: cd /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/BUILD
+sh-trace: rm -rf mktemp-1.5
+sh-trace: /bin/gzip -dc /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/SOURCES/mktemp-1.5.tar.gz
+sh-trace: tar -xf -
+sh-trace: STATUS=0
+sh-trace: '[' 0 -ne 0 ']'
+sh-trace: cd mktemp-1.5
+sh-trace: exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.18181
+sh-trace: umask 022
+sh-trace: cd /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD
+sh-trace: cd mktemp-1.5
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: CFLAGS='-O2 -m64'
+sh-trace: export CFLAGS
+sh-trace: CXXFLAGS='-O2 -m64'
+sh-trace: export CXXFLAGS
+sh-trace: FFLAGS='-O2 -m64'
+sh-trace: export FFLAGS
+ssh-trace: find . -name config.guess -o -name config.sub
+sh-trace: for i in '$(find . -name config.guess -o -name config.sub)'
+ssh-trace: basename ./config.guess
+sh-trace: '[' -f /usr/lib/rpm/caos/config.guess ']'
+sh-trace: /bin/rm -f ./config.guess
+ssh-trace: basename ./config.guess
+sh-trace: /bin/cp -fv /usr/lib/rpm/caos/config.guess ./config.guess
+`/usr/lib/rpm/caos/config.guess' -> `./config.guess'
+sh-trace: for i in '$(find . -name config.guess -o -name config.sub)'
+ssh-trace: basename ./config.sub
+sh-trace: '[' -f /usr/lib/rpm/caos/config.sub ']'
+sh-trace: /bin/rm -f ./config.sub
+ssh-trace: basename ./config.sub
+sh-trace: /bin/cp -fv /usr/lib/rpm/caos/config.sub ./config.sub
+`/usr/lib/rpm/caos/config.sub' -> `./config.sub'
+sh-trace: ./configure --host=x86_64-caos-linux-gnu --build=x86_64-caos-linux-gnu --target=x86_64-caos-linux-gnu --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --with-bindir=/bin --with-man --with-random=/dev/urandom
+checking build system type... x86_64-caos-linux-gnu
+checking host system type... x86_64-caos-linux-gnu
+checking for nroff... no
+checking for x86_64-caos-linux-gnu-gcc... no
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking whether gcc needs -traditional... no
+checking for an ANSI C-conforming const... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking for ssize_t... yes
+checking for random... yes
+checking for srandomdev... no
+checking for strerror... yes
+checking for strdup... yes
+checking for __progname... yes
+checking for random device... (cached) /dev/urandom
+checking whether to use mk{s,d}temp from libc... no
+checking for EBCDIC... no
+checking which macro set to use for manual... (cached) man
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+sh-trace: make
+gcc -c -I. -I. "-DMKTEMP_VERSION=\"1.5\""  -O2 -m64 mktemp.c
+gcc -c -I. -I. "-DMKTEMP_VERSION=\"1.5\""  -O2 -m64 priv_mktemp.c
+gcc -c -I. -I. "-DMKTEMP_VERSION=\"1.5\""  -O2 -m64 random.c
+random.c:73:7: warning: extra tokens at end of #else directive
+gcc -o mktemp mktemp.o  priv_mktemp.o random.o 
+sh-trace: exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.9673
+sh-trace: umask 022
+sh-trace: cd /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD
+sh-trace: cd mktemp-1.5
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: make prefix=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr exec_prefix=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr bindir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/bin sbindir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/sbin sysconfdir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/etc datadir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share includedir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/include libdir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/lib64 libexecdir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/libexec localstatedir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/var sharedstatedir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/com mandir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/man infodir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/info install bindir=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/bin
+/bin/sh ./mkinstalldirs /var/tmp/mezzanine-buildroot.5661/mktemp.28693/bin /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/man/man1
+mkdir /var/tmp/mezzanine-buildroot.5661/mktemp.28693/bin
+mkdir /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr
+mkdir /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share
+mkdir /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/man
+mkdir /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/man/man1
+/bin/sh ./install-sh -c -m 0555 -s mktemp /var/tmp/mezzanine-buildroot.5661/mktemp.28693/bin/mktemp
+/bin/sh ./install-sh -c -m 0444 ./mktemp.man /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/man/man1/mktemp.1
+sh-trace: /usr/lib/rpm/caos/brp-compress
+sh-trace: /usr/lib/rpm/caos/brp-strip /usr/bin/strip
+sh-trace: /usr/lib/rpm/caos/brp-strip-static-archive /usr/bin/strip
+sh-trace: /usr/lib/rpm/caos/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
+/usr/bin/strip: unable to copy file '/var/tmp/mezzanine-buildroot.5661/mktemp.28693/bin/mktemp' reason: Permission denied
+Processing files: mktemp-1.5-19.caos
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.9673
+sh-trace: umask 022
+sh-trace: cd /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD
+sh-trace: cd mktemp-1.5
+sh-trace: DOCDIR=/var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/doc/mktemp-1.5
+sh-trace: export DOCDIR
+sh-trace: rm -rf /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/doc/mktemp-1.5
+sh-trace: /bin/mkdir -p /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/doc/mktemp-1.5
+sh-trace: cp -pr LICENSE README RELEASE_NOTES /var/tmp/mezzanine-buildroot.5661/mktemp.28693/usr/share/doc/mktemp-1.5
+sh-trace: exit 0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /var/tmp/mezzanine-buildroot.5661/mktemp.28693
+warning: Could not canonicalize hostname: x86_64-build.caosity.org
+Wrote: /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/SRPMS/mktemp-1.5-19.caos.src.rpm
+Wrote: /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/RPMS/x86_64/mktemp-1.5-19.caos.x86_64.rpm
+[buildtool/707/place_package_files()] Output files for mktemp:  /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/SRPMS/mktemp-1.5-19.caos.src.rpm /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/RPMS/x86_64/mktemp-1.5-19.caos.x86_64.rpm
+[buildtool/726/place_package_files()] Testing location "/src.rpm$/=/usr/src/corebuild.mezz/SRPMS"
+[buildtool/739/place_package_files()] Match found for /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/SRPMS/mktemp-1.5-19.caos.src.rpm:  =src.rpm$ (/usr/src/corebuild.mezz/SRPMS).
+[buildtool/753/place_package_files()] /usr/src/corebuild.mezz/SRPMS/mktemp-1.5-19.caos.src.rpm exists; removing.
+[buildtool/757/place_package_files()] ln -f /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/SRPMS/mktemp-1.5-19.caos.src.rpm /usr/src/corebuild.mezz/SRPMS/mktemp-1.5-19.caos.src.rpm
+[buildtool/726/place_package_files()] Testing location "/src.rpm$/=/usr/src/corebuild.mezz/SRPMS"
+[buildtool/726/place_package_files()] Testing location "/rpm$/=/usr/src/corebuild.mezz/x86_64"
+[buildtool/739/place_package_files()] Match found for /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/RPMS/x86_64/mktemp-1.5-19.caos.x86_64.rpm:  =rpm$ (/usr/src/corebuild.mezz/x86_64).
+[buildtool/753/place_package_files()] /usr/src/corebuild.mezz/x86_64/mktemp-1.5-19.caos.x86_64.rpm exists; removing.
+[buildtool/757/place_package_files()] ln -f /usr/src/corebuild.mezz/x86_64/00_LOGS/cvs/caos/core/mktemp/RPMS/x86_64/mktemp-1.5-19.caos.x86_64.rpm /usr/src/corebuild.mezz/x86_64/mktemp-1.5-19.caos.x86_64.rpm
+Package build for mktemp completed successfully.  (Tuesday, 25 March 2008 03:43:13 EST)
+[Build.pm/489/cleanup_build_tree()] /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp | /var/tmp/mezzanine-buildroot.5661/mktemp.28693 | /var/tmp/mezzanine.temp.dironly.5661.2db2 | orc
+[Build.pm/490/cleanup_build_tree()] Only allowing cleaning in:  /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES /var/tmp/mezzanine-buildroot.5661/mktemp.28693 /var/tmp/mezzanine.temp.dironly.5661.2db2/var/tmp/mezzanine-buildroot.5661/mktemp.28693
+[Build.pm/525/cleanup_build_tree()] Cleaning /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/BUILD?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /var/tmp/mezzanine.temp.dironly.5661.2db2/usr/src/corebuild.mezz/x86_64/00_LOGS//cvs/caos/core/mktemp/SOURCES?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /var/tmp/mezzanine-buildroot.5661/mktemp.28693?
+[Build.pm/534/cleanup_build_tree()] Yes.

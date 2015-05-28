@@ -1,0 +1,553 @@
+<!-- Title: 18:17:30  Mon May 14 2001 -->
+<!-- Crewchief: Sav -->
+<!-- Op1: Auke- Pieter -->
+<!-- Op2: Sehban -->
+<!-- Op3: Matt -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>plug - plug - plug</pre>
+
+
+<!-- Date: Mon May 14 18:22:41 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre> 
+ 
+Plan for tonight 
+ 
+West 
+---------- 
+ ISL West 
+   
+  1. L005 plug - low noise, other stuff as well-  
+  2. IN2  low noise problem  - frees stuff for SVX 
+  3. OUT3, L003 - need RTV but no rush 
+  4. IN3 - needs pipes moved and replug - no rush 
+ 
+ SVX WEST 
+  1. SB0W0 (S0OUT) - fix junction card and plug 
+  2. as soon as Matt installs power supplies  
+     S2CEN 
+     S3CEN 
+     S2OUT 
+     S3OUT 
+  3. if IN2 finished 
+     S4IN 
+     S4CEN 
+     S4OUT (also needs PS) 
+ 
+ 
+EAST 
+---------- 
+  ISL east 
+   1. L005 - needs debug 
+   2. OUT1 - missing junction card 
+   3. OUT0 - debug - LV cable ? 
+ 
+  SVX east 
+   1. S5IN - PS problem - document and fix 
+             then RTV 
+   2. S2IN - plug  
+      S0CEN - plug 
+      S0OUT - plug ( PS being installed) 
+    
+   3. S3IN - debug  ( need OUT1 also to free more stuff)  
+ 
+          
+  </pre></td></tr></td></table>
+<!-- Author: Paul, Jean -->
+
+
+<!-- Date: Mon May 14 19:04:12 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Summary of Day shift 5/14 east bore: 
+ 
+Finished plugging of Sb3W11.   All parts good and RTV applied. 
+ 
+L00 W5:  Had problem with both wib and wedge.  Cell id mis-match on all chips.  Replaced FIB and fixed problem.  Wib test good.  Wedge looks good unbiased.  Passed off the APC to finish test with bias.</pre></td></tr></td></table>
+<!-- Author: aa -->
+
+
+<!-- Date: Mon May 14 19:05:08 2001 -->
+<pre>Found JC of East out1 for ISL attached to cables already.   Sorry  for confusion.   APC will test and plug in. 
+ 
+</pre>
+<!-- Author: aa -->
+
+
+<!-- Date: Mon May 14 19:32:22 2001 -->
+<pre>Moved 
+ 
+B4W8 S8Cen 
+B5W8 S8Out 
+B3W9 S9In 
+B4W9 S9Cen  
+B5W9 S9Out 
+B4WA S10Cen 
+ 
+to 
+              Enable 
+B0W2 S2Out   SVX Enable 3 
+B1W2 S2Cen   SVX Enable 2 
+B0W3 S3Out   SVX Enable 3 
+B1W3 S3Cen   SVX Enable 2 
+B0W4 S4Out   SVX Enable 3 (may already have enable) 
+B5W0 S5Out   SVX Enable 3 
+ 
+I have not palced any enables for these power supplies as I'm 
+still out of enable supplies.  Please use the main grey enable 
+cable for each of these and plug them directly into the supplies. 
+ 
+</pre>
+<!-- Author: herndon and napora -->
+<!-- Comment: Mon May 14 19;35;06 comment by...herndon -->
+<pre>These enable instructions are also true for S0Cen-S3Cen and
+S11Cen on the east side.  Use enable 2.</pre>
+
+
+<!-- Date: Mon May 14 20:22:38 2001 -->
+<pre>SB1W3 and SB1W2 JC now have ground strap. They are in bore west. 
+Also SB0W2 and SB0W3 JC are in the bore. Ground strap prepared 
+but not soldered</pre>
+<!-- Author: Saverio and Sehban -->
+
+
+<!-- Date: Mon May 14 21:10:47 2001 -->
+<pre>New SVX LoadBox has overcurrent on AVdd layer 0 and 1 
+We use old L00 LB instead.</pre>
+<!-- Author: Saverio -->
+<!-- Comment: Tue May 15 07;47;46 comment by...Lester -->
+<pre>According to Matt, this problem only occurs
+when the box cooling is not on.</pre>
+<!-- Date: Mon May 14 21:12:44 2001 -->
+<pre>Interlock enable for barrel-1 nw crates (i.e. cable n. 2) shows  
+no 5 V even when enabled. We use cable n. 1 instead,  
+for the time being. (i.e. before plugging)</pre>
+<!-- Author: Saverio  -->
+
+
+<!-- Date: Mon May 14 22:32:48 2001 -->
+<pre>Interlock for SB1W2 re-cabled before starting the plugging procedure,  
+after WiB and LB test. It is probably a flaky connection, as 
+on the sw side interlocks are fine (Matt reports it). 
+Andy was paged, he says it's bad enough to be fixed tomorrow... 
+not earlier.</pre>
+<!-- Author: Saverio, Steve W -->
+
+
+<!-- Date: Mon May 14 23:47:06 2001 -->
+<pre>FIB 550262 S/N 100 in b0fib07 slot 10 was excahnged for  
+FIB 550264 S/N 102 because of a bad GLINK 3.</pre>
+<!-- Author: Mary Bishai -->
+
+
+<!-- Date: Tue May 15 00:01:57 2001 -->
+<pre>SB1W2 
+Tested successfully with LoadBox (L00 old) and with WiB. 
+Plugged in. The card was tight ! hard time in plugging. 
+Not tested because of interlock problem. 
+ 
+SB1W3 
+Started testing with Load Box when probably quadlock tripped 
+the 400 Hz power.  
+About 10 min earlier control room called about an ISL trip.</pre>
+<!-- Author: Soushi Tsuno and Saverio -->
+
+
+<!-- Date: Tue May 15 00:20:39 2001 -->
+<p> 
+Got paged from the control room because of an ISL dew point trip. 
+As I was walking the shifter through the recovery procedure, power 
+to the racks was lost.  Again there was no trip latched in the Quadlog.  Roser has set up some kind of detailed data logging for these mysterious trips so we should be able to learn something tomorrow about why this is happening.  Anyway I asked for the cryo room to be notified of the rack trip so that they can reset it. 
+</p>
+<!-- Author: Andy H. -->
+
+
+<!-- Date: Tue May 15 01:03:35 2001 -->
+<pre>ISL B5W1 tested with LIB and WIB. Fib had to be swapped (see 
+entry above) but otherwise this is ready for plug in.</pre>
+<!-- Author: Auke-Pieter - Mary -->
+
+
+<!-- Date: Tue May 15 05:19:30 2001 -->
+<pre>WIB testing SB3W2 (aka S2IN).  Initializes OK, but 
+occasional RO errors.  Errors are a motley collection, 
+but mostly Not CHIP ID.  Happens in ~5% of events.  
+When the not chip id error happens, it happens in all 
+layers.  It does not matter what layers or combination 
+of layers we have turned on, even reading singly.  Also 
+swapped FIB timing cable with SB3W1, which did not cure 
+the problem.  Swapping WIB also did not help. 
+ 
+	Diagnosing this as an FTM problem for SCN 
+to enjoy in the morning, and we will in the meantime move 
+on. </pre>
+<!-- Author: ADF / SW -->
+
+
+<!-- Date: Tue May 15 07:42:03 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Summary 0:00-8:00 WEST bore: 
+---------------------------- 
+ 
+Plugged in SB1W3, OFTM channel 1 bad: does not init, but currents  
+change and RO ok, this is nailed down to be the OFTM! 
+This wedge has the big ground braid. 
+ 
+Test SB1W2 after plugging by Saverio: everything fine,  
+but cannot run L1 with full bias since it draws more than  
+50uA (which is already known from Sidet) and the current  
+limit is 50. I don't know how to change that... But this  
+layer runs unbiased, so no problems expected, but limit  
+needs to be changed! 
+This wedge has also a big ground connection. 
+ 
+Plugged in SB0W3: LIB test shows non-linearity of L2 and L4  
+at low voltages? From 50-40V they go down by 20% in the current, 
+but from 40V to 20V they change more like down to a third than  
+to half... 
+WIB test shows that OFTM channels 5 and 8 are bad! Channel 5  
+did not init and channel 8 has a stuck bit (CAP ID errors). 
+This JC is plugged in slightly skewed since in between the  
+rails of SB0W3 and SB0W4 there seems to be some epoxy which  
+blocks off the right edge of the JC, but decided to run it  
+anyway and everything seems to be fine. 
+This wedge also has a big ground strap. Connected SB1W3 and SB0W3  
+grounds together, unfortunately we didn't save the histos from  
+SB1W3, but we compared layer 3 rails from SB0W3 before and after  
+the ground connection was done and it looked like the rails  
+went down from ~1 count to below 0.5 counts! That is pretty  
+good news! 
+ 
+SB0W2 JC connected to cable bundle, check list prepared, waiting  
+for LIB and for the online computers to go down... 
+ 
+ 
+FINAL REMARK: the old SVX LIB disappeared and the new one  
+doesn't work, all tests were performed with the L00 LIB!  
+ 
+</pre></td></tr></td></table>
+<!-- Author: Petra -->
+<!-- Comment: Tue May 15 07;45;22 comment by...Petra -->
+<pre>of course the SB1W3 has the OFTM problem in channel 6 and not 
+in channel 1!</pre>
+
+
+
+<!-- Date: Tue May 15 09:38:23 2001 -->
+<pre>Owl Summary East Side 5/15/01 
+ 
+	The evening go off to a rousing start with 
+an ISL trip and FIB rack cooling trip.  We recovered 
+from these around 0130.  However, b0fib04 continued 
+to give us trouble after the trips were cleared; we 
+could not download maps and handshake properly.   
+It refused to reboot either from a session in the 
+crate or from b0dap19.  FIB crate rebooted at rack by 
+pressing RST button. 
+ 
+	Returned to SB3W5 (I believe my logbook 
+entry of 10:59 5/13 has typo) to check out earlier PS 
+difficulties.  The difficulty at the time was 
+that it was not possible to turn off L3 DVDD. 
+After turning off GUI, it still drew 800 mA. 
+At the time, it still wouldn't turn off after 
+turning off interlocks, removing enable cable,  
+or even power-cycling the crate (As we just 
+couldn't kill it, I submit the appellation "Crate Dracula".) 
+However, tonight we repeated the test, and there were no problems  
+with the PS.  So we conclude it is now OK. 
+ 
+	LIB and Blinky-light tested SB3W2 (S2IN).  It 
+does not have a big shiny new ground braid.  As  
+detailed in earlier log entry, it initialized OK, 
+but about 5% of events gave RO errors on all DOIMs. 
+Otherwise the RO was fine.  We swapped the timing cable 
+and WIB, so they are both exonerated, as are the DOIM 
+cables, since most RO is fine, and channels are not failing 
+individually.  We concluded the problem was somewhere  
+at the FIB crate, and decided to move along without 
+plugging it. 
+ 
+	We moved on to SB4W0 (S0CEN).  It passed the 
+LIB and blinky light test, and then failed RO in the 
+same way as S2IN. Different FTM, different cable bundle. 
+We decided to--move on. This JC has a ground braid. 
+	 
+	Finally we tried SB5W0 (S0OUT).  It passed 
+the LIB and blinky light test, then failed RO in the same 
+way as the last two.  This was the end of our shift. 
+This JC has a ground braid. 
+ 
+	Probably all three of these JC's are pluggable. 
+WIBs read out fine when they weren't hiccuping. 
+It would be nice if someone like Steve or Mary could 
+determine exactly what happened.  My (ADF) guess is that 
+rebooting the crate again and doing quick WIB tests is 
+the way to go.   
+</pre>
+<!-- Author: AF / MRB / SW -->
+
+
+<!-- Date: Tue May 15 11:18:16 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Updated plan for Tuesday day 
+ 
+ 
+* priority - day shift  
+      - Tony in east 
+      - Lester in west 
+ 
+When Tony finish L005/ OUT1, ISL moves to west 
+             L005 or IN2 
+ 
+West 
+---------- 
+ ISL West 
+   
+  1. IN2  low noise problem  - frees stuff for SVX 
+  2. L005 plug - low noise, other stuff as well- 
+  3. OUT3, L003 - need RTV but no rush 
+  4. IN3 - needs pipes moved and replug - no rush 
+ 
+ SVX WEST 
+ 
+  1. ready to plug  
+*      S2OUT 
+*      S0OUT - use spare junction card 
+ 
+  3. prepare for plugging - LIB, Blinky lights 
+       S4IN - waiting on IN2 
+       S4CEN    " 
+       S4OUT    " 
+       S10IN  waiting on L005 
+       S11CEN   "  and need PS 
+       S11OUT   "  and need PS 
+       S7OUT - waiting on S7CEN PRD2 short fix 
+ 
+  5. S7CEN - needs PRD2 fix 
+   
+  7. S7IN - replug when cooling pipes adjusted 
+     S8IN - needs RTV, but probably easiest when  
+            S7CEN, S7IN done 
+   
+ 
+EAST 
+---------- 
+  ISL east 
+*  1. L005 - finish 
+*  2. OUT1 - plug 
+   3. OUT0 - debug - LV cable strung 
+ 
+  SVX east 
+   1. S5IN - RTV 
+   2. Debug FIB problem and so plug 
+      S2IN   
+      S0CEN  
+      S0OUT  
+    
+   3. S3IN - debug  ( need OUT1 also to free more stuff)  
+ 
+   4. get ready for plugging -LIB/blinky lights 
+      S10IN - waiting on L005 
+      S11CEN    "          
+      S2CEN   waiting S2IN 
+      S1IN    Waiting OUT0 
+ 
+ 
+   5. S5OUT eventually needs more debug or declared dead 
+ 
+</pre></td></tr></td></table>
+<!-- Author: jean -->
+
+
+<!-- Date: Tue May 15 11:19:15 2001 -->
+<pre>We just started work again - downtime since 
+8:00 AM due to computer rebooting.</pre>
+<!-- Author: jean -->
+
+
+<!-- Date: Tue May 15 15:43:04 2001 -->
+<pre>Problem with ISL dewpoint trip (around 1500).  ISL chiller valve stuck closed so that chiller output temperature was cold (9.2C). Dewpoint was 6C + 3C so that we were really close to trip limit.  Cycled Configuration Switch on ISL chiller front panel (this gets valve unstuck).  Seems to be working OK now.  I'll alert shift/tech operators.</pre>
+<!-- Author: Rich Stanek -->
+
+
+<!-- Date: Tue May 15 16:58:15 2001 -->
+<pre>Summary of west side day shift: 
+ 
+SB0W2: 	passed blinky lights. 
+	LIB found bias on L1 not split. 
+	punted. 
+ 
+SB0W0:	used replacement junction card (s/n 147). 
+	Passed LIB, WIB fine 
+	Plugged in after some filing on non-via 
+	side to get it to fit betwen rails. 
+	Works fine. 
+ 
+SB2W4:	passed blinky lights and lIb tests. 
+	ready for WIB. 
+	(note that Vdoim5 = 4.7 by DVM on  
+	new SVX load box) 
+</pre>
+<!-- Author: lester sehban aaron -->
+
+
+<!-- Date: Tue May 15 18:31:27 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Summary of day shift east end 5/15: 
+ 
+LB1W5:finished tests of wedge.  Looks good.  RTV applied and tagged out 
+ 
+IB5W1:Plugged in.  Test without bias good.  Currents normal.  After applying bias to bias 0 all 5 ladders, DOIM 2V and 5V drop to 4/5th of previous value.  This is 20 seconds after the last bias voltage ramped up.   Layer 0 them gives no readout.  Re-init and get 0000s on L0 init readback.  Test rest of ladders successfully with full bias, with no problems.   Probed light output of L0.  No light output.   Above symptoms consistant with blown DOIM l0.   RTV applied and tagged out, l0 not usable.</pre></td></tr></td></table>
+<!-- Author: aa,sw,s -->
+
+
+<!-- Date: Tue May 15 18:54:38 2001 -->
+<pre>replaced power supply 
+SB0W2 S2Out west 
+ 
+inserted power supplies 
+SB1WB S11Cen west 
+SB0W2 S2Out  east 
+SB0W3 S3Out  east 
+SB0WB S11Out east 
+ 
+Only missing power supplies not in bottom quadrent are 
+SB5WB S11Out west (L005 problem) 
+SB5W1 S1Out  east (Out0 problem) 
+SB3W3 S6In   east (power supply/slot of death!) 
+ 
+</pre>
+<!-- Author: herndon -->
+<!-- Comment: Tue May 15 20;42;01 comment by...herndon -->
+<pre>I have not placed enables for most of these power supplies as
+I am out of part.  However, I was able to place enables for
+most of the NW SVX crates today.  On the NE SVX crates the
+users will still have to plug the enable in for themselves.
+
+For SVX east
+B3 = Enable 1
+B4 = Enable 2
+B5 = Enable 3</pre>
+<!-- Date: Tue May 15 20:30:17 2001 -->
+<pre>Tested SB3W6: Power supply would not turn off failure 
+ 
+Inserted failed power supply. Connected cables and enable. 
+Turned on power supply using front panel and turned power 
+supply off. No channels on according to CAEN front panel or  
+red LED. 
+ 
+Turned on GUI.  No channels on according to GUI.  Turned on 
+power supply using GUI and turned power supply off.  No 
+channels on according to GUI, front panel and LED.   
+ 
+Turned on power supply using GUI and removed enable cable. 
+Power supply tripped.  No channels on according to GUI, front 
+panel and LED.   
+ 
+Conclusion: problem is not reproducible. 
+Note that one difference is that the power supply is not 
+connected to the wedge. 
+ 
+We should make plots of the spy information to see if there 
+is any additional information there.</pre>
+<!-- Author: herndon -->
+
+
+
+<!-- Date: Wed May 16 00:49:57 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>EAST BORE: 
+Debugged S3IN.   Fixed CAP ID errors in layer one by putting an air 
+gap at the DOIM connection in the bore using a double thickness of 
+Kapton tape.  Assembly has been wrapped with Kapton.   Please do not 
+disconnect. 
+Put ground straps on S2IN, S3CEN, S10IN, and S11CEN.   Other junction 
+cards for S2CEN, S3OUT, S2OUT and S11CEN are at SiDet for Bert to solder. 
+Andy's plan was to finish S2IN, S0CEN, S0OUT and then go on to S10IN 
+and S11CEN. 
+WEST BORE: 
+Petra will try and plug S2OUT at some point tonight.   She and Andy 
+will try an work in parallel in the East side.</pre></td></tr></td></table>
+<!-- Author: Paul Shepard -->
+<!-- Comment: Wed May 16 00;56;36 comment by...Paul Shepard -->
+<pre>WEDGE HAS HAD RTV APPLIED.</pre>
+
+
+<!-- Date: Wed May 16 08:15:08 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>East Bore 5/16 Owl 0000-0800 
+ 
+	The following wedges were LIBed, WIBed, Plugged, 
+Tested, and RTV'ed: 
+ 
+	S2IN	(SB3W2) 
+	S0CEN	(SB4W0) 
+	S0OUT	(SB5W0) 
+	S10IN	(SB3W10) 
+ 
+	We did not do the post-RTV tests due to quadlog 
+trip at 0730 as we prepared to do them. 
+ 
+	S10IN gave occasional 00 sequence errors.   
+However, we made them go away by standing off the 
+DOIM connectors by about half a millimeter. 
+ 
+	S11CEN is ready to WIB--hooked up the WIB 
+DOIMs.  It has been LIBed and blinky-lighted.</pre></td></tr></td></table>
+<!-- Author: ADF / MRB / SW -->
+<!-- Comment: Wed May 16 08;16;31 comment by...ADF -->
+<pre>Tagged out S2IN, S0CEN, S0OUT PS's.  Left S10IN untagged
+in case of desire to adjust (lower) DOIM voltage.</pre>
+
+
+<!-- Comment: Wed May 16 08;37;22 comment by...ADF -->
+<pre>CRUSHED ~10 PINS ON SHORT JC #148 (used with 
+WIB); they were on J7.  Cut them off so as not to
+induce shorts anywhere.</pre>
+<!-- Comment: Wed May 16 12;29;15 comment by...Simon W -->
+<pre>S2IN, S10IN, S0CEN, S0OUT retested OK after RTV.</pre>
+<!-- Date: Wed May 16 08:20:32 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>This is the report of a not so efficient night in the WEST bore: 
+================================================================ 
+ 
+first of all: Dave et al worked until 2:30 in order to  
+understand the ISL and L00 problems but didn't come to the  
+point to bless them, I think for the L00 they want the PS to  
+be swapped since they see rather large currents... 
+  
+We worked on SB0W2 
+it has a ground strap 
+it LIB tested ok, the new PS seems to be fine. 
+ 
+blinky lights ok, but with WIB#1 nothing inits, the currents  
+don't seem to change and nothing gets read back! 
+ 
+in order to debug this we basically swapped the complete  
+inventory in the west around: 
+all the following steps didn't help, if not leaving Jeff  
+and me fairly confused...: 
+ 
+swapped to L00 WIB;  
+swapped FIB command cable from SB0W11; 
+swap almost everything with SB0W3, which is already plugged and  
+works: 
+  FIB cable, 
+  one DOIM at the OFTM, 
+  one DOIM at the bore; 
+swapped to test ("SVX compatible") JC; 
+run this wedge in the lower half of the OFTM/FIB and SB0W3 in the  
+upper;   
+ 
+ 
+ 
+NEXT step for day shift: 
+------------------------ 
+Use SB2W10 to ensure that WIB#1 works! 
+From there on swap one by one back to SB0W2: 
+the JC; 
+the PS+power cables; 
+the FIB cable+DOIMs; 
+ 
+Somehow this wedge reminds us to the infamous LIB test passing  
+LV cables which wouldn't show anything wrong but which would  
+fail the WIB test completely! 
+</pre></td></tr></td></table>
+<!-- Author: Petra, Francesco, Jeff -->
+
+

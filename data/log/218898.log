@@ -1,0 +1,403 @@
+<!-- Title: Owl shift. Sat Oct  5, 2002 -->
+<!-- SciCo: Steve Nahn -->
+<!-- DAQAce: Bruce Knuteson -->
+<!-- MonAce: Martin Hennecke -->
+<!-- CO: JJ! -->
+<!-- OpManager: Matthew Jones -->
+<!-- Notes: -->
+Take lots and lots of good quality data and try to stay conscious
+
+
+<!-- Date: Sat Oct 5 00:43:52 2002 -->
+WCAL_03 L1 done timeout; HRR recovered.  Correlated in time with a TeVMon error and spike in pbar loss.  Causal?
+<!-- Author: Knuteson :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152507' target=_top>152507</a>) -->
+<!-- Comment: Sat Oct  5 00;56;18 comment by...Knuteson -->
+Losses observed also in protons at this time.
+
+
+<!-- Date: Sat Oct 5 01:00:57 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8399&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8399' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8400&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8400' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8401&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8401' width='300'></a></center>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sat Oct 5 01:42:03 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-8402&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-8402  width='300' align='top'></td><td>L1 (DIRAC?) problems continue?</a></td></tr></table>
+<!-- Author: SCN, Ting, JJ -->
+<!-- Comment: Sat Oct  5 01;47;15 comment by...SCN -->
+Heather saw some DIRAC problems on
+<a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2002&action=view&page=830&frame=2&anchor=21:06:41'>
+evening shift</a> and then Arnd <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2002&action=view&page=830&frame=2&anchor=21:46:46'>
+attempted to fix</a> the L1 crate and then hoped TrigMon would be happy, but it ain't.  We are not seeing BXING errors (we believe the Error Logger would tell us) but will page L1 to tell us what to do about this plot. Trigger rates seem ok, so we're optimistic.
+
+
+
+<!-- Comment: Sat Oct  5 02;04;44 comment by...SCN -->
+Paged Greg, who told us we cannot read.  <FONT COLOR=RED>RED</FONT> in the above plot corresponds to an error rate of 0.009(5) x 1E-01, and threshold for good/bad is 0.0100 x 1E-01, so we're damn close.  The problem is the color of the
+variable scale-if the whole bottom plot were <FONT COLOR=RED>RED</FONT> one would assume incorrectly that there is a problem.  Still, from the topology I'd guess there are a few DIRAC cards with minor issues.  Says Greg "It's fine".
+<!-- Comment: Sat Oct  5 02;37;12 comment by...SCN -->
+In doing this, we had some trouble saving the plot.  Thought it
+might be disk space, so I moved all *.gif and *.ps files from
+/cdf/people1/cdfdaq to /data1/cdfdaq/oldPlots.<B><FONT COLOR=RED>Someone really ought to clean up /cdf/people1/cdfdaq as it has huge files of useless data in it</FONT></B> (Use of hyperbole intended to garner attention)
+<!-- Comment: Sat Oct  5 12;40;47 comment by...Greg  -->
+<pre>I can see how this plot appears similar to the plot of the 
+last shift which was showing real problems.  We clearly can
+still do better with choice of and definition of normalization
+on the axes for these plots. 
+</pre>
+<!-- Date: Sat Oct 5 01:57:46 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8403&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8403' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8404&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8404' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8405&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8405' width='300'></a></center>
+<!-- Author: Martin Hennecke -->
+
+
+
+<!-- Date: Sat Oct 5 02:33:27 2002 -->
+MCR update<P> 
+Called them and they said they'd shoot from 120.  Stack currently 
+at 98 rate 7.8 mA/hr, so we'll stop this run at ~ 110 and 
+do Calibration, page CMP, etc.
+<!-- Author: SCN :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152507' target=_top>152507</a>) -->
+
+
+
+<!-- Date: Sat Oct 5 03:07:00 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8406&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8406' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8407&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8407' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8408&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8408' width='300'></a></center>
+<!-- Author: Martin Hennecke -->
+
+<!-- Date: Sat Oct 5 04:07:18 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152507">152507</A>
+ Terminated at 2002.10.05 04:06:52
+<!-- processed by 131.225.127.7 -->
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sat Oct 5 04:07:34 2002 -->
+Stack at 110, Ending Run to take D Mode Calib.  Paging CMP.
+<!-- Author: SCN, Bruce -->
+
+<!-- Date: Sat Oct 5 04:08:11 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152507">152507</A>
+TERMINATE: Ending physics run 1.5 hours before end of store, according to operation instructions.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+
+<!-- Date: Sat Oct 5 04:12:18 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8415&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8415' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8416&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8416' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8417&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8417' width='300'></a></center>
+<!-- Author: Martin Hennecke -->
+
+<!-- Date: Sat Oct 5 04:14:32 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152507">152507</A>
+RUNSTATUS: Looks good to me too, but it didn't want to write it, so I make a nice comment
+<!-- processed by 131.225.127.7 -->
+<!-- Author: cdfscico -->
+<!-- Comment: Sat Oct  5 04;19;16 comment by...SCN -->
+Had some weirdness with the goodrun GUI-when trying to call this
+run Good, it came up with the Run and called all components good
+for me, then wouldn't let me write it since nothing had changed, so I made a comment. Is this now automatic and I don't have to do anything?  Anyway, it also had hung its rtserver connection and wasn't responding, so we restarted it and the run is in there (as is my comment) so I guess it is ok.
+<!-- Date: Sat Oct 5 04:17:07 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152508">152508</A>
+ACTIVATE: Begin silicon D-mode calibration run.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+
+<!-- Date: Sat Oct 5 04:22:26 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152508">152508</A>
+TERMINATE: End silicon D-mode calibration run, DPS-on.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+<!-- Date: Sat Oct 5 04:23:27 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152509">152509</A>
+ACTIVATE: Begin silicon D-mode calibration run, DPS-off.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+<!-- Date: Sat Oct 5 04:28:43 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152509">152509</A>
+TERMINATE: End silicon D-mode calibration run.
+<!-- processed by 12.251.113.214 -->
+<!-- Author: Knuteson -->
+
+
+<!-- Date: Sat Oct 5 04:36:35 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510">152510</A>
+ Activated at 2002.10.05 04:36:16
+<!-- processed by 131.225.127.7 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Oct 5 04:37:38 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510">152510</A>
+ACTIVATE: Begin physics run.
+<!-- processed by 12.251.113.214 -->
+<!-- Author: Knuteson -->
+
+
+
+<!-- Date: Sat Oct 5 04:52:57 2002 -->
+<h2>Shot Setup Procedure Change</h3> 
+Kaori called and notified us that contrary to the Shot Setup  
+Flow Chart, <B>D</B>ynamic <B>P</B>re<B>S</B>caling should be 
+enabled at all times for Physics Runs.  She will replace the Flow Chart with modified instructions, but wanted us to know since  
+we'll probably go into Shot Setup this morning.  She's also talking to JJ since we cannot stop SVXMon. (it seems to have gone zombie on us) <P> Also, Trevor showed up and measured CMP currents at the end of the store 
+to compare with beginning of store measurements.  He was very cheerful.
+<!-- Author: SCN -->
+
+
+<!-- Date: Sat Oct 5 05:06:40 2002 -->
+Stopped and restarted SVXMon to get updated masks for 
+SVX Chip Status display. Process would not stop cleanly 
+on b0dap66 but Kaori happened to call in and walked us 
+through the process.
+<!-- Author: JJ :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510' target=_top>152510</a>) -->
+
+
+<!-- Date: Sat Oct 5 05:12:35 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8418&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8418' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8419&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8419' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8420&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8420' width='300'></a></center>
+<!-- Author: Martin Hennecke -->
+
+<!-- Date: Sat Oct 5 05:21:05 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510">152510</A>
+ Terminated at 2002.10.05 05:20:26
+<!-- processed by 131.225.236.229 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Oct 5 05:21:06 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510">152510</A>
+TERMINATE: Ending physics run.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+<!-- Date: Sat Oct 5 05:21:06 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510">152510</A>
+TERMINATE: Ending physics run.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+
+<!-- Date: Sat Oct 5 05:22:25 2002 -->
+MCR called (simultaneously on two different lines):Dropping the store is imminent, so we're turning HV down.
+<!-- Author: SCN -->
+
+<!-- Date: Sat Oct 5 05:55:55 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152511">152511</A>
+ Activated at 2002.10.05 05:54:38
+<!-- processed by 131.225.236.229 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Oct 5 06:01:48 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152511">152511</A>
+ACTIVATE: Begin cosmic ray run.
+<!-- processed by 131.225.236.229 -->
+<!-- Author: Knuteson -->
+
+
+
+<!-- Date: Sat Oct 5 06:02:53 2002 -->
+<pre>On the COT PC Monitor on the first floor I noticed the  
+"iFix System Alert Message Viewer" which says: 
+"Alarm queue 'Summary list' has overflowed. At least one 
+alarm may have been lost". 
+The timestamp of his message is 04:56. 
+Is this something serious ?</pre>
+<!-- Author: Martin Hennecke -->
+<!-- Comment: Sat Oct  5 07;45;31 comment by...Andy H. -->
+No.
+<!-- Date: Sat Oct 5 06:10:54 2002 -->
+MCR update<P> 
+They are starting to inject Protons for a HEP store
+<!-- Author: SCN -->
+
+
+<!-- Date: Sat Oct 5 06:19:18 2002 -->
+<h4>Luminosity summary for the owl shift part of store 1824</h4> 
+Begin shift or beam at 00:01:07<br> 
+End shift or beam at 05:21:12<br> 
+Delivered luminosity: 210.39<br> 
+Acquired luminosity: 196.34<br> 
+<hr> 
+<TABLE bgcolor=#cdc9a5> 
+<tr><th colspan=2>Totals</th></tr> 
+<tr><td>Date:</td><td>2002.10.05</td> 
+<tr><td>Shift:</td><td>owl</td> 
+<tr><td>Delivered luminosity:</td><td>210.39 nb<sup>-1</sup></td></tr> 
+<tr><td>Acquired luminosity:</td><td>196.34 nb<sup>-1</sup></td></tr> 
+<tr><td>Efficiency:</td><td>93.32</td></tr> 
+</TABLE> 
+</BODY></HTML>  
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sat Oct 5 06:27:19 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8421&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8421' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-8422&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-8422' width='300'></a></center>
+<!-- Author: Martin Hennecke -->
+<!-- Comment: Sat Oct  5 06;28;58 comment by...Martin Hennecke -->
+Lumi plots for the owl shift part of store 1824 (left) and 
+the complete store (right).
+
+<!-- Date: Sat Oct 5 07:13:03 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152511">152511</A>
+ Terminated at 2002.10.05 07:12:28
+<!-- processed by 131.225.127.7 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Oct 5 07:13:04 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152511">152511</A>
+TERMINATE: Ending cosmic ray run.
+<!-- processed by 131.225.127.7 -->
+<!-- Author: Knuteson -->
+
+
+<!-- Date: Sat Oct 5 07:29:25 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152512">152512</A>
+ACTIVATE: Begin shot setup run.
+<!-- processed by 131.225.233.135 -->
+<!-- Author: Knuteson -->
+
+
+
+<!-- Date: Sat Oct 5 07:32:44 2002 -->
+XMon display had stopped updating (lost socket connection). 
+XMon process was OK but stopped it by mistake. XMon and 
+display now restarted.
+<!-- Author: JJ -->
+
+
+<!-- Date: Sat Oct 5 07:34:38 2002 -->
+<pre>Proton loading finished.</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sat Oct 5 07:36:23 2002 -->
+Proton Load done, 8.5E12 in Tev
+<!-- Author: SCN -->
+<!-- Comment: Sat Oct  5 07;36;54 comment by...SCN -->
+Stack is at 124
+
+
+<!-- Date: Sat Oct 5 07:55:29 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152507>152507</A> 
+x253BB</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [5,151,319]</TD>                                       
+<TD ALIGN=CENTER>21:44:24</TD>                                          
+<TD ALIGN=CENTER>04:06:52</TD>                                          
+<TD ALIGN=CENTER>06:18:59</TD>                                          
+<TD ALIGN=RIGHT>    150,286,630</TD>                                    
+<TD ALIGN=RIGHT>     2,986,482</TD>                                     
+<TD ALIGN=RIGHT>     674,425</TD>                                       
+<TD ALIGN=RIGHT>  270.717</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=152510>152510</A> 
+x253BE</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [5,151,319]</TD>                                       
+<TD ALIGN=CENTER>04:36:16</TD>                                          
+<TD ALIGN=CENTER>05:20:26</TD>                                          
+<TD ALIGN=CENTER>00:44:05</TD>                                          
+<TD ALIGN=RIGHT>      8,489,787</TD>                                    
+<TD ALIGN=RIGHT>       265,283</TD>                                     
+<TD ALIGN=RIGHT>      57,525</TD>                                       
+<TD ALIGN=RIGHT>   26.015</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:02</TD>                                                       
+<TD ALIGN=CENTER>07:03:04</TD>                                          
+<TD ALIGN=RIGHT>     158,776,417</TD>                                   
+<TD ALIGN=RIGHT>      3,251,765</TD>                                    
+<TD ALIGN=RIGHT>       731,950</TD>                                     
+<TD ALIGN=RIGHT>  296.732</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- processed by 131.225.127.7 -->
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sat Oct 5 07:55:32 2002 -->
+<font color=red>Shift Summary: </font>All together a very smooth shift, with uneventful data taking.  Probably 
+due to the expert Aces and CO. 
+    <ul> 
+      <li> Start shift taking data fine 
+      <li> <a href= 
+	  '/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=01:42:03'> 
+	  L1 Non-Problem</a> found and confirmed <ul> 
+	  <li> Red is not always bad 
+	  <li> Did some extemporaneous housecleaning 
+	</ul> 
+      <li> <a href= 
+	  '/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=04:07:34'> 
+	  Stop Physics Data </a> for D-Mode Si Calibration as planned <ul> 
+	  <li> CMP paged, Trevor does some current monitoring 
+	  <li> <a href= 
+	      'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=04:14:32'>Run 152507 is already marked</a> good for all components? 
+	</ul> 
+      <li> <a href= 
+	  'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=04:37:38'>Resume Physics Data taking</a>  
+	<ul>  
+	  <li> <a href='/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=05:06:40'>SVXMon a little slow</a> in coming up 
+	</ul> 
+      <li>  <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=05:22:25'>Store Ends</a> 
+	<ul>  
+	  <li> <a href= 
+	      '/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=06:02:53'>COT IFIX problem</a> on 1st floor monitor?   
+	</ul> 
+      <li> <a href= 
+	  '/cgi/elog/elog.pl?nb=2002&action=view&page=831&frame=2&anchor=06:10:54'>Shot setup starts</a>  
+ 
+      <li> 07:34 Protons in, 07:55 Anti-protons in 
+    </ul> 
+Go Carla!   
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   152507, 152510
+Delivered Luminosity   210  
+Acquired Luminosity    196  
+Efficiency             93.3
+   
+</td></tr></table></pre>
+<!-- Author: SCN -->
+

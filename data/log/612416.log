@@ -1,0 +1,301 @@
+Package build of libnet started.  (Tuesday, 11 October 2005 01:02:32 EDT)
+/bin/ls: /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/SRPMS/../: No such file or directory
+Resetting chroot jail, please wait.
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.54128
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD
++ LANG=C
++ export LANG
++ unset DISPLAY
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD
++ rm -rf Libnet-latest
++ /bin/gzip -dc /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/SOURCES/libnet.tar.gz
++ tar -xf -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd Libnet-latest
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.54128
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD
++ cd Libnet-latest
++ LANG=C
++ export LANG
++ unset DISPLAY
++ CFLAGS=-O2
++ export CFLAGS
++ CXXFLAGS=-O2
++ export CXXFLAGS
++ FFLAGS=-O2
++ export FFLAGS
+++ find . -name config.guess -o -name config.sub
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.guess
++ '[' -f /usr/lib/rpm/caos/config.guess ']'
++ /bin/rm -f ./config.guess
+++ basename ./config.guess
++ /bin/cp -fv /usr/lib/rpm/caos/config.guess ./config.guess
+`/usr/lib/rpm/caos/config.guess' -> `./config.guess'
++ for i in '$(find . -name config.guess -o -name config.sub)'
+++ basename ./config.sub
++ '[' -f /usr/lib/rpm/caos/config.sub ']'
++ /bin/rm -f ./config.sub
+++ basename ./config.sub
++ /bin/cp -fv /usr/lib/rpm/caos/config.sub ./config.sub
+`/usr/lib/rpm/caos/config.sub' -> `./config.sub'
++ ./configure --host=x86_64-caos-linux-gnu --build=x86_64-caos-linux-gnu --target=x86_64-caos-linux-gnu --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --with-pf_packet=yes
+creating cache ./config.cache
+beginning autoconfiguration process for libnet-1.1.0...
+checking host system type... x86_64-caos-linux-gnu
+checking target system type... x86_64-caos-linux-gnu
+checking build system type... x86_64-caos-linux-gnu
+checking for a BSD compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mawk... no
+checking for gawk... gawk
+checking whether make sets ${MAKE}... yes
+checking for gcc... gcc
+checking whether the C compiler (gcc -O2 ) works... yes
+checking whether the C compiler (gcc -O2 ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... none
+checking for a BSD compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking how to run the C preprocessor... gcc -E
+checking for sys/sockio.h... no
+checking machine endianess... lil
+checking if unaligned accesses fail... no
+checking whether gcc needs -traditional... no
+checking for strerror... yes
+checking link-layer packet interface type... found linux primitives
+checking for packet socet (PF_SOCKET)... yes
+scanning available packet construction modules: 802.1q 802.2 802.3 arp cdp data dhcp dns ethernet icmp igmp ip ipsec isl ntp ospf rip snmp stp tcp udp vrrp 
+checking for net/ethernet.h... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating man/Makefile
+creating src/Makefile
+creating include/Makefile
+creating include/libnet/Makefile
+creating sample/Makefile
+creating version.h
+creating include/libnet.h
+creating libnet-config
+creating include/config.h
+Please note this is libnet 1.1.x.  Any code written for 1.0.x will NOT work without porting.  Read the MIGRATION document for more info.
++ make
+Making all in include
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make  all-recursive
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+Making all in libnet
+make[3]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include/libnet'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include/libnet'
+make[3]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+Making all in src
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/src'
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_asn1.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_802.1q.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_802.2.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_802.3.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_arp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_cdp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_data.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_dhcp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_dns.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_ethernet.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_icmp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_igmp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_ip.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_ipsec.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_isl.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_ntp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_ospf.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_rip.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_snmp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_stp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_tcp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_udp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_build_vrrp.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_advanced.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_checksum.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_crc.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_error.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_if_addr.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_init.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_internal.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_pblock.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_port_list.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_prand.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_raw.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_resolve.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_version.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_write.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c libnet_link_linux.c
+rm -f libnet.a
+ar cru libnet.a libnet_asn1.o libnet_build_802.1q.o libnet_build_802.2.o libnet_build_802.3.o libnet_build_arp.o libnet_build_cdp.o libnet_build_data.o libnet_build_dhcp.o libnet_build_dns.o libnet_build_ethernet.o libnet_build_icmp.o libnet_build_igmp.o libnet_build_ip.o libnet_build_ipsec.o libnet_build_isl.o libnet_build_ntp.o libnet_build_ospf.o libnet_build_rip.o libnet_build_snmp.o libnet_build_stp.o libnet_build_tcp.o libnet_build_udp.o libnet_build_vrrp.o libnet_advanced.o libnet_checksum.o libnet_crc.o libnet_error.o libnet_if_addr.o libnet_init.o libnet_internal.o libnet_pblock.o libnet_port_list.o libnet_prand.o libnet_raw.o libnet_resolve.o libnet_version.o libnet_write.o libnet_link_linux.o
+ranlib libnet.a
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/src'
+Making all in man
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+Making all in sample
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/sample'
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c arp.c
+gcc  -O2 -Wall  -o arp  arp.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c cdp.c
+gcc  -O2 -Wall  -o cdp  cdp.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c dhcp_discover.c
+gcc  -O2 -Wall  -o dhcp_discover  dhcp_discover.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c get_addr.c
+gcc  -O2 -Wall  -o get_addr  get_addr.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c icmp_timestamp.c
+gcc  -O2 -Wall  -o icmp_timestamp  icmp_timestamp.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c icmp_unreach.c
+gcc  -O2 -Wall  -o icmp_unreach  icmp_unreach.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c ieee.c
+gcc  -O2 -Wall  -o ieee  ieee.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c isl.c
+gcc  -O2 -Wall  -o isl  isl.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c ntp.c
+gcc  -O2 -Wall  -o ntp  ntp.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c ospf_hello.c
+gcc  -O2 -Wall  -o ospf_hello  ospf_hello.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c ospf_lsa.c
+gcc  -O2 -Wall  -o ospf_lsa  ospf_lsa.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c ping_of_death.c
+gcc  -O2 -Wall  -o ping_of_death  ping_of_death.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c stp.c
+gcc  -O2 -Wall  -o stp  stp.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c synflood.c
+gcc  -O2 -Wall  -o synflood  synflood.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c tcp1.c
+gcc  -O2 -Wall  -o tcp1  tcp1.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c tcp2.c
+gcc  -O2 -Wall  -o tcp2  tcp2.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c udp1.c
+gcc  -O2 -Wall  -o udp1  udp1.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c udp2.c
+gcc  -O2 -Wall  -o udp2  udp2.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c synflood6.c
+synflood6.c: In function `main':
+synflood6.c:157: warning: int format, different type arg (arg 2)
+gcc  -O2 -Wall  -o synflood6  synflood6.o ../src/libnet.a 
+gcc -DHAVE_CONFIG_H -I. -I. -I../include     -O2 -Wall -c icmp6_echoreq.c
+gcc  -O2 -Wall  -o icmp6_echoreq  icmp6_echoreq.o ../src/libnet.a 
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/sample'
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest'
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.15244
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD
++ cd Libnet-latest
++ LANG=C
++ export LANG
++ unset DISPLAY
++ rm -rf /var/tmp/mezzanine-buildroot.16197/libnet.5919
++ make prefix=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr exec_prefix=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr bindir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/bin sbindir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/sbin sysconfdir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/etc datadir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share includedir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include libdir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/lib64 libexecdir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/libexec localstatedir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/var sharedstatedir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/com mandir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/man infodir=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/info install
+Making install in include
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+Making install in libnet
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include/libnet'
+make[3]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include/libnet'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../mkinstalldirs /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet
+ /usr/bin/install -c -m 644 libnet-asn1.h /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet/libnet-asn1.h
+ /usr/bin/install -c -m 644 libnet-functions.h /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet/libnet-functions.h
+ /usr/bin/install -c -m 644 libnet-headers.h /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet/libnet-headers.h
+ /usr/bin/install -c -m 644 libnet-macros.h /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet/libnet-macros.h
+ /usr/bin/install -c -m 644 libnet-structures.h /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet/libnet-structures.h
+make[3]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include/libnet'
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include/libnet'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[3]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include
+ /usr/bin/install -c -m 644 libnet.h /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/include/libnet.h
+make[3]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/include'
+Making install in src
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/src'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/src'
+/bin/sh ../mkinstalldirs /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/lib64
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/lib64
+ /usr/bin/install -c -m 644 libnet.a /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/lib64/libnet.a
+ ranlib /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/lib64/libnet.a
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/src'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/src'
+Making install in man
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+make[2]: Nothing to be done for `install-exec-am'.
+make  install-man3
+make[3]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+/bin/sh ../mkinstalldirs /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/man/man3
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/man
+mkdir /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/man/man3
+ /usr/bin/install -c -m 644 ./libnet.3 /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/man/man3/libnet.3
+make[3]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/man'
+Making install in sample
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/sample'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/sample'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/sample'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest/sample'
+make[1]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest'
+make[2]: Entering directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest'
+make[1]: Leaving directory `/usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD/Libnet-latest'
++ mkdir -p /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/bin
++ install -m 755 libnet-config /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/bin
++ /usr/lib/rpm/caos/brp-compress
++ /usr/lib/rpm/caos/brp-strip /usr/bin/strip
++ /usr/lib/rpm/caos/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/caos/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
+Processing files: libnet-1.1.0-2.caos
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.65352
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD
++ cd Libnet-latest
++ DOCDIR=/var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/doc/libnet-1.1.0
++ export DOCDIR
++ rm -rf /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/doc/libnet-1.1.0
++ /bin/mkdir -p /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/doc/libnet-1.1.0
++ cp -pr README doc/ /var/tmp/mezzanine-buildroot.16197/libnet.5919/usr/share/doc/libnet-1.1.0
++ exit 0
+Provides: libnet-devel = 1.1.0-2.caos
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1 rpmlib(VersionedDependencies) <= 3.0.3-1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /var/tmp/mezzanine-buildroot.16197/libnet.5919
+warning: Could not canonicalize hostname: x86_64-build.caosity.org
+Wrote: /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/SRPMS/libnet-1.1.0-2.caos.src.rpm
+Wrote: /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/RPMS/x86_64/libnet-1.1.0-2.caos.x86_64.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.65352
++ umask 022
++ cd /usr/src/autobuild.mezz/x86_64/00_LOGS/syslib/libnet/BUILD
++ cd Libnet-latest
++ rm -rf /var/tmp/mezzanine-buildroot.16197/libnet.5919
++ exit 0
+Package build for libnet completed successfully.  (Tuesday, 11 October 2005 01:02:44 EDT)

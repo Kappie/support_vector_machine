@@ -1,0 +1,464 @@
+<!-- Title: Eve shift. Sat Jul  3, 2004 -->
+<!-- SciCo: Daniela Bortoletto -->
+<!-- DAQAce: Matt Hare -->
+<!-- MonAce: Christian Doerr -->
+<!-- CO: Marcel Stanitzki -->
+<!-- OpManager: JJ -->
+<!-- Notes: -->
+<pre>Shift started with run run 184778 
+Lost p very unstable 
+Set silicon on stand by 
+Trying to reach COT </pre>
+
+
+<!-- Date: Sat Jul 3 16:20:24.249 2004 -->
+<pre>Losses are calming down again, with Marcel's 
+permission ramp Si again and get ready to start new run.</pre>
+<!-- Author: Christian -->
+
+
+<!-- Date: Sat Jul 3 16:22:00.577 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9862&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9862  width='300' align='top'></a></td><td>losses last 20 min</td></tr></table>
+<!-- Author: Christian -->
+
+
+<!-- Date: Sat Jul 3 16:23:41.336 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9863&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9863  width='300' align='top'></a></td><td>losses last 8 hours. Some 
+periodical pattern can be seen. 
+Big abort gap loss spike seems 
+to be related to lightning (says MCR)</td></tr></table>
+<!-- Author: cd -->
+
+<!-- Date: Sat Jul 3 16:25:09.842 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+ Activated at 2004.07.03 16:24:21
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jul 3 16:25:10.873 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+RECOVERED: 
+ Attention !!!. FERML_SRC_FATALITY ERROR !!! 
+ 
+ SRC Fatality Error for b0svx02: Sl 5 L2A w/o L1A 
+ 
+ - HALT the run     
+ - record any relevant information in e-log     
+ - RECOVER - RUN     
+
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Sat Jul 3 16:25:13.730 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_2_05 [10,501,470] <---- thanksBill
+<!-- Author: Matt Hare x2080 -->
+<!-- Comment: Sun Jul  4 05;28;52 comment by...BB -->
+You're welcome!
+<!-- Date: Sat Jul 3 16:57:29.208 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9864&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9864  width='300' align='top'></a></td><td>spikes situation is getting worse again...</td></tr></table>
+<!-- Author: cd -->
+
+
+<!-- Date: Sat Jul 3 17:02:20.360 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9865&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9865' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9866&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9866' width='300'></a></center>
+<!-- Author: Christian (hourly plots 16-17) -->
+<!-- Comment: Sat Jul  3 17;02;50 comment by...Christian -->
+<pre>on the hour again - losses critical,
+swtich Si to standby.</pre>
+
+
+<!-- Date: Sat Jul 3 17:08:27.811 2004 -->
+<pre>onw CMX 9-10 tripped , after that 11-12 SW tripped. 
+losses really high now.</pre>
+<!-- Author: Christian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779' target=_top>184779</a>) -->
+
+
+<!-- Date: Sat Jul 3 17:11:44.838 2004 -->
+<pre>losses too high, wire chambers started tripping. 
+put COT, TOF , CLC to off, CMU, CMP, CMP, BMU, CES, CPR, CCR 
+to standby. Si is already on standby.</pre>
+<!-- Author: Christian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779' target=_top>184779</a>) -->
+<!-- Comment: Sat Jul  3 17;13;29 comment by...Christian -->
+<pre>ops, the second CMP is the CMX.</pre>
+
+
+<!-- Date: Sat Jul 3 17:17:15.409 2004 -->
+17:10 MCR communicates that they want to move collimator
+<!-- Author: Daniela  :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779' target=_top>184779</a>) -->
+
+
+<!-- Date: Sat Jul 3 17:25:17.477 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9867&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9867  width='300' align='top'></a></td><td>history of last spike period.</td></tr></table>
+<!-- Author: cd -->
+<!-- Comment: Sat Jul  3 17;26;21 comment by...Christian -->
+<pre>MCR called and said they're not moving 
+any collimator because losses came down again.
+I think in ~50 min this game will start again.
+Put all voltages back on again and continue run.</pre>
+
+<!-- Date: Sat Jul 3 17:44:42.647 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+Recover:  Additional Information: 
+ 
+ This BUSY TIMEOUT was caused by EVB VrbBadByteCount error in 
+ SCPU = b0eb25, slot = 12. 
+ 
+ Hardware EVB has detected a problem with data quality. 
+ SCPU b0eb25 reports problems with a VRB header.  
+ Datataking is paused; events are not being processed. 
+ - HRR should help. 
+
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Sat Jul 3 17:44:44.015 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+Recover: 
+ Attention!!!. SCPU_BAD_VRB_BYTE_COUNT Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb25. 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+
+
+
+<!-- Date: Sat Jul 3 17:48:45.816 2004 -->
+I just talked to Maggie in MCR and informed her that we will 
+make use of the access offered at end of store. Rick Tesarek 
+would like to move the Bonner Spheres in the hall. If store 
+drops early, we will attempt to get in touch with Rick and see 
+if he and Wayne Schmitt can come in on short notice. (Rick 
+estimates it would take about an hour for him to get ready.)<br><br> 
+I also asked Maggie if anyone understood the periodic structure 
+in LOSTP. She said they are looking at it but so far it is  
+mystery.
+<!-- Author: jj -->
+
+
+<!-- Date: Sat Jul 3 17:57:10.373 2004 -->
+I asked Cryo Bruce to look at Collision Hall temperature and 
+see if might have any unusual periodic structure that could 
+be source of unstable LOSTP. Will check back with him in  
+15 minutes and see what he has observed.
+<!-- Author: jj -->
+
+<!-- Date: Sat Jul 3 18:26:47.063 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+RECOVERED: 
+ Attention !!!. CER_SVXMON_HALT_RECOVER_RUN_ERROR !!! 
+ 
+ Stuck Cellid S/B1/W5/L4/C7-13 . 
+ AUTO HRR will be issued  
+
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Sat Jul 3 18:43:18.858 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+ACTIVE:   
+  RXPT Error for crate/s: 
+    b0svx02   
+
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Sat Jul 3 18:43:20.577 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+ACTIVE: 
+ Attention !!!. FERML_SRC_FATALITY ERROR !!! 
+ 
+ SRC Fatality Error for b0svx02: Sl 5 Resonance Detected 
+ 
+ - HALT the run     
+ - record any relevant information in e-log     
+ - RECOVER - RUN     
+
+<!-- Author: ErrorHandler -->
+
+
+
+<!-- Date: Sat Jul 3 19:13:10.514 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9868&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9868' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9869&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9869' width='300'></a></center>
+<!-- Author: Christian (hourly plots 17-18) -->
+
+
+<!-- Date: Sat Jul 3 19:14:44.057 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9870&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9870' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9871&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9871' width='300'></a></center>
+<!-- Author: Christian (hourly plots 18-19) -->
+<!-- Comment: Sat Jul  3 19;20;31 comment by...jj -->
+Curious - periodic structure in LOSTP is gone...
+
+<!-- Date: Sat Jul 3 19:33:46.163 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+HALTED: 
+ Attention!!!. SCPU_BAD_VRB_BYTE_COUNT Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb19. 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+
+
+
+<!-- Date: Sat Jul 3 20:04:46.557 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9872&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9872' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9873&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9873' width='300'></a></center>
+<!-- Author: Christian (hourly plots 19-20) -->
+
+
+<!-- Date: Sat Jul 3 20:18:29.196 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-9874&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-9874  width='300' align='top'></a></td><td>lostp had a spike which shows some 
+correlation to the truck variable AQ3VPK.</td></tr></table>
+<!-- Author: Christian -->
+<!-- Comment: Sat Jul  3 20;19;17 comment by...Christian -->
+<pre>this spike made CMX SW 9-12 trip.
+Reset the trip.</pre>
+
+
+<!-- Date: Sat Jul 3 20:42:39.484 2004 -->
+One Power supply (NW BOT TOP) spontaneously went to off 
+We were able to bring it up again. One ladder LB0W5L0 tripped in L00, so we had to do it by hand using the PSGUI. Trigger inhibits cleared, so we are good to go 
+  
+<!-- Author: Marcel , Christian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779' target=_top>184779</a>) -->
+
+
+<!-- Date: Sat Jul 3 21:10:19.535 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9875&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9875' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9876&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9876' width='300'></a></center>
+<!-- Author: Christian (hourly plots 20-21) -->
+
+<!-- Date: Sat Jul 3 22:06:11.397 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+HALTED: 
+ Attention!!!. SCPU_BAD_VRB_BYTE_COUNT Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb24. 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+
+
+
+<!-- Date: Sat Jul 3 22:12:27.364 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9877&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9877' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9878&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9878' width='300'></a></center>
+<!-- Author: Christian (hourly plots 21-22) -->
+
+<!-- Date: Sat Jul 3 22:24:19.875 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+HALTED: 
+ Attention!!!. SCPU_TRACER_EVENT_ID Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb15 ( FER crate : NOT_AVAILABLE). 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+
+
+
+<!-- Date: Sat Jul 3 22:26:39.798 2004 -->
+LumMon consumed a lot of memory again ... 
+<pre> 
+23204 cdfdaq    15   0 2051M 556M  8188 D     0.9 55.3 803:15 LumMon 
+</pre> 
+I killed it and restarted it 
+<!-- Author: MArcel -->
+<!-- Comment: Sat Jul  3 22;39;46 comment by...Marcel -->
+I found another interesting thing
+<pre>
+-rw-r--r--    1 cdfdaq   root       436938 Jul  3 20:22 /data1/consumer/results/ObjectMon/ObjectMon184779_tmp.root
+-rw-r--r--    1 cdfdaq   root       195393 Jul  3 20:48 /data1/consumer/results/LumMon/LumMon184779_tmp.root
+</pre>
+These two files have not been updated for quite a while. LumMon has been restarted due to memory issues. But ObjectMon is running happily and updating the plots all the time
+
+
+
+<!-- Date: Sat Jul 3 23:03:15.202 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9879&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9879' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9880&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9880' width='300'></a></center>
+<!-- Author: Christian (hourly plots 22-23) -->
+
+<!-- Date: Sat Jul 3 23:03:18.881 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+HALTED: 
+ Attention!!!. SCPU_TRACER_EVENT_ID Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb11 ( FER crate : NOT_AVAILABLE). 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+
+
+
+<!-- Date: Sat Jul 3 23:03:20.802 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9879&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9879' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9880&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9880' width='300'></a></center>
+<!-- Author: Christian (hourly plots 22-23) -->
+<!-- Comment: Sat Jul  3 23;04;50 comment by...Christian -->
+<pre>maybe I clicked on the paste too long, so
+the hourly plot went in twice.
+It's getting a bit spikier again, but we had 
+no Tevmon warning/error this hour.</pre>
+<!-- Date: Sat Jul 3 23:04:25.297 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+HALTED: 
+ Attention !!!. CER_SVXMON_HALT_RECOVER_RUN_ERROR !!! 
+ 
+ Stuck Cellid S/B1/W5/L4/C7-13 . 
+ AUTO HRR will be issued  
+
+<!-- Author: ErrorHandler -->
+
+
+
+
+<!-- Date: Sat Jul 3 23:06:27.026 2004 -->
+Cheng Ju Lin would like the L2 Pulsar crate (b0l2pu00)  
+included in the readout while Vadim (Owl shift C0) is around 
+to keep an eye on the system. Please stop the run, reset, 
+include b0l2pu00, repartition, and start a new run as soon 
+as Vadim is ready. If a new run needs to be started anytime 
+in the hour for other reasons, please include b0l2pu00 
+in the readout.
+<!-- Author: jj -->
+
+<!-- Date: Sat Jul 3 23:13:17.396 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+HALTED: 
+ Attention!!!. SCPU_BAD_VRB_BYTE_COUNT Error !!! 
+ Hardware EVB has detected a problem with data in 
+ SCPU b0eb19. 
+ Datataking is paused: events are not being processed. 
+ 
+ AUTO HRR will be issued. 
+ 
+ N.B. an automatic HRR for HEVB errors will be re-issued (if still needed)  
+ in 30 secs. 
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Sat Jul 3 23:19:44.874 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779">184779</A>
+RECOVERED:   
+  Done TO. for crate/s: 
+    b0cot01   
+
+<!-- Author: ErrorHandler -->
+
+
+<!-- Date: Sat Jul 3 23:55:49.085 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184778>184778</A> 
+x2D1CA</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_05 [10,501,470]</TD>                                      
+<TD ALIGN=CENTER>06:25:33</TD>                                          
+<TD ALIGN=CENTER>16:06:16</TD>                                          
+<TD ALIGN=CENTER>08:46:19</TD>                                          
+<TD ALIGN=RIGHT>    563,008,453</TD>                                    
+<TD ALIGN=RIGHT>     8,628,142</TD>                                     
+<TD ALIGN=RIGHT>   2,213,705</TD>                                       
+<TD ALIGN=RIGHT> 1547.539</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=184779>184779</A> 
+x2D1CB</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_05 [10,501,470]</TD>                                      
+<TD ALIGN=CENTER>16:24:21</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>06:44:10</TD>                                          
+<TD ALIGN=RIGHT>    375,747,973</TD>                                    
+<TD ALIGN=RIGHT>     5,254,681</TD>                                     
+<TD ALIGN=RIGHT>   1,382,150</TD>                                       
+<TD ALIGN=RIGHT>  633.212</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:07</TD>                                                       
+<TD ALIGN=CENTER>15:30:29</TD>                                          
+<TD ALIGN=RIGHT>     938,756,426</TD>                                   
+<TD ALIGN=RIGHT>     13,882,823</TD>                                    
+<TD ALIGN=RIGHT>     3,595,855</TD>                                     
+<TD ALIGN=RIGHT> 2180.751</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Jul 4 00:02:31.993 2004 -->
+<font color=red>Shift Summary: </font><pre> 
+1) Inherited store 31614 run 184778 from previous shift 
+2) Just after the shift started we had a problem with high LOSTP  
+   Silicon was set to standby and run terminated. 
+3) Started run 184779 after LOSTP decreased at 16:34 
+4) Problem with "hourly" beam instability (high LOSTP) 
+   continued until 17:30 
+5) Isolated LOSTP spike at 20:15 
+6) Note: to get the current schedule for COT you should look at 
+   http://www-cdfonline.fnal.gov/~binkley/pager 
+5) Cheng Ju Lin would like the L2 Pulsar crate (b0l2pu00) 
+   included in the readout while Vadim is on shift.(see JJ message) 
+7) DO has asked for an access at the end of this store probably 
+   Sunday morning. Tesarek plans to use access and to come  
+   in around 10:00 am. If store drops earlier page Wayne Schmitt (LRP:847-536-2084)and see if he can contact Tesarek. Page JJ as well so that he can coordinate access  
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   184778,184779
+Delivered Luminosity    658.0 nb-1  
+Acquired Luminosity     648.3 nb-1  
+Efficiency              88.1
+   
+</td></tr></table></pre>
+<!-- Author: Daniela Bortoletto -->
+
+
+<!-- Date: Sun Jul 4 00:05:15.931 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9881&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9881' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-9882&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-9882' width='300'></a></center>
+<!-- Author: Boyoung Hourly 23-00 -->
+

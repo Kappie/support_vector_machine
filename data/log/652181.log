@@ -1,0 +1,487 @@
+<!-- Title: Day shift. Mon Nov 17, 2003 -->
+<!-- SciCo: Doug Glenzinski -->
+<!-- DAQAce: Reda Tafirout -->
+<!-- MonAce: Kohei Yorita -->
+<!-- CO: Mose Mariotti -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre>Accelerator will be performing aperature scans all day. 
+No access planned today. 
+ 
+- COSMIC_NOTRACK and L2_TORTURE runs 
+- various work continues on DAQ and other myriad 
+  problems 
+- if ~stable beam (even proton only): 
+  > page Rick Tesarek (x8609) 
+- special CEM LED calibration for Max (EM timing)</pre>
+
+<!-- Date: Mon Nov 17 09:16:56.859 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174260">174260</A>
+TERMINATE: Endede cosmi, to do calibrations.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 09:20:59.438 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174261">174261</A>
+ACTIVATE: CEM LED run in D-mode, debugging emtiming central
+<!-- Author: Maxx2120 -->
+
+
+
+<!-- Date: Mon Nov 17 09:42:57.689 2003 -->
+We had TOF alarm again the same as owl shift crew had. It disappeared by itself in a few seconds. 
+<!-- Author: kohei -->
+
+<!-- Date: Mon Nov 17 09:43:56.994 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174262">174262</A>
+ACTIVATE: start of Calorimeter QIE calibration.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 09:44:23.868 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174262">174262</A>
+TERMINATE: end of Calorimeter QIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 09:49:45.678 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174263">174263</A>
+ACTIVATE: CEM LED run in D-mode. Right PMTs for CEM wedges 0 and 23 are at 920 V
+<!-- Author: Maxx2120 -->
+
+
+
+<!-- Date: Mon Nov 17 09:49:46.461 2003 -->
+<pre>We end the cosmic run to take whatever calibs we can.  Max 
+takes a few special runs for em-timing, including changing 
+a few PMT voltages in central (as per Bob Wagner's instructions 
+and Nikolay's (the pager carrier) OK). 
+ 
+Then, L2_TORTURE w/ as many crates as possible. 
+ 
+</pre>
+<!-- Author: Doug -->
+
+
+<!-- Date: Mon Nov 17 09:55:33.404 2003 -->
+Steve H turned on the HV for BSC1 by hand around 8:45.  When there is beam, ACNET beam loss variables such as LOSTP, B0PLOS, etc should now be reasonable.  We are still working on the HV monitoring pc for CLC, BSC, MNP, RP.
+<!-- Author: convery -->
+
+
+<!-- Date: Mon Nov 17 10:01:07.911 2003 -->
+<pre>Steve Chappas stop-by to warn us that he will be playing with the 
+clock later today.  This is work that was scheduled for last 
+TH, but was delayed on account of the power cut. 
+ 
+He will warn us before interupting the clock.</pre>
+<!-- Author: Doug -->
+<!-- Comment: Mon Nov 17 10;56;45 comment by...Doug -->
+<pre>He's coming back at 1500 to do this work.  It will 
+take 3-4 hours.  Clock will be intermittantly disrupted
+during this time.</pre>
+<!-- Date: Mon Nov 17 10:05:50.685 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174264">174264</A>
+ACTIVATE: start of CLC QIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 10:06:52.867 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174264">174264</A>
+TERMINATE: end of CLC calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 10:10:21.803 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174265">174265</A>
+ACTIVATE: start of BSC QIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 10:11:16.046 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174265">174265</A>
+TERMINATE: end of BSC QIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 10:15:24.226 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174266">174266</A>
+ACTIVATE: CEM LED run in D-mode. All Left PMTs for wedges 0 ,23 are at 920 V.
+<!-- Author: Maxx2120 -->
+
+
+<!-- Date: Mon Nov 17 10:30:02.250 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174267">174267</A>
+ACTIVATE: start of Roman pot SMQIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 10:30:03.370 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174267">174267</A>
+TERMINATE: end of Roman pot SMQIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 10:34:33.171 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174268">174268</A>
+ACTIVATE: start of TOF QIE calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 10:34:33.254 2003 -->
+<pre>I reset the HV for cem wedges 23 and 0 to original values. Right now the HV monitor bars for cem are in yellow, they should go back to green next update (in 1 hour?)</pre>
+<!-- Author: Max -->
+
+<!-- Date: Mon Nov 17 10:34:47.181 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174268">174268</A>
+TERMINATE: end of TOF QIE calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 10:42:16.153 2003 -->
+CSP/BSU/TSU/CSW/CSM/MSK alarm. Expert is working on these, so let's see..
+<!-- Author: kohei -->
+
+<!-- Date: Mon Nov 17 10:43:49.255 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174270">174270</A>
+ACTIVATE: start of CEM LED calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 11:11:25.205 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174270">174270</A>
+TERMINATE: end of CEM LED calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 11:11:30.816 2003 -->
+<br><b>Proton Halo Timing:</b> 
+<br>Begin timing in the proton halo counters (halo and abort 
+gap).  This will affect the following ACNET variables for the 
+next couple of hours: 
+<pre> 
+    Halo      Abort Gap 
+------------------------------------- 
+    B0PHSM     B0PBSM 
+               B0PAGC 
+</pre> 
+Other (not commonly used) ACNET variables will also be affected. 
+Call Rick Tesarek (x2080,x8609). 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Mon Nov 17 11:18:36.085 2003 -->
+<pre>MCR calls.  They will begin aperature scans now.</pre>
+<!-- Author: Doug -->
+
+<!-- Date: Mon Nov 17 11:20:50.681 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174272">174272</A>
+TERMINATE: end of TOF TAC calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 11:49:00.617 2003 -->
+<pre>Mike L here to perform some tests to try and track-down the 
+SMX noise in w0/23.</pre>
+<!-- Author: Doug -->
+
+<!-- Date: Mon Nov 17 11:57:29.106 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174273">174273</A>
+ACTIVATE: start of SMX QIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 11:58:40.550 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174273">174273</A>
+TERMINATE: end of SMX QIE calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 12:14:57.410 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174275">174275</A>
+ACTIVATE: start of COT calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 12:14:58.891 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174275">174275</A>
+TERMINATE: end of COT calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 12:15:17.469 2003 -->
+We have now tested the full trigger inhibit chain with the new system.  While the software does not yet have all the bells and whistles, it does perform the necessary function of displaying the status of the inhibits and allowing the ace to mask and unmask channels.  Steve Vejcik is going to speed up the refresh time and talk to Bill about getting the new code into the development version of fer. 
+<p> 
+Some care is needed in using the new system.  It does not yet lock out changes to the masking of channels when a run is active.  Also, the code does not yet recognize when subsystems are excluded from the partition and should therefore be masked.  Much of the code for that exists, so we hope to have these features working in the next few days.  Also, the response to clicking to (un)mask is rather slow.  Be patient. 
+<p> 
+Note that the new system is controlled from b0inh00, not b0trin00.  I think that b0trin00 still controls the muon camac.  If that is the case, we should probably change the name. 
+<p> 
+For the time being, if using the new system one can source ~jdl/csh/setup_tixpt.  That contains some handy aliases to set the inhibit masks.
+<!-- Author: jdl -->
+
+<!-- Date: Mon Nov 17 12:17:08.350 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174277">174277</A>
+ACTIVATE: start of Muon calib.
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 12:18:40.393 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174277">174277</A>
+TERMINATE: end of Muon calib.
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 12:36:26.689 2003 -->
+<br><b>Proton Halo Monitors:</b> 
+<br>Istalled delay cables and established coarse timeing 
+for the proton halo monitors.  The timing is established 
+for the protons to about 5ns.  However. the beam in the machine 
+is currently uncoelesced.  This type of beam does lend itself 
+to doing detailed timing studies/coincidence.  I need to wait 
+until coelesced beam is delivered to CDF for further work. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Mon Nov 17 12:43:17.196 2003 -->
+<h3>Consumer Monitor issue </h3> 
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2003&action=view&page=957&frame=2&anchor=04:56:48.248'>noted here</a> is still present.  For now I disabled the auto-restart 
+of the Consumer Monitor using the "proxy" window after only 15-20 attempts by the Proxy to restart the consumer monitor! It's motto: <BR><i>If at first you don't succeed, try again, and again, and again, and again, and again, and again,and again, and again,and again, and again, and again,and again,and again,and again, and again,and again,and again,and again,and again,and again,and again,and again...</i> <BR> By experiement we have shown that the response time of Consumer Monitor proxy is about 1 second. 
+<!-- Author: SCN -->
+<!-- Comment: Mon Nov 17 12;45;27 comment by...Frank Chlebana -->
+<pre>We are getting the following error when starting the ConsumerErrorReceiver:
+
+ERROR: Cannot open file <$SMARTSOCKETS_CONFIG_DIR/unix.cm> for reading.
+Connecting to project <CDF_DAQ> on <_node> RTserver.
+
+
+It looks like the $SMARTSOCKETS_CONFIG_DIR environmental variable
+is not properly passed to ConsumerErrorReceiver or not interpretted correctly...
+
+Being looked into...
+</pre>
+
+<!-- Date: Mon Nov 17 12:50:43.930 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174279">174279</A>
+ACTIVATE: start of CEM LED calib.
+<!-- Author: Redax2080 -->
+<!-- Comment: Mon Nov 17 13;17;07 comment by...doug -->
+i asked reda to redo this b/c the last one showed problems 
+around w0,23... where max had played w/ PMT voltages.  the ifix
+display shows these pmts are back at nominal voltage, so
+hopefully this calibration will be ok
+<!-- Date: Mon Nov 17 12:50:48.567 2003 -->
+<pre>Presently, Tom Wright has L1+L2 to perform some two alpha 
+studies.  When he's done, and if there's time before clock 
+work begins, we'll do the L2_TORTURE run.</pre>
+<!-- Author: doug -->
+
+
+<!-- Date: Mon Nov 17 13:05:05.321 2003 -->
+The CMU & CMX L1 trigger cards have come through the power outages unscathed. (Sometimes they go hot.)
+<!-- Author: Phil Schlabach -->
+
+
+<!-- Date: Mon Nov 17 13:08:18.971 2003 -->
+GAM alarm(CSP North) several times, but turned green in a few seconds by itself.
+<!-- Author: Kohei -->
+<!-- Comment: Mon Nov 17 14;24;39 comment by...Doug -->
+<pre>This has continued to alarm and recover itself every ~15 minutes
+or so.  The voltage seems to be hovering just around the
+threshold.  page expert.  he's on his way in.</pre>
+<!-- Date: Mon Nov 17 13:17:07.409 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174279">174279</A>
+TERMINATE: end of CEM LED calib.
+<!-- Author: Redax2080 -->
+
+
+
+
+<!-- Date: Mon Nov 17 13:31:39.003 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-12060&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-12060  width='300' align='top'></td><td>The calibration plots called_0 shows 2 clear inactive zones in the East part.</a></td></tr></table>
+<!-- Author: Mose -->
+<!-- Comment: Mon Nov 17 13;45;40 comment by...Doug -->
+<pre>CEM pros working on it.</pre>
+
+<!-- Comment: Mon Nov 17 14;00;55 comment by...m mattson -->
+These wedges correspond to ccal08, ccal14, and ccal15.  The Cal QIE calibration taken earlier today did not show a problem for these wedges.
+
+
+<!-- Date: Mon Nov 17 14:31:52.622 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174280">174280</A>
+ACTIVATE: start of L2_TORTURE
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 14:49:13.243 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174281">174281</A>
+ACTIVATE: Start L2_torture
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 14:50:20.818 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174281">174281</A>
+TERMINATE: End L2_torture 
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 14:52:47.126 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174282">174282</A>
+ACTIVATE: Start SMX QIE calib
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 14:53:58.858 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174282">174282</A>
+TERMINATE: End SMX QIE calib.
+<!-- Author: Redax2080 -->
+<!-- Comment: Mon Nov 17 15;26;25 comment by...doug -->
+<pre>mike lindgrend notices that this does not make it to DB.  the
+log files are not written-out either.  aces investigating...</pre>
+<!-- Date: Mon Nov 17 15:01:30.457 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174283">174283</A>
+ACTIVATE: Start L2_Torture
+<!-- Author: Redax2080 -->
+
+
+
+<!-- Date: Mon Nov 17 15:02:53.886 2003 -->
+In hopes of tracking down the suprious reset problem in b0imu01, I have connected its reset line to b0cmx01.  So "reset_crate b0imu01" will actually reset b0cmx01.  If the problem follows the cable, then b0cmx01 should spontaneously have problems and go yellow in ProcMon.  Please page me if there are problems with b0cmx01 (314-3148).  If it is normal sleeping hours, just send me mail and go to relay rack 1RR27C.  There you will see a black widget coupling two cables that look like those used for telephones.  Unplug them.
+<!-- Author: jdl -->
+
+<!-- Date: Mon Nov 17 15:08:00.918 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174284">174284</A>
+ACTIVATE: Start L2_toture
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 15:20:47.714 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174285">174285</A>
+ACTIVATE: Start SMX calib, again
+<!-- Author: Redax2080 -->
+
+
+<!-- Date: Mon Nov 17 15:21:29.824 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=174285">174285</A>
+TERMINATE: End SMX calib
+<!-- Author: Redax2080 -->
+
+
+
+
+<!-- Date: Mon Nov 17 15:28:51.083 2003 -->
+Expert is playing with TOF HV, so just keep eye on it.
+<!-- Author: Kohei -->
+
+
+<!-- Date: Mon Nov 17 15:32:30.185 2003 -->
+<pre>offline CO says that disk 6 is nearly full.  CSL paged. 
+Expert taking care of it.</pre>
+<!-- Author: Doug -->
+
+<!-- Date: Mon Nov 17 15:55:50.262 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:01</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Mon Nov 17 15:58:42.928 2003 -->
+<pre>Alarm on BSC:  BSC-1 (beam shower counters).  Note that the HV for BSC is off.</pre>
+<!-- Author: Taka, Dale, Kohei -->
+<!-- Comment: Mon Nov 17 16;09;39 comment by...Dale -->
+<pre>Heart beats purple wih CLC, MNP, BSC, and RPS.
+
+Paged the BSC expert.  He said that they were actively working on the PC for the systems and that BSC alarm with beam is to be expected.  Because of the work we are not actively monitoring the HV of the BSC here in the control room and, in fact, it should be on.  For now we ingore the alarm and the heartbeats on the 4 systems.</pre>
+<!-- Date: Mon Nov 17 15:58:50.546 2003 -->
+<font color=red>Shift Summary: </font><pre>   
+- COT at STDBY unless 
+  &gt; quiet time 
+  &gt; b-field ON 
+ 
+- Silicon OFF unless 
+  &gt; expert says otherwise 
+ 
+- performed all calibs except PMT spike run; included some  
+  special runs for Max for EM-timing; not all HV was ON for  
+  these, so experts should interpret results w/ care. 
+ 
+- 2 alpha tests performed by tom wright; he said "nothing worked" 
+ 
+- after 13:30, no calibs in DB or log files written...  
+  investigating 
+ 
+Plan: 
+- chappas will continue clock work until ~1900; intermittant 
+  interuptions will occur 
+ 
+- L2_TORTURE w/ all but silicon 
+ 
+- pre-match board tests by eric james from 1900-2100 
+  (will need L1 and L2) 
+ 
+- if quiet-time, calibrations w/ detectors at nominal voltages 
+ 
+Problems: 
+  &gt; CEM east wedges 0,1,2 & 21,22,23 are empty in CEMLED; may 
+    be related to SMX noise too; experts notified 
+ 
+  &gt; intermittent GAM alarms due to CSP North - HV hovering near 
+    threshold; experts notified 
+ 
+  &gt; Jonathan swapped a couple reset cables; cf his entry above; 
+    needs to get swapped back eventually 
+ 
+</pre> 
+<!-- Author: doug -->
+
+
+<!-- Date: Mon Nov 17 15:59:28.305 2003 -->
+<pre>the cdfcalib account is over quota which is preventing 
+us from taking calibrations. 
+ 
+Contacted some users to ask them to clean up the  
+ 
+/data1/cdfcalib 
+ 
+area. 
+ 
+</pre>
+<!-- Author: Frank Chlebana -->
+

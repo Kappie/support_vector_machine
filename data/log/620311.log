@@ -1,0 +1,637 @@
+<!-- Title: Day shift. Tue Mar 11, 2003 -->
+<!-- SciCo: Brian Winer -->
+<!-- DAQAce: G. Guillelmon -->
+<!-- MonAce: K. Hahn -->
+<!-- CO: I. Lazzizzera -->
+<!-- OpManager: K. Maeshima -->
+<!-- Notes: -->
+<pre> 
+ o Waiting for Beam 
+	-Tevatron is doing proton studies 
+         in preparation for a shot. 
+        -Expect 2 hours of quiet time before 
+         shot setup. 
+ 
+ o Plan: 
+      -Cosmics until quiet time 
+      -Quiet Time: 
+          > CLC needs calibration 
+          > other quiet time calibrations 
+      - Collisions: 
+          > Start with 50K Min. Bias Run 
+            Only CLC and Plug needs to be 
+            all the way up. Rest of HV can 
+            be ramping. 
+ 
+   </pre>
+
+<!-- Date: Tue Mar 11 08:25:07 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160036">160036</A>
+ Activated at 2003.03.11 08:24:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 08:25:08 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160036">160036</A>
+ACTIVATE: Cosmic run
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 08:58:53 2003 -->
+Gas Alarm has gone off.	
+<!-- Author: Brian Winer -->
+<!-- Comment: Tue Mar 11 08;59;36 comment by...blw -->
+Caused by filling of CLC
+
+<!-- Date: Tue Mar 11 09:20:10 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160036">160036</A>
+ Terminated at 2003.03.11 09:19:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 09:20:24 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160036">160036</A>
+TERMINATE: Nikolay needs some crates
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 09:22:25 2003 -->
+Nicolay is taking the system for source and laser runs.
+<!-- Author: Brian Winer -->
+
+
+<!-- Date: Tue Mar 11 09:27:23 2003 -->
+Steve bringing down Solenoid2 to try to fix false alarm in control room. ICICLE will be down.
+<!-- Author: Brian Winer -->
+
+
+<!-- Date: Tue Mar 11 09:33:50 2003 -->
+<pre>Just talked to MCR:   
+Best guess of shotsetup start time is around 2:00pm  
+this afternoon. 
+Quiet time just before that. 
+They will call us before Q.T.</pre>
+<!-- Author: kaori -->
+<!-- Comment: Tue Mar 11 09;59;45 comment by...kaori -->
+<pre>Here is an update on "the plan" from Ron Moore:
+
+ 09:55:13-  
+
+The Plan 
+-------- 
+* Tev recommissioning continues. 
+* LRF1 needs some rest.  Once NTF is done with patient treatment 
+at 11:00 (and Tev it is convenient for Tev studiers), LRF1 will 
+take a one-hour-ish rest, i.e. no beam. 
+* D0 can have a ~30 min controlled access sometime during the 
+LRF1 quiet time. 
+* If the LRF PAs survive, Tev could be ready for an HEP store 
+late day/early evening shift. 
+</pre>
+<!-- Date: Tue Mar 11 09:37:28 2003 -->
+rcd Gui is already working properly in b0dap73.
+<!-- Author: Guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 10:08:02 2003 -->
+PSM alarm, SVX_SET_1 ... cleared.  
+<!-- Author: Kristian -->
+
+
+<!-- Date: Tue Mar 11 10:09:08 2003 -->
+<p>Solenoid display and ICICLE both up and running again on SOLENOID2.  And the flashing red CRYO/WTR alarm is gone.</p> 
+ 
+<p>Tried both restarting just iFIX and rebooting SOLENOID2.  In both cases, the CRYO/WTR alarm came back.  However, after rebooting and coming back 10 minutes later, the alarm is gone.  There was never an actual alarm; if you pressed the flashing button, the alarm list came up empty (and still does).</p>
+<!-- Author: Steve Hahn -->
+
+<!-- Date: Tue Mar 11 10:38:50 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160040">160040</A>
+ Activated at 2003.03.11 10:38:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 10:40:17 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160040">160040</A>
+ Terminated at 2003.03.11 10:39:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 10:52:28 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160041">160041</A>
+ Activated at 2003.03.11 10:51:43
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 10:53:11 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160041">160041</A>
+ Terminated at 2003.03.11 10:52:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 10:57:44 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160042">160042</A>
+ Activated at 2003.03.11 10:57:24
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 10:59:12 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160042">160042</A>
+ Terminated at 2003.03.11 10:58:31
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Mar 11 11:34:03 2003 -->
+I've booked a bunch of crates on the first floor to work on their reset lines.  I hope not to stomp on anybody.
+<!-- Author: jdl -->
+<!-- Comment: Tue Mar 11 12;31;36 comment by...jdl -->
+Done for now.
+<!-- Date: Tue Mar 11 11:34:04 2003 -->
+<pre>Quiet Time Started: 
+   -Start with CLC 
+   -Try bringing up COT to see if it comes up.</pre>
+<!-- Author: Brian Winer -->
+
+<!-- Date: Tue Mar 11 11:38:43 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160046">160046</A>
+ACTIVATE: Cal QIE calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:39:58 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160046">160046</A>
+TERMINATE: Cal QIE calibration ends
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:40:59 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160049">160049</A>
+ACTIVATE: Roman pot QIE calibration begins
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 11:41:20 2003 -->
+b0dap31 had missing /www filesystem. I have mounted it again.
+<!-- Author: Guillelmo -->
+
+<!-- Date: Tue Mar 11 11:42:03 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160049">160049</A>
+TERMINATE: Roman pot QIE calibration ends
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:42:42 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160050">160050</A>
+ACTIVATE: CLC QIE calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:43:48 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160050">160050</A>
+TERMINATE: CLC QIE calibration ends
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:45:51 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160051">160051</A>
+ACTIVATE: BSC QIE calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:46:51 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160051">160051</A>
+TERMINATE: BSC QIE calibration ends
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:52:18 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160052">160052</A>
+ACTIVATE: CEM LED calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:53:52 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160052">160052</A>
+TERMINATE: CEM lED calibration ends
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 11:53:52 2003 -->
+<pre>The Icicle program crashed (again) on solenoid2.fnal.gov,  
+with a "memory read" error. 
+ 
+Icicle seems to be crashing more and more frequently  
+these days.  Perhaps Margherita Vittone could look into the problem.</pre>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Tue Mar 11 11:55:13 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160053">160053</A>
+ACTIVATE: TOF QIE calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:56:00 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160053">160053</A>
+TERMINATE: TOF QIE calibration ends
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:59:27 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160054">160054</A>
+ACTIVATE: SMX QIE calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 11:59:28 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160054">160054</A>
+TERMINATE: SMX QIE calibration ends
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 12:03:29 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160055">160055</A>
+ACTIVATE: Plug laser (normal mode) calibration begins 
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 12:10:51 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160055">160055</A>
+TERMINATE: Plug laser (normal mode) calibration 
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 12:12:34 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160056">160056</A>
+ACTIVATE: Plug laser (myron mode) calibration begins
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 12:14:30 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160056">160056</A>
+TERMINATE: Plug laser (myron mode) calibration ends
+<!-- Author: guillelmo -->
+
+
+
+
+<!-- Date: Tue Mar 11 12:44:12 2003 -->
+IFix panel for trigger inhibits is broken.  Says that CMU HV is both inhibitting and disabled.  That is an illegal state.  I toggled all signals from HVMON.  Logic worked correctly.  Run control is happy.  If you need to disable the software inhibit, you will need to do it from HVMON until the problem is fixed.  The problem is only with the iFix inhibits panel, not the functioning of the inhibits themselves.
+<!-- Author: jdl -->
+<!-- Comment: Tue Mar 11 14;21;04 comment by...jj -->
+See comment by JC Yun below in this shift elog.
+<!-- Date: Tue Mar 11 12:46:03 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160058">160058</A>
+ Activated at 2003.03.11 12:45:39
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Mar 11 12:46:03 2003 -->
+CMP trip, south wall.  It came back up sucessfully
+<!-- Author: Kristian -->
+
+<!-- Date: Tue Mar 11 12:46:07 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160058">160058</A>
+ACTIVATE: Cosmic run
+<!-- Author: guillelmo -->
+
+
+<!-- Date: Tue Mar 11 12:50:08 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160058">160058</A>
+ Terminated at 2003.03.11 12:48:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 12:50:09 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160058">160058</A>
+TERMINATE: Many Busy timeouts coming from b0clc_00
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 12:58:09 2003 -->
+Scico PC has frozen. It was rebooted but it does not have any sort of network connection. Paged DAQ...they said they would  
+have expert come over and look at it.	
+<!-- Author: Brian Winer -->
+<!-- Comment: Tue Mar 11 13;04;19 comment by...blw -->
+I now have a connection to computers in B0...but not
+outside (e.g. fcdfsgi2.fnal.gov)
+
+<!-- Date: Tue Mar 11 13:01:46 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160059">160059</A>
+ Activated at 2003.03.11 13:00:27
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 13:01:47 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160059">160059</A>
+ACTIVATE: cosmic run
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 13:06:16 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160059">160059</A>
+ Terminated at 2003.03.11 13:05:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 13:06:17 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160059">160059</A>
+TERMINATE: They will put beam in few minutes...
+<!-- Author: guillelmo -->
+
+
+
+<!-- Date: Tue Mar 11 13:07:48 2003 -->
+MCR Called...quiet time over...bringing down HV
+<!-- Author: Brian Winer -->
+
+
+<!-- Date: Tue Mar 11 13:16:35 2003 -->
+TOF alarm on HV Summary page while TOF is off.  No bad channels on the global alarms page.  It has cleared.  
+<!-- Author: Kristian -->
+
+
+<!-- Date: Tue Mar 11 13:22:58 2003 -->
+<pre>iFix: 
+Answering to Jonathan's comment on CMU trigger inhibit: 
+I think Jonathan was looking at a very old version of Trigger 
+Inhibit panel. The correct version is in  /pic/cdf/misc area. 
+This one looks ok.</pre>
+<!-- Author: JC Yun -->
+
+
+<!-- Date: Tue Mar 11 13:31:34 2003 -->
+tomcat is in red state, but it's apparently running on b0dap61
+<!-- Author: Guillelmo -->
+
+
+<!-- Date: Tue Mar 11 13:41:38 2003 -->
+New tcsh installed on b0l3pcom1 (ver 6.11.00). 
+Changed .cshrc: the old one has been renamed .cshrc.backup_030311 
+The new one sets CDFEVB_ACE_DIR = /home/bello/cdfevb/ace 
+The new version of Ace Control Panel is being used.
+<!-- Author: Alberto, Guillelmo -->
+
+
+<!-- Date: Tue Mar 11 13:42:02 2003 -->
+GAM tweeted and went red in the Global Alarms page.  It cleared upon investigation. 
+<!-- Author: Kristian -->
+
+
+<!-- Date: Tue Mar 11 13:42:57 2003 -->
+MSK hearbeat alarm.  It remains purple in the Global alarms page. Investigating ...
+<!-- Author: Kristian -->
+<!-- Comment: Tue Mar 11 14;15;32 comment by...Kristian -->
+it has since cleared
+
+
+<!-- Date: Tue Mar 11 14:23:01 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160062">160062</A>
+ACTIVATE: QIE CAL calibration
+<!-- Author: JJ x2080 -->
+<!-- Comment: Tue Mar 11 14;36;43 comment by...jj -->
+Mario Spezziga is really at the controls...
+
+<!-- Date: Tue Mar 11 14:37:13 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160062">160062</A>
+TERMINATE: Calibration downloaded. This was not quiet time, but the calibration looked good in DBANA.
+
+<!-- Author: JJ x2080 -->
+<!-- Comment: Tue Mar 11 14;39;48 comment by...blw -->
+If we get quiet time we should redo these to be safe.
+
+<!-- Date: Tue Mar 11 14:46:05 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160063">160063</A>
+ Activated at 2003.03.11 14:45:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 14:46:06 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160063">160063</A>
+ACTIVATE: RickRun
+<!-- Author: JJ x2080 -->
+
+
+<!-- Date: Tue Mar 11 14:54:18 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160063">160063</A>
+ Terminated at 2003.03.11 14:53:55
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Mar 11 14:54:18 2003 -->
+PC down in cryo for the solenoid has crashed. They are rebooting it. We may see some alarms.  
+<!-- Author: Brian Winer -->
+
+<!-- Date: Tue Mar 11 15:06:48 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160064">160064</A>
+ Activated at 2003.03.11 15:06:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 15:15:21 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160064">160064</A>
+ Terminated at 2003.03.11 15:14:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 11 15:16:32 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160064">160064</A>
+TERMINATE: RickRun ended without done timeouts (!)
+<!-- Author: JJ x2080 -->
+<!-- Comment: Wed Mar 12 00;07;43 comment by...m mattson -->
+The run had 30,297 L3 accepts.  Why didn't the run end at 30K events (on the nose)?
+<!-- Comment: Wed Mar 12 00;11;48 comment by...m mattson -->
+Just read the evening e-log
+<a href=
+'/cgi/elog/elog.pl?nb=2003&action=view&page=210&frame=2&anchor=17:53:13'>
+entry by Bill B</a>.  Among the many things he did, he also eliminated the massive DTO for the spike run.
+<!-- Date: Tue Mar 11 15:21:32 2003 -->
+Y. Shon is playing with HVmon to try to understand some of the communication problems that we have seen lately. 
+<!-- Author: Brian Winer -->
+
+<!-- Date: Tue Mar 11 15:32:12 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160065">160065</A>
+ACTIVATE: Test shot setup hoping for store this evening. There is a proton bunch
+in the machine.
+
+<!-- Author: JJ -->
+
+
+
+<!-- Date: Tue Mar 11 15:34:05 2003 -->
+Steve Chappa finished adding clock fanout modules the JDL requested.
+<!-- Author: Brian Winer -->
+
+
+<!-- Date: Tue Mar 11 15:35:37 2003 -->
+CAL QIE calibration: red square in Pedestrial RMS - CEM  
+at East row 10L, col 3; extra counts in corresponding rms_distCEM histo
+<!-- Author: Ignazio :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160062' target=_top>160062</a>) -->
+
+
+<!-- Date: Tue Mar 11 15:38:35 2003 -->
+Shot Setup run 160065 failed in b0tsi00 due to problems 
+from COT18. COT18 could be sheparded but no way to kick 
+start tsi00. Abort and start over.
+<!-- Author: jj :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160065' target=_top>160065</a>) -->
+
+
+<!-- Date: Tue Mar 11 15:39:59 2003 -->
+Frank says low humidity alarm is beeping again in third floor 
+computing room. Will tell Roser...
+<!-- Author: jj -->
+
+
+<!-- Date: Tue Mar 11 15:40:24 2003 -->
+COT heartbeat alarm ... cleared
+<!-- Author: Kristian -->
+
+<!-- Date: Tue Mar 11 15:42:00 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160066">160066</A>
+ACTIVATE: Shot setup run. A few test protons in machine.
+<!-- Author: JJ -->
+
+
+<!-- Date: Tue Mar 11 15:48:25 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160066">160066</A>
+TERMINATE: No events getting to L3. No errors. Guillelmo says to stop and clean up
+EVB. (Well - 7 events got to L3.)
+<!-- Author: JJ -->
+
+
+<!-- Date: Tue Mar 11 15:55:34 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:04</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Tue Mar 11 15:57:25 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160067">160067</A>
+ACTIVATE: Shot setup. A couple of test p bunches in machine.
+<!-- Author: JJ -->
+<!-- Comment: Tue Mar 11 16;03;16 comment by...jj -->
+WCAL_04 Done Timeout at beginning of run. Otherwise events
+are going through.
+<!-- Date: Tue Mar 11 15:59:04 2003 -->
+<font color=red>Shift Summary: </font><pre> 
+ 
+      Summary March 11 Day Shift 
+      ========================== 
+       
+   
+   o Waiting for Beam 
+       -Cosmics when system is free. 
+       -Brought COT HV up. Took short 
+        cosmic run with HV up (no Si) 
+	and HV inhibits active. 
+    
+   o CLC 
+       -Flowing isobutane 
+       -Calibration runs 
+        
+   o Calibrations 
+       -WHA: Nicolay performing 
+        source and laser runs. 
+       -Performed CLC calibrations 
+       -Performed other quiet time 
+        calibrations.	 
+       -NOTE: New LERS were downloaded 
+        but these were done during 
+	noquiet time calibrations. 
+	(IT HAD NOT BEEN CLEAR FROM 
+	THE SOURCE AND LASER RUNS WORK 
+	THAT QUIET TIME WAS REQUIRED TO 
+	RECOVER FROM THIS WORK. QUIET TIME 
+	ENDED PRIOR TO SOURCE AND LASER 
+	CAL. BEING COMPLETE.) If we get 
+	more quiet time call Mario Spezziga 
+	(x5010 office; home 406-5787)   
+    
+   o Misc. Problems 
+       -Steve Hahn fixed a false 
+        alarm on Solenoid monitor 
+	in control room. 
+       -Muon inhibit problem  
+          &gt; J.C Yun comes and 
+	    believes he fixes this 
+	    problem. 
+       -Steve Chappa added clock 
+        fanout modules as requested 
+	by Jonathan Lewis. 
+       -Yeongdae Shon was examining 
+        problems with HVmon. He thinks 
+	the problem was solved.     	 
+	 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   no beam
+Delivered Luminosity   -  
+Acquired Luminosity    -  
+Efficiency             -
+   
+</td></tr></table></pre>
+<!-- Author: Brian Winer -->
+
+
+<!-- Date: Tue Mar 11 16:00:54 2003 -->
+Yeongdae says the <a href= 
+'/cgi/elog/elog.pl?nb=2003&action=view&page=202&frame=2&anchor=03:14:46'>problem</a> <a href= 
+'/cgi/elog/elog.pl?nb=2003&action=view&page=203&frame=2&anchor=08:20:37'>(s)</a> with the CMP hv on Sunday morning were most likely that the CMP CAEN mainframe was hung. The <a href= 
+'/cgi/elog/elog.pl?nb=2003&action=view&page=206&frame=2&anchor=10:04:53'>thing</a> Hyunsoo and I reported yesterday is being worked on but is clearly a separate issue.
+<!-- Author: Phil Schlabach, Yeongdae Shon -->
+
+
+
+<!-- Date: Tue Mar 11 16:03:43 2003 -->
+I made WHA source runs:<br> 
+#160039 WHA FE LER = 1, Bon, HV default;<br> 
+#160060 WHA FE LER = 1, Bon. HV new (IDs 4CB, 4CF, 545);<br> 
+Central laser runs:<br> 
+#160037  WHA FE LER default, Bon, WHA HV default;<br> 
+#160061  WHA FE LER = 1, Bon, WHA HV new (IDs 4CB, 4CF, 545)<br> 
+19-W 8L ID 4CB LERnew = 0.9860E+00; HVnew = 1117.0v;<br> 
+19-W 9L ID 4CF LERnew = 0.9842E+00; HVnew = 1113.5v;<br> 
+21-W 7R ID 545 LERnew = 0.1007E+01; HVnew = 1040.0v;<br> 
+As usual the error = 1%(LER);
+<!-- Author: Nikolay Luzhetskiy -->
+
+

@@ -1,0 +1,436 @@
+<!-- Title: Day shift. Thu Jun 21, 2001 -->
+<!-- SciCo: Tom LeCompte -->
+<!-- DAQAce: Anyes Taffard -->
+<!-- MonAce: Victoria Martin -->
+<!-- CO: Masa Tanaka -->
+<!-- OpManager: Kevin Burkett -->
+<!-- Notes: -->
+<pre>Continue run 118341 and store 547.</pre>
+
+
+<!-- Date: Thu Jun 21 07:58:43 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1194&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1194  width='300' align='top'></td><td>summary plot of our wonderful shift! 4.3 nb-1 locked for  analysis!</a></td></tr></table>
+<!-- Author: Petra -->
+<!-- Comment: Thu Jun 21 07;59;06 comment by...ppp -->
+<pre>actually, this is for the previous shift of course :)</pre>
+
+
+<!-- Date: Thu Jun 21 08:14:58 2001 -->
+Busy timeout from VRB_SVX_02.  HRR -> worked
+<!-- Author: Victoria :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118341' target=_top>118341</a>) -->
+
+
+<!-- Date: Thu Jun 21 08:31:24 2001 -->
+<pre>
+CPR SE HV trip causes trigger inhibit.  Pause run, put HV back on.  
+Followed by done timeout (from every system - looks like a problem with the RTXP)  HRR doesn't work.  
+End the run after 195K events.</pre>
+<!-- Author: Victoria :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118431' target=_top>118431</a>) -->
+<!-- Comment: Thu Jun 21 14;48;47 comment by...patrick -->
+This was a clock glitch
+<!-- Date: Thu Jun 21 08:32:19 2001 -->
+COT SL1 trips, turn HV back on.
+<!-- Author: Victoria -->
+
+
+<!-- Date: Thu Jun 21 08:41:31 2001 -->
+<pre>Start run 118342. 
+Done timeout from VRB_SVX_02 (twice)  HRR works.</pre>
+<!-- Author: Victoria :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118342' target=_top>118342</a>) -->
+
+
+<!-- Date: Thu Jun 21 08:50:00 2001 -->
+<pre>34.6K done time out from VRB_SVX_02 -> HRR. 
+Got error from tsi00 during HRR. Ending run</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118342' target=_top>118342</a>) -->
+<!-- Comment: Thu Jun 21 08;53;37 comment by...Anyes -->
+<pre>b0tsi00:Messenger:8:46:19 AM->TS failed to Recover (State 2)</pre>
+
+
+<!-- Date: Thu Jun 21 09:05:41 2001 -->
+<pre>SVX B5 W2 tripped.  Experts resetting. 
+This turned IFIX red, but didn't report 
+what the problem was.  Doug was informed 
+and he will get the appropriate person to 
+fix.</pre>
+<!-- Author: Tom LeCompte -->
+<!-- Comment: Thu Jun 21 09;08;13 comment by...TJL -->
+<pre>At David Stuart's request, we take the silicon
+out.  (He doesn't want to reset the trip
+right away)</pre>
+
+
+<!-- Date: Thu Jun 21 09:10:54 2001 -->
+<pre>COT SL7 trips.  Reset it.</pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 09:15:22 2001 -->
+<pre>Coldstart for seems to pass but for crate fib04. Reseting 
+SVX people want their crates back (Dave). RC windows does not  
+display properly now.. Restarting RC after saving config file. 
+</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118344' target=_top>118344</a>) -->
+
+
+<!-- Date: Thu Jun 21 09:18:42 2001 -->
+Find few things wrong in the save configuration from previous shft. 
+XTRP was OUT !!!! THis could explain why since run 118355 
+(DIRAC pb reported previous shift) some trigger where showing  
+0 for the DIRAC+Track trigger (see run summary). 
+Also found that SVTMODE set to fake_default even tho' we had SVX 
+in... I beleive now it should be default ALWAYS!!!  
+<!-- Author: Anyes -->
+<!-- Comment: Thu Jun 21 10;11;58 comment by...Peter and Young-Kee -->
+<pre>Found that between 118334 and 118335 the XTRP was dropped from 
+the configuration. This corresponds to RC crashing and being
+restarted.  The saved configuration probably did not have the
+XTRP crate in it.</pre>
+<!-- Date: Thu Jun 21 09:19:47 2001 -->
+<pre>At next coldstart L# report SCPU connect error.  
+Clean up both L# end EVB.</pre>
+<!-- Author: Anyes -->
+<!-- Comment: Thu Jun 21 15;16;13 comment by...Ilya -->
+  Note, that when Partition transition of L3 is interrupted
+by Reset from RC, for the following runs Event Builder will
+complain about SCPU->builder connect failures. Actually,
+this appears to be a harmless message. To get rid of the message,
+one needs to clean up EVB.
+
+<!-- Date: Thu Jun 21 09:20:53 2001 -->
+<pre>Kevin Pitts calls and reports that there were no 
+track triggers starting in Owl shift.  This is  
+related to the XTRP being dropped (see Anyes' entry). 
+ 
+Kevin gets the "Alert Professor Award" 
+</pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 09:21:00 2001 -->
+<pre>Getting  
+ following error at coldstart: 
+ 
+Partition:1 Run number: 118343 (0x1ce47) 
+(MLE) b0ccal09:Messenger:8:55:21 AM->Timed out waiting for r/o list .</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118343' target=_top>118343</a>) -->
+
+
+<!-- Date: Thu Jun 21 09:26:19 2001 -->
+Marcin working on PSM.  For now <b> Ignore all alarms </b>.
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 09:34:51 2001 -->
+<pre>CCAl09 take adge to initialise at coldstart then gave TO 
+error at the start of the run(2evts). Shell is suspended. 
+Halt Run, reboot CCal09, and take crate via single crate recovery -> Run is taking events.</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118345' target=_top>118345</a>) -->
+<!-- Comment: Thu Jun 21 09;42;27 comment by...Anyes -->
+<pre>In the excitement of getting that run at last started I put
+SL7 thrV to 210 after 34K evts.</pre>
+
+<!-- Comment: Thu Jun 21 10;02;50 comment by...Anyes -->
+<pre>Rechecking again my run config file, I saw that SVT mode was
+set to fake_default, but I do not have any SVX in, this was ok 
+before, is it still?</pre>
+
+
+
+<!-- Comment: Thu Jun 21 13;12;03 comment by...Marco  -->
+<table border=0><td><tr><td bgcolor=#e0e030>Actually SVT crates were missing  since run 118335 from the previous shift. I.e. a run started just after a RC out of memory crash. </td></tr></td></table>
+<!-- Date: Thu Jun 21 10:29:33 2001 -->
+<pre>Run 118345 didn't have the SVT and IMU_01 crates included.  Took 40K events like this! 
+IMU_01 did not have 2 of the cards included. 
+MUON_SCINT_00 didn't have cards 9,10,11,16,17&18 included. 
+(We try to call the IMU people to check) 
+</pre>
+<!-- Author: Victoria + Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118345' target=_top>118345</a>) -->
+<!-- Comment: Thu Jun 21 10;56;52 comment by...Victoria -->
+<pre>I talked to Eric James regarding the Muon crates.
+He says that we should include every card that we can include for all of the muon crates. </pre>
+<!-- Comment: Thu Jun 21 13;28;46 comment by...dan -->
+<pre>The cards were marked online in the hardware DB yesterday afternoon. A refresh from hardware DB will pickup any changes to the DB and might be a good idea to do  whenever a crate is "checked back in". </pre>
+<!-- Date: Thu Jun 21 10:30:14 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Anyes has saved AAA_36X36_CURRENT with all the correct configurations (as far as we know). 
+ 
+Aces -- please try to keep this up to date!</pre></td></tr></td></table>
+<!-- Author: Anyes + Victoria -->
+
+
+<!-- Date: Thu Jun 21 10:32:17 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1195&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1195  width='300' align='top'></td><td>Many of the events filtered by the Level 1 dimuon trigger (L1_TWO_CMU1.5_PT1.5 [1]) have two or more CMU stubs in  the same wedge by punch through. Just requiring not to be  in the same wedge may reduce the rate by a factor of ~ 2.  </a></td></tr></table>
+<!-- Author: Masa -->
+
+
+
+<!-- Date: Thu Jun 21 10:59:54 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Begining of run 118348, Wcal06 gave Done TO. 
+The procedure if cannot vxlogin neither minicom is to 
+do ctrl-c (reload shell) from minicom then HRR. 
+This is allowed for all crates. If the procedure does not 
+work then Halt run, ctrl-x (reboot) and take crate via single recovery.</pre></td></tr></td></table>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118348' target=_top>118348</a>) -->
+
+
+<!-- Date: Thu Jun 21 11:14:31 2001 -->
+<pre>Page Steve Chappa.  We're dealing with another TeV 
+clock glitch.</pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 11:29:10 2001 -->
+<pre>Clock glitched (or otherwise know as pandemonium)... Abort run, but lots of crate are still confused, seeing triggers. 
+Gonna try to get TS & may be TXPT sorted as soon as we 
+have the clock back. Then we might be able to abort run in order 
+to get the crates back in good state.</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118349' target=_top>118349</a>) -->
+
+
+<!-- Date: Thu Jun 21 11:32:08 2001 -->
+<pre>Tried to roboot some crate while Kevin is trying to sort out 
+the clock, they are all hanging. 
+Steve Chappa has to swap quad descriminator module... He's on the  
+way...</pre>
+<!-- Author: Anyes -->
+
+
+<!-- Date: Thu Jun 21 11:40:47 2001 -->
+<pre>Rebooting via minicom 
+CCAL4&13,PCAL06&09, WCAL02 and XFT03</pre>
+<!-- Author: Anyes -->
+<!-- Comment: Thu Jun 21 11;54;58 comment by...Arnd -->
+<pre>plus I reset_crate'd many others (some COT, XFT, muons)
+</pre>
+
+
+<!-- Date: Thu Jun 21 12:24:22 2001 -->
+Clock back on, just got the flying wires... Getting 
+new run started... 
+tsi00 gave error, reset with minicom, VISIONdemo->9->10
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118350' target=_top>118350</a>) -->
+
+
+<!-- Date: Thu Jun 21 12:31:09 2001 -->
+<pre>cmu00 Done TO after 2 evts. HRR didn't work. 
+Halt run. VMEBusScan shows that slot 13 is not there, error  
+logger gives VISIONread/write fail in slot13. 
+Took cmu00 via minicom bus reset. check VMEBus Scan, slot 13 is there. Take crate via single crate recovery -> WORKED</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118351' target=_top>118351</a>) -->
+
+
+<!-- Date: Thu Jun 21 12:38:23 2001 -->
+<pre>Clock pandemonium resumes.</pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 12:38:39 2001 -->
+<pre>AHH we are doomed... clock glished again!!!!</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118351' target=_top>118351</a>) -->
+
+
+<!-- Date: Thu Jun 21 13:03:39 2001 -->
+<pre>L2 people want to take a Myron mode, unfortunatly L3 tag they need is not there. 
+Restarting Run control and loading 36x36_1[23,150]. 
+RC said that DAQ VRB crates are missing from configuration file. 
+SVT07 PM->Statechange failed -> bus reset. (run 118352) 
+Next run 118353-> cmu00  PM->Resetting card in slot 13 failed . 
+ 
+</pre>
+<!-- Author: anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118352' target=_top>118352</a>) -->
+
+
+<!-- Date: Thu Jun 21 13:04:46 2001 -->
+<pre>Prepare for end of collisions. 
+ 
+Turn COT to low standby, muon systems to standby, CES, CPR and CCR to OFF.  The TOF are also going to turn off their  HV.</pre>
+<!-- Author: Victoria -->
+<!-- Comment: Thu Jun 21 13;09;38 comment by...TJL -->
+TeV studies in progress.  Their plan: <br>
+<li> Separator scans until 1500 </li>
+<li> Scraping until 1700 </li>
+<li> End store at 1700 </li>
+<li> Quiet time until 1800 </li>
+<li> Shot setup after that </li>
+<!-- Date: Thu Jun 21 13:06:39 2001 -->
+<li> COT + XFT crates released to Jay. </li> 
+<li> CMP TDC + Muon Trigger released to Eric. </li> 
+<li> XTRP released to Nathan. </li> 
+<li> Remainder being used by Monica for L2 tests </li>
+<!-- Author: TJL -->
+
+
+
+
+<!-- Date: Thu Jun 21 13:16:10 2001 -->
+<pre>Still beam but no collision -> Beam study 
+Myron mode run with cosmics_all[2,150] 
+Removed COT, XFT, CMP, Muontrigger and XTRP crates 
+Also remove cmu (giving error->will do bus reset). 
+All SVT crates: 
+(MLE) b0svt07:Messenger:1:08:46 PM->Setup failed with error code 1 
+(MLE) b0svt07:Messenger:1:08:46 PM->Statechange failed 
+(MLE) b0svt06:Messenger:1:08:46 PM->Setup failed with error code 1 
+(MLE) b0svt06:Messenger:1:08:47 PM->Statechange failed 
+(MLE) b0svt01:Messenger:1:08:46 PM->Setup failed with error code 1 
+(MLE) b0svt01:Messenger:1:08:46 PM->Statechange failed 
+(RC)   13:8:47 Config -> ERROR 
+(MLE) b0svt00:Messenger:1:08:51 PM->Setup failed with error code 1 
+(MLE) b0svt00:Messenger:1:08:51 PM->Statechange failed                
+-> ctrl-x via minicom.  
+ 
+Removing them to get this myron mode run done (myron run 118356)</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118356' target=_top>118356</a>) -->
+
+
+<!-- Date: Thu Jun 21 13:18:11 2001 -->
+<pre>While taking this myron mode, rebooting few SVT crates and 
+bus reset cmu00 which were giving error.</pre>
+<!-- Author: Anyes -->
+
+
+<!-- Date: Thu Jun 21 13:20:27 2001 -->
+Turned OFF the Time of Flight High Voltage at 13:10 
+Restarted the iFIX and SMACS monitoring program.
+<!-- Author: Gervasio Gomez -->
+
+
+<!-- Date: Thu Jun 21 13:20:40 2001 -->
+Myrom mode run 118356 23k evts
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118356' target=_top>118356</a>) -->
+
+
+<!-- Date: Thu Jun 21 13:25:13 2001 -->
+<pre>The problem with the Clock was that the Tev_RF coming out of the 821 discrimminator was unstable. In short, the triggering threshold was changed from -200 mv to -50 mv. This enabled the 821 to trigger more in the center of the Tev_RF's sine wave. This caused the Tev_RF output to become stable and thus the Clock was able to run without errors. The voltage supplies on the NIM crate were checked and the -6V supply is at -5.89V. I suspect that at the original triggering threshold of -200mv was just on the edge of the 821's triggering ability. Also, the -6V supply going to -5.89V could cause the 821 to become unstable. The Clock is now running without errors for over 30 minutes. I will adjust the NIM crate's -6V supply back up. I also left another 821 discrimminator in the above NIM crate to serve as a spare in case more problems develop.</pre>
+<!-- Author: Steve Chappa -->
+
+
+
+<!-- Date: Thu Jun 21 13:42:09 2001 -->
+<pre>Myron mode runs >10k evts for L2 sum_et2[2,150]: 
+118357 L2-CAL01 removed DCAS19 
+118358 L2-CAL03 +removed DCAS37 
+118359 L2-CAL03 +removed DCAS36&38.</pre>
+<!-- Author: anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118357' target=_top>118357</a>) -->
+
+
+<!-- Date: Thu Jun 21 13:49:05 2001 -->
+<pre>Tried to reinclude SVT crates but: 
+(MLE) b0svt01:Messenger:1:46:44 PM->Setup failed with error code 1 
+(MLE) b0svt06:Messenger:1:46:44 PM->Setup failed with error code 1 
+(MLE) b0svt00:Messenger:1:46:44 PM->Setup failed with error code 1 
+(MLE) b0svt01:Messenger:1:46:44 PM->Statechange failed 
+(MLE) b0svt06:Messenger:1:46:44 PM->Statechange failed 
+(MLE) b0svt00:Messenger:1:46:44 PM->Statechange failed 
+(RC)   13:46:45 Config -> ERROR 
+(MLE) b0svt07:Messenger:1:46:48 PM->Setup failed with error code 1 
+(MLE) b0svt07:Messenger:1:46:48 PM->Statechange failed               
+Remove them again and ask expert to look into that.</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118360' target=_top>118360</a>) -->
+
+
+<!-- Date: Thu Jun 21 13:56:12 2001 -->
+<pre>20k evts sum_ET_2. </pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118361' target=_top>118361</a>) -->
+
+
+<!-- Date: Thu Jun 21 14:16:57 2001 -->
+<pre>This run had SVT, cmu00 with cosmics_all[2,150] & Myron Mode.</pre>
+<!-- Author: anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118364' target=_top>118364</a>) -->
+
+
+<!-- Date: Thu Jun 21 14:24:20 2001 -->
+<pre>Normal cosmics_all[2,150] run. 
+Getting Error fetching L3CalibTag info at coldstart. 
+This came using tag 150. Page Farrukh who seems to have found 
+something wrong. Ending run. 
+Previous run 118364 had the same pb.</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118365' target=_top>118365</a>) -->
+<!-- Comment: Thu Jun 21 14;46;00 comment by...Farrukh -->
+My fault, the calibration-creation exes had not been created for
+this tagset. Problem fixed now.
+
+
+
+<!-- Date: Thu Jun 21 14:47:57 2001 -->
+<pre>Cosmic_All[2,150] without COT, XTRP, XFT, CMP & Muontrigger.
+CMX00 done TO -> HRR</pre>
+<!-- Author: Anyes :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118367' target=_top>118367</a>) -->
+<!-- Comment: Thu Jun 21 15;17;56 comment by...Victoria -->
+End this run to restart RC.
+<!-- Date: Thu Jun 21 15:16:26 2001 -->
+Restart RC to include some groovy new features.
+<!-- Author: Victoria -->
+
+
+
+<!-- Date: Thu Jun 21 15:18:23 2001 -->
+<pre>CMU00 Slot 13 resetting card failed while trying to restart run 
+after restarting RC. Pages expert since it is few time that 
+we are getting this error from CMU00 slot13</pre>
+<!-- Author: Aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118369' target=_top>118369</a>) -->
+
+
+<!-- Date: Thu Jun 21 15:23:55 2001 -->
+<pre>Added debug hook on System.err to catch stack trace in the  
+Run Control when OutOfMemory error occurs. 
+ 
+Increased the maximum allowed stack memory for run control  
+sessions when invoking Run Control in the normal  
+way: 
+            setup fer 
+            rc 
+ 
+Arnd has rebuilt fer package;  Aces have restarted Run Control  
+to pick up new changes.</pre>
+<!-- Author: W.Badgett -->
+
+
+<!-- Date: Thu Jun 21 15:29:41 2001 -->
+<pre>Erik did a manual reset on CMU00 but it didn't work when we 
+tried to restart run. 
+We gave him CMU & CMX crates.</pre>
+<!-- Author: Anyes -->
+
+
+<!-- Date: Thu Jun 21 15:31:08 2001 -->
+<pre>MCR asked us not to power down our magnet while 
+studies are being done.  They'll call us in a  
+few minutes when it's okay.</pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 15:33:52 2001 -->
+Start run 118371...
+<!-- Author: Aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118371' target=_top>118371</a>) -->
+
+
+<!-- Date: Thu Jun 21 15:42:06 2001 -->
+<pre>Magnet going down.  Oddly, it tripped the COT from 
+low standby.  Even more oddly, it tripped the TOF 
+from off.   
+ 
+(We were obviously confused about what should happen  
+here, but we think we understand now) </pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 15:49:42 2001 -->
+<font color=red>Shift Summary: </font><pre>Took data until 1100, then clock pandemonium, then  
+TeV studies.  Handed the shards off to evening shift.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   118341-118371
+Delivered Luminosity   9.4  pb-1
+Acquired Luminosity    2.7  pb-1
+Efficiency             30%
+   
+</td></tr></table></pre>
+<!-- Author: TJL -->
+
+
+<!-- Date: Thu Jun 21 16:00:11 2001 -->
+<pre>End-of-shift summary for SVRad:  All total are 0.</pre>
+<!-- Author: Victoria -->

@@ -1,0 +1,294 @@
+<!-- Title: 10:23:35  Mon Jul 21 2008 -->
+<!-- Crewchief: Tino (MPC) -->
+<!-- Op1: Sasha Sukhanov (SPL) -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>Waiting Silicon to be cold againg after the access this morning.</pre>
+
+
+<!-- Date: Mon Jul 21 13:08:44 2008 -->
+<h3>DPT meter investigation </h3> 
+We investigated the DPT meters which were not reading properly.  The are -- ISL PCE, ISL CCW2, SVX PCE, SVX PCW.  We learned some things about the state of these gauges, not all of it good.  Warren, the expert on calibrating them, is out on vacation today, so we first tried to see if we could have any effect on the readings these gauges give by moving the magnetic wand over the controls, and then tried to manipulate the pressures with the isolation/shorting valves.  Some gauges we left alone because they were valved off from the system. 
+<p> 
+ISL PCE -- this gauge was valved off from the system.  We did not open the valves to connect it, out of fear that it might induce a flow trip.  We will ask experts why it was left in this state. 
+<p> 
+ISL CCW2 -- minimal response from this gauge.  It read about 1.3 PSID, and did not respond to our wand manipulations.  We shorted the pressure across it by isolating it from the system and opening the valve across its inputs.  We manipulated the wand and briefly got it to read 20 PSID, before it started reading negative.  Further attempts with the pressure across it and without did not revive its reading. 
+<p>  
+SVX PCE -- with some manipulations of the wand and setting the pressure across it to zero and back, we were able to get it to read back a nonzero value -- it had been reading 3.5 PSID before, and now it reads 15 +- 3, and is highly erratic in time.  We do not believe the readback, regardless of the state of its calibration, due to the time variation in its reading. 
+<p> 
+SVX PCW -- the valves on this one were initially in a strange state.  One of the isolation valves was open, the other closed (not sure if it was the supply or return that was open, but it does not matter).  The valve shorting one side of the gauge to the other was open.  We did not change the valve positions.  This gauge had a black piece of electrical tape covering the calibration sticker. 
+<p> 
+Recommendation:  During the shutdown, we should try replacing all four of these gauges.  
+<!-- Author: Tom Junk, Sasha Sukhanov -->
+
+
+<!-- Date: Mon Jul 21 14:13:52 2008 -->
+<h3>Cooldown -- ISL Chiller Sticking</h3> 
+We started cooling down the SVX and ISL after Del told us it was all clear.  During cooldown, the ISL chiller stopped chilling and inexplicably started warming up.  The lights showed it was stuck in "hot gas" and not "cooling", and it still had a couple of degrees left to go (the chiller outlet temperature was at 8C and the setpoint was 6C).  After reading the logbook for similar entries, we went down and hit the controller box with a screwdriver.  The first such hit (on the outside of the gray box, rather gentle) got it stuck in a mode where the "cooling" and the "hot gas" lights were simultaneously on.  Opening the gray box and hitting the Honeywell controller gently on the right-hand side restored the cycling between "cooling" and "hot gas".  Aging relays getting stuck?
+<!-- Author: Tom Junk, Sasha Sukhanov -->
+
+
+<!-- Date: Tue Jul 22 04:20:37 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12751&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12752  width='300' align='top'></a></td><td><h3> Store 6310</h3> 
+Initial luminosity: 240 E30; losses under 3 kHz and stable so Silicon was included in step 2. SpyMon looks as ususal.</td></tr></table>
+<!-- Author: Tino -->
+<!-- Comment: Tue Jul 22 04;38;16 comment by...Tino -->
+I have checked SVXMon and seems good.
+
+
+<!-- Date: Tue Jul 22 12:46:44 2008 -->
+Autohocherization PS 8. SAR worked.
+<!-- Author: Tino -->
+
+
+
+<!-- Date: Tue Jul 22 13:34:11 2008 -->
+<center><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12753&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12753' width='300'></a><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12754&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12754' width='300'></a></center>
+<!-- Author: Mark H. -->
+<!-- Comment: Tue Jul 22 13;41;53 comment by...Mark H. -->
+I ran the VRB crate event size code over runs 264162 and 264240, two runs that came in over 300e30.  The results are in the right plot.  The left plot shows that previous highest luminosity measurement of event sizes.  The behavior is pretty consistent.  Just to clarify, these event sizes are calculated based on the SIXD and ISLD banks, so they do not include any fill characters that get stripped out by the VRB.
+
+<!-- Comment: Tue Jul 22 13;54;38 comment by...Mark H. -->
+I should also point out that these events come from the MONITOR_L3TAG_PS200 path which just prescales L2A by 200.
+
+
+<!-- Comment: Wed Jul 23 17;22;49 comment by...Satyajit -->
+Thanks, Mark! This is very useful to support that our event size
+is not going crazy at lumis. higher than 300e30. The particular
+problem we want to address is however concerned with level 1 rate. 
+Is it possible to repeat the study of the 
+<a href="http://b0sili01.fnal.gov/cgi-bin/fibread/fibread.pl">FIB 
+readout time</a> with these run numbers?
+
+<!-- Date: Wed Jul 23 09:23:13 2008 -->
+During last silicon checkout I noticed that f533 errors came back. Today I tried to reproduce it during quiet time but it was error free again. Consider this issue closed for now... will look again if high rate bit errors return and stay for relatively long time (couple of weeks).
+<!-- Author: sergo -->
+
+
+<!-- Date: Wed Jul 23 13:41:02 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12755&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12756  width='300' align='top'></a></td><td><h3> Store 6312 </h3>  
+Initial luminosity 285 E30. Losses under 4 kHz and stable, so Silicon was included at the begining. SpyMon looks as usual.</td></tr></table>
+<!-- Author: Tino -->
+<!-- Comment: Wed Jul 23 13;43;17 comment by...Tino -->
+<pre>SVXMon It's OK.</pre>
+
+
+<!-- Date: Thu Jul 24 08:10:55 2008 -->
+Entered in Silicon database: <ul>
+<li>Ladder: IB0W2L2 
+<li>problem n: 2186 
+<li>Status: fixed
+<li>Type: BIAS
+<li>Action: IMON_limits
+<li>entered by: tino 
+<li>description is: Changin IMon Bias-1 limit to avoid a pinke. The current is stable near its previous upper limit ~ 210.<table border=1>
+<tr><th>IMON LIMITS</th><th>Old</th><th>New</th></tr>
+<tr><td><b>Nominal</b></td><td>115</td><td>115</td></tr>
+<tr><td><b>Lower</b></td><td>0.5</td><td>0.5</td></tr>
+<tr><td><b>Upper</b></td><td>210</td><td>235</td></tr></table> 
+<li>See <a href="http://b0sili01.fnal.gov/cgi-bin/pdb/DBreport.pl?detsys=ISL&wedge=B0W2&layer=L2">report</a></ul>
+<!-- Author: Problem DB -->
+
+
+<!-- Date: Thu Jul 24 08:13:18 2008 -->
+Entered in Silicon database: <ul>
+<li>Ladder: IB4W1L2 
+<li>problem n: 2350 
+<li>Status: fixed
+<li>Type: BIAS
+<li>Action: IMON_limits
+<li>entered by: tino 
+<li>description is: Increased IMon Bias-1 limit to avoid a pinkie. Current is stable very close its previous upper limit ~ 210.<table border=1>
+<tr><th>IMON LIMITS</th><th>Old</th><th>New</th></tr>
+<tr><td><b>Nominal</b></td><td>115</td><td>115</td></tr>
+<tr><td><b>Lower</b></td><td>0.5</td><td>0.5</td></tr>
+<tr><td><b>Upper</b></td><td>210</td><td>235</td></tr></table> 
+<li>See <a href="http://b0sili01.fnal.gov/cgi-bin/pdb/DBreport.pl?detsys=ISL&wedge=B4W1&layer=L2">report</a></ul>
+<!-- Author: Problem DB -->
+
+
+
+<!-- Date: Thu Jul 24 10:27:53 2008 -->
+<h3> Trips just after rumping HV down </h3>Just after ACE was rumping down the HV, 3 wedges of L00 (fib 7) tripped: LB1W0, LB1W4 and LB1W5. SAR was successfull in recover these wedges. 5 minutes after I receved and Ifix alarm with the alphanumeric pager complaining about ISL (2,1,1) but SVXinter doesn't say anything. Ankush told me that he remember the same (some wedges triping just after rumping down HV) some days before).
+<!-- Author: Tino -->
+
+
+<!-- Date: Thu Jul 24 13:55:23 2008 -->
+B0W3L3 DVDD current got pinkie while ACE was taking <a href= 
+'/cgi/elog/elog.pl?nb=2008&action=view&page=617&frame=2&anchor=13:39:41.609'> 
+one calibration </a>. Sergo was in Control Room and tried a coldstart which fix the current for a minute, but just after the current rise again. I tried another coldstart that didn't work, so I set to IGNORE this ladder and will keep and eye on it.  
+<!-- Author: Tino -->
+<!-- Comment: Thu Jul 24 14;02;38 comment by...Tino -->
+This ladder has a history with periodically changes to DVDD current near to 300.
+
+
+<!-- Date: Fri Jul 25 03:36:53 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12759&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12759  width='300' align='top'></a></td><td>The history of the ladder e052 present periodically changes of DVDD current to near 300 like the ones observed. The ladder has recovered a DVDD current in a stable value near 110.</td></tr></table>
+<!-- Author: Tino -->
+
+
+<!-- Date: Fri Jul 25 04:11:25 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12760&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12761  width='300' align='top'></a></td><td><h3> Store 6317 </h3> Initial luminosity 180 E30; losses under 5 kHz and stable, so Silicon was included in step 2. <br> SpyMon looks as usual. SVXMon It's good, too.</td></tr></table>
+<!-- Author: Tino -->
+
+
+<!-- Date: Fri Jul 25 08:03:46 2008 -->
+<h3> AutoHockerization crate # 8 and e004 trips </h3> <br>I got paged at 6:50 because an autohockerization of CAEN PS #8. SAR couldn't recoverer 5 wedges. I asked ACE to start a NO SILICON run and I went to control room. When I arrived I tried to recovered the wedges by Crate, but fib03 was in error when I tried a Coldstart. I sheperded fib03 and RC, and PSGui got stuck, so I had to restart PSGui. After that I could recovered the 5 wedges and ACE started a current Run, but some minutes after e004 tripedd. I tried to recovered manually (I forgot to put SAR again) but this ladder tripped again, so I decided take out of database. I had mistake the ladder and actually I  take out e002 NOT e004, so I got again inhibit. I realized that I had this mistake and I recover with Ankush help the e004 ladder and we take data again.
+<!-- Author: Tino -->
+<!-- Comment: Fri Jul 25 08;17;24 comment by...Tino -->
+Some minutes after e004 tripped again, so I took this ladder out of data base and I put e002 in database again. 
+
+<!-- Comment: Fri Jul 25 09;33;16 comment by...SashaS -->
+I have checked status of SAR: the poor guy was out of business since 5:25 am (time of the last update in the main SAR window) this morning due to lost communication with RT-server. Apparently, there were some problems with RT-server this morning, see <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2008&action=view&page=619&frame=2&anchor=05:14:50.676'>this</a> entry in the main e-log. (BTW, this also explains stuck PSgui) Since SAR stopped receiving any SS messages, it was not aware of any problem with Silicon power-supplies. Thus, SAR <b>did not</b> recover PS #8 after auto-hockerization. It looks like during manual recovery chips in e004 did not receive configuration in time and this ladder continued tripping on Dvdd/Avdd over-current. There is also a possibility that this ladder has Avdd2 problem (see <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=414&frame=2&anchor=06:15:03'>this</a> entry) and we may need to chop chips from Z-side. We will try to re-integrate this ladder during quiet time.
+
+<!-- Comment: Fri Jul 25 16;25;30 comment by...SashaS -->
+I have re-integrated SVX ladder e004 back. It seems to hold Dvdd/Avdd currents now, but Avdd is on a higher side (~1530 ua compared to 1055 ua High End settings in Imon) and still very low efficiency on Z-side
+
+
+<!-- Date: Fri Jul 25 22:47:05 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12762&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12763  width='300' align='top'></a></td><td><h3> Store 6318 </h3>  
+Initial luminosity 297 E30 with losses under 6 kHz and stable. Silicon was included at the beginning. <br>SpyMon looks as usual. SVXMon has been checked and It's good.</td></tr></table>
+<!-- Author: Tino -->
+
+
+<!-- Date: Sat Jul 26 18:16:16 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12766&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12767  width='300' align='top'></a></td><td><h3> Store 6319 </h3> Initial luminosity under 6 kHz and stable. Silicon was incluede at the beginning .<br> SpyMon looks as usual. SVXMon It's OK.</td></tr></table>
+<!-- Author: Tino -->
+
+
+<!-- Date: Sun Jul 27 16:39:43 2008 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12768&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12769  width='300' align='top'></a></td><td><h3> Store 6320 </h3> <br> Initial luminosity 302 E30 with losses under 5 kHz and stable. Silicon was incluede at the beginning.<br> SpyMon looks as usual. SVXMon has been checked and It's OK.</td></tr></table>
+<!-- Author: Tino -->
+
+
+<!-- Date: Mon Jul 28 08:12:50 2008 -->
+<h3> Spontaneous switch off Crate # 12</h3> SAR couldn't recovered the wedges, so I was paged and I recovered them wedges manually.
+<!-- Author: Tino -->
+<!-- Comment: Mon Jul 28 08;23;58 comment by...SashaS -->
+It looks like RC was in ACTIVE state. SAR does not attempt to recover when Fib crates are not in READY/START/HALT state.
+<!-- Date: Mon Jul 28 08:17:22 2008 -->
+Entered in Silicon database: <ul>
+<li>Ladder: IB5W0L0 
+<li>problem n: 2414 
+<li>Status: fixed
+<li>Type: BIAS
+<li>Action: IMON_limits
+<li>entered by: tino 
+<li>description is: Increased IMon Bias-1 limits due to normal aging.<table border=1>
+<tr><th>IMON LIMITS</th><th>Old</th><th>New</th></tr>
+<tr><td><b>Nominal</b></td><td>39</td><td>39</td></tr>
+<tr><td><b>Lower</b></td><td>0.5</td><td>0.5</td></tr>
+<tr><td><b>Upper</b></td><td>130</td><td>160</td></tr></table> 
+<li>See <a href="http://b0sili01.fnal.gov/cgi-bin/pdb/DBreport.pl?detsys=ISL&wedge=B5W0&layer=L0">report</a></ul>
+<!-- Author: Problem DB -->
+
+
+
+
+<!-- Date: Mon Jul 28 09:29:46 2008 -->
+<table><tr><td><a href=/elog/notebooks/silicon/Mon_Jul_28_2008_092944.ps align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-12776  align='top'></a></td><td><h3> e280 with errors in some runs </h3></td></tr></table>
+<!-- Author: Tino -->
+
+
+<!-- Date: Mon Jul 28 09:30:40 2008 -->
+<h3> ADC Monitoring Summmary (Run 264991- 265394)</h3><br> 
+ 
+I have checked ADCMon plots during last week from run 264991 to 265394: 
+ 
+<li> e030, e033, e100, f302 present high bit errors in many runs.</li> 
+ 
+<li> e280  bad in many runs (265138,265140,265143,265143) </li>  
+<!-- Author: Tino -->
+
+
+<!-- Date: Mon Jul 28 09:33:29 2008 -->
+<html> 
+ 
+<head> 
+ 
+<h1>Summary of the week</h1> 
+ 
+</head> 
+ 
+<br> 
+<h3> Monday </h3>  
+<br> 
+ 
+<li> Access to fix the COT superlayer which was wrong.</li> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=1:08:44'> DPT meter investigation.</a>  </li> 
+ 
+<li> <a href='http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=14:13:52'> Cooling down </a>ISL chiller. </li> 
+ 
+ 
+<br> 
+<h3> Tuesday </h3> 
+<br> 
+ 
+<li><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=04:20:37'> Store 6310.</a> Initial luminosity: 240 E30. Losses < 3 kHz. </li> 
+ 
+<li> Autohockerization Power supply 8. SAR fixed it.</li> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=13:34:11'> Average Event size VS lumi.</a></li> 
+ 
+<br> 
+<h3> Wednesday </h3> 
+<br> 
+ 
+ 
+ 
+<li><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=13:41:02'> Store 6312</a>: initial lumi 285 E30; losses < 4 kHz and stable.</li> 
+ 
+<li> changing some IMon limits. </li> 
+ 
+ 
+<br> 
+<h3> Thursday </h3 
+<br> 
+ 
+<li>  <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=10:27:53'> trips just after rumping HV down</a>. </li> 
+ 
+<br> 
+<h3> Friday </h3 
+<br> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=04:11:25'> Store 6317:</a> Initial lumi. 180 E30; losses < 5 kHz. </li> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=08:03:46'> Autohockerization and e004 trips</a>. </li> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=22:47:05'>Store 6318: </a> Initial lumi. 297 E30; losses < 6 kHz.</li> 
+ 
+<br> 
+<h3> Saturday </h3 
+<br> 
+ 
+<li><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=18:16:16'> Store 6319:  </a> Initial lumi. 301 E 30; losses < 6 kHz. </li> 
+ 
+ 
+ 
+<br> 
+<h3> Sunday </h3 
+<br> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=16:39:43'> Store 6320: </a> Initial lumi. 302 E30; losses < 5 kHz.</li>  
+ 
+<br> 
+<h3> Monday </h3 
+<br> 
+ 
+<li> <a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=08:12:50'> Spontaneous switch off crate #12</a>. SAR didn't recovered it, so problem was recovered manually.</li>  
+ 
+<li><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=415&frame=2&anchor=09:30:40'> ADC Monitoring</a></li> 
+ 
+ 
+  
+ 
+</html> 
+  
+<!-- Author: Tino -->

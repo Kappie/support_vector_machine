@@ -1,0 +1,502 @@
+<!-- Title: Eve shift. Thu Oct 12, 2006 -->
+<!-- SciCo: Lindgren -->
+<!-- DAQAce: Silvia Amerio -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: &nbsp; -->
+<!-- OpManager: Tom Wright -->
+<!-- Notes: -->
+<pre>continuing supervised access</pre>
+
+<!-- Date: Thu Oct 12 16:27:17.158 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224756>224756</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+
+<!-- Date: Thu Oct 12 16:29:20.451 2006 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre> 
+done with SMXR reload testing. 
+returned crate pcal02 to the ACE. 
+pcal03 was stolen(!) from me during the test, 
+but that's OK :-)  done for tonight. 
+ 
+ </pre></td></tr></td></table>
+<!-- Author: Sasha Golossanov :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224751' target=_top>224751</a>) -->
+<!-- Comment: Thu Oct 12 16;30;40 comment by...Sasha Golossanov -->
+<pre>
+
+please take QIE SMXR calibrations at the first opportunity.
+
+</pre>
+
+<!-- Date: Thu Oct 12 16:33:14.382 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224751>224751</A>
+ Terminated at 2006.10.12 16:32:33
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 16:33:15.329 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224751>224751</A>
+TERMINATE: to take out xft06 and xft07
+<!-- Author: Silvia -->
+<!-- Comment: Thu Oct 12 16;45;30 comment by...Silvia -->
+During this run we had done timeout fro crate pcal01. HRR didin't work so we had to shepherd it. During Recover pcal02 went red and we shepherd it. Sasha was making some tests on them...Sorry, I didn't know...they were in the partition!
+<!-- Date: Thu Oct 12 16:40:38.797 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224757>224757</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Silvia -->
+
+
+<!-- Date: Thu Oct 12 16:41:26.832 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224757>224757</A>
+TERMINATE: done
+<!-- Author: Silvia -->
+
+
+<!-- Date: Thu Oct 12 16:44:02.193 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224757>224757</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Thu Oct 12 22;24;17 comment by...Lindgren -->
+<pre>The results look fine.</pre>
+<!-- Date: Thu Oct 12 16:45:30.384 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224758>224758</A>
+ Activated at 2006.10.12 16:44:19
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Thu Oct 12 16:54:42.924 2006 -->
+ICICLE HB alarm. ctrl+c didn't work, so I closed the window and restarted Icicle.  
+In the Ifix terminal there was a popup window  with the error message "IFIX internal error 3409 - n_cmd_complete()". I have no idea what it means, but it disappeared when I closed Icicle window. 
+Now Icicle is ok. 
+<!-- Author: Silvia -->
+<!-- Comment: Thu Oct 12 16;56;21 comment by...Silvia -->
+Sorry, the popup window was not in the "Ifix terminal" but on the "Icicle terminal"
+
+<!-- Date: Thu Oct 12 17:07:29.305 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224760>224760</A>
+ACTIVATE: RunSet: CAL_NOM 
+
+<!-- Author: jdeng -->
+
+
+
+<!-- Date: Thu Oct 12 17:15:39.669 2006 -->
+We swapped five XTC2s on the detector.  In the process we found one TDC with a broken mezzanine interface connector and swapped it out.  We would like to take a checkout run, once the COT low voltage is back on.
+<!-- Author: Nils -->
+
+<!-- Date: Thu Oct 12 18:19:42.663 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224758>224758</A>
+ Terminated at 2006.10.12 18:19:26
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 18:25:20.420 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224762>224762</A>
+ACTIVATE: RunSet: COT_ACE 
+<!-- Author: Eiko X2080 -->
+
+
+
+<!-- Date: Thu Oct 12 18:28:35.420 2006 -->
+Bob and Del came by to pick up the COT HV keys.  They are just about done with the step 13 checkout on the JHA.  
+<!-- Author: twright -->
+<!-- Comment: Thu Oct 12 18;49;23 comment by...twright -->
+Bob confirms that they are now all finished.
+
+
+<!-- Date: Thu Oct 12 18:55:38.009 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224763>224763</A>
+ Activated at 2006.10.12 18:54:03
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 19:00:42.147 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224763>224763</A>
+ Terminated at 2006.10.12 18:59:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 19:06:29.169 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224764>224764</A>
+ACTIVATE: RunSet: CAL_NOM 
+<!-- Author: Silvia -->
+
+
+<!-- Date: Thu Oct 12 19:12:29.214 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224765>224765</A>
+ Activated at 2006.10.12 19:11:36
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Oct 12 19:12:29.377 2006 -->
+<pre>ASDQ calibration after the baggie is closed and LV power supply on: 
+ 
+Found 5 new hot channels in b0cot16, slot8, input 4 
+      8 new hot channels in b0cot16, slot10, input 1 and 2 
+  
+      2 dead wires: SL1-cell 10 -wire 0 
+                    SL1-cell 128-wire 0 
+All the other hot channels are single and do not look like a  
+loose connection.  
+ 
+</pre>
+<!-- Author: Shin-Shan Eiko Yu -->
+<!-- Comment: Thu Oct 12 20;05;30 comment by...Eiko -->
+<pre>Note that the above result was from the calibration run taken around 
+6:24pm, before the funny behaviour Nils saw since 7pm. For the 
+hot channels in b0cot16, slot 8 and 10, Bob and I will take another 
+run tomorrow after the plug is closed.</pre>
+<!-- Date: Thu Oct 12 19:18:47.828 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224766>224766</A>
+ACTIVATE: RunSet: CAL_NOM 
+<!-- Author: Silvia -->
+
+
+<!-- Date: Thu Oct 12 19:25:41.513 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224767>224767</A>
+ACTIVATE: RunSet: COT_ACE 
+<!-- Author: Eiko X 2080 -->
+
+
+<!-- Date: Thu Oct 12 19:29:52.867 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224765>224765</A>
+ Terminated at 2006.10.12 19:29:43
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 19:38:23.613 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224768>224768</A>
+ACTIVATE: RunSet: CAL_NOM 
+<!-- Author: Silvia -->
+
+
+<!-- Date: Thu Oct 12 19:38:24.152 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224768>224768</A>
+TERMINATE: done
+<!-- Author: Silvia -->
+
+
+
+<!-- Date: Thu Oct 12 19:40:39.312 2006 -->
+The COT calibrations turn out very strange.  Maybe the access work has something to do with it.  We asked the ace to take a special run once all the work is done, so that we can see were the problems are.
+<!-- Author: Nils & Eiko -->
+
+<!-- Date: Thu Oct 12 20:01:24.068 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224769>224769</A>
+ Activated at 2006.10.12 20:01:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 20:01:57.266 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224769>224769</A>
+ACTIVATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,731,639] 
+<!-- Author: Gianluca -->
+
+
+
+
+<!-- Date: Thu Oct 12 20:34:58.668 2006 -->
+<pre>Alexei Sedov and I worked on Plug source driver 3E, shifted the indeser belt to fix a glitch in the index tube number readout.  Also shifted the indexer lower limit switch slightly to make the zeroing procedure standard. Everything now works fine.</pre>
+<!-- Author: virgil barnes -->
+
+
+<!-- Date: Thu Oct 12 21:40:19.469 2006 -->
+BMU access report: We have spotted two HV board problems (corona) last week on SW96 and SE150.  Swapping out HV boards on SW96 and SW97 fixed the problem.  We will continue to repair SE150 tomorrow. 
+<!-- Author: Woo-Hyun and Yeongdae -->
+
+<!-- Date: Thu Oct 12 22:17:44.441 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224769>224769</A>
+ Terminated at 2006.10.12 22:17:37
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 22:18:16.667 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224769>224769</A>
+TERMINATE: To take calibrations.
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 22:22:08.437 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224770>224770</A>
+ACTIVATE: RunSet: CAL_NOM requested by Nils and Eiko
+<!-- Author: Gianluca -->
+<!-- Comment: Thu Oct 12 23;14;31 comment by...Shin-Shan Yu (Eiko) -->
+<pre>I checked the result and found a bounch of new hot cells:
+Bob and I will take a look of these noisy cells tomorrow at 8am.
+*************************************
+*superlayer *      cell *      aocc *
+*************************************
+*         4 *        80 * 1.1730833 *
+*         4 *        81 * 1.1175831 *
+*         5 *         4 *         4 *
+*         5 *         5 *         4 *
+*         5 *         6 * 1.2167500 *
+*         6 *        44 * 1.0558332 *
+*         6 *        45 * 1.3015831 *
+*         6 *        99 * 1.6790833 *
+*         6 *       104 * 1.5275000 *
+*         6 *       105 * 1.5472501 *
+*         6 *       369 * 1.0608333 *
+*         7 *       143 * 1.0622501 *
+*         8 *       401 * 1.3638333 *
+*         8 *       437 * 1.0744999 *
+*************************************
+</pre>
+<!-- Comment: Thu Oct 12 23;34;04 comment by...Eiko -->
+<table border=0><td><tr><td bgcolor=#e0e030>All the hot cells above, except SL5-cell 4~6, are intermittent, 
+i.e. they have come and gone very often. However, it is weird that 
+all of the sudden these cells all get hot since 6:24pm.
+
+</td></tr></td></table>
+<!-- Date: Thu Oct 12 22:22:10.940 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224770>224770</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Thu Oct 12 22:23:03.704 2006 -->
+<h3>Silicon Bore Access Report</h3> 
+The Silicon group has tried to fix a leak in the ISL cooling system. Unfortunately, <b>no leak could be identified</b>. We also replaced broken dew point sensors. The full report can be found in the  
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=322&frame=2&anchor=22:18:40'> 
+Silicon e-log</a>.  
+<!-- Author: Ankush, Jose, Ulrich for the Silicon Crew -->
+
+
+<!-- Date: Thu Oct 12 22:33:48.611 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224771>224771</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 22:33:49.516 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224771>224771</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 22:34:46.606 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224771>224771</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Thu Oct 12 22:40:04.869 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224772>224772</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 22:40:05.107 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224772>224772</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Thu Oct 12 22:40:55.325 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224772>224772</A>
+TERMINATE: Done
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 22:46:26.712 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224773>224773</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 22:47:13.304 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224773>224773</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Thu Oct 12 22:47:14.750 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224773>224773</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Thu Oct 12 22:56:22.475 2006 -->
+Plug Laser Calib NOT done.  Reason: West laser flashing light did NOT turn ON. Experts notified by e-mail.
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 23:06:46.025 2006 -->
+<table border=0><td><tr><td bgcolor=#e0e030><h3>Silicon Alarms are now real</h3> 
+ 
+<p>The Silicon Bore access has finished and the silicon detector has returned to its normal state.</p> 
+ 
+<p><b>If a silicon alarm fires, please page Silicon: 218-8227</p></td></tr></td></table>
+<!-- Author: Ankush -->
+
+<!-- Date: Thu Oct 12 23:08:42.838 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224774>224774</A>
+ Activated at 2006.10.12 23:08:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 23:08:53.328 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224774>224774</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,792,632] 
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Thu Oct 12 23:16:13.752 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224774>224774</A>
+ Terminated at 2006.10.12 23:16:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Oct 12 23:18:10.305 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224774>224774</A>
+TERMINATE: Done. L1A rate 72 Hz.
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Thu Oct 12 23:28:51.339 2006 -->
+TOF Calib NOT done. TOF is purposely OFFLINE, probably for the Silicon Bore access.
+<!-- Author: Gianluca -->
+<!-- Comment: Fri Oct 13 00;02;40 comment by...Gianluca -->
+TOF TAC Calib NOT done for the same reason.
+<!-- Date: Thu Oct 12 23:32:54.856 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224775>224775</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 23:32:55.194 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224775>224775</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Thu Oct 12 23:36:46.803 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224776>224776</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 23:37:08.283 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224775>224775</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Thu Oct 12 23:38:03.226 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224776>224776</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Thu Oct 12 23:38:04.583 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224776>224776</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Thu Oct 12 23:38:04.578 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-12881&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-12882  width='300' align='top'></a></td><td>Noisy cells at superlayer 5 since 6:</td></tr></table>
+<!-- Author: Shin-Shan Yu -->
+<!-- Comment: Thu Oct 12 23;39;13 comment by...Eiko -->
+This figure comes from the run taken at around 10:00pm
+
+
+<!-- Date: Thu Oct 12 23:40:18.833 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-12883&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-12884  width='300' align='top'></a></td><td>The cells, SL5-4~6 were quite at 6:30PM.</td></tr></table>
+<!-- Author: Eiko -->
+
+<!-- Date: Thu Oct 12 23:41:41.435 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224777>224777</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 23:41:42.959 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224777>224777</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Thu Oct 12 23:44:18.237 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224777>224777</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+
+<!-- Date: Thu Oct 12 23:52:14.224 2006 -->
+CEM XEF Calib NOT done.  The WEST HV power supply for Xenon flasher 
+stays at zero while the EAST one rumps up to the set HV value.  Steve Hahn notified by e-mail.
+<!-- Author: Gianluca -->
+
+<!-- Date: Thu Oct 12 23:56:24.927 2006 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:01</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu Oct 12 23:58:07.088 2006 -->
+<font color=red>Shift Summary: </font><pre>Everyone is pretty much done with calibrations. The COT calibrations have some problems, Eiko called and will talk to Tom about delaying the plug close.  We could not get one of the Xenon HV supplies ramped to full voltage.  Otherwise very quiet.</pre> 
+<!-- Author: lindgren -->
+
+<!-- Date: Fri Oct 13 00:00:13.734 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224778>224778</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Gianluca -->
+
+
+<!-- Date: Fri Oct 13 00:00:14.361 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224778>224778</A>
+TERMINATE: Done.
+<!-- Author: Gianluca -->
+
+
+
+<!-- Date: Fri Oct 13 00:11:53.630 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224779>224779</A>
+ Activated at 2006.10.13 00:11:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 13 00:11:54.683 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=224779>224779</A>
+ACTIVATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,731,639] 
+<!-- Author: Bruno -->
+

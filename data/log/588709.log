@@ -1,0 +1,415 @@
+<!-- Title: Eve shift. Sun Aug 10, 2008 -->
+<!-- SciCo: M.Rescigno -->
+<!-- DAQAce: Andreas Schmidt -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Mark Neubauer -->
+<!-- OpManager: Gene Flanagan -->
+<!-- Notes: -->
+<pre>Store 6353 colliding</pre>
+
+
+<!-- Date: Sun Aug 10 16:20:16.046 2008 -->
+<p>Just at the end of the last shift: PTM alarm from iFIX, <i>Interlock</i> and <i>Highest Dewpoint</i> red. The crew called David Clark, who assumed that it was a false alarm and should be cleared by rebooting the CDFTEMP PC.</p> 
+<p>We did this according to <a href="http://www-cdfonline.fnal.gov/ops/mcs/ptm/startup.htm">these instructions</a>, which successfully cleared the alarms.</p> 
+<p>The PTM box in the global alarms picture remains in blue, as alarms are disabled for the first two hours.</p>
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+<!-- Comment: Sun Aug 10 18;26;39 comment by...Andreas -->
+PTM is green again in global alarms.
+<!-- Date: Sun Aug 10 16:20:51.625 2008 -->
+The TevArrayDisplay was missing, restarted it.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 16:23:45.193 2008 -->
+Still waiting for a large enough stash to build up for a new  
+shot setup. This won't happen very soon. Current (unconfirmed) 
+estimate by Run Coordinator is 8:00 pm.
+<!-- Author: Scico :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 16:30:50.174 2008 -->
+ENCP TO TAPE red in ProcMon. Doing nothing.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+<!-- Comment: Sun Aug 10 18;26;53 comment by...Andreas -->
+green
+<!-- Date: Sun Aug 10 16:42:44.157 2008 -->
+Done TO b0pcal04, shepherding.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 17:15:17.168 2008 -->
+CER_SVXMON_HALT_RECOVER_RUN_ERROR: Stuck Cellid S/B4/W6/L3/C0-5. HRR.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 18:02:44.570 2008 -->
+Done TO b0cot16. HRR.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 18:26:10.923 2008 -->
+iFIX popup on SOLENOID2 PC. As I'm not sure what <i>Exit</i> refers to, I'll leave the window there until between stores and will try to click it away then. 
+<br><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-4029&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-4029' width='400'></a>
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+<!-- Comment: Sun Aug 10 20;13;42 comment by...Andreas -->
+clicked <i>Exit</i> between stores, it closed the warning window without harming the rest of iFIX.
+<!-- Date: Sun Aug 10 18:41:22.971 2008 -->
+CRYO ALARM from iFIX, details showed <i>Helium Flow Into Magnet</i> red for some seconds. It became green after less than 30 seconds, and the alarm is gone. Process system technicians are aware of it.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 18:48:24.680 2008 -->
+Run Coordinator confirm End of Store for 8:00 pm and  
+then immediately into shot setup.   
+<!-- Author: Scico :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 18:52:53.209 2008 -->
+TOF HV trip trigger inhibit and alarm, cleared itself before I could bring the details window up.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 19:03:25.838 2008 -->
+TevMon warning because of antiproton abort gap halo. Fast time plot looks like this: 
+<p><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-4030&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-4030' width='300'></a></p> 
+No instabilities seen in other monitored quantities. Warning was cleared about one minute later.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 19:28:59.981 2008 -->
+The Sequencer for the scrapbook plots had crashed, restarted it. However, it hasn't put a plot in the scrapbook yet.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+
+<!-- Date: Sun Aug 10 19:33:42.393 2008 -->
+MCR calling in to confirm 8:00 pm for End of Store
+<!-- Author: Scico :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942' target=_top>265942</a>) -->
+
+<!-- Date: Sun Aug 10 19:53:15.105 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942>265942</A>
+ Terminated at 2008.08.10 19:52:33
+<!-- Author: RunControl -->
+<!-- Comment: Sun Aug 10 20;08;41 comment by...Scico -->
+579/604 nb-1 in eve shift 95.9 % efficiency
+<!-- Date: Sun Aug 10 19:53:16.510 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265942>265942</A>
+TERMINATE: End of store approaching.
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:04:33.061 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265943>265943</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:06:06.230 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265943>265943</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;31;34 comment by...Mark Neubauer -->
+calibration looks fine (aside from known issues)
+<!-- Date: Sun Aug 10 20:06:21.058 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265944>265944</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:07:35.225 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265944>265944</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;34;20 comment by...Mark Neubauer -->
+Looks OK
+<!-- Date: Sun Aug 10 20:10:47.714 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265945>265945</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:10:48.740 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265945>265945</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;35;39 comment by...Mark Neubauer -->
+Looks OK
+<!-- Date: Sun Aug 10 20:13:42.235 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265946>265946</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 20:20:54.722 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265946>265946</A>
+TERMINATE: no errors
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:20:58.682 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265947>265947</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:22:02.247 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265947>265947</A>
+TERMINATE: Done TO b0puls01
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:23:04.456 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265948>265948</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:23:05.959 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265948>265948</A>
+TERMINATE: Done TO b0puls01
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:24:09.428 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265949>265949</A>
+TERMINATE: no more quiet time, pilot bunches in the machine
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 20:25:13.610 2008 -->
+Aborted plug laser calibration because quiet time ended.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265950' target=_top>265950</a>) -->
+
+<!-- Date: Sun Aug 10 20:26:06.082 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265950>265950</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:26:10.715 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265947>265947</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;28;19 comment by...Andreas -->
+aborted due to CAL_PULSER_01 failure
+<!-- Date: Sun Aug 10 20:27:39.145 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265951>265951</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 20:30:09.483 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265952>265952</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 20:32:59.909 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265952>265952</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;39;21 comment by...Mark Neubauer -->
+Looks OK (small extra spike in resolution compared to reference)
+<!-- Date: Sun Aug 10 20:33:00.714 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265951>265951</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;41;34 comment by...Mark Neubauer -->
+Looks OK
+<!-- Date: Sun Aug 10 20:34:06.844 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265953>265953</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:34:07.015 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265953>265953</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;43;44 comment by...Mark Neubauer -->
+Looks OK
+<!-- Date: Sun Aug 10 20:38:26.844 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265954>265954</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 20:39:21.687 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265954>265954</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Aug 10 20;48;39 comment by...Mark Neubauer -->
+Looks OK
+<!-- Date: Sun Aug 10 20:43:32.781 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265955>265955</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 20:46:04.934 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265956>265956</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Andreas -->
+<!-- Comment: Sun Aug 10 21;14;16 comment by...Mark Neubauer -->
+Looks OK
+<!-- Date: Sun Aug 10 20:55:04.324 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265957>265957</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,1122,705] 
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 21:06:17.722 2008 -->
+Follogin shot-setup CO we realize ACNET values on E7 page are funny/incorrect. MCR says it is a sitewide problem the expert are investigating. Procedure is on hold exactly for this reason.
+<!-- Author: Scico -->
+
+
+<!-- Date: Sun Aug 10 21:06:18.454 2008 -->
+As a point in the shot setup checklist, I should check if on ACnet page E7 the <i>Tevatron Beam Sync delay</i> are correct. All of them read <i>DPM_Pend</i>. Furhtermore, the fast time plots are stuck, and also channel13 looks quite strange (red values). Marco (SciCo) has called the MCR, it's a site wide ACnet problem, experts are investigating.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265957' target=_top>265957</a>) -->
+
+
+<!-- Date: Sun Aug 10 21:16:23.814 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265958>265958</A>
+ Activated at 2008.08.10 21:16:01
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Aug 10 21:17:03.905 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265958>265958</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,1124,706] 
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 21:26:45.487 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265958>265958</A>
+ Terminated at 2008.08.10 21:26:38
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Aug 10 21:29:02.914 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265958>265958</A>
+TERMINATE: Fred L1A 47.7 Hz this run, so it's fine. Unclear weather it was during quiet time, as there is a site wide ACnet problem. Ch13 indicated test beam in the Tevatron.
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 21:37:50.985 2008 -->
+VNODE1 kept complaining about connection problems to VOLTMAN. The voltman PC was behaving very strange, message boxes with no written text appeared, Voltman had crashed (doing strange things to the screen). Simply restarting Volt.exe.NET lead to similar problems, so I'm currently rebooting the machine.
+<!-- Author: Andreas -->
+<!-- Comment: Sun Aug 10 21;45;44 comment by...Andreas -->
+PSM ist all green in global alarms now.
+<!-- Date: Sun Aug 10 21:42:03.166 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265959>265959</A>
+ Activated at 2008.08.10 21:41:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Aug 10 21:42:33.034 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265959>265959</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1120,706] 
+<!-- Author: Andreas -->
+
+
+
+
+<!-- Date: Sun Aug 10 21:46:17.058 2008 -->
+HBM is no longer red on VNODE1, although the state of VNODE2 hasn't changed.
+<!-- Author: Andreas :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265959' target=_top>265959</a>) -->
+
+<!-- Date: Sun Aug 10 23:04:33.182 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265959>265959</A>
+ Terminated at 2008.08.10 23:04:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Aug 10 23:04:34.662 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265959>265959</A>
+TERMINATE: loading protons
+<!-- Author: Andreas -->
+
+
+<!-- Date: Sun Aug 10 23:08:59.876 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=265960>265960</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [9,1119,725] 
+<!-- Author: Andreas -->
+
+
+
+<!-- Date: Sun Aug 10 23:21:42.989 2008 -->
+injecting final proton bunches
+<!-- Author: Scico -->
+
+<!-- Date: Sun Aug 10 23:55:06.880 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=265942 target=_runSummary>265942</A> x40ED6</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [9,1119,725]</FONT></TD>
+<TD ALIGN=CENTER>13:06:26</TD>
+<TD ALIGN=CENTER>19:52:33</TD>
+<TD ALIGN=CENTER>06:31:14</TD>
+<TD ALIGN=RIGHT>   1,866,220</TD>   <TD ALIGN=RIGHT>  1,129.56</TD>
+<TD ALIGN=RIGHT>  1,084.90</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:01</TD>
+<TD ALIGN=CENTER>06:31:14</TD>
+<TD ALIGN=RIGHT>     1,866,220</TD> <TD ALIGN=RIGHT>  1,129.56</TD>
+<TD ALIGN=RIGHT>  1,084.90</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Aug 10 23:55:42.159 2008 -->
+alle anti-protons in
+<!-- Author: Scico -->
+
+
+<!-- Date: Sun Aug 10 23:59:26.868 2008 -->
+<font color=red>Shift Summary: </font><pre>Store 6353 colliding at low luminosity &lt;50 E30. 
+Slow accumulation of antiprotons due to various problems. 
+Store dropped at 20:00 followed by immediate shot-setup. 
+Most of calibration activity done in between. 
+After some protons injected in Tevatron a problem with CAMAC FE 
+has preventing further steps in the procedure until approx 22:50. 
+Ending the shift just before scraping. 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   265942
+Delivered Luminosity   604 nb-1  
+Acquired Luminosity    589 nb-1  
+Efficiency             95.9 %
+   
+</td></tr></table></pre>
+<!-- Author: M.Rescigno -->

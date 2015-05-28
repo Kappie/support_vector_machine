@@ -1,0 +1,441 @@
+<!-- Title: Day shift. Fri Aug 25, 2006 -->
+<!-- SciCo: Y. Seiya/B. Knuteson -->
+<!-- DAQAce: Varsha Ramakrishnan -->
+<!-- MonAce: Yanjun Tu -->
+<!-- CO: Andrew Mehta -->
+<!-- OpManager: Mark Mattson -->
+<!-- Notes: -->
+<pre>Store 4925 in progress. L=90e30.</pre>
+
+
+<!-- Date: Fri Aug 25 08:43:24.994 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9641&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9641' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9642&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9642' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9643&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9643' width='300'></a></center>
+<!-- Author: Yanjun -->
+
+
+<!-- Date: Fri Aug 25 08:55:30.689 2006 -->
+If you have not checked channel 13 yet, the Fermi east gate is closed due to a down power line.  So plan your travel accordingly.  At least recently, the stoplight at Batavia and Rt 59 is out, so traffic is backed up in both directions on 59.
+<!-- Author: m mattson -->
+
+
+<!-- Date: Fri Aug 25 09:08:30.075 2006 -->
+CMX wedge 22-23 trip. turn them on
+<!-- Author: Yanjun :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 09:28:18.244 2006 -->
+<table><tr><td><a href=/elog/notebooks/2006/Fri_Aug_25_2006_Day.092811.ps align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-9645  align='top'></a></td><td>Rate higher than previous fill</td></tr></table>
+<!-- Author: Andrew Mehta -->
+<!-- Comment: Fri Aug 25 09;31;11 comment by...Andrew Mehta -->
+L2_CMUP6_PT8_&_TRK5_v1,  L2_CMUP6_PT8_&_TRK8_v1 and L2_TRK8_PS100_L1_CMUP6_PT4_v1 also has higer rates
+
+
+<!-- Date: Fri Aug 25 09:37:45.204 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9646&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9646' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9647&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9647' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9648&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9648' width='300'></a></center>
+<!-- Author: Yanjun -->
+
+<!-- Date: Fri Aug 25 09:46:05.524 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+muons: <tt>CMX bad channel as previously reported</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 09:46:06.527 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+monitors: <tt>MET has too high chi2<br>
+Muon Monitors charge/pt, cmp del x, cmx phi stub have too high chi2<br>
+CEM Corr Time, cha corr. time, pha corr. time, wha corr time shifted</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+<!-- Date: Fri Aug 25 10:34:06.309 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9649&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9649' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9650&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9650' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9651&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9651' width='300'></a></center>
+<!-- Author: Yanjun -->
+
+
+<!-- Date: Fri Aug 25 10:35:10.416 2006 -->
+<pre>Done TO for COT_05 
+Followed by Heap Corrupt Error 
+Shepherded the crate TWICE .</pre>
+<!-- Author: Varsha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 11:30:06.407 2006 -->
+New problem with CMP phi stub  
+<!-- Author: Andrew Mehta :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 11:33:02.519 2006 -->
+<pre>Done TO b0pcal02 
+Shephered successful</pre>
+<!-- Author: Varsha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 11:33:29.895 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9652&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9652' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9653&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9653' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9654&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9654' width='300'></a></center>
+<!-- Author: Yanjun -->
+
+
+<!-- Date: Fri Aug 25 11:36:25.372 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-9655&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-9655  width='300' align='top'></a></td><td>New plot failed chi2. Seems to be a noisy channel</td></tr></table>
+<!-- Author: Andrew Mehta -->
+<!-- Comment: Fri Aug 25 12;23;41 comment by...Phil -->
+From the YMON plot one can match this to a hot stack (32, North Wall).
+<!-- Date: Fri Aug 25 11:45:24.648 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+muons: <tt>CMX problem still there</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 11:45:25.957 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+monitors: <tt>triggers rates still high as in last posting<br>
+MET has tpp high chi2<br>
+Muon Monitors charge/pt, cmp del x, cmx phi stub have too high chi2<br>
+New &nbsp;CMP phi stub has bad chi2. Noisy channel?<br>
+CEM Corr Time, cha corr. time, pha corr. time, wha corr time shifted</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+<!-- Date: Fri Aug 25 12:09:17.198 2006 -->
+<h3>Silicon Notice!! : SVX SB0W8L4 AVDD is set to IGNORE</h3> 
+ 
+<p>The AVDD current for SVX ladder SB0W8L4 is set to IGNORE.  The current is currently lower than expected due to a chip change I made yesterday.  At the end of the store I plan to fix this.</p> 
+ 
+<p>If you press GLOBAL UNMARK, please set this cell back to IGNORE.</p> 
+<!-- Author: Ankush -->
+
+
+
+<!-- Date: Fri Aug 25 12:36:09.140 2006 -->
+<pre>TRIGMON turned RED - experts working on it 
+CMX still RED - Experts know about it</pre>
+<!-- Author: Varsha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+<!-- Comment: Fri Aug 25 12;37;40 comment by...m mattson -->
+This is in DQMon, not anywhere else.
+
+
+<!-- Date: Fri Aug 25 12:41:01.281 2006 -->
+<pre>Plug Trip Recovered 
+Hrr done</pre>
+<!-- Author: Varsha :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 12:43:12.483 2006 -->
+PEM HV trip, crate 11 led is off. resetting doesn't help. 
+so turn it on, wait for 5 min, turn it on. it is ok now
+<!-- Author: Yanjun :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 12:44:10.231 2006 -->
+Changed online monitor release to 6.1.4s (new one) which includes 
+modification in TrigMon. Unfortunately TrigMon crashes. (in 
+XFTSim).  So, I put back the old release.  So, now monitors are 
+running with 6.1.4r, again.
+<!-- Author: kaori :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 12:47:36.194 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9656&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9656' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9657&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9657' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9658&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9658' width='300'></a></center>
+<!-- Author: Yanjun -->
+
+
+<!-- Date: Fri Aug 25 12:57:00.916 2006 -->
+<pre>evb2b turned RED - HRR done</pre>
+<!-- Author: Roberto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176' target=_top>222176</a>) -->
+
+
+<!-- Date: Fri Aug 25 13:32:42.871 2006 -->
+I am here to do the beam test for the new table: PHYSICS_4_00[6,824,646]
+<!-- Author: Ted  -->
+
+<!-- Date: Fri Aug 25 13:33:07.300 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+ Terminated at 2006.08.25 13:33:00
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 13:33:32.699 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+TERMINATE: Doing Trigger table tests
+<!-- Author: Shalhout -->
+
+
+<!-- Date: Fri Aug 25 13:47:12.366 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222181>222181</A>
+TERMINATE: Cleaning up the EVB
+<!-- Author: Varsha -->
+<!-- Comment: Fri Aug 25 14;18;24 comment by...Conor -->
+One individual l3 node (s16p10) was causing l3 to fail to partition. Must just have been a network glitch, because it went away as soon as we sat down.
+<!-- Date: Fri Aug 25 13:56:55.032 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9659&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9659' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9660&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9660' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9661&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9661' width='300'></a></center>
+<!-- Author: Roberto -->
+
+<!-- Date: Fri Aug 25 14:03:26.656 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222182>222182</A>
+ Activated at 2006.08.25 14:03:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 14:03:27.434 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222182>222182</A>
+ACTIVATE: RunSet: AAA_NOSILICON  Trigger: PHYSICS_4_00 [6,824,646] 
+<!-- Author: Varsha -->
+<!-- Comment: Fri Aug 25 14;18;56 comment by...Ted and Donatella -->
+looks good. next include silicon.  (note that it took a while before we could start this run due to a L3 problem. Conor/Markus are here so they fixed it).
+<!-- Date: Fri Aug 25 14:12:17.657 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222182>222182</A>
+ Terminated at 2006.08.25 14:12:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 14:12:40.625 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222182>222182</A>
+TERMINATE: Including Silicon
+<!-- Author: Varsha -->
+
+
+<!-- Date: Fri Aug 25 14:16:42.502 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222183>222183</A>
+ Activated at 2006.08.25 14:16:31
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 14:16:43.837 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222183>222183</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_4_00 [4,820,642] 
+<!-- Author: Varsha -->
+<!-- Comment: Fri Aug 25 14;53;56 comment by...Ted and Donatella -->
+this run used the current default table, not the new one under testing. so need to start another run.  but the data is good.
+<!-- Date: Fri Aug 25 14:29:26.190 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+cal: <tt>WHAPMTCanvas has 1 channel both PMT's in a tower &nbsp;white. Statistics?</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 14:29:27.149 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+smx: <tt>Some holes in CCRPadCanvas. Statistics?</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 14:29:28.566 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+muons: <tt>CMX problem still there</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 14:29:29.762 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+monitors: <tt>PEM, CEM, CHA, PHA, WHA CORR time still shifted. Other histos ok</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+<!-- Date: Fri Aug 25 14:40:26.737 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9662&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9662' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9663&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9663' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9664&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9664' width='300'></a></center>
+<!-- Author: Roberto -->
+
+<!-- Date: Fri Aug 25 14:50:33.558 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222183>222183</A>
+ Terminated at 2006.08.25 14:50:27
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 14:51:16.303 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222183>222183</A>
+TERMINATE: ending
+<!-- Author: Varsha -->
+
+
+
+<!-- Date: Fri Aug 25 14:54:46.248 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222184>222184</A>
+ Activated at 2006.08.25 14:54:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 14:54:47.054 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222184>222184</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_4_00 [6,824,646] 
+<!-- Author: Varsha -->
+
+
+<!-- Date: Fri Aug 25 15:33:22.837 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+cal: <tt>WHAPMTCanvas has 1 channel both PMT's in a tower &nbsp;white. Statistics?</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+<!-- Comment: Fri Aug 25 15;48;33 comment by...m mattson (cal ADMEM) -->
+I have consulted with the CO.  The white channels are due to low statistics in the central etas, with the one outlier at eta 9 east being a known dead channel.
+<!-- Date: Fri Aug 25 15:33:23.651 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+smx: <tt>Some holes in CCRPadCanvas. Statistics?</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 15:33:24.444 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+muons: <tt>CMX problem still there</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 15:33:25.462 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222176>222176</A>
+monitors: <tt>PEM, CEM, CHA, PHA, WHA CORR time still shifted. Other histos ok</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+<!-- Date: Fri Aug 25 15:36:13.891 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9665&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9665' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9666&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9666' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-9667&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-9667' width='300'></a></center>
+<!-- Author: Yanjun -->
+
+
+<!-- Date: Fri Aug 25 15:37:55.172 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-9668&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-9668  width='300' align='top'></a></td><td>ACE plot 2</td></tr></table>
+<!-- Author: Yanjun -->
+
+
+<!-- Date: Fri Aug 25 15:55:10.339 2006 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=222176 target=_runSummary>222176</A> x363E0</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_00 [4,820,642]</FONT></TD>
+<TD ALIGN=CENTER>03:59:07</TD>
+<TD ALIGN=CENTER>13:33:00</TD>
+<TD ALIGN=CENTER>08:43:09</TD>
+<TD ALIGN=RIGHT>   3,262,007</TD>   <TD ALIGN=RIGHT>  3,143.38</TD>
+<TD ALIGN=RIGHT>  2,864.67</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=222182 target=_runSummary>222182</A> x363E6</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_00 [6,824,646]</FONT></TD>
+<TD ALIGN=CENTER>14:03:17</TD>
+<TD ALIGN=CENTER>14:12:07</TD>
+<TD ALIGN=CENTER>00:08:46</TD>
+<TD ALIGN=RIGHT>      24,936</TD>   <TD ALIGN=RIGHT>     31.76</TD>
+<TD ALIGN=RIGHT>     30.03</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=222183 target=_runSummary>222183</A> x363E7</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_00 [4,820,642]</FONT></TD>
+<TD ALIGN=CENTER>14:16:31</TD>
+<TD ALIGN=CENTER>14:50:27</TD>
+<TD ALIGN=CENTER>00:31:58</TD>
+<TD ALIGN=RIGHT>     139,423</TD>   <TD ALIGN=RIGHT>    115.44</TD>
+<TD ALIGN=RIGHT>    107.17</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=222184 target=_runSummary>222184</A> x363E8</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_00 [6,824,646]</FONT></TD>
+<TD ALIGN=CENTER>14:54:30</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>00:55:39</TD>
+<TD ALIGN=RIGHT>     269,293</TD>   <TD ALIGN=RIGHT>    195.70</TD>
+<TD ALIGN=RIGHT>    182.56</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>10:19:33</TD>
+<TD ALIGN=RIGHT>     3,695,659</TD> <TD ALIGN=RIGHT>  3,486.27</TD>
+<TD ALIGN=RIGHT>  3,184.43</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Aug 25 16:00:18.620 2006 -->
+<font color=red>Shift Summary: </font><pre>Store 4925, run 222176 in progress at L=90e30. 
+ 
+1) New hot channels in CMP. Experts notified. 
+ 
+2) Kaori tested a new version of the online monitors, 6.1.4s. TrigMon crashed. 
+The previous release 6.1.4r was back in. 
+ 
+3) 13:30 run 222176 ended to start testing a new trigger table. 
+ 
+222182: new table w/o Si 
+222183: default table w/ Si 
+222184: new table w/ Si 
+ 
+ 
+Run 222184 running. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   222176, 222182-222184
+Delivered Luminosity     
+Acquired Luminosity    1954 nb-1  
+Efficiency             1657 nb-1
+   
+</td></tr></table></pre>
+<!-- Author: Yoshi  -->
+
+<!-- Date: Fri Aug 25 16:03:45.889 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222184>222184</A>
+monitors: <tt>CEM, PEM, CHA, PHA, WHA corr time shifted</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Fri Aug 25 16:06:21.842 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222184>222184</A>
+ Terminated at 2006.08.25 16:05:40
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 16:06:22.816 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222184>222184</A>
+TERMINATE: another change of trigger table
+<!-- Author: Martin -->
+
+
+<!-- Date: Fri Aug 25 16:15:10.896 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222185>222185</A>
+ Activated at 2006.08.25 16:14:56
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Aug 25 16:15:11.520 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=222185>222185</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_4_00 [4,820,642] 
+<!-- Author: Martin -->
+<!-- Comment: Fri Aug 25 16;22;11 comment by...Martin -->
+<pre>Running again in the "default data taking mode" just without l2pu02 as recommanded at the whiteboard</pre>
+
+<!-- Comment: Fri Aug 25 16;42;05 comment by...Martin -->
+<pre>The reason for this stop of running was not the trigger table change as mentioned before, but a change of an SVT board</pre>

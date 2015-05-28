@@ -1,0 +1,498 @@
+<!-- Title: Owl shift. Fri Apr 20, 2001 -->
+<!-- SciCo: Giovanni Pauletta -->
+<!-- DAQAce: Francesco Palmonari -->
+<!-- MonAce: Greg Veremendi -->
+<!-- CO: Kazihuro Yamamoto -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre>Mike Kirby is the  "Ghost  ACE" 
+ 
+We are going to run 1x8_END_1[7,101] & [7,104]</pre>
+
+
+<!-- Date: Fri Apr 20 01:09:23 2001 -->
+Cryo alarm: Watt Can MKS went up to .007. 
+It is usually .001 - .002. 
+The tech is pumping it out. 
+Back to normal 5 minutes thereafter.
+<!-- Author: Giovanni Pauletta -->
+
+
+<!-- Date: Fri Apr 20 01:13:23 2001 -->
+Dan Cyr asked permission to run Tracktest on all the muon 
+crates before he leaves. We allowed him to.
+<!-- Author: G. Pauletta -->
+
+
+<!-- Date: Fri Apr 20 01:16:34 2001 -->
+<pre>** start a new run  
+ 
+>> all the requested crates from the white-board BUT: 
+ 
+- no muon crates (work on going with them) 
+ 
+- no b0xtrp00 (power is off on this crate) 
+ 
+- skipping L2 and svxset to SVXTEST</pre>
+<!-- Author: francesco -->
+<!-- Comment: Fri Apr 20 01;17;28 comment by...ciusky -->
+<pre>problems with b0fib01:
+
+b0fib01-> Error Initializing HDI Slot 10 HDi 7
+Error Initializing HDI Slot 10 HDi 9
+Statechange failed                                                                                               </pre>
+
+<!-- Comment: Fri Apr 20 01;24;29 comment by...fra. -->
+<pre>** removed FIB_37 from slot 10 (in b0fib01) to see if 
+   it's possible to cold-start</pre>
+
+<!-- Comment: Fri Apr 20 01;30;13 comment by...fra. -->
+<pre>** dropped b0fib01 will ask Steve...</pre>
+
+
+<!-- Comment: Fri Apr 20 02;24;56 comment by...late fra... -->
+<pre>NB:
+>> trig. table was: 1X8_END_1[7,101] 
+>> silicon included 
+>> forgot some SVT crates -> will include them in the 
+   next run (complete config. with muons)</pre>
+<!-- Date: Fri Apr 20 01:45:37 2001 -->
+<pre>I swapped all the tdc's in imu00 into imu01. I reprogrammed all in imu01 successfully. Slot 11 of imu00 wouldn't program successfuly (ive had problems with that tdc before). imu01 is "healthy" and is now the "good imu crate". Imu00 should still work, but has no cards to readout. 
+</pre>
+<!-- Author: dan -->
+
+
+<!-- Date: Fri Apr 20 01:54:28 2001 -->
+<pre>Finished running TDCtest on the muon system. HTDC fails, and imu01 has some ugly tdcs. The rest of the system looks in good shape (occasional single channel failures) 
+ 
+</pre>
+<!-- Author: dan -->
+
+
+<!-- Date: Fri Apr 20 02:04:21 2001 -->
+<pre>** finally start the run 112595 
+ 
+>> BUSY TIMEOUT after 2696 events (EVB prblms) 
+	-> HRR -> now running again  
+ 
+try to report the error that origin this first timeout: 
+------------------------------------------------------- 
+ 
+(MLE) b0l3gate1.fnal.gov:main:1:34:43 AM->Host b0eb20.fnal.gov, task tRec_0 
+SCPU-P0-E-BadVrbByteCount: Event 2692 total byte count is lt 32, gt 65528, or not divisible by 8 for VRB in slot 
+12. 
+Count = 2586. 
+(MLE) b0l3gate1.fnal.gov:main:1:34:43 AM->Host b0eb20.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 2692 from VRB in slot 12: 
+0x0a1a0e22 0xe3506afc 0x83100029 0x012b022b 0x032a0428 0x052d0629 0x072b0826 0x09290a2b 
+34'38" 1 crate/s: b0svx02(112),  busy.[RXPT]                                                                      
+ 
+from HDUMP (VRB2FIBs): this is  
+---------------------- 
+VRB_30 Slot 10 FIB_SVX_04 FIB_19 Slot 9 
+ 
+ 
+ 
+>> BUSY TIMEOUT  after 10818 events 
+	-> HRR again -> running again 
+ 
+secon timeout report: 
+--------------------- 
+(MLE) b0l3gate1.fnal.gov:main:1:38:25 AM->Host b0eb21.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 10813 from VRB in slot 12: 
+0x016601c4 0xe45001b2 0x831104fc 0x02040003 0x04010305 0x280527f3 0x82112902 0x0ef3a111 
+38'21" 1 crate/s: b0svx02(112),  busy.[RXPT]      
+ 
+This is : 
+--------- 
+ 
+VRB_37 Slot12 FIB_SVX_06 FIB_30 Slot 12                                                      
+ 
+ 
+>> BUSY TIMEOUT after 43937 events 
+	-> ended the run to take back muon crates 
+ 
+</pre>
+<!-- Author: francesco :: (run <a href='/cgi-bin/runSummaryRun.cgi?112595' target=_top>112595</a>) -->
+
+
+<!-- Date: Fri Apr 20 02:22:26 2001 -->
+<pre>** start a new run  (muons back) 
+ 
+>> trig. table: 1X8_END_1[7,101] (with Silicon) 
+ 
+>> all the requested crates from the white-board BUT:  
+ 
+- no b0xtrp00 (power is off on this crate)  
+ 
+- no CLC because no coalesed beam 
+ 
+- skipping L2 and svxset to SVXTEST 
+ 
+>> L3 farm failed the partition transition first time 
+(-> never seen such error... don't know how to trace it   
+    better...)</pre>
+<!-- Author: francesco -->
+<!-- Comment: Fri Apr 20 02;33;59 comment by...francesco -->
+<pre>(NB: run number 112596)</pre>
+<!-- Date: Fri Apr 20 02:32:44 2001 -->
+<pre>>> SO RUN 112596 
+ 
+>> BUSY TIMEOUT after 3411 events 
+	-> HRR -> now running 
+ 
+>> BUSY TIMEOUT after 6465 events  
+        -> HRR -> now running again   
+ 
+>> BUSY TIMEOUT after 6730 events  
+        -> ended   </pre>
+<!-- Author: francesco :: (run <a href='/cgi-bin/runSummaryRun.cgi?112596' target=_top>112596</a>) -->
+<!-- Comment: Fri Apr 20 02;36;10 comment by...francesco -->
+<pre>Problems from silicons this run:
+--------------------------------
+
+1-st time:
+----------
+
+(MLE) b0l3gate1.fnal.gov:main:2:28:43 AM->Host b0eb19.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 3404 from VRB in slot 16:
+0x00740112 0x000001ee 0x00fa00aa 0x013600f2 0x017201a6 0xe26079fc 0x83150004 0x01070204
+28'38" 1 crate/s: b0svx02(112),  busy.[RXPT]                                                          
+
+
+2-nd time:
+----------
+
+(MLE) b0l3gate1.fnal.gov:main:2:30:07 AM->Host b0eb21.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 6460 from VRB in slot 12:
+0x01620128 0xe45001c0 0x831e70fc 0x03040003 0x05060405 0x07040603 0x09030807 0x0c070b01
+30'4" 1 crate/s: b0svx02(112),  busy.[RXPT]                                                           </pre>
+
+
+<!-- Date: Fri Apr 20 02:52:28 2001 -->
+<pre>>> New run just as 112596 (config./trig table/etc...) 
+ 
+-> BUSY TIMEOUT @event 3485 
+        -> HRR again -> running again  
+	 
+Report: 
+------- 
+ 
+(MLE) b0l3gate1.fnal.gov:main:2:41:04 AM->Host b0eb21.fnal.gov, task tRec_0 
+SCPU-P0-E-BadVrbByteCount: Event 3480 total byte count is lt 32, gt 65528, or not divisible by 8 for VRB in slot 12. 
+Count = 366. 
+(MLE) b0l3gate1.fnal.gov:main:2:41:04 AM->Host b0eb21.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 3480 from VRB in slot 12: 
+0x016e0368 0xe45004fc 0x83010007 0x01060207 0x03050404 0x0c040d06 0x0e011002 0x11061203 
+41'1" triggered readout sent events mismatch[EOR]1 crate/s: b0svx02(112),  busy.[RXPT]                 
+ 
+ 
+-> BUSY TIMEOUT  @ event 9467  
+        -> HRR again -> running again  
+ 
+Report: 
+------- 
+ 
+(MLE) b0l3gate1.fnal.gov:main:2:43:01 AM->Host b0eb18.fnal.gov, task tRec_0 
+SCPU-P0-E-BadVrbByteCount: Event 9463 total byte count is lt 32, gt 65528, or not divisible by 8 for VRB in slot 16. 
+Count = 180. 
+(MLE) b0l3gate1.fnal.gov:main:2:43:01 AM->Host b0eb18.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 9463 from VRB in slot 16: 
+0x00b400a6 0x0170011e 0x02c60000 0x00000000 0x00000000 0xe16073fc 0x832d0007 0x01030206 
+42'58" triggered readout sent events mismatch[EOR]1 crate/s: b0svx02(112),  busy.[RXPT]                
+ 
+ 
+> BUSY TIMEOUT  @event 16618 
+        -> HRR again -> running again  
+ 
+Report: 
+------- 
+ 
+(MLE) b0l3gate1.fnal.gov:main:2:45:14 AM->Host b0eb18.fnal.gov, task tRec_0 
+SCPU-P0-E-EventIdMismatch: VRB ID for event 16611 is 0 instead of 3 (slot 16). 
+(MLE) b0l3gate1.fnal.gov:main:2:45:14 AM->Host b0eb18.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 16611 from VRB in slot 16: 
+0x00880000 0x017e00b4 0x02a400f2 0x00000000 0x00000000 0xe1600000 0x832335fc 0x37010004                
+ 
+ 
+-> BUSY TIMEOUT  @event 23539 
+        -> HRR again -> running again  
+ 
+Report: 
+------- 
+ 
+(MLE) b0l3gate1.fnal.gov:main:2:47:57 AM->Host b0eb21.fnal.gov, task tRec_0 
+SCPU-P0-E-BadVrbByteCount: Event 23531 total byte count is lt 32, gt 65528, or not divisible by 8 for 
+VRB in slot 12. 
+Count = 266. 
+(MLE) b0l3gate1.fnal.gov:main:2:47:57 AM->Host b0eb21.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 23531 from VRB in slot 12: 
+0x010a01b6 0xe45099fc 0x83200003 0x0b020c06 0x0df318f3 0x19051a02 0x2a012b06 0x2c042d09 
+47'54" triggered readout sent events mismatch[EOR]1 crate/s: b0svx02(112),  busy.[RXPT]                
+ 
+-> BUSY TIMEOUT  @event 26663 
+        -> STOP THE RUN WILL TAKE OUT SILICONS 
+ 
+Report: 
+------- 
+(MLE) b0l3gate1.fnal.gov:main:2:49:31 AM->Host b0eb18.fnal.gov, task tRec_0 
+SCPU-P0-E-BadVrbByteCount: Event 26659 total byte count is lt 32, gt 65528, or not divisible by 8 for 
+VRB in slot 16. 
+Count = 118. 
+(MLE) b0l3gate1.fnal.gov:main:2:49:31 AM->Host b0eb18.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 26659 from VRB in slot 16: 
+0x007600ce 0x014c00d0 0x02440000 0x00000000 0x00000000 0xe16067fc 0x831c00f3 0x01050203 
+49'28" triggered readout sent events mismatch[EOR]1 crate/s: b0svx02(112),  busy.[RXPT]               </pre>
+<!-- Author: francesco  :: (run <a href='/cgi-bin/runSummaryRun.cgi?112597' target=_top>112597</a>) -->
+<!-- Comment: Fri Apr 20 05;07;06 comment by...fra -->
+
+<!-- Date: Fri Apr 20 02:59:21 2001 -->
+Too many time outs caused by Si. 
+Decided to take out offending crates out.
+<!-- Author: Giovanni Pauletta :: (run <a href='/cgi-bin/runSummaryRun.cgi?112598' target=_top>112598</a>) -->
+
+
+<!-- Date: Fri Apr 20 03:05:00 2001 -->
+<pre>>> run 112598: 
+ 
+-> test of the 1x8_END_1[7,101] w/o Silicon 
+ 
+-> NB:  3 L3 nodes ended after coldstart  
+ 	and one is badly monitored (light gray with 0/0) 
+</pre>
+<!-- Author: francesco :: (run <a href='/cgi-bin/runSummaryRun.cgi?112598' target=_top>112598</a>) -->
+<!-- Comment: Fri Apr 20 03;11;59 comment by...il conte -->
+<pre>ABOUT THE L3 NODES:
+- the 3 processors nodes have just a purple color instead of
+  light blue, but looking carfully they are processing
+- on the contrary the one light grey is not working
+
+-> the rate is just fine no need to restart the run for this
+   processor node missing</pre>
+
+
+<!-- Date: Fri Apr 20 03:46:15 2001 -->
+<pre>About errors when starting XMon and TRigMon manually, which were 
+reported by the previous CO: 
+ 
+This seems to be because ssh from b0dap51 to b0dap52 connects to 
+a user different from "cdfdaq" by default. I don't know why. 
+ 
+b0dap51:21:~>setup ssh 
+b0dap51:22:~>whoami 
+cdfdaq 
+b0dap51:23:~>ssh b0dap52  
+    : 
+    : 
+ No mail. 
+1:/bin/tcsh 
+Using root compiled with default compiler (KCC_3_3) 
+<b0dap52.fnal.gov>whoami 
+iyutin 
+ 
+When continuing the starting process of XMon and TrigMon in this 
+account, errors occur and cannot start consumers. So, it looks 
+like we need to logon to b0dap52 from b0dap51 by specifying the 
+login name "cdfdaq": 
+ 
+b0dap51:24:~>ssh cdf@b0dap52 
+ 
+Then, the individual starting processes of XMon and TrigMon worked 
+properly.</pre>
+<!-- Author: Kazuhiro Yamamoto -->
+<!-- Comment: Fri Apr 20 07;58;49 comment by...patrick -->
+<pre>The problem was because user iyutin obtained a Kerberos
+ticket under his own account while logged in as cdfdaq.
+He was sent mail yesterday asking him not to do this,
+but to use ksu instead. The startConsumers.sh script
+attempts to destroy any such tickets, so is more likely
+to work than just giving the ssh command to start the
+consumer manually from the command line.</pre>
+<!-- Comment: Fri Apr 20 08;46;46 comment by...patrick -->
+<pre>Doing "kdestroy" before starting a consumer manually
+from the command line should work.</pre>
+<!-- Date: Fri Apr 20 04:02:51 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-691&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-691' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-692&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-692' width='300'></a></center>
+<!-- Author: francesco -->
+<!-- Comment: Fri Apr 20 04;03;50 comment by...babar -->
+<pre>>> rates measured for run 112598</pre>
+
+
+<!-- Date: Fri Apr 20 04:31:39 2001 -->
+<pre>>> run 112599:  
+ 
+-> test of the 1x8_END_1[7,104]  
+ 
+-> everything inside but no Silicon, CLC and xtrp 
+ 
+-> NB:  need to reboot b0tsi03 before the start of the run 
+    	(general page full of dummy triggers bits)  
+ 
+-> L3 FARM failed transition to IDLE (had to clean up b0l3c07)</pre>
+<!-- Author: francesco  :: (run <a href='/cgi-bin/runSummaryRun.cgi?112599' target=_top>112599</a>) -->
+<!-- Comment: Fri Apr 20 04;35;43 comment by...fra. -->
+<pre>** turns out that rebooting b0tsi03 wasn't the case ...
+   the PreFred page it's still full of dummy triggers bits
+   as before (so, to me, it should be more a input problem to 
+   the TS [?])</pre>
+
+
+<!-- Date: Fri Apr 20 04:54:06 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-693&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-693' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-694&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-694' width='300'></a></center>
+<!-- Author: francesco -->
+<!-- Comment: Fri Apr 20 04;55;17 comment by...e&#39; lui ! -->
+<pre>>> run 112599
+	-> measured rates</pre>
+
+
+
+<!-- Date: Fri Apr 20 06:06:09 2001 -->
+<pre>>> run 112601 (as 112599 but with silicon): 
+ 
+-> test of the 1x8_END_1[7,104]   
+ 
+-> everything inside but no CLC and xtrp  
+ 
+(silicon: fib02/05/06 + all VRBs)</pre>
+<!-- Author: francesco :: (run <a href='/cgi-bin/runSummaryRun.cgi?1126' target=_top>1126</a>) -->
+<!-- Comment: Fri Apr 20 06;20;28 comment by...francesco -->
+<pre>>> 4 BUSY TIMEOUT after the start of 112601
+
+@ event 7823	@ event 8529	@ event 13467	@ event 48143
+
+now running ...</pre>
+<!-- Date: Fri Apr 20 06:13:38 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-695&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-695' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-696&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-696' width='300'></a></center>
+<!-- Author: francesco -->
+<!-- Comment: Fri Apr 20 06;15;31 comment by...f. -->
+<pre>>> actual rates for run 112601 (when not timeout...)</pre>
+
+
+
+<!-- Date: Fri Apr 20 06:24:41 2001 -->
+<pre>>> L3 FARM: processor node b0l3061 dead  
+	   around event 57400 of run 112601</pre>
+<!-- Author: francesco :: (run <a href='/cgi-bin/runSummaryRun.cgi?112601' target=_top>112601</a>) -->
+
+
+<!-- Date: Fri Apr 20 06:56:56 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-699&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-699  width='300' align='top'></td><td>from TrigMon bad bits</a></td></tr></table>
+<!-- Author: Yamamoto et al. -->
+<!-- Comment: Fri Apr 20 07;01;02 comment by...cesco -->
+<pre>>> we end the run 112601 after 12 more HRR all for 
+   busy time out ...</pre>
+
+
+<!-- Date: Fri Apr 20 07:05:34 2001 -->
+<pre>** we suspect problems with the triggers crates 
+   we reboot all of them b0tsi00/01/02/03 
+   (i.e. we think that rebooting them will fix the observed 
+    crazy rates -look at L1_CMU_TRACK_1.5/... for example-)</pre>
+<!-- Author: francesco+greg -->
+
+
+<!-- Date: Fri Apr 20 07:20:21 2001 -->
+<pre>XMon goes dead often with the following error messages: 
+ 
+                 : 
+                 : 
+ConsumerInput Begin processing 36400th record. Run 112599, Trigger 315848 
+ConsumerInput Begin processing 36500th record. Run 112599, Trigger 316728 
+%ERLOG-e SL1D: Total runtime 6399673280 != livetime + deadtime 6399673344 XMon  
+         SL1D() 20-Apr-2001 05:32:11 run = 112599 event = 316790 
+ 
+ *** Break *** segmentation violation 
+%ERLOG-s Abnormal termination: caused by signal:  6 Framework abortJob()  
+         20-Apr-2001 05:32:19 run = 112599 event = 0 
+ 
+ *** Break *** segmentation violation 
+Display Server: End with signal 11 ( = SIGSEGV ) 
+Report end to the StateManager 
+sockets closed 
+1323.530u 285.430s 1:43:13.69 25.9%     0+0k 0+0io 120175pf+0w</pre>
+<!-- Author: Kazuhiro Yamamoto -->
+
+
+<!-- Date: Fri Apr 20 07:33:14 2001 -->
+At 7:30, Jay Dittmann asked for 
+XFT crates 0 -5 and COT crate 09  
+We gave them to him.
+<!-- Author: Giovanni Pauletta :: (run <a href='/cgi-bin/runSummaryRun.cgi?112603' target=_top>112603</a>) -->
+
+
+<!-- Date: Fri Apr 20 07:33:26 2001 -->
+<pre>>> new run after crates reboot run number 112603 
+ 
+-> 1x8_END_1[7,104]  + silicons 
+ 
+>> Steve is here and is allready loocking at the problems we had 
+   with the VRBs (for Si)</pre>
+<!-- Author: francesco :: (run <a href='/cgi-bin/runSummaryRun.cgi?112603' target=_top>112603</a>) -->
+
+
+<!-- Date: Fri Apr 20 07:46:05 2001 -->
+<pre>>> stop run and drop XFT00 to 05 + COT09 
+	>>>> guess who wants them ?</pre>
+<!-- Author: fff. -->
+
+
+<!-- Date: Fri Apr 20 07:57:11 2001 -->
+<font color=red>Shift Summary: </font><pre>Uncoalesced  proton beam, Accelerator studies 
+as we started run. 
+ 
+The plan was to run 1x8_END_1[7,101] with 
+silicon in but without (i.e. in autoaccept) 
+level 2. However we had a lot of trouble 
+starting up. L3 cleanup done. 
+ 
+While this was going on, we let Dan Cyr run 
+TDC tests on all the muon crates. Finished  
+at 1:54 
+ 
+Meanwhile, have gotten run going with  
+1x8_END_1[7,101] without muon crates. 
+Also unable to include crates b0fib01 
+(contains layer 00 -  which is off), and  
+b0xtrp00. 
+ 
+A cryo alarm (Watt Can MKS) went off at ~1:05 
+and was fixed right away. 
+ 
+After Dan left, included muon crates. 
+Getting  a lot of "busy time outs" from  
+silicon VRBs. Keep going anway. 
+After some time (and too many time-outs), 
+however, decide to take them out. 
+ 
+Around 4, we started running with a different tag: 
+1x8_END_1[7,104]  (silicon still out) 
+ 
+Then include silicon. Limped along with a lot of 
+time outs and HRRs. 
+ 
+Noticed, rather late in the game (~6:30) that 
+L1_CMU_TRACK_1.5/1 rates , as reported by the TS 
+are absurdly high. However, they do not show up  
+in trigmon !? Problems with trigger crates? 
+ 
+XMON dies frequently toward the end of the shift. 
+ 
+We gave Jay Dittmann the XFT crates and a COT crate  
+at 7:30 
+ 
+About that time Nahn started understanding why the VRBs 
+have been giving us trouble but was unable to 
+communicate it intelligibly.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   112592 -112603
+Delivered Luminosity   0  pb-1
+Acquired Luminosity    0  pb-1
+Efficiency             100%
+   
+</td></tr></table></pre>
+<!-- Author: Giovanni Pauletta -->
+
+

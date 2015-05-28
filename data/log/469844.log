@@ -1,0 +1,477 @@
+<!-- Title: Eve shift. Tue Oct 10, 2000 -->
+<!-- Leader: Willis Sakumoto -->
+<!-- Ace: Pedro Aramal -->
+<!-- Co1: Ken Hatakeyama -->
+<!-- Co2: Simona Rolli -->
+<!-- Co3: Doug Benjamin (SOS) -->
+<!-- Co4: &nbsp; -->
+<!-- Co5: &nbsp; -->
+<!-- Notes: -->
+<pre></pre>
+
+
+<!-- Date: Tue Oct 10 17:03:42 2000 -->
+<pre> 
+    At ~3:30 pm wedge number 21 tripped, it was in  
+    Standby. We reset that channel and we brought it 
+    back to standby slowly. it seems to be stable 
+    now.  
+ 
+       </pre>
+<!-- Author: Abraham Gallas -->
+
+
+<!-- Date: Tue Oct 10 17:30:04 2000 -->
+<pre>Rebooting (for Frank's new changes to take effect): 
+ccal, wcal, pcal, cot, l1 and l2. 
+Problems with b0pcal02. (didn't work, had to do reset_crate. 
+Robin told. 
+Use source ~cdfdaq/int, while in integration database mode...) 
+ 
+Greg Feild has Fred for another 1 or 2 hours. We'll amuse  
+ourselves with calibrations in the meanwhile...</pre>
+<!-- Author: Pedro -->
+<!-- Comment: Tue Oct 10 18;07;55 comment by...Pedro -->
+Still on b0pcal02:
+
+problem occured when I SYSreseted all pcal crates from 
+daqmon...
+
+
+<!-- Comment: Tue Oct 10 20;26;33 comment by...R. Erbacher -->
+<br><i>During access Rick and I  performed "reset_crate" from b0dau30,
+(which is aliased to: java resetcrate.ResetDriver), <b>10 times</b> and we were not able to put the b0pcal02 power supply into fault (as is the case here-- see below).  However, as soon as
+the SYSRESET button was pushed from the daqmon it went into fault.
+Does sysreset use a different mechanism?</i>
+<!-- Comment: Tue Oct 10 22;20;24 comment by...patrick -->
+All remote resets invoke exactly the same function on
+the reset crate cpu via a remote call. Hard to
+imagine why this happens.
+<!-- Date: Tue Oct 10 17:30:27 2000 -->
+<pre>CALIBRATION/DATABASE/COT/INTEGRATION 
+ 
+** The switch was made to running with the online integration database.  
+ 
+While trying to run the COT calibration, Bill Orejudos  
+and Jack Cranshaw ran into problems writing to the database.  
+There was a violation of the primary key uniqueness constraint.  
+ 
+ COTCttOCI::doPut(key,cont)  execute failed 
+error 60 :ORA-00001: unique constraint (CALIB_INT.COTCTT_PK) violated 
+ 
+(This indicates that either an old table link is being used or  
+a channel number is being written multiple times for the same run.) 
+ 
+To test which was causing the problem the database expert  
+disabled the primary key and a run was taken (100957). It ran  
+successfully and wrote to the database. Neither the table  
+link nor the channel numbers seemed to be causing the problem,  
+so the primary key was re-enabled. Another run was taken  
+(100958) and also wrote to the database successfully. The  
+results were checked with DBANA. 
+ 
+Summary: The problem disappeared, cause unknown. This will need  
+to be checked after switching back to the production database. 
+ 
+** Data written to the integration database is unstable and  
+may disappear</pre>
+<!-- Author: Jack Cranshaw :: (run 100957) -->
+
+
+<!-- Date: Tue Oct 10 17:45:27 2000 -->
+<pre>COT calib successfull. 
+cot01 and cot18 wouldn't work. 
+(failed on rc setup transition). 
+Had to exclude them. 
+Bill Orejudos mailed. 
+ 
+</pre>
+<!-- Author: Pedro :: (run 100962) -->
+
+
+<!-- Date: Tue Oct 10 18:06:03 2000 -->
+<pre>QIE calib successfull. 
+pcal02 excluded... 
+ 
+(hadron data wasn't showing up. exited and reentered DBANA, it works.)</pre>
+<!-- Author: Pedro :: (run 100963) -->
+
+
+
+<!-- Date: Tue Oct 10 18:08:53 2000 -->
+<pre>The clock file is changed from 1x8 to 36x36.</pre>
+<!-- Author: Peter W. & YKK -->
+
+
+<!-- Date: Tue Oct 10 18:26:17 2000 -->
+<pre>CSL report: Begin sending events 24 hours a day in partition 
+14 for debugging purposes, at a low rate. The events are from 
+a recent run (100892).</pre>
+<!-- Author: TonyV -->
+
+
+<!-- Date: Tue Oct 10 18:28:03 2000 -->
+<pre>Xenon calib ok. 
+Because we're using integration database, in the RC gui, 
+had to go to Parameters, Edit Consumer, pick the consumer we're  
+using, and change startup command to have ..._int instead of ..._prd.  
+</pre>
+<!-- Author: Pedro :: (run 100965) -->
+
+
+<!-- Date: Tue Oct 10 18:39:15 2000 -->
+<pre>LED calib failed. 
+Same error as last night, namely it just hangs in calibrating 
+state. 
+Ph. Gris notified.</pre>
+<!-- Author: Pedro :: (run 100966) -->
+
+
+<!-- Date: Tue Oct 10 18:49:11 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-305&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-305  width='250' align='top'></td><td>PCAL04 power supply was in fault (+5 Digital).   We cycled the power on the west plug power and  reset the Plug HV.</a></td></tr></table>
+<!-- Author: Peter Wilson and Robin Erbacher -->
+<!-- Comment: Wed Oct 11 10;38;12 comment by...rde -->
+<br><i>Make that <b>PCAL02</b> that was in fault.</i>
+<!-- Date: Tue Oct 10 19:15:19 2000 -->
+<pre>first cosmic of the day, to check int DB. 
+sevb, since we couldn't get L3 and evb to go. 
+ 
+</pre>
+<!-- Author: Pedro :: (run 100967) -->
+<!-- Comment: Tue Oct 10 19;18;24 comment by...Pedro -->
+L3 and evb failed on the partition transition, after several 
+times. Cleaned up evb and L3 farm on ACE panel.
+
+
+<!-- Date: Tue Oct 10 19:36:17 2000 -->
+<pre>Run with evb and 3 L3 subfarms. 100k events. 
+All consumers going.  
+DB people conclude that integration instance of DB worked fine. 
+Going back to production DB.</pre>
+<!-- Author: Pedro :: (run 100968) -->
+
+
+<!-- Date: Tue Oct 10 19:52:00 2000 -->
+<pre>Resource Manager has been restarted running under the  
+production databases.   Run Control users should no  
+longer "source ~cdfdaq/int". 
+ 
+*** Any runs taken while on integration will be lost *** 
+ 
+The online production database has been upgraded to Oracle version 8.1.6.1 
+</pre>
+<!-- Author: W.Badgett -->
+
+
+<!-- Date: Tue Oct 10 20:10:32 2000 -->
+<pre>Had to reboot b0tsi00. (wouldn't respond to partition transition). 
+Cleaned up evb for changing back to prod DB. 
+Only  
+Going for pizza, with run going... 
+ 
+Run stopped taking more events at 8800 evts. h/r/r gives 
+just a few more and stops again... 
+On the error handler: 
+ 
+b0l3gate1.fnal.gov: main 
+-> Host  b0eb15.fnal.gov task tRec_0 
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 14 for event 8547. The VRB had no event... 
+</pre>
+<!-- Author: Pedro :: (run 100983) -->
+<!-- Comment: Tue Oct 10 20;15;29 comment by...Pedro -->
+Used hdump and VRBtoTracers. The faulty b0eb15, slot 14 is connected to the wcal crates, that look fine.
+Ending the run and restarting...
+
+<!-- Comment: Tue Oct 10 20;19;48 comment by...Pedro -->
+Ivan had a look at it.
+
+
+
+<!-- Comment: Tue Oct 10 22;10;06 comment by...patrick -->
+<pre>This message was reported for event 8547 for every active
+VRB in the run, not just the one above. Something got confused.
+
+Complete set of messages from the log file:
+(RC) Halt -> HALTED
+(MLE) b0l3gate1.fnal.gov:main:7:59:30 PM->Host b0eb12.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 12 for event 8547.
+The VRB had no event.
+(MLE) b0l3gate1.fnal.gov:main:7:59:30 PM->Host b0eb16.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 10 for event 8547.
+The VRB had no event.
+(MLE) b0l3gate1.fnal.gov:main:7:59:30 PM->Host b0eb15.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 10 for event 8547.
+The VRB had no event.
+(RC) Recover -> RECOVERED
+(MLE) b0l3gate1.fnal.gov:main:7:59:31 PM->Host b0eb12.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 14 for event 8547.
+The VRB had no event.
+(MLE) b0l3gate1.fnal.gov:main:7:59:31 PM->Host b0eb16.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 12 for event 8547.
+The VRB had no event.
+(MLE) b0l3gate1.fnal.gov:main:7:59:31 PM->Host b0eb15.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 12 for event 8547.
+The VRB had no event.
+(MLE) b0l3gate1.fnal.gov:main:7:59:32 PM->Host b0eb15.fnal.gov, task tRec_0
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 14 for event 8547.
+The VRB had no event.
+
+</pre>
+<!-- Date: Tue Oct 10 20:31:27 2000 -->
+<pre>Run 100984 (0x18a78)  
+SumET > 10 GeV `only' 
+zero and min-bias truggers prescaled by 16000000. 
+Partition 0, non Myron Mode. 
+</pre>
+<!-- Author: Pedro :: (run 100984) -->
+<!-- Comment: Tue Oct 10 20;33;52 comment by...Willis Sakumoto -->
+<pre>92k events!</pre>
+
+
+<!-- Comment: Tue Oct 10 22;25;35 comment by...carla -->
+
+run 100984 appears to be in myron-mode, l1 early. The calorimeter trugger seems to be in good health again, with the 36-36 clock file.
+<!-- Date: Tue Oct 10 20:45:38 2000 -->
+<pre>Sum Et trigger as in 100984 
+   0-bias, min-bias prescaled away 
+   Myron mode, L1 early, ignore BC 
+10k, 300hz</pre>
+<!-- Author: Willis Sakumoto :: (run 100985) -->
+
+
+<!-- Date: Tue Oct 10 20:58:06 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-306&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-306  width='250' align='top'></td><td>Run 100984 : discrepancies between data and simulation in trigger towers.  End Run !  **********************************   RUN NUMBER =  100985  TRGSim SUMMARY AFTER 207 EVENTS   **********************************   ********** DIRAC SUMMARY **********  After 207 events, DIRAC40,  disagrees  1 times in word 2  After 207 events, DIRAC76,  disagrees  1 times in word 2  ********** DIRAC BOUNCH COUNTER SUMMARY **********  ********** CRATESUM SUMMARY **********  After 207 events, CRATESUM5,  disagrees  1 times in  word 1  After 207 events, CRATESUM5,  disagrees  1 times in  word 2  After 207 events, CRATESUM5,  disagrees  1 times in  word 3  After 207 events, CRATESUM5,  disagrees  1 times in  word 5  ********** CRATESUM BOUNCH COUNTER SUMMARY **********  ********** CRATESUM/DIRAC BC SUMMARY **********  ********** HOT CABLES SUMMARY  ***********  After 207 events, eta = 20, phi = 10 HAD tower fired 1 times  ********** DCAS  SUMMARY  ***********   After 207 events, eta = 17, phi = 8 EM tower energy disagrees 5 times   After 207 events, eta = 17, phi = 9 EM tower energy disagrees 3 times  After 207 events, eta = 19, phi = 10 HAD tower energy disagrees 1 times  After 207 events, eta = 20, phi = 10 HAD tower energy disagrees 3 times  After 207 events, eta = 20, phi = 19 HAD tower energy disagrees 6 times  After 207 events, eta = 21, phi = 0 HAD tower energy disagrees 2 times  After 207 events, eta = 21, phi = 19 HAD tower energy disagrees 6 times </a></td></tr></table>
+<!-- Author: Simona -->
+
+
+<!-- Date: Tue Oct 10 20:59:30 2000 -->
+<table border=0><td><tr><td bgcolor=#e0e030><b>Current Status of Cal qie calibrations</b><br> 
+The crates with power supplies that were previously in fault 
+have been reset.  The only failures you should now see during 
+QIE calibration are one in pcal00 slot 14 (and possibly one 
+in ccal06).  Please notify a calorimeter expert if you see 
+failures other than pcal00 slot 14, and note *all* failures in the log book.  Thanks!</td></tr></td></table>
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Tue Oct 10 21:42:16 2000 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>TrigMon is running an obsolete version of CalTrigger (Calorimeter trigger simulation) 
+This means that the TRGSim++ plots are not reliable especially the one relative to Trigger Towers energy disagreament ( DCAS_Sim_vs_Data). 
+To get the correct version of CalTrigger, either run TrigMon from 3.9.0, or from development. 
+TRGSim++_online ( from development) can also be run as from instructions in http://ncdf70.fnal.gov:8001/talks/trigsim.html. 
+This will always contain the latest version of the simulation.</pre></td></tr></td></table>
+<!-- Author: Simona :: (run 100989) -->
+
+
+<!-- Date: Tue Oct 10 21:43:36 2000 -->
+<pre> 
+b0tsi00 again with problems in partition transition. rebooted. 
+Happened several times. 
+To get the 2 bit trigger, we needed to restart RC, cause was 
+using old java classes. 
+ 
+It works: only triggering now on 2-bit 2 GeV. rate: 142 Hz. 
+---------------------------------------------------------------- 
+Run number = 100989 
+------------------------------------------------------------- 
+The towers in the eventDisplay look to have 1 GeV a piece. 
+ 
+</pre>
+<!-- Author: Pedro :: (run 100989) -->
+
+
+<!-- Date: Tue Oct 10 21:51:02 2000 -->
+<pre>Same as before, with 2_jet_4_test. (2-bit Dirac jet trigger, 
+with lsb bit masked at Fred level) 
+(4 GeV). sevb. Rate: 7 Hz. 
+RXPT error after 895 events.</pre>
+<!-- Author: Pedro :: (run 100990) -->
+
+
+<!-- Date: Tue Oct 10 21:55:34 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-307&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-307  width='250' align='top'></td><td>We took data with "two-tower trigger". Here is  a good-looking? lego plot.</a></td></tr></table>
+<!-- Author: Ken -->
+
+
+<!-- Date: Tue Oct 10 22:04:13 2000 -->
+<pre>More 2-bit-triggers Dirac jet 4 GeV. partition 0, rate: 6 Hz. 
+cot in, and evb and l3. 
+Got csl errors: 
+b0dau32.fnal.gov: csl_mon_send: wrong data representation. 
+Partition 0, run 100990 events rejected. 
+Expected format 0x20200, received format 0x60600. 
+ 
+Stopped run. Going to change to other partition at Ivan's  
+suggestion...</pre>
+<!-- Author: Pedro :: (run 100992) -->
+
+
+
+
+
+<!-- Date: Tue Oct 10 22:26:40 2000 -->
+<pre> 
+  At 10:15 pm we turn on HV in CMX system. 
+  It has been in standby mode during the day. 
+ 
+</pre>
+<!-- Author: Abraham Gallas -->
+
+
+<!-- Date: Tue Oct 10 22:35:19 2000 -->
+<pre>CMP HV in red alarm: CMPWIRE_ALARM 
+                     CMPSHAPER_ALARM. 
+Resetting the HV did not correct the problem. 
+Expert (H. Kim) called.</pre>
+<!-- Author: Willis Sakumoto -->
+
+
+<!-- Date: Tue Oct 10 22:54:09 2000 -->
+<pre>More 2_jet_4Gev. EVB, L3, some cot in, clc. 
+6 Hz rate. 
+ 
+Bill sees about 900 hits in the COT/ event. But with HV off !... 
+Stopped after 14k events</pre>
+<!-- Author: Pedro :: (run 100993) -->
+
+
+<!-- Date: Tue Oct 10 22:56:47 2000 -->
+<pre>b0tsi00 now hangs each time one tries to Partition...</pre>
+<!-- Author: Pedro -->
+
+
+<!-- Date: Tue Oct 10 23:09:39 2000 -->
+<pre>Same as before, but with Myron mode, L1 early. 
+ 
+Stopped with 12116 events, with 
+Reformatter errors on SCPU:6 </pre>
+<!-- Author: Pedro :: (run 100995) -->
+
+
+<!-- Date: Tue Oct 10 23:13:08 2000 -->
+<pre>I've checked TrigMon running online in development against the latest version of CalTrigger in TrigSim and found that they match.  I think it is better to say not that TrigMon is running an obsolete version of CalTrigger, but that the COs are being instructed to run an obsolete version of TrigMon in the control room when they "setup cdfsoftb0".  Due to the rapidly evolving nature of TrigMon and TrigSim, I believe it is better for the COs to attempt to run TrigMon in development before falling back on a frozen release.</pre>
+<!-- Author: TrigMon (266-2583) -->
+
+
+<!-- Date: Tue Oct 10 23:20:14 2000 -->
+<pre>CMX has tripped (red alarm). Reset it, but it goes to the 
+yellow state.</pre>
+<!-- Author: Willis Sakumoto -->
+<!-- Comment: Tue Oct 10 23;33;43 comment by...Willis Sakumoto -->
+The CMX has tripped off again. Will leave as is.
+
+
+<!-- Date: Tue Oct 10 23:45:27 2000 -->
+<pre>2 GeV 2-bit trigger. Myron mode L1 early. 
+Tried to put cmu00,cmu01 and cmx01. Failed on coldstart. 
+evb now also fails on Partition. Doing a Clean up EVB... 
+ 
+The muons keep on giving problems: can't coldstart stuff any more... Taking them out. 
+Finally works. 110 Hz rate. 
+ 
+Reformater errors all over... Run stopped after 40000 evts.</pre>
+<!-- Author: Pedro :: (run 100998) -->
+
+
+<!-- Date: Tue Oct 10 23:48:53 2000 -->
+<pre>We got many error messages  
+"Invalid Superlayer or wire for this hit!! SL:6 Wire:12" 
+in YMon, when we took data of Run 100998.</pre>
+<!-- Author: Ken :: (run 100998) -->
+
+
+<!-- Date: Wed Oct 11 00:11:25 2000 -->
+<font color=red>Shift Summary: </font><pre>  1) No colliding beam during shift, but Tevatron studies with 
+     protons 
+ 
+  2) Shift operations 
+     a) Frank Chelebana's fixes to the front end code 
+        (implemented in the previous shift) are downloaded 
+        into all FER crates 
+     b) Database migration from previous version of Oracle to 
+        version  8.1.6.1 completed 
+          - The first step was migration to the integration 
+            database 
+              > Some problems encountered, but were fixed 
+              > Calibrations done using the integration data base 
+                  COT   - 100962 
+                  QIE   - 100963 (except pcal02, due to +5v 
+                                  digital trip) 
+                  Xenon - 100965 
+                  LED   - 100966 -- this failed 
+              > We ran the cosmic ray sum Et > 10 GeV trigger 
+                using the integration data base 
+                  runControl worked fine 
+                  Consumers  worked fine -- they got data and 
+                             successfully 
+                                            processed it 
+              > The data base people (Rick St. Denis) conclude 
+                that the the integration data base is okay, and 
+                the migration is successful 
+          - The new 8.1.6.1 online production database is 
+            activated, ie, all runs after 100968 are with the  
+            new online production database 
+     c) Cosmic ray data taking with 36x36 clock 
+          - 100984: sum Et > 10, non Myron, 0-bias and min-bias 
+                    prescaled 
+                    away. 92k 
+          - 100985: sum Et > 10, Myron mode with L1 early and 
+                    ignore BC, 0-bias and min-bias prescaled 
+                    away. 
+                    10k, 300hz. 
+          - The plan for the following runs are to include all 
+            `healthy' crates. SVX did not want to be included. 
+ 
+          - 100989: two tower Et > 2 GeV trigger, non-Myron mode, 
+                    8.3k, 142 hz (swevb)  - no CMU, CMX, SVX 
+            ===========> the two tower trigger seems to work, as 
+                         events seen on the event display have 
+                         multi-calorimeter tower energy 
+                         deposition, and not the PMT spike 
+                         variety 
+          - 100993: two tower Et > 4 GeV trigger, non-Myron mode, 
+                    14k, 6.5 hz (swevb)  - no CMU, CMX, SVX 
+          - 100994: two tower Et > 4 GeV trigger, Myron mode L1 
+                    early 12k, - no SVX. NO DATA TAKEN: 
+                    Attemped to add CMU and CMX to  readout, 
+                    but runControl would not start. 
+                    We removed them. 
+          - Pedro Amaral (ACE) notices that ts00 needs to be 
+            rebooted every time the PARTITION command is issued 
+            in runControl 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   100984, 100985, 100989, 100993
+Delivered Luminosity   0  pb-1
+Acquired Luminosity    0  pb-1
+Efficiency             
+   
+</td></tr></table></pre>
+<!-- Author: Willis Sakumoto -->
+
+
+<!-- Date: Wed Oct 11 00:15:53 2000 -->
+<pre>Trying to repeat. 
+Saw:  
+Error unpacking int field type mismatch (0) v. (7) 
+in the terminal running RC... 
+ 
+A bunch of SCPU-01 errors. 
+Trying to clean up EVB and L3 farm... 
+Needed to Reboot SM 
+ 
+Finally getting to work. 
+(some BC mismatches on CLC. Already seen before...) 
+Ended the shift with run going at 30k events. 
+</pre> <font color=red><cite>(Entry started on Wed Oct 11 00:15:45 2000)</cite></font>
+<!-- Author: Pedro -->
+
+
+<!-- Date: Wed Oct 11 00:22:05 2000 -->
+<pre>Error message in YMon: 
+Invalid Superlayer or wire for this hit!! SL:6 Wire:12</pre> <font color=red><cite>(Entry started on Wed Oct 11 00:21:52 2000)</cite></font>
+<!-- Author: J. Piedra -->
+

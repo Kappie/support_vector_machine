@@ -1,0 +1,470 @@
+<!-- Title: Day shift. Tue Nov 11, 2003 -->
+<!-- SciCo: Jeff Spalding -->
+<!-- DAQAce: Andrei Loginov -->
+<!-- MonAce: Irina & Jeff -->
+<!-- CO: &nbsp; -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre> 
+Plan: 
+(1) Start with L3 work 
+(2) Then Greg Feild takes the trigger (L1+2) D
+(3) Do full set of calibrations concurent with Greg?
+(4) Back to L3  
+(5) Try to fit in Pulsar work later in the day 
+ 
+Watch for COT LV problem of owl shift to recur 
+ 
+*** RETURN ALL KEYS BY 3PM TODAY *** 
+Search and Secure this evening for safety system tests 
+Will be open again tomorrow - keys back at 3pm again - 
+then secure for beam?</pre>
+
+<!-- Date: Tue Nov 11 09:11:17.034 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173792">173792</a>
+ACTIVATE: L3 test
+<!-- Author: Andrei, Irina, JeffM -->
+
+
+
+<!-- Date: Tue Nov 11 09:24:44.682 2003 -->
+<pre>L3 wants to keep going. Greg gracefully defer's his request. But he'll be back... 
+ 
+ 
+Mark Knapp is swapping out the PC that monitors voltages for the CLC, BSC, Mini-plugs and Roman Pots. This may take a little while. In the meantime the result is four red boxes in Global Alarms.</pre>
+<!-- Author: Jeff S -->
+<!-- Comment: Tue Nov 11 15;53;32 comment by...convery, terashi -->
+The red boxes will continue overnight at least.  We will work on the monitoring code again tomorrow.
+<!-- Date: Tue Nov 11 09:26:07.608 2003 -->
+<pre>Plan is to do what calibrations concurrent with the L3 work.</pre>
+<!-- Author: Jeff S -->
+
+<!-- Date: Tue Nov 11 09:28:16.036 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173793">173793</a>
+ACTIVATE: Calorimeter QIE
+<!-- Author: Irina x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:28:17.986 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173793">173793</a>
+TERMINATE: Calorimeter QIE
+<!-- Author: Irina x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:35:21.578 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173794">173794</a>
+TERMINATE: CLC QIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:43:02.159 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173796">173796</a>
+ACTIVATE: L3 test
+<!-- Author: Andrei, Irina, JeffM -->
+
+
+<!-- Date: Tue Nov 11 09:46:55.204 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173795">173795</a>
+ACTIVATE: BSC QIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:49:16.789 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173795">173795</a>
+TERMINATE: BSC QIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:50:56.378 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173797">173797</a>
+ACTIVATE: Roman pot SMQIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:53:05.740 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173797">173797</a>
+TERMINATE: Roman pot SMQIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:57:21.916 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173799">173799</a>
+ACTIVATE: CEM LED
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 09:59:00.976 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173799">173799</a>
+TERMINATE: CEM LED
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 10:00:30.615 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173800">173800</a>
+ACTIVATE: TOF QIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 10:01:09.872 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173800">173800</a>
+TERMINATE: TOF QIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 10:10:22.599 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173804">173804</a>
+ACTIVATE: Plug Laser BOTHPLUGS_NORMAL
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 10:15:36.200 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173804">173804</a>
+TERMINATE: Plug Laser BOTHPLUGS_NORMAL
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 10:17:42.864 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173807">173807</a>
+ACTIVATE: Plug Laser BOTHPLUGS_MM_C
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 10:19:50.934 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173807">173807</a>
+TERMINATE: Plug Laser BOTHPLUGS_MM_C
+<!-- Author: JeffM x2080 -->
+
+
+
+<!-- Date: Tue Nov 11 10:34:40.606 2003 -->
+<pre>There was a HV trip on the NE HV wedge 19 (20 on iFIX) around 9:30.  We brought it back up with no troubles and the current values for the anode/sense and cathode/field are normal and consistent with before. 
+ 
+CMX experts made a quick survey of the SW and NE miniskirts and found no obvious physical cause.  In fact with the toroid in the miniskirts seem to be very well protected.</pre>
+<!-- Author: Ingyin Zaw, Dale Stentz -->
+
+
+<!-- Date: Tue Nov 11 10:52:05.293 2003 -->
+<pre>Calorimeter QIE calib results: the only bad channels found are known problems (green)</pre>
+<!-- Author: JeffM :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173793' target=_top>173793</a>) -->
+
+
+<!-- Date: Tue Nov 11 10:59:35.767 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-12000&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-12000  width='300' align='top'></td><td>CLC QIE calib results</a></td></tr></table>
+<!-- Author: JeffM -->
+
+
+<!-- Date: Tue Nov 11 11:03:48.191 2003 -->
+<pre>Tom and Frank are replacing the CPU's in TDC crates (with faster processors)</pre>
+<!-- Author: Jeff -->
+
+
+<!-- Date: Tue Nov 11 11:04:04.329 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-12001&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-12001  width='300' align='top'></td><td>BSC QIE calib results</a></td></tr></table>
+<!-- Author: JeffM -->
+
+
+<!-- Date: Tue Nov 11 11:18:33.183 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-12003&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-12003  width='300' align='top'></td><td>Roman Pot SMQIE calib results</a></td></tr></table>
+<!-- Author: JeffM -->
+
+
+<!-- Date: Tue Nov 11 11:32:59.583 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12006&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12006' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12007&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12007' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12008&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12008' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12009&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12009' width='300'></a></center>
+<!-- Author: JeffM -->
+<!-- Comment: Tue Nov 11 11;33;59 comment by...JeffM -->
+<pre>Miniplug results from BSC QIE calib</pre>
+
+
+<!-- Date: Tue Nov 11 11:36:01.259 2003 -->
+took the dummy load out on CMU 21W LV. there was no noise with the dummy load which approximately doubles the load on the power supply. there appears to be a very slight voltage drop when the dummy load was on.
+<!-- Author: hyunsoo -->
+
+
+<!-- Date: Tue Nov 11 11:36:45.884 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12004&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12004' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12005&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12005' width='300'></a></center>
+<!-- Author: JeffM -->
+<!-- Comment: Tue Nov 11 11;37;57 comment by...JeffM -->
+CEM LED calib results; found one new bad channel?
+
+
+<!-- Date: Tue Nov 11 12:26:57.950 2003 -->
+<pre>We had BMU alarm. Wedge 12 triped. We turned it off and then turned it on.</pre>
+<!-- Author: Irina -->
+<!-- Comment: Tue Nov 11 12;38;32 comment by...Dale -->
+On the NE
+<!-- Comment: Tue Nov 11 12;45;35 comment by...Irina -->
+<pre>CMP alarm, wedge "Bottom A3", Turned it off , then on</pre>
+<!-- Date: Tue Nov 11 12:36:00.445 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173817">173817</a>
+TERMINATE: L3 tests worked! ^_^
+<!-- Author: Guillelmo -->
+
+
+
+
+<!-- Date: Tue Nov 11 12:58:13.409 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173818">173818</A>
+ACTIVATE: Test run with 3TT in Xtrp, Prefred B0Offset = 26, Cosmics no tracks table, tr_x.mcs v_e8 in 3TT..
+<!-- Author: James Kraus -->
+
+
+<!-- Date: Tue Nov 11 13:01:08.717 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173819">173819</A>
+ACTIVATE: Test run with 3TT in Xtrp, Prefred B0Offset = 26, L2 Torture table, tr_x.mcs v_e8 in 3TT.
+<!-- Author: James Kraus -->
+
+
+
+<!-- Date: Tue Nov 11 13:09:08.758 2003 -->
+<pre>CMX workers are turning HV off to the SW CMX arch [wedges 6 through 14] to work on putting in a spare cable for the keystone.</pre>
+<!-- Author: Phil Schlabach, Ingyin Zaw, Dale Stentz -->
+<!-- Comment: Tue Nov 11 15;59;38 comment by...ps -->
+We've got the upper end to the festoon. Dervin will help us festoon it tomorrow. Then we'll work on the lower end.
+<!-- Date: Tue Nov 11 13:18:28.063 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173820">173820</A>
+ACTIVATE: udps test run 
+<!-- Author: feild -->
+<!-- Comment: Tue Nov 11 13;22;25 comment by...greg -->
+<pre>We are taking events but our status box is not updating.</pre>
+
+
+<!-- Date: Tue Nov 11 13:41:13.842 2003 -->
+<h3> More Pig Stuff aka Silicon Status for the Day/Night </h3> 
+ 
+we will try one more time to hunt the SRC failure. Please page main silicon pager (David Clark) when ready to take SiliGuineaPigTorture runs tonight. Instructions are found 
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2003&action=view&page=941&frame=2&anchor=22:11:24.845'> 
+here </a> but don't do anything without consulting the main pager carrier pager #218-8227. consult SPL if necessary as well at #722 7483 or, if no response (I will be out of state) use cell 1-630-440-2503.  
+<!-- Author: Rainer, David -->
+
+<!-- Date: Tue Nov 11 13:48:29.805 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173821">173821</A>
+ACTIVATE: udps test two - new TT
+<!-- Author: feild -->
+
+
+
+<!-- Date: Tue Nov 11 13:48:50.654 2003 -->
+<pre>Steve Vejcik worked on Inhibit00. He's now finished</pre>
+<!-- Author: Jeff S -->
+
+<!-- Date: Tue Nov 11 13:55:09.524 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173822">173822</A>
+ACTIVATE: TOF QIE
+<!-- Author: JeffM -->
+
+
+<!-- Date: Tue Nov 11 13:55:10.297 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173822">173822</A>
+TERMINATE: TOF QIE
+<!-- Author: JeffM -->
+
+
+<!-- Date: Tue Nov 11 14:07:04.307 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173823">173823</A>
+TERMINATE: 'snot gonna work
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:16:16.087 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173824">173824</A>
+ACTIVATE: ps 49, sparky @15KHz
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:27:48.648 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173826">173826</A>
+ACTIVATE: Testing new processors with CalibContinuous run
+<!-- Author: badgett -->
+
+
+<!-- Date: Tue Nov 11 14:30:44.560 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173827">173827</A>
+ACTIVATE: ps 79 sparky 15 kHz
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:36:38.558 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173830">173830</A>
+ACTIVATE: ps 113 sparky 15 KHz
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:39:18.961 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173834">173834</A>
+ACTIVATE: ps 49 sparky 30 kHz
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:44:07.773 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173835">173835</A>
+ACTIVATE: ps 79,  sparky @ 30 KHz
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:50:24.252 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173840">173840</A>
+ACTIVATE: ps 113 sparky 30 kHz
+<!-- Author: feild -->
+
+
+<!-- Date: Tue Nov 11 14:56:45.348 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173842">173842</A>
+ACTIVATE: p49 sparky 5 kHz
+<!-- Author: feild -->
+
+
+
+<!-- Date: Tue Nov 11 15:08:12.896 2003 -->
+We did some test runs for ultra dps studies with sparky trigger prescaled with ultra dps bit and L2-torture like data set for the constant bit (min bias trigger and jet 0.5 trigger). See TSI e-log for details.
+<!-- Author: greg, peter -->
+
+
+<!-- Date: Tue Nov 11 15:10:46.267 2003 -->
+Next up: Tony Vaiciulis (something to do with a disk in CSL) then back to L3 work
+<!-- Author: Jeff S -->
+
+
+<!-- Date: Tue Nov 11 15:21:50.408 2003 -->
+<pre>CMX NE wedge 19 (HV wedge 20) tripped again. We turned it back on  
+and it is holding now. Follow normal trip recovery procedures if  
+it trips again. </pre>
+<!-- Author: Phil Schlabach, Dale Stentz, Ingyin Zaw -->
+
+
+<!-- Date: Tue Nov 11 15:28:41.110 2003 -->
+<pre> 
+From TOF QIE calib (at 13:55 today), strange messages in error log $ERRMON_LOGDIR/errorfile173822.log:  representative sample is: 
+(RC)   13:51:47 Activate -> CALIBRATING 
+(MLE) b0wcal04:Readout_Calib:1:52:10 PM->ADMEM=9 QIE=0 Fail 14: Sigma(off) big      (1.4950881) (0) (0) 
+(b0wcal04) QIE calib: slot 09, qie 00:Fail 14: Sigma(off) big     , val 01.4951, cap 0, rng0. 
+(b0wcal04) QIE calib: slot 09, qie 02:Fail 14: Sigma(off) big     , val 01.6953, cap 0, rng0. 
+...et cetera... 
+ 
+Notified Gerry Bauer. 
+</pre>
+<!-- Author: JeffM :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173822' target=_top>173822</a>) -->
+
+
+<!-- Date: Tue Nov 11 15:35:00.171 2003 -->
+Installed new spare disk in slot 1, /cdf/b0/disk9. 
+Also installed a spare disk in slot 6 of /cdf/b0/disk4. 
+Needed to put /cdf/b0/disk4 in offline mode temporarily 
+so it would recognize the new disk as a valid spare. 
+CSL disk pool now has a full complement of 6 hot spare drives. 
+  
+<!-- Author: Tony Vaiciulis -->
+
+<!-- Date: Tue Nov 11 15:41:44.480 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173848">173848</A>
+ACTIVATE: SMX QIE
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 15:45:56.246 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173848">173848</A>
+TERMINATE: SMX QIE
+<!-- Author: JeffM x2080 -->
+
+
+
+
+<!-- Date: Tue Nov 11 15:55:11.702 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12010&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12010' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12011&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12011' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-12012&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-12012' width='300'></a></center>
+<!-- Author: JeffM -->
+<!-- Comment: Tue Nov 11 16;01;01 comment by...JeffM -->
+<pre>
+Plots from SMX QIE calib.
+The distribution of bad channels do not appear to qualify as a "block", as described by the calibration instructions.
+</pre>
+<!-- Date: Tue Nov 11 15:55:39.150 2003 -->
+<pre>CMP Access Report: 
+ 
+"A4" tripped off twice in ~36 hours, "A4" corresponded to the  
+anode HV for CMP North Wall stacks 37 and 38.  We are rather  
+confidant that we narrowed the source of the HV problem down to  
+these two stacks. 
+ 
+Today we replaced the HV boards in both Stacks 37 and 38 on the  
+North CMP wall.  HV is currently holding, with nominal current  
+draw. 
+ 
+After a few days we'll know if we've fixed the problem or not.</pre>
+<!-- Author: Trevor and Lucio -->
+<!-- Comment: Tue Nov 11 16;03;18 comment by...Trevor -->
+<pre>I should add that all HV regions on the North CMP wall which 
+were re-routed (A3D3, A4D4 and A5D5) have now been returned to 
+their operational configurations.
+</pre>
+<!-- Date: Tue Nov 11 15:55:53.504 2003 -->
+<pre>SUMMARY: 
+ 
+ 
+Downstairs: low-beta quad survey, TDC crate CPU swap, ...various... ALL KEYS NOW BACK AND WE ARE SEARCHED AND SECURED for safety system checkout 
+ 
+Control room: L3 (RH7.3) -&gt; XTRP -&gt; L1+2 (Greg F & Peter W), CSL (Tony Vaicilius), then a shower max calibration for Mike Lindgren, then back to L3 work (expect Gullelmo and Steve Tether back at ~4:30) 
+ 
+Did a set of calibrations ~ mid-day 
+ 
+IFIX PC for CLC+BSC+Mini-plug+Roman Pots has been swapped, won't be back up 'till tomorrow (--&gt; red in IFIX) 
+ 
+COT crate CPU's swapped 
+ 
+Silicon will want to more guineapig torturing tonight - page them to set this up - see note above 
+ 
+</pre>
+<!-- Author: Jeff S -->
+
+<!-- Date: Tue Nov 11 15:57:22.378 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+
+<!-- Date: Tue Nov 11 16:00:21.539 2003 -->
+RevF TDCs were installed in COT crates 7,8,9,and 18.  All 111 RevF slots now have RevF boards except for b0cot08 slots 14 and 15, which still have RevDs.  In addition, we changed an axiel RevD in crate 18, slot 8, that was giving some bad start times.
+<!-- Author: Tom Phillips -->
+
+
+
+<!-- Date: Tue Nov 11 16:07:48.233 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173849">173849</A>
+ACTIVATE: redoing TOF QIE, per request og Gerry Bauer
+<!-- Author: JeffM x2080 -->
+
+
+<!-- Date: Tue Nov 11 16:07:50.396 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=173849">173849</A>
+TERMINATE: TOF QIE
+<!-- Author: JeffM x2080 -->
+

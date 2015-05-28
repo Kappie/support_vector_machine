@@ -1,0 +1,476 @@
+commit f7e603ad8f78cd3b59e33fa72707da0cbabdf699
+Merge: cac7112... 50fee1d...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Feb 23 20:29:21 2009 -0800
+
+    Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-2.6
+    
+    * git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-2.6:
+      net: amend the fix for SO_BSDCOMPAT gsopt infoleak
+      netns: build fix for net_alloc_generic
+
+commit cac711211a039ae2e2dc6322ffb3c2279d093bf1
+Author: Krzysztof Sachanowicz <analyzer1@gmail.com>
+Date:   Mon Feb 23 22:21:55 2009 +0100
+
+    proc: proc_get_inode should de_put when inode already initialized
+    
+    de_get is called before every proc_get_inode, but corresponding de_put is
+    called only when dropping last reference to an inode. This might cause
+    something like
+    remove_proc_entry: /proc/stats busy, count=14496
+    to be printed to the syslog.
+    
+    The fix is to call de_put in case of an already initialized inode in
+    proc_get_inode.
+    
+    Signed-off-by: Krzysztof Sachanowicz <analyzer1@gmail.com>
+    Tested-by: Marcin Pilipczuk <marcin.pilipczuk@gmail.com>
+    Acked-by: Al Viro <viro@ZenIV.linux.org.uk>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit 226485e9a91ee89c941d8cb7714f85644a8071d0
+Author: Jesse Barnes <jbarnes@virtuousgeek.org>
+Date:   Mon Feb 23 15:41:09 2009 -0800
+
+    i915: suspend/resume interrupt state
+    
+    In the KMS case, enter/leavevt won't fix up the interrupt handler for
+    us, so we need to do it at suspend/resume time.  Make sure we don't fail
+    the resume if the chip is hung either.
+    
+    Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit 6c0594a306790ab03db345086c0c6c922a900bf6
+Author: Karsten Wiese <fzu@wemgehoertderstaat.de>
+Date:   Mon Feb 23 15:07:57 2009 +0100
+
+    Fix an oops in i915_gem_retire_requests()
+    
+    dev_priv->hw_status_page can be NULL, if i915_gem_retire_requests()
+    is called from i915_gem_busy_ioctl().
+    
+    Signed-off-by Karsten Wiese <fzu@wemgehoertderstaat.de>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit 50fee1dec5d71b8a14c1b82f2f42e16adc227f8b
+Author: Eugene Teo <eugeneteo@kernel.sg>
+Date:   Mon Feb 23 15:38:41 2009 -0800
+
+    net: amend the fix for SO_BSDCOMPAT gsopt infoleak
+    
+    The fix for CVE-2009-0676 (upstream commit df0bca04) is incomplete. Note
+    that the same problem of leaking kernel memory will reappear if someone
+    on some architecture uses struct timeval with some internal padding (for
+    example tv_sec 64-bit and tv_usec 32-bit) --- then, you are going to
+    leak the padded bytes to userspace.
+    
+    Signed-off-by: Eugene Teo <eugeneteo@kernel.sg>
+    Reported-by: Mikulas Patocka <mpatocka@redhat.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit ebe47d47b7b7fed72dabcce4717da727b4e2367d
+Author: Clemens Noss <cnoss@gmx.de>
+Date:   Mon Feb 23 15:37:35 2009 -0800
+
+    netns: build fix for net_alloc_generic
+    
+    net_alloc_generic was defined in #ifdef CONFIG_NET_NS, but used
+    unconditionally. Move net_alloc_generic out of #ifdef.
+    
+    Signed-off-by: Clemens Noss <cnoss@gmx.de>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit ea5a42c22ee123dfc8fa34c421cf95d6235e54d9
+Merge: d38e84e... bb402f1...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Feb 23 14:38:20 2009 -0800
+
+    Merge git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+    
+    * git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6:
+      crypto: ahash - Fix digest size in /proc/crypto
+
+commit d38e84ee39783e00bd0b83a8dd19e54709950912
+Merge: 20f4d6c... 486a87f...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Feb 23 14:36:05 2009 -0800
+
+    Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-2.6
+    
+    * git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-2.6:
+      netns: fix double free at netns creation
+      veth : add the set_mac_address capability
+      sunlance: Beyond ARRAY_SIZE of ib->btx_ring
+      sungem: another error printed one too early
+      ISDN: fix sc/shmem printk format warning
+      SMSC: timeout reaches -1
+      smsc9420: handle magic field of ethtool_eeprom
+      sundance: missing parentheses?
+      smsc9420: fix another postfixed timeout
+      wimax/i2400m: driver loads firmware v1.4 instead of v1.3
+      vlan: Update skb->mac_header in __vlan_put_tag().
+      cxgb3: Add support for PCI ID 0x35.
+      tcp: remove obsoleted comment about different passes
+      TG3: &&/|| confusion
+      ATM: misplaced parentheses?
+      net/mv643xx: don't disable the mib timer too early and lock properly
+      net/mv643xx: use GFP_ATOMIC while atomic
+      atl1c: Atheros L1C Gigabit Ethernet driver
+      net: Kill skb_truesize_check(), it only catches false-positives.
+      net: forcedeth: Fix wake-on-lan regression
+
+commit 486a87f1e5624096bd1c09e9e716239597d48dca
+Author: Daniel Lezcano <daniel.lezcano@free.fr>
+Date:   Sun Feb 22 00:07:53 2009 -0800
+
+    netns: fix double free at netns creation
+    
+    This patch fix a double free when a network namespace fails.
+    The previous code does a kfree of the net_generic structure when
+    one of the init subsystem initialization fails.
+    The 'setup_net' function does kfree(ng) and returns an error.
+    The caller, 'copy_net_ns', call net_free on error, and this one
+    calls kfree(net->gen), making this pointer freed twice.
+    
+    This patch make the code symetric, the net_alloc does the net_generic
+    allocation and the net_free frees the net_generic.
+    
+    Signed-off-by: Daniel Lezcano <daniel.lezcano@free.fr>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit ee923623177249cf22c43419ad0e8ff926dd1f58
+Author: Daniel Lezcano <daniel.lezcano@free.fr>
+Date:   Sun Feb 22 00:04:45 2009 -0800
+
+    veth : add the set_mac_address capability
+    
+    Fix lost set_mac_address capability.
+    
+    Signed-off-by: Daniel Lezcano <daniel.lezcano@free.fr>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit b956d41162b1f2c4b446107e9910e4719cbc75f4
+Author: Roel Kluin <roel.kluin@gmail.com>
+Date:   Sat Feb 21 23:46:36 2009 -0800
+
+    sunlance: Beyond ARRAY_SIZE of ib->btx_ring
+    
+    Do not go beyond ARRAY_SIZE of ib->btx_ring
+    
+    Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit d13c11f6f7324b4fe61720910ee54184c38d2fea
+Author: roel kluin <roel.kluin@gmail.com>
+Date:   Mon Feb 16 04:02:04 2009 +0000
+
+    sungem: another error printed one too early
+    
+    Another error was printed one too early.
+    
+    Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 0d5048a96fc51d976ac777e3d78762b4dd241693
+Author: Randy Dunlap <randy.dunlap@oracle.com>
+Date:   Fri Feb 20 00:54:44 2009 -0800
+
+    ISDN: fix sc/shmem printk format warning
+    
+    Fix isdn/sc/shmem.c printk format warning:
+    
+    drivers/isdn/sc/shmem.c:57: warning: format '%d' expects type 'int', but argument 3 has type 'size_t'
+    
+    Signed-off-by: Randy Dunlap <randy.dunlap@oracle.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 2cf0dbed27af3f827a96db98c2535002902f6af0
+Author: Roel Kluin <roel.kluin@gmail.com>
+Date:   Fri Feb 20 00:52:19 2009 -0800
+
+    SMSC: timeout reaches -1
+    
+    With a postfix decrement timeouts will reach -1 rather than 0, so
+    the error path does not appear.
+    
+    Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 196b7e1b9cca9e187bb61fa7d60f04f4ab2c0592
+Author: Steve Glendinning <steve.glendinning@smsc.com>
+Date:   Sun Feb 15 22:55:01 2009 +0000
+
+    smsc9420: handle magic field of ethtool_eeprom
+    
+    ethtool.h says the driver should set the magic field in get_eeprom and
+    verify it in set_eeprom.  This patch adds this functionality using an
+    arbitary driver-specific magic value constant (0x9420).
+    
+    Signed-off-by: Steve Glendinning <steve.glendinning@smsc.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 62660e28084df3d8067ab855f326d3027808c569
+Author: Roel Kluin <roel.kluin@gmail.com>
+Date:   Wed Feb 18 10:19:50 2009 +0100
+
+    sundance: missing parentheses?
+    
+    Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 9df8f4e3ee760c14211a5f484e9ee4f0bc0c566b
+Author: Steve Glendinning <steve.glendinning@smsc.com>
+Date:   Mon Feb 16 07:46:06 2009 +0000
+
+    smsc9420: fix another postfixed timeout
+    
+    Roel Kluin recently fixed several instances where variables reach -1,
+    but 0 is tested afterwards.  This patch fixes another, so the timeout
+    will be correctly detected and a warning printed.
+    
+    Signed-off-by: Steve Glendinning <steve.glendinning@smsc.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 494ef10ebacc23679350a17483879366d8bafebd
+Author: Inaky Perez-Gonzalez <inaky@linux.intel.com>
+Date:   Thu Feb 19 14:40:29 2009 -0800
+
+    wimax/i2400m: driver loads firmware v1.4 instead of v1.3
+    
+    This is a one liner change to have the driver use by default the v1.4
+    of the i2400m firmware instead of v1.3. The v1.4 version of the
+    firmware has been submitted to David Woodhouse for inclusion in the
+    linux-firmware tree and it is already available at
+    http://linuxwimax.org/Download.
+    
+    The reason for this change is that the 1.3 release of the user space
+    software and firmware has a few issues that will make it difficult to
+    use with currently deployed commercial networks such as Xohm and
+    Clearwire.
+    
+    As well, the new 1.4 release of the user space software (which matches
+    the 1.4 firmware) has intermitent issues with the 1.3 firmware.
+    
+    The 1.4 release in http://linuxwimax.org/Download has been widely
+    deployed and tested with the codebase in 2.6.29-rc, the 1.4 firmware
+    and the 1.4 user space components.
+    
+    We understand it is quite late in the rc process for such a change,
+    but would like to ask for the change to be taken into consideration.
+    
+    Alternatively, a user could always force feed a 1.4 firmware into a
+    driver that doesn't have this modification by:
+    
+    $ cd /lib/firmware
+    $ mv i2400m-fw-usb-1.3.sbcf i2400m-fw-usb-1.3.real.sbcf
+    $ ln -sf i2400m-fw-usb-1.4.sbc i2400m-fw-usb-1.3.sbcf
+    
+    Signed-off-by: Inaky Perez-Gonzalez <inaky@linux.intel.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit e4dd61882e2cfe47ea72ecd825671e8e5ae29038
+Author: Jarek Poplawski <jarkao2@gmail.com>
+Date:   Wed Feb 18 23:31:11 2009 -0800
+
+    vlan: Update skb->mac_header in __vlan_put_tag().
+    
+    After moving mac addresses in __vlan_put_tag() skb->mac_header needs
+    to be updated.
+    
+    Reported-by: Karl Hiramoto <karl@hiramoto.org>
+    Signed-off-by: Jarek Poplawski <jarkao2@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit bb402f16ecf9bcdb944b8fa730f0e43cae519673
+Author: Lee Nipper <lee.nipper@freescale.com>
+Date:   Thu Feb 19 14:46:26 2009 +0800
+
+    crypto: ahash - Fix digest size in /proc/crypto
+    
+    crypto_ahash_show changed to use cra_ahash for digestsize reference.
+    
+    Signed-off-by: Lee Nipper <lee.nipper@freescale.com>
+    Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
+
+commit ce03aaddd4d67371494b36c8e8a57bc789e934d6
+Author: Divy Le Ray <divy@chelsio.com>
+Date:   Wed Feb 18 17:47:57 2009 -0800
+
+    cxgb3: Add support for PCI ID 0x35.
+    
+    Add support for adapters with a PCI id equal to 0x35.
+    
+    Signed-off-by: Divy Le Ray <divy@chelsio.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 5209921cf15452cbe43097afce11d2846630cb51
+Author: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
+Date:   Wed Feb 18 17:45:44 2009 -0800
+
+    tcp: remove obsoleted comment about different passes
+    
+    This is obsolete since the passes got combined.
+    
+    Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit f72b534961ac38dde17824d7693292eeaadf10e8
+Author: Roel Kluin <roel.kluin@gmail.com>
+Date:   Wed Feb 18 17:42:42 2009 -0800
+
+    TG3: &&/|| confusion
+    
+    phyid Can't be both TG3_PHY_OUI_1 and TG3_PHY_OUI_2 and TG3_PHY_OUI_3.
+    
+    Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
+    Acked-by: Matt Carlson <mcarlson@broadcom.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 858671f80ae5db68d6bcd2c6d3a13e366040ba9b
+Author: Roel Kluin <roel.kluin@gmail.com>
+Date:   Wed Feb 18 17:41:38 2009 -0800
+
+    ATM: misplaced parentheses?
+    
+    Add missing parentheses
+    
+    Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 57e8f26a10ac4af488292199bb0435555f6723f3
+Author: Sebastian Siewior <sebastian@breakpoint.cc>
+Date:   Mon Feb 16 11:28:15 2009 +0000
+
+    net/mv643xx: don't disable the mib timer too early and lock properly
+    
+    mib_counters_update() also restarts the timer.
+    So the timer is dequeued, the stats are read and then the timer is
+    enqueued again. This is "okay" unless someone unloads the module.
+    The locking here is also broken:
+    mib_counters_update() grabs just a simple spinlock. The only thing the
+    lock is good for is to protect the timer func against other callers
+    namely mv643xx_eth_stop() && mv643xx_eth_get_ethtool_stats(). That means
+    if the spinlock is taken via the ethtool path and than the timer kicks
+    in then the box will lock up.
+    
+    Signed-off-by: Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+    Acked-by: Lennert Buytenhek <buytenh@marvell.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 82a5bd6a7b1b60b5d357e2e4b93b914f57314016
+Author: Sebastian Siewior <sebastian@breakpoint.cc>
+Date:   Sat Feb 14 23:26:18 2009 +0000
+
+    net/mv643xx: use GFP_ATOMIC while atomic
+    
+    dev_set_rx_mode() grabs netif_addr_lock_bh():
+    
+    |BUG: sleeping function called from invalid context at /home/bigeasy/git/cryptodev-2.6/mm/slub.c:1599
+    |in_atomic(): 1, irqs_disabled(): 0, pid: 859, name: ifconfig
+    |2 locks held by ifconfig/859:
+    | #0:  (rtnl_mutex){--..}, at: [<c0239ccc>] rtnl_lock+0x18/0x20
+    | #1:  (_xmit_ETHER){-...}, at: [<c022d094>] dev_set_rx_mode+0x1c/0x30
+    |[<c029f118>] (dump_stack+0x0/0x14) from [<c003df28>] (__might_sleep+0x11c/0x13c)
+    |[<c003de0c>] (__might_sleep+0x0/0x13c) from [<c00a8854>] (kmem_cache_alloc+0x30/0xd4)
+    | r5:c78093a0 r4:c034a47c
+    |[<c00a8824>] (kmem_cache_alloc+0x0/0xd4) from [<c01a5fd0>] (mv643xx_eth_set_rx_mode+0x70/0x188)
+    |[<c01a5f60>] (mv643xx_eth_set_rx_mode+0x0/0x188) from [<c022ced0>] (__dev_set_rx_mode+0x40/0xac)
+    |[<c022ce90>] (__dev_set_rx_mode+0x0/0xac) from [<c022d09c>] (dev_set_rx_mode+0x24/0x30)
+    | r6:00001043 r5:c78090f8 r4:c7809000
+    |[<c022d078>] (dev_set_rx_mode+0x0/0x30) from [<c02304c4>] (dev_open+0xe4/0x114)
+    | r5:c7809350 r4:c7809000
+    |[<c02303e0>] (dev_open+0x0/0x114) from [<c022fd18>] (dev_change_flags+0xb0/0x190)
+    | r5:00000041 r4:c7809000
+    |[<c022fc68>] (dev_change_flags+0x0/0x190) from [<c0270250>] (devinet_ioctl+0x2f0/0x710)
+    | r7:c7221e70 r6:c7aadb00 r5:00000000 r4:00000001
+    |[<c026ff60>] (devinet_ioctl+0x0/0x710) from [<c02717c8>] (inet_ioctl+0xd4/0x110)
+    |[<c02716f4>] (inet_ioctl+0x0/0x110) from [<c021fb74>] (sock_ioctl+0x1f4/0x254)
+    | r4:c7242b40
+    |[<c021f980>] (sock_ioctl+0x0/0x254) from [<c00b8160>] (vfs_ioctl+0x38/0x98)
+    | r6:beec9bb8 r5:00008914 r4:c7242b40
+    |[<c00b8128>] (vfs_ioctl+0x0/0x98) from [<c00b873c>] (do_vfs_ioctl+0x484/0x4d4)
+    | r6:00008914 r5:c7242b40 r4:c74db1c0
+    |[<c00b82b8>] (do_vfs_ioctl+0x0/0x4d4) from [<c00b87cc>] (sys_ioctl+0x40/0x64)
+    |[<c00b878c>] (sys_ioctl+0x0/0x64) from [<c00269a0>] (ret_fast_syscall+0x0/0x2c)
+    |[42949399.520000]  r7:00000036 r6:beec9c80 r5:00000041 r4:beec9bb8
+    
+    Signed-off-by: Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+    Acked-by: Lennert Buytenhek <buytenh@marvell.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 43250ddd75a35d1f7926d989a10fefd30c37eaa7
+Author: Jie Yang <jie.yang@atheros.com>
+Date:   Wed Feb 18 17:24:15 2009 -0800
+
+    atl1c: Atheros L1C Gigabit Ethernet driver
+    
+    Supporting AR8131, and AR8132.
+    
+    Signed-off-by: Jie Yang <jie.yang@atheros.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 92a0acce186cde8ead56c6915d9479773673ea1a
+Author: David S. Miller <davem@davemloft.net>
+Date:   Tue Feb 17 21:24:05 2009 -0800
+
+    net: Kill skb_truesize_check(), it only catches false-positives.
+    
+    A long time ago we had bugs, primarily in TCP, where we would modify
+    skb->truesize (for TSO queue collapsing) in ways which would corrupt
+    the socket memory accounting.
+    
+    skb_truesize_check() was added in order to try and catch this error
+    more systematically.
+    
+    However this debugging check has morphed into a Frankenstein of sorts
+    and these days it does nothing other than catch false-positives.
+    
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 34edaa88324004baf4884fb0388f86059d9c4878
+Author: Tobias Diedrich <ranma+kernel@tdiedrich.de>
+Date:   Mon Feb 16 00:13:20 2009 -0800
+
+    net: forcedeth: Fix wake-on-lan regression
+    
+    Commit f55c21fd9a92a444e55ad1ca4e4732d56661bf2e ("forcedeth: call
+    restore mac addr in nv_shutdown path"), which was introduced to fix
+    the regression tracked at
+    http://bugzilla.kernel.org/show_bug.cgi?id=11358 causes the
+    wake-on-lan mac to be reversed in the shutdown path.  Apparently the
+    forcedeth situation is rather messy in that the mac we need to
+    writeback for a subsequent modprobe to work is exactly the reverse of
+    what is needed for proper wake-on-lan.
+    
+    The following patch explains the situation in the comments and
+    makes the call to nv_restore_mac_addr() conditional (only called if
+    we are not really going for poweroff).
+    
+    Tobias Diedrich wrote:
+    > Hmm, I had not tried WOL for some time.
+    > With 2.6.29-rc3 is see the following behaviour:
+    >
+    > State            WOL Behaviour
+    > ------------------------------
+    > shutdown         reversed MAC
+    > disk/shutdown    reversed MAC
+    > disk/platform    OK
+    >
+    > Apparently nv_restore_mac_addr() restores the MAC in the wrong order
+    > for WOL (at least for my PCI_DEVICE_ID_NVIDIA_NVENET_15).  platform
+    > works, because the MAC is not touched in the nv_suspend() path.
+    >
+    > A possible fix might be to only call nv_restore_mac_addr() if
+    > system_state != SYSTEM_POWER_OFF.
+    
+    With the following patch:
+    shutdown         OK
+    disk/shutdown    OK
+    disk/platform    OK
+    kexec            OK
+    
+    Signed-off-by: Tobias Diedrich <ranma+kernel@tdiedrich.de>
+    Tested-by: Philipp Matthias Hahn <pmhahn@titan.lahn.de>
+    Signed-off-by: David S. Miller <davem@davemloft.net>

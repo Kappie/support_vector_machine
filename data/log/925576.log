@@ -1,0 +1,559 @@
+<!-- Title: Day shift. Wed May 21, 2003 -->
+<!-- SciCo: Paul Tipton -->
+<!-- DAQAce: Ambra Gresele -->
+<!-- MonAce: Yi Le -->
+<!-- CO: Dario Bisello -->
+<!-- OpManager: Nathan Eddy -->
+<!-- Notes: -->
+<pre></pre>
+
+<!-- Date: Wed May 21 08:04:10.994 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163252">163252</A>
+ACTIVATE: COT calib
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 08:04:23.662 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163252">163252</A>
+TERMINATE: COT calib
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 08:07:36.088 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163254">163254</A>
+ACTIVATE: MUON calib
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 08:09:42.615 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163254">163254</A>
+TERMINATE: MUON calib
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 08:36:11.262 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163255">163255</A>
+ACTIVATE: COSMIC_NOTRACKS run
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 08:40:21.359 2003 -->
+<p>ICICLE is now working again.  Mark logged into the administrator NT account on SOLENOID2 and reset the permissions on the F:\Oracle folder from "Special" (allowing different permissions on an owner-by-owner basis) to "Full".</p>
+<!-- Author: Steve Hahn -->
+
+<!-- Date: Wed May 21 08:59:15.443 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163255">163255</A>
+TERMINATE: End Cosmic run
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 09:08:24.267 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163256">163256</A>
+ACTIVATE: L2_TORTURE
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 09:17:51.375 2003 -->
+<pre>b0wcal05:Messenger:9:16:21 AM-&gt;Event 143152: Bunchcounters in slot 16 (BC=9) and slot 17 (BC=80) disagree (L2B=0)  
+L2B 16:   9   3  59 106 
+L2B 17:  80   3  15  12 
+EHx: CE000016 CE1F0016 CE240016 CE310016</pre>
+<!-- Author: A.Gresele :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163256' target=_top>163256</a>) -->
+
+<!-- Date: Wed May 21 09:24:02.108 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163256">163256</A>
+TERMINATE: End L2_TORTURE run
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 09:25:41.532 2003 -->
+<pre>Dear Aces, 
+ the Auto-Shepherd feature in RC & EH has been successfully tested. 
+ A new version of EH (v1_10) has been declared current and it is ready  
+ to be used. When possible, please *restart* EH to pick up the new code. 
+  
+ Here is how the Auto-Shepherd feature works: 
+ 
+ - when Error Handler receives a Global TDC Done Timeout (FERML_TDC_NOT_READY_GLOBAL) error, 
+   it will issue the AUTO-SHEPHERD command (if AutoRecoveries are ON) 
+   OR it will notify the Aces to Shepherd the TDC crate with problems (if AutoRecoveries are OFF) 
+ 
+ - during the shepherding process, EH will disable the issuing of other Auto-HRRs 
+ 
+ - when shepherding is finished: 
+     
+   -if Shepherd was SUCCESSFUL, 
+    EH will issue an additional Auto-HRR (if AutoRecoveries are ON)  
+    or it will notify the Aces to do a manual HRR (if AutoRecoveries are OFF) 
+ 
+   -if Shepherd FAILED, 
+    a pop-up window will tell the Aces that Shepherd failed  
+    (no further recovery actions are specified at this moment) 
+ 
+ 
+As usual, please report any problems or departures from this behavior. Thanks 
+</pre>
+<!-- Author: Donatella T. -->
+
+<!-- Date: Wed May 21 09:29:07.979 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163257">163257</A>
+ACTIVATE: L2_TORTURE
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 09:29:09.173 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163257">163257</A>
+TERMINATE: End L2_TORTURE
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 09:34:22.351 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163258">163258</A>
+ACTIVATE: L2_TORTURE
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 09:35:39.626 2003 -->
+<pre>b0pcal11:Messenger:9:34:28 AM-&gt;Event 2846: Bunchcounters in slot 15 (BC=130) and slot 19 (BC=136) disagree (L2B=0)  
+L2B 15: 130 118 133  62 
+L2B 19: 136 118 133  62 
+EHx: 540E002E 541C002E 542B002E 543D002E</pre>
+<!-- Author: A.Gresele :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163258' target=_top>163258</a>) -->
+<!-- Comment: Wed May 21 09;36;40 comment by...A.Gresele -->
+<pre>b0ccal08:Messenger:9:35:51 AM-&gt;Event 16538: Bunchcounters in slot 17 (BC=86) and slot 18 (BC=3) disagree (L2B=0) 
+L2B 17:  86 127 130 121
+L2B 18:   3 127 130 121
+EHx: 640A0009 64180009 64260009 64390009</pre>
+
+<!-- Comment: Wed May 21 09;39;29 comment by...A.Gresele -->
+<pre>b0wcal06:Messenger:9:38:53 AM-&gt;Event 51300: Bunchcounters in slot 16 (BC=9) and slot 8 (BC=83) disagree (L2B=1) 
+L2B 16:  24   9 124   9
+L2B  8:  24  83 124 112
+EHx: 16020017 16140017 16230017 163E0017</pre>
+
+<!-- Comment: Wed May 21 09;40;41 comment by...A.Gresele -->
+<pre>b0wcal06:Messenger:9:39:55 AM-&gt;Event 59587: Bunchcounters in slot 16 (BC=80) and slot 8 (BC=33) disagree (L2B=1) 
+L2B 16: 115  80  62   9
+L2B  8:  68  33  62   9
+EHx: 16020017 16130017 16210017 163E0017</pre>
+
+<!-- Comment: Wed May 21 09;41;37 comment by...A.Gresele -->
+<pre>b0pcal02:Messenger:9:40:47 AM-&gt;Event 65437: Bunchcounters in slot 14 (BC=109) and slot 18 (BC=9) disagree (L2B=0) 
+L2B 14: 109 124  53  24
+L2B 18:   9 124 139  24
+EHx: 640D0023 641C0023 642B0023 64360023</pre>
+
+<!-- Comment: Wed May 21 09;43;40 comment by...A.Gresele -->
+<pre>b0wcal03:Messenger:9:43:08 AM-&gt;Event 86957: Bunchcounters in slot 5 (BC=74) and slot 20 (BC=62) disagree (L2B=1) 
+L2B  5:  56  74  77 139
+L2B 20:  56  62  77 139
+EHx: 9E0C0014 9E1D0014 9E2B0014 9E380014</pre>
+
+<!-- Comment: Wed May 21 09;48;37 comment by...A.Gresele -->
+<pre>b0wcal05:Messenger:9:47:27 AM-&gt;Event 138135: Bunchcounters in slot 16 (BC=77) and slot 9 (BC=15) disagree (L2B=1) 
+L2B 16:   9  77  77  65
+L2B  9: 112  15  77 106
+EHx: 54060016 54170016 54250016 54320016</pre>
+
+<!-- Comment: Wed May 21 09;54;01 comment by...A.Gresele -->
+<pre>b0fcal01:Messenger:9:53:13 AM-&gt;Event 207254: Bunchcounters in slot 8 (BC=3) and slot 14 (BC=127) disagree (L2B=0) 
+L2B  8:   3 130  53  21
+L2B 14: 127 130  53 115
+EHx: 5206001C 5215001C 5223001C 5234001C</pre>
+
+<!-- Comment: Wed May 21 09;55;50 comment by...A.Gresele -->
+<pre>b0fcal00:Messenger:9:55:04 AM-&gt;Event 226345: Bunchcounters in slot 16 (BC=106) and slot 8 (BC=56) disagree (L2B=1) </pre>
+
+<!-- Comment: Wed May 21 09;58;06 comment by...A.Gresele -->
+<pre>b0wcal06:Messenger:9:57:36 AM-&gt;Event 254437: Bunchcounters in slot 16 (BC=127) and slot 8 (BC=83) disagree (L2B=1) </pre>
+
+<!-- Date: Wed May 21 10:01:43.141 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163258">163258</A>
+TERMINATE: L2_TORTURE end
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 10:03:41.159 2003 -->
+ I tried to understand the low effieicncy problem for 
+L2 shoer max trigger in wedge east phi=1. The online TrigMon 
+is so slow to figure out the problem, but I collected 
+enough data to analyze offline .  
+<!-- Author: Masa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163258' target=_top>163258</a>) -->
+<!-- Comment: Wed May 21 10;04;37 comment by...Masa -->
+<pre>Some detailes for L2 e-log</pre>
+
+<!-- Date: Wed May 21 10:51:56.200 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163261">163261</A>
+ACTIVATE: tac test
+<!-- Author: jslee -->
+
+
+<!-- Date: Wed May 21 10:53:49.488 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163261">163261</A>
+TERMINATE: end tac test
+<!-- Author: jslee -->
+
+
+<!-- Date: Wed May 21 11:14:50.217 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163266">163266</A>
+ACTIVATE: trying to run witout SVT
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 11:15:56.489 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163266">163266</A>
+TERMINATE: need to clean up EVB
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 11:15:58.990 2003 -->
+<pre>Voice alarm in Global Alarms page doesn't work, J.C is investigating. </pre>
+<!-- Author: Yi Le -->
+
+<!-- Date: Wed May 21 11:25:32.651 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163267">163267</A>
+ACTIVATE: Physics run test
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 11:26:15.312 2003 -->
+iFix: 
+ 
+   The monitoring ACE noticed that there was no sound alarm when 
+heartbeat color changed to purple. It turned out that the  
+voice scheduler opened was an old copy and it is pointing to  
+a old subdirectory which is not existing anymore. I replaced 
+the file of old version with new version. Now voice_scheduler_vnode.evs and voice_scheduler_vnode1.evs should work exactly the same way.
+<!-- Author: JC Yun -->
+
+<!-- Date: Wed May 21 11:27:27.754 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163267">163267</A>
+TERMINATE: end the test
+<!-- Author: Ambra2080 -->
+
+
+<!-- Date: Wed May 21 11:31:40.156 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163268">163268</A>
+ACTIVATE: Physics run test
+<!-- Author: Ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 11:42:21.353 2003 -->
+<pre>expert is working on BMU, I was told that I can ignore the BMU alarm 
+</pre>
+<!-- Author: Yi Le -->
+<!-- Comment: Wed May 21 12;07;34 comment by...Camille Ginsburg -->
+Done. Problem in BMU 72-E definitely reproducible and
+distinct enough to justify access.
+<!-- Date: Wed May 21 11:47:12.600 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163271">163271</A>
+TERMINATE: end test run
+<!-- Author: ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 12:00:11.622 2003 -->
+<pre>We remove the subfarm 12 node b0l3195 (following the pop up instructions) and we try again</pre>
+<!-- Author: A.Gresele :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163272' target=_top>163272</a>) -->
+<!-- Comment: Wed May 21 13;39;01 comment by...Guillelmo -->
+The error was actually in 195 and 232. I have removed both of them from database to check these two nodes off-line. All subfarms can be used in any case.
+<!-- Date: Wed May 21 12:01:54.420 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163272">163272</A>
+ACTIVATE: run test
+<!-- Author: ambra2080 -->
+
+
+
+
+<!-- Date: Wed May 21 13:28:48.622 2003 -->
+<pre>Hardware EVB has detected a problem with data in SCPU b0eb16(forwared by FER crate PCAL_00). 
+HRR manually</pre>
+<!-- Author: A.Gresele :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163272' target=_top>163272</a>) -->
+
+<!-- Date: Wed May 21 13:35:15.927 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163272">163272</A>
+TERMINATE: end test run
+<!-- Author: ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 13:49:07.746 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163273">163273</A>
+ACTIVATE: physics test run
+<!-- Author: ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 14:01:12.478 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Access started at 13:45pm</td></tr></td></table>
+<!-- Author: Tipton -->
+
+
+<!-- Date: Wed May 21 14:05:07.509 2003 -->
+<pre>Have asked Ace to restart RunControl to pick  
+up new vesion of ErrorHandler.   This version has  
+the AutoShepherd feature enabled in  
+case of the TDC_GLOBAL_NOT_DONE error (and only  
+for that error) 
+ 
+In case it goes berserck, you can disable this  
+feature in the RunControl Parameters pull-down menu. 
+ 
+Also, the usual ErrorHandler Auto-HRR feature must  
+be ENABLED from ErrorHandler for AutoShepherd to work. 
+</pre>
+<!-- Author: W.Badgett,D.Torretta -->
+
+<!-- Date: Wed May 21 14:23:43.667 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163113">163113</A>
+RUNSTATUS: CO went back and checked the PHA, it looks fine, run appears fine at YMON 
+<!-- Author: cdfscico -->
+
+
+
+<!-- Date: Wed May 21 14:33:43.211 2003 -->
+<pre>Booked all XFT and COT crates to finish testing XTC 
+cards and cable connections.  Will be done is about 
+two hours.</pre>
+<!-- Author: Cheng-Ju -->
+<!-- Comment: Wed May 21 20;36;32 comment by...Cheng-Ju -->
+<table border=0><td><tr><td bgcolor=#e0e030>We have gotten some anomalous results from b0cot04
+and b0cot07.  Consumer Operators:  please pay attention
+to XFT TrigMon plots "COT SL6 Segment Occupancy vs. Phi".
+Page XFT if significant dips are observed between 
+120-150deg and 240-270deg.  </td></tr></td></table>
+<!-- Date: Wed May 21 14:37:10.372 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163274">163274</A>
+ Activated at 2003.05.21 14:36:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 14:37:13.159 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163274">163274</A>
+ACTIVATE: PMT spike run
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 14:37:54.489 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163274">163274</A>
+ Terminated at 2003.05.21 14:37:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 14:38:14.824 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163274">163274</A>
+TERMINATE: end PMT spikes run
+<!-- Author: ambra2080 -->
+<!-- Comment: Wed May 21 14;38;46 comment by...m mattson and v tiwari -->
+L1 rate 75 Hz, so we put the cables back okay
+
+<!-- Date: Wed May 21 14:41:42.133 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163275">163275</A>
+ACTIVATE: QIE calib and FRAM download for pcal
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 14:53:15.690 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163275">163275</A>
+TERMINATE: successful QIE calib and FRAM download for pcal crates
+<!-- Author: ambra2080 -->
+
+
+
+<!-- Date: Wed May 21 14:56:09.556 2003 -->
+We were unable to fix the BMU HV problem in a short access. 
+BMU-E 72 will have to be left OFF until the next longer 
+access.
+<!-- Author: Dan Cyr and Camille Ginsburg -->
+
+<!-- Date: Wed May 21 15:01:10.153 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163277">163277</A>
+ Activated at 2003.05.21 15:01:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 15:02:28.324 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163277">163277</A>
+ACTIVATE: spike run
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 15:03:17.443 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163277">163277</A>
+ Terminated at 2003.05.21 15:02:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 15:03:19.430 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163277">163277</A>
+TERMINATE: tsi03 is misbehaving
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 15:10:45.438 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163278">163278</A>
+ Activated at 2003.05.21 15:09:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 15:10:46.860 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163278">163278</A>
+ACTIVATE: PMT Spike runs
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 15:11:04.503 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163278">163278</A>
+ Terminated at 2003.05.21 15:10:57
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 15:12:32.304 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163278">163278</A>
+TERMINATE: end spikes run
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 15:13:11.331 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163279">163279</A>
+ACTIVATE: SMX calib
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 15:15:57.315 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163279">163279</A>
+TERMINATE: fini
+<!-- Author: ambra2080 -->
+<!-- Comment: Wed May 21 15;28;28 comment by...m mattson -->
+Took a quick glance at ShowerMax calib.  Info is available from DBANA, and no obvious system problems.
+<!-- Date: Wed May 21 15:21:51.521 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163280">163280</A>
+ Activated at 2003.05.21 15:21:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 15:21:52.741 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163280">163280</A>
+ACTIVATE: spike run
+<!-- Author: ambra2080 -->
+
+
+<!-- Date: Wed May 21 15:28:27.731 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163280">163280</A>
+ Terminated at 2003.05.21 15:27:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed May 21 15:28:28.571 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=163280">163280</A>
+TERMINATE: finished
+<!-- Author: ambra2080 -->
+<!-- Comment: Wed May 21 15;28;55 comment by...m mattson -->
+L1 rate 76 Hz, took full 30K events.
+
+
+<!-- Date: Wed May 21 15:35:31.543 2003 -->
+HVMon keeps crashing.  I paged Yeongdae.
+<!-- Author: Camille Ginsburg -->
+<!-- Comment: Wed May 21 17;29;08 comment by...Yeongdae Shon -->
+<pre>I came here, and found the data base for BMU had somehow corrupted. Camile said that she tried to set BMU E-72 HV for "0" volt. I am not sure setting a channel at zero caused the problem, but should be avoided because it may cause the same problem again. I restored the DB with old good one, then restored changes made afterword. 
+Any one encountered the similar problem, please, don't try to restore the DB yourself. Instead, page me for help! </pre>
+<!-- Date: Wed May 21 15:50:26.022 2003 -->
+<b>pcal00 access summary</b><br> 
+Vivek and I went downstairs to check on pcal00, slot 17, ch 15.  Earlier this week, Vivek and Rick T had diagnosed a problem with charge injection, which was causing it to fail QIE calibration.  It also seemed to be affecting the L1 trigger port output.<p> 
+As the plug was being pulled out, I ran QIETEST, and failed to reproduce the problem.  The problem had gone away by itself.  To be safe, we swapped out the CAFE card, in the off-chance that the problem would come back (after the access).  We have done a calibration and FRAM download for the pcal crates, taken a (good) spike run, and taken a SMXR calib.  In addition, we have taken the weekly calorimeter crate checkout.  All appears well.
+<!-- Author: m mattson, v tiwari -->
+<!-- Comment: Wed May 21 15;54;05 comment by...m mattson -->
+As part of the checkout, expect a DTO from all cal crates, for the first event of the next run.  After a HRR, this will go away.
+<!-- Comment: Thu May 22 02;00;38 comment by...m mattson -->
+<br>
+Forgot to mention this earlier, but Dee was kind enough to plug in the wireless system, during the access.  After the keys were returned to the tree, I unplugged both cords for the wireless antennae.
+<!-- Date: Wed May 21 15:52:53.849 2003 -->
+<font color=red>Shift Summary: </font><pre> 
+Day Shift 5/20/03 
+Highlights 
+---------- 
+08:00 No beam, a variety of tests planned for this shift 
+08:30 Masa doing L2 shower max trigger test 
+ 
+09:45  Stefano (SVT code optimization)  and Masa work in parallel 
+ 
+10:40 Dan Cyr is trying to re-mask the CMU wedge 0 
+1050 Coil at almost  full current, cryo people are programming ifix. 
+1100  DAQ memory leak tests 
+ 
+Runs 
+---- 
+none 
+ 
+Known Problems 
+-------- 
+memory leak in consumers not fixed, tests inconclusive 
+R_C must be restarted before integrating silicon. 
+Fcal01 power supply will not turn back on after Koji replaced a card. 
+HVMON keeps crashing, Yeong Dae is  working on it. 
+cable tests (Maria) not done 
+ 
+ 
+ 
+13:45 Access begins 
+ 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   none
+Delivered Luminosity     
+Acquired Luminosity      
+Efficiency             
+   
+</td></tr></table></pre>
+<!-- Author: Tipton -->
+
+
+<!-- Date: Wed May 21 15:56:00.394 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+

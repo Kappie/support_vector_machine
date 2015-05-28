@@ -1,0 +1,523 @@
+<!-- Title: Day shift. Sat Nov 24, 2007 -->
+<!-- SciCo: Roberto Carosi -->
+<!-- DAQAce: Si Xie / Carolina Deluca -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Dario Bisello -->
+<!-- OpManager: Massimo Casarsa -->
+<!-- Notes: -->
+<pre>Waiting for shot setup.</pre>
+
+
+<!-- Date: Sat Nov 24 08:05:43.060 2007 -->
+<pre>Start of shift notes: 
+ 
+* Ignore L2Stereo for all run configurations until problem is fixed</pre>
+<!-- Author: carolina and Si :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254261' target=_top>254261</a>) -->
+
+
+<!-- Date: Sat Nov 24 09:44:37.765 2007 -->
+We were able to get in contact with Alison, and informed her about the L2Stereo problems from the owl shift. She is looking into the problem now.
+<!-- Author: Si / Carolina -->
+
+<!-- Date: Sat Nov 24 10:30:17.326 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254261>254261</A>
+ Terminated at 2007.11.24 10:30:10
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:31:09.789 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254261>254261</A>
+TERMINATE: We are going to test L2 now
+<!-- Author: Adrian/Pedro -->
+
+
+<!-- Date: Sat Nov 24 10:33:19.230 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254262>254262</A>
+ Activated at 2007.11.24 10:33:11
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:33:39.721 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254262>254262</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] 
+<!-- Author: Adrian/Pedro -->
+<!-- Comment: Sat Nov 24 10;34;06 comment by...carolina/Si -->
+including L2 Stereo
+
+<!-- Date: Sat Nov 24 10:34:15.624 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254262>254262</A>
+ Terminated at 2007.11.24 10:34:09
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:35:25.619 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254262>254262</A>
+TERMINATE: L2 XFT still didn't work
+<!-- Author: Adrian/Pedro -->
+
+
+<!-- Date: Sat Nov 24 10:38:40.640 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254263>254263</A>
+ Activated at 2007.11.24 10:37:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:38:41.688 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254263>254263</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] L2 Stereo ignored
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 10:48:55.922 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254263>254263</A>
+ Terminated at 2007.11.24 10:47:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:48:56.615 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254263>254263</A>
+TERMINATE: try again
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 10:53:07.039 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254264>254264</A>
+ Activated at 2007.11.24 10:51:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:53:08.482 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254264>254264</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 10:53:09.182 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254264>254264</A>
+ Terminated at 2007.11.24 10:52:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:57:36.144 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254265>254265</A>
+ Activated at 2007.11.24 10:56:40
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 10:57:37.811 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254265>254265</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] Test L2 XFT problem again
+<!-- Author: Si / Carolina -->
+
+
+
+<!-- Date: Sat Nov 24 11:04:31.516 2007 -->
+<pre>Sorry about last night. I had my phone on vibrate which was not enough to wake me up :-( 
+I came in this morning to figure out what the problem was. 
+One of the XTC or DTCs is bad. Seems that this happened after the work on the COT yesterday. 
+The bad XTC is SL5 cells 264-271. This corresponds to COT crate NE B-2 slot 13. The XTC has been masked on for the time being and we should be able to run now. 
+Monday we will talk about what happened and how to solve this problem quicker.</pre>
+<!-- Author: Alison -->
+
+<!-- Date: Sat Nov 24 11:11:45.848 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254265>254265</A>
+ Terminated at 2007.11.24 11:10:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 11:11:46.981 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254265>254265</A>
+TERMINATE: start a new run for L2
+<!-- Author: Si / Carolina -->
+
+
+
+<!-- Date: Sat Nov 24 11:12:46.260 2007 -->
+<pre>Just on my way out Bob W. mentioned that they had masked off the  bad wires in SL4. We need to mask them on for the XTCs. 
+The new masked on wires are: 
+SL4 cell 96 wires 7-11 
+SL4 cell 97 wires 6-11 
+Database changed. 
+</pre>
+<!-- Author: Alison -->
+
+<!-- Date: Sat Nov 24 11:13:15.806 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254266>254266</A>
+ Activated at 2007.11.24 11:13:11
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 11:13:28.766 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254266>254266</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] 
+<!-- Author: Si / Carolina -->
+
+
+
+<!-- Date: Sat Nov 24 11:16:26.500 2007 -->
+Done TO for svt02 and svt09. HRR fixed it.
+<!-- Author: carolina and Si :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254266' target=_top>254266</a>) -->
+
+
+<!-- Date: Sat Nov 24 12:09:36.202 2007 -->
+From MCR: beginning of shot setup.
+<!-- Author: Roberto -->
+
+
+<!-- Date: Sat Nov 24 12:12:46.227 2007 -->
+Notice temporary DAQ pager numbers on the white board. Until 
+tomorrow.
+<!-- Author: Roberto -->
+
+
+<!-- Date: Sat Nov 24 13:14:14.383 2007 -->
+Final proton bunches are being loaded.
+<!-- Author: Roberto -->
+
+<!-- Date: Sat Nov 24 13:15:22.397 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254266>254266</A>
+ Terminated at 2007.11.24 13:15:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 13:16:57.148 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254266>254266</A>
+TERMINATE: protons are being loaded --> change to shotsetup
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 13:19:14.668 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254267>254267</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [2,1002,710] 
+<!-- Author: Si / Carolina -->
+
+
+
+<!-- Date: Sat Nov 24 13:19:55.733 2007 -->
+Done TO from svt03. Auto HRR.
+<!-- Author: Si / Carolina :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254267' target=_top>254267</a>) -->
+
+
+<!-- Date: Sat Nov 24 13:50:07.170 2007 -->
+Final pbars being loaded. 
+<br> 
+Problems starting conumers, expert paged.
+<!-- Author: Roberto -->
+<!-- Comment: Sat Nov 24 13;53;27 comment by...Roberto -->
+"consumers"
+
+
+<!-- Date: Sat Nov 24 14:05:08.010 2007 -->
+All of the pbar bunches have been loaded.
+<!-- Author: Roberto -->
+
+<!-- Date: Sat Nov 24 14:07:10.728 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254267>254267</A>
+TERMINATE: going to physics mode
+<!-- Author: Si / Carolina -->
+<!-- Comment: Sat Nov 24 14;12;34 comment by...carolina and Si -->
+Tevatron quench :( --> Doing post-quench checkout
+<!-- Date: Sat Nov 24 14:10:46.298 2007 -->
+Quench.
+<!-- Author: Roberto -->
+
+
+
+<!-- Date: Sat Nov 24 14:16:13.529 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-7031&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-7032  width='300' align='top'></a></td><td>Abort Data</td></tr></table>
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:18:01.854 2007 -->
+Do calibrations
+<!-- Author: carolina and Si -->
+
+<!-- Date: Sat Nov 24 14:22:49.726 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254270>254270</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:25:22.430 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254270>254270</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Nov 24 15;50;05 comment by...carolina /Si -->
+good
+<!-- Date: Sat Nov 24 14:32:07.140 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254271>254271</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:32:08.248 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254271>254271</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Nov 24 15;50;23 comment by...carolina /Si -->
+good
+<!-- Date: Sat Nov 24 14:32:09.619 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254272>254272</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:32:10.201 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254272>254272</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Nov 24 15;50;38 comment by...carolina / Si -->
+good 
+<!-- Date: Sat Nov 24 14:34:19.912 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254273>254273</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:43:19.375 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254274>254274</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:44:38.877 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254274>254274</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Nov 24 15;51;07 comment by...carolina /Si -->
+good 
+<!-- Date: Sat Nov 24 14:45:57.167 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254275>254275</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:57:30.771 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254276>254276</A>
+ Activated at 2007.11.24 14:56:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 14:57:31.758 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254276>254276</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 14:57:32.437 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254276>254276</A>
+ Terminated at 2007.11.24 14:57:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 15:00:59.610 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254277>254277</A>
+ Activated at 2007.11.24 15:00:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 15:03:09.671 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254277>254277</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,983,706] Quiet Time
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:12:53.207 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254277>254277</A>
+ Terminated at 2007.11.24 15:12:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Nov 24 15:13:11.994 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254277>254277</A>
+TERMINATE: L1 accept rate 41.8Hz
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:15:46.724 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254278>254278</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:20:12.858 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254279>254279</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:20:13.300 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254279>254279</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sat Nov 24 15:21:15.323 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254278>254278</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sat Nov 24 15:25:29.491 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254280>254280</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sat Nov 24 15:27:00.105 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254280>254280</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:29:09.533 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254281>254281</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:31:21.208 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254281>254281</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sat Nov 24 15:31:59.229 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254282>254282</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:34:04.335 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254282>254282</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sat Nov 24 15:41:23.940 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254283>254283</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Si / Carolina -->
+
+
+<!-- Date: Sat Nov 24 15:42:56.147 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254284>254284</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Si / Carolina -->
+
+
+
+<!-- Date: Sat Nov 24 15:47:12.078 2007 -->
+/cdf/onln/data/cdfcalib/log/runCotCtt_0_2007-11-24_15:26:30.log  
+ 
+ 
+COT Calibration run 254281 taken at 15:26:30 on 2007-11-24 
+ 
+aveStart:                        208.75    
+total numBad:                    469     - Too Many or Too Few Bad channels 
+   numBad  cells:                  0       
+   numBad cables:                  0       
+   numBad slots:                   0       
+ 
+ 
+Number of missing channels =    0  
+ 
+ 
+aveDrift:                       0.052     
+max number drifted in crate:    26        
+total numDrifted:               44  
+   number of drifted  cells        0       
+   number of drifted cables        1       
+   number of drifted  slots        0       
+ 
+ 
+ 
+ 
+ 
+Too many bad or missing channels in calibration.
+<!-- Author: bisello :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254284' target=_top>254284</a>) -->
+<!-- Comment: Sat Nov 24 15;47;56 comment by...Si / Carolina -->
+There was a comment about this yesterday evening <a href=
+'/cgi/elog/elog.pl?nb=2007&action=view&page=915&frame=2&anchor=18:34:22.937'>
+here </a>
+
+<!-- Date: Sat Nov 24 15:48:41.618 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254284>254284</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+
+
+
+
+<!-- Date: Sat Nov 24 15:53:41.292 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254285>254285</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,986,705] 
+<!-- Author: Si / Carolina -->
+
+
+
+<!-- Date: Sat Nov 24 15:53:41.229 2007 -->
+Done TO from b0imu00. auto-HRR.
+<!-- Author: Si / Carolina :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=254285' target=_top>254285</a>) -->
+
+<!-- Date: Sat Nov 24 15:55:17.723 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sat Nov 24 15:57:32.258 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-7033&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-7033  width='300' align='top'></a></td><td>is it a problem ?</td></tr></table>
+<!-- Author: bisello -->
+
+
+<!-- Date: Sat Nov 24 15:58:26.878 2007 -->
+<font color=red>Shift Summary: </font><pre> 8:00 Waiting for shot setup; L2 stereo problem from owl shift still not solved. 
+ 
+ 9:30 called Allison for XFT stereo problem. 
+ 
+10:50 L2 stereo problem solved. 
+ 
+12:10 Starting shot setup. 
+ 
+13:50 Problems starting consumers, expert paged. 
+ 
+14:10 Quench.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   0
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             0
+   
+</td></tr></table></pre>
+<!-- Author: Roberto -->

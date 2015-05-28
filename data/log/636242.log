@@ -1,0 +1,353 @@
+<!-- Title: Day shift. Mon May 31, 2004 -->
+<!-- SciCo: Pat Lukens -->
+<!-- DAQAce: Jared Yamaoka -->
+<!-- MonAce: Melisa Rossi -->
+<!-- CO: Andreas Warburton -->
+<!-- OpManager: Rob Harr -->
+<!-- Notes: -->
+<pre>Nice store (4.5E31) but the solenoid is down.  No estimate yet.</pre>
+
+<!-- Date: Mon May 31 08:42:21.375 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510">183510</A>
+general: <tt>L00/SVX/ISL/COT HV all off.</tt>
+<!-- Author: Consumer Operator( Dan Pantea) -->
+
+
+
+<!-- Date: Mon May 31 08:46:33.467 2004 -->
+<pre>b0dau35 disk /ora1 show 100% full in BigBrother.</pre>
+<!-- Author: Jared -->
+
+
+<!-- Date: Mon May 31 08:51:28.751 2004 -->
+The disk problem was phoned in to the helpdesk (2345 -> 2746).  They asked for an email to operator@fnal.gov.  This was done.
+<!-- Author: Lukens :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510' target=_top>183510</a>) -->
+<!-- Comment: Mon May 31 12;19;22 comment by...Lukens -->
+This email was sent to me at 10:24:
+
+I fnal mail system is very very slow. E-mail is still in outbox.
+That's why I am sending e-mail from e-mail account.
+ 
+Cleaned up the old alert logs . Just kept 7 days of alert logs Vs 23 days.
+Also moved the one trace file of 1.8MB to /backup/trace area for later
+analysis if needed.
+
+Now the /ora1 disk at 93%. 494MB free.
+
+b0dau35> df -k | grep ora1
+/dev/vx/dsk/oradg/orasysvol 6291456 5795802  494348    93%    /ora1
+b0dau35> crontab -l | grep bdump
+0 2 * * * find /ora1/admin/cdfonprd/bdump -type f -name
+rman_cdfonprd_\* -mtime +2 -exec rm -f {} \;
+0 3 * * * find /ora1/admin/cdfonprd/bdump -type f -name \*.trc -mtime
++7 -exec rm -f {} \;
+15 00 * * * find /ora1/admin/cdfonprd/bdump -type f -name
+alert_cdfonprd_\* -mtime +20 -exec rm -f {} \;
+
+b0dau35> find /ora1/admin/cdfonprd/bdump -type f -name
+alert_cdfonprd_\* -mtime +7 -exec rm -f {} \;
+ 
+Thanks,
+ 
+Anil.
+ 
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+This ticket has been assigned to you.
+
+___________________________________________
+Ticket Info
+___________________________________________
+Ticket #: 45697
+Priority: Medium
+System Name: CDF
+Incident Time: 5/31/2004 8:51:23 AM
+Create Date:5/31/2004 8:56:40 AM
+____________________________________________
+Requester Information
+____________________________________________
+Name: PATRICK LUKENS
+Phone: 8053
+E-Mail Address: PTL@FNAL.GOV
+_____________________________________________
+Ticket Details
+_____________________________________________
+Problem Category: Software
+Type: Database
+Item: Oracle
+Urgency: Medium
+Short Description: Disk ORA1 on node b0dau35 is full
+
+Problem Description: Hi. We find that disk ORA1 on node b0dau35 is full. This is a database machine/disk for our online system. Please take a look and give us a call. Thanks
+CDF Shift crew
+<!-- Date: Mon May 31 09:43:42.630 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8127&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8127' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8126&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8126' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 7:00-8:00) -->
+
+
+<!-- Date: Mon May 31 09:49:23.925 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8129&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8129' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8128&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8128' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 8:00-9:00) -->
+
+
+<!-- Date: Mon May 31 10:06:47.947 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8130&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8130' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8131&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8131' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 9:00-10:00) -->
+
+
+<!-- Date: Mon May 31 11:18:00.831 2004 -->
+<pre>We had an IFIX alarm from BMU. We recovered the trip.</pre>
+<!-- Author: Melisa & Christian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510' target=_top>183510</a>) -->
+
+
+<!-- Date: Mon May 31 11:25:23.575 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8134&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8134' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8135&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8135' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 10:00-11:00) -->
+
+<!-- Date: Mon May 31 11:58:11.341 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510">183510</A>
+ Terminated at 2004.05.31 11:57:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon May 31 11:59:42.648 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510">183510</A>
+TERMINATE: End because of L3 filter error
+<!-- Author: Jared & Matt (x2080) -->
+
+
+<!-- Date: Mon May 31 12:02:56.714 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183511">183511</A>
+ Activated at 2004.05.31 12:02:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon May 31 12:02:56.696 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183511">183511</A>
+ Activated at 2004.05.31 12:02:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon May 31 12:06:09.479 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183511">183511</A>
+ACTIVATE: AAA_NOSILICON:PHYSICS_2_05[1,475,455] no COT, Si, and TOF.  Solinoid off.
+<!-- Author: Jared & Matt (x2080) -->
+
+
+
+<!-- Date: Mon May 31 12:07:40.165 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8136&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8136' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8137&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8137' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 11:00-12:00) -->
+
+
+<!-- Date: Mon May 31 12:09:33.368 2004 -->
+<pre>Ended run because no events were being logged.  L3 was rejecting all event because of a L3 filter error.  Restarting run seems to have fixed it.</pre>
+<!-- Author: Jared :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510' target=_top>183510</a>) -->
+<!-- Comment: Mon May 31 12;21;41 comment by...Farrukh Azfar -->
+<table border=0><td><tr><td bgcolor=#e0e030>It seems like the PPRD bank format coming into the 
+CalDataMaker module in the Level3 excutable, is shafted.
+
+================================================================
+Here is the error message from the module itself:
+%ERLOG-s CalDataMaker:
+         /home/cdfsoft/dist/packages/Calor/V00-01-55/src/CalDataMaker.cc :
+373
+          unpack PPRD bank : invalid tower Key => Data probably corrupted
+         GlobalLibraryLogger 31-May-2004 11:53:41 CST
+         run = 183510 event = 895667
+=============================================================
+
+Don't quite know what would cause this problem.
+
+Cheers,
+Farrukh and Alberto.
+</td></tr></td></table>
+
+<!-- Comment: Mon May 31 12;22;47 comment by...Farrukh Azfar -->
+Might also add that restarting the run, seems to sort things out.
+The problem is no longer there.
+
+Farrukh.
+
+
+<!-- Comment: Tue Jun  1 02;18;40 comment by...W.Badgett -->
+It would be really nice if L3 could send 
+the ErrorLogger some informative error messages about 
+the problem, rather than just "Rejecting all events".   This 
+should significantly reduce problem diagnosis time!
+<!-- Date: Mon May 31 12:42:08.769 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>STATE OF THE SOLENOID 
+ 
+We had trouble pumping the watt can last night and needed to make an emergency access to fix this.  We did make the access, 
+figured out the problem, and configured the system to allow 
+us to run -- albeit not so elegantly.  The problem was that  
+during solenoid ramp up, we noticed the cryo plant go unstable. 
+Feared a heat leak.  IT was not.  Rather, a loss of control of 
+PVMF.  My guess is we pulled out a wire while working on the 
+other problem. 
+ 
+The solenoid will remain off this store.  We have requested an 
+access to fix this.  We are still working on a plan to get the 
+solenoid back to its normal reliable self. 
+ 
+ 
+</pre></td></tr></td></table>
+<!-- Author: RR -->
+
+
+<!-- Date: Mon May 31 13:15:14.540 2004 -->
+Abort gap losses are creeping up - at about 17 kHz now.  Since silicon is off, we won't fuss about it.  As instructed by Ops. Man., I called MCR to tell them that we weren't planning to fuss.
+<!-- Author: Lukens -->
+
+<!-- Date: Mon May 31 13:18:39.577 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183511">183511</A>
+general: <tt>Solenoid down. L00/SVX/ISL/COT/TOF off.</tt>
+<!-- Author: Consumer Operator( Andreas Warburton) -->
+
+
+
+<!-- Date: Mon May 31 13:22:42.500 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8138&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8138' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8139&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8139' width='300'></a></center>
+<!-- Author: Melisa & Christian -->
+<!-- Comment: Mon May 31 13;28;58 comment by...Melisa & Christian -->
+<pre>T:E0LABT dropped to zero about 5:30 am on May 27th,
+probably correlated to the loss of the beam.
+Talked to Morris Binkley who fixed the HV problem.</pre>
+
+
+<!-- Date: Mon May 31 13:35:18.642 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8140&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8140' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8141&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8141' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 12:00-13:00) -->
+
+
+<!-- Date: Mon May 31 14:04:56.590 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8142&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8142' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8143&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8143' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 13:00-14:00) -->
+<!-- Comment: Mon May 31 14;29;15 comment by...Melisa & Chrisitian -->
+<pre>Abort gap losses are definitely rising. COT, TOF are off and Silicon is on standby. We are at ~25k Hz, 30k Hz would be
+problematic for the wire chambers. We'll keep an eye on it.
+</pre>
+
+
+<!-- Date: Mon May 31 15:08:29.270 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8144&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8144' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-8145&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-8145' width='300'></a></center>
+<!-- Author: Melisa & Christian (hourly plots 14:00-15:00) -->
+<!-- Comment: Mon May 31 15;09;38 comment by...Melisa & Christian -->
+<pre>Abort gap losses are now at ~27k.</pre>
+
+
+<!-- Date: Mon May 31 15:42:49.437 2004 -->
+<pre>SVX AVDD_B3W11L4 was pink, the current was at 1105.0. 
+We unmarked it, but after ~2 hours the current reached  
+1105.0 again and we unmarked it again.</pre>
+<!-- Author: Melisa & Christian -->
+<!-- Comment: Mon May 31 15;48;23 comment by...Melisa & Christian -->
+<pre>The current is now 1110.0, we unmark it again.</pre>
+<!-- Date: Mon May 31 15:44:07.436 2004 -->
+At Rob H.'s request, we called MCR about the abort gap losses - currently 30 kHz.  MCR decided to scrape.  The run was halted and voltages put to standby.
+<!-- Author: Lukens :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183511' target=_top>183511</a>) -->
+<!-- Comment: Mon May 31 15;50;56 comment by...Lukens -->
+Turning back on now
+<!-- Comment: Mon May 31 17;29;21 comment by...Rob Harr -->
+The call was an only an inquiry as to whether the MCR was planning proactive action at this level.  The desision to scrape came from MCR.
+<!-- Date: Mon May 31 15:46:35.763 2004 -->
+<pre>Turned to standby CMU, CMP, CMX, BMU, CES, CPR, CCR 
+due to scraping (COT is off and Silicon is on standby already).  
+</pre>
+<!-- Author: Melisa & Christian -->
+
+
+
+
+<!-- Date: Mon May 31 15:52:35.324 2004 -->
+<pre>After scraping was done we turned on CMU, CMP, CMX, BMU, CES, CPR, CCR. 
+</pre>
+<!-- Author: Melisa & Christian -->
+
+<!-- Date: Mon May 31 15:55:39.445 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183510>183510</A> 
+x2CCD6</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_05 [1,475,455]</TD>                                       
+<TD ALIGN=CENTER>06:35:07</TD>                                          
+<TD ALIGN=CENTER>11:57:58</TD>                                          
+<TD ALIGN=CENTER>04:40:42</TD>                                          
+<TD ALIGN=RIGHT>     38,423,274</TD>                                    
+<TD ALIGN=RIGHT>       907,194</TD>                                     
+<TD ALIGN=RIGHT>     342,101</TD>                                       
+<TD ALIGN=RIGHT>  667.260</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=183511>183511</A> 
+x2CCD7</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_05 [1,475,455]</TD>                                       
+<TD ALIGN=CENTER>12:02:47</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>03:32:56</TD>                                          
+<TD ALIGN=RIGHT>     22,949,525</TD>                                    
+<TD ALIGN=RIGHT>       523,740</TD>                                     
+<TD ALIGN=RIGHT>     204,333</TD>                                       
+<TD ALIGN=RIGHT>  375.835</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:03</TD>                                                       
+<TD ALIGN=CENTER>08:13:39</TD>                                          
+<TD ALIGN=RIGHT>      61,372,799</TD>                                   
+<TD ALIGN=RIGHT>      1,430,934</TD>                                    
+<TD ALIGN=RIGHT>       546,434</TD>                                     
+<TD ALIGN=RIGHT> 1043.095</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Mon May 31 15:56:17.790 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-8146&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-8146  width='300' align='top'></a></td><td>Shift Lum plot</td></tr></table>
+<!-- Author: Melisa &  Christian -->
+
+
+<!-- Date: Mon May 31 15:57:48.561 2004 -->
+<font color=red>Shift Summary: </font><pre>A quiet shift without the solenoid.  Minimal problems with the system that was turned on.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   183511
+Delivered Luminosity   956  
+Acquired Luminosity    910  
+Efficiency             .95
+   
+</td></tr></table></pre>
+<!-- Author: Lukens -->
+
+

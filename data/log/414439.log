@@ -1,0 +1,527 @@
+<!-- Title: Day shift. Sun Sep 21, 2008 -->
+<!-- SciCo: Rob Roser -->
+<!-- DAQAce: Miguel Vidal -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Fabio Happacher -->
+<!-- OpManager: Massimo Casarsa -->
+<!-- Notes: -->
+<pre>Smooth Data Taking, lum at 91e30, stash at 320e10.  All quiet here</pre>
+
+
+<!-- Date: Sun Sep 21 08:09:26.702 2008 -->
+evb2b went red in active, manual HRR fixed.   
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258' target=_top>267258</a>) -->
+
+
+<!-- Date: Sun Sep 21 08:10:06.464 2008 -->
+L2 Decision TO.  
+auto HRR and manual HRR fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258' target=_top>267258</a>) -->
+
+
+<!-- Date: Sun Sep 21 08:43:53.172 2008 -->
+PLAN from run-co.  They will terminate the store when stash is at 370e10 or so -- probably 10am or there abouts.  They will then go right back into shot setup. 
+  
+<!-- Author: rr :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258' target=_top>267258</a>) -->
+
+
+<!-- Date: Sun Sep 21 08:51:35.485 2008 -->
+Done Timeout detected in crates: 
+PCAL_07 shepherded and fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258' target=_top>267258</a>) -->
+
+
+<!-- Date: Sun Sep 21 09:30:32.122 2008 -->
+CLC HV alarm one second
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258' target=_top>267258</a>) -->
+<!-- Comment: Sun Sep 21 09;36;44 comment by...Miguel -->
+Again
+
+<!-- Comment: Sun Sep 21 09;54;27 comment by...Miguel -->
+Again, this time takes more than 15 sec to recover.
+
+
+<!-- Comment: Sun Sep 21 09;58;40 comment by...Miguel -->
+Again
+<!-- Comment: Sun Sep 21 11;13;46 comment by...Yuri -->
+Updated HV value for one problematic channel. It should fix the problem.
+<!-- Date: Sun Sep 21 09:55:56.184 2008 -->
+MCR Gave us the 15 min warning till EOS.  They also told u s the will be implementing a "4 bump" to reduce the current on one corrector that is close to its trip point.  The change is small enough they feel they can just calculate it.
+<!-- Author: rr :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258' target=_top>267258</a>) -->
+
+
+<!-- Date: Sun Sep 21 10:01:11.768 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258>267258</A>
+ Terminated at 2008.09.21 10:01:04
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Sep 21 10:12:22.072 2008 -->
+cryo tech to reboot silicon pc -- with permission from spl
+<!-- Author: rr -->
+
+
+<!-- Date: Sun Sep 21 10:14:10.427 2008 -->
+TOF HV trip during a few seconds
+<!-- Author: Miguel -->
+
+<!-- Date: Sun Sep 21 10:29:14.887 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267259>267259</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Miguel -->
+
+
+
+<!-- Date: Sun Sep 21 10:29:53.892 2008 -->
+b0pcal11 got stucked during setup in cal qie calibration, phepherded.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267259' target=_top>267259</a>) -->
+
+
+<!-- Date: Sun Sep 21 10:32:41.715 2008 -->
+b0pcal08 got stucked during cal qie calibration, shepherded it.  
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267259' target=_top>267259</a>) -->
+
+<!-- Date: Sun Sep 21 10:34:29.720 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267260>267260</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:35:13.591 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267260>267260</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:36:35.482 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267261>267261</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:36:36.869 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267259>267259</A>
+CALIBRATION: <U><B>calqie</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:38:30.221 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267261>267261</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:38:31.328 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267261>267261</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:41:04.591 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267262>267262</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:41:05.847 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267262>267262</A>
+TERMINATE: Done				
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:41:06.698 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267262>267262</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:45:32.819 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267263>267263</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:45:33.102 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267263>267263</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:45:34.305 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267263>267263</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:47:44.452 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267264>267264</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:47:45.906 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267264>267264</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:51:57.673 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267265>267265</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:52:34.515 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267265>267265</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:53:38.747 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267265>267265</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:54:41.370 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267266>267266</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:54:42.729 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267266>267266</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:56:08.694 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267266>267266</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:56:48.813 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267264>267264</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 10:57:48.187 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267267>267267</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:59:56.928 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267267>267267</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 10:59:57.787 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267267>267267</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Sun Sep 21 11:03:26.705 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267268>267268</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 11:03:27.852 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267268>267268</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 11:05:38.731 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267269>267269</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 11:12:07.215 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267269>267269</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 11:12:42.244 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267269>267269</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+
+
+
+<!-- Date: Sun Sep 21 11:13:43.155 2008 -->
+final protons being loaded
+<!-- Author: rr :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267269' target=_top>267269</a>) -->
+
+
+
+<!-- Date: Sun Sep 21 11:27:23.019 2008 -->
+L3 display is stucked, I can not go to partition I also tried to clear L3 farm and nothing happens.
+<!-- Author: MIguel -->
+<!-- Comment: Sun Sep 21 11;36;08 comment by...rr -->
+Paged DAQ pager
+<!-- Comment: Sun Sep 21 11;49;01 comment by...Miguel -->
+Now everthing is green in the L3 display
+<!-- Comment: Sun Sep 21 12;03;38 comment by...Conor -->
+Looking at the logfiles, the Level3 proxy lost connection to the RTserver at about 10am, and could not reconnect because the client name was not unique. That's probably what caused the original problem where it failed to partition. L3 cleanup was the right thing to do. I'm not sure why the cleanup took so long though. Probably it was having trouble connecting to one of the nodes, but as long as it worked eventually, things should be fine now.
+<!-- Date: Sun Sep 21 11:34:43.730 2008 -->
+unstashing pbars -- paged ops manager and silicon
+<!-- Author: rr -->
+
+
+
+
+<!-- Date: Sun Sep 21 11:54:31.532 2008 -->
+ramping now  315/372 pbars to low beta -- 
+<!-- Author: rr :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267270' target=_top>267270</a>) -->
+
+<!-- Date: Sun Sep 21 11:56:36.622 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267270>267270</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [9,1129,725] 
+<!-- Author: Miguel -->
+
+
+
+<!-- Date: Sun Sep 21 11:59:51.854 2008 -->
+Done TO for crate b0pcal07 shepherded it. Twice
+<!-- Author: Miguell :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267270' target=_top>267270</a>) -->
+
+<!-- Date: Sun Sep 21 12:00:53.113 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267270>267270</A>
+TERMINATE: Done
+<!-- Author: Miguel -->
+
+
+
+
+<!-- Date: Sun Sep 21 12:11:23.190 2008 -->
+mcr calls -- scraping complete
+<!-- Author: rr :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+<!-- Comment: Sun Sep 21 12;12;52 comment by...rr -->
+cdf initial lum 299, d0 at 247 -- whats up with that?
+
+<!-- Comment: Sun Sep 21 12;13;26 comment by...rr -->
+now d0 is at 282 -- hmmm
+
+<!-- Date: Sun Sep 21 12:16:38.879 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273>267273</A>
+ Activated at 2008.09.21 12:16:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Sep 21 12:16:40.242 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273>267273</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [9,1129,725] 
+<!-- Author: Miguel -->
+
+
+
+<!-- Date: Sun Sep 21 12:20:28.736 2008 -->
+Attention !!!. CER_SVXMON_HALT_RECOVER_RUN_ERROR !!!  
+  
+ Pipeline out of synch in 76 silicon readout chips .  
+ 
+Auto HRR
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 12:24:51.072 2008 -->
+<center><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-4898&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-4898' width='300'></a><a href='/cgi/elog/elog.pl?nb=2008&action=view&page=-4899&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2008&action=view&page=-4899' width='300'></a></center>
+<!-- Author: Miguel -->
+
+
+<!-- Date: Sun Sep 21 12:29:43.313 2008 -->
+Crate b0pcal07 got stucked shepherded and HRR twice fixed it
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 12:41:47.857 2008 -->
+Crate b0pcal02 got stucked shepherded it follwed by L2 Decision TO HRR twice.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+<!-- Date: Sun Sep 21 13:01:25.840 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267258>267258</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=267258 target=_runSummary>267258</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Sep 21 13:08:58.380 2008 -->
+Done Timeout detected in crates: 
+CLC_02 auto HRR fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 13:09:50.772 2008 -->
+CER_SVXMON_HALT_RECOVER_RUN_ERROR followed by L2 Decision TO, auto HRR twice.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 13:18:30.344 2008 -->
+Done Timeout detected in crates: 
+IMU_00 
+IMU_01 
+CMU_01 
+CMU_00 
+CMP_00 
+MUON_SCINT_00 
+CMX_00 
+CMX_01 
+HADRON_TIMING_00 
+EM_TIMING_00 
+CLC_02 
+ 
+Auto HRR fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 13:25:20.586 2008 -->
+L2 Decision TO, auto HRR.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+<!-- Comment: Sun Sep 21 15;00;28 comment by...Miguel -->
+Again
+<!-- Date: Sun Sep 21 13:49:24.403 2008 -->
+Done TO and b0pcal01 stucked, shepherded it. 
+Fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 13:52:59.650 2008 -->
+Done Timeout detected in crates: 
+IMU_00 
+Auto HRR fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 13:55:06.776 2008 -->
+Done Timeout detected in crates: 
+PCAL_05 and crate stucked. 
+Shephered it. 
+  
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+
+
+<!-- Date: Sun Sep 21 14:11:26.875 2008 -->
+Done Timeout detected in crates: 
+IMU_01 
+Auto HRR fixed it.
+<!-- Author: Miguel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267273' target=_top>267273</a>) -->
+<!-- Comment: Sun Sep 21 15;22;22 comment by...Miguel -->
+Again
+
+<!-- Date: Sun Sep 21 15:55:07.144 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=267258 target=_runSummary>267258</A> x413FA</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [9,1129,725]</FONT></TD>
+<TD ALIGN=CENTER>21:54:59</TD>
+<TD ALIGN=CENTER>10:01:04</TD>
+<TD ALIGN=CENTER>10:59:52</TD>
+<TD ALIGN=RIGHT>   5,109,367</TD>   <TD ALIGN=RIGHT>  5,768.90</TD>
+<TD ALIGN=RIGHT>  5,166.50</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=267273 target=_runSummary>267273</A> x41409</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [9,1129,725]</FONT></TD>
+<TD ALIGN=CENTER>12:16:32</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>03:15:00</TD>
+<TD ALIGN=RIGHT>   1,850,661</TD>   <TD ALIGN=RIGHT>  2,798.72</TD>
+<TD ALIGN=RIGHT>  2,490.29</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>14:14:52</TD>
+<TD ALIGN=RIGHT>     6,960,028</TD> <TD ALIGN=RIGHT>  8,567.62</TD>
+<TD ALIGN=RIGHT>  7,656.79</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Sep 21 15:55:41.999 2008 -->
+<font color=red>Shift Summary: </font><pre>Took data for 2 hours and MCR intentionally ended the store. 
+ 
+Established a new 4-bump (lattice change) to get one corrector away from its trip point 
+ 
+Shot went in at 299e30 -- We came up smoothly and were taking data with initial lum of 292e30. 
+ 
+Dead time at start of store was 13.5% 
+ 
+Very easy shift -- no problems to speak of.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   
+Delivered Luminosity   3434  
+Acquired Luminosity    3049  
+Efficiency             89
+   
+</td></tr></table></pre>
+<!-- Author: rr -->
+
+
+<!-- Date: Sun Sep 21 16:10:38.817 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4900&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4901  width='300' align='top'></a></td><td>I forward this plot to expert.</td></tr></table>
+<!-- Author: fabio -->
+<!-- Comment: Sun Sep 21 16;57;02 comment by...Min Jeong -->
+<BR><BR>
+I located three additional problems other than the known problem posted in CO Fixlist (PCAL East W03 T13 D01). 
+<BR><BR>
+1. WCAL West W14 T08 <BR>
+2. WCAL East W21 T08 <BR>
+3. PCAL East W03 T13 D00 <BR>
+<BR>
+ 
+So, please make an arrangement to power-cycle WCAL02 and WCAL07 crates between runs and to power-cycle PCAL07 crate at the end of the current store. 
+
+
+<!-- Date: Sun Sep 21 23:57:24.948 2008 -->
+<font color=red>Shift Summary: </font><pre>We took data runs 267273, 267274 and are taking 267275 rather smoothly. 
+WCAL02, WCAL07, and PCAL07 should be power-cycled after the end of current store.   
+One of fans in crate 2R22I should be fixed tomorrow morning.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   267273, 267274, 267275
+Delivered Luminosity   3356 nb-1  
+Acquired Luminosity    2933 nb-1  
+Efficiency             87.4 %
+   
+</td></tr></table></pre>
+<!-- Author: Itsuo -->

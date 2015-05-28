@@ -1,0 +1,491 @@
+<!-- Title: Day shift. Thu Aug  9, 2001 -->
+<!-- SciCo: John Conway -->
+<!-- DAQAce: K. Sato -->
+<!-- MonAce: M. Worcester/M. Riveli -->
+<!-- CO: L. Lyons -->
+<!-- OpManager: J. Dittman -->
+<!-- Notes: -->
+<pre>Shot setup imminent - plan is to run with PHYSICS_0_01[15,169] with stable beams.  </pre>
+
+
+<!-- Date: Thu Aug 9 08:42:37 2001 -->
+Stopped run 123349 to let Jim Patrik reboot all the crates.
+<!-- Author: daq aces -->
+
+
+<!-- Date: Thu Aug 9 09:18:43 2001 -->
+New run, same configuration: all crates but silicon, Physics_0_01[15,169].
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123350' target=_top>123350</a>) -->
+
+
+<!-- Date: Thu Aug 9 10:14:29 2001 -->
+Had IMU Done Timeout a few times continuously.   
+Proton beam loss report from run control appeared at the same time.
+<!-- Author: daq aces -->
+<!-- Comment: Thu Aug  9 10;20;49 comment by...daq aces -->
+This Timeout doesn't stop and several L3 nodes died, ended run 123350 and cleaning up L3 Farm.
+
+
+<!-- Date: Thu Aug 9 10:34:06 2001 -->
+<pre>Hi, 
+ a new version of Error Handler (v1_01) is available and declared current. 
+ 
+Please, when possible, restart RunControl to pick-up this one. 
+ 
+Thanks. 
+ 
+                Donatella( X3986)</pre>
+<!-- Author: Donatella T. -->
+
+
+<!-- Date: Thu Aug 9 10:36:00 2001 -->
+Started new run with same configuration as 123350.
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123351' target=_top>123351</a>) -->
+
+
+<!-- Date: Thu Aug 9 10:36:51 2001 -->
+Before beam we investigated a strange rate on the CLC ACNET page: 
+* The West middle layer was showing a 500 KHz rate 
+We noticed that the full DAQ (w/o SVX) was running so we asked 
+the ACE to pause the run and the rate went away, it came back 
+when the readout was restarted. So this seems to be a noise 
+induced by the DAQ. We then unplugged the flat cable going from 
+the transition board to the coincidence unit and the rate 
+goes away, so the noise comes from the transition board and 
+upstream. We couldn't continue to debug because of the beam 
+in the machine. We will continue when there is no beam. 
+We don't think this will affect the trigger rate because 
+an East/West coincidence is required.
+<!-- Author: Jaco/Sasha/Dmitri -->
+
+
+<!-- Date: Thu Aug 9 10:45:07 2001 -->
+Ended run 123351 to give some crates to Vaia and Karen. 
+Vaia took CCAL00, WCAL00, PCAL00.  
+<!-- Author: daq aces -->
+
+
+<!-- Date: Thu Aug 9 10:51:38 2001 -->
+Restarted RC to pick the new Error Handler v1_01.
+<!-- Author: daq aces -->
+
+
+<!-- Date: Thu Aug 9 10:59:38 2001 -->
+They are injecting anti-protons into TEVATRON.
+<!-- Author: daq aces -->
+
+
+<!-- Date: Thu Aug 9 11:04:26 2001 -->
+<pre>Updated HV settings for TOF, see TOF e-log for details</pre>
+<!-- Author: bauer -->
+
+
+<!-- Date: Thu Aug 9 11:31:10 2001 -->
+<pre>Trying to integrate all of available crates without  
+Go through partition transition, but xft03, 04, and 05 and svx04 
+hang in coldstart transition. 
+Abort, reset and integrate ccal00, pcal00 and wcal00 and trying 
+partition transition. 
+</pre>
+<!-- Author: K. Ikado -->
+
+
+<!-- Date: Thu Aug 9 11:36:54 2001 -->
+Jay hit the reset buttons for XFT03, 04 and 05 downstairs and 
+they are up now. 
+Vaia is rebooting CAL crates.
+<!-- Author: daq aces -->
+<!-- Comment: Thu Aug  9 11;44;24 comment by...daq aces -->
+Vaia has finished.
+Now CLC experts have finished rebooting their crates.
+
+<!-- Date: Thu Aug 9 11:42:15 2001 -->
+Successful store achieved around 11 am - pbar load about 29 mA 
+equivalent - we are nearly ready to take data, BUT: 
+ 
+  - Did not run with Si all night; why not?  We did a test 
+    run to make sure everything works. 
+ 
+  - Calorimeter LER constants were (since the beginning of Run 2) 
+    being loaded into wrong channels.  Code now fixed, and all 
+    calorimter crates rebooted to get the correct loading in.  
+    However, the constants for this store are WRONG and we need 
+    quiet time to fix this. 
+ 
+  - CLC sees funny noise; reboot crate before starting run. 
+ 
+  - Initial L about 5.8e30  
+ 
+Here we go!
+<!-- Author: John -->
+
+
+
+<!-- Date: Thu Aug 9 12:02:38 2001 -->
+CLC having trigger rate problems.  The effect is that all outputs from the coincidence unit show a rate of ~200-400 kHz.  Normally 
+these should be an order of magnitude smaller.  All boards show the same problem.  The hypothesis is that this is a problem with noise in the crate; rebooting the crate did not help.  The measurement of the luminosity may not be affected...still investigating.
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 12:03:55 2001 -->
+<pre>Mario found a problem with the LER values being loaded 
+incorrectly: 
+For example in central calorimetre slot 17 goes to 16, slot 19 goes to 20 
+slot 21 goes to 19, slot 16 goes to 18, slot 18 goes to 17 
+slot 20 goes to 21.  
+This was due to the fact that the configuration message sent 
+to the crate from run control was sending slots in incorrect 
+order and the front end code was not protecting against it. 
+We tried to take care of this in the front end code 
+and rebooted all crates for the code to take effect. 
+Since there was beam in the machine we could not dowload the 
+calibration but we have to do this in the first opportunity 
+of quiet time. 
+The effect is in the order of a few % but there are channels 
+with bigger variations. 
+We need to find out how to correct the dat offline for this change. We havre some thoughts on how to do this.</pre>
+<!-- Author: vaia, mario, frank -->
+
+
+<!-- Date: Thu Aug 9 12:04:30 2001 -->
+Scraping began at 11:44 am, LOSTP rates were about 50 kHz, with spikes to about 100 kHz.  These have gone away but the base rate of losses is still about 50 kHz.
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 12:05:01 2001 -->
+<pre>Please page vaia the next time you have quiet time in order 
+to test this code.</pre>
+<!-- Author: vaia -->
+
+
+<!-- Date: Thu Aug 9 12:06:41 2001 -->
+Scraping nearly complete - but we are having trouble getting DAQ started: crate hangs in silicon.
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 12:12:31 2001 -->
+I just turned off the pulling of CDF_ERROR by the SVT 
+Merger boards (intended to detect XTRP/SVT disagreement), 
+so that we can simply watch the LEDs while taking first 
+runs, without stopping DAQ.  This will take effect on  
+next coldstart.  I can be reached at the SVT pager.
+<!-- Author: Ashmanskas -->
+
+
+<!-- Date: Thu Aug 9 12:23:58 2001 -->
+<pre>Got error message : 
+ 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:12:02:06 PM-&gt;*** Error fetching L3CalibTag info for run 123357                   
+ 
+Check the L3 manager web page. 
+</pre>
+<!-- Author: Koji Ikado :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123357' target=_top>123357</a>) -->
+<!-- Comment: Thu Aug  9 12;37;56 comment by...daq aces -->
+Called Sarah at her office and left a message to come here in
+her voice mail.
+<!-- Date: Thu Aug 9 12:25:57 2001 -->
+2 CLC HV alarms which clear themselves immediately.  CLC experts are working downstairs, but claim they are not responsible for the trips.  Nevertheless, they will investigate.
+<!-- Author: monitoring aces -->
+
+
+<!-- Date: Thu Aug 9 12:27:10 2001 -->
+<pre>Success in starting new run with Physics_0_01[15,169]. 
+Lots of reformatter errors. 
+Waiting for collision starting.</pre>
+<!-- Author: Koji Ikado :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123357.' target=_top>123357.</a>) -->
+
+
+<!-- Date: Thu Aug 9 12:33:05 2001 -->
+MCR calls - the store is ready.  L = 6.0e30, LOSTP is at 
+about 12.5 kHz.  We begin ramping HV, preparing run. 
+  
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 12:35:15 2001 -->
+<pre>MCR calls. 
+Stop the run. Reset luminosity for new store. 
+Try to start new run for taking collision data.</pre>
+<!-- Author: Koji Ikado -->
+
+
+
+<!-- Date: Thu Aug 9 12:40:30 2001 -->
+<pre>Same error message in cold start transition : 
+ 
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:12:38:48 PM-&gt;*** Error fetching L3CalibTag info for run 123358  </pre>
+<!-- Author: Koji Ikado :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123358' target=_top>123358</a>) -->
+<!-- Comment: Thu Aug  9 12;42;32 comment by...patrick -->
+<pre>The L3 manager log file
+/cdf/code-level3/test_events/errlog/calib_sets/calib+123358.log
+contains:
+
+
+         Error Log established
+          9-Aug-2001 12:38:38
+
+         =======================================================
+
+%ERLOG-e DBFAIL: Failure to create ValidSet for  L3_PHYSICS_CDF
+         db =  write
+         return code =  Zero Length Container input to put() JobsetBuilder
+          9-Aug-2001 12:38:38
+Database write failed: Zero Length Container input to put()
+2) Getting the latest jobset # to load
+
+        JOBSET =
+
+3) Exporting this jobset # from ORACLE into a text database
+
+    Removing SET_RUN_MAPS files before export
+Usage: /cdf/people1/level3/tar_balls/calib-exe/bin-calib/221/Linux2-</pre>
+
+
+<!-- Date: Thu Aug 9 12:49:27 2001 -->
+All HV up - we attempt to run but get done timeout errors...ACEs (and J. Patrick) on the scene.
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 12:50:09 2001 -->
+Audible TOF alarm, but no error shows up anywhere in IFIX.
+<!-- Author: monitoring aces -->
+<!-- Comment: Thu Aug  9 12;58;24 comment by...monitoring aces -->
+TOF expert working downstairs says it should be okay.
+<!-- Date: Thu Aug 9 12:53:53 2001 -->
+<pre>Got many DTO from IMU01. 
+HRR does not help us. 
+End the run after 6977 events taken. 
+Clean up EVB.</pre>
+<!-- Author: Koji Ikado :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123358' target=_top>123358</a>) -->
+<!-- Comment: Thu Aug  9 12;55;28 comment by...daq aces -->
+Paged IMU expert.
+
+
+
+<!-- Comment: Thu Aug  9 13;14;45 comment by...Koji S -->
+IMU expert calls.
+He says he's not sure he can fix it.
+E-mailed Eric James as told by the expert.
+<!-- Comment: Fri Aug 10 07;35;33 comment by...Boris.  -->
+<pre>No need to clean up EVB if you have DONE TO. </pre>
+<!-- Date: Thu Aug 9 13:09:14 2001 -->
+Multiple CLC alarms.  HV is off and experts are working on the system, so we do nothing.
+<!-- Author: monitoring aces -->
+
+
+<!-- Date: Thu Aug 9 13:10:40 2001 -->
+COT layer 1 HV tripped.  We reset it.
+<!-- Author: monitoring aces -->
+
+
+<!-- Date: Thu Aug 9 13:13:24 2001 -->
+Starting a new run excluding IMU01-slot14 which has been  
+Done timed out for many times in previous run. 
+ 
+We got the same L3calibtag error this time in coldstart. 
+ 
+COT tripped and after that CLC wants us to wait. so holding  
+ready state.  
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123359' target=_top>123359</a>) -->
+<!-- Comment: Thu Aug  9 13;24;40 comment by...Koji S -->
+Started running after CLC got ready.
+It ran without any error for one minute and we got Busy Timeout
+from VRB_SVX02.
+
+
+
+<!-- Date: Thu Aug 9 13:27:08 2001 -->
+Pause the DAQ for flying wires.
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123359' target=_top>123359</a>) -->
+<!-- Comment: Thu Aug  9 13;36;44 comment by...daq aces -->
+Restart DAQ after flying wire gone.
+
+
+<!-- Date: Thu Aug 9 13:44:16 2001 -->
+PSM alarm - crate CONWB_3 channel 3 analog voltage at 0.9 V. 
+We run with the alarm condition anyway... 
+ 
+Paged cal. front end pager - R. Erbacher says we are getting junk data; we will get expert in soon to debug.
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 13:55:43 2001 -->
+End run 123359 because Farrukh reports that the calibrations were loaded incorrectly into level 3.  The error message associated with this problem was reported <a href= 
+'/cgi/elog/elog.pl?nb=2001&action=view&page=561&frame=2&anchor=12:40:30'>earlier</a>.  Farrukh should have fixed the problem, but a coldstart is necessary to pick up the correct calibration information.
+<!-- Author: daq aces -->
+<!-- Comment: Thu Aug  9 14;07;56 comment by...daq aces -->
+After loading newly L3 database, Coldstart failed (fib04 didn't
+come up and we went to ERROR state).
+Aborted the run (123360).
+<!-- Date: Thu Aug 9 14:01:05 2001 -->
+Run control out of memory.  Kill it and start anew.
+<!-- Author: daq aces -->
+
+
+<!-- Date: Thu Aug 9 14:04:24 2001 -->
+<pre>Dead time was ~10% at a rate of 200 Hz. This was entirely 
+due to readout of b0htdc00 crate. Times of &gt; 8ms were 
+observed on the return crosspoint monitor. (Should be &lt; 1ms). 
+Bus reset crate in unlikely event this helps flaky TDCs.</pre>
+<!-- Author: patrick + meyer :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123360' target=_top>123360</a>) -->
+
+
+
+<!-- Date: Thu Aug 9 14:13:13 2001 -->
+<br><b>b0wcal03, PEI fault:</b> 
+<br>PEI faulted at 13:21 or within the previous 10 minutes.  Power cycled the 400 Hz for the West endwall.  Additional details 
+may be found in the wedge e-log. 
+<br>
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Wed Jul 31 07;26;30 comment by...R.J. Tesarek -->
+<pre>Notes for future searches: 
+PEI fault, b0wcal03,CONEB-3, +5V analog</pre>
+<!-- Comment: Wed Jul 31 07;27;08 comment by...RJT -->
+coneb-3 should be conwb-3
+<!-- Date: Thu Aug 9 14:17:26 2001 -->
+<pre>Resetting b0htdc00 seemed to help. Dead time now 0.1% 
+at rate of ~220 Hz.</pre>
+<!-- Author: patrick + meyer :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123361' target=_top>123361</a>) -->
+
+
+<!-- Date: Thu Aug 9 14:17:30 2001 -->
+Started a new run after L3 experts are done loading a valid  
+table. 
+Still missing MI01_slot14
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=122361' target=_top>122361</a>) -->
+
+
+<!-- Date: Thu Aug 9 14:19:58 2001 -->
+Got a Busy Timeout from VRB_SVX_02.  Hit HRR button and recovered.
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123361' target=_top>123361</a>) -->
+<!-- Comment: Thu Aug  9 14;22;13 comment by...daq aces -->
+Got Busy Timeout from the same crate.  
+
+
+<!-- Date: Thu Aug 9 14:25:52 2001 -->
+R Tesarek recommends power cycling end wall crates to fix CONWB_3 analog power trip.  As we are at the beginning of a DAQ run  restart anyway, we wait for him to do this.  
+<!-- Author: John -->
+
+
+<!-- Date: Thu Aug 9 14:34:31 2001 -->
+Attempting to run through flying wire results in a CMP HV trip in South Wall, Top, and North Wall.  Reset is successful.
+<!-- Author: monitoring aces -->
+
+
+<!-- Date: Thu Aug 9 14:47:02 2001 -->
+Quited run to give away west end wall crates to Rick Tesarek.
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123361' target=_top>123361</a>) -->
+
+
+<!-- Date: Thu Aug 9 15:14:07 2001 -->
+Taking data after CSL rebooted by expert. 
+Without west WCALs which are kept by Rick.  
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123363' target=_top>123363</a>) -->
+
+
+<!-- Date: Thu Aug 9 15:26:59 2001 -->
+Ended run and restarted RC.  
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER= 123363' target=_top> 123363</a>) -->
+
+
+<!-- Date: Thu Aug 9 15:29:49 2001 -->
+Flying wire.  COT and CMP on standby.
+<!-- Author: monitoring ace -->
+<!-- Comment: Thu Aug  9 15;36;18 comment by...monitoring ace -->
+Return COT and CMP HV to on.
+
+
+<!-- Date: Thu Aug 9 15:40:03 2001 -->
+<b> Request from COT experts </b> 
+<p> 
+Will monitoring aces please note run and event number when COT HV trips occur.  This will save them several extra days of work looking for the problem.
+<!-- Author: monitoring ace -->
+
+
+<!-- Date: Thu Aug 9 15:42:03 2001 -->
+CMX HV alarm: wedge 6.  Reset it.
+<!-- Author: monitoring ace -->
+<!-- Comment: Thu Aug  9 15;46;34 comment by...monitoring aces -->
+Trips on its way back up.  We reset it again.  It trips on its way back up.  Set to standby and page CMX experts.
+
+
+<!-- Comment: Thu Aug  9 16;21;53 comment by...Abraham -->
+<pre>
+    at ~3:50PM I decreased a little bit the anode HV and it seems 
+    to be ok. </pre>
+<!-- Date: Thu Aug 9 15:49:22 2001 -->
+Starting a new run. 
+We don't include WCAL03, which have LV supply unrecovered. 
+ 
+At the beginning of this run we're pausing DAQ every hundreds  
+of events for CLC study.  
+<!-- Author: daq aces :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=123366' target=_top>123366</a>) -->
+
+
+<!-- Date: Thu Aug 9 15:50:16 2001 -->
+<br><b>b0wcal03, Power Supply problems:</b> 
+<br>After several attempts to resurrect the PEI power supply 
+for the above crate, I've been unable to recover the +5 analog 
+voltage.  We would need a 1 hr access for evaluate the supply 
+further or a 2 hr access to swap the supply.  The crew to be 
+notified for evaluation or swap are: 
+<ul> 
+ <li>R.J.Tesarek</li> 
+ <li>M.Jones</li> 
+ <li>F.Lewis</li> 
+</ul> 
+Details about the supply may be found in the <a href="/cgi/elog/det-system-elog.pl?nb=wedge&action=copyentry&page=68&time=15:45:51">wedge e-log</a>.
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Thu Aug 9 15:52:05 2001 -->
+CPR HV trip, bottom SW east.  Reset it.
+<!-- Author: monitoring aces -->
+
+
+<!-- Date: Thu Aug 9 16:04:42 2001 -->
+<font color=red>Shift Summary: </font><pre> 
+Shift began with shot setup.  By 10:00 am or so the machine had 
+a complete set of proton bunches, and by 11:00 am a full set of 
+antiproton bunches (total pbar load initially 330 e9 on the  
+monitor.) 
+ 
+CLC saw what they thought were very high rates (200 kHz, about 10x normal).  They began investigating, taking down the CLC HV and checking crate power, etc.  Ultimately they could find no obvious problem, and the CLC seems to report sensible luminosities. 
+ 
+Scraping began at 11:15 and lasted about 1 hour, at the end of which the luminosity was about 5e30 (saw 6e30 on display - this seems to have been transient.)  Losses were about 12 kHz/6 kHz.   
+ 
+We began to run, or try to.  There were multiple problems with the DAQ, stemming from a flaky IMU TDC and timeouts.  During run start a L3 error appeared (Error fetching L3CalibTag) which was debugged later. 
+ 
+Meanwhile the calorimeter group determined the error with LER constant loading, and tested revised code with a few crates.  In order to have the correct LER values a ful quiet time calibration is needed, and should/will be done at the next available opportunity. 
+ 
+At about 1:30 pm a PSM error appeared, and traced to a 5V analog supply failure in CONWB_3, channel 3.  The calorimeter expert cycled the 400 Hz supply to this end wall, but failed to revive the PS.  Further investigations led to the conclusion that this PS needs an access to replace it. 
+ 
+There were a litany of DAQ problems: reformatter errors, done timeouts, crate hangs ...without one endwall we get about 200 Hz, withj 10% deadtime using the PHYSICS_0_01[15,169] trigger table. 
+ 
+BSC people worked on timing. </pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   123359-123363
+Delivered Luminosity     
+Acquired Luminosity      
+Efficiency             
+   
+</td></tr></table></pre>
+<!-- Author: John -->
+<!-- Comment: Thu Aug  9 17;03;25 comment by...Jaco -->
+After further review, the CLC trigger rates were OK and in the right ratio to the measured Luminosity (was a silly mistake in
+the calculation, sorry). We did have an unusual rate when no
+beam was present and the DAQ was running. We will pursue this
+when there is no beam in the machine.
+
+
+<!-- Date: Thu Aug 9 16:08:39 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1815&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1815  width='300' align='top'></td><td>Shift summary of beam loss and luminosity.</a></td></tr></table>
+<!-- Author: monitoring aces -->
+
+
+
+
+

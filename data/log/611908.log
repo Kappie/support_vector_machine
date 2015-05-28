@@ -1,0 +1,486 @@
+<!-- Title: Day shift. Tue Jan 14, 2003 -->
+<!-- SciCo: Bill Foster -->
+<!-- DAQAce: Hirokazu Kobayashi -->
+<!-- MonAce: Chun Lin -->
+<!-- CO: nonesuch -->
+<!-- OpManager: Matthew Jones -->
+<!-- Notes: -->
+<pre>Access Continues...</pre>
+
+
+<!-- Date: Tue Jan 14 08:33:01 2003 -->
+We try to take the calibration. 
+We start the quiet time calibration first but maybe we cannot check the calibration because DB is not available.  
+<!-- Author: Hiro/Chun -->
+<!-- Comment: Tue Jan 14 08;36;15 comment by...Hiro/Chun -->
+<br>
+The run number also dosen't show up in e-log because DB is not available.
+
+
+<!-- Date: Tue Jan 14 08:38:30 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Calib done: 
+ 
+CAL QIE 
+CLC QIE 
+TOF QIE 
+TOF TAC 
+BSC QIE</td></tr></td></table>
+<!-- Author: Chun/Hiro -->
+<!-- Comment: Tue Jan 14 08;40;16 comment by...chun/hiro -->
+<pre>clicked on the wrong format</pre>
+<!-- Comment: Tue Jan 14 08;51;15 comment by...Hiro/Chun -->
+<br>
+Many HV access is underway...<br>
+HV status are following.<br>
+COT :OFF<br>
+TOF :OFF<br>
+L00,SVX,ISL :OFF<br>
+CMU,CMP :OFF<br>
+CMX :SE 16,17 only ON<br>
+BMU,CES,CPR,CCR :OFF<br>
+CSW :ON<br>
+MSK :OFF<br>
+CSX,CSP,BSU,TSU :ON<br>
+CEM,CHA,WHA :ON<br>
+PEM,PHA,PSH :OFF<br>
+GAM :???<br>
+CLC,MNP,BSC,RPS :OFF<br>
+<!-- Date: Tue Jan 14 08:38:32 2003 -->
+<pre>Motor generator 2 will be turned off momentarily.  We will not 
+have power to the west enwall, west central and west plug crates 
+until the work is finished.  It should be back later this 
+afternoon.</pre>
+<!-- Author: M Jones -->
+
+
+
+
+<!-- Date: Tue Jan 14 08:55:20 2003 -->
+<pre>Current state of iFix: 
+ 
+Red: PSM, GAM, PEM/PHA/PSH</pre>
+<!-- Author: Chun/Hiro -->
+
+
+<!-- Date: Tue Jan 14 09:11:13 2003 -->
+<br> 
+I also tried to take CALLED,SMXR and MUON calibration to execise DAQ system.<br> 
+But I cannot take CALED and SMXR calibration<br> 
+because CCAL00-07,PCAL00-05 and WCAL00-03 was not available.
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 09:20:56 2003 -->
+Cryo called; maintenance of node S3 (now) and S2 (soon) will cause data access errors/alarms which should be ignored.
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Tue Jan 14 09:26:03 2003 -->
+<br> 
+I switched to cosmics run to execise DAQ system.<br> 
+The following crate is left out.<br> 
+CCAL<br> 
+PCAL00-05<br> 
+WCAL<br> 
+COT01,03,08,09,18 and 19<br>  
+<!-- Author: Hiro -->
+<!-- Comment: Tue Jan 14 10;12;24 comment by...Hiro -->
+And also SVT03 and SVT07 
+<!-- Date: Tue Jan 14 09:36:11 2003 -->
+I released L3 and Hardware EVB for L3's work.
+<!-- Author: Hiro -->
+<!-- Comment: Tue Jan 14 09;42;00 comment by...Hiro -->
+<table border=0><td><tr><td bgcolor=#e0e030>L3 will be OFF several hours...</td></tr></td></table>
+
+
+<!-- Date: Tue Jan 14 09:44:18 2003 -->
+<br><b>TLD Harvest:</b> 
+<br> Harvested TLDs from the east plug face.  The only remaining 
+dosimeters in the collision hall are those located on the silicon  
+space tubes.  These are scheduled to be removed on 1/25. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Tue Jan 14 09:53:44 2003 -->
+RF signals (including 53 MHz and Cable TV) coming and going sporadically.  If work is being done on these systems, beam timing may be suspect when we come up from shutdown.
+<!-- Author: gwfoster -->
+
+
+<!-- Date: Tue Jan 14 09:54:13 2003 -->
+<table><tr><td><a href=/elog/notebooks/2003/Tue_Jan_14_2003_Day.095404.ps align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-749  align='top'></td><td>PMT Spike rates measured over the past year.  The spike rates measured before the shutdownw were ~68Hz.  During the shutdown, we expect the rates to double until the collision hall is closed for a day with the blowers on.</a></td></tr></table>
+<!-- Author: R.J. Tesarek -->
+
+
+
+<!-- Date: Tue Jan 14 10:34:47 2003 -->
+Tev is changing the clock timing. RC is complaining about fatal clock error every 2 minutes.  
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 10:34:54 2003 -->
+All  
+ 
+We are experiencing some o/s issues with:  
+ 
+    machine:  fcdfora1  
+    instance: cdfofprd  
+ 
+This machine is unstable.  
+ 
+This machine will be rebooted at 1:00 p.m.  
+  
+<!-- Author: nstanfield/rjetton -->
+<!-- Comment: Tue Jan 14 11;37;39 comment by...ns -->
+3pm  vs 1pm............reboot at 3pm....
+<!-- Date: Tue Jan 14 10:35:01 2003 -->
+<pre>Checked on leftover issues from yesterday's logbook: 
+ 
+- Dan Cyr enroute to continue campaign against TDCs in b0cot03 
+  (was defeated yesterday by some combination of database and 
+   PROM programming procedures; no reading yet on whether there 
+   are actual hardware problems) 
+ 
+- b0svt03 and b0svt07 are indeed still down, not expected to be 
+  resurrected until after end of work continuing today. 
+ 
+have extracted promises of logbook entries from those concerned.</pre>
+<!-- Author: Bill Foster -->
+<!-- Comment: Wed Jan 15 12;32;19 comment by...Marco  -->
+b0svt03/b0svt07 fixed today (Jan 15) by power/cycling & reseating few boards.
+<!-- Date: Tue Jan 14 10:35:07 2003 -->
+turning off SE miniskirt of CMX.
+<!-- Author: Phil Schlabach -->
+<!-- Comment: Tue Jan 14 10;38;24 comment by...ps -->
+It appears to have stayed on since, I turned it on at 1730 yesterday.
+<!-- Date: Tue Jan 14 10:35:09 2003 -->
+Marcin Walter is working on PSM. 
+So I'll ignore the alarm from PSM.
+<!-- Author: Hiro -->
+
+
+
+<!-- Date: Tue Jan 14 11:00:07 2003 -->
+Jane Nachtman is working on new RTServer for SmartSocket connection.
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 11:10:53 2003 -->
+ProcMon was complaining about CSL PARTITION 14 process. 
+I checked partition 14 event sender on b0dap60. 
+It stopped,so I started again.
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 11:25:23 2003 -->
+<pre>Try a cosmics run, the crates with problems are: 
+ccal 00-07 
+cot 01, 10-12 
+pcal 00-05 
+svt 03, 07 
+wcal 00-05 
+ 
+clock error windows frequently pop out.</pre>
+<!-- Author: Chun/Hiro -->
+<!-- Comment: Tue Jan 14 11;37;41 comment by...Hiro -->
+<br>
+TRACER board on COT and calorimeter crates is replacing today.<br>
+But we didn't know about svt03 and svt07.<br>
+
+
+
+<!-- Comment: Tue Jan 14 11;39;16 comment by...Chun -->
+<pre>Removed the crates above (which have problem during partition), then do coldstart. Two crates have problems.
+
+b0musc00: resetting card in slot 11 failed
+b0wcal06: ID PROM check failure in slot 2, slot 5 and slot 16
+
+</pre>
+
+<!-- Comment: Tue Jan 14 11;49;41 comment by...Hiro -->
+Bill Foster already confirmed about these crate to svt expert, they'll fix these crate.
+
+
+<!-- Comment: Tue Jan 14 13;00;56 comment by...Chun/Hiro -->
+<pre>cot 10-12, b0musc00 have been fixed.</pre>
+<!-- Date: Tue Jan 14 12:02:54 2003 -->
+Have just put CDF clock into "free run" (using internal oscillator) mode instead of "RF-Lock" (a.k.a. "Freq Lock") mode.  SVX/SVT would prefer the latter, but RF no longer appears to be delivered reliably in the 150-1000 GeV range; we were getting repeated "RF Missing" errors.
+<!-- Author: Steve Hahn -->
+<!-- Comment: Tue Jan 14 12;06;48 comment by...Steve Hahn -->
+Since ACnet is down due to controls work today, cannot check T:ERING to see state of TeV RF.  Called MCR, they are trying to put together a schedule for us to know when we can return to "Freq Lock" mode.
+
+
+<!-- Date: Tue Jan 14 12:14:50 2003 -->
+<pre>MCR called back with info on 53 MHz clock interruptions. 
+They were replacing a failed power supply & should be done now. 
+If more info is needed, the TV group can be contacted x4073.</pre>
+<!-- Author: GW Foster -->
+
+
+<!-- Date: Tue Jan 14 12:35:30 2003 -->
+Error Handler (EH) has been updated ( v1_08 ) with a fix to the freezing of the display, among other things. 
+When convenient, please close the current EH and start a new EH  from RC Partitioning Menu to pick up the latest version v1_08. 
+ 
+Please report any problems. Thanks.
+<!-- Author: Donatella T. -->
+
+
+<!-- Date: Tue Jan 14 12:49:12 2003 -->
+<pre>TDC Update : 
+ 
+COT03 slot 13 Serial# 525 failed all attempts to recover (reseating - reprogramming frams). Replaced with spare from diag crate serial# 157 
+ 
+COT04 : Jimmy, all cards were visually verified to be LVDS. 
+CMX01 : reprogrammed slot 13 - ran 10 runs, without failing to cold-start.  
+ 
+MUSC00 : Slot 11 was giving cold-start problems. Reseating+Reprogramming and chanting in front of crate appears to have resurrected this card.  
+ 
+At this point - I think all TDCs are working! 
+</pre>
+<!-- Author: dan -->
+
+
+
+<!-- Date: Tue Jan 14 13:17:09 2003 -->
+<br> 
+The following crates are not availalbe now.<br> 
+CCAL00-07<br> 
+COT01<br> 
+PCAL00-05<br> 
+SVT03,07<br> 
+WCAL00-03<br> 
+and<br> 
+WCAL06 doesn't pass coldstart . <br>
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 13:21:10 2003 -->
+Koji took FCAL00 and FCAL01 crates
+<!-- Author: Hiro -->
+<!-- Comment: Tue Jan 14 15;07;15 comment by...Hiro -->
+He released FCAL crates.
+<!-- Date: Tue Jan 14 13:23:46 2003 -->
+<p>Willis and I worked on improving the plug HV situation.  We tried rebooting and removing power at the plug several times each on CAENs 10 and 12, without success.  Then we replaced bad CAEN card in slot 9 in CAEN 8.  Reconfiguring at CDFEPHV on the 3rd floor and restarting, CAEN 8 came back.  Also, to our surprise, CAEN 12 also came back.  CAEN 10 continues to be unresponsive.
+<!-- Author: Steve Hahn -->
+<!-- Comment: Tue Jan 14 17;27;22 comment by...Howard Budd, Willis -->
+Plug CAEN crate 10 will have to be replaced. It is not clear
+what is wrong -- no error lights show up on the front panel.
+We unplugged all the hv modules to see if one of them is pulling
+the supply voltage down, but the crate still does not boot
+up normally.
+<!-- Date: Tue Jan 14 13:24:34 2003 -->
+<pre>PEI power supplies in upper WCAL crates in NW and SW corners 
+went into fault state after the 400 Hz power was restored. 
+Asking the Cryo guys to cycle 400 Hz power to bring them back.</pre>
+<!-- Author: M Jones -->
+<!-- Comment: Tue Jan 14 13;30;01 comment by...M Jones -->
+<pre>The upper north west PEI power supply came back but not the
+one in the upper south west rack.  b0wcal01 is still in a fault
+state.</pre>
+<!-- Date: Tue Jan 14 13:29:35 2003 -->
+experts are fixing ISL
+<!-- Author: Chun -->
+
+
+
+<!-- Date: Tue Jan 14 13:33:16 2003 -->
+TRACER PROMs will now be replaced in ALL plug and alcove crates. 
+Expect power to be cycled in these crates for the next few hours.
+<!-- Author: M Jones -->
+
+
+<!-- Date: Tue Jan 14 13:41:59 2003 -->
+<p>Tried to put CDF clock back into "Freq Lock" mode, but despite <a href= 
+'/cgi/elog/elog.pl?nb=2003&action=view&page=41&frame=2&anchor=12:14:50'>MCR assurances</a> we still are getting "Sync Timing" errors on the PCC.  So I had to put the clock back into "Free Run" mode.  I suspect the TeV RF is there but below 150 GeV; I can only suspect this since we have no ACnet.</p>
+<!-- Author: Steve Hahn -->
+
+
+<!-- Date: Tue Jan 14 13:49:12 2003 -->
+Steve Hahn adjusted the clock crate. 
+Now it's free run mode.
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 13:56:28 2003 -->
+<pre>COSWB_3 PEI supply has the +5 analog in a fault state.  Someone 
+needs to push the reset button.</pre>
+<!-- Author: M Jones -->
+
+
+<!-- Date: Tue Jan 14 14:18:56 2003 -->
+Greg Field took L1GL, L2GL and scalers.
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 14:24:19 2003 -->
+Experts working on CMP, please leave HV off until further notice.
+<!-- Author: Trevor and Hyunsoo -->
+<!-- Comment: Tue Jan 14 15;03;07 comment by...Trevor and Hyunsoo -->
+<pre>We replaced the preamp in the south-most CMP stack in the Blue-Beam.  P144 in, P074 out.  We're finished with CMP for the
+day.</pre>
+<!-- Comment: Tue Jan 14 17;38;48 comment by...Lucio -->
+In addition, preamps in stacks SW47 (dead channel) and SW41
+ (noise) have also been changed
+<!-- Date: Tue Jan 14 14:34:47 2003 -->
+MCR called; the 53MHz and RF and TV will be off for the next 5 mins while a power supply is being replaced.
+<!-- Author: Bill FOster -->
+
+
+<!-- Date: Tue Jan 14 14:35:12 2003 -->
+The clock will be down again for 5-4 minute.
+<!-- Author: Hiro -->
+
+
+<!-- Date: Tue Jan 14 14:37:55 2003 -->
+Steve Hahn and Sons are changing out "approximtely half of the VME processors in the plug".
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Tue Jan 14 14:42:11 2003 -->
+Steve Hahn'll access the plug so please don't use PCAL crates.
+<!-- Author: Hiro -->
+
+
+
+
+<!-- Date: Tue Jan 14 15:13:48 2003 -->
+COSWB-3 PEI  +5VA has tripped twiced within the last hour. Power supply should be replaced before friday. 
+Roberto Davila 
+  
+<!-- Author: Roberto Davila -->
+
+
+<!-- Date: Tue Jan 14 15:14:31 2003 -->
+air conditioning works too well - control room is freezing ...
+<!-- Author: chun -->
+
+
+<!-- Date: Tue Jan 14 15:18:33 2003 -->
+Tested new version of transition boards for the miniplug using east alcove crate. Checked pedestals using qietest, then took QIE calibration runs. We could not check results in DBANA due to database problem, but all new boards looked working well. We also took LED calibration runs to check the performance of the boards with detector signal. We are done for today's access.
+<!-- Author: K. Terashi, M. Convery -->
+
+
+<!-- Date: Tue Jan 14 15:21:24 2003 -->
+Todays work by the operations crew included prom replacement (u12) on all tracers in the collision hall with the exception of the west end plug crates. These will be done tomorrow. Inventory was done on all crates that had tracers updated with the exception of west end plug crates. Inventory also needs to be completed on svx crates (no tracers there).
+<!-- Author: Patrick Liston -->
+
+
+<!-- Date: Tue Jan 14 15:22:23 2003 -->
+<pre>It is a scientific, verifiable fact that human performance on IQ tests 
+is maximized at approximtely 50 degrees Farenheit ambient temperature. 
+ </pre>
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Tue Jan 14 15:22:37 2003 -->
+<pre>Current state of iFix:  
+ 
+Red: ISL, PSM, GAM 
+Grey: PEM/PHA/PSH, MSK</pre>
+<!-- Author: Chun -->
+
+
+<!-- Date: Tue Jan 14 15:24:32 2003 -->
+Lucio Cerrito is working on CMP,so we can ignore the alarm from it.
+<!-- Author: Hiro -->
+<!-- Comment: Tue Jan 14 17;39;36 comment by...Lucio -->
+I'm done
+<!-- Date: Tue Jan 14 15:29:01 2003 -->
+We (Jim Patrick, Jane Nachtman) tested the new RTserver on b0dap73.  Tests of java clients and limited vxworks clients were successful.  The RTserver is now running on b0dap73 in parallel with the RTserver on b0dau30 although everything should still connect to the RTserver on b0dau30.
+<!-- Author: J. Nachtman -->
+
+
+<!-- Date: Tue Jan 14 15:31:46 2003 -->
+Steve Hahn & Friends will be done swapping out VME CPUs in the plug crates in a few minutes, and will begin having their way with the COT crates.  Absolutely nothing can go wrong.
+<!-- Author: GW Foster -->
+
+
+<!-- Date: Tue Jan 14 15:32:10 2003 -->
+<pre>Current High Voltage Summary: 
+ 
+OFF: COT, TOF, L00, SVX, ISL, CMU, CMP, CMX, BMU, CES, CPR, CCR, MSK, CEM, PEM/PHA/PSH, CLC, MNP, BSC, RPS 
+ON:  CSW, CSX, CSP, BSU, TSU, CHA, WHA  
+ 
+Red: GAM</pre>
+<!-- Author: Chun -->
+
+
+<!-- Date: Tue Jan 14 15:48:22 2003 -->
+Re: TRACER BOARDS, All of the tracer boards in the collision hall but the WEST PLUG had IC-U12 replaced. Please someone check the tracer boards that have been upgraded for proper communication.   
+<!-- Author: Roberto Davila -->
+
+
+<!-- Date: Tue Jan 14 15:53:36 2003 -->
+<br> 
+CCU14 and CCU07 turned yellow(unreadable).<br> 
+I sent email to Oleg according to the instruction.<br>  
+<!-- Author: Hiro -->
+
+<!-- Date: Tue Jan 14 15:55:16 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Jan 14 16:00:04 2003 -->
+<font color=red>Shift Summary: </font><pre>Selected Highlights: 
+ 
+0) VME CPUs and Tracer Proms have been changed on many boards in the pit (see log); 
+	the system should be fully exercised when the dust settles. 
+1) +5V analog supply on COSWB-3 PEI +5VA has repeated tripped and needs replacing 
+2) It is cold as hell and getting colder in the control room.  The crew from Johnson  
+    Controls has supposedly been here most of the afternoon without results. 
+3) The 53 MHz clock (and TV) came and went several times this shift.  The explanation 
+      from MCR is that power supplies were being swapped out. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   -
+Delivered Luminosity   -  
+Acquired Luminosity    -  
+Efficiency             -
+   
+</td></tr></table></pre>
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Tue Jan 14 16:02:39 2003 -->
+Alex Pronko took CLC00 crate and he brought up CLC HV.
+<!-- Author: Hiro -->
+<!-- Comment: Tue Jan 14 16;07;32 comment by...Hiro -->
+He released CLC00 crate.
+
+
+
+

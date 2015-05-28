@@ -1,0 +1,453 @@
+<!-- Title: 14:28:15  Fri Apr 12 2002 -->
+<!-- Crewchief: fkw -->
+<!-- Op1: lweems -->
+<!-- Op2: thkim -->
+<!-- Op3: msn -->
+<!-- Op4: rjetton -->
+<!-- Op5: casarsa/pinazza/sfilig -->
+<!-- Op6: kreymer -->
+<!-- Notes: -->
+<pre>CAF commissioning and operations</pre>
+
+
+<!-- Date: Fri Apr 12 14:33:54 2002 -->
+<pre>Started the CAF e-log. This elog is meant to be used 
+to record all CAF maintenance operations. This includes, 
+among others: 
+ 
+- upgrades of infrastructure software, incl. fbsng 
+- addition of new cdfsoft releases to protoCAF 
+- any maintenance on any hardware equipment 
+- adding new users 
+- problems encountered that needs to be resolved 
+- anything else anybody can think of 
+ 
+Enjoy, fkw</pre>
+<!-- Author: fkw -->
+
+
+<!-- Date: Mon Apr 15 09:57:51 2002 -->
+<pre>Added sfiligoi@FNAL.GOV into  
+b0cafsrv01.fnal.gov:~cdfcaf/.k5login 
+to enable Igor to do imap development using the  
+service principal cdfcaf/b0cafsrv01.fnal.gov@FNAL.GOV 
+ 
+</pre>
+<!-- Author: fkw -->
+
+
+<!-- Date: Tue Apr 16 17:51:43 2002 -->
+<pre>Added cerri queue</pre>
+<!-- Author: fkw -->
+
+
+<!-- Date: Thu Apr 18 22:46:52 2002 -->
+<pre>Made number of minor changes to CafUtil: 
+ 
+(1) added scripts CafUtil/cdf_gui/bdir and bjobs 
+    to simplify usage of these two. This was prompted by 
+    user having trouble today. Starting tomorrow 
+    these scripts will be in the bin area for development. 
+(2) Updated CafUtil/doc/UserGuide.ps to document 
+    (1) as well as a bunch of other little things. 
+    E.g. example how to use bdir to see what versions of cdfsoft 
+    are installed on protoCAF. 
+ 
+ 
+</pre>
+<!-- Author: fkw -->
+
+
+<!-- Date: Thu May 2 00:42:22 2002 -->
+<pre>    All my jobs that are scheduled to run on the nodes with low number 
+    fail. E.g. fcdfcaf001, 002, 003, 004, 005, 006, 007, 008 
+    I believe this is because the DNS lookup isn't working. 
+    As I can ping these nodes but can't log into them: 
+ 
+&gt; ssh cdfcaf@131.225.240.55 
+Could not reverse map address 131.225.240.55. 
+Permission denied. 
+&gt; ping 131.225.240.55 
+PING 131.225.240.55 (131.225.240.55): 56 data bytes 
+64 bytes from 131.225.240.55: icmp_seq=0 ttl=254 time=2.8 ms 
+64 bytes from 131.225.240.55: icmp_seq=1 ttl=254 time=0.2 ms 
+ 
+--- 131.225.240.55 ping statistics --- 
+2 packets transmitted, 2 packets received, 0% packet loss 
+round-trip min/avg/max = 0.2/1.5/2.8 ms 
+&gt; ping fcdfcaf005 
+ping: unknown host fcdfcaf005 
+&gt; ping fcdfcaf005.fnal.gov 
+ping: unknown host fcdfcaf005.fnal.gov 
+ 
+ 
+I decided to hold all 8 of them for now. 
+ 
+-frank 
+</pre>
+<!-- Author: fkw -->
+
+
+<!-- Date: Mon May 6 13:02:03 2002 -->
+<pre>Below are some notes on the file server burn-in: 
+ 
+Burn-in of first five file servers currently named  
+"fcdfdata004-008". Burn-in procedure is to excercise system as 
+shipped by ASA with bonnie++. This is run on the three separete 
+Raid5 volumes (/, /raid1, raid5) with (under bash): 
+ 
+./bonnie++ -d / -u0:0 -x1000000 &gt; root.log 2&gt;&1 & 
+./bonnie++ -d /raid1 -u0:0 -x1000000 &gt; raid1.log 2&gt;&1 & 
+./bonnie++ -d /raid2 -u0:0 -x1000000 &gt; raid2.log 2&gt;&1 & 
+ 
+In addition to nearly continual disk activity, these three 
+threads also produce moderate-to-high load on the CPUs (60-100% 
+CPU utiliZation, load avg ~5) 
+ 
+This was started late Friday (5/3/02) after noon (after 5pm, not  
+sure of exact time). Checked at noon on Monday (5/6/02) where I 
+found: 
+ 
+1) All disks OK in raid arrays according to 3dm utility (view w/ 
+"lynx localhost:1080). 
+2) fcdfdata004-fcdfdata007 showed no messages which would indicate problems with the disk arrays.  
+3) fcdfdata008 showed a single instance of the following messages in /var/log/messages: 
+ 
+May 5 17:43:48 kernel:3w-xxxx:scsi1:AEN:Sector repair occurred: Port#3 
+May 5 17:43:06 3w-xxxx[715]:WARNING:Drive sector ECC error corrected on port3 on controller ID:1 (0x23) 
+ 
+Additional information about system as shipped by ASA: 
+ 
+Monitoring version: 1.01.00.034 
+Firmware version: 1.04.00.024 
+BIOS version: 1.07.02.008 
+ 
+The plan is to continue current burn-in at least until the IP 
+addresses arrive for the data servers. At this point, we'll see 
+where things are at and then Lance can do the OS install. If we 
+want further burn-in, this can be done after Lance's install  
+(actually, I'd prefer to stress these a bit after a fresh 
+install just to check that the servers are operating properly).  
+Then I would like to schedule a bit of benchmarking time if  
+possible to see how the servers are performing before they are  
+fully incorporated into the full system.  
+ 
+			-Mark 
+</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Thu May 9 12:30:50 2002 -->
+<pre>Changed quota on medium queue: 
+ 
+fbs config set ptype medium rquota cpu:3200 
+ 
+Now we have: 
+ 
+long = 32 CPU's 
+medium = 32 CPU's 
+test = 5 CPU's 
+short = rest of the CPU's 
+</pre>
+<!-- Author: fkw & msn -->
+
+
+<!-- Date: Thu May 9 17:43:44 2002 -->
+<pre>I am writing files to the new CAF servers for benchmarking purposes. As a result, data access to fcdfdata004 may be slower than normal for an hour of two.  
+ 
+Benchmarking this server is important because we have yet to test that is behaving as it should and also like the other new servers.  
+ 
+			Mark 
+</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Fri May 10 14:00:54 2002 -->
+<pre>Below I include the results of the CAF file server benchmarking tests. Table numbers are aggregate throughput in MB/s. Some tables also include partial output from "vmstat 5" while test was running. 
+ 
+------------------------------ 
+Local disk reads: 
+  
+1M dd blocks 
+#th  fcdfdata005  006     007     008 
+---     ------  ------  ------  ------ 
+ 1      134.38  129.95  118.24  128.97 
+ 2      147.55  146.18  143.72  146.18 
+ 4      142.22  141.83  141.39  144.15 
+ 8      143.83  127.03  142.00  144.72 
+ 16     127.44  151.33  147.49  137.37 
+ 32     124.32  115.97  117.12  128.32 
+ 60      81.14   83.18   82.11   85.45 
+ 100     66.49   66.43   67.78   67.26 
+  
+64k dd blocks 
+#th      005     006     007     008 
+---     ------  ------  ------  ------ 
+ 1      187.55  194.68  182.86  175.34 
+ 2      196.73  194.31  197.49  197.87 
+ 4      190.91  194.91  198.74  194.12 
+ 8      171.18  172.11  150.10  169.78 
+ 16     138.21  157.32  171.00  169.92 
+ 32     122.51  118.16  126.10   82.89 
+ 60      80.91   81.39   80.80   82.89 
+ 100     65.62   65.73   67.02   67.12 
+  
+#th      32k     128k    512k     2M 
+---     ------  ------  ------  ------ 
+ 1      181.56  192.48  154.68  137.27 
+ 2      198.07  186.86  172.97  155.74 
+ 4      187.98  191.94  170.21  153.38 
+ 8      170.29  148.45  164.57  129.94 
+ 16     151.18  159.86  141.26  139.92 
+ 32     122.40  125.34  129.13  124.85 
+ 60      79.16   80.62   83.86   83.12 
+ 100     66.61   66.23   67.87   67.90 
+-----------------------------  
+  
+disk_bench_remote (remote dd NFS reads from server) 
+#th       bi    bo   in    cs  us  sy  id       tput 
+------------------------------------------------------ 
+ 1      11480     2  930  2841   0   4  96      11.31 
+ 2      22970     2 1229  4399   0  36  64      22.03 
+ 3      33578     2 1426  5365   0  45  55      32.93 
+ 4      44097    10 1500  5403   0  51  49      43.74 
+ 5      56678    44 1600  5101   0  82  18      53.51 
+ 6      62606     5 1704  4718   0  94   6      59.59 
+ 7      66340     5 1633  4133   0  98   2      61.97 
+ 8      64426     3 1674  4150   0  98   2      62.06 
+ 9      66214    54 1683  4127   0  98   2      60.23 
+10      67801     3 1692  4265   0  98   2      61.32 
+16      67312     4 1728  4308   0  98   2      64.20 
+34      69958     7 1774  4274   0  99   1      63.43 
+ 
+------------------------------------------ 
+ 
+Rootd via remote Edm_ReadWriteSeqRoot: 
+ 
+#th       bi    bo   in    cs  us  sy  id       tput 
+------------------------------------------------------ 
+ 1      3417     2 1117  1149   0   4  96        9.51 
+ 2      8717     2 1134  2191   0  12  88       17.95 
+ 3      20538     2 1151  2511   0  27  73      23.57 
+ 4      25855     2 1317  3578   2  37  61      32.43 
+ 5      32351    23 1273  3132   1  40  60      32.82 
+ 6      36478     3 1279  3041   1  56  43      35.94 
+ 7      38601     3 1222  2682   0  56  44      39.11 
+ 8      42221    20 1264  2586   1  65  34      40.38 
+ 9      43608     3 1307  2353   1  69  29      42.15 
+10      45642     3 1368  2176   1  75  24      43.49 
+16      48044     3 1432  2050   1  83  16      45.93 
+22      53631     6 1453  1957   1  87  11      54.37 
+38      52296     6 1375  1886   1  87  13      49.64 
+ 
+------------------------------ 
+  
+NFS via remote Edm_ReadWriteSeqRoot: 
+ 
+#th       bi    bo   in    cs  us  sy  id       tput 
+------------------------------------------------------ 
+ 1      11441     2  938  2956   0  19  81      11.19 
+ 2      22941     2 1260  4444   0  41  59      22.62 
+ 3      31604     2 1404  5383   0  59  41      33.76 
+ 4      41761     4 1521  5671   0  46  54      44.01 
+ 5      56868     3 1663  5038   0  88  12      54.58 
+ 6      60182     6 1712  4625   0  94   6      61.27 
+ 7      63698     3 1645  4122   0  98   2      62.52 
+ 8      68710     6 1813  4075   0  98   2      62.52 
+ 9      65650     8 1837  4259   1  96   3      61.28 
+10      68159     3 1842  4295   0  98   2      63.12 
+16      65789     5 1757  4309   0  97   3      64.40 
+34      70399    49 1757  3471   0  97   3      67.76 
+ 
+			Mark</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Fri May 10 14:04:06 2002 -->
+<center><a href='/elog/notebooks/caf/Fri_May_10_2002_140228.ps'><img src='/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-2' ></a><a href='/elog/notebooks/caf/Fri_May_10_2002_140304.ps'><img src='/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-4' ></a><a href='/elog/notebooks/caf/Fri_May_10_2002_140331.ps'><img src='/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-6' ></a></center>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Mon May 13 16:40:38 2002 -->
+<pre>File server burn-in continues...bonnie started on fcdfdata005, 006, 007, and 008 at 2pm on Friday, May 10 using 
+ 
+bonnie++ -d /export/data/benchmarking/ -u0:0 -x1000000 &gt; root.log 2&gt;&1 & 
+ 
+and stopped in the afternoon on Monday, May 13 (today). No problems seem (dmesg and grep 3w-xxxx /var/log/messages*) on servers 005, 006, and 008. Lance is reconfiguring 007, so he will check this.   
+ 
+Therefore, the file server burn-in went for 6 days without problems, except a single instance of the "sector rebuild" warning on fcdfdata008 (this was with the ASA install which might have had an older driver than we are using now). 
+ 
+Will turn fcdfdata004, 005, 006 over to CP for data loading. fcdfdata007 will become and output (ftp) node and fcdfdata008 will go to dCache.  
+ 
+			Mark 
+ 
+</pre>
+<!-- Author: Mark Neubauer -->
+
+<!-- Date: Thu May 16 16:01:38 2002 -->
+<pre>
+Testing e-mail submission to e-log
+</pre>
+<!-- Author: fkw -->
+
+
+
+<!-- Date: Wed May 29 02:15:10 2002 -->
+<pre>Changed the maximum number of rootd daemon's from 60 (xinetd default) to 120 (added line to /etc/xinetd.d/rootd) on all the data servers (001, 004, 005, 006) 
+ 
+This is to fix rootd job crashes for &gt;60 sections. Not a scalable solution!!! 
+ 
+			Mark 
+</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Fri May 31 18:30:23 2002 -->
+<pre>I added the 'instances = 120' line to fcdfdata007 /etc/xinetd/rootd and restarted xinetd.  
+ 
+			Mark 
+</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Tue Jun 4 09:57:56 2002 -->
+<pre>While running the burn in on the data servers last week and over the weekend, data server fcdfdata013 logged some PCI Parity Error messages, among other error messages, on the second 3ware card after which the server subsequently crashed: 
+ 
+... 
+Jun  3 12:09:43 fcdfdata013 kernel: 3w-xxxx: PCI Parity Error: Reseat card, move card, or buggy device on the bus. 
+Jun  3 12:09:43 fcdfdata013 kernel: 3w-xxxx: scsi1: Reset succeeded. 
+... 
+ 
+This occurrence was repeated even after I reseated and checked all cables to both 3ware cards and the GBits card.   The problems followed the card when I switch the two 3ware cards, so I replaced the card with our extra 3ware card.  Everything seems fine now. 
+ 
+</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Tue Jun 4 11:12:14 2002 -->
+<pre>The following warning messages on fcdfdata002 have occurred six times over the last several days during the burn in: 
+ 
+... 
+Jun  4 08:42:22 fcdfdata002 kernel: 3w-xxxx: scsi1: AEN: Sector repair occurred: Port #4. 
+Jun  4 08:42:34 fcdfdata002 3w-xxxx[769]: WARNING: Drive sector ECC error corrected on port 4 on controller ID:1. (0x23) 
+... 
+ 
+Replaced the drive on port #4.   
+ 
+Side note:  
+ 
+Hot spare disk operated as expected upon removing drive!   
+Hot swapping of extra disk was successful!</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Mon Jun 10 12:45:14 2002 -->
+<pre>fcdfcaf018 experience another DMA problem on disk hda that crashed the system again.  Replaced disk and rebuild system.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Tue Jun 11 16:29:25 2002 -->
+<pre>A power supply failed on fcdfcaf009 around June 3 and has now been replaced.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Tue Jun 11 18:11:39 2002 -->
+<pre>Two problems with user jobs today.  
+ 
+1) Two on ifuric's sections hung and were found sleeping on nodes 33 and 46. The jobs were given a HUP signal to kill them. In looking at the monitoring information, its clear that the swap memory was used on each when it doesn't seem that the real memory was exhausted. This looks alot like the VM problems were had back in the early protoCAF days which we believe we solved by going to the 2.4.18 kernel. See attached figures.  
+ 
+2) All of akorn's jobs were hung and sleeping after they went ZFATAL. The jobs appeared finished, but remained on the node. Need to see what signal the AC++ job was passing to CafExe in this case. Either way, probably no immediately necessary at this time, since users can just watch out for this and kill their jobs (assuming this works. We didn't actually try this.).  
+ 
+		Mark and Taeyhun</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Tue Jun 11 18:15:27 2002 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-8&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-8  width='300' align='top'></td><td>Memory usage for node 33 and 46 during job failure</a></td></tr></table>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Tue Jun 11 18:16:45 2002 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-9&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=caf&action=view&page=-9  width='300' align='top'></td><td>another image of job problem</a></td></tr></table>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Wed Jun 12 10:27:39 2002 -->
+<pre>The system disk failed on fcdfcaf012 and was replaced.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Wed Jun 12 10:37:11 2002 -->
+<pre>The first of serveral error messages on fcdfdata003 was log during the burn in:  
+ 
+Jun 11 18:07:51 fcdfdata003 kernel: 3w-xxxx: scsi1: AEN: Drive error: Port #5 
+... 
+ 
+The drive on port #5 was offline and could not be be brought back into service.  The drive on port #5 was subsequently replaced. 
+</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Wed Jun 19 14:50:01 2002 -->
+<pre>The following messages on fcdfdata013 was logged:   
+ 
+Jun 19 12:46:37 fcdfdata013 3w-xxxx[769]: WARNING: Drive timeout encountered on port 6 on controller ID:0. Check cables and drives for media errors. (0x9) 
+Jun 19 12:46:39 fcdfdata013 3w-xxxx[769]: ERROR: Disk Array Unit 1 on controller ID:0 is degraded and no longer fault tolerant. Check log for drive errors. (0x2) 
+ 
+The drive on port 6 was successfully taken offline and brought back into service.  
+ 
+</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Mon Jun 24 11:10:56 2002 -->
+<pre>One of our power modules on data server fcdfdata001 started making a considerable amount of noise and was replaced with one of our spares.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Tue Jun 25 11:30:59 2002 -->
+<pre>he following messages on fcdfdata010 was logged:  
+ 
+Jun 24 13:28:34 fcdfdata010 kernel: 3w-xxxx: scsi0: Command (0xf76d2200) timed out, resetting card. 
+Jun 24 13:28:34 fcdfdata010 kernel: 3w-xxxx: Unknown ioctl 0x46. 
+Jun 24 13:29:15 fcdfdata010 kernel: 3w-xxxx: scsi0: Command (0xf76d2400) timed out, resetting card. 
+Jun 24 13:29:15 fcdfdata010 kernel: 3w-xxxx: scsi0: AEN drain failed, retrying. 
+... 
+ 
+The drive on port 6 could not be successfully taken offline and brought back into service, so the drive was replaced.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Mon Jul 8 13:17:10 2002 -->
+<pre>A disk in the external RAID chassis was lost on fcdfcode1.  The hot spare was automatically activated, and a successful rebuild followed.  The bad disk was subsequently replaced.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Tue Jul 16 10:39:16 2002 -->
+<pre>fcdfdata002 suffered a disk problem that required destroying and reconstructing the raid itself, which entailed a subsequent reinstallation of the system software.  
+ 
+On Raid controller scsi1, a drive error was detect on port #3. A rebuild started with the hot spare on port #0 replacing the drive on port #1.  While the rebuild was in progress, unsuccessful attempts were made to bring the drive on port #1 back on-line. These attempts included various permutations of reseating the drive as well as replacing the drive itself. 
+ 
+The next course of action was to reboot the computer in hopes of resetting the raid controller itself.  This lead to the hot spare disk on port #0 having the same problems as the drive on port #1, namely, after bring the drives back on-line, the raid would begin to rebuild but would now both fail.  This raid rebuild failure would begin with a drive error being detected on port #3. 
+ 
+Since the raid controller was not responding to power cycling the computer, an attempt were make to swap another controller in for the controller on scsi1, but the attempt was unsuccessful.  This lead to the decision to go ahead and do a raid destruction and reconstruction to determine if there was a hardware problem with multiple drives.  The raid finally had a successful reconstruction with the original drives. </pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Wed Jul 31 11:41:52 2002 -->
+<pre>Changed long process type resource back from 90 CPUs to 40 CPUs 
+ 
+			Mark and Taehyun</pre>
+<!-- Author: Mark Neubauer -->
+
+
+<!-- Date: Mon Aug 12 09:38:22 2002 -->
+<pre>A disk went off line on fcdfdata011 with an automatic rebuild started at 7:44 a.m. using the hot swap spare.</pre>
+<!-- Author: lweems -->
+
+
+<!-- Date: Tue Sep 17 10:16:05 2002 -->
+<pre>A disk went off line on fcdfdata008.  The disk was successfully brought back on line with a subsequent rebuild. 
+ 
+Lance</pre>
+<!-- Author: lweems -->

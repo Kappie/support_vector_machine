@@ -1,0 +1,340 @@
+<!-- Title: Owl shift. Mon May  5, 2003 -->
+<!-- SciCo: Manfred Paulini -->
+<!-- DAQAce: Steve Vejcek -->
+<!-- MonAce: Thorsten Walter -->
+<!-- CO: Franceso Palmonari -->
+<!-- OpManager: Nathan Eddy -->
+<!-- Notes: -->
+<pre>- Inherit store 2507, run 162480 in progress 
+- B0Lum: 25.6, D0Lum: 24.0, stack: 71, rate: 9.7/h, temp: 46 degF 
+- a rainy night in Georgia (actually Illinois)</pre>
+
+
+<!-- Date: Mon May 5 00:06:26.608 2003 -->
+<pre>DTO Bunch Counter Log: 
+b0cot18 Event 3524636: Bunchcounters in slot 4 (BC=115) and slot 7 (BC=106) </pre>
+<!-- Author: steve :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+<!-- Comment: Mon May  5 01;23;26 comment by...steve -->
+<pre>b0cot09 Event 4462125: Bunchcounters in slot 2 (BC=24) and slot 10 (BC=18) </pre>
+<!-- Comment: Mon May  5 02;54;59 comment by...steve -->
+<pre>b0pcal08 Event 5483047: Bunchcounters in slot 15 (BC=80) and slot 17 (BC=77) disagree (at least)
+         Event 5483047: Bunchcounters in slot 15 (BC=80) and slot 19 (BC=77) disagree (at least)
+         Event 5483047: Bunchcounters in slot 15 (BC=80) and slot 21 (BC=77) disagree (at least)
+         Event 5483047: Bunchcounters in slot 15 (BC=80) and slot 14 (BC=77) disagree (at least)
+             .
+             .
+             .
+ and for slot 15 (BC=80) and slots 16,18,20,4,5,6 (BC)=77
+</pre>
+<!-- Comment: Mon May  5 03;26;57 comment by...steve -->
+<pre>b0wcal03 Event 5839941: Bunchcounters in slot 5 (BC=12) and slot 19 (BC=6) </pre>
+<!-- Comment: Mon May  5 06;02;44 comment by...steve -->
+<pre>b0cot17 Event 5474261: Bunchcounters in slot 3 (BC=74) and slot 14 (BC=15) </pre>
+<!-- Comment: Mon May  5 06;02;57 comment by...steve -->
+<pre>&lt;pre&gt;b0cot17 Event 5474261: Bunchcounters in slot 3 (BC=74) and slot 14 (BC=15) &lt;/pre&gt;</pre>
+<!-- Comment: Mon May  5 06;48;05 comment by...steve -->
+<pre>b0cot18 Event 7824744: Bunchcounters in slot 4 (BC=139) and slot 9 (BC=30) disagree (at least)</pre>
+<!-- Comment: Mon May  5 07;19;57 comment by...steve -->
+<pre>b0wcal06: Event 8111987: Bunchcounters in slot 16 (BC=136) and slot 17 (BC=118) disagree (at least)</pre>
+<!-- Date: Mon May 5 00:29:37.151 2003 -->
+HVAC alarm due to the storm outside. The CRYO silenced it.
+<!-- Author: Thorsten :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+<!-- Date: Mon May 5 00:35:46.062 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-4426&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-4426  width='300' align='top'></td><td>.</a></td></tr></table>
+<!-- Author: francesco -->
+<!-- Comment: Mon May  5 00;39;54 comment by...francesco -->
+<pre>Just to comment something that could happens (YMon):
+
+number of events mismatch between plots
+goes away by restarting consumer and display
+but you lose the statistic</pre>
+
+
+<!-- Comment: Mon May  5 10;34;39 comment by...Adam Gibson -->
+<pre>This is actually the desired behavior - but it should be better documented.  The number of events in the slide header (Run 162480 Event: 3428301 # of Events: 14240) is the total number of events that the YMonModule has received.  YMonModule is sort of the managing routine for all of YMon.  Off hand, I can think of two reasons why this is sometimes (frequently) different from the number of events in any particular histogram (14240 for CMU, 2240 for CMX).
+
+First, the COT histograms in YMon are actually prescaled.  The COT part of YMon takes a long time to run, and the ocupancies are pretty high, so we only consider one out of every three events.  So, the COT histograms always have only 1/3 of the events that YMonModule overall gets.
+
+Second, most of the 1D occupancy plots are checked automatically against the references.  For instance, the CMU is checked every 14,000 events and the CMX every 2,000 events.  Let's take the CMX for an example.  After 2,000 events the occupancy plot is checked against the reference and changes from light blue (unchecked) to either red (failed) or green (passed).  Then, after the next 2,000 events YMon gets rid of all but the latest 2,000 entries in the plot, and checks the histogram again.  So, the CMX plots have less than 2,000 events for the first bit (30 minutes or so) after YMon starts collecting events.  Then, they always have between 2,000 and 4,000 events.
+
+So, the CMU plots have 14,240 because, while they have been checked once, they haven't yet been reset (that won't happen until YMonModule gets 28,000 events), and the CMX have 2240 because they've already been checked and reset several times.
+
+Currently, none of the 2D plots is reset so they always have the full statistics of the run.</pre>
+<!-- Date: Mon May 5 00:53:29.185 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4427&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4427' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4428&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4428' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4429&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4429' width='300'></a></center>
+<!-- Author: Thorsten -->
+<!-- Comment: Mon May  5 00;54;16 comment by...Thorsten -->
+The usual hourly plots
+
+
+<!-- Date: Mon May 5 01:19:41.085 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Maria S. called to let us know that she noticed water in the east stairway of B0 when leaving. Indeed there is quite some water that leaked from the roof. This is something for the building manager to investiagte in the morning. It stopped raining - so we should be ok. </td></tr></td></table>
+<!-- Author: Manfred -->
+
+
+<!-- Date: Mon May 5 01:21:04.372 2003 -->
+<pre>DTO, COT15, Not (obviously) BC related, but apparently 
+"well known" problem as it shows ensuing behavior: 
+Auto-HRR, DTO,Auto-HRR, DTO with each DTO showing: 
+   got 1 more 'VRB had no event' error messages 
+       . 
+       . 
+       . 
+ 
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 10 for event 4356192. 
+ 
+Prescription for recovery is 
+1) Halt 
+2) Sheparhd b0cot15 
+3) Recover 
+4) Run 
+This worked. 
+</pre>
+<!-- Author: steve :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+
+<!-- Date: Mon May 5 01:51:00.165 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4430&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4430' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4431&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4431' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4432&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4432' width='300'></a></center>
+<!-- Author: Thorsten -->
+
+
+<!-- Date: Mon May 5 02:10:31.245 2003 -->
+slepy 2 am report: B0Lum: 22.8, D0Lum: 21.5, stack 89.8, rate: 8.8/h, acq. lumi: 174 nb-1, eff.: 95%
+<!-- Author: Manfred :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+<!-- Date: Mon May 5 02:27:45.046 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4435&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4435' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4434&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4434' width='300'></a></center>
+<!-- Author: francesco -->
+<!-- Comment: Mon May  5 02;28;35 comment by...f. -->
+<pre>follow up from previous owl shift (today status)</pre>
+
+
+<!-- Date: Mon May 5 02:39:03.268 2003 -->
+<pre>BUSY Timeout due to SCPU TRACER_EVENT_ID Error in b0cot05. 
+ 
+SCPU-P0-E-VrbHeader: Dump of header words for event 5310542 from VRB in slot 10: 
+0x00000000 0x000087b8 0x001f001f 0x0cb00c1c 0x0de40d28 0x09440bdc 0x13e80af0 0x12800d38 
+ 
+Recovered by auto-HRR 
+ 
+</pre>
+<!-- Author: steve :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+<!-- Comment: Mon May  5 03;31;24 comment by...steve -->
+BUSY Timeout due to SCPU TRACER_EVENT_ID Error in b0ccal00.
+SCPU-P0-E-TracerEventId: Event 5843522, crate 1, channel 8 has either bad Tracer ID or bad markers around Tracer word.
+ Tracer word event ID is 0, should be 2.
+Tracer word = 0x00000001 (I think).
+Channel data = 0x00000018 0x00000008 0x00000100 0x00020001 0x00000000 0x00000001 0x00000000 0x00000000 ...
+... 0x00000034 0x00000000 0x0010000a 0x00000000 0x00a80022 0x00100015 0x00000001 0x00000000 
+
+SCPU-P0-E-VrbHeader: Dump of header words for event 5843522 from VRB in slot 10:
+0x00000000 0x00002ac8 0x003b00fb 0x04c80500 0x04b804cc 0x05500544 0x053c0518 0x02640000 
+
+Recovered by auto-HRR
+
+<!-- Comment: Mon May  5 03;32;23 comment by...steve -->
+<pre>BUSY Timeout due to SCPU TRACER_EVENT_ID Error in b0ccal00. Previous entry in a more legible fashion:
+
+SCPU-P0-E-TracerEventId: Event 5843522, crate 1, channel 8 has either bad Tracer ID or bad markers around Tracer word.
+Tracer word event ID is 0, should be 2. Tracer word = 0x00000001 (I think). Channel data = 0x00000018 0x00000008 0x00000100 0x00020001 0x00000000 0x00000001 0x00000000 0x00000000 ... ...
+0x00000034 0x00000000 0x0010000a 0x00000000 0x00a80022 0x00100015 0x00000001 0x00000000 SCPU-P0-E-VrbHeader: Dump of header words for event 5843522 from VRB in slot 10:
+0x00000000 0x00002ac8 0x003b00fb 0x04c80500 0x04b804cc 0x05500544 0x053c0518 0x02640000 Recovered by auto-HRR 
+</pre>
+<!-- Date: Mon May 5 02:52:33.036 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4436&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4436' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4437&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4437' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4438&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4438' width='300'></a></center>
+<!-- Author: Thorsten -->
+
+
+
+
+
+
+<!-- Date: Mon May 5 03:51:08.578 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4439&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4439' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4440&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4440' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4441&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4441' width='300'></a></center>
+<!-- Author: Thorsten -->
+
+
+<!-- Date: Mon May 5 04:01:44.283 2003 -->
+Half-time report (shift crew needs some excitement - we could randomly page experts ...?): run 162480 still in progress, store 2507; B0Lum: 20.4, D0Lum: 19.6, stack: 104, rate: 8.3/h, acq. lumi: 313.9, eff.: 96.0%
+<!-- Author: Manfred :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+<!-- Comment: Mon May  5 04;25;21 comment by...Manfred -->
+Hmh, we could page DAQ: If you have a question and don't know, page DAQ which stands for Directly Answers Questions :-)
+
+
+<!-- Date: Mon May 5 04:51:50.931 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4442&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4442' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4443&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4443' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4444&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4444' width='300'></a></center>
+<!-- Author: Thorsten -->
+<!-- Comment: Mon May  5 04;55;47 comment by...Thorsten -->
+The losses are a bit spiky
+
+
+<!-- Date: Mon May 5 05:52:11.045 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4445&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4445' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4446&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4446' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4447&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4447' width='300'></a></center>
+<!-- Author: Thorsten -->
+
+
+<!-- Date: Mon May 5 05:57:46.643 2003 -->
+<pre>CO plot check summary; please check the following variations 
+(noticed an increase in occupancy/ADC counts/etc...): 
+ 
+CES East:	Phi Wedge	13 
+		Strip Num.	40 
+ 
+PES East:	Phi Octant 	0 
+		Strip number 	107 
+ 
+PES West:	Phi Octant	6	3 
+		Strip number	34	190 
+ 
+PPR East:	Eta Tower	14 
+		Phi Wedge	11-1 
+ 
+CCR East:	Phi Wedge	3 	4 	19 
+		Pad Number	0	0	0</pre>
+<!-- Author: francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+
+
+<!-- Date: Mon May 5 06:09:00.210 2003 -->
+6 am report: store 2507 & run 162480 still in progress; B0Lum: 18.2, D0Lum: 17.6, stack:  120.6, rate: 7.6/h, acq. lumi: 455.5, eff: 96.8%
+<!-- Author: Manfred :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+
+<!-- Date: Mon May 5 06:51:17.157 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4448&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4448' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4449&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4449' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4450&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4450' width='300'></a></center>
+<!-- Author: Thorsten -->
+
+
+
+<!-- Date: Mon May 5 07:36:18.631 2003 -->
+<pre>b0dap51 is in a bad state  
+(after trying to recover from an accidental click onto logout widget) 
+ 
+environment X on b0dap51 is no more running but the consumer are 
+ 
+we wait the end of the run to restart everything 
+</pre>
+<!-- Author: francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+<!-- Date: Mon May 5 07:48:58.695 2003 -->
+<pre>CSP, BSU, TSU, CSW, CSX, MSK : Heartbeat went purple. 
+Problem cleared ca 5 min later.</pre>
+<!-- Author: Thorsten :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+<!-- Date: Mon May 5 07:52:57.536 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4451&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4451' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4452&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4452' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-4453&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-4453' width='300'></a></center>
+<!-- Author: Thorsten -->
+
+
+<!-- Date: Mon May 5 07:53:38.673 2003 -->
+<TABLE bgcolor=#cdc9a5> 
+<TR><TH>Date</th><th>Time</th><th>BLM</th><th colspan=2>Dose</th></tr> 
+<tr><td>2003.05.05</td><td>07:50:08</td><td>W Inner BLM</td><td>506.99</td><td>RADS</td></tr> 
+<tr><td>2003.05.05</td><td>07:50:08</td><td>W Outer BLM</td><td>0.00</td><td>RADS</td></tr> 
+<tr><td>2003.05.05</td><td>07:50:08</td><td>E Inner BLM</td><td>0.00</td><td>RADS</td></tr> 
+<tr><td>2003.05.05</td><td>07:50:08</td><td>E Outer BLM</td><td>384.76</td><td>RADS</td></tr> 
+</TABLE> 
+<strong>Integrated dosage</strong> 
+  
+<!-- Author: Thorsten :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+<!-- Date: Mon May 5 07:55:30.535 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480>162480</A> 
+x27AB0</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_04 [6,271,365]</TD>                                       
+<TD ALIGN=CENTER>19:29:57</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>11:54:02</TD>                                          
+<TD ALIGN=RIGHT>    644,621,960</TD>                                    
+<TD ALIGN=RIGHT>     8,401,694</TD>                                     
+<TD ALIGN=RIGHT>   2,541,203</TD>                                       
+<TD ALIGN=RIGHT> 1020.467</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:01</TD>                                                       
+<TD ALIGN=CENTER>11:54:02</TD>                                          
+<TD ALIGN=RIGHT>     644,621,960</TD>                                   
+<TD ALIGN=RIGHT>      8,401,694</TD>                                    
+<TD ALIGN=RIGHT>     2,541,203</TD>                                     
+<TD ALIGN=RIGHT> 1020.467</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Mon May 5 07:58:51.483 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-4454&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-4454  width='300' align='top'></td><td>Shift lumi.</a></td></tr></table>
+<!-- Author: Thorsten -->
+
+
+<!-- Date: Mon May 5 07:59:33.259 2003 -->
+<pre>b0pcal11 showed up as red. By eye, this first looked like pcal01 and it was suspected that this was related to last Thursday Owl shift problem. A few minutes later, DTO which was not auto-HRR recoverable popped up.  b0fcal01 also would not go through hrr. 
+Shepharded both crates back through and up.  Note that  
+error logger does not really have useful information for this case: just a 
+vrb read failure.</pre>
+<!-- Author: steve :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=162480' target=_top>162480</a>) -->
+
+
+<!-- Date: Mon May 5 08:00:05.563 2003 -->
+<font color=red>Shift Summary: </font><pre>Shift Summary: 
+- Inherited store 2507 and run 162480 which are still in progress 
+- Very eventless shift; even done timeouts were rare 
+- Steve dug up some Bunchcounters that disagree 
+- Data are all good 
+- Losses got a little bit spiky at the end of shift/store 
+- We note the water leak problem in the east stairway of B0 
+- We should add a new categroy to the CDF hall of fame (shame):  
+  "Shift with highest efficiency for all 8 h shift time with SVX and more than 
+   500 nb-1" 
+  We would also qualify for something like  
+  "Most boring shift with data for 8 hours" or so ... 
+- Current weather: B0Lum: 16.8, D0Lum: 16.2, stack: 133, rate: 6.9/h   
+  7 day forcast: Nice and sunny all week long! Temperatures (lumis) in the  
+  high 70's. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   162480
+Delivered Luminosity   594.02 nb-1  
+Acquired Luminosity    574.25 nb-1  
+Efficiency             96.67
+   
+</td></tr></table></pre>
+<!-- Author: Manfred -->
+

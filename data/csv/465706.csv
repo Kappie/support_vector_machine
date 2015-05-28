@@ -1,0 +1,652 @@
+"File Hsitd.xls: Description and location of analyzed samples, Humboldt River watershed and adjacent areas, Nevada.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Site,Dist,Deptyp,Samtype,Chem Anlysis,W-pH,W-cond,North  ddeg,West ddeg,Site description,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Dist, districts:  AS, Antelope Springs; AU, Austin,  AW, Awakening; BD, Black Diablo; BT, Bottle, BV, Buena Vista; BM, Battle Mountain; BW, Beowawe; CZ, Cortez; ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"EU, Eureka; GB, Gilbert; GC, Gold Circle (Midas); GO, Golconda; GR, Gold Run; HT, Hilltop; IN, Independence; IV, Ivanhoe; LM, Lone Mountain; LW. Lewis;",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"MJ, Majuba; MB, Mineral Basin; MC, Mill City; MD, Modarelli; MH, Mt. Hope; NT, National; PO, Pioche; PT, Potosi. RB, Roberts Mountain; RO, Rochester; SF, Safford;",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"SM, Swales Mountain; SR, Star; SS, Scraper Springs, ST, Seven Troughs; STm, Standard mine; TN, Tenabo; TO, Tonopah; TU, Tuscarora; TY, Tybo; WP, White Pine.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Deptype: AS, Acid sulfate; BA, barite; EV, epithermal vein;  GV, gold vein; Hg, mercury; na, not applicable; PC, porphyry copper; PMV, polymetallic vein; SHG, sediment-hosted gold; SK, skarn; VMS, volcanogenic massive sulfide; VU, vein uranium.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Samtype: AR, altered rock; D, mine waste dump; G, smelter slag; H, drill hole cuttings; SS, stream sediment; T, mill tailings; ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Waters: HLW, heap leach water (inactive); MDW, mine adit or dump drainage; MPND, small pond in trench or pit; PLW, pit lake or small pond; SW, stream; SPW, spring; PUDW, puddle; TPW, tailings pond; TSW, tailings seep.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,"Chem analysis: A, alkalinity;  G, rock analysis; Hg, Hg in water; L, leachate solution; n, none; W, water (ICP-MS, ICP-AES) ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NH101,BM,na,G,G,na,na,40.5653,117.1294,"Slag, Galena smelter",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NH102,BM,na,G,G,na,na,40.5675,117.1311,slag Galena smelter #2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NH103,GR,PMV,T,G,na,na,40.8178,117.5186,Tailing Adelaide mill,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NH104,GB,na,AR,G,na,na,40.4719,117.6786,Silicified and leached volcanic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NH105,CZ,PMV,T,G,na,na,40.1414,116.6044,"Old Cortez mill tails, carbonate",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NH106,BM,na,G,G,na,na,40.5344,115.9836,"SlagBullion smelter,Railroad Dist"
+NH107A,RR,na,G,G,na,na,40.5343,115.9835,Bullion smelter slag
+NH107B,RR,PMV,T,G,na,na,41.1300,116.0067,"Tails, Rip Van Winkle Zn"
+NH108,RR,PMV,T,G,na,na,41.1269,116.0044,Tails no. 2 Rip Van Winkle Zn
+NH109,LM,PMV,T,G,na,na,41.8281,115.9483,"Golden Ensign mill tails, tan"
+NH111,TU,EV,D,G,na,na,41.3219,116.2303,"Feox-rich dump picks, Tusc."
+NH112,TU,EV,D,G,na,na,41.3219,116.2303,"Chlt-carbonate picks, same dump, Tusc"
+NH113,TU,EV,D,G,na,na,41.3233,116.2300,"Ocher alt Tv, py-ser alt?"
+NH151,BM,na,AR,G,na,na,40.6661,117.0878,"Select sulfide-oxide at contact, grn CuOx"
+NH152,BM,na,SS,G,na,na,40.6689,117.0867,Stream sed
+NH153,BM,PMV,D,G,na,na,40.6678,117.0800,Select py-gn-sl-rich pile 
+NH154,BM,PMV,D,G,na,na,40.6678,117.0803,"Qtz-py veinlets, select waste"
+NH155,BM,PMV,D,G,na,na,40.6894,117.0794,Oxide-Feox waste
+NH156,BM,PMV,D,G,na,na,40.6728,117.0717,"Morningstar dump, big, clay and FeOx"
+NH157,BM,PMV,T,G,na,na,40.6133,117.0694,Buckingham mill tailings
+NH158,BM,PMV,T,G,na,na,40.6133,117.0700,Buckingham mill tailings w crust
+NH159,BM,PMV,D,G,na,na,40.6128,117.0783,Sulfidic waste
+NH160,BM,na,SS,G,na,na,40.6103,117.0800,Stream sed
+NH161,BM,na,SS,G,na,na,40.6094,117.0489,Stream sed below mill
+NH162,BM,na,SS,G,na,na,40.6128,117.0533,"Stream sed, visible tailings"
+NH163,BM,na,SS,G,na,na,40.5489,117.0961,"Stream sed, below placer mines"
+NH201,BM,PMV,SW,W,7.2,710,40.6028,117.0428,Long canyon stream
+NH202,BM,PMV,T,G,na,na,40.6158,117.0730,Buckingham mill tailings
+NH203,BM,PMV,SW,W,8.7,600,40.6144,117.0522,Long Canyon creek
+NH204,BM,PMV,D,G,na,na,40.5477,117.1113,Iron Canyon FeOx-rich gossan
+NH205,BM,PMV,T,G,na,na,40.5490,117.1072, Iron Canyon rusty mill tailings
+NH206,BM,na,SS,G,na,na,40.5503,117.0933,Stream sed below placer and bedrock mines
+NH207,BM,PMV,MDW,W,4.0,>2000,40.5556,117.1172,"Butte mine(?) portal, acidic drainage"
+NH208,BM,PMV,MDW,W,2.4,>2000,40.5561,117.1150,Drainage after flowing over sulfidic dump 
+NH209,BM,na,SS,G,na,na,40.5577,117.1082,"Stream sed, includes FeOx layer from recent ARD"
+NH210,BM,PMV,MDW,W,6.9,940,40.5656,117.1033,"Collapsed portal in Galena Canyon, low flow"
+NH211,HT,PMV,T,G,na,na,40.4305,116.8268," Philadelphia(?) mill tailings, yellow-ocher"
+NH212,HT,PMV,T,G,na,na,40.4303,116.8230," Philadelphia(?) mill tailings, ocher"
+NH213,HT,PMV,MDW,W,7.5,980,40.4186,116.8306,"Dean mine, lower portal, 1990's"
+NH214,HT,PMV,D,G,na,na,40.4287,116.8403,"Dean mine lower dump, sulfide and carbonate"
+NH215,HT,PMV,MDW,W,4.1,>2000,40.4289,116.8481,"Dean mine, 1990's, middle elevation portal in siliceous rocks"
+NH216,HT,PMV,D,G,na,na,40.4293,116.8480,"Dean mine, middle, high sulfide dump, no carbonate"
+NH217,HT,PMV,MDW,W,2.6,>2000,40.4294,116.8461,"Dean mine, drainage is ruby color in pond"
+NH218,HT,PMV,T,G,na,na,40.4280,116.8587,"Marigold mill tails, pale crème"
+NH219,HT,PMV,SW,W,6.7,340,40.4283,116.8650,Creek below Marigold tails
+NH220,HT,PMV,D,G,na,na,40.4278,116.8468,Select FeOx rich veinlets in Qtzite
+NH221,HT,PMV,SW,W,7.2,740,40.4222,116.8467,creek below tails
+NH222,HT,na,SS,G,na,na,40.4332,116.8222,Stream sed below Dean Canyon and mill tailings 
+NH223,HT,PMV,D,G,na,na,40.4208,116.8355,"Kattinhorn mine, pyrite-silica veins in Qtzite"
+NH226,HT,PMV,MDW,W,3.1,"1,540",40.4231,116.8131,"Noname mine adit, low flow"
+NH227,HT,PMV,D,G,na,na,40.4232,116.8130,"Hilltop mining area, west adit, pyritic veinlets"
+NH228,HT,PMV,T,G,na,na,40.4252,116.8132,"Hilltop area, west mill, crème"
+NH229,HT,PMV,T,G,na,na,40.4128,116.8040,"Hilltop area, east mill tails, crème"
+NH230,HT,na,SS,G,na,na,40.4290,116.8157,Hilltop; creek west of tailings and dumps
+NH231,HT,PMV,D,G,na,na,40.4453,116.7738,"Barite pit, select pieces with FeOx"
+NH232,HT,PMV,D,G,na,na,40.4823,116.7557,"Slaven barite mine, crushed rejects"
+NH233,HT,BA,PLW,W,9.7,>2000,40.4800,117.7550,"Slaven canyon, barite pit lake "
+NH234,HT,PMV,D,G,na,na,40.4180,116.8387,"Blue Dick ore bin, pyrite-silica, stibnite?"
+NH235,HT,PMV,D,G,na,na,40.4185,116.8398,Blue Dick mine?. Pyritic BX-stockworks
+NH236,HT,PMV,D,G,na,na,40.3820,116.7622,"Gray Eagle mine dump, qtz-pyrite-gn-sl"
+NH238,LW,PMV,T,G,na,na,40.4637,116.8988,"B. O'Neal mill tails, med gray"
+NH239,LW,PMV,D,G,na,na,40.4615,116.8972,"B O'Neal lower tunnel dump, any sulfide minerals?"
+NH240,LW,PMV,D,G,na,na,40.4567,116.8920,"B O'Neal upper level dump, qtz-carbonate-sulfide veinlets"
+NH241,BM,PMV,D,G,na,na,40.6430,117.0643,"Snow Gulch prospect, oxid. Pyrite-qtz-gold veins"
+NH242,BM,PMV,D,G,na,na,40.6492,117.0620,"Snow Gulch, FeOx-pyrite-qtz-gold dump"
+NH243,GR,PMV,D,G,na,na,40.7962,117.5122,"Adelaide district, SW dump, viz galena-pyrite, tetrahedrite?"
+NH244,GR,PMV,D,G,na,na,40.7845,117.5230,"Adelaide district, SW, dump with py-qtz veins, low MoOx"
+NH246,GR,PMV,PLW,W,8.2,390,40.8181,117.5319,"Adelaide Crown, pit lake "
+NH247,GR,PMV,D,G,na,na,40.8178,117.5320,"Adeliade Crown narrow pit, obscure ore minerals, oxide"
+NH248,GR,PMV,AR,G,na,na,40.8108,117.5323,"Adeliade Crown second narrow pit, qtz veins, ore minerals?"
+NH249,GR,PMV,T,G,na,na,40.0000,0.0000,"Adel. Crown mill tails, lite ocher"
+NH250,GR,PMV,D,D,na,na,40.8268,117.5265,"Dump north of Adel. Crown, qtz-py veins, some galna"
+NH252,GR,na,SS,G,na,na,40.2082,116.5883,Cortez; stream-sed in Mill Canton below mines
+NH253,CZ,PMV,D,G,na,na,40.1690,116.6635,"South Cortez, turquoise mine dump, open cut"
+NH254,CZ,PMV,D,G,na,na,40.1782,116.6655,"South Cortez, small mine dump, pyrite-qtz-FeOx"
+NH255,CZ,PMV,T,G,na,na,40.1442,116.6083,"Cortez site; old mill tailings look like dunes, soft and pale"
+NH256,CZ,PMV,D,G,na,na,40.1515,116.5937,"Cortez silver mine, celluar qtz veins, some dark sulfides"
+NH257,CZ,PMV,D,G,na,na,40.1515,116.5937,"Cortez silver mine, select qtz-pyrite-tet?-sphalerite  veins"
+NH258,CZ,PMV,D,G,na,na,40.1515,116.5937,"Cortez new adit SW, quartz-sphal veins"
+NH260,CZ,PMV,T,G,na,na,40.1435,116.5933,"New Cortez silver mill, concrete, tan fine tailings"
+NH261,CZ,PMV,D,G,na,na,40.3317,116.7228,"N Tenabo (Lander?) small mine dump, veins qtz-pyrite-FeOx"
+NH262,BV,na,SS,G,na,na,40.5973,117.2613,Alluvium in small draw SW of Buffalo Valley mine
+NH263,BV,na,SS,G,na,na,40.6020,117.2612,Alluvium in draw west of Buffalo Valley mine
+NH264,BV,na,SS,G,na,na,40.6102,117.2588,"Alluvium in larger draw, NW of Buffalo Vllley mine"
+NH268R,BM,PMV,SW,W,7.2,710,40.6028,117.0428,"Creek, split of W201"
+NH269R,BM,PMV,MDW,W,4.0,>2000,40.5556,117.1172,"Mine drainage, split of W207"
+NH270R,HT,PMV,SW,W,6.7,340,40.4283,117.8650,"Creek, split of W219"
+NH300,LM,PMV,D,G,na,na,41.1522,115.9794,"Prospect dump, selected FeOx-ricg pieces; Sedex?"
+NH301,LM,PMV,T,G,na,na,41.1303,116.0064,"Rip Van Winkle, Gray mill tailings"
+NH302,LM,PMV,T,G,na,na,41.1272,116.0050,RVW waste at mill
+NH304,LM,SX,D,G,na,na,41.1206,116.0006,RVW waste at mill
+NH305,LM,na,SS,G,na,na,41.1322,116.0128,Coon Crk alluvium w of RVW
+NH306,LM,SKN,D,G,na,na,41.1100,115.9808,"Cu-Fe-Ox dump, skarn prospect"
+NH308,LM,SKN,D,G,na,na,41.1136,115.9753,"Selected magnetite + CuOx chunks, skarn"
+NH309,RR,PMV,D,G,na,na,41.1367,115.9633,"Selected  picks, CuOx + galena?"
+NH310,RR,na,AR,G,na,na,40.5272,116.0172,Silicified porphyry
+NH312,RR,na,H,G,na,na,40.5353,116.0075,Cuttings dark cal-shale
+NH313,RR,na,H,G,na,na,40.5344,116.0061,Cuttings lite ?silt?
+NH314,RR,na,H,G,na,na,40.4617,115.9983,Cuttings reddish jasperoid
+NH315,RR,na,H,G,na,na,40.4625,115.9989,Cuttings jasperoid and siltite
+NH316,RR,na,H,G,na,na,40.4642,116.0031,Cuttings red jasperoid
+NH318,BV,na,AR,G,na,na,40.6000,117.2467,Silicified leuco-porphyry
+NH319,BV,SKN,AR,G,na,na,40.5994,117.2464,"Skarn contact, greenish"
+NH322,BV,na,H,G,na,na,40.6000,117.2469,Cuttings dark hornfels
+NH324,BV,SKN,AR,G,na,na,40.5994,117.2472,Oxidized calc-silicate
+NH325,BV,SKN,AR,G,na,na,40.5992,117.2475,Select FeOx-rich stockworks
+NH326,BV,SKN,AR,G,na,na,40.6006,117.2472,Veinlets calcite in hornfels
+NH327,BV,na,AR,G,na,na,40.6014,117.2478,Qtz-Py residual veinlets
+NH328,BV,PMV,AR,G,na,na,40.6011,117.2478,Feox fault gauge
+NH329,BV,na,AR,G,na,na,40.4344,117.2472,Pyritic metabasalt(?)
+NH330,BV,SKN,AR,G,na,na,40.4342,117.2475,Pyritic calcsilicate 
+NH332,BV,SKN,AR,G,na,na,40.4344,117.2472,"Marble or calc-silicate, white"
+NH333,BV,na,AR,G,na,na,40.4183,117.2478,FeOx in gauge
+NH334,HT,PMV,T,G,na,na,40.4164,116.8272,"Tan mill tails, small"
+NH339,HT,PMV,D,G,na,na,40.4269,116.8439,"Py-ser alt Tg, gn-sl"
+NH340,HT,PMV,D,G,na,na,40.4281,116.8472,Pyritic qtz veins in Qtzite and sill
+NH341,HT,PMV,D,G,na,na,40.4289,116.8472,"Pyritic, gn-sl veins in Qtzite"
+NH342,HT,na,AR,G,na,na,40.4269,116.8478,Oxidized Py-ser alt Tg
+NH343,HT,na,AR,G,na,na,40.4258,116.8486,"Chlt-alt Tg, some py"
+NH400,GC,na,AR,"G, L",na,na,40.9244,117.5044,"Kramer Hill pit; silicified sediments, veinlets"
+NH401,GO,DG,D,"G, L",na,na,40.9278,117.5042,"Kramer lower (old) adit, sulfide/oxide dump"
+NH402,GO,PMV,T,G,na,na,40.9283,117.5056,"Kramer small mill, tan tails"
+NH403,GO,PMV,D,"G, L",na,na,40.9283,117.3242,"Iron Point, Silver Coin dump picks with FeOx"
+NH404,IP,PMV,D,G,na,na,40.9394,117.3175,"Silver King, selected FeOx materials"
+NH405,IP,PMV,D,G,na,na,40.9083,117.3950,"South Iron Point, prospect, CuOx films on mafic rock"
+NH406,SS,AVR,AR,G,na,na,41.3758,116.6525,"Scraper Springs, zunyite-silica altered volcanics"
+NH407,SS,AVR,AR,"G, L",na,na,41.3717,116.6589,Zunyite-silicified breccia
+NH408,SS,EV,AR,L,na,na,41.3719,116.6591,Zunyite-silica altered BX with FeOx
+NH410 ,BR,PMV,D,G,na,na,41.4639,116.6511,"Burner Hills, Mint mine, drainage from adit, high sulfide-qtz dump"
+NH411,GC,T-EV,T,"G, L",na,na,41.2647,116.7836,Midas; tan to pink tails from Elko Prince mill
+NH412,GC,EV,D,"G, L",na,na,41.2597,116.7839,Elko Prince sulfidic waste
+NH413,GC,EV,SPW,W ,8.1,460,41.2572,116.7828,Spring SE of Elko Prince tails
+NH414,GC,EV,D,"G, L",na,na,41.2406,116.7922,"Midas mine, FeOx in vienlets, rhyolite"
+NH415,GC,T-EV,T,"G, L",na,na,41.2350,116.7872,"Jackson mill tailings, tan"
+NH416,GC,EV,D,"G, L",na,na,41.2361,116.7881,Jackson mine mixed sulfide and sulfate materials
+NH417,GC,EV,D,"G, L",na,na,41.2414,116.7808,"East of Jackson mine, dump, yellow-ocher oxide"
+NH418,GC,EV,D,"G, L",na,na,41.2411,116.7850,"Dump west of 3 shafts, mixed sulfide and oxide"
+NH419,GC,EV,D,"G, L",na,na,41.2472,116.7856,"Rex mine dump, orange-ocher oxidized materials"
+NH420,GC,EV,SW,W ,7.9,490,41.2406,116.7864,"Creek, flows south from Rex"
+NH421,GC,EV,D,"G, L",na,na,41.2639,116.7953,"Miner's Gold dump, average sample, -2 mm, mixed oxide-sulfide"
+NH422,GC,EV,D,G,na,na,41.2622,116.7944,"Oxide-sulfide dump,  -2 mm"
+NH423,GC,EV,SW,W ,8.3,310,41.2622,116.7944,"Creek, above Gold Miner"
+NH425,GC,EV,SW,W ,8.5,320,41.2544,116.8017,"Creek, below mines"
+NH426,GC,EV,D,G,na,na,41.2211,116.7739,"West of Esmeralda mine and mill, silicified-FeOx altered"
+NH427,GC,EV,SW,W ,8.4,480,41.2344,116.7533,"Squaw Creek, NE of mining area"
+NH428,IV,HM,D,G,na,na,41.1158,116.5903,"Old Timer mine, Hg dump, silica rock"
+NH429,IV,HM,D,G,na,na,41.1161,116.5911,"Mercury dump, red sinter or opalite"
+NH430,IV,T-HH,T,"G, L",na,na,41.1228,116.5711,Butte #1 mine; white opalite calcine from retort
+NH431 ,IV,AVR,H,G,na,na,41.1194,116.5667,"Drill cuttings, upper is tuff, lower is dark Vinini seds"
+NH432,IV,AVR,AR,G,na,na,41.1203,116.5642,"Chips of altered, silicified volcanics"
+NH433,IV,Hg,PUW,W ,8.2,80,41.1197,116.5658,Small pit puddle
+NH434,IV,AVR,H,"G, L",na,na,41.1217,116.5600,"Cuttings, silicified tuff"
+NH435,IV,HM,D,G,na,na,41.1397,116.6133,"Fox mine siliceous Hg waste, gray stibnite?"
+NH436,IV,T-HH,T,G,na,na,41.1450,116.6208,"Governor mine/retort, calcine from retort"
+NH437,IV,HM,"D, AR",G,na,na,41.1439,116.6200,"Governor mercury mine dump, gray and red alteration"
+NH438,IV,T-HH,T,"G, L",na,na,41.0525,116.6244,"Silvercloud Hg mine, white silica with red matrix"
+NH439,IV,AVR,H,G,na,na,41.0528,116.6278,"Drill cuttings, dark rock with fine sulfides"
+NH440,IV,AVR,AR,G,na,na,41.0525,116.6272,Silvercloud pit; opalite carries best Hg
+NH441,IV,Hg,SW,W ,7.7,300,41.1078,116.6064,Spring below Jackson mine
+NH442,IV,Hg,SW,W ,7.6,180,41.1550,116.6408,"Spring, low flow, livestock use"
+NH443,IV,T-HH,T,G,na,na,41.1558,116.6267,Calcine from 70's(?) retort; opal and vitreous tuff
+NH450,AU,SHG,AR,G,na,na,39.3864,117.0836,Quito gold mine/pit; dark limey wallrock
+NH451,AU,SHG,SW,W ,8.3,"1,330",39.3864,117.0839,Settling pond NE of pit
+NH452,AU,SHG,SW,W ,8.4,"1,250",39.3864,117.0844,"Creek, above (west) of pond"
+NH453,AU,SHG,SW,W ,8.8,230,39.3786,117.0856,"Birch Creek, background in fault zone"
+NH455,AU,VU,D,"G,L",na,na,39.4597,117.1002778," Apex/Rundberg mine;High rad, high py ore? Stockpile"
+NH456,AU,VU,D,"G,L",na,na,39.4600,117.1011111,"Medium rad, weathered dump, waste?"
+NH457,AU,VU,D,"G,L",na,na,39.4589,117.2694444,"High rad, high py stockpile?"
+NH458,AU,VU,D,"G,L",na,na,39.4581,117.1022222,"Shaft dump, typical lower rad waste"
+NH459,AU,VU,D,"G,L",na,na,30.4583,117.1025,"Very high rad part of dump, hi pyrite"
+NH461,AU,PMV,D,G,na,na,39.4872,117.0831,"Jackpot mine, big white qtz veins, some rusty streaks"
+NH462,AU,PMV,D,G,na,na,39.4931,117.0800,Byers mine (?); bull qtz vein in TKg
+NH463,AU,PMV,D,G,na,na,39.4956,117.0608,"Big dump from shaft, NE of town"
+NH464,AU,PMV,D,G,na,na,39.1622,117.0628,"Lander Hill, mostly altered TKg, some qtz-MnOx"
+NH465,AU,PMV,D,G,na,na,39.5050,117.0678,"Kilburn tunnel, select chunk sulfide-qtz dump"
+NH466,AU,PMV,D,G,na,na,39.5439,117.0547,"Slaughterhouse Canyon, quartz with some dark sulfides"
+NH467S,AU,na,SS,G,na,na,39.5072,117.0956,"Pony Canyon west of Austin, alluvium, granite sand"
+NH467T,AU,PMV,T,G,na,na,39.5097,117.0744,"Tailings from mill, Pony CanyonAG MILL TAILS"
+NH468,RW,PMV,D,G,na,na,39.7789,117.2611,"Ravenswood; skarn, oxide dump"
+NH469,BM,SK,SW,W ,6.8,160,40.9358,117.0425,"Stream, south of Copper Basin pit and dumps"
+NH470,BM,SKN,D,G,na,na,40.6019,117.0447,"Copper Basin dump outside fence, Cu-oxides"
+NH471,BM,PMV,SW,W ,7.5,740,40.6117,117.0528,Licking Creek east of Buck. Mill
+NH472,BM,pmv,T,L,na,na,40.6128,117.0705556,"Buckingham(?) mill tails, yellow crust"
+NH473,BM,PMV,SW,W ,7.2,"1,050",40.6122,117.0747,Small creek west (above) mill and larger mine dumps
+NH474,BM,PMV,SW,W ,8.2,510,40.6239,117.0642,"Long Canyon creek headwaters, west of Copper Queen"
+NH475,BM,SK,SPW,W ,8.0,"1,020",40.6483,117.0644,"Spring in Harmony qtzite, Snow Gulch"
+NH476,BM,PMV,D,"G, L",na,na,40.6450,117.0597,Oxide dump; average sample -2mm
+NH477,BM,SK,SW,W ,8.3,440,40.6775,117.0808,"Elder Creek, north of mine dumps"
+NH479,BM,PCU,D,"G, L",na,na,40.6886,117.0806,"Dump, green CuOx, average, - 2mm"
+NH480,BM,na,AR,"G, L",na,na,40.6925,117.0872,"Small pit diggins, select Cu-Fe-Ox chips"
+NH481,BM,SK,SPW,W ,8.3,580,40.6925,117.0872,"Spring, west side of Elder Creek basin"
+NH482,HT,na,SS,G,na,na,40.7017,117.0806,"Dry alluvium, north of mining area"
+NH483,HT,PMV,SW,W ,8.2,660,40.4275,116.8239,Creek north of Dean mines
+NH484,HT,PMV,SW,W ,7.1,550,40.4283,116.8217,"Creek leaving settling pond, N of Dean workings"
+NH485,HT,PMV,SW,W ,7.5,630,40.4278,116.8214,Creek entering settling pond
+NH486,HT,PMV,T,G. L,na,na,40.4294,116.8208,"Philadelphia(?) mill tails, rusty ocher parts"
+NH487,HT,PMV,SW,W ,5.0,310,40.4183,116.8294,Small flow below Kattenhorn mine
+NH488,HT,PMV,MDW,W ,7.0,710,40.4267,116.8375,"Dean mine, lower, in carbonate rocks, mine drainage"
+NH489,HT,PMV,SW,W ,4.0,630,40.4267,116.8381,"Creek below upper Dean workings, much orange Fe floc"
+NH490,HT,PMV,D,"G, L",na,na,40.4253,116.8364,"Lower Dean dump, carbonate rocks, some sulfides"
+NH491,HT,PMV,MDW,W ,2.8,>2000,40.4267,116.8450,"Dean mine, middle, drainage turns red"
+NH492,HT,PMV,MDW,W ,3.4,"1,210",40.4269,116.8453,Mine drainage after flowing on sulfide dump
+NH493,HT,PMV,D,"G, L",na,na,40.4269,116.8456,"Middle Dean dump, high sulfide, mostly TKg, some Qtzite"
+NH495,HT,na,AR,G,na,na,40.4256,116.8450,"Altered Tkgranite outcrop, silicified"
+NH496,HT,PMV,SW,W ,4.3,710,40.4244,116.8097,"Hilltop(?) creek, NW (below) mill and tailings, makes red coatings"
+NH498,HT,PMV,MDW,W ,2.7,"1,740",40.4211,116.8103,"Hilltop haulage tunnel in siliceous seds, drainage makes FeOx coatings"
+NH501,HT,PMV,D,"G, L",na,na,40.4214,116.8106,"Dump from adit, Qtzite with fine sulfides"
+NH502,HT,PMV,SPW,W ,6.9,280,40.4133,116.8117,Small flow/spring SE of Hilltop mining area
+NH505,HT,PMV,SW,W ,7.1,470,40.4264,116.8125,"Stream NW of mixing zone, looks much better"
+NH507,na,na,SW,W ,7.6,410,40.6756,116.6564,Humboldt river
+NH508,BW,BA,AR,G,na,na,40.5767,116.5167,"Beowawe;  Sansen. Barite open pit, red chert or alteration in pit"
+NH509,BW,BA,T,"G, L",na,na,40.5783,116.5214,"Barite mine, crushed rock, barite rejects?"
+NH510,BW,HG,D,G,na,na,40.5828,116.4886,"Red Devil mine, dump, silicified conglomerate"
+NH511,BW,HG,T,"G, L",na,na,40.5836,116.4878,"Retort tailings or rejects, siliceous conglomerateHG-SILICA ROCK TAILS"
+NH512,BT,PMV,T,"G, L",na,na,40.3294,116.6547,"Mill tailings, N of Tenabo near Indian Creek"
+NH513,BT,PMV,D,L,na,na,40.3294,116.6558333,"N Tenabo mill, native sulfur on dump"
+NH514,TN,SKN,D,G,na,na,40.3014,116.6806,"Altenberg Hill, skarn zone, slected picks rich in FeOx"
+NH515,TN,SKN,D,"G, L",na,na,40.3014,116.6806,"Altenberh Hill, skarn zone, as 514, average oxide sample,- 2 mm."
+NH516,TN,SKN,H,G,na,na,40.3022,116.6811,Drill cuttings into calc-silicate rock
+NH517,TN,PMV,"MDW, T","G,W",6.7,940,40.3778,116.7597,"Gray Eagle mill tailings, tan"
+NH518,TN,PMV,H,G,na,na,40.3778,116.7758,Drill cuttings in dark chert
+NH519,BM,PMV,T,L,na,na,40.3967,117.1044444,Iron Canyon rusty mill tails
+NH520,BM,PMV,SPW,W ,6.7,>2000,40.5486,117.1100,"Spring-fed small flow, Iron Canyon"
+NH521,BM,PMV,SPW,W ,6.5,>2000,40.5492,117.1117,Spring in Iron Canyon west of mines
+NH522,BM,PMV,D,"G, L",na,na,40.5458,117.1086,"Iron Canyon mine dump, ocher to red oxides"
+NH523,BM,PMV,SW,W ,7.2,"1,940",40.5561,117.1025,Butte Canyon stream
+NH524,BM,PMV,MDW,W ,2.2,>2000,40.5544,117.1178,"Adit mine drain, pipe from inside "
+NH525,BM,PMV,SPW,W ,6.3,"1,640",40.5558,117.1072,"Spring in mid canyon, ppts ocher floc"
+NH526,BM,PMV,D,G,na,na,40.5761,117.1336,"NE of Galena, large adit on fault in Battle Conglomerate, select FeOxides"
+NH527,BM,PMV,D,G,na,na,40.5692,117.1317,"White and Shiloh mine dump, select sulfidic ore pieces"
+NH528,BM,PMV,D,"G, L",na,na,40.5692,117.1319,"White and Shiloh dump, average dump,  -2mm"
+NH529,BM,PMV,MDW,W ,6.5,940,40.5653,117.1208,"Small workings, collapsed adit, drain used for stock"
+NH530,na,na,SW,W ,7.9,350,40.0681,116.9317,Humboldt river
+NH531,NBM,BA,D,G,na,na,40.7225,116.8467,"Barite pit waste , oxides"
+NH532,NBM,BA,D,G,na,na,40.7225,116.8469,Barite pit stockpile(?) ore
+NH533,NBM,PMV,D,G,na,na,40.7103,116.8544,Select oxides in dark seds
+NH534,NBM,BA,D,G,na,na,40.7017,116.8650,Pink fine materials from mill (barite waste)
+NH550,BM,SK,SW,W ,8.1,610,40.6019,117.0433,stream
+NH551,BM,PMV,SW,W ,8.2,630,40.6083,117.0497,stream
+NH552,BM,PMV,PUDW,W ,2.9,"1,590",40.6133,117.0694,tails puddle
+NH553,BM,PMV,PUDW,W ,2.7,"1,790",40.6128,117.0739,dump puddle
+NH555,BM,SK,PUDW,W ,3.0,"1,220",40.6208,117.0553,pit puddle
+NH556,BM,PMV,SW,W ,8.5,480,40.5817,117.0703,stream
+NH558,BM,PMV,SPW,W ,3.2,>2000,40.5458,117.1097,"spring, Iron Canyon"
+NH561,BM,SK,PUDW,W ,4.3,460,40.5689,117.1311,pit puddle
+NH563,BM,SK,PUDW,W ,3.9,"1,330",40.5686,117.1319,dump puddle
+NH565,LW,PMV,D,"G, L",na,na,0.0000,0.0000,"Betty O'Neal dump, dark carbon. Phyllite, calcite"
+NH566,LW,PMV,T,L,na,na,40.4608,116.8958333,"Betty O'Neal mill tails, gray"
+NH571,HT,PMV,SW,W ,4.2,920,40.4281,116.8361,"Stream, near Dean mines, FeOx on bed"
+NH577,HT,PMV,SW,W ,6.6,580,40.4267,116.8311,"Stream, few mines, clean bed"
+NH583,HT,PMV,MDW,W ,2.8,"1,810",40.4272,116.8456,"Dean middle portal, mine drain flows over sulfide dump"
+NH584,HT,PMV,PUW,W ,2.4,>2000,40.4275,116.8467,"Upper Dean workings, puddle in cut on dump, clay bottom"
+NH586,HT,PMV,SW,W ,2.8,880,40.4264,116.8478,"Spring in altered rocks, roadcut east of upper workings"
+NH587,HT,PMV,MDW,W ,2.5,"1,460",40.4189,116.8333,"Mine drainage ponded at portal, upper Dean mine"
+NH588,HT,PMV,SW,W ,6.9,660,40.4278,116.8239,"Stream, below settling pond (ex-leach operation?)"
+NH591,HT,PMV,SW,W ,7.0,220,40.4319,116.8183,"stream, below Dean mines, above tailings"
+NH592,HT,PMV,SW,W ,7.3,310,40.4114,116.8008,"Maysville Canyon creek, below jct with Dean mine creek and tailings"
+NH593,TM,PMV,D,L,na,na,41.0228,117.8700,"Pansey Lee, dump at shaft, average, sulfidic"
+NH594,TM,PMV,D,"G, L",na,na,41.0214,117.8692,"Pansey Lee, dump at shaft, typical <2mm "
+NH596,TM,PMV,T,L,na,na,41.0203,117.8692,"Yellow mill tails, Pansey Lee"
+NH597,TM,EV,D,"G, L",na,na,40.9764,117.9092,"Tenmile mine dump near shaft, silica-FeOx"
+NH598,BD,VMS,D,L,na,na,40.5439,117.5725,"Big Mike heap leach, crust on seep"
+NH599,BD,VMS,PLW,WD,7.6,>2000,40.5433,117.5606,"pit pond, Big Mike mine"
+NH601,BD,VMS,AR,L,na,na,40.5436,117.5616667,"Big Mike pit, altered greenstone"
+NH602,BD,VMS,D,"G, L",na,na,40.5422,117.5678,"Big Mike sulfide/oxide dump, upper"
+NH603,BD,VMS,D,"G, L",na,na,40.5433,117.5706,"Big Mike leach pad, sulfide and oxide"
+NH604,BD,VMS,D,L,na,na,40.5428,117.5697222,Crushed ore on recent heap pad
+NH605,BD,VMS,PUW,W,2.7,>2000,40.5433,117.5689,Puddle on low-grade ore stockpile
+NH606,BT,Hg,SPW,W,6.6,710,41.3589,118.3056,"Spring, Bottle district"
+NH607,BO,HG,T,"G, L",na,na,41.3606,118.3150,Opal-Hg from retort
+NH608,BT,HG,SW,W,8.3,700,41.3611,118.3242,"stream, NW of Bottle mining area"
+NH609,BO,HG,T,"G, L",na,na,41.3586,118.3181,Opal-Hg from retort
+NH611a,BO,na,SS,G,na,na,41.3597,118.3106,Stream sediment east of many mercury mines
+NH611b,BO,HG,T,G,na,na,41.3583,118.3169,Opal-Hg from retort(calcine)
+NH613,NT,HG,D,G,na,na,41.7828,117.6444,Mercury ore at retort
+NH614,NT,EV,SW,W,8.7,340,41.7828,117.6453,Canyon Creek west of Buckskin Mtn and west of Hg retort
+NH615,NT,na,SS,G,na,na,41.7828,117.6444,Stream sediment west of Buckskin Hg retort
+NH616,NT,EV,MDW,W,3.0,610,41.7922,117.5403,"Mine drainage at portal, Buckskin mine; recently reclaimed"
+NH618,NT,EV,T,"G, L",na,na,41.7922,117.5400,"Sulfide floatation tails, Buckskin mine"
+NH619,NT,EV,D,"G, L",na,na,41.7931,117.5403,"Sulfidic dump, at Buckskin mill, average sample "
+NH621,NT,HG,D,"G, L",na,na,41.7911,117.5508,"Mercury-opalite dump, Paradise mine"
+NH623,NT,EV,MDW,W,2.9,"1,510",41.8367,117.5742,"Acidic drainage from National mine adit, sample at base of dumps"
+NH624,NT,EV,SW,W,7.3,310,41.8367,117.5739,"Stream west of National mine, flows over part of National dump"
+NH628,NT,EV,SW,W,3.9,830,41.8394,117.5744,"Stream north of National mine and mill tailings, deposits red FeOx on bed"
+NH629,NT,EV,MDW,W,3.1,"1,430",41.8361,117.5739,"Mine drainage at collapsed portal, National mine"
+NH630,NT,EV,D,"G, L",na,na,41.8364,117.5742,"Sulfide-oxide dump, materials from National mine tunnel"
+NH631,NT,EV,T,"G, L",na,na,41.8381,117.5736,"Sulfide tailings,medium gray, from upper impoundment, National mill"
+NH632,NT,EV,SW,W,7.1,390,41.8172,117.6317,"Spring-fed creek, SW of Birthday mine and mill"
+NH633,NT,EV,T,G,na,na,41.8256,117.5900,"Birthday mill tails, green"
+NH634,GR,SKN,PUW,W,8.3,890,40.8047,117.4939,Ponded water in fairly recent cut into skarn copper zone
+NH635,GR,SKN,D,"G, L",na,na,40.8047,117.4936,Adelaide skarn waste dump
+NH636,GR,PMV,D,"G, L",na,na,40.8086,117.5289,"Adelaide Crown upper pit, avg for oxide ore"
+NH637,GR,PMV,D,G,na,na,40.8075,117.5233,"Adelaide Crown heap, crushed oxide ore"
+NH638,GR,PMV,PUW,W,8.2,310,40.8072,117.5225,"Ponded water on waste dump bench, Adelaide Crown",,
+NH639,GR,na,G,G,na,na,40.8053,117.4981, Adelaide smelter (skarn ores?),,
+NH640,GR,SKN,SW,W,8.5,650,40.8033,117.4936,Gold Run creek east of all mines,,
+NH641,GR,SKN,D,"G, L",na,na,40.8036,117.4961,"Adelaide skarn deposit, shaft dump",,
+NH642,SM,PMV,D,"G, L",na,na,40.9386,116.0364,"Swales Mountain, dump, rich in jarosite/limonite",,
+NH644,LM,PMV,MT,W,8.1,350,41.1300,116.0072,"Trib. To Coon Creek (Rip Van Winkle mine area), below tailings impound",,
+NH645,LM,PMV,MT,W,8.4,370,41.1286,116.0067,"Coon Creek main stem, west of four tailings impoundments",,
+NH646,LM,PMV,T,L,na,na,41.1269,116.0055556,"Rip Van Winkle tails, largest impoundment, gray",,
+NH647,LM,PMV,MT,W,8.0,280,41.1250,116.0028,Coon Creek flowing across first tailings impoundment,,
+NH648,LM,PMV,D,"G, L",na,na,41.1228,116.0006,"Sulfide dump in chert-shale, Rip Van Winkle portal (mill level)",,
+NH649,LM,PMV,T,"G, L",na,na,41.1239,116.0028,"Darkk gray tails, sulfidic, at RVW mill",,
+NH650,LM,PMV,MT,W,1.8,">2,000",41.1250,116.0025,"Seep from tailings, creates red FeOx when mixing with Coon Creek",,
+NH652,TU,EV,D,"G, L",na,na,41.3167,116.2306,"Tuscarora, NW, Sulfide-oxide dump",,
+NH653,TU,EV,D,"G, L",na,na,41.3211,116.2328,"Gray sulfidic dump, propylitic alt. Andesite?",,
+NH654,TU,EV,D,"G, L",na,na,41.3214,116.2322,"Ocher sulfide-oxide dump, partly oxidized, in andesite?",,
+NH657,TU,EV,D,"G, L",na,na,41.3194,116.2214,"Large dump, recent dozing, ocher, py-ser alt andesite",,
+NH658A,TU,EV,D,G,na,na,41.3092,116.2194,"Dexter mine, qtz-oxide ore on leach pad"
+NH658B,LM,PMV,MT,W,1.8,">2,000",41.1250,116.0025,"Repeat sample (not split), seep from tailings, RVW"
+NH659,TU,EV,SW,W,8.6,270,41.3078,116.2172,"Stream,  SE of Tuscarora and pit lake"
+NH670,RR,PMV,T,G,na,na,40.5250,115.9981,Tan mill tails
+NH671,RR,PMV,D,G,na,na,40.5189,116.0078,"Mendota mine dump, red gossan material"
+NH672,RR,PMV,AR,G,na,na,40.5161,116.0106,Porous red gossan
+NH673,RR,PMV,AR,G,na,na,40.5161,116.0106,Soft earthy limonite part of gossan
+NH675,RR,PMV,AR,G,na,na,40.5183,116.0194,"Veins in porphyry, CuOx"
+NH678,RR,SKN,D,G,na,na,40.5169,116.0142,"Delmar mine dump, skarn copper"
+NH680,RR,SKN,D,G,na,na,40.5169,116.0103,"Crushed stockpile, pink rock"
+NH682,BU,na,SW,W,8.0,320,40.5578,116.0308,Ferdelford Creek in brown siltite and chert
+NH683,MD,FE,AR,G,na,na,40.3661,116.2628,"Modarelli iron mine, hematite in pit"
+NH684,MD,FE,H,"G, L",na,na,40.3658,116.2628,"Modarelli iron mine, cutting red hematite ore"
+NH685,MD,FE,D,G,na,na,40.3661,116.2608,"Modarelli ore bin, hematite"
+NH686,MD,FE,SW,W,8.2,220,40.3644,116.2597,Creek K353east of Modarelli mine
+NH687,SF,FE,D,G,na,na,40.5811,116.2658,"Barth iron stockpile, random picks"
+NH688,SF,FE,D,G,na,na,40.5817,116.2656,"Barth iron stockpile, ground, darker gray",
+NH689,SF,EV,D,G,na,na,40.5672,116.2519,"Dark dump material, high Mn-barite",
+NH690,SF,EV,D,G,na,na,40.5667,116.2561,"Onandoga dump, lower, dark MnOx",
+NH691,SF,EV,D,"G, L",na,na,40.5667,116.2561,"Onandoga dump, lower, dark MnOx, avg <2mm sieved",
+NH692,SF,EV,H,L,na,na,40.5667,116.2558333,"Onandaga mine, cuttings green alt andesite",
+NH693,SF,EV,SW,W,8.8,750,40.5661,116.2572,stream in Safford district,
+NH700,TM,PMV,D,L,na,na,41.0166,117.9888,"Pansey Lee dump at headframe (burned), very high sulfide",
+NH701,TM,PMV,T,L,na,na,40.9842,117.8681,"Fluvial tailings from Pansey Lee mill, tan and ocher",
+NH702,TM,PMV,PUW,L,na,na,40.9838,117.8682,"Puddle on fluvial tails, pH 6.9",
+NH703,TM,PMV,T,L,na,na,40.9831,117.8683,"Fluvial tailings, Pansey Lee, 10 cm ore clasts on top",
+NH704,TM,PMV,T,L,na,na,40.9686,117.8686,"Fluvial tailings, Pansey Lee, same ocher color",
+NH705,MJ,PMV,MDW,W,7.4,802,40.6656,118.4728,"Majuba mine, lower tunnel, ponded water, small adit drainage",
+NH706,MJ,PMV,D,L,na,na,40.6650,118.4725,"Majuba mine, lower tunnel dump, rhyloite and phyllite, mixed oxides and sulfides, - 2mm ",
+NH707,MJ,PMV,D,L,na,na,40.6694,118.4703,"Majuba mine upper larger dump, white clay and CuOx, - 2mm avg.",
+NH708,MJ,PMV,MDW,W,7.6,"1,640",40.6681,118.4711,Seep in fractured silicified rocks below upper portal,
+NH709,MJ,PMV,SW,n,8.4,930,40.6575,118.4678,"Stream south of Majuba mine, high flow, no sample",
+NH710,MJ,PMV,MDW,W,6.2,650,40.6719,118.4581,"Small prospect tunnel, SE end of Majuba Mtn, drainage used for stock ",
+NH711,MJ,PMV,D,L,na,na,40.6650,118.4486,"Shaft dump SE of Majuba Mtn, oxides, black, in phyllite, - 2mm avg sample",
+NH712,MJ,PMV,SW,W,7.9,830,40.6683,118.4464,Creek east of Majuba mines,
+NH713,MC,SKN,T,L,na,na,40.7686,118.1222,"Tan mill tailings, older Springer Tungsten mill",
+NH714,AW,GV,T,L,na,na,41.2947,117.9022,"Daveytown mill tailings, from gold-qtz vein?",
+NH715,AW,GV,T,L,na,na,41.2947,117.9028,Daveytown mill tailings 100 feet east of 714,
+NH717,AW,EV,ns,n,na,na,41.3014,118.0503,"Jumbo mill site, tailings reclaimed in 1997, no sample",
+NH718,BO,HG,PUW,Hg,8.5,350,41.3603,118.3161,"Bottle Hg district, ponded water in dozer cut",
+NH719,BO,HG,SPW,"W, Hg",7.9,890,41.3594,118.3056,"Spring, east side Bottle district, developed for stock; any mine input?",
+NH720,na,na,SPW,W,8.8,>2000,40.6028,117.6497,Hot spring near Grass Valley road,
+NH721,BD,VMS,PLW,W,7.4,>2000,40.5433,117.5600,Pit lake (small!) Big Mike open pit,
+NH722,BD,VMS,D,L,na,na,40.5406,117.5644,"Big Mike waste dump, altered greenstone, - 2 mm average",
+NH723,BD,VMS,D,L,na,na,40.5400,117.5675,"Big Mike waste dump, like 722, barren greenstone",
+NH724,BD,VMS,D,L,na,na,40.5422,117.5667,"Big Mike, low grade oxide-sulfide stockpile, average, - 2mm sample",
+NH725,BD,VMS,TPW,W,3.6,>2000,40.5439,117.5686,"Big Mike, old mill tailings, ponded water",
+NH726,BD,VMS,T,L,na,na,40.5433,117.5681,"Big Mike, mill tailings from early shaft mining, reddish, granular",
+NH727,BD,VMS,D,L,na,na,40.5431,117.5683,Big Mike low grade oxide-sulfide stockpile. - 2 mm.,
+NH728,BD,VMS,D,L,na,na,40.5428,117.5711,"Big Mike heap leach stacked rock, - 2mm average sample",
+NH729,BD,VMS,MDW,W,3.1,>2000,40.5433,117.5717,"Seep from leach pad, green syrup with green crust minerals",
+NH731,BD,VMS,R,L,na,na,40.5442,117.5717,"Alluvium west of leach facility, caliche layers, - 2mm sample",
+NH732,ST,PMV,D,L,na,na,40.5442,118.1528,"Sheeba mine dump, some sulfides in limestone, - 2 mm.",
+NH733,ST,PMV,MDW,W,8.3,240,40.5436,118.1522,Spring flowing under or through Sheeba mine dump; any from mine adit?,
+NH734,ST,PMV,D,n,na,na,40.5425,118.1528,"DeSoto mine dump, newer material?, some sulfides, in limestone, - 2 mm",
+NH735,ST,PMV,MDW,W,8.2,440,40.5422,118.1531,"DeSoto mine adit, high flow water, looks ok, makes no ppt.",
+NH736,ST,PMV,T,L,na,na,40.5425,118.1450,"Mill, old (1870?) stone foundation, served by tram to west",
+NH737,ST,PMV,SW,W,8.2,230,40.5444,118.1414,Star creek east of mines and mill tailings,
+NH738,BV,PMV,D,L,na,na,40.4300,118.1458,"Arizona mine dump, dark limestone with low sulfide, - 2 mm",
+NH739,BV,PMV,T,L,na,na,40.4289,118.1467,"Arizona mill, stack of tails, dark gray, fine grain size",
+NH740,BV,PMV,SW,W,7.6,810,40.4278,118.1453,Creek SE of mine dumps and mill tails,
+NH741,AS,HG,MDW,"W, Hg",8.1,>2000,40.1258,118.1625,"Small Hg mine, surface waters cross waste and retort area",
+NH742,AS,HG,MDW,"W, Hg",9.2,>2000,40.1197,118.1522,"Ponded water in trench, possibly some from Hg mine workings",
+NH743,AS,HG,PUW,"W, Hg",8.2,"1,320",40.1303,118.1672,"Ponded water, surface drainage from waste materials",
+NH744,AS,HG,T,L,na,na,40.1289,118.1672, Red retort calcine,
+NH745,AS,HG,MDW,"W, Hg",8.2,>2000,40.1344,118.1711," Pershing Hg mine, ponded water in dozer cut, some from mine?",
+NH746,AS,HG,T,L,na,na,40.1333,118.1731,"Pershing mine retort calcine, same as on recent leach pad (for Au?).",
+NH747,AS,HG,T,"G, L",na,na,40.1650,118.1774,"Red calcine, Nevada Quicksilver mine retort",
+NH748,AS,HG,SPW,"W, Hg",8.1,>2000,40.1631,118.1767,"Small spring in bedrock, no Hg mines close to this",
+NH749,AS,HG,SW,"W, Hg",8.1,>2000,40.1619,118.1747,"Small creek east of Hg mines, no significant mines in this basin",
+NH750,AS,HG,SPW,"W, Hg",7.9,>2000,40.1500,118.1619,"Antelope spring, developed for stock (sample at pipe)",
+NH751,MB,FE,D,n,na,na,40.0869,118.1950,"Magnetite waste from large iron mine open pit, Buena Vista district",
+NH751w,W,EV,PUW,n,9.2,230,40.2511,118.3361,"Water ponded in innactive open pit, Willard mine",
+NH752,W,EV,D,n,na,na,40.2472,118.3444,"Silicified volcanic sediment, on heap pile, Willard mine",
+NH753,W,EV,HLW,"W, Hg",7.7,>2000,40.2472,118.3450,"Overflow from innactive heap leach pad, Willard mine",
+NH754,TM,EV,D,"G, L",na,na,40.4464,118.7947,"Fairview shaft dump, high FeOx-jarosite, - 2mm average sample",
+NH755,TM,EV,SPW,W,7.2,"1,980",40.4467,118.7936,"Seep or spring in tuff bedrock, east of Fairview mine dumps",
+NH756,TM,EV,SW,W,8.3,880,40.4536,118.7931,"Surface waters flowing on bedrock, altered tuff, no mines",
+NH757,TM,EV,D,L,na,na,40.4644,118.7864,"Kindergarten mine area, deep shaft, dump moderate FeOx, sulfide, - 2mm",
+NH758,TM,EV,SW,W,8.3,890,40.4694,118.7908,"Seven Troughs creek, west (above mines), good flow from wet month ",
+NH759,TM,EV,T,L,na,na,40.4664,118.7844,"Ocher mill tailings, center Sevent Troughs; tails in creek",
+NH760,TM,EV,SW,W,8.3,900,40.4681,118.7825,Seven Troughs creek below mines and mill tails,
+NH761,TM,EV,T,L,na,na,40.4544,118.7644,Gray and tan mill tailings from Mazuma mill,
+NH762,TM,EV,ns,n,na,na,40.4444,118.7742,Tunnel Camp old mill site; where are tailings?,
+NH763,TM,EV,ns,n,na,na,40.4431,118.7722,"Tunnel Camp newer mill, tailings to east?",
+NH764,TM,EV,T,n,na,na,40.4361,118.7636,"Fluvial tailings in draw, east of Tunnel Camp",
+NH765,TM,EV,T,n,na,na,40.4269,118.7603,"Fluvial tailings, ocher and yellow, way out east on fan",
+NH766,TM,EV,T,n,na,na,40.4308,118.7653,"Fluvial tailings, overbank deposits are wider here",
+NH767,TM,EV,T,n,na,na,40.4394,118.7661,"Fluvial tailings in draw, at range front road",
+NH768,TM,EV,T,n,na,na,40.4367,118.7681,"Similar fluvial tailings, next arroyo to south",
+NH769,TR,EV,D,L,na,na,40.2488,118.1850,"Waste materials, silicified rhyolite, low FeOx, Trinity silver mine",
+NH770,RO,PMV,AR,L,na,na,40.2531,118.1683,"Nevada-Packard mine cut, blasted rock, FeOx-stockworks, - 2 mm avg sample",
+NH771,RO,PMV,AR,L,na,na,40.2525,118.1675,"Recently bulldozed FeOx-stockworks, NE of N.P. open cut, - 2 mm",
+NH772,RO,PMV,D,L,na,na,40.2536,118.1706,"Nevada-Packard, FeOx-rich tuff at glory hole",
+NH773,RO,PMV,T,L,na,na,40.2517,118.1717,"Nevada-Packard mill tailings, pinkish tan, fine",
+NH774,RO,PMV,T,L,na,na,40.2517,118.1733,"Nevada-Packard mill tailings, pinkish tan, fine",
+NH775,RO,PMV,T,L,na,na,40.2489,118.1781,"Recent leach pad, crushed rocks, on tailings impound",
+NH776,RO,PMV,HLW,W,8.7,"1,390",40.2475,118.1781,Runoff from leach pad,
+NH777,RO,PMV,SW,W,8.2,640,40.2472,118.1725,Small creek south of N.P. mill and tailings,
+NH778,RO,PMV,T,n,na,na,40.2503,118.1814,"Tailings from original N.P. impoundment, west edge",
+NH779,RO,PMV,MDW,W,8.2,690,40.2481,118.1811,Runoff from leachpads and tailings. SW corner,
+NH780,RO,PMV,ns,n,na,na,40.2503,118.1878,Approx. western limit of fluvial tailings washed to west of N.P. impoundment,
+NH781,RO,PMV,SPW,W,8.3,"1,670",40.2656,118.1644,"Spring in altered rhyolite, no mine; background",
+NH782,RO,PMV,T,n,na,na,40.2603,118.1706,"Rusty tails, course, at foundation, Rochester Combined Mines mill c. 1922",
+NH782,RO,PMV,ns,n,na,na,40.2603,118.1703,"Mill sites, large, concrete; Rochester Combined Mines; not many tails below",
+NH782b,RO,PMV,ns,n,na,na,40.2583,118.1764,"Tailings in wash below Rochester Combined mill, unconfined",
+NH783,RO,PMV,T,n,na,na,40.2828,118.2125,"Course stamp mill tailings, Looney mine ",
+NH784,RO,PMV,D,L,na,na,40.2828,118.2114,"Quartz veins, FeOx, gold?, Looney mine dump, - 2 mm",
+NH785,RO,PMV,D,L,na,na,40.2850,118.1997,"Sulfide-rich waste, Buck and Charley adit dump, - 2mm",
+NH786,RO,PMV,SW,W,8.4,"1,330",40.2853,118.1992,"Rochester creek, east (above) mills and tailings",
+NH787,TO,PMV,T,L,na,na,40.0644,118.6431,"Toulon mill, pile of sulfidic materials, concentrates, white sulfate crusts",
+NH789,TO,PMV,T,n,na,na,40.0636,118.6417,"Bedded fine sands, windblown or former tailings",
+NH790,TO,PMV,T,n,na,na,40.0631,118.6417,"Tan sands piled 12 feet high, edge of tailings impoundment?",
+NH791,TO,PMV,AR,n,na,na,40.0636,118.6417,Fine sands in wash below Toulon mill,
+NH792,RO,PMV,SW,W,8.5,"1,970",40.2925,118.2408,"Lower Rochester creek, c. 1 mi west of tailings impoundment",
+NH793,RO,PMV,ns,n,na,na,40.2917,118.2311,"Lower Rochester creek, approx west end redeposited tailings",
+NH794,RO,PMV,ns,n,na,na,40.2894,118.2267,"Lower Rochester creek, approx west limit of continuous tailings, no sample",
+NH795,RO,PMV,ns,n,na,na,40.2867,118.2214,"Pile of sulfidic rocks, for heap leach, last 20 years; no sample",
+NH796,RO,PMV,SW,W,8.3,"1,890",40.2850,118.2186,"Lower Rochester creek, in tailing impound",
+NH797,RO,PMV,T,n,na,na,40.2847,118.2175,"Lower Rochester, main tailkings impound, auger sample fine, pale tan",
+NH798,RO,PMV,T,L,na,na,40.2839,118.2125,"Lower Rochester, second auger sample like 797",
+NH799,RO,PMV,T,L,na,na,40.2850,118.2044,"Sample of tailings from base of concrete mill, Lower Rochester",
+NH800,RO,PMV,T,n,na,na,40.2847,118.2028,Ocher tailings from Buck and Charley small mill,
+NH800,RO,PMV,ns,n,na,na,40.2842,118.2017,"Buck and Charley mill, wood, small, not many tailings here",
+NH801,RO,PMV,D,L,na,na,40.2944,118.2089,"Sulfidic dump sample, Lincoln Hill mine",
+NH802,RO,PMV,D,L,na,na,40.2842,118.2019,"Sulfidic dump, Buck and Charley adit",
+NH803,RO,PMV,SW,W,8.6,>2000,40.2889,118.2272,"Lower Rochester creek, near west end of fluvial tailings",
+NH804,STM,SHG,ns,n,na,na,40.5014,118.2461,"Fine brown-drab tailings, in wash below mill, no sample",
+NH805,STM,SHG,ns,n,na,na,40.4997,118.2331,"Standard mine mill, heavy concrete foundation, six levels",,,
+NH806,STM,SHG,T,L,na,na,40.4997,118.2336,"Standard mill, course 1 cm rejects(?) below mill",,,
+NH807,STM,SHG,T,n,na,na,40.5008,118.2353,Fine tailings in canyon NW of mill,,,
+NH808,STM,SHG,T,L,na,na,40.5003,118.2336,"Fine tailings near mill, spill from sluice?",,,
+NH809,STM,SHG,AR,L,na,na,40.4981,118.2261,"Standard mine south pit, oxide-clay zone along fault, - 2mm sample",,,
+NH810,STM,SHG,D,L,na,na,40.4994,118.2256,"Dumped waste in middle of pit, tan and gray limey rocks, - 2 mm.",,,
+NH812,STM,SHG,T,n,na,na,40.5019,118.2478,"Standard mian tailings impoundment, fine, clay is sticky damp today",,,
+NH813,STM,SHG,T,L,na,na,40.5011,118.2458,"East side main tailings impound, sandier fine tailings",,,
+NH814,STM,SHG,T,n,na,na,40.5014,118.2467,Sample fine tailings from center of main impoundment,,,
+NH815,STM,SHG,ns,n,na,na,40.5017,118.2517,"Tailings at west berm of main impoundment, fine sand size",,,
+NH816,STM,SHG,ns,n,na,na,40.5017,118.2583,"Western limit of redeposited tailings, Standard mine",,,
+NH817,BM,SK,TPW,W,4.5,"1,820",40.5694,117.1342,"Tailings pond over flow at pipe, White and Shiloh mill",,,
+NH818,BM,PMV,SW,n,7.6,,40.5689,117.1361,"Surface runoff at road, west of White and Shiloh",,,
+NH819,BM,SK,SW,W,9.3,480,40.5692,117.1378,"Creek west of White and Shiloh, not much mining influence",,,
+NH820,BM,SK,PUW,n,8.6,320,40.5700,117.1367,"Ponded water in trench, White and Shiloh mine",,,
+NH821,BM,PC,D,L,na,na,40.5572,117.1319444,"Oxide materials, mixed altered rocks, Copper Canyon dump near Galena mine",,,
+NH822,BM,PMV,D,L,na,na,40.5564,117.1333333,Galena mine gray and ocher dump,,,
+NH823,BM,PMV,SPW,n,8.3,630,40.5614,117.1306,Mine drainage from adit into Harmony quartzite,,,
+NH824,BM,PMV,MDW,W,7.2,620,40.5631,117.1306,"Ponded water behind mine dump in gulley, sulfide-oxide dump",,,
+NH825,BM,PMV,SW,W,3.4,>2000,40.5547,117.1178,"Mine drainage runs down road and dump, makes red FeOx ",,,
+NH826,BM,PMV,MDW,n,6.2,"1,000",40.5547,117.1175,"Seep of ARD from sulfidic dump, no sample",,,
+NH827,BM,PMV,MDW,W,2.5,>2000,40.5553,117.1172,Adit with medium size sulfidic dump; pipe drains collapsed workings,,,
+NH828,BM,PMV,MDW,n,2.8,>2000,40.5550,117.1144,"North of adit, drainage over sulfidic dump",,,
+NH829,BM,PMV,ns,n,3,>2000,40.5558,117.1078,"Butte Canyon creek, middle canyon, still acidic",,,
+NH830,BM,PMV,SPW,W,6,>2000,40.5569,117.1078,"Spring in trees, big flow this year, high conductivity; no mine here",,,
+NH831,BM,PMV,SW,n,na,na,40.5558,117.1042,"Butte creek mixed with springwater, makes red FeOx ppt",,,
+NH832,BM,PMV,SW,W,3.3,>2000,40.5578,117.0961,"Butte creek near junction with Galena road, still acidic",,,
+NH833,BM,PMV,SW,W,6.9,>2000,40.5522,117.0883,"Galena creek east, after mixing and rise in pH",,,
+NH834,BM,PMV,SW,W,8.5,510,40.5542,117.2586,Galena creek west of Butte creek,,,
+NH835,BM,PMV,SW,n,2.9,>2000,40.5528,117.0914,"Butte creek running in ditch, east of canbyon, stays acid",,,
+NH837,BM,PMV,SPW,n,7.3,"1,110",40.5486,117.1111,"Spring in bedrock, west of Iron Canyon mine",,,
+NH838,BM,PMV,SW,n,8.2,460,40.6028,117.0436,Creek below Copper Basin dump/haul road; tailings here ,,,
+NH839,BM,PMV,ns,n,7.2,770,40.6128,117.0742,Creek west of Buckingham mines and mill; no sample,,,
+NH840,BM,PMV,SW,W,5.1,980,40.6125,117.0683,Creek east 1/4 mile from Buckingham mill,,,
+NH841,HT,PMV,SW,W,6.8,540,40.6094,117.0497,Creek 1 mi east of Buckingham mill,,,
+NH842,HT,PMV,T,L,na,na,40.4228,116.8102778,"Hilltop mill tails, pale yellow",,,
+NH843,HT,PMV,D,L,na,na,40.4153,116.8063889,"Shaft dump, sulfate yellow",,,
+NH844,HT,PMV,D,L,na,na,40.4156,116.8069444,"Shaft dump, gray w sulfides",,,
+NH845,HT,PMV,SPW,n,8.2,395,40.4150,116.8111,Surface flow central Hilltop mining area,,,
+NH846,HT,PMV,SW,W,4.2,570,40.4242,116.8103,Hilltop Crk below tailings,,,
+NH847,HT,PMV,SW,W,8.4,400,40.4356,116.8119,"East Hilltop crk, some mines",,,
+NH848,HT,PMV,SW,W,8.2,206,40.4328,116.8158,Hilltop west creek below Dean tails,,,
+NH850,HT,PMV,SW,W,7.2,585,40.4272,116.8236,"Philadelphia/Dean Creek below mines, above tails",,,
+NH851,HT,PMV,SW,W,7.3,260,40.4264,116.8567,Dean crk below Morninstar tails,,,
+NH852,HT,PMV,TPW,"W, Hg",6.9,510,40.4264,116.8564,Seep from Morningstar tailings,,,
+NH853,HT,PMV,T,L,na,na,40.4264,116.8572222,"Dean Morningstar tails, crème",,,
+NH854,HT,PMV,D,L,na,na,40.4261,116.8547222,"Morningstar dump, big, clay and FeOx",,,
+NH855,HT,PMV,MDW,"W, Hg",7.2,450,40.0000,116.0000,"Dean creek below lower adit, after reclamation of 1998",,,
+NH856,HT,PMV,ns,n,3.7,>2000,40.0000,116.0000,Low flow seepage from reclaimed/closed lower adit; no sample,,,
+NH857,HT,PMV,SW,W,6.3,460,40.0000,116.0000,"Creek above lower Dean adit, was bad, improved after reclamation 1998",,,
+NN101,OS,PMV,SW,"W, A",7.3,880,41.1875,117.2114,"Summer camp creek,some mine influence?",,,
+NN103,PT,PMV,T,n,na,na,41.2047,117.1803,"Fluvial tailings east of main road, Getchell tailings",,,
+NN104,PT,PMV,T,n,na,na,41.2058,117.1811,"Fluvial tailings, finer clay-rich slimes?",,,
+NN105,LV,PMV,T,n,na,na,41.0969,119.3992,"Gray tailings, lower area, unconfined; Leadville mine",,,
+NN106,LV,PMV,T,n,na,na,41.0969,119.3992,"Ocher tailings lower in sequence, from oxide ore?; Leadville",,,
+NN107,LV,PMV,TPW,"W, A",8.3,585,41.0967,119.3997,"Side creek, flows over tailings",,,
+NN108,LV,PMV,TPW,"W, A",8.3,">2,000",41.0967,119.3992,"Main creek, flows down tailings, erodes tails",,,
+NN109,LV,PMV,MDW,"W, A",6.5,"2,100",41.0986,119.4036,"Leadville lower adit drainage, makes red FeOx floc",,,
+NN110,LV,PMV,D,n,na,na,41.0986,119.4028,"Leadville mine main dump, abundant FeOx",,,
+NN111,LV,PMV,D,n,na,na,41.0983,119.4019,"Leadville mine dump, east end, ocher oxides",,,
+NN112,LV,PMV,M,n,na,na,41.0983,119.4028,"Leadville mill site, burned",,,
+NN113,LV,PMV,T,n,na,na,41.0972,119.3992,"Leadville mill tailings, upper valley fill, ocher and gray",,,
+NN114,LV,PMV,T,n,na,na,41.0950,119.3947,"Leadville mine tailings, mid-canyon, deep erosion gulley",,,
+NN115,LV,PMV,SW,"W, A",na,na,41.0950,119.3944,Creek at east end of main tailings,,,
+NN116,LV,PMV,SW,"W, A",na,na,41.0886,119.3861,"Creek east of tailings, Leadville",,
+NN117,LV,PMV,ns,n,na,na,41.0903,119.3869,"Leadville, east end of reworked tailings, no sample",,
+NN120,NA,PMV,MDW,"W, A",2.7,"1,415",41.8367,117.5725,"National mine, drainage from mine after going over dumps",,
+NN121,NA,PMV,MDW,"W, A",5.5,260,41.8367,117.5725,"National, SW branch creek, goes over dumps",,
+NN122,NA,PMV,ns,"W, A",4.3,478,41.8375,117.5731,"National creek, north of tailings, after mxing with cleaner side creek",,
+NN123,NA,PMV,SW,"W, A",6.4,228,41.8375,117.5753,National; creek from east before it mixes with mine drainage,,
+NN124,NA,PMV,SW,"W, A",6,202,41.8422,117.5733,"National creek north, after mixing with two side creeks",,
+NN126,NA,PMV,MDW,"W, A",2.8,"1,410",41.8378,117.5744,"National mine drainage from collapsed adit, flow about 20 GPM",,
+NN127,BM,PMV,SX,n,na,na,40.5486,117.1000,"Orange floc from ARD in Iron Canyon, Schwertmanite?",,
+NN128,BM,PMV,SX,n,na,na,40.5483,117.0967,"Orange floc from ARD in Iron Canyon, Schwertmanite?",,
+NN129,BM,PMV,SX,n,na,na,40.5483,117.0939,"Orange floc from ARD in Iron Canyon, Schwertmanite?",,
+NN130,BM,PMV,ns,n,na,na,40.5497,117.0831,"Orange crust on alluvium, mouth of Iron Canyon; from 1998 flow",,
+NN131,BM,PMV,MDW,"W, A",3,">2,000",40.5547,117.1175,"AMD from collapsed adit/pipe, head of Butte Canyon",,
+NN132,BM,PMV,MDW,"W, A",2.5,">2,000",40.5556,117.1172,"AMD after flowing over sulfidic dump, Butte Canyon",,
+NN133,BM,PMV,MILL,n,na,na,40.5678,117.1308,"Site of former mill, made red tails (rosted), near White and Shiloh mine",,
+NN133,BM,PMV,T,n,na,na,40.5678,117.1308,Red tailings from old mill at Galena (White and Shiloh),,
+NN134,BM,PMV,SW,"W, A",7.8,970,40.5511,117.0881,Galena Canyon creek east of Butte Canyon,,,,
+NN135,BM,PMV,SW,"W, A",8.1,434,40.5825,117.0700,Cottonwood Creek at mouth of canyon/bedrock,,,,
+NN136,BM,PMV,T,n,na,na,40.6131,117.0706,"Tailings Buckingham mill, yellow sulfate crust; resample",,,,
+NN138,HT,PMV,SPR,"W, A",3.8,910,40.4289,116.8436,"Spring in altered dike, head of canyon near divide (above upper Dean mine)",,,,
+NN139,HT,PMV,SW,"W, A",5.8,620,40.4272,116.8372,"Dean (Philadelphia?) creek after reclamation, much improved",,,,
+NN140,HT,PMV,MDW,"W, A",6,">2,000",40.4269,116.8367,Seep from plugged lower Dean adit (in limestone),,,,
+NN141,HT,PMV,MDW,"W, A",2.9,"1,360",40.4214,116.8106,"Hilltop mine drainage/haul tunnel, across from mill",,,,
+NN142,HT,PMV,SW,"W, A",3.6,680,40.4239,116.8100,Hilltop creek north of mill tailings in creek,,,,
+NN143,HT,PMV,SW,"W, A",7.8,530,40.4267,116.8131,Creek northwest of mixing with inflow from east creek,,,,
+NN144,HT,PMV,SW,"W, A",7.6,290,40.4428,116.8078,"Main Rock Creek, 1 mi north of Dean creek; fish visible",,,,
+NNW912,PO,PMV,TW,W,2.2,">2,000",37.9033,114.4903,"Castleton, pond in tailings, high sulfide",,,,
+NNW923,GF,AS,PUDW,"W,A",2.9,">2,000",37.7003,117.2044,Puddle on typical high pyrite-clay dump,,,,
+NNW924,GF,AS,PLW,"W,A",6.8,530,37.7439,117.2192,"Pond water, trench, Diamondfield",,,,
+NNW925,GF,AS,MDW,"W,A",2.7,">2,000",37.7247,117.2194,"Runoff during storm, high pyrite-clay dump",,,,
+NNW926,GF,AS,PUDW,"W,A",3,">2,000",37.7083,117.2147,"Puddle during storm, on high pyrite-clay dump",,,,
+NNW927,GF,AS,PUDW,"W,A",2.7,">2,000",37.7364,117.2375,"Puddle on tailings during storm, Consolidated Goldfield",,,,
+NNW947,GB,PMV,HLW,"W,A",7.6,">2,000",38.0761,117.6406,"Heap leach water, Boss mine",,,,
+NNW956,TO,EV,PUDW,"W,A",7,290,38.1389,117.4639,"Pond on tailings, Millers",,,,
+NNW957,TO,EV,PUDW,"W,A",6.9,">2,000",38.0706,117.2150,"Pond on tailings, Millers",,,,
+NN890R,HT,PMV,"SW,R","W, A",7.6,290,40.4428,116.8078,Replicate of NNW144,,,,
+NN897r,LM,PMV,SW,"W, A",7.9,444,41.1308,116.0108,"Replicate of NNW995, Coon Creek",,,,
+NN898r,LM,PMV,MDW,"W, A",2.1,">2,000",0.0000,116.0000,"Replicate of NNW990, pH 2.1 seep",,,,
+NN899r,MH,PMV,MDW,"W, A",6.8,680,39.7892,116.1583,Replicate of NNW980,,,,
+NN969,EU,PMR,M,n,na,na,39.4656,115.9844,"Tailings near Diamond tunnel, red; no sample",,,,
+NN970,EU,PMR,D,n,na,na,39.4614,115.9792,"Waste piles near Hamburg mine, sieved, mostly fines",,,,
+NN971,EU,PMR,D,n,na,na,39.4539,115.9775,"Waste pile, Windfall operation, sieved; waste or stockpile?",,,,
+NN972,EU,PMR,D,n,7.3,370,39.4125,115.9992,"SW of Windfall, pit in red-alt. Rocks; high clay, makes puddles",,,,
+NN973,EU,na,PUW,"W, A",7.3,270,39.4122,115.9994,"SW of Windfall, ponded water on red clay",,,,
+NN974,EU,PMR,SPR,"W, A",6.9,50,39.4208,115.9933,"Spring in Quartzite; no mine, but altered?",,,,
+NN975,EU,PMV,MDW,"W, A",8.6,800,39.4556,115.9692,"Windfall lead pad (inactive), collected water",,,,
+NN976,MH,PMV,T,n,na,na,39.7856,116.1317,"Fluvial tailings, SE of Mt. Hope mill (near highway)",,,,
+NN977,MH,PMV,ns,n,na,na,39.7867,116.1308,"Fluvial tailings carried south, near windmill",,,,
+NN978,MH,PMV,T,n,na,na,39.7889,116.1567,"Tan tailings, lower pond, Mt. Hope zinc mine",,
+NN979a,MH,PMV,T,n,na,na,39.7889,116.1572,"Mt. Hope mill tailings, upper pond, lite surface crust",,
+NN979b,MH,PMV,T,n,na,na,39.7892,116.1572,"Mt. Hope upper tailings, med. Tan",,
+NN980,MH,PMV,MDW,"W, A",6.8,680,39.7892,116.1583,"Mt. Hope mine lower adit, low flow drainage",,
+NN981,MH,na,SPR,"W, A",6.7,340,39.7894,116.3114,Spring in altered rhyolite intrusion,,
+NN982,MH,PMV,D,n,na,na,39.7864,116.1722,"Dark ocher dump waste, west side Mt. Hope",,
+NN983,LM,PMV,T,n,na,na,41.1300,116.0067,"Tailings, gray with white crust, RVW side canyon impoundment",,
+NN984,LM,PMV,SW,"W, A",6.9,310,41.1300,116.0056,"Side creek east of mill tailings, background (alteration, no mines)",,
+NN985,LM,PMV,SW,"W, A",7.3,306,41.1300,116.0069,"Coon Creek, west of most tails and side creek 983",,
+NN986,LM,PMV,T,n,na,na,41.1294,116.0078,"Westernmost tailings in Coon Creek, final catch pond?",,
+NN987,LM,PMV,TPW,"W, A",6.8,452,41.1286,116.0069,"Seep water from RVW tailings, low flow of very acid pore water",,
+NN987,LM,PMV,T,n,na,na,41.1286,116.0069,"RVW tailings, second pond west",,
+NN988,LM,PMV,SW,"W, A",7.4,428,41.1286,116.0069,Coon creek flow across tailings 987,,
+NN989,LM,PMV,T,n,na,na,41.1281,116.0056,RVW tailings pond 3 west,,
+NN990,LM,PMV,MDW,"W, A",2.1,">2,000",41.1269,116.0031,"Pore water seeps from tailings, makes faint red FeOx when mixed",,
+NN990,LM,PMV,T,n,na,na,41.1269,116.0031,"RVW largest tails pond, 4 west",,
+NN991,LM,PMV,T,"W, A",na,na,41.1231,116.0006,"RVW main dump at tunnel, mixed sulfide-oxide minerals",,
+NN992,LM,PMV,SW,"W, A",7.7,280,41.1236,116.0014,"Coon creek east of RVW mine; background (no mines, but rocks altered)",,
+NN993,LM,PMV,SW,"W, A",7.5,330,41.1239,116.0022,"Coon creek west of mine dump, before tailings",,
+NN994,LM,PMV,SW,"W, A",6.6,595,41.1239,116.0017,"Mixing zone in aspen grove, springs into creek, make some red FeOx",,
+NN995,LM,PMV,SW,"W, A",7.9,444,41.1308,116.0108,"Coon creek, far west, below all tailings",,
+NN997,IND,PMV,SW,"W, A",7.1,228,41.3267,115.9811,"Black Beauty mine, mxing of creek and mine waters",,
+NN998,IND,PMV,D,n,na,na,41.3267,115.9667,"North side of creek, reclaimed dump (black phyllite chief rock)",,
+NN999,IND,PMV,D,n,na,na,41.3267,115.9667,"South side of creek, sulfidic waste has white sulfate crust",,
+NW401,MJ,PMV,MDW,W,7.6,600,40.6719,118.4581,"Small mine adit, drainage used for stock; SE corner Majuba Mountain",,
+NN0208A,PO,PMV,TPW,W,1.9,">2,000",37.9039,114.4905,"Pond in tailings , very high TDS.",,
+NN0222A,TY,PMV,TPW,W,2.1,">2,000",38.3764,116.3667,"Puddle on Tybo tails, very high TDS",,
+NN0216,TY,na,SPW,"W, A",8.2,171,38.3719,116.4267,"Spring in Tv,  baseline",,
+NN0217,TY,na,SPW,"W, A",7.6,106,38.3667,116.4211,"Spring in Tv,  baseline",,
+NN0219,TY,na,well,"W, A",7.7,233,38.3702,116.3982,"Well in center of Tybo district , not in ore",,
+NN0235,TY,na,SPW,"W, A",8.2,217,38.4450,116.3872,Keystone spring from carb rx  some mines,,
+NN0250,AU ,na,SW,"W, A",8.3,317,39.4538,117.0987,Veatch creek,,
+NN0251,AU ,na,SPW,"W, A",8.5,385,39.4528,117.0753,Veatch spring in Kg,
+NN0252,AU ,SHG,MDW,"W, A",6.0,1790,39.3791,117.0887,Spring/seep in Quito pit,
+NN0254,AU ,na,SW,"W, A",8. 6,266,39.3772,117.0892,Birch Creek  background,
+NN0255,AU ,na,SPW,"W, A",8.0,1286,39.3875,117.0874,Spring/creek below Quito pit,
+NN0256,AU ,na,SPW,"W, A",7.9,1196,39.3882,117.0888,Spring/creek below Quito pit,
+NN0257,AU ,na,SPW,"W, A",8.4,244,39.3917,117.0733,Spring east Birch Creek basin,
+NN0258,AU ,na,SW,"W, A",7.9,365,39.3061,117.1192,Spring  Big Creek basin,
+NN0259,AU ,na,SW,"W, A",7.9,246,39.3206,117.1178,Spring  Big Crk  possibly altered rx,
+NN0261,AU ,na,SW,"W, A",8.8,354,39.3748,117.1553,Big Creek farther west,
+NN0265,AU ,PMV,TPW,"W, A",8.0,710,39.4978,117.0983,Pond in mill tailings,
+NN0266,AU ,na,SW,"W, A",8.2,460,39.4761,117.0531,Stream in Kg  ,
+NN0267,RB,na,SW,"W, A",8.4,256,39.6633,116.9019,Callaghan Crk  rx=Pz ls and shale?,
+NN0268,RB,na,SW,"W, A",8.3,870,39.6700,116.6897,Simpson Park  crk in tuff ,
+NN0269,RB,na,SW,"W, A",8.7,344,39.7718,116.2996,Roberts Creek  soil and limestone alluv?,
+NN0270,RB,na,SW,"W, A",8.4,362,39.8106,116.3139,Roberts Creek  near alt LS,
+NN0271,RB,na,SW,"W, A",9.0,249,39.8390,116.3084,Roberts Creek headwaters in LS,
+NN0272,RB,na,SPW,"W, A",8.3,399,39.8475,116.2898,Roberts Creek in Vinini shale-chert,
+NN0273,RB,na,SW,"W, A",8.3,456,39.8552,116.2694,Vinini Crk in Vinini shale,
+NN0274,RB,na,SW,"W, A",8.9,441,39.8571,116.1986,Vinini Crk in shale and Tv and soil,
+NN0275,RB,na,SW,"W, A",8.5,416,39.9543,116.3086,Willow Crk from LS,
+NN0276,RB,na,SW,"W, A",8.3,351,39.9055,116.4126,Tonkin Crk near Tonkin Spr  shale?,
+NN0279,WP,na,SPW,"W, A",8.7,495,39.2397,115.4686,"Roadside spring,  possible mine input",
+NN0283,WP,na,SPW,"W, A",8.5,548,39.3201,115.5521,Emigrant spring  developed for stock  LS,
+NN0284,na,na,SW,"W, A",8.4,156,40.0250,115.8713,Headwater stream in qtzite and conglomerate,
+NN0285,na,na,SW,"W, A",8.2,187,40.3133,115.4851,Headwater stream in granite,
+NN0286,na,na,SW,"W, A",8.5,186,40.3060,115.4600,Lower stream limestone and granite,
+NN0287,na,na,SW,"W, A",7.9,135,40.4222,115.6658,"Large stream at Jiggs, most of flow in alluvium",
+NN0288,LM,na,SPW,"W, A",7.5,273,41.0406,115.8931,Spring in Tv tuff-seds,
+NN0289,LM,na,SW,"W, A",8.5,532,41.0799,115.9890,Headwaters Cold Creek in shale and  ls,
+NN0290,LM,na,SPW,"W, A",7.9,417,41.0659,115.9641,Spring in ls-shale near Sproule cabin,
+NN0292,LM,na,SPW,"W, A",7.8,276,41.1225,115.9986,Spring east of RVW  in alt Tv,
+NN0293,LM,na,SW,"W, A",8.5,611,41.1303,116.0103,Coon Crk west of six tailings ponds RVW mill,
+NN0294,LM,na,SW,"W, A",8.2,614,41.1463,116.0242,Coon Crk far west of RVW,
+NN0295,LM,na,SW,"W, A",8.7,427,41.1355,116.0873,Maggie Crk at Stampede Ranch  in Tvt,
+NN0296,IN ,na,SW,"W, A",8.2,224,41.3272,115.9825,"Black Beauty headwaters above mine,  black shale?",
+NN0297,IN ,na,MDW,W,2.4,1784,41.3263,115.9803,Acid seeps from Black B sulfidic dumps,
+NN0298,IN ,na,SW,"W, A",8.5,261,41.3003,115.9720,headwaters of Warm Creek in Ord blk shale,
+NN0299,IN ,na,SW,"W, A",8.0,165,41.3202,115.9048,Jim Crk east of siliceous seds,
+NN0300,na,na,SW,"W, A",8.7,314,41.3689,115.7863,"North Fork Humb River,  mixed rocks",
+NN0301,LM,na,SPW,"W, A",8.0,357,41.1555,115.9520,Spring in Ord black shale(?),
+NN0302,LM,na,SPW,"W, A",7.0,220,41.1317,115.9494,Twin Spring in Tg pluton,
+NN0303,RR,na,SW,"W, A",8.4,347,40.5720,116.0546,"Ferd. Creek  below Rain mine,  mostly Chainman shale",
+NN0304,RR,na,SPW,"W, A",7.7,111,40.5547,116.0419,Spring in Chainman,
+NN0305,RR,na,SPW,"W, A",7.6,108,40.5496,116.0113,Cherry Spring in Chainman  altered?,
+NN0306,RR,na,SPW,"W, A",7.5,249,40.5339,115.9839,"Old Bullion spring at smelter,  tuff outcrop",
+NN0309,RR,na,SPW,"W, A",7.5,80.3,40.5439,116.0027,Spring in shale below drill zone  altered rocks,
+NN0310,RR,na,SPW,"W, A",8.6,378,40.4651,116.0482,Spring in Chainman shale,
+NN0311,RR,na,SPW,"W, A",8.3,372,40.4590,116.0177,Spring in Chainman  alr'n zone?,
+NN0312,RR,na,SW,"W, A",8.4,317,40.4658,116.0525,Trout Creek  big flow  below altn and drill zones,
+NN0313,CZ,na,SW,"W, A",8.4,403,40.2043,116.5842,Mill Creek north of Cortez  ? How much mine influence,
+NN0316,CZ,na,SPW,"W, A",7.9,312,40.0944,116.6953,"House spring, in quartzite",
+NN0317,CZ,na,SPW,"W, A",8.1,453,40.2661,116.8450,Spring in Pz/Ord? Shale  near Greystone,
+NN0318,HT,na,SWA,"W, A",8.1,710,40.4114,116.7919,"N Fk Hilltop creek in shale, effects of alteration?",
+NN0319,HT,na,SWA,"W, A",8.2,105,40.4127,116.8346,Maysville crk  in qtzite  alteration but  nil mines,
+NN0320,HT,na,SW,"W, A",7.8,414,40.4367,116.8122,Rock Creek below Hilltop and Dean mines  ,
+NN0322,BM,na,SW,"W, A",8.6,256,40.6219,117.1204,"Headwater crk in silt-shale,  alteration effects?",
+NN0323,BM,na,SPW,"W, A",7.7,286,40.6000,117.1045,Cottonwood Crk in siltite-shale  alteration?,
+NN0324,BM,na,SPW,"W, A",7.5,406,40.5678,117.1322,Spring/pipe into Battle Conglom; altered? No mines,
+NN0325,BM,PMV,MDW,W,2.1,4590,40.5549,117.1176,"Butte mine, pipe under collapsed adit, very high TDS",
+NN0326,BM,na,SWA,"W, A",7.7,696,40.6053,117.0492,"Long Canyon crk, flow in alteration halo?",

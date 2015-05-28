@@ -1,0 +1,464 @@
+commit a75952b72a0fff3031124003e62118111aed42c1
+Merge: 457d2ee... ae6884a...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Nov 3 11:43:59 2008 -0800
+
+    Merge git://git.kernel.org/pub/scm/linux/kernel/git/sfrench/cifs-2.6
+    
+    * git://git.kernel.org/pub/scm/linux/kernel/git/sfrench/cifs-2.6:
+      cifs: fix renaming one hardlink on top of another
+      [CIFS] fix error in smb_send2
+      [CIFS] Reduce number of socket retries in large write path
+
+commit ae6884a9da56f8921e432e663b4ccb4a1851b2ea
+Author: Jeff Layton <jlayton@redhat.com>
+Date:   Mon Nov 3 14:05:08 2008 -0500
+
+    cifs: fix renaming one hardlink on top of another
+    
+    cifs: fix renaming one hardlink on top of another
+    
+    POSIX says that renaming one hardlink on top of another to the same
+    inode is a no-op. We had the logic mostly right, but forgot to clear
+    the return code.
+    
+    Signed-off-by: Jeff Layton <jlayton@redhat.com>
+    Signed-off-by: Steve French <sfrench@us.ibm.com>
+
+commit 457d2ee225801441e96f2e35894ec404572ad862
+Merge: da4a22c... 818e3dd...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Nov 3 10:21:40 2008 -0800
+
+    Merge branch 'tracing-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/linux-2.6-tip
+    
+    * 'tracing-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/linux-2.6-tip:
+      tracing, ring-buffer: add paranoid checks for loops
+      ftrace: use kretprobe trampoline name to test in output
+      tracing, alpha: undefined reference to `save_stack_trace'
+
+commit da4a22cba7cb2d922691214aed6b1977f04efaff
+Merge: 20ebc00... e5beae1...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Nov 3 10:15:40 2008 -0800
+
+    Merge branch 'io-mappings-for-linus-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/linux-2.6-tip
+    
+    * 'io-mappings-for-linus-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/linux-2.6-tip:
+      io mapping: clean up #ifdefs
+      io mapping: improve documentation
+      i915: use io-mapping interfaces instead of a variety of mapping kludges
+      resources: add io-mapping functions to dynamically map large device apertures
+      x86: add iomap_atomic*()/iounmap_atomic() on 32-bit using fixmaps
+
+commit 20ebc0073b0fb63ce4a27ca761418ecfdecaadb7
+Merge: c8126cc... 7aeb6d7...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Nov 3 10:14:59 2008 -0800
+
+    Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound-2.6
+    
+    * 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound-2.6:
+      ALSA: hda: make a STAC_DELL_EQ option
+      ALSA: emu10k1 - Add more invert_shared_spdif flag to Audigy models
+      ALSA: hda - Add a quirk for another Acer Aspire (1025:0090)
+      ALSA: remove direct access of dev->bus_id in sound/isa/*
+      sound: struct device - replace bus_id with dev_name(), dev_set_name()
+      ALSA: Fix PIT lockup on some chipsets when using the PC-Speaker
+      ALSA: rawmidi - Add open check in rawmidi callbacks
+      ALSA: hda - Add digital-mic for ALC269 auto-probe mode
+      ALSA: hda - Disable broken mic auto-muting in Realtek codes
+
+commit c8126cc6025972629044cde750cec97f175792f7
+Merge: 30ef898... 6c87df3...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Nov 3 09:59:01 2008 -0800
+
+    Merge branch 'proc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/adobriyan/proc
+    
+    * 'proc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/adobriyan/proc:
+      proc: revert /proc/uptime to ->read_proc hook
+
+commit 30ef898c535bffd105c1a9b9b6563969b3deb31e
+Merge: 45beca0... 5a125c3...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Nov 3 09:58:40 2008 -0800
+
+    Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+    
+    * 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6:
+      i915: Add GEM ioctl to get available aperture size.
+      drm/radeon: fixup further bus mastering confusion.
+      build fix: CONFIG_DRM_I915=y && CONFIG_ACPI=n
+
+commit e5beae16901795223d677f15aa2fe192976278ee
+Author: Keith Packard <keithp@keithp.com>
+Date:   Mon Nov 3 18:21:45 2008 +0100
+
+    io mapping: clean up #ifdefs
+    
+    Impact: cleanup
+    
+    clean up ifdefs: change #ifdef CONFIG_X86_32/64 to
+    CONFIG_HAVE_ATOMIC_IOMAP.
+    
+    flip around the #ifdef sections to clean up the structure.
+    
+    Signed-off-by: Keith Packard <keithp@keithp.com>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit 8d5c6603c408d91ecf543f244f10ccb8b500ad95
+Author: Keith Packard <keithp@keithp.com>
+Date:   Mon Nov 3 18:21:44 2008 +0100
+
+    io mapping: improve documentation
+    
+    Impact: add documentation
+    
+    Signed-off-by: Keith Packard <keithp@keithp.com>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit 7aeb6d7d20185b7cede1ce5f6bd8d762e49bda6d
+Merge: 71c21b4... 55e03a6... 6b3ab21...
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Mon Nov 3 16:28:24 2008 +0100
+
+    Merge branches 'topic/fix/misc' and 'topic/fix/hda' into for-linus
+
+commit 6b3ab21ef1ac15db4b053ce0ba8eae0ef9361c8a
+Author: Matthew Ranostay <mranostay@embeddedalley.com>
+Date:   Mon Nov 3 08:12:43 2008 -0500
+
+    ALSA: hda: make a STAC_DELL_EQ option
+    
+    Add support for explicitly enabling the EQ distortion hack for
+    systems without software biquad support.
+    
+    Signed-off-by: Matthew Ranostay <mranostay@embeddedalley.com>
+    Cc: stable@kernel.org
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit 818e3dd30a4ff34fff6d90e87ae59c73f6a53691
+Author: Steven Rostedt <rostedt@goodmis.org>
+Date:   Fri Oct 31 09:58:35 2008 -0400
+
+    tracing, ring-buffer: add paranoid checks for loops
+    
+    While writing a new tracer, I had a bug where I caused the ring-buffer
+    to recurse in a bad way. The bug was with the tracer I was writing
+    and not the ring-buffer itself. But it took a long time to find the
+    problem.
+    
+    This patch adds paranoid checks into the ring-buffer infrastructure
+    that will catch bugs of this nature.
+    
+    Note: I put the bug back in the tracer and this patch showed the error
+          nicely and prevented the lockup.
+    
+    Signed-off-by: Steven Rostedt <srostedt@redhat.com>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit b3aa557722b3d5858f14ca559e03461c24125aaf
+Author: Steven Rostedt <rostedt@goodmis.org>
+Date:   Fri Oct 31 15:44:07 2008 -0400
+
+    ftrace: use kretprobe trampoline name to test in output
+    
+    Impact: ia64+tracing build fix
+    
+    When a function is kprobed, the return address is set to the
+    kprobe_trampoline, or something similar. This caused the output
+    of the trace to look confusing when the parent seemed to be this
+    "kprobe_trampoline" function.
+    
+    To fix this, Abhishek Sagar added a test of the instruction pointer
+    of the parent to see if it matched the kprobe_trampoline. If it
+    did, the output would print a "[unknown/kretprobe'd]" instead.
+    
+    Unfortunately, not all archs do this the same way, and the trampoline
+    function may not be exported, which causes failures in builds.
+    
+    This patch will compare the name instead of the pointer to see
+    if it matches. This prevents us from depending on a function from
+    being exported, and should work on all archs. The worst that can
+    happen is that an arch might use a different name and then we
+    go back to the confusing output. At least the arch will still build.
+    
+    Reported-by: Abhishek Sagar <sagar.abhishek@gmail.com>
+    Signed-off-by: Steven Rostedt <srostedt@redhat.com>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+    Tested-by: Abhishek Sagar <sagar.abhishek@gmail.com>
+    Acked-by: Abhishek Sagar <sagar.abhishek@gmail.com>
+
+commit 55e03a68d2489d116a5c5e8111ecef3f69831ed6
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Mon Nov 3 10:21:36 2008 +0100
+
+    ALSA: emu10k1 - Add more invert_shared_spdif flag to Audigy models
+    
+    Reported in Novell bnc#440862:
+        https://bugzilla.novell.com/show_bug.cgi?id=440862
+    
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit c2c80529460095035752bf0ecc1af82c1e0f6e0f
+Author: Al Viro <viro@ZenIV.linux.org.uk>
+Date:   Fri Oct 31 19:50:41 2008 +0000
+
+    tracing, alpha: undefined reference to `save_stack_trace'
+    
+    Impact: build fix on !stacktrace architectures
+    
+    only select STACKTRACE on architectures that have STACKTRACE_SUPPORT
+    
+    ... since we also need to ifdef out the guts of ftrace_trace_stack().
+    We also want to disallow setting TRACE_ITER_STACKTRACE in trace_flags
+    on such configs, but that can wait.
+    
+    Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>
+    Acked-by: Steven Rostedt <srostedt@redhat.com>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit 69e50282b726bab75c8050c4836dc89b7eb7bf1a
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Mon Nov 3 10:07:43 2008 +0100
+
+    ALSA: hda - Add a quirk for another Acer Aspire (1025:0090)
+    
+    Added a quirk for another Acer Aspier laptop (1025:0090) with ALC883
+    codec.  Reported in Novell bnc#426935:
+        https://bugzilla.novell.com/show_bug.cgi?id=426935
+    
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit 0418ff0c8e48aae4e5e0cbcd3e19a057bea2e55a
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Mon Nov 3 08:51:33 2008 +0100
+
+    ALSA: remove direct access of dev->bus_id in sound/isa/*
+    
+    Removed the direct accesses of dev->bus_id in sound/isa/* by replacement
+    with dev_err() or dev_warn() functions.
+    
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit bb072bf0980abbe4fc905df91857a8ad34ca673c
+Author: Kay Sievers <kay.sievers@vrfy.org>
+Date:   Sun Nov 2 03:50:35 2008 +0100
+
+    sound: struct device - replace bus_id with dev_name(), dev_set_name()
+    
+    [stripped sound/isa/* changes, replaced with the next patch -- tiwai]
+    
+    Signed-off-by: Kay Sievers <kay.sievers@vrfy.org>
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit b02555c3845f02924b8224ff1fd9a44f2c144dbb
+Author: Zoltan Devai <zdevai@gmail.com>
+Date:   Mon Nov 3 00:30:28 2008 +0100
+
+    ALSA: Fix PIT lockup on some chipsets when using the PC-Speaker
+    
+    Fix PIT lockup on some chipsets when using the PC-Speaker.
+    
+    Signed-off-by: Zoltan Devai <zdevai@gmail.com>
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit 219df32faec97349516c29f33008fea59a46e99a
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Mon Nov 3 08:17:05 2008 +0100
+
+    ALSA: rawmidi - Add open check in rawmidi callbacks
+    
+    The drivers (e.g. mtpav) may call rawmidi functions in irq handlers
+    even though the streams are not opened.  This results in Oops or panic.
+    
+    This patch adds the rawmidi state check before actually operating the
+    rawmidi buffers.
+    
+    Tested-by: Ingo Molnar <mingo@elte.hu>
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit 5a125c3c79167e78ba44efef03af7090ef28eeaf
+Author: Eric Anholt <eric@anholt.net>
+Date:   Wed Oct 22 21:40:13 2008 -0700
+
+    i915: Add GEM ioctl to get available aperture size.
+    
+    This will let userland know when to submit its batchbuffers, before they get
+    too big to fit in the aperture.
+    
+    Signed-off-by: Eric Anholt <eric@anholt.net>
+    Signed-off-by: Dave Airlie <airlied@redhat.com>
+
+commit ee956e090e114ede6542c76a7465ed6ce118ad52
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Fri Oct 31 17:16:31 2008 +0100
+
+    ALSA: hda - Add digital-mic for ALC269 auto-probe mode
+    
+    The digital mic wasn't detected properly for ALC269 auto-probing mode
+    because of its widget number.  Fixed now.
+    
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit 4605b718e8b8f0dd3d811ddf90f630fd0835b7bf
+Author: Takashi Iwai <tiwai@suse.de>
+Date:   Fri Oct 31 14:18:24 2008 +0100
+
+    ALSA: hda - Disable broken mic auto-muting in Realtek codes
+    
+    The recent addition of automatic mic-muting is broken in some cases.
+    The code assumes that the pin nids <= 0x18, but the digital pins can
+    be less than 0x18.
+    Also, it assumes the front-mic being the internal mic, but it depends
+    on the hardware implementation actually.
+    
+    Instead of complex case-fixes, better to disable the code as now.
+    
+    Signed-off-by: Takashi Iwai <tiwai@suse.de>
+
+commit 0839ccb8ac6a9e2d5e175a4ae9c82b5c574d510d
+Author: Keith Packard <keithp@keithp.com>
+Date:   Thu Oct 30 19:38:48 2008 -0700
+
+    i915: use io-mapping interfaces instead of a variety of mapping kludges
+    
+    Impact: optimize/clean-up the IO mapping implementation of the i915 DRM driver
+    
+    Switch the i915 device aperture mapping to the io-mapping interface, taking
+    advantage of the cleaner API to extend it across all of the mapping uses,
+    including both pwrite and relocation updates.
+    
+    This dramatically improves performance on 64-bit kernels which were using
+    the same slow path as 32-bit non-HIGHMEM kernels prior to this patch.
+    
+    Signed-off-by: Keith Packard <keithp@keithp.com>
+    Signed-off-by: Eric Anholt <eric@anholt.net>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit 9663f2e6a6cf3f82b06d8fb699b11b80f92553ba
+Author: Keith Packard <keithp@keithp.com>
+Date:   Thu Oct 30 19:38:18 2008 -0700
+
+    resources: add io-mapping functions to dynamically map large device apertures
+    
+    Impact: add new generic io_map_*() APIs
+    
+    Graphics devices have large PCI apertures which would consume a significant
+    fraction of a 32-bit address space if mapped during driver initialization.
+    Using ioremap at runtime is impractical as it is too slow.
+    
+    This new set of interfaces uses atomic mappings on 32-bit processors and a
+    large static mapping on 64-bit processors to provide reasonable 32-bit
+    performance and optimal 64-bit performance.
+    
+    The current implementation sits atop the io_map_atomic fixmap-based
+    mechanism for 32-bit processors.
+    
+    This includes some editorial suggestions from Randy Dunlap for
+    Documentation/io-mapping.txt
+    
+    Signed-off-by: Keith Packard <keithp@keithp.com>
+    Signed-off-by: Eric Anholt <eric@anholt.net>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit fd9409343521eac22b6ed51686128a643c7c976b
+Author: Keith Packard <keithp@keithp.com>
+Date:   Thu Oct 30 19:37:09 2008 -0700
+
+    x86: add iomap_atomic*()/iounmap_atomic() on 32-bit using fixmaps
+    
+    Impact: introduce new APIs, separate kmap code from CONFIG_HIGHMEM
+    
+    This takes the code used for CONFIG_HIGHMEM memory mappings except that
+    it's designed for dynamic IO resource mapping.
+    
+    These fixmaps are available even with CONFIG_HIGHMEM turned off.
+    
+    Signed-off-by: Keith Packard <keithp@keithp.com>
+    Signed-off-by: Eric Anholt <eric@anholt.net>
+    Signed-off-by: Ingo Molnar <mingo@elte.hu>
+
+commit 61de800d33af585cb7e6f27b5cdd51029c6855cb
+Author: Steve French <sfrench@us.ibm.com>
+Date:   Thu Oct 30 20:15:22 2008 +0000
+
+    [CIFS] fix error in smb_send2
+    
+    smb_send2 exit logic was strange, and with the previous change
+    could cause us to fail large
+    smb writes when all of the smb was not sent as one chunk.
+    
+    Acked-by: Jeff Layton <jlayton@redhat.com>
+    Signed-off-by: Steve French <sfrench@us.ibm.com>
+
+commit edf1ae403896cb7750800508b14996ba6be39a53
+Author: Steve French <sfrench@us.ibm.com>
+Date:   Wed Oct 29 00:47:57 2008 +0000
+
+    [CIFS] Reduce number of socket retries in large write path
+    
+    CIFS in some heavy stress conditions cifs could get EAGAIN
+    repeatedly in smb_send2 which led to repeated retries and eventually
+    failure of large writes which could lead to data corruption.
+    
+    There are three changes that were suggested by various network
+    developers:
+    
+    1) convert cifs from non-blocking to blocking tcp sendmsg
+    (we left in the retry on failure)
+    2) change cifs to not set sendbuf and rcvbuf size for the socket
+    (let tcp autotune the buffer sizes since that works much better
+    in the TCP stack now)
+    3) if we have a partial frame sent in smb_send2, mark the tcp
+    session as invalid (close the socket and reconnect) so we do
+    not corrupt the remaining part of the SMB with the beginning
+    of the next SMB.
+    
+    This does not appear to hurt performance measurably and has
+    been run in various scenarios, but it definately removes
+    a corruption that we were seeing in some high stress
+    test cases.
+    
+    Acked-by: Shirish Pargaonkar <shirishp@us.ibm.com>
+    Signed-off-by: Steve French <sfrench@us.ibm.com>
+
+commit 4e270e9b8a9d246290f3901f1fb6c5efdb734ddf
+Author: Alex Deucher <alexdeucher@gmail.com>
+Date:   Tue Oct 28 07:48:34 2008 +1000
+
+    drm/radeon: fixup further bus mastering confusion.
+    
+    rs400/480 are like previous chips not like rs6xx chips.
+    
+    Signed-off-by: Dave Airlie <airlied@redhat.com>
+
+commit 65e082c9a33a6e9f24e9a713a7d38d11206d3c3d
+Author: Len Brown <len.brown@intel.com>
+Date:   Fri Oct 24 17:18:10 2008 -0400
+
+    build fix: CONFIG_DRM_I915=y && CONFIG_ACPI=n
+    
+    drivers/gpu/drm/i915/i915_opregion.c:340: error: implicit declaration of function ‘register_acpi_notifier’
+    drivers/gpu/drm/i915/i915_opregion.c:361: error: implicit declaration of function ‘unregister_acpi_notifier’
+    
+    Signed-off-by: Len Brown <len.brown@intel.com>
+    Signed-off-by: Eric Anholt <eric@anholt.net>
+    Signed-off-by: Dave Airlie <airlied@redhat.com>
+
+commit 6c87df37dcb9c6c33923707fa5191e0a65874d60
+Author: Alexey Dobriyan <adobriyan@gmail.com>
+Date:   Mon Oct 27 22:38:27 2008 +0300
+
+    proc: revert /proc/uptime to ->read_proc hook
+    
+    Turned out some VMware userspace does pread(2) on /proc/uptime, but
+    seqfiles currently don't allow pread() resulting in -ESPIPE.
+    
+    Seqfiles in theory can do pread(), but this can be a long story,
+    so revert to ->read_proc until then.
+    
+    http://bugzilla.kernel.org/show_bug.cgi?id=11856
+    
+    Signed-off-by: Alexey Dobriyan <adobriyan@gmail.com>

@@ -1,0 +1,472 @@
+<!-- Title: Eve shift. Fri Apr 27, 2007 -->
+<!-- SciCo: Sebastian Grinstein -->
+<!-- DAQAce: Aart Heijboer -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Naoki Kimura -->
+<!-- OpManager: Max -->
+<!-- Notes: -->
+<pre>We are in access, we expect to go into shot setup shortly after.</pre>
+
+<!-- Date: Fri Apr 27 16:10:15.914 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240354>240354</A>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [15,730,639] 
+<!-- Author: Ji-Eun -->
+
+
+
+<!-- Date: Fri Apr 27 16:19:48.361 2007 -->
+The short term plan is to make calibrations after the access is done then wait in l2 torture or cosmics if requested till shot setup. Silicon people are trying to debug a faulty VRB, so we are doing cosmics right now.<p> 
+ 
+Remember to page Andrew after p are loaded, he needs to check the l2 settings.
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Fri Apr 27 16:26:31.220 2007 -->
+Access is over.
+<!-- Author: Sebastian -->
+
+<!-- Date: Fri Apr 27 16:28:35.075 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240357>240357</A>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [15,730,639] 
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 16:33:31.129 2007 -->
+<p>Plug Access Report: Replaced a CAEN A932AN HV module in plug 
+CAEN crate 6 slot 5. Its FRAM configuration was corrupted, 
+probably from the last quench. Plug CAEN crate 1 also had 
+group configuration errors, but re-downloading the group 
+configuration FRAMs in crate 1 fixed the problem. 
+</p>
+<!-- Author: Dervin, Willis :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240357' target=_top>240357</a>) -->
+
+<!-- Date: Fri Apr 27 16:48:55.915 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240359>240359</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 16:50:04.324 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240358>240358</A>
+CALIBRATION: <U><B>calqie</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Fri Apr 27 16:52:22.945 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240360>240360</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;11;40 comment by...Naoki -->
+Check OK
+<!-- Date: Fri Apr 27 16:56:34.330 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240361>240361</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 16:57:52.236 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240361>240361</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;13;48 comment by...Naoki -->
+Check OK
+<!-- Date: Fri Apr 27 17:02:07.599 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240362>240362</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 17:12:29.787 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240363>240363</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;19;25 comment by...Naoki -->
+Check OK
+<!-- Date: Fri Apr 27 17:13:28.953 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240364>240364</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 17:18:32.119 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240365>240365</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:19:10.768 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240365>240365</A>
+TERMINATE: done
+
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:19:25.440 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240365>240365</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;28;46 comment by...Naoki -->
+Check OK
+<!-- Date: Fri Apr 27 17:22:06.857 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240366>240366</A>
+ Activated at 2007.04.27 17:21:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Apr 27 17:22:07.757 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240366>240366</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,792,632] 
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 17:22:51.429 2007 -->
+MCR called they will be injecting beam soon.
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Fri Apr 27 17:32:56.942 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240366>240366</A>
+ Terminated at 2007.04.27 17:31:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Apr 27 17:32:57.037 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240366>240366</A>
+TERMINATE: spike run during while quite time had officially ended. 
+But I did not see any sign of activity in the tevatron.
+L1 accept rate was 58.3 Hz.
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:35:46.363 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240370>240370</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:35:47.893 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240370>240370</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;39;31 comment by...Naoki -->
+Check OK
+<!-- Date: Fri Apr 27 17:37:12.770 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240371>240371</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:37:59.254 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240371>240371</A>
+TERMINATE: done
+
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:39:20.742 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240372>240372</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:39:20.269 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240372>240372</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 17:41:48.919 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240372>240372</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;54;52 comment by...Naoki -->
+Check OK
+<!-- Date: Fri Apr 27 17:42:45.272 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240371>240371</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 17;59;59 comment by...Naoki -->
+OK
+<!-- Date: Fri Apr 27 17:43:17.434 2007 -->
+I'm not doing COT calibrations since they were done just before 4pm by ji-eun.  
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240372' target=_top>240372</a>) -->
+
+<!-- Date: Fri Apr 27 17:45:25.225 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240376>240376</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:46:12.447 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240376>240376</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 18;01;20 comment by...Naoi -->
+OK
+<!-- Date: Fri Apr 27 17:48:50.308 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240377>240377</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:53:00.793 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240379>240379</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: aart -->
+
+
+<!-- Date: Fri Apr 27 17:54:42.550 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240379>240379</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Apr 27 18;02;55 comment by...Naoki -->
+OK
+
+
+<!-- Date: Fri Apr 27 18:05:44.520 2007 -->
+Andrew walked by and asked us to include the l2pulsar crates as soon as the calibrations are done.
+<!-- Author: Sebastian -->
+<!-- Comment: Fri Apr 27 18;19;26 comment by...sebastian -->
+<pre>paged Andrew because we could not include the crates in the shot setup configuration.</pre>
+<!-- Comment: Fri Apr 27 19;01;18 comment by...Sebastian -->
+I paged Andrew again and Max, no reply. We are leaving the l2 pulsar crates out.
+<!-- Date: Fri Apr 27 18:18:01.451 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240382>240382</A>
+TERMINATE: l2ctrla gives error when going though config
+
+<!-- Author: aart -->
+
+
+
+
+<!-- Date: Fri Apr 27 18:22:24.026 2007 -->
+we were trying to do a AAA_shotsetup run with inclusion of pulsar 0, 2,3,4,5 and TED. But got a message about 'l2 pulsar node lost'. I took them out now.  
+We paged Adrew to ask if this behaviour is expected in shot-setup mode.
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240383' target=_top>240383</a>) -->
+<!-- Comment: Fri Apr 27 18;26;39 comment by...aart -->
+Should add that the error shows up when 'config'uring.
+
+<!-- Date: Fri Apr 27 18:24:19.918 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240384>240384</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_4_02 [4,878,683] 
+<!-- Author: aart -->
+
+
+
+
+<!-- Date: Fri Apr 27 18:41:24.185 2007 -->
+Brief ifix cpr alarm while cpr is off.   
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240384' target=_top>240384</a>) -->
+
+
+<!-- Date: Fri Apr 27 18:48:46.181 2007 -->
+I tried going through 'config' with AAA_current while including the pulsar crates and TED, but again we get: 
+"  
+Attention !!!!.  L2PULSAR_NODELOST !  
+Control node is unable to contact decision node process. 
+Decision node is sick. Page Level 2 for help. 
+" 
+ 
+I guess this means we'll run with vanilla AAA_current setup.  
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240385' target=_top>240385</a>) -->
+
+<!-- Date: Fri Apr 27 18:49:28.623 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240385>240385</A>
+TERMINATE: pulsar_ted does not configure
+
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 18:51:04.007 2007 -->
+Loading pbars.
+<!-- Author: Sebastian -->
+<!-- Comment: Fri Apr 27 19;08;36 comment by...sebastian -->
+Scraping
+
+<!-- Comment: Fri Apr 27 19;12;30 comment by...Sebastian -->
+MCR called, they are done with scraping.
+
+<!-- Comment: Fri Apr 27 19;15;03 comment by...sebastian -->
+CLC is up.
+
+<!-- Date: Fri Apr 27 19:17:40.455 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386>240386</A>
+ Activated at 2007.04.27 19:17:22
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Apr 27 19:17:41.062 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386>240386</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_4_02 [4,878,683] 
+<!-- Author: aart -->
+
+
+
+<!-- Date: Fri Apr 27 19:18:39.467 2007 -->
+Store 5382 is colliding, initial lum=192E30. Silicon is up and we are taking data.
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Fri Apr 27 19:20:42.001 2007 -->
+ces nw arch tripped. trurned it back on and now it seems fine.  
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386' target=_top>240386</a>) -->
+
+
+<!-- Date: Fri Apr 27 19:24:35.471 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-4077&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-4077' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-4076&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-4076' width='300'></a></center>
+<!-- Author: aart -->
+
+<!-- Date: Fri Apr 27 20:53:49.156 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386>240386</A>
+general: <tt>CO Check list looks good.</tt>
+<!-- Author: Consumer Operator( Naoki Kimura) -->
+
+
+
+<!-- Date: Fri Apr 27 21:45:37.212 2007 -->
+Run control thinks it got a trigger inhibit for central HV (cem,cha, wha) from ifix. It cleared immediately and I did not see anything in ifix.  
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386' target=_top>240386</a>) -->
+<!-- Comment: Fri Apr 27 22;32;15 comment by...aart -->
+same thing again.
+
+<!-- Comment: Fri Apr 27 22;46;35 comment by...aart -->
+This is caused by our intermittent gamma alarm.
+
+<!-- Date: Fri Apr 27 22:07:15.390 2007 -->
+PLUG HV 07 tripped (this is the one that has been giving an alarm for the past few days). Hitting the reset button on the 3rd floor brought it back. 
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386' target=_top>240386</a>) -->
+
+
+<!-- Date: Fri Apr 27 22:16:24.249 2007 -->
+Had a rack alarm that cleared by itself.
+<!-- Author: Sebastian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386' target=_top>240386</a>) -->
+<!-- Comment: Fri Apr 27 22;17;04 comment by...s -->
+again
+
+
+<!-- Date: Fri Apr 27 22:30:16.911 2007 -->
+We are getting intermittent inhibits from GAM: CEM NW ARCH:... The Voltage is 1225 V, which is touching on the lower limit.  The value for the current is absent (?). 
+ 
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386' target=_top>240386</a>) -->
+<!-- Comment: Fri Apr 27 22;56;25 comment by...aart -->
+We paged Steve Hahn. At his request, we moved the lower limit of the alarming voltage to 1220. The proc. sys. tec. unsilenced the alarm. The alarm is gone now, despite the funny missing current value, which still did not reappear.
+
+<!-- Date: Fri Apr 27 22:39:54.521 2007 -->
+fib07 went unresponsive. not responding to pint -> shepherded.  
+<!-- Author: aart :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386' target=_top>240386</a>) -->
+<!-- Comment: Fri Apr 27 22;43;16 comment by...aart -->
+I meant: not responding to pinG... I'll try a pint next time...
+
+<!-- Date: Fri Apr 27 22:40:00.572 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-4078&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-4078  width='300' align='top'></a></td><td> </td></tr></table>
+<!-- Author: a -->
+
+
+<!-- Date: Fri Apr 27 22:42:47.730 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-4079&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-4079' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-4080&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-4080' width='300'></a></center>
+<!-- Author: Reference(left) Current run240386(Right)  -- Consumer Operator( Naoki Kimura) -->
+<!-- Comment: Fri Apr 27 22;45;41 comment by...Naoki -->
+L00 have a few new red ladders, CO check OK.
+
+
+
+<!-- Comment: Fri Apr 27 22;58;51 comment by...Jose -->
+Thanks, I will have a look to this.
+<!-- Date: Fri Apr 27 22:48:14.977 2007 -->
+Paged Steve beacuse of CEM HV trigger inhibits, he is talking to Aart already.
+<!-- Author: Sebastian -->
+
+
+
+<!-- Date: Fri Apr 27 23:09:22.275 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=240386>240386</A>
+general: <tt>CO check looks good.</tt>
+<!-- Author: Consumer Operator( Naoki Kimura) -->
+
+
+
+<!-- Date: Fri Apr 27 23:39:48.246 2007 -->
+Crate 2 lost comm (Silicon), auto rest worked, but when bringing the wedges up with the "by crate" bottom, some tripped. Did them by wedge with no problems.  
+<!-- Author: Sebastian -->
+
+
+<!-- Date: Fri Apr 27 23:48:42.834 2007 -->
+BMU looks fine in spite of my screwing around with cables and chickens while I was trying to heal it.
+<!-- Author: Phil -->
+
+<!-- Date: Fri Apr 27 23:55:41.676 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=240386 target=_runSummary>240386</A> x3AB02</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_02 [4,878,683]</FONT></TD>
+<TD ALIGN=CENTER>19:17:22</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>03:55:28</TD>
+<TD ALIGN=RIGHT>   1,797,482</TD>   <TD ALIGN=RIGHT>  2,251.66</TD>
+<TD ALIGN=RIGHT>  1,925.43</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:01</TD>
+<TD ALIGN=CENTER>03:55:28</TD>
+<TD ALIGN=RIGHT>     1,797,482</TD> <TD ALIGN=RIGHT>  2,251.66</TD>
+<TD ALIGN=RIGHT>  1,925.43</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Apr 27 23:59:29.337 2007 -->
+<font color=red>Shift Summary: </font><pre>16:00 start of shift with ongoing access 
+16:25 Access is over 
+19:20 Store 5382 colliding, initial lum=191E30 
+22:00 PLUG HV crate 7 tripped 
+23:40 Silicon crate 2 lost comm 
+ 
+State of IFix Alarms: 
+WHA (yellow): missing wedge, just monitoring problem 
+BSU (red)   : monitoring problem 
+CSP (red)   : HV warning from crate 7 
+CO should keep an eye on these to make sure data is coming fine, 
+we would not notice HV trip. 
+ 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   240386
+Delivered Luminosity   2297.3  
+Acquired Luminosity    1939.4  
+Efficiency             84.4
+   
+</td></tr></table></pre>
+<!-- Author: Sebastian -->

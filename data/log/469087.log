@@ -1,0 +1,467 @@
+<!-- Title: Owl shift. Fri Oct 21, 2005 -->
+<!-- SciCo: Mapo Giordani -->
+<!-- DAQAce: Sergo Jindariani & Taichi Kubo -->
+<!-- MonAce: John Freeman -->
+<!-- CO: Yeongdae Shon -->
+<!-- OpManager: Guram Chlachidze -->
+<!-- Notes: -->
+<pre>EOS ongoing. Shot setup is expected by 0400.</pre>
+
+
+<!-- Date: Fri Oct 21 00:15:27.066 2005 -->
+Stack is 59E10, stash 107E10, stacking rate 11mA/h.
+<!-- Author: Mapo -->
+
+
+<!-- Date: Fri Oct 21 00:23:10.827 2005 -->
+Please page Silicon when <b>last pbars are loaded</b>. I will watch from home, John F. will include the Silicon (if all goes according to plan). Thanks.
+<!-- Author: Sebastian -->
+<!-- Comment: Fri Oct 21 00;24;57 comment by...Mapo -->
+Will do, no problem.
+
+
+<!-- Date: Fri Oct 21 00:39:54.467 2005 -->
+Running L2 torture
+<!-- Author: Sergo -->
+
+
+<!-- Date: Fri Oct 21 01:16:40.254 2005 -->
+Got Heap Corrupt error for crate b0svt08. Shepherded the crate. After shepherding had to bring it to the Halt state ( from Ready state) and recovered the run. 
+<!-- Author: Sergo -->
+
+
+<!-- Date: Fri Oct 21 03:17:20.050 2005 -->
+I'm getting very high deadtime running L2 torture. Looks strange but my guess was that it's due to the collisions from TeV studies.  We'll check on that right after TeV finishes studies.
+<!-- Author: Sergo -->
+<!-- Comment: Fri Oct 21 03;45;02 comment by...Sergo -->
+Searched the e-log. Found couple of entries saying that L2torture with beam in tevatron gives high deadtimes. Looks like we're fine, but I'll still double check after TeV studies.  
+
+
+<!-- Comment: Fri Oct 21 04;28;14 comment by...Sergo -->
+ As soon as beam was dropped deadtime immediately dropped to ~5%. So, our assumption was correct and everything is fine.
+<!-- Date: Fri Oct 21 03:53:48.951 2005 -->
+The elephant trumpet alarm sounds once. No visual indicators. Ignored. 
+<!-- Author: Freeman -->
+
+
+<!-- Date: Fri Oct 21 04:19:04.038 2005 -->
+MCR notifies we are granted one hour of quiet time.
+<!-- Author: Mapo -->
+<!-- Comment: Fri Oct 21 04;25;53 comment by...Mapo -->
+Beams have been aborted.
+
+<!-- Date: Fri Oct 21 04:26:33.634 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205902">205902</A>
+TERMINATE: Ended run to do calibrations.
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 04:26:33.193 2005 -->
+We'll profit from quiet time for quiet-time calibrations.
+<!-- Author: Mapo -->
+
+
+<!-- Date: Fri Oct 21 04:36:33.852 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205903">205903</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 05;22;04 comment by...Yeongdae -->
+<pre>CALQIE: bad channel list has many black and blue entries.</pre>
+<!-- Date: Fri Oct 21 04:37:56.520 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205903">205903</A>
+TERMINATE: calibration done.
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 04:38:28.931 2005 -->
+Stack is being transferred to the Recycler.
+<!-- Author: Mapo -->
+<!-- Comment: Fri Oct 21 04;52;19 comment by...Mapo -->
+Shots to Recycler complete: stack is now 8.5E10, Rbeam 169E10.
+<!-- Date: Fri Oct 21 04:40:38.685 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205904">205904</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 04:50:03.479 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205904">205904</A>
+TERMINATE: calubration done.
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 04:50:04.051 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205905">205905</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 05;17;15 comment by...Yeongdae -->
+<pre>Looks OK, but many channels look different.</pre>
+<!-- Date: Fri Oct 21 04:50:05.927 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205905">205905</A>
+TERMINATE: calibration done.
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 04:51:27.327 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205906">205906</A>
+ACTIVATE: RunSet: CALIB_RP_SMQIE 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 05;25;06 comment by...Yeongdae -->
+<pre>Calibration OK</pre>
+<!-- Date: Fri Oct 21 04:51:29.327 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205906">205906</A>
+TERMINATE: calibration done.
+<!-- Author: Sergo x2080 -->
+
+
+
+
+<!-- Date: Fri Oct 21 04:56:01.297 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-18928&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-18928' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-18929&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-18929' width='300'></a></center>
+<!-- Author: Yeongdae -->
+<!-- Comment: Fri Oct 21 04;58;50 comment by...Yeongdae -->
+<pre>Bad channel list for CLAQIE has black and blue entries. But, not as bad as to require experts attention.</pre>
+
+
+<!-- Date: Fri Oct 21 05:02:09.191 2005 -->
+One foghorn toot. No visual confirmation. Ignored. 
+<!-- Author: Freeman -->
+
+<!-- Date: Fri Oct 21 05:10:30.504 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205907">205907</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 05:12:46.205 2005 -->
+While doing plug laser calibrations got: 
+Run Configuration LookArea is All Files[2] while Default Files[3] is expected. 
+<!-- Author: Sergo & Taichi -->
+<!-- Comment: Fri Oct 21 05;15;25 comment by...Sergo -->
+apparently it's normal, I just haven't noticed this before
+
+
+<!-- Date: Fri Oct 21 05:19:36.064 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205907">205907</A>
+TERMINATE: Calibr. going too slow. Something seems to be wrong
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 05;30;48 comment by...Mapo -->
+Got expert on the phone (from Italy!)
+<!-- Date: Fri Oct 21 05:21:12.115 2005 -->
+Called MCR: we have at least another half an hour of quiet time.
+<!-- Author: Mapo -->
+
+
+<!-- Date: Fri Oct 21 05:22:28.911 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205908">205908</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 05:28:30.473 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205908">205908</A>
+TERMINATE: same problem
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 05:30:33.645 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205909">205909</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 05:30:34.362 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205909">205909</A>
+TERMINATE: calibration done.
+<!-- Author: Sergo x2080 -->
+
+
+
+
+<!-- Date: Fri Oct 21 05:47:48.774 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-18930&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-18930  width='300' align='top'></a></td><td>CLCQIE result shows a spike in a single channel. But we could not say whether it is extreme or not, without more specific instruction. The referance does not even have expert contact information. Please be more specific!</td></tr></table>
+<!-- Author: Yeongdae -->
+
+
+<!-- Date: Fri Oct 21 05:55:27.789 2005 -->
+Recycler in cooling mode.
+<!-- Author: Mapo -->
+
+<!-- Date: Fri Oct 21 05:56:29.443 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205910">205910</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL another try
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 06;00;17 comment by...Sergo -->
+still incredibly slow.
+
+<!-- Comment: Fri Oct 21 06;08;09 comment by...Sergo -->
+I went downstairs to check if there's sound from Plug Laser when it's on ( experts suggestion), couldn't hear any sound
+
+<!-- Comment: Fri Oct 21 06;24;15 comment by...Sergo -->
+We were interrupted by MCR, they called to tell us that shot setup will start soon. So, I turned plug laser off and John put Plug in SB. I'll tell next DAQ ace about the problem with calibration.
+<!-- Date: Fri Oct 21 06:09:19.067 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205910">205910</A>
+TERMINATE: Same problem again
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 06:10:30.451 2005 -->
+Quiet time is over. Shot setup underway. Will confirm to MCR when we are ready.
+<!-- Author: Mapo -->
+<!-- Comment: Fri Oct 21 06;11;41 comment by...Mapo -->
+Done.
+
+<!-- Date: Fri Oct 21 06:15:53.003 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205911">205911</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 06;43;14 comment by...Yeongdae -->
+<pre>Results OK</pre>
+<!-- Date: Fri Oct 21 06:16:36.655 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205911">205911</A>
+TERMINATE: calibration done.
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 06:22:49.529 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205912">205912</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 06;50;38 comment by...Yeondae -->
+<pre>Calibration OK.</pre>
+<!-- Date: Fri Oct 21 06:26:21.943 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205912">205912</A>
+TERMINATE: Calibr. Done
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 06:36:40.254 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205913">205913</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 06;53;50 comment by...Yeongdae -->
+<pre>Calibration OK</pre>
+<!-- Date: Fri Oct 21 06:37:18.525 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205913">205913</A>
+TERMINATE: Calibr. Done
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 06:40:24.452 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205914">205914</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 06;55;18 comment by...Yeongdae -->
+<pre>Calibraion OK</pre>
+<!-- Date: Fri Oct 21 06:40:25.167 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205914">205914</A>
+TERMINATE: Calibr. Done
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 06:44:38.210 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205915">205915</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 07;03;45 comment by...Yeongdae -->
+<pre>Calibration Validated</pre>
+<!-- Date: Fri Oct 21 06:44:39.017 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205915">205915</A>
+TERMINATE: Calibr. Done
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 06:50:20.003 2005 -->
+MCR called: we have at least another half an hour of quiet time. they will notify us before injecting beam.
+<!-- Author: Mapo -->
+
+
+<!-- Date: Fri Oct 21 06:52:11.534 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205916">205916</A>
+TERMINATE: b0cmx00 didn't pass config transition
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 07;09;47 comment by...Sergo -->
+ I kept getting non-responding crate b0cmx00. Shepherd and visiondemo reset didn't help. Dale was around so I asked him about this - he basically suggested same ( shepherd and  reset ) . He told me to try this crate with cosmics and if it's fine then just leave message in the e-log. Otherwise page TDC people.
+<!-- Comment: Fri Oct 21 07;20;38 comment by...Sergo -->
+by the way, SoftEvb Proxy Viewer window got frozen. I couldn't close it. I also didn't know how to kill this java window without killing other ones - checked with John - he didn't know either. It's just a viewer so I don't think it can cause any problems.
+<!-- Comment: Fri Oct 21 07;48;30 comment by...Sergo -->
+this crate is fine with L2torture and cosmics, seems to be a problem only during calibrations. Hopefully experts will take a look at this later
+<!-- Date: Fri Oct 21 06:58:03.464 2005 -->
+MCR changed plan: they will inject beam right now; later, there will be a dry squeeze and therefore we will get some quiet time then.
+<!-- Author: Mapo -->
+<!-- Comment: Fri Oct 21 07;16;29 comment by...Mapo -->
+A dry squeeze is taking place instead...
+<!-- Date: Fri Oct 21 07:02:14.430 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205917">205917</A>
+TERMINATE: Same problem
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 07:07:07.213 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205918">205918</A>
+TERMINATE: Same problem. 
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 07:08:13.934 2005 -->
+On CLC PC, there's a message that says it hasn't been backed up since Oct. 8 
+<!-- Author: Freeman -->
+
+
+<!-- Date: Fri Oct 21 07:14:01.680 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205919">205919</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 07;28;17 comment by...Yeongdae -->
+<pre>Calibration OK</pre>
+<!-- Date: Fri Oct 21 07:23:02.997 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205919">205919</A>
+TERMINATE: Calibr. Done
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 07:26:05.619 2005 -->
+I restarted Tevmon. Peter diabled it during last shift because it was complaining about Tev studies. I also unmasked Tevmon check in Procmon
+<!-- Author: Sergo -->
+
+<!-- Date: Fri Oct 21 07:28:15.918 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205920">205920</A>
+ Activated at 2005.10.21 07:27:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 21 07:28:16.309 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205920">205920</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,730,598] 
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 07:30:24.125 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205920">205920</A>
+ Terminated at 2005.10.21 07:29:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Oct 21 07:30:25.516 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205920">205920</A>
+TERMINATE: Very high deadtime ~100%
+<!-- Author: Sergo x2080 -->
+<!-- Comment: Fri Oct 21 07;32;18 comment by...Sergo -->
+ I was getting very high dead time ~100%. This is what Peter saw during evening shift. I don't think it's because of the beam, I'll try L2torture
+
+
+<!-- Date: Fri Oct 21 07:39:29.835 2005 -->
+While trying to run L2 torture got : 
+ CSL_Reciever_max_cliens error. 
+CSL rejected connection. 
+ 
+ Instructions suggest restarting CSL. Will do.
+<!-- Author: Sergo -->
+
+<!-- Date: Fri Oct 21 07:40:41.216 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205921">205921</A>
+TERMINATE: l3 didn't pass config transition
+<!-- Author: Sergo x2080 -->
+
+
+<!-- Date: Fri Oct 21 07:46:02.032 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205922">205922</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,729,599] 
+<!-- Author: Sergo x2080 -->
+
+
+
+<!-- Date: Fri Oct 21 07:47:11.466 2005 -->
+Restarted CSL ( had to cleanup it ). Now L2Torture seems to be running fine. Deadtime is normal. 
+<!-- Author: Sergo -->
+
+
+
+<!-- Date: Fri Oct 21 07:48:54.363 2005 -->
+MCR notifies shot setup is underway.
+<!-- Author: Mapo -->
+
+<!-- Date: Fri Oct 21 07:55:48.628 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>Physics able</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L1Accepts</TH>
+<TH>L2Accepts</TH>
+<TH>L3Accepts</TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Oct 21 07:56:23.281 2005 -->
+<font color=red>Shift Summary: </font><pre>EOS studies ongoing. L2 torture test run: we observe high 
+dead time, which drops when the beam is aborted. 
+ 
+0425 - Beams aborted. We are granted one hour quiet time. 
+      Decided to take quiet time calibrations (in 
+      particular plug laser) 
+0435 - Stack stashed into Recycler; after transfer, stack 
+      at 8.5E10, Rbeam 169E10. Delay due to trip in 
+      transfer line. 
+0525 - Granted another half an hour of quiet time. Repeat 
+      CLC calibrations and try to complete plug laser, 
+      which are slow and do not output file on database. 
+      Expert called, problem not solved. 
+0610 - Shot setup underway. We switch to non quiet time 
+      calibrations. 
+ 
+While taking calibrations, b0cmx00 did not pass 
+configuration transition; shepherding and resetting did not 
+help. Following Dale's suggestion, ace decides to verify if 
+this is a problem affecting calibrations only. If not, page 
+muon TDC expert. 
+We are able to run cosmics, but with high dead time (there 
+is no beam in the machine); this was already noticed in the 
+previous shift. Decided to go back to L2 torture test, 
+which we say in the night was well-behaving. Need to restart 
+CSL, but after that, L2 torture test ok. 
+ 
+0755 - Shot setup underway. 
+ 
+End of shift: 
+Stack: 41E10, Stacking rate: 7-13mA/h, Stash: 169E10. 
+</pre> 
+<!-- Author: Mapo -->
+
+
+<!-- Date: Fri Oct 21 08:02:12.230 2005 -->
+TM error events pending timeout. Auto HRR issued
+<!-- Author: Teresa :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=205922' target=_top>205922</a>) -->

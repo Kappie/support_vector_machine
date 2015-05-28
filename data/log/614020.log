@@ -1,0 +1,449 @@
+<!-- Title: Day shift. Thu Jul 10, 2003 -->
+<!-- SciCo: Robert Harr -->
+<!-- DAQAce: Dan Ryan -->
+<!-- MonAce: Paola Squillacioti -->
+<!-- CO: J. Pursley / Z. Wan -->
+<!-- OpManager: Andy Hocker -->
+<!-- Notes: -->
+<pre>Waiting for shot setup.</pre>
+
+<!-- Date: Thu Jul 10 08:35:02.167 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165930">165930</A>
+ Terminated at 2003.07.10 08:33:53
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 08:35:04.649 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165930">165930</A>
+TERMINATE: End cosmics to tape
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 08:39:11.772 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165931">165931</A>
+ Activated at 2003.07.10 08:38:25
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 08:40:13.092 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165931">165931</A>
+ACTIVATE: Begin again cosmics to tape
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 08:42:13.265 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165931">165931</A>
+ Terminated at 2003.07.10 08:41:04
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 08:42:15.861 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165931">165931</A>
+TERMINATE: end cosmics to tape
+<!-- Author: Dan x2080 -->
+
+
+
+<!-- Date: Thu Jul 10 08:42:15.292 2003 -->
+L00: L_5VDOIM_B1W2L5 was pink. unmarked it
+<!-- Author: Paola :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165931' target=_top>165931</a>) -->
+
+
+<!-- Date: Thu Jul 10 08:48:30.489 2003 -->
+RXPT Erro: b0svx02(112) busy. 
+b0svx06:Messenger:8:31:53 AM->Silicon Timeout:BUSY- Slots:  08:fa00 10:fa20 12:fa40 16:f800 18:f820 20:f840 
+ 
+Tried end, coldstart but got the same errors.  SCN dropped by to say that he thinks this is related to a TS swap (he's on partition 6).  Recommended an EVB cleanup.
+<!-- Author: Dan Ryan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165930' target=_top>165930</a>) -->
+
+
+<!-- Date: Thu Jul 10 08:48:44.411 2003 -->
+Called MCR to remind them that our silicon is on and request that we be given notice be before beams are injected in the Tevatron.  They are waiting on D0 Roman pot repairs for their forward proton detector (FPD).  Then they'll ramp the Tevatron and go into shot setup.
+<!-- Author: Robert Harr :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165930' target=_top>165930</a>) -->
+
+
+<!-- Date: Thu Jul 10 08:49:32.500 2003 -->
+<h3>Partition 6 TS swapped</h3> 
+May have caused some TM-SM communication problems, disturbing the 
+COSMICs run.  Details in <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=tsi&action=view&page=11&frame=2&anchor=08:47:32'>TSI log</a>.   
+<!-- Author: SCN -->
+
+<!-- Date: Thu Jul 10 08:53:19.078 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165932">165932</A>
+ Activated at 2003.07.10 08:52:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 08:53:36.033 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165932">165932</A>
+ACTIVATE: Begin comiscs to tape after EVB cleanup.
+<!-- Author: Dan x2080 -->
+
+
+
+<!-- Date: Thu Jul 10 08:58:01.513 2003 -->
+Icicle crashed-> restarted it
+<!-- Author: Paola :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165932' target=_top>165932</a>) -->
+
+
+<!-- Date: Thu Jul 10 09:37:58.558 2003 -->
+<b>RXPT Errors</b>:<br> 
+Done TimeOuts on b0pcal10, b0cot13, b0cot15, b0cot16, b0cot17.  Sheperded all of them.<br> 
+See error log for Bunchcounter disagreementment
+<!-- Author: Dan Ryan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165932' target=_top>165932</a>) -->
+<!-- Comment: Thu Jul 10 09;40;57 comment by...Dan Ryan -->
+Same exact errors on same crates happened again!  AH recommends repartioning if this happens a third time.  3 strikes and we're out!
+
+<!-- Comment: Thu Jul 10 09;54;55 comment by...Steve Hahn -->
+<p>While this was going on, the fire chief and 3 other firemen were here testing the fire alarms, and discussing the testing procedure with Dee and I.  As part of this procedure, the experimental power shunt is bypassed and then restored at the end of the procedure.  Twice, while various alarms were being tested, we heard a brief chirp.  Then, after all testing was completed, we heard this chirp again but we also caught that "ODH Alarm in Asm Hall" came up briefly on the status panel.  I now suspect that all three alarms were ODH alarms which, in theory, is completely orthogonal to fire alarms.  If a real ODH alarm occurs all power will be shut off to the detector, so I have Warren keeping an eye on the ODH alarm page in the cryo area.</p>
+<!-- Date: Thu Jul 10 09:46:14.559 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165932">165932</A>
+ Terminated at 2003.07.10 09:45:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 09:47:15.982 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165932">165932</A>
+TERMINATE: Bringing HV to standbye.  End cosmics to tape.
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 09:54:51.270 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165933">165933</A>
+ACTIVATE: Begin COT calibration
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 09:54:52.558 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165933">165933</A>
+TERMINATE: End COT calibration
+<!-- Author: Dan x2080 -->
+<!-- Comment: Thu Jul 10 10;06;59 comment by...Pursley -->
+<pre>No new COMPLETE run.
+ave start time for good channels is 305.448
+number of missing channels = 0
+number of good channels = 29761
+number of drifted good channels = 87
+ave drift = 0.162916 
+num drifted good channels, crate 1 is 44
+num drifted good channels, crate 2 is 8
+num drifted good channels, crate 10 is 9
+numBad channels = 479</pre>
+<!-- Date: Thu Jul 10 10:01:11.391 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165934">165934</A>
+ACTIVATE: Begin L2 Torture
+<!-- Author: Dan x2080 -->
+
+
+
+
+<!-- Date: Thu Jul 10 10:16:43.879 2003 -->
+MCR log indicates that the D0 pot repair is done.  TeV checkout underway.  We've lowered voltages, stopped the cosmic run, ran COT calibration and started a L2 torture test.  Spoke with MCR; they are working on a cryo problem and don't expect to have beam in the Tevatron before 11:30.
+<!-- Author: Robert Harr -->
+
+
+<!-- Date: Thu Jul 10 10:27:42.084 2003 -->
+<b>Done Time Out's</b><br> 
+b0cot02:Messenger:10:24:26 AM->Event 461217: Bunchcounters in slot 2 (BC=62) and slot 13 (BC=0) disagree (L2B=2)  
+<p> 
+b0wcal05:Messenger:10:25:41 AM->Event 479037: Bunchcounters in slot 16 (BC=127) and slot 9 (BC=24) disagree (L2B=0)  
+L2B 16: 127 112 133  30 
+L2B  9:  24   0 133  30 
+EHx: 540D0016 541C0016 54230016 543D0016 
+<p>
+<!-- Author: Dan Ryan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165934' target=_top>165934</a>) -->
+<!-- Comment: Thu Jul 10 11;19;12 comment by...Dan Ryan -->
+
+b0cot02:Messenger:11:17:20 AM->Event 1439366: Bunchcounters in slot 2 (BC=56) and slot 13 (BC=53) disagree (L2B=1) 
+<!-- Date: Thu Jul 10 10:37:37.385 2003 -->
+Event Builder Error: 
+<pre> 
+b0l3gate1.fnal.gov:main:10:34:12 AM->Host b0eb11.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 634578 from VRB in slot 12: 
+0x00000000 0x00000858 0x00140094 0x00640080 0x00800080 0x03d80080 0x00800080 0x00f80000 
+b0l3gate1.fnal.gov:main:10:34:12 AM->Host b0eb11.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 634579 from VRB in slot 10: 
+0x00000057 0xcc030051 0x424d5544 0x00040001 0x00000000 0x00000017 0x00000003 0x0000000a 
+</pre>
+<!-- Author: Dan Ryan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165934' target=_top>165934</a>) -->
+<!-- Comment: Thu Jul 10 11;10;47 comment by...Dan Ryan -->
+<pre>b0l3gate1.fnal.gov:main:11:09:00 AM-&gt;Host b0eb11.fnal.gov, task tRec_0
+
+SCPU-P0-E-VrbHeader: Dump of header words for event 1286438 from VRB in slot 12:
+0x00000000 0x00000858 0x00010041 0x00640080 0x00800080 0x03d80080 0x00800080 0x00f80000
+b0l3gate1.fnal.gov:main:11:09:00 AM-&gt;Host b0eb11.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 1286439 from VRB in slot 10:
+0xcc070051 0x424d5544 0x00040001 0x00000000 0x00000017 0x00000003 0x0000000a 0x0000000c</pre>
+
+
+<!-- Comment: Thu Jul 10 11;36;25 comment by...Dan Ryan -->
+<pre>b0l3gate1.fnal.gov:main:11:32:49 AM-&gt;Host b0eb16.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 1726848 from VRB in slot 10:
+0x00000000 0x00001260 0x003800f8 0x02ec0314 0x031802ec 0x03140318 0x00000000 0x00000000
+
+SCPU-P0-E-TracerEventId: Event 1726849, crate 36, channel 3 has either bad Tracer ID or bad markers around Tracer word.
+ Tracer word event ID is 5, should be 1.
+Tracer word = 0x54550024 (I think).
+Channel data = 0x000000bb 0x54000024 0x50014d44 0x00450004 0x000c0000 0x00000051 0x00000001 0x02000032 ...
+... 0x000002e0 0x00000000 0x00000bb8 0x00000000 0xaa00aaaa 0x55aa5555 0x54550024 0x80010000 
+
+b0l3gate1.fnal.gov:main:11:32:49 AM-&gt;Host b0eb16.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 1726849 from VRB in slot 10:
+0x00000000 0x00001268 0x003900f9 0x02ec0318 0x031802ec 0x0314031c 0x00000000 0x00000000
+
+SCPU-P0-E-TracerEventId: Event 1726850, crate 36, channel 3 has either bad Tracer ID or bad markers around Tracer word.
+ Tracer word event ID is 5, should be 2.
+Tracer word = 0x54550024 (I think).
+Channel data = 0x000000bb 0x54000024 0x50324d44 0x00450004 0x000c0000 0x00000051 0x00000001 0x02000032 ...
+... 0x000002e0 0x00000000 0x00000bb8 0x00000000 0xaa00aaaa 0x55aa5555 0x54550024 0x80320000 
+</pre>
+<!-- Comment: Thu Jul 10 11;42;28 comment by...Dan Ryan -->
+<pre>
+b0l3gate1.fnal.gov:main:11:39:03 AM->Host b0eb11.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 1840107 from VRB in slot 12:
+0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000
+</pre>
+Too many tracer event word info to list here.  See error log.
+<!-- Comment: Thu Jul 10 11;43;53 comment by...Dan Ryan -->
+<pre>b0l3gate1.fnal.gov:main:11:39:37 AM-&gt;Host b0eb11.fnal.gov, task tRec_0
+SCPU-P0-E-VrbHeader: Dump of header words for event 1846926 from VRB in slot 12:
+0x00000000 0x00000858 0x00100090 0x00640080 0x00800080 0x03d80080 0x00800080 0x00f80000</pre>
+<!-- Date: Thu Jul 10 11:16:57.853 2003 -->
+b0dap31 disk space calling attention in big brother.  This behavior started earlier this morning in the <a href="http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2003&action=copyentry&page=571&time=05:34:10.593">owl shift</a>.
+<!-- Author: Dan Ryan :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165934' target=_top>165934</a>) -->
+
+
+
+
+
+
+<!-- Date: Thu Jul 10 11:57:42.367 2003 -->
+<pre>We started the event display on dap54 (Linux 731) we will 
+leave it running like that. 
+ 
+To switch back to dap50 you have to tap the "scroll lock" 
+key twice and flick the upper monitor switch. 
+ 
+</pre>
+<!-- Author: Frank Chlebana -->
+
+<!-- Date: Thu Jul 10 12:01:17.067 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165934">165934</A>
+TERMINATE: End L2 Torture to allow work on TDC crates
+<!-- Author: Dan x2080 -->
+
+
+
+<!-- Date: Thu Jul 10 12:01:18.077 2003 -->
+Ron Moore is working with the TDC crates.
+<!-- Author: Robert Harr -->
+
+
+<!-- Date: Thu Jul 10 12:02:40.910 2003 -->
+I modified the instructions to COs for checking the CMU/CMX trigdata/trigsim plots. As <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2003&action=view&page=570&frame=2&anchor=17:50:52.112'>noted by Jik yesterday</a>, the cut was too tight to be easily seen from the plots. I loosened it. Reference plots and web documentation are updated.
+<!-- Author: Phil Schlabach -->
+
+
+<!-- Date: Thu Jul 10 12:19:26.787 2003 -->
+MCR informed us that they are ready to inject protons.  Our voltages are at safe and we're ready.  Eric James and co. will start work on the muon L2.  Data taking is stopped while he and Ron are installing their changes.
+<!-- Author: Robert Harr -->
+
+<!-- Date: Thu Jul 10 12:31:02.986 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165936">165936</A>
+ Activated at 2003.07.10 12:30:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 12:31:03.490 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165936">165936</A>
+ACTIVATE: Begin Cosmic Run without hadron TDC
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 12:57:11.716 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165936">165936</A>
+ Terminated at 2003.07.10 12:55:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 12:57:12.793 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165936">165936</A>
+TERMINATE: End Cosmics without Hadronic Timing crate to put it back in.
+<!-- Author: Dan x2080 -->
+
+
+
+<!-- Date: Thu Jul 10 13:00:19.622 2003 -->
+I tested a new (faster) DSP code in the hadron timing crate TDCs. 
+I ran TDC Test a couple of times, and I saw no problems with the 
+new DSP code.  However, I did reprogram those TDCs with the default version for the upcoming store.  We will try the new DSP 
+code in a data-taking run at the end of an upcoming store.
+<!-- Author: ronmoore -->
+
+<!-- Date: Thu Jul 10 13:03:31.089 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165938">165938</A>
+ Activated at 2003.07.10 13:02:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 13:03:32.879 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165938">165938</A>
+ACTIVATE: Begin Cosmics Run
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 13:13:00.868 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165938">165938</A>
+ Terminated at 2003.07.10 13:12:11
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 13:13:47.599 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165938">165938</A>
+TERMINATE: End Cosmics Run to start myron run
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 13:20:11.715 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165939">165939</A>
+ Activated at 2003.07.10 13:18:51
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 13:20:12.435 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165939">165939</A>
+ACTIVATE: Begin Cosmic Run Myron mode
+<!-- Author: Dan x2080 -->
+
+
+
+<!-- Date: Thu Jul 10 13:29:14.537 2003 -->
+Until about 15:00, call Steve Nahn if there's a problem with silicon.  Rainer has the pager but is at the dentist.
+<!-- Author: Robert Harr -->
+
+
+<!-- Date: Thu Jul 10 13:31:06.308 2003 -->
+L00: L_5VDOIM_B1w2L5 went pink. unmarked it, then it went pink again->page the expert, he said that we can do HRR and then unmark again. Now the cell is yellow. 
+<!-- Author: Paola :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165939' target=_top>165939</a>) -->
+<!-- Comment: Thu Jul 10 13;33;37 comment by...Paola -->
+went pink again, it's not very important if we don't take data because the current can change. Anyway Steve is working on it
+
+<!-- Date: Thu Jul 10 13:43:30.769 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165939">165939</A>
+ Terminated at 2003.07.10 13:42:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 13:44:09.919 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165939">165939</A>
+TERMINATE: End Cosmics in Myron mode
+<!-- Author: Dan x2080 -->
+
+
+<!-- Date: Thu Jul 10 13:47:17.514 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165940">165940</A>
+ Activated at 2003.07.10 13:46:14
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 13:47:35.473 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165940">165940</A>
+ACTIVATE: Begin Cosmic Run
+<!-- Author: Dan x2080 -->
+
+
+
+<!-- Date: Thu Jul 10 13:47:36.983 2003 -->
+TOF heartbeat. I went downstairs to the tof pc and it was frozen, I rebooted it. 
+<!-- Author: Paola -->
+
+<!-- Date: Thu Jul 10 15:46:23.577 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165940">165940</A>
+ Terminated at 2003.07.10 15:45:04
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 10 15:56:03.014 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:01</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu Jul 10 16:01:09.290 2003 -->
+<font color=red>Shift Summary: </font><pre>Start of shift: 
+Waiting for shot setup.  Taking cosmics to tape (with silicon) in run 165930. 
+ 
+Stopped the cosmic run, lowered high voltages, made a COT calibration, 
+and started an L2 torture test.  Silicon is making use of the quiet 
+time. 
+ 
+Ron Moore made some tests with the hadron TDC crates, and Eric James and 
+Burkhardt Reiser made some changes to muon L2.  The hadron TDC crates 
+were returned to their original state for data taking.  The muon L2 
+change will stay, but is not expected to cause any problems since muon 
+is not used in L2. 
+ 
+ 
+Shot setup started around 13:30. 
+About 14:00 dau30 crashed.  Sergei and Jeff worked to reboot it. 
+We contacted Mario Martinez, Frank Chlebna, and Bill Badgett to inform 
+them and make sure they're  available if needed when online is back. 
+ 
+14:25  Loading final protons 
+15:17  All pbars in 
+15:35  End of scraping 
+ 
+We brought up CLC high voltage and have lumi at 37.4E30, but online is 
+still dead in the water. 
+ 
+15:50  Online starts coming back.  Ramp high voltages and restart 
+anything that needs it. 
+ 
+Turning over control to the evening shift.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   165930 to 165940
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             na
+   
+</td></tr></table></pre>
+<!-- Author: Robert Harr -->
+
+
+<!-- Date: Thu Jul 10 16:04:17.343 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-7801&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-7801' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-7802&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-7802' width='300'></a></center>
+<!-- Author: Paola -->

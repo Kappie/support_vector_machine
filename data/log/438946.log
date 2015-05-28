@@ -1,0 +1,432 @@
+<!-- Title: 11:38:51  Thu Aug  2 2001 -->
+<!-- Crewchief: George W. bush -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>X-mode 
+beam data if we ever get collisions 
+</pre>
+
+
+<!-- Date: Thu Aug 2 11:43:59 2001 -->
+Here's the <a href= 
+'/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=57&frame=2&anchor=11:39:22'> 
+entry</a> about potentially good ladders that Dubya just buried 
+with a new file
+<!-- Author: Dick Cheney -->
+
+
+<!-- Date: Thu Aug 2 11:56:33 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>I just changed the hardware database to have Threshold = 7 for all the ISL ladders.</pre></td></tr></td></table>
+<!-- Author: jean -->
+
+
+<!-- Date: Thu Aug 2 15:44:14 2001 -->
+<pre>I checked the above list against the list of  
+integrated channels in the most recent integrated run 122506 . 
+Here is the list of those channels that are not integrated, yet:  
+ 
+SB2W6 L4 
+SB2W9 L1 
+SB1W5 L3 
+IB0W1-1,2  
+IB0W4-2   
+IB0W5-3 
+ 
+All the others are already in. 
+We need to check the error rate in run 122506 </pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Thu Aug 2 17:50:45 2001 -->
+<pre>** silicon detectors are now in STANDBY and initialized 
+ 
+** software protection trip in IB5W1 -&gt; come back up fine 
+ 
+[** SVRAD's currents (not yet resetted i think) 
+	SVRAD0	~3 
+	SVRAD1	~1 
+	SVRAD2	~8 
+	SVRAD3	~14	] 
+ 
+</pre>
+<!-- Author: Andy F.,  Francesco -->
+<!-- Comment: Thu Aug  2 17;57;50 comment by...Andy F., Francesco -->
+<pre>we took 2 run 122601 and 122602 of ~2000 events
+before to give silicon to the shift crew: 
+no problems (just one BTO in the 2-nd run...)</pre>
+
+<!-- Comment: Thu Aug  2 17;59;50 comment by...fp. -->
+<pre>errata: SVRAD's currents -&gt; (read: SVRAD's currents values)</pre>
+
+
+<!-- Date: Thu Aug 2 22:14:50 2001 -->
+<pre>There's real live beam! 
+ 
+ 
+The silicon has been sitting happily at standby 
+since 7 PM; the losses have settled down and 
+are below 15k stably.  Have turned the silicon on 
+but it has not been integrated, as L3 isn't working. 
+Riveline reported reformatter errors earlier in b0svx02, 
+I rebooted it.  Haven't tried since.  Goal is 
+to integrate, ensure reformatter errors are gone, 
+then run. 
+ 
+First flying wire is at 2242, would like to be 
+at standby for only this flying wire.  If it 
+looks like all other flying wires, then we can 
+stay at ON during subsequent flying wires. 
+ 
+After a couple of hours of smooth beam, David 
+Stuart should be paged to turn on L00 wedges. 
+I tried to page him to warn him but no 
+response.</pre>
+<!-- Author: ADF -->
+
+
+<!-- Date: Thu Aug 2 22:31:52 2001 -->
+<pre>SB0W3 L1 gave many reformatter errors, removed from 
+HWDB and x'ed out in CAENvolts.dat.</pre>
+<!-- Author: ADF -->
+
+
+<!-- Date: Thu Aug 2 22:46:03 2001 -->
+<pre>Flying wire was wimpy!  Run ON through all 
+flying wires.</pre>
+<!-- Author: ADF -->
+
+
+<!-- Date: Thu Aug 2 22:59:42 2001 -->
+GUI just stopped.  Happened to be logged into 
+svxinter, here's the error message: 
+--------------------------------------------------- 
+<P> 
+->  Caenet_write: Error number -1 ffffffff received 
+<P> 
+group_info:cr_n = 8, response = -1 
+<P> 
+Unable to allocate return data buffer 
+<P> 
+0x51b260 (t19): memPartAlloc: block too big - 71094 in partition 0x2da884. 
+  
+<!-- Author: ADF -->
+
+
+<!-- Date: Thu Aug 2 23:58:05 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><h1> Taking good collisions with 73 Silicon Wedges!</h1></td></tr></td></table>
+<!-- Author: ADF / FP -->
+<!-- Comment: Fri Aug  3 01;46;46 comment by...fp -->
+<pre>still running fine ! ... left silicon to aces</pre>
+
+
+<!-- Date: Fri Aug 3 08:32:37 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><h1><b>We need to have the calibration processed !</b></h1></td></tr></td></table>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Fri Aug 3 09:36:21 2001 -->
+<pre>Set chip chains for L00 B0W0 and B0W5 to latch all, bw=3, DPSoff for first tests. 
+ 
+Initially only put LB0W0L3 online since it can be used as a minimal risk beam conditions test. Once that is clear, we'll run the others. 
+ 
+</pre>
+<!-- Author: David -->
+
+
+<!-- Date: Fri Aug 3 09:46:18 2001 -->
+<pre>Due to disk quota full, we have no report of 
+last night voltages and currents from  02:45:05 
+to 08:52:34. This affects the reports on the following runs: 
+122623,122624,122627,122630. 
+There was no trip or change in bias voltage reported by the aces 
+during this time, so we should consider them as good runs, 
+as far as silicon is concerned. 
+The GUI log file is not helpful either.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Fri Aug 3 10:15:29 2001 -->
+<pre>Powered LB0W0_L3. Bias1 (i.e. layer4's bias) ramped to 140. Bias0 left at 2V. We'll use Bias1 as a test of beam conditions through at least one flying wire. Then, we'll turn on the rest. 
+ 
+Current trip points set to 5uA. Steady state current is 0.4uA. 
+ 
+ 
+ 
+</pre>
+<!-- Author: David -->
+<!-- Comment: Fri Aug  3 10;22;10 comment by...David -->
+<pre>First run taken is 122635.</pre>
+
+
+<!-- Date: Fri Aug 3 10:29:29 2001 -->
+<pre>Calibrations are ready for the following data runs taken yesterday and today: 
+ 
+122501 122504 122505 122506 122606 122608 122612 122616 122620 122621 
+122622 122623 122624 122627 122628 122630 
+ 
+The tables are the following: 
+ 
+Table          Run     Version  Status 
+---------      ------  -------  ------------ 
+SICHIPPED      122601   1       COMPLETE_DPS 
+SISTRIPDH      122601   1       COMPLETE 
+SIFIBOFFSETS   111193   1       COMPLETE 
+ 
+The numbers of the calibration runs used are 122601 and 122602. 
+WARNING: not all included ladders are seen in the datastream</pre>
+<!-- Author: Saverio on behalf of Igor -->
+
+
+<!-- Date: Fri Aug 3 10:43:54 2001 -->
+Having a quick look at the data from run 122631 using SiliMon 
+3.18int3.<br>It looks like there is a large component of corrupted data: 
+<pre> 
+%ERLOG-e First word in HDI block is not chip ID:  
+         /cdf/code/cdfsoft/dist/packages/TrackingObjects/V00-00-70/src/TRYRun2SiStripSet_simple.cc  
+        : 745  Skipping HDI block  3332,  index  6664,  byte count  888 
+         GlobalLibraryLogger TRYRun2SiStripSet::readISLDBank  ()  
+          3-Aug-2001 10:35:50 run = 122631 event = 3187 
+</pre> 
+<hr> 
+<pre> 
+%ERLOG-e Unrecognized ISLD word:  
+         /cdf/code/cdfsoft/dist/packages/TrackingObjects/V00-00-70/src/TRYRun2SiStripSet_simple.cc  
+        : 932  GlobalLibraryLogger  
+         readISLDBankInvalid EOR, ffffd0c0, at index = 1a3 ()  
+          3-Aug-2001 10:35:50 run = 122631 event = 3195 
+</pre><hr><pre> 
+%ERLOG-w Strip out of order :  
+         /cdf/code/cdfsoft/dist/packages/TrackingObjects/V00-00-70/src/TRYRun2SiStripSet_simple.cc  
+        : 772  Skipping HDI block  4990,  index  9980,  byte count  412 Strip   
+         322GlobalLibraryLogger TRYRun2SiStripSet::readISLDBank  ()  
+          3-Aug-2001 10:35:51 run = 122631 event = 3195 
+</pre><hr><pre> 
+%ERLOG-w Strip out of order :  
+         /cdf/code/cdfsoft/dist/packages/TrackingObjects/V00-00-70/src/TRYRun2SiStripSet_simple.cc  
+        : 246  Skipping HDI block  2685,  index  5370,  byte count  116 Strip   
+         152GlobalLibraryLogger TRYRun2SiStripSet::readSIXDBank  ()  
+          3-Aug-2001 10:35:52 run = 122631 event = 3166 
+ 
+ 
+</pre><br>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Fri Aug 3 10:51:58 2001 -->
+<p>Other errors: 
+<pre> 
+SVX chip Id -957739 is invalid on output 
+SVX chip Id -957740 is invalid on output 
+SVX chip Id -957741 is invalid on output 
+SVX chip Id -957742 is invalid on output 
+SVX chip Id -957743 is invalid on output 
+SVX chip Id -957744 is invalid on output 
+SVX chip Id -957745 is invalid on output 
+SVX chip Id -957746 is invalid on output 
+SVX chip Id -957747 is invalid on output 
+SVX chip Id -957748 is invalid on output 
+SVX chip Id -957749 is invalid on output 
+SVX chip Id -957750 is invalid on output 
+SVX chip Id -957751 is invalid on output 
+SVX chip Id -957752 is invalid on output 
+SVX chip Id -957753 is invalid on output 
+SVX chip Id -957754 is invalid on output 
+SVX chip Id -957755 is invalid on output 
+</pre><br>  
+<!-- Author: Saverio -->
+
+
+<!-- Date: Fri Aug 3 12:41:43 2001 -->
+<pre>Data from the following ladders have never made it to the SiStripSet 
+in the calibration run 122602: 
+ 
+Barrel Half-barrel Phi-wedge  Layer  FIB_ID0  FIB_ID1 
+------ ----------- ---------  -----  -------  ------- 
+ east    east        23         7      245      64 
+ east    east        24         7      245      64 
+ west    west        11         6      240      49 
+ west    west        12         6      240      49 
+ west    west        13         6      240      51 
+ west    west        14         6      240      65 
+ west    west        17         7      240      48 
+ west    west        18         7      240      48 
+ west    west        19         7      240      50 
+ west    west        20         7      240      50 
+ west    west        21         7      240      52 
+ west    west        22         7      240      52 
+ 
+Physically these ladders are connected to 3 different FIBs. 
+The data file from this run is on fcdfsgi2 at 
+/cdf/data05/s1/hardware/svxii/Datafiles/ir01deea.0001cali. 
+ 
+In addition, only the phi side data is present for the ladder 
+(west west 2 2). In this case the bank unpacking algorithm drops the 
+rest of readout because something is corrupted in the data stream 
+on the phi side. 
+ 
+DAQ experts, please take a look... 
+</pre>
+<!-- Author: Igor -->
+
+
+<!-- Date: Fri Aug 3 14:26:38 2001 -->
+<pre> 
+little update: 
+-------------- 
+ 
+** still running (current run 122641) 
+ 
+** L00 is OFF David is tacking a look at the run 122635 data  
+   (the one with LB0W0L3) to see if the L00 settings are good 
+    
+   HDWDB REMINDER:  
+   (L00 west) b0fib03 slot 16 and 17 on-line  with HDI's offline 
+   (L00 east) b0fib07 slot 16 and 17 off-line with HDI's offline 
+   --> (i.e.) if we want to include all L00 we have to modify 
+       hdwdb, modify CAENvolts.dat, cold start again, etc...  
+<font color="ff0000"> 
+** THE ONLINE L00 RTD MONITORING PAGE HAS FINALLY BEEN UPDATED 
+   (sorry Tim for the delay) 
+</font color="ff0000"> 
+ 
+</pre> 
+   
+<!-- Author: Francesco -->
+
+
+<!-- Date: Fri Aug 3 15:11:20 2001 -->
+<h3>Editing ChipChain news</h3> 
+I was not a little dissatisfied with the connundrum we had this 
+morning where we were forced to turn a Fib online to edit 
+the L00 bitstreams and pray that RC didn't do a <I>COLD START</I> 
+at the wrong time (not dangerous, just annoying).  Keep in mind, 
+this tool has two purposes: 
+<ul> 
+<li> To take what is in the hardware database and make teststand files from it 
+<li> To edit bitstreams 
+</ul> 
+So I modified the Chip Chain editor, and added two flags: 
+<ul> 
+<li> <I>Use Online Flags</I> (default is off/false) <BR> This being false means the system will read from the database and write files completely disregarding the VME online flags.  For the Chip information, all HDIs for a particular Fib will always be read 
+(and editable/writeable) from the database, but will not be written to a teststand file if this flag is false. Finally, if you read the database when not ignoring Online flags, you of course cannot ignore them when you write the files. (i.e. you cannot write what you did not read) 
+<li> <I>Include HDIs</I> (default is on/true) <BR> This just means 
+when reading the Database will it pick up the bitstreams 
+or not.  It is very useful if one wants to make teststand files 
+which do not have the Chips in them-this makes the teststand 
+much faster and less of a memory hog, which is handy when 
+investigating some VME problem. 
+</ul> 
+ 
+With these changes at least we won't have to go messing around 
+with online flags just to be able to check the HDWDB.  Next on 
+the list (maybe not today) is a button to provide a consistency 
+check of pipedepths and whatnot.
+<!-- Author: SCN -->
+
+
+<!-- Date: Fri Aug 3 15:30:03 2001 -->
+<pre>[** current average of (LOSTP,LOSTPB) ~ 6] 
+ 
+** we turn ON LB0W5L0 to L4</pre>
+<!-- Author: David Francesco -->
+<!-- Comment: Fri Aug  3 15;36;57 comment by...David Francesco -->
+<pre>run 122646 from events ~9915 LB0W5 was biased</pre>
+
+
+<!-- Comment: Fri Aug  3 18;45;09 comment by...francesco -->
+<pre>** at the end of the run:
+   - power OFF L00 and disable intrlk's
+   - took out L00 HDI's from hdwdb
+   - modifyed and reloaded CAENvolts.dat
+   - verifyed that another CDF run start without problems
+</pre>
+<!-- Date: Fri Aug 3 15:51:01 2001 -->
+<h3>And now for a word on Calibration...</h3> 
+There has been a bit of confusion about what parameters 
+mean what in Pedestal Calibration Runs (and <B>only</B> in  
+Pedestal Calibration runs, i.e. <I>RunType</I> == <I>SVX_PEDESTAL_D</I> (or <I>SVX_PEDESTAL_X</I>) so I thought I 
+should clarify.  Pedestal Calibrations are always taken in 
+<B>READALL</B> mode.  The total event size (ignoring ladders 
+which are off) is ~<BR> 
+# SVX WEDGES <I>x</I> 44 (CHIPS/WEDGE) <I>x</I> 128 (CHAN/CHIP) <I>x</I> 2 (BYTE/CHAN) = 11.264 kB <I>x</I> # SVX WEDGES + <BR> 
+# ISL WEDGES <I>x</I> 80 (CHIPS/WEDGE) <I>x</I> 128 (CHAN/CHIP) <I>x</I> 2 (BYTE/CHAN) = 20.480 kB <I>x</I> # ISL WEDGES + <BR> 
+# L00 WEDGES <I>x</I> 9 (CHIPS/WEDGE) <I>x</I> 128 (CHAN/CHIP) 
+<I>x</I> 2 (BYTE/CHAN) =  2.304 kB <I>x</I> # L00 WEDGES <BR> 
+if I plug in # SVX = 64, # ISL = 12, # L00 = 2, I get  total 
+size ~ 971 kB, which is probably overestimated by 10%, but it 
+is pretty close.<P> 
+ 
+There are now two important parameters which control the calibration<ul> 
+<li> <I>Extra0</I>: This is a parameter I stole to tell 
+the Fibs to put the Chips in DPS ON (<I>Extra0 == 1</I>) 
+or DPS OFF (<I>Extra0 == 0</I>) mode.  It has nothing to 
+do with event size 
+<li> <I>Interval0</I>: This is a parameter which tells the 
+TSI calibration engine how often it sends L1A (basically), 
+in units of 132 ns.  It is important 
+now (see Boris's <a href= 
+'/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=57&frame=2&anchor=17:43:01'> 
+entry</a>) because apparently if we try to run too fast, output 
+through the CSL backs up and causes problems.  This should be handled in a natural way by the DAQ throttling itself, and 
+the L3 guys are working on it, but in the meantime, we are 
+suppossed to use <I>Extra0</I> to artificially keep the  
+throughput low so the CSL doesn't have problems.  For right now, 
+the appropriate <I>Interval0</I> setting is 82556 (or say 82000 or higher). 
+</ul> 
+I hope this helps a little in clearing up some of the  
+confusion in calibrations.  I also hope that someone eventually 
+understands why the throttling mechanism (if there is one) back 
+from the CSL causes INPUT errors at the converter nodes and 
+BUSY timeouts in the Silicon.
+<!-- Author: SCN -->
+
+
+
+<!-- Date: Fri Aug 3 23:12:01 2001 -->
+<ul> 
+<li><b><font color='yellow'>The losses jumped up during the night.</font></b>  I decided to wait a minute to see if they evened out, but they only just kept getting worse.  Eventually we called the MCR and asked them to see what they could do.  They used their collimators and managed to <a href='/cgi/elog/elog.pl?nb=2001&action=view&page=544&frame=2&anchor=22:45:42'>clean things up quite nicely</a>.  Before that, however, things got bad enought that we decided to page Francesco who had us put things in standby. 
+<li>We issued the standby command from the HV Summary page to see if the connection worked properly.  <b><font color='yellow'>It didn't and I eventually resorted to the GUI, which then hung in an odd fashion.  It seemed to be responding ok--I could move the cursor around on it--except that the CPU-usage window in the lower right corner went mostly dead.</font></b>  Taking this as a bad sign and a cause for its poor refresh rate I exited and restarted the GUI.  This did make things work more smoothly, but... 
+<li>Immediately after restarting the GUI I got the following trip messages: 
+<blockquote> 
+Software protection trip: High DVDD Current SVX B0W4 L2<br> 
+Software protection trip: High DVDD Current SVX B4W1 L3<br> 
+Software protection trip: High DVDD Current SVX B4W1 L3<br> 
+</blockquote> 
+That's not a typo.  I did get a repeated error message. 
+<li>While the silicon was now in standby the GUI's radio buttons indicated that it was on.  This prompted me to search for an on wedge which I found in B0W3.  When I tried to turn it to standby with all the others I got a message telling me it was masked (which it is), but I was able to turn it off ok. 
+<li>Shortly after that I got a trip message: 
+<blockquote> 
+Trip: ISL B5 W0 External Trip 
+</blockquote> 
+I didn't get an alarm from this in iFix, nor was anything on the wedge tripped when I looked at it. 
+</ul> 
+Everything is powered up and seems fine now.  The losses did not cause any trips.  I will post a picture of the worst of the losses shortly.
+<!-- Author: Napora -->
+<!-- Comment: Fri Aug  3 23;31;23 comment by...Napora -->
+<p>Another Software protection trip before they could get the DAQ going again.  This time on B3 W1 L4.
+
+
+<!-- Date: Sat Aug 4 00:05:28 2001 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-155&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-155  width='300' align='top'></td><td>The promised "worst of the losses" plot.</a></td></tr></table>
+<!-- Author: Napora -->
+<!-- Comment: Sat Aug  4 08;49;34 comment by...francesco -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>** DON'T KNOW WHY THE PAGER DIDN'T WORK THIS NIGHT
+   (HOWEVER IT SEEMS STRANGE TO ME THAT NOBODY OF US 
+    COULD BE  REACHED IN ANY WAY...-BAD-)
+
+** BY REMOVING SB4W0L4 EVERYBODY COLDSTART AGAIN
+   SILICON BACK TO ACES AT ~9'OCLOCK 
+   [THIS LAYER IS NOW MASKED ALSO IN CAENvolts.dat]
+   </pre></td></tr></td></table>
+
+
+<!-- Date: Sat Aug 4 09:21:03 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>first run with silicon included again is 122694</pre></td></tr></td></table>
+<!-- Author: francesco  -->
+<!-- Comment: Sat Aug  4 11;25;04 comment by...francesco -->
+<pre>(errata: silicon included again  -&gt; b0fib02 included again)</pre>

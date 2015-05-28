@@ -1,0 +1,547 @@
+<!-- Title: Day shift. Tue Jun 28, 2005 -->
+<!-- SciCo: Steve Kuhlmann -->
+<!-- DAQAce: Fabrizio Margaroli -->
+<!-- MonAce: Kwangzoo Chung -->
+<!-- CO: Laura Bodine -->
+<!-- OpManager: Sungwon Lee -->
+<!-- Notes: -->
+<pre>Shot setup underway</pre>
+
+<!-- Date: Tue Jun 28 08:28:53.272 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200079">200079</a>
+TERMINATE: end for smxr flashram test
+<!-- Author: Philipp M -->
+
+
+<!-- Date: Tue Jun 28 08:34:19.338 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200080">200080</a>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Philipp M -->
+
+
+<!-- Date: Tue Jun 28 08:37:41.732 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200080">200080</a>
+TERMINATE: end smx calib
+
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 08:39:08.387 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200081">200081</a>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 08:42:51.244 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200081">200081</a>
+TERMINATE: Calib_load finished successfully
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 08:55:13.504 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200082">200082</a>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 08:57:21.725 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200082">200082</a>
+TERMINATE: Done SMX test calib
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jun 28 09:00:14.912 2005 -->
+PSM Alarm; 1RR18E_1 +12V Digital dropped to low value(~7). cleared itself after a while.
+<!-- Author: Kwangzoo -->
+
+
+<!-- Date: Tue Jun 28 09:03:55.057 2005 -->
+<pre>We tried loading the SMXR flash ram after a calibration (calib_load).  We had to change the expert settings in RC to check loadQIEFram in order to do this,  but after that it worked.  We power cycled ccal00,  which affects ccal00,01,02.  We saved the lookup tables before and after power cycling,  and there are some differences.   So for now it's considered a failure and no changes in procedures are needed.</pre>
+<!-- Author: Kuhlmann -->
+
+<!-- Date: Tue Jun 28 09:21:06.365 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200083">200083</a>
+TERMINATE: error in l2pulsar02
+
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jun 28 09:27:01.791 2005 -->
+<TABLE bgcolor=#cdc9a5> 
+<TR><TH>Date</th><th>Time</th><th>BLM</th><th colspan=2>Dose</th></tr> 
+<tr><td>2005.06.28</td><td>09:23:46</td><td>W Inner BLM</td><td>1.04</td><td>RADS</td></tr> 
+<tr><td>2005.06.28</td><td>09:23:46</td><td>W Outer BLM</td><td>0.40</td><td>RADS</td></tr> 
+<tr><td>2005.06.28</td><td>09:23:46</td><td>E Inner BLM</td><td>3.62</td><td>RADS</td></tr> 
+<tr><td>2005.06.28</td><td>09:23:46</td><td>E Outer BLM</td><td>2.56</td><td>RADS</td></tr> 
+</table> 
+<strong>Integrated dosage</strong>
+<!-- Author: Kwangzoo -->
+
+
+<!-- Date: Tue Jun 28 09:27:36.112 2005 -->
+<pre>Final protons.</pre>
+<!-- Author: scico -->
+
+<!-- Date: Tue Jun 28 09:29:23.609 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200084">200084</a>
+TERMINATE: evb error
+
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 09:33:35.659 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200085">200085</a>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_3_02 [1,639,566] 
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jun 28 09:53:17.307 2005 -->
+ICICLE <font color=purple>Hearbeat alarm</font> - restarted icicle.
+<!-- Author: Kwangzoo -->
+<!-- Comment: Tue Jun 28 10;08;59 comment by...K -->
+recovered.
+<!-- Date: Tue Jun 28 10:00:40.735 2005 -->
+<pre>Asked to restart ObjectMon because of DAQMon error message.  Upon restarting, the monitor crashed.  Upon another restart monitor crashed a second time.  Waiting until beam to restart.  </pre>
+<!-- Author: Laura B -->
+<!-- Comment: Tue Jun 28 10;17;13 comment by...Laura B -->
+<pre>Expert said that ObjectMon files have been cleaned up and that it should run properly now, but no reason to restart until store is coming.  </pre>
+<!-- Date: Tue Jun 28 10:02:15.088 2005 -->
+<pre>Pbars are in.</pre>
+<!-- Author: scico -->
+
+
+<!-- Date: Tue Jun 28 10:04:50.035 2005 -->
+<pre>DQMon giving warnings even with objectmon disabled now, expert coming.</pre>
+<!-- Author: scico -->
+
+
+<!-- Date: Tue Jun 28 10:05:09.413 2005 -->
+<pre>QUENCH</pre>
+<!-- Author: scico -->
+
+
+<!-- Date: Tue Jun 28 10:12:27.531 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200085">200085</a>
+TERMINATE: ens shotsetup
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jun 28 10:12:28.207 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-10977&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-10977  width='300' align='top'></a></td><td>BLM summary</td></tr></table>
+<!-- Author: Kwangzoo -->
+
+
+<!-- Date: Tue Jun 28 10:15:47.252 2005 -->
+Post-quench check-out: svx coldstart run reached config state correctly
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jun 28 10:22:37.459 2005 -->
+<pre>Markus arrives for EVB work,  Sungwon is happy.</pre>
+<!-- Author: scico -->
+
+<!-- Date: Tue Jun 28 10:25:33.815 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200088">200088</a>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 10:26:40.128 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200088">200088</a>
+TERMINATE: end cal calib
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 10:28:48.617 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200090">200090</a>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 10:29:28.277 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200090">200090</a>
+TERMINATE: end clc calib
+
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 10:31:08.779 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200091">200091</a>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Tue Jun 28 10:31:29.835 2005 -->
+Marcel commanded to ramp it. Silicon is biased now, sir.
+<!-- Author: k -->
+<!-- Comment: Tue Jun 28 10;33;00 comment by...Markus -->
+<pre>We are startin EVB upgrade studies including the Si det.</pre>
+
+<!-- Date: Tue Jun 28 10:40:25.558 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200093">200093</a>
+ Activated at 2005.06.28 10:40:18
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 10:40:55.786 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200093">200093</a>
+ACTIVATE: RunSet: COSMICS_SILICON_TAPE  Trigger: COSMICS [15,619,538] 
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Tue Jun 28 10:41:34.011 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200093">200093</a>
+ Terminated at 2005.06.28 10:41:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 11:07:21.325 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200094">200094</a>
+ Activated at 2005.06.28 11:06:38
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 11:10:42.856 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200094">200094</a>
+ Terminated at 2005.06.28 11:10:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 11:25:16.043 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200100">200100</a>
+ Activated at 2005.06.28 11:24:58
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 11:28:41.711 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200100">200100</a>
+ Terminated at 2005.06.28 11:28:18
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 11:49:46.767 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200103">200103</a>
+ Activated at 2005.06.28 11:49:03
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 11:54:50.155 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200103">200103</a>
+ Terminated at 2005.06.28 11:54:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 12:17:35.260 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200108">200108</a>
+ Activated at 2005.06.28 12:17:19
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 12:36:00.780 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200108">200108</a>
+ Terminated at 2005.06.28 12:35:43
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 12:42:40.846 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200110">200110</a>
+ Activated at 2005.06.28 12:42:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 12:49:57.329 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200110">200110</a>
+ Terminated at 2005.06.28 12:49:51
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 12:58:33.826 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200111">200111</a>
+ Activated at 2005.06.28 12:57:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:00:42.663 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200111">200111</a>
+ Terminated at 2005.06.28 13:00:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:09:03.462 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200112">200112</a>
+ Activated at 2005.06.28 13:08:26
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:12:18.437 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200112">200112</a>
+ Terminated at 2005.06.28 13:12:03
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:19:12.777 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200113">200113</a>
+ Activated at 2005.06.28 13:18:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:23:22.356 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200113">200113</a>
+ Terminated at 2005.06.28 13:23:10
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:26:51.190 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200114">200114</a>
+ Activated at 2005.06.28 13:26:44
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:40:59.602 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200114">200114</a>
+ Terminated at 2005.06.28 13:40:39
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Jun 28 13:42:59.453 2005 -->
+ICICLE <font color=purple>heartbeat alarm</font> - clicked 'skip all' on pop-up error messages without restarting. It's updating now.
+<!-- Author: Kwangzoo -->
+
+
+<!-- Date: Tue Jun 28 13:47:26.103 2005 -->
+<pre>FYI:  D0 went in for 1 hour access soon after the quench,  which we did not want/need.  Then access was extended 2 hrs.  MCR log shows  several TeV access jobs underway or completed. </pre>
+<!-- Author: scico -->
+
+<!-- Date: Tue Jun 28 13:49:18.579 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200116">200116</a>
+ Activated at 2005.06.28 13:48:24
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 13:51:49.908 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200116">200116</a>
+ Terminated at 2005.06.28 13:51:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 14:06:36.135 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200117">200117</a>
+ Activated at 2005.06.28 14:05:56
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 14:07:42.051 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200117">200117</a>
+ Terminated at 2005.06.28 14:07:15
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Jun 28 14:08:23.074 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-10978&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-10978' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-10979&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-10979' width='300'></a></center>
+<!-- Author: K -->
+<!-- Comment: Tue Jun 28 14;10;31 comment by...Kwangzoo -->
+Looks better than <a href=
+'/cgi/elog/elog.pl?nb=2005&action=view&page=535&frame=2&anchor=05:37:59.356'>the previous one</a>. see Mark's comment in the previous qie-calibration.
+
+
+<!-- Date: Tue Jun 28 14:21:38.323 2005 -->
+I am testing new CPR/CLC HV monitoring code.
+<!-- Author: convery -->
+<!-- Comment: Tue Jun 28 14;41;54 comment by...convery -->
+New code seems to work ok.  There are backup versions in case problems show up.  There is some chance that I fixed what has been causing the monitoring to crash...
+<!-- Date: Tue Jun 28 14:22:55.541 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-10980&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-10980  width='300' align='top'></a></td><td>CLC calibration</td></tr></table>
+<!-- Author: k -->
+
+<!-- Date: Tue Jun 28 14:31:59.298 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200119">200119</a>
+ Activated at 2005.06.28 14:31:33
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Jun 28 14:33:43.477 2005 -->
+<pre>TeV and D0 accesses are finished.</pre>
+<!-- Author: scico -->
+
+
+<!-- Date: Tue Jun 28 14:57:30.455 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200119">200119</a>
+ Terminated at 2005.06.28 14:57:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:03:59.087 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200120">200120</a>
+ Activated at 2005.06.28 15:02:46
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:10:34.157 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200120">200120</a>
+ Terminated at 2005.06.28 15:10:01
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:17:57.735 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200124">200124</a>
+ Activated at 2005.06.28 15:17:37
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:20:22.662 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200124">200124</a>
+ Terminated at 2005.06.28 15:20:10
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Jun 28 15:24:57.557 2005 -->
+<font size=2>icicle pc monitor went black again but still heartbeat is alive, no complains. it was just a coincidence.</font>
+<!-- Author: Kwangzoo -->
+
+<!-- Date: Tue Jun 28 15:28:18.670 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200128">200128</A>
+ Activated at 2005.06.28 15:28:04
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:30:55.623 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200128">200128</A>
+ Terminated at 2005.06.28 15:30:34
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:53:20.371 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200130">200130</A>
+ Activated at 2005.06.28 15:52:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 15:56:13.831 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:01</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Jun 28 15:56:50.203 2005 -->
+<pre>Day Shift June 28th, 2005 
+  
+08:00  Shot Setup in Progress 
+09:27  Final Protons 
+10:02  Pbars 
+10:05  Quench on ramp. 
+10:22  EVB-upgrade work rest of the day. 
+D0 and Tevatron accesses for about 3 hrs. 
+16:00  End shift 
+</pre>
+<!-- Author: scico -->
+
+
+<!-- Date: Tue Jun 28 15:57:38.335 2005 -->
+<font color=red>Shift Summary: </font><pre>bye</pre> 
+<!-- Author: scico -->
+
+<!-- Date: Tue Jun 28 15:58:31.183 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200130">200130</A>
+ Terminated at 2005.06.28 15:57:40
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Jun 28 15:59:27.586 2005 -->
+<pre>The DQMon process on b0dap57 is crashing with the  
+following output: 
+ 
+0dap57:533:~&gt; setup fer 
+b0dap57:534:~&gt; dqmon 
+Attempting connection to &lt;tcp:b0dap33:5101&gt; RTserver. 
+Connected to &lt;tcp:b0dap33:5101&gt; RTserver. 
+Could not open status file parse_physmon.log.tmp 
+java.lang.NullPointerException 
+        at rc.mon.DQMon.updatePhymonStatus(DQMon.java:2805) 
+        at rc.mon.DQMon.readPhymonFile(DQMon.java:2176) 
+        at rc.mon.DQMon$2.run(DQMon.java:304) 
+        at java.lang.Thread.run(Thread.java:534) 
+Could not open status file parse_physmon.log.tmp 
+java.lang.NullPointerException 
+        at rc.mon.DQMon.updatePhymonStatus(DQMon.java:2805) 
+        at rc.mon.DQMon.readPhymonFile(DQMon.java:2176) 
+        at rc.mon.DQMon$2.run(DQMon.java:304) 
+        at java.lang.Thread.run(Thread.java:534) 
+ 
+ 
+Could DQMon expert(s) please have a look? 
+ 
+</pre>
+<!-- Author: W.Badgett -->
+<!-- Comment: Tue Jun 28 16;37;11 comment by...Oriol -->
+This message indicates that DQMon failed to read the PhysMon webpage.<br>
+As DQMon is updated very often, if any error message do not keep appearing, it means that it fixed itself.<br>
+<!-- Date: Tue Jun 28 16:07:33.186 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200132">200132</A>
+ Activated at 2005.06.28 16:07:04
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 16:08:45.778 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200132">200132</A>
+ Terminated at 2005.06.28 16:08:31
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 16:11:33.028 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200133">200133</A>
+ Activated at 2005.06.28 16:11:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 16:12:42.655 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200133">200133</A>
+ Terminated at 2005.06.28 16:11:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jun 28 16:16:49.803 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200134">200134</A>
+ Activated at 2005.06.28 16:15:03
+<!-- Author: RunControl -->
+
+

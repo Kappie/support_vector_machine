@@ -1,0 +1,398 @@
+<!-- Title: Owl shift. Thu Jan  9, 2003 -->
+<!-- SciCo: Pat Lukens -->
+<!-- DAQAce: W. Wagner, G. Giurgiu -->
+<!-- MonAce: J. Kim, G. Gomez-Cebal -->
+<!-- CO: Oleg Pukhov -->
+<!-- OpManager: Eric James -->
+<!-- Notes: -->
+<pre>Taking data, but struggling with SVT problems. 
+ 
+Lum = 1.7E31</pre>
+
+
+<!-- Date: Thu Jan 9 00:43:31 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-522&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-522' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-523&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-523' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-524&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-524' width='300'></a></center>
+<!-- Author: Guillelmo/Jieun -->
+
+<!-- Date: Thu Jan 9 00:51:02 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156365">156365</A>
+ Terminated at 2003.01.09 00:50:24
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 00:51:33 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156365">156365</A>
+TERMINATE: End run to try running again with silicon
+<!-- Author: Wolfgang/Gavril -->
+
+
+<!-- Date: Thu Jan 9 01:02:55 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156366">156366</A>
+ Activated at 2003.01.09 01:02:17
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 01:04:33 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156366">156366</A>
+ Terminated at 2003.01.09 01:03:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 01:06:33 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156366">156366</A>
+ACTIVATE: We try to run with silicon again. Jason has taken out a ladder in wedge 5, the wedge
+which was giving the problem.
+<!-- Author: Wolfgang/Gavril -->
+<!-- Comment: Thu Jan  9 01;11;02 comment by...Wolfgang/Gavril -->
+
+(MLE) b0svt02:Messenger:1:02:29 AM->FER_E_SVT, sync error in Wedges  5; HRR required
+CT: 1/9/2003, 1:2'30" 
+2'30" 1 crate/s: b0svt02(123),  Done TO.[RXPT]
+(MLE) b0tsi02:Messenger:1:02:30 AM->DONE timeout
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:02:30 AM->Done Timeout: SVT_TRACKING_02 
+<!-- Date: Thu Jan 9 01:06:33 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156366">156366</A>
+TERMINATE: This didn't work we still got the DONE timeout.
+<!-- Author: Wolfgang/Gavril -->
+
+
+
+<!-- Date: Thu Jan 9 01:25:37 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156367">156367</A>
+ Activated at 2003.01.09 01:24:23
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 01:29:03 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156367">156367</A>
+ACTIVATE: Start run with silicon. ladders in wedge 5 dissabled.
+<!-- Author: Wolfgang/Gavril -->
+
+
+
+<!-- Date: Thu Jan 9 01:33:02 2003 -->
+The new run also suffers from DONE timeouts triggered by SVT. 
+This time it is "sync error in wedge 4". <BR> 
+This time we collect a few event between the HRRs. We keep issuing manual HRRs to collect some events for Jason.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156367' target=_top>156367</a>) -->
+<!-- Comment: Thu Jan  9 01;35;55 comment by...Wolfgang/Gavril -->
+<pre>(MLE) b0svt02:Messenger:1:25:42 AM-&gt;FER_E_SVT, sync error in Wedges  4; HRR required
+25'43" 1 crate/s: b0svt02(123),  Done TO.[RXPT]
+(MLE) b0tsi02:Messenger:1:25:44 AM-&gt;DONE timeout
+(MLE) b0dap59.fnal.gov:AWT-EventQueue-0:1:25:43 AM-&gt;Done Timeout: SVT_TRACKING_02 </pre>
+<!-- Date: Thu Jan 9 01:34:16 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156367">156367</A>
+ Terminated at 2003.01.09 01:33:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 01:35:09 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156367">156367</A>
+TERMINATE: Continue to have DONE timeout.
+<!-- Author: Wolfgang/Gavril -->
+
+
+
+
+<!-- Date: Thu Jan 9 01:39:34 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-525&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-525' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-526&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-526' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-527&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-527' width='300'></a></center>
+<!-- Author: Jieun/Guillelmo -->
+
+<!-- Date: Thu Jan 9 01:44:47 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156368">156368</A>
+ Activated at 2003.01.09 01:43:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 01:46:35 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156368">156368</A>
+ACTIVATE: Start new run without SB1W4L3
+<!-- Author: Wolfgang/Gavril -->
+
+
+<!-- Date: Thu Jan 9 01:57:17 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156368">156368</A>
+ Terminated at 2003.01.09 01:56:45
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jan 9 01:58:19 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156368">156368</A>
+TERMINATE: End run because the DONE timeout error persists.
+<!-- Author: Wolfgang/Gavril -->
+
+
+<!-- Date: Thu Jan 9 02:18:02 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369">156369</A>
+ Activated at 2003.01.09 02:15:44
+<!-- Author: RunControl -->
+<!-- Comment: Thu Jan  9 02;26;30 comment by...Wolfgang -->
+In this run we have now 4 ladders disable: <BR>
+S B2 W5 L0 <BR>
+S B1 W5 L4 <BR>
+S B1 W4 L3 <BR>
+S B0 W4 L4 <BR>
+<!-- Comment: Thu Jan  9 02;29;15 comment by...Wolfgang -->
+We are now running okay. We have now 23K L3 accept without DONE
+timeout.
+<!-- Comment: Thu Jan  9 02;30;19 comment by...Jason Nielsen -->
+These ladders seem to be failing the bunch crossing counter check in the SVT.  We have taken them out temporarily to avoid repeated DONE timeouts from b0svt02.
+<!-- Comment: Thu Jan  9 03;27;43 comment by...Marco  -->
+Further SVT details in the <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=svt&action=view&page=3&frame=2&anchor=03:24:36'>
+SVT e-log </a> 
+
+<!-- Date: Thu Jan 9 02:18:02 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369">156369</A>
+ACTIVATE: start a new run without S/B0/W4/L4
+<!-- Author: Wolfgang/Gavril -->
+
+
+
+
+
+
+<!-- Date: Thu Jan 9 02:33:00 2003 -->
+Jason asks us to watch out for HRRs issued by the following ISL 
+wedges: <BR> 
+I B0 W4 <BR> 
+I B2 W1 <BR> 
+I B4 W4 <BR>
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+<!-- Date: Thu Jan 9 02:37:43 2003 -->
+Silicon HRR: Pipeline out of synch in 75 chips.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+<!-- Date: Thu Jan 9 02:51:29 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-528&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-528' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-529&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-529' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-530&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-530' width='300'></a></center>
+<!-- Author: Jieun/Guillelmo -->
+
+
+<!-- Date: Thu Jan 9 02:54:12 2003 -->
+SVXMon reports: stuck cellid in S B1 W6 L0 C0-1
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+<!-- Comment: Thu Jan  9 03;02;25 comment by...Wolfgang -->
+again
+
+
+<!-- Date: Thu Jan 9 03:09:10 2003 -->
+For educational purposes I closed the L3 Display and had Gavril 
+open it again. Unfortuantely, I didn't know that we were still 
+running with a private version of Ilya. So now we only have the 
+standard display without the new L3 nodes. I suggest to have the 
+new L3 display copied to the cdfdaq area such that the daq ace can start the process.
+<!-- Author: Wolfgang -->
+
+
+
+<!-- Date: Thu Jan 9 03:36:17 2003 -->
+SvxMon Halt Recover Run: Pipeline out of synch in 75 silicon readout chip.
+<!-- Author: Gavril/Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+<!-- Date: Thu Jan 9 03:40:19 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-531&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-531' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-532&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-532' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-533&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-533' width='300'></a></center>
+<!-- Author: Jieun/Guillelmo -->
+
+
+<!-- Date: Thu Jan 9 04:06:38 2003 -->
+We got an SVT02 DONE timeout again: sync error in wedge 5.  
+Auto HRR recovered.
+<!-- Author: Wolfgang/Gavril :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+<!-- Comment: Thu Jan  9 05;03;37 comment by...Wolfgang -->
+again
+<!-- Date: Thu Jan 9 04:34:09 2003 -->
+DONE timeout by b0ccal11. Happened twice before already.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=155369' target=_top>155369</a>) -->
+<!-- Comment: Thu Jan  9 04;47;24 comment by...Wolfgang -->
+again
+<!-- Date: Thu Jan 9 04:36:45 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-534&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-534' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-535&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-535' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-536&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-536' width='300'></a></center>
+<!-- Author: Jieun/Guillelmo -->
+<!-- Comment: Thu Jan  9 04;38;58 comment by...Jieun/Guillelmo -->
+Everything goes smoothly for the Monitoring aces...
+
+
+
+
+<!-- Date: Thu Jan 9 05:23:29 2003 -->
+We got an SVT05 DONE timeout; sync error in wedge 11. Auto HRR recovered.
+<!-- Author: Guillelmo :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=155369' target=_top>155369</a>) -->
+
+
+<!-- Date: Thu Jan 9 05:32:59 2003 -->
+Done timeout by svt02, sync error wedge 5. <BR> 
+Was followed by an L2 decision timeout. HRR worked.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=155369' target=_top>155369</a>) -->
+<!-- Comment: Thu Jan  9 05;35;08 comment by...Wolfgang/Guillelmo -->
+<pre>Alpha minicom output:
+
+Error: Startload is still low. ModDone bits 0x4007fdff for event 113147563      
+TIMEOUT: Mod done not set for slot 12 (0x0007fdff, cnt 1)                       
+SvtMon: Error: no data from SVT(0)                                              
+                                                                                
+Error: Startload is still low. ModDone bits 0x4007fdff for event 113147564      
+TIMEOUT: Mod done not set for slot 12 (0x0007fdff, cnt 2)                       
+SvtMon: Error: no data from SVT(0)                                              
+                                                                                
+Error: Startload is still low. ModDone bits 0x4007fdff for event 113147565      
+TIMEOUT: Mod done not set for slot 12 (0x0007fdff, cnt 3)                       
+Slot12 saw 3 sequential errors at Jan  9 05:30:05 2003                          
+SvtMon: Error: no data from SVT(0)                                              
+SvtMonitor saw 3 sequential errors at Jan  9 05:30:05 2003                      
+FaultManager: Fatal error, sending L2 timeout (L2A 1288509)                     
+</pre>
+
+
+<!-- Date: Thu Jan 9 05:49:39 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-539&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-539' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-540&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-540' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-541&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-541' width='300'></a></center>
+<!-- Author: Gavril/Jieun -->
+
+
+<!-- Date: Thu Jan 9 05:57:28 2003 -->
+SVXMon: Pipeline out synch for 79 silicon chips.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=155369' target=_top>155369</a>) -->
+
+
+<!-- Date: Thu Jan 9 06:07:40 2003 -->
+DONE timeout from CCAL_01.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+<!-- Date: Thu Jan 9 06:29:43 2003 -->
+Stuck cell id in S B0 W4 L0 C0-1. Auto HRR recovered.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+<!-- Date: Thu Jan 9 06:39:35 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-542&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-542' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-543&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-543' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-544&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-544' width='300'></a></center>
+<!-- Author: Gavril/Jieun -->
+
+
+<!-- Date: Thu Jan 9 07:05:47 2003 -->
+DONE timeout SVT02 : synch error in wedge 5
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+<!-- Comment: Thu Jan  9 07;13;42 comment by...Wolfgang -->
+again
+<!-- Comment: Thu Jan  9 07;14;59 comment by...Wolfgang -->
+again
+<!-- Date: Thu Jan 9 07:10:40 2003 -->
+DONE timeout b0ccal11
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+
+
+<!-- Date: Thu Jan 9 07:16:11 2003 -->
+DONE timeout WCAL03. Recovered by HRR.
+<!-- Author: Wolfgang :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369' target=_top>156369</a>) -->
+
+
+<!-- Date: Thu Jan 9 07:37:08 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-545&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-545' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-546&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-546' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-547&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-547' width='300'></a></center>
+<!-- Author: Jieun/Gavril -->
+
+
+<!-- Date: Thu Jan 9 07:52:49 2003 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2003&action=view&page=-548&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2003&action=view&page=-548  width='300' align='top'></td><td>Shift luminosity</a></td></tr></table>
+<!-- Author: Gavril/Jieun -->
+
+
+<!-- Date: Thu Jan 9 07:54:19 2003 -->
+<font color=red>Shift Summary: </font><pre>SVX/SVT problems kept data from being readout until 2:15.  Smooth data taking after that.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   156365
+Delivered Luminosity   160  
+Acquired Luminosity    63  
+Efficiency             39%
+   
+</td></tr></table></pre>
+<!-- Author: Pat Lukens -->
+<!-- Comment: Thu Jan  9 07;59;59 comment by...Pat Lukens -->
+I misread (aces know what's going on, sci co does not)
+
+Acquired - 415 nb^-1
+Delivered - 312 nb^-1
+eff. 75%
+<!-- Date: Thu Jan 9 07:55:48 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156365>156365</A> 
+x262CD</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_03 [2,194,329]</TD>                                       
+<TD ALIGN=CENTER>00:16:58</TD>                                          
+<TD ALIGN=CENTER>00:50:24</TD>                                          
+<TD ALIGN=CENTER>00:33:21</TD>                                          
+<TD ALIGN=RIGHT>     16,720,933</TD>                                    
+<TD ALIGN=RIGHT>       192,864</TD>                                     
+<TD ALIGN=RIGHT>      38,923</TD>                                       
+<TD ALIGN=RIGHT>   33.937</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156369>156369</A> 
+x262D1</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_03 [2,194,329]</TD>                                       
+<TD ALIGN=CENTER>02:15:44</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>05:30:53</TD>                                          
+<TD ALIGN=RIGHT>    187,761,312</TD>                                    
+<TD ALIGN=RIGHT>     2,165,012</TD>                                     
+<TD ALIGN=RIGHT>     666,797</TD>                                       
+<TD ALIGN=RIGHT>  271.103</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:01</TD>                                                       
+<TD ALIGN=CENTER>06:04:14</TD>                                          
+<TD ALIGN=RIGHT>     204,482,245</TD>                                   
+<TD ALIGN=RIGHT>      2,357,876</TD>                                    
+<TD ALIGN=RIGHT>       705,720</TD>                                     
+<TD ALIGN=RIGHT>  305.040</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+
+<!-- Date: Thu Jan 9 08:01:01 2003 -->
+<TABLE bgcolor=#cdc9a5> 
+<tr><th colspan=2>Totals</th></tr> 
+<tr><td>Date:</td><td>2003.01.09</td> 
+<tr><td>Shift:</td><td>owl</td> 
+<tr><td>Delivered luminosity:</td><td>417.05 nb<sup>-1</sup></td></tr> 
+<tr><td>Acquired luminosity:</td><td>313.04 nb<sup>-1</sup></td></tr> 
+<tr><td>Efficiency:</td><td>75.06</td></tr> 
+</TABLE>
+<!-- Author: Wolfgang -->

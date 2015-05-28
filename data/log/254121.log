@@ -1,0 +1,496 @@
+<!-- Title: Eve shift. Sat Dec 25, 2004 -->
+<!-- SciCo: Mako Shimojima -->
+<!-- DAQAce: Saverio Da Ronco -->
+<!-- MonAce: Hao Sun -->
+<!-- CO: Tetsuo Arisawa -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre>Store 3876 in progress. 
+</pre>
+
+
+<!-- Date: Sat Dec 25 16:40:32.435 2004 -->
+<pre>cur lum:  18.14 E30 
+stack  : 152.11 E10</pre>
+<!-- Author: mako -->
+
+
+<!-- Date: Sat Dec 25 17:49:32.839 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-13032&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-13032  width='300' align='top'></a></td><td>On trigmon xft finder canvas, cot sl4 segment occupancy  
+does not seem to be flat.</td></tr></table>
+<!-- Author: Tetsuo -->
+<!-- Comment: Sun Dec 26 10;15;54 comment by...Cheng-Ju -->
+<pre>Yes, that spike is a know COT problem.  We should add
+this plot to the CO fix list.</pre>
+<!-- Date: Sat Dec 25 17:55:14.315 2004 -->
+So far, a couple of "L2 decision Timeout".A couple of "HRR" solves the problem. Run continues.
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 18:44:13.486 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-13033&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-13034' ></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-13035&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-13036' ></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-13037&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-13038' ></a></center>
+<!-- Author: Hao -->
+<!-- Comment: Sat Dec 25 18;44;49 comment by...Hao -->
+<pre>Hourly plots (16:30-17:30)</pre>
+
+
+<!-- Date: Sat Dec 25 18:47:52.151 2004 -->
+<pre>Store to be terminated at 19:30. 
+Another shot setup will follow.</pre>
+<!-- Author: mako -->
+<!-- Comment: Sat Dec 25 19;05;46 comment by...mako -->
+<pre>After the store is dropped D0 will try to remove
+the stuck Roman pod. There may be a very brief
+controlled access if they fail to remove it
+remotely.
+</pre>
+<!-- Date: Sat Dec 25 18:50:41.641 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-13039&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-13040' ></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-13041&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-13042' ></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-13043&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-13044' ></a></center>
+<!-- Author: Hao -->
+<!-- Comment: Sat Dec 25 18;51;25 comment by...Hao -->
+<pre>Hourly plots (17:30-18:45)</pre>
+
+
+<!-- Date: Sat Dec 25 19:20:19.928 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191570">191570</A>
+ Terminated at 2004.12.25 19:20:14
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Dec 25 19:21:06.169 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191570">191570</A>
+TERMINATE: End Run. Store end in 10 minutes
+<!-- Author: Saverio -->
+
+
+
+<!-- Date: Sat Dec 25 19:31:26.957 2004 -->
+<pre>MCR called. They have a problem in the booster and 
+will not dump the store until they know they can 
+go into the shot setup, which may be a few more min.</pre>
+<!-- Author: mako -->
+<!-- Comment: Sat Dec 25 19;39;07 comment by...Hao -->
+<pre>We have ended the DAQ run and put all HV on "end of store" status anyways. Now we're going to switch the run to L2 toture and do calibrations when we get chance.</pre>
+<!-- Date: Sat Dec 25 19:35:13.823 2004 -->
+<pre>Paged Roberto (CLC) and talked with Ilya (L3). 
+Both are coming.</pre>
+<!-- Author: mako -->
+
+
+<!-- Date: Sat Dec 25 19:41:16.208 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191571">191571</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Saverio -->
+
+
+
+<!-- Date: Sat Dec 25 19:48:42.891 2004 -->
+<pre>MCR called. End of the store.</pre>
+<!-- Author: mako -->
+
+<!-- Date: Sat Dec 25 19:50:43.148 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191571">191571</A>
+TERMINATE: RunSet: TOF_TAC_CALIB end of run
+<!-- Author: Saverio -->
+<!-- Comment: Sat Dec 25 19;59;55 comment by...Saverio -->
+<pre>No time or beam conditions to take other calibrations.</pre>
+<!-- Date: Sat Dec 25 19:51:14.434 2004 -->
+<pre>Roberto is here to work on CLC for 10 min 
+to add isobutane. 
+ 
+We keep the CLC HV off.</pre>
+<!-- Author: mako -->
+<!-- Comment: Sat Dec 25 20;04;07 comment by...mako -->
+<pre>He is done.</pre>
+
+
+<!-- Date: Sat Dec 25 20:07:53.655 2004 -->
+<pre>West vessel of CLC refilled with Isobuthane. Now pressure is 22.6 psi. 
+Thanks 
+Merry Christmas 
+:) 
+</pre>
+<!-- Author: roberto rosssin -->
+
+
+<!-- Date: Sat Dec 25 20:15:45.723 2004 -->
+<pre>Ilya is here to work on the L3 farm.</pre>
+<!-- Author: mako -->
+
+
+<!-- Date: Sat Dec 25 20:22:00.361 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-13045&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-13046  width='300' align='top'></a></td><td>Si BLM summary plot.</td></tr></table>
+<!-- Author: Hao -->
+
+<!-- Date: Sat Dec 25 20:30:10.284 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191573">191573</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,466,444] 
+<!-- Author: Saverio -->
+<!-- Comment: Sat Dec 25 20;43;40 comment by...Saverio -->
+<pre>Int this run we are using all L3 subfarms (I mean c03 & C06 also) in order to test the changes that Ilya did.</pre>
+<!-- Date: Sat Dec 25 20:39:42.567 2004 -->
+<pre>    
+I have included Level 3 subfarms 3 and 6 into run configuration,  
+and a couple of processor nodes that were offline. 
+ 
+  Subfarm 3: hung 2 days ago, was rebooted, no obvious problem. 
+  Subfarm 6: had a problem with SCRAMNET card, the card has been 
+        replaced with a spare 
+  Processor nodes 047, 053: had Ethernet problem after powercycle 
+        to install the new power strip. 
+ 
+  At any sign of scramnet problem, page level3 farm pager or 
+call Ilya 630-430-4803(cell). How to diagnose possible problem: 
+get busy timeout, Event Builder complains in error logger 
+about "Event ID XX expected YY" great many times (70-80 per  
+event) and level3 converter nodes complain about timeout 
+waiting for event. 
+ We think we have fixed the scramnet problems by replacing 
+this card, but let's watch it for a while. 
+  </pre>
+<!-- Author: Ilya -->
+
+
+<!-- Date: Sat Dec 25 20:53:26.682 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191573">191573</A>
+TERMINATE: L2_TORTURE test ended
+
+<!-- Author: Saverio -->
+<!-- Comment: Sat Dec 25 21;26;16 comment by...Saverio -->
+<pre>I should use "DAQ" configuration to perform L2_TORTURE, I used "GenericCalibration" instead....</pre>
+<!-- Comment: Sat Dec 25 21;50;18 comment by...Saverio -->
+<pre>During L2_TORTUE an "L2 timeout Decision" occurs. HRR solved. Few minutes after this happened,  a "Sync error in Le pipeline...." occurs also: reboot_alpha procedure fix it.</pre>
+<!-- Date: Sat Dec 25 20:54:13.292 2004 -->
+<pre>D0 is making a controlled access to remove the pots.</pre>
+<!-- Author: mako -->
+
+<!-- Date: Sat Dec 25 20:56:21.778 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191574">191574</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 20:56:31.945 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191574">191574</A>
+TERMINATE: RunSet: ACE_QIE end 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 20:57:41.684 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191575">191575</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 20:58:31.081 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191575">191575</A>
+TERMINATE: RunSet: CALIB_CLC_QIE end
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 20:59:20.593 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191576">191576</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:00:30.108 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191576">191576</A>
+TERMINATE: RunSet: CALIB_QIE_FWD end
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:01:22.054 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191577">191577</A>
+ACTIVATE: RunSet: CALIB_RP_SMQIE 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:03:18.718 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191577">191577</A>
+TERMINATE: RunSet: CALIB_RP_SMQIE end
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:06:23.764 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191578">191578</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:06:24.836 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191578">191578</A>
+TERMINATE: RunSet: SMQIECALIB end
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:07:39.104 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191579">191579</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:09:16.351 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191579">191579</A>
+TERMINATE: RunSet: ACE_LED_ALL end
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:22:00.851 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191580">191580</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL  Trigger: COSMICS [14,503,442] 
+<!-- Author: Saverio -->
+
+
+
+<!-- Date: Sat Dec 25 21:29:02.131 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191580">191580</A>
+TERMINATE: RunSet: BOTHPLUGS_NORMAL  Trigger: COSMICS [14,503,442] done
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:30:27.267 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191581">191581</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C  Trigger: COSMICS [14,503,442] 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:32:56.818 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191581">191581</A>
+TERMINATE: RunSet: BOTHPLUGS_MM_C  Trigger: COSMICS [14,503,442] end
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:36:13.508 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191582">191582</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM  Trigger: COSMICS [14,503,442] 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:36:15.417 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191582">191582</A>
+TERMINATE: RunSet: BOTHPLUGS_MM  Trigger: COSMICS [14,503,442] end 
+<!-- Author: Saverio -->
+
+
+
+<!-- Date: Sat Dec 25 21:36:31.738 2004 -->
+<pre>Results of QIE calibration by DBANA (run 191574) 
+Run, Wedge, Channel, Cap, Detector, Mean(ref), Mean, RMS(ref), Sigma 
+191574   7 W   0  0  PHA  225#pm 8  182  0&lt;rms&lt;5   1.76 
+191574   7 W   0  1  PHA  214#pm 8  181  0&lt;rms&lt;5   1.81 
+191574   7 W   0  2  PHA  170#pm 8  183  0&lt;rms&lt;5   1.86 
+191574   7 W   0  3  PHA  214#pm 8  187  0&lt;rms&lt;5   1.97 
+191574  17 W   0  0  WHA  178#pm 8  169  0&lt;rms&lt;5   5.47 
+191574  17 W   0  1  WHA  176#pm 8  171  0&lt;rms&lt;5   8.47 
+191574  17 W   0  2  WHA  173#pm 8  172  0&lt;rms&lt;5  16.31 
+191574   5 W  19  0  CEM  171#pm 8  175  0&lt;rms&lt;5   5.06 
+191574   5 W  19  1  CEM  171#pm 8  169  0&lt;rms&lt;5   5.38 
+191574   5 W  19  2  CEM  172#pm 8  172  0&lt;rms&lt;5   5.34 
+191574   5 W  19  3  CEM  180#pm 8  177  0&lt;rms&lt;5   5.17 
+191574  11 E  15  0  CEM  160#pm 8  163  0&lt;rms&lt;5   5.74 
+191574  11 E  15  1  CEM  185#pm 8  184  0&lt;rms&lt;5   5.24 
+191574  11 E  15  2  CEM  172#pm 8  170  0&lt;rms&lt;5   5.64 
+191574  11 E  15  3  CEM  195#pm 8  196  0&lt;rms&lt;5   5.41 
+ 
+4224 entries    23 bad channels 
+</pre>
+<!-- Author: Tetsuo :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191574' target=_top>191574</a>) -->
+
+
+<!-- Date: Sat Dec 25 21:51:25.860 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191583">191583</A>
+ Activated at 2004.12.25 21:50:52
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Dec 25 21:51:26.361 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191583">191583</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [5,469,442] 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 21:52:27.255 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191583">191583</A>
+ Terminated at 2004.12.25 21:52:12
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Dec 25 21:52:28.137 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191583">191583</A>
+TERMINATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [5,469,442] end
+<!-- Author: Saverio -->
+<!-- Comment: Sat Dec 25 21;59;13 comment by...Saverio -->
+<pre>L1 rate was 431 Hz</pre>
+
+<!-- Comment: Sat Dec 25 22;19;52 comment by...Hao -->
+<pre>And this run was performed under quiet time.</pre>
+<!-- Date: Sat Dec 25 22:01:18.463 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191584">191584</A>
+ Activated at 2004.12.25 22:01:01
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Dec 25 22:01:19.000 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191584">191584</A>
+ACTIVATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,467,487] 
+<!-- Author: Saverio -->
+
+
+
+<!-- Date: Sat Dec 25 22:29:34.284 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191584">191584</A>
+ Terminated at 2004.12.25 22:29:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Dec 25 22:29:35.630 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191584">191584</A>
+TERMINATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,467,487] end
+
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 22:31:09.409 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191585">191585</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 22:33:11.756 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191585">191585</A>
+TERMINATE: RunSet: CALIB_CLC_QIE re-performed as requested by Co.
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 22:39:37.534 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191586">191586</A>
+ Activated at 2004.12.25 22:39:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Dec 25 22:39:38.541 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191586">191586</A>
+ACTIVATE: RunSet: ACE_COSMIC_NOTRACKS  Trigger: COSMICS_NOTRACKS [9,467,487] 
+<!-- Author: Saverio -->
+
+
+
+<!-- Date: Sat Dec 25 23:00:16.448 2004 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Fire alarm went off!</pre></td></tr></td></table>
+<!-- Author: mako -->
+<!-- Comment: Sat Dec 25 23;38;03 comment by...mako -->
+<pre>VESDA: CDF east detector and cable carrier bridge pre-alarm.
+
+status: IN ALARM
+
+</pre>
+<!-- Comment: Sat Dec 25 23;48;19 comment by...mako -->
+<pre>Fire from the backup ISL chiller system. The
+water pump somehow stopped working and the
+heater melted things around it, generating
+lots of smoke and smell. Alarm is cleared
+and we should be able to go back to the
+normal operation now.
+
+This should not affect the chiller system in
+operation, however.</pre>
+<!-- Comment: Sun Dec 26 00;23;48 comment by...mako -->
+<pre>Are pre-alarms supposed to be audible?
+We did not hear anything until the real
+alarm from the FERMI FIRE PROTECTION.</pre>
+<!-- Date: Sat Dec 25 23:14:04.231 2004 -->
+<pre>This is a real fire alarm, since you can smell the smoke outside the control room.  
+ 
+VESDA got a level 2 and level 3 alarm on east side. 
+ 
+We'll evacuate to west side now. </pre>
+<!-- Author: Hao -->
+
+
+
+<!-- Date: Sat Dec 25 23:46:12.166 2004 -->
+Fire Alarm is going back! 
+ We still have some warnings but all come back to normal in few minutes :) 
+In the meanwhile we still taking cosmics!
+<!-- Author: Saverio -->
+
+
+<!-- Date: Sat Dec 25 23:55:25.380 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=191570>191570</A> 
+x2EC52</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_3_00 [2,560,510]</TD>                                       
+<TD ALIGN=CENTER>13:37:11</TD>                                          
+<TD ALIGN=CENTER>19:20:14</TD>                                          
+<TD ALIGN=CENTER>05:37:21</TD>                                          
+<TD ALIGN=RIGHT>    283,772,178</TD>                                    
+<TD ALIGN=RIGHT>     1,940,612</TD>                                     
+<TD ALIGN=RIGHT>     437,887</TD>                                       
+<TD ALIGN=RIGHT>  369.148</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:03</TD>                                                       
+<TD ALIGN=CENTER>05:37:21</TD>                                          
+<TD ALIGN=RIGHT>     283,772,178</TD>                                   
+<TD ALIGN=RIGHT>      1,940,612</TD>                                    
+<TD ALIGN=RIGHT>       437,887</TD>                                     
+<TD ALIGN=RIGHT>  369.148</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Dec 26 00:06:00.960 2004 -->
+<font color=red>Shift Summary: </font><pre>Kept taking data until store #3876 is dropped at 20:00. 
+  207.1 nb-1 delivered, 203.4 nb-1 acquired. 98.2%. 
+                                                                                 
+CLC west vessel refilled with isobuthane. 
+                                                                                 
+L3 subfarms 3 & 6 included into run config. Tests look 
+OK but please keep an eye on these subfarms. 
+                                                                                 
+Took all calibrations while D0 is making an access. 
+                                                                                 
+Fire from ISL backup chiller system in the Assembly 
+Hall at 23:00. Apparently missed the pre-alarm... 
+                                                                                 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   191570
+Delivered Luminosity   207.1  
+Acquired Luminosity    203.4  
+Efficiency             98.2
+   
+</td></tr></table></pre>
+<!-- Author: mako -->
+
+

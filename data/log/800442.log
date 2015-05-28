@@ -1,0 +1,484 @@
+! Started logfile: 1004+141_X.log on Wed May  9 10:56:47 2001
+observe 1004+141_X.edt
+! Reading UV FITS file: 1004+141_X.edt
+! AN table 1: 38 integrations on 28 of 28 possible baselines.
+! AN table 2: 78 integrations on 55 of 55 possible baselines.
+! Apparent sampling: 0.438551 visibilities/baseline/integration-bin.
+! *** This seems a bit low - see "help observe" on the binwid argument.
+! Found source: 1004+141
+! 
+! There are 4 IFs, and a total of 4 channels:
+! 
+!  IF  Channel    Frequency  Freq offset  Number of   Overall IF
+!       origin    at origin  per channel   channels    bandwidth
+!  ------------------------------------------------------------- (Hz)
+!  01        1  8.40997e+09        8e+06          1        8e+06
+!  02        2  8.47997e+09        8e+06          1        8e+06
+!  03        3  8.79497e+09        8e+06          1        8e+06
+!  04        4  8.89997e+09        8e+06          1        8e+06
+! 
+! Polarization(s): RR
+! 
+! Read 1403 lines of history.
+! 
+! Reading 9392 visibilities.
+print "***********************************"
+! *********************************** 
+print "*** Using gonzo instruction set ***"
+! *** Using gonzo instruction set *** 
+print "***********************************"
+! *********************************** 
+select
+! Selecting polarization: RR,  channels: 1..4
+! Reading IF 1 channels: 1..1
+! Reading IF 2 channels: 2..2
+! Reading IF 3 channels: 3..3
+! Reading IF 4 channels: 4..4
+float field_size
+field_size = 1024
+float field_cell
+field_cell = 0.1
+integer clean_niter
+clean_niter = 50
+float clean_gain
+clean_gain = 0.03
+float dynam
+dynam = 7.0
+float win_mult
+win_mult = 1.8
+float solint
+solint = 4.0/6.0
+logical doflt
+doflt = true
+logical doamp
+float new_peak
+float flux_cutoff
+mapsize field_size,field_cell
+! Map grid = 1024x1024 pixels with 0.100x0.100 milli-arcsec cellsize.
+startmod
+! Applying default point source starting model.
+! Performing phase self-cal
+! Adding 1 model components to the UV plane model.
+! The established model now contains 1 components and 1 Jy
+! 
+! Correcting IF 1.
+!  A total of 44 telescope corrections were flagged in sub-array 1.
+!  A total of 436 telescope corrections were flagged in sub-array 2.
+! 
+! Correcting IF 2.
+!  A total of 44 telescope corrections were flagged in sub-array 1.
+!  A total of 436 telescope corrections were flagged in sub-array 2.
+! 
+! Correcting IF 3.
+!  A total of 44 telescope corrections were flagged in sub-array 1.
+!  A total of 436 telescope corrections were flagged in sub-array 2.
+! 
+! Correcting IF 4.
+!  A total of 44 telescope corrections were flagged in sub-array 1.
+!  A total of 436 telescope corrections were flagged in sub-array 2.
+! 
+! Fit before self-cal, rms=0.653852Jy  sigma=3.830460
+! Fit after  self-cal, rms=0.653025Jy  sigma=3.825574
+! clrmod: Cleared the established, tentative and continuum models.
+! Redundant starting model cleared.
+uvweight 2,-1
+! Uniform weighting binwidth: 2 (pixels).
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=0.5551 mas, bmaj=2.008 mas, bpa=-18.01 degrees
+! Estimated noise=2.32031 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (0, 0).
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.246365 Jy
+! Total flux subtracted in 50 components = 0.246365 Jy
+! Clean residual min=-0.032116 max=0.087661 Jy/beam
+! Clean residual mean=-0.000531 rms=0.009026 Jy/beam
+! Combined flux in latest and established models = 0.246365 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 6 model components to the UV plane model.
+! The established model now contains 6 components and 0.246365 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.195459Jy  sigma=1.142259
+! Fit after  self-cal, rms=0.195335Jy  sigma=1.141533
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0941377 Jy
+! Total flux subtracted in 50 components = 0.0941377 Jy
+! Clean residual min=-0.021575 max=0.044811 Jy/beam
+! Clean residual mean=-0.000316 rms=0.005781 Jy/beam
+! Combined flux in latest and established models = 0.340503 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 11 model components to the UV plane model.
+! The established model now contains 14 components and 0.340503 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.139556Jy  sigma=0.814547
+! Fit after  self-cal, rms=0.139255Jy  sigma=0.812747
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0529337 Jy
+! Total flux subtracted in 50 components = 0.0529337 Jy
+! Clean residual min=-0.016464 max=0.026796 Jy/beam
+! Clean residual mean=-0.000198 rms=0.004171 Jy/beam
+! Combined flux in latest and established models = 0.393436 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 10 model components to the UV plane model.
+! The established model now contains 19 components and 0.393436 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.116232Jy  sigma=0.677499
+! Fit after  self-cal, rms=0.116065Jy  sigma=0.676495
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0316193 Jy
+! Total flux subtracted in 50 components = 0.0316193 Jy
+! Clean residual min=-0.013419 max=0.020024 Jy/beam
+! Clean residual mean=-0.000127 rms=0.003395 Jy/beam
+! Combined flux in latest and established models = 0.425055 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 8 model components to the UV plane model.
+! The established model now contains 22 components and 0.425056 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.106415Jy  sigma=0.619728
+! Fit after  self-cal, rms=0.106331Jy  sigma=0.619209
+! Inverting map 
+print "****************************************"
+! **************************************** 
+print "*** Finished Uniform Weighting CLEAN ***"
+! *** Finished Uniform Weighting CLEAN *** 
+print "****************************************"
+! **************************************** 
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+win_mult = win_mult * 1.6
+clean_niter = clean_niter * 2
+dynam = dynam - 0.5
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=0.7261 mas, bmaj=2.369 mas, bpa=-17.52 degrees
+! Estimated noise=1.27944 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0272859 Jy
+! Component: 100  -  total flux cleaned = 0.0415489 Jy
+! Total flux subtracted in 100 components = 0.0415489 Jy
+! Clean residual min=-0.009920 max=0.024951 Jy/beam
+! Clean residual mean=-0.000136 rms=0.003662 Jy/beam
+! Combined flux in latest and established models = 0.466604 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 14 model components to the UV plane model.
+! The established model now contains 29 components and 0.466604 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.099989Jy  sigma=0.581719
+! Fit after  self-cal, rms=0.099914Jy  sigma=0.581277
+! Inverting map 
+! Added new window around map position (8.3, -7.2).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.022818 Jy
+! Component: 100  -  total flux cleaned = 0.0346599 Jy
+! Total flux subtracted in 100 components = 0.0346599 Jy
+! Clean residual min=-0.007727 max=0.018054 Jy/beam
+! Clean residual mean=-0.000097 rms=0.002584 Jy/beam
+! Combined flux in latest and established models = 0.501264 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 22 model components to the UV plane model.
+! The established model now contains 50 components and 0.501264 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.095173Jy  sigma=0.553231
+! Fit after  self-cal, rms=0.094725Jy  sigma=0.550580
+! Inverting map 
+! Added new window around map position (1.3, -0.8).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0165335 Jy
+! Component: 100  -  total flux cleaned = 0.0265275 Jy
+! Total flux subtracted in 100 components = 0.0265275 Jy
+! Clean residual min=-0.005930 max=0.006129 Jy/beam
+! Clean residual mean=-0.000025 rms=0.001819 Jy/beam
+! Combined flux in latest and established models = 0.527792 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 23 model components to the UV plane model.
+! The established model now contains 73 components and 0.527792 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.091991Jy  sigma=0.534325
+! Fit after  self-cal, rms=0.091854Jy  sigma=0.533540
+! Inverting map 
+print "****************************************"
+! **************************************** 
+print "*** Finished Natural Weighting CLEAN ***"
+! *** Finished Natural Weighting CLEAN *** 
+print "****************************************"
+! **************************************** 
+gscale true
+! Performing overall amplitude self-cal
+! 
+! Correcting IF 1.
+!  Telescope amplitude corrections in sub-array 1:
+!   BR        1.02     FD        1.07     KP        1.00     LA        0.98     
+!   NL        1.00     OV        0.99     PT        0.98     MK        0.98     
+! 
+!  A total of 108 telescope corrections were flagged in sub-array 2.
+!  Telescope amplitude corrections in sub-array 2:
+!   BR        0.96     FD        1.00     HN        0.97     KP        0.96     
+!   LA        1.01     NL        1.00     OV        1.00     MC        1.04     
+!   MK        1.04     NY        0.98     GN        0.92     
+! 
+! 
+! Correcting IF 2.
+!  Telescope amplitude corrections in sub-array 1:
+!   BR        1.02     FD        1.04     KP        1.00     LA        1.00     
+!   NL        0.99     OV        0.98     PT        0.97     MK        0.97     
+! 
+!  A total of 108 telescope corrections were flagged in sub-array 2.
+!  Telescope amplitude corrections in sub-array 2:
+!   BR        0.96     FD        1.01     HN        0.96     KP        0.98     
+!   LA        0.98     NL        0.98     OV        1.00     MC        1.08     
+!   MK        1.03     NY        1.06     GN        0.93     
+! 
+! 
+! Correcting IF 3.
+!  Telescope amplitude corrections in sub-array 1:
+!   BR        1.00     FD        1.08     KP        1.02     LA        0.97     
+!   NL        1.02     OV        0.99     PT        0.95     MK        1.01     
+! 
+!  A total of 108 telescope corrections were flagged in sub-array 2.
+!  Telescope amplitude corrections in sub-array 2:
+!   BR        1.00     FD        1.00     HN        0.98     KP        0.94     
+!   LA        0.99     NL        1.00     OV        1.00     MC        1.03     
+!   MK        1.07     NY        0.98     GN        0.98     
+! 
+! 
+! Correcting IF 4.
+!  Telescope amplitude corrections in sub-array 1:
+!   BR        1.02     FD        1.03     KP        1.01     LA        0.98     
+!   NL        1.00     OV        0.98     PT        0.96     MK        0.97     
+! 
+!  A total of 108 telescope corrections were flagged in sub-array 2.
+!  Telescope amplitude corrections in sub-array 2:
+!   BR        0.99     FD        0.98     HN        1.01     KP        0.97     
+!   LA        0.99     NL        0.97     OV        1.00     MC        1.00     
+!   MK        1.03     NY        0.98     GN        0.97     
+! 
+! 
+! Fit before self-cal, rms=0.091854Jy  sigma=0.533540
+! Fit after  self-cal, rms=0.090582Jy  sigma=0.529923
+dynam = dynam - 0.5
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=0.7218 mas, bmaj=2.329 mas, bpa=-17.99 degrees
+! Estimated noise=1.30172 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00523718 Jy
+! Component: 100  -  total flux cleaned = 0.0079466 Jy
+! Total flux subtracted in 100 components = 0.0079466 Jy
+! Clean residual min=-0.005651 max=0.005049 Jy/beam
+! Clean residual mean=0.000030 rms=0.001264 Jy/beam
+! Combined flux in latest and established models = 0.535738 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 23 model components to the UV plane model.
+! The established model now contains 93 components and 0.535738 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.090134Jy  sigma=0.527283
+! Fit after  self-cal, rms=0.090114Jy  sigma=0.527175
+! Inverting map 
+dynam = dynam - 1.0
+doamp = true
+solint = solint * 1.5
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00156917 Jy
+! Component: 100  -  total flux cleaned = 0.00248005 Jy
+! Total flux subtracted in 100 components = 0.00248005 Jy
+! Clean residual min=-0.005471 max=0.004671 Jy/beam
+! Clean residual mean=0.000027 rms=0.001180 Jy/beam
+! Combined flux in latest and established models = 0.538219 Jy
+! Performing amp+phase self-cal over 1 minute time intervals
+! Adding 23 model components to the UV plane model.
+! The established model now contains 105 components and 0.538218 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.089868Jy  sigma=0.525741
+! Fit after  self-cal, rms=0.089174Jy  sigma=0.522142
+! Inverting map and beam 
+! Estimated beam: bmin=0.7228 mas, bmaj=2.329 mas, bpa=-17.94 degrees
+! Estimated noise=1.29951 mJy/beam.
+doamp = false
+solint = solint / 1.5
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00224802 Jy
+! Component: 100  -  total flux cleaned = 0.00359432 Jy
+! Total flux subtracted in 100 components = 0.00359432 Jy
+! Clean residual min=-0.004800 max=0.004206 Jy/beam
+! Clean residual mean=0.000022 rms=0.001088 Jy/beam
+! Combined flux in latest and established models = 0.541813 Jy
+! Performing phase self-cal over 0.666667 minute time intervals
+! Adding 25 model components to the UV plane model.
+! The established model now contains 117 components and 0.541813 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.088966Jy  sigma=0.520930
+! Fit after  self-cal, rms=0.088951Jy  sigma=0.520861
+! Inverting map 
+print "***********************************"
+! *********************************** 
+print "*** Finished Amplitude Self-Cal ***"
+! *** Finished Amplitude Self-Cal *** 
+print "***********************************"
+! *********************************** 
+save 1004+141_X
+! Writing UV FITS file: 1004+141_X.uvf
+! Writing 117 model components to file: 1004+141_X.mod
+! wwins: Wrote 3 windows to 1004+141_X.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.7228 x 2.329 at -17.94 degrees (North through East)
+! Clean map  min=-0.0040046  max=0.32119 Jy/beam
+! Writing clean map to FITS file: 1004+141_X.fits
+! Writing difmap environment to: 1004+141_X.par
+print "****************************"
+! **************************** 
+print "*** Now, make some plots ***"
+! *** Now, make some plots *** 
+print "****************************"
+! **************************** 
+device 1004+141_Xuv.ps/vps,1,2
+! Attempting to open device: '1004+141_Xuv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+device 1004+141_Xim.ps/vps
+! Attempting to open device: '1004+141_Xim.ps/vps'
+cmul = 1.0
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+loglevs (imstat(rms)*3),20000,2
+! Inverting map and beam 
+! Estimated beam: bmin=0.7228 mas, bmaj=2.329 mas, bpa=-17.94 degrees
+! Estimated noise=1.29951 mJy/beam.
+! The new contour levels are:
+!  -0.00328245 0.00328245 0.0065649 0.0131298 0.0262596 0.0525192 0.105038 0.210077 0.420153 0.840307 1.68061 3.36123 6.72245 13.4449 26.8898 53.7796 107.559 215.118 430.237 860.474 1720.95 3441.9 6883.79 13767.6
+mappl cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.7228 x 2.329 at -17.94 degrees (North through East)
+! Clean map  min=-0.0040046  max=0.32119 Jy/beam
+quit
+! Quitting program
+! Log file 1004+141_X.log closed on Wed May  9 10:57:14 2001

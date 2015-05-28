@@ -1,0 +1,464 @@
+<!-- Title: Owl shift. Wed Mar 26, 2008 -->
+<!-- SciCo: Takuo Yoshida -->
+<!-- DAQAce: Hyunsu Lee -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Hideki Miyake -->
+<!-- OpManager: Massimo Casarsa -->
+<!-- Notes: -->
+<pre>We inherit Store 6005 and Run 259958. MCR is planning to terminate this store at 5:00, then doing some Tevatron studies for 2 hours, and the next shot setup will follow.</pre>
+
+
+<!-- Date: Wed Mar 26 00:04:44.150 2008 -->
+B0Lum is 75.2E30 at this moment.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958' target=_top>259958</a>) -->
+
+
+<!-- Date: Wed Mar 26 00:17:54.341 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1635&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1636  width='300' align='top'></a></td><td>Pinkie. Unmarked.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+<!-- Comment: Wed Mar 26 00;21;57 comment by...Takuo Yoshida -->
+Agian. By the way, this cell is ISL VBIAS B2W0L2.
+
+
+<!-- Comment: Wed Mar 26 00;23;04 comment by...Takuo Yoshida -->
+Again.
+<!-- Comment: Wed Mar 26 00;34;49 comment by...Takuo Yoshida -->
+Again. Unmarked.
+<!-- Date: Wed Mar 26 00:22:03.548 2008 -->
+b0pcal02 was unresponsible so shepherded. 
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958' target=_top>259958</a>) -->
+
+
+
+
+<!-- Date: Wed Mar 26 00:38:30.540 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1637&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1638  width='300' align='top'></a></td><td>Pinkie on ISL VBIAS B2W0L2 over and over again. The current jump is less than 10 uA, we ignore it.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+<!-- Comment: Wed Mar 26 00;44;14 comment by...Takuo Yoshida -->
+Again. Unmarked.
+
+
+<!-- Comment: Wed Mar 26 01;14;03 comment by...Takuo Yoshida -->
+Pinkie every 5 minutes or so. The current jump is always less than 10 uA. We just keep unmarking them.
+<!-- Date: Wed Mar 26 00:53:36.876 2008 -->
+L2 decision Timeout. Auto HRR issued.
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958' target=_top>259958</a>) -->
+<!-- Comment: Wed Mar 26 01;13;00 comment by...Hyunsu -->
+Again
+
+
+<!-- Comment: Wed Mar 26 01;19;35 comment by...Hyunsu -->
+Again
+
+
+<!-- Comment: Wed Mar 26 02;13;25 comment by...Hyunsu -->
+Again
+<!-- Comment: Wed Mar 26 02;33;37 comment by...Hyunsu -->
+Again
+<!-- Comment: Wed Mar 26 02;34;37 comment by...Hyunsu -->
+Again
+<!-- Comment: Wed Mar 26 03;02;19 comment by...Hyunsu -->
+Again
+<!-- Comment: Wed Mar 26 03;37;30 comment by...Hyunsu -->
+Again
+<!-- Comment: Wed Mar 26 03;54;14 comment by...Hyunsu -->
+Again
+<!-- Comment: Wed Mar 26 04;37;04 comment by...Hyunsu -->
+Again
+<!-- Date: Wed Mar 26 01:44:29.771 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1639&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1640  width='300' align='top'></a></td><td>Eventually, I decided to set this cell to "ignore" as suggested by the Silicon Pinkie Flowchart.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+
+
+
+
+
+
+<!-- Date: Wed Mar 26 03:15:40.571 2008 -->
+  RXPT Error for crate/s:  
+    b0svx02. SRC Fatality Error for b0svx02: Sl 6 Resonance Detected. Manual HRR issued. Right after L2 decision TO. Auto HRR issued.
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958' target=_top>259958</a>) -->
+
+
+
+
+<!-- Date: Wed Mar 26 04:02:42.183 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1641&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1642  width='300' align='top'></a></td><td>The current history of ISL VBIAS B2W0L2 for these couple of hours.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+<!-- Comment: Wed Mar 26 04;04;23 comment by...Takuo Yoshida -->
+No big jump is seen.
+
+
+
+<!-- Date: Wed Mar 26 04:44:34.287 2008 -->
+MCR called. The store will be terminated at 5:00.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958' target=_top>259958</a>) -->
+
+<!-- Date: Wed Mar 26 04:53:13.945 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958>259958</A>
+ Terminated at 2008.03.26 04:52:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Mar 26 04:53:14.135 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958>259958</A>
+TERMINATE: End of store
+<!-- Author: Elisa -->
+
+
+
+<!-- Date: Wed Mar 26 05:05:07.340 2008 -->
+We called MCR to tell that we are ready to terminate the store.
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Wed Mar 26 05:14:16.731 2008 -->
+The Store 6005 has been terminated. Now, the Tevatron study will start.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259959' target=_top>259959</a>) -->
+<!-- Comment: Wed Mar 26 05;32;05 comment by...Takuo Yoshida -->
+P1 line optics matching to the TeV study has begun. (from MCR e-log) The Tev study will last about 2 hours.
+<!-- Date: Wed Mar 26 05:17:57.984 2008 -->
+At the end of store, making standby for silicon take abnormally long time. When I looked at ps-gui it said SVX Error:7. Simultaneously we had heart beat alarm from silicon. So, we paged to silicon. Before silicon expert call back, Silicon HV went to standby. 
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259959' target=_top>259959</a>) -->
+<!-- Comment: Wed Mar 26 05;19;46 comment by...Hyunsu -->
+We had spontaneous switched off for ps-1. I recovered. And, we had a lot of pinkies for AVDD(around 15). We paged silicon again.
+
+<!-- Comment: Wed Mar 26 05;21;54 comment by...Hyunsu -->
+In the ps-gui, SVX B0 W7 shows its status is on. Ricardo suggest to make off for this wedge. So, I make it. 
+
+
+<!-- Comment: Wed Mar 26 06;27;45 comment by...Hyunsu -->
+It was SVX B1 W7 actually.
+<!-- Comment: Wed Mar 26 07;51;44 comment by...Ricardo -->
+That was probably Oscar, not Ricardo.
+<!-- Date: Wed Mar 26 05:26:48.724 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1645&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1646  width='300' align='top'></a></td><td>Many pinkies at the end of store.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Wed Mar 26 05:27:54.815 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1647&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1648  width='300' align='top'></a></td><td>Anther example.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+<!-- Comment: Wed Mar 26 05;29;22 comment by...Takuo Yoshdia -->
+Sorry. This is the same one as above.
+<!-- Date: Wed Mar 26 05:28:54.267 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-1649&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-1650  width='300' align='top'></a></td><td>Another.</td></tr></table>
+<!-- Author: Takuo YOshida -->
+<!-- Comment: Wed Mar 26 06;10;46 comment by...Takuo Yoshida -->
+Pinkies on SVX AVDD B0W1L2, B0W10L0, B0W10L1, B0W10L2, B0W10L3, B0W11L3, B1W1L0, B1W1L2, B1W10L0, B1W10L2, B1W10L3, B1W11L1, B1W11L2, B1W11L3, B1W11L4, B2W11L1, B2W11L2. All the current histories were saved, and I just show a few example above. They are all unmarked successfully.
+<!-- Comment: Wed Mar 26 06;31;04 comment by...Takuo Yoshida -->
+We paged Silicon expert. He says it's probably O.K.. Anyway, he is coming to take a look at.
+<!-- Date: Wed Mar 26 05:32:05.439 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259960>259960</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Elisa -->
+
+
+
+
+<!-- Date: Wed Mar 26 05:32:25.171 2008 -->
+In the setup transition for CAL QIE calibration, pcal07 was unresponsible. But, still I cannot save tracer file. Shepherded. 
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259960' target=_top>259960</a>) -->
+
+<!-- Date: Wed Mar 26 05:34:29.948 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259960>259960</A>
+TERMINATE: done
+<!-- Author: Elisa -->
+
+
+<!-- Date: Wed Mar 26 05:34:30.268 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259960>259960</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 05;44;44 comment by...Hideki -->
+OK
+<!-- Date: Wed Mar 26 05:38:47.095 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259961>259961</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Elisa -->
+
+
+<!-- Date: Wed Mar 26 05:39:11.597 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259961>259961</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 05;45;09 comment by...HIdeki -->
+OK
+<!-- Date: Wed Mar 26 05:39:12.598 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259961>259961</A>
+TERMINATE: done
+<!-- Author: Elisa -->
+
+
+<!-- Date: Wed Mar 26 05:41:09.564 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259962>259962</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:44:32.971 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259962>259962</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+
+
+<!-- Date: Wed Mar 26 05:45:45.684 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259963>259963</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:46:12.285 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259963>259963</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:46:13.318 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259963>259963</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 05;50;56 comment by...Hideki -->
+OK
+<!-- Date: Wed Mar 26 05:46:15.638 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259962>259962</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 05;53;31 comment by...Hideki -->
+OK
+<!-- Date: Wed Mar 26 05:49:19.248 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259964>259964</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:50:47.464 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259964>259964</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:50:48.524 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259964>259964</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 05;54;42 comment by...Hideki -->
+OK
+<!-- Date: Wed Mar 26 05:53:05.003 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259965>259965</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Hyunsu -->
+
+
+
+<!-- Date: Wed Mar 26 05:54:11.697 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259965>259965</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 06;00;11 comment by...Hideki -->
+OK
+<!-- Date: Wed Mar 26 05:55:35.643 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259965>259965</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:56:47.544 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259966>259966</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 05:57:44.919 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259966>259966</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+
+<!-- Date: Wed Mar 26 06:01:52.802 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259967>259967</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 06:07:27.738 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259967>259967</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 06:07:36.330 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259967>259967</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Wed Mar 26 06;10;58 comment by...Hideki -->
+OK
+<!-- Date: Wed Mar 26 06:10:07.967 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259968>259968</A>
+ Activated at 2008.03.26 06:09:50
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Mar 26 06:10:08.310 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259968>259968</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,1023,706] 
+<!-- Author: Hyunsu -->
+<!-- Comment: Wed Mar 26 06;24;46 comment by...Hyunsu -->
+L1A rate=41.3Hz (We had proton at the start but it was terminated during run)
+<!-- Date: Wed Mar 26 06:22:13.441 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259968>259968</A>
+ Terminated at 2008.03.26 06:21:41
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Mar 26 06:24:09.555 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259968>259968</A>
+TERMINATE: done
+<!-- Author: Hyunsu -->
+
+
+
+<!-- Date: Wed Mar 26 06:27:09.165 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259969>259969</A>
+ Activated at 2008.03.26 06:27:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Mar 26 06:27:10.987 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259969>259969</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1019,706] 
+<!-- Author: Hyunsu -->
+
+
+
+
+
+<!-- Date: Wed Mar 26 06:31:45.502 2008 -->
+In the HV summary, COT went to yellow. I don't look at any strange thing in the COT HV. It was same situation with two days ago around similar time. I just keep it on eye. 
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259969' target=_top>259969</a>) -->
+<!-- Comment: Wed Mar 26 07;36;57 comment by...Bob Wagner (FNAL) -->
+One of the COT endplate temperature monitors, ID LNE, has drifted low and sometimes goes into IFIX alarm.  We will soon decrease the lower alarm limit from 61F to 60F and this should eliminate the problem.
+<!-- Date: Wed Mar 26 06:47:47.271 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259969>259969</A>
+ Terminated at 2008.03.26 06:47:31
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Mar 26 06:51:49.417 2008 -->
+I rebooted all of b0pcal crates. During partition b0pcal10 was unresponsible so shepherded. 
+<!-- Author: Hyunsu :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259970' target=_top>259970</a>) -->
+
+<!-- Date: Wed Mar 26 06:52:24.733 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259970>259970</A>
+ Activated at 2008.03.26 06:52:11
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Mar 26 06:52:25.752 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259970>259970</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1019,706] 
+<!-- Author: Hyunsu -->
+
+
+<!-- Date: Wed Mar 26 07:06:06.506 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259958>259958</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+IMU  BMU SW troid, wedge#120 is off.
+</PRE>
+<!-- Author: cdfscico -->
+
+
+
+<!-- Date: Wed Mar 26 07:30:24.539 2008 -->
+<TABLE bgcolor=#cdc9a5> 
+<TR><TH>Date</th><th>Time</th><th>BLM</th><th colspan=2>Dose</th></tr> 
+<tr><td>2008.03.26</td><td>07:28:24</td><td>W Inner BLM</td><td>0.367</td><td>RADS</td></tr> 
+<tr><td>2008.03.26</td><td>07:28:24</td><td>W Outer BLM</td><td>0.000</td><td>RADS</td></tr> 
+<tr><td>2008.03.26</td><td>07:28:24</td><td>E Inner BLM</td><td>0.356</td><td>RADS</td></tr> 
+<tr><td>2008.03.26</td><td>07:28:24</td><td>E Outer BLM</td><td>0.469</td><td>RADS</td></tr> 
+</TABLE> 
+<strong>Integrated dosage</strong>
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259970' target=_top>259970</a>) -->
+
+
+
+<!-- Date: Wed Mar 26 07:43:48.438 2008 -->
+The shot setup has begun. Next store is 6007.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=259970' target=_top>259970</a>) -->
+
+
+<!-- Date: Wed Mar 26 07:47:28.706 2008 -->
+<font color=red>Shift Summary: </font><pre>We inherited Store 6005. The B0Lum was 75.2E30 at 
+the beginning of the shift. 
+ 
+We had pinkies many times on ISL VBIAS B2W0L2. 
+But the current jump was always less than 10 uA. 
+So, this cell was set to "ignore", as instructed 
+in the flowchart. 
+ 
+The store 6005 was terminated at 5:08. 
+Then, Tevatron study began. Meanwhile, we did non-quiet 
+time calibrations, and ran with cosmics. 
+ 
+At the end of Store, we had pinkies on 17 cells in 
+SVX AVDD. They were all unmarked successfully. 
+ 
+The shot setup began at 7:45.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   259958
+Delivered Luminosity   1180.9 nb-1  
+Acquired Luminosity    1112.7 nb-1  
+Efficiency             94.2
+   
+</td></tr></table></pre>
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Wed Mar 26 07:55:25.832 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=259958 target=_runSummary>259958</A> x3F776</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [5,1037,719]</FONT></TD>
+<TD ALIGN=CENTER>17:39:25</TD>
+<TD ALIGN=CENTER>04:52:32</TD>
+<TD ALIGN=CENTER>10:20:44</TD>
+<TD ALIGN=RIGHT>   3,947,633</TD>   <TD ALIGN=RIGHT>  3,244.99</TD>
+<TD ALIGN=RIGHT>  2,977.36</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>10:20:44</TD>
+<TD ALIGN=RIGHT>     3,947,633</TD> <TD ALIGN=RIGHT>  3,244.99</TD>
+<TD ALIGN=RIGHT>  2,977.36</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+

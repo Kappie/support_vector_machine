@@ -1,0 +1,475 @@
+1999JM8.202.log
+
+H = 15 ==> diameter = 3.1 km; assume period = 12 days (!), equatorial view, radar albedo
+= 0.1.  Assume optimal parameters for Goldstone and Tsys = 31 K, sensitivity = 7.3 K/Jy
+for Arecibo.  Tracks in bold are those scheduled for observations, where the times
+shown and SNR/date correspond to the actual tracks.
+
+                           ------------GOLDSTONE----------  -------------ARECIBO-----------
+                                            Max                              Max
+                                    Dat     Run    UTC               Dat     Run    UTC
+    Date   RA  Decl Delta  Runs     SNR     SNR   Window    Runs     SNR     SNR   Window
+1999  7 18 190  58  0.105   190    1400     100 19:55-07:15    0       0       0      -
+1999  7 20 183  61  0.094    23     720     160 02:30-03:40    0       0       0      -
+1999  7 21 178  62  0.088    22     860     180 17:40-18:45    0       0       0      -
+1999  7 23 164  65  0.078    27    1600     290 00:30-01:40    0       0       0      -
+1999  7 24 154  65  0.073    82    3300     350 16:55-20:15    0       0       0      -
+1999  7 27 119  62  0.062    41    4100     640 01:30-02:55    0       0       0      -
+1999  7 28 108  59  0.059    56    5500     730 17:10-19:00    0       0       0      -
+1999  7 31  86  43  0.057    92    8100     850 17:00-19:55    0       0       0      -
+1999  8  1  80  37  0.058   132    9400     810 11:45-16:00   53   47000    6400 12:17-14:00
+1999  8  2  76  32  0.060   327   12000     720 10:30-21:53   72   71000    8400 11:35-14:00
+1999  8  3  73  26  0.062   302   10000     620 10:24-21:23   82   66000    7200 11:09-13:59
+1999  8  4  71  21  0.066   277    7900     520 10:24-20:53   65   48000    6000 11:00-13:44
+1999  8  5  68  16  0.069   254    6200     420 10:24-20:30   65   41000    5000 11:00-13:29
+
+Goldstone Track Assignments
+
+                        UTC              PDT
+UTC        UTC    TRANSMIT WINDOW  TRANSMIT WINDOW
+1999      1999       START STOP               START STOP
+DOY       Date       hhmm-hhmm                hhmm-hhmm     DURATION
+
+199       Jul 18     1955-0715    Sun Jul 18  1255-0015      11:20
+201       Jul 20     0230-0340    Mon Jul 19  1930-2040       1:10
+202       Jul 21     1740-1845    Wed Jul 21  1040-1145       1:05
+204       Jul 23     0030-0140    Thu Jul 22  1730-1840       1:10
+205       Jul 24     1655-2015    Sat Jul 24  0955-1315       3:20
+208       Jul 27     0130-0255    Mon Jul 26  1830-1955       1:25
+209       Jul 28     1710-1900    Wed Jul 28  1010-1200       1:50 **
+212       Jul 31     1700-1955    Sat Jul 31  1000-1255       2:55 **
+213       Aug  1     1145-1600    Sun Aug  1  0445-0900       4:05 ** 
+
+** = Tracks that have DSS-13 support
+
+Total duration: 28:20
+
+Arecibo Track Assignments
+
+
+                        UTC              PDT              AST
+UTC        UTC    TRANSMIT WINDOW  TRANSMIT WINDOW  TRANSMIT WINDOW
+1999      1999       START STOP       START STOP       START STOP
+DOY       Date       hhmm-hhmm        hhmm-hhmm        hhmm-hhmm      Duration
+
+213       Aug 1      1217-1400        0517-0700        0817-1000        1:43
+214       Aug 2      1135-1400        0435-0700        0735-1000        2:25
+215       Aug 3      1109-1359        0409-0659        0709-0959        2:50
+216       Aug 4      1100-1344        0400-0634        0700-0944        2:44
+217       Aug 5      1100-1329        0400-0629        0700-0929        2:29
+
+During the third track (!), the strategy will be to get a
+CW detection and then move to 1 us x 0.1 Hz imaging as soon as possible.
+If the JX setup (127 code, 64 point FFT) is working then we'll use it 
+and forget about the Toutatis set up (255 code, 256 point FFT).
+
+Starting CW setup for the third track:
+
+TX polarization           RCP
+RCV polarization          LCP
+Frequencies:              4
+Dwell:                    20 seconds
+Bandwidth:                1000 Hz
+Sampling interval:        10000 x 0.1 usec
+VMT FFT for PSD files:    4096 for 0.244-Hz resolution
+
+
+Possible ranging setups:
+---------------------------------------------------------------------------
+127 x 64 10-usec single sample
+
+baud            10 usec
+code            127
+gates           127
+FFT             64
+CLT             11
+ncoh            2
+bandwidth       394 Hz   
+resolution      6.15 Hz
+TXOFF           TBD
+incoh sums      64 => 10.4 sec/record
+---------------------------------------------------------------------------
+127 x 64 11-usec single sample.
+
+baud            11 usec
+code            127
+gates           127
+PRP             1397
+FFT             64
+CLT             11
+ncoh            2
+bandwidth       357.9 Hz   
+resolution      5.59 Hz
+TXOFF           TBD
+-------------------------------------------------------------------------
+0.125-usec ranging
+
+setup           JX1XS001  
+baud            0.125 usec
+code            127
+gates           127
+FFT             64
+ncoh            1968
+bandwidth       32.008 Hz     
+resolution      0.5001 Hz
+TXOFF           6 Hz = 12 cells, => cell 44
+incoh sums      4 looks=> 8 sec/record => expect records per run ~ RTT/8
+CLT gate        34.8
+
+_____________________________________________________________________
+POSSIBLE RANGING SETUPS: (code=127, FFT=64, single-pol'n) 
+   These are from JX, w/ max-band (min-acc) options from Ray Jurgens.
+   Currently configured for 5-sec records.
+_______________________________________________________________________
+ Setup        Baud        RP         1-acc 1-acc      
+            usec   m      usec        band   res    acc  band     res 
+_______________________________________________________________________
+ 
+JX1XS110  11.000 1650    1397.0      715.8  11.2      2   358     5.6
+
+JX1XS070   7.000 1050     889.0     1124.9  17.6      3   375     5.9
+                                                      
+JX1XS020   2.000  300     254.0     3937.0  61.5     12   328     5.1
+                                                      4   984    15.4 
+
+JX1XS010   1.000  150     127.0     7874.0 123.0     41   192     3.0 
+                                                      8   984    15.4 
+
+JX1XS005   0.500   75      63.5    15748.0 246.1    123   128     2.0 
+                                                     15  1050    16.4 
+
+JX1XS002   0.250   37.5    31.75   31496.1 492.1    492    64     1.0
+                                                     30  1050    16.4 
+ 
+JX1XS001   0.125   18.75   15.875  62992.1 984.3   1970    32     0.5 
+                                                     60  1050    16.4 
+_______________________________________________________________________
+
+Ray Jurgens and Carl Franck have added 3 new configurations that
+provide range over-sampling.  The original long baud configurations
+are set up as follows:
+
+Config.    baud   over  range   FFT     coh     BW      Res
+           micro  samp  gates   freqs   sums    Hz      Hz
+           sec
+
+JX1XS0700   7.0     1   127     64      3       375     5.86
+JX1XS1000  10.0     1   127     64      2       394     6.15
+JX1XS1100  11.0     1   127     64      2       358     5.59
+
+We added the following to the JX set:
+
+JX1XS0350   7.0     2   254     64      3       375     5.86
+JX1XS0500  10.0     2   254     64      2       394     6.15
+JX1XS0550  11.0     2   254     64      2       358     5.59
+
+These new configurations have exactly the same coverage in range
+and Doppler frequency as the previus set.  They provide 2 range samples
+per baud filling in the deep hole between gates in the original set.  The
+only disadvantages in using these are that they record more data in a 
+given amount of time for the same amount of integration, and the display
+is crowded if you try to show all gates at one time.  
+
+SNR tests using the these are essentially identical to the originals.
+
+____________________________________________________________________
+RANGING SETUPS from Toutatis 1992: (code=255, FFT=256, 1 channel)
+____________________________________________________________________
+Setup     Baud   NACC       bandwidth  resolution   1/res'n   CLT
+                               Hz         Hz          sec     gate
+____________________________________________________________________
+
+TU1XS01   0.125    123      255.06      0.9963        1.00    34
+                   890       35.25      0.1377        7.26
+                  1471       21.327     0.08331      12.00
+                  2210       14.196     0.05545      18.03
+                  2942       10.664     0.04166      24.01
+                  3309        9.4810    0.03704      27.00
+                  3700        8.4791    0.03312      30.19
+                  7400        4.2395    0.01656      60.38
+                 14800        2.1198    0.00828     120.77
+                     
+TU1XS02   0.25     123      127.5       0.498    
+TU1XS04   0.500    307       25.5       0.100      
+TU1XS08   1.000    153       25.6       0.100      
+TU1XS16   2.000      4      490.2       1.915     
+TU1XS32   4.000      2      490.2       1.915      
+TU1XS33   4.125      2      475.3       1.857      
+TU1XS80  10.000      1      392.2       1.532                 11      
+TU1XS88  11.000      1      356.5       1.393                 11 
+
+
+Instructions
+NOTE: Data should be moved to the appropriate subdirectories in
+      intruder:/d1/1999JM8/raw/
+
+1999 JM8 POINTING: 
+
+
+For these observations, we need the following files:
+
+            PRDX.OUT.s19
+           PUNCH.OUT.s19
+
+These files are created in:  intruder:/export/data2/osod/ops/1999jm8/
+
+and are copied to:           intruder:/d1/1999JM8/support/
+
+POINTING  
+
+Date (UTC)   DOY  hhmmss     RA      Dec   MACRO      TX Offsets      RTT  OSOD
+                                                     LHA      Dec     
+
+1999 07 21   202  170000 173.8079 63.3869    A                        84.1  19
+1999 07 21   202  180000 173.5323 63.4445    A     0.0065   0.0013    83.8  19
+1999 07 21   202  190000 173.2503 63.5016    A                        83.6  19
+
+===================================================================================
+
+PRDX.OUT.s19
+RECEIVER    U.T.         RANGE         DOPPLER      LHA      DEC      AZ      EL 
+
+ 1999 JUL 21 17:40     83.9054528137   528307.523 273.5317  63.4253  32.064  32.743   
+ 1999 JUL 21 17:50     83.8684295363   528086.676 276.0847  63.4349  32.377  33.854   
+ 1999 JUL 21 18:00     83.8314224298   527846.116 278.6379  63.4445  32.643  34.974   
+ 1999 JUL 21 18:10     83.7944328751   527585.973 281.1913  63.4540  32.862  36.102   
+ 1999 JUL 21 18:20     83.7574622315   527306.414 283.7449  63.4636  33.030  37.235   
+ 1999 JUL 21 18:30     83.7205118605   527007.644 286.2987  63.4731  33.146  38.372   
+ 1999 JUL 21 18:40     83.6835830967   526689.908 288.8526  63.4826  33.206  39.511   
+ 1999 JUL 21 18:50     83.6466772635   526353.484 291.4067  63.4921  33.209  40.651 
+
+================================================================================
+
+BEGIN ELECTRONIC LOG
+
+Present: Benner, Jurgens, Rose, Franck, Kelley, Jao, Dendrenos
+
+Using Solution 19
+
+1703: Ready except for the transmitter.  
+
+TX Power = 460 kW for CW
+
+ TX  polarization             RCP
+ RCV polarization             1=RCP=OC=15.06 K at zenith
+                              2=LCP=SC=16.19 K at zenith
+
+
+Ch 1 Tsys =  17.79 on point (31.75 deg el)
+Ch 2      =  18.96
+
+Starting CW setup:
+TX  polarization              RCP
+ RCV polarization             both
+ Frequencies:                 4
+ Dwell:                       20 seconds
+ Bandwidth:                   1000 Hz
+ Sampling interval:           10000 x 0.1 usec
+ VME FFT for PSD files:       4096 for 0.244-Hz resolution
+
+CW objective: verify that we have echoes, then go to high res imaging
+using the 1 us x 0.1 Hz Toutatis setup 
+
+174009: beam is up
+
+Echo!  Very strong
+bandwidth is about 1.9 Hz, center freq = +0.8+/-0.4.
+
+This means the echoes will drift in delay by about 0.33 us/hour,
+or less than one range gate for the duration of the track.
+
+Astrometric datum: 
+Epoch = 1999 July 21 17:40:00  
+
+ 1999 JUL 21 17:40     83.9054528137   528307.523
+                                           +0.8 +/- 0.4 Hz
+                                       --------
+                                       528308.3 +/-0.4 Hz
+
+ DOPPLER (weight in Hertz)  :
+  1937 11 27 22:20:00    P -540576.10D0 1.0000 8510.D6  -14  -13 Reber,G.
+  yyyy mm dd HH:MM:SS type obsrvabl(Hz) weight frq(Hz) xstn rstn observer...
+
+  1999 07 21 17:40:00    P  528308.3D0  0.4    8560.D6  -14  -14 Benner, L.
+  Corrn of +0.8 Hz to soln 19 using center freq w/0.244 Hz res'n.
+
+
+Switch to 1.0 us x 0.1 Hz
+
+
+Configure for 1.0 us x 0.1 Hz imaging
+=====================================
+Setup:    baud    ncoh     bandwidth   dfreq
+TU1XS08   1.000    153       25.6       0.100 
+
+setup           TU1XS08
+baud            1.0 usec
+code            255
+gates           255
+FFT             256
+ncoh            153
+bandwidth       25.6 Hz     
+resolution      0.1 Hz
+TXOFF           5 Hz = 50 cells, => cell 178
+incoh sums       looks=>  sec/record 
+CLT gate        13
+
+175724: beam is up
+
+Echo!  Echo is at the crossover point in the code. very strong.
+
+LE is near gate 255
+
+Insert a transmitter offset of +30 gates to move up the image
+Same file as the first two runs
+
+VAX record 15 = first one w/+30 us tx offset
+
+Echo is very strong.  Asymmetric.  stronger on negative edge.
+
+We probably could have used a higher res'n setup, but not enough
+time today to switch.  Tomorrow double (or more) the baud.  0.25 us
+might even work, but need to nail the ephemeris to remove drift.
+
+Ralph McConahy stopped by to check out the images.  I gave him copies
+of the images from today and the previous track
+
+Echoes are beautiful.  There is joy in Mudville this morning.
+
+Randy reminded me that we could do dual-poln imaging--the echoes are
+certainly strong enough.  Set it up for tomorrow's track.
+
+Another possibility: interferometry.  
+
+The visible range extent from
+the previous track is about 20 1.0 us gates or about 3 km.  Thus the 
+physical range extent could easily be twice that or 6 km.  
+
+1837: clear display & restart accumulation: still there.
+
+1843: about to start last receive
+
+
+1845: game over.  Very successful track.
+
+Final Tsys:
+El = 40.17 deg
+Ch 1  Tsys = 16.88 K
+Ch 2  Tsys = 18.12 K
+
+
+UPDATE THE ORBIT
+================
+
+Add one range from the last track and one Doppler from today's track.  
+
+Update the range from the 1.0 us image on July 20:
+CLT = gate 13
+LE = gate 46, measured using the Spyglass Transform file on reason.
+Difference = 46-13 = 33 gates or 33 usec.  But COM is probably close to
+the trailing edge (TE) which was 21 gates deeper at gate 67.
+
+67-13=54 gates => 54 usec mod 127 usec 
+
+==> PUNT; I am too tired to mess with this.
+
+Deal with the Doppler only.
+
+Here is the the Doppler from above:
+
+  1999 07 21 17:40:00    P  528308.3D0  0.4    8560.D6  -14  -14 Benner, L.
+  Corrn of +0.8 Hz to soln 19 using center freq w/0.244 Hz res'n.
+
+osod
+
+cmod 19
+
+dis cmod o
+
+^L                 Observations, Residuals and Residual Differences  -  Pass 2
+                      Observation        Obs    J2000 Residuals      Sigmas    Res. Differences
+     Date(UTC)       R.A.      Dec.      Code   R.A.cosD    Dec.    R.A. Dec  Predicted-2nd Pass
+*** WARNING: CAPRCH never entered triple mode
+*** WARNING: CAPRCH never entered triple mode
+AP1999 721.736111 174000    528308.3D0   -14       0.50  Doppler    0.400         0.00
+*** WARNING: TPM data predicted
+AR1999 720.125000  30000    92.6270694   -14      -1.08  Delay     10.000         0.00
+*** WARNING: TPM data predicted
+AP1999 720.111111  24000    547278.4D0   -14       0.13  Doppler    0.300         0.00
+*** WARNING: TPM data predicted
+AP1999 718.895833 213000    580912.4D0   -14       0.09  Doppler    0.400         0.00
+
+
+Pass 2 Weighted Residual Statistics "res2":
+ 
+    Type     # pts           Mean           Std dev.           RMS
+    ----     -----       ------------     ------------     ------------
+1.  opt RA     220        0.59973E-01      0.45684E+00      0.45973E+00
+2.  opt DEC    220       -0.88482E-01      0.67487E+00      0.67912E+00
+3.  dly          1       -0.10770E+01     NaN               0.10770E+01
+4.  dop          3        0.24367E+00      0.22639E+00      0.30584E+00
+
+iter 19
+
+iter 20
+
+eph 21
+
+pred
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+
+MASTERLOG
+=========
+                                                          rcsta  rcend
+file        setup         Bandwidth  osod  TXoff    Runs  HHMMSS-HHMMSS  Comments
+------------------------------------------------------------------------------------
+99202      CW 4k FFT        1000      19              1   174136-174257         
+jm20203   1.0 us x 0.1 Hz     25.6    19   +5 Hz      2   175851-180305  255 code x 256 pt FFT
+jm20203   1.0 us x 0.1 Hz     25.6    19 +5 Hz,+30us 14   180541-184433  255 code x 256 pt FFT
+
+
+
+PROBLEMS
+========
+
+NONE!
+
+
+Things to do before leaving
+===========================
+1. transfer ranging data -> intruder then ftp to JPL 	==> DONE
+2. transfer cw data      -> intruder then ftp to JPL	==> DONE
+3. transfer tx/rcv logs to intruder and then to JPL	==> DONE
+4. write protect all data and log files	at JPL		==> DONE
+5. update website on reason				==> DONE
+6. set up log file for tomorrow				==> DONE
+7. critique 						==> DONE
+8. get the data package					==> DONE
+9. back up the data ->  exabyte tape & write protect it	==> DONE
+10.organize hardcopies  				==> DONE
+11.ftp observational log -> JPL and write protect it	==> DONE
+12.e-mail brief summary of results -> co-authors        ==> 
+13.e-mail brief summary -> Ralph & Larry                ==> 
+
+Draft critique
+==============
+Excellent track!  Obtained strong images with 150 meter resolution.  
+Interesting features on surface.  Everything worked.
+

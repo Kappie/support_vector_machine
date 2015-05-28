@@ -1,0 +1,208 @@
+Package build of rkhunter started.  (Tuesday, 25 November 2008 02:55:38 EST)
+[PkgVars.pm/160/pkgvar_set()] Setting buildroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "buildroot" -> "/var/tmp/mezzanine-buildroot.32418/rkhunter.319"
+[PkgVars.pm/160/pkgvar_set()] Setting instroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instroot" -> "/var/tmp/mezzanine.temp.dironly.32418.05f3"
+[buildtool/399/build_single_package()] Building rkhunter in /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter.
+[PkgVars.pm/160/pkgvar_set()] Setting name
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "name" -> "rkhunter"
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/groups/security/rkhunter
+[buildtool/201/is_build_needed()] Args:  ""
+[Config.pm/155/Config::get] Config::get(REBUILD):  0
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/groups/security/rkhunter
+[buildtool/228/is_build_needed()] /cvs/caos/groups/security/rkhunter is a file.  Using its timestamp data:  2008-11-24 22:22:07
+[buildtool/252/is_build_needed()] Looking for files matching rkhunter.(no)src.rpm in /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS.
+[buildtool/258/is_build_needed()] Got 5 matches.
+[buildtool/263/is_build_needed()] Checking /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.7-1.caos.src.rpm...
+[buildtool/271/is_build_needed()] /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.7-1.caos.src.rpm is older than /cvs/caos/groups/security/rkhunter:  2005-10-09 18:17:19 < 2008-11-24 22:22:07.
+[buildtool/263/is_build_needed()] Checking /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.8-1.caos.src.rpm...
+[buildtool/271/is_build_needed()] /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.8-1.caos.src.rpm is older than /cvs/caos/groups/security/rkhunter:  2006-02-17 07:17:08 < 2008-11-24 22:22:07.
+[buildtool/263/is_build_needed()] Checking /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.9-1.caos.src.rpm...
+[buildtool/271/is_build_needed()] /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.9-1.caos.src.rpm is older than /cvs/caos/groups/security/rkhunter:  2006-10-04 19:57:34 < 2008-11-24 22:22:07.
+[buildtool/263/is_build_needed()] Checking /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.9-2.caos.src.rpm...
+[buildtool/271/is_build_needed()] /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.2.9-2.caos.src.rpm is older than /cvs/caos/groups/security/rkhunter:  2006-10-05 16:53:16 < 2008-11-24 22:22:07.
+[buildtool/263/is_build_needed()] Checking /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.3.0-1.caos.src.rpm...
+[buildtool/271/is_build_needed()] /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.3.0-1.caos.src.rpm is older than /cvs/caos/groups/security/rkhunter:  2008-11-24 19:27:51 < 2008-11-24 22:22:07.
+[buildtool/277/is_build_needed()] No matching SRPM's found which are newer than /cvs/caos/groups/security/rkhunter.  Must build rkhunter.
+[PkgVars.pm/160/pkgvar_set()] Setting instroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instroot" -> "/var/tmp/mezzanine.temp.dironly.32418.05f3"
+Resetting chroot jail, please wait.
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "lamebrain" -> ""
+[Util.pm/1346/run_cmd()] About to run true /var/tmp/mezzanine.temp.dironly.32418.05f3
+[Util.pm/1384/run_cmd()] "true /var/tmp/mezzanine.temp.dironly.32418.05f3" returned 0
+[buildtool/452/build_single_package()] Build tree layout style:  orc
+[Build.pm/1105/build_package()] Args:  ""
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/groups/security/rkhunter
+[PkgVars.pm/232/pkgvar_type()] SPM
+[Build.pm/682/build_spm()] Args:  ""
+[Build.pm/212/prepare_build_tree()] rkhunter | /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter | /var/tmp/mezzanine-buildroot.32418/rkhunter.319 | /var/tmp/mezzanine.temp.dironly.32418.05f3 | 
+[PkgVars.pm/160/pkgvar_set()] Setting name
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "name" -> "rkhunter"
+[PkgVars.pm/160/pkgvar_set()] Setting topdir
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "topdir" -> "/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter"
+[PkgVars.pm/160/pkgvar_set()] Setting buildroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "buildroot" -> "/var/tmp/mezzanine-buildroot.32418/rkhunter.319"
+[Build.pm/229/prepare_build_tree()] Creating /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter with mkdirhier().
+[Build.pm/247/prepare_build_tree()] I'm creating /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS.
+[Build.pm/247/prepare_build_tree()] I'm creating /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES.
+[Build.pm/256/prepare_build_tree()] I'm also creating /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES.
+[Build.pm/271/prepare_build_tree()] Creating /var/tmp/mezzanine.temp.dironly.32418.05f3/var/tmp/mezzanine-buildroot.32418/rkhunter.319 with mkdirhier().
+[Build.pm/278/prepare_build_tree()] I created:  /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES /var/tmp/mezzanine-buildroot.32418/rkhunter.319 /var/tmp/mezzanine.temp.dironly.32418.05f3/var/tmp/mezzanine-buildroot.32418/rkhunter.319
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "hints" -> ""
+[Build.pm/298/install_hints()] No hint information provided.
+[Util.pm/1164/find_spec_file()] Found single spec file for rkhunter in F:  F/rkhunter.spec
+[Util.pm/865/copy_files()] Copying F/rkhunter.spec to /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS/.
+[Util.pm/865/copy_files()] Copying F/rkhunter.spec to /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS/.
+[PkgVars.pm/160/pkgvar_set()] Setting instructions
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instructions" -> "/var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS/rkhunter.spec"
+[RPM.pm/216/parse_spec_file()] Parsing spec file /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS/rkhunter.spec.
+[RPM.pm/236/parse_spec_file()] Attempting to launch helper to parse spec file contents.
+[RPM.pm/248/parse_spec_file()] Child process 321 launched; reading from child's STDOUT.
+[RPM.pm/257/RPM::parse_spec_file] Got 81 lines back from helper.
+[RPM.pm/265/parse_spec_file()] Internal parser reading spec file.
+[RPM.pm/359/parse_spec_file()] Got the following sources:
+[RPM.pm/361/parse_spec_file()]     Source 0 -> rkhunter-1.3.0.tar.gz
+[RPM.pm/361/parse_spec_file()]     Source 1 -> 01-rkhunter.cron
+[RPM.pm/363/parse_spec_file()] Got the following patches:
+[RPM.pm/367/parse_spec_file()] Got the following header info:
+[RPM.pm/369/parse_spec_file()]     buildarch -> noarch
+[RPM.pm/369/parse_spec_file()]     buildroot -> /var/tmp/rkhunter-1.3.0-1.caos-root
+[RPM.pm/369/parse_spec_file()]     distribution -> caos
+[RPM.pm/369/parse_spec_file()]     group -> Applications/System
+[RPM.pm/369/parse_spec_file()]     license -> GPL
+[RPM.pm/369/parse_spec_file()]     packager -> caos
+[RPM.pm/369/parse_spec_file()]     prefix -> /usr
+[RPM.pm/369/parse_spec_file()]     release -> 1.caos
+[RPM.pm/369/parse_spec_file()]     summary -> Rootkit scans for rootkits, backdoors and local exploits.
+[RPM.pm/369/parse_spec_file()]     url -> http://rkhunter.sourceforge.net/
+[RPM.pm/369/parse_spec_file()]     vendor -> caos
+[RPM.pm/369/parse_spec_file()]     version -> 1.3.0
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "allow_epoch" -> "0"
+[PkgVars.pm/160/pkgvar_set()] Setting instructions
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instructions" -> "/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS/rkhunter.spec"
+[Util.pm/865/copy_files()] Copying S/01-rkhunter.cron S/rkhunter-1.3.0.tar.gz 0 to /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES/.
+[Prod.pm/482/parse_prod_file()] Args:  ""
+[Prod.pm/166/find_product_file()] Args:  "<undef>", "<undef>"
+[Prod.pm/484/parse_prod_file()] find_product_file() failed.  Returning 0.
+[Build.pm/602/build_topdir()] Args:  ""
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "lamebrain" -> ""
+[PkgVars.pm/160/pkgvar_set()] Setting target
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "target" -> "rpms"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "buildpkglist_filename" -> "/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/rkhunter.pkglist"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "buildpkglist_filename" -> "/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/rkhunter.pkglist"
+[RPM.pm/565/rpm_build()] Saving package list to /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/rkhunter.pkglist.
+[RPM.pm/107/rpm_form_command()] Args:  ""
+[Util.pm/298/file_user()] UID:  0
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> " /bin/sh -c "/bin/rpm"
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/groups/security/rkhunter
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/groups/security/rkhunter
+[PkgVars.pm/265/pkgvar_filename()] /cvs/caos/groups/security/rkhunter
+buildtool:  Warning:  /cvs/caos/groups/security/rkhunter does not exist under /var/tmp/mezzanine.temp.dironly.32418.05f3.
+[RPM.pm/203/rpm_form_command()] Command:  chroot /var/tmp/mezzanine.temp.dironly.32418.05f3  /bin/sh -c "/bin/rpm --define '_topdir /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter' -qa --qf '%25{NAME} %10{EPOCH} %15{VERSION} %15{RELEASE}
+' | sort -bf"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> ""
+[RPM.pm/107/rpm_form_command()] Args:  ""
+[Util.pm/298/file_user()] UID:  0
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> "chroot /var/tmp/mezzanine.temp.dironly.32418.05f3 /bin/sh -c "/usr/bin/rpmbuild"
+[RPM.pm/203/rpm_form_command()] Command:  chroot /var/tmp/mezzanine.temp.dironly.32418.05f3 /bin/sh -c "/usr/bin/rpmbuild --define '_topdir /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter' --define 'optflags -O2 -m64' --buildroot '/var/tmp/mezzanine-buildroot.32418/rkhunter.319' -ba /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS/rkhunter.spec"
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.54575
+sh-trace: umask 022
+sh-trace: cd /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: cd /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD
+sh-trace: rm -rf rkhunter-1.3.0
+sh-trace: /bin/gzip -dc /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES/rkhunter-1.3.0.tar.gz
+sh-trace: tar -xf -
+sh-trace: STATUS=0
+sh-trace: '[' 0 -ne 0 ']'
+sh-trace: cd rkhunter-1.3.0
+sh-trace: exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.54575
+sh-trace: umask 022
+sh-trace: cd /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD
+sh-trace: cd rkhunter-1.3.0
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: echo INSTALLDIR=/usr
+sh-trace: /usr/bin/perl -pi -e 's,^\#DBDIR=.*$,DBDIR=/usr/lib64/rkhunter/db,;
+                  s,^\#SCRIPTDIR=.*$,SCRIPTDIR=/usr/lib64/rkhunter/scripts,;
+                  s,^\#TMPDIR=.*$,TMPDIR=/usr/lib64/rkhunter/tmp,;' files/rkhunter.conf
+sh-trace: exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.42350
+sh-trace: umask 022
+sh-trace: cd /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD
+sh-trace: cd rkhunter-1.3.0
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: cd files
+sh-trace: /bin/mkdir -p /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/bin /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/db/i18n /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/docs /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/scripts /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/tmp /var/tmp/mezzanine-buildroot.32418/rkhunter.319/etc/cron.daily /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/man/man8
+sh-trace: chmod 01777 /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/tmp
+sh-trace: /usr/bin/install -m 0750 rkhunter /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/bin/
+sh-trace: /usr/bin/install -m 0640 rkhunter.conf /var/tmp/mezzanine-buildroot.32418/rkhunter.319/etc/
+sh-trace: /usr/bin/install -m 0644 rkhunter.8 /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/man/man8/
+sh-trace: /usr/bin/install -m 0640 backdoorports.dat defaulthashes.dat md5blacklist.dat mirrors.dat os.dat programs_bad.dat programs_good.dat suspscan.dat /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/db/
+sh-trace: /usr/bin/install -m 0640 i18n/cn i18n/en /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/db/i18n/
+sh-trace: /usr/bin/install -m 0750 check_modules.pl check_port.pl filehashmd5.pl filehashsha1.pl showfiles.pl stat.pl check_update.sh readlink.sh /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/lib64/rkhunter/scripts/
+sh-trace: /usr/bin/install -m 0750 /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES/01-rkhunter.cron /var/tmp/mezzanine-buildroot.32418/rkhunter.319/etc/cron.daily/
+sh-trace: /usr/lib/rpm/caos/brp-compress
+sh-trace: /usr/lib/rpm/caos/brp-strip /usr/bin/strip
+sh-trace: /usr/lib/rpm/caos/brp-strip-static-archive /usr/bin/strip
+sh-trace: /usr/lib/rpm/caos/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
+Processing files: rkhunter-1.3.0-1.caos
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.42350
+sh-trace: umask 022
+sh-trace: cd /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD
+sh-trace: cd rkhunter-1.3.0
+sh-trace: DOCDIR=/var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/doc/rkhunter-1.3.0
+sh-trace: export DOCDIR
+sh-trace: rm -rf /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/doc/rkhunter-1.3.0
+sh-trace: /bin/mkdir -p /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/doc/rkhunter-1.3.0
+sh-trace: cp -pr files/ACKNOWLEDGMENTS files/CHANGELOG files/FAQ files/LICENSE files/README files/WISHLIST /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/doc/rkhunter-1.3.0
+sh-trace: cp -pr files/contrib files/tools files/testing files/development /var/tmp/mezzanine-buildroot.32418/rkhunter.319/usr/share/doc/rkhunter-1.3.0
+sh-trace: exit 0
+Provides: config(rkhunter) = 1.3.0-1.caos
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /var/tmp/mezzanine-buildroot.32418/rkhunter.319
+warning: Could not canonicalize hostname: x86_64-build.caosity.org
+Wrote: /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.3.0-1.caos.src.rpm
+Wrote: /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS/noarch/rkhunter-1.3.0-1.caos.noarch.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.2867
+sh-trace: umask 022
+sh-trace: cd /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD
+sh-trace: cd rkhunter-1.3.0
+sh-trace: rm -rf /var/tmp/mezzanine-buildroot.32418/rkhunter.319
+sh-trace: exit 0
+[buildtool/707/place_package_files()] Output files for rkhunter:  /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.3.0-1.caos.src.rpm /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS/noarch/rkhunter-1.3.0-1.caos.noarch.rpm
+[buildtool/726/place_package_files()] Testing location "/src.rpm$/=/usr/src/autobuild.mezz/SRPMS"
+[buildtool/739/place_package_files()] Match found for /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.3.0-1.caos.src.rpm:  =src.rpm$ (/usr/src/autobuild.mezz/SRPMS).
+[buildtool/753/place_package_files()] /usr/src/autobuild.mezz/SRPMS/rkhunter-1.3.0-1.caos.src.rpm exists; removing.
+[buildtool/757/place_package_files()] ln -f /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS/rkhunter-1.3.0-1.caos.src.rpm /usr/src/autobuild.mezz/SRPMS/rkhunter-1.3.0-1.caos.src.rpm
+[buildtool/726/place_package_files()] Testing location "/src.rpm$/=/usr/src/autobuild.mezz/SRPMS"
+[buildtool/726/place_package_files()] Testing location "/rpm$/=/usr/src/autobuild.mezz/x86_64"
+[buildtool/739/place_package_files()] Match found for /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS/noarch/rkhunter-1.3.0-1.caos.noarch.rpm:  =rpm$ (/usr/src/autobuild.mezz/x86_64).
+[buildtool/753/place_package_files()] /usr/src/autobuild.mezz/x86_64/rkhunter-1.3.0-1.caos.noarch.rpm exists; removing.
+[buildtool/757/place_package_files()] ln -f /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS/noarch/rkhunter-1.3.0-1.caos.noarch.rpm /usr/src/autobuild.mezz/x86_64/rkhunter-1.3.0-1.caos.noarch.rpm
+Package build for rkhunter completed successfully.  (Tuesday, 25 November 2008 02:55:41 EST)
+[Build.pm/489/cleanup_build_tree()] /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter | /var/tmp/mezzanine-buildroot.32418/rkhunter.319 | /var/tmp/mezzanine.temp.dironly.32418.05f3 | orc
+[Build.pm/490/cleanup_build_tree()] Only allowing cleaning in:  /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SRPMS /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/RPMS /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SPECS /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES /var/tmp/mezzanine-buildroot.32418/rkhunter.319 /var/tmp/mezzanine.temp.dironly.32418.05f3/var/tmp/mezzanine-buildroot.32418/rkhunter.319
+[Build.pm/525/cleanup_build_tree()] Cleaning /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/BUILD?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /var/tmp/mezzanine.temp.dironly.32418.05f3/usr/src/autobuild.mezz/x86_64/00_LOGS/security/rkhunter/SOURCES?
+[Build.pm/534/cleanup_build_tree()] Yes.
+[Build.pm/525/cleanup_build_tree()] Cleaning /var/tmp/mezzanine-buildroot.32418/rkhunter.319?
+[Build.pm/534/cleanup_build_tree()] Yes.

@@ -1,0 +1,556 @@
+<!-- Title: Owl shift. Wed Oct 31, 2007 -->
+<!-- SciCo: David Stuart -->
+<!-- DAQAce: Francesco Crescioli -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Thomas Kuhr -->
+<!-- OpManager: &nbsp; -->
+<!-- Notes: -->
+<pre>In shot setup</pre>
+
+
+<!-- Date: Wed Oct 31 00:10:06.620 2007 -->
+Injecting pbars
+<!-- Author: stuart -->
+<!-- Comment: Wed Oct 31 00;12;32 comment by...stuart -->
+Called Jim Lungu (BSC). He will come in to do BSC work at start of store.
+
+<!-- Comment: Wed Oct 31 00;21;52 comment by...stuart -->
+Also called Opsman and silicon at the same time. They're enroute.
+
+<!-- Date: Wed Oct 31 00:43:45.906 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253012>253012</A>
+TERMINATE: done injection and ramping
+<!-- Author: Carolina Deluca -->
+
+
+
+<!-- Date: Wed Oct 31 00:44:05.753 2007 -->
+Pbars loaded, and now ramped and squeezing.
+<!-- Author: stuart -->
+<!-- Comment: Wed Oct 31 00;44;26 comment by...stuart -->
+scraping
+
+<!-- Date: Wed Oct 31 00:51:28.469 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253013>253013</A>
+TERMINATE: switch to minbias
+<!-- Author: Carolina Deluca -->
+
+
+
+<!-- Date: Wed Oct 31 00:54:14.138 2007 -->
+MCR says scraping complete
+<!-- Author: stuart -->
+
+
+<!-- Date: Wed Oct 31 00:56:07.380 2007 -->
+CLC HV Up. Store 5668 initial lum 40E30
+<!-- Author: stuart -->
+
+<!-- Date: Wed Oct 31 00:59:24.925 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014>253014</A>
+ Activated at 2007.10.31 00:59:14
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 00:59:25.048 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014>253014</A>
+ACTIVATE: RunSet: AAA_MINBIAS  Trigger: MINIMUM_BIAS_1 [12,990,706] 
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 01:05:54.514 2007 -->
+Adam responded to page. Will look at EM timing TDCs remotely through ObjectMon
+<!-- Author: stuart -->
+
+
+<!-- Date: Wed Oct 31 01:07:55.457 2007 -->
+Done Timeout detected in crates: 
+CLC_00
+<!-- Author: B&F :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014' target=_top>253014</a>) -->
+
+
+<!-- Date: Wed Oct 31 01:09:08.703 2007 -->
+COLLISIONS !
+<!-- Author: B&F :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=233014' target=_top>233014</a>) -->
+
+<!-- Date: Wed Oct 31 01:09:32.980 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014>253014</A>
+ Terminated at 2007.10.31 01:09:21
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Oct 31 01:09:40.868 2007 -->
+Notify MCR that we are about to study the effect of changing BSC HVs so LostP and LostPB will be changing.
+<!-- Author: stuart -->
+
+<!-- Date: Wed Oct 31 01:09:58.426 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014>253014</A>
+TERMINATE: (jim) i will change the BSC HV
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 01:10:09.919 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6697&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6697' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6696&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6696' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6698&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6698' width='300'></a></center>
+<!-- Author: Francesco -->
+
+<!-- Date: Wed Oct 31 01:16:27.855 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015>253015</A>
+ Activated at 2007.10.31 01:16:16
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 01:16:28.667 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015>253015</A>
+ACTIVATE: RunSet: AAA_MINBIAS  Trigger: MINIMUM_BIAS_1 [12,990,706] 
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 01:18:25.887 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6699&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6699' width='300'></a></center>
+<!-- Author: Francesco -->
+
+
+<!-- Date: Wed Oct 31 01:38:39.348 2007 -->
+Why the run number is not automatically added in the "Run Number:" field when I make an entry and a run is running?
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015' target=_top>253015</a>) -->
+<!-- Comment: Wed Oct 31 01;54;19 comment by...jdl -->
+That works only for Partition 0.  We're using Partition 3.
+<!-- Date: Wed Oct 31 01:51:00.240 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015>253015</A>
+ Terminated at 2007.10.31 01:50:22
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 01:51:01.074 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015>253015</A>
+TERMINATE: (jim) another BSC HV settings
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 01:51:27.218 2007 -->
+<pre>CO:  Please post the ObjectMon plots, em100Percent and emFakes. I'm having trouble accessing the root file remotely.</pre>
+<!-- Author: Adam :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015' target=_top>253015</a>) -->
+<!-- Comment: Wed Oct 31 01;55;41 comment by...Thomas -->
+Since we are running in minimum bias mode there are no ObjectMon plots yet.
+
+
+<!-- Comment: Wed Oct 31 02;07;00 comment by...Adam -->
+Are there any plans to run with physics triggers tonight?
+<!-- Comment: Wed Oct 31 02;15;00 comment by...stuart -->
+We will probably start a physics trigger at 3am
+<!-- Date: Wed Oct 31 01:56:34.066 2007 -->
+Flying wire. I could not verify spikes because HV for BSC is being tuned right now
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015' target=_top>253015</a>) -->
+
+<!-- Date: Wed Oct 31 01:58:40.520 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016>253016</A>
+ Activated at 2007.10.31 01:58:34
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 01:59:04.380 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016>253016</A>
+ACTIVATE: RunSet: AAA_MINBIAS  Trigger: MINIMUM_BIAS_1 [12,990,706] 
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 01:59:46.659 2007 -->
+We got DAQERRMON_WRONG_MODE_ERROR at the beginning of the run. Strange, the consumers are running fine and in the correct mode.
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016' target=_top>253916</a>) -->
+
+
+
+
+<!-- Date: Wed Oct 31 02:17:12.934 2007 -->
+Automatic hourly plots seems not to work. I looked at the PC from the KVM console and I see that it's in error for SEQ_PCM REQUEST PLOT 1. There is a lumberjack datalogger window open with an error about an unknown device to be plotted. I will follow the instruction to restart the CDF Sequencer
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016' target=_top>253016</a>) -->
+<!-- Comment: Wed Oct 31 02;21;55 comment by...Francesco -->
+Restarted, we'll see in an hour if it is working.
+<!-- Comment: Wed Oct 31 03;39;31 comment by...Francesco -->
+No, still SEQ_PCM REQUEST Plot 1 in ERR and no plot in the scrapbook. I guess this will need the work of an expert, in the meanwhile I'll do by hand
+<!-- Comment: Wed Oct 31 08;21;33 comment by...Jim Patrick -->
+This was forwarded to Brian Hendricks to look at.
+<!-- Date: Wed Oct 31 02:19:11.876 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016>253016</A>
+ Terminated at 2007.10.31 02:19:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 02:19:58.505 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016>253016</A>
+TERMINATE: (jim) last BSC HV setting for tonight
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 02:26:06.719 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017>253017</A>
+ Activated at 2007.10.31 02:26:00
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 02:26:30.592 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017>253017</A>
+ACTIVATE: RunSet: AAA_MINBIAS  Trigger: MINIMUM_BIAS_1 [12,990,706] 
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 02:46:23.710 2007 -->
+DoneTO for b0clc00, recovered with autoHRR.
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017' target=_top>253017</a>) -->
+
+<!-- Date: Wed Oct 31 02:46:50.426 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017>253017</A>
+ Terminated at 2007.10.31 02:46:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 02:46:58.917 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017>253017</A>
+TERMINATE: (jim) end of BSC studies
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 02:47:39.096 2007 -->
+COT is being put to standby
+<!-- Author: Francesco -->
+
+
+<!-- Date: Wed Oct 31 02:48:20.768 2007 -->
+Reverting BSC HV to default settings. So LostP and LostPB will return to the same meaning that they had yesterday.
+<!-- Author: stuart -->
+
+
+<!-- Date: Wed Oct 31 02:53:05.404 2007 -->
+Fleying wire. Spikes well under 10kHz.
+<!-- Author: Francesco -->
+
+<!-- Date: Wed Oct 31 03:01:04.849 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+ Activated at 2007.10.31 03:00:40
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 03:01:05.379 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+ACTIVATE: RunSet: AAA_NOSILICON  Trigger: PHYSICS_5_01 [1,987,708] 
+<!-- Author: Francesco Crescioli -->
+
+
+
+<!-- Date: Wed Oct 31 03:17:57.749 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-6700&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-6700  width='300' align='top'></a></td><td>CEM errors are ok now.</td></tr></table>
+<!-- Author: Thomas -->
+
+
+<!-- Date: Wed Oct 31 03:20:05.666 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6701&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6701' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6702&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6702' width='300'></a></center>
+<!-- Author: Thomas -->
+
+
+<!-- Date: Wed Oct 31 03:23:54.248 2007 -->
+<pre>Summary of the BSC HV studies:  
+ 
+- because the current default HV settings on the new BSC result in a higher signal and reported beam losses when compared to the old BSC, we decided to lower the HV settings and then understand the correlation with the signal size. 
+ 
+- we took 3 runs, each time lowering the HV by 100V for each counter; this resulted in a factor of 4 reduction in the reported  losses for each such run. The occupancy went down too.  
+ 
+We still need to look at the ADC distributions to understand it better, and then we will decide on the new HV settings.</pre>
+<!-- Author: Jim Lungu, Koji Terashi -->
+
+
+
+<!-- Date: Wed Oct 31 03:53:04.640 2007 -->
+Flying wire. Spikes under 10kHz.
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018' target=_top>253018</a>) -->
+
+
+<!-- Date: Wed Oct 31 03:55:33.706 2007 -->
+DoneTO on b0cot17
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018' target=_top>253018</a>) -->
+<!-- Comment: Wed Oct 31 05;04;29 comment by...Francesco -->
+Again, on b0cot04
+<!-- Comment: Wed Oct 31 05;30;47 comment by...Francesco -->
+Again, b0cot04`
+<!-- Comment: Wed Oct 31 05;41;15 comment by...Francesco -->
+Again, b0cot04
+<!-- Comment: Wed Oct 31 05;52;09 comment by...Francesco -->
+b0cot04
+<!-- Comment: Wed Oct 31 07;16;56 comment by...Francesco -->
+b0clc00
+<!-- Date: Wed Oct 31 04:05:56.973 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+si: <tt>Silicon off</tt>
+<!-- Author: Consumer Operator(Thomas Kuhr) -->
+
+
+<!-- Date: Wed Oct 31 04:05:57.983 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+central: <tt>High average charge in TOF east around PMT 40</tt>
+<!-- Author: Consumer Operator(Thomas Kuhr) -->
+
+
+<!-- Date: Wed Oct 31 04:05:58.155 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+trigger: <tt>High error rate in CalTrigger EM phi 21, eta 1-3 (known problem)<br>
+East IMB wedge 3 hot</tt>
+<!-- Author: Consumer Operator(Thomas Kuhr) -->
+
+
+<!-- Date: Wed Oct 31 04:05:59.324 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+muons: <tt>CMX West 21 dead<br>
+Low rate in BSU West for phi<-12</tt>
+<!-- Author: Consumer Operator(Thomas Kuhr) -->
+
+
+<!-- Date: Wed Oct 31 04:06:00.919 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018>253018</A>
+monitors: <tt>Calorimeter time not yet calibrated</tt>
+<!-- Author: Consumer Operator(Thomas Kuhr) -->
+
+
+<!-- Date: Wed Oct 31 04:10:00.401 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014>253014</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=253014 target=_runSummary>253014</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Oct 31 04:50:30.164 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015>253015</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=253015 target=_runSummary>253015</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Wed Oct 31 04:52:36.469 2007 -->
+Flying wire. Spikes under 10kHz.
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253018' target=_top>253018</a>) -->
+
+
+<!-- Date: Wed Oct 31 05:20:03.859 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016>253016</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=253016 target=_runSummary>253016</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Wed Oct 31 05:47:29.019 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017>253017</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=253017 target=_runSummary>253017</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Wed Oct 31 05:52:43.553 2007 -->
+Flying wire. Spike under 10kHz
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=252018' target=_top>252018</a>) -->
+
+<!-- Date: Wed Oct 31 06:10:56.766 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253014>253014</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+COT off
+CMX 
+SVX off
+ISL off
+L00 off
+SVT 
+TOF off
+</PRE>
+<!-- Author: cdfscico -->
+
+
+<!-- Date: Wed Oct 31 06:11:24.134 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253015>253015</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+COT 
+CMX 
+SVX 
+ISL 
+L00 
+SVT 
+TOF 
+</PRE>
+<!-- Author: cdfscico -->
+
+
+<!-- Date: Wed Oct 31 06:12:13.635 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253016>253016</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+COT 
+CMX 
+SVX 
+ISL 
+L00 
+SVT 
+TOF 
+</PRE>
+<!-- Author: cdfscico -->
+
+
+<!-- Date: Wed Oct 31 06:12:47.058 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253017>253017</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+COT 
+CMX 
+SVX 
+ISL 
+L00 
+SVT 
+TOF 
+</PRE>
+<!-- Author: cdfscico -->
+
+
+
+<!-- Date: Wed Oct 31 06:33:55.677 2007 -->
+Just got a brief TevMon alarm in the proton losses. Seems like a spike, but no spike is visible from the fasttime plotters we are running.
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=252018' target=_top>252018</a>) -->
+
+
+<!-- Date: Wed Oct 31 06:37:00.394 2007 -->
+Now we got a series of TevMon warning set alarms, but really nothing went in warning. Plots looks good.
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=252018' target=_top>252018</a>) -->
+<!-- Comment: Wed Oct 31 06;50;35 comment by...Francesco -->
+Now I spotted it. It's the abort gap halo for protons, which has spikes at over 3kHz.
+
+
+<!-- Date: Wed Oct 31 06:52:55.522 2007 -->
+Flying wire. No spikes over 10kHz
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=252018' target=_top>252018</a>) -->
+
+
+
+<!-- Date: Wed Oct 31 07:52:55.023 2007 -->
+Flying wire. No spikes over 10kHz
+<!-- Author: Francesco :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=252018' target=_top>252018</a>) -->
+
+<!-- Date: Wed Oct 31 07:55:21.705 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=253014 target=_runSummary>253014</A> x3DC56</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>MINIMUM_BIAS_1 [12,990,706]</FONT></TD>
+<TD ALIGN=CENTER>00:59:14</TD>
+<TD ALIGN=CENTER>01:09:21</TD>
+<TD ALIGN=CENTER>00:09:47</TD>
+<TD ALIGN=RIGHT>     101,934</TD>   <TD ALIGN=RIGHT>     14.16</TD>
+<TD ALIGN=RIGHT>     22.95</TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=253015 target=_runSummary>253015</A> x3DC57</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>MINIMUM_BIAS_1 [12,990,706]</FONT></TD>
+<TD ALIGN=CENTER>01:16:16</TD>
+<TD ALIGN=CENTER>01:50:22</TD>
+<TD ALIGN=CENTER>00:34:06</TD>
+<TD ALIGN=RIGHT>     355,401</TD>   <TD ALIGN=RIGHT>     76.70</TD>
+<TD ALIGN=RIGHT>     75.16</TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=253016 target=_runSummary>253016</A> x3DC58</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>MINIMUM_BIAS_1 [12,990,706]</FONT></TD>
+<TD ALIGN=CENTER>01:58:34</TD>
+<TD ALIGN=CENTER>02:19:02</TD>
+<TD ALIGN=CENTER>00:20:26</TD>
+<TD ALIGN=RIGHT>     212,816</TD>   <TD ALIGN=RIGHT>     42.69</TD>
+<TD ALIGN=RIGHT>     41.35</TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=253017 target=_runSummary>253017</A> x3DC59</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>MINIMUM_BIAS_1 [12,990,706]</FONT></TD>
+<TD ALIGN=CENTER>02:26:00</TD>
+<TD ALIGN=CENTER>02:46:35</TD>
+<TD ALIGN=CENTER>00:20:14</TD>
+<TD ALIGN=RIGHT>     210,688</TD>   <TD ALIGN=RIGHT>     39.59</TD>
+<TD ALIGN=RIGHT>     38.44</TD>
+<TD ALIGN=CENTER>0</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=253018 target=_runSummary>253018</A> x3DC5A</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [1,987,708]</FONT></TD>
+<TD ALIGN=CENTER>03:00:40</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>04:50:14</TD>
+<TD ALIGN=RIGHT>     420,925</TD>   <TD ALIGN=RIGHT>    433.97</TD>
+<TD ALIGN=RIGHT>    428.73</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>06:14:49</TD>
+<TD ALIGN=RIGHT>     1,301,764</TD> <TD ALIGN=RIGHT>    607.10</TD>
+<TD ALIGN=RIGHT>    606.63</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Wed Oct 31 08:01:45.828 2007 -->
+<font color=red>Shift Summary: </font><pre> 
+Store 5668 initial L=40E30. 
+ 
+Jim Lungu took MB data with varied BSC HV 
+ 
+Then ran Physics_nosili. 
+ 
+Adam Aurisano looking at EM timing TDCs remotely. 
+Efficiency OK, but occupancy not. 
+ 
+TevMon warnings about abort gap losses. 
+ 
+Otherwise smooth running. 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   253014, 253015, 253016, 253017, 253018
+Delivered Luminosity   693.3 nb-1  
+Acquired Luminosity    612.2 nb-1  
+Efficiency             88.3
+   
+</td></tr></table></pre>
+<!-- Author: David Stuart -->
+

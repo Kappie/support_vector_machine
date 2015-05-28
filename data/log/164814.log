@@ -1,0 +1,504 @@
+<!-- Title: Day shift. Thu Jun 12, 2008 -->
+<!-- SciCo: Kevin Pitts -->
+<!-- DAQAce: Jacob Linacre -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Guenakh Mitselmakher -->
+<!-- OpManager: Farrukh Azfar -->
+<!-- Notes: -->
+<pre>store 6215 in progress  
+b0 lum 54E30cm-2s-1 </pre>
+
+
+<!-- Date: Thu Jun 12 08:16:18.055 2008 -->
+PHA button red in DQMon
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+<!-- Comment: Thu Jun 12 09;27;35 comment by...Jacob -->
+Green
+<!-- Comment: Thu Jun 12 11;35;52 comment by...Jacob -->
+Red
+<!-- Comment: Thu Jun 12 15;09;00 comment by...Jacob -->
+has been green for a while
+<!-- Comment: Thu Jun 12 15;35;40 comment by...Donatella -->
+just alarmed again:
+"Calorimeter/PHATowerCanvas... new dead channel(s)". checking with CO.
+<!-- Comment: Thu Jun 12 15;44;20 comment by...Donatella -->
+well, the only PHA dead channel is the same as the one in the reference plot. Wondering why is DQMon complaining...
+<!-- Date: Thu Jun 12 08:32:28.027 2008 -->
+Per instructions from the 8am meeting today, I went back and marked the IMU good for all recent runs.  It was originally marked bad due to hot stacks in BMU W, layers 0 and 3.
+<!-- Author: KPitts -->
+<!-- Comment: Thu Jun 12 10;23;02 comment by...Phil -->
+thanks
+<!-- Date: Thu Jun 12 08:54:43.038 2008 -->
+ENCP TO TAPE button red in ProcMon
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+
+
+<!-- Date: Thu Jun 12 09:04:12.301 2008 -->
+iFIX Retrospect Client message: 
+ 
+"You have not been backed up since Thu, Jun 05, 2008. Contact your backup administrator for more info."
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+
+
+<!-- Date: Thu Jun 12 09:13:06.265 2008 -->
+CER_SVXMON_HALT_RECOVER_RUN_ERROR !!!  
+  
+ Stuck Cellid S/B2/W4/L4/C7-13 .  
+ AUTO HRR will be issued  
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+<!-- Comment: Thu Jun 12 09;50;58 comment by...Jacob -->
+again
+
+
+<!-- Date: Thu Jun 12 10:00:10.759 2008 -->
+  Done TO. for crate/s:  
+    b0pcal07    
+ 
+AutoHRR
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+
+
+<!-- Date: Thu Jun 12 10:07:53.705 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Thu_Jun_12_2008_Day.100741.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2925  align='top'></a></td><td>COT2 problem discovered in previous shift by Alberto 
+disuppeared! Do not know why...</td></tr></table>
+<!-- Author: Guenakh Mitselmakher -->
+<!-- Comment: Thu Jun 12 10;59;06 comment by...Guenakh Mitselmakher -->
+The problem is gone indeed (confirmed by the expert), but I posted a wrong slide (COT1 instead of COT2)
+<!-- Date: Thu Jun 12 10:14:09.750 2008 -->
+SlowControl Icicle Button red in daqmon. Hit "skip all" on error pop-up on solenoid2. 
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+
+
+<!-- Date: Thu Jun 12 10:14:39.478 2008 -->
+Plan is to stack up to 300E10 before shooting again, so the current store will stay in for most of this shift or longer.  It's possible that they might move the D0 IP again today, we'll keep running this time unless there are problems with losses.  Since luminosity is low, offered silicon group time for D mode calibrations.  They will consider it, but the last D mode runs were done 8 days ago, so it isn't urgent.
+<!-- Author: KPitts -->
+
+
+<!-- Date: Thu Jun 12 10:17:07.064 2008 -->
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=operations&action=view&page=194&frame=2&anchor=10:14:43'> 
+news</a> from the 9am AD ops meeting  
+<!-- Author: Phil -->
+
+
+<!-- Date: Thu Jun 12 10:19:11.532 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Thu_Jun_12_2008_Day.101900.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2927  align='top'></a></td><td>New hot channel in WHA PMT occupancy plot</td></tr></table>
+<!-- Author: Guenakh Mitselmakher -->
+<!-- Comment: Thu Jun 12 11;30;34 comment by...Fotis -->
+WHA channel 16E-10R(1) is ok in the high threshold canvas. Probably there are some microdischarges/light leak or a pedestal shift on the ADMEM.  I'll monitor its behavior but for the moment its occupancy is relatively low and should not affect anything. 
+<!-- Date: Thu Jun 12 10:27:43.402 2008 -->
+CMX trip. SE wedges 16-17, sense & field. Turned it back on.
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+
+
+<!-- Date: Thu Jun 12 10:37:02.981 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Thu_Jun_12_2008_Day.103658.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2929  align='top'></a></td><td>Still high error rate</td></tr></table>
+<!-- Author: Guenakh Mitselmakher -->
+
+<!-- Date: Thu Jun 12 10:42:17.188 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417>263417</A>
+central: <tt>COT 2 problem discovered in previous shift disappeared!</tt>
+<!-- Author: Consumer Operator( Guenakh Mitselmakher) -->
+
+
+<!-- Date: Thu Jun 12 10:42:18.231 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417>263417</A>
+cal: <tt>New hot channel in WHA</tt>
+<!-- Author: Consumer Operator( Guenakh Mitselmakher) -->
+
+
+<!-- Date: Thu Jun 12 10:42:19.434 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417>263417</A>
+muons: <tt>1. Minor noise  in CMP remain<br>
+2. IMU still marked bad because of few noisy channels in IMU West</tt>
+<!-- Author: Consumer Operator( Guenakh Mitselmakher) -->
+
+
+<!-- Date: Thu Jun 12 10:42:20.680 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417>263417</A>
+trigger: <tt>Still high error rate on 1.6.1 (see plot in elog)</tt>
+<!-- Author: Consumer Operator( Guenakh Mitselmakher) -->
+
+
+
+<!-- Date: Thu Jun 12 10:58:23.201 2008 -->
+<table border=0><td><tr><td bgcolor=#e0e030>If you haven't heard it elsewhere, the weekly meeting starts at 1200h today.</td></tr></td></table>
+<!-- Author: Phil -->
+
+
+<!-- Date: Thu Jun 12 11:01:42.630 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417>263417</A>
+ Terminated at 2008.06.12 11:01:09
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Jun 12 11:04:02.390 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Thu_Jun_12_2008_Day.110350.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2931  align='top'></a></td><td>Here is the COT2 slide showing that the problem discovered by Alberto in the previous shift is gone indeed, in my earlier entry I made this statement but pu a wrong graph (COT1 instead of COT2, now both without problems)</td></tr></table>
+<!-- Author: Guenakh Mitselmakher -->
+<!-- Comment: Thu Jun 12 11;09;47 comment by...Guenakh Mitselmakher -->
+Apparently I made a mistake in pasting a wrong plot again!
+As SciCo pointed to me the problem (which was found by Alberto in previous shift) was seen in the COT1 slide, layer 2, and I keep posting the COT2 slide.
+Anyway, the main statement I made is correct: pro problem discovered by Alberto is gone...cofirmed by the expert
+I will past the correct slide
+<!-- Date: Thu Jun 12 11:05:02.054 2008 -->
+CMX trip. SW wedges 13-14, sense & field. Turned it back on, started new run.
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263417' target=_top>263417</a>) -->
+<!-- Comment: Thu Jun 12 11;20;21 comment by...Jacob -->
+Again
+<!-- Date: Thu Jun 12 11:07:09.709 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263418>263418</A>
+ Activated at 2008.06.12 11:06:38
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 12 11:07:10.335 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263418>263418</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [7,1094,721] 
+<!-- Author: Jacob -->
+
+
+
+
+<!-- Date: Thu Jun 12 11:15:14.098 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Thu_Jun_12_2008_Day.111509.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2933  align='top'></a></td><td>here is finally (I hope) the correct slide, showing that indeed the problem discivered in the previous shift 
+(COT slide 1, layer2) is gone 
+Now both slides COT1 and COT 2 are without problems 
+Confirmed by the expert</td></tr></table>
+<!-- Author: Guenakh Mitselmakher -->
+
+<!-- Date: Thu Jun 12 11:17:20.054 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263418>263418</A>
+ Terminated at 2008.06.12 11:16:51
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Jun 12 11:22:59.107 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263419>263419</A>
+TERMINATE: didn't start
+<!-- Author: Jacob -->
+<!-- Comment: Thu Jun 12 11;32;06 comment by...Jacob -->
+b0svx09 got stuck
+<!-- Date: Thu Jun 12 11:26:42.154 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+ Activated at 2008.06.12 11:26:24
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 12 11:26:43.398 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [7,1094,721] 
+<!-- Author: Jacob -->
+
+
+
+
+
+
+<!-- Date: Thu Jun 12 11:43:04.690 2008 -->
+ Done TO. for crate/s:  
+    b0pcal11    
+ 
+Shepherded.
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420' target=_top>263420</a>) -->
+
+
+<!-- Date: Thu Jun 12 11:46:00.300 2008 -->
+<pre>About reinitialization of TDC: 
+  
+  If the fix of the dead channels in b0cot03 slot 8 requires reinitialization of TDC: restart the run, HRR probably wont work. 
+ 
+  I noticed that b0cot03 has been HRR during run 263415, but didnt  
+seem to solve the dead channel problem in TDC of b0cot03 slot8. 
+ 
+  According to an old email by Ronald Moore, "The TDC does not get (re)initialized during HRR". </pre>
+<!-- Author: Shin-Shan Yu (Eiko) -->
+<!-- Comment: Thu Jun 12 12;10;35 comment by...ronmoore -->
+That is correct - HRR does NOT reinitialize a TDC.
+<!-- Date: Thu Jun 12 11:59:08.537 2008 -->
+<pre>The HV readings for wedge 22-W for both CHA and CEM are 
+fluctuating within +-14V (for some channels at least) and 
+either can not be set to the correct value or the reading is  
+unreliable. This behavior shows up during the last 3-4 days and 
+it gradually gets worse (more channels showing up as unstable).  
+Since both detectors are fed from the same pisabox crate  
+it is likely the controller card on the crate is misbehaving.  
+We'll watch it and if the behavior continues we'll put an access 
+request to replace the card.   </pre>
+<!-- Author: Fotis :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420' target=_top>263420</a>) -->
+
+
+<!-- Date: Thu Jun 12 12:00:32.253 2008 -->
+TrigMon stopped. Restarted
+<!-- Author: Guenakh Mitselmakher :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420' target=_top>263420</a>) -->
+
+
+<!-- Date: Thu Jun 12 12:05:04.026 2008 -->
+MCR called.  They are going to move the IP at D0 again.  He confirmed that the procedure is the same as yesterday.  I told him that we are going to keep running and will watch the losses. 
+<!-- Author: KPitts -->
+
+
+
+<!-- Date: Thu Jun 12 12:21:10.984 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Thu_Jun_12_2008_Day.122041.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2935  align='top'></a></td><td>Hot channels in WHA</td></tr></table>
+<!-- Author: Guenakh Mitselmakher -->
+<!-- Comment: Thu Jun 12 14;36;24 comment by...Fotis  -->
+Also this WHA 5W-11L(1) channel is showing up noisy only for the low threshold plots. 
+Similar behavior has been observed in the past and went away.  No problem.   
+<!-- Date: Thu Jun 12 12:26:08.943 2008 -->
+MCR called.  IP move complete.  We kept running and never saw any change in losses.
+<!-- Author: KPitts -->
+
+<!-- Date: Thu Jun 12 12:32:18.788 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+cal: <tt>Isolated hot channels in WHA</tt>
+<!-- Author: Consumer Operator( mitselmakher) -->
+
+
+<!-- Date: Thu Jun 12 12:32:19.295 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+muons: <tt>Noise in IMU West as before (now on the Fixed list, still mark BAD)</tt>
+<!-- Author: Consumer Operator( mitselmakher) -->
+
+
+<!-- Date: Thu Jun 12 12:32:20.315 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+trigger: <tt>TrigMon started later (see elog), statistics in some plots is still small</tt>
+<!-- Author: Consumer Operator( mitselmakher) -->
+
+
+
+<!-- Date: Thu Jun 12 12:37:34.797 2008 -->
+<pre>I'm sitting in for Kevin for a bit 
+- d0 IP move is complete 
+- tried out the signal for E:CDFHV 
+- silis declined opportunity for d-mode </pre>
+<!-- Author: Phil Schlabach -->
+<!-- Comment: Thu Jun 12 12;46;52 comment by...Phil -->
+Sasha S. wants to tweak silicon HV and then start a new run. I put him off until 1430h. The store should last until about 1600-1700h.
+
+
+<!-- Comment: Thu Jun 12 13;47;20 comment by...Phil -->
+Tom W. mentions promoted the trigger table <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2008&action=view&page=490&frame=2&anchor=08:08:13.570'>
+tested this morning</a>. He went away to look at the results. This could possibly be done when silicon HV changes.
+<!-- Comment: Thu Jun 12 14;45;51 comment by...KPitts -->
+special thanks to Phil for serving as special guest scico for two consecutive days!
+<!-- Date: Thu Jun 12 13:09:46.868 2008 -->
+Dee informs me we have an animal control problem:  roads and grounds are on their way
+<!-- Author: Phil -->
+<!-- Comment: Thu Jun 12 13;14;57 comment by...phil -->
+no no, the executive board meeting hasn't gotten out of hand (not that I know of); the problem is at the trailers
+
+
+<!-- Date: Thu Jun 12 13:36:08.824 2008 -->
+CMX trip. NE wedge 21, sense & field. Turned it back on.
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420' target=_top>263420</a>) -->
+
+
+
+<!-- Date: Thu Jun 12 13:52:15.744 2008 -->
+stacking is kaput right now - MI injection kicker problems (1330h). We have 260e10 pbars as of now.
+<!-- Author: Phil -->
+
+
+<!-- Date: Thu Jun 12 14:40:09.653 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+cal: <tt>One hot WHA tower observed eralier is still there.</tt>
+<!-- Author: Consumer Operator( sergo) -->
+
+
+<!-- Date: Thu Jun 12 14:40:10.545 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+muons: <tt>Still noise in IMU West, marked BAD</tt>
+<!-- Author: Consumer Operator( sergo) -->
+
+
+<!-- Date: Thu Jun 12 14:40:11.136 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+general: <tt>Checklist done, OK</tt>
+<!-- Author: Consumer Operator( sergo) -->
+<!-- Comment: Thu Jun 12 14;42;24 comment by...Guenakh Mitselmakher -->
+Checklist started by Sergo and finished by Guenakh, Thanks a lot to Sergo for help! (I had to leave for couple of hours)
+
+
+
+<!-- Date: Thu Jun 12 14:44:06.302 2008 -->
+CHA global alarm box yellow. 
+The following CHA PMTs flashing red: 
+(-7,22L);(-6,22R&L);(-5,22R&L);(-4,22R);(-3,22L);(-2,22R);(-1,22R&L);(0,22R&L)
+<!-- Author: Jacob :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420' target=_top>263420</a>) -->
+<!-- Comment: Thu Jun 12 14;59;10 comment by...KPitts -->
+paged the pager.  Steve Hahn is investigating.
+
+
+
+<!-- Date: Thu Jun 12 15:18:14.401 2008 -->
+<p>Reset HVs for CEM CHA WHA provoked by CHA turning yellow 
+corresponding to many channels red in CHA 22W in PMT display. 
+Had a hard time getting HV to the right values; there may be 
+a problem with this Pisabox.  Will have to keep an eye on it. 
+CHA 22W T1L (LID 587) is especially bad; it drifts every time 
+its read out.  Will consult with Fotis about this.</p>
+<!-- Author: Steve Hahn :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420' target=_top>263420</a>) -->
+<!-- Comment: Thu Jun 12 15;18;56 comment by...Steve Hahn -->
+P.S.: this is not sufficient channels to mark CHA bad for any
+run.
+<!-- Comment: Thu Jun 12 15;24;11 comment by...Fotis  -->
+See earlier comment on the problem for the CHA/CEM 22-W 
+<!-- Comment: Thu Jun 12 15;36;29 comment by...Steve Hahn -->
+Also, forgot to note many bad channels in CEM 22W, also; just not
+enough to turn CEM yellow.
+<!-- Date: Thu Jun 12 15:18:56.855 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263420>263420</A>
+ Terminated at 2008.06.12 15:18:45
+<!-- Author: RunControl -->
+<!-- Comment: Thu Jun 12 15;19;22 comment by...Jacob -->
+testing new L00 HV settings.
+
+<!-- Date: Thu Jun 12 15:23:45.775 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263423>263423</A>
+ Activated at 2008.06.12 15:23:39
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jun 12 15:23:55.623 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263423>263423</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [7,1094,721] 
+<!-- Author: Jacob -->
+
+
+
+
+
+
+<!-- Date: Thu Jun 12 15:55:17.068 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=263415 target=_runSummary>263415</A> x404F7</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1088,721]</FONT></TD>
+<TD ALIGN=CENTER>17:02:18</TD>
+<TD ALIGN=CENTER>07:59:05</TD>
+<TD ALIGN=CENTER>13:39:29</TD>
+<TD ALIGN=RIGHT>   5,456,262</TD>   <TD ALIGN=RIGHT>  5,335.89</TD>
+<TD ALIGN=RIGHT>  4,863.26</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=263417 target=_runSummary>263417</A> x404F9</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1094,721]</FONT></TD>
+<TD ALIGN=CENTER>08:06:45</TD>
+<TD ALIGN=CENTER>11:01:09</TD>
+<TD ALIGN=CENTER>02:44:10</TD>
+<TD ALIGN=RIGHT>     772,104</TD>   <TD ALIGN=RIGHT>    529.86</TD>
+<TD ALIGN=RIGHT>    497.11</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=263418 target=_runSummary>263418</A> x404FA</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1094,721]</FONT></TD>
+<TD ALIGN=CENTER>11:06:38</TD>
+<TD ALIGN=CENTER>11:16:51</TD>
+<TD ALIGN=CENTER>00:08:57</TD>
+<TD ALIGN=RIGHT>      29,968</TD>   <TD ALIGN=RIGHT>     29.80</TD>
+<TD ALIGN=RIGHT>     25.03</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=263420 target=_runSummary>263420</A> x404FC</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1094,721]</FONT></TD>
+<TD ALIGN=CENTER>11:26:24</TD>
+<TD ALIGN=CENTER>15:18:45</TD>
+<TD ALIGN=CENTER>03:42:00</TD>
+<TD ALIGN=RIGHT>   1,020,165</TD>   <TD ALIGN=RIGHT>    586.28</TD>
+<TD ALIGN=RIGHT>    557.68</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=263423 target=_runSummary>263423</A> x404FF</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1094,721]</FONT></TD>
+<TD ALIGN=CENTER>15:23:39</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>00:29:39</TD>
+<TD ALIGN=RIGHT>     115,847</TD>   <TD ALIGN=RIGHT>     67.18</TD>
+<TD ALIGN=RIGHT>     64.51</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>20:44:17</TD>
+<TD ALIGN=RIGHT>     7,394,346</TD> <TD ALIGN=RIGHT>  6,549.01</TD>
+<TD ALIGN=RIGHT>  6,007.58</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Thu Jun 12 15:56:29.841 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263059>263059</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=263059 target=_runSummary>263059</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Jun 12 15:56:44.008 2008 -->
+Done TO for pcal07. Twice or three times. Shepherded crate. Back running. 
+<!-- Author: Donatella :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=263423' target=_top>263423</a>) -->
+
+
+<!-- Date: Thu Jun 12 16:03:50.080 2008 -->
+<font color=red>Shift Summary: </font><pre> 
+Day Shift Notes 
+ 
+1) b0 lum 54E30cm-2s-1 
+ 
+2) Pedro doing a trigger test 
+ 
+3) went back through recent runs and marked IMU good. 
+ 
+4) COT dead cells in SL8 recovered when new run started. 
+ 
+5) D0 IP moved 
+ 
+6) silicon changed HV settings. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   263415-423
+Delivered Luminosity   1294  
+Acquired Luminosity    1155  
+Efficiency             89.3
+   
+</td></tr></table></pre>
+<!-- Author: Sunil Somalwar (finishing for Kevin Pitts) -->

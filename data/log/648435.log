@@ -1,0 +1,405 @@
+<!-- Title: 09:06:41  Tue Sep 12 2000 -->
+<!-- Crewchief: R.J. Tesarek -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>Begin New week</pre>
+
+
+<!-- Date: Tue Sep 12 11:50:15 2000 -->
+<pre><br><center><H1>Checkout after Power Returns</H1></center> 
+<br><b>Endwall Crates:</b> 
+<br> The HV is off for all these tests. 
+<pre> 
+tmp/b0wcal00.tmp: ### Crate: b0wcal00 -- Pedestal problem(s)  
+tmp/b0wcal01.tmp: ### Crate: b0wcal01 -- All ok! 
+tmp/b0wcal02.tmp: ### Crate: b0wcal02 -- All ok! 
+tmp/b0wcal03.tmp: ### Crate: b0wcal03 -- All ok! 
+tmp/b0wcal04.tmp: ### Crate: b0wcal04 -- All ok! 
+tmp/b0wcal05.tmp: ### Crate: b0wcal05 -- All ok! 
+tmp/b0wcal06.tmp: ### Crate: b0wcal06 -- All ok! 
+tmp/b0wcal07.tmp: ### Crate: b0wcal07 -- All ok! 
+</pre> 
+The problem found in wcal00 is a sticky CAPID 
+<pre> 
+ ADMEM  QIE  CAP #EVENTS AVE_RANGE  MEAN   RMS  
+   17    4    0    1001   0.0      185.7   6.2 
+   17    4    1     999   0.0      183.2   1.4 
+   17    4    2    1000   0.0      188.3   1.4 
+   17    4    3    1000   0.0      193.7   1.5 
+ </pre> 
+The problem vanishes on checking the crate a second time. 
+<br></pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Tue Sep 12 11:54:43 2000 -->
+<h2>Checkout of Central Crates after Detector Move: </h2> 
+<pre> 
+tmp/b0ccal00.tmp: ### Crate: b0ccal00 -- All ok! 
+tmp/b0ccal01.tmp: ### Crate: b0ccal01 -- All ok! 
+tmp/b0ccal02.tmp: ### Crate: b0ccal02 -- All ok! 
+tmp/b0ccal03.tmp: ### Crate: b0ccal03 -- All ok! 
+tmp/b0ccal04.tmp: ### Crate: b0ccal04 -- All ok! 
+tmp/b0ccal05.tmp: ### Crate: b0ccal05 -- All ok! 
+tmp/b0ccal06.tmp: ### Crate: b0ccal06 -- All ok! 
+tmp/b0ccal07.tmp: ### Crate: b0ccal07 -- All ok! 
+tmp/b0ccal08.tmp: ### Crate: b0ccal08 -- All ok! 
+tmp/b0ccal09.tmp: ### Crate: b0ccal09 -- All ok! 
+tmp/b0ccal10.tmp: ### Crate: b0ccal10 -- All ok! 
+tmp/b0ccal11.tmp: ### Crate: b0ccal11 -- Pedestal problem(s)  
+tmp/b0ccal12.tmp: ### Crate: b0ccal12 -- All ok! 
+tmp/b0ccal13.tmp: ### Crate: b0ccal13 -- All ok! 
+tmp/b0ccal14.tmp: ### Crate: b0ccal14 -- All ok! 
+ 
+</pre> 
+<br>The ped problem in ccal11 is a known short which hasn't been fixed. 
+I checked this one by hand: All ok! 
+ 
+<p> Taking ped distributions before HV is turned on to PMTs.
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Tue Sep 12 12:11:44 2000 -->
+<br><b>Turning on HV for Central and Endwall:</b> 
+<br>While turning on HV for Central and Endwall calorimeters, 
+found that no current was delivered by the Gamma HV supply for the CEM in the NW arch.  All else appears ok. 
+<br>
+<!-- Author: R.Erbacher, R.J. Tesarek -->
+<!-- Comment: Tue Sep 12 21;02;39 comment by...N.L.,  RDE -->
+Nikolai and I looked at it.  Noticed that it was on "remote" so it wouldn't ramp up locally and also the HV cable was unplugged in the back.  Wish all probs were this easy to fix.  :\
+
+
+<!-- Date: Wed Sep 13 09:09:59 2000 -->
+<br><b>PEI fault, b0wcal07:</b> 
+<br>Fault on V5 (-5.2V) power.  Reset.  
+<br>  
+<br><i>Note:  We should now pay special attention to Power Supply  
+Faults.  Please make a note and try to discover the cause.</i> 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Wed Sep 13 09:47:54 2000 -->
+<br><b>Blown fuse, b0ccal14:</b> 
+<br>The morning qie calibration found self calibration problems 
+for b0ccal14 (unspecified slot by word of mouth communication). 
+Tracked problem down to blown F6 fuse (-5.2V).  Replaced fuse and 
+reseated ADMEM.  Fuse blew a second time. The second blown fuse was probably due to bad seating of ADMEM since top ejector clip. 
+Replaced fuse again and ensured a good seating for the ADMEM. 
+All appears ok now. 
+<br>  
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Thu Sep 14 15;09;43 comment by...R.J. Tesarek -->
+Fuse F6 corresponds to the -15V and *NOT* -5.2V.
+<!-- Date: Wed Sep 13 13:52:04 2000 -->
+<br><b>b0wcal00 problems:</b> 
+<br>Myriad problems with this crate today.  First blown fuses 
+multiple times for ADMEM in slot 19 (V6, -5.2V).  Eventually  replaced ADMEM.  Configured ADMEM for WHA and loaded Et weight.  Also sticky CAPID problems become more persistent for ADMEM slot=17, chan=4.  Replace CAFE card.  All appears ok now.  Below is the new crate map. 
+<pre> 
+ In Slot2   IDPROM = 0137 001 TRACER__V2.1A           
+ 
+ In Slot16   IDPROM = 0207 003 ADMEM_V4.0          470 
+ In Slot17   IDPROM = 0090 003 ADMEM_V4.0          470 
+ In Slot18   IDPROM = 0111 003 ADMEM_V4.0          470 
+ In Slot19   IDPROM = 0165 003 ADMEM_V4.0          470 
+ In Slot20   IDPROM = 0128 003 ADMEM_V4.0          470 
+ In Slot21   IDPROM = 0121 003 ADMEM_V4.0          470 
+ 
+QIE ID table: 
+QIE    ADMEM: 16      17      18      19      20      21      
+  0          3706    2139    2202    4129    2223    5141 
+  1           254    2154    2405    6008    2259    2283 
+  2           630    2415    2333    6203     416    2495 
+  3           503    2444     483    6259    2370    4805 
+  4           509    1741    2180    6037    2501    6352 
+  5           436    2193     348    5883    2452    2217 
+  6           241     306     219    1724    3111    2292 
+  7          3885    2150    2323    1782    2476    2423 
+  8           582    2253     455    6184    2186    2496 
+  9           621     293    2302    5863    2537    2256 
+ 10           460    2361    2335    6120    2284    2376 
+ 11           422    2498     392    5007    2445    2500 
+</pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Thu Sep 14 14:49:11 2000 -->
+<pre><br><b>Power Outage recovery:</b> 
+<pre> 
+tmp/b0wcal00.tmp: ### Crate: b0wcal00 -- All ok! 
+tmp/b0wcal01.tmp: ### Crate: b0wcal01 -- All ok! 
+tmp/b0wcal02.tmp: ### Crate: b0wcal02 -- Calibration problem(s)  
+tmp/b0wcal03.tmp: ### Crate: b0wcal03 -- All ok! 
+tmp/b0wcal04.tmp: ### Crate: b0wcal04 -- All ok! 
+tmp/b0wcal05.tmp: ### Crate: b0wcal05 -- All ok! 
+tmp/b0wcal06.tmp: ### Crate: b0wcal06 -- All ok! 
+tmp/b0wcal07.tmp: ### Crate: b0wcal07 -- All ok! 
+ 
+tmp/b0ccal00.tmp: ### Crate: b0ccal00 -- All ok! 
+tmp/b0ccal01.tmp: ### Crate: b0ccal01 -- All ok! 
+tmp/b0ccal02.tmp: ### Crate: b0ccal02 -- All ok! 
+tmp/b0ccal03.tmp: ### Crate: b0ccal03 -- Pedestal problem(s)  
+tmp/b0ccal04.tmp: ### Crate: b0ccal04 -- All ok! 
+tmp/b0ccal05.tmp: ### Crate: b0ccal05 -- All ok! 
+tmp/b0ccal06.tmp: ### Crate: b0ccal06 -- All ok! 
+tmp/b0ccal07.tmp: ### Crate: b0ccal07 -- All ok! 
+tmp/b0ccal08.tmp: ### Crate: b0ccal08 -- All ok! 
+tmp/b0ccal09.tmp: ### Crate: b0ccal09 -- All ok! 
+tmp/b0ccal10.tmp: ### Crate: b0ccal10 -- All ok! 
+tmp/b0ccal11.tmp: ### Crate: b0ccal11 -- Pedestal problem(s)  
+tmp/b0ccal12.tmp: ### Crate: b0ccal12 -- All ok! 
+tmp/b0ccal13.tmp: ### Crate: b0ccal13 -- All ok! 
+tmp/b0ccal14.tmp: ### Crate: b0ccal14 -- All ok! 
+tmp/b0ccal15.tmp: ### Crate: b0ccal15 -- All ok! 
+ 
+tmp/b0pcal00.tmp: ### Crate: b0pcal00 -- Pedestal problem(s)  
+tmp/b0pcal01.tmp: ### Crate: b0pcal01 -- All ok! 
+tmp/b0pcal02.tmp: ### Crate: b0pcal02 -- Pedestal problem(s)  
+tmp/b0pcal03.tmp: ### Crate: b0pcal03 -- All ok! 
+tmp/b0pcal04.tmp: ### Crate: b0pcal04 -- All ok! 
+tmp/b0pcal05.tmp: ### Crate: b0pcal05 -- All ok! 
+tmp/b0pcal06.tmp: ### Crate: b0pcal06 -- All ok! 
+tmp/b0pcal07.tmp: ### Crate: b0pcal07 -- Pedestal problem(s)  
+tmp/b0pcal08.tmp: ### Crate: b0pcal08 -- All ok! 
+tmp/b0pcal09.tmp: ### Crate: b0pcal09 -- All ok! 
+tmp/b0pcal10.tmp: ### Crate: b0pcal10 -- All ok! 
+tmp/b0pcal11.tmp: ### Crate: b0pcal11 -- All ok! 
+ 
+</pre> 
+The problems with b0wcal02 are: 
+<pre> 
+*******************   Start of FAILURE messages   ************** VALUE    CAP RANGE** 
+* ADMEM=17 QIE= 7 Failure 14: Sigma(offset) too big          (    5.4387) ( 0) ( 7) * 
+* ADMEM=18 QIE= 5 Failure 14: Sigma(offset) too big          (    5.5472) ( 0) ( 6) * 
+*******************   End of FAILURE messages   ************************************* 
+</pre></pre>
+<!-- Author: R.Erbacher, R.J. Tesarek -->
+
+
+<!-- Date: Thu Sep 14 15:08:27 2000 -->
+<br><b>b0wcal02:  </b> 
+<br>Re-ran ckcrate for this crate multiple times and found no 
+problem with the channels flagged in the original check.  
+<br>  
+<br><i>We need to watch this for problems in the future.</i> 
+<br>  
+<!-- Author: R.J. Tesarek -->
+
+
+
+<!-- Date: Thu Sep 14 15:27:41 2000 -->
+<pre><br><b>b0ccal03, pedestal problems:</b> 
+<br>It looks like we have a serious problem with one channel after the power outage.   
+<pre> 
+ ADMEM  QIE  CAP #EVENTS AVE_RANGE  MEAN   RMS  
+   18    9    0    1000   0.0      241.0  17.7 
+   18    9    1    1000   0.0      237.4  17.9 
+   18    9    2    1000   0.0      240.1  18.2 
+   18    9    3    1000   0.0      240.2  18.3 
+</pre> 
+Below is the raw pedestal distribution.   
+<br></pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Thu Sep 14 15:30:34 2000 -->
+<table><tr><td><a href=/elog/notebooks/wedge/Thu_Sep_14_2000_153031.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Figure 1:  Raw pedestal distributions for crate b0ccal03, ADMEM slot=18, channels=8-11.  Note the wide pedestal  distribution for (18,9).  Closer inspection indicates that  the distribution is basically symmetric.</a></td></tr></table>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Thu Sep 14 17:35:02 2000 -->
+<pre><br><b>b0ccal03:</b> 
+<br>Problems with the wide pedestal distribution for ADMEM slot=18, chan=9 do not seem to be associated with the PMT.   
+The dark current for the PMT is 30-50pA.  Move down stream. 
+<br></pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Thu Sep 14 17:42:52 2000 -->
+<br><b>b0wcal00:</b> 
+<br>Checked the trigger outputs for the admem in slot 19 which Rick  
+replaced yesterday.  Thumbs up.  
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Thu Sep 14 18:00:43 2000 -->
+<br><b>b0ccal03, wedge 10:</b>  
+<br>I think I've found the problem with CEM 10E-5L.  The dark 
+<br>current is 4-5nA compared with 40-50pA for other PMTs. 
+<br> A note will be sent to Bob Wagner. 
+<br>
+<!-- Author: R.J. Tesarek -->
+<!-- Comment: Thu Sep 28 10;30;17 comment by...R.J. Tesarek -->
+This is really 10W-5L
+<!-- Date: Fri Sep 15 09:53:54 2000 -->
+<pre><br><b>b0wcal02, PEI Fault:</b> 
+<br>Discovered a fault on V4 (+5V analog).  Reset. 
+<br></pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Sat Sep 16 10:11:46 2000 -->
+<br><b>HADASD installation:</b> 
+<br> Instrumented wedges 15-17 in the CHA and WHA with HADASDs.  Below is a table detailing which modules went where. 
+<pre> 
+                       serial    FNAL 
+  Crate  slot  wedges  number  prop ID 
+ --------------------------------------- 
+  wcal06  13   15-17     --     565561 
+  wcal02  13   15-17     --     565545 
+ --------------------------------------- 
+  ccal03  13   15-17     --     565544 
+  ccal05  13   15-17    2403    565546 
+ --------------------------------------- 
+  pcal10  10   15-17     --     565556 
+  pcal04  10   15-17     --     565560 
+</pre>
+<!-- Author: P.J. Wilson, R.J. Tesarek -->
+
+
+<!-- Date: Sat Sep 16 15:15:12 2000 -->
+<br><b>b0ccal11, shorted channel:</b> 
+<br>Worked on the cable for ADMEM slot=18,chan=18 (PMT CEM-10E9L).   Found that the cable was shorted several feet from the transition board end.  Clipped the cable and installed a new 32ns, RG-174 cable along the same route as the previous cable, but *NOT* in the zipper tube.   Run our standard check to find:  
+<pre> 
+ ############################## 
+ ### Crate: b0ccal11 -- All ok! 
+ ############################## 
+</pre> 
+This should be the last short in the central detector. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Sat Sep 16 19:32:33 2000 -->
+<br><b>b0ccal12:</b> 
+<br>Checked the trigger outputs for slots 16 and 17 because of 
+flakey data from before.  All verified correctly with expected slopes for slot 16. 
+However, for slot 17, sum output 2 (8-11) I found that bit 8 (at least) was stuck.  Swapped cables, loaded table, etc many times 
+but still the same.  Here is a sample of the output: 
+<pre> 
+ 
+QIEs 8 11 131  
+        0        0        0        0              0       0    0    0    0    0 1023 1023 1023  
+      183      161      165      174             64       0    0   10    0    0 1023 1023 1023  
+      406      382      391      401            128       0    0   28    0    0 1023 1023 1023  
+      627      605      613      621            192       0    0   44    0    0 1023 1023 1023  
+      853      826      834      847            256       0    0   64    0    0 1023 1023 1023  
+     1074     1055     1058     1066            320       0    0   82    0    0 1023 1023 1023  
+     1293     1277     1284     1293            384       0    0  100    0    0 1023 1023 1019  
+     1522     1505     1505     1518            448       0    0  118    0    0 1023 1023 1023  
+     1743     1728     1726     1740            512       0    0  136    0    0 1023 1023 1023  
+     1973     1946     1959     1967            576       0    0  154    0    0 1023 1023 1023  
+     2194     2176     2181     2190            640       0    0  172    0    0 1023 1023 1023  
+     2417     2402     2400     2411            704       0    0  190    0    0 1023 1023 1023  
+     2644     2627     2625     2647            768       0    0  208    0    0 1023 1023 1023  
+     2872     2846     2856     2864            832       0    0  226    0    0 1023 1023 1023  
+     3093     3069     3070     3082            896       0    0  244    0    0 1023 1023 1023  
+     3313     3288     3293     3308            960       0    0    6    0    0 1023 1023 1023  
+     3538     3523     3524     3533           1024       0    0   24    0    0 1023 1023 1023  
+     3767     3742     3743     3759           1088       0    0   42    0    0 1023 1023 1023  
+     3988     3968     3970     3977           1152       0    0   60    0    0 1023 1023 1023  
+     4209     4191     4184     4198           1216       0    0   78    0    0 1023 1023 1023  
+     4433     4410     4419     4428           1280       0    0   96    0    0 1023 1023 1023  
+     4658     4633     4638     4658           1344       0    0  114    0    0 1023 1023 1023  
+     4879     4864     4865     4876           1408       0    0  132    0    0 1023 1023 1023  
+     5112     5087     5092     5105           1472       0    0  150    0    0 1023 1023 1023  
+     5328     5306     5315     5319           1536       0    0  168    0    0 1023 1023 1023  
+     5557     5541     5542     5545           1600       0    0  187    0    0 1023 1023 1019  
+     5778     5760     5760     5779           1664       0    0  205    0    0 1023 1023 1023  
+     6003     5982     5991     6004           1728       0    0  222    0    0 1023 1023 1019  
+     6232     6217     6210     6218           1792       0    0  241    0    0 1023 1023 1023  
+     6463     6423     6450     6467           1856       0    0    3    0    0 1023 1023 1023  
+     6679     6654     6668     6676           1920       0    0   21    0    0 1023 1023 1019  
+</pre> 
+<p>Remove admem 80 and replace it.  Checked peds and calibrated: 
+all ok.  Configured and downloaded Et table.  <b>HOWEVER,</b> 
+when I tested the trigger outputs I had the <i>same problem</i>! 
+<p>I removed the TSCR 1 and put in a new one.  All is ok. 
+I put back in admem 80 into slot 17 since it was actually  
+a TSCR problem and not a board problem.  All fuses are ok on the TSCR, so it's a stuck bit there.  Ugh.  What a waste of time!   
+ 
+  
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Sat Sep 16 20:34:49 2000 -->
+<br><b>b0ccal14:</b> 
+<br>While looking at some of the trigger outputs in ccal14, I somehow 
+managed to blow an F6 in slot 19.  Not sure how, because I powered off to insert the TSCR and powered back on.  Could it be while I was plugging in L1 cables to the first output on 19? (Only one I did on that admem).
+<!-- Author: RDE -->
+<!-- Comment: Sat Sep 16 20;53;14 comment by...R. Erbacher -->
+<br><i>The -15V F6 fuse blew 2 more times after I inserted the board into slot 19 and then powered on.  I am positive it was well-seated both times before power-on.  The 4th time I removed 
+the TSCR from slot 4 before powering on and the fuse remained intact.  I cycled the power a few times, and all was ok.  I powered off, re-inserted the TSCR, and powered back on.  All seemed ok then.</i>
+
+
+<!-- Date: Sun Sep 17 14:09:47 2000 -->
+<br><b>Trigger Outputs:</b> 
+<p>In the last few days I was able to re-test various trigger outputs 
+on different admems for which I had old or confusing data.  I gathered the data and checked to make sure the sums were weighted 
+correctly.  I for some reason had no data for ccal06, ccal07, ccal14, or ccal15 except where boards had been replaced.  I had  
+checked these crates back in March, but likely did so before I took to saving the data output.  I sampled data from these crates, as well as from particular boards in wcal03, wcal07, ccal12, ccal13, and ccal10.   
+<p>The only real problem I found with the weighting was in wcal01 which appeared to have the wrong weighting in several of the admems.  I reconfigured the whole crate and downloaded the Et table, and then I gathered data on each of the admems this morning. 
+ 
+<p>I have just now cranked through all the new data files and found that everybody looks happy: all are weighted correctly wrt 
+each other.  I'm now finished, and the doors close in an hour, so hurray!
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Mon Sep 18 11:25:57 2000 -->
+<pre><br><b>b0wcal06,07; blown fuses?</b> 
+<br>Today we had trouble calibrating crates b0wcal06,07.  The calibration gives a self calibration failure for the entire crate.  However, on further investigation, I learn the following: 
+<ol> 
+  <li>Taking pedestals for the entire crate gives a self calibration failure in qietest.</li> 
+  <li>Taking pedestals for one ADMEM at a time gives only problems with a single admem. 
+     <pre> 
+             crate     Slot 
+             ---------------- 
+              wcal06     20 
+              wcal07     16 
+     </pre> 
+  </li> 
+</ol> 
+<i>These problems need to be addressed at the first available controlled access.</i> 
+<br> 
+</pre>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Tue Sep 19 22:58:39 2000 -->
+<br><b>b0ccal14, blown fuse:</b> 
+<br>ADMEM in slot 19 appears to have a blown fuse (probably -15V).  This needs to be addressed during the first access. 
+<br>
+<!-- Author: R.J. Tesarek -->
+
+
+<!-- Date: Fri Sep 22 07:49:31 2000 -->
+<br><b>Mapping channels in the DAQ:</b> 
+<br>Below is a summary of data taken on 8/24 using a pulser feeding a single channel at a time.  The DAQ triggers on and reads out the individual tower.  The idea here is to determine the correspondence between PMT=0,1 convention used by the DAQ/banks and the R,L convention used on the detector. 
+<pre> 
+                                     |  Event 
+                 Tower       ADMEM   | Display  TRIGSIM    Carla         YMON 
+Run #   cal   eta phi pmt  slot chan | eta phi  eta phi  eta phi phi  eta phi phi 
+-------------------------------------+-------------------------------------------- 
+96372   WHA-E  8  20   R    18   4   |  8  20   16  20    8  20   1 
+96373   WHA-E  8  20   L    18   5   |  8  20   16  20    8  20   0 
+-------------------------------------+-------------------------------------------- 
+96379   CEM-E  0  20   R    20   1   |+ 0  20   12  20  + 0  20   0 
+96389   CEM-E  0  20   L    20   0   |+ 0  20   12  20  + 0  20   1 
+-------------------------------------+-------------------------------------------- 
+96398   CHA-E  0  20   R    21   1   |+ 0  20   12  20  + 0  20   0 
+96405   CHA-E  0  20   L    21   0   |+ 0  20   12  20  + 0  20   1 
+-------------------------------------+-------------------------------------------- 
+96416   CEM-W  0  21   R    16   1   |- 0  21   11  21  - 0  21   0 
+96419   CEM-W  0  21   L    16   0   |- 0  21   11  21  - 0  21   1 
+-------------------------------------+-------------------------------------------- 
+96429   CHA-W  0  21   L    17   0   |- 0  21   11  21  - 0  21   1 
+96435   CHA-W  0  21   R    17   1   |- 0  21   11  21  - 0  21   0 
+-------------------------------------+-------------------------------------------- 
+</pre>
+<!-- Author: R.J. Tesarek -->
+

@@ -1,0 +1,460 @@
+commit 481c5346d0981940ee63037eb53e4e37b0735c10
+Author: Christoph Lameter <clameter@sgi.com>
+Date:   Sat Jun 21 16:46:35 2008 -0700
+
+    Slab: Fix memory leak in fallback_alloc()
+    
+    The zonelist patches caused the loop that checks for available
+    objects in permitted zones to not terminate immediately. One object
+    per zone per allocation may be allocated and then abandoned.
+    
+    Break the loop when we have successfully allocated one object.
+    
+    Signed-off-by: Christoph Lameter <clameter@sgi.com>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit 62a8efe632be1815b544845db643f1fcd9afcfb0
+Merge: bec95aa... 2856922...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Jun 21 16:43:56 2008 -0700
+
+    Merge branch 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+    
+    * 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4:
+      Ext4: Fix online resize block group descriptor corruption
+
+commit bec95aab8c056ab490fe7fa54da822938562443d
+Merge: 71c2742... bcccc3a...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Jun 21 12:31:02 2008 -0700
+
+    Merge branch 'release' of git://lm-sensors.org/kernel/mhoffman/hwmon-2.6
+    
+    * 'release' of git://lm-sensors.org/kernel/mhoffman/hwmon-2.6:
+      hwmon: (lm75) sensor reading bugfix
+      hwmon: (abituguru3) update driver detection
+      hwmon: (w83791d) new maintainer
+      hwmon: (abituguru3) Identify Abit AW8D board as such
+      hwmon: Update the sysfs interface documentation
+      hwmon: (adt7473) Initialize max_duty_at_overheat before use
+      hwmon: (lm85) Fix function RANGE_TO_REG()
+
+commit 71c2742f5e6348d76ee62085cf0a13e5eff0f00e
+Author: Bernhard Walle <bwalle@suse.de>
+Date:   Sat Jun 21 19:01:02 2008 +0200
+
+    Add return value to reserve_bootmem_node()
+    
+    This patch changes the function reserve_bootmem_node() from void to int,
+    returning -ENOMEM if the allocation fails.
+    
+    This fixes a build problem on x86 with CONFIG_KEXEC=y and
+    CONFIG_NEED_MULTIPLE_NODES=y
+    
+    Signed-off-by: Bernhard Walle <bwalle@suse.de>
+    Reported-by: Adrian Bunk <bunk@kernel.org>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit a19214430d27a3af6f1672ec26f3c893ef899ede
+Merge: b732d96... b9f75f4...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Jun 21 08:44:08 2008 -0700
+
+    Merge git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-2.6
+    
+    * git://git.kernel.org/pub/scm/linux/kernel/git/davem/net-2.6:
+      netns: Don't receive new packets in a dead network namespace.
+      sctp: Make sure N * sizeof(union sctp_addr) does not overflow.
+      pppoe: warning fix
+      ipv6: Drop packets for loopback address from outside of the box.
+      ipv6: Remove options header when setsockopt's optlen is 0
+      mac80211: detect driver tx bugs
+
+commit b9f75f45a6b46a0ab4eb0857d437a0845871f314
+Author: Eric W. Biederman <ebiederm@xmission.com>
+Date:   Fri Jun 20 22:16:51 2008 -0700
+
+    netns: Don't receive new packets in a dead network namespace.
+    
+    Alexey Dobriyan <adobriyan@gmail.com> writes:
+    > Subject: ICMP sockets destruction vs ICMP packets oops
+    
+    > After icmp_sk_exit() nuked ICMP sockets, we get an interrupt.
+    > icmp_reply() wants ICMP socket.
+    >
+    > Steps to reproduce:
+    >
+    > 	launch shell in new netns
+    > 	move real NIC to netns
+    > 	setup routing
+    > 	ping -i 0
+    > 	exit from shell
+    >
+    > BUG: unable to handle kernel NULL pointer dereference at 0000000000000000
+    > IP: [<ffffffff803fce17>] icmp_sk+0x17/0x30
+    > PGD 17f3cd067 PUD 17f3ce067 PMD 0
+    > Oops: 0000 [1] PREEMPT SMP DEBUG_PAGEALLOC
+    > CPU 0
+    > Modules linked in: usblp usbcore
+    > Pid: 0, comm: swapper Not tainted 2.6.26-rc6-netns-ct #4
+    > RIP: 0010:[<ffffffff803fce17>]  [<ffffffff803fce17>] icmp_sk+0x17/0x30
+    > RSP: 0018:ffffffff8057fc30  EFLAGS: 00010286
+    > RAX: 0000000000000000 RBX: 0000000000000000 RCX: ffff81017c7db900
+    > RDX: 0000000000000034 RSI: ffff81017c7db900 RDI: ffff81017dc41800
+    > RBP: ffffffff8057fc40 R08: 0000000000000001 R09: 000000000000a815
+    > R10: 0000000000000000 R11: 0000000000000001 R12: ffffffff8057fd28
+    > R13: ffffffff8057fd00 R14: ffff81017c7db938 R15: ffff81017dc41800
+    > FS:  0000000000000000(0000) GS:ffffffff80525000(0000) knlGS:0000000000000000
+    > CS:  0010 DS: 0018 ES: 0018 CR0: 000000008005003b
+    > CR2: 0000000000000000 CR3: 000000017fcda000 CR4: 00000000000006e0
+    > DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+    > DR3: 0000000000000000 DR6: 00000000ffff0ff0 DR7: 0000000000000400
+    > Process swapper (pid: 0, threadinfo ffffffff8053a000, task ffffffff804fa4a0)
+    > Stack:  0000000000000000 ffff81017c7db900 ffffffff8057fcf0 ffffffff803fcfe4
+    >  ffffffff804faa38 0000000000000246 0000000000005a40 0000000000000246
+    >  000000000001ffff ffff81017dd68dc0 0000000000005a40 0000000055342436
+    > Call Trace:
+    >  <IRQ>  [<ffffffff803fcfe4>] icmp_reply+0x44/0x1e0
+    >  [<ffffffff803d3a0a>] ? ip_route_input+0x23a/0x1360
+    >  [<ffffffff803fd645>] icmp_echo+0x65/0x70
+    >  [<ffffffff803fd300>] icmp_rcv+0x180/0x1b0
+    >  [<ffffffff803d6d84>] ip_local_deliver+0xf4/0x1f0
+    >  [<ffffffff803d71bb>] ip_rcv+0x33b/0x650
+    >  [<ffffffff803bb16a>] netif_receive_skb+0x27a/0x340
+    >  [<ffffffff803be57d>] process_backlog+0x9d/0x100
+    >  [<ffffffff803bdd4d>] net_rx_action+0x18d/0x250
+    >  [<ffffffff80237be5>] __do_softirq+0x75/0x100
+    >  [<ffffffff8020c97c>] call_softirq+0x1c/0x30
+    >  [<ffffffff8020f085>] do_softirq+0x65/0xa0
+    >  [<ffffffff80237af7>] irq_exit+0x97/0xa0
+    >  [<ffffffff8020f198>] do_IRQ+0xa8/0x130
+    >  [<ffffffff80212ee0>] ? mwait_idle+0x0/0x60
+    >  [<ffffffff8020bc46>] ret_from_intr+0x0/0xf
+    >  <EOI>  [<ffffffff80212f2c>] ? mwait_idle+0x4c/0x60
+    >  [<ffffffff80212f23>] ? mwait_idle+0x43/0x60
+    >  [<ffffffff8020a217>] ? cpu_idle+0x57/0xa0
+    >  [<ffffffff8040f380>] ? rest_init+0x70/0x80
+    > Code: 10 5b 41 5c 41 5d 41 5e c9 c3 66 2e 0f 1f 84 00 00 00 00 00 55 48 89 e5 53
+    > 48 83 ec 08 48 8b 9f 78 01 00 00 e8 2b c7 f1 ff 89 c0 <48> 8b 04 c3 48 83 c4 08
+    > 5b c9 c3 66 66 66 66 66 2e 0f 1f 84 00
+    > RIP  [<ffffffff803fce17>] icmp_sk+0x17/0x30
+    >  RSP <ffffffff8057fc30>
+    > CR2: 0000000000000000
+    > ---[ end trace ea161157b76b33e8 ]---
+    > Kernel panic - not syncing: Aiee, killing interrupt handler!
+    
+    Receiving packets while we are cleaning up a network namespace is a
+    racy proposition. It is possible when the packet arrives that we have
+    removed some but not all of the state we need to fully process it.  We
+    have the choice of either playing wack-a-mole with the cleanup routines
+    or simply dropping packets when we don't have a network namespace to
+    handle them.
+    
+    Since the check looks inexpensive in netif_receive_skb let's just
+    drop the incoming packets.
+    
+    Signed-off-by: Eric W. Biederman <ebiederm@xmission.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 735ce972fbc8a65fb17788debd7bbe7b4383cc62
+Author: David S. Miller <davem@davemloft.net>
+Date:   Fri Jun 20 22:04:34 2008 -0700
+
+    sctp: Make sure N * sizeof(union sctp_addr) does not overflow.
+    
+    As noticed by Gabriel Campana, the kmalloc() length arg
+    passed in by sctp_getsockopt_local_addrs_old() can overflow
+    if ->addr_num is large enough.
+    
+    Therefore, enforce an appropriate limit.
+    
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit 2645a3c3761ac25498db2e627271016c849c68e1
+Author: Stephen Hemminger <shemminger@vyatta.com>
+Date:   Fri Jun 20 21:58:02 2008 -0700
+
+    pppoe: warning fix
+    
+    Fix warning:
+    drivers/net/pppoe.c: In function 'pppoe_recvmsg':
+    drivers/net/pppoe.c:945: warning: comparison of distinct pointer types lacks a cast
+    because skb->len is unsigned int and total_len is size_t
+    
+    Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit b732d9680b7a2968823851f1163507ad9c45c8cb
+Merge: a744e01... e0c6d97...
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Fri Jun 20 17:10:04 2008 -0700
+
+    Merge branch 'release' of git://git.kernel.org/pub/scm/linux/kernel/git/aegl/linux-2.6
+    
+    * 'release' of git://git.kernel.org/pub/scm/linux/kernel/git/aegl/linux-2.6:
+      [IA64] SN2: security hole in sn2_ptc_proc_write
+
+commit a744e0160ac5804b763449aa34d3991dc21af0be
+Author: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+Date:   Sat Jun 21 03:28:54 2008 +0400
+
+    alpha: resurrect Cypress IDE quirk
+    
+    Which was removed in the hope that generic legacy IDE quirk in
+    drivers/pci/probe.c is sufficient for Cypress IDE.
+    It isn't, as this controller has non-standard BAR layout:
+    secondary channel registers are in the BAR0-1 of the second
+    PCI function - not in the BAR2-3 of the same function, as the
+    generic quirk routine assumes.
+    
+    Signed-off-by: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit d559d4a24a3fed75bd890abcc1f95cd8d8dad6e1
+Author: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+Date:   Sat Jun 21 03:28:31 2008 +0400
+
+    alpha: fix compile failures with gcc-4.3 (bug #10438)
+    
+    Vast majority of these build failures are gcc-4.3 warnings
+    about static functions and objects being referenced from
+    non-static (read: "extern inline") functions, in conjunction
+    with our -Werror.
+    
+    We cannot just convert "extern inline" to "static inline",
+    as people keep suggesting all the time, because "extern inline"
+    logic is crucial for generic kernel build.
+    So
+    - just make sure that all callees of critical "extern inline"
+      functions are also "extern inline";
+    - use "static inline", wherever it's possible.
+    
+    traps.c: work around gcc-4.3 being too smart about array
+    bounds-checking.
+    
+    TODO: add "gnu_inline" attribute to all our "extern inline"
+    functions to ensure desired behaviour with future compilers.
+    
+    Signed-off-by: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit ede426923b25414f5ec9c00fefe6727d9721dd13
+Author: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+Date:   Sat Jun 21 03:26:21 2008 +0400
+
+    alpha: link failure fix
+    
+    With built-in scsi disk driver, the final link fails with a following
+    error:
+    `.exit.text' referenced in section `.rodata' of drivers/built-in.o:
+    defined in discarded section `.exit.text' of drivers/built-in.o
+    
+    This happens with -Os (CONFIG_CC_OPTIMIZE_FOR_SIZE=y) with all gcc-4
+    versions, and also with -O2 and gcc-4.3.
+    
+    The problem is in sd.c:sd_major() being inlined into __exit function
+    exit_sd(), and the compiler generating a jump table in .rodata section
+    for the 'switch' statement in sd_major(). So we have references to
+    discarded section.
+    
+    Fixed with a big hammer in the form of -fno-jump-tables.
+    
+    Note that jump tables vs. discarded sections is a generic problem,
+    other architectures are just lucky not to suffer from it. But with
+    a slightly more complex switch/case statement it can be reproduced
+    on x86 as well. So maybe at some point we should consider
+    -fno-jump-tables as a generic compile option...
+    
+    Signed-off-by: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit 9267b4b3880d00dc2dab90f1d817c856939114f7
+Author: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+Date:   Sat Jun 21 03:25:39 2008 +0400
+
+    alpha: fix module load failures on smp (bug #10926)
+    
+    To calculate addresses of locally defined variables, GCC uses 32-bit
+    displacement from the GP. Which doesn't work for per cpu variables in
+    modules, as an offset to the kernel per cpu area is way above 4G.
+    
+    The workaround is to force allocation of a GOT entry for per cpu variable
+    using ldq instruction with a 'literal' relocation.
+    I had to use custom asm/percpu.h, as a required argument magic doesn't
+    work with asm-generic/percpu.h macros.
+    
+    Signed-off-by: Ivan Kokshaysky <ink@jurassic.park.msu.ru>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+commit e0c6d97c65e0784aade7e97b9411f245a6c543e7
+Author: Cliff Wickman <cpw@sgi.com>
+Date:   Fri Jun 20 12:02:00 2008 -0700
+
+    [IA64] SN2: security hole in sn2_ptc_proc_write
+    
+    Security hole in sn2_ptc_proc_write
+    
+    It is possible to overrun a buffer with a write to this /proc file.
+    
+    Signed-off-by: Cliff Wickman <cpw@sgi.com>
+    Signed-off-by: Tony Luck <tony.luck@intel.com>
+
+commit 2856922c158605514ec5974a03097eaec91f4c0d
+Author: Frederic Bohe <frederic.bohe@bull.net>
+Date:   Fri Jun 20 11:48:48 2008 -0400
+
+    Ext4: Fix online resize block group descriptor corruption
+    
+    This is the patch for the group descriptor table corruption during
+    online resize pointed out by Theodore Tso.  The problem was caused by
+    the fact that the ext4 group descriptor can be either 32 or 64 bytes
+    long.  Only the 64 bytes structure was taken into account.
+    
+    Signed-off-by: Frederic Bohe <frederic.bohe@bull.net>
+    Signed-off-by: Mingming Cao <cmm@us.ibm.com>
+    Signed-off-by: "Theodore Ts'o" <tytso@mit.edu>
+
+commit f630e43a215a3129d0c1173cae0bce6ea4855cf7
+Author: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+Date:   Thu Jun 19 16:33:57 2008 -0700
+
+    ipv6: Drop packets for loopback address from outside of the box.
+    
+    [ Based upon original report and patch by Karsten Keil.  Karsten
+      has verified that this fixes the TAHI test case "ICMPv6 test
+      v6LC.5.1.2 Part F". -DaveM ]
+    
+    Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit aea7427f70cce5fa8f99ce447b213e9e3b49f24c
+Author: Shan Wei <shanwei@cn.fujitsu.com>
+Date:   Thu Jun 19 16:29:39 2008 -0700
+
+    ipv6: Remove options header when setsockopt's optlen is 0
+    
+    Remove the sticky Hop-by-Hop options header by calling setsockopt()
+    for IPV6_HOPOPTS with a zero option length, per RFC3542.
+    
+    Routing header and Destination options header does the same as
+    Hop-by-Hop options header.
+    
+    Signed-off-by: Shan Wei <shanwei@cn.fujitsu.com>
+    Acked-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+commit bcccc3a28e9cbb44549cde326852c26203a53a56
+Author: David Brownell <david-b@pacbell.net>
+Date:   Sat May 3 19:19:16 2008 -0700
+
+    hwmon: (lm75) sensor reading bugfix
+    
+    LM75 sensor reading bugfix: never save error status as valid
+    sensor output.  This could be improved, but at least this
+    prevents certain rude failure modes.
+    
+    Signed-off-by: David Brownell <dbrownell@users.sourceforge.net>
+    Acked-by: Jean Delvare <khali@linux-fr.org>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit b3aeab0cdbd0fe5339a3a5918b59eebf148cbcd1
+Author: Hans de Goede <j.w.r.degoede@hhs.nl>
+Date:   Fri May 23 16:10:41 2008 +0200
+
+    hwmon: (abituguru3) update driver detection
+    
+    It has been reported that the abituguru3 driver fails to load after a BIOS
+    update. This patch fixes this by loosening the detection routine so that it
+    will work after the BIOS update too. To compensate for the now very loose
+    detection an additional check is added on the DMI Base Board vendor string to
+    make sure we only load on Abit motherboards, this is the same as the check in
+    the abituguru (1 / 2) driver.
+    
+    Signed-of-by: Hans de Goede <j.w.r.degoede@hhs.nl>
+    Signed-off-by: Alistair John Strachan <alistair@devzero.co.uk>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit 25845c22647fad2a0852cf6bf277d84e8a7a6b4a
+Author: Marc Hulsman <m.hulsman@tudelft.nl>
+Date:   Sun Jun 8 10:59:41 2008 -0400
+
+    hwmon: (w83791d) new maintainer
+    
+    Signed-off-by: Charles Spirakis <bezaur@gmail.com>
+    Acked-by: Jean Delvare <khali@linux-fr.org>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit 1604e78b7d6e6087ae9bde6e7a6b41cda80d6557
+Author: Hans de Goede <j.w.r.degoede@hhs.nl>
+Date:   Tue Feb 26 19:34:48 2008 +0100
+
+    hwmon: (abituguru3) Identify Abit AW8D board as such
+    
+    This patch identifies the Abit AW8D board as such, and adds support for its
+    aux5 fan connector
+    
+    Signed-off-by: Hans de Goede <j.w.r.degoede@hhs.nl>
+    Acked-by: Jean Delvare <khali@linux-fr.org>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit 125ff8087fca28e922e7ad6e082efcf04fe2f0f4
+Author: Jean Delvare <khali@linux-fr.org>
+Date:   Sat Feb 23 10:57:53 2008 +0100
+
+    hwmon: Update the sysfs interface documentation
+    
+    * Document the characteristics of libsensors 3.0.0 and 3.0.1.
+    * The sysfs interface is no longer subject to changes.
+    
+    Signed-off-by: Jean Delvare <khali@linux-fr.org>
+    Acked-by: Juerg Haefliger <juergh at gmail.com>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit ed4ec814e45ae8b1596aea0a29b92f6c3614acaa
+Author: Jean Delvare <khali@linux-fr.org>
+Date:   Sat Apr 26 16:34:26 2008 +0200
+
+    hwmon: (adt7473) Initialize max_duty_at_overheat before use
+    
+    data->max_duty_at_overheat is not updated in adt7473_update_device,
+    so it might be used before it is initialized (if the user reads from
+    sysfs file max_duty_at_crit before writing to it.)
+    
+    Signed-off-by: Jean Delvare <khali@linux-fr.org>
+    Acked-by: Darrick J. Wong <djwong@us.ibm.com>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit d38b149794e7444a55e741446717147e7f0467f8
+Author: Jean Delvare <khali@linux-fr.org>
+Date:   Thu Apr 3 10:40:39 2008 +0200
+
+    hwmon: (lm85) Fix function RANGE_TO_REG()
+    
+    Function RANGE_TO_REG() is broken. For a requested range of 2000 (2
+    degrees C), it will return an index value of 15, i.e. 80.0 degrees C,
+    instead of the expected index value of 0. All other values are handled
+    properly, just 2000 isn't.
+    
+    The bug was introduced back in November 2004 by this patch:
+    http://git.kernel.org/?p=linux/kernel/git/tglx/history.git;a=commit;h=1c28d80f1992240373099d863e4996cdd5d646d0
+    
+    While this can be fixed easily with the current code, I'd rather
+    rewrite the whole function in a way which is more obviously correct.
+    
+    Signed-off-by: Jean Delvare <khali@linux-fr.org>
+    Cc: Justin Thiessen <jthiessen@penguincomputing.com>
+    Signed-off-by: Mark M. Hoffman <mhoffman@lightlink.com>
+
+commit ef3a62d272f033989e83eb1f26505f93f93e3e69
+Author: Johannes Berg <johannes@sipsolutions.net>
+Date:   Wed Jun 18 15:39:48 2008 -0700
+
+    mac80211: detect driver tx bugs
+    
+    When a driver rejects a frame in it's ->tx() callback, it must also
+    stop queues, otherwise mac80211 can go into a loop here. Detect this
+    situation and abort the loop after five retries, warning about the
+    driver bug.
+    
+    Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
+    Signed-off-by: David S. Miller <davem@davemloft.net>

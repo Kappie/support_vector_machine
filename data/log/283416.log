@@ -1,0 +1,774 @@
+<!-- Title: 11:25:00  Wed Jul 31 2002 -->
+<!-- Crewchief: Shin-Shan Yu -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+COT data validation crew
+
+
+<!-- Date: Wed Jul 31 11:30:13 2002 -->
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en"> 
+<html> 
+<head> 
+   <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux 2.2.16-3 i686) [Netscape]"> 
+</head> 
+<body> 
+Good runs from store 1594: 
+<br>&nbsp; 
+<br>&nbsp; 
+<center><table BORDER COLS=2 WIDTH="70%" BGCOLOR="#FFFFFF" NOSAVE > 
+<tr NOSAVE> 
+<td NOSAVE> 
+<center>Run number</center> 
+</td> 
+ 
+<td> 
+<center>Live Luminosity (nb-1)</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149058</center> 
+</td> 
+ 
+<td> 
+<center>275</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149059</center> 
+</td> 
+ 
+<td> 
+<center>142</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149068</center> 
+</td> 
+ 
+<td> 
+<center>19</center> 
+</td> 
+</tr> 
+</table></center> 
+ 
+</body> 
+</html>
+<!-- Author: Shin-Shan Yu -->
+
+
+<!-- Date: Thu Aug 1 17:12:17 2002 -->
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en"> 
+<html> 
+<head> 
+   <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux 2.2.16-3 i686) [Netscape]"> 
+</head> 
+<body> 
+&nbsp;Good runs from store 1613: 
+<br>&nbsp; 
+<center><table BORDER COLS=2 WIDTH="70%" BGCOLOR="#FFFFFF" NOSAVE > 
+<tr> 
+<td> 
+<center>Run number</center> 
+</td> 
+ 
+<td> 
+<center>Live Luminosity nb-1</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149259</center> 
+</td> 
+ 
+<td> 
+<center>35</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149264</center> 
+</td> 
+ 
+<td> 
+<center>162</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149290</center> 
+</td> 
+ 
+<td> 
+<center>18</center> 
+</td> 
+</tr> 
+ 
+<tr> 
+<td> 
+<center>149292</center> 
+</td> 
+ 
+<td> 
+<center>12</center> 
+</td> 
+</tr> 
+</table></center> 
+ 
+</body> 
+</html>
+<!-- Author: Shin-Shan Yu -->
+
+
+<!-- Date: Thu Aug 1 17:25:09 2002 -->
+<pre>Will compare with run 148454 at the end of this week.</pre>
+<!-- Author: SHin-Shan Yu -->
+<!-- Comment: Thu Aug  1 17;25;42 comment by...Eiko -->
+<pre>Oops should be run 148154.</pre>
+
+
+<!-- Date: Sat Aug 3 19:56:24 2002 -->
+<TITLE>Good runs since 07/29/02</TITLE> 
+<H3>Good runs since 07/29/02</H3> 
+<H3>Runs from date 2002.07.29 
+ to </H3> 
+ 
+<HTML> 
+<BODY TEXT="Blue" BGCOLOR="#FFF8DC" LINK="Red" VLINK="Red" ALINK="Red"> 
+<TABLE BORDER CELLPADDING=5 WIDTH="80%"> 
+<TR> 
+<TD><B>N_RUNS</B></TD> 
+<TD><B>SUM_LUMI</B></TD> 
+<TD><B>AVG_LUMI</B></TD> 
+<TD><B>MAX_LUMI</B></TD> 
+<TD><B>MIN_LUMI</B></TD> 
+<TD><B>SUM_L1A</B></TD> 
+<TD><B>SUM_L2A</B></TD> 
+<TD><B>SUM_L3A</B></TD> 
+</TR> 
+<TR> 
+<TD>13</TD> 
+<TD>       1,163.30 nb-1</TD> 
+<TD>          89.48 nb-1</TD> 
+<TD>         274.99 nb-1</TD> 
+<TD>          12.44 nb-1</TD> 
+<TD>         459,510,657</TD> 
+<TD>      10,752,428</TD> 
+<TD>       2,090,835</TD> 
+</TR> 
+</TABLE></BODY></HTML> 
+<HTML> 
+<BODY TEXT="#800000" BGCOLOR="#FFF8DC" LINK="#663399" VLINK="#008080" ALINK="#FF6347"> 
+<TABLE BORDER CELLPADDING=5 WIDTH="80%"> 
+<TR> 
+<TD><B>RUN</B></TD> 
+<TD><B>DAY</B></TD> 
+<TD><B>ACTIVATE</B></TD> 
+<TD><B>TERMINATE</B></TD> 
+<TD><B>L1A</B></TD> 
+<TD><B>L2A</B></TD> 
+<TD><B>L3A</B></TD> 
+<TD><B>RUNTYPE</B></TD> 
+<TD><B>DATATYPE</B></TD> 
+<TD><B>LIVELUMI</B></TD> 
+<TD><B>PHYSICSTABLE</B></TD> 
+<TD><B>GOOD</B></TD> 
+<TD><B>ANA</B></TD> 
+<TD><B>RC</B></TD> 
+<TD><B>OFF</B></TD> 
+<TD><B>ML1</B></TD> 
+<TD><B>RUNTIME</B></TD> 
+<TD><B>LIVETIME</B></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149386>149386 (0x2478A)</A></TD> 
+<TD>2002.08.03</TD> 
+<TD>09:28:54</TD> 
+<TD>12:45:13</TD> 
+<TD>      66,903,958</TD> 
+<TD>     1,611,543</TD> 
+<TD>     286,965</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>           167 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149386'&TITLE=RUNTIME_Run_149386&XLABEL='seconds'&YLABEL='Hz'> 
+03:09:00.4</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149386'&TITLE=LIVETIME_Run_149386&XLABEL='seconds'&YLABEL='Hz'> 
+03:05:21.2</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149385>149385 (0x24789)</A></TD> 
+<TD>2002.08.03</TD> 
+<TD>08:52:33</TD> 
+<TD>09:20:05</TD> 
+<TD>      11,864,197</TD> 
+<TD>       261,607</TD> 
+<TD>      36,135</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            29 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149385'&TITLE=RUNTIME_Run_149385&XLABEL='seconds'&YLABEL='Hz'> 
+00:27:03.9</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149385'&TITLE=LIVETIME_Run_149385&XLABEL='seconds'&YLABEL='Hz'> 
+00:26:48.3</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149355>149355 (0x2476B)</A></TD> 
+<TD>2002.08.02</TD> 
+<TD>14:01:34</TD> 
+<TD>16:04:54</TD> 
+<TD>      32,562,399</TD> 
+<TD>       763,235</TD> 
+<TD>     148,996</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            83 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149355'&TITLE=RUNTIME_Run_149355&XLABEL='seconds'&YLABEL='Hz'> 
+02:03:11.1</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149355'&TITLE=LIVETIME_Run_149355&XLABEL='seconds'&YLABEL='Hz'> 
+02:02:12.8</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149354>149354 (0x2476A)</A></TD> 
+<TD>2002.08.02</TD> 
+<TD>10:57:05</TD> 
+<TD>13:49:30</TD> 
+<TD>      53,826,241</TD> 
+<TD>     1,251,832</TD> 
+<TD>     236,375</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>           135 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149354'&TITLE=RUNTIME_Run_149354&XLABEL='seconds'&YLABEL='Hz'> 
+02:50:26.7</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149354'&TITLE=LIVETIME_Run_149354&XLABEL='seconds'&YLABEL='Hz'> 
+02:48:52.2</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149344>149344 (0x24760)</A></TD> 
+<TD>2002.08.02</TD> 
+<TD>09:11:02</TD> 
+<TD>10:10:29</TD> 
+<TD>      23,096,725</TD> 
+<TD>       435,254</TD> 
+<TD>      68,690</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            57 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149344'&TITLE=RUNTIME_Run_149344&XLABEL='seconds'&YLABEL='Hz'> 
+00:58:34.3</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149344'&TITLE=LIVETIME_Run_149344&XLABEL='seconds'&YLABEL='Hz'> 
+00:57:59.2</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149299>149299 (0x24733)</A></TD> 
+<TD>2002.08.01</TD> 
+<TD>17:25:16</TD> 
+<TD>19:33:38</TD> 
+<TD>      11,228,846</TD> 
+<TD>       253,710</TD> 
+<TD>      60,001</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            30 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149299'&TITLE=RUNTIME_Run_149299&XLABEL='seconds'&YLABEL='Hz'> 
+02:06:55.6</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149299'&TITLE=LIVETIME_Run_149299&XLABEL='seconds'&YLABEL='Hz'> 
+02:06:49.6</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149292>149292 (0x2472C)</A></TD> 
+<TD>2002.08.01</TD> 
+<TD>15:22:15</TD> 
+<TD>16:09:33</TD> 
+<TD>       4,748,126</TD> 
+<TD>       110,548</TD> 
+<TD>      23,839</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            12 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149292'&TITLE=RUNTIME_Run_149292&XLABEL='seconds'&YLABEL='Hz'> 
+00:47:19.9</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149292'&TITLE=LIVETIME_Run_149292&XLABEL='seconds'&YLABEL='Hz'> 
+00:47:17.1</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149290>149290 (0x2472A)</A></TD> 
+<TD>2002.08.01</TD> 
+<TD>13:29:09</TD> 
+<TD>15:02:21</TD> 
+<TD>       6,709,948</TD> 
+<TD>       156,111</TD> 
+<TD>      33,177</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            18 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>null</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149290'&TITLE=RUNTIME_Run_149290&XLABEL='seconds'&YLABEL='Hz'> 
+01:03:00.3</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149290'&TITLE=LIVETIME_Run_149290&XLABEL='seconds'&YLABEL='Hz'> 
+01:02:52.1</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149264>149264 (0x24710)</A></TD> 
+<TD>2002.08.01</TD> 
+<TD>02:18:55</TD> 
+<TD>08:35:09</TD> 
+<TD>      62,589,919</TD> 
+<TD>     1,584,998</TD> 
+<TD>     326,124</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>           162 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>null</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149264'&TITLE=RUNTIME_Run_149264&XLABEL='seconds'&YLABEL='Hz'> 
+06:00:58.9</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149264'&TITLE=LIVETIME_Run_149264&XLABEL='seconds'&YLABEL='Hz'> 
+05:57:14.5</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149259>149259 (0x2470B)</A></TD> 
+<TD>2002.07.31</TD> 
+<TD>23:22:10</TD> 
+<TD>00:43:50</TD> 
+<TD>      14,004,176</TD> 
+<TD>       361,985</TD> 
+<TD>      50,900</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            35 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149259'&TITLE=RUNTIME_Run_149259&XLABEL='seconds'&YLABEL='Hz'> 
+00:55:35.1</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149259'&TITLE=LIVETIME_Run_149259&XLABEL='seconds'&YLABEL='Hz'> 
+00:51:25.0</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149068>149068 (0x2464C)</A></TD> 
+<TD>2002.07.29</TD> 
+<TD>13:59:45</TD> 
+<TD>14:45:38</TD> 
+<TD>       7,281,626</TD> 
+<TD>       173,379</TD> 
+<TD>      38,276</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>            19 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>null</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149068'&TITLE=RUNTIME_Run_149068&XLABEL='seconds'&YLABEL='Hz'> 
+00:45:36.9</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149068'&TITLE=LIVETIME_Run_149068&XLABEL='seconds'&YLABEL='Hz'> 
+00:45:15.2</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149059>149059 (0x24643)</A></TD> 
+<TD>2002.07.29</TD> 
+<TD>07:38:58</TD> 
+<TD>12:33:36</TD> 
+<TD>      55,380,972</TD> 
+<TD>     1,298,522</TD> 
+<TD>     277,893</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>           142 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149059'&TITLE=RUNTIME_Run_149059&XLABEL='seconds'&YLABEL='Hz'> 
+04:53:00.2</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149059'&TITLE=LIVETIME_Run_149059&XLABEL='seconds'&YLABEL='Hz'> 
+04:50:29.0</A></TD> 
+</TR> 
+<TR> 
+<TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=149058>149058 (0x24642)</A></TD> 
+<TD>2002.07.29</TD> 
+<TD>00:19:21</TD> 
+<TD>07:33:07</TD> 
+<TD>     109,313,524</TD> 
+<TD>     2,489,704</TD> 
+<TD>     503,464</TD> 
+<TD>Physics</TD> 
+<TD>Beam data</TD> 
+<TD>           275 nb-1</TD> 
+<TD><A HREF=http://cdfdbb.fnal.gov:8520/cdfr2/databases?tdt=phy&tdv=PHYSICS_1_02_v-1&tdh=arg&tdl=sov&dates=&skip=&limit=all&rc=y&email=&type=tf-trg&do=r&nsrc=rp&fsrc=fp&gsrc=fp&dcbk=FILECATALOG&calbk=PUBLIC>PHYSICS_1_02 [1,124,306]</A></TD> 
+<TD>null</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>1</TD> 
+<TD>0,0</TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=RUNTIME&WHERE='RC_RUNNUMBER=149058'&TITLE=RUNTIME_Run_149058&XLABEL='seconds'&YLABEL='Hz'> 
+07:11:59.4</A></TD> 
+<TD ALIGN=RIGHT><A HREF=/java/cdfdb/servlet/Level1Time?TABLE=LEVEL1_CONDITIONS&Y=LIVETIME&WHERE='RC_RUNNUMBER=149058'&TITLE=LIVETIME_Run_149058&XLABEL='seconds'&YLABEL='Hz'> 
+07:06:33.6</A></TD> 
+</TR> 
+</TABLE></BODY></HTML> 
+
+<!-- Author: Shin-Shan Yu -->
+
+
+<!-- Date: Sat Aug 3 20:08:19 2002 -->
+<pre>I can't find a run in Peter's run period. I will use 149058 as 
+the reference run.</pre>
+<!-- Author: Shin-Shan  Yu -->
+
+
+<!-- Date: Sat Aug 3 20:34:21 2002 -->
+<pre>I first compare run 149058 with 148824 (which is a very big run 
+ ~500nb-1 last week). Find in gerneral, both sets of plots agree, 
+ except in run 149058, residual vs cell or drift distance shows 
+ residuals are closer to 0 (&lt;0.002) while 148824's residuals are 
+ bigger. </pre>
+<!-- Author: Shin-Shan Yu -->
+<!-- Comment: Sat Aug  3 20;53;25 comment by...Eiko -->
+<pre>it looks like the mean residual shifted -60 um from run 148824 
+to 149058. </pre>
+
+
+<!-- Date: Sat Aug 3 21:17:46 2002 -->
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en"> 
+<html> 
+<head> 
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+   <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux 2.2.16-3 i686) [Netscape]"> 
+</head> 
+<body> 
+&nbsp; 
+<br>&nbsp;Here is a table of cell occupancy based on run 149058. Red one 
+are new. 
+<br>&nbsp; 
+<center><table BORDER COLS=3 WIDTH="70%" BGCOLOR="#FFFFFF" NOSAVE > 
+<tr> 
+<td>Superlayer</td> 
+ 
+<td>cells with low occupancy</td> 
+ 
+<td>cells with high occupancy</td> 
+</tr> 
+ 
+<tr> 
+<td>1</td> 
+ 
+<td>none</td> 
+ 
+<td>119</td> 
+</tr> 
+ 
+<tr> 
+<td>2</td> 
+ 
+<td>158</td> 
+ 
+<td>31, 46, 74</td> 
+</tr> 
+ 
+<tr> 
+<td>3</td> 
+ 
+<td>2, 126, 150</td> 
+ 
+<td>55, 142</td> 
+</tr> 
+ 
+<tr> 
+<td>4</td> 
+ 
+<td>227</td> 
+ 
+<td>94</td> 
+</tr> 
+ 
+<tr> 
+<td>5</td> 
+ 
+<td>209</td> 
+ 
+<td>17, 100,219, <font color="#FF0000">236 </font>, 246</td> 
+</tr> 
+ 
+<tr> 
+<td>6</td> 
+ 
+<td>none</td> 
+ 
+<td>9, 33, 165</td> 
+</tr> 
+ 
+<tr> 
+<td>7</td> 
+ 
+<td>286</td> 
+ 
+<td>36, <font color="#FF0000">47</font>, 122, 123, 190, 191, <font color="#FF0000">273</font>, 
+340, 369</td> 
+</tr> 
+ 
+<tr> 
+<td>8</td> 
+ 
+<td>59, 445</td> 
+ 
+<td><font color="#FF0000">120</font>, 138, 148, 149, 153, 154, 155, 203, 
+275, 284, 290, 291, 372, 373</td> 
+</tr> 
+</table></center> 
+ 
+<p>Here is a table of used cell occupancy based on run 149058, compared 
+with run 148824, run 
+<br>149058 has fewer low used cells. 
+<br>&nbsp; 
+<br>&nbsp; 
+<center><table BORDER COLS=3 WIDTH="70%" BGCOLOR="#FFFFFF" NOSAVE > 
+<tr> 
+<td>Superlayer</td> 
+ 
+<td>low used cells</td> 
+ 
+<td>high used cells</td> 
+</tr> 
+ 
+<tr> 
+<td>1</td> 
+ 
+<td>79-112</td> 
+ 
+<td>42, 43, 44, 49</td> 
+</tr> 
+ 
+<tr> 
+<td>2</td> 
+ 
+<td>29, 30, 105, 108, 158</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>3</td> 
+ 
+<td>1, 0, 3, 32 , 126, 150, 238&nbsp;</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>4</td> 
+ 
+<td>167, 227</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>5</td> 
+ 
+<td>0, 1, 2, 82, 161, 209</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>6</td> 
+ 
+<td>69</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>7</td> 
+ 
+<td>none</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>8</td> 
+ 
+<td>17, 19, 322, 445, 479&nbsp;</td> 
+ 
+<td>none</td> 
+</tr> 
+</table></center> 
+ 
+<p>A table of high or low residual cells based on run 149058 
+<br>&nbsp; 
+<br>&nbsp; 
+<center><table BORDER COLS=3 WIDTH="70%" BGCOLOR="#FFFFFF" NOSAVE > 
+<tr> 
+<td>Superlayer</td> 
+ 
+<td>low residual cells</td> 
+ 
+<td>high residual cells</td> 
+</tr> 
+ 
+<tr> 
+<td>1</td> 
+ 
+<td>96-103</td> 
+ 
+<td>120</td> 
+</tr> 
+ 
+<tr> 
+<td>2</td> 
+ 
+<td>26</td> 
+ 
+<td>0-3</td> 
+</tr> 
+ 
+<tr> 
+<td>3</td> 
+ 
+<td>0-3</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>4</td> 
+ 
+<td>none</td> 
+ 
+<td>0-3</td> 
+</tr> 
+ 
+<tr> 
+<td>5</td> 
+ 
+<td>0-3</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>6</td> 
+ 
+<td>none</td> 
+ 
+<td>99</td> 
+</tr> 
+ 
+<tr> 
+<td>7</td> 
+ 
+<td>122</td> 
+ 
+<td>none</td> 
+</tr> 
+ 
+<tr> 
+<td>8</td> 
+ 
+<td>none</td> 
+ 
+<td>1</td> 
+</tr> 
+</table></center> 
+ 
+</body> 
+</html>
+<!-- Author: Eiko -->
+
+
+<!-- Date: Sat Aug 3 21:38:59 2002 -->
+<pre>-Checked one big run in each day since 07/29/02, most of the 
+variables look OK,  
+ 
+- run 149386 somehow didnt get lots of entries (only ~4000 events), so residual plots look quite messy 
+ 
+- run 149264 has larger residual fluctuation in sl 1.  
+ cells 96, 98, 99, 101 used to have low residuals, and in this  
+ run </pre>
+<!-- Author: Eiko -->
+
+
+<!-- Date: Sun Aug 4 19:54:01 2002 -->
+<pre>I wanted to use run 149387 to double check if SL 1's residual 
+really flucuates more than before. But somehow this big run 
+(571 nb-1)also had fewer entries into each historgrams (a factor  
+of 3) than 149058. reckon the CO didnt start the Stage0 monitor 
+as early as possible?</pre>
+<!-- Author: Eiko -->
+<!-- Comment: Mon Aug  5 15;04;51 comment by...Eiko -->
+<pre>Heard there was a monitoring problem. Kaori is fixing it,</pre>

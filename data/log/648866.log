@@ -1,0 +1,693 @@
+<!-- Title: 16:55:06  Thu Oct 30 2008 -->
+<!-- Crewchief: TDWG (Tom, Laura) -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+Physics tables starting from the first official 5_02 table. To get to the PHYSICS_5_01 tables please click on the Previous tab at the top of this page.  
+
+
+<!-- Date: Thu Oct 30 16:56:16 2008 -->
+<font size="+2"><b>PHYSICS_5_02 v1 </b></font> <br> 
+<br> 
+<b>Changes with respect to PHYSICS_5_01 v10:</b><br> 
+<br> 
+<em> Warning : for the full gory details of any trigger table consult 
+the DB browser, or the RunSummary page for any run taken with this 
+table. The notes here are not necessarily complete. </em><br> 
+<br> 
+<b><font color="red"> Goals :</font></b> 
+<ul> 
+<li>Switch all MET-related triggers to use the upgraded L1 MET 
+trigger system<br> 
+</li> 
+</ul> 
+<b><font color="red">Key :</font></b> 
+<ul> 
+<li>OM = old L1 MET calculation; UM = upgraded L1 MET calculation<br> 
+</li> 
+</ul> 
+<b><font color="red"> Affected paths :</font></b> 
+<table border="1" cellspacing="0"> 
+<tbody> 
+<tr> 
+<th>Old path name</th> 
+<th>New path name</th> 
+<th>Changes</th> 
+</tr> 
+<tr> 
+<th colspan="3"> <font color="#006600">EXPRESS_5 </font><font 
+style="font-weight: normal;" color="#006600">→</font><font 
+color="#006600"> EXPRESS_6<br> 
+</font></th> 
+</tr> 
+<tr> 
+<td>EXPRESS_W_NOTRACK</td> 
+<td>EXPRESS_W_NOTRACK</td> 
+<td>OM&gt;15 → UM&gt;15</td> 
+</tr> 
+<tr> 
+<td>TEST_EXPRESS_W_NOTRACK_ROLXFT</td> 
+<td>TEST_EXPRESS_W_NOTRACK_ROLXFT</td> 
+<td>OM&gt;15 → UM&gt;15</td> 
+</tr> 
+<tr> 
+<th colspan="3"> <font color="#006600">HIGH_PT_ELECTRON_3 <span 
+style="font-weight: normal;">→</span> 
+HIGH_PT_ELECTRON_4<br> 
+</font></th> 
+</tr> 
+<tr> 
+<td>EXPRESS_W_NOTRACK</td> 
+<td>EXPRESS_W_NOTRACK</td> 
+<td>OM&gt;15 → UM&gt;15</td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">TEST_EXPRESS_W_NOTRACK_ROLXFT</td> 
+<td style="vertical-align: top;">TEST_EXPRESS_W_NOTRACK_ROLXFT</td> 
+<td style="vertical-align: top;">OM&gt;15 → UM&gt;15</td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">W_NOTRACK<br> 
+</td> 
+<td style="vertical-align: top;">W_NOTRACK<br> 
+</td> 
+<td style="vertical-align: top;">OM&gt;15 → UM&gt;15 </td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">W_NOTRACK_NO_L2<br> 
+</td> 
+<td style="vertical-align: top;">W_NOTRACK_NO_L2<br> 
+</td> 
+<td style="vertical-align: top;">OM&gt;15 → UM&gt;15 </td> 
+</tr> 
+<tr style="font-weight: bold;"> 
+<td style="text-align: center;" colspan="3" rowspan="1"><font 
+color="#006600">MET_3 </font><font style="font-weight: normal;" 
+color="#006600">→</font><font color="#006600"> MET_4<br> 
+</font></td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">TEST_L1_EM8_MET15<br> 
+</td> 
+<td style="vertical-align: top;"> 
+<hr style="width: 20%; height: 2px;"></td> 
+<td style="vertical-align: top;">Remove<br> 
+</td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">TEST_L1_JET10_MET15<br> 
+</td> 
+<td style="vertical-align: top;"> 
+<hr style="width: 20%; height: 2px;"></td> 
+<td style="vertical-align: top;">Remove<br> 
+</td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">TEST_L1_MET28<br> 
+</td> 
+<td style="vertical-align: top;"> 
+<hr style="width: 20%; height: 2px;"></td> 
+<td style="vertical-align: top;">Remove<br> 
+</td> 
+</tr> 
+<tr> 
+<td>MET35_&amp;_CJET_&amp;_JET_DPS</td> 
+<td>MET35_&amp;_CJET_&amp;_JET_DPS</td> 
+<td>OM&gt;25 → UM&gt;28<br> 
+</td> 
+</tr> 
+<tr> 
+<td>MET40</td> 
+<td>MET40</td> 
+<td>OM&gt;25 → UM&gt;28</td> 
+</tr> 
+<tr> 
+<td>MET_DIJET</td> 
+<td>MET_DIJET</td> 
+<td>OM&gt;15 → UM&gt;28</td> 
+</tr> 
+<tr> 
+<td style="vertical-align: top;">MET_L2PS400_L1_MET28</td> 
+<td style="vertical-align: top;">MET_L2PS400_L1_MET28/</td> 
+<td style="vertical-align: top;">OM&gt;25 → UM&gt;28</td> 
+</tr> 
+<tr> 
+<th colspan="3"> <font color="#006600">PLUG_ELECTRON_3 </font><font 
+style="font-weight: normal;" color="#006600">→</font><font 
+color="#006600"> 
+PLUG_ELECTRON_4</font></th> 
+</tr> 
+<tr> 
+<td>EXPRESS_MET_PEM</td> 
+<td>EXPRESS_MET_PEM</td> 
+<td>OM&gt;15 → UM&gt;15<br> 
+</td> 
+</tr> 
+<tr> 
+<td>MET_PEM</td> 
+<td>MET_PEM</td> 
+<td>OM&gt;15 → UM&gt;15<br> 
+Add L2 MET&gt;15 confirmation<br> 
+</td> 
+</tr> 
+<tr> 
+<td>MET_PEM_L1_EM8_&amp;_MET15</td> 
+<td>MET_PEM_L1_EM8_&amp;_MET15</td> 
+<td>OM&gt;15 → UM&gt;15<br> 
+</td> 
+</tr> 
+<tr> 
+<td>TEST_MET_PEM_L2MET15</td> 
+<td> 
+<hr style="width: 20%; height: 2px;"></td> 
+<td>Remove</td> 
+</tr> 
+</tbody> 
+</table>  
+<!-- Author: Tom Wright -->
+
+
+<!-- Date: Sat Dec 20 12:05:03 2008 -->
+<html> 
+ 
+<head> 
+<meta http-equiv=Content-Type content="text/html; charset=macintosh"> 
+<meta name=ProgId content=Excel.Sheet> 
+<meta name=Generator content="Microsoft Excel 2008"> 
+<style> 
+<!--table {} 
+.font6 
+	{color:windowtext; 
+	font-size:18.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial;} 
+.style0 
+	{text-align:general; 
+	vertical-align:bottom; 
+	white-space:nowrap; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	border:none;} 
+td 
+	{padding-top:1px; 
+	padding-right:1px; 
+	padding-left:1px; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	text-align:general; 
+	vertical-align:bottom; 
+	border:none; 
+	white-space:nowrap;} 
+.xl24 
+	{font-family:"Courier New", monospace;} 
+.xl25 
+	{text-align:left; 
+	border:.5pt solid windowtext;} 
+.xl26 
+	{font-size:12.0pt; 
+	text-align:left; 
+	vertical-align:justify; 
+	border:.5pt solid windowtext; 
+	padding-left:12px;} 
+.xl27 
+	{font-size:12.0pt; 
+	font-family:"Courier New", monospace; 
+	text-align:left; 
+	vertical-align:justify; 
+	border:.5pt solid windowtext; 
+	padding-left:12px;} 
+.xl28 
+	{border:.5pt solid windowtext;} 
+.xl29 
+	{font-size:12.0pt; 
+	text-align:left; 
+	border:.5pt solid windowtext; 
+	padding-left:12px;} 
+.xl30 
+	{font-size:12.0pt; 
+	font-family:"Courier New", monospace; 
+	text-align:left; 
+	border:.5pt solid windowtext; 
+	padding-left:12px;} 
+.xl31 
+	{font-family:"Courier New", monospace; 
+	text-align:left; 
+	padding-left:12px;} 
+.xl32 
+	{font-family:"Courier New", monospace; 
+	text-align:left; 
+	padding-left:36px;} 
+.xl33 
+	{color:red; 
+	font-size:18.0pt; 
+	text-align:left; 
+	vertical-align:top; 
+	border-top:none; 
+	border-right:none; 
+	border-bottom:.5pt solid windowtext; 
+	border-left:none; 
+	padding-left:36px;} 
+.xl34 
+	{font-size:18.0pt; 
+	text-align:left; 
+	border-top:none; 
+	border-right:none; 
+	border-bottom:.5pt solid windowtext; 
+	border-left:none; 
+	padding-left:36px;} 
+.xl35 
+	{font-size:16.0pt; 
+	font-weight:700; 
+	font-family:"Courier New"; 
+	text-align:left; 
+	border:.5pt solid windowtext; 
+	padding-left:24px;} 
+.xl36 
+	{font-size:16.0pt; 
+	font-weight:700; 
+	text-align:left; 
+	border:.5pt solid windowtext; 
+	padding-left:24px;} 
+.xl37 
+	{color:#339966; 
+	font-size:18.0pt; 
+	font-weight:700; 
+	text-align:center; 
+	border:.5pt solid windowtext;} 
+.xl38 
+	{text-align:center; 
+	border:.5pt solid windowtext;} 
+.xl39 
+	{color:red; 
+	font-size:18.0pt; 
+	text-align:center; 
+	vertical-align:top;} 
+.xl40 
+	{font-size:18.0pt; 
+	text-align:center;} 
+.xl41 
+	{font-size:18.0pt; 
+	font-weight:700; 
+	text-align:left; 
+	vertical-align:top; 
+	padding-left:12px;} 
+.xl42 
+	{text-align:left; 
+	padding-left:12px;} 
+.xl43 
+	{font-size:18.0pt; 
+	text-align:left; 
+	vertical-align:top; 
+	border-top:.5pt solid windowtext; 
+	border-right:none; 
+	border-bottom:none; 
+	border-left:none;} 
+.xl44 
+	{border-top:.5pt solid windowtext; 
+	border-right:none; 
+	border-bottom:none; 
+	border-left:none;} 
+.xl45 
+	{color:red; 
+	font-size:18.0pt; 
+	text-align:left; 
+	vertical-align:top; 
+	padding-left:36px;} 
+.xl46 
+	{text-align:left; 
+	padding-left:36px;} 
+.xl47 
+	{color:#339966; 
+	font-size:18.0pt; 
+	font-weight:700; 
+	text-align:center; 
+	border:.5pt solid windowtext;} 
+ruby 
+	{ruby-align:left;} 
+rt 
+	{color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	display:none;} 
+--> 
+</style> 
+</head> 
+ 
+<body link=blue vlink=purple class=xl24> 
+ 
+<table border=0 cellpadding=0 cellspacing=0 width=1173 style='border-collapse: 
+ collapse;table-layout:fixed'> 
+ <col class=xl24 width=398> 
+ <col class=xl24 width=434> 
+ <col width=235> 
+ <col class=xl24 width=53 span=2> 
+ <tr height=22> 
+  <td colspan=5 height=22 class=xl39 width=1173>PHYSICS_5_02 v2</td> 
+ </tr> 
+ <tr height=22> 
+  <td colspan=5 height=22 class=xl43>&nbsp;</td> 
+ </tr> 
+ <tr class=xl31 height=22> 
+  <td colspan=5 height=22 class=xl41>Changes with respect to PHYSICS_5_02 v1:</td> 
+ </tr> 
+ <tr class=xl32 height=22> 
+  <td colspan=5 height=22 class=xl45>Goals: <font class=font6>Reduce Deadtime 
+  at Lum &gt; 300</font></td> 
+ </tr> 
+ <tr class=xl32 height=22> 
+  <td height=22 class=xl33>Key: <font class=font6>Reduce L2A rate</font></td> 
+  <td colspan=4 class=xl34>&nbsp;</td> 
+ </tr> 
+ <tr class=xl32 height=22> 
+  <td height=22 class=xl33>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+ </tr> 
+ <tr class=xl32 height=22> 
+  <td height=22 class=xl33>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+  <td class=xl34>&nbsp;</td> 
+ </tr> 
+ <tr class=xl35 height=20 style='page-break-before:always'> 
+  <td height=20 class=xl35>OLD PATH NAME</td> 
+  <td class=xl35>NEW PATH</td> 
+  <td class=xl36>Changes</td> 
+  <td class=xl35>&nbsp;</td> 
+  <td class=xl35>&nbsp;</td> 
+ </tr> 
+ <tr class=xl25 height=21> 
+  <td colspan=3 height=21 class=xl47>B_DIMUON</td> 
+  <td class=xl25>&nbsp;</td> 
+  <td class=xl25>&nbsp;</td> 
+ </tr> 
+ <tr class=xl27 height=15> 
+  <td height=15 class=xl26>BBBAR_CMUP3_CMU1.5_DPS</td> 
+  <td class=xl26>BBBAR_CMUP3_CMU1.5_DPS</td> 
+  <td class=xl26>Add L1 LUMI_280</td> 
+  <td class=xl27>&nbsp;</td> 
+  <td class=xl27>&nbsp;</td> 
+ </tr> 
+ <tr class=xl27 height=15> 
+  <td height=15 class=xl26>BBBAR_CMUP3_CMX2_DPS</td> 
+  <td class=xl26>BBBAR_CMUP3_CMX2_DPS</td> 
+  <td class=xl26>Add L1 LUMI_280</td> 
+  <td class=xl27>&nbsp;</td> 
+  <td class=xl27>&nbsp;</td> 
+ </tr> 
+ <tr class=xl27 height=15> 
+  <td height=15 class=xl26>BBBAR_TWO_CMUP3_DPS</td> 
+  <td class=xl26>BBBAR_TWO_CMUP3_DPS</td> 
+  <td class=xl26>Add L1 LUMI_280</td> 
+  <td class=xl27>&nbsp;</td> 
+  <td class=xl27>&nbsp;</td> 
+ </tr> 
+ <tr class=xl27 height=15> 
+  <td height=15 class=xl26>UPSILON_CMUP_CMU_DPS</td> 
+  <td class=xl26>UPSILON_CMUP_CMU_DPS</td> 
+  <td class=xl26>Add L1 LUMI_280</td> 
+  <td class=xl27>&nbsp;</td> 
+  <td class=xl27>&nbsp;</td> 
+ </tr> 
+ <tr class=xl27 height=15> 
+  <td height=15 class=xl26>UPSILON_CMUP_CMX_DPS</td> 
+  <td class=xl26>UPSILON_CMUP_CMX_DPS</td> 
+  <td class=xl26>Add L1 LUMI_280</td> 
+  <td class=xl27>&nbsp;</td> 
+  <td class=xl27>&nbsp;</td> 
+ </tr> 
+ <tr class=xl28 height=21> 
+  <td colspan=3 height=21 class=xl37>B_RARE</td> 
+  <td class=xl28>&nbsp;</td> 
+  <td class=xl28>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMU1.5_LXY_DPS</td> 
+  <td class=xl29>RAREB_CMUCMU1.5_LXY_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMU1.5_SUMPT_DPS</td> 
+  <td class=xl29>RAREB_CMUCMU1.5_SUMPT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMU_LXY_SVT</td> 
+  <td class=xl29>RAREB_CMUCMU_LXY_SVT</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMU_SUMPT_MT_DPS</td> 
+  <td class=xl29>RAREB_CMUCMU_SUMPT_MT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMU_SUMPT_MT_PS100</td> 
+  <td class=xl29>RAREB_CMUCMU_SUMPT_MT_PS100</td> 
+  <td class=xl29>L1 PS100, remove L2 PS</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMX3_SUMPT_MT_DPS</td> 
+  <td class=xl29>RAREB_CMUCMX3_SUMPT_MT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMX3_SUMPT_MT_PS100</td> 
+  <td class=xl29>RAREB_CMUCMX3_SUMPT_MT_PS100</td> 
+  <td class=xl29>L1 PS100, remove L2 PS</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMX_LXY_DPS</td> 
+  <td class=xl29>RAREB_CMUCMX_LXY_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMX_LXY_SVT</td> 
+  <td class=xl29>RAREB_CMUCMX_LXY_SVT</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUCMX_SUMPT_DPS</td> 
+  <td class=xl29>RAREB_CMUCMX_SUMPT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUPCMU_DPS</td> 
+  <td class=xl29>RAREB_CMUPCMU_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMUPCMX_DPS</td> 
+  <td class=xl29>RAREB_CMUPCMX_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>RAREB_CMXCMU3_SUMPT_MT_DPS</td> 
+  <td class=xl29>RAREB_CMXCMU3_SUMPT_MT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl28 height=21> 
+  <td colspan=3 height=21 class=xl37>ESPRESS_5</td> 
+  <td class=xl28>&nbsp;</td> 
+  <td class=xl28>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMU_MT_PS100</td> 
+  <td class=xl29>JPSI_CMUCMU_MT_PS100</td> 
+  <td class=xl29>L1 PS100, remove L2 PS</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMX3_MT_PS100</td> 
+  <td class=xl29>JPSI_CMUCMX3_MT_PS100</td> 
+  <td class=xl29>L1 PS100, remove L2 PS</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl28 height=21> 
+  <td colspan=3 height=21 class=xl37>JPSIMUMMU_2</td> 
+  <td class=xl28>&nbsp;</td> 
+  <td class=xl28>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>MUON_CMU18_ETAGAP_DPS</td> 
+  <td class=xl29>MUON_CMU18_ETAGAP_DPS</td> 
+  <td class=xl29>L1TRK15 to TRK10 DPS20 to DPS200</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>TEST_MUON_CMU18_ETAGAP_3DMATCH_DPS</td> 
+  <td class=xl29>&nbsp;</td> 
+  <td class=xl29>Remove</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>TEST_MUON_CMUP18</td> 
+  <td class=xl29>&nbsp;</td> 
+  <td class=xl29>Remove</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>TEST_MUON_CMX18</td> 
+  <td class=xl29>&nbsp;</td> 
+  <td class=xl29>Remove</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMU1.5_CMX2_DPS</td> 
+  <td class=xl29>JPSI_CMU1.5_CMX2_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMU1.5_DPS</td> 
+  <td class=xl29>JPSI_CMUCMU1.5_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMU_MT_DPS</td> 
+  <td class=xl29>JPSI_CMUCMU_MT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMU_MT_PS100</td> 
+  <td class=xl29>JPSI_CMUCMU_MT_PS100</td> 
+  <td class=xl29>L1 PS100, remove L2 PS</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMX3_MT_DPS</td> 
+  <td class=xl29>JPSI_CMUCMX3_MT_DPS</td> 
+  <td class=xl29>Add L1 LUMI_280</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>JPSI_CMUCMX3_MT_PS100</td> 
+  <td class=xl29>JPSI_CMUCMX3_MT_PS100</td> 
+  <td class=xl29>L1 PS100, remove L2 PS</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl28 height=21> 
+  <td colspan=3 height=21 class=xl37>MET_3</td> 
+  <td class=xl28>&nbsp;</td> 
+  <td class=xl28>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>MET40</td> 
+  <td class=xl29>MET40</td> 
+  <td class=xl29>L2_MET35 to L2_MET40</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl28 height=21> 
+  <td colspan=3 height=21 class=xl37>SUSY_DILEPTON_6</td> 
+  <td class=xl28>&nbsp;</td> 
+  <td class=xl28>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>DIMUON_CMUP4CMUP8</td> 
+  <td class=xl29>DIMUON_CMUP4CMUP8</td> 
+  <td class=xl29>L1_CMUP6_PT4 (New L1)</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>DIMUON_CMUP4_CMX4</td> 
+  <td class=xl29>DIMUON_CMUP4_CMX4</td> 
+  <td class=xl29>L1_CMUP6_PT4 (New L1)</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>TEST_MUON_CMUP8_&amp;_TRACK8</td> 
+  <td class=xl29>&nbsp;</td> 
+  <td class=xl29>remove</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+ <tr class=xl30 height=16> 
+  <td height=16 class=xl29>TEST_MUON_CMX8_&amp;_TRACK8</td> 
+  <td class=xl29>&nbsp;</td> 
+  <td class=xl29>remove</td> 
+  <td class=xl30>&nbsp;</td> 
+  <td class=xl30>&nbsp;</td> 
+ </tr> 
+</table> 
+ 
+</body> 
+ 
+</html> 
+  
+<!-- Author: Laura & Tom -->
+
+
+<!-- Date: Wed Jan 21 13:59:09 2009 -->
+<pre>PHYSICS 5_02 v4 
+ 
+GOAL: reduce the deadtime (L2A) at higher Lum. 
+ 
+Added L2 Test Trigger Path : L2_CMX6_PT15_3DMATCH_HTDC. 
+The original trigger path was L2_CMX6_PT15_3DMATCH. 
+ 
+ 
+</pre>
+<!-- Author: Laura -->

@@ -1,0 +1,369 @@
+<!-- Title: Owl shift. Thu Sep  5, 2002 -->
+<!-- SciCo: Todd Huffman -->
+<!-- DAQAce: Karen Gibson -->
+<!-- MonAce: Jason Nielsen -->
+<!-- CO: G. Mitselmakher -->
+<!-- OpManager: Eric James -->
+<!-- Notes: -->
+<pre>B0 Lum = 1.65E+31 
+Running without Silicon</pre>
+
+
+<!-- Date: Thu Sep 5 00:27:33 2002 -->
+L3 Farm: Subnodes C12, C13, and C14 are not processing events.
+<!-- Author: Todd :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990' target=_top>150990</a>) -->
+<!-- Comment: Thu Sep  5 00;28;29 comment by...Todd -->
+<i>Subfarms</i> not subnodes....sorry
+
+<!-- Comment: Thu Sep  5 00;40;15 comment by...Todd -->
+Subfarm C15 is now gone.
+
+
+<!-- Comment: Thu Sep  5 01;18;56 comment by...Todd -->
+C5 and C16 subfarms are now gone as well.
+<!-- Comment: Thu Sep  5 05;23;10 comment by...Todd -->
+In the end we also lost C5 before other unrelated problems with the event builder forced an end to this run.
+<!-- Date: Thu Sep 5 00:42:09 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7240&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7240  width='300' align='top'></td><td>TrigMon was restarted and the problem with errors on this plot reported about 1 hour ago (see plot posted earlier) went away, as predicted by the expert</a></td></tr></table>
+<!-- Author: G. Mitselmakher -->
+
+
+<!-- Date: Thu Sep 5 00:58:39 2002 -->
+Several sequential Done TOs from crates b0cot01, bocot18, b0cot19.  Rebooted and repartitioned the crates.  
+<!-- Author: Karen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990' target=_top>150990</a>) -->
+
+
+
+<!-- Date: Thu Sep 5 01:29:11 2002 -->
+Had SCPU_TRACER_EVENT_ID error but no orange window popped up with the info, as one did at 1:02am when the same problem occurred.  Noticed problem b/c L3 farm stopped.  Finally orange window w/"L2 Trigger rate dropped to 0Hz" popped up.  HRR seems to have remedied situation, but lack of orange error message is strange.  
+<!-- Author: Karen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990' target=_top>150990</a>) -->
+<!-- Comment: Thu Sep  5 09;41;16 comment by...Donatell T. -->
+I looked at the error logfile.  The behavior was actually correct: only the 1st HEVB error should pop-up an orange window, and it did. No other windows are supposed to pop-up until the Busy TO error that usually ends the serie of HEVB errors. In this run, though, there were NO Busy TO at all. So no further windows showed up.
+<!-- Date: Thu Sep 5 01:39:17 2002 -->
+MCR called. They are having trouble maintaining temperature in a frig in the 'A' sector of the ring. Their experts are on the job trying to stabilize the temperature but they believe they could lose the store at any time. 
+<!-- Author: Todd Huffman -->
+
+
+<!-- Date: Thu Sep 5 01:54:04 2002 -->
+Brief Gas Alarm sounded.<br> 
+Cryo calls and says that it was probably caused by IMU bubbler being close to the top of its temperature range. He is going to the platform to investigate and will report back.
+<!-- Author: Todd Huffman -->
+<!-- Comment: Thu Sep  5 02;18;47 comment by...Todd -->
+Cryo reports slow temperature increase over the course of the last week. He suspects icing up of the chiller. 
+
+
+<!-- Comment: Thu Sep  5 02;28;29 comment by...Jim Humbert -->
+<pre>I checked for ice and it seemed fine but I'm not positive. There was nothing obvious. The glycol level is full.</pre>
+<!-- Date: Thu Sep 5 02:21:05 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7241&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7241  width='300' align='top'></td><td>Hot channels in BMU cells West</a></td></tr></table>
+<!-- Author: G.Mitselmakher -->
+<!-- Comment: Thu Sep  5 02;31;52 comment by...Todd -->
+Due to this plus the temperature of the alcohol bubbler I decided to page the IMU expert.
+
+<!-- Comment: Thu Sep  5 02;46;44 comment by...Todd -->
+IMU says that our programme is fine regarding the bubbler and gas. Basically wait for the store to drop and then begin the de-icing procedure. Cryo has been notified and is preparing for the procedure.<br><br>
+Regarding the hot channels. This will require an access to resolve. IMU requests that we mark this run as 'bad' for the IMU.
+
+
+<!-- Date: Thu Sep 5 02:48:20 2002 -->
+ProcMon died @ 2:46am.  Restarted it. 
+<!-- Author: Karen -->
+<!-- Comment: Thu Sep  5 03;31;44 comment by...Karen -->
+Correction: I think ProcMon was actually okay. I was too impatient for it to update.  
+<!-- Date: Thu Sep 5 03:25:23 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7247&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7247  width='300' align='top'></td><td>Some of trigger rates seem out of tolerance (too high by a factor of ~2) Thise include: # 44 dimuon # 72 jet 70 (?) # 133 two jets # 134 two jets related dewtecors (CMU and calorimeters) seem to be fine</a></td></tr></table>
+<!-- Author: G.Mitselmakher -->
+<!-- Comment: Thu Sep  5 04;58;30 comment by...G, Mitselmakher -->
+After cople of more hours the high trigger rates are gone... probably statistics. Would be nice to add to the table an estimate of a statistical error, at least for low rate triggers
+
+<!-- Date: Thu Sep 5 03:27:05 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-7248&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-7248  width='300' align='top'></td><td>More trigger rates (see previous comment)</a></td></tr></table>
+<!-- Author: G. Mitselmakher -->
+
+
+<!-- Date: Thu Sep 5 03:31:26 2002 -->
+(Silent) Alarm from all channels in BSU (CCU 16) HV.  I went to the CCU box and updated all channels in CCU 16 to turn them back ON.
+<!-- Author: Jason :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990' target=_top>150990</a>) -->
+<!-- Comment: Thu Sep  5 03;34;29 comment by...Jason -->
+Restarted Voice Scheduler in iFix.
+
+
+<!-- Date: Thu Sep 5 03:57:35 2002 -->
+SCPU_TRACER_EVENT_ID error, SCPU_BAD_CHANNEL_COUNTS error.  Same errors as at 1:29.  Again no orange pop-up window to indicate problem; first noticed problem from lack of activity on L3 farm.  See previous message for more details. 
+<!-- Author: Karen :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990' target=_top>150990</a>) -->
+<!-- Comment: Thu Sep  5 04;48;20 comment by...Karen -->
+Same problem again @ 4:47am.  
+<!-- Comment: Thu Sep  5 09;43;14 comment by...Donatella T. -->
+please see my comment above ( e-log entry at 1:29 am)
+<!-- Date: Thu Sep 5 03:58:10 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7252&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7252' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7253&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7253' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7254&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7254' width='300'></a></center>
+<!-- Author: G.Mitselmakher -->
+
+
+<!-- Date: Thu Sep 5 04:03:52 2002 -->
+Actually there are few hot towers in calorimeters (not reflected in referebce plots in the book) see three plots shown above (from left to right : CEM PMT, CHA PMT and WHA PMT plots) 
+The hot towers include: CEM 5L,-1; CEM 5R,1; CEM 5L,7, CHA 14LR,2; WHA 6L,-7
+<!-- Author: G.Mitselmakher :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990' target=_top>150990</a>) -->
+<!-- Comment: Thu Sep  5 07;53;55 comment by...k.byrum -->
+Wha channel is suspected light leak and is known.  Will be fixed on a longer access.  CHA occupancies are similiar to reference plots (i.e. upper bound is around .22 so this is ok).  
+<!-- Comment: Thu Sep  5 08;37;24 comment by...M Mattson -->
+<br>
+I assume that CEM 5L,-1 is a typo, that you meant CEM 4R,-1.  This channel has had a slightly wider noise RMS than normal.  (Enough that we are keeping an eye on it, but not a cause for concern yet.)  During the last access, we swapped CAFE cards with a neighboring channel, and the wide RMS stayed with the channel.  This leads us to believe it is not electronics related, but perhaps a mild connection or hardware problem.<br>
+<br>
+No information about the other CEM channels, other than to say that these might be normal statistical fluctuations.  If these channels remain "hot" over several runs, then it could be a pattern.
+<!-- Date: Thu Sep 5 04:06:13 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7255&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7255' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7256&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7256' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7257&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7257' width='300'></a></center>
+<!-- Author: Jason -->
+
+
+<!-- Date: Thu Sep 5 04:49:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990">150990</A>
+ Terminated at 2002.09.05 04:50:50
+<!-- processed by 131.225.236.161 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Sep 5 04:49:50 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990">150990</A>
+TERMINATE: SM_SCPU_TIMEOUT
+<!-- processed by 131.225.127.7 -->
+<!-- Author: ace 2080 -->
+
+
+
+<!-- Date: Thu Sep 5 04:59:53 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150991">150991</A>
+ Activated at 2002.09.05 05:00:32
+<!-- processed by 131.225.236.161 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Sep 5 05:00:57 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150991">150991</A>
+ACTIVATE: New run after cleaning up EVB. No silicon.
+<!-- processed by 131.225.236.162 -->
+<!-- Author: ace 2080 -->
+
+
+
+<!-- Date: Thu Sep 5 05:00:58 2002 -->
+SM_SCPU_TIMEOUT error. As per orange window, ended the run and cleaned up EVB.  
+<!-- Author: Karen -->
+
+
+<!-- Date: Thu Sep 5 05:39:53 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150991">150991</A>
+ Terminated at 2002.09.05 05:41:19
+<!-- processed by 131.225.236.161 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Sep 5 05:40:11 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150991">150991</A>
+TERMINATE: b0cot08 Done timeouts
+<!-- processed by 64.193.0.233 -->
+<!-- Author: ace 2080 -->
+
+
+<!-- Date: Thu Sep 5 05:40:59 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150991">150991</A>
+TERMINATE: b0cot08 Done timeouts
+<!-- processed by 131.225.236.229 -->
+<!-- Author: ace 2080 -->
+
+
+<!-- Date: Thu Sep 5 06:04:35 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150992">150992</A>
+TERMINATE: b0cot08 error
+<!-- processed by 131.225.236.161 -->
+<!-- Author: ace 2080 -->
+
+
+<!-- Date: Thu Sep 5 06:17:58 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150993">150993</A>
+TERMINATE: b0cot08 error
+<!-- processed by 131.225.235.251 -->
+<!-- Author: ace 2080 -->
+
+
+<!-- Date: Thu Sep 5 06:28:34 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150994">150994</A>
+ Activated at 2002.09.05 06:29:56
+<!-- processed by 131.225.127.7 -->
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Sep 5 06:30:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150994">150994</A>
+ACTIVATE: Running w/o slot 3 in b0cot08; no silicon
+<!-- processed by 131.225.127.7 -->
+<!-- Author: ace 2080 -->
+
+
+
+<!-- Date: Thu Sep 5 06:30:51 2002 -->
+Problems with COT_08 crate.  Had to remove slot 3 (under direction of Mike Kirby) in order to begin another run.  
+<!-- Author: Karen -->
+
+
+<!-- Date: Thu Sep 5 06:36:45 2002 -->
+<pr>So b0cot08 had done time outs, and it was finally bad enough to identify which card was giving problems.  the card in slot3 has died completely.  The card doesn't map during a cratemap, and when you try and read/write to the control register the response is completely random.  there aren't VME bus errors, but the value of the control register is random.  So the card was removed from the readout, and the crate put in local done mode (TDC_readout = 1)  There should be a request to have an access to replace the card.  It's in the lower NW rack, so should require only a 2 hour access, including the time to pull the north muon wall.  </pr>
+<!-- Author: Kirby -->
+<!-- Comment: Thu Sep  5 08;26;06 comment by...Wolfgang Wagner -->
+<pre>We see 8 dead channels in the COT. That is probably related to 
+the removed card even though I don't have a COT map to find out.
+The dead cells are in SL 7 cell 360 - 368.
+I will add a plot to the next shift log.</pre>
+<!-- Date: Thu Sep 5 07:53:55 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150990>150990</A> 
+x24DCE</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [3,136,313]</TD>                                       
+<TD ALIGN=CENTER>23:54:17</TD>                                          
+<TD ALIGN=CENTER>04:50:50</TD>                                          
+<TD ALIGN=CENTER>04:42:32</TD>                                          
+<TD ALIGN=RIGHT>     93,544,142</TD>                                    
+<TD ALIGN=RIGHT>     2,107,225</TD>                                     
+<TD ALIGN=RIGHT>     347,391</TD>                                       
+<TD ALIGN=RIGHT>  234.873</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150991>150991</A> 
+x24DCF</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [3,136,313]</TD>                                       
+<TD ALIGN=CENTER>05:00:32</TD>                                          
+<TD ALIGN=CENTER>05:41:19</TD>                                          
+<TD ALIGN=CENTER>00:33:24</TD>                                          
+<TD ALIGN=RIGHT>      8,925,637</TD>                                    
+<TD ALIGN=RIGHT>       200,104</TD>                                     
+<TD ALIGN=RIGHT>      34,171</TD>                                       
+<TD ALIGN=RIGHT>   22.913</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=150994>150994</A> 
+x24DD2</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_02 [3,136,313]</TD>                                       
+<TD ALIGN=CENTER>06:29:56</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>01:22:51</TD>                                          
+<TD ALIGN=RIGHT>     19,800,050</TD>                                    
+<TD ALIGN=RIGHT>       446,000</TD>                                     
+<TD ALIGN=RIGHT>      74,038</TD>                                       
+<TD ALIGN=RIGHT>   51.600</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:01</TD>                                                       
+<TD ALIGN=CENTER>06:38:49</TD>                                          
+<TD ALIGN=RIGHT>     122,269,829</TD>                                   
+<TD ALIGN=RIGHT>      2,753,329</TD>                                    
+<TD ALIGN=RIGHT>       455,600</TD>                                     
+<TD ALIGN=RIGHT>  309.387</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- processed by 131.225.236.26 -->
+<!-- Author: End of Shift Report -->
+
+
+
+
+<!-- Date: Thu Sep 5 07:58:18 2002 -->
+<font color=red>Shift Summary: </font><p> 
+00:00 Shot #1728 <br> 
+B0 Lum = 1.63E+31 <br> 
+Running without silicon <br> 
+Run 150990 started with three L3 subfarms out of the run.  
+Eventually we lost about 1/2 the total number of CPU's before 
+we had to end the run for other reasons. 
+</p><p> 
+01:40 MCR called indicating that they were having trouble  
+controling the temperature on a refrigerator somewhere in the 
+'A' section of the ring. They believed they could lose beam  
+at any time and called to warn us. <br> 
+We thanked them and kept running.<br> 
+They never lost beam. <br> 
+</p><p> 
+01:50 The Gas Alarm sounded and then immediately silenced  
+itself (no human intervention). Cryo (Jim Humbert) called and 
+identified the IMU and NOT?? as the sources of the alarm due 
+to a bubbler temperature almost being out of range. Jim  
+investigated the situation in his temperature logs and also 
+went to the gas platform. The history shows a slow temp.  
+rise over the last week. No obvious signs of problems visible 
+with the bubblers/chillers on the platform.<br> 
+He strongly suspects that the chillers 
+are partially frozen and need to be de-iced. This procedure 
+takes several hours and should be done at the next gap 
+between shots.  
+</p><p> 
+01:55 IMU has new set of hot channels. Approximately 6 channels 
+in BMU West Cells around channel #100 are all hot. IMU expert 
+paged and told us not to change anything regarding running 
+and to mark this run as 'bad' as far as the IMU is concerned. 
+IMU will need an access to debug the problem. 
+</p><p> 
+05:30 CO reports the following channels:  
+CEM 5L,-1; CEM 5R,1; CEM 5L,7, CHA 14LR,2; WHA 6L,-7  
+were hot in the calorimeter. 
+</p><p> 
+06:30 b0cot08 once again refused to come alive in run control.  
+Kirby eventually traced the problem to slot 3 in the crate.  
+He disabled it and we started a new run. COT will need an  
+access to replace this card. Kirby wrote extensive explanation 
+in the E-log. 
+</p><p> 
+07:50 IMU Gas alarm is no longer silenced (we just noticed). 
+</p><p> 
+7:59 B0 Lum = 1.01E+31<br> 
+And a good time was had by all. 
+</p><p> 
+   
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   150990 - 150994
+Delivered Luminosity   357.2 nb^-1  
+Acquired Luminosity    300.4 nb^-1  
+Efficiency             84.1%
+   
+</td></tr></table></pre>
+<!-- Author: Todd Huffman -->
+
+
+<!-- Date: Thu Sep 5 08:00:34 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7261&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7261' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7259&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7259' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-7260&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-7260' width='300'></a></center>
+<!-- Author: Jason -->
+
+
+
+

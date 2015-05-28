@@ -1,0 +1,495 @@
+<!-- Title: 09:28:37  Tue Jul  3 2001 -->
+<!-- Crewchief: Steve N. -->
+<!-- Op1: Auke -->
+<!-- Op2: Jean -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>1) debug x-mode 
+2. test new wedges 
+3. SOC 
+4. Integrate and run</pre>
+
+
+<!-- Date: Tue Jul 3 13:26:59 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Steve was getting a lot of DVDD overcurrent trips, when  
+doing inits. So for now I have put the old DVDD current 
+limits back-in for the time being. So there is no protection 
+against the high DVDD current state. 
+ 
+L00  500  
+L0   500 
+L1   800 
+L2  1000 
+L3  1400 
+L4  2000 
+ISL 2400</pre></td></tr></td></table>
+<!-- Author: APC -->
+
+
+<!-- Date: Tue Jul 3 14:25:34 2001 -->
+<pre>An anomalous reading on DTerm. 
+  ch  st    stw    Volt    mA 
+ 323  1     11     0.00   186.00  
+323 is SVX B0W5 Port Cd DTERM 
+Worth noting.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Tue Jul 3 15:09:53 2001 -->
+<h1>X Mode progress</h1> 
+Primary focus was on getting the X Mode calibrations 
+running in more than one fib/vrb crate.  Of course, 
+when including more ladders, we're bound to encounter  
+more problems-most of today's debugging involved making 
+X mode more robust when ladders go crazy-like don't give 
+an end of run record, etc.  There are still some policy 
+decisions to make, but I did manage to produce:<ul> 
+<li> /data1/svxData/ped_x_010603.trybos - Just a X mode DPS Off 
+Pedestal Run 
+<li> /data1/svxData/ped_shift_off_010603.trybos - X Mode DPS OFF  
+Shift Run 
+<li> /data1/svxData/ped_shift_on_010603.trybos - X Mode DPS ON Shift Run 
+</ul> 
+with the current ladder set, all biased.  There are still some issues to think about when dealing with abberrant ladders, but for now these files give us something to put in the database and 
+then download, then run for real and look at the output. 
+<P><P> 
+Along the way, I noticed: 
+<ul>  
+<li>SB0W2 L2 seems to be dropping readout occasionally, at least 
+in read all mode in this calibration.  Even worse, sometimes 
+I don't even get an EOR.  I am surprised this hasn't been seen 
+offline, but maybe it is a RA thing, and maybe it has to 
+do with the speed of readout (DVDD gets a chance to relax or something?) 
+<li> Various power supply problems, incl. the DVDD overcurrent 
+and an apparent failure to report any but the first of concurrent 
+trips.  Andrew is working on this right now I think. 
+</ul> 
+ 
+There may be more problems, but I am not worried about single 
+ladder trouble right now.  (I will be later tonight...)
+<!-- Author: SCN -->
+
+
+<!-- Date: Tue Jul 3 15:21:11 2001 -->
+<pre>B0dap40 (Linuxbox where the GUI runs in control room)  
+has (or it believes it has) 128 MB memory. 
+The speed of Java GUI may be partially due to this.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Tue Jul 3 15:51:44 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><b> SB2W0 </b> On June 26-27 L2 in this wedges reported to have  
+40V on its bias even when it had been switched off. I checked  
+that nothing happened to this PS since. I found that 
+besides the phantom bias, also the DVDD currents when switched 
+on do not look OK. anybody?</td></tr></td></table>
+<!-- Author: APC -->
+
+
+<!-- Date: Tue Jul 3 16:58:56 2001 -->
+<pre>SB0W10 Tested. Layer-4 gives out of order errors when in sparse mode. OK to integrate 0 to 3.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Tue Jul 3 19:00:09 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><H1>PLAN</H1> 
+ 
+<br> Andrew Ivanov is making a software protection against the 
+high DVDD current states that occured several times now. Before 
+this protection is in place I would like to keep the silicon  
+OFF. The reason to not use the silicon at all is that there is  
+one case where the silicon was integrated while a run crashed. Then all(?) the chips went in a high current mode, which was only 
+discovered after about 15 minutes when one of the PSs tripped on 
+overvoltage. 
+ 
+<br> <br> Protection should be in place tonight. 
+ 
+<br> <br> Once protected try to integrate and run the silicon.  
+ 
+<br> <br> Pre integration testing can resume after the 4th of July. </td></tr></td></table>
+<!-- Author: APC -->
+
+
+<!-- Date: Tue Jul 3 19:09:57 2001 -->
+<pre>Changed nominal bias setting for IB5W5L1Bias0 in volts.dat since this guy has been showing high and increasing current. I dropped the setting by 10 volts. This may not be enough to fully deplete it, but it will allow us to monitor the increase (or hopefully stabilization) of the bias current over time. 
+</pre>
+<!-- Author: David -->
+<!-- Comment: Fri Jul  6 12;15;07 comment by...David -->
+<pre>Determined from Run119423 on July 7th, that it is still depleted. </pre>
+<!-- Date: Tue Jul 3 19:10:47 2001 -->
+<pre>we started to test SB0W11 (we have to stop before  
+the sparse mode test because of an incoming shot-setup  
+in the Tevatron) 
+ 
+most likely:  
+L0,L2 and L3 are good for integration 
+ 
+while: 
+- L1 readback 0's at init but readout is fine 
+- L4 CAPID errors </pre>
+<!-- Author: sehban + francesco -->
+<!-- Comment: Tue Jul  3 21;36;33 comment by...Petra+Francesco -->
+<pre>Francesco (grande) looked at the errors and found bit4 stuck sometimes. Probably a new "OFTM problem".
+
+L1 is probably fine for integration.</pre>
+<!-- Date: Tue Jul 3 20:16:08 2001 -->
+<pre>Hey Steve, 
+it's f*** cold in here, I borrowed your jumper, thanks! 
+Thanks god I didn't need the pants :)</pre>
+<!-- Author: Freezing P. -->
+
+
+
+<!-- Date: Wed Jul 4 03:11:55 2001 -->
+Took data with SOC integrated in runs 119333 (Read all) and 119334 (NN thr=7). Data looks great in both. It will be de-integrated at the end of 119334. 
+<P> 
+The HDWDB needs to be changed before any other silicon is integrated since it is left with SOC in and other b0fib03 wedges out. 
+<P>
+<!-- Author: David -->
+
+
+<!-- Date: Wed Jul 4 14:01:15 2001 -->
+<pre>I am integrating the 36 wedges for the holiday shot. 
+Before I turned anything on I reloaded powerset.dat and  
+Caenvolts.dat, but still I saw these two failures: 
+IB0W0 had all layers in standby, although layer 4 is xed out in  
+the file, SB2W6 didn't come on at all, after I reloaded  
+CAENvolts.dat again, I was able to turn it on (I didn't try the  
+individual switch-on without reloading the file though). 
+ 
+SOC is out. 
+ 
+Auke-Pieter told me that Andrew made the GUI modifications  
+in order to trip DVDD high current ladders/wedges. When I came  
+in I actually saw in the message window: 
+"software protection trip: turning off SVX B0W0" 
+ 
+Could Andrew please make an elog entry about his modifications?</pre>
+<!-- Author: Petra -->
+
+
+<!-- Date: Wed Jul 4 19:42:26 2001 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-123&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-123  width='300' align='top'></td><td>Losses from 1900-1930 on 4 July 01.</a></td></tr></table>
+<!-- Author: Napora -->
+<!-- Comment: Wed Jul  4 19;52;21 comment by...Napora -->
+<p>Losses continued to get worse, so silicon was taken out of the run and powered off.  This graph represents pretty much the worst of it.  Notice that the B0PLOS (green) only goes up past 15kHz a few times, but the LOSTP (yellow) jumps pretty regularly.  While I still don't know how the two scale with each other, I do wonder if a jumpy yellow implies and inaccurate green.  Perhaps Dave or Andy could comment on this further.
+
+<p>As I write this I notice that the losses have started to get better again.  Que sera.  
+
+
+<!-- Comment: Thu Jul  5 10;16;14 comment by...David -->
+My understanding is that LostP has a significantly faster time response than BOPLOS. They are essentially measuring the same thing but B0PLOS is only live for a small fraction of the time and can miss fast spikes.
+<!-- Date: Wed Jul 4 20:32:29 2001 -->
+<pre>This should amuse everyone. 
+ 
+My pager was lost during a round of frisbee golf with 
+Steve Worm(must be Steve's fault!).  Much searching using 
+a mobile phone to call the pager number was not successful. 
+ 
+For the moment please call 420-0291(home) or 8619(office) for power supply related problems.  My mobile phone 253-3656 can  
+be tried as a backup.  Or better yet don't call!</pre>
+<!-- Author: herndon -->
+
+
+<!-- Date: Wed Jul 4 23:25:44 2001 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-126&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-126  width='300' align='top'></td><td><p>They moved the scrapers in by a milimeter and the beam  cleaned up incredibly well (see main e-log for a neat  picture).  I foolishly attempted to re-integrate the Silicon.   What started with a simple handshake error turned into  the error message shown, and eventually deteriorated into a  Power Supply/GUI debacle.  <p>The (kind of) good news is that we had a runaway current on  B1W0 and the GUI changes caught it as advertised.  There were other weird errors however, most notably entire bulkheads (2  and then 1) started turning off for no apparent reason and  without giving any message.  B0W9 tripped off as well.  Things were just freaking me out too badly so I opted to just turn  everything off.  I blame the source of all my problems on  hallucinations brought on from drinking the tea Christoph  brought in, but I figured I should log things just in case  they really did happen that way...  <p>Anyways A-P says I can just leave the silicon off.  We got a  decent bit of data earlier today and he doesn't want to bug  anyone else on the 4th (I understand it is a Holiday for some people.)</a></td></tr></table>
+<!-- Author: Napora -->
+<!-- Comment: Wed Jul  4 23;45;36 comment by...Napora -->
+<p>Could we get definitions for the following errors from the GUI and\or make them more descriptive?
+
+<p><font color='green'>
+Illegal condition: turning OFF BxWy<br>
+Software protection Trip: turning of BxWy<br>
+TRIP: SVX Bx Wy External Trip<br></font>
+
+<p>i.e. does the Software Protection trip only apply to the runaway DOIM current problem, etc.
+
+
+<!-- Comment: Thu Jul  5 11;50;48 comment by...SCN -->
+<pre>Red Herring!  Your message on the crate is only
+complaining about a mismatch between the
+Chip ID as seen in the ChipIDs array (incorrect)
+and that which is actaully in the bit stream (which is correct).
+It is in fact harmless (until we start downloading
+pesedstals) so not sure what went wrong here.</pre>
+<!-- Comment: Thu Jul  5 12;11;22 comment by...Andrew -->
+<pre>Here are definitions of the confusing errors in the GUI:
+(Sorry, I didn't put this information into e-log before.
+It seemed that people knew what that was)
+Illegal condition: turning OFF BxWy = PC BxWy is OFF, while
+one of the ladders is ON. The GUI turns off the wedge BxWy.
+Software protection trip = at least one of the ladders has 
+DVDD current too high ( above 200 uA for L00, 250 uA for 
+SVX, 600 uA for ISL ) during more than 30 sec. The GUI turns 
+off the entire wedge. 
+TRIP: BxWy External Trip is usually a trip, caused by Interlock.
+Since Interlock trips all channels of a power supply, there is
+no specifications about what channels had been tripped.
+
+Also looking through last nights e-logs, I figured that all 
+illegal states were reported by the GUI correctly. But because
+of the wrong maping the GUI was trying to turn off something 
+else (entire bulkheads, rather than wedges). Blame me for Rob's
+hallucinations. 
+This has been fixed now.
+</pre>
+<!-- Date: Thu Jul 5 08:50:27 2001 -->
+<pre>SB1W1 tested, all layers ok,  ready for integration.</pre>
+<!-- Author: Saverio -->
+
+
+
+
+
+<!-- Date: Thu Jul 5 13:46:34 2001 -->
+<pre>With Petra's help , Tony and I set the preamp current bits from 101 to 010 on the phi side chips of SOC. We'll take some data with these settings to measure the S/N change. 
+</pre>
+<!-- Author: David -->
+
+
+<!-- Date: Thu Jul 5 14:30:10 2001 -->
+<pre>Some examples of high DVDD current states. 
+  
+Wedge   date             time              
+B0W0   06-30             10:00-12:00   
+B0W0   06-28             03:00-05:00 
+B1W6   06-25  / 06-26    15:00-08:00  worst case of high Idvdd 
+                                      I have seen so far 
+ 
+</pre>
+<!-- Author: APC -->
+
+
+<!-- Date: Thu Jul 5 14:53:23 2001 -->
+<pre>I DVDD incidents from Auke - I just put this here 
+as a place to save it. 
+ 
+wedge   fib     date      time        comment 
+ 
+B0W0    00      06-30     10-12     at end of fill 
+B0W0    00      06-28     03-05     after power up 
+B0W0    00      06-25     13-15 
+B1W6    02(!)   06-26     15-24     By far the worst case 
+B1W6    02(!)   06-27     00-08     Still being bad 
+ 
+</pre>
+<!-- Author: Jean -->
+
+
+<!-- Date: Thu Jul 5 19:30:12 2001 -->
+<pre>Hey, Steve, Set Default in stand alone daq now takes 3 minutes ! 
+What's wrong with it ? 
+ 
+</pre>
+<!-- Author: Sav -->
+<!-- Comment: Fri Jul  6 07;41;19 comment by...SCN -->
+<pre>Ever try to run 58 Vrbs in the stand alone DAQ?  Your
+experienc is based on running with one, at SiDet.</pre>
+<!-- Date: Thu Jul 5 19:46:37 2001 -->
+<pre>Message for Steve/Lester: 
+SB2W11 needs the readback of init stream to be masked,  
+as it only reads back 0.</pre>
+<!-- Author: Saverio -->
+
+
+<!-- Date: Thu Jul 5 20:10:03 2001 -->
+<pre>The following SVX Wedges have been tested: 
+ 
+SB1W1 --&gt;  OK for integration 
+SB1W10--&gt;  OK for integration 
+SB1W11--&gt; Readout and Init correct, but PS reads no current 
+           on 0, 1, 2, 3; High current on layer-4 
+           Suspect PS jumper setting. 
+SB2W0 --&gt; Readout and Init correct, but PS reads no current 
+          on layer 0, 2, 3, 4 Suspect PS jumper setting. 
+SB2W1 --&gt; OK for integration 
+SB2W10--&gt; OK for integration (Large L4 bias current) 
+SB2W11--&gt; L0 Init string readback fails, otherwise readout ok 
+</pre>
+<!-- Author: Saverio, Sehban -->
+<!-- Comment: Fri Jul  6 09;21;11 comment by...herndon -->
+<pre>SB1W11 is a known problem.  I'll add SB2W0 to my list.
+More things to do on the 8 hour access.</pre>
+<!-- Date: Thu Jul 5 22:34:35 2001 -->
+<pre>Attempt to integrate silicon: 
+ 
+everything turns on, IB5W5L1 needs its special treatment; 
+put SOC online; 
+need to reboot VRB08; 
+SB2W5L0 has probably a bias voltage offset of a few volts, it  
+is not allowed to go to 120V, its nominal voltage! I put it to 115V. 
+If the SOC is not powered run control complains actually about  
+IB2W3, could this be changed?!? 
+</pre>
+<!-- Author: Rob (maybe Petra, who knows) -->
+
+
+<!-- Date: Thu Jul 5 23:53:41 2001 -->
+<pre>so, after tons of different DAQ problems (not silicon related!!!)  
+the shift has a run going now, Silicon is in and even the SOC, this  
+makes 37 wedges! 
+ 
+</pre>
+<!-- Author: petra -->
+
+
+<!-- Date: Fri Jul 6 04:26:02 2001 -->
+<pre>Here I am again, the shift had a lot of general DAQ trouble and  
+due to that had to reboot one or more FIB crates with the  
+result of one or more wedges tripping on the high current state,  
+after that they turned SVX off (ISL was still on). 
+ 
+Now I am trying to turn everything on again and here comes what  
+does not work with the GUI: 
+IF YOU HIT THE GLOBAL SVX BUTTON IT DOES NOT NECCESSARILY MEAN  
+THAT EVERYTHING YOU WANT REALLY GETS TURNED ON. I observed this  
+now already several times, it does not give error messages if it  
+doesn't turn on a wedge which is in powerset.dat or a single  
+ladder out of this. This is very annoying for integrators!!! 
+ 
+On top of that have a look at the following plot! 
+ 
+</pre>
+<!-- Author: Petra -->
+<!-- Comment: Fri Jul  6 08;49;55 comment by...Saverio -->
+<p>This is the reason why i made the script <font color="green">
+<i>./cratematch.pl</i></font> that you can run from the svxii 
+main directory.<br>
+
+<!-- Date: Fri Jul 6 04:27:48 2001 -->
+<table><tr><td><a href=/elog/notebooks/silicon/Fri_Jul__6_2001_042731.ps align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-129  align='top'></td><td>Further GUI oddities... </a></td></tr></table>
+<!-- Author: Petra -->
+<!-- Comment: Fri Jul  6 04;31;05 comment by...Petra -->
+<pre>According to the color scheme SB4W0L0 is off!
+The whole wedge's power supply isn't even known to the GUI!
+And in the top left corner it shows you: everything on and L3 in SB! The full status page showed NA as status and all 0.
+The PS00 field was in status ON. Everything greyed out. I will 
+try now the usual interlock trip stuff to turn it off...</pre>
+
+
+<!-- Date: Fri Jul 6 04:41:07 2001 -->
+<pre>ok, making the bulkhead iNACTIVE didn't change anything, dropping  
+the 5V, however, turned all layers off, but L1 is still in SB  
+and the portcard on. The colors of the wedge are still the same  
+(L0 off). 
+ 
+Now I turned the global SVX button off (SOC was still on), but  
+SB4W0 stays the same, SB. The global SVX status is reported to be  
+OFF. I will turn everything on again, but this has to be solved tin the morning!!!</pre>
+<!-- Author: Petra -->
+<!-- Comment: Fri Jul  6 09;48;14 comment by...APC -->
+<pre>The PS spy did not record any voltages or currents 
+on SB4W0. </pre>
+<!-- Comment: Fri Jul  6 11;24;31 comment by...Andrew -->
+<pre>The PS SB4W0 doesn't exist! All information about this PS is
+greyed out on the GUI window. Status of the SB4W0 is unavaliable
+for the GUI. </pre>
+<!-- Date: Fri Jul 6 04:53:18 2001 -->
+<pre>SB1W4L2 tripped on DVDD overvoltage</pre>
+<!-- Author: petra -->
+
+
+<!-- Date: Fri Jul 6 05:18:41 2001 -->
+<pre>Auke Du alter Sklaventreiber: I just realised that according to  
+Jean's schedule I am not on-call anymore since midnight!!!  
+This is at least worth a really good bottle of wine!</pre>
+<!-- Author: PMM -->
+<!-- Comment: Fri Jul  6 07;44;00 comment by...Heh Heh -->
+<pre>Hello Lester....</pre>
+<!-- Comment: Fri Jul  6 09;50;21 comment by...huhhuh -->
+<pre>Das gibst ja gar nicht.</pre>
+<!-- Date: Fri Jul 6 05:20:39 2001 -->
+<pre>while integrating fib03 and fib07 consecutively needed a second  
+coldstart since one HDI refused to init, layer was on though and  
+I didn't do anything with the crates, but they passed coldstart  
+the next try...Steve: what exactly is happening in these cases?</pre>
+<!-- Author: PPM -->
+<!-- Comment: Fri Jul  6 07;45;40 comment by...SCN -->
+<pre>They are flaky.  I often see that HDIs don't init the first
+time but do the second.  I am thinking of putting in
+an auto-retry feature, to see if that helps.</pre>
+
+<!-- Comment: Fri Jul  6 08;24;56 comment by...Petra -->
+<pre>That would be fantastic!</pre>
+
+
+<!-- Date: Fri Jul 6 08:28:56 2001 -->
+<pre>Now I understand the trouble the shift crew had last night, and  
+it is actually pretty simple: 
+They booked fib06 by accident and obviously failed cold start  
+twice, rebooting didn't help :) And they left out fib02 which  
+probably caused all the tripps they had... 
+I guess this can happen during the night, gaeeeehn.</pre>
+<!-- Author: petra -->
+
+
+
+<!-- Date: Fri Jul 6 09:12:02 2001 -->
+<pre>In order to test the downloading and pedestal subtraction and 
+thresholds, I set all the chips to DPS Off (but still NN).</pre>
+<!-- Author: SCN -->
+
+
+<!-- Date: Fri Jul 6 09:17:50 2001 -->
+<pre>Reading from the white board: 
+"wedges" in set-3 that need to be tested 
+ 
+SB0W11 
+ 
+IB0W3   LB0W2 
+IB0W2   LB0W3 
+IB0W4   LB0W0 
+IB0W5   LB0W5 
+ 
+Up until now there are 9 SVX wedges ready to go,  
+basically the whole crate b0fib00 is ready, 
+only SB0W11 was tested only halfway through. 
+ 
+ </pre>
+<!-- Author: Saverio -->
+
+
+
+
+
+<!-- Date: Fri Jul 6 10:51:07 2001 -->
+<h1>X Mode News</h1> 
+<ul> 
+<li> Tried to switch to process name "FIB_PHYSICS_SVX" but 
+consumer failed to write to DB for this process name.   
+Sent messages to experts, punted 
+<li> Switched back to SI_DOWNLOADS, downloaded JobSet 407 and 
+took two runs: 119461 and 119471.  Download was smooth and 
+rather quick.<P> 
+These Runs are dpsOff NN with pedestals/thresholds as decided 
+by the download.  Need to analyze them to see what happens 
+to the output data 
+</ul> 
+ 
+<h1>Other Oddities</h1> 
+<ul> 
+<li> Power ON was smooth, only inexplicably left one ladder behind 
+<li> Had several instances of "Software Trips", some showed 
+up on my PS GUI, others showed up on the other PS GUI, as 
+do some trips.  It seems the ROBINObjects on the crates 
+do not share nicely.  Beware when running two GUIs. (Probably 
+two GUIs on different CAENs works, but two on the same CAEN 
+is tricky.)  For details, one can see the logs 
+<li> Did a crate_reset on fib02, but this apparently did not 
+unsynch the FFO.  Confused about reset_crate... 
+</ul> 
+ 
+ 
+I put the Chips all back to DPS ON, and faked an initialization 
+to avoid handshake problems with b0fib02.  Things should 
+be ok.  
+<!-- Author: SCN -->
+<!-- Comment: Fri Jul  6 11;28;02 comment by...Andrew -->
+<pre>The java keeps track of illegal conditions, not the server code.
+Therefore if two GUIs are running and one of them found an 
+illegal condition and turned off the wedge, there is nothing 
+left to do for the second GUI.</pre>
+

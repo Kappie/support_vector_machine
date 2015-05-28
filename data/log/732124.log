@@ -1,0 +1,524 @@
+<!-- Title: Day shift. Sun Jan 12, 2003 -->
+<!-- SciCo: Bill Foster -->
+<!-- DAQAce: Bernd Stelzer -->
+<!-- MonAce: Lucio Cerrito -->
+<!-- CO: Valentin Necula -->
+<!-- OpManager: Eric James -->
+<!-- Notes: -->
+<pre>Just dropped the stack transitioning to the shot lattice in the Accumulator.... the show is probably over.</pre>
+
+
+<!-- Date: Sun Jan 12 08:42:41 2003 -->
+MCR plan is to run beam tests in TeV until ~noon.
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Sun Jan 12 08:54:59 2003 -->
+<pre>Plug Sourcing to start around noon. 
+Informed Willis Sakamoto, Alexei Sedov, Alon Attal.</pre>
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Sun Jan 12 08:57:47 2003 -->
+flammable gas sub-detectors to OFF: COT,CMU,CMP,CMX,BMU
+<!-- Author: Lucio -->
+
+
+<!-- Date: Sun Jan 12 09:06:11 2003 -->
+Starting to purge gas chambers with nitrogen.   Lucio has turned appropriate HV to off.  Chambers that get purge flow of nitrogen include COT, CMU, IMU, West CMX,  CMP modulo notch and blue beam chambers.   All flam gas alarms bypassed for the moment.
+<!-- Author: RR -->
+
+<!-- Date: Sun Jan 12 09:47:00 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156493">156493</A>
+ Terminated at 2003.01.12 09:45:39
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 12 09:47:00 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156493">156493</A>
+TERMINATE: End the run
+<!-- Author: Bernd -->
+
+
+<!-- Date: Sun Jan 12 10:18:44 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156494">156494</A>
+ Activated at 2003.01.12 10:16:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 12 10:18:44 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156494">156494</A>
+ACTIVATE: Another cosmic run
+<!-- Author: Bernd -->
+
+
+
+<!-- Date: Sun Jan 12 10:26:36 2003 -->
+As of 10am, all systems requiring a fast n2 purge 
+is under n2 purge flow.
+<!-- Author: rr -->
+
+
+<!-- Date: Sun Jan 12 10:49:25 2003 -->
+<pre>Our Plan 
+ 
+- TeV Studies end at noon -- take a full set of calibrations at 
+ that point 
+ 
+- Then power down solenoid 
+ 
+- System belongs to plug sourcing guys -- they should go all  
+night in order to get this task completed. 
+ 
+- Silicon will come in around 7pm (after football games) to do 
+ some tests as well.   These are compatible with plug sourcing 
+ 
+-  System experts will start arriving at 6am to shut pieces down 
+ in preparation for 7am power outage 
+ 
+- Collision hall available for access 8am monday morning</pre>
+<!-- Author: RR -->
+
+
+<!-- Date: Sun Jan 12 11:03:55 2003 -->
+received Merlin procmon error which promptly disappeared.  
+<!-- Author: Tim :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156494' target=_top>156494</a>) -->
+
+<!-- Date: Sun Jan 12 12:12:01 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156494">156494</A>
+ Terminated at 2003.01.12 12:10:51
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 12 12:12:21 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156494">156494</A>
+TERMINATE: end Cosmic running for final calibrations before shutdown
+<!-- Author: Bernd/Tim -->
+
+
+
+<!-- Date: Sun Jan 12 12:12:49 2003 -->
+<pre>from Rob Roser: 
+ 
+1) Evening and OWL CO's are released from duty. 
+2) Only a single (experienced) Ace will be needed on evening and 
+   Owl shift.  Aces can decide between themselves which one shows up.</pre>
+<!-- Author: Bill Foster -->
+
+<!-- Date: Sun Jan 12 12:17:02 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156495">156495</A>
+ACTIVATE: Final Calorimeter QIE calibration.
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 16;20;12 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 12:17:02 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156495">156495</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:18:18 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156496">156496</A>
+ACTIVATE: Final CLC QIE Calibration.
+<!-- Author: Bernd/Tim -->
+
+
+
+<!-- Date: Sun Jan 12 12:22:16 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156496">156496</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 16;51;28 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 12:24:40 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156497">156497</A>
+ACTIVATE: Final BSC QIE calibration
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:25:22 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156497">156497</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 18;12;13 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 12:25:45 2003 -->
+<pre>Bring up Plug HV to prepare for Calibration</pre>
+<!-- Author: Bernd -->
+
+<!-- Date: Sun Jan 12 12:27:54 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156498">156498</A>
+ACTIVATE: Final CEM LED calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:28:54 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156498">156498</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 16;28;39 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 12:31:56 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156499">156499</A>
+ACTIVATE: Final TOF QIE calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:31:56 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156499">156499</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:39:57 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156500">156500</A>
+ACTIVATE: Final Plug Laser calibration.
+<!-- Author: Bernd/Tim -->
+
+
+
+<!-- Date: Sun Jan 12 12:42:54 2003 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Just prior to shutdown, MCR took remaining Pbars from Recycler, accelerated them in the Main Injector, and successfully circulated them in the Tevatron.  
+<a  
+href=http://www-bd.fnal.gov/cgi-mach/machlog.pl?nb=recycle03&action=view&page=30&anchor=121201&hilite=12:12:01- target=_top> Logbook entry for first transfer of Recycler Pbars to Tevatron </a></td></tr></td></table>
+<!-- Author: Bill Foster -->
+
+<!-- Date: Sun Jan 12 12:47:16 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156500">156500</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:51:27 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156501">156501</A>
+ACTIVATE: Final Plug Laser calibration (Myron Mode).
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 12:53:36 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156501">156501</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+
+<!-- Date: Sun Jan 12 13:04:35 2003 -->
+TOF HV alarm sounded, but TOF was in OFF state. It went away after a few seconds. 
+<!-- Author: David -->
+
+<!-- Date: Sun Jan 12 13:08:25 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156502">156502</A>
+ACTIVATE: Final SMX QIE calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:08:49 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156502">156502</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 18;02;08 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 13:09:36 2003 -->
+<pre>The mysterious Red Telephone rang twice, but was dead when I picked it up.</pre>
+<!-- Author: Bill Foster -->
+
+<!-- Date: Sun Jan 12 13:15:06 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156503">156503</A>
+ACTIVATE: Final CEM XEF calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:17:12 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156503">156503</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 16;40;37 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 13:19:55 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156504">156504</A>
+ACTIVATE: Final COT calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:19:55 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156504">156504</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:22:23 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156505">156505</A>
+ACTIVATE: final COT calibration (take 2 - PLEASE USE THIS INSTEAD OF PREVIOUS)
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 17;05;39 comment by...Kihyeon Cho -->
+I (next CO) have checked it. It looks OK.
+<!-- Date: Sun Jan 12 13:22:23 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156505">156505</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:23:55 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156506">156506</A>
+TERMINATE: ERROR - forgot to repartition...will re-run
+<!-- Author: Bernd/Tim -->
+
+
+
+<!-- Date: Sun Jan 12 13:24:10 2003 -->
+This red telephone reminds me of a joke that I first heard from Carlo Rubbia.  Brezhnev is visiting Carter in the White House.  Carter shows him the latest triumph of American technology, the "Telephone to Hell".  It is brought out on a silver tray, Carter & Brezhnev pick it up and have a nice 5-minute conversation with the Devil.  Impressed, Brezhnev asks how much it costs.  Carter tells him it is very expensive, billions to develop and more than $10 million for the 5 minute call.  Brezhnev departs, and 6 months later when Carter is visiting the Kremlin, a silver tray appears with the Soviet Telephone to Hell.  They pick up up the phone and have a nice 5 minute conversation with the Devil. Impressed, Carter asks how much it costs.  Brezhnev replies that the 5 minute call cost 10 Rubles.  Incredulous, Carter asks how it can possibly be so inexpensive.  Brezhnev replies: "For us, is local call."
+<!-- Author: Bill Foster -->
+
+<!-- Date: Sun Jan 12 13:25:26 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156507">156507</A>
+ACTIVATE: Final Muon calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:27:56 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156507">156507</A>
+TERMINATE: Finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:30:33 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156508">156508</A>
+ACTIVATE: Final TOF TAC calibration.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 13:34:06 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156508">156508</A>
+TERMINATE: finished - NOTE: CO HAS BEEN SENT HOME AND WILL NOT CHECK THIS!!
+<!-- Author: Bernd/Tim -->
+
+
+
+<!-- Date: Sun Jan 12 13:50:54 2003 -->
+<pre>Solenoid going down for plug source scans & silicon wire bond safety. 
+A complete set of calibrations have been taken, with the exception  
+of PMT spike run which Willis said was irrelevant.</pre>
+<!-- Author: Bill Foster -->
+
+<!-- Date: Sun Jan 12 13:59:58 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156510">156510</A>
+ Activated at 2003.01.12 13:58:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 12 14:01:05 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156510">156510</A>
+ACTIVATE: Cosmic run All HV off, except for Central Calorimeter 
+<!-- Author: Bernd/Tim -->
+<!-- Comment: Sun Jan 12 14;01;59 comment by...Bernd -->
+<pre>Released Plug Crates for this run because experts are working on it
+Also booked only one L3 subfarm</pre>
+
+<!-- Comment: Sun Jan 12 14;02;23 comment by...Bernd -->
+<pre>Note: Silicon still on STANDBY</pre>
+
+
+<!-- Comment: Sun Jan 12 14;52;23 comment by...Bernd -->
+<pre>Plug HV is up and used by experts</pre>
+<!-- Date: Sun Jan 12 14:29:27 2003 -->
+<pre>Solenoid is down.</pre>
+<!-- Author: Bill Foster -->
+
+<!-- Date: Sun Jan 12 14:35:45 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156510">156510</A>
+ Terminated at 2003.01.12 14:34:40
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 12 14:39:10 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156510">156510</A>
+TERMINATE: end cosmic run after royally messing up Run control with various test scenarios.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 14:39:10 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156511">156511</A>
+ Activated at 2003.01.12 14:37:16
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 12 14:39:10 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156511">156511</A>
+ACTIVATE: Starting new cosmic run with one L3 subfarm.
+<!-- Author: Bernd/Tim -->
+
+
+<!-- Date: Sun Jan 12 14:48:12 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156512">156512</A>
+TERMINATE: Plug Sourcing, tubes 3&4, EM, layers 4&6, sector 0.0
+<!-- Author: sedov -->
+<!-- Comment: Sun Jan 12 17;29;23 comment by...Willis -->
+The PCAL ADMEMs have been recalibrated and downloaded with LER=1.
+During the plug source runs, we found that the west PEM wedge 4
+eta 17 tile 0 tower is hot (xa468 counts). The b0pcal08 slot
+14 and 15 ADMEMs (PEM and PHA east wedge 7) did not have LER=1;
+this was correctd at run 156525 and these wedges will be
+redone.
+<!-- Comment: Sun Jan 12 18;05;08 comment by...Willis -->
+The hot west PEM wedge 4 eta 17 tile 0's ADMEM was recalibrated
+and downloaded with LER=1, as were the b0pcal08 slot 14 and 15
+ADMEMs. These fixes have been verified with the plug laser run,
+156527.
+<!-- Date: Sun Jan 12 14:57:56 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156513">156513</A>
+TERMINATE: Plug Sourcing, tubes 6&7, HA, layers 0&6, sector 0.0
+<!-- Author: sedov -->
+
+
+
+<!-- Date: Sun Jan 12 15:03:11 2003 -->
+<pre>2:38:35 PM-&gt;Busy Timeout: XFT_FINDER_00 XFT_FINDER_02 XFT_FINDER_04 
+manual HRR recovered the error</pre>
+<!-- Author: Bernd -->
+<!-- Comment: Sun Jan 12 15;04;31 comment by...Bernd -->
+<pre>Another one at 2:48:58</pre>
+
+<!-- Comment: Sun Jan 12 15;25;49 comment by...Bernd -->
+<pre>Two Busy timeouts, source not shown
+
+2:59:21 PM-&gt;Busy Timeout:
+3:19:47 PM-&gt;Busy Timeout:</pre>
+<!-- Date: Sun Jan 12 15:08:43 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156514">156514</A>
+TERMINATE: Plug Sourcing, tubes 12&13, EM, layers 4&6, sector 0.1
+<!-- Author: sedov -->
+
+
+<!-- Date: Sun Jan 12 15:20:48 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156515">156515</A>
+TERMINATE: Plug Sourcing, tubes 15&16, HA, Layers 0&6, sector 0.1
+<!-- Author: sedov -->
+
+
+
+<!-- Date: Sun Jan 12 15:27:15 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156516">156516</A>
+TERMINATE: Plug Sourcing, tubes 21&22, EM, Layers 4&6, sector 1.0
+<!-- Author: sedov -->
+<!-- Comment: Sun Jan 12 18;17;12 comment by...Alexei Sedov, Willis -->
+West PEM and PHA wedge 7 is bad - (LER != 1)
+<!-- Date: Sun Jan 12 15:36:28 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156517">156517</A>
+TERMINATE: Plug Sourcing, tubes 24&25, HA, Layers 0&6, sector 1.0
+<!-- Author: sedov -->
+<!-- Comment: Sun Jan 12 18;19;25 comment by...Alexe Sedov, Willis -->
+West PEM and PHA wedge 7 is bad - (LER != 1)
+<!-- Date: Sun Jan 12 15:44:52 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156518">156518</A>
+TERMINATE: Plug Sourcing, tubes 34&35, EM, Layers 4&6, sector 1.1
+<!-- Author: sedov -->
+<!-- Comment: Sun Jan 12 18;20;11 comment by...Alexe Sedov, Willis -->
+West PEM and PHA wedge 7 is bad - (LER != 1)
+<!-- Date: Sun Jan 12 15:53:23 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156519">156519</A>
+TERMINATE: Plug Sourcing, tubes 37&38, HA, Layers 0&6, sector 1.1
+<!-- Author: sedov -->
+<!-- Comment: Sun Jan 12 18;20;54 comment by...Alexei Sedov, Willis -->
+West PEM and PHA wedge 7 is bad - (LER != 1)
+<!-- Date: Sun Jan 12 15:56:09 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Sun Jan 12 16:01:58 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156520">156520</A>
+TERMINATE: Plug Sourcing, tubes 43&44, EM, Layers 4&6, sector 2.0
+<!-- Author: sedov -->
+
+
+
+<!-- Date: Sun Jan 12 16:02:47 2003 -->
+<font color=red>Shift Summary: </font><pre>8:00 Stack dropped transitioning to the shot lattice in the Accumulator 
+9:00-12:00 TeV Studies 
+10:00 R. Roser puts all systems requiring a fast N2 purge under N2 purge flow. 
+      HV down. 
+12:00 First Pbars transferred from Recycler to Tevatron!  
+      Foster is happy. 
+12:30-13:30 Approximately complete set of calibrations taken. 
+      (Calibrations were not checked by CO, who had been sent home.) 
+13:50-14:30 Solenoid brought down for plug source runs. 
+14:30  Plug source runs (ongoing). 
+ 
+ 
+ 
+ 
+1) Evening and OWL CO's are released from duty.  
+2) Only a single (experienced) Ace will be needed on evening and  
+   Owl shift.  Aces can decide between themselves which one shows up.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   156494-156518
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             -
+   
+</td></tr></table></pre>
+<!-- Author: Bill Foster -->
+
+
+<!-- Date: Sun Jan 12 16:05:48 2003 -->
+<pre>Busy timeout: 
+19'47" 3 crate/s: b0xft00(97), b0xft02(99), b0xft04(101),  busy.[RXPT] 
+Auto-HRR was successful.</pre>
+<!-- Author: Jean-Francois :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156511' target=_top>156511</a>) -->
+
+<!-- Date: Sun Jan 12 16:10:03 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156521">156521</A>
+TERMINATE: Plug Sourcing, tubes 46&47, HA, Layers 0&6, sector 2.0
+<!-- Author: sedov -->
+
+
+<!-- Date: Sun Jan 12 16:18:09 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=156522">156522</A>
+TERMINATE: Plug Sourcing, tubes 52&53, EM, Layers 4&6, sector 2.1
+<!-- Author: sedov -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

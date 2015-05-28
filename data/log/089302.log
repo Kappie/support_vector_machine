@@ -1,0 +1,824 @@
+
+Processing anaCheckCalorTowers.C(222529,228596)...
+Analysis Code used: CheckCalorTowers.cc
+   1) Analysis Code used: CheckCalorTowers.cc
+222529
+222530
+222532
+222533
+222536
+222549
+222551
+222552
+222555
+222556
+222576
+222604
+222610
+222648
+222649
+222650
+222651
+222652
+222655
+222721
+222722
+222723
+222724
+222727
+222728
+222729
+222778
+222779
+222780
+222782
+222791
+222792
+222793
+222797
+222801
+222802
+222803
+222808
+222809
+222810
+222811
+222812
+222833
+222834
+222835
+222836
+222838
+222840
+222841
+222842
+222850
+222854
+222866
+222867
+222882
+222884
+222885
+222886
+222888
+222946
+222947
+222957
+223114
+223115
+223116
+223118
+223119
+223120
+223122
+223124
+223158
+223159
+223160
+223162
+223175
+223177
+223189
+223233
+223234
+223236
+223240
+223257
+223259
+223309
+223321
+223325
+223329
+223330
+223331
+223332
+223335
+223336
+223337
+223338
+223339
+223369
+223372
+223373
+223432
+223481
+223485
+223493
+223494
+223498
+223501
+223535
+223536
+223538
+223624
+223631
+223634
+223637
+223638
+223641
+223642
+223894
+223899
+224056
+224057
+224068
+224069
+224070
+224085
+224086
+224087
+224115
+224116
+224118
+224120
+224121
+224126
+224161
+224171
+224365
+224366
+224367
+224390
+224416
+224422
+224423
+224442
+224445
+224476
+224478
+224480
+224481
+224521
+224555
+224556
+224560
+224561
+226087
+226157
+226158
+226180
+226187
+226188
+226189
+226194
+226196
+226224
+226246
+226252
+226253
+226254
+226297
+226311
+226336
+226350
+226363
+226365
+226406
+226407
+227342
+227351
+227358
+227362
+227367
+227375
+227377
+227379
+227380
+227441
+227451
+227456
+227461
+227462
+227463
+227554
+227704
+227708
+227709
+227710
+227711
+227718
+227719
+227720
+227721
+227722
+227723
+227724
+227726
+227728
+227730
+227747
+227749
+227750
+227782
+227806
+227808
+227809
+227810
+227834
+227867
+227881
+227882
+227883
+227884
+227885
+227889
+227897
+227903
+228361
+228362
+228363
+228367
+228368
+228369
+228397
+228399
+228400
+228401
+228402
+228406
+228429
+228445
+228449
+228450
+228536
+228575
+228576
+228581
+228588
+228596
+228664
+228664
+228683
+228686
+228687
+228688
+228689
+228690
+228691
+228693
+228694
+228697
+228698
+228698
+228699
+228734
+228734
+228734
+228735
+************* Check sizes of various types **************
+   sizeof(int) = 4,  sizeof(short int) = 2,  sizeof(long int) = 4
+   sizeof(bool) = 1,  sizeof(UCHAR) = 1
+   sizeof(float) = 4,  sizeof(double) = 8
+********************************************************
+ nRuns to check = 244
+ Selected files to check: 
+ ( minRun, maxRun = 222529, 228596) 
+./data/calibhist_gb.036541.n4.calb.root
+./data/calibhist_gb.036542.n59.calb.root
+./data/calibhist_gb.036544.n34.calb.root
+./data/calibhist_gb.036545.n56.calb.root
+./data/calibhist_gb.036548.n4.calb.root
+./data/calibhist_gb.036555.n40.calb.root
+./data/calibhist_gb.036557.n1.calb.root
+./data/calibhist_gb.036558.n97.calb.root
+./data/calibhist_gb.03655b.n2.calb.root
+./data/calibhist_gb.03655c.n3.calb.root
+./data/calibhist_gb.036570.n104.calb.root
+./data/calibhist_gb.03658c.n37.calb.root
+./data/calibhist_gb.036592.n4.calb.root
+./data/calibhist_gb.0365b8.n23.calb.root
+./data/calibhist_gb.0365b9.n1.calb.root
+./data/calibhist_gb.0365ba.n2.calb.root
+./data/calibhist_gb.0365bb.n1.calb.root
+./data/calibhist_gb.0365bc.n21.calb.root
+./data/calibhist_gb.0365bf.n56.calb.root
+./data/calibhist_gb.036601.n2.calb.root
+./data/calibhist_gb.036602.n16.calb.root
+./data/calibhist_gb.036603.n1.calb.root
+./data/calibhist_gb.036604.n3.calb.root
+./data/calibhist_gb.036607.n75.calb.root
+./data/calibhist_gb.036608.n1.calb.root
+./data/calibhist_gb.036609.n1.calb.root
+./data/calibhist_gb.03663a.n3.calb.root
+./data/calibhist_gb.03663b.n6.calb.root
+./data/calibhist_gb.03663c.n41.calb.root
+./data/calibhist_gb.03663e.n2.calb.root
+./data/calibhist_gb.036647.n20.calb.root
+./data/calibhist_gb.036648.n4.calb.root
+./data/calibhist_gb.036649.n4.calb.root
+./data/calibhist_gb.03664d.n1.calb.root
+./data/calibhist_gb.036651.n12.calb.root
+./data/calibhist_gb.036652.n6.calb.root
+./data/calibhist_gb.036653.n8.calb.root
+./data/calibhist_gb.036658.n2.calb.root
+./data/calibhist_gb.036659.n20.calb.root
+./data/calibhist_gb.03665a.n2.calb.root
+./data/calibhist_gb.03665b.n2.calb.root
+./data/calibhist_gb.03665c.n7.calb.root
+./data/calibhist_gb.036671.n8.calb.root
+./data/calibhist_gb.036672.n10.calb.root
+./data/calibhist_gb.036673.n71.calb.root
+./data/calibhist_gb.036674.n1.calb.root
+./data/calibhist_gb.036676.n3.calb.root
+./data/calibhist_gb.036678.n5.calb.root
+./data/calibhist_gb.036679.n44.calb.root
+./data/calibhist_gb.03667a.n1.calb.root
+./data/calibhist_gb.036682.n3.calb.root
+./data/calibhist_gb.036686.n25.calb.root
+./data/calibhist_gb.036692.n66.calb.root
+./data/calibhist_gb.036693.n1.calb.root
+./data/calibhist_gb.0366a2.n1.calb.root
+./data/calibhist_gb.0366a4.n1.calb.root
+./data/calibhist_gb.0366a5.n19.calb.root
+./data/calibhist_gb.0366a6.n14.calb.root
+./data/calibhist_gb.0366a8.n2.calb.root
+./data/calibhist_gb.0366e2.n21.calb.root
+./data/calibhist_gb.0366e3.n5.calb.root
+./data/calibhist_gb.0366ed.n17.calb.root
+./data/calibhist_gb.03678a.n2.calb.root
+./data/calibhist_gb.03678b.n4.calb.root
+./data/calibhist_gb.03678c.n2.calb.root
+./data/calibhist_gb.03678e.n10.calb.root
+./data/calibhist_gb.03678f.n24.calb.root
+./data/calibhist_gb.036790.n17.calb.root
+./data/calibhist_gb.036792.n2.calb.root
+./data/calibhist_gb.036794.n2.calb.root
+./data/calibhist_gb.0367b6.n96.calb.root
+./data/calibhist_gb.0367b7.n1.calb.root
+./data/calibhist_gb.0367b8.n32.calb.root
+./data/calibhist_gb.0367ba.n5.calb.root
+./data/calibhist_gb.0367c7.n17.calb.root
+./data/calibhist_gb.0367c9.n22.calb.root
+./data/calibhist_gb.0367d5.n42.calb.root
+./data/calibhist_gb.036801.n25.calb.root
+./data/calibhist_gb.036802.n2.calb.root
+./data/calibhist_gb.036804.n42.calb.root
+./data/calibhist_gb.036808.n24.calb.root
+./data/calibhist_gb.036819.n1.calb.root
+./data/calibhist_gb.03681b.n1.calb.root
+./data/calibhist_gb.03684d.n100.calb.root
+./data/calibhist_gb.036859.n4.calb.root
+./data/calibhist_gb.03685d.n9.calb.root
+./data/calibhist_gb.036861.n14.calb.root
+./data/calibhist_gb.036862.n6.calb.root
+./data/calibhist_gb.036863.n2.calb.root
+./data/calibhist_gb.036864.n3.calb.root
+./data/calibhist_gb.036867.n1.calb.root
+./data/calibhist_gb.036868.n1.calb.root
+./data/calibhist_gb.036869.n1.calb.root
+./data/calibhist_gb.03686a.n17.calb.root
+./data/calibhist_gb.03686b.n4.calb.root
+./data/calibhist_gb.036889.n20.calb.root
+./data/calibhist_gb.03688c.n6.calb.root
+./data/calibhist_gb.03688d.n56.calb.root
+./data/calibhist_gb.0368c8.n96.calb.root
+./data/calibhist_gb.0368f9.n21.calb.root
+./data/calibhist_gb.0368fd.n10.calb.root
+./data/calibhist_gb.036905.n1.calb.root
+./data/calibhist_gb.036906.n37.calb.root
+./data/calibhist_gb.03690a.n46.calb.root
+./data/calibhist_gb.03690d.n2.calb.root
+./data/calibhist_gb.03692f.n38.calb.root
+./data/calibhist_gb.036930.n109.calb.root
+./data/calibhist_gb.036932.n21.calb.root
+./data/calibhist_gb.036988.n18.calb.root
+./data/calibhist_gb.03698f.n15.calb.root
+./data/calibhist_gb.036992.n23.calb.root
+./data/calibhist_gb.036995.n11.calb.root
+./data/calibhist_gb.036996.n2.calb.root
+./data/calibhist_gb.036999.n1.calb.root
+./data/calibhist_gb.03699a.n9.calb.root
+./data/calibhist_gb.036a96.n6.calb.root
+./data/calibhist_gb.036a9b.n8.calb.root
+./data/calibhist_gb.036b38.n7.calb.root
+./data/calibhist_gb.036b39.n15.calb.root
+./data/calibhist_gb.036b44.n7.calb.root
+./data/calibhist_gb.036b45.n1.calb.root
+./data/calibhist_gb.036b46.n3.calb.root
+./data/calibhist_gb.036b55.n64.calb.root
+./data/calibhist_gb.036b56.n2.calb.root
+./data/calibhist_gb.036b57.n13.calb.root
+./data/calibhist_gb.036b73.n4.calb.root
+./data/calibhist_gb.036b74.n6.calb.root
+./data/calibhist_gb.036b76.n3.calb.root
+./data/calibhist_gb.036b78.n3.calb.root
+./data/calibhist_gb.036b79.n8.calb.root
+./data/calibhist_gb.036b7e.n45.calb.root
+./data/calibhist_gb.036ba1.n32.calb.root
+./data/calibhist_gb.036bab.n12.calb.root
+./data/calibhist_gb.036c6d.n5.calb.root
+./data/calibhist_gb.036c6e.n66.calb.root
+./data/calibhist_gb.036c6f.n27.calb.root
+./data/calibhist_gb.036c86.n7.calb.root
+./data/calibhist_gb.036ca0.n3.calb.root
+./data/calibhist_gb.036ca6.n2.calb.root
+./data/calibhist_gb.036ca7.n22.calb.root
+./data/calibhist_gb.036cba.n1.calb.root
+./data/calibhist_gb.036cbd.n74.calb.root
+./data/calibhist_gb.036cdc.n39.calb.root
+./data/calibhist_gb.036cde.n13.calb.root
+./data/calibhist_gb.036ce0.n16.calb.root
+./data/calibhist_gb.036ce1.n65.calb.root
+./data/calibhist_gb.036d09.n131.calb.root
+./data/calibhist_gb.036d2b.n1.calb.root
+./data/calibhist_gb.036d2c.n5.calb.root
+./data/calibhist_gb.036d30.n1.calb.root
+./data/calibhist_gb.036d31.n4.calb.root
+./data/calibhist_gb.037327.n25.calb.root
+./data/calibhist_gb.03736d.n5.calb.root
+./data/calibhist_gb.03736e.n10.calb.root
+./data/calibhist_gb.037384.n1.calb.root
+./data/calibhist_gb.03738b.n4.calb.root
+./data/calibhist_gb.03738c.n2.calb.root
+./data/calibhist_gb.03738d.n10.calb.root
+./data/calibhist_gb.037392.n2.calb.root
+./data/calibhist_gb.037394.n39.calb.root
+./data/calibhist_gb.0373b0.n1.calb.root
+./data/calibhist_gb.0373c6.n12.calb.root
+./data/calibhist_gb.0373cc.n8.calb.root
+./data/calibhist_gb.0373cd.n6.calb.root
+./data/calibhist_gb.0373ce.n29.calb.root
+./data/calibhist_gb.0373f9.n70.calb.root
+./data/calibhist_gb.037407.n12.calb.root
+./data/calibhist_gb.037420.n7.calb.root
+./data/calibhist_gb.03742e.n13.calb.root
+./data/calibhist_gb.03743b.n70.calb.root
+./data/calibhist_gb.03743d.n62.calb.root
+./data/calibhist_gb.037466.n4.calb.root
+./data/calibhist_gb.037467.n39.calb.root
+./data/calibhist_gb.03780e.n6.calb.root
+./data/calibhist_gb.037817.n1.calb.root
+./data/calibhist_gb.03781e.n2.calb.root
+./data/calibhist_gb.037822.n2.calb.root
+./data/calibhist_gb.037827.n3.calb.root
+./data/calibhist_gb.03782f.n4.calb.root
+./data/calibhist_gb.037831.n47.calb.root
+./data/calibhist_gb.037833.n1.calb.root
+./data/calibhist_gb.037834.n1.calb.root
+./data/calibhist_gb.037871.n6.calb.root
+./data/calibhist_gb.03787b.n3.calb.root
+./data/calibhist_gb.037880.n10.calb.root
+./data/calibhist_gb.037885.n32.calb.root
+./data/calibhist_gb.037886.n5.calb.root
+./data/calibhist_gb.037887.n3.calb.root
+./data/calibhist_gb.0378e2.n77.calb.root
+./data/calibhist_gb.037978.n12.calb.root
+./data/calibhist_gb.03797c.n25.calb.root
+./data/calibhist_gb.03797d.n6.calb.root
+./data/calibhist_gb.03797e.n12.calb.root
+./data/calibhist_gb.03797f.n10.calb.root
+./data/calibhist_gb.037986.n1.calb.root
+./data/calibhist_gb.037987.n1.calb.root
+./data/calibhist_gb.037988.n2.calb.root
+./data/calibhist_gb.037989.n4.calb.root
+./data/calibhist_gb.03798a.n9.calb.root
+./data/calibhist_gb.03798b.n1.calb.root
+./data/calibhist_gb.03798c.n1.calb.root
+./data/calibhist_gb.03798e.n1.calb.root
+./data/calibhist_gb.037990.n1.calb.root
+./data/calibhist_gb.037992.n2.calb.root
+./data/calibhist_gb.0379a3.n74.calb.root
+./data/calibhist_gb.0379a5.n2.calb.root
+./data/calibhist_gb.0379a6.n49.calb.root
+./data/calibhist_gb.0379c6.n105.calb.root
+./data/calibhist_gb.0379de.n5.calb.root
+./data/calibhist_gb.0379e0.n42.calb.root
+./data/calibhist_gb.0379e1.n10.calb.root
+./data/calibhist_gb.0379e2.n2.calb.root
+./data/calibhist_gb.0379fa.n52.calb.root
+./data/calibhist_gb.037a1b.n20.calb.root
+./data/calibhist_gb.037a29.n22.calb.root
+./data/calibhist_gb.037a2a.n6.calb.root
+./data/calibhist_gb.037a2b.n3.calb.root
+./data/calibhist_gb.037a2c.n15.calb.root
+./data/calibhist_gb.037a2d.n3.calb.root
+./data/calibhist_gb.037a31.n1.calb.root
+./data/calibhist_gb.037a39.n1.calb.root
+./data/calibhist_gb.037a3f.n1.calb.root
+./data/calibhist_gb.037c09.n24.calb.root
+./data/calibhist_gb.037c0a.n1.calb.root
+./data/calibhist_gb.037c0b.n2.calb.root
+./data/calibhist_gb.037c0f.n1.calb.root
+./data/calibhist_gb.037c10.n1.calb.root
+./data/calibhist_gb.037c11.n15.calb.root
+./data/calibhist_gb.037c2d.n13.calb.root
+./data/calibhist_gb.037c2f.n23.calb.root
+./data/calibhist_gb.037c30.n43.calb.root
+./data/calibhist_gb.037c31.n1.calb.root
+./data/calibhist_gb.037c32.n4.calb.root
+./data/calibhist_gb.037c36.n10.calb.root
+./data/calibhist_gb.037c4d.n108.calb.root
+./data/calibhist_gb.037c5d.n3.calb.root
+./data/calibhist_gb.037c61.n18.calb.root
+./data/calibhist_gb.037c62.n11.calb.root
+./data/calibhist_gb.037cb8.n102.calb.root
+./data/calibhist_gb.037cdf.n25.calb.root
+./data/calibhist_gb.037ce0.n14.calb.root
+./data/calibhist_gb.037ce5.n5.calb.root
+./data/calibhist_gb.037cec.n6.calb.root
+./data/calibhist_gb.037cf4.n30.calb.root
+ runNo = 222529
+ runNo = 222530
+ runNo = 222532
+ runNo = 222533
+ runNo = 222536
+ runNo = 222549
+ runNo = 222551
+ runNo = 222552
+ runNo = 222555
+ runNo = 222556
+ runNo = 222576
+ runNo = 222604
+ runNo = 222610
+ runNo = 222648
+ runNo = 222649
+ runNo = 222650
+ runNo = 222651
+ runNo = 222652
+ runNo = 222655
+ runNo = 222721
+ runNo = 222722
+ runNo = 222723
+ runNo = 222724
+ runNo = 222727
+ runNo = 222728
+ runNo = 222729
+ runNo = 222778
+ runNo = 222779
+ runNo = 222780
+ runNo = 222782
+ runNo = 222791
+ runNo = 222792
+ runNo = 222793
+ runNo = 222797
+ runNo = 222801
+ runNo = 222802
+ runNo = 222803
+ runNo = 222808
+ runNo = 222809
+ runNo = 222810
+ runNo = 222811
+ runNo = 222812
+ runNo = 222833
+ runNo = 222834
+ runNo = 222835
+ runNo = 222836
+ runNo = 222838
+ runNo = 222840
+ runNo = 222841
+ runNo = 222842
+ runNo = 222850
+ runNo = 222854
+ runNo = 222866
+ runNo = 222867
+ runNo = 222882
+ runNo = 222884
+ runNo = 222885
+ runNo = 222886
+ runNo = 222888
+ runNo = 222946
+ runNo = 222947
+ runNo = 222957
+ runNo = 223114
+ runNo = 223115
+ runNo = 223116
+ runNo = 223118
+ runNo = 223119
+ runNo = 223120
+ runNo = 223122
+ runNo = 223124
+ runNo = 223158
+ runNo = 223159
+ runNo = 223160
+ runNo = 223162
+ runNo = 223175
+ runNo = 223177
+ runNo = 223189
+ runNo = 223233
+ runNo = 223234
+ runNo = 223236
+ runNo = 223240
+ runNo = 223257
+ runNo = 223259
+ runNo = 223309
+ runNo = 223321
+ runNo = 223325
+ runNo = 223329
+ runNo = 223330
+ runNo = 223331
+ runNo = 223332
+ runNo = 223335
+ runNo = 223336
+ runNo = 223337
+ runNo = 223338
+ runNo = 223339
+ runNo = 223369
+ runNo = 223372
+ runNo = 223373
+ runNo = 223432
+ runNo = 223481
+ runNo = 223485
+ runNo = 223493
+ runNo = 223494
+ runNo = 223498
+ runNo = 223501
+ runNo = 223535
+ runNo = 223536
+ runNo = 223538
+ runNo = 223624
+ runNo = 223631
+ runNo = 223634
+ runNo = 223637
+ runNo = 223638
+ runNo = 223641
+ runNo = 223642
+ runNo = 223894
+ runNo = 223899
+ runNo = 224056
+ runNo = 224057
+ runNo = 224068
+ runNo = 224069
+ runNo = 224070
+ runNo = 224085
+ runNo = 224086
+ runNo = 224087
+ runNo = 224115
+ runNo = 224116
+ runNo = 224118
+ runNo = 224120
+ runNo = 224121
+ runNo = 224126
+ runNo = 224161
+ runNo = 224171
+ runNo = 224365
+ runNo = 224366
+ runNo = 224367
+ runNo = 224390
+ runNo = 224416
+ runNo = 224422
+ runNo = 224423
+ runNo = 224442
+ runNo = 224445
+ runNo = 224476
+ runNo = 224478
+ runNo = 224480
+ runNo = 224481
+ runNo = 224521
+ runNo = 224555
+ runNo = 224556
+ runNo = 224560
+ runNo = 224561
+ runNo = 226087
+ runNo = 226157
+ runNo = 226158
+ runNo = 226180
+ runNo = 226187
+ runNo = 226188
+ runNo = 226189
+ runNo = 226194
+ runNo = 226196
+ runNo = 226224
+ runNo = 226246
+ runNo = 226252
+ runNo = 226253
+ runNo = 226254
+ runNo = 226297
+ runNo = 226311
+ runNo = 226336
+ runNo = 226350
+ runNo = 226363
+ runNo = 226365
+ runNo = 226406
+ runNo = 226407
+ runNo = 227342
+ runNo = 227351
+ runNo = 227358
+ runNo = 227362
+ runNo = 227367
+ runNo = 227375
+ runNo = 227377
+ runNo = 227379
+ runNo = 227380
+ runNo = 227441
+ runNo = 227451
+ runNo = 227456
+ runNo = 227461
+ runNo = 227462
+ runNo = 227463
+ runNo = 227554
+ runNo = 227704
+ runNo = 227708
+ runNo = 227709
+ runNo = 227710
+ runNo = 227711
+ runNo = 227718
+ runNo = 227719
+ runNo = 227720
+ runNo = 227721
+ runNo = 227722
+ runNo = 227723
+ runNo = 227724
+ runNo = 227726
+ runNo = 227728
+ runNo = 227730
+ runNo = 227747
+ runNo = 227749
+ runNo = 227750
+ runNo = 227782
+ runNo = 227806
+ runNo = 227808
+ runNo = 227809
+ runNo = 227810
+ runNo = 227834
+ runNo = 227867
+ runNo = 227881
+ runNo = 227882
+ runNo = 227883
+ runNo = 227884
+ runNo = 227885
+ runNo = 227889
+ runNo = 227897
+ runNo = 227903
+ runNo = 228361
+ runNo = 228362
+ runNo = 228363
+ runNo = 228367
+ runNo = 228368
+ runNo = 228369
+ runNo = 228397
+ runNo = 228399
+ runNo = 228400
+ runNo = 228401
+ runNo = 228402
+ runNo = 228406
+ runNo = 228429
+ runNo = 228445
+ runNo = 228449
+ runNo = 228450
+ runNo = 228536
+ runNo = 228575
+ runNo = 228576
+ runNo = 228581
+ runNo = 228588
+ runNo = 228596
+*******************************************************
+ using Sigma_cut = 6, Prob_cut = 9.86588e-10
+*******************************************************
+****** Check Tower Status methods and structures ******
+
+ 1)  info as entered in structure testStatus: 
+ towerStatusRunByRun = 4 usePoissonRunByRun = 1
+ towerStatusRunAve = 3 usePoissonRunAve = 1
+ towerStatusFinal = 0 usePoissonFinal = 1
+ badPMT = 3
+ statusID word = 32024
+
+ 2)  reconstructed info from the statusID word: 
+ towerStatusRunByRun = 4 usePoissonRunByRun = 1
+ towerStatusRunAve = 3 usePoissonRunAve = 1
+ towerStatusFinal = 0 usePoissonFinal = 1
+ badPMT = 3
+ statusID word = 32024
+*******************************************************
+ results go in: /cdf/home/cdfopr/danielw/Calibration/Processes/badchannels/test_results/
+=======================================================
+...Checking the calorimeter Towers in:   4 <=  eta  <= 47
+
+******  Good runs have NO Cold and NO Hot bins   ******
+(Tag towers >6rms from mean or PoissonProb < 9.86588e-10)
+
+ Results in directory: /cdf/home/cdfopr/danielw/Calibration/Processes/badchannels/test_results/
+=======================================================
+
+ Before defining Arrays
+ Before defining runNo Arrays, ( 90 kbytes so far) 
+ Before defining 2nd bunch of arrays (35775 kbytes so far)
+ Before defining last bunch of Arrays ( 50544 kbytes so far)
+ Before init. Arrays ( 51090 kbytes needed so far)
+ After init. Arrays
+Number of files read: 
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59	60	61	62	63	64	65	66	67	68	69	70	71	72	73	74	75	76	77	78	79	80	81	82	83	84	85	86	87	88	89	90	91	92	93	94	95	96	97	98	99	100	101	102	103	104	105	106	107	108	109	110	111	112	113	114	115	116	117	118	119	120	121	122	123	124	125	126	127	128	129	130	131	132	133	134	135	136	137	138	139	140	141	142	143	144	145	146	147	148	149	150	151	152	153	154	155	156	157	158	159	160	161	162	163	164	165	166	167	168	169	170	171	172	173	174	175	176	177	178	179	180	181	182	183	184	185	186	187	188	189	190	191	192	193	194	195	196	197	198	199	200	201	202	203	204	205	206	207	208	209	210	211	212	213	214	215	216	217	218	219	220	221	222	223	224	225	226	227	228	229	230	231	232	233	234	235	236	237	238	239	240	241	242	243	
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+With towers checked Run-by-Run (each Run is independent), here is the result: 
+ Total number of Runs        Good      Bad    Not Checked
+ --------------------       ------    -----  ------------
+       244                    75        169        0
+
+++++ Done with 1st pass over all runs to tag towers. 
+   ( Tagged towers, run-by-run, reported in checkCalorTowersDetails_v* )
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Re-classification of towers finished. Saving histograms... 
+FLAG runs as GOOD/BAD using the Re-Evaluatee towers...
+
+ ........................................
+
+FINAL tower status using their Run-Average behaviour (if possible)
+
+ #Runs  CCAL_OK  PCAL_OK  CAL_OK   CCAL_BAD  PCAL_BAD   CCAL_BEAM?  PCAL_BEAM?  No Check
+------------------------------------------------------------------------------------------
+  244      216      233     207        28        11          0           0           0
+------------------------------------------------------------------------------------------
+ ALL is Done! 
+TROOT*		Rint	The ROOT of EVERYTHING
+(int)0

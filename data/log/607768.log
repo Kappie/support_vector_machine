@@ -1,0 +1,475 @@
+<!-- Title: Day shift. Tue Mar 23, 2004 -->
+<!-- SciCo: David Saltzberg -->
+<!-- DAQAce: see below -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: &nbsp; -->
+<!-- OpManager: Mary Convery -->
+<!-- Notes: -->
+<pre>Aces: 
+  Alison Lister 
+  Giorgio Cortiana 
+  Shabnaz Pashapour 
+ 
+Plan: in access.</pre>
+
+<!-- Date: Tue Mar 23 08:17:34.565 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180598">180598</A>
+ Terminated at 2004.03.23 08:17:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Mar 23 08:18:29.050 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180598">180598</A>
+TERMINATE: End cosmics run.
+<!-- Author: Christopher, Melisa, & Jared -->
+
+
+
+<!-- Date: Tue Mar 23 08:29:04.036 2004 -->
+<pre>We had a ifix problem in the Global Alarms and HV summary monitors.  Restarted.</pre>
+<!-- Author: Giorgio, Alison Shabnaz -->
+<!-- Comment: Tue Mar 23 08;53;21 comment by...Dale -->
+Is <a href=
+'/cgi/elog/elog.pl?nb=2004&action=view&page=170&frame=2&anchor=01:08:04.334'>
+this</a> still the case?  Are the Heart beats for the 4 muon systems and 3 SMx systems still grey?
+<!-- Comment: Tue Mar 23 09;00;08 comment by...Giorgio + alison -->
+<pre>Yes there are still some problems: the 4 muon systems still have not recieved any heartbeats (grey H) as well as 3 of the Cal nodes (CES, CPR and CCR).
+I think these are the same as those seen over night.
+There are no light blue HBs any more, only grey ones.</pre>
+<!-- Comment: Tue Mar 23 09;01;04 comment by...Giorgio + Alison -->
+<pre>Now the whole node is greyed out for those 7 systems not just the HB indicator</pre>
+<!-- Comment: Tue Mar 23 09;08;15 comment by...Dale -->
+Everything went grey when I ended the HVMon++ program (the HV monitor program for the Muon3 PC).  I started it up again (haven't closed anything).  I tried this once but I may have not waited long enough - trying again.
+<!-- Comment: Tue Mar 23 09;10;44 comment by...Dale -->
+didn't work (HB status stayed grey).  A restart/reboot will work.
+<!-- Comment: Tue Mar 23 09;31;03 comment by...Phil Schlabach and Dale -->
+<pre>Restarted Muon3 - Heart Beat status is now 'pink' (it may turn grey at some point) - iFix and Muon3 are talking to each other fine (can control voltage, etc.).  We 'blame' iFix although the exact problem is not clear.</pre>
+<!-- Date: Tue Mar 23 08:43:39.282 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180599">180599</A>
+ACTIVATE: COSMIC NOT TRACKS RUN started. 
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+
+
+
+<!-- Date: Tue Mar 23 09:04:51.071 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-3748&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-3748  width='300' align='top'></a></td><td>powercycle me!</td></tr></table>
+<!-- Author: convery -->
+<!-- Comment: Tue Mar 23 09;05;25 comment by...convery -->
+Shower max calibration failed for pcal04 slot 4 all channels.
+
+
+<!-- Date: Tue Mar 23 09:06:41.253 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-3749&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-3749  width='300' align='top'></a></td><td>an opportunity to try our new remote powercycle on fcal00</td></tr></table>
+<!-- Author: convery -->
+<!-- Comment: Tue Mar 23 12;50;34 comment by...convery -->
+remote powercycle apparently does not work as expected (Rob watched the lights on the power supply when we tried again)
+<!-- Date: Tue Mar 23 09:28:31.671 2004 -->
+CMP guys are going down to look at stacks 49/50 Top (hsk, tv).
+<!-- Author: ps -->
+<!-- Comment: Tue Mar 23 09;32;46 comment by...Dale and ps -->
+CMU and CMP HV should not be touched - its under expert control.
+<!-- Comment: Tue Mar 23 11;02;14 comment by...ps -->
+expert control revoked below
+<!-- Date: Tue Mar 23 09:31:03.785 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180599">180599</A>
+TERMINATE: Cosmic NO Track Stopped: isolist fiber splitting test is needed.
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+
+<!-- Date: Tue Mar 23 09:43:04.110 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180600">180600</A>
+ACTIVATE: COSMIC NO TRAKC RUN
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 09:45:44.790 2004 -->
+Tim Cunneen here looking at collision hall camera system.(Working 
+in control room only...)
+<!-- Author: JJ -->
+<!-- Comment: Tue Mar 23 11;39;08 comment by...JJ -->
+<pre>Monitor #14 (hooked to the LCD screen in rack 2RR13B) does
+not dipaly the "camera/monitor" information correctly. This
+is a problem in the PELCO system and would cost $$ to repair.
+Since we do not use this display very often, we will probably
+not fix this problem.</pre>
+<!-- Date: Tue Mar 23 09:56:25.857 2004 -->
+We replaced a preamp in CMP Top Stack 50 which had been oscillating.  The four channels of this stack now check out okay.
+<!-- Author: Trevor  and Hyunsoo -->
+
+
+<!-- Date: Tue Mar 23 10:01:31.205 2004 -->
+<pre>PHA: problems with west plug crate 4, section 11. 
+Waiting for someone working on it!</pre>
+<!-- Author: Alison, Giorgio, Shabnaz -->
+<!-- Comment: Tue Mar 23 11;01;09 comment by...Willis -->
+Plug CAEN HV crate 04 slot 0: all channels were off. I switched
+the crate HV off then back on, and slot 0 came back on. It seems
+to be okay now.
+<!-- Date: Tue Mar 23 10:07:55.230 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180600">180600</A>
+TERMINATE: End run to give WCAL crates to Bill B.
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 10:40:16.407 2004 -->
+Again problems with ifix: details not displayed.  
+Restarted!
+<!-- Author: Alison, Giorgio, Shabnaz -->
+
+
+
+<!-- Date: Tue Mar 23 11:01:49.254 2004 -->
+CMU HV work is finished. CMP work in the hall is finished. Control of CMU/P HV is passed back to the shift crew.
+<!-- Author: ps -->
+<!-- Comment: Tue Mar 23 11;17;42 comment by...ps -->
+That's actually all our work; we've cleared out the hall (out of the building for good measure).
+<!-- Date: Tue Mar 23 11:05:36.012 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180605">180605</A>
+ACTIVATE: showermax calib after powercycle of pcal04
+<!-- Author: Alison, Shabnaz and Giorgio -->
+<!-- Comment: Tue Mar 23 11;12;49 comment by...convery -->
+looks ok now
+
+
+<!-- Date: Tue Mar 23 11:31:14.701 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180606">180606</A>
+ACTIVATE: Doing Roman Pot SMQIE calibration
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 11:32:42.636 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180606">180606</A>
+TERMINATE: Roman Pot SMQIE calibration done
+<!-- Author: Alison, Shabnaz and Giorgio -->
+<!-- Comment: Tue Mar 23 11;34;10 comment by...convery -->
+still bad after remote powercycle
+
+
+
+<!-- Date: Tue Mar 23 11:47:38.843 2004 -->
+Trigger Table (6,446,441) Test RUN ACTIVATED.
+<!-- Author: Shabnaz, Giorgio, Alison :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180607' target=_top>180607</a>) -->
+
+
+<!-- Date: Tue Mar 23 11:54:28.561 2004 -->
+Scico change for rest of shift:  David-->J.C.
+<!-- Author: Scico -->
+
+<!-- Date: Tue Mar 23 12:03:11.214 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180608">180608</A>
+ACTIVATE: STARTING COSMIC_NOTRACKS (6,446,441) FOR L2 TRIGGER CHECKS
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 12:06:44.068 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180608">180608</A>
+TERMINATE: ENDED TO CLEAN UP EVB
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 12:14:26.266 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180609">180609</A>
+TERMINATE: need to drop fcal00/01
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 12:17:59.844 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180610">180610</A>
+ACTIVATE: COSMIC_NOTRACKS (6,446,441) for L2 trigger checks
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 12:28:37.026 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180611">180611</A>
+ACTIVATE: roman pot calib after manual powercycle of fcal00
+<!-- Author: convery 2080 -->
+<!-- Comment: Tue Mar 23 12;49;22 comment by...convery -->
+still failing
+<!-- Date: Tue Mar 23 12:30:55.631 2004 -->
+I have retired all old L3 decoupled trigger tables which used 4.8.4  
+reconstruction code and replaced them with new tables made with 5.1.3.  The new tables are already written on the white board and have been tested over the weekend.  All of the new decoupled L3 tables are usable with both old and new DSP code.
+<!-- Author: Kirsten -->
+
+<!-- Date: Tue Mar 23 12:31:45.500 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180610">180610</A>
+TERMINATE: Got enough events for now
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 12:33:29.364 2004 -->
+<pre>A configuration file for the trigger inhibit has been updated. 
+ 
+Please try starting it....</pre>
+<!-- Author: Frank Chlebana, Steve Vejcik -->
+<!-- Comment: Tue Mar 23 15;58;45 comment by...Alison, Shabnaz and Giorgio -->
+<pre>We tried it. The GUI seems to open fine. We have no beam to test it properly.  </pre>
+<!-- Date: Tue Mar 23 12:43:04.029 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180613">180613</A>
+ACTIVATE: Laser Calibration Run BothPlugs_Normal.
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 12:50:32.950 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180613">180613</A>
+TERMINATE: Calibartion Run, BOTHPLUGS_NORMAL
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 12:52:07.280 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180615">180615</A>
+ACTIVATE: Laser Calibratio Run, BOTHPLUGS_MM_C
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 12:54:15.000 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180615">180615</A>
+TERMINATE: Calibration Run, BOTHPLUGS_MM_C.
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 12:57:53.083 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180617">180617</A>
+ACTIVATE: Laser Calibration Run, BOTHPLUGS_MM
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:00:05.029 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180617">180617</A>
+TERMINATE: Laser Calibration Run, BOTHPLUGS_MM
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 13:03:35.090 2004 -->
+I swapped back the BMU HV cables at the back of the 
+CAEN pods for BMU-E-72 and BMU-E-84.  Thanks Phil. 
+  
+<!-- Author: Camille Ginsburg -->
+
+
+<!-- Date: Tue Mar 23 13:08:55.342 2004 -->
+another alignment crew just arrived
+<!-- Author: convery -->
+
+<!-- Date: Tue Mar 23 13:11:39.233 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180618">180618</A>
+ACTIVATE: CLC QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:12:23.130 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180618">180618</A>
+TERMINATE: CLC QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:16:14.577 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180619">180619</A>
+ACTIVATE: BSC QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:17:03.457 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180619">180619</A>
+TERMINATE: BSC QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:24:26.411 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180620">180620</A>
+ACTIVATE: SMX QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:25:57.942 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180620">180620</A>
+TERMINATE: SMX QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 13:35:19.593 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-3750&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-3750  width='300' align='top'></a></td><td><p>J.C. Yun found CONMGR.exe was using 99% of CPU on SOLENOID2, slowing everything else, including ICICLE, to a crawl.  After shutting down iFIX and restarting it, this went to < 1% even with ICICLE running.  However, ICICLE seems to be taking one cycle of data and then dying at the point shown in this picture, when Smart Socket messages are attempted.</p> 
+ 
+<p>Margherita Vittone is checking out the log and then she will be coming over to try and figure out the problem with Smart Sockets.</p></td></tr></table>
+<!-- Author: Steve Hahn -->
+
+<!-- Date: Tue Mar 23 13:37:15.900 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180622">180622</A>
+ACTIVATE: Muon Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:37:28.902 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180622">180622</A>
+TERMINATE: Muon Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:49:09.233 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180623">180623</A>
+ACTIVATE: Calorimeter QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:49:37.414 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180623">180623</A>
+TERMINATE: Calorimeter QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:51:54.122 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180624">180624</A>
+ACTIVATE: TOF QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:52:35.246 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180624">180624</A>
+TERMINATE: TOF QIE Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:54:45.658 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180626">180626</A>
+ACTIVATE: CEM LED Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:57:12.017 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180626">180626</A>
+TERMINATE: CEM LED Calibration Run
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 13:59:23.066 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180628">180628</A>
+ACTIVATE: TOF TAC Calibration, TOF_TAC_CALIB
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 14:01:32.820 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180628">180628</A>
+TERMINATE: TOF TAC Calibration done. TOF_TAC_CALIB
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 14:36:02.345 2004 -->
+<table><tr><td><a href=/elog/notebooks/2004/Tue_Mar_23_2004_Day.143528.ps align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-3752  align='top'></a></td><td>We did CLC QIE calibration. We checked the result. We see 1 extra hot channel at (4,1).</td></tr></table>
+<!-- Author: Alison, Giorgio and Shabnaz -->
+
+
+<!-- Date: Tue Mar 23 14:42:35.592 2004 -->
+<pre>We did BSC QIE Calibration, and DBANA Plots were analyzed. All Ok!</pre>
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 14:47:44.219 2004 -->
+<table><tr><td><a href=/elog/notebooks/2004/Tue_Mar_23_2004_Day.144736.ps align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-3754  align='top'></a></td><td>We did Roman Pot SMQIE calibration. We see the same behaviour as before.</td></tr></table>
+<!-- Author: Alison, Giorgio and Shabnaz -->
+
+
+<!-- Date: Tue Mar 23 14:58:07.943 2004 -->
+<pre>We checked Plug Laser Calibration. Everything seems OK.</pre>
+<!-- Author: Alison, Giorgio and Shabnaz -->
+
+<!-- Date: Tue Mar 23 15:01:57.849 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180632">180632</A>
+ACTIVATE: COSMIC_NOTRACKS, (6,392, 441)
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+<!-- Date: Tue Mar 23 15:06:26.302 2004 -->
+<pre>Some Level3 work.  
+I've put back 027, 100, 224.  
+Made a test run.  
+Everything works. </pre>
+<!-- Author: Boris -->
+
+
+<!-- Date: Tue Mar 23 15:10:31.155 2004 -->
+<pre>SMX QIE Calibration done. DBANA plots checked: Nothing to report.</pre>
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+<!-- Date: Tue Mar 23 15:22:37.315 2004 -->
+<table><tr><td><a href=/elog/notebooks/2004/Tue_Mar_23_2004_Day.152221.ps align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-3756  align='top'></a></td><td>We noticed new bad channels while analyzing CEM LED calibration results. The LED expert was informed by email.</td></tr></table>
+<!-- Author: Alison, Giorgio and Shabnaz -->
+
+<!-- Date: Tue Mar 23 15:55:32.122 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:55:02</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Tue Mar 23 15:56:31.398 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=180632">180632</A>
+TERMINATE: Change in HV setup is needed.
+<!-- Author: Alison, Shabnaz and Giorgio -->
+
+
+
+
+<!-- Date: Tue Mar 23 16:00:27.871 2004 -->
+<font color=red>Shift Summary: </font><pre>Shift Summary 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+ 
+Access for CMU/CMP work. 
+Access for COT work. 
+Calibration runs. 
+ 
+ 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             0
+   
+</td></tr></table></pre>
+<!-- Author: Saltzberg / Yun -->

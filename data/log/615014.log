@@ -1,0 +1,336 @@
+<!-- Title: Eve shift. Sat Jan 24, 2004 -->
+<!-- SciCo: Robin Erbacher -->
+<!-- DAQAce: Catalin Ciobanu -->
+<!-- MonAce: Alison Lister -->
+<!-- CO: Niccolo Moggi -->
+<!-- OpManager: Mary Convery -->
+<!-- Notes: -->
+<pre>Store # 3189 Running Without, Now with Silicon. 
+Run #178396 ending.  
+ 
+B0Lum 15.9 Stack at 108. 
+ 
+Plan: Run until told otherwise.</pre>
+
+<!-- Date: Sat Jan 24 16:14:06.466 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178397">178397</A>
+ Activated at 2004.01.24 16:13:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jan 24 16:14:06.607 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178397">178397</A>
+ Activated at 2004.01.24 16:13:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Jan 24 16:15:26.552 2004 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178397">178397</A>
+ACTIVATE: Running with silicon.
+AAA_CURRENT, PHYSICS_2_01[3,402,419]
+<!-- Author: Catalin x2080 -->
+
+
+
+<!-- Date: Sat Jan 24 16:36:38.408 2004 -->
+from the run coordinator elog: 
+<p> 
+16:26:11-  Since the Debuncher injection septum isn't working (a device that bends beam into the Debuncher), we can't stack. The magnet shows an open circuit when measured upstairs, so it's a tunnel problem. Hopefully it's a bad connection and not a bad magnet. - JPM <br> 
+--------------------------------------------------------------------------------<br> 
+ 16:29:23-   
+The Plan:  
+Terminate the present store when the average luminosity is  
+approximately 10E30. Go into shot setup, proton intensities  
+250-260E9 per bunch, squeeze the daylights out of the pbar core  
+momentum, try for a frequency width of 18 Hz, remove 95% of the  
+stack. Obie or associates should be called with enough advance  
+notice so they can access the rings to look at the Debuncher  
+injection septum as soon as the return to stacking aggregate has  
+been finished. 
+ - JPM   
+<!-- Author: convery -->
+
+
+<!-- Date: Sat Jan 24 16:55:06.104 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-1902&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-1902  width='300' align='top'></a></td><td>One red chip in ISL1... is it ok ?</td></tr></table>
+<!-- Author: niccolo&#39; -->
+<!-- Comment: Sat Jan 24 17;26;11 comment by...niccolo&#39; -->
+The expert just called in: it seems this is a known problem...
+
+
+<!-- Date: Sat Jan 24 17:30:38.568 2004 -->
+ProcMon error: TOMCAT failed. 
+Restarted TOMCAT and it is green again
+<!-- Author: Catalin -->
+
+
+<!-- Date: Sat Jan 24 17:38:44.003 2004 -->
+Lindgren on the phone with Jim Morgan (Run Coordinator). 
+We were wondering about the plan.  Jim, as usual, has a good plan for proceeding, and says there is a septum magnet showing an open, and it might be leads(easy fix) or a broken magnet(swap, maybe 8 hours or more).  He wants to wait until luminosity is at ~10 to drop the store, which should happen early owl shift.  We will then go into shot setup and shoot the existing stack of ~110mA.  They will then make an access and determine the problem, fix it and get back to stacking.  Good luck to them, hope it is a lead failure only!
+<!-- Author: Lindgren -->
+
+
+<!-- Date: Sat Jan 24 17:46:35.437 2004 -->
+b0cot3 failed in a funny way: On the Replies and Acknowledgement panel its color was green, but no events were being taken. 
+After ~1 minute it turned red in the above-mentioned panel. Auto HRR failed . Shepherding failed as well. Manual HRR. Shepherd again, and it came back up.  
+<!-- Author: Catalin/Alison -->
+
+
+<!-- Date: Sat Jan 24 17:54:49.176 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-1903&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-1903  width='300' align='top'></a></td><td>One red pmt in WHA (-7West,23R). But note that it is OK in the 
+high-threshold plot !</td></tr></table>
+<!-- Author: niccolo&#39; -->
+<!-- Comment: Sat Jan 24 20;37;27 comment by...m mattson -->
+<br>Curious that the
+<a href=
+'/cgi/elog/elog.pl?nb=2004&action=view&page=69&frame=2&anchor=17:25:36.610'>hot tower reported yesterday</a>
+is absent, while this new one pops up.
+<!-- Date: Sat Jan 24 18:33:36.578 2004 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2004&action=view&page=-1904&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2004&action=view&page=-1904  width='300' align='top'></a></td><td>e</td></tr></table>
+<!-- Author: rainer -->
+<!-- Comment: Sat Jan 24 18;44;28 comment by...Rainer -->
+<h2> Diagnosing 'weird'  LV/HV problems of the Silicon </h2> <p>
+
+Courtesy of Steve Hahn, we have now a <b> beautiful </b> silicon inhibit status window - this will help you <b> Aces </b> to quicker diagnose where 'TRIPS' of the silicon reported in RC will come from - the trigger inhibit type failures we had are not reported by ifix, but this display will show the ladder which is giving the inhibit - it will speed up the pager carriers response to the problem. <p>
+You will find this window on the PC VNODE2 running TevMon in rack 2RR03H. If it is not display, restart it from CDF Misc. IFIX menu. Thanks. 
+<!-- Date: Sat Jan 24 18:38:15.506 2004 -->
+L2 pipeline unhappy - and successive HRR's did not fix it. 
+rebood_alpha got the job done
+<!-- Author: Alison/Catalin -->
+
+
+<!-- Date: Sat Jan 24 18:43:09.337 2004 -->
+Abort Gap losses (B0PAGC): 9507, Store 3189, B0Lumi 14.5
+<!-- Author: Robin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178397' target=_top>178397</a>) -->
+
+
+
+<!-- Date: Sat Jan 24 19:39:49.936 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1905&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1905' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1906&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1906' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1907&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1907' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1908&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1908' width='300'></a></center>
+<!-- Author: Alison/Catalin -->
+<!-- Comment: Sat Jan 24 19;40;26 comment by...Alison/Catalin -->
+Hourly plots
+
+
+<!-- Date: Sat Jan 24 19:47:36.210 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1909&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1909' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1910&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1910' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1911&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1911' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1912&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1912' width='300'></a></center>
+<!-- Author: Alison/Catalin -->
+
+
+<!-- Date: Sat Jan 24 19:49:46.259 2004 -->
+<b> request to ops for end of store study to understand silicon DAQ stuck-on-resonance problem </b>. 
+<p> 
+We would like to understand whether the stuck-on-resonance problem always is non-recoverable or whether there are periods of smooth data taking  where an occasional resonance condition could be HRR'ed out of (so far the resonance failures we have seen seem to all be connected to some other DAQ problem - or causing it?). <p> 
+To this end, we request to tighten our resonance cuts at the end of this or one of the next stores, such that we have an increased likelihood to have a spurious resonance condition met, and try to HRR out of this one. please page silicon SPL if opportunity arises for this test.
+<!-- Author: Rainer,Gino -->
+<!-- Comment: Sat Jan 24 22;07;58 comment by...Robin -->
+Mary called... said it's ok for them to do these studies at around midnight when the luminosity is very low.
+<!-- Date: Sat Jan 24 20:34:57.900 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1916&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1916' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1917&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1917' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1918&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1918' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1919&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1919' width='300'></a></center>
+<!-- Author: alison -->
+<!-- Comment: Sat Jan 24 20;43;34 comment by...alison -->
+Hourly plots.
+Losses seem to be going up. Up by 3kHz over the past hour, up to 14kHz now. Page silicon just to make sure it's OK.
+
+
+<!-- Date: Sat Jan 24 20:45:48.422 2004 -->
+b0pcal10 gave DTO. Again funny thing - it was not red in the Replies and Acknowledgements Panel. Auto HRR+ Manual HRR did not help. Shepherding worked.   
+<!-- Author: Catalin/Alison -->
+
+
+<!-- Date: Sat Jan 24 20:48:57.670 2004 -->
+Enabled Auto-shepherd mode
+<!-- Author: Catalin -->
+
+
+<!-- Date: Sat Jan 24 20:59:13.817 2004 -->
+Abort gap losses went down from almost 15000 Hz to 12400 Hz. 
+(B0PAGC).
+<!-- Author: Robin -->
+
+
+<!-- Date: Sat Jan 24 21:38:36.853 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1920&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1920' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1921&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1921' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1922&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1922' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1923&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1923' width='300'></a></center>
+<!-- Author: alison -->
+<!-- Comment: Sat Jan 24 21;38;57 comment by...alison -->
+Hourly plots
+
+
+<!-- Date: Sat Jan 24 21:39:03.819 2004 -->
+B0 luminosity: 12e30.  Shift efficiency so far is 91%, so let's 
+hope we don't have any more L2 problems!  <i>grin</i> 
+<!-- Author: Robin -->
+
+
+
+<!-- Date: Sat Jan 24 22:51:50.335 2004 -->
+<center><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1928&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1928' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1929&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1929' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1930&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1930' width='300'></a><a href='/cgi/elog/elog.pl?nb=2004&action=view&page=-1931&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2004&action=view&page=-1931' width='300'></a></center>
+<!-- Author: alison -->
+
+
+<!-- Date: Sat Jan 24 23:21:50.916 2004 -->
+Power supply alarm, 1st Floor, 1RR18D_1, Channel 0 was high. Went away on it's own
+<!-- Author: alison -->
+<!-- Comment: Sat Jan 24 23;40;49 comment by...rainer -->
+which crate is that ? there is a plan behind the scico on the wall. 
+
+
+<!-- Comment: Sat Jan 24 23;43;29 comment by...alison -->
+Sorry! The "stuff" running on the create are: CMX-W, TDC and Muon (according to the list at least)
+<!-- Comment: Sat Jan 24 23;57;59 comment by...alison -->
+Same thing just happened again...
+<!-- Date: Sat Jan 24 23:40:52.216 2004 -->
+Mary is on her way in to be here when silicon resonance tests 
+happen at around midnight.
+<!-- Author: Robin -->
+<!-- Comment: Sat Jan 24 23;56;32 comment by...rainer -->
+please page me when she is in - I might be in a bit late.
+<!-- Date: Sat Jan 24 23:45:14.591 2004 -->
+Abort gap loss alarm.  It's hanging just below 15 kHz. 
+Right now it's at 14.5 kHz.  We're watching it.   
+ 
+B0 luminosity: 11.9 e30
+<!-- Author: Robin -->
+<!-- Comment: Sat Jan 24 23;47;17 comment by...Robin -->
+Alarmed again: we're at 15.8 kHz.  Called MCR-- they will take a look at it.
+
+<!-- Date: Sat Jan 24 23:55:41.432 2004 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178396>178396</A> 
+x2B8DC</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_01 [3,402,419]</TD>                                       
+<TD ALIGN=CENTER>16:00:53</TD>                                          
+<TD ALIGN=CENTER>16:06:38</TD>                                          
+<TD ALIGN=CENTER>00:05:40</TD>                                          
+<TD ALIGN=RIGHT>      1,435,101</TD>                                    
+<TD ALIGN=RIGHT>        25,957</TD>                                     
+<TD ALIGN=RIGHT>       6,710</TD>                                       
+<TD ALIGN=RIGHT>    5.210</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=178397>178397</A> 
+x2B8DD</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_2_01 [3,402,419]</TD>                                       
+<TD ALIGN=CENTER>16:13:30</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>07:17:56</TD>                                          
+<TD ALIGN=RIGHT>    262,038,407</TD>                                    
+<TD ALIGN=RIGHT>     4,154,768</TD>                                     
+<TD ALIGN=RIGHT>   1,015,946</TD>                                       
+<TD ALIGN=RIGHT>  359.199</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:01</TD>                                                       
+<TD ALIGN=CENTER>07:23:37</TD>                                          
+<TD ALIGN=RIGHT>     263,473,508</TD>                                   
+<TD ALIGN=RIGHT>      4,180,725</TD>                                    
+<TD ALIGN=RIGHT>     1,022,656</TD>                                     
+<TD ALIGN=RIGHT>  364.409</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+
+
+<!-- Date: Sun Jan 25 00:03:38.473 2004 -->
+<font color=red>Shift Summary: </font><pre>Summary of the evening shift 24 Jan 2004 
+======================================== 
+ 
+16:00 Start shift, taking data.  
+ 
+Store 3189 
+B0LUM 15 E30 
+Run 178396  
+ 
+ 
+ 
+16:15 Rainer in: investigating Silicon resonance problems. 
+Decide to finally run without silicon, but short run 
+(178396).  Rainer says to go ahead and run with silicon, 
+good run: 178397. 
+ 
+17:35 Debuncher injection septum isn't working, so stacking 
+has stopped. Lindgren, Robin, JJ all wondering why we're keeping 
+low lumi store instead of shooting what we have if we can't  
+stack more anyway.  Mike calls Jim Morgan, who has a plan.   
+If it turns out to be a problem with a magnet rather than  
+an easy fix, we run until Lumi~10e30 (early owl) then immediately  
+shoot stack (pbar ~108).  Then it will take about 12 hours to  
+replace magnet. They are still investigating whether or not  
+it's simply a problem with a broken lead. 
+ 
+17:45 Decision time out for b0cot03, but didn't recover. 
+Crate panel green but events stopped being logged.  HRR, 
+shepherding, manual HRR all failed(!).  Tried shepherding 
+again: successful.  Note that owl shift had a problem 
+with b0cot03. 
+ 
+18:35 L2 decision time out, but went into a loop.  Apparently 
+it was out of sync, as verified by the three error messages 
+in a row: "svtmon..., xtrpmon..., trklistmonitor..."  This requires 
+an alpha reboot (see new note with red asterisks above DAQ ACE 
+station). 
+ 
+18:40 AbortGap Losses: 9736 
+ 
+19:49 Request made by Silicon SPL for end-of-store test 
+of resonance error conditions. 
+ 
+20:40 Abort gap losses approached 15 kHz.  Paged silicon. 
+Losses dropped to 12 kHz, then back up to 13.8 kHz. Stan says 
+to watch it and ramp down the silicon HV if it gets too high. 
+Will call MCR if it goes above 15 kHz. 
+ 
+21:40 B0 luminosity 12e30. 
+ 
+23:40 Mary on her way in to be here for silicon tests, which 
+may happen at midnight. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   178396-178397
+Delivered Luminosity   394.68 nb-1  
+Acquired Luminosity    367.34 nb-1  
+Efficiency             93.07
+   
+</td></tr></table></pre>
+<!-- Author: Robin Erbacher -->

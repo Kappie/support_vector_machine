@@ -1,0 +1,463 @@
+<!-- Title: Owl shift. Tue May 27, 2008 -->
+<!-- SciCo: Andreas Warburton -->
+<!-- DAQAce: Louise Oakes -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Marcelo Vogel -->
+<!-- OpManager: J.J. Schmidt -->
+<!-- Notes: -->
+<pre>Start shift with Store 6165 in its dying minutes.</pre>
+
+
+<!-- Date: Tue May 27 00:07:11.845 2008 -->
+Called MCR (Kyle) to inform that our HV is ready for EOS.
+<!-- Author: A. Warburton -->
+
+<!-- Date: Tue May 27 00:14:29.856 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262674>262674</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Shang-Yuu -->
+
+
+
+<!-- Date: Tue May 27 00:15:21.682 2008 -->
+Store 6165 just ended.  Called Process Tech (Jim) to advise.
+<!-- Author: A. Warburton -->
+
+<!-- Date: Tue May 27 00:16:38.299 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262674>262674</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;30;19 comment by...Marcelo -->
+calqie OK
+<!-- Date: Tue May 27 00:16:39.316 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262675>262675</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Shang-Yuu -->
+
+
+<!-- Date: Tue May 27 00:17:16.130 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262675>262675</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;33;49 comment by...Marcelo -->
+clcqie OK
+<!-- Date: Tue May 27 00:22:00.033 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262676>262676</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;35;25 comment by...Marcelo -->
+bscqie OK
+<!-- Date: Tue May 27 00:22:01.639 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262676>262676</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 00:24:08.494 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262677>262677</A>
+ Activated at 2008.05.27 00:23:52
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue May 27 00:25:02.962 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262677>262677</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,1023,706] 
+<!-- Author: Louise -->
+<!-- Comment: Tue May 27 00;29;11 comment by...Louise -->
+PMT spike run - part quiet time, part with protons
+
+
+<!-- Comment: Tue May 27 00;32;37 comment by...Louise -->
+L1 accept rate 60.4Hz
+
+<!-- Date: Tue May 27 00:33:46.136 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262677>262677</A>
+ Terminated at 2008.05.27 00:32:12
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue May 27 00:35:12.676 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262678>262678</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 00:35:13.209 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262678>262678</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;37;55 comment by...Marcelo -->
+tofqie OK
+
+<!-- Date: Tue May 27 00:39:45.906 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262679>262679</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 00:43:26.782 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262680>262680</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 00:44:10.615 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262680>262680</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;49;17 comment by...Marcelo -->
+cemled OK
+<!-- Date: Tue May 27 00:44:11.434 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262679>262679</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;50;02 comment by...Marcelo -->
+smx OK
+<!-- Date: Tue May 27 00:46:55.401 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262681>262681</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 00:48:34.890 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262681>262681</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;51;56 comment by...Marcelo -->
+cot OK
+<!-- Date: Tue May 27 00:49:02.192 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262682>262682</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Louise -->
+
+
+
+
+<!-- Date: Tue May 27 00:51:44.791 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262682>262682</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 00;55;02 comment by...Marcelo -->
+calxef 
+<!-- Date: Tue May 27 00:53:19.456 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262683>262683</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Louise -->
+
+
+
+<!-- Date: Tue May 27 00:56:08.128 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262684>262684</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 01:02:21.021 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262684>262684</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue May 27 01;04;35 comment by...Marcelo -->
+toftac OK
+
+<!-- Date: Tue May 27 01:05:48.850 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262685>262685</A>
+ Activated at 2008.05.27 01:05:24
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue May 27 01:05:49.497 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262685>262685</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1019,706] 
+<!-- Author: Louise -->
+
+
+
+<!-- Date: Tue May 27 01:06:08.122 2008 -->
+Temperature of PE10 is reading 80.0 and is now showing yellow rather than red.  Outdoor ambient temperature is also dropping.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262684' target=_top>262684</a>) -->
+
+
+<!-- Date: Tue May 27 01:27:42.980 2008 -->
+ENCP to tape error in ProcMon - this is dealt with by DH group, web page instructions say to leave for 4 hours before taking any action
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262685' target=_top>262685</a>) -->
+<!-- Comment: Tue May 27 03;01;13 comment by...Louise -->
+This has cleared now
+<!-- Date: Tue May 27 01:37:25.244 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262685>262685</A>
+ Terminated at 2008.05.27 01:37:21
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue May 27 01:37:41.810 2008 -->
+Loading final protons.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262685' target=_top>262685</a>) -->
+
+<!-- Date: Tue May 27 01:41:30.417 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262686>262686</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [7,1089,721] 
+<!-- Author: Louise -->
+
+
+
+<!-- Date: Tue May 27 01:47:21.419 2008 -->
+Antiprotons are being injected.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262686' target=_top>262686</a>) -->
+<!-- Comment: Tue May 27 01;49;38 comment by...A. Warburton -->
+Paged Silicon and called Ops Manager (JJ).
+
+<!-- Comment: Tue May 27 01;52;09 comment by...A. Warburton -->
+JJ will monitor remotely; Silicon expert is en route.
+
+
+<!-- Date: Tue May 27 02:08:30.665 2008 -->
+Antiproton bunches have been loaded.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262686' target=_top>262686</a>) -->
+
+
+<!-- Date: Tue May 27 02:20:56.854 2008 -->
+pcal05 unresponsive in ready state - shepherded, now it's fine
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 02:27:07.678 2008 -->
+Scraping is complete -- Store 6166.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 02:29:39.248 2008 -->
+TevPR: 9469E09; TevPB: 2421E09.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 02:30:17.457 2008 -->
+About 2 mins ago, called MCR to advise that our CLC is up.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 02:31:21.326 2008 -->
+C:B0ILUM: 234E30
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 02;32;24 comment by...A. Warburton -->
+MCR recorded 237.70E30
+
+<!-- Date: Tue May 27 02:34:04.991 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687>262687</A>
+ Activated at 2008.05.27 02:32:34
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue May 27 02:34:05.017 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687>262687</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [7,1089,721] 
+<!-- Author: Louise -->
+
+
+
+<!-- Date: Tue May 27 02:34:41.729 2008 -->
+TOF HV trigger inhibit came and went within a few seconds
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 02:35:02.519 2008 -->
+svxmon HRR error - HRR fixed it
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 02:46:23.729 2008 -->
+L2 decision TO - auto HRR cleared it
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 03;19;48 comment by...Louise -->
+again
+<!-- Comment: Tue May 27 03;36;25 comment by...Louise -->
+again
+<!-- Date: Tue May 27 02:47:43.243 2008 -->
+Muon system heartbeat alarm - this is caused by the virus scan running on muon3 - I paused it and the heartbeat alarm cleared.  I will restart it again later and monitor this system.
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 03;45;43 comment by...Louise -->
+I restarted the scan and it triggered a heartbeat alarm within 5 minutes so paused it again and the alarm cleared
+<!-- Comment: Tue May 27 07;42;10 comment by...Louise -->
+Tried restarting the scan once more but the same problem happened so I stopped the scan completely
+<!-- Date: Tue May 27 02:50:48.047 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-2552&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2552  width='300' align='top'></a></td><td>loss/ab gaps for shotsetup 6166</td></tr></table>
+<!-- Author: Louise -->
+
+
+<!-- Date: Tue May 27 02:51:32.456 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-2553&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2553  width='300' align='top'></a></td><td>svrad integ for shotsetup 6166 
+</td></tr></table>
+<!-- Author: Louise -->
+
+<!-- Date: Tue May 27 02:59:54.406 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262673>262673</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=262673 target=_runSummary>262673</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+<!-- Comment: Tue May 27 03;25;24 comment by...A. Warburton -->
+Done.
+
+
+<!-- Date: Tue May 27 03:32:15.014 2008 -->
+Gas alarm - CMU bubbler alcohol level, CMU Alcohol bubbler temp - silenced by cryo tech, cleared to green status then back to yellow
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 03;38;00 comment by...A. Warburton -->
+Cryo/Gas e-log informs that Jim H. added some alcohol to bring the level back up.
+
+
+
+<!-- Date: Tue May 27 04:09:33.361 2008 -->
+Temperature of PE10 is reading 78.8 and is green.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 04:18:09.544 2008 -->
+L2 done TO, then pcal07 hung during HRR -shepherding fixed it
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 05:49:25.087 2008 -->
+goodrun (RunStatus) client appears to have frozen with java-related errors connoting a possible memory issue.  Here are a few of the errors seen: 
+ 
+<tt> 
+Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space 
+Exception in thread "process reaper" java.lang.OutOfMemoryError: Java heap space 
+Exception in thread "AWT-XAWT" java.lang.OutOfMemoryError: Java heap space 
+</tt>
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 05;55;09 comment by...A. Warburton -->
+Opening a separate xterm, doing "setup fer", followed by "goodrun", seems to work fine in starting a new client.  I killed the offending java process (id 24362).
+
+<!-- Comment: Tue May 27 05;58;03 comment by...A. Warburton -->
+Am sending e-mail to cdf_ops@fnal.gov to describe this.
+
+
+<!-- Date: Tue May 27 06:12:00.328 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Tue_May_27_2008_Owl.061139.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-2555  align='top'></a></td><td>CCRPadCanvas with new dead pads (phi wedge 13,14)</td></tr></table>
+<!-- Author: Marcelo -->
+<!-- Comment: Tue May 27 06;14;02 comment by...Marcelo -->
+New dead channel in CCR East Pad
+
+
+<!-- Date: Tue May 27 06:23:13.558 2008 -->
+Water alarm went off, but nothing red on ifix display, and nothing close to limits on water process system summary page
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 07:19:52.268 2008 -->
+Icicle red in daqmon - restarted it on solenoid2, now green 
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 07:34:45.396 2008 -->
+pcal04 done TO, shepherded to fix it
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 07:35:12.894 2008 -->
+cot12 done TO - HRR fixed it
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 07;37;34 comment by...Louise -->
+repeated done TOs for this crate after HRR - shepherded it which seems to have cleared the problem
+
+
+
+<!-- Date: Tue May 27 07:49:32.220 2008 -->
+COT HV issue caused run to halt.  Ace is investigating and expert is attending.
+<!-- Author: A. Warburton :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+
+
+<!-- Date: Tue May 27 07:52:42.470 2008 -->
+<font color=red>Shift Summary: </font><pre>Shift began as Store 6165 ended. 
+ 
+Did QT and nQT calibrations. 
+ 
+Monitored East Plug PMT crate 10 temperature, which dropped below 80F. 
+ 
+Virus scan on muon3 precipitated heartbeat alarms when not paused. 
+ 
+Store 6166 began at 02:27 with 234E30 luminosity. 
+ 
+OutOfMemoryError encountered for goodrun java client. 
+ 
+06:23 Momentary water alarm, but no indication on ifix display, and 
+no values near their limits on the summary page. 
+ 
+07:45 COT HV issues 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   262687
+Delivered Luminosity   3020.1 nb-1  
+Acquired Luminosity    2709.2 nb-1  
+Efficiency             89.7
+   
+</td></tr></table></pre>
+<!-- Author: A. Warburton -->
+
+
+<!-- Date: Tue May 27 07:54:44.200 2008 -->
+COT HV trip - COT2 PC crashed causing the trip, now back at full voltage and taking data
+<!-- Author: Louise :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=262687' target=_top>262687</a>) -->
+<!-- Comment: Tue May 27 08;30;21 comment by...Bob Wagner (FNAL) -->
+The COT HV PC, COT2, was rebooted over the weekend for Memory Allocation Errors, which happens (usually) every few weeks.  If the Ace is not familiar with COT IFIX problems, the COT expert should be called immediately in order to save time with the recovery.  After rebooting, the diagnostic window for COT spike triggers did not recover.  When I opened it this morning, COT2 crashed again and had to be rebooted (sorry about the down time).  I left a note on the PC for experts to not try opening the window again until we can take a look at the problem between stores.    
+<!-- Comment: Wed May 28 00;32;34 comment by...A. Warburton -->
+For the record, the COT expert was called to assist with the reboot of COT2 over the weekend.  To see the relevant e-log content, <a href=
+'/cgi/elog/elog.pl?nb=2008&action=view&page=439&frame=2&anchor=01:49:12.370'>
+click here</a>. 
+<!-- Date: Tue May 27 07:55:06.190 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=262673 target=_runSummary>262673</A> x40211</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1089,721]</FONT></TD>
+<TD ALIGN=CENTER>18:26:16</TD>
+<TD ALIGN=CENTER>23:59:22</TD>
+<TD ALIGN=CENTER>04:56:40</TD>
+<TD ALIGN=RIGHT>   1,692,040</TD>   <TD ALIGN=RIGHT>  1,344.47</TD>
+<TD ALIGN=RIGHT>  1,193.38</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=262687 target=_runSummary>262687</A> x4021F</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [7,1089,721]</FONT></TD>
+<TD ALIGN=CENTER>02:32:34</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>04:44:27</TD>
+<TD ALIGN=RIGHT>   2,287,836</TD>   <TD ALIGN=RIGHT>  3,026.47</TD>
+<TD ALIGN=RIGHT>  2,709.22</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:00</TD>
+<TD ALIGN=CENTER>09:41:08</TD>
+<TD ALIGN=RIGHT>     3,979,876</TD> <TD ALIGN=RIGHT>  4,370.94</TD>
+<TD ALIGN=RIGHT>  3,902.60</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+

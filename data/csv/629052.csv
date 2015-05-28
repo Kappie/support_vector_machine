@@ -1,0 +1,663 @@
+2001,12,13,"Acadia National Park","ME","Good","AQC","Ozone",0,44.350,-68.283,"No",me001
+2001,12,14,"Acadia National Park","ME","Good","AQC","Ozone",0,44.350,-68.283,"No",me001
+2001,12,15,"Acadia National Park","ME","Not Available","AQC","Ozone",0,44.350,-68.283,"No",me001
+2001,12,16,"Acadia National Park","ME","Not Available","AQC","Ozone",0,44.350,-68.283,"No",me001
+2001,12,13,"Albany","NY","Good","AQC","Ozone",0,42.681,-73.758,"No",ny001
+2001,12,14,"Albany","NY","Good","AQC","Ozone",0,42.681,-73.758,"No",ny001
+2001,12,15,"Albany","NY","Not Available","AQC","Ozone",0,42.681,-73.758,"No",ny001
+2001,12,16,"Albany","NY","Not Available","AQC","Ozone",0,42.681,-73.758,"No",ny001
+2001,12,13,"Asheville Ridge Tops (above 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc001
+2001,12,14,"Asheville Ridge Tops (above 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc001
+2001,12,15,"Asheville Ridge Tops (above 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc001
+2001,12,16,"Asheville Ridge Tops (above 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc001
+2001,12,13,"Asheville Valleys (below 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc002
+2001,12,14,"Asheville Valleys (below 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc002
+2001,12,15,"Asheville Valleys (below 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc002
+2001,12,16,"Asheville Valleys (below 4000 feet)","NC","Not Available","AQC","Ozone",0,35.595,-82.551,"No",nc002
+2001,12,13,"Atlanta","GA","Not Available","AQC","Ozone",0,33.650,-84.430,"No",ga001
+2001,12,14,"Atlanta","GA","Not Available","AQC","Ozone",0,33.650,-84.430,"No",ga001
+2001,12,15,"Atlanta","GA","Not Available","AQC","Ozone",0,33.650,-84.430,"No",ga001
+2001,12,16,"Atlanta","GA","Not Available","AQC","Ozone",0,33.650,-84.430,"No",ga001
+2001,12,13,"Atlantic City","NJ","Moderate","AQC","Particulate Matter",0,39.378,-74.451,"No",nj001
+2001,12,14,"Atlantic City","NJ","Moderate","AQC","Particulate Matter",0,39.378,-74.451,"No",nj001
+2001,12,15,"Atlantic City","NJ","Not Available","AQC","Ozone",0,39.378,-74.451,"No",nj001
+2001,12,16,"Atlantic City","NJ","Not Available","AQC","Ozone",0,39.378,-74.451,"No",nj001
+2001,12,13,"Austin","TX","Good","AQC","Ozone",0,30.267,-97.734,"No",tx001
+2001,12,14,"Austin","TX","Good","AQC","Ozone",0,30.267,-97.734,"No",tx001
+2001,12,15,"Austin","TX","Not Available","AQC","Ozone",0,30.267,-97.734,"No",tx001
+2001,12,16,"Austin","TX","Not Available","AQC","Ozone",0,30.267,-97.734,"No",tx001
+2001,12,13,"Bakersfield","CA","Moderate","AQC","Particulate Matter",0,35.35770,-119.00455,"No",ca006
+2001,12,14,"Bakersfield","CA","Not Available","AQC","Ozone",0,35.35770,-119.00455,"No",ca006
+2001,12,15,"Bakersfield","CA","Not Available","AQC","Ozone",0,35.35770,-119.00455,"No",ca006
+2001,12,16,"Bakersfield","CA","Not Available","AQC","Ozone",0,35.35770,-119.00455,"No",ca006
+2001,12,13,"Baltimore","MD","Good","AQC","Ozone",0,39.301,-76.611,"No",md001
+2001,12,14,"Baltimore","MD","Good","AQC","Ozone",0,39.301,-76.611,"No",md001
+2001,12,15,"Baltimore","MD","Not Available","AQC","Ozone",0,39.301,-76.611,"No",md001
+2001,12,16,"Baltimore","MD","Not Available","AQC","Ozone",0,39.301,-76.611,"No",md001
+2001,12,13,"Baton Rouge 5-Parish Area","LA","Not Available","AQC","Ozone",0,30.449,-91.126,"No",la001
+2001,12,14,"Baton Rouge 5-Parish Area","LA","Not Available","AQC","Ozone",0,30.449,-91.126,"No",la001
+2001,12,15,"Baton Rouge 5-Parish Area","LA","Not Available","AQC","Ozone",0,30.449,-91.126,"No",la001
+2001,12,16,"Baton Rouge 5-Parish Area","LA","Not Available","AQC","Ozone",0,30.449,-91.126,"No",la001
+2001,12,13,"Bayonne","NJ","Moderate","AQC","Particulate Matter",0,40.665,-74.110,"No",nj002
+2001,12,14,"Bayonne","NJ","Moderate","AQC","Particulate Matter",0,40.665,-74.110,"No",nj002
+2001,12,15,"Bayonne","NJ","Not Available","AQC","Ozone",0,40.665,-74.110,"No",nj002
+2001,12,16,"Bayonne","NJ","Not Available","AQC","Ozone",0,40.665,-74.110,"No",nj002
+2001,12,13,"Beaumont-Port Arthur","TX","Good","AQC","Ozone",0,30.083,-94.100,"No",tx002
+2001,12,14,"Beaumont-Port Arthur","TX","Good","AQC","Ozone",0,30.083,-94.100,"No",tx002
+2001,12,15,"Beaumont-Port Arthur","TX","Not Available","AQC","Ozone",0,30.083,-94.100,"No",tx002
+2001,12,16,"Beaumont-Port Arthur","TX","Not Available","AQC","Ozone",0,30.083,-94.100,"No",tx002
+2001,12,13,"Birmingham","AL","Not Available","AQC","Ozone",0,33.560,-86.750,"No",al001
+2001,12,14,"Birmingham","AL","Not Available","AQC","Ozone",0,33.560,-86.750,"No",al001
+2001,12,15,"Birmingham","AL","Not Available","AQC","Ozone",0,33.560,-86.750,"No",al001
+2001,12,16,"Birmingham","AL","Not Available","AQC","Ozone",0,33.560,-86.750,"No",al001
+2001,12,13,"Boston","MA","Good","AQC","Ozone",0,42.351,-71.051,"No",ma001
+2001,12,14,"Boston","MA","Good","AQC","Ozone",0,42.351,-71.051,"No",ma001
+2001,12,15,"Boston","MA","Not Available","AQC","Ozone",0,42.351,-71.051,"No",ma001
+2001,12,16,"Boston","MA","Not Available","AQC","Ozone",0,42.351,-71.051,"No",ma001
+2001,12,13,"Bremerton-Silverdale-Bainbridge Island","WA","Good","AQC","Particulate Matter",0,47.640,-122.647,"No",wa001
+2001,12,14,"Bremerton-Silverdale-Bainbridge Island","WA","Good","AQC","Particulate Matter",0,47.640,-122.647,"No",wa001
+2001,12,15,"Bremerton-Silverdale-Bainbridge Island","WA","Good","AQC","Particulate Matter",0,47.640,-122.647,"No",wa001
+2001,12,16,"Bremerton-Silverdale-Bainbridge Island","WA","Not Available","AQC","Ozone",0,47.640,-122.647,"No",wa001
+2001,12,13,"Bridgeport","CT","Good","AQC","Ozone",0,41.184,-73.190,"No",ct001
+2001,12,14,"Bridgeport","CT","Good","AQC","Ozone",0,41.184,-73.190,"No",ct001
+2001,12,15,"Bridgeport","CT","Not Available","AQC","Ozone",0,41.184,-73.190,"No",ct001
+2001,12,16,"Bridgeport","CT","Not Available","AQC","Ozone",0,41.184,-73.190,"No",ct001
+2001,12,13,"Buffalo","NY","Good","AQC","Ozone",0,42.992,-78.771,"No",ny002
+2001,12,14,"Buffalo","NY","Good","AQC","Ozone",0,42.992,-78.771,"No",ny002
+2001,12,15,"Buffalo","NY","Not Available","AQC","Ozone",0,42.992,-78.771,"No",ny002
+2001,12,16,"Buffalo","NY","Not Available","AQC","Ozone",0,42.992,-78.771,"No",ny002
+2001,12,13,"Burlington","VT","Good","AQC","Ozone",0,44.467,-73.201,"No",vt001
+2001,12,14,"Burlington","VT","Good","AQC","Ozone",0,44.467,-73.201,"No",vt001
+2001,12,15,"Burlington","VT","Not Available","AQC","Ozone",0,44.467,-73.201,"No",vt001
+2001,12,16,"Burlington","VT","Not Available","AQC","Ozone",0,44.467,-73.201,"No",vt001
+2001,12,13,"Camden","NJ","Moderate","AQC","Particulate Matter",0,39.936,-75.108,"No",nj003
+2001,12,14,"Camden","NJ","Moderate","AQC","Particulate Matter",0,39.936,-75.108,"No",nj003
+2001,12,15,"Camden","NJ","Not Available","AQC","Ozone",0,39.936,-75.108,"No",nj003
+2001,12,16,"Camden","NJ","Not Available","AQC","Ozone",0,39.936,-75.108,"No",nj003
+2001,12,13,"Cape Cod and Islands","MA","Good","AQC","Ozone",0,41.900,-70.300,"No",ma002
+2001,12,14,"Cape Cod and Islands","MA","Good","AQC","Ozone",0,41.900,-70.300,"No",ma002
+2001,12,15,"Cape Cod and Islands","MA","Not Available","AQC","Ozone",0,41.900,-70.300,"No",ma002
+2001,12,16,"Cape Cod and Islands","MA","Not Available","AQC","Ozone",0,41.900,-70.300,"No",ma002
+2001,12,13,"Charlotte","NC","Not Available","AQC","Ozone",0,35.227,-80.843,"No",nc003
+2001,12,14,"Charlotte","NC","Not Available","AQC","Ozone",0,35.227,-80.843,"No",nc003
+2001,12,15,"Charlotte","NC","Not Available","AQC","Ozone",0,35.227,-80.843,"No",nc003
+2001,12,16,"Charlotte","NC","Not Available","AQC","Ozone",0,35.227,-80.843,"No",nc003
+2001,12,13,"Cherry Hill","NJ","Moderate","AQC","Particulate Matter",0,39.902,-74.996,"No",nj004
+2001,12,14,"Cherry Hill","NJ","Moderate","AQC","Particulate Matter",0,39.902,-74.996,"No",nj004
+2001,12,15,"Cherry Hill","NJ","Not Available","AQC","Ozone",0,39.902,-74.996,"No",nj004
+2001,12,16,"Cherry Hill","NJ","Not Available","AQC","Ozone",0,39.902,-74.996,"No",nj004
+2001,12,13,"Chicago","IL","Good","AQC","Ozone",0,41.964,-87.659,"No",il001
+2001,12,14,"Chicago","IL","Good","AQC","Ozone",0,41.964,-87.659,"No",il001
+2001,12,15,"Chicago","IL","Not Available","AQC","Ozone",0,41.964,-87.659,"No",il001
+2001,12,16,"Chicago","IL","Not Available","AQC","Ozone",0,41.964,-87.659,"No",il001
+2001,12,13,"Cincinnati","OH","Moderate","AQC","Particulate Matter",0,39.104,-84.523,"No",oh001
+2001,12,14,"Cincinnati","OH","Good","AQC","Particulate Matter",0,39.104,-84.523,"No",oh001
+2001,12,15,"Cincinnati","OH","Good","AQC","Particulate Matter",0,39.104,-84.523,"No",oh001
+2001,12,16,"Cincinnati","OH","Good","AQC","Particulate Matter",0,39.104,-84.523,"No",oh001
+2001,12,13,"Cleveland-Akron-Lorain","OH","Good","AQC","Ozone",0,41.480,-81.679,"No",oh002
+2001,12,14,"Cleveland-Akron-Lorain","OH","Good","AQC","Ozone",0,41.480,-81.679,"No",oh002
+2001,12,15,"Cleveland-Akron-Lorain","OH","Not Available","AQC","Ozone",0,41.480,-81.679,"No",oh002
+2001,12,16,"Cleveland-Akron-Lorain","OH","Not Available","AQC","Ozone",0,41.480,-81.679,"No",oh002
+2001,12,13,"Clifton","NJ","Moderate","AQC","Particulate Matter",0,40.864,-74.159,"No",nj005
+2001,12,14,"Clifton","NJ","Moderate","AQC","Particulate Matter",0,40.864,-74.159,"No",nj005
+2001,12,15,"Clifton","NJ","Not Available","AQC","Ozone",0,40.864,-74.159,"No",nj005
+2001,12,16,"Clifton","NJ","Not Available","AQC","Ozone",0,40.864,-74.159,"No",nj005
+2001,12,13,"Coastal LA and Orange Counties","CA","Good","AQC","Particulate Matter",0,33.785,-118.161,"No",ca016
+2001,12,14,"Coastal LA and Orange Counties","CA","Moderate","AQC","Particulate Matter",0,33.785,-118.161,"No",ca016
+2001,12,15,"Coastal LA and Orange Counties","CA","Not Available","AQC","Ozone",0,33.785,-118.161,"No",ca016
+2001,12,16,"Coastal LA and Orange Counties","CA","Not Available","AQC","Ozone",0,33.785,-118.161,"No",ca016
+2001,12,13,"Columbia","SC","Not Available","AQC","Ozone",0,34.039,-80.886,"No",sc001
+2001,12,14,"Columbia","SC","Not Available","AQC","Ozone",0,34.039,-80.886,"No",sc001
+2001,12,15,"Columbia","SC","Not Available","AQC","Ozone",0,34.039,-80.886,"No",sc001
+2001,12,16,"Columbia","SC","Not Available","AQC","Ozone",0,34.039,-80.886,"No",sc001
+2001,12,13,"Columbus","OH","Good","AQC","Ozone",0,39.989,-82.987,"No",oh003
+2001,12,14,"Columbus","OH","Good","AQC","Ozone",0,39.989,-82.987,"No",oh003
+2001,12,15,"Columbus","OH","Not Available","AQC","Ozone",0,39.989,-82.987,"No",oh003
+2001,12,16,"Columbus","OH","Not Available","AQC","Ozone",0,39.989,-82.987,"No",oh003
+2001,12,13,"Concord","CA","Not Available","AQC","Ozone",0,39.970,-122.030,"No",ca017
+2001,12,14,"Concord","CA","Not Available","AQC","Ozone",0,39.970,-122.030,"No",ca017
+2001,12,15,"Concord","CA","Not Available","AQC","Ozone",0,39.970,-122.030,"No",ca017
+2001,12,16,"Concord","CA","Not Available","AQC","Ozone",0,39.970,-122.030,"No",ca017
+2001,12,13,"Corpus Christi","TX","Good","AQC","Ozone",0,27.800,-97.384,"No",tx003
+2001,12,14,"Corpus Christi","TX","Good","AQC","Ozone",0,27.800,-97.384,"No",tx003
+2001,12,15,"Corpus Christi","TX","Not Available","AQC","Ozone",0,27.800,-97.384,"No",tx003
+2001,12,16,"Corpus Christi","TX","Not Available","AQC","Ozone",0,27.800,-97.384,"No",tx003
+2001,12,13,"Dallas-Fort Worth","TX","Good","AQC","Ozone",0,32.767,-96.783,"No",tx004
+2001,12,14,"Dallas-Fort Worth","TX","Good","AQC","Ozone",0,32.767,-96.783,"No",tx004
+2001,12,15,"Dallas-Fort Worth","TX","Not Available","AQC","Ozone",0,32.767,-96.783,"No",tx004
+2001,12,16,"Dallas-Fort Worth","TX","Not Available","AQC","Ozone",0,32.767,-96.783,"No",tx004
+2001,12,13,"Denver","CO","Not Available","AQC","Ozone",0,39.768,-104.873,"No",co001
+2001,12,14,"Denver","CO","Not Available","AQC","Ozone",0,39.768,-104.873,"No",co001
+2001,12,15,"Denver","CO","Not Available","AQC","Ozone",0,39.768,-104.873,"No",co001
+2001,12,16,"Denver","CO","Not Available","AQC","Ozone",0,39.768,-104.873,"No",co001
+2001,12,13,"Des Moines","IA","Good","AQC","Particulate Matter",0,41.535,-93.660,"No",ia001
+2001,12,14,"Des Moines","IA","Not Available","AQC","Ozone",0,41.535,-93.660,"No",ia001
+2001,12,15,"Des Moines","IA","Not Available","AQC","Ozone",0,41.535,-93.660,"No",ia001
+2001,12,16,"Des Moines","IA","Not Available","AQC","Ozone",0,41.535,-93.660,"No",ia001
+2001,12,13,"Detroit","MI","Good","AQC","Carbon Monoxide",0,42.233,-83.333,"No",mi001
+2001,12,14,"Detroit","MI","Good","AQC","Carbon Monoxide",0,42.233,-83.333,"No",mi001
+2001,12,15,"Detroit","MI","Not Available","AQC","Ozone",0,42.233,-83.333,"No",mi001
+2001,12,16,"Detroit","MI","Not Available","AQC","Ozone",0,42.233,-83.333,"No",mi001
+2001,12,13,"East Orange","NJ","Moderate","AQC","Particulate Matter",0,40.766,-174.212,"No",nj006
+2001,12,14,"East Orange","NJ","Moderate","AQC","Particulate Matter",0,40.766,-174.212,"No",nj006
+2001,12,15,"East Orange","NJ","Not Available","AQC","Ozone",0,40.766,-174.212,"No",nj006
+2001,12,16,"East Orange","NJ","Not Available","AQC","Ozone",0,40.766,-174.212,"No",nj006
+2001,12,13,"Eastern LA County","CA","Good","AQC","Particulate Matter",0,34.059,-117.761,"No",ca024
+2001,12,14,"Eastern LA County","CA","Moderate","AQC","Particulate Matter",0,34.059,-117.761,"No",ca024
+2001,12,15,"Eastern LA County","CA","Not Available","AQC","Ozone",0,34.059,-117.761,"No",ca024
+2001,12,16,"Eastern LA County","CA","Not Available","AQC","Ozone",0,34.059,-117.761,"No",ca024
+2001,12,13,"El Paso","TX","Good","AQC","Ozone",0,31.84925,-106.43754,"No",tx005
+2001,12,14,"El Paso","TX","Good","AQC","Ozone",0,31.84925,-106.43754,"No",tx005
+2001,12,15,"El Paso","TX","Not Available","AQC","Ozone",0,31.84925,-106.43754,"No",tx005
+2001,12,16,"El Paso","TX","Not Available","AQC","Ozone",0,31.84925,-106.43754,"No",tx005
+2001,12,13,"Elizabeth","NJ","Moderate","AQC","Particulate Matter",0,40.666,-74.194,"No",nj007
+2001,12,14,"Elizabeth","NJ","Moderate","AQC","Particulate Matter",0,40.666,-74.194,"No",nj007
+2001,12,15,"Elizabeth","NJ","Not Available","AQC","Ozone",0,40.666,-74.194,"No",nj007
+2001,12,16,"Elizabeth","NJ","Not Available","AQC","Ozone",0,40.666,-74.194,"No",nj007
+2001,12,13,"Evansville","IN","Good","AQC","Ozone",0,38.022,-87.569,"No",in001
+2001,12,14,"Evansville","IN","Good","AQC","Ozone",0,38.022,-87.569,"No",in001
+2001,12,15,"Evansville","IN","Not Available","AQC","Ozone",0,38.022,-87.569,"No",in001
+2001,12,16,"Evansville","IN","Not Available","AQC","Ozone",0,38.022,-87.569,"No",in001
+2001,12,13,"Everett-Marysville-Lynnwood","WA","Good","AQC","Particulate Matter",0,48.044,-121.714,"No",wa003
+2001,12,14,"Everett-Marysville-Lynnwood","WA","Good","AQC","Particulate Matter",0,48.044,-121.714,"No",wa003
+2001,12,15,"Everett-Marysville-Lynnwood","WA","Good","AQC","Particulate Matter",0,48.044,-121.714,"No",wa003
+2001,12,16,"Everett-Marysville-Lynnwood","WA","Not Available","AQC","Ozone",0,48.044,-121.714,"No",wa003
+2001,12,13,"Fairfield","CA","Not Available","AQC","Ozone",0,38.250,-122.040,"No",ca029
+2001,12,14,"Fairfield","CA","Not Available","AQC","Ozone",0,38.250,-122.040,"No",ca029
+2001,12,15,"Fairfield","CA","Not Available","AQC","Ozone",0,38.250,-122.040,"No",ca029
+2001,12,16,"Fairfield","CA","Not Available","AQC","Ozone",0,38.250,-122.040,"No",ca029
+2001,12,13,"Fayetteville","NC","Not Available","AQC","Ozone",0,35.072,-78.900,"No",nc004
+2001,12,14,"Fayetteville","NC","Not Available","AQC","Ozone",0,35.072,-78.900,"No",nc004
+2001,12,15,"Fayetteville","NC","Not Available","AQC","Ozone",0,35.072,-78.900,"No",nc004
+2001,12,16,"Fayetteville","NC","Not Available","AQC","Ozone",0,35.072,-78.900,"No",nc004
+2001,12,13,"Fort Wayne","IN","Good","AQC","Ozone",0,41.095,-85.10,"No",in002
+2001,12,14,"Fort Wayne","IN","Good","AQC","Ozone",0,41.095,-85.10,"No",in002
+2001,12,15,"Fort Wayne","IN","Not Available","AQC","Ozone",0,41.095,-85.10,"No",in002
+2001,12,16,"Fort Wayne","IN","Not Available","AQC","Ozone",0,41.095,-85.10,"No",in002
+2001,12,13,"Fremont","CA","Not Available","AQC","Ozone",0,37.550,-122.030,"No",ca031
+2001,12,14,"Fremont","CA","Not Available","AQC","Ozone",0,37.550,-122.030,"No",ca031
+2001,12,15,"Fremont","CA","Not Available","AQC","Ozone",0,37.550,-122.030,"No",ca031
+2001,12,16,"Fremont","CA","Not Available","AQC","Ozone",0,37.550,-122.030,"No",ca031
+2001,12,13,"Fresno","CA","Moderate","AQC","Particulate Matter",0,36.78060,-119.79287,"No",ca032
+2001,12,14,"Fresno","CA","Not Available","AQC","Ozone",0,36.78060,-119.79287,"No",ca032
+2001,12,15,"Fresno","CA","Not Available","AQC","Ozone",0,36.78060,-119.79287,"No",ca032
+2001,12,16,"Fresno","CA","Not Available","AQC","Ozone",0,36.78060,-119.79287,"No",ca032
+2001,12,13,"Ft. Lauderdale","FL","Good","AQC","Ozone",0,26.143,-80.139,"No",fl001
+2001,12,14,"Ft. Lauderdale","FL","Not Available","AQC","Ozone",0,26.143,-80.139,"No",fl001
+2001,12,15,"Ft. Lauderdale","FL","Not Available","AQC","Ozone",0,26.143,-80.139,"No",fl001
+2001,12,16,"Ft. Lauderdale","FL","Not Available","AQC","Ozone",0,26.143,-80.139,"No",fl001
+2001,12,13,"Grand Rapids","MI","Good","AQC","Carbon Monoxide",0,42.833,-85.517,"No",mi002
+2001,12,14,"Grand Rapids","MI","Good","AQC","Carbon Monoxide",0,42.833,-85.517,"No",mi002
+2001,12,15,"Grand Rapids","MI","Not Available","AQC","Ozone",0,42.833,-85.517,"No",mi002
+2001,12,16,"Grand Rapids","MI","Not Available","AQC","Ozone",0,42.833,-85.517,"No",mi002
+2001,12,13,"Green Bay","WI","Good","AQC","Ozone",0,44.520,-87.920,"No",wi001
+2001,12,14,"Green Bay","WI","Good","AQC","Ozone",0,44.520,-87.920,"No",wi001
+2001,12,15,"Green Bay","WI","Not Available","AQC","Ozone",0,44.520,-87.920,"No",wi001
+2001,12,16,"Green Bay","WI","Not Available","AQC","Ozone",0,44.520,-87.920,"No",wi001
+2001,12,13,"Greensboro-Winston-Salem-High Point","NC","Good","AQC","Particulate Matter",8,36.051,-80.144,"No",nc005
+"A cool air wedge remains entrenched over central NC today bringing drizzle and"
+" moderate NE winds.  The wedge should begin to break down overnight as warmer "
+"southwest winds signal the approach of the next storm system on Thursday.  Sig"
+"nificant rain totals are possible by Friday afternoon in the Triad although th"
+"e heaviest precipitation field may remain to the northwest.  The weekend shoul"
+"d be dry before another storm system swings through on Monday.  Air quality re"
+"adings should remain clean during this active weather pattern with all polluta"
+"nts remaining in the Code Green (WEINSTOCK)."
+2001,12,14,"Greensboro-Winston-Salem-High Point","NC","Good","AQC","Particulate Matter",7,36.051,-80.144,"No",nc005
+"Air quality levels have increased a little today despite the continuous shower"
+"s throughout the region.  Levels do, however, remain in the GREEN range.  Sout"
+"hwest winds are causing this slight increase but as an approaching low moves c"
+"loser to the Triad winds will become fairly strong and cause numbers to drop o"
+"nce again.  Winds should slowly shift to the northwest which will decrease val"
+"ues further.  Levels should remain in the GREEN range throughout the period.  "
+"(Bodenhamer)"
+2001,12,15,"Greensboro-Winston-Salem-High Point","NC","Good","AQC","Particulate Matter",0,36.051,-80.144,"No",nc005
+2001,12,16,"Greensboro-Winston-Salem-High Point","NC","Not Available","AQC","Ozone",0,36.051,-80.144,"No",nc005
+2001,12,13,"Greenville-Spartanburg","SC","Not Available","AQC","Ozone",0,34.919,-82.149,"No",sc002
+2001,12,14,"Greenville-Spartanburg","SC","Not Available","AQC","Ozone",0,34.919,-82.149,"No",sc002
+2001,12,15,"Greenville-Spartanburg","SC","Not Available","AQC","Ozone",0,34.919,-82.149,"No",sc002
+2001,12,16,"Greenville-Spartanburg","SC","Not Available","AQC","Ozone",0,34.919,-82.149,"No",sc002
+2001,12,13,"Hackensack","NJ","Moderate","AQC","Particulate Matter",0,40.890,-74.046,"No",nj008
+2001,12,14,"Hackensack","NJ","Moderate","AQC","Particulate Matter",0,40.890,-74.046,"No",nj008
+2001,12,15,"Hackensack","NJ","Not Available","AQC","Ozone",0,40.890,-74.046,"No",nj008
+2001,12,16,"Hackensack","NJ","Not Available","AQC","Ozone",0,40.890,-74.046,"No",nj008
+2001,12,13,"Hammond-Gary","IN","Good","AQC","Ozone",0,41.631,-87.087,"No",in003
+2001,12,14,"Hammond-Gary","IN","Good","AQC","Ozone",0,41.631,-87.087,"No",in003
+2001,12,15,"Hammond-Gary","IN","Not Available","AQC","Ozone",0,41.631,-87.087,"No",in003
+2001,12,16,"Hammond-Gary","IN","Not Available","AQC","Ozone",0,41.631,-87.087,"No",in003
+2001,12,13,"Hampton Roads","VA","Not Available","AQC","Ozone",0,36.583,-76.210,"No",va001
+2001,12,14,"Hampton Roads","VA","Not Available","AQC","Ozone",0,36.583,-76.210,"No",va001
+2001,12,15,"Hampton Roads","VA","Not Available","AQC","Ozone",0,36.583,-76.210,"No",va001
+2001,12,16,"Hampton Roads","VA","Not Available","AQC","Ozone",0,36.583,-76.210,"No",va001
+2001,12,13,"Hanford","CA","Moderate","AQC","Particulate Matter",0,36.325,-119.647,"No",ca036
+2001,12,14,"Hanford","CA","Not Available","AQC","Ozone",0,36.325,-119.647,"No",ca036
+2001,12,15,"Hanford","CA","Not Available","AQC","Ozone",0,36.325,-119.647,"No",ca036
+2001,12,16,"Hanford","CA","Not Available","AQC","Ozone",0,36.325,-119.647,"No",ca036
+2001,12,13,"Hartford","CT","Good","AQC","Ozone",0,41.785,-72.630,"No",ct002
+2001,12,14,"Hartford","CT","Good","AQC","Ozone",0,41.785,-72.630,"No",ct002
+2001,12,15,"Hartford","CT","Not Available","AQC","Ozone",0,41.785,-72.630,"No",ct002
+2001,12,16,"Hartford","CT","Not Available","AQC","Ozone",0,41.785,-72.630,"No",ct002
+2001,12,13,"Hickory","NC","Not Available","AQC","Ozone",0,35.739,-81.326,"No",nc006
+2001,12,14,"Hickory","NC","Not Available","AQC","Ozone",0,35.739,-81.326,"No",nc006
+2001,12,15,"Hickory","NC","Not Available","AQC","Ozone",0,35.739,-81.326,"No",nc006
+2001,12,16,"Hickory","NC","Not Available","AQC","Ozone",0,35.739,-81.326,"No",nc006
+2001,12,13,"Hollywood","FL","Good","AQC","Ozone",0,26.043,-80.133,"No",fl002
+2001,12,14,"Hollywood","FL","Not Available","AQC","Ozone",0,26.043,-80.133,"No",fl002
+2001,12,15,"Hollywood","FL","Not Available","AQC","Ozone",0,26.043,-80.133,"No",fl002
+2001,12,16,"Hollywood","FL","Not Available","AQC","Ozone",0,26.043,-80.133,"No",fl002
+2001,12,13,"Honolulu","HI","Good","AQC","Ozone",0,21.317,-157.804,"No",hi001
+2001,12,14,"Honolulu","HI","Good","AQC","Ozone",0,21.317,-157.804,"No",hi001
+2001,12,15,"Honolulu","HI","Not Available","AQC","Ozone",0,21.317,-157.804,"No",hi001
+2001,12,16,"Honolulu","HI","Not Available","AQC","Ozone",0,21.317,-157.804,"No",hi001
+2001,12,13,"Houston-Galveston-Brazoria","TX","Good","AQC","Ozone",0,29.751,-95.351,"No",tx006
+2001,12,14,"Houston-Galveston-Brazoria","TX","Good","AQC","Ozone",0,29.751,-95.351,"No",tx006
+2001,12,15,"Houston-Galveston-Brazoria","TX","Not Available","AQC","Ozone",0,29.751,-95.351,"No",tx006
+2001,12,16,"Houston-Galveston-Brazoria","TX","Not Available","AQC","Ozone",0,29.751,-95.351,"No",tx006
+2001,12,13,"Indianapolis","IN","Good","AQC","Ozone",0,39.749,-86.186,"No",in004
+2001,12,14,"Indianapolis","IN","Good","AQC","Ozone",0,39.749,-86.186,"No",in004
+2001,12,15,"Indianapolis","IN","Not Available","AQC","Ozone",0,39.749,-86.186,"No",in004
+2001,12,16,"Indianapolis","IN","Not Available","AQC","Ozone",0,39.749,-86.186,"No",in004
+2001,12,13,"Jacksonville","FL","Good","AQC","Ozone",0,30.335,-81.658,"No",fl008
+2001,12,14,"Jacksonville","FL","Not Available","AQC","Ozone",0,30.335,-81.658,"No",fl008
+2001,12,15,"Jacksonville","FL","Not Available","AQC","Ozone",0,30.335,-81.658,"No",fl008
+2001,12,16,"Jacksonville","FL","Not Available","AQC","Ozone",0,30.335,-81.658,"No",fl008
+2001,12,13,"Jersey City","NJ","Moderate","AQC","Particulate Matter",0,40.711,-74.065,"No",nj009
+2001,12,14,"Jersey City","NJ","Moderate","AQC","Particulate Matter",0,40.711,-74.065,"No",nj009
+2001,12,15,"Jersey City","NJ","Not Available","AQC","Ozone",0,40.711,-74.065,"No",nj009
+2001,12,16,"Jersey City","NJ","Not Available","AQC","Ozone",0,40.711,-74.065,"No",nj009
+2001,12,13,"Kansas City","MO","Not Available","AQC","Ozone",0,39.122,-94.552,"No",mo001
+2001,12,14,"Kansas City","MO","Not Available","AQC","Ozone",0,39.122,-94.552,"No",mo001
+2001,12,15,"Kansas City","MO","Not Available","AQC","Ozone",0,39.122,-94.552,"No",mo001
+2001,12,16,"Kansas City","MO","Not Available","AQC","Ozone",0,39.122,-94.552,"No",mo001
+2001,12,13,"Knoxville","TN","Not Available","AQC","Ozone",0,35.975,-83.946,"No",tn002
+2001,12,14,"Knoxville","TN","Not Available","AQC","Ozone",0,35.975,-83.946,"No",tn002
+2001,12,15,"Knoxville","TN","Not Available","AQC","Ozone",0,35.975,-83.946,"No",tn002
+2001,12,16,"Knoxville","TN","Not Available","AQC","Ozone",0,35.975,-83.946,"No",tn002
+2001,12,13,"Las Vegas","NV","Good","AQC","Ozone",0,36.206,-115.223,"No",nv001
+2001,12,14,"Las Vegas","NV","Good","AQC","Ozone",0,36.206,-115.223,"No",nv001
+2001,12,15,"Las Vegas","NV","Not Available","AQC","Ozone",0,36.206,-115.223,"No",nv001
+2001,12,16,"Las Vegas","NV","Not Available","AQC","Ozone",0,36.206,-115.223,"No",nv001
+2001,12,13,"Lawton","OK","Good","AQC","Particulate Matter",0,34.600,-98.423,"No",ok001
+2001,12,14,"Lawton","OK","Good","AQC","Particulate Matter",0,34.600,-98.423,"No",ok001
+2001,12,15,"Lawton","OK","Not Available","AQC","Ozone",0,34.600,-98.423,"No",ok001
+2001,12,16,"Lawton","OK","Not Available","AQC","Ozone",0,34.600,-98.423,"No",ok001
+2001,12,13,"Lehigh Valley","PA","Good","AQC","Ozone",0,40.614,-75.590,"No",pa001
+2001,12,14,"Lehigh Valley","PA","Good","AQC","Ozone",0,40.614,-75.590,"No",pa001
+2001,12,15,"Lehigh Valley","PA","Not Available","AQC","Ozone",0,40.614,-75.590,"No",pa001
+2001,12,16,"Lehigh Valley","PA","Not Available","AQC","Ozone",0,40.614,-75.590,"No",pa001
+2001,12,13,"Little Rock-North Little Rock","AR","Not Available","AQC","Ozone",0,34.722,-92.354,"No",ar001
+2001,12,14,"Little Rock-North Little Rock","AR","Not Available","AQC","Ozone",0,34.722,-92.354,"No",ar001
+2001,12,15,"Little Rock-North Little Rock","AR","Not Available","AQC","Ozone",0,34.722,-92.354,"No",ar001
+2001,12,16,"Little Rock-North Little Rock","AR","Not Available","AQC","Ozone",0,34.722,-92.354,"No",ar001
+2001,12,13,"Livermore","CA","Not Available","AQC","Ozone",0,37.680,-121.770,"No",ca049
+2001,12,14,"Livermore","CA","Not Available","AQC","Ozone",0,37.680,-121.770,"No",ca049
+2001,12,15,"Livermore","CA","Not Available","AQC","Ozone",0,37.680,-121.770,"No",ca049
+2001,12,16,"Livermore","CA","Not Available","AQC","Ozone",0,37.680,-121.770,"No",ca049
+2001,12,13,"Louisville","KY","Good","AQC","Ozone",0,38.264,-85.712,"No",ky001
+2001,12,14,"Louisville","KY","Good","AQC","Ozone",0,38.264,-85.712,"No",ky001
+2001,12,15,"Louisville","KY","Not Available","AQC","Ozone",0,38.264,-85.712,"No",ky001
+2001,12,16,"Louisville","KY","Not Available","AQC","Ozone",0,38.264,-85.712,"No",ky001
+2001,12,13,"Madera","CA","Moderate","AQC","Particulate Matter",0,36.968,-120.077,"No",ca054
+2001,12,14,"Madera","CA","Not Available","AQC","Ozone",0,36.968,-120.077,"No",ca054
+2001,12,15,"Madera","CA","Not Available","AQC","Ozone",0,36.968,-120.077,"No",ca054
+2001,12,16,"Madera","CA","Not Available","AQC","Ozone",0,36.968,-120.077,"No",ca054
+2001,12,13,"Madison","WI","Good","AQC","Ozone",0,43.120,-89.360,"No",wi002
+2001,12,14,"Madison","WI","Good","AQC","Ozone",0,43.120,-89.360,"No",wi002
+2001,12,15,"Madison","WI","Not Available","AQC","Ozone",0,43.120,-89.360,"No",wi002
+2001,12,16,"Madison","WI","Not Available","AQC","Ozone",0,43.120,-89.360,"No",wi002
+2001,12,13,"Manchester-Nashua","NH","Good","AQC","Ozone",0,42.867,-71.450,"No",nh001
+2001,12,14,"Manchester-Nashua","NH","Good","AQC","Ozone",0,42.867,-71.450,"No",nh001
+2001,12,15,"Manchester-Nashua","NH","Not Available","AQC","Ozone",0,42.867,-71.450,"No",nh001
+2001,12,16,"Manchester-Nashua","NH","Not Available","AQC","Ozone",0,42.867,-71.450,"No",nh001
+2001,12,13,"Memphis","TN","Not Available","AQC","Ozone",0,35.106,-90.001,"No",tn003
+2001,12,14,"Memphis","TN","Not Available","AQC","Ozone",0,35.106,-90.001,"No",tn003
+2001,12,15,"Memphis","TN","Not Available","AQC","Ozone",0,35.106,-90.001,"No",tn003
+2001,12,16,"Memphis","TN","Not Available","AQC","Ozone",0,35.106,-90.001,"No",tn003
+2001,12,13,"Merced","CA","Moderate","AQC","Particulate Matter",0,37.29627,-120.48435,"No",ca056
+2001,12,14,"Merced","CA","Not Available","AQC","Ozone",0,37.29627,-120.48435,"No",ca056
+2001,12,15,"Merced","CA","Not Available","AQC","Ozone",0,37.29627,-120.48435,"No",ca056
+2001,12,16,"Merced","CA","Not Available","AQC","Ozone",0,37.29627,-120.48435,"No",ca056
+2001,12,13,"Metro-east (St. Louis)","IL","Good","AQC","Ozone",0,38.727,-89.959,"No",il002
+2001,12,14,"Metro-east (St. Louis)","IL","Good","AQC","Ozone",0,38.727,-89.959,"No",il002
+2001,12,15,"Metro-east (St. Louis)","IL","Not Available","AQC","Ozone",0,38.727,-89.959,"No",il002
+2001,12,16,"Metro-east (St. Louis)","IL","Not Available","AQC","Ozone",0,38.727,-89.959,"No",il002
+2001,12,13,"Metropolitan LA and Inland Orange County","CA","Moderate","AQC","Carbon Monoxide",0,34.112,-118.411,"No",ca057
+2001,12,14,"Metropolitan LA and Inland Orange County","CA","Moderate","AQC","Particulate Matter",0,34.112,-118.411,"No",ca057
+2001,12,15,"Metropolitan LA and Inland Orange County","CA","Not Available","AQC","Ozone",0,34.112,-118.411,"No",ca057
+2001,12,16,"Metropolitan LA and Inland Orange County","CA","Not Available","AQC","Ozone",0,34.112,-118.411,"No",ca057
+2001,12,13,"Metropolitan Riverside County","CA","Good","AQC","Particulate Matter",0,33.940,-117.397,"No",ca058
+2001,12,14,"Metropolitan Riverside County","CA","Moderate","AQC","Particulate Matter",0,33.940,-117.397,"No",ca058
+2001,12,15,"Metropolitan Riverside County","CA","Not Available","AQC","Ozone",0,33.940,-117.397,"No",ca058
+2001,12,16,"Metropolitan Riverside County","CA","Not Available","AQC","Ozone",0,33.940,-117.397,"No",ca058
+2001,12,13,"Metropolitan San Bernardino County","CA","Good","AQC","Particulate Matter",0,34.140,-117.292,"No",ca059
+2001,12,14,"Metropolitan San Bernardino County","CA","Moderate","AQC","Particulate Matter",0,34.140,-117.292,"No",ca059
+2001,12,15,"Metropolitan San Bernardino County","CA","Not Available","AQC","Ozone",0,34.140,-117.292,"No",ca059
+2001,12,16,"Metropolitan San Bernardino County","CA","Not Available","AQC","Ozone",0,34.140,-117.292,"No",ca059
+2001,12,13,"Miami","FL","Good","AQC","Ozone",0,25.776,-80.211,"No",fl003
+2001,12,14,"Miami","FL","Good","AQC","Ozone",0,25.776,-80.211,"No",fl003
+2001,12,15,"Miami","FL","Good","AQC","Ozone",0,25.776,-80.211,"No",fl003
+2001,12,16,"Miami","FL","Good","AQC","Ozone",0,25.776,-80.211,"No",fl003
+2001,12,13,"Milwaukee","WI","Good","AQC","Ozone",0,43.070,-87.880,"No",wi003
+2001,12,14,"Milwaukee","WI","Good","AQC","Ozone",0,43.070,-87.880,"No",wi003
+2001,12,15,"Milwaukee","WI","Not Available","AQC","Ozone",0,43.070,-87.880,"No",wi003
+2001,12,16,"Milwaukee","WI","Not Available","AQC","Ozone",0,43.070,-87.880,"No",wi003
+2001,12,13,"Minneapolis-St. Paul","MN","Not Available","AQC","Ozone",0,44.955,-93.185,"No",mn001
+2001,12,14,"Minneapolis-St. Paul","MN","Not Available","AQC","Ozone",0,44.955,-93.185,"No",mn001
+2001,12,15,"Minneapolis-St. Paul","MN","Not Available","AQC","Ozone",0,44.955,-93.185,"No",mn001
+2001,12,16,"Minneapolis-St. Paul","MN","Not Available","AQC","Ozone",0,44.955,-93.185,"No",mn001
+2001,12,13,"Mobile","AL","Not Available","AQC","Ozone",0,30.683,-88.250,"No",al002
+2001,12,14,"Mobile","AL","Not Available","AQC","Ozone",0,30.683,-88.250,"No",al002
+2001,12,15,"Mobile","AL","Not Available","AQC","Ozone",0,30.683,-88.250,"No",al002
+2001,12,16,"Mobile","AL","Not Available","AQC","Ozone",0,30.683,-88.250,"No",al002
+2001,12,13,"Modesto","CA","Moderate","AQC","Particulate Matter",0,37.65979,-120.99392,"No",ca061
+2001,12,14,"Modesto","CA","Not Available","AQC","Ozone",0,37.65979,-120.99392,"No",ca061
+2001,12,15,"Modesto","CA","Not Available","AQC","Ozone",0,37.65979,-120.99392,"No",ca061
+2001,12,16,"Modesto","CA","Not Available","AQC","Ozone",0,37.65979,-120.99392,"No",ca061
+2001,12,13,"Mojave Desert","CA","Good","AQC","Particulate Matter",0,35.052,-118.180,"No",ca062
+2001,12,14,"Mojave Desert","CA","Good","AQC","Particulate Matter",0,35.052,-118.180,"No",ca062
+2001,12,15,"Mojave Desert","CA","Not Available","AQC","Ozone",0,35.052,-118.180,"No",ca062
+2001,12,16,"Mojave Desert","CA","Not Available","AQC","Ozone",0,35.052,-118.180,"No",ca062
+2001,12,13,"Napa","CA","Not Available","AQC","Ozone",0,38.330,-122.280,"No",ca064
+2001,12,14,"Napa","CA","Not Available","AQC","Ozone",0,38.330,-122.280,"No",ca064
+2001,12,15,"Napa","CA","Not Available","AQC","Ozone",0,38.330,-122.280,"No",ca064
+2001,12,16,"Napa","CA","Not Available","AQC","Ozone",0,38.330,-122.280,"No",ca064
+2001,12,13,"Nashville","TN","Good","AQC","Ozone",0,36.171,-86.785,"No",tn004
+2001,12,14,"Nashville","TN","Good","AQC","Ozone",0,36.171,-86.785,"No",tn004
+2001,12,15,"Nashville","TN","Not Available","AQC","Ozone",0,36.171,-86.785,"No",tn004
+2001,12,16,"Nashville","TN","Not Available","AQC","Ozone",0,36.171,-86.785,"No",tn004
+2001,12,13,"New Jersey(Northern)","NJ","Moderate","AQC","Particulate Matter",0,40.784,-74.467,"No",nj010
+2001,12,14,"New Jersey(Northern)","NJ","Moderate","AQC","Particulate Matter",0,40.784,-74.467,"No",nj010
+2001,12,15,"New Jersey(Northern)","NJ","Not Available","AQC","Ozone",0,40.784,-74.467,"No",nj010
+2001,12,16,"New Jersey(Northern)","NJ","Not Available","AQC","Ozone",0,40.784,-74.467,"No",nj010
+2001,12,13,"New Jersey(Southern)","NJ","Moderate","AQC","Particulate Matter",0,39.484,-75.017,"No",nj011
+2001,12,14,"New Jersey(Southern)","NJ","Moderate","AQC","Particulate Matter",0,39.484,-75.017,"No",nj011
+2001,12,15,"New Jersey(Southern)","NJ","Not Available","AQC","Ozone",0,39.484,-75.017,"No",nj011
+2001,12,16,"New Jersey(Southern)","NJ","Not Available","AQC","Ozone",0,39.484,-75.017,"No",nj011
+2001,12,13,"New London-Groton","CT","Good","AQC","Ozone",0,41.343,-72.030,"No",ct003
+2001,12,14,"New London-Groton","CT","Good","AQC","Ozone",0,41.343,-72.030,"No",ct003
+2001,12,15,"New London-Groton","CT","Not Available","AQC","Ozone",0,41.343,-72.030,"No",ct003
+2001,12,16,"New London-Groton","CT","Not Available","AQC","Ozone",0,41.343,-72.030,"No",ct003
+2001,12,13,"New Orleans","LA","Not Available","AQC","Ozone",0,30.066,-89.931,"No",la002
+2001,12,14,"New Orleans","LA","Not Available","AQC","Ozone",0,30.066,-89.931,"No",la002
+2001,12,15,"New Orleans","LA","Not Available","AQC","Ozone",0,30.066,-89.931,"No",la002
+2001,12,16,"New Orleans","LA","Not Available","AQC","Ozone",0,30.066,-89.931,"No",la002
+2001,12,13,"New York City","NY","Good","AQC","Ozone",0,40.597,-74.125,"No",ny003
+2001,12,14,"New York City","NY","Good","AQC","Ozone",0,40.597,-74.125,"No",ny003
+2001,12,15,"New York City","NY","Not Available","AQC","Ozone",0,40.597,-74.125,"No",ny003
+2001,12,16,"New York City","NY","Not Available","AQC","Ozone",0,40.597,-74.125,"No",ny003
+2001,12,13,"Newark","NJ","Moderate","AQC","Particulate Matter",0,40.724,-74.173,"No",nj012
+2001,12,14,"Newark","NJ","Moderate","AQC","Particulate Matter",0,40.724,-74.173,"No",nj012
+2001,12,15,"Newark","NJ","Not Available","AQC","Ozone",0,40.724,-74.173,"No",nj012
+2001,12,16,"Newark","NJ","Not Available","AQC","Ozone",0,40.724,-74.173,"No",nj012
+2001,12,13,"Newport","RI","Good","AQC","Ozone",0,41.483,-71.320,"No",ri001
+2001,12,14,"Newport","RI","Good","AQC","Ozone",0,41.483,-71.320,"No",ri001
+2001,12,15,"Newport","RI","Not Available","AQC","Ozone",0,41.483,-71.320,"No",ri001
+2001,12,16,"Newport","RI","Not Available","AQC","Ozone",0,41.483,-71.320,"No",ri001
+2001,12,13,"Northern Virginia","VA","Not Available","AQC","Ozone",0,38.834,-77.276,"No",va002
+2001,12,14,"Northern Virginia","VA","Not Available","AQC","Ozone",0,38.834,-77.276,"No",va002
+2001,12,15,"Northern Virginia","VA","Not Available","AQC","Ozone",0,38.834,-77.276,"No",va002
+2001,12,16,"Northern Virginia","VA","Not Available","AQC","Ozone",0,38.834,-77.276,"No",va002
+2001,12,13,"Oakland","CA","Not Available","AQC","Ozone",0,37.800,-122.270,"No",ca068
+2001,12,14,"Oakland","CA","Not Available","AQC","Ozone",0,37.800,-122.270,"No",ca068
+2001,12,15,"Oakland","CA","Not Available","AQC","Ozone",0,37.800,-122.270,"No",ca068
+2001,12,16,"Oakland","CA","Not Available","AQC","Ozone",0,37.800,-122.270,"No",ca068
+2001,12,13,"Ojai","CA","Good","AQC","Ozone",0,34.417,-119.246,"No",ca070
+2001,12,14,"Ojai","CA","Good","AQC","Ozone",0,34.417,-119.246,"No",ca070
+2001,12,15,"Ojai","CA","Not Available","AQC","Ozone",0,34.417,-119.246,"No",ca070
+2001,12,16,"Ojai","CA","Not Available","AQC","Ozone",0,34.417,-119.246,"No",ca070
+2001,12,13,"Oklahoma City","OK","Good","AQC","Particulate Matter",0,35.467,-97.513,"No",ok002
+2001,12,14,"Oklahoma City","OK","Good","AQC","Particulate Matter",0,35.467,-97.513,"No",ok002
+2001,12,15,"Oklahoma City","OK","Not Available","AQC","Ozone",0,35.467,-97.513,"No",ok002
+2001,12,16,"Oklahoma City","OK","Not Available","AQC","Ozone",0,35.467,-97.513,"No",ok002
+2001,12,13,"Orlando","FL","Good","AQC","Ozone",0,28.505,-81.374,"No",fl004
+2001,12,14,"Orlando","FL","Good","AQC","Ozone",0,28.505,-81.374,"No",fl004
+2001,12,15,"Orlando","FL","Not Available","AQC","Ozone",0,28.505,-81.374,"No",fl004
+2001,12,16,"Orlando","FL","Not Available","AQC","Ozone",0,28.505,-81.374,"No",fl004
+2001,12,13,"Oshkosh","WI","Good","AQC","Ozone",0,44.070,-88.530,"No",wi004
+2001,12,14,"Oshkosh","WI","Good","AQC","Ozone",0,44.070,-88.530,"No",wi004
+2001,12,15,"Oshkosh","WI","Not Available","AQC","Ozone",0,44.070,-88.530,"No",wi004
+2001,12,16,"Oshkosh","WI","Not Available","AQC","Ozone",0,44.070,-88.530,"No",wi004
+2001,12,13,"Oxnard","CA","Good","AQC","Ozone",0,34.265,-119.134,"No",ca072
+2001,12,14,"Oxnard","CA","Good","AQC","Ozone",0,34.265,-119.134,"No",ca072
+2001,12,15,"Oxnard","CA","Not Available","AQC","Ozone",0,34.265,-119.134,"No",ca072
+2001,12,16,"Oxnard","CA","Not Available","AQC","Ozone",0,34.265,-119.134,"No",ca072
+2001,12,13,"Palm Springs-Coachella Valley","CA","Good","AQC","Particulate Matter",0,33.776,-116.529,"No",ca075
+2001,12,14,"Palm Springs-Coachella Valley","CA","Good","AQC","Particulate Matter",0,33.776,-116.529,"No",ca075
+2001,12,15,"Palm Springs-Coachella Valley","CA","Not Available","AQC","Ozone",0,33.776,-116.529,"No",ca075
+2001,12,16,"Palm Springs-Coachella Valley","CA","Not Available","AQC","Ozone",0,33.776,-116.529,"No",ca075
+2001,12,13,"Passaic","NJ","Moderate","AQC","Particulate Matter",0,40.857,-74.129,"No",nj013
+2001,12,14,"Passaic","NJ","Moderate","AQC","Particulate Matter",0,40.857,-74.129,"No",nj013
+2001,12,15,"Passaic","NJ","Not Available","AQC","Ozone",0,40.857,-74.129,"No",nj013
+2001,12,16,"Passaic","NJ","Not Available","AQC","Ozone",0,40.857,-74.129,"No",nj013
+2001,12,13,"Paterson","NJ","Moderate","AQC","Particulate Matter",0,40.914,-74.163,"No",nj014
+2001,12,14,"Paterson","NJ","Moderate","AQC","Particulate Matter",0,40.914,-74.163,"No",nj014
+2001,12,15,"Paterson","NJ","Not Available","AQC","Ozone",0,40.914,-74.163,"No",nj014
+2001,12,16,"Paterson","NJ","Not Available","AQC","Ozone",0,40.914,-74.163,"No",nj014
+2001,12,13,"Pensacola","FL","Not Available","AQC","Ozone",0,30.590,-87.330,"No",fl005
+2001,12,14,"Pensacola","FL","Not Available","AQC","Ozone",0,30.590,-87.330,"No",fl005
+2001,12,15,"Pensacola","FL","Not Available","AQC","Ozone",0,30.590,-87.330,"No",fl005
+2001,12,16,"Pensacola","FL","Not Available","AQC","Ozone",0,30.590,-87.330,"No",fl005
+2001,12,13,"Peoria","IL","Good","AQC","Ozone",0,40.687,-89.607,"No",il003
+2001,12,14,"Peoria","IL","Good","AQC","Ozone",0,40.687,-89.607,"No",il003
+2001,12,15,"Peoria","IL","Not Available","AQC","Ozone",0,40.687,-89.607,"No",il003
+2001,12,16,"Peoria","IL","Not Available","AQC","Ozone",0,40.687,-89.607,"No",il003
+2001,12,13,"Perth Amboy","NJ","Moderate","AQC","Particulate Matter",0,40.520,-74.272,"No",nj015
+2001,12,14,"Perth Amboy","NJ","Moderate","AQC","Particulate Matter",0,40.520,-74.272,"No",nj015
+2001,12,15,"Perth Amboy","NJ","Not Available","AQC","Ozone",0,40.520,-74.272,"No",nj015
+2001,12,16,"Perth Amboy","NJ","Not Available","AQC","Ozone",0,40.520,-74.272,"No",nj015
+2001,12,13,"Philadelphia","PA","Not Available","AQC","Ozone",0,39.950,-75.151,"No",pa002
+2001,12,14,"Philadelphia","PA","Not Available","AQC","Ozone",0,39.950,-75.151,"No",pa002
+2001,12,15,"Philadelphia","PA","Not Available","AQC","Ozone",0,39.950,-75.151,"No",pa002
+2001,12,16,"Philadelphia","PA","Not Available","AQC","Ozone",0,39.950,-75.151,"No",pa002
+2001,12,13,"Phoenix","AZ","Not Available","AQC","Ozone",0,33.543,-112.071,"No",az001
+2001,12,14,"Phoenix","AZ","Not Available","AQC","Ozone",0,33.543,-112.071,"No",az001
+2001,12,15,"Phoenix","AZ","Not Available","AQC","Ozone",0,33.543,-112.071,"No",az001
+2001,12,16,"Phoenix","AZ","Not Available","AQC","Ozone",0,33.543,-112.071,"No",az001
+2001,12,13,"Piru","CA","Good","AQC","Ozone",0,34.281,-118.831,"No",ca080
+2001,12,14,"Piru","CA","Good","AQC","Ozone",0,34.281,-118.831,"No",ca080
+2001,12,15,"Piru","CA","Not Available","AQC","Ozone",0,34.281,-118.831,"No",ca080
+2001,12,16,"Piru","CA","Not Available","AQC","Ozone",0,34.281,-118.831,"No",ca080
+2001,12,13,"Pittsburgh","PA","Good","AQC","Ozone",0,40.434,-79.984,"No",pa003
+2001,12,14,"Pittsburgh","PA","Good","AQC","Ozone",0,40.434,-79.984,"No",pa003
+2001,12,15,"Pittsburgh","PA","Not Available","AQC","Ozone",0,40.434,-79.984,"No",pa003
+2001,12,16,"Pittsburgh","PA","Not Available","AQC","Ozone",0,40.434,-79.984,"No",pa003
+2001,12,13,"Plainfield","NJ","Moderate","AQC","Particulate Matter",0,40.615,-74.416,"No",nj016
+2001,12,14,"Plainfield","NJ","Moderate","AQC","Particulate Matter",0,40.615,-74.416,"No",nj016
+2001,12,15,"Plainfield","NJ","Not Available","AQC","Ozone",0,40.615,-74.416,"No",nj016
+2001,12,16,"Plainfield","NJ","Not Available","AQC","Ozone",0,40.615,-74.416,"No",nj016
+2001,12,13,"Portland","ME","Good","AQC","Ozone",0,43.667,-70.207,"No",me002
+2001,12,14,"Portland","ME","Good","AQC","Ozone",0,43.667,-70.207,"No",me002
+2001,12,15,"Portland","ME","Not Available","AQC","Ozone",0,43.667,-70.207,"No",me002
+2001,12,16,"Portland","ME","Not Available","AQC","Ozone",0,43.667,-70.207,"No",me002
+2001,12,13,"Portland","OR","Good","AQC","Ozone",0,45.538,-122.656,"No",or001
+2001,12,14,"Portland","OR","Good","AQC","Ozone",0,45.538,-122.656,"No",or001
+2001,12,15,"Portland","OR","Not Available","AQC","Ozone",0,45.538,-122.656,"No",or001
+2001,12,16,"Portland","OR","Not Available","AQC","Ozone",0,45.538,-122.656,"No",or001
+2001,12,13,"Portsmouth","NH","Good","AQC","Ozone",0,43.067,-70.767,"No",nh002
+2001,12,14,"Portsmouth","NH","Good","AQC","Ozone",0,43.067,-70.767,"No",nh002
+2001,12,15,"Portsmouth","NH","Not Available","AQC","Ozone",0,43.067,-70.767,"No",nh002
+2001,12,16,"Portsmouth","NH","Not Available","AQC","Ozone",0,43.067,-70.767,"No",nh002
+2001,12,13,"Providence","RI","Good","AQC","Ozone",0,41.817,-71.401,"No",ri002
+2001,12,14,"Providence","RI","Good","AQC","Ozone",0,41.817,-71.401,"No",ri002
+2001,12,15,"Providence","RI","Not Available","AQC","Ozone",0,41.817,-71.401,"No",ri002
+2001,12,16,"Providence","RI","Not Available","AQC","Ozone",0,41.817,-71.401,"No",ri002
+2001,12,13,"Racine-Kenosha","WI","Good","AQC","Ozone",0,42.550,-87.820,"No",wi005
+2001,12,14,"Racine-Kenosha","WI","Good","AQC","Ozone",0,42.550,-87.820,"No",wi005
+2001,12,15,"Racine-Kenosha","WI","Not Available","AQC","Ozone",0,42.550,-87.820,"No",wi005
+2001,12,16,"Racine-Kenosha","WI","Not Available","AQC","Ozone",0,42.550,-87.820,"No",wi005
+2001,12,13,"Raleigh-Durham-Chapel Hill","NC","Not Available","AQC","Ozone",0,35.878,-78.787,"No",nc007
+2001,12,14,"Raleigh-Durham-Chapel Hill","NC","Not Available","AQC","Ozone",0,35.878,-78.787,"No",nc007
+2001,12,15,"Raleigh-Durham-Chapel Hill","NC","Not Available","AQC","Ozone",0,35.878,-78.787,"No",nc007
+2001,12,16,"Raleigh-Durham-Chapel Hill","NC","Not Available","AQC","Ozone",0,35.878,-78.787,"No",nc007
+2001,12,13,"Redwood City","CA","Not Available","AQC","Ozone",0,37.480,-122.220,"No",ca086
+2001,12,14,"Redwood City","CA","Not Available","AQC","Ozone",0,37.480,-122.220,"No",ca086
+2001,12,15,"Redwood City","CA","Not Available","AQC","Ozone",0,37.480,-122.220,"No",ca086
+2001,12,16,"Redwood City","CA","Not Available","AQC","Ozone",0,37.480,-122.220,"No",ca086
+2001,12,13,"Richmond","VA","Not Available","AQC","Ozone",0,37.531,-77.475,"No",va003
+2001,12,14,"Richmond","VA","Not Available","AQC","Ozone",0,37.531,-77.475,"No",va003
+2001,12,15,"Richmond","VA","Not Available","AQC","Ozone",0,37.531,-77.475,"No",va003
+2001,12,16,"Richmond","VA","Not Available","AQC","Ozone",0,37.531,-77.475,"No",va003
+2001,12,13,"Roanoke","VA","Not Available","AQC","Ozone",0,37.278,-79.958,"No",va004
+2001,12,14,"Roanoke","VA","Not Available","AQC","Ozone",0,37.278,-79.958,"No",va004
+2001,12,15,"Roanoke","VA","Not Available","AQC","Ozone",0,37.278,-79.958,"No",va004
+2001,12,16,"Roanoke","VA","Not Available","AQC","Ozone",0,37.278,-79.958,"No",va004
+2001,12,13,"Rochester","NY","Good","AQC","Ozone",0,43.165,-77.554,"No",ny004
+2001,12,14,"Rochester","NY","Good","AQC","Ozone",0,43.165,-77.554,"No",ny004
+2001,12,15,"Rochester","NY","Not Available","AQC","Ozone",0,43.165,-77.554,"No",ny004
+2001,12,16,"Rochester","NY","Not Available","AQC","Ozone",0,43.165,-77.554,"No",ny004
+2001,12,13,"Rockford","IL","Good","AQC","Ozone",0,42.287,-89.077,"No",il004
+2001,12,14,"Rockford","IL","Good","AQC","Ozone",0,42.287,-89.077,"No",il004
+2001,12,15,"Rockford","IL","Not Available","AQC","Ozone",0,42.287,-89.077,"No",il004
+2001,12,16,"Rockford","IL","Not Available","AQC","Ozone",0,42.287,-89.077,"No",il004
+2001,12,13,"Sacramento","CA","Not Available","AQC","Ozone",0,38.567,-121.467,"No",ca090
+2001,12,14,"Sacramento","CA","Not Available","AQC","Ozone",0,38.567,-121.467,"No",ca090
+2001,12,15,"Sacramento","CA","Not Available","AQC","Ozone",0,38.567,-121.467,"No",ca090
+2001,12,16,"Sacramento","CA","Not Available","AQC","Ozone",0,38.567,-121.467,"No",ca090
+2001,12,13,"Salt Lake City","UT","Not Available","AQC","Ozone",0,40.777,-111.930,"No",ut001
+2001,12,14,"Salt Lake City","UT","Not Available","AQC","Ozone",0,40.777,-111.930,"No",ut001
+2001,12,15,"Salt Lake City","UT","Not Available","AQC","Ozone",0,40.777,-111.930,"No",ut001
+2001,12,16,"Salt Lake City","UT","Not Available","AQC","Ozone",0,40.777,-111.930,"No",ut001
+2001,12,13,"San Antonio","TX","Good","AQC","Ozone",0,29.417,-98.484,"No",tx007
+2001,12,14,"San Antonio","TX","Good","AQC","Ozone",0,29.417,-98.484,"No",tx007
+2001,12,15,"San Antonio","TX","Not Available","AQC","Ozone",0,29.417,-98.484,"No",tx007
+2001,12,16,"San Antonio","TX","Not Available","AQC","Ozone",0,29.417,-98.484,"No",tx007
+2001,12,13,"San Diego County Coastal Zone","CA","Good","AQC","Ozone",0,32.701,-117.150,"No",ca092
+2001,12,14,"San Diego County Coastal Zone","CA","Good","AQC","Ozone",0,32.701,-117.150,"No",ca092
+2001,12,15,"San Diego County Coastal Zone","CA","Not Available","AQC","Ozone",0,32.701,-117.150,"No",ca092
+2001,12,16,"San Diego County Coastal Zone","CA","Not Available","AQC","Ozone",0,32.701,-117.150,"No",ca092
+2001,12,13,"San Diego County Foothill Zone","CA","Good","AQC","Ozone",0,32.701,-117.150,"No",ca093
+2001,12,14,"San Diego County Foothill Zone","CA","Good","AQC","Ozone",0,32.701,-117.150,"No",ca093
+2001,12,15,"San Diego County Foothill Zone","CA","Not Available","AQC","Ozone",0,32.701,-117.150,"No",ca093
+2001,12,16,"San Diego County Foothill Zone","CA","Not Available","AQC","Ozone",0,32.701,-117.150,"No",ca093
+2001,12,13,"San Diego County Mesa-Inland Valley Zone","CA","Good","AQC","Ozone",0,32.701,-117.150,"No",ca094
+2001,12,14,"San Diego County Mesa-Inland Valley Zone","CA","Good","AQC","Ozone",0,32.701,-117.150,"No",ca094
+2001,12,15,"San Diego County Mesa-Inland Valley Zone","CA","Not Available","AQC","Ozone",0,32.701,-117.150,"No",ca094
+2001,12,16,"San Diego County Mesa-Inland Valley Zone","CA","Not Available","AQC","Ozone",0,32.701,-117.150,"No",ca094
+2001,12,13,"San Fernando-Santa Clarita Valleys","CA","Good","AQC","Nitrogen Dioxide",0,34.290,-118.435,"No",ca097
+2001,12,14,"San Fernando-Santa Clarita Valleys","CA","Moderate","AQC","Particulate Matter",0,34.290,-118.435,"No",ca097
+2001,12,15,"San Fernando-Santa Clarita Valleys","CA","Not Available","AQC","Ozone",0,34.290,-118.435,"No",ca097
+2001,12,16,"San Fernando-Santa Clarita Valleys","CA","Not Available","AQC","Ozone",0,34.290,-118.435,"No",ca097
+2001,12,13,"San Francisco","CA","Not Available","AQC","Ozone",0,37.750,-122.430,"No",ca098
+2001,12,14,"San Francisco","CA","Not Available","AQC","Ozone",0,37.750,-122.430,"No",ca098
+2001,12,15,"San Francisco","CA","Not Available","AQC","Ozone",0,37.750,-122.430,"No",ca098
+2001,12,16,"San Francisco","CA","Not Available","AQC","Ozone",0,37.750,-122.430,"No",ca098
+2001,12,13,"San Jose","CA","Not Available","AQC","Ozone",0,37.330,-121.900,"No",ca099
+2001,12,14,"San Jose","CA","Not Available","AQC","Ozone",0,37.330,-121.900,"No",ca099
+2001,12,15,"San Jose","CA","Not Available","AQC","Ozone",0,37.330,-121.900,"No",ca099
+2001,12,16,"San Jose","CA","Not Available","AQC","Ozone",0,37.330,-121.900,"No",ca099
+2001,12,13,"San Rafael","CA","Not Available","AQC","Ozone",0,37.970,-122.520,"No",ca100
+2001,12,14,"San Rafael","CA","Not Available","AQC","Ozone",0,37.970,-122.520,"No",ca100
+2001,12,15,"San Rafael","CA","Not Available","AQC","Ozone",0,37.970,-122.520,"No",ca100
+2001,12,16,"San Rafael","CA","Not Available","AQC","Ozone",0,37.970,-122.520,"No",ca100
+2001,12,13,"Santa Rosa","CA","Not Available","AQC","Ozone",0,38.450,-122.700,"No",ca104
+2001,12,14,"Santa Rosa","CA","Not Available","AQC","Ozone",0,38.450,-122.700,"No",ca104
+2001,12,15,"Santa Rosa","CA","Not Available","AQC","Ozone",0,38.450,-122.700,"No",ca104
+2001,12,16,"Santa Rosa","CA","Not Available","AQC","Ozone",0,38.450,-122.700,"No",ca104
+2001,12,13,"Seattle-Bellevue-Kent Valley","WA","Good","AQC","Particulate Matter",0,47.475,-121.844,"No",wa004
+2001,12,14,"Seattle-Bellevue-Kent Valley","WA","Good","AQC","Particulate Matter",0,47.475,-121.844,"No",wa004
+2001,12,15,"Seattle-Bellevue-Kent Valley","WA","Good","AQC","Particulate Matter",0,47.475,-121.844,"No",wa004
+2001,12,16,"Seattle-Bellevue-Kent Valley","WA","Not Available","AQC","Ozone",0,47.475,-121.844,"No",wa004
+2001,12,13,"Sheboygan","WI","Good","AQC","Ozone",0,43.670,-87.740,"No",wi006
+2001,12,14,"Sheboygan","WI","Good","AQC","Ozone",0,43.670,-87.740,"No",wi006
+2001,12,15,"Sheboygan","WI","Not Available","AQC","Ozone",0,43.670,-87.740,"No",wi006
+2001,12,16,"Sheboygan","WI","Not Available","AQC","Ozone",0,43.670,-87.740,"No",wi006
+2001,12,13,"Simi Valley","CA","Good","AQC","Ozone",0,34.278,-118.685,"No",ca105
+2001,12,14,"Simi Valley","CA","Good","AQC","Ozone",0,34.278,-118.685,"No",ca105
+2001,12,15,"Simi Valley","CA","Not Available","AQC","Ozone",0,34.278,-118.685,"No",ca105
+2001,12,16,"Simi Valley","CA","Not Available","AQC","Ozone",0,34.278,-118.685,"No",ca105
+2001,12,13,"South Bend","IN","Good","AQC","Ozone",0,41.694,-86.237,"No",in005
+2001,12,14,"South Bend","IN","Good","AQC","Ozone",0,41.694,-86.237,"No",in005
+2001,12,15,"South Bend","IN","Not Available","AQC","Ozone",0,41.694,-86.237,"No",in005
+2001,12,16,"South Bend","IN","Not Available","AQC","Ozone",0,41.694,-86.237,"No",in005
+2001,12,13,"Springfield","IL","Good","AQC","Ozone",0,39.844,-89.605,"No",il005
+2001,12,14,"Springfield","IL","Good","AQC","Ozone",0,39.844,-89.605,"No",il005
+2001,12,15,"Springfield","IL","Not Available","AQC","Ozone",0,39.844,-89.605,"No",il005
+2001,12,16,"Springfield","IL","Not Available","AQC","Ozone",0,39.844,-89.605,"No",il005
+2001,12,13,"Springfield","MA","Good","AQC","Ozone",0,42.100,-72.584,"No",ma003
+2001,12,14,"Springfield","MA","Good","AQC","Ozone",0,42.100,-72.584,"No",ma003
+2001,12,15,"Springfield","MA","Not Available","AQC","Ozone",0,42.100,-72.584,"No",ma003
+2001,12,16,"Springfield","MA","Not Available","AQC","Ozone",0,42.100,-72.584,"No",ma003
+2001,12,13,"St. Louis","MO","Good","AQC","Particulate Matter",0,38.750,-90.383,"No",mo002
+2001,12,14,"St. Louis","MO","Good","AQC","Ozone",0,38.750,-90.383,"No",mo002
+2001,12,15,"St. Louis","MO","Not Available","AQC","Ozone",0,38.750,-90.383,"No",mo002
+2001,12,16,"St. Louis","MO","Not Available","AQC","Ozone",0,38.750,-90.383,"No",mo002
+2001,12,13,"Stockton","CA","Moderate","AQC","Particulate Matter",0,37.96985,-121.30674,"No",ca106
+2001,12,14,"Stockton","CA","Not Available","AQC","Ozone",0,37.96985,-121.30674,"No",ca106
+2001,12,15,"Stockton","CA","Not Available","AQC","Ozone",0,37.96985,-121.30674,"No",ca106
+2001,12,16,"Stockton","CA","Not Available","AQC","Ozone",0,37.96985,-121.30674,"No",ca106
+2001,12,13,"Susquehanna Valley","PA","Good","AQC","Ozone",0,41.822,-75.800,"No",pa004
+2001,12,14,"Susquehanna Valley","PA","Good","AQC","Ozone",0,41.822,-75.800,"No",pa004
+2001,12,15,"Susquehanna Valley","PA","Not Available","AQC","Ozone",0,41.822,-75.800,"No",pa004
+2001,12,16,"Susquehanna Valley","PA","Not Available","AQC","Ozone",0,41.822,-75.800,"No",pa004
+2001,12,13,"Syracuse","NY","Good","AQC","Ozone",0,43.042,-76.060,"No",ny005
+2001,12,14,"Syracuse","NY","Good","AQC","Ozone",0,43.042,-76.060,"No",ny005
+2001,12,15,"Syracuse","NY","Not Available","AQC","Ozone",0,43.042,-76.060,"No",ny005
+2001,12,16,"Syracuse","NY","Not Available","AQC","Ozone",0,43.042,-76.060,"No",ny005
+2001,12,13,"Tacoma-Puyallup","WA","Good","AQC","Particulate Matter",0,47.048,-122.113,"No",wa005
+2001,12,14,"Tacoma-Puyallup","WA","Good","AQC","Particulate Matter",0,47.048,-122.113,"No",wa005
+2001,12,15,"Tacoma-Puyallup","WA","Good","AQC","Particulate Matter",0,47.048,-122.113,"No",wa005
+2001,12,16,"Tacoma-Puyallup","WA","Not Available","AQC","Ozone",0,47.048,-122.113,"No",wa005
+2001,12,13,"Tampa","FL","Good","AQC","Ozone",0,27.959,-82.482,"No",fl006
+2001,12,14,"Tampa","FL","Good","AQC","Ozone",0,27.959,-82.482,"No",fl006
+2001,12,15,"Tampa","FL","Not Available","AQC","Ozone",0,27.959,-82.482,"No",fl006
+2001,12,16,"Tampa","FL","Not Available","AQC","Ozone",0,27.959,-82.482,"No",fl006
+2001,12,13,"Terre Haute","IN","Good","AQC","Ozone",0,39.486,-87.401,"No",in006
+2001,12,14,"Terre Haute","IN","Good","AQC","Ozone",0,39.486,-87.401,"No",in006
+2001,12,15,"Terre Haute","IN","Not Available","AQC","Ozone",0,39.486,-87.401,"No",in006
+2001,12,16,"Terre Haute","IN","Not Available","AQC","Ozone",0,39.486,-87.401,"No",in006
+2001,12,13,"Thousand Oaks","CA","Good","AQC","Ozone",0,34.210,-118.869,"No",ca108
+2001,12,14,"Thousand Oaks","CA","Good","AQC","Ozone",0,34.210,-118.869,"No",ca108
+2001,12,15,"Thousand Oaks","CA","Not Available","AQC","Ozone",0,34.210,-118.869,"No",ca108
+2001,12,16,"Thousand Oaks","CA","Not Available","AQC","Ozone",0,34.210,-118.869,"No",ca108
+2001,12,13,"Trenton","NJ","Moderate","AQC","Particulate Matter",0,40.223,-74.764,"No",nj017
+2001,12,14,"Trenton","NJ","Moderate","AQC","Particulate Matter",0,40.223,-74.764,"No",nj017
+2001,12,15,"Trenton","NJ","Not Available","AQC","Ozone",0,40.223,-74.764,"No",nj017
+2001,12,16,"Trenton","NJ","Not Available","AQC","Ozone",0,40.223,-74.764,"No",nj017
+2001,12,13,"Tri-Cities","TN","Not Available","AQC","Ozone",0,36.530,-82.557,"No",tn005
+2001,12,14,"Tri-Cities","TN","Not Available","AQC","Ozone",0,36.530,-82.557,"No",tn005
+2001,12,15,"Tri-Cities","TN","Not Available","AQC","Ozone",0,36.530,-82.557,"No",tn005
+2001,12,16,"Tri-Cities","TN","Not Available","AQC","Ozone",0,36.530,-82.557,"No",tn005
+2001,12,13,"Tulsa","OK","Good","AQC","Particulate Matter",0,36.128,-95.916,"No",ok003
+2001,12,14,"Tulsa","OK","Good","AQC","Particulate Matter",0,36.128,-95.916,"No",ok003
+2001,12,15,"Tulsa","OK","Not Available","AQC","Ozone",0,36.128,-95.916,"No",ok003
+2001,12,16,"Tulsa","OK","Not Available","AQC","Ozone",0,36.128,-95.916,"No",ok003
+2001,12,13,"Tyler-Longview-Marshall","TX","Good","AQC","Ozone",0,32.350,-95.300,"No",tx008
+2001,12,14,"Tyler-Longview-Marshall","TX","Good","AQC","Ozone",0,32.350,-95.300,"No",tx008
+2001,12,15,"Tyler-Longview-Marshall","TX","Not Available","AQC","Ozone",0,32.350,-95.300,"No",tx008
+2001,12,16,"Tyler-Longview-Marshall","TX","Not Available","AQC","Ozone",0,32.350,-95.300,"No",tx008
+2001,12,13,"Union City","NJ","Moderate","AQC","Particulate Matter",0,40.767,-74.032,"No",nj018
+2001,12,14,"Union City","NJ","Moderate","AQC","Particulate Matter",0,40.767,-74.032,"No",nj018
+2001,12,15,"Union City","NJ","Not Available","AQC","Ozone",0,40.767,-74.032,"No",nj018
+2001,12,16,"Union City","NJ","Not Available","AQC","Ozone",0,40.767,-74.032,"No",nj018
+2001,12,13,"Ventura","CA","Good","AQC","Ozone",0,34.290,-119.314,"No",ca111
+2001,12,14,"Ventura","CA","Good","AQC","Ozone",0,34.290,-119.314,"No",ca111
+2001,12,15,"Ventura","CA","Not Available","AQC","Ozone",0,34.290,-119.314,"No",ca111
+2001,12,16,"Ventura","CA","Not Available","AQC","Ozone",0,34.290,-119.314,"No",ca111
+2001,12,13,"Victoria","TX","Good","AQC","Ozone",0,28.824,-96.983,"No",tx009
+2001,12,14,"Victoria","TX","Good","AQC","Ozone",0,28.824,-96.983,"No",tx009
+2001,12,15,"Victoria","TX","Not Available","AQC","Ozone",0,28.824,-96.983,"No",tx009
+2001,12,16,"Victoria","TX","Not Available","AQC","Ozone",0,28.824,-96.983,"No",tx009
+2001,12,13,"Vineland","NJ","Moderate","AQC","Particulate Matter",0,39.465,-74.997,"No",nj019
+2001,12,14,"Vineland","NJ","Moderate","AQC","Particulate Matter",0,39.465,-74.997,"No",nj019
+2001,12,15,"Vineland","NJ","Not Available","AQC","Ozone",0,39.465,-74.997,"No",nj019
+2001,12,16,"Vineland","NJ","Not Available","AQC","Ozone",0,39.465,-74.997,"No",nj019
+2001,12,13,"Visalia","CA","Moderate","AQC","Particulate Matter",0,36.32540,-119.32057,"No",ca113
+2001,12,14,"Visalia","CA","Not Available","AQC","Ozone",0,36.32540,-119.32057,"No",ca113
+2001,12,15,"Visalia","CA","Not Available","AQC","Ozone",0,36.32540,-119.32057,"No",ca113
+2001,12,16,"Visalia","CA","Not Available","AQC","Ozone",0,36.32540,-119.32057,"No",ca113
+2001,12,13,"Washington","DC","Not Available","AQC","Ozone",0,38.919,-77.013,"No",dc001
+2001,12,14,"Washington","DC","Not Available","AQC","Ozone",0,38.919,-77.013,"No",dc001
+2001,12,15,"Washington","DC","Not Available","AQC","Ozone",0,38.919,-77.013,"No",dc001
+2001,12,16,"Washington","DC","Not Available","AQC","Ozone",0,38.919,-77.013,"No",dc001
+2001,12,13,"West Palm Beach","FL","Good","AQC","Particulate Matter",0,26.800,-79.820,"No",fl007
+2001,12,14,"West Palm Beach","FL","Good","AQC","Particulate Matter",0,26.800,-79.820,"No",fl007
+2001,12,15,"West Palm Beach","FL","Not Available","AQC","Ozone",0,26.800,-79.820,"No",fl007
+2001,12,16,"West Palm Beach","FL","Not Available","AQC","Ozone",0,26.800,-79.820,"No",fl007
+2001,12,13,"Wilmington","DE","Not Available","AQC","Ozone",0,39.736,-75.530,"No",de001
+2001,12,14,"Wilmington","DE","Not Available","AQC","Ozone",0,39.736,-75.530,"No",de001
+2001,12,15,"Wilmington","DE","Not Available","AQC","Ozone",0,39.736,-75.530,"No",de001
+2001,12,16,"Wilmington","DE","Not Available","AQC","Ozone",0,39.736,-75.530,"No",de001
+2001,12,13,"Worcester","MA","Good","AQC","Ozone",0,42.270,-71.809,"No",ma004
+2001,12,14,"Worcester","MA","Good","AQC","Ozone",0,42.270,-71.809,"No",ma004
+2001,12,15,"Worcester","MA","Not Available","AQC","Ozone",0,42.270,-71.809,"No",ma004
+2001,12,16,"Worcester","MA","Not Available","AQC","Ozone",0,42.270,-71.809,"No",ma004

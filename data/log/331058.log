@@ -1,0 +1,545 @@
+<!-- Title: 12:24:57  Fri Nov  3 2000 -->
+<!-- Crewchief: Andy Foland -->
+<!-- Op1: Tara Shears -->
+<!-- Op2: Anyes Taffard -->
+<!-- Op3: Alan Sill -->
+<!-- Op4: Steve Nahn -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>Store ended mid-morning today (Friday) 
+Need to take calibrations (= readall, 1 run each with DPS on and off) 
+for all bandwidth setting used recently, then proceed with rest 
+of "No SHot" tasks on whiteboard tasks list.</pre>
+
+
+<!-- Date: Fri Nov 3 12:26:36 2000 -->
+<pre>Runs taken by petar and Karen last night: 
+ 
+ 
+ 
+Run       Si BW    Si RF_delay (ns) [setting]    CES/PES (ns)  
+------------------------------------------------------------  
+103.182     4             61          0xb             55  
+103.183     4             57          0x7             77  
+103.185     4             50          0x0             99  
+103.187     7             50          0x0            154  
+103.190     7             57          0x7            176  
+103.192     7             61          0x11           198  
+103.196     2             61          0x11           220  
+ 
+These are run numbers 103182,83,85,87,90,92 according to the CDF 
+shift e-log entry (owl shift today).</pre>
+<!-- Author: AFS -->
+
+<!-- Date: Fri Nov 3 13:32:54 2000 -->
+<pre>
+Fri Nov  3 13:37:02 CST 2000
+From the SVX Power Supply Demon
+DVDD 0 38 switched from ON to OFF
+DVDD 0 39 switched from ON to OFF
+DVDD 1 38 switched from ON to OFF
+DVDD 1 39 switched from ON to OFF
+DVDD 3 38 switched from ON to OFF
+DVDD 3 39 switched from ON to OFF
+DVDD 4 38 switched from ON to OFF
+DVDD 4 39 switched from ON to OFF
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+<!-- Date: Fri Nov 3 14:28:48 2000 -->
+<pre>
+Fri Nov  3 14:33:02 CST 2000
+From the SVX Power Supply Demon
+DVDD 0 38 switched from OFF to ON
+DVDD 0 39 switched from OFF to ON
+DVDD 1 38 switched from OFF to ON
+DVDD 1 39 switched from OFF to ON
+DVDD 2 38 switched from OFF to ON
+DVDD 3 38 switched from OFF to ON
+DVDD 3 39 switched from OFF to ON
+DVDD 4 39 switched from OFF to ON
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+<!-- Date: Fri Nov 3 14:32:57 2000 -->
+<pre>
+Fri Nov  3 14:37:03 CST 2000
+From the SVX Power Supply Demon
+DVDD 4 38 switched from OFF to ON
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+
+<!-- Date: Fri Nov 3 15:00:36 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_150012.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Avg PulseHeight (ADC) on Stiff Beam Tracks </a></td></tr></table>
+<!-- Author: Andy Foland -->
+<!-- Comment: Fri Nov  3 15;10;41 comment by...Andy -->
+Mistaken Paste--See below
+<!-- Date: Fri Nov 3 15:01:55 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_150012.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Avg PulseHeight (ADC) on Stiff Beam Tracks </a></td></tr></table>
+<!-- Author: Andy Foland -->
+<!-- Comment: Fri Nov  3 15;11;02 comment by...Andy -->
+Mistaken Paste--see below
+
+
+
+<!-- Date: Fri Nov 3 15:11:38 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_151136.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Impact Parameter Distribution</a></td></tr></table>
+<!-- Author: Andy Foland -->
+<!-- Comment: Fri Nov  3 15;14;38 comment by...Andy -->
+The impact parameter distribution w.r.t. beam for these
+runs (0.08, 0.21).  Width is ~280 microns.  Width of
+distribution apparently does not depend on momentum.
+I think I know how to eliminate spurious bkgd--stay
+tuned.
+
+
+<!-- Date: Fri Nov 3 15:48:03 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_154751.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Avg. Pulseheight (ADC) on Soft Non-beam Tracks</a></td></tr></table>
+<!-- Author: Andy Foland -->
+
+
+<!-- Date: Fri Nov 3 15:48:53 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_154851.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Fine picture of Soft Track PH</a></td></tr></table>
+<!-- Author: Andy Foland -->
+
+
+<!-- Date: Fri Nov 3 15:49:36 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_154932.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Pulseheight (ADC) for Stiff Tracks from Beam</a></td></tr></table>
+<!-- Author: Andy Foland -->
+
+
+<!-- Date: Fri Nov 3 16:18:23 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Fri_Nov__3_2000_161821.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Fine Stiff-Beam Track Pulseheight Plot</a></td></tr></table>
+<!-- Author: Andy Foland -->
+<!-- Comment: Fri Nov  3 23;48;59 comment by...Andy -->
+    This series of 4 plots shows that unhealthy-looking Landaus
+can result from using low-quality tracks.  The track quality
+may be greatly improved by requiring the track be stiff, and
+that it point to the beam.  The beam position is located by finding the sine-wave in a d0 vs. phi plot.  For these plots,
+I required the tracks to point within 500 microns (2 sigma)
+of the beam position. Soft tracks are those below 600 MeV
+(<p>=350 MeV) and stiff those above 1.5 GeV (<p>=2.5 GeV)
+Making these requirements, something landau-like seems to emerge...
+
+       The plots are not path-length corrected.
+
+
+<!-- Comment: Fri Nov  3 23;50;07 comment by...Andy -->
+My "average p" symbol was taken as an html tag; average
+momentum for soft tracks is 350 MeV, avg. momentum for
+stiff tracks is 2.5 GeV
+<!-- Date: Fri Nov 3 17:05:03 2000 -->
+<pre>
+Fri Nov  3 17:09:02 CST 2000
+From the SVX Power Supply Demon
+DVDD 0 26 switched from ON to OFF
+DVDD 0 27 switched from ON to OFF
+DVDD 0 38 switched from ON to OFF
+DVDD 0 39 switched from ON to OFF
+DVDD 1 26 switched from ON to OFF
+DVDD 1 27 switched from ON to OFF
+DVDD 1 38 switched from ON to OFF
+DVDD 1 39 switched from ON to OFF
+DVDD 2 26 switched from ON to OFF
+DVDD 2 27 switched from ON to OFF
+DVDD 2 38 switched from ON to OFF
+DVDD 3 27 switched from ON to OFF
+DVDD 3 38 switched from ON to OFF
+DVDD 3 39 switched from ON to OFF
+DVDD 4 26 switched from ON to OFF
+DVDD 4 27 switched from ON to OFF
+DVDD 4 38 switched from ON to OFF
+DVDD 4 39 switched from ON to OFF
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+
+<!-- Date: Fri Nov 3 17:20:19 2000 -->
+working on interlock
+<!-- Author: {Quick_Entry} -->
+
+
+<!-- Date: Fri Nov 3 17:25:20 2000 -->
+<pre>Did two pedestal runs to complement the timing scans of 
+last night.   
+ 
+103239  Pedestal Run DPS Off ReadAll BW 4 
+103246  Pedestal Run DPS On ReadAll BW 4 
+ 
+Two more runs need to be taken on next shift; two runs (DPS On/Off) with BW 7. 
+ 
+One mystery: 103246 is DEFINITELY DPS On (from HDWDB, 
+direct chip query, and SVXMON plots), but Run Control 
+thinks it is off (?!) in the bitstream.  It might be 
+useful to keep an eye on this. 
+ 
+Learned this lesson: don't use partition 4! 
+</pre>
+<!-- Author: Andy -->
+
+<!-- Date: Fri Nov 3 17:40:31 2000 -->
+<pre>
+Fri Nov  3 17:45:03 CST 2000
+From the SVX Power Supply Demon
+DVDD 0 26 switched from OFF to SB
+DVDD 0 27 switched from OFF to SB
+DVDD 0 38 switched from OFF to SB
+DVDD 0 39 switched from OFF to SB
+DVDD 1 26 switched from OFF to SB
+DVDD 1 27 switched from OFF to SB
+DVDD 1 38 switched from OFF to SB
+DVDD 1 39 switched from OFF to SB
+DVDD 2 26 switched from OFF to SB
+DVDD 2 27 switched from OFF to SB
+DVDD 2 38 switched from OFF to SB
+DVDD 3 27 switched from OFF to SB
+DVDD 3 38 switched from OFF to SB
+DVDD 3 39 switched from OFF to SB
+DVDD 4 26 switched from OFF to SB
+DVDD 4 27 switched from OFF to SB
+DVDD 4 39 switched from OFF to SB
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+
+<!-- Date: Fri Nov 3 17:44:18 2000 -->
+<pre>I lowered the minimum required flow on the SVX port card lines to 0.8 lpm. </pre>
+<!-- Author: Steven Blusk -->
+
+<!-- Date: Fri Nov 3 17:44:27 2000 -->
+<pre>
+Fri Nov  3 17:49:02 CST 2000
+From the SVX Power Supply Demon
+DVDD 0 26 switched from SB to ON
+DVDD 0 27 switched from SB to ON
+DVDD 0 38 switched from SB to ON
+DVDD 0 39 switched from SB to ON
+DVDD 1 26 switched from SB to ON
+DVDD 1 27 switched from SB to ON
+DVDD 1 38 switched from SB to ON
+DVDD 1 39 switched from SB to ON
+DVDD 2 26 switched from SB to ON
+DVDD 2 27 switched from SB to ON
+DVDD 2 38 switched from SB to OFF
+DVDD 3 27 switched from SB to ON
+DVDD 3 38 switched from SB to ON
+DVDD 3 39 switched from SB to ON
+DVDD 4 26 switched from SB to ON
+DVDD 4 27 switched from SB to ON
+DVDD 4 38 switched from OFF to ON
+DVDD 4 39 switched from SB to ON
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+<!-- Date: Fri Nov 3 19:19:09 2000 -->
+<a href=" /~svxii/hv/hv_error.html ">
+Power Supply history plots for  Wed Nov 01 23 59 59 CST 2000 </a>
+<!-- Author: SVX PS Demon -->
+
+
+
+<!-- Date: Fri Nov 3 22:54:49 2000 -->
+<pre>We are doing a gain scan. The DAC voltage is varied from 1.9 
+V to 3.3 V, in steps of 0.2. Also we are doing a mask shift  
+by 1. The run numbers start from 103293, in sparse mode, DPS on, BW 4, threshold 5. Some ladders are giving the right gain  
+but we found that the following ladders dont seem to be right, 
+as we see from SVXMon plots :  
+ 
+C 1 3  A phi         |        C 2 3 A phi  
+	 z     	     |                z 
+ -------------------------------------------------------- 
+C 1 3  B phi         |        C 3 3 A phi 
+	 z	     |		      z   
+ -------------------------------------------------------- 
+C 2 2  A phi	     |        C 4 3 A phi   
+	 z	     |	     	      z  
+--------------------------------------------------------- 
+C 2 2  B phi	     | 	      C 4 2 B phi	  
+	 z	     |		      z   
+--------------------------------------------------------- 
+C 5 2  B phi  
+	 z 
+Alan and Igor are here but we dont know the reason yet. 
+We looked at the chip polarities for all the HDI's and they 
+seem to be ok too.  
+</pre>
+<!-- Author: Mircea C, Tania M, Alan S -->
+<!-- Comment: Fri Nov  3 22;59;02 comment by...AFS -->
+Vladimir, not Igor (however, still Russian)
+
+<!-- Date: Fri Nov 3 23:01:40 2000 -->
+<pre>
+Fri Nov  3 23:05:02 CST 2000
+From the SVX Power Supply Demon
+DVDD 2 38 switched from OFF to ON
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+
+<!-- Date: Fri Nov 3 23:10:43 2000 -->
+<pre>Had problems during the gain scan with West phi 3 layer 4 
+= b0fib02 hdi 9 ... cold start failed repeatedly regardless 
+of abort+reset, partition, etc.  This is crate 1 slot 17. 
+Opening a minicom window and rebooting the fib didn't help. 
+Tried power cycling this half-ladder using PS gui --> worked!</pre>
+<!-- Author: AFS, CM, TM, VN, S D&#39;A -->
+
+
+
+
+<!-- Date: Sat Nov 4 01:00:20 2000 -->
+<pre>There are repeated problems with fib02 due to which run control 
+has problems with cold start and everytime we have to do a power 
+recycle on PS27. Alan checked the full PS status and found 
+DVDD drawing a high current ~750 mu Amp. Could be due to that. 
+</pre>
+<!-- Author: TM,MC,AS,VN -->
+
+
+<!-- Date: Sat Nov 4 02:15:38 2000 -->
+<pre>RC crashed with error about "not ready for new run) 
+Restarting 
+</pre>
+<!-- Author: AFS -->
+
+
+<!-- Date: Sat Nov 4 02:29:47 2000 -->
+<pre>We figured out finally that the DAC values have to be changed 
+after the cold start. We got reasonable ADC counts after that. 
+Also the cold start init problem vanished after this. 
+ 
+So gain scan run nos.. 103293 upto 103418 have to be ignored. 
+We are trying to start a fresh gain scan, with DAC values  
+1.9, 2.1, 2.3, 2.5. 
+ 
+The Run Control crashed and we are trying to restart it.</pre>
+<!-- Author: TM,MC,AFS -->
+
+
+<!-- Date: Sat Nov 4 02:44:57 2000 -->
+<pre>Problems restarting the RC. So we have set the database 
+back again to NN, DPS ON, BW 4. And giving it back to 
+Main RUN CONTROL. Some good gain scan runs have been taken 
+with mask shift 0. The comment to look for in the run log 
+is : 
+"set dac after cold start" 
+</pre>
+<!-- Author: Tania, Mircea, Alan -->
+<!-- Comment: Sat Nov  4 07;45;23 comment by...SCN -->
+<UL>
+<LI> One consequence "setting DACS after COLD INIT" is leaving
+on all DDRs, which can cause data format errors for ladders which
+have noisy OBDV and should not be read out. It also leaves both
+Clocks on, and may leave the Fib in a funny state in other ways,
+causing immediate Done timeouts etc (at least that was my experience).</LI>
+<LI> This of course is <B>not</B> how we will attempt Gain Scans 
+in the final system, just something jury rigged for today.  Mary
+claims you <B>CAN</B> do them in SVXDAQ, so I don't understand why that was not seen as an adequate solution. </LI>
+</UL> 
+
+
+<!-- Comment: Sat Nov  4 09;58;49 comment by...AFS -->
+a) Can't do this with the main system<br>
+b) It <b>didn't</b> cause data format errors;
+instead, it got <b>rid</b> of a weird problem similar to
+what you describe above, and<br>
+c) There was no evidence that I saw that showed the Vcal
+setpoint moving setting the DAC before coldstart -- it did
+move clearly and consistently for all channels doing it afterwards...
+<!-- Date: Sat Nov 4 02:54:32 2000 -->
+<pre>
+Sat Nov  4 02:59:03 CST 2000
+From the SVX Power Supply Demon
+DVDD 2 38 switched from ON to OFF
+</pre>
+<!-- Author: SVX Power Supply spy Demon -->
+
+
+
+<!-- Date: Sat Nov 4 02:54:47 2000 -->
+<pre>SVXMON is running. Partition 2.</pre>
+<!-- Author: Koichi -->
+<!-- Comment: Sat Nov  4 03;20;54 comment by...Koichi -->
+patition 0
+<!-- Date: Sat Nov 4 02:55:09 2000 -->
+<pre>Summary of above: 
+ 
+We learned how to do gain scans -- however, apparently (as noted 
+above), it is necessary to set the DAC _after_ the cold start and 
+not before.  (Doing it before seems to cause West phi 3 layer 4 
+to refuse to initialize, among other things.)  So although we 
+wasted a bunch of run numbers trying to scan the gain through 
+all mask shifts with the DAC-before-coldstart procedure, we did 
+eventually show that setting the DAC after cold start does produce 
+desirable results in all working ladders.  The range of Vcal that 
+appears to produce calibration pulses above zero seems to be from 
+1.9 to 2.5 volts rather than from 2.5 to 3.3 volts, except for 
+one half-ladder that hung on at 2.7 V. 
+ 
+We had to give the crates back to the CDF shift at this point, 
+since they now have a track-based trigger working (see main CDF 
+shift e-log).  We were able to take one set of all Vcal settings 
+every 0.2 Volts form 1.9 to 3.3 with mask shift = 0, pulsing 
+every 8 channels, before running into the run control problems 
+that are mentioned above (eventually solved by Arndt).  If time 
+allows, once these data are analyzed to make sure they are useful, 
+we can repeat the gain scan procedure.  (Some automated code for 
+changing mask shifts and/or Vcal values would be helpful here...)</pre>
+<!-- Author: Alan Sill -->
+<!-- Comment: Sat Nov  4 07;56;10 comment by...SCN -->
+<UL>
+<LI> Why <B>only</B> one ladder out of 17 fails cold init when 
+you set DACs beforehand, since the code executed is the same for
+all ladders.  Was this the last one you did or anything like that?</LI>
+<LI> As for automation, of course that is planned, as the above method
+of taking a gain scan is just "what we could do three minutes after learning how to make the TS + SRC cooperate using CAL INJECT".  The real lesson was getting the
+TS to tell the SRC to charge inject at the right time, the rest
+was an ad-hoc method of trying to use this immediately without the proper chip/fib initialization in place.</LI>
+</UL>
+<!-- Date: Sat Nov 4 02:59:27 2000 -->
+<table border=5 cellpadding=2 cellspacing=3 align=center> 
+<caption>Online Production Database/RUNDB_PRD.RUNCOMMENTS Report -- CDFR2 Databases</caption> 
+<tr align=center bgcolor="white"> 
+<td>RC_RUNNUMBER</td> 
+<td>CREATETIME</td> 
+<td>TEXTCOMMENT</td> 
+<td>NAME</td> 
+<td>STATE</td> 
+</tr> 
+<tr><td colspan=5></td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,432</td> 
+<td align=left>2000-11-04 02:07:48.0</td> 
+<td align=center>gain scan, vcal=2.1 , mask shift 1 , set dac after coldstart 
+</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,430</td> 
+<td align=left>2000-11-04 01:56:44.0</td> 
+<td align=center>gain scan, vcal 1.9, mask shift 1, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,427</td> 
+<td align=left>2000-11-04 01:51:49.0</td> 
+<td align=center>gain scan, vcal 3.3, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,426</td> 
+<td align=left>2000-11-04 01:50:50.0</td> 
+<td align=center>gain scan, vcal 3.1, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,425</td> 
+<td align=left>2000-11-04 01:49:09.0</td> 
+<td align=center>gain scan, vcal 2.9, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,424</td> 
+<td align=left>2000-11-04 01:47:12.0</td> 
+<td align=center>gain scan, vcal 2.7, mask shift 0, set dac after cold start (repeat)</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,423</td> 
+<td align=left>2000-11-04 01:45:54.0</td> 
+<td align=center>gain scan, vcal 2.7, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,422</td> 
+<td align=left>2000-11-04 01:44:58.0</td> 
+<td align=center>gain scan, vcal 2.5, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,421</td> 
+<td align=left>2000-11-04 01:43:58.0</td> 
+<td align=center>gain scan, vcal 2.3, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,420</td> 
+<td align=left>2000-11-04 01:42:52.0</td> 
+<td align=center>gain scan, vcal 2.1, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr align=right bgcolor="white"> 
+<td align=right>103,419</td> 
+<td align=left>2000-11-04 01:41:58.0</td> 
+<td align=center>gain scan, vcal 1.9, mask shift 0, set dac after cold start</td> 
+<td align=center>nahn</td> 
+<td align=center>ACTIVATE</td> 
+</tr> 
+<tr><td colspan=5>11 search results.</td> 
+</tr> 
+</table>
+<!-- Author: Magic Database Wizard (you&#39;ll get our bill ...) -->
+
+
+
+<!-- Date: Sat Nov 4 03:28:52 2000 -->
+Weiming Yao's Landaus and other information extracted from an 
+early version of outside-in 3D tracking for run 102837. 
+This makes at least 4 entries into the "Landau sweepstakes" 
+so far!
+<!-- Author: AFS -->
+
+
+<!-- Date: Sat Nov 4 03:30:02 2000 -->
+<table><tr><td><a href=/elog/notebooks/barrel4/Sat_Nov__4_2000_032958.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Plots sent by Weiming as mentioned above.</a></td></tr></table>
+<!-- Author: Alan Sill -->
+
+
+
+
+
+<!-- Date: Sat Nov 4 20:04:37 2000 -->
+<pre>The hbook files already existed in anyes directory. Somehow 
+overlooked them. Just ran b4adc2. 
+ 
+We get following results for BW 4 runs : 
+ 
+ Run#      file     Mean Q(for N)        Ratio 
+------------------------------------------------ 
+103185  50 ar019311   37.37            INF (no events in wrong) 
+103183  57 ar01930f   39.84            43   
+103182  61 ar01930e   41.13           108 
+ 
+For the BW2 Run : 
+103196  61 ar01931c   40.40            4 
+For BW2 we have hits in all the 4 buckets and quite 
+a large no. of hits in the wrong bucket. 
+ 
+ps files for these runs are under their corresponding filenames 
+in the directory: 
+/cdf/data05/s1/hardware/svxii/SiHitAnalyzer/tmoulik/psfile 
+ 
+ 
+ 
+</pre>
+<!-- Author: Tania -->

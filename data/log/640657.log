@@ -1,0 +1,393 @@
+Index: cdat/trunk/logs/samples/xgks.LOG
+===================================================================
+--- cdat/trunk/logs/samples/xgks.LOG (revision 3067)
++++ cdat/trunk/logs/samples/xgks.LOG (revision 6295)
+@@ -1,10 +1,8 @@
+ untarring xgks
+-Installation of xgks to /usr/local/cdat
++Installation of xgks to /lgm/cdat/latest
+ creating cache ./config.cache
+ checking type of operating system... linux
+ checking for manual-page index command... 
+-checking for c89... no
+-checking for cc... no
+-checking for gcc... gcc
++checking for C compiler... gcc
+ checking for dependency generation mechanism... gcc -M
+ checking how to run the C preprocessor... gcc -E
+@@ -22,6 +20,6 @@
+ checking for ranlib... ranlib
+ checking binary distribution directory... /home/ftp/pub/binary/dummy_system
+-checking the installation prefix... /usr/local/cdat
+-checking the installation exec-prefix... /usr/local/cdat
++checking the installation prefix... /lgm/cdat/latest
++checking the installation exec-prefix... /lgm/cdat/latest
+ checking for ar... (cached) ar
+ checking for ranlib... (cached) ranlib
+@@ -141,11 +139,11 @@
+ Installing udposix.h
+ 
+-making `all' in directory /work/main/exsrc/build/xgks/port
+-
+-make[1]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port'
+-
+-making `all' in directory /work/main/exsrc/build/xgks/port/misc
+-
+-make[2]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/misc'
++making `all' in directory /svn/cdat/branches/devel/exsrc/build/xgks/port
++
++make[1]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port'
++
++making `all' in directory /svn/cdat/branches/devel/exsrc/build/xgks/port/misc
++
++make[2]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/misc'
+ gcc -c -g -I.  -D_REENTRANT  uddummy.c
+ ar rcuv libudport.a uddummy.o 
+@@ -156,58 +154,58 @@
+ esac
+ ranlib libudport.a
+-make[2]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/misc'
+-
+-returning to directory /work/main/exsrc/build/xgks/port
+-
+-
+-making `all' in directory /work/main/exsrc/build/xgks/port/fortc
+-
+-make[2]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-sed "s|__LIBPATH__|`pwd`:/usr/local/cdat/lib/fortc|g;s/__DEFAULT_OS__/linux/g" fortc.src > fortc
++make[2]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/misc'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks/port
++
++
++making `all' in directory /svn/cdat/branches/devel/exsrc/build/xgks/port/fortc
++
++make[2]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++sed "s|__LIBPATH__|`pwd`:/lgm/cdat/latest/lib/fortc|g;s/__DEFAULT_OS__/linux/g" fortc.src > fortc
+ chmod +x fortc
+-make[2]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-
+-returning to directory /work/main/exsrc/build/xgks/port
+-
+-make[1]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port'
+-
+-returning to directory /work/main/exsrc/build/xgks
+-
+-
+-making `install' in directory /work/main/exsrc/build/xgks/port
+-
+-make[1]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port'
+-
+-making `install' in directory /work/main/exsrc/build/xgks/port/misc
+-
+-make[2]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/misc'
+-make -w /usr/local/cdat/lib LIBDIR=/usr/local/cdat/lib
+-make[3]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/misc'
+-make[3]: `/usr/local/cdat/lib' is up to date.
+-make[3]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/misc'
+-ar rcuv /usr/local/cdat/lib/libudport.a uddummy.o 
++make[2]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks/port
++
++make[1]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks
++
++
++making `install' in directory /svn/cdat/branches/devel/exsrc/build/xgks/port
++
++make[1]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port'
++
++making `install' in directory /svn/cdat/branches/devel/exsrc/build/xgks/port/misc
++
++make[2]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/misc'
++make -w /lgm/cdat/latest/lib LIBDIR=/lgm/cdat/latest/lib
++make[3]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/misc'
++make[3]: `/lgm/cdat/latest/lib' is up to date.
++make[3]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/misc'
++ar rcuv /lgm/cdat/latest/lib/libudport.a uddummy.o 
+ a - uddummy.o
+-ranlib /usr/local/cdat/lib/libudport.a
+-make[2]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/misc'
+-
+-returning to directory /work/main/exsrc/build/xgks/port
+-
+-
+-making `install' in directory /work/main/exsrc/build/xgks/port/fortc
+-
+-make[2]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[3]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp fortc /usr/local/cdat/bin/fortc
+-make[3]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[3]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
++ranlib /lgm/cdat/latest/lib/libudport.a
++make[2]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/misc'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks/port
++
++
++making `install' in directory /svn/cdat/branches/devel/exsrc/build/xgks/port/fortc
++
++make[2]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[3]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp fortc /lgm/cdat/latest/bin/fortc
++make[3]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[3]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
+ case `uname -s` in \
+     OSF1*|IRIX*|HP-UX) \
+ 	sed \
+      -e '/^\.TH/s/$D\ate: \([0-9]*\)\/\([0-9]*\)\/\([0-9]*\).*\$/\1-\2-\3/'\
+-	 fortc.1 > /usr/local/cdat/man/man1/fortc.1;; \
++	 fortc.1 > /lgm/cdat/latest/man/man1/fortc.1;; \
+     *) \
+ 	sed \
+      -e '/^\.TH/s/$D\ate: \([0-9]*\)\/\([0-9]*\)\/\([0-9]*\).*\$/\1-\2-\3/'\
+-	 fortc.1 | tbl | neqn > /usr/local/cdat/man/man1/fortc.1;; \
++	 fortc.1 | tbl | neqn > /lgm/cdat/latest/man/man1/fortc.1;; \
+ esac
+ extension=`echo fortc.1 | sed 's/[^.]*\.//'`; \
+@@ -216,82 +214,82 @@
+     '') ;; \
+     *)  chapter=`echo $extension | sed 's/\(.\).*/\1/'`; \
+-	if test -d /usr/local/cdat/man/man1$subchapter; then \
++	if test -d /lgm/cdat/latest/man/man1$subchapter; then \
+ 	    : true; \
+ 	else \
+-	    mkdir /usr/local/cdat/man/man1$subchapter; \
++	    mkdir /lgm/cdat/latest/man/man1$subchapter; \
+ 	fi; \
+-	rm -f /usr/local/cdat/man/man1$subchapter/fortc.1; \
+-	ln -s ../`basename /usr/local/cdat/man/man1`/fortc.1 \
+-	    /usr/local/cdat/man/man1$subchapter/fortc.1; \
++	rm -f /lgm/cdat/latest/man/man1$subchapter/fortc.1; \
++	ln -s ../`basename /lgm/cdat/latest/man/man1`/fortc.1 \
++	    /lgm/cdat/latest/man/man1$subchapter/fortc.1; \
+ 	;; \
+ esac
+-make[3]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[3]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-mkdir -p /usr/local/cdat/lib/fortc
+-chmod u+rwx,g+rws,o=rx /usr/local/cdat/lib/fortc
+-cp aix.m4 /usr/local/cdat/lib/fortc/aix.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp bsdos.m4 /usr/local/cdat/lib/fortc/bsdos.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp common.m4 /usr/local/cdat/lib/fortc/common.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp convexos.m4 /usr/local/cdat/lib/fortc/convexos.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp domainos.m4 /usr/local/cdat/lib/fortc/domainos.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp hpux.m4 /usr/local/cdat/lib/fortc/hpux.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp irix.m4 /usr/local/cdat/lib/fortc/irix.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp linux.m4 /usr/local/cdat/lib/fortc/linux.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp cygwin.m4 /usr/local/cdat/lib/fortc/cygwin.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp msoft.m4 /usr/local/cdat/lib/fortc/msoft.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp next-absoft.m4 /usr/local/cdat/lib/fortc/next-absoft.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp osf.m4 /usr/local/cdat/lib/fortc/osf.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp sunos.m4 /usr/local/cdat/lib/fortc/sunos.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp ultrix.m4 /usr/local/cdat/lib/fortc/ultrix.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp unicos.m4 /usr/local/cdat/lib/fortc/unicos.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp vax-ultrix.m4 /usr/local/cdat/lib/fortc/vax-ultrix.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[4]: Entering directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-cp vms.m4 /usr/local/cdat/lib/fortc/vms.m4
+-make[4]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[3]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-make[2]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port/fortc'
+-
+-returning to directory /work/main/exsrc/build/xgks/port
+-
+-make[1]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/port'
+-
+-returning to directory /work/main/exsrc/build/xgks
+-
+-
+-making `all' in directory /work/main/exsrc/build/xgks/fontdb
+-
+-make[1]: Entering directory `/lgm2/work/main/exsrc/build/xgks/fontdb'
++make[3]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[3]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++mkdir -p /lgm/cdat/latest/lib/fortc
++chmod u+rwx,g+rws,o=rx /lgm/cdat/latest/lib/fortc
++cp aix.m4 /lgm/cdat/latest/lib/fortc/aix.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp bsdos.m4 /lgm/cdat/latest/lib/fortc/bsdos.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp common.m4 /lgm/cdat/latest/lib/fortc/common.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp convexos.m4 /lgm/cdat/latest/lib/fortc/convexos.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp domainos.m4 /lgm/cdat/latest/lib/fortc/domainos.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp hpux.m4 /lgm/cdat/latest/lib/fortc/hpux.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp irix.m4 /lgm/cdat/latest/lib/fortc/irix.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp linux.m4 /lgm/cdat/latest/lib/fortc/linux.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp cygwin.m4 /lgm/cdat/latest/lib/fortc/cygwin.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp msoft.m4 /lgm/cdat/latest/lib/fortc/msoft.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp next-absoft.m4 /lgm/cdat/latest/lib/fortc/next-absoft.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp osf.m4 /lgm/cdat/latest/lib/fortc/osf.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp sunos.m4 /lgm/cdat/latest/lib/fortc/sunos.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp ultrix.m4 /lgm/cdat/latest/lib/fortc/ultrix.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp unicos.m4 /lgm/cdat/latest/lib/fortc/unicos.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp vax-ultrix.m4 /lgm/cdat/latest/lib/fortc/vax-ultrix.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[4]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++cp vms.m4 /lgm/cdat/latest/lib/fortc/vms.m4
++make[4]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[3]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++make[2]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port/fortc'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks/port
++
++make[1]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/port'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks
++
++
++making `all' in directory /svn/cdat/branches/devel/exsrc/build/xgks/fontdb
++
++make[1]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/fontdb'
+ gcc -c -g -I../lib/c -I../port/misc   mkfont.c
+ mkfont.c: In function âWriteFontâ:
+@@ -331,46 +329,46 @@
+ rm -f 9
+ ln G.gksfont 9
+-make[1]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/fontdb'
+-
+-returning to directory /work/main/exsrc/build/xgks
+-
+-
+-making `install' in directory /work/main/exsrc/build/xgks/fontdb
+-
+-make[1]: Entering directory `/lgm2/work/main/exsrc/build/xgks/fontdb'
+-if test -d /usr/local/cdat/lib/xgksfonts; then \
++make[1]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/fontdb'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks
++
++
++making `install' in directory /svn/cdat/branches/devel/exsrc/build/xgks/fontdb
++
++make[1]: Entering directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/fontdb'
++if test -d /lgm/cdat/latest/lib/xgksfonts; then \
+     : true; \
+ else \
+-    mkdir /usr/local/cdat/lib/xgksfonts; \
++    mkdir /lgm/cdat/latest/lib/xgksfonts; \
+ fi
+-cp r.gksfont /usr/local/cdat/lib/xgksfonts/r.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/1
+-ln /usr/local/cdat/lib/xgksfonts/r.gksfont /usr/local/cdat/lib/xgksfonts/1
+-cp R.gksfont /usr/local/cdat/lib/xgksfonts/R.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/2
+-ln /usr/local/cdat/lib/xgksfonts/R.gksfont /usr/local/cdat/lib/xgksfonts/2
+-cp b.gksfont /usr/local/cdat/lib/xgksfonts/b.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/3
+-ln /usr/local/cdat/lib/xgksfonts/b.gksfont /usr/local/cdat/lib/xgksfonts/3
+-cp B.gksfont /usr/local/cdat/lib/xgksfonts/B.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/4
+-ln /usr/local/cdat/lib/xgksfonts/B.gksfont /usr/local/cdat/lib/xgksfonts/4
+-cp i.gksfont /usr/local/cdat/lib/xgksfonts/i.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/5
+-ln /usr/local/cdat/lib/xgksfonts/i.gksfont /usr/local/cdat/lib/xgksfonts/5
+-cp I.gksfont /usr/local/cdat/lib/xgksfonts/I.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/6
+-ln /usr/local/cdat/lib/xgksfonts/I.gksfont /usr/local/cdat/lib/xgksfonts/6
+-cp sc.gksfont /usr/local/cdat/lib/xgksfonts/sc.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/7
+-ln /usr/local/cdat/lib/xgksfonts/sc.gksfont /usr/local/cdat/lib/xgksfonts/7
+-cp SC.gksfont /usr/local/cdat/lib/xgksfonts/SC.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/8
+-ln /usr/local/cdat/lib/xgksfonts/SC.gksfont /usr/local/cdat/lib/xgksfonts/8
+-cp G.gksfont /usr/local/cdat/lib/xgksfonts/G.gksfont
+-rm -f /usr/local/cdat/lib/xgksfonts/9
+-ln /usr/local/cdat/lib/xgksfonts/G.gksfont /usr/local/cdat/lib/xgksfonts/9
+-make[1]: Leaving directory `/lgm2/work/main/exsrc/build/xgks/fontdb'
+-
+-returning to directory /work/main/exsrc/build/xgks
+-
++cp r.gksfont /lgm/cdat/latest/lib/xgksfonts/r.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/1
++ln /lgm/cdat/latest/lib/xgksfonts/r.gksfont /lgm/cdat/latest/lib/xgksfonts/1
++cp R.gksfont /lgm/cdat/latest/lib/xgksfonts/R.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/2
++ln /lgm/cdat/latest/lib/xgksfonts/R.gksfont /lgm/cdat/latest/lib/xgksfonts/2
++cp b.gksfont /lgm/cdat/latest/lib/xgksfonts/b.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/3
++ln /lgm/cdat/latest/lib/xgksfonts/b.gksfont /lgm/cdat/latest/lib/xgksfonts/3
++cp B.gksfont /lgm/cdat/latest/lib/xgksfonts/B.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/4
++ln /lgm/cdat/latest/lib/xgksfonts/B.gksfont /lgm/cdat/latest/lib/xgksfonts/4
++cp i.gksfont /lgm/cdat/latest/lib/xgksfonts/i.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/5
++ln /lgm/cdat/latest/lib/xgksfonts/i.gksfont /lgm/cdat/latest/lib/xgksfonts/5
++cp I.gksfont /lgm/cdat/latest/lib/xgksfonts/I.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/6
++ln /lgm/cdat/latest/lib/xgksfonts/I.gksfont /lgm/cdat/latest/lib/xgksfonts/6
++cp sc.gksfont /lgm/cdat/latest/lib/xgksfonts/sc.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/7
++ln /lgm/cdat/latest/lib/xgksfonts/sc.gksfont /lgm/cdat/latest/lib/xgksfonts/7
++cp SC.gksfont /lgm/cdat/latest/lib/xgksfonts/SC.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/8
++ln /lgm/cdat/latest/lib/xgksfonts/SC.gksfont /lgm/cdat/latest/lib/xgksfonts/8
++cp G.gksfont /lgm/cdat/latest/lib/xgksfonts/G.gksfont
++rm -f /lgm/cdat/latest/lib/xgksfonts/9
++ln /lgm/cdat/latest/lib/xgksfonts/G.gksfont /lgm/cdat/latest/lib/xgksfonts/9
++make[1]: Leaving directory `/export/svn/cdat/branches/devel/exsrc/build/xgks/fontdb'
++
++returning to directory /svn/cdat/branches/devel/exsrc/build/xgks
++

@@ -1,0 +1,492 @@
+<!-- Title: Owl shift. Sat Aug 30, 2008 -->
+<!-- SciCo: Takuo Yoshida -->
+<!-- DAQAce: Yu Chul Yang/David Mietlicki -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Andrew Mehta -->
+<!-- OpManager: Ankush Mitra -->
+<!-- Notes: -->
+<pre>We inherit Store 6388. The B0Lum is 70E30 for the moment. 
+ 
+Check if CDF is really giving good data. 
+TOF still needs access.</pre>
+
+
+<!-- Date: Sat Aug 30 00:26:57.835 2008 -->
+Momentary TOF HV trip. but it was clean itself. keep taking data
+<!-- Author: Yuchul/David :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 00:29:08.227 2008 -->
+Received Message: 
+ 
+<pre> 
+ 
+ Attention!!!. FERML_HIGH_DEADTIME !!!  
+ - Trigger/DAQ Deadtime is too high (at 22.112095 %).  
+ - Look for source of hot triggers.  
+ - Contact a trigger expert for further assistance.  
+</pre> 
+ 
+But deadtime in scalar mon is only ~3% (Current: 2.93%, Last 60 sec: 2.79%, Run: 3.65%)
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 00:41:00.562 2008 -->
+ENCP TO TAPE is back to green in ProcMon
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 00:47:00.532 2008 -->
+evb2b turned red in Replies and Acknowlegements, fixed by HRR
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+<!-- Comment: Sat Aug 30 00;50;06 comment by...David/Yuchul -->
+Output of "Check Timeouts": "No LoadErrors or byte count errors detected."
+
+<!-- Date: Sat Aug 30 01:56:35.688 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+central: <tt>TOF dead sector known problem</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Sat Aug 30 01:56:36.400 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+general: <tt>Checklist done: All plots are ok apart from TOF</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+<!-- Date: Sat Aug 30 02:04:43.558 2008 -->
+<pre> 
+ Attention !!!. CER_SVXMON_HALT_RECOVER_RUN_ERROR !!!  
+  
+ Stuck Cellid S/B2/W4/L4/C0-6 .  
+ AUTO HRR will be issued   
+</pre> 
+auto HRR.  Followed immediately by L2 Decision TO, which required two HRRs to fix.
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 02:34:07.403 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4389&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4390  width='300' align='top'></a></td><td>Pinkie at SVX VBIAS B5W6L1. It is unmarked.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Sat Aug 30 02:53:57.851 2008 -->
+L2 Decision TO, fixed by auto HRR
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 04:09:28.093 2008 -->
+HV trip, CMX West SW wedges 16-17.  Turned high voltage back on.  b0pcal01 got stuck during recover transition, had to shepherd.
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+<!-- Date: Sat Aug 30 04:11:04.098 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+central: <tt>TOF dead sector known problem</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+
+<!-- Date: Sat Aug 30 04:24:16.718 2008 -->
+TevMon Warning set for B0AAGC, cleared almost immediately
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 04:24:47.077 2008 -->
+ENCP TO TAPE red in ProcMon
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+<!-- Comment: Sat Aug 30 04;37;44 comment by...David/Yuchul -->
+ENCP TO TAPE back to green
+
+
+<!-- Date: Sat Aug 30 04:51:04.117 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4391&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4392  width='300' align='top'></a></td><td>Pinkie at ISL VBIAS1 B4W5L4 ignored, since the jump is small.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+<!-- Comment: Sat Aug 30 04;59;18 comment by...Takuo Yoshida -->
+It was ignored because it turned pink again after unmarking.   
+
+
+<!-- Date: Sat Aug 30 05:04:27.785 2008 -->
+Plug HV 07 trip.  LED 07 was out.  Turned off plug HV monitor, reset crate to turn HV back on, and restarted monitor.
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 05:15:14.842 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4395&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4396  width='300' align='top'></a></td><td>Pinkie at ISL VBIAS1 B5W2L0 ignored because unmarking did not work and the current jump was small.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Sat Aug 30 05:16:27.896 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4397&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4398  width='300' align='top'></a></td><td>Pinkie at ISL VBIAS1 B1W2L3 unmaked.</td></tr></table>
+<!-- Author: Takuo Yoshida -->
+
+
+<!-- Date: Sat Aug 30 05:23:54.868 2008 -->
+MCR called. They terminate the store at 06:45.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+<!-- Comment: Sat Aug 30 05;41;27 comment by...Takuo Yoshida -->
+Shot setup follows immediately.
+
+
+<!-- Date: Sat Aug 30 05:56:14.896 2008 -->
+Done TO crate b0imu00, fixed by auto HRR
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 06:29:09.076 2008 -->
+L2 Decision TO, fixed by auto HRR
+<!-- Author: David/Yuchul :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+
+<!-- Date: Sat Aug 30 06:30:45.402 2008 -->
+MCR called. They will terminate the store in 15 minutes.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687' target=_top>266687</a>) -->
+
+<!-- Date: Sat Aug 30 06:38:00.495 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+ Terminated at 2008.08.30 06:37:28
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Aug 30 06:38:01.787 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+TERMINATE: End of store
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 06:44:10.282 2008 -->
+I called MCR to tell that we are ready for termination of the store.
+<!-- Author: Takuo Yoshida -->
+<!-- Comment: Sat Aug 30 06;57;19 comment by...Takuo Yoshida -->
+I called Cryo, too.
+<!-- Comment: Sat Aug 30 07;01;11 comment by...Takuo Yoshida -->
+The store was terminated in time.
+<!-- Date: Sat Aug 30 06:48:22.098 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+central: <tt>TOF dead sector known problem</tt>
+<!-- Author: Consumer Operator( Andrew Mehta) -->
+
+
+<!-- Date: Sat Aug 30 06:50:51.938 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266688>266688</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 06:52:35.673 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266688>266688</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;09;10 comment by...Andrew Mehta -->
+CO checked. All OK.
+<!-- Date: Sat Aug 30 06:53:00.628 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266689>266689</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 06:53:47.534 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266689>266689</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 06:53:58.750 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266689>266689</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;11;01 comment by...Andrew Mehta -->
+CO checked. All OK
+<!-- Date: Sat Aug 30 06:55:15.578 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266687>266687</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+TOF 
+</PRE>There are some dead channels at TOF West Ave Time. We need access to fix it.
+<!-- Author: cdfscico -->
+
+
+<!-- Date: Sat Aug 30 06:56:29.765 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266690>266690</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 06:57:03.161 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266690>266690</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;15;15 comment by...Andrew Mehta -->
+CO checked. All OK
+<!-- Date: Sat Aug 30 06:57:04.366 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266690>266690</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 06:58:45.883 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266691>266691</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Yuchul/David -->
+
+
+
+
+<!-- Date: Sat Aug 30 07:03:40.514 2008 -->
+The shot setup has begun.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266691' target=_top>266691</a>) -->
+<!-- Comment: Sat Aug 30 07;13;27 comment by...Takuo Yoshida -->
+The next store number is 6389.
+<!-- Date: Sat Aug 30 07:05:49.167 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266691>266691</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:06:39.336 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266692>266692</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:08:15.151 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266692>266692</A>
+TERMINATE: Protons being put into tevatron
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:08:16.107 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266692>266692</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;22;14 comment by...Andrew Mehta -->
+pluglaser_phaLas2TDC slightly outside timing window
+<!-- Date: Sat Aug 30 07:11:01.622 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266693>266693</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 07:11:39.087 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266693>266693</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:11:41.036 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266693>266693</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;18;08 comment by...Andrew Mehta -->
+bad sector as expected
+<!-- Date: Sat Aug 30 07:13:01.885 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266694>266694</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 07:13:47.872 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266694>266694</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 07:15:35.609 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266695>266695</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:17:25.206 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266695>266695</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:17:26.593 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266695>266695</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;25;27 comment by...Andrew Mehta -->
+CO checked. All OK.
+<!-- Date: Sat Aug 30 07:18:23.519 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266696>266696</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:18:57.089 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266694>266694</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;27;08 comment by...Andrew Mehta -->
+CO checked. All OK.
+<!-- Date: Sat Aug 30 07:18:58.803 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266696>266696</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:22:14.918 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266697>266697</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 07:23:08.575 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266696>266696</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;31;03 comment by...Andrew Mehta -->
+CO checked. OK, but large number of updates: 
+Out of the last 10 calibrations, constants have been updated 9 times
+<!-- Date: Sat Aug 30 07:23:21.962 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4399&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4399  width='300' align='top'></a></td><td>pluglaser_phaLas2TDC slightly outside timing window</td></tr></table>
+<!-- Author: Andrew Mehta -->
+
+<!-- Date: Sat Aug 30 07:24:38.785 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266697>266697</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:24:39.120 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266697>266697</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sat Aug 30 07;45;03 comment by...Andrew Mehta -->
+Looks bad. See plot below.
+<!-- Date: Sat Aug 30 07:25:54.241 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266698>266698</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:26:19.548 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266698>266698</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 07:28:01.110 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266699>266699</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Yuchul/David -->
+
+
+
+<!-- Date: Sat Aug 30 07:34:42.755 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266699>266699</A>
+TERMINATE: Done
+<!-- Author: Yuchul/David -->
+
+
+<!-- Date: Sat Aug 30 07:39:26.692 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266700>266700</A>
+ Activated at 2008.08.30 07:39:10
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Aug 30 07:39:52.591 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266700>266700</A>
+ACTIVATE: RunSet: ACE_COSMIC_ALL_L1MET  Trigger: COSMICS [15,1130,706]  b0htdc00 error during config transition, had to shepherd it
+<!-- Author: Yuchul/David -->
+
+
+
+
+<!-- Date: Sat Aug 30 07:45:51.608 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4400&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4400  width='300' align='top'></a></td><td>bad calxef calibration</td></tr></table>
+<!-- Author: Andrew Mehta -->
+
+
+<!-- Date: Sat Aug 30 07:46:40.535 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4401&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4401  width='300' align='top'></a></td><td>bad calxef calibration</td></tr></table>
+<!-- Author: Andrew Mehta -->
+
+<!-- Date: Sat Aug 30 07:51:57.501 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266700>266700</A>
+ Terminated at 2008.08.30 07:51:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sat Aug 30 07:55:31.140 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=266687 target=_runSummary>266687</A> x411BF</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [9,1129,725]</FONT></TD>
+<TD ALIGN=CENTER>12:23:51</TD>
+<TD ALIGN=CENTER>06:37:28</TD>
+<TD ALIGN=CENTER>16:55:47</TD>
+<TD ALIGN=RIGHT>   6,408,175</TD>   <TD ALIGN=RIGHT>  5,687.18</TD>
+<TD ALIGN=RIGHT>  5,216.50</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>16:55:47</TD>
+<TD ALIGN=RIGHT>     6,408,175</TD> <TD ALIGN=RIGHT>  5,687.18</TD>
+<TD ALIGN=RIGHT>  5,216.50</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sat Aug 30 07:55:31.113 2008 -->
+Final proton bunches are being loaded.
+<!-- Author: Takuo Yoshida :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266700' target=_top>266700</a>) -->
+
+
+<!-- Date: Sat Aug 30 07:57:22.453 2008 -->
+<font color=red>Shift Summary: </font><pre>We inherited Store 6388. The B0Lum at the beginning of the shift 
+was 70E30. 
+ 
+The store 6388 was terminated at 06:45, and the shot setup 
+followed directly. 
+ 
+We still need an access to fix TOF. 
+CALXEF calibration is bad.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   266687
+Delivered Luminosity   1438.5 nb-1  
+Acquired Luminosity    1354.1 nb-1  
+Efficiency             94.1
+   
+</td></tr></table></pre>
+<!-- Author: Takuo Yoshida -->
+
+<!-- Date: Sat Aug 30 07:58:45.633 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266701>266701</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP_L1MET  Trigger: PHYSICS_5_01 [9,1129,725] 
+<!-- Author: Yuchul/David -->
+

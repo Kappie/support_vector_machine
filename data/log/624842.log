@@ -1,0 +1,538 @@
+Mark-5 Calc/Solve config  2006.03.29-18:42:39  on  lacerta
+Release  date: 2005.04.01
+config.csh revision date:  2005.04.01
+Result of uname -a
+Linux lacerta 2.6.16 #3 SMP PREEMPT Fri Mar 24 15:56:04 EST 2006 i686 i686 i386 GNU/Linux
+ 
+Contents of /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 3
+model name	: Intel(R) Pentium(R) 4 CPU 3.00GHz
+stepping	: 3
+cpu MHz		: 3000.000
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe constant_tsc pni monitor ds_cpl cid
+bogomips	: 6776.54
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 3
+model name	: Intel(R) Pentium(R) 4 CPU 3.00GHz
+stepping	: 3
+cpu MHz		: 3000.000
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe constant_tsc pni monitor ds_cpl cid
+bogomips	: 6765.86
+
+ 
+Contents of /proc/meminfo 
+MemTotal:      2076068 kB
+MemFree:         53376 kB
+Buffers:         40820 kB
+Cached:        1819048 kB
+SwapCached:          0 kB
+Active:        1109268 kB
+Inactive:       848828 kB
+HighTotal:     1179584 kB
+HighFree:         2356 kB
+LowTotal:       896484 kB
+LowFree:         51020 kB
+SwapTotal:     4192956 kB
+SwapFree:      4192956 kB
+Dirty:            4048 kB
+Writeback:           0 kB
+Mapped:         129196 kB
+Slab:            48336 kB
+CommitLimit:   5230988 kB
+Committed_AS:   207848 kB
+PageTables:       3024 kB
+VmallocTotal:   114680 kB
+VmallocUsed:      4892 kB
+VmallocChunk:   109512 kB
+HugePages_Total:     0
+HugePages_Free:      0
+Hugepagesize:     4096 kB
+ 
+Contents of /proc/swaps 
+Filename				Type		Size	Used	Priority
+/dev/hda2                               partition	4192956	0	-1
+ 
+Contents of df /vlbi/mk5_kdb /data1/save_files /tmp/ 
+ 
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/sda1            182235072 152721424  29513648  84% /vlbi
+lyra:/lyra2           12707392   9914656   2157344  83% /MOUNTS/lyra/lyra2
+/dev/hda1              8254240   7236776    598172  93% /
+First: Beginning of ENVIRONMENT VARIABLES list: 
+ 
+USER=kdb
+LOGNAME=kdb
+HOME=/home/kdb
+PATH=/bin:/usr/bin:/usr/local/bin:/usr/bin/X11:/usr/lib/vslick/bin:/usr/X11R6/bin:/users/kdb:/users/kdb/bin:/home/kdb:/home/kdb/bin:/space/mk5_ltest/bin:.
+MAIL=/var/mail/kdb
+SHELL=/bin/csh
+SSH_CLIENT=::ffff:128.183.107.74 2753 22
+SSH_CONNECTION=::ffff:128.183.107.74 2753 ::ffff:128.183.107.130 22
+SSH_TTY=/dev/pts/10
+TERM=hpgeneric
+DISPLAY=virgo:0
+HOSTTYPE=i386-linux
+VENDOR=intel
+OSTYPE=linux
+MACHTYPE=i386
+SHLVL=3
+PWD=/vlbi/mk5_kdb/support
+GROUP=users
+HOST=lacerta
+REMOTEHOST=virgo.gsfc.nasa.gov
+LS_COLORS=
+G_BROKEN_FILENAMES=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+KDEDIR=/usr
+LANG=en_US.UTF-8
+SUPPORTED=en_US.UTF-8:en_US:en:de_DE.UTF-8:de_DE:de:ru_RU.UTF-8:ru_RU:ru
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+QTDIR=/usr/lib/qt-3.2
+HOSTNAME=lacerta
+MK5_ROOT=/vlbi/mk5_kdb
+SOLVE_EDITOR=vi 
+SOLVE_DIR=/p3/mk5/bin
+ARC_STR=
+HELP_DIR=/lyra5/mk5/help
+SAVE_DIR=/data1/save_files
+SOLVE_HELP_DIR=/lyra5/mk5/help
+WORK_DIR=/box1/solve/work_files
+SPOOL_DIR=/box1/solve/spool_files
+PGPLOT_DIR=/vlbi/mk5_kdb/libs/pgplot522/bin
+PGPLOT_FONT=/vlbi/mk5_kdb/libs/pgplot522/bin/grfont.dat
+PGPLOT_DEV=/XW
+PGPLOT_XW_MARGIN=1.0
+DIAGI_PRICOM=/users/pet/bin/Gp2 
+DIAGI_SCREEN=
+SOLVE_PS_VIEWER=GhosT
+SEG_OUTPUT=NO
+COND_WARNING=1.D11
+ESTIMATE_NUTATION_FIRST=YES
+ESTIMATE_STATION_FIRST=YES
+ESTIMATE_EOP_FIRST=NO
+ESTIMATE_UT1_RATE_FIRST=YES
+NORATE_FLAG=NO
+TERM_COLOR=YES
+BATCH_SILENT=
+MIN_FREE_NSP_MB=16
+MIN_FREE_SPL_MB=80
+FAST_MODE=B3D
+FAST_DBG=NON
+ATM_CNST=40
+CLO_CNST=2
+POL_CNST=10
+UT1_CNST=0.67
+GRR_CNST=0.0
+GRO_CNST=0.0
+ECCDAT_TYPE=
+ECC_DATA_FILE=
+CONTRIB_RESET=NO
+QUALCODE_GOOD_LIM=5
+GAMB_F_ION=TRUE
+GAMB_F_PREUSE=ALL
+GAMB_F_SAVE=TRUE
+GAMB_CUTOFF=8.0D-9
+GAMB_SPACING_CONST=0
+GAMB_MINOBS=8
+GAMB_IT=2
+IONO_VERBOSE=off
+IONO_SEEK=512
+REWAY_CHITOL=0.05
+REWAY_TYPE=BA
+REWAY_VERBOSE=off
+REWAY_FLODEL=0.0
+REWAY_FLORATE=0.0
+REWAY_CEIDEL=300.0
+REWAY_CEIRATE=1000.0
+REWAY_MAXIT=10
+REWAY_FALLBACK=off
+REWAY_NEWUPD=off
+SETFL_MDEG=2
+DEF_CLOSPAN=3600.D0
+DEF_ATMSPAN=3600.D0
+ELIM_MOD=TRUE
+ELIM_CNF=.FALSE.
+ELIM_THR=0.0
+ELIM_CUT=3.0
+ELIM_TYP=BA
+ELIM_VRB=1
+ELIM_UPD=1
+ELIM_MSR=0.0
+EQUMEM_FLAG=YES
+CRES_STYLE=no
+SIGMA_TYPE=PR
+CNPLT_SUPR_PRE98=no
+CNPLT_SHOW_UNRC=no
+CNPLT_SHOW_CBAD=yes
+SNGCHK_ACTION=REPARAMETERIZE
+SNGCHK_SOUMIN=0
+SNGCHK_STAMIN=5
+SNGCHK_BASMIN=4
+PAMB_VRB=1
+PAMB_PLOT_TYPE=2
+PAMB_PLOT_BAND=1
+PAMB_PARU_FILE= 
+PAMB_ARFTYPE=3
+PAMB_XGRLIM=150.0D-12
+PAMB_SGRLIM=600.0D-12
+PAMB_XPHLIM=25.0D-12
+PAMB_SPHLIM=100.0D-12
+PAMB_RLIM1=0.3
+PAMB_RLIM2=0.3
+PAMB_RLIM3=0.0
+PAMB_RTIM1=10800.0
+PAMB_SPLSPAN=7200.0
+PAMB_SPL_CNST=0.00000556
+PAMB_MSC=TRUE
+PAMB_PLOTINI=FALSE
+PAMB_PLOTFIN=TRUE
+PAMB_INIWEI=8.0D-12
+PAMB_ARFFLO=0.05
+SOLVE_COMPAT=0
+UNF_DISABLE=
+HFINT_DISABLE=
+HFINT=
+FAST_MODE__STRICTLY=
+GAMB_BATCH=
+MEMORY_DEBUG=
+LOCK_IGNORE=
+CORFIL=
+EQUAL_CHANNELS=
+SOLVE_ALTGRAPHIC=CNPLT
+TRANS_TIM=
+FAST_DBG__BYPASS=
+GAMB_F_X_BAND=
+GAMB_F_S_BAND=
+MK5_FC=/usr/local/bin/f95
+SUPPORT_PATH=/vlbi/mk5_kdb/support
+SOLVE_HP_VERSION=00
+SOLVE_BIN_XWD=/usr/bin/X11/xwd
+SOLVE_BIN_XPR=/usr/contrib/bin/X11/xpr
+SOLVE_MAKE=make
+SOLVE_BIN_DEFINED=yes
+SOLVE_C_INCLUDE=/vlbi/mk5_kdb/include/
+SOLVE_X_INCLUDE=/vlbi/mk5_kdb/libs/libinc/
+SOLVE_XFLUSH_FREQ=False
+SOLVE_PGPLOT_X_INC=/usr/include/X11
+SOLVE_INC_DEFINED=yes
+SOLVE_LIB_PGPLOT=/vlbi/mk5_kdb/libs/pgplot522/bin/libpgplot.a
+SOLVE_LIB_FITSIO=/p3/mk5/libs/newlib/fitsio.a
+SOLVE_LIB_VEC= 
+SOLVE_LIB_BLAS=/opt/intel/mkl/lib/32/libmkl_lapack.a /opt/intel/mkl/lib/32/libmkl_ia32.a /opt/intel/mkl/lib/32/libguide.so -lpthread -lm
+SOLVE_LIB_PW= 
+SOLVE_LIB_M= 
+SOLVE_LIB_U77= 
+SOLVE_LIB_LCL= 
+SOLVE_LIB_XHP11= 
+SOLVE_LIB_RTENSHD= 
+SOLVE_LIB_NSIPC= 
+SOLVE_LIB_X11=/usr/X11R6/lib/libX11.so
+SOLVE_LIB_XT= 
+SOLVE_LIB_CURSES=-lcurses
+SOLVE_LIB_END= 
+SOLVE_LIB_CL= 
+SOLVE_LIB_CAT= 
+SOLVE_LIB_LFSYS= 
+SOLVE_EXTRA_LIB=-lsvml
+SOLVE_LIB_DEFINED=yes
+MK5_COMPILER=LINUX_INTEL
+MK5_PREPROCESSOR_DIRECTIVES=/vlbi/mk5_kdb/include/mk5_linux_intel.inc
+COPT=-D LINUX -D LITTLE_ENDIAN -D FORTRAN_TRUE=-1 -D FORTRAN_FALSE=0 -I ./ -I /usr/include -I /usr/local/include -I /vlbi/mk5_kdb/include -I /vlbi/mk5_kdb/libs/hopslib/include
+LDOPT=-Vaxlib -posixlib
+MK5_F95_NOOPT=f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include
+MK5_F95=f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3
+MK5_F95_OPT=f95 -FR -fpp -Zp16 -align all -assume byterec -pad -tpp7 -axP -xP -O3 -nbs -w90 -w95 -nus -cm -traceback -D LINUX -D INTEL -D LITTLE_ENDIAN -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include
+MK5_F95_CAT=f95 -FR -fpp -D LINUX -D INTEL -D LITTLE_ENDIAN -align -pad -tpp7 -axP -xP -g -nbs -w90 -w95 -nus -cm -assume byterec -module /vlbi/mk5_kdb/module -I/vlbi/mk5_kdb/include
+MK5_C=gcc -D LINUX -D LITTLE_ENDIAN -D FORTRAN_TRUE=-1 -D FORTRAN_FALSE=0 -I ./ -I /usr/include -I /usr/local/include -I /vlbi/mk5_kdb/include -I /vlbi/mk5_kdb/libs/hopslib/include
+MK5_LINK=f95 -Vaxlib -posixlib
+MK5_C_LINK=f95 -Vaxlib -posixlib -Qlocation,link,/vlbi/mk5_kdb/support/
+local_comp=/vlbi/mk5_kdb/local/comp.lcl
+SOLVE_COMP_VAR_DEFINED=yes
+ECHO=/bin/echo -e
+ERR_PATH=/vlbi/mk5_kdb/temp
+MK5_BIN=/vlbi/mk5_kdb/bin
+CONF_LOG=/vlbi/mk5_kdb/temp/conf.log
+ 
+First: End of ENVIRONMENT VARIABLES list
+ 
+config.csh: Check csh ... ok
+config.csh: Check C compiler ... config.csh: Check C compiler ... config.csh: Check C compiler ... config.csh: Set environment variables for compilers... config.csh: Check endian... /vlbi/mk5_kdb/support/check_endian.c: In function `main':
+/vlbi/mk5_kdb/support/check_endian.c:13: warning: return type of `main' is not `int'
+  Your architecture is LITTLE_ENDIAN
+config.csh: Check fortran_true...   Fortran .TRUE. is           -1
+config.csh: Check fortran_false...   Fortran .FALSE. is            0
+config.csh: Set options for compilers ... Compiler: f95, Vendor: Intel(R), version: 9.0
+Compiler: cc, vendor: gcc, version: 3.3.3
+Commands for calling compilers: 
+which cc  
+/usr/bin/cc
+which f95  
+/usr/local/bin/f95
+config.csh: Check for known bugs in the Fortran compiler... rm -f pointer_bug.o	/vlbi/mk5_kdb/bin/pointer_bug.e >& /dev/null
+f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3 -c -o pointer_bug.o pointer_bug.f
+f95 -Vaxlib -posixlib -o /vlbi/mk5_kdb/bin/pointer_bug.e pointer_bug.o ;
+config.csh: Running checks ... 
+Checking path ...  ok
+Checking curses .../vlbi/mk5_kdb/support/curses_test.c: In function `main':
+/vlbi/mk5_kdb/support/curses_test.c:10: warning: return type of `main' is not `int'
+  ok
+Checking X11 include files .../vlbi/mk5_kdb/support/x11_test.c: In function `main':
+/vlbi/mk5_kdb/support/x11_test.c:9: warning: return type of `main' is not `int'
+  ok
+Checking all libraries togeather ...f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3 -c -o  f90_test.o f90_test.f
+f95 -Vaxlib -posixlib -o /vlbi/mk5_kdb/bin/f90_test f90_test.o             /usr/X11R6/lib/libX11.so             /opt/intel/mkl/lib/32/libmkl_lapack.a /opt/intel/mkl/lib/32/libmkl_ia32.a /opt/intel/mkl/lib/32/libguide.so -lpthread -lm -lcurses  
+  ok
+mk5_checks -- All checks are ok
+config.csh: making  use_local  ... rm -f use_local.o use_local_support.o	 
+rm -f /vlbi/mk5_kdb/bin/use_local 
+f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3 -c -o   use_local.o use_local.f
+f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3 -c -o   use_local_support.o use_local_support.f
+f95 -Vaxlib -posixlib -o /vlbi/mk5_kdb/bin/use_local use_local.o use_local_support.o	 
+rm -f use_local.o use_local_support.o	 
+ done
+config.csh: Setting template files ... 
+config.csh: Creating /vlbi/mk5_kdb/include/i8yy.h ...  done
+config.csh: Creating /vlbi/mk5_kdb/include/solve_bin.h ...  done
+config.csh: Creating /vlbi/mk5_kdb/include/pgplot_path ...  done
+config.csh: Creating include files using templates
+Making  solve.i  ...  done
+Making  diagi_local.i ...  done
+Making  matvec.i ...  done
+Making  catalogue_parameters.i  ...  done
+Making  param.i  ...  done
+Making  general.i  ...  done
+Making  set_revision_date ... rm -f  /vlbi/mk5_kdb/bin/set_revision_date 
+f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3 -c -o   set_revision_date.o set_revision_date.f  
+f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3 -c -o   use_local_support.o use_local_support.f  
+f95 -Vaxlib -posixlib -o /vlbi/mk5_kdb/bin/set_revision_date set_revision_date.o use_local_support.o	 
+Second: Beginning of ENVIRONMENT VARIABLES list: 
+ 
+USER=kdb
+LOGNAME=kdb
+HOME=/home/kdb
+PATH=/bin:/usr/bin:/usr/local/bin:/usr/bin/X11:/usr/lib/vslick/bin:/usr/X11R6/bin:/users/kdb:/users/kdb/bin:/home/kdb:/home/kdb/bin:/space/mk5_ltest/bin:.
+MAIL=/var/mail/kdb
+SHELL=/bin/csh
+SSH_CLIENT=::ffff:128.183.107.74 2753 22
+SSH_CONNECTION=::ffff:128.183.107.74 2753 ::ffff:128.183.107.130 22
+SSH_TTY=/dev/pts/10
+TERM=hpgeneric
+DISPLAY=virgo:0
+HOSTTYPE=i386-linux
+VENDOR=intel
+OSTYPE=linux
+MACHTYPE=i386
+SHLVL=3
+PWD=/vlbi/mk5_kdb/support
+GROUP=users
+HOST=lacerta
+REMOTEHOST=virgo.gsfc.nasa.gov
+LS_COLORS=
+G_BROKEN_FILENAMES=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+KDEDIR=/usr
+LANG=en_US.UTF-8
+SUPPORTED=en_US.UTF-8:en_US:en:de_DE.UTF-8:de_DE:de:ru_RU.UTF-8:ru_RU:ru
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+QTDIR=/usr/lib/qt-3.2
+HOSTNAME=lacerta
+MK5_ROOT=/vlbi/mk5_kdb
+SOLVE_EDITOR=vi 
+SOLVE_DIR=/p3/mk5/bin
+ARC_STR=
+HELP_DIR=/lyra5/mk5/help
+SAVE_DIR=/data1/save_files
+SOLVE_HELP_DIR=/lyra5/mk5/help
+WORK_DIR=/box1/solve/work_files
+SPOOL_DIR=/box1/solve/spool_files
+PGPLOT_DIR=/vlbi/mk5_kdb/libs/pgplot522/bin
+PGPLOT_FONT=/vlbi/mk5_kdb/libs/pgplot522/bin/grfont.dat
+PGPLOT_DEV=/XW
+PGPLOT_XW_MARGIN=1.0
+DIAGI_PRICOM=/users/pet/bin/Gp2 
+DIAGI_SCREEN=
+SOLVE_PS_VIEWER=GhosT
+SEG_OUTPUT=NO
+COND_WARNING=1.D11
+ESTIMATE_NUTATION_FIRST=YES
+ESTIMATE_STATION_FIRST=YES
+ESTIMATE_EOP_FIRST=NO
+ESTIMATE_UT1_RATE_FIRST=YES
+NORATE_FLAG=NO
+TERM_COLOR=YES
+BATCH_SILENT=
+MIN_FREE_NSP_MB=16
+MIN_FREE_SPL_MB=80
+FAST_MODE=B3D
+FAST_DBG=NON
+ATM_CNST=40
+CLO_CNST=2
+POL_CNST=10
+UT1_CNST=0.67
+GRR_CNST=0.0
+GRO_CNST=0.0
+ECCDAT_TYPE=
+ECC_DATA_FILE=
+CONTRIB_RESET=NO
+QUALCODE_GOOD_LIM=5
+GAMB_F_ION=TRUE
+GAMB_F_PREUSE=ALL
+GAMB_F_SAVE=TRUE
+GAMB_CUTOFF=8.0D-9
+GAMB_SPACING_CONST=0
+GAMB_MINOBS=8
+GAMB_IT=2
+IONO_VERBOSE=off
+IONO_SEEK=512
+REWAY_CHITOL=0.05
+REWAY_TYPE=BA
+REWAY_VERBOSE=off
+REWAY_FLODEL=0.0
+REWAY_FLORATE=0.0
+REWAY_CEIDEL=300.0
+REWAY_CEIRATE=1000.0
+REWAY_MAXIT=10
+REWAY_FALLBACK=off
+REWAY_NEWUPD=off
+SETFL_MDEG=2
+DEF_CLOSPAN=3600.D0
+DEF_ATMSPAN=3600.D0
+ELIM_MOD=TRUE
+ELIM_CNF=.FALSE.
+ELIM_THR=0.0
+ELIM_CUT=3.0
+ELIM_TYP=BA
+ELIM_VRB=1
+ELIM_UPD=1
+ELIM_MSR=0.0
+EQUMEM_FLAG=YES
+CRES_STYLE=no
+SIGMA_TYPE=PR
+CNPLT_SUPR_PRE98=no
+CNPLT_SHOW_UNRC=no
+CNPLT_SHOW_CBAD=yes
+SNGCHK_ACTION=REPARAMETERIZE
+SNGCHK_SOUMIN=0
+SNGCHK_STAMIN=5
+SNGCHK_BASMIN=4
+PAMB_VRB=1
+PAMB_PLOT_TYPE=2
+PAMB_PLOT_BAND=1
+PAMB_PARU_FILE= 
+PAMB_ARFTYPE=3
+PAMB_XGRLIM=150.0D-12
+PAMB_SGRLIM=600.0D-12
+PAMB_XPHLIM=25.0D-12
+PAMB_SPHLIM=100.0D-12
+PAMB_RLIM1=0.3
+PAMB_RLIM2=0.3
+PAMB_RLIM3=0.0
+PAMB_RTIM1=10800.0
+PAMB_SPLSPAN=7200.0
+PAMB_SPL_CNST=0.00000556
+PAMB_MSC=TRUE
+PAMB_PLOTINI=FALSE
+PAMB_PLOTFIN=TRUE
+PAMB_INIWEI=8.0D-12
+PAMB_ARFFLO=0.05
+SOLVE_COMPAT=0
+UNF_DISABLE=
+HFINT_DISABLE=
+HFINT=
+FAST_MODE__STRICTLY=
+GAMB_BATCH=
+MEMORY_DEBUG=
+LOCK_IGNORE=
+CORFIL=
+EQUAL_CHANNELS=
+SOLVE_ALTGRAPHIC=CNPLT
+TRANS_TIM=
+FAST_DBG__BYPASS=
+GAMB_F_X_BAND=
+GAMB_F_S_BAND=
+MK5_FC=/usr/local/bin/f95
+SUPPORT_PATH=/vlbi/mk5_kdb/support
+SOLVE_HP_VERSION=00
+SOLVE_BIN_XWD=/usr/bin/X11/xwd
+SOLVE_BIN_XPR=/usr/contrib/bin/X11/xpr
+SOLVE_MAKE=make
+SOLVE_C_INCLUDE=/vlbi/mk5_kdb/include/
+SOLVE_X_INCLUDE=/vlbi/mk5_kdb/libs/libinc/
+SOLVE_XFLUSH_FREQ=False
+SOLVE_PGPLOT_X_INC=/usr/include/X11
+SOLVE_LIB_PGPLOT=/vlbi/mk5_kdb/libs/pgplot522/bin/libpgplot.a
+SOLVE_LIB_FITSIO=/p3/mk5/libs/newlib/fitsio.a
+SOLVE_LIB_VEC= 
+SOLVE_LIB_BLAS=/opt/intel/mkl/lib/32/libmkl_lapack.a /opt/intel/mkl/lib/32/libmkl_ia32.a /opt/intel/mkl/lib/32/libguide.so -lpthread -lm
+SOLVE_LIB_PW= 
+SOLVE_LIB_M= 
+SOLVE_LIB_U77= 
+SOLVE_LIB_LCL= 
+SOLVE_LIB_XHP11= 
+SOLVE_LIB_RTENSHD= 
+SOLVE_LIB_NSIPC= 
+SOLVE_LIB_X11=/usr/X11R6/lib/libX11.so
+SOLVE_LIB_XT= 
+SOLVE_LIB_CURSES=-lcurses
+SOLVE_LIB_END= 
+SOLVE_LIB_CL= 
+SOLVE_LIB_CAT= 
+SOLVE_LIB_LFSYS= 
+SOLVE_EXTRA_LIB=-lsvml
+MK5_COMPILER=LINUX_INTEL
+MK5_PREPROCESSOR_DIRECTIVES=/vlbi/mk5_kdb/include/mk5_linux_intel.inc
+COPT=-D LINUX -D LITTLE_ENDIAN -D FORTRAN_TRUE=-1 -D FORTRAN_FALSE=0 -I ./ -I /usr/include -I /usr/local/include -I /vlbi/mk5_kdb/include -I /vlbi/mk5_kdb/libs/hopslib/include
+LDOPT=-Vaxlib -posixlib
+MK5_F95_NOOPT=f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include
+MK5_F95=f95 -FR -fpp -Zp16 -align all -assume byterec -check bounds -pad -nbs -w90 -w95 -nus -cm -D LINUX -D INTEL -D LITTLE_ENDIAN -traceback -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include -tpp7 -axP -xP -O3
+MK5_F95_OPT=f95 -FR -fpp -Zp16 -align all -assume byterec -pad -tpp7 -axP -xP -O3 -nbs -w90 -w95 -nus -cm -traceback -D LINUX -D INTEL -D LITTLE_ENDIAN -D QSORT=QSORT_ -D qsort=QSORT_ -D CTIME=CTIME_ -D ctime=CTIME_ -D SLEEP=SLEEP_ -D sleep=SLEEP_ -D RENAME=RENAME_ -D rename=RENAME_ -module /vlbi/mk5_kdb/module -I./ -I/vlbi/mk5_kdb/include
+MK5_F95_CAT=f95 -FR -fpp -D LINUX -D INTEL -D LITTLE_ENDIAN -align -pad -tpp7 -axP -xP -g -nbs -w90 -w95 -nus -cm -assume byterec -module /vlbi/mk5_kdb/module -I/vlbi/mk5_kdb/include
+MK5_C=gcc -D LINUX -D LITTLE_ENDIAN -D FORTRAN_TRUE=-1 -D FORTRAN_FALSE=0 -I ./ -I /usr/include -I /usr/local/include -I /vlbi/mk5_kdb/include -I /vlbi/mk5_kdb/libs/hopslib/include
+MK5_LINK=f95 -Vaxlib -posixlib
+MK5_C_LINK=f95 -Vaxlib -posixlib -Qlocation,link,/vlbi/mk5_kdb/support/
+local_comp=/vlbi/mk5_kdb/local/comp.lcl
+ECHO=/bin/echo -e
+ERR_PATH=/vlbi/mk5_kdb/temp
+MK5_BIN=/vlbi/mk5_kdb/bin
+CONF_LOG=/vlbi/mk5_kdb/temp/conf.log
+SOLVE_BIN_DEFINED=yes
+SOLVE_INC_DEFINED=yes
+SOLVE_LIB_DEFINED=yes
+SOLVE_COMP_VAR_DEFINED=yes
+ 
+Second: End of ENVIRONMENT VARIABLES list
+csh --version
+ 
+ done

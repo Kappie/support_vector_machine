@@ -1,3 +1,5 @@
-doc/*
-csv/*
-log/*
+data/doc/*
+data/csv/*
+data/log/*
+
+feature_vectors/

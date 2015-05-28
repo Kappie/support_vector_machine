@@ -1,0 +1,341 @@
+   
+   ---------------------------------------------------- 
+   ---------------------------------------------------- 
+   ----                                            ---- 
+   ----                                            ---- 
+   ----        ACQ        ACQACQ     ACQACQ        ---- 
+   ----       ACQACQ    ACQ   ACQ  ACQ    ACQ      ---- 
+   ----      ACQ  ACQ   ACQ        ACQ    ACQ      ---- 
+   ----     ACQACQ ACQ  ACQ        ACQ    ACQ      ---- 
+   ----    ACQ      ACQ ACQ   ACQ  ACQ    ACQ      ---- 
+   ----   ACQ        ACQ  ACQACQ     ACQACQ        ---- 
+   ----                                    ACQ     ---- 
+   ----                                            ---- 
+   ----                                            ---- 
+   ---------------ACQ program initiated---------------- 
+   ---------------                       -------------- 
+   --------------- 1995 Oct  4 20:46:52  -------------- 
+   ---------------                       -------------- 
+   ---------------------------------------------------- 
+   
+(GET_SET) set1 APIDs requested from acq_dir:acq_apid.sets
+(GET_SET)    Scanning set1: Port = 20100, numrq = 7
+(GET_SET)    Found    set1:  Port = 20100, with 7 requested APIDs 
+(GET_SET)      APID 8000 : qa = 0, intrpt= 0, Maxpkts = 0, Record = 35808
+(GET_SET)      APID 8860 : qa = 0, intrpt= 0, Maxpkts = 0, Record = 13153
+(GET_SET)      APID 8869 : qa = 0, intrpt= 0, Maxpkts = 0, Record = 22650
+(GET_SET)      APID 886A : qa = 0, intrpt= 0, Maxpkts = 0, Record = 22651
+(GET_SET)      APID 886C : qa = 0, intrpt= 0, Maxpkts = 0, Record = 22640
+(GET_SET)      APID 88AC : qa = 1, intrpt= 0, Maxpkts = 0, Record = 537948
+(GET_SET)      APID 88AF : qa = 1, intrpt= 0, Maxpkts = 0, Record = 22810
+(SESSION) Begin session management for set1
+(DO_CONNECT) Attempting EIT-ECS connection 
+1995 Oct  4 20:46:53 EIT ACQ - Binding socket 5 to port 20100 ...
+1995 Oct  4 20:46:53 EIT ACQ - Waiting for ECS to connect ...
+1995 Oct  4 20:47:26 EIT ACQ - ECS has connected !!!
+(DO_CONNECT) Successful EIT-ECS connection 
+(DO_SESSIONINIT) Waiting for ECS session initialization 
+(DO_SESSIONINIT) Received ECS session initialization 
+(DO_SESSIONINIT) Send EIT set1 Session Init response to ECS 
+(DO_SESSIONINIT) Successfully sent Session Init response to ECS 
+(DO_REQUEST) Requesting 7 APIDs from set1 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=8000, rqid=973
+(PROCESS_RESP) Received distribution response from ECS   : apid 8000, rqid 973 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=8860, rqid=974
+(PROCESS_RESP) Received distribution response from ECS   : apid 8860, rqid 974 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=8869, rqid=975
+(PROCESS_RESP) Received distribution response from ECS   : apid 8869, rqid 975 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=886a, rqid=976
+(PROCESS_RESP) Received distribution response from ECS   : apid 886a, rqid 976 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=886c, rqid=977
+(PROCESS_RESP) Received distribution response from ECS   : apid 886c, rqid 977 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=88ac, rqid=978
+(PROCESS_RESP) Received distribution response from ECS   : apid 88ac, rqid 978 
+(DO_REQUEST)   Sent distribution request to ECS for set1 : apid=88af, rqid=979
+(PROCESS_RESP) Received distribution response from ECS   : apid 88af, rqid 979 
+(DO_RECEIVE) Begin processing data packets
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 8000, rqid 973
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 8860, rqid 974
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 8869, rqid 975
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 886a, rqid 976
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 886c, rqid 977
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 88ac, rqid 978
+(PROCESS_START) ECS sent Start TM Packet Distribution : apid 88af, rqid 979
+ --> 1995 Oct  5 11:03:15, APID 8000: 10 pkts, Seq 7616, rec 35817
+ --> 1995 Oct  5 11:03:15, APID 8860: 10 pkts, Seq 7613, rec 13162
+ --> 1995 Oct  5 11:05:45, APID 8000: 20 pkts, Seq 7626, rec 35827
+ --> 1995 Oct  5 11:05:45, APID 8860: 20 pkts, Seq 7623, rec 13172
+ --> 1995 Oct  5 11:08:17, APID 8000: 30 pkts, Seq 7636, rec 35837
+ --> 1995 Oct  5 11:08:17, APID 8860: 30 pkts, Seq 7633, rec 13182
+ --> 1995 Oct  5 11:11:46, APID 8000: 40 pkts, Seq 7650, rec 35847
+ --> 1995 Oct  5 11:11:46, APID 8860: 40 pkts, Seq 7647, rec 13192
+###########################################
+###########################################
+###########################################
+(DATATIMELOSS) NO DATA for 1 MINUTE(S)
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+(DATATIMELOSS) NO DATA for 2 MINUTE(S)
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+(DATATIMELOSS) NO DATA for 3 MINUTE(S)
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+(DATATIMELOSS) NO DATA for 4 MINUTE(S)
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+(DATATIMELOSS) NO DATA for 5 MINUTE(S)
+###########################################
+###########################################
+###########################################
+ --> 1995 Oct  5 11:19:29, APID 8000: 50 pkts, Seq 7681, rec 35857
+ --> 1995 Oct  5 11:19:29, APID 8860: 50 pkts, Seq 7678, rec 13202
+ --> 1995 Oct  5 11:21:51, APID 8000: 60 pkts, Seq 7691, rec 35867
+ --> 1995 Oct  5 11:21:51, APID 8860: 60 pkts, Seq 7688, rec 13212
+ --> 1995 Oct  5 11:24:31, APID 8000: 70 pkts, Seq 7701, rec 35877
+ --> 1995 Oct  5 11:24:31, APID 8860: 70 pkts, Seq 7698, rec 13222
+ --> 1995 Oct  5 11:26:53, APID 8000: 80 pkts, Seq 7711, rec 35887
+ --> 1995 Oct  5 11:26:53, APID 8860: 80 pkts, Seq 7708, rec 13232
+ --> 1995 Oct  5 11:29:28, APID 8000: 90 pkts, Seq 7721, rec 35897
+ --> 1995 Oct  5 11:29:28, APID 8860: 90 pkts, Seq 7718, rec 13242
+ --> 1995 Oct  5 11:32:00, APID 8000: 100 pkts, Seq 7731, rec 35907
+ --> 1995 Oct  5 11:32:00, APID 8860: 100 pkts, Seq 7728, rec 13252
+ --> 1995 Oct  5 11:34:28, APID 8000: 110 pkts, Seq 7741, rec 35917
+ --> 1995 Oct  5 11:34:28, APID 8860: 110 pkts, Seq 7738, rec 13262
+ --> 1995 Oct  5 11:36:58, APID 8000: 120 pkts, Seq 7751, rec 35927
+ --> 1995 Oct  5 11:36:58, APID 8860: 120 pkts, Seq 7748, rec 13272
+ --> 1995 Oct  5 11:39:21, APID 8000: 130 pkts, Seq 7761, rec 35937
+ --> 1995 Oct  5 11:39:21, APID 8860: 130 pkts, Seq 7758, rec 13282
+ --> 1995 Oct  5 11:41:58, APID 8000: 140 pkts, Seq 7771, rec 35947
+ --> 1995 Oct  5 11:41:58, APID 8860: 140 pkts, Seq 7768, rec 13292
+ --> 1995 Oct  5 11:44:22, APID 8000: 150 pkts, Seq 7781, rec 35957
+ --> 1995 Oct  5 11:44:22, APID 8860: 150 pkts, Seq 7778, rec 13302
+ --> 1995 Oct  5 11:46:58, APID 8000: 160 pkts, Seq 7791, rec 35967
+ --> 1995 Oct  5 11:46:58, APID 8860: 160 pkts, Seq 7788, rec 13312
+ --> 1995 Oct  5 11:49:30, APID 8000: 170 pkts, Seq 7801, rec 35977
+ --> 1995 Oct  5 11:49:30, APID 8860: 170 pkts, Seq 7798, rec 13322
+ --> 1995 Oct  5 11:51:57, APID 8000: 180 pkts, Seq 7811, rec 35987
+ --> 1995 Oct  5 11:51:57, APID 8860: 180 pkts, Seq 7808, rec 13332
+ --> 1995 Oct  5 11:54:27, APID 8000: 190 pkts, Seq 7821, rec 35997
+ --> 1995 Oct  5 11:54:27, APID 8860: 190 pkts, Seq 7818, rec 13342
+ --> 1995 Oct  5 11:56:50, APID 8000: 200 pkts, Seq 7831, rec 36007
+ --> 1995 Oct  5 11:56:50, APID 8860: 200 pkts, Seq 7828, rec 13352
+ --> 1995 Oct  5 11:59:27, APID 8000: 210 pkts, Seq 7841, rec 36017
+ --> 1995 Oct  5 11:59:27, APID 8860: 210 pkts, Seq 7838, rec 13362
+ --> 1995 Oct  5 12:01:49, APID 8000: 220 pkts, Seq 7851, rec 36027
+ --> 1995 Oct  5 12:01:50, APID 8860: 220 pkts, Seq 7848, rec 13372
+ --> 1995 Oct  5 12:04:29, APID 8000: 230 pkts, Seq 7861, rec 36037
+ --> 1995 Oct  5 12:04:29, APID 8860: 230 pkts, Seq 7858, rec 13382
+ --> 1995 Oct  5 12:06:51, APID 8000: 240 pkts, Seq 7871, rec 36047
+ --> 1995 Oct  5 12:06:51, APID 8860: 240 pkts, Seq 7868, rec 13392
+ --> 1995 Oct  5 12:09:27, APID 8000: 250 pkts, Seq 7881, rec 36057
+ --> 1995 Oct  5 12:09:27, APID 8860: 250 pkts, Seq 7878, rec 13402
+ --> 1995 Oct  5 12:11:58, APID 8000: 260 pkts, Seq 7891, rec 36067
+ --> 1995 Oct  5 12:11:59, APID 8860: 260 pkts, Seq 7888, rec 13412
+ --> 1995 Oct  5 12:14:28, APID 8000: 270 pkts, Seq 7901, rec 36077
+ --> 1995 Oct  5 12:14:29, APID 8860: 270 pkts, Seq 7898, rec 13422
+ --> 1995 Oct  5 12:16:57, APID 8000: 280 pkts, Seq 7911, rec 36087
+ --> 1995 Oct  5 12:16:57, APID 8860: 280 pkts, Seq 7908, rec 13432
+ --> 1995 Oct  5 12:19:19, APID 8000: 290 pkts, Seq 7921, rec 36097
+ --> 1995 Oct  5 12:19:19, APID 8860: 290 pkts, Seq 7918, rec 13442
+ --> 1995 Oct  5 12:21:58, APID 8000: 300 pkts, Seq 7931, rec 36107
+ --> 1995 Oct  5 12:21:58, APID 8860: 300 pkts, Seq 7928, rec 13452
+ --> 1995 Oct  5 12:24:21, APID 8000: 310 pkts, Seq 7941, rec 36117
+ --> 1995 Oct  5 12:24:21, APID 8860: 310 pkts, Seq 7938, rec 13462
+ --> 1995 Oct  5 12:26:56, APID 8000: 320 pkts, Seq 7951, rec 36127
+ --> 1995 Oct  5 12:26:56, APID 8860: 320 pkts, Seq 7948, rec 13472
+ --> 1995 Oct  5 12:29:28, APID 8000: 330 pkts, Seq 7961, rec 36137
+ --> 1995 Oct  5 12:29:28, APID 8860: 330 pkts, Seq 7958, rec 13482
+ --> 1995 Oct  5 12:31:56, APID 8000: 340 pkts, Seq 7971, rec 36147
+ --> 1995 Oct  5 12:31:56, APID 8860: 340 pkts, Seq 7968, rec 13492
+ --> 1995 Oct  5 12:34:25, APID 8000: 350 pkts, Seq 7981, rec 36157
+ --> 1995 Oct  5 12:34:26, APID 8860: 350 pkts, Seq 7978, rec 13502
+ --> 1995 Oct  5 12:36:48, APID 8000: 360 pkts, Seq 7991, rec 36167
+ --> 1995 Oct  5 12:36:48, APID 8860: 360 pkts, Seq 7988, rec 13512
+ --> 1995 Oct  5 12:39:25, APID 8000: 370 pkts, Seq 8001, rec 36177
+ --> 1995 Oct  5 12:39:25, APID 8860: 370 pkts, Seq 7998, rec 13522
+ --> 1995 Oct  5 12:41:48, APID 8000: 380 pkts, Seq 8011, rec 36187
+ --> 1995 Oct  5 12:41:48, APID 8860: 380 pkts, Seq 8008, rec 13532
+ --> 1995 Oct  5 12:44:25, APID 8000: 390 pkts, Seq 8021, rec 36197
+ --> 1995 Oct  5 12:44:25, APID 8860: 390 pkts, Seq 8018, rec 13542
+ --> 1995 Oct  5 12:46:57, APID 8000: 400 pkts, Seq 8031, rec 36207
+ --> 1995 Oct  5 12:46:57, APID 8860: 400 pkts, Seq 8028, rec 13552
+ --> 1995 Oct  5 12:49:25, APID 8000: 410 pkts, Seq 8041, rec 36217
+ --> 1995 Oct  5 12:49:25, APID 8860: 410 pkts, Seq 8038, rec 13562
+ --> 1995 Oct  5 12:51:55, APID 8000: 420 pkts, Seq 8051, rec 36227
+ --> 1995 Oct  5 12:51:55, APID 8860: 420 pkts, Seq 8048, rec 13572
+ --> 1995 Oct  5 12:54:26, APID 8000: 430 pkts, Seq 8061, rec 36237
+ --> 1995 Oct  5 12:54:27, APID 8860: 430 pkts, Seq 8058, rec 13582
+ --> 1995 Oct  5 12:56:54, APID 8000: 440 pkts, Seq 8071, rec 36247
+ --> 1995 Oct  5 12:56:54, APID 8860: 440 pkts, Seq 8068, rec 13592
+ --> 1995 Oct  5 12:59:17, APID 8000: 450 pkts, Seq 8081, rec 36257
+ --> 1995 Oct  5 12:59:17, APID 8860: 450 pkts, Seq 8078, rec 13602
+ --> 1995 Oct  5 13:01:56, APID 8000: 460 pkts, Seq 8091, rec 36267
+ --> 1995 Oct  5 13:01:56, APID 8860: 460 pkts, Seq 8088, rec 13612
+ --> 1995 Oct  5 13:04:19, APID 8000: 470 pkts, Seq 8101, rec 36277
+ --> 1995 Oct  5 13:04:19, APID 8860: 470 pkts, Seq 8098, rec 13622
+ --> 1995 Oct  5 13:06:54, APID 8000: 480 pkts, Seq 8111, rec 36287
+ --> 1995 Oct  5 13:06:54, APID 8860: 480 pkts, Seq 8108, rec 13632
+ --> 1995 Oct  5 13:09:26, APID 8000: 490 pkts, Seq 8121, rec 36297
+ --> 1995 Oct  5 13:09:26, APID 8860: 490 pkts, Seq 8118, rec 13642
+ --> 1995 Oct  5 13:11:54, APID 8000: 500 pkts, Seq 8131, rec 36307
+ --> 1995 Oct  5 13:11:54, APID 8860: 500 pkts, Seq 8128, rec 13652
+ --> 1995 Oct  5 13:14:24, APID 8000: 510 pkts, Seq 8141, rec 36317
+ --> 1995 Oct  5 13:14:24, APID 8860: 510 pkts, Seq 8138, rec 13662
+ --> 1995 Oct  5 13:16:46, APID 8000: 520 pkts, Seq 8151, rec 36327
+ --> 1995 Oct  5 13:16:46, APID 8860: 520 pkts, Seq 8148, rec 13672
+ --> 1995 Oct  5 13:19:23, APID 8000: 530 pkts, Seq 8161, rec 36337
+ --> 1995 Oct  5 13:19:23, APID 8860: 530 pkts, Seq 8158, rec 13682
+ --> 1995 Oct  5 13:21:48, APID 8000: 540 pkts, Seq 8171, rec 36347
+ --> 1995 Oct  5 13:21:48, APID 8860: 540 pkts, Seq 8168, rec 13692
+ --> 1995 Oct  5 13:24:23, APID 8000: 550 pkts, Seq 8181, rec 36357
+ --> 1995 Oct  5 13:24:23, APID 8860: 550 pkts, Seq 8178, rec 13702
+ --> 1995 Oct  5 13:26:55, APID 8000: 560 pkts, Seq 8191, rec 36367
+ --> 1995 Oct  5 13:26:55, APID 8860: 560 pkts, Seq 8188, rec 13712
+ --> 1995 Oct  5 13:29:23, APID 8000: 570 pkts, Seq 8201, rec 36377
+ --> 1995 Oct  5 13:29:23, APID 8860: 570 pkts, Seq 8198, rec 13722
+ --> 1995 Oct  5 13:31:53, APID 8000: 580 pkts, Seq 8211, rec 36387
+ --> 1995 Oct  5 13:31:53, APID 8860: 580 pkts, Seq 8208, rec 13732
+ --> 1995 Oct  5 13:34:15, APID 8000: 590 pkts, Seq 8221, rec 36397
+ --> 1995 Oct  5 13:34:15, APID 8860: 590 pkts, Seq 8218, rec 13742
+ --> 1995 Oct  5 13:36:53, APID 8000: 600 pkts, Seq 8231, rec 36407
+ --> 1995 Oct  5 13:36:53, APID 8860: 600 pkts, Seq 8228, rec 13752
+ --> 1995 Oct  5 13:39:15, APID 8000: 610 pkts, Seq 8241, rec 36417
+ --> 1995 Oct  5 13:39:15, APID 8860: 610 pkts, Seq 8238, rec 13762
+ --> 1995 Oct  5 13:41:54, APID 8000: 620 pkts, Seq 8251, rec 36427
+ --> 1995 Oct  5 13:41:54, APID 8860: 620 pkts, Seq 8248, rec 13772
+ --> 1995 Oct  5 13:44:24, APID 8000: 630 pkts, Seq 8261, rec 36437
+ --> 1995 Oct  5 13:44:24, APID 8860: 630 pkts, Seq 8258, rec 13782
+ --> 1995 Oct  5 13:46:52, APID 8000: 640 pkts, Seq 8271, rec 36447
+ --> 1995 Oct  5 13:46:52, APID 8860: 640 pkts, Seq 8268, rec 13792
+ --> 1995 Oct  5 13:49:24, APID 8000: 650 pkts, Seq 8281, rec 36457
+ --> 1995 Oct  5 13:49:24, APID 8860: 650 pkts, Seq 8278, rec 13802
+ --> 1995 Oct  5 13:51:54, APID 8000: 660 pkts, Seq 8291, rec 36467
+ --> 1995 Oct  5 13:51:54, APID 8860: 660 pkts, Seq 8288, rec 13812
+ --> 1995 Oct  5 13:54:22, APID 8000: 670 pkts, Seq 8301, rec 36477
+ --> 1995 Oct  5 13:54:22, APID 8860: 670 pkts, Seq 8298, rec 13822
+ --> 1995 Oct  5 13:56:44, APID 8000: 680 pkts, Seq 8311, rec 36487
+ --> 1995 Oct  5 13:56:44, APID 8860: 680 pkts, Seq 8308, rec 13832
+ --> 1995 Oct  5 13:57:39, APID 88AC: 50 pkts, Seq 61, rec 537997
+ --> 1995 Oct  5 13:58:10, APID 88AC: 100 pkts, Seq 111, rec 538047
+ --> 1995 Oct  5 13:58:41, APID 88AC: 150 pkts, Seq 161, rec 538097
+ --> 1995 Oct  5 13:58:45, APID 8000: 690 pkts, Seq 8321, rec 36497
+ --> 1995 Oct  5 13:59:12, APID 88AC: 200 pkts, Seq 211, rec 538147
+ --> 1995 Oct  5 13:59:26, APID 8869: 10 pkts, Seq 9, rec 22659
+ --> 1995 Oct  5 13:59:30, APID 886A: 10 pkts, Seq 9, rec 22660
+ --> 1995 Oct  5 13:59:33, APID 886C: 10 pkts, Seq 9, rec 22649
+ --> 1995 Oct  5 13:59:44, APID 88AC: 250 pkts, Seq 261, rec 538197
+ --> 1995 Oct  5 14:00:15, APID 88AC: 300 pkts, Seq 311, rec 538247
+ --> 1995 Oct  5 14:00:46, APID 88AC: 350 pkts, Seq 361, rec 538297
+ --> 1995 Oct  5 14:01:15, APID 8000: 700 pkts, Seq 8331, rec 36507
+ --> 1995 Oct  5 14:01:17, APID 88AC: 400 pkts, Seq 411, rec 538347
+ --> 1995 Oct  5 14:01:49, APID 88AC: 450 pkts, Seq 461, rec 538397
+ --> 1995 Oct  5 14:01:56, APID 8869: 20 pkts, Seq 19, rec 22669
+ --> 1995 Oct  5 14:02:00, APID 886A: 20 pkts, Seq 19, rec 22670
+ --> 1995 Oct  5 14:02:03, APID 886C: 20 pkts, Seq 19, rec 22659
+ --> 1995 Oct  5 14:02:20, APID 88AC: 500 pkts, Seq 511, rec 538447
+ --> 1995 Oct  5 14:02:51, APID 88AC: 550 pkts, Seq 561, rec 538497
+ --> 1995 Oct  5 14:03:22, APID 88AC: 600 pkts, Seq 611, rec 538547
+ --> 1995 Oct  5 14:03:45, APID 8000: 710 pkts, Seq 8341, rec 36517
+ --> 1995 Oct  5 14:03:55, APID 88AC: 650 pkts, Seq 661, rec 538597
+ --> 1995 Oct  5 14:04:24, APID 88AC: 700 pkts, Seq 711, rec 538647
+ --> 1995 Oct  5 14:04:26, APID 8869: 30 pkts, Seq 29, rec 22679
+ --> 1995 Oct  5 14:04:29, APID 886A: 30 pkts, Seq 29, rec 22680
+ --> 1995 Oct  5 14:04:33, APID 886C: 30 pkts, Seq 29, rec 22669
+ --> 1995 Oct  5 14:04:56, APID 88AC: 750 pkts, Seq 761, rec 538697
+ --> 1995 Oct  5 14:05:27, APID 88AC: 800 pkts, Seq 811, rec 538747
+ --> 1995 Oct  5 14:05:58, APID 88AC: 850 pkts, Seq 861, rec 538797
+ --> 1995 Oct  5 14:06:14, APID 8000: 720 pkts, Seq 8351, rec 36527
+ --> 1995 Oct  5 14:06:30, APID 88AC: 900 pkts, Seq 911, rec 538847
+ --> 1995 Oct  5 14:06:55, APID 8869: 40 pkts, Seq 39, rec 22689
+ --> 1995 Oct  5 14:07:00, APID 886A: 40 pkts, Seq 39, rec 22690
+ --> 1995 Oct  5 14:07:00, APID 88AC: 950 pkts, Seq 961, rec 538897
+ --> 1995 Oct  5 14:07:04, APID 886C: 40 pkts, Seq 39, rec 22679
+ --> 1995 Oct  5 14:07:32, APID 88AC: 1000 pkts, Seq 1011, rec 538947
+ --> 1995 Oct  5 14:08:03, APID 88AC: 1050 pkts, Seq 1061, rec 538997
+ --> 1995 Oct  5 14:08:34, APID 88AC: 1100 pkts, Seq 1111, rec 539047
+ --> 1995 Oct  5 14:08:44, APID 8000: 730 pkts, Seq 8361, rec 36537
+ --> 1995 Oct  5 14:09:06, APID 88AC: 1150 pkts, Seq 1161, rec 539097
+ --> 1995 Oct  5 14:09:25, APID 8869: 50 pkts, Seq 49, rec 22699
+ --> 1995 Oct  5 14:09:29, APID 886A: 50 pkts, Seq 49, rec 22700
+ --> 1995 Oct  5 14:09:33, APID 886C: 50 pkts, Seq 49, rec 22689
+ --> 1995 Oct  5 14:09:39, APID 88AC: 1200 pkts, Seq 1211, rec 539147
+ --> 1995 Oct  5 14:10:08, APID 88AC: 1250 pkts, Seq 1261, rec 539197
+ --> 1995 Oct  5 14:10:39, APID 88AC: 1300 pkts, Seq 1311, rec 539247
+ --> 1995 Oct  5 14:11:11, APID 88AC: 1350 pkts, Seq 1361, rec 539297
+ --> 1995 Oct  5 14:11:14, APID 8000: 740 pkts, Seq 8371, rec 36547
+ --> 1995 Oct  5 14:11:42, APID 88AC: 1400 pkts, Seq 1411, rec 539347
+ --> 1995 Oct  5 14:11:57, APID 8869: 60 pkts, Seq 59, rec 22709
+ --> 1995 Oct  5 14:11:59, APID 886A: 60 pkts, Seq 59, rec 22710
+ --> 1995 Oct  5 14:12:03, APID 886C: 60 pkts, Seq 59, rec 22699
+ --> 1995 Oct  5 14:12:14, APID 88AC: 1450 pkts, Seq 1461, rec 539397
+ --> 1995 Oct  5 14:14:38, APID 8000: 750 pkts, Seq 8382, rec 36557
+ --> 1995 Oct  5 14:14:51, APID 8860: 690 pkts, Seq 8318, rec 13842
+ --> 1995 Oct  5 14:17:06, APID 8000: 760 pkts, Seq 8392, rec 36567
+ --> 1995 Oct  5 14:17:23, APID 8860: 700 pkts, Seq 8328, rec 13852
+ --> 1995 Oct  5 14:19:35, APID 8000: 770 pkts, Seq 8402, rec 36577
+ --> 1995 Oct  5 14:19:50, APID 8860: 710 pkts, Seq 8338, rec 13862
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 8000
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 8860
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 8869
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 886a
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 886c
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 88ac
+(PROCESS_END)    1995 Oct  5 14:20:53 x0206 ECS sent End of TM for APID 88af
+(READ_RESPONSES) 1995 Oct  5 14:21:22 x0103 ECS sent Session End 
+(DO_RECEIVE) Returned from READ_RESPONSES 
+(DO_RECEIVE) 1995 Oct  5 14:21:22 Packet processing has terminated
+Back from do_receive(), about to test SESSEND
+Have a session end upon return to session
+
+    FINAL TALLY:  APID 8000 rec'd. 776 pkts., last seq. ct. = 8408
+
+    FINAL TALLY:  APID 8860 rec'd. 715 pkts., last seq. ct. = 8343
+
+    FINAL TALLY:  APID 8869 rec'd. 61 pkts., last seq. ct. = 60
+
+    FINAL TALLY:  APID 886A rec'd. 61 pkts., last seq. ct. = 60
+
+    FINAL TALLY:  APID 886C rec'd. 60 pkts., last seq. ct. = 59
+
+    FINAL TALLY:  APID 88AC rec'd. 1455 pkts., last seq. ct. = 1466
+
+    FINAL TALLY:  APID 88AF rec'd. 0 pkts., last seq. ct. = 0
+
+(SESSION) Returning to main program 
+   
+   ---------------------------------------------------- 
+   ---------------------------------------------------- 
+   ----                                            ---- 
+   ----                                            ---- 
+   ----   ENDENDEND  END       END  ENDEND         ---- 
+   ----   END        ENDEND    END  END  END       ---- 
+   ----   END        END END   END  END    END     ---- 
+   ----   ENDEND     END  END  END  END    END     ---- 
+   ----   END        END   END END  END    END     ---- 
+   ----   END        END    ENDEND  END  END       ---- 
+   ----   ENDENDEND  END       END  ENDEND         ---- 
+   ----                                            ---- 
+   ----                                            ---- 
+   ---------------ACQ program terminated--------------- 
+   ---------------                       -------------- 
+   --------------- 1995 Oct  5 14:21:22  -------------- 
+   ---------------                       -------------- 
+   ---------------------------------------------------- 
+   

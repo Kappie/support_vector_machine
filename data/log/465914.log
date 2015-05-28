@@ -1,0 +1,292 @@
+<!-- Title: 09:25:15  Mon Aug 13 2007 -->
+<!-- Crewchief: The Silis -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+Second shutdown week, there will be some action.
+
+
+<!-- Date: Mon Aug 13 09:25:55 2007 -->
+<b>5 V enabled</b> to check crate 13 and 14.
+<!-- Author: Ignacio -->
+
+
+<!-- Date: Mon Aug 13 09:36:13 2007 -->
+<table border=0><td><tr><td bgcolor=#e0e030>We have changed the svxinter startup script so that BeamPermit does not start automatically. This should be changed back when we get out of the shutdown.</td></tr></td></table>
+<!-- Author: Jose/Ignacio -->
+
+
+<!-- Date: Mon Aug 13 10:37:57 2007 -->
+<b>Crate 13/14 checkout</b>. We left 4/5 modules in crates 13/14. They all  power up and hold in ON state. There is current on the bias lines. The AVDD current in crate 13 are a bit high, particularyly e384,e383 and e384, which are around 50 mA above nominal. This could be due to the -6 C setting for the SVX cooling system.
+<!-- Author: PS crew -->
+
+
+<!-- Date: Mon Aug 13 15:11:16 2007 -->
+<h3>Week 2 of PS work: morning</h3> 
+We started off by finishing crate 14, in which only <b>SB4W6</b> still needed its trip limits set.  As said above, all remaining supplies tested fine.<br> 
+We then completed crates 5 and 6 in the SouthWest corner.  We removed the supplies for <b>SB1W8</b>, <b>SB2W8</b>, and <b>SB0W9</b> in crate 6 (now there are only 5 PS in crate 6).  We removed the supplies for <b>SB0W5</b> and <b>SB0W6</b> in crate 5 (now there are 8 PS in crate 6).  We changed the bias trip limits on all other supplies in these crates.  Everything in these crates tested fine afterwards.<br> 
+We moved on to crates 1 and 2 in the NorthWest corner.  We removed the supplies for <b>SB1W1</b>, <b>SB1W11</b>, and <b>SB0W11</b> in crate 1 (now there are 7 PS in crate 1).  We changed the bias trip limits on all other supplies in these crates.<br> 
+We started work on crate 2 but did not finish before lunch break, so I'll let the afternoon report cover all of that crate.<br>
+<!-- Author: PS crew -->
+<!-- Comment: Mon Aug 13 23;49;19 comment by...PS crew -->
+The PS <b>SB2W4</b> was also removed from the crate 5. So now 
+there are 7 PS in it. 
+<!-- Date: Mon Aug 13 20:45:41 2007 -->
+We handed to PREP the 2 power supplies requiring a capacitor replacement (originally) from <b>crate 9</b> (modules), SB3W10 (#85) and SB5W10 (#27). I forgot about #47, previously in SB5W1, we should hand it to PREP tomorrow. 
+<!-- Author: Ignacio/Sebastian -->
+<!-- Comment: Tue Aug 14 17;23;17 comment by...Satyajit, Ricardo, Sebastian -->
+Today we checked-in #47 to PREP along with 3 SVX modules from crate
+14, #36 (SB4W5), #25 (SB3W6) and #38 (SB5W5).
+<!-- Date: Mon Aug 13 21:20:24 2007 -->
+The vacuum jacket temperatures are in warning again, due to this: 
+<pre> 
+Mon Aug 13 16:31:10 I started the dewpoint test for the collision hall. The current dewpoint is 52ºF. I will see where it is later today. - Bill Noe 
+</pre>
+<!-- Author: Ulrich -->
+
+
+
+<!-- Date: Tue Aug 14 00:47:34 2007 -->
+<h3>Week 2 of PS work: afternoon</h3> 
+We started by pulling out <b>SB1W0</b> and <b>IB0W1</b> from crate 
+2, to be sent to PREP for repair. We finished changing bias trip 
+limits on the remaining SVX supplies. Now there are 7 modules in 
+this crate.<p> 
+Next we pulled out <b>IB0W5</b>, <b>IB0W4</b> and <b>IB2W2</b> 
+from crate 7 (NW BotTop) for repair and increased trip limits on 
+<b>LB0W5</b> and <b>LB0W0</b>. Now there are 2 PS in this crate. 
+Note that <b>LB0W5</b> is a SVX-type (A509) module and its test 
+point settings are different from the L00-type (A509H) modules. 
+We set test points for all its layers to 8.50 V, which correspond 
+to 255.75 V. The hardware bias limit for A509 being 250 V, the 
+effective bias trip limit for all layers of <b>LB0W5</b> is now 
+250 V. 
+<p> 
+We concluded the day by pulling out <b>LB0W4</b>, <b>IB1W1</b>, 
+<b>IB0W0</b> and <b>IB1W0</b> from crate 8 (NW BotBot) for  
+repair and changed bias trip limits on <b>LB0W4</b> and 
+<b>LB0W1</b>. As with all other crates, we labeled 5V enables  
+and the supplies.  
+<!-- Author: PS crew -->
+
+
+<!-- Date: Tue Aug 14 06:55:47 2007 -->
+<h2>The Big Drain and Flush, Part II</h2>
+Start of the drain day. Have taken an ISL coolent sample.  
+Conductivity is 0.7 muSi/cm, pH is 5.27 (both @ 14 C) and  glycol content is below scale. SVX set point is already at -3 C, warming up.
+<!-- Author: Ignacio/Ulrich -->
+<!-- Comment: Tue Aug 14 10;24;28 comment by...Ignacio -->
+<li>The SVX PC stabilized above 1.4 C, CCE4 at 7.8 C.</li>
+<li>Warren, Jim  and Ulrich have installed the spare chiller controller  in the ISL chiller since the new spare did not have the same wiring interface as the old ones. The controller previously on the ISL chiller will be installed in the spare chiller later in the day.</li>
+<li> Bil and KC have finished drainig circuit 1, they proceed with circuit 2.</li>
+<li> Warren, and Ulrich are exchanging e-valves and emptying DPTs on the east side. </li>
+
+
+<!-- Comment: Tue Aug 14 11;37;04 comment by...Ulrich -->
+We are done with the valve swaps. We swapped ISL CCW1-4, ISL PCW, SVX PCW, ISL CCE1-4, SVX PCE. We did not swap ISL PCE as we swapped that valve in May and it has not seen much flow at all. For all valves, we swapped the stem and the solenoid, but neither the body nor the controller. After the lunch break, we will tune the controllers (gain, frequency, ramp time).
+
+
+<!-- Comment: Tue Aug 14 14;48;11 comment by...Ulrich -->
+The coolant we drained out of the dead ends of the DPT lines smelled quite glycoly. And indeed, the conductivity is 740 μSi/cm, and the pH is 2.7.
+<!-- Comment: Tue Aug 14 18;05;26 comment by...Ulrich -->
+Warren Bowman and Jim Humbert have re-tuned all e-valve controllers. One turned out to be broken, so ISL PCE is without a controller right now. We will postpone the nitrogen line until tomorrow.
+<!-- Comment: Tue Aug 14 19;29;06 comment by...Jose & Ulrich -->
+We have re-opened all manual valves and re-established flow to the detector. It was very easy, and all valves have very similar settings right now (note that they are lower than they used to be, so start at 30% instead of 50% when re-establishing flows). In the end we tuned the manual chiller bypass and did a last inspection. Everything hunky-dory!
+<p>
+A big thanks to everybody who helped today: Bill Noe, Warren Bowman, Jim Humbert, KC, and Del Allspach.
+<!-- Comment: Tue Aug 14 20;03;37 comment by...Ulrich and Jose -->
+We measured conductivity (2 μSi/cm) and pH (5.05). The system is back to the standard shutdown conditions -6 C (SVX) +10 C ISL and waiting for the plug pull tomorrow. 
+<!-- Date: Tue Aug 14 14:46:50 2007 -->
+<h3>Interlock Code Change</h3> 
+In order to repair also the West ISL Portcard line, we will flow nitrogen through the line starting later today. To be able to flow through CCW1-4 while ISL PCW is above atmospheric pressure an interlock code change was needed. The change is analogous to the one we did on <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=354&frame=2&anchor=20:10:04'> 
+May 26</a> for East ISL. I added a new rung to the PLC to trip the flow to ISL PCW only if the flow enable of PCW is dropped.  Then I removed ISL PCW from the logic that trips all other flows if any of the flow enables of CCW1-4 is dropped.  
+<p> 
+The biggest problem during this work was our iFix PC. It somehow got into a funny state and SoftShop would stop responding randomly. The problem was solved Windows-style, by a reboot. That was on the list for tomorrow anyway. I had to re-silence a lot of alarms, when SVXIICON came back up, because I had forgotton to save the database before the reboot.
+<!-- Author: Ulrich -->
+
+
+
+<!-- Date: Tue Aug 14 17:19:30 2007 -->
+<B> ISL Corrosion Sample Removed </B> 
+<p> 
+A sample of Aluminum ISL cooling tube was removed from the sight glass in the alcove this afternoon.   This is a corrosion coupon which was installed during the system construction.  Measured dimenions: 4.40-4.45mm OD, 3.81mm ID, 0.30mm wall (0.0125"), 41mm long.   These are consistent with the nominal 4.5mm OD 3.85mm ID tubes.   Appearance is dull grey consistent with aluminum oxide layer.   No evidence of pitting.  Further examination under a microscope will follow. 
+<p> 
+Thanks go to Bob K, RIch s and Bill Cooper from D0 pointing out that this sample must be in there. 
+  
+<!-- Author: Peter -->
+
+
+
+<!-- Date: Tue Aug 14 18:01:47 2007 -->
+<h3>BLMs and Diamonds Removed</h3> 
+We have removed the BLMs and Diamonds in proparation for the plug pull tomorrow. We have also removed the BLM HV monitor box with the broken voltage divider and Jonathan Lewis's kludge.
+<!-- Author: Jose, Ricardo, Ulrich -->
+
+
+
+
+
+<!-- Date: Wed Aug 15 07:09:50 2007 -->
+I have set SVX to 0 C and ISL to 15 C in preparation for the plug pull (Just in case the baggie falls as it happend in the past).  
+Dew points: -23, -32,-32,-27,-33,-33.
+<!-- Author: Ignacio -->
+<!-- Comment: Wed Aug 15 07;28;49 comment by...Ignacio -->
+The cryo iFix alarms were ignored.
+
+<!-- Comment: Wed Aug 15 07;47;33 comment by...Ignacio -->
+They have gone down to start opening the plug. SVX/L00 are warm (0 C), ISL return temperature is still 12.8 C.
+
+<!-- Comment: Wed Aug 15 08;07;06 comment by...Ulrich -->
+A couple of adjustments to the alarm/warning limit (assuming that 0°C for SVX and 15°C for ISL will be default for the length of the bore access):
+<ul>
+<li>SVX BH and L00 PLC trip limits are (still) at +6°C
+<li>ISL CPC trip limit raised from 15°C to 20°C
+<li>Redefinition of iFix alarms/warnings with the above and SVX at 0°C and ISL at 10°C (temporarily, just to get the limits right for an unpowered detector). This way, none of the temperatures should be in alarm under normal circumstances.
+<li>Pointed out to Jim Loskot that the ranges of chiller outlet temperatures and chiller evaporator temperatures may need to be adjusted (default for ISL: 2°C to 17°C, for SVX: -14°C to 3 °C)
+</ul>
+
+
+<!-- Date: Wed Aug 15 11:10:55 2007 -->
+Mounted in b0sili02 the home area of b0sili01 by hand.  
+This time worked without having to restart any service: 
+<pre> 
+mount b0sili01.fnal.gov:/home 
+</pre> 
+<!-- Author: Ignacio -->
+
+
+<!-- Date: Wed Aug 15 14:45:16 2007 -->
+<h3> Conductivity and pH during the shutdown</h3> 
+The plan is to take small samples from SVX and ISL and measure both Conductivity and pH during the shutdown. Bill will do this twice per week and log them in our TWiki.  
+<p> 
+<a href=http://b0sili01.fnal.gov/cgi-bin/TWiki/bin/view/Silicon/ISLCoolantShutdown2007>Shutdown results </a> 
+<br>  
+<!-- Author: Jose -->
+<!-- Comment: Thu Aug 16 11;28;42 comment by...Jose -->
+Bill has filled in todays measurement in the web.
+<!-- Date: Wed Aug 15 14:51:25 2007 -->
+Both air separators (ISL and SVX) are back to <i>standard</i> levels (22 - 23 inches). The <b>B-Team</b> filled SVX this morning. Because we were at 0 C, this did not have much effect. But we noticed in the real time plotter that SVX chiller temperature increased slightly when they were refilling the system.
+<!-- Author: Jose -->
+
+
+<!-- Date: Wed Aug 15 15:13:16 2007 -->
+<table><tr><td><a href=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-11780&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-11780  width='300' align='top'></a></td><td>This is the evolution of the level and pressure in the ISL system. The vacuum got really better (1.54 to 1.20) after the PCW was closed!! </td></tr></table>
+<!-- Author: Ulrich & Jose -->
+
+
+<!-- Date: Wed Aug 15 15:37:31 2007 -->
+<h3>Nitrogen purge for ISL PCW</h3> 
+Today Warren set up the nitrogen purge for the ISL PCW line. This has been done to dry the line before the repair work next week. We have shut down the flow to that line and silenced the appropriate alarms. The PS for West ISL and L00 went to "INACTIVE". We have also removed a factor of  (1-Fix32.SVXIICON.ISL_C2352.F_CV) from the animation of the rectangle on the SVX interlock page that represents the L00 interlock. 
+Then we went into the collision hall, closed and tagged out the manual supply and return valves for ISL PCE, and disconnected the lines just downstream of the e-valve and just upstream of the manual return valve. We connected a nitrogen line flowing from the return side to the supply side and capped off  the regular supply and return. The nitrogen comes from a common source that can be regulated from the first floor. We opened it up to maximum flow (after regulation), around 12 SCFH. The East side gets 6 SCFH (was 8 SCHF before), and the West side gets 8 SCFH. Both pressures are well below 1 psig.
+<!-- Author: Jose & Ulrich -->
+
+
+<!-- Date: Thu Aug 16 08:18:12 2007 -->
+Bob Wagner just informed me that he will disable the baggie safety system and turn down nitrogen flows some time this morning. We should watch the dew points (or ask the shift crew to do so) during that transition.
+<!-- Author: Ulrich -->
+<!-- Comment: Thu Aug 16 08;26;11 comment by...Ulrich -->
+When I came into the control room this morning, the dew point real time plotter was running on VNODE2, but not on VNODE1, and the Ace had no clue what I was talking about, when I asked him about this...
+
+<!-- Comment: Thu Aug 16 09;51;11 comment by...Jose -->
+Thanks. I asked them to also note values in the e-log. I do not know who closed the dewpoints window! 
+
+
+<!-- Date: Thu Aug 16 10:12:11 2007 -->
+I have asked Dervin, he says that they will be working in the area where the storage rack is for long... I will put a big sign in the front of the rack but still I do not like that. Maybe we should move asap to FCC.
+<!-- Author: Jose -->
+
+
+
+<!-- Date: Thu Aug 16 12:05:18 2007 -->
+I have started spy-spy scripts on b0dasvx03. cratematch.pl and spy-spy.pl have been modified to be able to run the scripts on b0dasvx03.
+<!-- Author: Jose -->
+<!-- Comment: Thu Aug 16 12;08;31 comment by...Jose -->
+PSGui is also running on b0dasvx03.
+
+
+<!-- Date: Fri Aug 17 11:00:13 2007 -->
+<h3>DB for Shutdown PS Work</h3> 
+We have a <a href="http://b0sili01.fnal.gov/cgi-bin/sh07psdb/DBmain.pl"  
+target="_new">shutdown PSDB</a> to keep track of our activities. 
+This will be updated parallely along with our main PSDB, but with 
+more details. See the help page for usage.
+<!-- Author: Satyajit -->
+
+
+<!-- Date: Fri Aug 17 16:02:27 2007 -->
+We have changed the Silicon temperatures to -3°C (SVX) and 10°C (ISL) for the weekend. Unfortunately we forgot to adjust the ISL chiller evaporator temperature limit. Fortunately we didn't need cryo operator priviledges to do it (like for silencing these alarms). We changed that alarm from 10°C to 4°C. We have also adjusted all other alarms by hitting "Set A/W Limits" (with ISL at 6°C instead of 10°C to get the lower limits right).
+<!-- Author: Jose & Ulrich -->
+
+
+<!-- Date: Sat Aug 18 07:44:02 2007 -->
+<h3>Overnight PS Logging Alarm</h3> 
+ 
+Checking my e-mail this morning I found that PS_LOGGING was in alarm since around 4:00. I thought it may be the problem of too large log files for PSMon.exe, so I drove in to check. It turned out that the PS GUI had died instead, with the following error message on the screen:
+<pre> 
+User: svxii 
+Display: 
+Attempting initialization of CAEN at svxinter.fnal.gov... 
+Downloading /cdf/onln/data/svxii/caencontrol/PSfilesNew/PS.conf 
+Loading startup files to the server.....Please be patient 
+GUI Startup Done! 
+6307: gss_init_context failed 
+</pre>
+I logged into b0dasvx03 again and restarted the PS GUI. Still I was not happy with the state of PSMon.exe. There are half of the power supplies missing in most crates, so the program would detect the rest as off. This blows up the corresponding log files, which will cause a crash of the program at around 70 MB file size. The only way to avoid this is to enter <em>all</em> wedges into the "IgnoredWedges.txt" file on the desktop of SVXIICON. I did that, and now the flood of messages should disappear. While I was at it, I have also added Jose's e-mail address to the list of recipients for iFix warning/alarm messages.
+
+<!-- Author: Ulrich -->
+
+
+<!-- Date: Sat Aug 18 12:00:59 2007 -->
+The dew point went up to -24 C. Bob tells me that they turned down nitrogen flows because they got some alarms while they were working (now flows are back to normal for a while).  
+<br>The strange thing is that the West side dewpoint is increasing and they are working on the East side. The humidity on West side is ~8% while East is 1%. 
+<br> BHW1 vacuum jacket temperature goes to warning sometimes. It seems that Bill is testing again the air conditioning system in the CH. 
+<!-- Author: Jose -->
+
+
+<!-- Date: Mon Aug 20 07:56:30 2007 -->
+<b>We will have our weekly Monday meeting this Monday 9:30.</b>
+<!-- Author: Ignacio -->
+
+
+<!-- Date: Mon Aug 20 09:23:03 2007 -->
+<center><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-11783&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-11784' ></a><a href='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-11785&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=-11786' ></a></center>
+<!-- Author: Jose -->
+<!-- Comment: Mon Aug 20 09;27;57 comment by...Jose -->
+ISL conductivity for the first two weeks of the shutdown. Last Wednesday PCW was capped off and since then with the standard resin bed. The conductivity is going down and it is smaller than 2 uS/cm. Yesterday, the valve closed automatically the resin circuit.
+
+
+<!-- Date: Sat Sep 22 00:14:42 2007 -->
+<h3>Shutdown PS work summary</h3> 
+During the first two weeks of the ongoing shutdown we extracted erratic  
+modules from 13 crates for dropping LV repair and changed bias trip 
+limits on the SVX and L00 modules. The repaired modules were tested  
+at the FCC teststand during the ISL cooling work. Today we started re-instating 
+them.<p> 
+ 
+We started the day by changing VDOIM2 on the repaired SVX #47 from 1.92 V to 
+2.12 V (its pre-shutdown setting) and swapping it in for SVX #20 at the 
+<b>SB5W1</b> location. This was followed by reverting VDOIM settings on the 
+following modules on crates 9 and 10 to their pre-shutdown values: 
+<ul> 
+ <li><b>SB5W3:</b> VDOIM2 1.92 -&gt; 1.68 V 
+ <li><b>SB3W1:</b> VDOIM2 1.92 -&gt; 1.67 V 
+ <li><b>SB5W1:</b> VDOIM2 1.92 -&gt; 2.12 V 
+ <li><b>SB3W11:</b>VDOIM2 1.92 -&gt; 1.64 V 
+ <li><b>SB4W10:</b>VDOIM2 1.92 -&gt; 1.77 V 
+     <br>      VDOIM5 5.38 -&gt; 5.33 V 
+ 
+</ul><p> 
+ 
+We then installed and load tested <b>SB3W10</b> and <b>SB5W10</b> in crate 9  
+and <b>SB4W3</b>, <b>SB3W2</b>, <b>SB3W0</b> and <b>IB5W0</b> in crate 10. 
+The modules with DOIM setting change were powered ON to make sure they have 
+correct settings.<p> 
+ 
+The installation was followed by a full DAQ and interlock checkout (see above) which came 
+out successful!  
+<!-- Author: The PS Crew -->

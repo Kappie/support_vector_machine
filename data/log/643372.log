@@ -1,0 +1,951 @@
+<!-- Title: 10:22:09  Thu Aug  4 2005 -->
+<!-- Crewchief: akumar -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>New Activity </pre>
+
+
+<!-- Date: Thu Aug 4 10:22:19 2005 -->
+<pre>All, 
+ 
+We will be failing over the users from fcdfora6 to fcdfora4 starting at  
+10:45am today. We will then patch Oracle on fcdfora6, replace a failed  
+disk drive, and also reboot one of the arrays that is having problems.  
+The system will be down for about an hour. 
+This work should go unnoticed. 
+ 
+Steven Kovich 
+</pre>
+<!-- Author: akumar -->
+<!-- Comment: Thu Aug  4 11;52;15 comment by...Diana/Anil  -->
+<pre>the security  patch has been successfully applied to the oracle 
+database,  and the disk maintenance is finished. The database is 
+available to users.
+  </pre>
+<!-- Date: Thu Aug 4 10:53:33 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12012: error on auto execute of job 8431 ORA-02068: following severe error from CDFSTRM1 ORA-03113: end-of-file on communication channel ORA-02068: following severe error from CDFSTRM1 ORA-03113: end-of-file on communication channel ORA-25254: time-out in LISTEN while waiting for a message ORA-06512: at "SYS.DBMS_AQADM_SYS", line 5636 ORA-06512: at "SYS.DBMS_AQADM_SYS", line 6061 ORA-06512: at "SYS.DBMS_AQADM", line 895 ORA-06512: at line 1 ORA-12541: TNS:no listener ORA-12541: TNS:no listener. 
+WARNING 
+Aug 04 2005 10:52:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 10:54:07 2005 -->
+<pre>
+Name : cdfofpr2_propagation_hung  
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: 3 
+CRITICAL 
+Aug 04 2005 10:53:37 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 10:57:41 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12541: TNS:no listener ORA-12541: TNS:no listener. 
+WARNING 
+Aug 04 2005 10:57:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 11:03:17 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12541: TNS:no listener. 
+WARNING 
+Aug 04 2005 11:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 11:07:35 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12541: TNS:no listener. 
+WARNING 
+Aug 04 2005 11:07:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Thu Aug  4 11;20;32 comment by...akumar -->
+<pre>All of above errors on cdfofpr2 is due to database/Listener down for cdfstrm1. Please ignore. 
+
+</pre>
+
+<!-- Date: Thu Aug 4 11:28:38 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Alert 
+The following errors are in the ALERT file : ORA-12541: TNS:no listener. 
+WARNING 
+Aug 04 2005 11:27:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 11:37:37 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+Alert 
+The following errors are in the ALERT file : ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7BD1D1D0], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x7600770078B4E8] [] [] ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7BD1D1D0], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x7600770078B4E8] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x7600770078B4E8] [] [] ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7BD1D1D0], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x7600770078B4E8] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x7600770078B4E8]
+CRITICAL 
+Aug 04 2005 11:37:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Thu Aug  4 12;16;56 comment by...akumar  -->
+<pre>There is patch for patch 4398475
+
+We will be scheduling to apply on devs first.
+</pre>
+<!-- Date: Thu Aug 4 11:59:47 2005 -->
+<pre>
+Name : cdfofpr2_propagation_hung  
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 04 2005 11:59:09 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Thu Aug 4 12:12:51 2005 -->
+<pre>Verified that Streams Replication on cdfstrm1 up-to-date after maintenance on db and fcdfora6 
+ 
+ 
+Streams Heart Beat Status 
+ 
+DESCRIPTION                                                  UPDATE_DATE 
+------------------------------------------------------------ ----------------- 
+STREAM STATUS                                                08/04/05 12:10:00 
+ 
+Streams Apply Status 
+ 
+APPLY_NAME                     STATUS 
+------------------------------ -------- 
+CDFSTRM1_APPLY                 ENABLED 
+ 
+Number of Apply Errors 
+ 
+  COUNT(*) 
+---------- 
+         0 
+ 
+Apply Spillage 
+ 
+  COUNT(*) 
+---------- 
+         0 
+ 
+SQL&gt; !date     
+Thu Aug  4 12:11:15 CDT 2005 
+</pre>
+<!-- Author: akumar -->
+
+
+<!-- Date: Thu Aug 4 12:37:00 2005 -->
+<pre>
+Name : cdfonprd_long_transaction 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: cdf-cap-solenoid ICICLE 99 32169 icicle.exe FERMI\SOLENOID2 INSERT INTO SENSOR_HISTORIES (SENSH_ID, VALUE,SENS_ID,SENST_ID, HISTYP_ID) VALUES (:f1     ,:f2       ,:f3     ,:f4     ,:f5     ) 5.5833333333333333333333333333333333336 
+CRITICAL 
+Aug 04 2005 12:36:21 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 12:37:00 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+User Defined SQL Test 
+Current Value: 1 
+WARNING 
+Aug 04 2005 12:36:31 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 12:43:13 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 04 2005 12:41:31 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Thu Aug 4 13:39:52 2005 -->
+<pre>
+Name : cdfofpr2_max_extents 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : WARNING 
+
+Maximum Extents 
+Segment SAMPRD.FI_PV_PV_FK_I in tablespace OPERATIONAL_IDX_01 can only allocate 2 additional extents. 
+WARNING 
+Aug 04 2005 01:39:20 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Thu Aug  4 14;12;48 comment by...akumar -->
+<pre>Increased the max extents to 400 from 200</pre>
+
+<!-- Date: Thu Aug 4 14:14:37 2005 -->
+<pre>
+Name : cdfofpr2_max_extents 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Maximum Extents 
+Event test "Maximum Extents" is cleared 
+CLEARED 
+Aug 04 2005 02:14:19 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Aug 5 00:04:16 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 05 2005 12:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Aug 5 00:10:31 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 05 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Aug 5 00:10:31 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 05 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Aug 5 07:47:56 2005 -->
+<pre>
+Name : cdfonprd_long_transaction 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: cdf-cap-solenoid ICICLE 74 31686 icicle.exe FERMI\SOLENOID2 INSERT INTO SENSOR_HISTORIES (SENSH_ID, VALUE,SENS_ID,SENST_ID, HISTYP_ID) VALUES (:f1     ,:f2       ,:f3     ,:f4     ,:f5     ) 8.1833333333333333333333333333333333328 
+CRITICAL 
+Aug 05 2005 07:46:27 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Aug 5 07:47:56 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+User Defined SQL Test 
+Current Value: 1 
+WARNING 
+Aug 05 2005 07:46:42 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Fri Aug 5 07:52:04 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 05 2005 07:51:41 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 00:02:54 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 06 2005 12:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 00:10:07 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 06 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 13:32:16 2005 -->
+<pre>
+Name : cdfonprd_long_transaction 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: cdf-cap-solenoid ICICLE 112 15435 icicle.exe FERMI\SOLENOID2 INSERT INTO LIMIT_HISTORIES VALUES (:f1     ,:f2       ,:f3     ,:f4     ) 6.36666666666666666666666666666666666624 
+CRITICAL 
+Aug 06 2005 01:31:21 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 13:32:16 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+User Defined SQL Test 
+Current Value: 1 
+WARNING 
+Aug 06 2005 01:31:30 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 13:37:29 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 06 2005 01:36:29 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 18:32:29 2005 -->
+<pre>
+Name : cdfonprd_long_transaction 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: cdf-cap-solenoid ICICLE 50 27177 icicle.exe FERMI\SOLENOID2 UPDATE SENSORS SET LAST_MEASURE= 125,LAST_ERROR= 0,LAST_STATUS= 'STBY',SENST_ID= 1877348 WHERE SENS_ID= 5216 6.90000000000000000000000000000000000048 
+CRITICAL 
+Aug 06 2005 06:31:22 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 18:32:29 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+User Defined SQL Test 
+Current Value: 1 
+WARNING 
+Aug 06 2005 06:31:34 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sat Aug 6 18:38:43 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 06 2005 06:36:33 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Aug 7 00:02:59 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 07 2005 12:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Aug 7 00:10:36 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 07 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Aug 7 09:23:00 2005 -->
+<pre>
+Name : cdfonprd_long_transaction 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: cdfdaq CDFDAQ 50 13861 YMon@b0dap82.fnal.gov (TNS V1-V3) b0dap82.fnal.gov INSERT INTO COTPROBCH(CID,G_CHAN, OCCUP, PRCODE ) VALUES (:f1     , :f2      , :f3        , :f4        ) 6.28333333333333333333333333333333333344 
+CRITICAL 
+Aug 07 2005 09:22:39 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Aug 7 09:24:55 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+User Defined SQL Test 
+Current Value: 1 
+WARNING 
+Aug 07 2005 09:23:43 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Sun Aug 7 09:37:28 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 07 2005 09:37:08 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Aug 8 00:04:35 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 08 2005 12:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Aug 8 00:10:48 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 08 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Aug 8 09:43:23 2005 -->
+<pre>
+Name : cdfonprd_long_transaction 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: cdf-cap-solenoid ICICLE 49 57514 icicle.exe FERMI\SOLENOID2 INSERT INTO SENSOR_HISTORIES (SENSH_ID, VALUE,SENS_ID,SENST_ID, HISTYP_ID) VALUES (:f1     ,:f2       ,:f3     ,:f4     ,:f5     ) 5.56666666666666666666666666666666666704 
+CRITICAL 
+Aug 08 2005 09:42:52 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Aug 8 09:44:32 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : WARNING 
+
+User Defined SQL Test 
+Current Value: 1 
+WARNING 
+Aug 08 2005 09:43:53 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Aug 8 09:49:36 2005 -->
+<pre>
+Name : cdfonprd_long_transaction_count 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 08 2005 09:48:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Mon Aug 8 19:52:48 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+Alert 
+The following errors are in the ALERT file : ORA-07445: exception encountered: core dump [0000000101DAC5F4] [SIGSEGV] [Address not mapped to object] [0xFFFFFFFF7D1E6408] [] [] ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7CB663B8], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DAC5F4] [SIGSEGV] [Address not mapped to object] [0xFFFFFFFF7D1E6408] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x76007700786810] [] [] ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7CB663B8], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DAC5F4] [SIGSEGV] [Address not mapped to object] [0xFFFFFFFF7D1E6408] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x76007700786810] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped
+CRITICAL 
+Aug 08 2005 07:52:30 PM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Wed Aug 10 10;18;42 comment by...akumar  -->
+<pre>patch 4398475 schedule for dev first </pre>
+<!-- Date: Tue Aug 9 00:07:33 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 09 2005 12:02:31 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Tue Aug 9 00:11:58 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 09 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+
+<!-- Date: Tue Aug 9 09:57:45 2005 -->
+<pre>the quarterly security patch from Oracle has been installed on cdfrep23 database, hosted on node fcdfora5.  The database is up and available to users.</pre>
+<!-- Author: Diana -->
+
+<!-- Date: Tue Aug 9 10:03:13 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+Alert 
+The following errors are in the ALERT file : ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7C735280], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x760077007856D8] [] [] ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7C735280], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x760077007856D8] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x760077007856D8] [] [] ORA-00600: internal error code, arguments: [kghfrempty:ds], [0xFFFFFFFF7C735280], [], [], [], [], [], [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x760077007856D8] [] [] ORA-07445: exception encountered: core dump [0000000101DB168C] [SIGSEGV] [Address not mapped to object] [0x760077007856D8]
+CRITICAL 
+Aug 09 2005 10:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+<!-- Comment: Wed Aug 10 10;19;23 comment by...akumar -->
+<pre>patch 4398475 schedule for dev first</pre>
+<!-- Date: Tue Aug 9 10:03:13 2005 -->
+<pre>
+Name : cdfofpr2_apply_abort 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CRITICAL 
+
+User Defined SQL Test 
+Current Value: 1 
+CRITICAL 
+Aug 09 2005 10:02:36 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Tue Aug 9 10:08:18 2005 -->
+<pre>
+Name : cdfofpr2_apply_abort 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 09 2005 10:07:36 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Tue Aug 9 10:08:18 2005 -->
+<pre>
+Name : cdfofpr2_apply_latency_alert 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+User Defined SQL Test 
+Current Value: 0 
+CLEARED 
+Aug 09 2005 10:07:42 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Aug 10 00:03:15 2005 -->
+<pre>
+Name : cdfofpr2_alert_log 
+Target Name : cdfofpr2.fnal.gov 
+Target Type : Database 
+Node Name : fcdfora4.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 10 2005 12:02:30 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+<!-- Date: Wed Aug 10 00:12:08 2005 -->
+<pre>
+Name : cdfonprd_alert_log 
+Target Name : cdfonprd.fnal.gov 
+Target Type : Database 
+Node Name : bzora1.fnal.gov 
+Status : CLEARED 
+
+Alert 
+Event test "Alert" is cleared 
+CLEARED 
+Aug 10 2005 12:09:49 AM 
+
+
+
+</pre>
+<!-- Author: oem-admin (email) -->
+
+
+

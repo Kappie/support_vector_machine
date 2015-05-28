@@ -1,0 +1,399 @@
+<!-- Title: Owl shift. Sun Jan 27, 2002 -->
+<!-- SciCo: Sham Sumorok -->
+<!-- DAQAce: Muge Karogoz Unel -->
+<!-- MonAce: Diego Tonelli -->
+<!-- CO: Turgan Nigmanov -->
+<!-- OpManager: Kevin Burkett -->
+<!-- Notes: -->
+<pre></pre>
+
+
+<!-- Date: Sun Jan 27 00:18:45 2002 -->
+run 138021 ongoing with 0_03[25,252].. fcal00 has been out of  
+ configuration. Mircea said it's powered off. we have about 380k 
+ events for now..
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138021' target=_top>138021</a>) -->
+<!-- Comment: Sun Jan 27 00;56;03 comment by...muge -->
+ok. after run ended, i checked the run conf. fcal00 looks to be included. it's really red in vxmon. no suspended job, says heap is corrupt. confusing. will look at it in a while.
+<!-- Comment: Sun Jan 27 04;34;24 comment by...muge -->
+fcal00 goes thru partition and activate regardless of its red status in vxmon..
+<!-- Date: Sun Jan 27 00:35:49 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138021">138021</A>
+ Terminated at 2002.01.27 00:35:17
+<!-- Author: RunControl -->
+<!-- Comment: Sun Jan 27 00;40;24 comment by...muge -->
+quench. beam lost. run ended.
+<!-- Date: Sun Jan 27 00:35:49 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138021">138021</A>
+ Terminated at 2002.01.27 00:35:17
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Sun Jan 27 00:52:39 2002 -->
+Enormous spikes in losses and brads plots. 
+I have trips of: COT, SVX, L00, TOF,CMU, CMP, CMX, BMU, CPR,CCR. 
+They lost the beam. 
+Everything put on STDBY (COT on low STDBY, silicon with an expert at phone). 
+<!-- Author: Diego :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138021' target=_top>138021</a>) -->
+<!-- Comment: Sun Jan 27 01;01;53 comment by...Diego -->
+plots will be attached later
+<!-- Date: Sun Jan 27 01:00:41 2002 -->
+SVX B1 W1 L4 trip: software protection high DVDD current. 
+Called expert, trp resetted put back STDBY.
+<!-- Author: Diego -->
+
+
+
+<!-- Date: Sun Jan 27 01:12:19 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-372&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-372' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-373&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-373' width='300'></a></center>
+<!-- Author: Diego -->
+<!-- Comment: Sun Jan 27 01;14;25 comment by...Diego -->
+Beam lost for quench in D48L. These are the spikes who caused the extensive trip.
+<!-- Date: Sun Jan 27 01:14:02 2002 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2002&action=view&page=-374&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2002&action=view&page=-374  width='300' align='top'></td><td>YMon ShowerMax CES strip and wire 16 East chan. dead since  from run 137990 through run 138021. Same thing  are with CPR and CCR</a></td></tr></table>
+<!-- Author: turgun -->
+
+
+
+<!-- Date: Sun Jan 27 01:19:21 2002 -->
+cal_qie calib is done.  
+(MLE) b0puls01:Messenger:1:09:55 AM->QIE calibration failed 
+(MLE) b0puls01:Readout_Calib:1:09:55 AM->ADMEM=21 QIE=4 Fail 10: No fitting          (0.0) (0) (0) 
+(MLE) b0ccal06:Readout_Calib:1:09:58 AM->ADMEM=16 QIE=11 Fail 14: Sigma(off) big      (1.5982605) (0) (1) 
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138023' target=_top>138023</a>) -->
+<!-- Comment: Sun Jan 27 01;56;36 comment by...muge -->
+made it to DB.
+<!-- Comment: Sun Jan 27 04;38;45 comment by...muge -->
+sending an email to experts with the errlog warning messages concerning the pedestals..
+<!-- Date: Sun Jan 27 01:27:46 2002 -->
+clc_qie done. 
+(MLE) b0clc00:Messenger:1:29:23 PM->QIE calibration failed 
+ 
+(MLE) b0clc00:Readout_Calib:1:29:23 PM->ADMEM=4 QIE=2 Fail 14: Sigma(off) big      (2.183734) (0) (0)  
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138024' target=_top>138024</a>) -->
+<!-- Comment: Sun Jan 27 01;29;05 comment by...muge -->
+clc00 went red on vxmon after issuing bus reset, but cleared right away.
+
+
+<!-- Comment: Sun Jan 27 01;55;17 comment by...muge -->
+file made it to the database but i can not see any plots? why is this so?
+<!-- Comment: Sun Jan 27 05;15;09 comment by...muge -->
+again sending an email to experts with the errlog warning messages concerning the pedestals for clc this time.
+<!-- Comment: Sun Jan 27 09;01;20 comment by...muge -->
+well, i was able to see later on..
+<!-- Date: Sun Jan 27 01:36:01 2002 -->
+smx_qie done. no errors.
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138025' target=_top>138025</a>) -->
+<!-- Comment: Sun Jan 27 01;57;12 comment by...muge -->
+made it to DB.
+
+
+<!-- Date: Sun Jan 27 02:27:30 2002 -->
+COT lost HB since approx 10 min. Searching how to fix in web pages...
+<!-- Author: Diego -->
+
+
+<!-- Date: Sun Jan 27 02:41:28 2002 -->
+HB problem was actually my  chromatic mistake: the High voltage summary screen was strongly "gaussed" and the STDBY blue color at the extreme left side  appeared to me as purple. The degauss of the screen cleared the fake purple.
+<!-- Author: Diego -->
+
+
+<!-- Date: Sun Jan 27 02:43:07 2002 -->
+plug laser run done. no errors.
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138026' target=_top>138026</a>) -->
+
+
+<!-- Date: Sun Jan 27 02:54:55 2002 -->
+cal_led calib. done. no errors.
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138027' target=_top>138027</a>) -->
+<!-- Comment: Sun Jan 27 03;10;23 comment by...muge -->
+made it to DB.
+<!-- Date: Sun Jan 27 03:05:59 2002 -->
+Xenon calib done. no errors
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138028' target=_top>138028</a>) -->
+<!-- Comment: Sun Jan 27 03;13;07 comment by...muge -->
+did not make it to DB. the previous run which is on white board,  01/23 evening also did not make it..there is no elog entry for this either. will redo it and if not, i will give up..
+
+<!-- Comment: Sun Jan 27 03;16;37 comment by...muge -->
+138029 did not make it either.gave up
+
+
+<!-- Comment: Sun Jan 27 03;54;00 comment by...muge -->
+ok, being stubborn is good. 138029 is in DBANA.
+<!-- Date: Sun Jan 27 03:19:29 2002 -->
+<pre>Just a list of silicon pinks after unmark all: 
+L00: LB1W4L1,LB0W5L3,LB1W4L3 -DVDD- 
+     LB0W0 -DOIM- 
+SVX: SB0W2L0,SB0W2L1,SB0W0L2,SB2W4L2,SB2W4L4 -AVDD- 
+     SB0W2L3,SB0W3L3,SB5W3L4,SB5W8L4 -DVDD- 
+ISL: IB5W3L2 -AVDD- 
+     IB1W5L0,IB1W5L2,IB2W0L4 -DVDD- 
+     IB0W3 -DOIM-  
+<!-- Author: Diego -->
+
+
+<!-- Date: Sun Jan 27 03:28:21 2002 -->
+cot calib done. no errors.
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138030' target=_top>138030</a>) -->
+<!-- Comment: Sun Jan 27 03;40;31 comment by...muge -->
+made it to DB as BAD chanT0..
+<!-- Date: Sun Jan 27 03:39:58 2002 -->
+muon calib. done. no errors.
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138031' target=_top>138031</a>) -->
+
+
+
+<!-- Date: Sun Jan 27 03:53:19 2002 -->
+tof qie calib. done. no errors. made it to DB but no plots come out?
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138032' target=_top>138032</a>) -->
+<!-- Comment: Sun Jan 27 03;58;15 comment by...muge -->
+take it back, sorry. tofqieped is there..
+<!-- Date: Sun Jan 27 03:55:59 2002 -->
+<pre> 
+Muge noticed the calorimeter's HV needs quite long time  
+(~ 15 MIN) to come up to full voltage after Xe calibration. 
+I checked on PISABOX that the correct  
+processes were running 
+and they are but a strange alert  
+window is on: 
+The frame is "Ifix system alert message viewer" 
+and the message is "1/27/02 03:20:44  
+!System Alert! The Alarm Queue 'SUMMARY LIST' has overflowed. 
+ At least one alarm may have been lost." 
+ 
+Looking at the GAMMA process window I notice an  
+updating error message that say: 
+"CDHCN Error opening \\.\sjy... 
+cdhcn error: no error 
+--------------------- 
+SKIP CSX !!! 
+--------------- 
+The system cannot find the file specified." 
+I sent a e-mail to experts.
+<!-- Author: Diego -->
+<!-- Comment: Sun Jan 27 04;42;40 comment by...fotis -->
+<pre>The CHA/CEM/WHA HV is never off when you take a Xenon calibration. The readout is just stopped since you exit the 
+pisa box processes. After the readout is restarted (end of the 
+xenon calibration) it takes about 15 min to finish reading all three detectors. About the gamma errors you saw scrolling are normal for the time being so don't get alarmed.  </pre>
+<!-- Comment: Sun Jan 27 04;46;52 comment by...muge -->
+thanks a lot , Fotis! don't you ever sleep?
+<!-- Date: Sun Jan 27 03:59:50 2002 -->
+tof tac calib. done. no errors
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138033' target=_top>138033</a>) -->
+
+<!-- Date: Sun Jan 27 04:11:21 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138034">138034</A>
+ Activated at 2002.01.27 04:10:31
+<!-- Author: RunControl -->
+<!-- Comment: Sun Jan 27 04;32;34 comment by...muge -->
+this is Rick's run. L1 rate was 78 Hz without beam. Well,
+consumers were stuck at an old run and we got 38086 events trying
+ to correct them. Turgan is looking at the recorded YMOn plot for
+ this run but he sees no occupancy at all. i am checking the
+ errlog and csl reports that whole events are received in stream
+ 8 and all are logged. will look into it more..
+<!-- Comment: Sun Jan 27 05;06;06 comment by...muge -->
+ok, so YMon file is there but looks indeed empty.Turgan says Trigmon did not even produce a file. it's my mistake not to check the monitors status before the run.. 
+<!-- Comment: Sun Jan 27 05;35;29 comment by...muge -->
+Ok! why as an ace, i was missing the point that i should have told the CO to switch to the cosmics tcl for the Rick's run before i started it? could this be added in the procedure so that 
+it's not a step missed? so this run was not useful except the L1 rate value ( and except that it kept me awake scratching my head)..
+ 
+<!-- Date: Sun Jan 27 04:20:45 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138034">138034</A>
+ Terminated at 2002.01.27 04:18:48
+<!-- Author: RunControl -->
+
+
+
+
+
+
+
+
+
+<!-- Date: Sun Jan 27 05:08:49 2002 -->
+attmepting to start a cosmics_notracks to check the system's integrity. apparently,shot setup is epected to start anytime from now. got a childdefinition error, willl take trigmon ymon out of run. magnet is down.
+<!-- Author: muge -->
+<!-- Comment: Sun Jan 27 05;52;43 comment by...muge -->
+well, ignore childdefinition, wrong run table..
+<!-- Date: Sun Jan 27 05:23:21 2002 -->
+5:13 am shot setup begins..
+<!-- Author: muge -->
+
+
+<!-- Date: Sun Jan 27 05:24:16 2002 -->
+Solenoid is ramping, check Watt can impossible  
+because of the persistent yellow (warning) state of the cryo 
+window. the watt can pressure is now -0.260 torr...not clear the meaning of NEGATIVE pressure...
+<!-- Author: Diego -->
+
+
+
+<!-- Date: Sun Jan 27 05:50:48 2002 -->
+doing a comsics_notracks run. trigger inhibit set to ignore for the moment., due to solenoid
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138037' target=_top>138037</a>) -->
+
+
+
+<!-- Date: Sun Jan 27 06:50:15 2002 -->
+<pre>starting another cosmics run, since solenoid now is in definite state:on. 
+systems on stby anyways.. 
+the latest notice from MCR is tev tune up complete at 6:30am.</pre>
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138038' target=_top>138038</a>) -->
+<!-- Comment: Sun Jan 27 06;56;34 comment by...muge -->
+BTO from vrb_svx_02. HRR works.
+
+
+<!-- Date: Sun Jan 27 07:03:07 2002 -->
+Q(again): why vxmon keeps dying on b0dap53 every couple of hours? 
+<!-- Author: muge -->
+
+
+<!-- Date: Sun Jan 27 07:04:17 2002 -->
+15 nodes on c06 has turned pink..
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138038' target=_top>138038</a>) -->
+
+
+<!-- Date: Sun Jan 27 07:30:00 2002 -->
+We are still waiting for the p injection,  
+MCR e-log says at 6.53 that they have problems 
+ with the pbar tuneup. 
+<!-- Author: Diego -->
+
+
+<!-- Date: Sun Jan 27 07:40:37 2002 -->
+ended cosmics, switched to 0_03[25,252]. protons going in.
+<!-- Author: muge :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138039' target=_top>138039</a>) -->
+<!-- Comment: Sun Jan 27 07;47;14 comment by...muge -->
+run 138039 started with 2 vrb_svx_2 BTO.and L2 decision TO.
+<!-- Date: Sun Jan 27 07:44:09 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138039">138039</A>
+ Activated at 2002.01.27 07:43:02
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Sun Jan 27 07:48:22 2002 -->
+<pre>Protons bunches are in. 
+W Innner BLM .7778211 
+W Outer BLM .0703521 
+E Inner BLM 1.820257 
+E Outer BLM 2.30
+<!-- Author: Diego -->
+
+<!-- Date: Sun Jan 27 07:55:33 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138021>138021</A> 
+x21B25</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_0_03 [25,252]</TD>                                          
+<TD ALIGN=CENTER>20:34:26</TD>                                          
+<TD ALIGN=CENTER>00:35:17</TD>                                          
+<TD ALIGN=CENTER>03:47:38</TD>                                          
+<TD ALIGN=RIGHT>     16,996,143</TD>                                    
+<TD ALIGN=RIGHT>     1,016,406</TD>                                     
+<TD ALIGN=RIGHT>     404,931</TD>                                       
+<TD ALIGN=RIGHT>   39.949</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:02</TD>                                                       
+<TD ALIGN=CENTER>03:47:38</TD>                                          
+<TD ALIGN=RIGHT>      16,996,143</TD>                                   
+<TD ALIGN=RIGHT>      1,016,406</TD>                                    
+<TD ALIGN=RIGHT>       404,931</TD>                                     
+<TD ALIGN=RIGHT>   39.949</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Jan 27 07:56:34 2002 -->
+<font color=red>Shift Summary: </font><pre>Owl shift Summary Sunday 27-Jan-2002 
+  
+*************  info for next shift ********************** 
+  
+ Silicon Calibration not yet run 
+ Rick's Run taken but no consumer run on data. 
+ 
+**********    Beam Status    ***************  
+ 
+    Stable beam in progress  
+ 
+*************  Shift   History     ********************** 
+0005  Luminosity 2.63*10**30, LOSSP 13K, B0PLOS 9K 
+0035  Beam lost through a magnet quench.  
+0045  Dave Stuart came back, SVX seems ok.  
+0115  Consulted with Cryo and MCR. Solenoid will have to be taken down by 
+      11:00 this morning for pumping the Watt Can. Shot set up may start in an 
+      hour but once in would hope to keep it until late today. Stack 92 mA.  
+0130  Decide to drop the solenoid and repump now.  
+0212  Solenoid field down, pump down started 
+0305  TEV plan is to replace the FB-Loop chasis 
+0412  TEV could not locate the spare chassis. 
+      An alternate plan to get TECAR modified to look at the ground fault 
+      also failed. TEV decided to just run like this and see what happens.  
+0415  Machine is now turning on again. Shot setup expected &gt; 1hr.  
+0425  Muge completes all calibrations except for Silicon. 
+0515  MCR called, shot setup to start. 
+0520  Solenoid ramp starts.  
+0600  Solenoid at full field 13779 gauss.   
+0730  Start Final proton bunch injection 
+0746  Final protons in 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   138021
+Delivered Luminosity   na  
+Acquired Luminosity    7.2 nb-1  
+Efficiency             na
+   
+</td></tr></table></pre>
+<!-- Author: Sham Sumorok -->
+
+
+<!-- Date: Sun Jan 27 08:10:20 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-380&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-380' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-381&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-381' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-382&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-382' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-386&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-386' width='300'></a></center>
+<!-- Author: Diego -->
+<!-- Comment: Sun Jan 27 08;10;53 comment by...D. -->
+End of shift plots
+
+<!-- Date: Sun Jan 27 08:22:15 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=138039">138039</A>
+ Terminated at 2002.01.27 08:20:57
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Jan 27 08:25:21 2002 -->
+Pbar are in (15 min ago...) <font color=red><cite>(entry outside this shift's time range )</cite></font>
+<!-- Author: D -->
+

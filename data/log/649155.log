@@ -1,0 +1,516 @@
+<!-- Title: Owl shift. Mon Sep 22, 2008 -->
+<!-- SciCo: Peter Wittich -->
+<!-- DAQAce: Stefano Camarda -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Erik Brucken -->
+<!-- OpManager: Massimo Caarsa -->
+<!-- Notes: -->
+<pre>Take over a smoothly running detector. 
+ 
+Lumi at 88E30. Recycler at 308E10, TEVPR 7776.02E09, TEVPB 1872.3E09</pre>
+
+
+<!-- Date: Mon Sep 22 00:06:15.344 2008 -->
+According to run coordinator e-log, this store will stay in until 5.30 AM, at which point D0 will need a 1 hour access.
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Sep 22 00:27:46.260 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4912&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4913  width='300' align='top'></a></td><td>Got an IMON pinkie in VBIAS ISL B2W1L1. After unmarking it did not go away. However the jump is small (from ~269 to 271 or so), less than 10, so I set 'ignore' as per instructions.</td></tr></table>
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Sep 22 00:30:47.157 2008 -->
+pcal10 got stuck, halted the run and shepherded the crate
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+
+<!-- Date: Mon Sep 22 00:44:58.718 2008 -->
+done TO for pcal07, the crate was still in Active state. An HRR did not fix it, so the crate was shepherded
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+
+<!-- Date: Mon Sep 22 00:53:16.419 2008 -->
+PHA is yellow on iFix, warning. It seems related to a channel on crate 5 not at full voltage. The fraction of channels at operating voltage is 455/456(99.8%). Only one channel is at 95.5%, it is Slot 9 Channel 19: 
+<pre> 
+00:49:28 Warning > Gr "WestECal", Cr:05 Sl:1, Ch:10, Status: On&UnH [Vmon 901.6(99.84%) V0,V1_Caen 903.0,542.0 V0,V1_Conf 903.0,542.0] 
+00:49:28 Warning > Gr "WestECal", Cr:05 Sl:2, Ch:05, Status: On&OvH [Vmon 806.0(101.13%) V0,V1_Caen 797.0,478.0 V0,V1_Conf 797.0,478.0] 
+00:49:28 Warning > Gr "WestECal", Cr:05 Sl:2, Ch:13, Status: On&OvH [Vmon 914.4(101.15%) V0,V1_Caen 904.0,543.0 V0,V1_Conf 904.0,543.0] 
+00:49:28 Warning > Gr "WestECal", Cr:05 Sl:8, Ch:05, Status: On&OvH [Vmon 952.6(100.17%) V0,V1_Caen 951.0,571.0 V0,V1_Conf 951.0,571.0] 
+00:49:33 Alarm!!!> Gr "WestHCal", Cr:05 Sl:9, Ch:19, Status: On&UnV [Vmon 953.4(95.63%) V0,V1_Caen 997.0,598.0 V0,V1_Conf 997.0,598.0] 
+00:49:33 Alarm!!!> Gr "WestHCal", summary for Crate 05: UnV:1, (over 76 channels) 
+00:49:42 Info    > Crate 05 Min&Max(Vmon/ConfVset): 95.6%,101.2% 
+</pre> 
+If something happens which requires halting the run I will try to reset or power cycle the crate
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+<!-- Date: Mon Sep 22 01:11:57.215 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267274>267274</A>
+<HTML>Run <A HREF=http://www-cdfonline.fnal.gov/java/cdfdb/servlet/RunSummary?RUN=267274 target=_runSummary>267274</A> has not yet been checked for goodrun status; please do so.</HTML>
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Mon Sep 22 01:14:44.051 2008 -->
+Busy Timeout for crate svx02, auto HRR was issued
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+
+<!-- Date: Mon Sep 22 01:17:20.352 2008 -->
+pcal11 got stuck, shepherded
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+
+<!-- Date: Mon Sep 22 01:31:37.935 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Mon_Sep_22_2008_Owl.013122.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4915  align='top'></a></td><td>New yellow and red ladders  in SVX chip status map</td></tr></table>
+<!-- Author: brucken -->
+<!-- Comment: Mon Sep 22 01;51;37 comment by...sergo -->
+<pre>I asked Sefano to hockerize corresponding PS crate. Hopefully this helps. If not, I will take a closer look at this ladder in the morning.   The data should be marked good in any case. Thanks.</pre>
+
+<!-- Comment: Mon Sep 22 01;54;15 comment by...Stefano -->
+Paged expert, cells involved were S/B3/W7/L2/C2-9. Sergo asked me to hockerize crate 14. Now we are waiting for new plots from SVXMON, however even if the problem persists we should mark data as good, since only one ladder was involved.
+
+<!-- Comment: Mon Sep 22 02;38;41 comment by...erik -->
+even after restarting monitor and gathering more statistics problem still exists
+<!-- Date: Mon Sep 22 02:03:09.441 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+si: <tt>SVX CHIP: still yellow and red ladders as occured in previous shift</tt>
+<!-- Author: Consumer Operator(Erik Brucken) -->
+
+
+<!-- Date: Mon Sep 22 02:03:10.326 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+general: <tt>OK</tt>
+<!-- Author: Consumer Operator(Erik Brucken) -->
+
+
+
+<!-- Date: Mon Sep 22 02:37:49.487 2008 -->
+Encp to Tape turned red on ProcMon
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+
+<!-- Date: Mon Sep 22 03:44:57.299 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+si: <tt>still yellow ladders.</tt>
+<!-- Author: Consumer Operator(Erik Brucken) -->
+
+
+<!-- Date: Mon Sep 22 03:44:58.795 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+general: <tt>OK</tt>
+<!-- Author: Consumer Operator(Erik Brucken) -->
+
+
+
+<!-- Date: Mon Sep 22 04:29:29.205 2008 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2008&action=view&page=-4916&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4916  width='300' align='top'></a></td><td>anti proton abort gap</td></tr></table>
+<!-- Author: Stefano -->
+<!-- Comment: Mon Sep 22 04;30;11 comment by...Stefano -->
+Anti Proton Abort gap is at 4.5+/-2 kHz, not yet at warning level, just keeping an eye on it
+
+
+<!-- Date: Mon Sep 22 05:11:45.890 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Mon_Sep_22_2008_Owl.051141.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4918  align='top'></a></td><td>red histograms in ObjectMon</td></tr></table>
+<!-- Author: brucken -->
+
+
+<!-- Date: Mon Sep 22 05:14:24.873 2008 -->
+MCR calls, 15 minute warning for end-of-store.
+<!-- Author: peter w :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+
+<!-- Date: Mon Sep 22 05:19:22.841 2008 -->
+SVXMON Error, stuck cell S/B2/W4L4/C7-13, Auto HRR
+<!-- Author: Stefano :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275' target=_top>267275</a>) -->
+
+<!-- Date: Mon Sep 22 05:20:38.701 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+ Terminated at 2008.09.22 05:20:08
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Sep 22 05:20:40.901 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+TERMINATE: done
+<!-- Author: Hideki -->
+
+
+
+<!-- Date: Mon Sep 22 05:27:53.278 2008 -->
+Stefano has turned off the hv on the detectors.  we call mcr and tell them we are ready for them to dump the beam.
+<!-- Author: wittich -->
+
+
+<!-- Date: Mon Sep 22 05:41:05.100 2008 -->
+current plan is d0 is in access for 1-1.5 hours, starting at 6 AM. 
+<!-- Author: wittich -->
+<!-- Comment: Mon Sep 22 06;32;18 comment by...wittich -->
+following instructions in previous shift we asked the cryo tech to power-cycle WCAL02, WCAL07 and PCAL07.
+
+After 1st power cycle the WCAL crates were unresponsive. AFter a 2nd power cycle they were ok.
+<!-- Date: Mon Sep 22 05:45:14.085 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267275>267275</A>
+general: <tt>OK</tt>
+<!-- Author: Consumer Operator(Erik Brucken) -->
+
+
+<!-- Date: Mon Sep 22 05:57:10.064 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267277>267277</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Stefano -->
+<!-- Comment: Mon Sep 22 06;22;36 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 05:57:42.768 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267276>267276</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+
+
+<!-- Date: Mon Sep 22 05:57:43.348 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267277>267277</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:02:26.848 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267278>267278</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:02:27.993 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267278>267278</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 06;05;28 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 06:04:33.553 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267278>267278</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+
+<!-- Date: Mon Sep 22 06:07:43.084 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267279>267279</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:16:57.988 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267279>267279</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:19:52.322 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267280>267280</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:19:53.923 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267280>267280</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 06;26;12 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 06:21:59.977 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267281>267281</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Stefano -->
+
+
+
+<!-- Date: Mon Sep 22 06:24:22.210 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267281>267281</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:26:04.023 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267282>267282</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Stefano -->
+
+
+
+<!-- Date: Mon Sep 22 06:27:11.021 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267282>267282</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:28:16.959 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267282>267282</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 06;31;36 comment by...brucken -->
+OK
+
+<!-- Date: Mon Sep 22 06:32:17.450 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267283>267283</A>
+ Activated at 2008.09.22 06:32:05
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Sep 22 06:32:18.247 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267283>267283</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,1134,706] 
+<!-- Author: Stefano -->
+<!-- Comment: Mon Sep 22 06;33;40 comment by...Stefano -->
+no beam
+<!-- Comment: Mon Sep 22 06;34;10 comment by...Stefano -->
+done TO for crate l1cl00, HRR
+<!-- Comment: Mon Sep 22 06;45;14 comment by...Stefano -->
+L1 Trigger rate 48 Hz
+<!-- Date: Mon Sep 22 06:32:59.857 2008 -->
+MCR calls; D0 is finished with their access. We are going into shot setup.
+<!-- Author: wittich -->
+
+
+
+<!-- Date: Mon Sep 22 06:44:02.961 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267283>267283</A>
+ Terminated at 2008.09.22 06:42:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Sep 22 06:44:03.570 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267283>267283</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:44:43.988 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267284>267284</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:45:14.678 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267284>267284</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 06;54;50 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 06:46:26.559 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267284>267284</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:48:42.994 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267285>267285</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:48:43.506 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267285>267285</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:49:54.915 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267286>267286</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:51:28.717 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267286>267286</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 06;55;58 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 06:51:29.384 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267286>267286</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:53:30.015 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267285>267285</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 07;03;55 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 06:54:35.610 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267287>267287</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:54:36.632 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267287>267287</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:54:37.243 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267287>267287</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 07;05;49 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 06:57:53.807 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267288>267288</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:59:51.432 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267288>267288</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 06:59:52.876 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267288>267288</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 07;20;44 comment by...brucken -->
+Not totally OK. Additionally white spots on right half. See later picture later in log
+<!-- Date: Mon Sep 22 07:01:57.835 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267289>267289</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 07:01:58.055 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267289>267289</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 07:03:46.279 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267290>267290</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Stefano -->
+
+
+
+
+<!-- Date: Mon Sep 22 07:10:54.918 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267290>267290</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Mon Sep 22 07;27;11 comment by...brucken -->
+OK
+<!-- Date: Mon Sep 22 07:10:55.963 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267290>267290</A>
+TERMINATE: done
+<!-- Author: Stefano -->
+
+
+<!-- Date: Mon Sep 22 07:13:24.880 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267291>267291</A>
+ Activated at 2008.09.22 07:13:20
+<!-- Author: RunControl -->
+
+
+<!-- Date: Mon Sep 22 07:19:04.829 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267291>267291</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1130,706] 
+<!-- Author: Stefano -->
+
+
+
+
+<!-- Date: Mon Sep 22 07:21:35.538 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Mon_Sep_22_2008_Owl.072134.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4920  align='top'></a></td><td>CALXEF calibration not ok. More white spots.</td></tr></table>
+<!-- Author: brucken -->
+
+
+<!-- Date: Mon Sep 22 07:22:13.279 2008 -->
+MCR calls, they will be injecting beam in about ten minutes.
+<!-- Author: peter -->
+
+
+
+<!-- Date: Mon Sep 22 07:52:16.317 2008 -->
+ENCP TO TAPE red in ProcMon
+<!-- Author: Dave :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267291' target=_top>267291</a>) -->
+<!-- Comment: Mon Sep 22 08;11;46 comment by...Dave -->
+back to green
+<!-- Date: Mon Sep 22 07:55:46.464 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=267275 target=_runSummary>267275</A> x4140B</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [9,1129,725]</FONT></TD>
+<TD ALIGN=CENTER>22:16:17</TD>
+<TD ALIGN=CENTER>05:20:08</TD>
+<TD ALIGN=CENTER>06:56:43</TD>
+<TD ALIGN=RIGHT>   1,060,283</TD>   <TD ALIGN=RIGHT>  2,035.37</TD>
+<TD ALIGN=RIGHT>  1,993.36</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>06:56:43</TD>
+<TD ALIGN=RIGHT>     1,060,283</TD> <TD ALIGN=RIGHT>  2,035.37</TD>
+<TD ALIGN=RIGHT>  1,993.36</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Mon Sep 22 07:58:48.869 2008 -->
+<font color=red>Shift Summary: </font><pre>- inherit smootly running shift from Itsuo. continue running. 
+- issue with SVX chip status map consumer monitor; paged Si expert (sergo). 
+  he will look at it on day shift. 
+ 
+- store ends smoothly at 5.30 AM; total store duration of 17.33 hours.  
+  cryo power cycles wcal02, wcal07 and pcal07 at our request. 
+ 
+- do all calibrations during D0 access. 
+ 
+- switch to cosmics thereafter. 
+ 
+- after d0 access finishes we go into shot setup at 7.30 AM. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   267275
+Delivered Luminosity   1446.4 nb-1  
+Acquired Luminosity    	1408.4 nb-1  
+Efficiency             97.4
+   
+</td></tr></table></pre>
+<!-- Author: peter wittich -->
+
+
+<!-- Date: Mon Sep 22 08:05:47.163 2008 -->
+HBM turned red briefly in iFix, then turned back to gree.
+<!-- Author: Dave :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=267291' target=_top>267291</a>) -->
+
+
+<!-- Date: Mon Sep 22 08:06:00.678 2008 -->
+<table><tr><td><a href=/elog/notebooks/2008/Mon_Sep_22_2008_Day.080558.ps align=top><img src=/cgi/elog/elog.pl?nb=2008&action=view&page=-4922  align='top'></a></td><td>cold stuff all around. Example</td></tr></table>
+<!-- Author: brucken -->
+

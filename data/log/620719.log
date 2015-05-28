@@ -1,0 +1,403 @@
+<!-- Title: Owl shift. Tue Jul  2, 2002 -->
+<!-- SciCo: Teruki Kamon -->
+<!-- DAQAce: Minsuk Kim -->
+<!-- MonAce: James Kraus -->
+<!-- CO: Carlos Sanchez -->
+<!-- OpManager: Matthew Jones -->
+<!-- Notes: -->
+<pre>Store 1486 colliding at L = 3.96x10^30 
+Pbar stacking rate = 0 because of PMAG problem  
+	since the prev. shift. 
+The store will remain until 8:00 
+Detector condition: CMX HV SE 14 is off</pre>
+
+
+<!-- Date: Tue Jul 2 00:50:04 2002 -->
+The PSM heartbeat alarm has gone off, and it hasn't cleared after more than half an hour.  At the instruction of the expert, I unlocked the Voltman terminal and found voltman had crashed.  I restarted the program and the error cleared.
+<!-- Author: Jim Kraus -->
+
+
+<!-- Date: Tue Jul 2 00:58:11 2002 -->
+The was a TOF HV alarm, but it cleared itself before I could do anything.
+<!-- Author: Jim Kraus -->
+
+
+<!-- Date: Tue Jul 2 00:58:49 2002 -->
+<table border=0><td><tr><td bgcolor=#e0e030>MCR said that Store 1486 will remain untill noon.</td></tr></td></table>
+<!-- Author: Teruki -->
+
+
+<!-- Date: Tue Jul 2 01:06:30 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4173&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4173' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4174&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4174' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4175&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4175' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 01;06;59 comment by...Jim Kraus -->
+Shift Losses, SI-Test1, SI-Test2
+
+
+<!-- Date: Tue Jul 2 01:10:00 2002 -->
+<pre>Silicon BTO - VRB_SVX_02. 
+L2 Trigger Rates Problem - L2 has dropped to 0 Hz. 
+L3 Trigger Rates Problem. 
+=&gt; HRR gave okay</pre>
+<!-- Author: Minsuk :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147580' target=_top>147580</a>) -->
+
+
+<!-- Date: Tue Jul 2 01:33:16 2002 -->
+The PSM heartbeat alarm went off again.  I checked the PC and Voltman had crashed again.  I paged the expert, and he instructed me to reboot the machine and restart iFix and Voltman.  He further instructed that I should page Marcin Wolter if it happens again.  Unfortunately, immediately after he hung up, the program crashed again.  I have paged Marcin Wolter.
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 03;43;00 comment by...Jim Kraus -->
+Marcin came by and told us that voltman kept crashing because the database it was trying to write to reached its maximum capacity.  He took care of it and the PSM heartbeat alarms have gone away.
+<!-- Date: Tue Jul 2 01:34:57 2002 -->
+TOF tripped.  Minsuk is looking at it.
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 01;47;44 comment by...Minsuk -->
+<pre>West channel 350 tripped. Tried to reset tripped channel on 1st floor PC. It looks okay after several tries. </pre>
+
+<!-- Comment: Tue Jul  2 01;53;22 comment by...Minsuk -->
+<pre>Any checking may be needed because this channel was tripped 30 minutes ago. But it was recovered by itself, then.</pre>
+
+<!-- Comment: Tue Jul  2 02;08;30 comment by...Minsuk -->
+Tripped again at 2:00 am. Finally left HV off.
+
+
+<!-- Comment: Tue Jul  2 02;15;11 comment by...Minsuk -->
+<pre>Whenever I was trying to reset tripped HV and leave on several times, HV of cha.350 started to drop from around 160.</pre>
+<!-- Comment: Tue Jul  2 02;20;30 comment by...Minsuk -->
+Only cha. 350 was off.
+<!-- Date: Tue Jul 2 02:11:39 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4177&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4177' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4178&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4178' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4179&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4179' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 02;12;12 comment by...Jim Kraus -->
+Shift losses, SI-Test1, SI-Test2
+
+
+
+
+<!-- Date: Tue Jul 2 02:23:17 2002 -->
+There was a COT alarm.  The color in the main iFix alarm page stayed green, but on the COT Power levels display shows that many of the LSW power supplies are having problems.
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 03;23;44 comment by...Jim Kraus -->
+The COT LSW low voltage power supplies tripped off at 2:06.
+<!-- Date: Tue Jul 2 02:23:48 2002 -->
+There was a CMX trip.  I reset the voltages.
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 02;40;24 comment by...Jim -->
+It tripped a second time.  Both times, it was wedges 9 and 10 in the SW that tripped.
+
+
+<!-- Date: Tue Jul 2 02:50:26 2002 -->
+CMX tripped again.  Same wedges.  I reset it again.  If it trips again, I will page the expert.
+<!-- Author: Jim Kraus -->
+
+
+<!-- Date: Tue Jul 2 02:56:52 2002 -->
+COT expert asked to pause run 
+<!-- Author: Minsuk :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147580' target=_top>147580</a>) -->
+
+<!-- Date: Tue Jul 2 03:02:43 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147580">147580</A>
+ Terminated at 2002.07.02 03:00:37
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jul 2 03:02:43 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147580">147580</A>
+TERMINATE: End run due to COT
+<!-- Author: Ace x2080 -->
+
+
+
+<!-- Date: Tue Jul 2 03:09:26 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4180&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4180' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4181&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4181' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4182&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4182' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 03;10;06 comment by...Jim Kraus -->
+Shift Losses, SI-Test1, SI-Test2
+
+
+
+<!-- Date: Tue Jul 2 03:26:42 2002 -->
+CMX tripped off again.  Wedges 9 &10 in the southwest again.  The expert has been paged.
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 03;30;27 comment by...Jim Kraus -->
+Expert said to reset the hi voltage again, and if it trips another time to set the hi voltage to standby.
+
+
+<!-- Date: Tue Jul 2 03:35:19 2002 -->
+CMX tripped again.  The offending wedges were set to standby.
+<!-- Author: Jim Kraus -->
+
+
+<!-- Date: Tue Jul 2 03:42:27 2002 -->
+Lost a COT control power supply in LSW at 2:06AM.  Data since then has one quadrant missing in SL2, 3, 6, and 7.  Unable to reset remotely, even tried cycling endwall power.  Ops man informed we need an access to fix the problem.
+<!-- Author: Aseet Mukherjee -->
+
+
+<!-- Date: Tue Jul 2 03:48:27 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147581">147581</A>
+ Activated at 2002.07.02 03:46:57
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jul 2 03:48:27 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147581">147581</A>
+ACTIVATE: Physics run with default trigger
+<!-- Author: Ace x2080 -->
+
+
+<!-- Date: Tue Jul 2 03:53:54 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147581">147581</A>
+ Terminated at 2002.07.02 03:52:47
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jul 2 03:55:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147581">147581</A>
+TERMINATE: End run for SVX calibration
+<!-- Author: Ace x2080 -->
+
+
+<!-- Date: Tue Jul 2 03:55:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147581">147581</A>
+TERMINATE: End run for SVX calibration
+<!-- Author: Ace x2080 -->
+
+
+
+<!-- Date: Tue Jul 2 04:00:01 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4183&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4183' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4184&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4184' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4185&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4185' width='300'></a></center>
+<!-- Author: Jim -->
+<!-- Comment: Tue Jul  2 04;00;35 comment by...Jim Kraus -->
+Shift Losse, SI-Test1, SI-Test2
+
+<!-- Date: Tue Jul 2 04:14:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147583">147583</A>
+ACTIVATE: Silicon D-mode calibration run with DPS-on
+<!-- Author: Ace x2080 -->
+
+
+<!-- Date: Tue Jul 2 04:18:10 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147583">147583</A>
+TERMINATE: Done svx D-mode calib with DPS-on
+<!-- Author: Ace x2080 -->
+<!-- Comment: Tue Jul  2 04;18;37 comment by...Minsuk -->
+Error: DTO on muon_scint_00 crate
+
+<!-- Date: Tue Jul 2 04:25:08 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147584">147584</A>
+ACTIVATE: Silicon D-mode Calibratin with DPS-off
+<!-- Author: Ace x2080 -->
+
+
+<!-- Date: Tue Jul 2 04:29:24 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147584">147584</A>
+TERMINATE: Done silicon D-mode calib with DPS-off
+<!-- Author: Ace x2080 -->
+<!-- Comment: Tue Jul  2 04;43;10 comment by...Minsuk -->
+DTO on muon_scint_00 crate
+<!-- Date: Tue Jul 2 04:37:27 2002 -->
+Silicon has been set to stand-by.
+<!-- Author: Jim Kraus -->
+
+
+<!-- Date: Tue Jul 2 04:46:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147585">147585</A>
+ Activated at 2002.07.02 04:44:16
+<!-- Author: RunControl -->
+<!-- Comment: Tue Jul  2 05;00;55 comment by...Minsuk -->
+SVX,ISL,L00 and CMU inhibit disabled
+<!-- Date: Tue Jul 2 04:46:56 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147585">147585</A>
+ACTIVATE: Physics run withtout Silicon due to COT problem
+<!-- Author: Ace x2080 -->
+
+
+
+<!-- Date: Tue Jul 2 05:00:40 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4186&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4186' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4187&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4187' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4188&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4188' width='300'></a></center>
+<!-- Author: Jim -->
+<!-- Comment: Tue Jul  2 05;01;09 comment by...Jim  -->
+Shift Losses, SI-Test1, SI-Test2
+
+
+<!-- Date: Tue Jul 2 06:03:18 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4189&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4189' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4190&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4190' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4191&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4191' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 06;03;50 comment by...Jim Kraus -->
+Shift Losses, SI-Test1, SI-Test2
+
+
+<!-- Date: Tue Jul 2 07:01:17 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4192&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4192' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4193&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4193' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4194&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4194' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 07;01;46 comment by...Jim Kraus -->
+Shift Losses, SI-Test1, SI-Test2
+
+
+<!-- Date: Tue Jul 2 07:55:43 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4195&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4195' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4196&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4196' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4197&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4197' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 07;56;09 comment by...Jim Kraus -->
+Shift Losses, SI-Test1, SI-Test2 
+
+<!-- Date: Tue Jul 2 07:56:40 2002 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147580>147580</A> 
+x2407C</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [10,73,301]</TD>                                       
+<TD ALIGN=CENTER>23:40:49</TD>                                          
+<TD ALIGN=CENTER>03:00:37</TD>                                          
+<TD ALIGN=CENTER>02:27:39</TD>                                          
+<TD ALIGN=RIGHT>     15,693,811</TD>                                    
+<TD ALIGN=RIGHT>       502,642</TD>                                     
+<TD ALIGN=RIGHT>     103,396</TD>                                       
+<TD ALIGN=RIGHT>   32.865</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147581>147581</A> 
+x2407D</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [10,73,301]</TD>                                       
+<TD ALIGN=CENTER>03:46:57</TD>                                          
+<TD ALIGN=CENTER>03:52:47</TD>                                          
+<TD ALIGN=CENTER>00:05:41</TD>                                          
+<TD ALIGN=RIGHT>      1,158,119</TD>                                    
+<TD ALIGN=RIGHT>        21,512</TD>                                     
+<TD ALIGN=RIGHT>       3,606</TD>                                       
+<TD ALIGN=RIGHT>    1.074</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=147585>147585</A> 
+x24081</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_1_01 [10,73,301]</TD>                                       
+<TD ALIGN=CENTER>04:44:16</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>03:09:40</TD>                                          
+<TD ALIGN=RIGHT>     34,626,520</TD>                                    
+<TD ALIGN=RIGHT>       406,890</TD>                                     
+<TD ALIGN=RIGHT>     101,034</TD>                                       
+<TD ALIGN=RIGHT>   33.998</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:03</TD>                                                       
+<TD ALIGN=CENTER>05:43:01</TD>                                          
+<TD ALIGN=RIGHT>      51,478,450</TD>                                   
+<TD ALIGN=RIGHT>        931,044</TD>                                    
+<TD ALIGN=RIGHT>       208,036</TD>                                     
+<TD ALIGN=RIGHT>   67.937</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Jul 2 08:02:44 2002 -->
+<center><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4198&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4198' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4199&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4199' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4200&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4200' width='300'></a><a href='/cgi/elog/elog.pl?nb=2002&action=view&page=-4201&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2002&action=view&page=-4201' width='300'></a></center>
+<!-- Author: Jim Kraus -->
+<!-- Comment: Tue Jul  2 08;03;32 comment by...Jim Kraus -->
+Shitt Luminosity, Shift Losses, SI-Test1, SI-Test2 
+
+
+
+<!-- Date: Tue Jul 2 08:05:28 2002 -->
+<font color=red>Shift Summary: </font><pre>OWL shift 7/02/02 
+----------------- 
+ 
+Plan 
+---- 
+Run 147580 PHYSICS_1_01[10,73,301] started at 23:40 (EVE shift). 
+We ontinue the data taking until 8:00 (Store 1486). 
+Note: MCR later decided to continue Store 1486 until noon. 
+ 
+Highlights: 
+=========== 
+0:00 Inherited Run 147580 where CMX SE 14 HV is kept off due to frequent HV 
+     trips (EVE shift) 
+         All detector systems are integrated! 
+	     0:50 PSM heartbeat alarm (again at 1:33, 1:51) 
+		      paged Marcin Wolter. He is on the way. 
+	     0:58 TOF HV alarm (West 350) - cleared by itself. 
+	     1:34 TOF HV alarm (West 350) - RUN, paused until 1:47 
+	     1:56 TOF HV alarm (West 350) - RUN, paused until 1:59 
+	     2:01 TOF HV alarm (West 350) - RUN, paused until 2:05 
+		      keep West 350's HV off and continue the data taking. 
+	     2:12 COT Low Voltage alarm - RUN, paused until 2:22 
+	     2:16 CMX HV alarm - RUN, paused until 2:22 
+	     2:24 CMX SW 9&10 HV alarm - RUN, paused until 2:27 
+	     2:23 COT Power Lower South West alarm. 
+		  The data taking continued while we contacted Asset and CO  
+		  was checking the monitors. 
+	     2:43 CMX SW 9&10 HV alarm - RUN, paused until 2:49 
+	     2:54 RUN paused during Asset is investigating the COT power alarm. 
+	     3:00 Run ended with 33 nb-1.  
+	          COT data (from 2:12am) in Phi=180-270 deg, junk. 
+ 
+3:29 Cryo (Jim) has been trying to reset the power control, but failed. 
+     Called Matthew Jones (Ops Manager) to request an access. 
+ 
+3:43 Matthew called back. We might have to wait for the access until the  
+     machine study is completed. This could mean Wednesday. Detailed plan 
+     will be discussed at 8am meeting. Meantime, we just continue taking  
+     the data. 
+ 
+3:47 Paged silicon (218-8227). Gino wanted: 
+	   Perform D-mode calibrations (147583, 147584) 
+	   Set stanbdy HVs 
+	   Remove FIB crates from Run_Control 
+	   Take the data w/o silicon 
+ 
+4:46 Run 147585, default tigger table without silicon due to the COT LV 
+     problem. 
+ 
+8:00 Data taking continues... 
+ 
+Calibrations: 
+============= 
+Silicon D-mode calibratrion (4:14am - 4:40am). 
+ 
+Problems: 
+========= 
+(1) CMX SW 9&10 (frequesnt HV trips), set to standby at 3:36am after being 
+    consulted by Abe Gallas. 
+ 
+(2) COT control power supply in LSW, lost. The access is requested. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   147580-147585
+Delivered Luminosity   96  
+Acquired Luminosity    67.4  
+Efficiency             70%
+   
+</td></tr></table></pre>
+<!-- Author: Teruki -->

@@ -1,0 +1,383 @@
+<!-- Title: 14:27:50  Mon Aug 21 2000 -->
+<!-- Crewchief: R. Erbacher -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre><h1>New Week.</h1></pre>
+
+
+<!-- Date: Mon Aug 21 14:57:42 2000 -->
+<h2>Weekly Checkout, after power outage:</h2> 
+<pre> 
+tmp/b0pcal00.tmp: ### Crate: b0pcal00 -- All ok! 
+tmp/b0pcal01.tmp: ### Crate: b0pcal01 -- Calibration problem(s)  
+tmp/b0pcal02.tmp: ### Crate: b0pcal02 -- Pedestal problem(s)  
+tmp/b0pcal03.tmp: ### Crate: b0pcal03 -- All ok! 
+tmp/b0pcal04.tmp: ### Crate: b0pcal04 -- All ok! 
+tmp/b0pcal05.tmp: ### Crate: b0pcal05 -- All ok! 
+tmp/b0pcal06.tmp: ### Crate: b0pcal06 -- All ok! 
+tmp/b0pcal07.tmp: ### Crate: b0pcal07 -- All ok! 
+tmp/b0pcal08.tmp: ### Crate: b0pcal08 -- All ok! 
+tmp/b0pcal09.tmp: ### Crate: b0pcal09 -- All ok! 
+tmp/b0pcal10.tmp: ### Crate: b0pcal10 -- Pedestal problem(s)  
+tmp/b0pcal11.tmp: ### Crate: b0pcal11 -- Pedestal problem(s)  
+</pre> 
+<b>b0pcal01:</b> Ped problems: 
+<pre> 
+   15   16    0    1000   0.0      159.8  11.2 
+   15   16    1    1000   0.0      168.0  11.3 
+   15   16    2    1000   0.0      168.3  11.3 
+   15   16    3    1000   0.0      180.0  11.9 
+</pre>Calib problems: 
+<pre> 
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE** 
+* ADMEM=15 QIE=16 Warning  8: Sigma(slope)/slope big         (    0.0028) ( 0) ( 0) * 
+* ADMEM=15 QIE=16 Warning 11: Sigma(offset) big              (    1.7962) ( 0) ( 1) * 
+*******************   End of WARNING messages   ************************************* 
+ 
+*******************   Start of FAILURE messages   ************** VALUE    CAP RANGE** 
+* ADMEM=19 QIE=12 Failure 10: No fitting                     (    0.0000) ( 0) ( 0) * 
+*******************   End of FAILURE messages   ************************************* 
+</pre> Will have to change CAFE card for (19,12) and look into 
+(15,16). 
+<p><b>b0pcal02:</b> Short symptoms in (19,0) and (19,6). No transition board problems... checked last week.<br> 
+<p><b>b0pcal10:</b> Bad news: short symptoms return in (21,4). 
+Mike had fixed a bad PMT connector for this particular channel.  
+<p><b>b0pcal11:</b> Pedestal problems: 
+<pre> 
+   20   11    0    1000   0.0      199.9  31.3 
+   20   11    1    1000   0.0      196.4  29.6 
+   20   11    2    1000   0.0      175.9  27.2 
+   20   11    3    1000   0.0      193.6  26.7 
+</pre> 
+<pre> 
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE** 
+* ADMEM=17 QIE= 3 Warning  4: Raw pedestal RMS big           (   19.2138) ( 3) ( 0) * 
+* ADMEM=19 QIE= 3 Warning  3: Raw pedestal low               (  149.3430) ( 3) ( 0) * 
+*******************   End of WARNING messages   ************************************* 
+ 
+*******************   Start of FAILURE messages   ************** VALUE    CAP RANGE** 
+* ADMEM=20 QIE=11 Failure  6: Raw pedestal RMS TOO big       (   31.2748) ( 3) ( 0) * 
+*******************   End of FAILURE messages   ************************************* 
+</pre>
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Mon Aug 21 15:34:19 2000 -->
+<b>b0pcal11:</b> 
+<p>On looking at the pedestal distributions for b0ecal03 channels 
+(19,11) and (21,1), it appears they have light leaks.  Rick tried to tape up both plates on the endwall, wedge 21 and wedge 23 west.  Made some improvements but problems not completely gone. 
+Pulling transition boards makes problems go away, so it's not an electronics board problem.  (19,11) looks like a pmt problem in particular.
+<!-- Author: R.J. Tesarek, R. Erbacher -->
+<!-- Comment: Mon Aug 21 15;35;07 comment by...RDE -->
+<b>Ignore this...it's referring to b0ecal03.  Oops.
+
+
+<!-- Date: Mon Aug 21 15:38:31 2000 -->
+<br><b>b0pcal11:</b> <p>The problems in channels (19,3) and (20,11) are recurring, and right now the HV is NOT on to the 
+PMTs.  We likely need to swap cards but right now the crate is 
+being worked on (grounding) so we'll wait until tomorrow or so.  
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Mon Aug 21 15:40:06 2000 -->
+<pre>We inserted a plug ASD card into slot 10 of plug crate 5. 
+We looked at the noise on the ASD card. We plugged Z modules 
+in slot 11 and 12. They did not seem to reduce the noise.</pre>
+<!-- Author: H. Budd, YS Chung -->
+
+
+<!-- Date: Mon Aug 21 15:45:14 2000 -->
+</b><br><b>b0pcal01:</b> 
+<p>Swapped out the "no fitting" channel in (19,12) with a new 
+cafe card.  Checked again.  Get ped warnings on (15,15) and 
+(16,2), which are different than the warnings above in (15,16): 
+<pre> 
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE** 
+* ADMEM=15 QIE=15 Warning  3: Raw pedestal low               (  142.6750) ( 3) ( 0) * 
+* ADMEM=16 QIE= 2 Warning  3: Raw pedestal low               (  136.4690) ( 3) ( 0) * 
+*******************   End of WARNING messages   ************************************* 
+</pre> All is ok other than that.  Here is the new <b>Crate Map:</b> 
+<pre> 
+ In Slot2   IDPROM = 0023 001 TRACER__V2              
+ 
+ In Slot4   IDPROM = 0048.007SMXR_VD -D02-R02-S28-V01 
+ In Slot5   IDPROM = 0044.007SMXR_VD -D02-R02-S28-V01 
+ In Slot6   IDPROM = 0030.007SMXR_VD -D02-R02-S28-V01 
+ 
+ In Slot14   IDPROM = 0197 003 ADMEM_V4.0          470 
+ In Slot15   IDPROM = 0156 003 ADMEM_V4.0          470 
+ In Slot16   IDPROM = 0322 003 ADMEM_V4.0          470 
+ In Slot17   IDPROM = 0051 003 ADMEM_V4.0          470 
+ In Slot18   IDPROM = 0196 003 ADMEM_V4.0          470 
+ In Slot19   IDPROM = 0264 003 ADMEM_V4.0          470 
+ In Slot20   IDPROM = 0083 003 ADMEM_V4.0          470 
+ In Slot21   IDPROM = 0246 003 ADMEM_V4.0          470 
+ 
+ 
+ 
+QIE ID table: 
+QIE    ADMEM: 14      15      16      17      18      19      20      21      
+  0          6481    2716    2715    4517    5132    6497    1285    5804 
+  1          6215    2847    3871    5540    2765    6453    3641    6036 
+  2          6413    2704     674    4320    1153    2071    1270    5840 
+  3          6401    2733    2820     912    3360    5144    3577    5973 
+  4          1867    2806    1007    4518    4104    5392    1326    1865 
+  5          1853    2615    2736     869     811    5150    1426    5818 
+  6          6374    2712    4569    4164    3846    3090    1442    5386 
+  7          6123    2845     468    4280    4994    2518    4818    5113 
+  8          6004    3962    3704    4297    6393    2460    1308    2067 
+  9          5185    2708    3039     727    4983    4873    1331    5201 
+ 10          5032    4005    2976    4306    4917    5806    1377    6099 
+ 11          5442    2838    2986    4108    6490    4148    1376    2118 
+ 12          5373    2880    2787    4251    5321    6065    5515    1922 
+ 13          5712    5557    2575    5542    3229    4783    4897    5359 
+ 14          5216    2790    3588     851    3237    4996    2796    1923 
+ 15          6323    2895    2901    4168    5448    3789    4267    5324 
+ 16          6067    2817    2949     908    4505    3172    4486    5268 
+ 17          5257    3999    2843     810    2100    3145    4646    6033 
+ 18          5280    5417    2903    4295    4381    4468    4077    1280 
+ 19          5094     270    2917    4304    1722    4212    4145    1424 
+</pre>
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Mon Aug 21 17:45:43 2000 -->
+<br><b>EPNE</b> 
+<br>Got a page at ~4:50pm.  The northeast plug had been powered off (crate PEIs switched off) for some reason.  Neither Rick nor I had an explanation, as it was on when I left the pit at 4pm.  Someone was working on the 
+grounding, so I don't know if that was related.  However, if anyone needs to tamper with equipment in order to perform work, they of course should then leave it in the state in which they found it, unless told to do otherwise.  Yet I'm sure the appropriate people aren't reading this log entry anyways, so whatever.  Maybe we should design some sort of ink that leaves a trace on whoever touches the crates, kinda like marked money.  
+*grin*
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Tue Aug 22 15:15:00 2000 -->
+<br><b>b0pcal11:</b> 
+<br>Rechecked this crate today but get exact same errors as yesterday.  Will have to replace some CAFE cards: 
+<pre> 
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE** 
+* ADMEM=17 QIE= 3 Warning  4: Raw pedestal RMS big           (   15.0909) ( 3) ( 0) * 
+* ADMEM=19 QIE= 3 Warning  3: Raw pedestal low               (  148.8290) ( 3) ( 0) * 
+*******************   End of WARNING messages   ************************************* 
+ 
+*******************   Start of FAILURE messages   ************** VALUE    CAP RANGE** 
+* ADMEM=20 QIE=11 Failure  6: Raw pedestal RMS TOO big       (   20.8326) ( 3) ( 0) * 
+*******************   End of FAILURE messages   ************************************* 
+</pre> 
+  
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Tue Aug 22 15:28:26 2000 -->
+<br><b>b0pcal02:</b><br> 
+Rechecked this crate.  Get different warnings from before, although the one in (15,15) was seen last week.  Not clear if  
+cards should be swapped since errors aren't consistent: 
+<pre> 
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE** 
+* ADMEM=15 QIE=15 Warning  3: Raw pedestal low               (  142.8320) ( 3) ( 0) * 
+* ADMEM=16 QIE= 2 Warning  3: Raw pedestal low               (  135.5150) ( 3) ( 0) * 
+*******************   End of WARNING messages   ************************************* 
+</pre>  
+<!-- Author: R. Erbacher -->
+<!-- Comment: Tue Aug 22 15;30;18 comment by...RDE -->
+<br>However, calibration warnings still show (15,16) as troublesome, so should maybe swap this card.
+<pre>
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE**
+* ADMEM=15 QIE=16 Warning  8: Sigma(slope)/slope big         (    0.0025) ( 0) ( 0) *
+* ADMEM=15 QIE=16 Warning 11: Sigma(offset) big              (    1.5830) ( 0) ( 1) *
+*******************   End of WARNING messages   *************************************
+</pre>
+
+
+<!-- Comment: Tue Aug 22 15;33;08 comment by...RDE -->
+<br><b>b0pcal01</b> is what this is referring to!
+
+
+<!-- Comment: Tue Aug 22 16;47;30 comment by...RDE -->
+Tried to access transition board for slot 15, <b>b0pcal01</b> to 
+see if the large peds in (15,16) are due to the pmt signal or due to a cafe card problem.  Absolutely impossible to get to trans. boards for this crate!  Couldn't do it.
+<!-- Date: Tue Aug 22 16:13:36 2000 -->
+<br><b>b0pcal11</b> 
+<p>Replaced card in (20,11) (ped rms consistently too big and HV not on!).  Unfortunately, this didn't seem to fix the problem 
+really.  I looked again at the CAEN supplies, and none of the LEDs in the back indicate "HV on", so it really appears that the HV is off for these EPNE crates.  Here are the warnings I now see: 
+<pre> 
+*******************   Start of WARNING messages   ************** VALUE    CAP RANGE** 
+* ADMEM=17 QIE= 3 Warning  4: Raw pedestal RMS big           (   12.8967) ( 3) ( 0) * 
+* ADMEM=19 QIE= 3 Warning  3: Raw pedestal low               (  148.7880) ( 3) ( 0) * 
+* ADMEM=20 QIE=11 Warning  4: Raw pedestal RMS big           (   17.1493) ( 3) ( 0) * 
+* ADMEM=21 QIE= 0 Warning  3: Raw pedestal low               (  149.8150) ( 3) ( 0) * 
+*******************   End of WARNING messages   ************************************* 
+</pre> 
+Here is the new <b>Crate Map:</b> 
+<pre> 
+ In Slot2   IDPROM = 0127 001 TRACER__V2.1A           
+ In Slot4   IDPROM = 0052.007SMXR_VD -D02-R02-S28-V01 
+ In Slot5   IDPROM = 0057.007SMXR_VD -D02-R02-S28-V01 
+ In Slot6   IDPROM = 0046.007SMXR_VD -D02-R02-S28-V01 
+ In Slot14   IDPROM = 0026 003 ADMEM_V4.0          470 
+ In Slot15   IDPROM = 0094 003 ADMEM_V4.0          470 
+ In Slot16   IDPROM = 0040 003 ADMEM_V4.0          470 
+ In Slot17   IDPROM = 0060 003 ADMEM_V4.0          470 
+ In Slot18   IDPROM = 0033 003 ADMEM_V4.0          470 
+ In Slot19   IDPROM = 0029 003 ADMEM_V4.0          470 
+ In Slot20   IDPROM = 0038 003 ADMEM_V4.0          470 
+ In Slot21   IDPROM = 0047 003 ADMEM_V4.0          470 
+ 
+ 
+ 
+QIE ID table: 
+QIE    ADMEM: 14      15      16      17      18      19      20      21      
+  0          5685    2576    2475    6124    5722    5715    4066    5525 
+  1          4202    2228    4886    6509     724    5621     874    5719 
+  2          4142    2378    4848    6534    5500     772    4401    5485 
+  3          5706    2324    2724    6260    5596    5503     889    5504 
+  4          4230    2140    5585    6576     778     710     958    5565 
+  5          5583    2428    5598    6353    4095    4107    5538    5735 
+  6          4362    4511    5674    6024    5745    4060    5491    5752 
+  7          5742    4287    5698    4402    4473    4208    5713    5731 
+  8          4187    4057    5634    5987    4042    5670    5750    5694 
+  9           726    4433    5637     715    4134    5764    5649    5726 
+ 10          5687    4399    5748    4073    4116    4482    5707    5487 
+ 11          4201    5770    5682     949    4492     847    3414    5761 
+ 12          5766    4452    5700     690    4476    5736    5738    5763 
+ 13           806     873    5729     856     700     743    5534    5488 
+ 14          5798    4343    5739     800    4064     828    4132    5631 
+ 15           689    4085     781     820    4409     945    4063    5743 
+ 16          5721    4056    5677     839    4808     850    5607    5639 
+ 17          4135     780    5671     808     775     777    4317    5549 
+ 18          4222     742    5762     947    4087    4218     960    5498 
+ 19          5784    4459    5697     795    4342     701     936    5737 
+</pre>  
+<!-- Author: R. Erbacher -->
+
+
+
+<!-- Date: Tue Aug 22 17:06:05 2000 -->
+<br><b>b0pcal01:</b><br> 
+Since I couldn't get to the transition board for slot 15 in this crate, I ran a ped test in DC mode to see how the electronics looked.  Here are interesting results for a certain range: 
+<pre> 
+   15   13    2    1000   0.0       58.5   2.1 
+   15   13    3    1000   0.0       61.4   1.8 
+   15   14    0    1000   0.0        0.0   0.0 
+   15   14    1    1000   0.0        0.0   0.0 
+   15   14    2    1000   0.0        0.0   0.0 
+   15   14    3    1000   0.0        0.0   0.0 
+   15   15    0    1000   0.0       36.7   1.8 
+   15   15    1    1000   0.0       35.5   1.8 
+   15   15    2    1000   0.0       35.2   1.7 
+   15   15    3    1000   0.0       38.7   1.7 
+   15   16    0    1000   0.0       63.3   4.6 
+   15   16    1    1000   0.0       61.6   4.2 
+   15   16    2    1000   0.0       69.8   4.4 
+   15   16    3    1000   0.0       72.9   4.8 
+   15   17    0    1000   0.0       69.0   1.8 
+   15   17    1    1000   0.0       65.8   1.8 
+</pre> 
+(15,16) which has been giving big pedestal RMS values (see above and previous weeks) seems to have a large calibration-mode RMS as well.  Curiously, (15,14) doesn't have any peds in this mode.   
+<!-- Author: R.Erbacher -->
+<!-- Comment: Tue Aug 22 17;12;39 comment by...RDE -->
+<br>Took a DC ped run again and the calib-mode ped rms values look even bigger:<pre>
+   15   16    0    1000   0.0       63.2   7.7
+   15   16    1    1000   0.0       61.5   7.6
+   15   16    2    1000   0.0       69.5   7.7
+   15   16    3    1000   0.0       72.7   8.1
+</pre> 
+
+
+<!-- Date: Tue Aug 22 17:26:51 2000 -->
+<br><b>b0pcal01:</b> 
+<p>Now there are FRAM download problems in (15,13) again.  On August 7th (see elog entry) the same problem occurred but Rick swapped 
+the CAFE card and the problem went away.  To summarize the current "observations" in slot 15 in this crate:<pre> 
+1) (15,13) FRAM download failures, 2nd time in same slot, diff card. 
+2) (15,14) zero pedestals in calibration (dc) mode. 
+3) (15,15) persistent "low pedestal" warnings. 
+4) (15,16) large pedestal rms values both with DC and input modes. 
+</pre>
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Wed Aug 23 11:33:18 2000 -->
+<br><b>b0pcal01:</b> 
+<p>Replaced ADMEM (#156) in slot 15 primarily because of the 2nd 
+ instance of the FRAM loading problem in (15,13) even after changing CAFE cards,  
+and secondarily because of the other problems detailed in  
+the entry from 8/22 including the zero peds when using DC mode 
+in (15,14). 
+ 
+<p>On testing the new board, channel (15,1) fails due to "too many points removed" in calculating the rms.  There is something strange here because the range is 6 for peds!   
+<pre> 
+   15    1    0    1000   6.0      232.0   0.7 
+   15    1    1    1000   6.0      231.0   0.7 
+   15    1    2    1000   6.0      232.1   0.7 
+   15    1    3    1000   6.0      233.4   0.6 
+</pre> Swap out CAFE card #1909 from (15,1).  All ok in crate but still "raw pedestal low" warning in (16,2), of course. 
+Here is the new <b>Crate Map:</b> 
+<pre> 
+ In Slot2   IDPROM = 0023 001 TRACER__V2              
+ In Slot4   IDPROM = 0048.007SMXR_VD -D02-R02-S28-V01 
+ In Slot5   IDPROM = 0044.007SMXR_VD -D02-R02-S28-V01 
+ In Slot6   IDPROM = 0030.007SMXR_VD -D02-R02-S28-V01 
+ In Slot14   IDPROM = 0197 003 ADMEM_V4.0          470 
+ In Slot15   IDPROM = 0291 003 ADMEM_V4.0          470 
+ In Slot16   IDPROM = 0322 003 ADMEM_V4.0          470 
+ In Slot17   IDPROM = 0051 003 ADMEM_V4.0          470 
+ In Slot18   IDPROM = 0196 003 ADMEM_V4.0          470 
+ In Slot19   IDPROM = 0264 003 ADMEM_V4.0          470 
+ In Slot20   IDPROM = 0083 003 ADMEM_V4.0          470 
+ In Slot21   IDPROM = 0246 003 ADMEM_V4.0          470 
+ 
+QIE ID table: 
+QIE    ADMEM: 14      15      16      17      18      19      20      21      
+  0          6481     211    2715    4517    5132    6497    1285    5804 
+  1          6215    4455    3871    5540    2765    6453    3641    6036 
+  2          6413    1910     674    4320    1153    2071    1270    5840 
+  3          6401    5822    2820     912    3360    5144    3577    5973 
+  4          1867    5165    1007    4518    4104    5392    1326    1865 
+  5          1853    5138    2736     869     811    5150    1426    5818 
+  6          6374    4216    4569    4164    3846    3090    1442    5386 
+  7          6123    5056     468    4280    4994    2518    4818    5113 
+  8          6004    6112    3704    4297    6393    2460    1308    2067 
+  9          5185    5181    3039     727    4983    4873    1331    5201 
+ 10          5032    5846    2976    4306    4917    5806    1377    6099 
+ 11          5442    6178    2986    4108    6490    4148    1376    2118 
+ 12          5373    1760    2787    4251    5321    6065    5515    1922 
+ 13          5712    1705    2575    5542    3229    4783    4897    5359 
+ 14          5216    1679    3588     851    3237    4996    2796    1923 
+ 15          6323    1965    2901    4168    5448    3789    4267    5324 
+ 16          6067    1927    2949     908    4505    3172    4486    5268 
+ 17          5257    5177    2843     810    2100    3145    4646    6033 
+ 18          5280    1777    2903    4295    4381    4468    4077    1280 
+ 19          5094    6096    2917    4304    1722    4212    4145    1424 
+</pre>
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Wed Aug 23 13:02:32 2000 -->
+<br><b>b0pcal01:</b> 
+<p>Configured the new admem in slot 15.  Downloaded the Et lookup table.  Checked all of the trigger output sums.  Everything looks good.  
+ 
+<p><b>TSCR number 2</b> seems to have a stuck bit in the channel 6 sum: 
+always puts out a "64".  Tried it with many different cables and even in a different crate with a different admem, but still has the same problem.  Also, while testing it in ccal07 it blew a F18 
+10amp fuse which I replaced.  
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Thu Aug 24 16:03:52 2000 -->
+<pre><br><b>b0pcal00:</b> 
+<p>Rick told Greg to tell me there was a blown fuse in pcal00.  Found the bottom LED (-15V) out in the slot 21 admem.  Pulled it out with great difficulty (Mike's help) and found both the F5  
+fuse blown.  Replaced.  Put back admems and cables.  Still can't  
+run a ped test.  Went back up... LED still off.  Found the F6 fuse blown (not sure if it was blown in the first place and I misread it or if it blew after).  Pulled admem out with great difficulty *again* (Rob helped).  Replaced fuse.  Put admem back in.  LED still off.  Won't run a ped.  My fingers hurt and I don't know why the fuses keep blowing. 
+</pre>
+<!-- Author: R. Erbacher -->
+
+
+<!-- Date: Thu Aug 24 17:22:15 2000 -->
+<br><b>b0pcal00:</b> 
+<p>Pulled the admem in slot 21 *again* and found the F6 (-15V) fuse blown again. 
+The only thing I see going on in this area is someone working  
+on (turning on and off) the Caen supplies.  Could be related? 
+Anyways, finally get the fuse to stay put (HV work has stopped, maybe that's why) and do a ckcrate.  All ok!  I do notice, though, that only the power light is on in the TRACER which I didn't think was normal.  
+<!-- Author: R. Erbacher -->

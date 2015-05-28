@@ -1,0 +1,528 @@
+ChangeSet@1.1192.1.7, 2003-12-05 11:39:32-02:00, cel@citi.umich.edu
+  [PATCH] Make readahead last page of file
+  
+  hi marcelo-
+  
+  i posted this a while back on fsdevel for comments, but never heard
+  anything.  i'd like this patch to be included in 2.4.24, as it improves
+  NFS client read performance by a significant margin, and doesn't appear to
+  have any negative impact (see fsdevel archives for benchmarks).  this is
+  against 2.4.23.
+  
+  generic_file_readahead never reads the last page of a file.  this means
+  the last page is always read synchronously by do_generic_file_read.
+  normally this is not an issue, as most local disk reads are fast.
+  however, this means that the NFS client is never given the opportunity to
+  coalesce the last page of a file, which must be read in a separate
+  synchronous read operation.
+  
+  this is especially honerous if the network round trip time is long, and/or
+  the workload consists of reading many uncached small files.
+  
+  i also explored changing the way that generic_file_readahead computes the
+  index of the last page of the file.  the fix below appears to be the best
+  solution.
+
+ChangeSet@1.1192.2.9, 2003-12-05 11:17:04-02:00, dhinds@sonic.net
+  [PATCH] PATCH: update/bugfix for pcnet_cs driver
+  
+  Hi Marcelo,
+  
+  o fixed duplex selection for DL10019 cards in pcnet_cs driver.
+  
+  -- Dave
+
+ChangeSet@1.1192.2.8, 2003-12-05 10:59:20-02:00, elenstev@mesatop.com
+  [PATCH] 2.4.23 update Documentation/Changes for quota-tools
+  
+  This patch updates Documentation/Changes for quota-tools.
+  
+  This information may be needed by those wanting to use the new quota
+  code (CONFIG_QFMT_V2) which went in about 6 months ago.
+  
+  The patch to update ver_linux for quota-tools was applied 5 months ago,
+  but this part slipped through the cracks somehow.
+  
+  Steven
+
+ChangeSet@1.1192.2.7, 2003-12-05 10:33:35-02:00, aspicht@arkeia.com
+  [PATCH] ac97_plugin_ad1980 fixes
+  
+  Hi,
+  
+  I have a MSI875P Neo motherboard which includes an AD1980 codec.
+  I tried to use ac97_plugin_ad1980 as a module, but it failed to load because of a GPL issue. I had to add a MODULE_LICENSE("GPL") to make it work.
+  Also, I had to force the ADI compatibility mode to have the switch input/ouput working.
+  Now, it's working perfectly.
+  Here is the diff -u with kernel version 2.4.23
+
+ChangeSet@1.1192.3.53, 2003-12-04 10:34:54-08:00, laforge@netfilter.org
+  [IPV6]: Do not bypass netfilter for MLD/IGMP messages.
+
+ChangeSet@1.1192.3.52, 2003-12-04 10:32:56-08:00, laforge@netfilter.org
+  [NETFILTER]: Fix ipchains MASQUERADE oops.
+
+ChangeSet@1.1192.2.5, 2003-12-04 12:13:04-02:00, mikael.starvik@axis.com
+  [PATCH] CRIS architecture update
+  
+  Hi Marcelo!
+  
+  The attached patch contains the latest changes to the CRIS
+  architechture that makes it up to date with 2.4.23. Would
+  be nice if you could apply it for inclusion in 2.4.24. Hope
+  it applies without fuzz...
+
+ChangeSet@1.1192.5.10, 2003-12-03 10:05:02-02:00, geert@linux-m68k.org
+  [PATCH] 2.4.23 ext3 warning
+  
+  Kill warning if CONFIG_QUOTA is disabled.
+
+ChangeSet@1.1192.5.9, 2003-12-03 10:04:17-02:00, geert@linux-m68k.org
+  [PATCH] Atyfb on Mach64 GX or Atari
+  
+  Here's the latest incarnation of the atyfb fix for Mach64 GX (compiles with
+  warnings and cannot work) and Atari.
+  
+  There's only one chance since the last version I sent in September: the probing
+  for the crystal frequency is now done for all chips with integrated clock
+  generator.
+
+ChangeSet@1.1192.5.8, 2003-12-03 07:51:25-02:00, adam@nmt.edu
+  [PATCH] PATCH: 3ware driver update for 2.4.23-bk2
+  
+
+ChangeSet@1.1192.3.51, 2003-12-02 16:56:55-08:00, geert@linux-m68k.org
+  [NET]: Fix atm/br2684 build with procfs disabled.
+
+ChangeSet@1.1192.3.50, 2003-12-02 16:29:34-08:00, pavlin@icir.org
+  [RTNETLINK]: Add RTPROT_XORP.
+
+ChangeSet@1.1199, 2003-12-02 16:20:42-07:00, bjorn.helgaas@hp.com
+  ia64: update default configs
+
+ChangeSet@1.1192.5.7, 2003-12-02 15:21:27-02:00, ralf@linux-mips.org
+  [PATCH] MIPS network driver updates
+  
+  Update the MIPS network drivers.  These are all changes to MIPS specific
+  drivers. This patch removes the meth driver for
+  the SGI IP32; support for this machine is only developped for 2.6.  The
+  gt64240eth driver supports the integrated ethernet interface of the
+  Galileo GT-64240 system controller.
+
+ChangeSet@1.1192.5.6, 2003-12-02 15:08:01-02:00, mikpe@csd.uu.se
+  [PATCH] fix some DRM43 warnings
+  
+  [Resend. Was ignored for 2.4.23-pre :-(]
+  
+  This patch fixes three sources of warnings in the new 4.3 DRM code:
+  - drm_os_linux.h has a #warning on broken list_entry usage.
+    The patch backports a fix from the 2.6 code.
+  - radeon_drv.h has a #warning PCI posting bug.
+    The #warning refers to an obsolete and unused macro.
+    Simply remove it. It's also gone from the 2.6 code.
+  - drm_agpsupport.h generates a gcc warning on an assignment
+    used as a truth value.
+    The patch backports a fix from the 2.6 code.
+  
+  These changes are well-tested: they have been in 2.6 for ages,
+  and I've been running them in 2.4.23-pre/rc for months.
+  Please apply.
+  
+  /Mikael
+
+ChangeSet@1.1192.5.5, 2003-12-02 15:06:32-02:00, pp@ee.oulu.fi
+  [PATCH] 2.4 lacks dummy SET_NETDEV_DEV
+  
+   I agree, someone should merge in the dummy SET_NETDEV_DEV once
+   Marcelo starts up 2.4.24-preX
+  
+  Ping :-)
+
+ChangeSet@1.1192.5.4, 2003-12-02 12:02:00-02:00, neilb@cse.unsw.edu.au
+  [PATCH] Drop module count if lockd reclaimer thread failed to start.
+  
+   ----------- Diffstat output ------------
+   ./fs/lockd/clntlock.c |    3 ++-
+   1 files changed, 2 insertions(+), 1 deletion(-)
+
+ChangeSet@1.1192.5.3, 2003-12-02 12:01:27-02:00, neilb@cse.unsw.edu.au
+  [PATCH] Honour SUN NFSv2 hack for "set times to server time.
+  
+  >From  Greg Banks <gnb@melbourne.sgi.com>,
+  see comment in code.
+  
+   ----------- Diffstat output ------------
+   ./fs/nfsd/nfsxdr.c |   11 +++++++++++
+   1 files changed, 11 insertions(+)
+
+ChangeSet@1.1192.5.2, 2003-12-02 11:58:06-02:00, neilb@cse.unsw.edu.au
+  [PATCH] Make root a special case for per-user process limits.
+  
+  This is needed because when a setuid-root program calls
+  setuid(0) to become really-root, p->user becomes root_user,
+  but ->rlim stays as the original user's limit, and now
+  the process cannot fork - becuase root has more processes than
+  the original user had.
+  
+  The real problem is that NPROC is not really a per-process limit,
+  but its a per-user limit, and including it with the rlim structure
+  was not a good idea :-(
+  
+  This fix is already in 2.6
+  
+  
+   ----------- Diffstat output ------------
+   ./kernel/fork.c |    1 +
+   1 files changed, 1 insertion(+)
+
+ChangeSet@1.1192.4.9, 2003-12-02 11:29:52-02:00, ralf@linux-mips.org
+  [PATCH] Misc MIPS video bits
+  
+
+ChangeSet@1.1192.4.8, 2003-12-02 11:27:56-02:00, ralf@linux-mips.org
+  [PATCH] Supply default values to rtc.c
+  
+  This supplies default values (from PC-ish architectures) to the rtc.c
+  driver.
+
+ChangeSet@1.1192.4.7, 2003-12-02 11:26:51-02:00, ralf@linux-mips.org
+  [PATCH] No stone-age compat stuff for MIPS
+  
+  Yeah ugly, let's add one more to that expression ...  Somehow the logic of
+  this expression is the wrong way but heck, this is 2.4 ...
+
+ChangeSet@1.1192.4.6, 2003-12-02 11:26:08-02:00, ralf@linux-mips.org
+  [PATCH] Cleanup lk201-map.c
+  
+  drivers/tc/lk201-map.c is a generated file so needs to be removed on
+  make distclean.
+
+ChangeSet@1.1192.4.5, 2003-12-02 11:25:55-02:00, ralf@linux-mips.org
+  [PATCH] Remove remaining drivers/sgi bits
+  
+
+ChangeSet@1.1192.4.4, 2003-12-02 11:25:48-02:00, ralf@linux-mips.org
+  [PATCH] MIPS ioaddr_t is 32-bit
+  
+
+ChangeSet@1.1192.4.3, 2003-12-02 11:25:34-02:00, ralf@linux-mips.org
+  [PATCH] Add more MIPS bits in <linux/elf.h>
+  
+
+ChangeSet@1.1192.4.2, 2003-12-02 11:25:25-02:00, ralf@linux-mips.org
+  [PATCH] Include <asm/system.h> into spinlock.h
+  
+  <linux/spinlock.h> uses local_irq_save() etc. from <asm/spinlock.h> but
+  relies on this header file having been dragged in on some other way.
+  So if things are just right the build may blow up ...
+
+ChangeSet@1.1192.4.1, 2003-12-02 10:37:25-02:00, ralf@linux-mips.org
+  [PATCH] New PCMCIA drivers
+  
+  Add PCMCIA bridge drivers for AMD Alchemy Au1x00, NEC VRc4173 and Sibyte.
+
+ChangeSet@1.1192.3.48, 2003-12-02 01:43:17-08:00, kaber@trash.net
+  [NETFILTER]: Export conntrack bucket count via read-only sysctl.
+  
+  With help from Harald Welte.
+
+ChangeSet@1.1192.3.47, 2003-12-02 01:41:36-08:00, kadlec@blackhole.kfki.hu
+  [NETFILTER]: Avoid order n^2 lookup of whole conntrack hash in ip_ct_selective_cleanup().
+
+ChangeSet@1.1192.3.46, 2003-12-02 01:38:04-08:00, kaber@trash.net
+  [NETFILTER]: Fix expectation evict order
+  
+  This patch fixes the order in which expectations are evicted when a helper
+  specifies IP_CT_HELPER_F_REUSE_EXPECT.  Prior to that patch, each new
+  expectation is added at the beginning of the masters sibling list.  When
+  max_expected is reached, the first non-established one on the list is reused
+  (which gave LIFO behaviour).
+  
+  The patch
+  - adds new expectations at the end of the masters sibling list
+  - uses list_for_each_entry for finding the oldes one
+  - changes nat core to walk backwards throuth the sibling list when calling
+    nat helpers
+
+ChangeSet@1.1192.3.45, 2003-12-02 01:35:05-08:00, kadlec@blackhole.kfki.hu
+  [NETFILTER]: Use list macros instead of reimplementation.
+
+ChangeSet@1.1192.3.44, 2003-12-02 01:30:36-08:00, shemminger@osdl.org
+  [NETFILTER]: Trivial -- Get rid of warnings in netfilter if /proc is not configured on.
+
+ChangeSet@1.1192.3.43, 2003-12-02 01:29:27-08:00, kaber@trash.net
+  [NETFILTER]: Fix various issues with the amanda conntrack+NAT helpers
+  
+  ip_conntrack_amanda:
+  - udp checksum checked even if not set
+  - memory not validated to be inside packet at all or validated like
+    this: if (*data and data < data_limit)
+  - would create expectation with port 0 which makes nat-helper throw away
+    packet (which makes exploiting the race-condition trivial even on UP)
+  - expectation had no mask.src.* set so connections were accepted from
+    anywhere
+  - helper_unregister called after failed helper_register
+  
+  ip_nat_amanda:
+  - drops packet if amanda_data_fixup fails without clearing the offset
+    field in the expectation which is used as a flag to indicate that the
+    current packet needs mangling. Problem arises from the fact that the
+    conntrack helper creates multiple expectations at once and even if it
+    clears the offset field for the current expectation the following
+    expectations will not have it cleared and will mangle the next packet
+    they see.
+  - same unregister after failed register problem
+
+ChangeSet@1.1192.3.42, 2003-12-02 01:27:14-08:00, laforge@netfilter.org
+  [NETFILTER]: Kill extraneous memset()s in nat/conntrack TFTP code.
+
+ChangeSet@1.1192.3.41, 2003-12-02 01:25:27-08:00, rusty@rustcorp.com.au
+  [NETFILTER]: Do not flush MASQ if IP did not change.
+  
+  Herve Eychenne noted that many ADSL connections get the same
+  address when the interface comes back up, so some users use SNAT
+  instead of masquerade.  The answer is that MASQUERADE should only
+  drop connections when the interface comes up, and then only if the
+  interface address has actually changed.
+
+ChangeSet@1.1192.3.40, 2003-12-01 22:35:24-08:00, davem@nuts.ninka.net
+  [VLAN]: Kill build warning due to missing declarations.
+
+ChangeSet@1.1192.3.39, 2003-12-01 21:51:38-08:00, davem@nuts.ninka.net
+  Merge nuts.ninka.net:/disk1/davem/BK/net-work-2.4
+  into nuts.ninka.net:/disk1/davem/BK/net-2.4
+
+ChangeSet@1.1198, 2003-12-01 12:54:06-07:00, kaos@sgi.com
+  ia64: sync salinfo.c with 2.6 (suser -> capable, use standard macros).
+  
+  Make salinfo.c more compatible with 2.6.  This is the 2.4 bit of
+  http://marc.theaimsgroup.com/?l=linux-ia64&m=106974968032730&w=2
+
+ChangeSet@1.1192.3.38, 2003-12-01 17:51:56-02:00, ralf@linux-mips.org
+  [PATCH] Add IP22 parallel port driver
+
+ChangeSet@1.1192.3.37, 2003-12-01 17:51:01-02:00, ralf@linux-mips.org
+  [PATCH] Add Pete Popov to CREDITS
+  
+
+ChangeSet@1.1192.3.36, 2003-12-01 17:50:46-02:00, ralf@linux-mips.org
+  [PATCH] Probe SGI partitions earlier
+  
+  Probe the disk volume header earlier so in case of doubt partitions will be
+  recogniced as Disk Volume Header partitions instead of MSDOS style
+  partitions.  The is a problem at times on SGI system where both types of
+  partitions are activated.
+
+ChangeSet@1.1192.3.35, 2003-12-01 17:50:01-02:00, ralf@linux-mips.org
+  [PATCH] Add two new NEC PCI IDs
+  
+
+ChangeSet@1.1192.3.34, 2003-12-01 17:49:47-02:00, ralf@linux-mips.org
+  [PATCH] Fix VRc5477 remove method declaration
+  
+
+ChangeSet@1.1197, 2003-12-01 12:43:59-07:00, davidm@tiger.hpl.hp.com
+  ia64: Fix a bug in sigtramp() which corrupted ar.rnat when unwinding
+  	across a signal trampoline (in user space).  Reported by
+  	Laurent Morichetti.
+
+ChangeSet@1.1192.3.33, 2003-12-01 17:43:30-02:00, ralf@linux-mips.org
+  [PATCH] Add GT-064011/GT-64111 PCI ID
+  
+
+ChangeSet@1.1192.3.32, 2003-12-01 17:43:20-02:00, ralf@linux-mips.org
+  [PATCH] Update NEC Osprey defconfig
+  
+
+ChangeSet@1.1192.3.31, 2003-12-01 17:42:51-02:00, ralf@linux-mips.org
+  [PATCH] ARC library updates
+  
+  New flag PROM_FLAG_DONT_FREE_TEMP to tell the ARC library to not free
+  firmware memory.  This is needed for the buggy SNI RM200 firmware which
+  passed wrong values.  Remove IP32 ARC bits.
+
+ChangeSet@1.1192.3.30, 2003-12-01 17:42:36-02:00, ralf@linux-mips.org
+  [PATCH] Update Philips Nino defconfig
+  
+
+ChangeSet@1.1192.3.29, 2003-12-01 17:42:18-02:00, ralf@linux-mips.org
+  [PATCH] Update Cobalt defconfig file
+  
+
+ChangeSet@1.1192.3.28, 2003-12-01 17:42:06-02:00, ralf@linux-mips.org
+  [PATCH] Update Ocelot defconfig
+  
+
+ChangeSet@1.1192.3.27, 2003-12-01 17:39:42-02:00, ralf@linux-mips.org
+  [PATCH] Update HP Laserjet
+  
+  Update HP Laserjet defconfig file.
+
+ChangeSet@1.1192.3.26, 2003-12-01 17:39:30-02:00, ralf@linux-mips.org
+  [PATCH] Update Jazz
+  
+  Change extern inline to static inline.  Make a little attempt to implement
+  proper locking for the Jazz DMA allocator.  Reformat to Linux style.
+
+ChangeSet@1.1192.3.25, 2003-12-01 17:39:09-02:00, ralf@linux-mips.org
+  [PATCH] DEC updates
+  
+  Update the DECstation support code to use the new HPT code; update
+  defconfig file.
+
+ChangeSet@1.1192.3.24, 2003-12-01 17:38:27-02:00, ralf@linux-mips.org
+  [PATCH] Galileo boards
+  
+  Update the defconfigs for the Galileo EV-64120 and EV-96100 eval boards.
+
+ChangeSet@1.1192.3.23, 2003-12-01 17:37:14-02:00, ralf@linux-mips.org
+  [PATCH] ITE updates
+  
+  Update ITE8172 and IVR code to use the new high precision time code; update
+  defconfigs.
+
+ChangeSet@1.1192.3.22, 2003-12-01 17:36:33-02:00, ralf@linux-mips.org
+  [PATCH] NEC DDB updates
+  
+  This updates the defconfig for two of the NEC DDB eval boards; is also
+  changes the time code to use the new MIPS high precision timer code.
+
+ChangeSet@1.1192.3.21, 2003-12-01 17:35:55-02:00, ralf@linux-mips.org
+  [PATCH] SGI I2C driver
+  
+  This adds the I2C driver for the Indy and yet another SGI system.  This
+  driver is required in order to use the VINO and Indycam drivers.
+
+ChangeSet@1.1192.3.20, 2003-12-01 17:34:54-02:00, ralf@linux-mips.org
+  [PATCH] Update JMR3927 support
+  
+  Update the default config and RTC code for the JMR3927.
+
+ChangeSet@1.1192.3.19, 2003-12-01 17:34:24-02:00, ralf@linux-mips.org
+  [PATCH] Sibyte updates
+  
+  Various minor fixes for the SB1125 and SB1250 support code.
+
+ChangeSet@1.1192.3.18, 2003-12-01 17:33:41-02:00, ralf@linux-mips.org
+  [PATCH] Update sgiwd93 driver
+  
+  Cleanup the mess that the sgiwd93 SCSI driver was.  Primary intend was
+  to get rid of MIPS-specific APIs in favor for equivalent generic APIs.
+
+ChangeSet@1.1192.3.17, 2003-12-01 17:33:01-02:00, ralf@linux-mips.org
+  [PATCH] Update Atlas, Malta and SEAD boards
+  
+  Update the board support code for the MIPS Atlas, Malta and SEAD boards.
+  Minor changes to the time and interrupt code and a formatting change
+  plus update of the kernel config files.
+
+ChangeSet@1.1192.3.16, 2003-12-01 17:28:53-02:00, ralf@linux-mips.org
+  [PATCH] MIPS video driver updates
+  
+  This updates some of the video drivers for Digital's DECstation workstations
+  and the AMD Alchemy Au1100 framebuffer driver.
+
+ChangeSet@1.1192.3.15, 2003-12-01 17:26:01-02:00, ralf@linux-mips.org
+  [PATCH] Update Origin code
+  
+  Header micro-cleanup and updated default configuration files.
+
+ChangeSet@1.1192.3.14, 2003-12-01 17:25:38-02:00, ralf@linux-mips.org
+  [PATCH] MIPS char driver update
+  
+  Minor fix for reading the hour from the DS1286 / DS1386 driver used in
+  Indys.  New RTC driver for the Dallas DS1742 which is used on the RBTX4927.
+  Misc fixes and updates to the dz.c driver; disabled debugging code in dz.c.
+  Change rtc.c which really should get a different name because surprise not
+  everybody in the world uses the same RTC chip to support memory mapped
+  RTC chips properly.  This is needed for Digital's DECstations.
+
+ChangeSet@1.1192.3.13, 2003-12-01 17:23:12-02:00, ralf@linux-mips.org
+  [PATCH] Update TX4927 code
+  
+  This updates code to support for Toshiba's RXTX4927 evaluation board.
+
+ChangeSet@1.1192.3.12, 2003-12-01 17:20:06-02:00, ralf@linux-mips.org
+  [PATCH] Update for NEC VR41xx systems
+  
+  Update support for NEC VR41xx systems.
+
+ChangeSet@1.1192.3.11, 2003-12-01 17:19:42-02:00, ralf@linux-mips.org
+  [PATCH] Update support for Lasat boards
+  
+  Update the support for Lasat 100 and Lasat 200 systems.
+
+ChangeSet@1.1192.3.10, 2003-12-01 17:19:21-02:00, ralf@linux-mips.org
+  [PATCH] Update RM200 C support
+  
+  Update the default config file for the SNI RM200 C.
+
+ChangeSet@1.1192.3.9, 2003-12-01 17:19:07-02:00, ralf@linux-mips.org
+  [PATCH] Update SGI IP22 support
+  
+  Fix 64-bit kernel for IP22.  Plenty of cleanups.  Update the Indy's
+  HAL2 sound driver.
+
+ChangeSet@1.1192.3.8, 2003-12-01 17:08:51-02:00, ralf@linux-mips.org
+  [PATCH] Add VINO and Indycam drivers
+  
+  Add drivers for the Indycam and VINO hardware of the SGI Indy.
+
+ChangeSet@1.1192.3.7, 2003-12-01 17:07:22-02:00, ralf@linux-mips.org
+  [PATCH] Add support for Momentum Ocelot C and Jaguar ATX
+  
+  Add support for Momentum's CompactPCI Ocelot C system and the ATX
+  form factor Jaguar ATX board.
+
+ChangeSet@1.1192.3.6, 2003-12-01 17:06:42-02:00, ralf@linux-mips.org
+  [PATCH] Remove support for compressed EV-64120 kernels
+  
+  Remove support for compressed kernels on EV-64120.  This code was carrying
+  half a firmware in it's baggage, introduced yet another copy of zlib and
+  in general was just unmaintained and ugly beyond believe ...
+
+ChangeSet@1.1192.3.5, 2003-12-01 17:00:36-02:00, ralf@linux-mips.org
+  [PATCH] AMD Alchemy updates
+  
+  Update of MIPS Alchemy code including PCMCIA and sound driver and default
+  configuration files for various evaluation boards and systems.
+
+ChangeSet@1.1192.3.4, 2003-12-01 16:59:08-02:00, ralf@linux-mips.org
+  [PATCH] mips64 updates
+  
+  Update the generic mips64 code.  Support for the RM9000 and VR4133
+  processors.  Fixes to the o32 / N32 binary compatibility code, spelling
+  fixes.  Change the linker script such that ECOFF conversion using
+  elf2ecoff works again.  Partial support for compile time configurable
+  support of 4k, 16k and 64k page size.  Fixes to RM7000 second level
+  cache handling.
+
+ChangeSet@1.1192.3.3, 2003-12-01 16:57:42-02:00, ralf@linux-mips.org
+  [PATCH] Update generic MIPS code
+  
+  Update the generic MIPS code.  Highlights is support for PMC-Sierra's
+  new RM9000 processor; also plenty of small bug fixes.
+
+ChangeSet@1.1192.3.2, 2003-12-01 16:56:43-02:00, ralf@linux-mips.org
+  [PATCH] Update MIPS MAINTAINERS entries
+  
+  Update a few MIPS entries in MAINTAINERS.
+
+ChangeSet@1.1192.3.1, 2003-12-01 16:56:36-02:00, ralf@linux-mips.org
+  [PATCH] MIPS Configure.help updates
+  
+  Updates the MIPS Documentation/Configure.help bits.
+
+ChangeSet@1.1196, 2003-12-01 11:51:55-07:00, davidm@tiger.hpl.hp.com
+  ia64: Fix a alternate-signal-stack bug which could corrupt RNaT bits
+  	when bspstore happened to point to an RNaT-slot.
+  	Bug reported by Matt Chapman.
+
+ChangeSet@1.1192.2.2, 2003-12-01 09:23:57-06:00, Matt_Domsch@dell.com
+  Merge dell.com:/home/mdomsch/bk/linux-2.4
+  into dell.com:/home/mdomsch/bk/edd/linux-2.4-edd-disksig
+
+ChangeSet@1.1192.2.1, 2003-11-30 14:55:41-02:00, marcelo@logos.cnet
+    Changed Makefile to 2.4.23
+  TAG: v2.4.23
+

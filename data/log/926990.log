@@ -1,0 +1,506 @@
+Using good run directory = ../good_run_lists/18k
+-------------------------------------------------------------------------
+  Loading good run lists from directory = ../good_run_lists/18k
+Reading ../good_run_lists/18k/goodrun_em_mu_nosi_cmxignored.list
+ GOODRUN FATAL ERROR opening file ../good_run_lists/18k/goodrun_em_mu_nosi_cmxignored.list
+Reading ../good_run_lists/18k/goodrun_em_mu_si_cmxignored.list
+With Silicon Good run list contains: 2980 entries
+Reading ../good_run_lists/18k/goodrun_em_si.list
+With Ele Silicon Good run list contains: 3195 entries
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+  Loading good run lists from directory = ../good_run_lists/18k
+Reading ../good_run_lists/18k/goodrun_em_mu_nosi_cmxignored.list
+ GOODRUN FATAL ERROR opening file ../good_run_lists/18k/goodrun_em_mu_nosi_cmxignored.list
+Reading ../good_run_lists/18k/goodrun_em_mu_si_cmxignored.list
+With Silicon Good run list contains: 2980 entries
+Reading ../good_run_lists/18k/goodrun_em_si.list
+With Ele Silicon Good run list contains: 3195 entries
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+  Loading good run lists from directory = ../good_run_lists/18k
+Reading ../good_run_lists/18k/goodrun_em_mu_nosi_cmxignored.list
+ GOODRUN FATAL ERROR opening file ../good_run_lists/18k/goodrun_em_mu_nosi_cmxignored.list
+Reading ../good_run_lists/18k/goodrun_em_mu_si_cmxignored.list
+With Silicon Good run list contains: 2980 entries
+Reading ../good_run_lists/18k/goodrun_em_si.list
+With Ele Silicon Good run list contains: 3195 entries
+-------------------------------------------------------------------------
+ICI_bitMask0:1 
+ICI_bitMask1:7 
+ICI_bitMask2:f 
+ICI_bitMask3:1f 
+ICI_bitMask4:3f 
+ICI_bitMask4:3f 
+ICI_bitMask5:7f 
+ICI_bitMask7: 1ff 
+ICI_bitMask8: 80000dff 
+ICI_bitMask9: 80001dff 
+ICI_bitMask10: 80003dff 
+ICI_bitMask11: 80007dff 
+ICI_bitMask12: 80107dff 
+ICI_bitMask13: 80107dff 
+ICI_bitMask14: 80107dff 
+ICI_bitMask15: 80107dff 
+ICI_bitMask16: 80107dff 
+ICI_bitMask0:1 
+ICI_bitMask1:7 
+ICI_bitMask2:f 
+ICI_bitMask3:1f 
+ICI_bitMask4:3f 
+ICI_bitMask4:3f 
+ICI_bitMask5:7f 
+ICI_bitMask7: 1ff 
+ICI_bitMask8: 80000dff 
+ICI_bitMask9: 80001dff 
+ICI_bitMask10: 80003dff 
+ICI_bitMask11: 80007dff 
+ICI_bitMask12: 80107dff 
+ICI_bitMask13: 80107dff 
+ICI_bitMask14: 80107dff 
+ICI_bitMask15: 80107dff 
+ICI_bitMask16: 80107dff 
+ICI_bitMask0:1 
+ICI_bitMask1:7 
+ICI_bitMask2:f 
+ICI_bitMask3:1f 
+ICI_bitMask4:3f 
+ICI_bitMask4:3f 
+ICI_bitMask5:7f 
+ICI_bitMask7: 1ff 
+ICI_bitMask8: 80000dff 
+ICI_bitMask9: 80001dff 
+ICI_bitMask10: 80003dff 
+ICI_bitMask11: 80007dff 
+ICI_bitMask12: 80107dff 
+ICI_bitMask13: 80107dff 
+ICI_bitMask14: 80107dff 
+ICI_bitMask15: 80107dff 
+ICI_bitMask16: 80107dff 
+ICI_bitMask0:1 
+ICI_bitMask1:7 
+ICI_bitMask2:f 
+ICI_bitMask3:1f 
+ICI_bitMask4:3f 
+ICI_bitMask4:3f 
+ICI_bitMask5:7f 
+ICI_bitMask7: 1ff 
+ICI_bitMask8: 80000dff 
+ICI_bitMask9: 80001dff 
+ICI_bitMask10: 80003dff 
+ICI_bitMask11: 80007dff 
+ICI_bitMask12: 80107dff 
+ICI_bitMask13: 80107dff 
+ICI_bitMask14: 80107dff 
+ICI_bitMask15: 80107dff 
+ICI_bitMask16: 80107dff 
+ICI_bitMask0:1 
+ICI_bitMask1:7 
+ICI_bitMask2:f 
+ICI_bitMask3:1f 
+ICI_bitMask4:3f 
+ICI_bitMask4:3f 
+ICI_bitMask5:7f 
+ICI_bitMask7: 1ff 
+ICI_bitMask8: 80000dff 
+ICI_bitMask9: 80001dff 
+ICI_bitMask10: 80003dff 
+ICI_bitMask11: 80007dff 
+ICI_bitMask12: 80107dff 
+ICI_bitMask13: 80107dff 
+ICI_bitMask14: 80107dff 
+ICI_bitMask15: 80107dff 
+ICI_bitMask16: 80107dff 
+----------------------------------------------
+Checking Electron CollTypes:
+-->Found DEFEMOBJECTS as CollType = 1
+-->Found PHOENIXEMOBJECTVIEW as CollType = 2
+----------------------------------------------
+
+----------------------------------------------
+Checking Muon ViewTypes:
+-->Found DEFMUONS as CollType = 1
+-->Found DEFSTUBLESSMUONS as CollType = 2
+----------------------------------------------
+
+----------------------------------------------
+Checking Jet CollTypes:
+-->Found JETCLUMODULE-CONE0.4 as CollType = 1
+-->Found JETCLUMODULE-CONE0.7 as CollType = 2
+-->Found JETCLUMODULE-CONE1.0 as CollType = 3
+-->Found MYTOP_JETCLU0.4_LJ_RECLUSTERJETCOLL as CollType = 4
+-->Found MYTOP_JETCLU0.7_LJ_RECLUSTERJETCOLL as CollType = 5
+-->Found MYTOP_MIDPOINT0.4_LJ_RECLUSTERJETCOLL as CollType = 6
+-->Found MYTOP_MIDPOINT0.7_LJ_RECLUSTERJETCOLL as CollType = 7
+-->Found MYTOP_JETCLU0.4_DIL_RECLUSTERJETCOLL as CollType = 8
+-->Found MYTOP_JETCLU0.7_DIL_RECLUSTERJETCOLL as CollType = 9
+-->Found JETCLUMODULE-CONE0.4H1 as CollType = 10
+-->Found JETCLUMODULE-CONE0.7H1 as CollType = 11
+----------------------------------------------
+
+----------------------------------------------
+Checking Offline Tracks:
+-->Found DEFTRACKS as CollType = 1
+-->Found PHOENIX_TRACKING as CollType = 2
+-->Found PHOENIXSI_TRACKING as CollType = 3
+-->Found MYTOPTRACKLEPTONVIEW as CollType = 4
+----------------------------------------------
+
+----------------------------------------------
+Checking Trigger Summary Word Bits:
+-->Found ELECTRON_CENTRAL_18_V for bit = 0
+-->Found MUON_CMUP18 for bit = 1
+-->Found MUON_CMX18 for bit = 2
+-->Found MET_PEM_V for bit = 3
+-->Found MET_PEM_L1 for bit = 4
+-->Found MUON_BMU9_L1_BMU10_BSU_PT11 for bit = 5
+-->Found MUON_CENTRAL_JET20_L1_BMU10_BSUR for bit = 6
+-->Found MUON_CENTRAL_JET20_L1_BMU10_PT11 for bit = 7
+-->Found TOP_MULTI_JET for bit = 8
+-->Found PLUG_ELECTRON for bit = 9
+-->Found JET_20_V for bit = 10
+-->Found JET_50_V for bit = 11
+-->Found JET_70_V for bit = 12
+-->Found JET_100_V for bit = 13
+-->Found JET_20_CENTRAL_V for bit = 14
+-->Found JET_CAL_SINGLETOWER_5_V for bit = 15
+-->Found JET_CAL_SINGLETOWER_10_V for bit = 16
+-->Found PHOTON_25_ISO_V for bit = 17
+-->Found PHOTON_25_ISO_PASS4_V for bit = 18
+-->Found ELECTRON_CENTRAL_8_V for bit = 19
+-->Found ELECTRON_CENTRAL_8_L2_DPS_V for bit = 20
+-->Found MUON_CMUP8_V for bit = 21
+-->Found MUON_CMUP8_DPS_V for bit = 22
+-->Found PLUG_Z for bit = 23
+-->Found Z_NOTRACK_V for bit = 24
+-->Found W_NOTRACK_V for bit = 25
+----------------------------------------------
+
+----------------------------------------------
+Ntuple contains Monte Carlo events
+----------------------------------------------
+
+----------------------------------------------
+Ntuple contains data processed with production version 60101
+----------------------------------------------
+
+TreeFileInterface: Opening file dcap://fcdfrdc3.fnal.gov:22127/pnfs/diskpool/top/614MC/stop00/Ntuples/topnt_614_1invfb_a_stop00-109_s0031c15.0001top0-Inclusive.root.  The 'TopTree' tree containts 5023 events.
+AlpgenWeights::weight() Error: Did not find any objects matching 'dcap://fcdfrdc3.fnal.gov:22127/pnfs/diskpool/top/614MC/stop00/Ntuples/topnt_614_1invfb_a_stop00-109_s0031c15.0001top0-Inclusive.root'.
+Could not fine a valid weight for filedcap://fcdfrdc3.fnal.gov:22127/pnfs/diskpool/top/614MC/stop00/Ntuples/topnt_614_1invfb_a_stop00-109_s0031c15.0001top0-Inclusive.root. Aborting
+run: 203797 event: 15
+run: 203797 event: 74
+run: 203797 event: 80
+run: 203797 event: 97
+run: 203797 event: 106
+run: 203797 event: 172
+run: 203797 event: 174
+run: 203797 event: 182
+run: 203797 event: 199
+run: 203797 event: 204
+run: 203797 event: 263
+run: 203797 event: 285
+run: 203797 event: 377
+run: 203797 event: 381
+run: 203797 event: 398
+run: 203797 event: 424
+run: 203797 event: 484
+run: 203797 event: 487
+run: 203797 event: 530
+run: 203797 event: 545
+run: 203797 event: 556
+run: 203797 event: 572
+run: 203797 event: 579
+run: 203797 event: 593
+run: 203797 event: 609
+run: 203797 event: 630
+run: 203797 event: 646
+run: 203797 event: 648
+run: 203797 event: 667
+run: 203797 event: 708
+run: 203797 event: 755
+run: 203797 event: 774
+run: 203797 event: 790
+run: 203797 event: 827
+run: 203797 event: 849
+run: 203797 event: 906
+run: 203797 event: 933
+run: 203797 event: 938
+run: 203797 event: 940
+run: 203797 event: 965
+run: 203797 event: 977
+run: 203797 event: 978
+run: 203797 event: 979
+run: 203797 event: 980
+run: 203797 event: 986
+run: 203797 event: 995
+Events 1000 Number Saved  286
+run: 203797 event: 1010
+run: 203797 event: 1018
+run: 203797 event: 1038
+run: 203797 event: 1044
+run: 203797 event: 1054
+run: 203797 event: 1148
+run: 203797 event: 1198
+run: 203797 event: 1227
+run: 203797 event: 1249
+run: 203797 event: 1250
+run: 203797 event: 1264
+run: 203797 event: 1285
+run: 203797 event: 1329
+run: 203797 event: 1377
+run: 203799 event: 24
+run: 203799 event: 52
+run: 203799 event: 81
+run: 203799 event: 106
+run: 203799 event: 136
+run: 203799 event: 143
+run: 203799 event: 156
+run: 203799 event: 201
+run: 203799 event: 254
+run: 203799 event: 260
+run: 203799 event: 264
+run: 203799 event: 277
+run: 203799 event: 284
+run: 203799 event: 321
+run: 203799 event: 335
+run: 203799 event: 392
+run: 203799 event: 425
+run: 203799 event: 438
+run: 203799 event: 449
+run: 203799 event: 465
+run: 203799 event: 475
+run: 203799 event: 483
+run: 203799 event: 502
+run: 203799 event: 516
+run: 203799 event: 530
+run: 203799 event: 567
+run: 203799 event: 577
+run: 203819 event: 3
+Events 2000 Number Saved  541
+run: 203819 event: 88
+run: 203819 event: 93
+run: 203819 event: 97
+run: 203819 event: 110
+run: 203819 event: 145
+run: 203819 event: 164
+run: 203819 event: 235
+run: 203819 event: 274
+run: 203819 event: 323
+run: 203819 event: 345
+run: 203819 event: 389
+run: 203819 event: 396
+run: 203819 event: 405
+run: 203819 event: 419
+run: 203819 event: 430
+run: 203819 event: 433
+run: 203819 event: 437
+run: 203819 event: 455
+run: 203819 event: 493
+run: 203819 event: 509
+run: 203819 event: 549
+run: 203819 event: 561
+run: 203819 event: 584
+run: 203819 event: 594
+run: 203819 event: 656
+run: 203819 event: 689
+run: 203819 event: 744
+run: 203819 event: 778
+run: 203819 event: 788
+run: 203819 event: 808
+run: 203819 event: 809
+run: 203819 event: 880
+run: 203819 event: 895
+Events 3000 Number Saved  855
+run: 203819 event: 1103
+run: 203819 event: 1143
+run: 203819 event: 1150
+run: 203819 event: 1176
+run: 203819 event: 1187
+run: 203819 event: 1242
+run: 203819 event: 1245
+run: 203819 event: 1261
+run: 203819 event: 1298
+run: 203819 event: 1329
+run: 203819 event: 1331
+run: 203819 event: 1355
+run: 203819 event: 1356
+run: 203819 event: 1450
+run: 203819 event: 1466
+run: 203819 event: 1475
+run: 203819 event: 1476
+run: 203819 event: 1482
+run: 203819 event: 1485
+run: 203819 event: 1511
+run: 203819 event: 1522
+run: 203819 event: 1524
+run: 203819 event: 1554
+run: 203819 event: 1559
+run: 203819 event: 1611
+run: 203819 event: 1618
+run: 203819 event: 1623
+run: 203819 event: 1650
+run: 203819 event: 1728
+run: 203819 event: 1729
+run: 203819 event: 1745
+run: 203819 event: 1784
+run: 203819 event: 1840
+run: 203819 event: 1846
+run: 203819 event: 1985
+run: 203824 event: 5
+run: 203824 event: 12
+Events 4000 Number Saved  1150
+run: 203824 event: 152
+run: 203824 event: 169
+run: 203824 event: 266
+run: 203824 event: 303
+run: 203824 event: 319
+run: 203824 event: 386
+run: 203824 event: 390
+run: 203824 event: 395
+run: 203824 event: 401
+run: 203824 event: 411
+run: 203824 event: 455
+run: 203824 event: 475
+run: 203824 event: 504
+run: 203824 event: 528
+run: 203824 event: 541
+run: 203824 event: 543
+run: 203824 event: 590
+run: 203824 event: 631
+run: 203824 event: 636
+run: 203824 event: 665
+run: 203824 event: 678
+run: 203824 event: 711
+run: 203824 event: 716
+run: 203824 event: 788
+run: 203824 event: 801
+run: 203824 event: 805
+run: 203824 event: 819
+run: 203824 event: 821
+run: 203824 event: 830
+run: 203826 event: 29
+run: 203826 event: 90
+run: 203826 event: 109
+run: 203826 event: 166
+run: 203826 event: 175
+run: 203826 event: 179
+Events 5000 Number Saved  1451
+run: 203826 event: 205
+run: 203826 event: 207
+TreeFileInterface: Finished file dcap://fcdfrdc3.fnal.gov:22127/pnfs/diskpool/top/614MC/stop00/Ntuples/topnt_614_1invfb_a_stop00-109_s0031c15.0001top0-Inclusive.root using 5023 events.
+done
+Acceptance tables
+---------- ------
+
+CEM                      &0 Jets  &1 Jet   &2 Jets  &3 Jets  &4+ Jets &Total   \\
+Stage  0  Initial        &      51&     720&    2257&    1509&     486&    5023\\
+Stage  1  Good Run       &      50&     702&    2174&    1445&     457&    4828\\
+Stage  2  Trigger        &      50&     702&    2174&    1445&     457&    4828\\
+Stage  3  >=1 TLep       &       8&     125&     363&     153&      47&     696\\
+Stage  4  Met            &       6&     105&     308&     134&      42&     595\\
+Stage  5  Iso            &       6&     103&     295&     100&      31&     535\\
+Stage  6  !Dilep         &       6&     103&     295&     100&      30&     534\\
+Stage  7  !Z             &       6&     103&     294&     100&      30&     533\\
+Stage  8  !Conv          &       6&     103&     292&      86&      29&     516\\
+Stage  9  !Diff Z        &       6&     103&     292&      86&      29&     516\\
+Stage 10  !QCD           &       6&      99&     272&      80&      29&     486\\
+Stage 11  Si Good Run    &       6&      99&     272&      80&      29&     486\\
+Stage 12  Taggable       &       0&      81&     256&      75&      29&     441\\
+Stage 13  >=1 +b-tag     &       0&      44&     150&      51&      18&     263\\
+Stage 14  >=2 +b-tag     &       0&       0&      33&      13&       5&      51\\
+Stage 15  >=3 +b-tag     &       0&       0&       0&       0&       0&       0\\
+Stage 16  >=1 -b-tag     &       0&       1&       6&       0&       1&       8\\
+Stage 17  >=2 -b-tag     &       0&       0&       0&       0&       0&       0\\
+
+
+PHX                      &0 Jets  &1 Jet   &2 Jets  &3 Jets  &4+ Jets &Total   \\
+Stage  0  Initial        &      51&     720&    2257&    1509&     486&    5023\\
+Stage  1  Good Run       &      50&     702&    2174&    1445&     457&    4828\\
+Stage  2  Trigger        &      50&     702&    2174&    1445&     457&    4828\\
+Stage  3  >=1 TLep       &       3&      36&      91&      25&       1&     156\\
+Stage  4  Met            &       2&      33&      75&      23&       1&     134\\
+Stage  5  Iso            &       2&      33&      72&      22&       1&     130\\
+Stage  6  !Dilep         &       2&      33&      72&      22&       1&     130\\
+Stage  7  !Z             &       2&      31&      71&      22&       1&     127\\
+Stage  8  !Conv          &       2&      31&      71&      22&       1&     127\\
+Stage  9  !Diff Z        &       2&      31&      71&      22&       1&     127\\
+Stage 10  !QCD           &       2&      29&      61&      21&       1&     114\\
+Stage 11  Si Good Run    &       2&      29&      61&      21&       1&     114\\
+Stage 12  Taggable       &       0&      22&      56&      21&       1&     100\\
+Stage 13  >=1 +b-tag     &       0&      12&      35&      11&       0&      58\\
+Stage 14  >=2 +b-tag     &       0&       0&      11&       2&       0&      13\\
+Stage 15  >=3 +b-tag     &       0&       0&       0&       0&       0&       0\\
+Stage 16  >=1 -b-tag     &       0&       0&       2&       1&       0&       3\\
+Stage 17  >=2 -b-tag     &       0&       0&       0&       0&       0&       0\\
+
+
+CMUP                     &0 Jets  &1 Jet   &2 Jets  &3 Jets  &4+ Jets &Total   \\
+Stage  0  Initial        &      51&     720&    2257&    1509&     486&    5023\\
+Stage  1  Good Run       &      50&     702&    2174&    1445&     457&    4828\\
+Stage  2  Trigger        &      50&     702&    2174&    1445&     457&    4828\\
+Stage  3  >=1 TLep       &       2&      68&     200&      72&      20&     362\\
+Stage  4  Met            &       2&      62&     164&      63&      20&     311\\
+Stage  5  Iso            &       2&      58&     158&      53&      16&     287\\
+Stage  6  !Dilep         &       2&      58&     158&      52&      16&     286\\
+Stage  7  !Z             &       2&      58&     157&      51&      14&     282\\
+Stage  8  !Cosmic/Chi2   &       2&      58&     157&      51&      14&     282\\
+Stage  9  !Diff Z        &       2&      58&     157&      51&      14&     282\\
+Stage 10  !QCD           &       2&      54&     153&      49&      14&     272\\
+Stage 11  Si Good Run    &       2&      54&     153&      49&      14&     272\\
+Stage 12  Taggable       &       0&      43&     140&      49&      14&     246\\
+Stage 13  >=1 +b-tag     &       0&      29&      90&      30&      10&     159\\
+Stage 14  >=2 +b-tag     &       0&       0&      17&       5&       3&      25\\
+Stage 15  >=3 +b-tag     &       0&       0&       0&       0&       0&       0\\
+Stage 16  >=1 -b-tag     &       0&       1&       3&       1&       0&       5\\
+Stage 17  >=2 -b-tag     &       0&       0&       0&       0&       0&       0\\
+
+
+CMX                      &0 Jets  &1 Jet   &2 Jets  &3 Jets  &4+ Jets &Total   \\
+Stage  0  Initial        &      51&     720&    2257&    1509&     486&    5023\\
+Stage  1  Good Run       &      50&     702&    2174&    1445&     457&    4828\\
+Stage  2  Trigger        &      50&     702&    2174&    1445&     457&    4828\\
+Stage  3  >=1 TLep       &       3&      40&      97&      27&       9&     176\\
+Stage  4  Met            &       2&      33&      79&      20&       5&     139\\
+Stage  5  Iso            &       2&      31&      72&      19&       5&     129\\
+Stage  6  !Dilep         &       2&      31&      72&      19&       5&     129\\
+Stage  7  !Z             &       2&      31&      72&      19&       5&     129\\
+Stage  8  !Cosmic/Chi2   &       2&      31&      72&      19&       5&     129\\
+Stage  9  !Diff Z        &       2&      31&      72&      19&       5&     129\\
+Stage 10  !QCD           &       2&      31&      67&      19&       5&     124\\
+Stage 11  Si Good Run    &       2&      31&      67&      19&       5&     124\\
+Stage 12  Taggable       &       0&      21&      66&      19&       5&     111\\
+Stage 13  >=1 +b-tag     &       0&      10&      41&      13&       3&      67\\
+Stage 14  >=2 +b-tag     &       0&       0&       7&       4&       1&      12\\
+Stage 15  >=3 +b-tag     &       0&       0&       0&       0&       0&       0\\
+Stage 16  >=1 -b-tag     &       0&       0&       2&       1&       0&       3\\
+Stage 17  >=2 -b-tag     &       0&       0&       0&       0&       0&       0\\
+
+
+BMU                      &0 Jets  &1 Jet   &2 Jets  &3 Jets  &4+ Jets &Total   \\
+Stage  0  Initial        &      51&     720&    2257&    1509&     486&    5023\\
+Stage  1  Good Run       &      50&     702&    2174&    1445&     457&    4828\\
+Stage  2  Trigger        &      50&     702&    2174&    1445&     457&    4828\\
+Stage  3  >=1 TLep       &       0&      33&      57&      15&       8&     113\\
+Stage  4  Met            &       0&      25&      43&      11&       6&      85\\
+Stage  5  Iso            &       0&      25&      43&      11&       5&      84\\
+Stage  6  !Dilep         &       0&      25&      43&      11&       5&      84\\
+Stage  7  !Z             &       0&      25&      42&      11&       5&      83\\
+Stage  8  !Cosmic/Chi2   &       0&      25&      42&      11&       5&      83\\
+Stage  9  !Diff Z        &       0&      25&      42&      11&       5&      83\\
+Stage 10  !QCD           &       0&      25&      42&      11&       5&      83\\
+Stage 11  Si Good Run    &       0&      25&      42&      11&       5&      83\\
+Stage 12  Taggable       &       0&      22&      41&      11&       5&      79\\
+Stage 13  >=1 +b-tag     &       0&       9&      24&       8&       4&      45\\
+Stage 14  >=2 +b-tag     &       0&       0&       8&       4&       0&      12\\
+Stage 15  >=3 +b-tag     &       0&       0&       0&       0&       0&       0\\
+Stage 16  >=1 -b-tag     &       0&       3&       2&       1&       0&       6\\
+Stage 17  >=2 -b-tag     &       0&       0&       0&       0&       0&       0\\
+
+
+
+Ran over 5023
+Writing 1457 events to output tree.
+TreeFileInterface::writeCloneTree(): Successful.
+Writing complete.
+Finished.
+TreeFileInterface Summary: Ran over 5023 total events.

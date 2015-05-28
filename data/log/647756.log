@@ -1,0 +1,506 @@
+<!-- Title: Eve shift. Thu Jul  3, 2003 -->
+<!-- SciCo: Joe Incandela -->
+<!-- DAQAce: Satyajit Behari -->
+<!-- MonAce: Oscar Gonzales -->
+<!-- CO: Simon Sabik -->
+<!-- OpManager: Nathan Eddy -->
+<!-- Notes: -->
+<pre>Quiet - waiting for shot setup estimated for 6 or 7 pm</pre>
+
+<!-- Date: Thu Jul 3 16:12:51.551 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153945">153945</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+SMX - reset to and of (CSMX,PSMX)
+</PRE> 
+<!-- Author: willis -->
+
+
+<!-- Date: Thu Jul 3 16:13:10.082 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153946">153946</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+SMX - reset to and of (CSMX,PSMX)
+</PRE>
+<!-- Author: willis -->
+
+
+
+<!-- Date: Thu Jul 3 16:15:06.361 2003 -->
+Finished up some <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=161&frame=2&anchor=16:05:05'>VRB investigation</a> started on the   <a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2003&action=view&page=551&frame=2&anchor=09:52:14.061'>day shift</a> but interuptted by meetings, file server work, etc.  Found a few ways around problems that have been bothering us a bit during accesses, solution awaits next week bench work.  This problem does not affect data taking.<h3>Silicon Cold Started OK, pinkies gone</h3>  
+  
+<!-- Author: SCN -->
+<!-- Comment: Thu Jul  3 17;30;08 comment by...SCN -->
+OK, now I'm really done (and I <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=161&frame=2&anchor=17:23:28'>found the problem</a>).   Still, it doesn't affect data taking, and I coldstarted everything ok again.
+<!-- Date: Thu Jul 3 16:16:43.064 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=153986">153986</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+PSMX - Plug HV CAEN card died for east PPR wedge 11,12 and PES octants 3,4 (about half) 
+SMX 
+</PRE>
+<!-- Author: willis -->
+
+
+<!-- Date: Thu Jul 3 16:19:16.793 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165715">165715</A>
+ACTIVATE: Everything back to normal - this one should be good for offline calibrations.
+<!-- Author: m jones x6126 -->
+<!-- Comment: Thu Jul  3 16;23;10 comment by...M Jones -->
+<pre>Checked it offline - everything looks fine.</pre>
+<!-- Date: Thu Jul 3 16:21:38.054 2003 -->
+COT heartbeat alarm... Since it seems the "usual" behaviour  
+(i.e. the alarm is gone after a few seconds), I will no longer 
+report them.    
+<!-- Author: Oscar -->
+
+
+
+<!-- Date: Thu Jul 3 16:25:09.511 2003 -->
+<pre>I've finished with TOF studies for today.  Everything should be 
+back to normal.  I've removed all my cables from rack 1RR15F and 
+rebooted b0puls01.</pre>
+<!-- Author: M Jones -->
+
+
+<!-- Date: Thu Jul 3 16:30:08.786 2003 -->
+<pre>Have finished readout software testing work  
+on the COT crates.  They have all been  
+rebooted back to their original state. 
+</pre>
+<!-- Author: W.Badgett -->
+
+<!-- Date: Thu Jul 3 16:34:20.295 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165088">165088</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+CAL - reset to and of (CCAL,PCAL)
+</PRE>
+<!-- Author: willis -->
+
+
+
+<!-- Date: Thu Jul 3 16:45:52.202 2003 -->
+<pre>I have to restart iCicle after a heartbeat alarm in iFix. The 
+program has given error and has to be exited. Restarting  
+now. </pre>
+<!-- Author: Oscar -->
+<!-- Comment: Thu Jul  3 23;23;19 comment by...Oscar -->
+<pre>Again problems with ICICLE. The error in a popup window say
+
+The instruction at 0x7800cb04 referenced memory at 0x712f3cb2. The memory could no be read.
+
+And asked for the application to be restarted.
+
+Resating it again...</pre>
+<!-- Comment: Thu Jul  3 23;50;58 comment by...Oscar -->
+<pre>Again need to restart ICICLKE. The error is the same (except the addresses).</pre>
+<!-- Date: Thu Jul 3 17:01:41.966 2003 -->
+<pre>I have just modified l3 code in order to avoid some confusion when there is a relay failure (for example when one node is down in the middle of any transition). 
+ 
+That node not only  will not be used by l3proxy, but also it will be marked off-line in the database with this new version. You don't ever need to clean up L3. But actually if you do it, you will not lose more than time than usual, because the node is already off-line in the database. 
+ 
+This is the error that you could see (the last part of the text has been written with the agreement of a couple of aces ^_^): 
+ 
+L3ProxyPartition::RelayFailureMessage: The message to be sent: 
+@L3_RELAY_FAILURE Level3 Relay failure detected! 
+The following subfarms need to be removed from the next runs: 
+      None. You can use all the same subfarms. 
+The following Level3 converter nodes are marked bad for now: 
+      None. 
+The full list of Level3 nodes giving Relay trouble is printed below 
+ 
+ b0l3045 
+ 
+ ************************************************ 
+ These Level3 nodes will be marked OFFLINE!!! 
+ Abort/End/Reset and Partition again!!! 
+ ************************************************ 
+ 
+On the other hand, I have also changed the end transition for level3. it should be a little bit faster (I know that it's not a big improvement, but...). 
+ 
+It could have a bug in the code. So please, pay attention these days, and notify me if you find anything strange.</pre>
+<!-- Author: Guillelmo -->
+
+
+<!-- Date: Thu Jul 3 17:16:14.763 2003 -->
+MCR: will go to dry squeeze in preparation for shot setup at 6 pm
+<!-- Author: incandela -->
+
+
+
+<!-- Date: Thu Jul 3 17:31:46.255 2003 -->
+MCR: 30' warning to shot setup
+<!-- Author: Incandela -->
+
+
+<!-- Date: Thu Jul 3 17:42:33.904 2003 -->
+<pre>While ramping up the HV of different components for the Cosmic run, one part in NE of CMX didn't obey to the Summary order to go up. We had to tur it on by using the NE-On sequence in iFix panel.</pre>
+<!-- Author: Oscar -->
+<!-- Comment: Thu Jul  3 17;46;14 comment by...Oscar -->
+<pre>After a few minutes, trip in the bottom part of CMP. The central one. Recovered with iFix panel with the sequenbce Bottom-On.</pre>
+<!-- Date: Thu Jul 3 17:44:52.039 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165725">165725</A>
+ Activated at 2003.07.03 17:44:43
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Jul 3 17:46:48.272 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165725">165725</A>
+ACTIVATE: Taking cosmic data w/ HV ON, except silicon (COSMICS_NOSILICON_TAPE).
+<!-- Author: dan ryan 2080 -->
+
+
+<!-- Date: Thu Jul 3 18:10:26.999 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165725">165725</A>
+ Terminated at 2003.07.03 18:10:46
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Thu Jul 3 18:10:41.101 2003 -->
+MCR 5' to shot setup
+<!-- Author: incandela -->
+
+<!-- Date: Thu Jul 3 18:10:50.653 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165725">165725</A>
+TERMINATE: Ending cosmic Run. Shot setup in 5 mins.
+<!-- Author: dan ryan 2080 -->
+
+
+
+<!-- Date: Thu Jul 3 19:07:52.917 2003 -->
+Shot setup in progress after delays
+<!-- Author: Incandela -->
+
+
+<!-- Date: Thu Jul 3 20:13:39.018 2003 -->
+MCR needs to retune, will return to shot setup asap (15')
+<!-- Author: Incandela -->
+
+
+<!-- Date: Thu Jul 3 20:54:49.097 2003 -->
+MCR back in shot setup
+<!-- Author: incandela -->
+
+
+<!-- Date: Thu Jul 3 21:39:58.450 2003 -->
+<TABLE bgcolor=#cdc9a5> 
+<TR><TH>Date</th><th>Time</th><th>BLM</th><th colspan=2>Dose</th></tr> 
+<tr><td>2003.07.03</td><td>21:33:19</td><td>W Inner BLM</td><td>2.13</td><td>RADS</td></tr> 
+<tr><td>2003.07.03</td><td>21:33:19</td><td>W Outer BLM</td><td>1.52</td><td>RADS</td></tr> 
+<tr><td>2003.07.03</td><td>21:33:19</td><td>E Inner BLM</td><td>13.56</td><td>RADS</td></tr> 
+<tr><td>2003.07.03</td><td>21:33:19</td><td>E Outer BLM</td><td>15.56</td><td>RADS</td></tr> 
+</TABLE> 
+<strong>Integrated dosage</strong>
+<!-- Author: Oscar -->
+
+
+<!-- Date: Thu Jul 3 21:41:56.808 2003 -->
+Injecting final protons as of 21:36
+<!-- Author: incandela -->
+
+<!-- Date: Thu Jul 3 21:51:21.876 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165726">165726</A>
+ACTIVATE: Starting shot setup run at the loading of final protons (AAA_SHOTSETUP)
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 22:07:30.161 2003 -->
+pbars loaded
+<!-- Author: incandela -->
+
+<!-- Date: Thu Jul 3 22:11:45.778 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165726">165726</A>
+TERMINATE: Ending shot setup run at flattop
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 22:25:48.479 2003 -->
+<pre>Store 2746 scraping complete 
+TevPR 7150E09 TevPB 650E09 
+</pre>
+<!-- Author: Incandela -->
+
+
+<!-- Date: Thu Jul 3 22:27:29.871 2003 -->
+B0ilum 25.7 E30
+<!-- Author: incandela -->
+
+
+<!-- Date: Thu Jul 3 22:29:31.661 2003 -->
+High losses Lostp 87kHz Lostpb 35kHz
+<!-- Author: incandela :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165726' target=_top>165726</a>) -->
+
+
+<!-- Date: Thu Jul 3 22:35:41.356 2003 -->
+Brought down HV on CLC for time being until losses understood. 
+MCR informed
+<!-- Author: Incandela :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165727' target=_top>165727</a>) -->
+
+
+<!-- Date: Thu Jul 3 22:36:41.397 2003 -->
+Tevatron has lost beam !
+<!-- Author: Incandela -->
+
+<!-- Date: Thu Jul 3 22:40:56.492 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165727">165727</A>
+TERMINATE: Tevatron lost the store
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 22:50:00.692 2003 -->
+<center><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-7525&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-7525' width='300'></a><a href='/cgi/elog/elog.pl?nb=2003&action=view&page=-7526&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2003&action=view&page=-7526' width='300'></a></center>
+<!-- Author: Oscar -->
+<!-- Comment: Thu Jul  3 22;54;45 comment by...Oscar -->
+<pre>SVXRAD and TeV Losses during shot setup and in the beam-loss.
+
+Silicon check-out performed after the beam-loss was fine. No Pink cell observed. SVX,L00 and ISL HV were in STAND-BY during the shot-setup and beam-loss point. Nothing strange is observed.
+
+Remark: In the web page describing the procedure to follow to check the Si status after a quench, it is indicated go to ACNET E20 page, but E20 seems to be a D0 empty page.</pre>
+
+<!-- Comment: Thu Jul  3 23;08;49 comment by...JJ -->
+ACNET pages were reorganized a few weeks ago. I believe the
+correct page is now E2.  
+<!-- Date: Thu Jul 3 23:01:01.951 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165728">165728</A>
+ACTIVATE: Cal QIE calib run (ACE_QIE)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:01:02.345 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165728">165728</A>
+TERMINATE: Cal QIE calib run (ACE_QIE)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:02:34.483 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165729">165729</A>
+ACTIVATE: CLC QIE calib run (CALIB_CLC_QIE)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:05:19.301 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165729">165729</A>
+TERMINATE: CLC QIE calib run (CALIB_CLC_QIE)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:05:20.076 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165730">165730</A>
+ACTIVATE: BSC QIE calib run (CALIB_QIE_FWD)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:05:21.828 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165730">165730</A>
+TERMINATE: BSC QIE calib run (CALIB_QIE_FWD)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:06:34.390 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165731">165731</A>
+ACTIVATE: Roman pot QIE calib run (CALIB_RP_SMQIE)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:07:25.807 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165731">165731</A>
+TERMINATE: Roman pot QIE calib run (CALIB_RP_SMQIE)
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 23:12:03.207 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165733">165733</A>
+ACTIVATE: Plug laser run (BOTHPLUGS_NORMAL)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:18:22.432 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165733">165733</A>
+TERMINATE: Plug laser calib run (normal)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:21:01.141 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165735">165735</A>
+ACTIVATE: Plug laser calib run (BOTHPLUGS_MM_C)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:21:02.014 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165735">165735</A>
+TERMINATE: Plug laser calib run (BOTHPLUGS_MM_C)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:23:18.597 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165737">165737</A>
+ACTIVATE: Plug laser calib run (BOTHPLUGS_MM)
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 23:23:59.062 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165737">165737</A>
+TERMINATE: Plug laser calib run (BOTHPLUGS_MM)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:26:06.019 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165738">165738</A>
+ACTIVATE: TOF QIE calib run (ACE_TOF_QIE_NEW)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:26:07.142 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165738">165738</A>
+TERMINATE: TOF QIE calib run (ACE_TOF_QIE_NEW)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:29:29.078 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165739">165739</A>
+ACTIVATE: SMX QIE calib run (SMQIECALIB)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:29:30.872 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165739">165739</A>
+TERMINATE: SMX QIE calib run (SMQIECALIB)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:33:04.041 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165741">165741</A>
+ACTIVATE: CEM LED calib run (ACE_LED_ALL)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:33:05.582 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165741">165741</A>
+TERMINATE: CEM LED calib run (ACE_LED_ALL)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:38:03.348 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165743">165743</A>
+ACTIVATE: CEM XEF calib run (XEF_ALL)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:39:08.508 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165743">165743</A>
+TERMINATE: CEM XEF calib run (XEF_ALL)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:43:21.711 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165745">165745</A>
+ACTIVATE: Muon calib run (CALIB_MUON_ALL1)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:43:22.346 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165745">165745</A>
+TERMINATE: Muon calib run (CALIB_MUON_ALL1)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:45:35.941 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165747">165747</A>
+ACTIVATE: TOF TAC calib run (TOF_TAC_CALIB)
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:45:36.833 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165747">165747</A>
+TERMINATE: TOF TAC calib run (TOF_TAC_CALIB)
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 23:55:10.977 2003 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:01</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Thu Jul 3 23:58:33.546 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165749">165749</A>
+ACTIVATE: TOF TAC calib run (TOF_TAC_CALIB)... another try due to 
+problems with sevb during previous run
+<!-- Author: Satyajit x2080 -->
+
+
+<!-- Date: Thu Jul 3 23:59:21.300 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=165749">165749</A>
+TERMINATE: TOF TAC calib run (TOF_TAC_CALIB)
+<!-- Author: Satyajit x2080 -->
+
+
+
+<!-- Date: Thu Jul 3 23:59:22.938 2003 -->
+<font color=red>Shift Summary: </font><pre>SHIFT SUMMARY: 
+============== 
+ 
+* Start shift waiting for shot.  
+* Shot setup starts at 18:00 and then is stalled with ramp stuck at 90 GeV 
+until 19:00 when shot setup starts but then at 20:00 it is determined that 
+the earlier ramp stuck at 90 GeV which is believed to be related to  
+cooling of an I/O crate resulted in some poor magnetic fields. So it is  
+necessary to retune at flattop and then back to shot setup at 20:55. 
+* Final protons started as of 21:36, finished loading at 21:48 
+* 21:50 ready for pbar transfer with first transfer at 21:52. 
+* 22:11 flattop 
+* store 2746 TevPR 7150E09 TevPB 650E09 B0ilum 25.7E30 (but understood 
+later to be erroneous due to high losses) 
+* Losses very high lostp 87kHz to &gt;100kHz, Lostpb 35 kHz to &gt; 50 kHz 
+* MCR attempting to reduce losses 
+* Beam lost shortly afterwards at 22:36 
+* Run calibrations at CDF 
+* MCR says waiting for Keith to establish new plan. Studies likely. Also 
+significant quiet time and a long time to finish stacking... </pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   ...
+Delivered Luminosity   12.5 nb-1  
+Acquired Luminosity    0  
+Efficiency             0%
+   
+</td></tr></table></pre>
+<!-- Author: Joe Incandela -->

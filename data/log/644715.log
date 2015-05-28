@@ -1,0 +1,506 @@
+<!-- Title: Owl shift. Tue Nov  6, 2007 -->
+<!-- SciCo: Vaia Papadimitriou -->
+<!-- DAQAce: Joachim Heuser -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Woohyun Chung -->
+<!-- OpManager: Tom Wright -->
+<!-- Notes: -->
+<pre>Loading pbars.Store will be dropped at 4:30 am. If the XFT experts come they can do their debugging work.</pre>
+
+
+<!-- Date: Tue Nov 6 00:39:09.679 2007 -->
+Pbars are loaded.
+<!-- Author: Vaia :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253307' target=_top>253307</a>) -->
+
+<!-- Date: Tue Nov 6 00:40:38.406 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253307>253307</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+
+<!-- Date: Tue Nov 6 00:48:53.831 2007 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Tevatron abort - Diamond integrated alarm and Diamond alaram triggered 
+ 
+Status Lights: 
+unvetoed permit #1 LED</pre></td></tr></td></table>
+<!-- Author: Joachim -->
+
+
+<!-- Date: Tue Nov 6 00:51:54.542 2007 -->
+Paged the radiation monitor pager.Jennifer responded and she is speaking with Ricardo who is already here.
+<!-- Author: Vaia :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253308' target=_top>253308</a>) -->
+
+
+<!-- Date: Tue Nov 6 00:52:58.075 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6810&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6810' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6811&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6811' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6812&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6812' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-6813&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-6813' width='300'></a></center>
+<!-- Author: Joachim -->
+<!-- Comment: Tue Nov  6 00;53;28 comment by...Joachim -->
+old BLM system pulled the abort, not the Diamond system
+
+
+<!-- Date: Tue Nov 6 00:57:26.627 2007 -->
+Paged the ops manager to inform him the store was aborted. If we need to reset the Tevatron permit we will page him again.
+<!-- Author: Vaia :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253308' target=_top>253308</a>) -->
+
+
+<!-- Date: Tue Nov 6 00:59:23.104 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-6814&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-6815  width='300' align='top'></a></td><td>radiation losses</td></tr></table>
+<!-- Author: Joachim -->
+<!-- Comment: Tue Nov  6 01;15;07 comment by...Ricardo -->
+Noticed that this is very similar to yesterday's abort, both in terms of how the BLM system aborted and what the diamond system show. 
+<!-- Date: Tue Nov 6 01:02:27.846 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253308>253308</A>
+TERMINATE: no store...
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+
+<!-- Date: Tue Nov 6 01:11:34.118 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-6816&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-6816  width='300' align='top'></a></td><td>ACNET SVXRAD</td></tr></table>
+<!-- Author: Joachim -->
+
+
+
+<!-- Date: Tue Nov 6 01:24:05.658 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-6820&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-6820  width='300' align='top'></a></td><td>This is how the West inner diamonds saw the abort. The losses slowly rose in about a second to high levels of radiation and the old BLM system pulled the abort. </td></tr></table>
+<!-- Author: Ricardo -->
+
+<!-- Date: Tue Nov 6 01:30:19.770 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253310>253310</A>
+ Activated at 2007.11.06 01:30:06
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Nov 6 01:30:22.001 2007 -->
+I pushed the "Global Reset" button in the "Radiation Monitoring" java application. The Hardware Reset button still needs explicit instructions from the Ops Manager. I also put the COT HV back to OFF.
+<!-- Author: Joachim -->
+
+<!-- Date: Tue Nov 6 01:30:38.208 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253310>253310</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] 
+<!-- Author: Joachim Heuser, x2080 -->
+<!-- Comment: Tue Nov  6 06;07;42 comment by...Joachim -->
+RXPT error with COT 18, some automatic HRRs - ACTIVE stayed red. I shepherded COT18. Worked for two minutes, then it happened again. I ended the run since we wanted to start calibrations anyway.
+<!-- Date: Tue Nov 6 01:48:48.687 2007 -->
+I forgot to mention: we also did the post-quench checkout procedure for the Silcion (Coldstart, check for pinkies)- everyhing went fine.
+<!-- Author: Joachim -->
+
+
+<!-- Date: Tue Nov 6 02:00:01.812 2007 -->
+MCR called. They want to put beam in the machine as soon as possible and they want the Tevatron permit reset. I paged the ops manager.
+<!-- Author: Vaia :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253310' target=_top>253310</a>) -->
+
+
+<!-- Date: Tue Nov 6 02:06:57.320 2007 -->
+The ops manager OKed reseting the Tevatron permit, so we reset it and informed MCR.  
+<!-- Author: Vaia -->
+
+
+<!-- Date: Tue Nov 6 02:10:00.106 2007 -->
+<B> At the display panel for the radiation alarms the "integrated alarm" is still silenced (the button Silence shows a red LED). </B> 
+<!-- Author: Joachim -->
+<!-- Comment: Tue Nov  6 02;14;43 comment by...Joachim -->
+I pressed the button to check if it turns off - it did not. Maybe this particular alarm did not sound after all (at 0:42) and i confused it with the alarm from the rack to the left which also sounded alarms.
+
+<!-- Comment: Tue Nov  6 02;30;38 comment by...Joachim -->
+We got slightly worried that we might get a real alarm and would not hear it, so Vaia called Ricardo. He said that in fact the alarm is not silenced, so we're good.
+<!-- Comment: Tue Nov  6 07;11;14 comment by...Ricardo -->
+You are abolutely right, the solid LED light in the "silence" button is misleading and you should ignore it. It is not really meant to inform the shift crew but the experts of the system.  We will modify the instructions to clearly state that.
+<!-- Date: Tue Nov 6 02:10:44.271 2007 -->
+MCR called. They are going to inject beam for studies.
+<!-- Author: Vaia -->
+
+
+
+<!-- Date: Tue Nov 6 02:17:10.039 2007 -->
+On VNODE 1 an administrator scan was running from ~2:00-2:15 am. During that time the HV monitoring was briefly lost for CSX/MSK/BSU/TSU. The HV bars came back immediately, the HB however took its time till after the finish of the scan.
+<!-- Author: Joachim -->
+
+
+
+<!-- Date: Tue Nov 6 02:33:44.344 2007 -->
+We paged the silicon expert because the "integrated alarm" in the radiation alarm display pannel, ACNET crate DB, is lit up,indicating it is silenced. Since there is beam in the machine we wanted to make sure the detector is safe. Ricardo told us that  independent of the impression it gives,the alarm is not silenced. 
+<!-- Author: Vaia -->
+
+
+<!-- Date: Tue Nov 6 02:45:00.448 2007 -->
+On many (all?) iFix PCs an administrator Scan is running. I mistakenly closed some of them since they seemed to be finished when in fact they were only checking one big file. 
+ 
+<B> We are getting a lot of HB alarms for various subsystems because of that. I will monitor the systems in those cases till the scans are finished.</B>
+<!-- Author: Joachim -->
+
+
+<!-- Date: Tue Nov 6 05:13:02.058 2007 -->
+GAM HV bars red in iFix
+<!-- Author: Joachim -->
+<!-- Comment: Tue Nov  6 05;13;39 comment by...Joachim -->
+clearing error messages on VNODE 1 and 2, back green in the next cycle
+
+
+<!-- Date: Tue Nov 6 06:06:53.377 2007 -->
+We have quiet time so we decide to do some calibrations before the access starts.
+<!-- Author: Vaia -->
+
+<!-- Date: Tue Nov 6 06:07:24.288 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253310>253310</A>
+ Terminated at 2007.11.06 06:07:12
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Tue Nov 6 06:08:03.293 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253310>253310</A>
+TERMINATE: end on RXPT error, doing calibrations
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:11:53.745 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253311>253311</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 06;19;31 comment by...Woohyun -->
+checked.
+<!-- Date: Tue Nov 6 06:11:54.226 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253311>253311</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:12:53.337 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253311>253311</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:14:05.321 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253312>253312</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:14:06.536 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253312>253312</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:14:07.266 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253312>253312</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 06;20;24 comment by...Woohyun -->
+checked.
+<!-- Date: Tue Nov 6 06:16:40.151 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253313>253313</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:16:41.720 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253313>253313</A>
+CALIBRATION: <U><B>bscqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#bscqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 06;21;28 comment by...Woohyun -->
+checked.
+<!-- Date: Tue Nov 6 06:17:57.352 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253313>253313</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:19:31.394 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253314>253314</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+
+
+
+<!-- Date: Tue Nov 6 06:26:18.372 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253314>253314</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:27:09.323 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253315>253315</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:29:15.277 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253315>253315</A>
+TERMINATE: done
+
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:31:23.414 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253315>253315</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 06;45;55 comment by...Woohyun -->
+checked.
+<!-- Date: Tue Nov 6 06:31:25.463 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253316>253316</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:33:35.828 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253316>253316</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:35:44.714 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253317>253317</A>
+ Activated at 2007.11.06 06:35:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 6 06:35:45.182 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253317>253317</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [7,983,706] 
+<!-- Author: Joachim Heuser, x2080 -->
+<!-- Comment: Tue Nov  6 06;46;13 comment by...Joachim -->
+L1A rate: 50.4 Hz
+<!-- Date: Tue Nov 6 06:45:42.547 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253317>253317</A>
+ Terminated at 2007.11.06 06:45:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Nov 6 06:45:43.486 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253317>253317</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+
+
+<!-- Date: Tue Nov 6 06:47:14.017 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253318>253318</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:48:02.263 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253318>253318</A>
+CALIBRATION: <U><B>tofqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#tofqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 07;27;05 comment by...Joachim -->
+checked
+<!-- Date: Tue Nov 6 06:48:03.282 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253318>253318</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:49:27.449 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253319>253319</A>
+ACTIVATE: RunSet: SMQIECALIB 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:50:10.059 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253319>253319</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:53:23.933 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253319>253319</A>
+CALIBRATION: <U><B>smx</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#smx target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 07;27;15 comment by...Joachim -->
+checked
+<!-- Date: Tue Nov 6 06:53:24.696 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253320>253320</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:55:32.530 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253320>253320</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:55:33.914 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253320>253320</A>
+CALIBRATION: <U><B>cemled</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cemled target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 07;27;23 comment by...Joachim -->
+checked
+<!-- Date: Tue Nov 6 06:56:09.904 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253321>253321</A>
+ACTIVATE: RunSet: COTCALIB_ACE 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:58:19.610 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253321>253321</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 06:58:20.408 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253321>253321</A>
+CALIBRATION: <U><B>cot</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#cot target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 07;27;31 comment by...Joachim -->
+checked
+<!-- Date: Tue Nov 6 06:59:47.298 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253322>253322</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 07:00:07.427 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253322>253322</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 07:00:08.267 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253322>253322</A>
+CALIBRATION: <U><B>calxef</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calxef target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 07;27;38 comment by...Joachim -->
+checked
+<!-- Date: Tue Nov 6 07:00:58.261 2007 -->
+The CDF collision hall has been surveyed.  We are now in Supervised access.  
+<!-- Author: dee -->
+
+<!-- Date: Tue Nov 6 07:03:30.092 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253323>253323</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 07:03:31.122 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253323>253323</A>
+ACTIVATE: RunSet: CALIB_MUON_ALL1 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+<!-- Date: Tue Nov 6 07:05:09.237 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253324>253324</A>
+ACTIVATE: RunSet: TOF_TAC_CALIB 
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+
+<!-- Date: Tue Nov 6 07:10:11.700 2007 -->
+Called MCR to check if the magnets are warm enough. The A side is sufficiently warm but the B side not yet. They will call us back when we are warm on both sides.  
+<!-- Author: Vaia -->
+
+<!-- Date: Tue Nov 6 07:11:13.304 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253324>253324</A>
+CALIBRATION: <U><B>toftac</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#toftac target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Tue Nov  6 07;27;47 comment by...Joachim -->
+checked
+<!-- Date: Tue Nov 6 07:11:14.564 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253324>253324</A>
+TERMINATE: done
+<!-- Author: Joachim Heuser, x2080 -->
+
+
+
+<!-- Date: Tue Nov 6 07:15:27.460 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=253325>253325</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,986,705] 
+<!-- Author: Joachim Heuser, x2080 -->
+<!-- Comment: Tue Nov  6 07;25;02 comment by...Joachim -->
+i still get RXPT errors for COT18, shepherded again
+
+
+
+
+
+
+
+
+<!-- Comment: Tue Nov  6 07;44;56 comment by...carolina -->
+again COT18 because of RXPT error, did HRR and went fine again
+<!-- Date: Tue Nov 6 07:28:48.003 2007 -->
+Called MCR again to check on the temperature. The B side is around 
+16 degrees now.
+<!-- Author: Vaia -->
+
+
+<!-- Date: Tue Nov 6 07:36:15.923 2007 -->
+It will take another ~ 20 minutes for the B side to be warmed up.
+<!-- Author: Vaia -->
+
+
+
+<!-- Date: Tue Nov 6 07:50:14.093 2007 -->
+MCR called. The magnets are now sufficiently warm so we can move the steel.
+<!-- Author: Vaia -->
+
+
+<!-- Date: Tue Nov 6 07:53:51.544 2007 -->
+SVX tripped. Wedge 10 - i got Ricardo who was in the Silicon office. This particular trip alawys happens when the south wall is opened, so it won't recover as long as it is open. SVS stays red in iFix because of that. <B> Any further error voice message will indicate a newly tripped channel, also have an eye on IMON. </B>
+<!-- Author: Joachim -->
+
+<!-- Date: Tue Nov 6 07:55:10.378 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:00</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Nov 6 07:56:52.969 2007 -->
+<font color=red>Shift Summary: </font><pre>Shift Summary: 
+ 
+We were supposed to have a test Tevatron store but it was aborted due to SVX  
+radiation alarm around 00:50:00 am. 
+ 
+We documented the reason for the abort (similar as yesterday's) and performed  
+the post-quench checkout procedure for the silicon. 
+ 
+We performed all calibrations and run cosmics and L2 torture test. 
+ 
+We started the access around 7:00 am. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   253307-253325
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             N/A
+   
+</td></tr></table></pre>
+<!-- Author: Vaia -->

@@ -1,0 +1,524 @@
+<!-- Title: Eve shift. Fri Jan 11, 2008 -->
+<!-- SciCo: Petra Merkel -->
+<!-- DAQAce: Eusin Lee -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Sasha Golossanov -->
+<!-- OpManager: Farrukh Azfar -->
+<!-- Notes: -->
+<pre>Store 5838 still on going. CDF is in end-of-store setting since the solenoid is still OFF.  
+CRYO people working on getting it to turn back on.  
+If data taking resumes, page BMU to see if they want to be included again.  
+L2 experts in control of DAQ right now.</pre>
+
+
+<!-- Date: Fri Jan 11 16:17:30.240 2008 -->
+Paged Connor from L3 again. He will come in to take a look since the problem from the previous shift is still with us.
+<!-- Author: Petra :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256135' target=_top>256135</a>) -->
+<!-- Comment: Fri Jan 11 16;32;16 comment by...sam -->
+Connor clean up L3 again. this is probably due to switching back and forth between the different CSL versions. it is better to clean up L3 when we make do something testing of CSL like<a href=
+'/cgi/elog/elog.pl?nb=2008&action=view&page=32&frame=2&anchor=14:38:20.208'>this</a> 
+<!-- Date: Fri Jan 11 16:22:27.246 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256137>256137</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Eunsin -->
+
+
+
+<!-- Date: Fri Jan 11 16:22:30.289 2008 -->
+Alarm from silicon, one power supply (#7) tripped spontaneously. Esuin is trying to bring the wedges back to standby.
+<!-- Author: Petra :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256137' target=_top>256137</a>) -->
+<!-- Comment: Fri Jan 11 16;31;51 comment by...Petra -->
+unable to turn first L00 wedge to standby, or even off, it always jumps to ON, but the colors in the wedge display indicate it is actually off and not on.
+Paged Ricardo and he is here.
+<!-- Comment: Fri Jan 11 16;38;36 comment by...Eunsin -->
+Recovered!
+<!-- Date: Fri Jan 11 16:29:10.902 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256139>256139</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Eunsin -->
+
+
+
+
+<!-- Date: Fri Jan 11 16:34:21.680 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256140>256140</A>
+TERMINATE: done
+
+<!-- Author: sadf -->
+
+
+<!-- Date: Fri Jan 11 16:38:00.226 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256141>256141</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 16:38:01.472 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256142>256142</A>
+TERMINATE: done
+<!-- Author: sadf -->
+
+
+
+
+<!-- Date: Fri Jan 11 16:42:33.841 2008 -->
+The BMU expert called and said that we should keep BMU out until further notice.
+<!-- Author: Petra :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256141' target=_top>256141</a>) -->
+
+
+<!-- Date: Fri Jan 11 16:43:35.664 2008 -->
+We tried again to send trigger error bit in case showermax system doesn't send data to L2. 
+This time we succeded. The bit L2_ERROR showed 4 events. 
+The executable will be used to debug RECES item. In any case we going to put back the official executable for beam.  
+<!-- Author: Anadi and Laura :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256141' target=_top>256141</a>) -->
+
+<!-- Date: Fri Jan 11 16:44:14.622 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256141>256141</A>
+TERMINATE: end to put back the official executable and declare done the L2 tests.
+<!-- Author: Eunsin -->
+
+
+
+<!-- Date: Fri Jan 11 16:47:09.226 2008 -->
+Plug HV trip. Recovering..
+<!-- Author: Eunsin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256141' target=_top>256141</a>) -->
+<!-- Comment: Fri Jan 11 16;53;44 comment by...Eunsin -->
+recovered
+
+<!-- Date: Fri Jan 11 16:54:38.485 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256143>256143</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 16;55;25 comment by...Anadi laura -->
+Test to verify everything is fine 
+<!-- Date: Fri Jan 11 16:54:54.912 2008 -->
+VOI is RED in Global Alarm system. 
+Following the instruction I tryied find the application, *.evs, but cannot find it. Where is the location?
+<!-- Author: Eunsin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256143' target=_top>256143</a>) -->
+<!-- Comment: Fri Jan 11 17;03;39 comment by...Eunsin -->
+Steve was here to fix it.
+
+
+<!-- Date: Fri Jan 11 17:35:31.124 2008 -->
+Eusin asked a couple of good questions about turning back on 
+when the solenoid is back up. A couple of reminders:<br> 
+* if COT has been OFF for more than 2 hours (which is the 
+   case) then it must be in STANDBY for 15 minutes before 
+   going to ON<br> 
+* likewise, the PLUG HV takes about 5 minutes to stabilize 
+   before taking PHYSICS data<br> 
+* as always, beam conditions must be SAFE before turning 
+  silicon ON.  I think a courtesy call to silicon main pager 
+  carrier would be warranted about the same time we turn 
+  COT on. (i.e. 15 minutes before we are ready to take data)
+<!-- Author: JJ -->
+
+<!-- Date: Fri Jan 11 17:40:32.367 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256144>256144</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: TEST_CSL_TORTURE [2,1018,714] csl v2_12 test - from start
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 17:48:22.965 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256145>256145</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: TEST_CSL_TORTURE [2,1018,714] csl test v2_12 - from start
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 17:56:44.250 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256146>256146</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: TEST_CSL_TORTURE [2,1018,714] 
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 18:00:49.138 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256147>256147</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: TEST_CSL_TORTURE [2,1018,714] csl c2_12 test - from start
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 18:09:49.400 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256150>256150</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] csl v2_12 test - from start
+<!-- Author: Eunsin -->
+
+
+
+<!-- Date: Fri Jan 11 18:14:46.961 2008 -->
+Dell just informedme that they are going to attempt a cold valve change, swapping the faulty valve that caused the solenoid to trip earlier. His estimate to be done with it sounds like around 2h from now, but he will let us know when he knows something more definite.
+<!-- Author: Petra :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256150' target=_top>256150</a>) -->
+
+
+<!-- Date: Fri Jan 11 18:27:08.649 2008 -->
+Paged L3 main pager since L3 is not responding right now and is giving an error message.
+<!-- Author: Petra -->
+<!-- Comment: Fri Jan 11 18;39;34 comment by...Willis -->
+L3 got stuck at partition again due to a L3 farm node 
+problem (b0l3s17p21), possibly with the same problem 
+from earlier this afternoon. After excluding that farm,
+L3 is ok.
+<!-- Date: Fri Jan 11 18:37:06.091 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256151>256151</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] csl v2_12 test - start
+<!-- Author: Eunsin -->
+
+
+
+<!-- Date: Fri Jan 11 18:42:50.518 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256152>256152</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] csl v2_12 test from IDLE
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 18;47;58 comment by...Wills -->
+L3 has about 5% purple (ended) farm nodes. Two L3 input
+converter nodes are green, and I do not see any events
+being processed in the farm nodes under them. The L3 output
+nodes are all working, the the CSL is writing out events
+from them.
+<!-- Date: Fri Jan 11 18:43:06.773 2008 -->
+Dell called, they are changing the valve now.
+<!-- Author: Petra -->
+
+
+<!-- Date: Fri Jan 11 18:53:34.212 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256153>256153</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] csl v2_12 test - from IDLE
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 18;54;25 comment by...Willis -->
+No L3 nodes are purple, and a different set of two L3 input
+converter nodes are green
+
+<!-- Date: Fri Jan 11 18:57:55.308 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256154>256154</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] csl v2_12 test - from START
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 19;03;41 comment by...Eunsin -->
+L3 farm node (s10p17) are dead(RED).
+Inverstigating...
+
+<!-- Comment: Fri Jan 11 19;05;18 comment by...Eunsin -->
+<pre>Ok..here is the answer:
+
+ This means that the L3 filter software has crashed on that node.
+The executable will be restarted automatically next time you start a run.
+
+This problem requires no special action on your part. Keep taking data. </pre>
+
+
+<!-- Date: Fri Jan 11 19:23:16.024 2008 -->
+The valve is replaced. Dell said it will take another 30-60minutes of recovery time. CRYO will call up here before they start ramping up the solenoid again.
+<!-- Author: Petra -->
+
+<!-- Date: Fri Jan 11 19:50:30.518 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256155>256155</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] csl v2_12 test - from IDLE
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 19;51;37 comment by...Willis -->
+This time, there were no green L3 input converter nodes
+<!-- Date: Fri Jan 11 19:51:27.524 2008 -->
+Bruce from CRYO called, they are startig to power up the solenoid now.
+<!-- Author: Petra -->
+<!-- Comment: Fri Jan 11 20;07;07 comment by...Petra -->
+looking good so far, we are at 2500 Amps.
+<!-- Date: Fri Jan 11 19:53:43.160 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256155>256155</A>
+TERMINATE: done
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 20;00;26 comment by...Willis -->
+End of CSL v2_12 tests. The default CSL should now be running.
+
+
+
+<!-- Date: Fri Jan 11 20:20:59.913 2008 -->
+I restarted Error Handler according to day shift instruction.
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 20:32:32.436 2008 -->
+Put COT to standbay. Waiting for 15 minutes to turn on.
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 20:34:50.255 2008 -->
+Ramping up plug HV.
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 20:35:00.091 2008 -->
+At 20:34 the solenoid is fully ramped up and we put the COT HV to standby. We will wait 15 minutes as requested. Meanwhile we are turning Plug HV on.
+<!-- Author: Petra -->
+
+<!-- Date: Fri Jan 11 20:53:15.534 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256156>256156</A>
+ Activated at 2008.01.11 20:52:57
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 11 20:53:16.937 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256156>256156</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 20:56:35.693 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256156>256156</A>
+TERMINATE: disbale BMU since BMU HV standby.
+<!-- Author: Eunsin -->
+
+
+<!-- Date: Fri Jan 11 20:58:57.372 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256156>256156</A>
+ Terminated at 2008.01.11 20:55:06
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Jan 11 21:04:37.304 2008 -->
+All detectors but BMU are up. I had to page silicon, and Sasha guided me through setting the CDF silicon permit for TevMon.
+<!-- Author: Petra -->
+<!-- Comment: Fri Jan 11 21;04;59 comment by...Petra -->
+Oh, and I called MCR too.
+
+<!-- Date: Fri Jan 11 21:05:45.750 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+ Activated at 2008.01.11 21:05:31
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 11 21:05:46.999 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Eunsin -->
+<!-- Comment: Fri Jan 11 21;11;29 comment by...Sasha Golossanov -->
+Silicon chip status slides from SVXMon look OK.
+
+
+<!-- Date: Fri Jan 11 21:40:05.023 2008 -->
+YEAH!
+<!-- Author: Phil -->
+<!-- Comment: Fri Jan 11 21;43;46 comment by...p -->
+I had trouble making an entry with firefox, I was able with IE. That's in case it's not just some stupid thing i did and someone else has trouble.
+
+<!-- Comment: Fri Jan 11 22;07;09 comment by...Sebastian -->
+Many thanks to all the people who worked on the valve - who are not in the CR normally.. (entered with firefox).
+
+<!-- Date: Fri Jan 11 22:17:12.101 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+muons: <tt>BMU high voltage is off.</tt>
+<!-- Author: Consumer Operator( Sasha Golossanov) -->
+
+
+<!-- Date: Fri Jan 11 22:17:13.138 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+general: <tt>so far so good. &nbsp;B0Lum = 53E30, so after about an hour into the run a few plots still could use more events.</tt>
+<!-- Author: Consumer Operator( Sasha Golossanov) -->
+
+
+
+<!-- Date: Fri Jan 11 22:19:03.620 2008 -->
+CER_SVXMON_HALT_RECOVER_RUN_ERROR !!!  
+  
+ Stuck Cellid I/B5/W5/L1/C4-7 .  
+ AUTO HRR issued  
+<!-- Author: Eunsin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157' target=_top>256157</a>) -->
+
+
+<!-- Date: Fri Jan 11 23:08:37.992 2008 -->
+L2 Decision Timeout ERROR !!. auto hrr issued.
+<!-- Author: Eunsin :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157' target=_top>256157</a>) -->
+<!-- Comment: Fri Jan 11 23;11;15 comment by...Eunsin -->
+again
+
+
+<!-- Date: Fri Jan 11 23:35:17.143 2008 -->
+From the Run Coordinator's elog I see they are planning to terminate this store in half an hour, around midnight.
+<!-- Author: Petra -->
+
+<!-- Date: Fri Jan 11 23:46:13.603 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+ Terminated at 2008.01.11 23:46:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Jan 11 23:46:39.327 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+TERMINATE: end of sotre
+<!-- Author: Eunsin -->
+
+
+
+<!-- Date: Fri Jan 11 23:47:01.455 2008 -->
+MCR called with 15 minute warning for end-of-store
+<!-- Author: Petra :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157' target=_top>256157</a>) -->
+
+<!-- Date: Fri Jan 11 23:49:46.496 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=256157>256157</A>
+general: <tt>last check list before the end of the store 5838.</tt>
+<!-- Author: Consumer Operator( Sasha Golossanov) -->
+
+
+
+<!-- Date: Fri Jan 11 23:50:54.603 2008 -->
+Called MCR back that we are ready .
+<!-- Author: Petra -->
+
+<!-- Date: Fri Jan 11 23:55:10.845 2008 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256141 target=_runSummary>256141</A> x3E88D</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>16:35:57</TD>
+<TD ALIGN=CENTER>16:43:49</TD>
+<TD ALIGN=CENTER>00:06:05</TD>
+<TD ALIGN=RIGHT>      53,081</TD>   <TD ALIGN=RIGHT>     33.98</TD>
+<TD ALIGN=RIGHT>     25.08</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256143 target=_runSummary>256143</A> x3E88F</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>16:54:18</TD>
+<TD ALIGN=CENTER>17:35:49</TD>
+<TD ALIGN=CENTER>00:41:16</TD>
+<TD ALIGN=RIGHT>     101,488</TD>   <TD ALIGN=RIGHT>    167.63</TD>
+<TD ALIGN=RIGHT>    163.80</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256147 target=_runSummary>256147</A> x3E893</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>TEST_CSL_TORTURE [2,1018,714]</FONT></TD>
+<TD ALIGN=CENTER>17:59:55</TD>
+<TD ALIGN=CENTER>18:02:48</TD>
+<TD ALIGN=CENTER>00:02:51</TD>
+<TD ALIGN=RIGHT>       8,323</TD>   <TD ALIGN=RIGHT>     12.82</TD>
+<TD ALIGN=RIGHT>     10.54</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256151 target=_runSummary>256151</A> x3E897</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>18:36:11</TD>
+<TD ALIGN=CENTER>18:39:49</TD>
+<TD ALIGN=CENTER>00:03:34</TD>
+<TD ALIGN=RIGHT>       8,014</TD>   <TD ALIGN=RIGHT>     15.41</TD>
+<TD ALIGN=RIGHT>     13.16</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256152 target=_runSummary>256152</A> x3E898</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>18:42:07</TD>
+<TD ALIGN=CENTER>18:48:09</TD>
+<TD ALIGN=CENTER>00:05:59</TD>
+<TD ALIGN=RIGHT>      13,266</TD>   <TD ALIGN=RIGHT>     23.34</TD>
+<TD ALIGN=RIGHT>     21.80</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256154 target=_runSummary>256154</A> x3E89A</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>18:57:33</TD>
+<TD ALIGN=CENTER>19:47:42</TD>
+<TD ALIGN=CENTER>00:49:51</TD>
+<TD ALIGN=RIGHT>     110,557</TD>   <TD ALIGN=RIGHT>    182.14</TD>
+<TD ALIGN=RIGHT>    178.80</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256155 target=_runSummary>256155</A> x3E89B</TD>
+<TD>DAQTEST</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>19:49:56</TD>
+<TD ALIGN=CENTER>19:53:32</TD>
+<TD ALIGN=CENTER>00:03:33</TD>
+<TD ALIGN=RIGHT>       7,701</TD>   <TD ALIGN=RIGHT>     14.52</TD>
+<TD ALIGN=RIGHT>     12.19</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256156 target=_runSummary>256156</A> x3E89C</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>20:52:57</TD>
+<TD ALIGN=CENTER>20:55:06</TD>
+<TD ALIGN=CENTER>00:00:00</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT>      9.29</TD>
+<TD ALIGN=RIGHT>      0.00</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>0</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=256157 target=_runSummary>256157</A> x3E89D</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_5_01 [3,1016,713]</FONT></TD>
+<TD ALIGN=CENTER>21:05:31</TD>
+<TD ALIGN=CENTER>23:46:02</TD>
+<TD ALIGN=CENTER>02:37:12</TD>
+<TD ALIGN=RIGHT>     693,460</TD>   <TD ALIGN=RIGHT>    505.83</TD>
+<TD ALIGN=RIGHT>    492.68</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>23:55:01</TD>
+<TD ALIGN=CENTER>04:30:25</TD>
+<TD ALIGN=RIGHT>       995,890</TD> <TD ALIGN=RIGHT>    964.97</TD>
+<TD ALIGN=RIGHT>    918.05</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Jan 11 23:57:58.183 2008 -->
+<font color=red>Shift Summary: </font><pre>One silicon power supply (#7) spontaneously tripped. Ricardo got the wedges back to STDBY. 
+ 
+BMU to be left out until further notice from expert. 
+ 
+Had to page L3 a couple of times due to unresponsive L3.  
+ 
+The cold valve for the solenoid was replaced successfully and the solenoid ramped back up around 8:30pm. We then brought the detector back up (except BMU) including silicon, and after setting the CDF inhibit for TevMon we are successfully taking data again. 
+ 
+Store 5838 terminated between shifts. 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   256157
+Delivered Luminosity   1645.6 nb-1  
+Acquired Luminosity    951.9 nb-1  
+Efficiency             57.8
+   
+</td></tr></table></pre>
+<!-- Author: Petra -->

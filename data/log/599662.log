@@ -1,0 +1,430 @@
+<!-- Title: Day shift. Sun Jan  8, 2006 -->
+<!-- SciCo: Carl Haber -->
+<!-- DAQAce: Craig Group -->
+<!-- MonAce: Iuri Oksuzian -->
+<!-- CO: Kihyeon Cho -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre>inherit store 4584 
+run 209819 
+L=40 
+stack=38 
+rbeam=209</pre>
+
+
+<!-- Date: Sun Jan 8 08:30:04.491 2006 -->
+CSL logger expert paged to deal with >50% occp of a disk
+<!-- Author: Carl Haber -->
+
+
+<!-- Date: Sun Jan 8 08:31:04.326 2006 -->
+<p>Apparently, there have been problems with the TeV Array  
+Display since yesterday; possibly, since the Microsoft patches 
+have been applied to our computers (which also required a 
+reboot).  On CNS51PC, were we normally run this, a JAVAW.EXE 
+error appears immediately.  On CNS46PC, I tried it and the 
+display came up for a minute or so and seemed to be working, 
+but then it also died with a JAVAW.EXE error (note, this is 
+the JAVA process itself dying).  Both these PCs have been  
+rebooted after this problem arose, but this did not help.</p> 
+ 
+<p>I called the MCR crew chief, Duane Newhart, and they said 
+they'd look into this.  This may be the first indication there 
+is a problem with these patches; wisely, they sent it out to 
+only computers outside the MCR.</p>
+<!-- Author: Steve Hahn -->
+<!-- Comment: Sun Jan  8 08;32;00 comment by...Steve Hahn -->
+<p>To be clear, the Microsoft patches have <u>only</u> been 
+applied to our ACnet PCs.</p>
+
+
+<!-- Date: Sun Jan 8 08:36:31.688 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-499&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-499' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-500&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-500' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-501&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-501' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots -->
+
+
+<!-- Date: Sun Jan 8 08:52:16.755 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-502&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-502  width='300' align='top'></a></td><td>Just got another pinky. I tried to unmark it, but turned pink again after few minutes</td></tr></table>
+<!-- Author: Yuri -->
+<!-- Comment: Sun Jan  8 08;55;28 comment by...Ulrich (Silicon Main Pager) -->
+Just another bias line pinkie - no big problem. I will have a look into it later this morning.
+<!-- Date: Sun Jan 8 08:52:25.263 2006 -->
+Collider Flying Wires!
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209819' target=_top>209819</a>) -->
+
+
+<!-- Date: Sun Jan 8 08:58:53.731 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209819">209819</a>
+ Terminated at 2006.01.08 08:57:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 8 08:58:54.510 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209819">209819</a>
+TERMINATE: Stuck in  intermediate state durring Si trip.
+<!-- Author: Salvador x2080 -->
+
+
+<!-- Date: Sun Jan 8 09:19:34.460 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</a>
+ Activated at 2006.01.08 09:18:43
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jan 8 09:19:35.727 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</a>
+ACTIVATE: RunSet: AAA_NOSILICON  Trigger: PHYSICS_3_07 [3,761,610] Run without Si till expert calls back.
+<!-- Author: Salvador x2080 -->
+
+
+
+<!-- Date: Sun Jan 8 09:20:44.273 2006 -->
+Saw Si 6 Reaoance error before trip... <br> 
+ 
+52'3" b0svx02:Messenger:Jan 8, 2006 8:52:01 AM->SRC Fatal Error:Sl 6 Resonance Detected  
+ <br>
+ 
+During Si trip, when we reset trip RC was in halt state, but apparently it cleared it self durring trip reset and got stuck with active button yellow.  Had to force ending of run to gain control.    Pages Si.  Could not ping b0fib06. Shepherd failed.  Starting run without Si.  Si expert will look into the problem and call back.  
+ 
+  
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+<!-- Comment: Sun Jan  8 09;57;04 comment by...Craig -->
+Talking with Ulrich we realized that that the trip was correlated with a spike in losses due to flying wire scan.  After the FWS inhibit cleared, there were many L3_REFORMAT_ERROR errors.  Looking closely at the log we also see <br>
+<pre>
+MLE) b0dap73.fnal.gov:Thread-100:Jan 8, 2006 8:51:45 AM->FrontEnd Crate Error Condition from:
+VRB_SVX_02
+(MLE) b0dap73.fnal.gov:Thread-100:Jan 8, 2006 8:51:45 AM->FrontEnd Error: VRB_SVX_02 
+</pre>
+many more L3_REFORMAT_ERROR errors and <br>
+<pre>
+(MLE) b0eproxy02.fnal.gov:main:Jan 8, 2006 8:51:47 AM->Error on L3 node b0l3016 (partition 0) Sun Jan 8 08:51:42 2006 l3_node 
+  in refoInt_reformatProc (l3_refevt.c:611)
+     ( L3_REFORMAT_ERROR: see Error Handler _reformatter.log file for full message)
+(MLW) b0dap73.fnal.gov:Thread-100:Jan 8, 2006 8:51:47 AM->Inhibit flag SET 
+(MLE) b0eproxy02.fnal.gov:main:Jan 8, 2006 8:51:47 AM->Error on L3 node b0l3022 (partition 0) Sun Jan 8 08:51:41 2006 l3_node 
+  in refoInt_reformatProc (l3_refevt.c:611)
+</pre>
+The part from the error log when we tried to reset the trip...  I think that the inhibit cleared and RC tried to go into active state while resetting??
+<pre>
+[MLE]
+52'3" 1 crate/s: b0svx02(112),  in error. [RXPT]
+(MLW) b0dap73.fnal.gov:Thread-100:Jan 8, 2006 8:57:35 AM->StateManager: User has requested an over-ride!
+(RC)   8:57:35 Halt -> HALTED
+(MLE) b0svx05:Messenger:Jan 8, 2006 8:57:38 AM->Silicon Resonator: Sl 08 Ch 9 -> e514: Bytes: 00082
+
+(MLE) b0svx01:Messenger:Jan 8, 2006 8:57:39 AM->Silicon Resonator: Sl 10 Ch 2 -> e122: Bytes: 00074
+
+(MLE) b0svx04:Messenger:Jan 8, 2006 8:57:39 AM->Silicon Resonator: Sl 20 Ch 8 -> e4b3: Bytes: 00090
+
+(MLE) b0svx03:Messenger:Jan 8, 2006 8:57:39 AM->Silicon Resonator: Sl 10 Ch 9 -> e334: Bytes: 00058
+
+(MLE) b0svx02:Messenger:Jan 8, 2006 8:57:38 AM->Silicon Resonator: Sl 20 Ch 7 -> e2b2: Bytes: 00084
+
+(MLW) b0dap73.fnal.gov:Thread-100:Jan 8, 2006 8:57:57 AM->Inhibit flag CLEAR 
+(RUN Comment) rundb.RunComment@16f1c70
+  RunNumber   209819
+  CreateTime  2006-01-08 08:57:58.0
+  TextComment Stuck in  intermediate state durring Si trip.
+</pre>
+
+
+
+
+<!-- Date: Sun Jan 8 09:32:26.693 2006 -->
+<pre>Just got silicon trip in SVX B3W7L0 and one of the fibs crate turned red. First tried to recover the trip using instructions on the desk. But I tried to turn it on clicking on L0 circle in the left upper corner. It did not help. Now expert is investigating this problem.</pre>
+<!-- Author: Yuri :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209819' target=_top>209819</a>) -->
+
+
+<!-- Date: Sun Jan 8 09:49:25.810 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-503&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-503  width='300' align='top'></a></td><td>We had a trip just after flying wire and we also got a lot of reformat errors.</td></tr></table>
+<!-- Author: Yuri -->
+
+
+<!-- Date: Sun Jan 8 09:54:24.159 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-504&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-504' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-505&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-505' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-506&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-506' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots 7:30-8:30 -->
+
+
+
+<!-- Date: Sun Jan 8 09:57:17.173 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-507&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-507' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-508&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-508' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-509&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-509' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 8:30-9:30 -->
+
+
+<!-- Date: Sun Jan 8 10:01:12.230 2006 -->
+A few minutes ago we had another flying wire in coincidence with TM2 Events Pending TO error.  Auto-HRR cleared the problem.
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+<!-- Comment: Sun Jan  8 10;51;54 comment by...Craig -->
+Collider Flying Wire Scan again...
+<!-- Comment: Sun Jan  8 11;55;45 comment by...Craig -->
+again...
+<!-- Comment: Sun Jan  8 12;52;05 comment by...Craig -->
+again...
+<!-- Comment: Sun Jan  8 13;52;40 comment by...Craig -->
+again...
+<!-- Comment: Sun Jan  8 14;52;01 comment by...Craig -->
+again...
+<!-- Comment: Sun Jan  8 15;51;59 comment by...Craig -->
+again...
+<!-- Date: Sun Jan 8 10:25:19.577 2006 -->
+Busy TO
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+<!-- Comment: Sun Jan  8 10;40;00 comment by...Craig -->
+again...
+
+<!-- Comment: Sun Jan  8 11;27;02 comment by...Craig -->
+again...
+<!-- Comment: Sun Jan  8 11;59;17 comment by...Craig -->
+again...
+<!-- Comment: Sun Jan  8 12;14;31 comment by...Yuri -->
+again
+<!-- Comment: Sun Jan  8 12;26;12 comment by...Craig -->
+again...
+<!-- Date: Sun Jan 8 10:51:21.763 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+si: <tt>No Silicon Run</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+<!-- Date: Sun Jan 8 10:51:22.532 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+trigger: <tt>No Silicon Run</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+<!-- Date: Sun Jan 8 10:51:23.560 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+monitors: <tt>No SIlicon Run<br>
+L2_CMU1.5_PT2_&_CMX1.5_PT2_DPHI120_OPPQ_PS2_v1 gets to low, like before -> reference fit could be false<br>
+ObjMon: Charge/Pt is still red.</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+
+
+<!-- Date: Sun Jan 8 10:55:05.095 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-510&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-510' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-511&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-511' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-512&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-512' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 9:30-10:30 -->
+
+
+<!-- Date: Sun Jan 8 11:04:13.061 2006 -->
+TM2 Events Pending error.  
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+<!-- Comment: Sun Jan  8 14;04;13 comment by...Craig -->
+again...
+<!-- Date: Sun Jan 8 11:09:41.659 2006 -->
+RC recieved an inhibit from SVX rack power cycle procedure.  It cleared now and we recovered the run.
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+
+
+<!-- Date: Sun Jan 8 11:25:06.861 2006 -->
+<h3>Silicon problems</h3> 
+The CPU of b0fib06 gets stuck when booting. We tried: 
+<ul> 
+<li> booting from different code 
+<li> reflashing the kernel 
+<li> power cycle the rack 
+</ul> 
+None helped. It always gets stuck on: 
+<pre> 
+sp FER_dummy_setup 
+</pre> 
+We are planning to swap the MVME. Unless other suggestions 
+by DAQ experts (thanks Ray for the help).<br>
+<!-- Author: Ulrich/Sebastian -->
+
+
+
+<!-- Date: Sun Jan 8 11:33:33.149 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-513&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-513' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-514&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-514' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-515&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-515' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 10:30-11:30 -->
+
+
+
+<!-- Date: Sun Jan 8 11:57:36.114 2006 -->
+Partion 0 Unexpectedly closed!!  I was successfully reopened for me but now appears red on the Run Control widow.  RTserver checks out fine.  I am looking in the documentation to see if we should restart the run or not...
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+<!-- Comment: Sun Jan  8 12;10;07 comment by...Craig -->
+At the same time there was an error that TeVMon lost connection to acnet. TevMon seems to be updating now, and we continued to take data the whole time.  A similar think happened  <a href=
+'/cgi/elog/elog.pl?nb=2005&action=view&page=1064&frame=2&anchor=09:46:27.290'>
+here. </a>  
+
+
+
+<!-- Date: Sun Jan 8 12:34:34.692 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+si: <tt>No Silicon Run</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+<!-- Date: Sun Jan 8 12:34:35.283 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+trigger: <tt>No Silicon Run</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+<!-- Date: Sun Jan 8 12:34:36.231 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+monitors: <tt>No Silicon Run.<br>
+ObjMon: Charge/Pt and CMSdx still red.</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+
+<!-- Date: Sun Jan 8 12:35:59.995 2006 -->
+From about 1Pm to 5PM the DAQ pager will be in a basement where 
+cell phone communication is spotty.  If I don't respond to a page after 5min or so, please try Frank at home.   I will also 
+check back in periodically on the fib problem crate.  
+<!-- Author: Ray Culbertson -->
+
+
+<!-- Date: Sun Jan 8 12:37:56.555 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-516&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-516' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-517&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-517' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-518&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-518' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 11:30-12:30 -->
+
+
+
+<!-- Date: Sun Jan 8 13:41:14.521 2006 -->
+Silicon experts request access to replace FIB card. 
+OPS (S.Hahn) contacts MCR (Jim Morgan), they suggest 9-10 pm 
+for ending store and permitting access
+<!-- Author: Carl Haber :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+
+
+<!-- Date: Sun Jan 8 13:51:32.475 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-519&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-519' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-520&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-520' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-521&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-521' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 12:30-13:30 -->
+
+
+<!-- Date: Sun Jan 8 13:51:55.012 2006 -->
+Anyes calls - she will pass XTRP pager to Chris Marino 
+tommarrow.  She leaves now.  In the meantime if help is 
+need call Chris' cell phone
+<!-- Author: Carl Haber :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+
+
+
+
+<!-- Date: Sun Jan 8 14:27:20.417 2006 -->
+Recieved plug high cvoltage inhibit from IFix.  Yuri has gone to the 3rd floor to investigate.
+<!-- Author: Craig :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820' target=_top>209820</a>) -->
+<!-- Comment: Sun Jan  8 14;44;27 comment by...Yuri -->
+LED 3 and 6 on the west plug were off. Following the instructions, just reseted corresponding crates and everything came back to normal.
+<!-- Date: Sun Jan 8 14:29:25.703 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+si: <tt>No Silicon Run</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+<!-- Date: Sun Jan 8 14:29:26.457 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+monitors: <tt>No Silicon Run.<br>
+ObjMon: Met, Charge/Pt, CMX dx, Tau Mass and &nbsp;Tau Track Multi are still red.</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+<!-- Date: Sun Jan 8 14:29:27.806 2006 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820">209820</A>
+trigger: <tt>No Silicon Run</tt>
+<!-- Author: Consumer Operator(Kihyeon Cho ) -->
+
+
+
+
+
+<!-- Date: Sun Jan 8 14:53:24.314 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-522&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-522' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-523&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-523' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-524&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-524' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 13:30-14:30 -->
+
+
+<!-- Date: Sun Jan 8 15:33:09.444 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-525&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-525' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-526&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-526' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-527&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-527' width='300'></a></center>
+<!-- Author: Yuri. Hourly plots. 14:30-15:30 -->
+
+
+<!-- Date: Sun Jan 8 15:55:12.103 2006 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>Physics able</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L1Accepts</TH>
+<TH>L2Accepts</TH>
+<TH>L3Accepts</TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209819 target=_blank>209819</A> x3339B</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_3_07 [3,761,610]</FONT></TD>
+<TD ALIGN=CENTER>19:30:41</TD>
+<TD ALIGN=CENTER>08:57:36</TD>
+<TD ALIGN=CENTER>12:35:12</TD>
+<TD ALIGN=RIGHT>  1,102,700,348</TD>
+<TD ALIGN=RIGHT>    15,656,726</TD>
+<TD ALIGN=RIGHT>   4,208,976</TD>
+<TD ALIGN=RIGHT> 2893.087</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=209820 target=_blank>209820</A> x3339C</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_3_07 [3,761,610]</FONT></TD>
+<TD ALIGN=CENTER>09:18:43</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>06:14:49</TD>
+<TD ALIGN=RIGHT>    560,333,638</TD>
+<TD ALIGN=RIGHT>     4,117,680</TD>
+<TD ALIGN=RIGHT>   1,047,662</TD>
+<TD ALIGN=RIGHT>  733.404</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>18:50:02</TD>
+<TD ALIGN=RIGHT>   1,663,033,986</TD>
+<TD ALIGN=RIGHT>     19,774,406</TD>
+<TD ALIGN=RIGHT>     5,256,638</TD>
+<TD ALIGN=RIGHT> 3626.491</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Jan 8 15:57:23.184 2006 -->
+<font color=red>Shift Summary: </font><pre>inherit store 4584 
+run 209819 marked good, silicon trip ends the run 
+run 209820 no silicon run while debug goes on 
+ - conclude that an FIB card is bad, access requested and 
+   planned for ~2100, silicon to be paged when MCR calls to 
+   announce end of store 
+ 
+If XTRP expert is ever needed call Chris Marino's cell phone as 
+Anyes is gone but Chris won't have the pager for another day 
+ 
+plug HV tripped but was quickly recovered 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   209819-820
+Delivered Luminosity   963.7  
+Acquired Luminosity    856.2  
+Efficiency             88.8
+   
+</td></tr></table></pre>
+<!-- Author: Carl Haber -->

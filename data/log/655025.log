@@ -1,0 +1,491 @@
+<!-- Title: Day shift. Fri Dec 28, 2001 -->
+<!-- SciCo: F. Ukegawa/L. Nodulman -->
+<!-- DAQAce: Hung Chung Fang -->
+<!-- MonAce: Jong-young Chung -->
+<!-- CO: Y. Chung/M. Dell'Orso -->
+<!-- OpManager: Kevin Burkett -->
+<!-- Notes: -->
+<pre>Shot setup imminent (08:00).</pre>
+
+
+<!-- Date: Fri Dec 28 08:07:02 2001 -->
+Starting run 135848 with Physics_0_03[3,240] with alpha in cutting.  See end of previous shift for rates and deadtime snapshots from run 135846, this physics table with alpha in tagging.  I am not seeing any DTO that the ace encountered trying to run this table last night.  Let's hope it was a fluke.  The HV are down for COT and muon systems.  
+<!-- Author: hray :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135484' target=_top>135484</a>) -->
+
+
+<!-- Date: Fri Dec 28 08:10:24 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3148&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3148' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3149&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3149' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3150&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3150' width='300'></a></center>
+<!-- Author: hray -->
+<!-- Comment: Fri Dec 28 08;11;56 comment by...hray -->
+From run 135848 with alpha in cutting and new physics table.  L3 rate input 131Hz, output 128Hz.  
+
+
+<!-- Date: Fri Dec 28 08:24:37 2001 -->
+Niether of the past two runs with the new Physics_0_03 tables were cutting at L3.  Changing to Physics_0_03[1].  This table definately did cut at L3.  Run 135849 shows reduction of rates at L3, but due to PS, not to cutting (reformatters).  YKK and Boris are here and we are exploring.  We are running with Cosmics and HV low on COT and Muons, but we should still see some of the jet paths that don't require CLC.  The L3 display on rates and deadtimes doesn't show any input values - everything is 0.
+<!-- Author: hray :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135849' target=_top>135849</a>) -->
+
+
+<!-- Date: Fri Dec 28 08:31:14 2001 -->
+We decide to just end the run, repartition, and cs.  Before I was just CSing and changing trigger table.  There is some confusion over a bug in Rates and Deadtimes DAQMON about reporting L3 rates if you don't repartition.  However, the values quoted above for Input and Output and Reformatter cutting from L3 came from the L3 display that Boris et al are responsible for - and it should be 100% reliable.
+<!-- Author: hray -->
+
+<!-- Date: Fri Dec 28 08:33:19 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135850">135850</A>
+ Activated at 2001.12.28 08:29:32
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 08:36:23 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135850">135850</A>
+ Terminated at 2001.12.28 08:33:02
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 08:36:47 2001 -->
+<pre>Shot setup will start at 11:30.</pre>
+<!-- Author: Fumi for Larry -->
+
+
+<!-- Date: Fri Dec 28 08:37:22 2001 -->
+After repartitioning and cs we see L1A 40Hz, L2A 5Hz.  L3 is mostly pale blue.  This seems more reasonable for running a physics table with no beam.  Not sure what happened before.  Is it possible not repartitioning the system when changing trigger tables got things confused? I've done this in the past and not had any problems.  Ending run to give silicon away.
+<!-- Author: hray et al -->
+
+<!-- Date: Fri Dec 28 08:45:23 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135851">135851</A>
+ Activated at 2001.12.28 08:41:30
+<!-- Author: RunControl -->
+<!-- Comment: Fri Dec 28 08;57;37 comment by...H-C -->
+<pre>Still running with PHYSICS_0_03[1,238] and no beam.  We are trying to reproduce the errors that precipitated the violent events of L2 two sunrises ago.</pre>
+<!-- Date: Fri Dec 28 08:54:48 2001 -->
+<a href= 
+'/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=86&frame=2&anchor=08:53:43'> 
+persistent pink cell </a>
+<!-- Author: jy -->
+
+
+
+<!-- Date: Fri Dec 28 08:59:13 2001 -->
+ PSH alarm  
+ let see if it is clear.
+<!-- Author: jy -->
+<!-- Comment: Fri Dec 28 09;01;38 comment by...jy -->
+<pre> as usual, it is cleard within a few mins.</pre>
+
+<!-- Date: Fri Dec 28 09:45:18 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135851">135851</A>
+ Terminated at 2001.12.28 09:42:13
+<!-- Author: RunControl -->
+<!-- Comment: Fri Dec 28 09;48;12 comment by...H-C -->
+SM_SCPU_TIMEOUT error from scanner manager. End run to clean up EVB.
+
+<!-- Date: Fri Dec 28 09:54:30 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135853">135853</A>
+ Activated at 2001.12.28 09:50:19
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 10:05:34 2001 -->
+<pre> it seems like heartbeat dead quite long time in PEM PHA PSH 
+ so I checked HV PC on third floor. 
+ HvClient.exe crashed. 
+ restarted it, now it seems ok.</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 10:38:26 2001 -->
+Ayana reports she is totally snowed in, at (716) 832 6595
+<!-- Author: Larry -->
+
+
+<!-- Date: Fri Dec 28 10:47:38 2001 -->
+<pre> CEM HV is yellow which means warnings are present. 
+ paged expert. he responded that it is ok, and will come here   
+ half an hour. 
+ </pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 11:19:32 2001 -->
+Shot setup on hold for interlock problem
+<!-- Author: Larry -->
+
+<!-- Date: Fri Dec 28 11:34:15 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135853">135853</A>
+ Terminated at 2001.12.28 11:31:03
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 11:44:28 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135860">135860</A>
+ Activated at 2001.12.28 11:41:17
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 11:45:04 2001 -->
+<P> 
+Part of Layer-00 has been added to the nominal silicon set. 
+It is a section on the east side. 
+After we learn from running this, we'll add more. 
+<P> 
+Layer-00 is only about a cm from the beam, so it can be sensitive to high losses. 
+<B>It is important for the shift crews to be careful about NOT leaving the silicon high voltage on during messy beam conditions.</B> 
+The HV (i.e., bias) should be turned down at the end of each shot as per silicon expert instructions. 
+<P> 
+Initially, Layer-00's nominal bias is set low to minimize problems from losses. Once the next shot is in and we are running stably, please page me at 722-7565. I'd like to come to manually set the bias voltage for a test run. 
+<P>
+<!-- Author: David Stuart -->
+
+<!-- Date: Fri Dec 28 11:45:40 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135860">135860</A>
+ Terminated at 2001.12.28 11:42:33
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 11:55:27 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135861">135861</A>
+ Activated at 2001.12.28 11:51:26
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 11:55:27 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135861">135861</A>
+ Terminated at 2001.12.28 11:52:21
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 12:08:15 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135862">135862</A>
+ Activated at 2001.12.28 12:03:54
+<!-- Author: RunControl -->
+<!-- Comment: Fri Dec 28 12;12;50 comment by...H-C -->
+<pre>Steve Nahn is trying to integrate L00 into CDF DAQ.  So far, all attempts at doing so have resulted in EVB failures.   Boris is coming to check if the line between the L00 VRB and the ATM switch is faulty.</pre>
+
+<!-- Date: Fri Dec 28 12:20:30 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135862">135862</A>
+ Terminated at 2001.12.28 12:17:13
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 12:30:02 2001 -->
+<pre> Fotis checked CEM HV warning problem. He said it will be green 
+ after half or an hour later when next reading.</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 12:30:10 2001 -->
+<h3>Howdy</h3> 
+So, I wanted to check out some code changes with 
+full integrated CDF-they work fine, but when we 
+added L00 in we added a new Vrb crate/SCPU (b0eb23) and 
+we quickly got Busy timeouts and the death of the SCPU proxy etc. 
+(Run 135860).  Cleaned up EVB, with same result (135861). 
+Dropped L00 out and all was well (135862).  Examined  
+ATM switch and saw Red and Orange LEDs lit up on spigot 
+corresponding to cable "EVB 00" which not surprisingly corresponds to b0eb23.  Stopped run so that Boris could 
+reset the switch<P> 
+In the meantime, we also noted that this <a href= 
+'/cgi/elog/elog.pl?nb=2001&action=view&page=937&frame=2&anchor=15:52:59'>entry</a> made on Xmas Day 
+where one CIPRICO RAID ARRAY Power supply has failed, is still true. Bill Badgett says "Page CSL" 
+  
+<!-- Author: SCN -->
+<!-- Comment: Fri Dec 28 12;32;31 comment by...K Burkett -->
+Note that we tried to call the online computer pager first, but
+they didn't respond so we had to call the DAQ pager.  Fortunately, Bill responded to that.
+
+
+<!-- Comment: Fri Dec 28 12;34;56 comment by...SCN -->
+Boris wants to power cycle the switch, then reboot
+at least the converter nodes, if not the whole damn L3 farm.
+Said it would take about 15 minutes.  If that doesn't work, 
+we'll remove the L00 wedge for this shot I guess.
+<!-- Comment: Fri Dec 28 13;00;40 comment by...K Burkett -->
+Tony called us back and will be in later this afternoon to check
+the problem.
+<!-- Date: Fri Dec 28 12:32:34 2001 -->
+"Shot setup in 5-10 minutes"
+<!-- Author: Larry -->
+
+
+<!-- Date: Fri Dec 28 12:34:38 2001 -->
+<pre>I was paged for the CEM HV problem on IFix. The CEM bars were displayed yellow. I found that all SW arch PMTs had HV values lower by 3-8 Volts than the nominal. This was caused by a "drift"  
+in the gamma power supply output. I adjusted the gamma by 2 Volts 
+and all the channels went back to within 2 Volts from nominal.</pre>
+<!-- Author: fotis -->
+
+
+
+<!-- Date: Fri Dec 28 12:42:17 2001 -->
+Shot setup - request solenoid on
+<!-- Author: Larry -->
+
+
+<!-- Date: Fri Dec 28 12:58:47 2001 -->
+<pre> proton load started</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 13:03:22 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135863">135863</A>
+ Activated at 2001.12.28 13:00:16
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 13:09:59 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135863">135863</A>
+ Terminated at 2001.12.28 13:06:58
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 13:15:12 2001 -->
+<pre> CEM back to Green !</pre>
+<!-- Author: jy -->
+
+<!-- Date: Fri Dec 28 13:27:04 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135864">135864</A>
+ Activated at 2001.12.28 13:24:04
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 13:28:38 2001 -->
+<pre> TOF alarm ?</pre>
+<!-- Author: jy -->
+<!-- Comment: Fri Dec 28 13;32;04 comment by...jy -->
+<pre> dialog box of backup suggetion in TOF HV PC downstairs popped up. just clicking it made iFix cleared.</pre>
+<!-- Date: Fri Dec 28 13:32:04 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135864">135864</A>
+ Terminated at 2001.12.28 13:28:18
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 13:33:03 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135864">135864</A>
+ Terminated at 2001.12.28 13:28:18
+<!-- Author: RunControl -->
+<!-- Comment: Fri Dec 28 13;35;26 comment by...Larry -->
+How did it do that?????
+<!-- Date: Fri Dec 28 13:34:23 2001 -->
+The solenoid is on
+<!-- Author: Larry -->
+
+
+<!-- Date: Fri Dec 28 13:39:43 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135865">135865</A>
+ Activated at 2001.12.28 13:35:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 13:52:22 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135865">135865</A>
+ Terminated at 2001.12.28 13:47:40
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 13:56:21 2001 -->
+Control room paged today about a CSL RAID array power 
+supply failure. It was power supply A of the top Ciprico 
+370 GB array, also called disk1. This array is currently 
+not used for data taking. I have powered down disks 1 and 
+2 which are not being used now. Will investigate 
+'power supply failure' message.  
+<!-- Author: tony vaiciulis -->
+
+
+<!-- Date: Fri Dec 28 14:01:31 2001 -->
+Backed out <a href= 
+'/cgi/elog/elog.pl?nb=2001&action=view&page=946&frame=2&anchor=12:30:10'> 
+code changes</a> which worked but I don't want to make default 
+until after the holidays.  Also, L00 wedge has been removed and powered down until EVB guys have some ideas about how to fix the 
+switch. (same entry)  
+<!-- Author: SCN -->
+
+
+<!-- Date: Fri Dec 28 14:06:09 2001 -->
+<pre> SVX radiation loss 
+ 
+ W I BLM  2.112833 
+ W O BLM  .2671326 
+ E I BLM  4.264172 
+ E O BLM  4.096056</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 14:07:03 2001 -->
+<pre> proton load done</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 14:15:51 2001 -->
+<pre> PSH alarm</pre>
+<!-- Author: jy -->
+
+<!-- Date: Fri Dec 28 14:18:31 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135867">135867</A>
+ Activated at 2001.12.28 14:15:27
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 14:26:16 2001 -->
+<pre> BSC alarm but cleared quickly,  
+ PSH also cleared.</pre>
+<!-- Author: jy -->
+
+<!-- Date: Fri Dec 28 14:37:57 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135867">135867</A>
+ Terminated at 2001.12.28 14:34:59
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Fri Dec 28 14:45:46 2001 -->
+<pre> anti proton came.</pre>
+<!-- Author: jy -->
+
+
+<!-- Date: Fri Dec 28 15:00:14 2001 -->
+<pre> initial luminosity : 8.945 E30</pre>
+<!-- Author: jy -->
+<!-- Comment: Fri Dec 28 15;01;49 comment by...jy -->
+<pre> 9.27 now</pre>
+
+
+<!-- Comment: Fri Dec 28 15;30;39 comment by...jy -->
+ store # 867
+<!-- Date: Fri Dec 28 15:03:32 2001 -->
+CLC integrated luminosity reset.
+<!-- Author: H-C -->
+
+
+<!-- Date: Fri Dec 28 15:16:39 2001 -->
+HV finally on except TOF (they are coming) and Si (Mary on the 
+way from O'Hare)
+<!-- Author: Larry -->
+
+<!-- Date: Fri Dec 28 15:23:39 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135869">135869</A>
+ Activated at 2001.12.28 15:20:17
+<!-- Author: RunControl -->
+<!-- Comment: Fri Dec 28 15;53;13 comment by...H-C -->
+<pre>Beam data with table PHYSICS_0_03[1,238].
+High deadtime: ~35%.  Mostly busy.  Logger rate 17MB/s.
+Avg. event size 500kB.
+
+L2 decision TO.  Sync error in pipeline.  Looks like the old problem</pre>
+<!-- Comment: Fri Dec 28 15;54;05 comment by...H-C -->
+<pre>Silicon not biased.  Mary is here to bias the silicon.</pre>
+<!-- Date: Fri Dec 28 15:27:52 2001 -->
+<pre> TOF expert turned on from TOF PC. there are some problem 
+ in communication between iFix and TOF PC. 
+ they want to investigate it during no beam. 
+ so maybe next shifter please page TOF if beam is dumped  
+ when his time. They will investigate heartbeat problem in TOF     monitoring program.</pre>
+<!-- Author: jy -->
+
+
+
+<!-- Date: Fri Dec 28 15:46:57 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3154&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3154' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3155&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3155' width='300'></a><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-3156&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-3156' width='300'></a></center>
+<!-- Author: jy -->
+
+<!-- Date: Fri Dec 28 15:51:15 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135869">135869</A>
+ Terminated at 2001.12.28 15:48:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Dec 28 15:51:15 2001 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135869">135869</A>
+ Terminated at 2001.12.28 15:48:15
+<!-- Author: RunControl -->
+
+
+
+
+<!-- Date: Fri Dec 28 15:56:05 2001 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135869>135869</A> 
+x212BD</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_0_03 [1,238]</TD>                                           
+<TD ALIGN=CENTER>15:20:17</TD>                                          
+<TD ALIGN=CENTER>15:48:15</TD>                                          
+<TD ALIGN=CENTER>00:14:26</TD>                                          
+<TD ALIGN=RIGHT>        510,417</TD>                                    
+<TD ALIGN=RIGHT>       262,591</TD>                                     
+<TD ALIGN=RIGHT>      48,404</TD>                                       
+<TD ALIGN=RIGHT>    7.440</TD>                                          
+<TD ALIGN=CENTER>0</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>15:53:01</TD>                                                       
+<TD ALIGN=CENTER>00:14:26</TD>                                          
+<TD ALIGN=RIGHT>         510,417</TD>                                   
+<TD ALIGN=RIGHT>        262,591</TD>                                    
+<TD ALIGN=RIGHT>        48,404</TD>                                     
+<TD ALIGN=RIGHT>    7.440</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Dec 28 16:06:04 2001 -->
+<font color=red>Shift Summary: </font><pre>08:30 MCR calls. Shot setup est - at 11:30 
+ 
+10:30 Ayana still snowed in in Buffalo 
+ 
+12:00 Steve N., Boris working on L00 readout; in the process a bad raid disk 
+power supply - some CSL thing, apparently bad since Chrismas 
+ 
+12:30 Fotis adjusted SW CEM gamma up 2V 
+ 
+12:37 Shot setup! On with the solenoid! Stack 127 
+ 
+15:00 Store 867 initial luminosity 9.27, HV problems with TOF, Mary coming  
+from O'Hare to turn on Si (it's ok, "it is not the real deal yet") 
+ 
+15:30 Lots of busy deadtime, l3 all green, rates, event size big ?? 
+      L2 timeout bing   
+ 
+15:50 Stop run for Mary to bias (unbiased = big?)</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   135848-69
+Delivered Luminosity   30.8  
+Acquired Luminosity    7.6  
+Efficiency             23%
+   
+</td></tr></table></pre>
+<!-- Author: Larry -->

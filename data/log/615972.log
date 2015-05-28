@@ -1,0 +1,342 @@
+sources_cache = http://cmsdoc.cern.ch/cms/cpt/Software/download/cms
+apt_server = http://cmsdoc.cern.ch/cms/cpt/Software/download/cms
+cat: write error: Broken pipe
+Preparing spec for seal-tool-conf...
+Preparing spec for gcc...
+Preparing spec for pcre...
+Preparing spec for zlib...
+Preparing spec for bz2lib...
+Preparing spec for uuid...
+Preparing spec for cppunit...
+Preparing spec for oval...
+Preparing spec for valgrind...
+Preparing spec for python...
+Preparing spec for expat...
+Preparing spec for openssl...
+Preparing spec for db4...
+Preparing spec for gdbm...
+Preparing spec for gccxml...
+Preparing spec for cmake...
+Preparing spec for boost...
+Preparing spec for boost-build...
+Preparing spec for root...
+Preparing spec for qt...
+Preparing spec for gsl...
+Preparing spec for castor...
+Preparing spec for mysql...
+Preparing spec for libpng...
+Preparing spec for libjpg...
+Preparing spec for dcap...
+Preparing spec for oracle...
+Preparing spec for libtiff...
+Preparing spec for clhep...
+Preparing spec for qmtest...
+cat: write error: Broken pipe
+Preparing sources for seal-tool-conf...
+Preparing sources for gcc...
+File already downloaded.
+Preparing sources for pcre...
+File already downloaded.
+Preparing sources for zlib...
+File already downloaded.
+Preparing sources for bz2lib...
+File already downloaded.
+Preparing sources for uuid...
+File already downloaded.
+Preparing sources for cppunit...
+File already downloaded.
+File already downloaded.
+Preparing sources for oval...
+File already downloaded.
+Preparing sources for valgrind...
+File already downloaded.
+Preparing sources for python...
+File already downloaded.
+Preparing sources for expat...
+File already downloaded.
+Preparing sources for openssl...
+File already downloaded.
+Preparing sources for db4...
+File already downloaded.
+Preparing sources for gdbm...
+File already downloaded.
+Preparing sources for gccxml...
+File already downloaded.
+Preparing sources for cmake...
+File already downloaded.
+Preparing sources for boost...
+File already downloaded.
+Preparing sources for boost-build...
+File already downloaded.
+Preparing sources for root...
+File already downloaded.
+Preparing sources for qt...
+File already downloaded.
+File already downloaded.
+Preparing sources for gsl...
+File already downloaded.
+Preparing sources for castor...
+File already downloaded.
+Preparing sources for mysql...
+File already downloaded.
+Preparing sources for libpng...
+File already downloaded.
+Preparing sources for libjpg...
+File already downloaded.
+Preparing sources for dcap...
+File already downloaded.
+File already downloaded.
+Preparing sources for oracle...
+File already downloaded.
+File already downloaded.
+File already downloaded.
+File already downloaded.
+File already downloaded.
+File already downloaded.
+File already downloaded.
+File already downloaded.
+File already downloaded.
+Preparing sources for libtiff...
+File already downloaded.
+Preparing sources for clhep...
+File already downloaded.
+Preparing sources for qmtest...
+File already downloaded.
+cat: write error: Broken pipe
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (3134B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+lcg+seal-tool-conf+LCG_46-forCMS141b-1-1021MD5natasha1158608322 not found in RPM DB, trying installation with apt.
+Reading Package Lists...
+Building Dependency Tree...
+E: Couldn't find package lcg+seal-tool-conf+LCG_46-forCMS141b-1-1021MD5natasha1158608322
+Required RPMs for seal-tool-conf: gcc pcre zlib bz2lib uuid cppunit oval valgrind python gccxml boost root gsl clhep qmtest  
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4134B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+gcc+3.4.5-1-1010MD5natasha1158608322 found in RPM DB@
+RPM for gcc already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (2980B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+pcre+4.4-1-1003MD5natasha1158608322 found in RPM DB@
+RPM for pcre already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4171B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+zlib+1.1.4-1-1006MD5natasha1158608322 found in RPM DB@
+RPM for zlib already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (2990B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+bz2lib+1.0.2-1-1006MD5natasha1158608322 found in RPM DB@
+RPM for bz2lib already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4172B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+uuid+1.38-1-1002MD5natasha1158608322 found in RPM DB@
+RPM for uuid already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4182B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+cppunit+1.10.2-1-1006MD5natasha1158608322 found in RPM DB@
+RPM for cppunit already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4134B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+oval+3_5_0-1-1003MD5natasha1158608322 found in RPM DB@
+RPM for oval already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4132B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+valgrind+3.1.1-1-1005MD5natasha1158608322 found in RPM DB@
+RPM for valgrind already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4190B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+python+2.4.3-1-1021MD5natasha1158608322 found in RPM DB@
+RPM for python already exists
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4180B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+gccxml+0.6.0-1-1004MD5natasha1158608322 not found in RPM DB, trying installation with apt.
+Reading Package Lists...
+Building Dependency Tree...
+E: Version ='1-1004MD5natasha1158608322' for 'external+gccxml+0.6.0' was not found
+[2] Required RPMs for gccxml: cmake 
+slc4_ia32_gcc345
+/usr/bin/apt-get
+Using apt to fetch available binary packages
+Get:1 http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345 release [1085B]
+Fetched 1085B in 0s (4130B/s)
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external pkglist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external release
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/lcg srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/cms srclist
+Hit http://cmsdoc.cern.ch cms/cpt/Software/download/cms/apt/slc4_ia32_gcc345/external srclist
+Reading Package Lists...
+Building Dependency Tree...
+rpminit done
+external+cmake+2.4.2-1-1005MD5natasha1158608322 not found in RPM DB, trying installation with apt.
+Reading Package Lists...
+Building Dependency Tree...
+E: Version ='1-1005MD5natasha1158608322' for 'external+cmake+2.4.2' was not found
+[3] Creating RPM for cmake... failed (1)

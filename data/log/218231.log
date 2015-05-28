@@ -1,0 +1,507 @@
+<!-- Title: Day shift. Fri Sep 28, 2007 -->
+<!-- SciCo: Marcel Stanitzki -->
+<!-- DAQAce: Adrian Buzatu -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: &nbsp; -->
+<!-- OpManager: Steve Hahn -->
+<!-- Notes: -->
+<pre>East IMU will be opened. 
+Work on West IMU motors. 
+SVX power supply work 
+</pre>
+
+
+<!-- Date: Fri Sep 28 08:20:36.682 2007 -->
+<b>Dee says : Keys have to be back at 4 pm today  </b>
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250372' target=_top>250372</a>) -->
+<!-- Comment: Fri Sep 28 08;43;08 comment by...Azfar -->
+<table border=0><td><tr><td bgcolor=#e0e030>Ausgerechnet Stanitzki, Willkommen in control-room
+Bleiben sie in Raum.</td></tr></td></table>
+
+<!-- Date: Fri Sep 28 08:48:52.270 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250372>250372</A>
+ Terminated at 2007.09.28 08:48:33
+<!-- Author: RunControl -->
+
+
+<!-- Date: Fri Sep 28 09:04:52.455 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250373>250373</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [1,949,703] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 09:08:22.159 2007 -->
+Dervin just called: The grating is unlocked in the south-east
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250373' target=_top>250373</a>) -->
+
+<!-- Date: Fri Sep 28 09:10:04.121 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250374>250374</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [1,949,703] 
+<!-- Author: Adrian Buzatu -->
+
+
+<!-- Date: Fri Sep 28 09:30:59.394 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250377>250377</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 09:40:12.075 2007 -->
+Koji goes in for the BSC
+<!-- Author: Marcel -->
+
+<!-- Date: Fri Sep 28 09:41:52.687 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250378>250378</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+<!-- Date: Fri Sep 28 09:47:52.999 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250379>250379</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+<!-- Date: Fri Sep 28 09:53:27.515 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250380>250380</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 09:58:44.401 2007 -->
+<pre>L2 work 
+ 
+built table with: 
+ 
+1) tracklist  
+2) purged of clist stuff 
+ 
+some teething problems but things look ok now, 
+ 
+I have not restarted the respawn for the l2 exe so please leave the torture run going until we build yet another table with "final" fixes. 
+ 
+Any problems call gene 630-863-9777</pre>
+<!-- Author: gene & anadi -->
+<!-- Comment: Fri Sep 28 10;14;23 comment by...Marcel -->
+Gene says <i>any L2-related problems</i>
+<!-- Date: Fri Sep 28 10:10:42.478 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250380>250380</A>
+TERMINATE: Laura asks to stop the run.
+<!-- Author: Adrian Buzatu -->
+<!-- Comment: Fri Sep 28 10;27;28 comment by...Laura -->
+I've put the cluster board offline
+<!-- Date: Fri Sep 28 10:13:12.856 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250381>250381</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 10:13:12.655 2007 -->
+Silicon guys going in for PS work on the west side
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250381' target=_top>250381</a>) -->
+
+
+
+<!-- Date: Fri Sep 28 10:17:13.017 2007 -->
+<pre>cluster board in l2pu01 is now offline</pre>
+<!-- Author: laura & gene -->
+
+
+<!-- Date: Fri Sep 28 10:27:25.978 2007 -->
+SVX Alarm, SVX turns red in Global Alarms.
+<!-- Author: A :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250381' target=_top>250381</a>) -->
+<!-- Comment: Fri Sep 28 10;32;14 comment by...A -->
+The alarms are the Power Supplies off, as there is work on crate 6. PS-ALARM and PS-CAEN-OFF have the red alarms.
+
+
+<!-- Comment: Fri Sep 28 10;41;26 comment by...Marcel -->
+The silicon task force called to tell us, that they might trigger some alarms ....
+<!-- Date: Fri Sep 28 10:35:19.635 2007 -->
+<pre>   
+  
+    L3 trigger rate has dropped to 0 Hz!!!  
+     Events are not being logged !!!</pre>
+<!-- Author: Adrian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250381' target=_top>250381</a>) -->
+<!-- Comment: Fri Sep 28 10;37;45 comment by...Adrian -->
+Did HRR, data taking resumed, 100 new events accepted by L2 and none yet accepted by L3.
+<!-- Comment: Fri Sep 28 10;39;46 comment by...Adrian -->
+L2 T0 in the same run. Still no events at L3. I will restart the run in L2_Torture.
+<!-- Date: Fri Sep 28 10:36:46.915 2007 -->
+Error Handler (EH) has been updated with pop-up warning windows for the new CSL error messages CSL_LOGGER_MSGQUE_FULL and CSL_LOGGER_STREAM_DOWN. 
+Please close/restart the EH GUI to pick up this last version. Thanks. 
+<!-- Author: Donatella T. -->
+<!-- Comment: Fri Sep 28 10;42;06 comment by...Adrian -->
+I had to stop the run and start a new one and a new Error Handler started with the new run.
+<!-- Comment: Fri Sep 28 10;52;13 comment by...Donatella -->
+the EH display is cleared and the messages are reset every time a run starts, but to get a new version, you actually have to close/restart the GUI itself. We did this.
+<!-- Date: Fri Sep 28 10:41:00.815 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250381>250381</A>
+TERMINATE: end because L3 to 0 Hertz!
+<!-- Author: Adrian Buzatu -->
+
+
+
+
+<!-- Date: Fri Sep 28 10:43:51.690 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385>250385</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+<!-- Comment: Fri Sep 28 10;44;26 comment by...Adrian -->
+ Attention!!! L2 Decision Timeout ERROR !!. 
+ 
+ If L2 Timeouts persist, please page L2 
+
+Automatic HRR was issued, and data taking continued.
+
+
+<!-- Comment: Fri Sep 28 10;48;50 comment by...Adrian -->
+<pre>  
+ 
+    L3 trigger rate has dropped to 0 Hz!!! 
+     Events are not being logged !!!
+
+After 400 events were accepted by L2, no event accepted by L3. At this point L3 also dropped to 0 Hz! I am issuing a HRR.</pre>
+<!-- Date: Fri Sep 28 10:45:43.452 2007 -->
+Bill Noe will be working on the Spare Silicon Chiller. It shouldn't trigger any alarms, but just in case
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+
+
+
+
+<!-- Date: Fri Sep 28 10:54:20.200 2007 -->
+L3 guys (Georgios, Khaldoun et .al.) will upgrade the last 4 Level3 farm to SL4, they are not used anyway right now
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+
+
+<!-- Date: Fri Sep 28 11:04:04.804 2007 -->
+<pre>   
+  
+    L3 trigger rate has dropped to 0 Hz!!!  
+     Events are not being logged !!!</pre>
+<!-- Author: Adrian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+<!-- Comment: Fri Sep 28 11;05;01 comment by...Adrian -->
+It happened when L3A arrived at 490 events, <b> the same </b> number there was when this happened before.
+
+
+<!-- Comment: Fri Sep 28 11;33;56 comment by...Adrian -->
+I did an HRR about 15 minutes ago, L3 events were being logged again and just now again L3 droped to 0 Hz, I ran a HRR. 
+<!-- Date: Fri Sep 28 11:10:55.874 2007 -->
+R. Crouch is working on the Tev Crate and replaces some terminating resistors for Ricardo and the diamond crate
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+<!-- Comment: Fri Sep 28 11;15;01 comment by...Marcel -->
+they are done !
+
+
+<!-- Date: Fri Sep 28 11:29:38.009 2007 -->
+<p>John Crawford from AD called.  Tomorrow at 0830, they would 
+like to replace a 480 circuit breaker in the B0 service building.  Apparently, this powers the 208 breaker panel which 
+in turn powers our accelerator crates in the control room. 
+They will give a call to the control room before they 
+actually turn the power off.</p>
+<!-- Author: Steve Hahn :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+
+
+
+<!-- Date: Fri Sep 28 11:34:28.132 2007 -->
+<pre>  
+  Done TO. for crate/s:  
+    b0cot14    
+</pre>
+<!-- Author: Adrian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+<!-- Comment: Fri Sep 28 11;36;41 comment by...Adrian -->
+Did HRR. Data taking continues and events are logged also at L3 level.
+
+
+<!-- Date: Fri Sep 28 11:40:46.926 2007 -->
+   
+  
+    L3 trigger rate has dropped to 0 Hz!!!  
+     Events are not being logged !!! 
+ 
+I do an HRR. 
+<!-- Author: Adrian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+<!-- Comment: Fri Sep 28 12;06;41 comment by...Adrian -->
+Problem repeats. 
+<!-- Date: Fri Sep 28 11:57:18.984 2007 -->
+<p>Talked with Jim Volk and Del Allspach about plans for 
+the east low beta quads.  There is one quad which cannot be 
+moved transversely to the beamline in the plane of the Tevatron 
+due to a square nut which is touching the adjacent steel 
+block.  Dervin will attempt to cut the corner of the nut so 
+as to allow this movement; it's anticipated that this  
+movement may be 
+necessary when the quads on the Tevatron side are adjusted and 
+they come back and check the quads in the collision hall.</p>
+<!-- Author: Steve Hahn :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+
+
+<!-- Date: Fri Sep 28 11:57:38.005 2007 -->
+The Silicon guys working on crates 1,2 5 and 6 and causing a selection of alarms.   
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250385' target=_top>250385</a>) -->
+
+
+<!-- Date: Fri Sep 28 12:19:12.181 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250387>250387</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,963,633] 
+<!-- Author: Adrian Buzatu -->
+<!-- Comment: Fri Sep 28 12;20;53 comment by...Laura -->
+It seems we fixed the usual "l2node_lost" problem at the beginning of the run. Ace, please, verify it during the following shift.
+
+<!-- Comment: Fri Sep 28 12;56;27 comment by...outgoing scico -->
+Yippie, but what will keep Marcel awake?
+<!-- Date: Fri Sep 28 12:31:16.679 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250388>250388</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+<!-- Date: Fri Sep 28 12:56:24.483 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250389>250389</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+
+<!-- Date: Fri Sep 28 13:01:49.760 2007 -->
+The non-expert Scico gets tired of restting trips caused by people pulling the "5 Volt enable" and not resetting the trips before reconnecting to CANEnet
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250389' target=_top>250389</a>) -->
+
+<!-- Date: Fri Sep 28 13:26:00.467 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250392>250392</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,964,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+<!-- Date: Fri Sep 28 13:29:23.908 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250393>250393</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,964,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+<!-- Date: Fri Sep 28 13:35:25.312 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250394>250394</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,964,632] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 13:47:32.145 2007 -->
+I performed a quick test to check the diamonds.  Things look okay at the moment.  Steve is going to lock up the HV because flammable gas is flowing.
+<!-- Author: Peter Dong -->
+
+
+<!-- Date: Fri Sep 28 13:48:12.218 2007 -->
+Silicon guys are out ....
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250394' target=_top>250394</a>) -->
+
+<!-- Date: Fri Sep 28 13:50:21.305 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250395>250395</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,964,639] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 14:09:45.482 2007 -->
+<br><b>Problem:</b> ICICLE stopped (red in Procmon window) 
+<br><b>Solution:</b> Started ICICLE program again from Solenoid 2.  
+<br><b>Result:</b> It worked. 
+<br>
+<!-- Author: Adrian :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250395' target=_top>250395</a>) -->
+
+
+<!-- Date: Fri Sep 28 14:18:41.484 2007 -->
+<br><b>Problem:</b> COT Alarm: COT_O2_LEVEL 1050 instead of 225. Alarm was silenced by cryo people. 
+<br><b>Solution:</b> SciCo called process system technician. They do not know what caused the problem and are investigating. 
+<br>
+<!-- Author: Adrian -->
+<!-- Comment: Fri Sep 28 14;35;59 comment by...Marcel -->
+Steve went down and is still investigating
+<!-- Date: Fri Sep 28 14:21:48.008 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250396>250396</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Adrian Buzatu -->
+
+
+
+<!-- Date: Fri Sep 28 14:27:27.361 2007 -->
+<pre>summary of Level-2 tests: 
+ 
+1) tested the new tags that include tracklist and have been purged of clist data integrety checks. 
+-L2torture worked ( have not checked the others will do that hopefully later today ) 
+-there were a few problems but I think they have been resolved now ( it works ok for the last hour ) 
+ 
+2) Have returned the system to the previous version of l2 code ( no tracklist ) for the weekend. 
+ 
+-noticed that we are running L2TORTURE[19,952,633] but white board says [19,952,639]. We should probably make this consistent ? 
+ 
+l2exe is set to respawn again.</pre>
+<!-- Author: gene -->
+<!-- Comment: Fri Sep 28 14;28;47 comment by...gene -->
+<pre>cluster board in b0l2pu01 has been marked off line.</pre>
+
+<!-- Date: Fri Sep 28 14:33:00.652 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250396>250396</A>
+TERMINATE: to release b0clc00 for expert testing
+<!-- Author: Adrian Buzatu -->
+
+
+
+
+<!-- Date: Fri Sep 28 14:37:23.219 2007 -->
+Turned on BSC HV (agreed by Steve) and took b0clc00 to test the new counters.
+<!-- Author: K. Terashi, K. Hatakeyama -->
+
+<!-- Date: Fri Sep 28 14:47:41.767 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250397>250397</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,952,633] 
+<!-- Author: Adrian Buzatu -->
+<!-- Comment: Fri Sep 28 14;58;24 comment by...carolina -->
+L2 Decision To. Automatic HRR recovered it.
+
+
+<!-- Comment: Fri Sep 28 15;13;21 comment by...carolina -->
+<pre>Again 2 consecutive L2 Decision TO:
+
+   Attention!!!.   L2 Decision Timeout LOOP!!!. 
+  
+  Additional Information: 
+  If L2 Timeouts persist, please page L2. 
+
+  &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+  &gt;&gt;  NO MORE AUTOMATIC HRRs WILL BE ISSUED.                &gt;&gt;
+  &gt;&gt;  ACES ......  YOU HAVE CONTROL of RC NOW.                    &gt;&gt;
+  &gt;&gt;  AUTOMATIC HRRs WILL RESUME AFTER 3 MIN.              &gt;&gt;
+  &gt;&gt;  OF SMOOTH RUNNING                                                     &gt;&gt;
+  &gt;&gt;  (ie. EVENTS INCREMENTING and NO TIMEOUTS)            &gt;&gt;
+  &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+
+Did it manually and for the moment it's working again.</pre>
+<!-- Date: Fri Sep 28 15:04:52.394 2007 -->
+<pre> 
+- L2 working on track lists and clist,they've put everything back to default for the weekend 
+- BSC work is ongoing 
+- Silicon PS work is done 
+- L3 guys upgraded parts of the farm to Scientific Linux 4 
+- R.Crouch replaced soem resitors for the Tev crate. 
+- Peter Dong checked out the Diamonds 
+- ongoing investigation of the COT alarm  
+</pre> 
+Day shift done, evening takes over
+<!-- Author: Marcel :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250397' target=_top>250397</a>) -->
+
+
+
+<!-- Date: Fri Sep 28 15:15:12.818 2007 -->
+<p>Marcel wanted clarification, so I will be pellucid.  The 
+O2 PPM alarm we got from the COT process system alarms earlier 
+were due to flushing out the COT gas purification system in  
+the east side of the assembly pit.  Apparently, this generated 
+a hiccup of O2 which set off the PPM alarm.  Del said he does 
+not expect this to happen again.</p>
+<!-- Author: Steve Hahn :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250397' target=_top>250397</a>) -->
+
+<!-- Date: Fri Sep 28 15:17:06.861 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250397>250397</A>
+TERMINATE: Ended to start with calibrations
+<!-- Author: Carolina  -->
+
+
+<!-- Date: Fri Sep 28 15:19:40.635 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250398>250398</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Carolina  -->
+
+
+<!-- Date: Fri Sep 28 15:20:50.264 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250398>250398</A>
+CALIBRATION: <U><B>calqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#calqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep 28 15;33;08 comment by...carolina -->
+OK
+<!-- Date: Fri Sep 28 15:24:26.208 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250399>250399</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Carolina  -->
+
+
+<!-- Date: Fri Sep 28 15:24:27.588 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250399>250399</A>
+CALIBRATION: <U><B>clcqie</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#clcqie target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep 28 15;33;28 comment by...carolina -->
+OK
+<!-- Date: Fri Sep 28 15:28:04.901 2007 -->
+Koji Terashi and Ken Hatakeyama asked to remove clc00 crate from partition so I'll do BSC QIE calibration when they are done.
+<!-- Author: carolina :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250399' target=_top>250399</a>) -->
+
+<!-- Date: Fri Sep 28 15:29:52.680 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250400>250400</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Carolina  -->
+
+
+
+
+<!-- Date: Fri Sep 28 15:41:55.354 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250401>250401</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Carolina  -->
+
+
+<!-- Date: Fri Sep 28 15:44:19.871 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250401>250401</A>
+CALIBRATION: <U><B>pluglaser</B></U> calibration <A HREF=http://www-cdfonline.fnal.gov/internal/daq/Calibrations/web.html#pluglaser target=_calibresults>results</A> ready for review
+<!-- Author: CDFCALIB -->
+<!-- Comment: Fri Sep 28 15;45;40 comment by...carolina -->
+ok
+<!-- Date: Fri Sep 28 15:44:20.466 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250402>250402</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Carolina  -->
+
+
+
+
+<!-- Date: Fri Sep 28 15:47:34.133 2007 -->
+Stop calibrations for a while to test L3
+<!-- Author: carolina :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=250402' target=_top>250402</a>) -->
+
+<!-- Date: Fri Sep 28 15:55:32.053 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:01</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Fri Sep 28 15:58:51.944 2007 -->
+<font color=red>Shift Summary: </font><pre>Shift summary enterred already by Marcel.</pre> 
+<!-- Author: Rober Harris -->

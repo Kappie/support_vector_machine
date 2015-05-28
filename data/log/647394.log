@@ -1,0 +1,511 @@
+<!-- Title: 19:43:45  Tue Apr 23 2002 -->
+<!-- Crewchief: Andrew -->
+<!-- Op1: Greg -->
+<!-- Op2: Ke -->
+<!-- Op3: Michael -->
+<!-- Op4: Zhaouu -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>Time for a new page!</pre>
+
+
+<!-- Date: Tue Apr 23 19:46:16 2002 -->
+<pre>Changed all 3 taxiclock settings to 9 in Partition 0 
+and made a L2_torture type run with L3 and COT crates. 
+Run number = 143791.  Saw no errors, BC or otherwise. 
+Switching to partition 6.  Setting Taxiclock values in 
+partition 0 back to zero for now.</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Tue Apr 23 19:54:45 2002 -->
+<pre>Partition 6.  Begin with default TAXICLOCK values to 
+make sure error is reproducible.  Run number 143792. 
+BC mismatches in COT immediately!</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Tue Apr 23 20:00:31 2002 -->
+<pre>Set all taxiclock values (A,B,C) in Partition 6  to 9. 
+Take run 143793. L1A = 21 kHz, L2A = 70 Hz. 
+No COT BC mismatches, no errors from L2! 
+This is after 15000 events. 
+</pre>
+<!-- Author: Greg -->
+<!-- Comment: Tue Apr 23 20;10;15 comment by...Greg -->
+<pre>No errors after 55,000 events.
+</pre>
+
+<!-- Comment: Tue Apr 23 20;13;27 comment by...Greg -->
+<pre>No errors after 66,000 events.  I am declaring 
+victory and asking the shift crew to run with
+partiton 6!!</pre>
+
+<!-- Comment: Tue Apr 23 20;26;39 comment by...Greg -->
+<pre>No errors after 125,000 events!</pre>
+
+
+<!-- Date: Sat Apr 27 07:16:57 2002 -->
+<pre>Running smoothly in partition 0 with taxiclock = 9. 
+ 
+I go to the cardEditor and set the taxiclock to 9 
+for all partitions except #1 which is left at 0. 
+(#0 and #6 already had taxiclock = 9). 
+ 
+I want to make sure the next set of calibrations is 
+taken with taxiclock = 9 (and the aces tend to use 
+whatever partition they can grab). 
+ 
+I will alert the shift crew to leave partition #1 
+free for silicon experts. 
+ 
+Must wait for data to move to tape before getting 
+to check for bunch counters mismatches across crates 
+for one of the recent long runs.</pre>
+<!-- Author: Michael Schmidt -->
+
+
+<!-- Date: Sat Apr 27 07:42:29 2002 -->
+<pre>Now guess what I discovered.  Apparently the TMPD bank 
+for L2DEC01 does not get filled correctly; when using 
+Mario's program every event has bunch ID = 238 for 
+this crate independent of what the other crates have. 
+It doesn't depend on partition either (0 or 6). 
+This kind of defeats the idea of doing large statistics 
+tests offline (unless I get Mario to mask out the 
+L2DEC crate). 
+ 
+I refrain from asking the ace to stop the run and 
+switch to partition #1 to see if this can have 
+anything to do with taxiclock.  Instead I will try 
+to go back and find a taxiclock = 0 run with L2DEC01 
+on tape and check that.</pre>
+<!-- Author: Michael -->
+
+
+<!-- Date: Tue Apr 30 05:15:35 2002 -->
+<pre>CardEditor database was set to have partition 0,2,3,4,5,6,7 
+have all taxiclocks set to 9 and partition 1 have all 
+taxiclocks set to 1.  This was down on Saturday morning 
+April 27.</pre>
+<!-- Author: Michael -->
+<!-- Comment: Tue Apr 30 05;16;16 comment by...Michael -->
+<pre>partition 1 has taxiclock set to 0 !</pre>
+
+
+<!-- Date: Thu May 30 23:54:06 2002 -->
+<pre>After the executive board meeting I saw Arnd who said 
+Andrew was looking for me (or to be more precise, looking 
+for the spare TS which I hid against the wall behind the 
+L1Cal racks.)  Arnd told me that Andrew left PROMs for 
+it on the door of the b0tsi00 rack.  I replaced the 
+PROMs in TS ID = 12 and swapped this board for the one 
+serving partition 3 (ID = 0), so that we can bring ID = 0 
+back to Yale for studies of the `continuous calibration' 
+problem that has been seen reproducibly with this board 
+at B0.</pre>
+<!-- Author: Michael Schmidt -->
+<!-- Comment: Fri May 31 15;48;52 comment by...Andrew -->
+<pre>I just ran a few test runs on this partition.  It had the same
+behavior as the other TS.  I will try again at Yale to reproduce
+this problem.</pre>
+
+
+<!-- Comment: Sat Jun  8 11;59;50 comment by...Michael Schmidt -->
+<pre>I discover that actually partition 3 is usually being
+served by ID = 7, not 0.</pre>
+<!-- Date: Fri Jun 7 12:43:38 2002 -->
+<pre>This morning TS ID = 0 and 12 were tested for calibration 
+continuous and FRED running with v54 of L1FSM.  Calibration 
+continuous is working fine now in partition 3, even at 
+very low rep rates. 
+ 
+We leave TS ID = 0 in partition 3.  The spare (ID = 12, 
+unlabled front panel) will be put in the cabinet after 
+today's shift. 
+ 
+Tomorrow we will install v54 L1FSM in more TS modules in 
+b0tsi00. 
+ 
+</pre>
+<!-- Author: Michael Schmidt -->
+<!-- Comment: Sat Jun  8 12;01;05 comment by...Michael Schmidt -->
+<pre>I discover that partition 3 is usually being served
+by ID = 7 not 0.  ID = 0 is serving partition 6.
+
+I will provide an updated mapping table in the next
+entry.</pre>
+
+
+<!-- Date: Sat Jun 8 12:05:36 2002 -->
+<pre>We have updated the firmware (prom1_53 -&gt; prom1_54; L1FSM 
+v26 -&gt; v27) in partitions 0 to 3. 
+ 
+Before continuing our tests we find we need to change the 
+fan pack for b0tsi00.  We here squeaking and the fan monitor 
+lamp is coming on from time to time. 
+ 
+TS mapping 
+ 
+partition	ID 
+ 
+0		5 
+1		13 
+2		14 
+3		7 
+4		3 
+5		6 
+6		0 
+7		8 
+ 
+spare		12</pre>
+<!-- Author: Michael Schmidt -->
+<!-- Comment: Sat Jun  8 13;27;01 comment by...michael -->
+<pre>All Trigger Supervisors now have the updated firmware
+(prom1_54).</pre>
+
+
+<!-- Date: Sat Jun 8 13:29:33 2002 -->
+<pre>When switching the firmware for partition 6 we apparently 
+had trouble reseating the card.  Kept getting VME 
+bus errors, presumably from this card.  After several 
+attempts it seemed that all was well, but then it seemed 
+to go bad again, with bus errors.  Reseating the board 
+one more time seem to do the trick, but the episode 
+remains puzzling.  I am hoping that I falsely convinced 
+myself that all was well before the last reseating.</pre>
+<!-- Author: Michael -->
+
+
+<!-- Date: Mon Aug 5 17:59:28 2002 -->
+<pre>Swapped GL2 card #1 for GL2 #2.  We took the prom  
+from #1 and placed it in #2.  Why the swap? 
+-------------------------------------------------- 
+GL2 #2 has two wires soldered on to bring out the L2  
+and Ts signals to study the TS-L2 handshake time. 
+------------------------------------------------- 
+There are two wires:  
+Yellow = L2R from Alpha processor 
+Blue   = GL2R from the TS. 
+------------------------------------------------- 
+</pre>
+<!-- Author: Andrew, Greg -->
+
+
+<!-- Date: Fri Aug 9 13:42:08 2002 -->
+<h3>L1 Done Timeout Studies</h3> 
+I've done some small tests over the last 24 hours to try and 
+further troubleshoot some problems noted lately with L1DONE timeouts.<ul> 
+<li> 8/8/02 about 23:00<BR> 
+With all the Silicon off, I just used the calibration engine  
+at a fairly low L1A rate and ran through all partitions except 
+#2 which was in use just to see if there was any gross problem. 
+There was none 
+<li> 8/9/02 All Morning<BR> 
+In the process of attempting to "Torture the PitWib" where we 
+run our exterior piece of Silicon with high L1A rate, I ran 
+into L1 Done timeouts. We had quite high rates due to an excess 
+of L1JET0.5 triggers since there was messy beam in the machine. What follows is a list of runs and observations 
+<table> 
+<tr><th>Run<th>Part'n<th>L1A rate<th>Comments</tr> 
+<tr><td>149638<td>0<td>~30 kHz<td>infrequent L1 DONE TO</tr> 
+<tr><td>149639<td>1<td>40 kHz<td>frequent L1 DONE TO</tr> 
+<tr><td>149640<td>2<td>40 kHz<td>Less frequent L1 DONE TO<BR> Better than P1, worse than P0</tr> 
+<tr><td>149641<td>3<td>40 kHz<td>Fairly frequent L1DONE TO</tr> 
+<tr><td>149642<td>4<td>40 kHz<td>Fairly frequent L1DONE TO</tr> 
+<tr><td>149643<td>5<td>40 kHz<td>Fairly frequent L1DONE TO</tr> 
+<tr><td>149644<td>6<td>30 kHz -> 40<td>No L1DONE TO at 30 kHz, changed prescale to go to 40 kHz, got some L1DONE T0s</tr> 
+<tr><td>149646<td>7<td>40 kHz->17<td>Frequent L1DONE TO<BR>got less frequent after prescale change</tr> 
+<tr><td>149647<td>7<td>25 kHz<td>Occasional L1DONE TO<BR> 
+This run was mostly to let the Silicon guys study the ladder, so 
+TS issues took a back seat.</tr> 
+</table> 
+At this point, we removed the Fibs and just let the SRC and TS 
+go along happily with the L1DONE handshake.  In the absence of 
+data to read out, the SRC should just send a L1DONE roughly 12 uS after each L1A.<BR> 
+<table> 
+<tr><th>Run<th>Part'n<th>L1A rate<th>Comments</tr> 
+<tr><td>149648<td>7<td>25 kHz<td>Occasional L1DONE TO</tr> 
+<tr><td>149649<td>7<td>25->14->7 kHz<td>See below</tr> 
+</table> 
+This Run at each L1DONE TO I looked at the # of L1A from the General Scalers page and compared with the SRC # seen (thinking someone might have been missing.  On HRR, the SRC clears its L1A counter, so you have to add yourself, but they add up.  Here are the numbers: 
+<table> 
+<tr><th>TS L1A<th>SRC Delta L1A<th>SRC Sum L1A</td> 
+<tr><td>48690<td>48690<td>48690</tr> 
+<tr><td>318381<td>269691<td>318381</tr> 
+<tr><td>324178<td>5797<td>324178</tr> 
+<tr><td>352428<td>28250<td>352428</tr> 
+<tr><td>366801<td>14373<td>366801</tr> 
+<tr><td>372803<td>6002<td>372803</tr> 
+<tr><td>Changed Prescale<td>L1A -> 14 kHz</tr> 
+<tr><td>481469<td>108666<td>481469</tr> 
+<tr><td>756139<td>274670<td>756139</tr> 
+<tr><td>Changed Prescale<td>L1A -> 7 kHz</tr> 
+<tr><td>980986<td>224847<td>980986</tr> 
+<tr><td>1035198<td>54212<td>1035198</tr> 
+</table> 
+The upshot is that the SRC always sees the same number of L1A as 
+reported on the general scaler page. 
+You can see the effect of the prescale in number of L1A  
+until there is a problem. 
+I then took Run 149650 on partition 0 without Fibs and without changing 
+anything else, and saw no L1DONE timeouts in more than 22 million events.</ul> 
+ 
+Given that the L1 DONE TO rate seems Partition dependent (but I hope someone can look at the runs in more detail to make a  
+quantitation assessment of that) I think the problem is in the TSI (the SRC does not know what partition it is in). 
+  
+<!-- Author: SCN -->
+<!-- Comment: Tue Aug 20 15;53;53 comment by...SCN -->
+<h3><a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=120&frame=2&anchor=15:52:11'>
+Further Study</a></h3> seems to exonerate the TS and point to the
+SRC as the source of the problem.  However, the proposed fix
+is not yet implemented and tested, so it remains to be shown that
+we quashed this bug. 
+<!-- Comment: Wed Aug 21 11;03;20 comment by...SCN, Andrew, Lester -->
+<a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=120&frame=2&anchor=10:55:11'>
+New SRC PROM</a> fixes problem, but it is kinda a ficticious problem in that it can only happen if the L2R comes before the
+end of Digitize  which cannot happen if SVT needs to see some data before a L2 decision can be sent.  However, one can imagine 
+relaxing that constraint, so it is a good thing we fixed it (and
+we can now use L2R in calibration modes)
+
+<!-- Date: Fri Aug 16 14:27:28 2002 -->
+<pre>Put a new prom in TS partiton 7.  Prom2_28. 
+This has a fix to the Scheduler which is  
+supposed to help trap the Readout List bits. 
+Studies contine. 
+ 
+</pre>
+<!-- Author: Greg and Andrew -->
+<!-- Comment: Wed Aug 28 14;35;33 comment by...Andrew -->
+<pre>This prom change was propogated to all TSs 
+on August 20.
+</pre>
+<!-- Date: Tue Aug 27 10:42:01 2002 -->
+<pre>Placing PROM1_55 in partition 7.  This firmware has  
+a fix from Andrew for latching in the Readout List  
+bits from the alpha processor. 
+ 
+</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Tue Aug 27 11:01:28 2002 -->
+<pre>Taking a ROL test run with L2TORTURE[4,123,297]. 
+Run number 150475 - SEVB. 
+ 
+ 
+</pre>
+<!-- Author: Greg and Stephen -->
+
+
+<!-- Date: Tue Aug 27 11:16:06 2002 -->
+<pre>Run 150477 - Arnd is printing readout lists to screen. 
+We see them change.  Stephen still has the ROL bits 
+asserted extra long for the old TS firmware.  He is 
+going to remove this fix and we will try a new run. 
+ 
+</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Tue Aug 27 11:32:24 2002 -->
+<pre>Run 150479  - Alhpa no longer holding the bits for the TS. 
+Stephen has made some other streamling improvements as 
+well.  We see the ROL changing in the front end code.  We 
+still need a way to make sure that the TS is actually  
+changing the ROL for the correct event!  </pre>
+<!-- Author: Greg -->
+<!-- Comment: Tue Aug 27 11;35;20 comment by...Stephen -->
+<pre>Details: Executable run is L2_123_TORTURE_V-4_B0L2PR00_readoutlist_tslatch_noprint
+This asserts the readoutlist bits at the same time as the 
+L2 decision and the buffer  bits. The readoutlist bits are
+deasserted when L2ACK is sent. (Note that for default exes 
+on a L2ACK, the buffer bits are still asserted but the decision
+bits are not asserted).</pre>
+
+
+
+<!-- Date: Wed Aug 28 16:00:48 2002 -->
+<a href= 
+'http://www-cdfonline.fnal.gov/cgi/elog/elog.pl?nb=2002&action=view&page=719&frame=2&anchor=15:59:14'> 
+Brief investigation</a> with new PROM for Readout Lists has trouble 
+with L1DONE.  
+  
+<!-- Author: Steve, Greg -->
+<!-- Comment: Thu Aug 29 09;11;48 comment by...Greg -->
+<pre>Peter looked and it turns out that the L2TORTURE 
+we used for this test did not have ROL enabled..</pre>
+<!-- Comment: Thu Aug 29 10;50;59 comment by...Greg -->
+<pre>New prom is PROM2_29</pre>
+<!-- Date: Wed Aug 28 17:03:12 2002 -->
+<pre>Removed prom labeled GL2_KL93 from the GL2 card and put in  
+the prom called GL23_1Q.  We are running with L2TORTURE 
+(with readout list enabled) but using partition 0  
+which does not have all the very latest TS firmware. 
+We are using SEVB.   The run number is 150593. 
+The run has not crashed - TrigMon plots look OK. 
+------------------------------------------------- 
+Ending test - going back to old firmware fro now. 
+ 
+ </pre>
+<!-- Author: Greg and Ke. -->
+
+
+<!-- Date: Thu Aug 29 08:58:05 2002 -->
+<pre>Studying new firmware combination in TS partition 7. 
+Yesterday, we made a very brief test with the SRC 
+and the L2TORTURE table and it seemed the TS in P7 
+was not latching the L1DONE.  Going to try some more  
+methodical studies today.  Wittich is assisting. 
+</pre>
+<!-- Author: Greg -->
+<!-- Comment: Thu Aug 29 09;15;04 comment by...Greg and Peter -->
+<pre>Took run 150676 with no apparent problems. ROL not 
+enabled in L2.</pre>
+
+
+<!-- Date: Thu Aug 29 09:27:31 2002 -->
+<pre>Running with ROL enabled in alpha processor. 
+Run number 150679 (P7, HEVB, CO starting TrigMon). 
+The SRC is not in the run. 
+--------------------------------------------------- 
+L2TORTURE - L1A rate = 17 kHz.  Verified that L2 is 
+changing the readout list.  Don't know if it making  
+it to the front end. Calling Arnd ... 
+Run not crashing anyway.</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 09:48:58 2002 -->
+<pre>Put SRC in and saw L1DONE timeout even before 
+clicking ACTIVATE.  CLicked ACTIVATE and got 
+zero L2 Accepted events.  HRR --&gt; 0 events. 
+ 
+</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 10:16:40 2002 -->
+<pre>Keeping SRC - switching to P6.</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 10:26:04 2002 -->
+<pre>Partition 6. 150690. L2TORTURE. HEVB. SRC. 
+----------------------------------------- 
+Running successfully with SRC but the  
+TS is not changing the readout list. 
+L1A = 17 kHz. 
+ 
+ 
+ 
+</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 10:27:28 2002 -->
+<pre>Removing SRC, going to P7.</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 10:37:00 2002 -->
+<pre>P7.  NO SRC.  Run 150691. 
+Readout Lists changing in front-end crate. 
+Note:  We still don't know for sure if it  
+is changing on the correct event.  Probably is  
+but we need some monitoring! 
+------------------------------------------------- 
+Running at 16000 kHz.  Going to stop the run and  
+jack up the rate.</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 10:44:25 2002 -->
+<pre>Run 150693 - P7 - No SRC - L1A = 34 KHz. 
+---------------------------------------- 
+Readout Lists changing in Front - End. 
+ 
+	</pre>
+<!-- Author: Greg -->
+
+
+
+<!-- Date: Thu Aug 29 11:07:00 2002 -->
+<pre>Here is the PROM configuration for all my runs so far today. 
+------------------------------------------------------------ 
+P6: PROM1_54, PROM2_28 
+P7: PROM1_55, PROM2_29 
+ 
+</pre>
+<!-- Author: Greg -->
+
+
+<!-- Date: Thu Aug 29 11:22:08 2002 -->
+<pre>I have just changed the configuration of P7 to test 
+what Andrew believes to be the best combination for  
+physics running and what should be put into P0 for  
+the next couple of days. 
+---------------------------------------------------- 
+Run 150696 - No SRC - Looks good but ROL not changong  
+in front end as expected. 
+------------------------------------------------------- 
+Run 15069 - Adding SRC - L1DONE TO after 18 events  HRR 
+Another L1 DONE TO after 20 events, 24 events, 26 events 
+--------------------------------------------------------- 
+Ending to relaese HEVB</pre>
+<!-- Author: Greg -->
+<!-- Comment: Thu Aug 29 11;49;12 comment by...Greg -->
+<pre>That last run was 150697 - I don't see the terminate 
+message in the Shift Log.  The run may not have 
+ended gracefully ...
+</pre>
+
+<!-- Comment: Thu Aug 29 11;55;31 comment by...Greg -->
+<pre>Here is the PROM configuration for these 2 runs
+P7: PROM1_54, PROM2_29</pre>
+
+
+<!-- Date: Thu Aug 29 13:03:55 2002 -->
+<pre>Here is a summary of what I did today in case  
+one cannot piece it together from the log book.    
+ 
+All runs were done using L2TORTURE with the special  
+ROL executable.  All runs had L1A ~= 17 KHz except 
+for one run (150693) where I doubled the rate by changing 
+prescales.  All triggers were from the BC trigger 
+appropriately randomized (prime prescale). All runs had HEVB.   
+I used partitons 6 and 7 with the following proms; 
+ 
+P6: PROM1_54, PROM2_28 
+P7: PROM1_55, PROM2_29 
+ 
+Runs were taken in both partitions with and without the SRC. 
+The Silicon itself was powered off. 
+ 
+Run     Partition  SRC In?   L1DONE TO?  ROL at Front-end? 
+======  =========  =======   ==========  ================= 
+150679      7        No          NA      Don't know, probably! 
+ 
+  ?         7        Yes      Yes, before activate!  No L1As 
+ 
+150690      6        Yes         No             No 
+ 
+150961      7        No          NA             Yes 
+ 
+150963      7        No          NA             Yes 
+ 
+ --- Change P7: PROM1_54, PROM2_29 --- 
+ 
+150696      7        No          NA             No 
+ 
+150697      7        Yes         Yes*        Didn't look. 
+ 
+* after 20 L2As, 24 L2As, 26 L2As 
+ 
+ 
+ 
+</pre>
+<!-- Author: Greg -->

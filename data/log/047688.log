@@ -1,0 +1,430 @@
+<!-- Title: Day shift. Fri Jun 22, 2001 -->
+<!-- SciCo: Henry Frisch -->
+<!-- DAQAce: Rolf  Oldeman -->
+<!-- MonAce: Koji Ikado -->
+<!-- CO: Zhaoou Yu,Masa Tanaka -->
+<!-- OpManager: Kevin Burkett -->
+<!-- Notes: -->
+<pre>Store In: Current Luminosity 1.0 E30 
+Run 118427</pre>
+
+
+ 
+ 
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 08:23:11 2001 -->
+<pre>Started run 118429. 
+Immediately paused to set prescales (takes approx 2 minutes) 
+ 7 L1_JET8_&_CLC_PS10           0 
+ 8 L1_EM6_&_CLC                 0 
+12 L1_PJET8_&_CLC               0 
+13   L1_CEM0_PT1.5_PS250        0  
+15   L1_CEM0_PT3_PS50         250    
+16 L1_TWO_JET6                  0 
+17   L1_CEM0_PT8_PS10          50   
+33 L1_CEM3_PT3_PS10           100 
+37 L1_TWO_CEM1.5_PT1.5_PS10   100 
+39 L1_TWO_EM1.5_PS250           0 
+41   L1_CMU0_PT1.5_PS250        0    
+43   L1_CMU0_PT3_PS50         250   
+45 L1_CMU1.5_PT1.5_PS10       100 
+ 
+ 
+ 
+ </pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 08:38:51 2001 -->
+<pre>Trigger inhibit on CMU, then also COT. 
+They both tripped. Koji's ramping them up. 
+ 
+HEY! trigger is no longer inhibited when COT is in standby!!! 
+What's the point of the trigger inhibit if it thinks  
+stand-by is OK? I pause the run by hand. 
+</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 08:45:20 2001 -->
+<pre>Trigger inhibit again from COT Layer7 trip.</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 08:58:43 2001 -->
+<pre>COT and CMP trip. 
+Set them to standby and then, on.</pre>
+<!-- Author: Koji :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 09:34:32 2001 -->
+<pre>Paused run, set CMP off, COT to standby, saw the fying wire come by at 9:29, ramped up and resumed the run</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 09:34:46 2001 -->
+<pre>Set COT HV to Hi standby and also set CMP HV to standby 
+for flying wire. After that put them back.</pre>
+<!-- Author: Koji :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 10:24:08 2001 -->
+<pre>BUSY TIMEOUT from silicon VRB 
+ 
+Followed by Java Out-Of_MEmory 
+ 
+we did killall -9 java and restarted rc. 
+ 
+we try rejoining the old partition. Fails first time. 
+fails again. we restart. 
+</pre>
+<!-- Author: rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+<!-- Date: Fri Jun 22 10:33:27 2001 -->
+<pre>Set COT HV to Hi STBY and also set CMP HV to STBY 
+for flying wire. After that put them back.</pre>
+<!-- Author: Koji -->
+
+
+<!-- Date: Fri Jun 22 10:35:00 2001 -->
+Looked at some PFred and Fred code, have something to try 
+whenever it is allowed (probably next Monday).  <a href= 
+'/cgi/elog/det-system-elog.pl?nb=l1&action=view&page=3&frame=2&anchor=10:32:32'>Details</a> in L1  
+logbook.
+<!-- Author: SCN, GF, CG -->
+
+
+<!-- Date: Fri Jun 22 10:39:43 2001 -->
+at coldstart b0xtrp00 systematically takes more than a minute after l3 comes up!!
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118430' target=_top>118430</a>) -->
+
+
+<!-- Date: Fri Jun 22 10:43:48 2001 -->
+On the plug temperature control system, the circuit  
+breaker for the AC power for the heat/cool TECA 
+units for PMT boxes PE02 and PE03 tripped last night 
+at about 9:45 pm.  I just disabled the alarms related 
+to this, but the problem is not fixed.  The breaker 
+need to be reset.  The only plausible suggestion 
+so far as to why the breakers started to trip is that  
+the toroid is creating a magnetic field at the circuit  
+breaker box now that it is rolled into position.  
+<!-- Author: David Dagenhart -->
+
+
+<!-- Date: Fri Jun 22 10:57:43 2001 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Since run 118429 ended with a frozen rc, I could not indicate 
+it as a good run and it will not go to production. 
+ 
+This stinks. Run 118429 is a GOLDEN run. 
+It contains more than half a million event and has silicon included!! 
+ 
+Is there a way to change the status of this run by hand  
+and make sure it won't be discarded by production?</pre></td></tr></td></table>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+<!-- Comment: Fri Jun 22 11;35;10 comment by...Bill -->
+<pre>Bill saved the day!  Marked the run as good in the database!!</pre>
+<!-- Comment: Fri Jun 22 11;44;00 comment by...W.Badgett -->
+<pre>Previous comment was entered by Greg Feild.
+
+Run has GoodRun_ShiftCrew = true now.  Also luminosity 
+measurement has been patched from last available 
+values.
+</pre>
+<!-- Date: Fri Jun 22 11:13:05 2001 -->
+<pre>I had a look at stream A in the look area, it doesn't  
+seem like a random 3% selection at all! 
+ 
+ikado@fcdfsgi2[26] Edm_ObjectLister /cdf/data08/_APHYSR.0000/ar01ce9d.0001phys | grep Event 
+Run 118429, Event      0         NBytes Input for Event =     42971 
+Run 118429, Event  21923         NBytes Input for Event =    205485 
+Run 118429, Event  22103         NBytes Input for Event =    256734 
+Run 118429, Event  22174         NBytes Input for Event =    293951 
+Run 118429, Event  22424         NBytes Input for Event =    300672 
+Run 118429, Event  22385         NBytes Input for Event =    298569 
+Run 118429, Event  22588         NBytes Input for Event =    204674 
+Run 118429, Event  22661         NBytes Input for Event =    233214 
+Run 118429, Event  22669         NBytes Input for Event =    217105 
+Run 118429, Event  22698         NBytes Input for Event =    308493 
+Run 118429, Event  22811         NBytes Input for Event =    224615 
+Run 118429, Event  22853         NBytes Input for Event =    233174 
+Run 118429, Event  22918         NBytes Input for Event =    237396 
+Run 118429, Event  22923         NBytes Input for Event =    198410 
+Run 118429, Event  22990         NBytes Input for Event =    195208 
+Run 118429, Event  23163         NBytes Input for Event =    263964 
+Run 118429, Event  23147         NBytes Input for Event =    305873 
+Run 118429, Event  23093         NBytes Input for Event =    339763 
+Run 118429, Event  23235         NBytes Input for Event =    295326 
+Run 118429, Event  23275         NBytes Input for Event =    295289 
+Run 118429, Event  23301         NBytes Input for Event =    259590 
+Run 118429, Event  23355         NBytes Input for Event =    238238 
+Run 118429, Event  23362         NBytes Input for Event =    267160 
+Run 118429, Event  23413         NBytes Input for Event =    192162 
+Run 118429, Event  23319         NBytes Input for Event =    284706 
+Run 118429, Event  23401         NBytes Input for Event =    272483 
+Run 118429, Event  23409         NBytes Input for Event =    304493 
+Run 118429, Event  23396         NBytes Input for Event =    322123 
+Run 118429, Event  23423         NBytes Input for Event =    264493 
+Run 118429, Event  23462         NBytes Input for Event =    262965 
+Run 118429, Event  23414         NBytes Input for Event =    294210 
+Run 118429, Event  23496         NBytes Input for Event =    261208                                  </pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118429' target=_top>118429</a>) -->
+
+
+
+
+<!-- Date: Fri Jun 22 11:56:43 2001 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2001&action=view&page=-1227&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2001&action=view&page=-1227  width='300' align='top'></td><td>SVT did well in run 118429. See d vs phi plot for wedge 3 and  impact parameter distribution for wedge 0!</a></td></tr></table>
+<!-- Author: Marco  -->
+
+
+<!-- Date: Fri Jun 22 11:57:33 2001 -->
+<center><a href='/cgi/elog/elog.pl?nb=2001&action=view&page=-1226&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2001&action=view&page=-1226' width='300'></a></center>
+<!-- Author: Marco -->
+
+
+<!-- Date: Fri Jun 22 12:12:08 2001 -->
+<pre>The Village Pool (barn) calls- they have `Booris's Pager'. We deduce this is the L3 pager- to get L3 do something else until 
+Boris gets it back.</pre>
+<!-- Author: Henry -->
+
+
+<!-- Date: Fri Jun 22 12:17:46 2001 -->
+<pre>Interrupting run 118430 at 345K to do special Myron Mode 
+run for Nathan  for 2-track trigger. 
+Just ending the run takes several minutes :-( 
+ 
+Ilya called (!) to tell that the L3 proxy died and 
+that we should cleanup L3.  
+ 
+We had to issue a reset to repartition due to the L3-cleanup. 
+ 
+Changed to 36x36_1[23,150] with MyronMode, L1early and IgnoreBC 
+ 
+Busy time-out after 40 events. HRR doesn't help. 
+(comes from CMX00) 
+ 
+Taking out both CMX crates and reset. 
+ 
+Clicked on Partition too fast after Reset, so EVB got screwed up. 
+Clean-up EVB. 
+ 
+Run 118432 started successfully. 
+</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118432' target=_top>118432</a>) -->
+<!-- Comment: Fri Jun 22 13;24;20 comment by...Ilya -->
+<pre>   I called because I noticed that L3 proxy just died
+with SmartSockets error of incomprehansible type ending
+with "Contact Talarian support".
+</pre>
+<!-- Date: Fri Jun 22 12:36:01 2001 -->
+<pre>   ---------------- 
+-->Myron Mode Alert<-- 
+   ---------------- 
+ 
+run 118432 contains 50k events in Myron Mode 
+(only 20k were requested but it took so long to get there 
+that I let it run a few minutes extra)</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118432' target=_top>118432</a>) -->
+
+
+<!-- Date: Fri Jun 22 12:37:23 2001 -->
+Started run 118433 smoothly. 
+Undid all (?) MM changes.   
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118433' target=_top>118433</a>) -->
+<!-- Comment: Fri Jun 22 12;42;24 comment by...Rolf -->
+Oops, forgot to set prescales. Did it by hand after 30k events.
+
+
+<!-- Date: Fri Jun 22 12:58:47 2001 -->
+<pre>CPR SE HV trips. 
+Set it to standy. After that turn on.</pre>
+<!-- Author: Koji :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118433' target=_top>118433</a>) -->
+
+
+<!-- Date: Fri Jun 22 13:11:50 2001 -->
+<pre>PSM box on global alarm became green from red.</pre>
+<!-- Author: Koji -->
+
+
+<!-- Date: Fri Jun 22 13:20:00 2001 -->
+<pre>Event number no longer updated. 
+Another java out-of-memory error. 
+killall -9 java, restart RC, and try to rejoin partition. 
+fails... 
+ 
+Event display didn't update either, so I guess the run has stopped... 
+ 
+Start from scratch again. </pre>
+<!-- Author: Rolf -->
+<!-- Comment: Fri Jun 22 13;21;28 comment by...Rolf -->
+Changing 13 prescales by hand at the start of each run is
+very annoying, error-prone and we lose a few minutes of beam.
+
+
+
+<!-- Date: Fri Jun 22 13:27:55 2001 -->
+Run 118433 is a good run but ended with java out of memory and is not indicated as a good run.  
+I send an e-mail to Bill Badgett <badgett@fnal.gov>  to have 
+this fixed by hand.
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118433' target=_top>118433</a>) -->
+<!-- Comment: Fri Jun 22 13;39;31 comment by...W.Badgett -->
+<pre>This run is marked good now.
+
+</pre>
+
+
+<!-- Date: Fri Jun 22 13:52:23 2001 -->
+The deadtime is down to below 10% (Luminosity is 0.8E30) 
+so I think the next run doesn't need the hand-prescales anymore.
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118434' target=_top>118434</a>) -->
+
+
+<!-- Date: Fri Jun 22 14:26:27 2001 -->
+<pre>We have been running fairly smoothly- in looking at everything 
+have some (minor) questions and comments (in no particular order): 
+ 
+1. The CSL logger display overwrites itself (text at bottom). 
+
+2. We saw 13 MB/sec and 100 events/sec from the CSL and EVB displays; we're confused about the event size. 
+3. CSL monitor window is VERY slow in coming up. We ended up with lots of little boxes. If you click `ok' on one of them it ALL goes away. 
+4. We couldn't find the display for the CSL disks- could this be added to the CSL window? 
+
+5. SVTSpyMon showed an old run number, so we didn't look at the plots- turns out this is a feature- it doesn't know the run number. We've requested that this field just be left blank. 
+6. Event Display doesn't seem to show SVT tracks, even when they're enabled. 
+
+7. Event Display - for online it would seem as if loop mode should be the default. Also having a tower threshold default of 0.3 GeV in Et makes it much clearer as to what's going on. 
+8. Event Display- we tried selecting on L3 trigger bits, but it didn't seem to make any difference. 
+9. XTRP download at coldstart is very slow- have we reverted to single word mode?</pre>
+<!-- Author: Henry -->
+
+
+<!-- Date: Fri Jun 22 14:26:39 2001 -->
+Got Busy time-outs. It recovers after HRR, but the rate went down 
+to 30Hz. 
+ 
+Busy time-outs again. That's it. I abort and reset to start a  
+new run
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=1184434' target=_top>1184434</a>) -->
+<!-- Comment: Fri Jun 22 17;04;56 comment by...patrick -->
+Probably this was due to imu01/VRB work
+<!-- Date: Fri Jun 22 14:26:45 2001 -->
+<pre>Added "UseDbBroker" flag in the SvxSet object within  
+the Run Settings.   (From Steve Nahn) 
+</pre>
+<!-- Author: W.Badgett -->
+
+
+<!-- Date: Fri Jun 22 14:38:53 2001 -->
+<pre>Started new run (118435) right after the 14:30 flying wire. 
+Rate was low (40 Hz), deadtime high (90%), then busy timeout 
+from CMX00. We reset and start a new run without CMX00</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118435' target=_top>118435</a>) -->
+<!-- Comment: Fri Jun 22 15;44;27 comment by...patrick -->
+<pre>Ace lesson number one:
+As stated in the window run control pops up when there
+is a busy timeout, the crate mentioned is most often
+NOT the cause of the problem. This generally is the
+crate with the largest amount of data. It sees the
+upper level DAQ system clog up first. If the crate is
+removed, then the next run will just give a timeout
+from a different crate or set of crates.
+This is in fact what happened...
+It looks like a VRB in crate b0eb11 was in a bad state.
+Cleaning up the EVB was necessary.</pre>
+<!-- Comment: Fri Jun 22 16;53;48 comment by...patrick -->
+The VRB was put in a bad state by work on imu01
+<!-- Date: Fri Jun 22 14:52:51 2001 -->
+Started run 118436. 
+Deadtime was 60-70%, so I put in prescales. 
+ 
+Oops, lots of BUSY-timeout.  
+ 
+Doing 'check Scramnet' from L3 ACE controls it gets stuck, 
+so I abort, reset and start a new run.  
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118436' target=_top>118436</a>) -->
+
+
+<!-- Date: Fri Jun 22 15:09:10 2001 -->
+<pre>RtServer down. Restarted. EvBProxy down. Restarted. 
+Starting new run. Trouble during partition. 
+We do clean-up L3. Not good enough. We clean up EVB as well. 
+Now RC gets sticky. We restart RC.</pre>
+<!-- Author: Rolf -->
+
+
+<!-- Date: Fri Jun 22 15:14:15 2001 -->
+We take out svtmon, it's one of the crates that doesn't come up 
+at partitioning. Now it works!
+<!-- Author: Rolf/Koji -->
+
+
+<!-- Date: Fri Jun 22 15:39:48 2001 -->
+Walter starts on IMU01 to see "why data transfer isn't working".
+<!-- Author: Henry :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118427' target=_top>118437</a>) -->
+
+
+
+<!-- Date: Fri Jun 22 15:47:16 2001 -->
+<pre>Busy time-out from various muon systems. HRR gets it going  
+for a few seconds. 
+BUSY time-out again. HRR works better now</pre>
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118437' target=_top>118437</a>) -->
+
+
+<!-- Date: Fri Jun 22 15:50:22 2001 -->
+<pre>Monitoring Ace Summary:  
+-----------------------  
+ 
+1) PSM alarms on Arches 21E channel 2.   
+ 
+2) A couple of COT trips SL7 (S6c). 
+ 
+3) One trip for SE 12-17 of CPR.</pre>
+<!-- Author: Koji -->
+
+
+<!-- Date: Fri Jun 22 15:57:28 2001 -->
+<font color=red>Shift Summary: </font><pre>Inherited store 549 with lum approx. 1.0x10^{30}. Took a long run, Run 118429, with SVX integrated: 520K events. 
+ 
+Gave up SVX (reluctantly) to SVX folk. 
+ 
+Took a run for Nathan Eddy and the 2-track trigger board. 
+ 
+Back to (fairly) steady taking of data, without SVX. Typical minor problems with Java, RTserver, etc. (see above log). 
+ 
+Run Control gives 72.5nb integrated, 19.6nb acquired at end of shift. 
+ 
+Major comments: 
+	1.We really could use higher thresholds! 
+	2. Many minor annoyances - hope we can beat them down                one-by-one. (again, see above).  
+	3. One good long run with (partial) SVX. SVT sees tracks.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   118429-118437
+Delivered Luminosity   442nb  pb-1
+Acquired Luminosity    12  pb-1
+Efficiency             <30%
+   
+</td></tr></table></pre>
+<!-- Author: Henry -->
+
+
+<!-- Date: Fri Jun 22 15:59:17 2001 -->
+Severral BUSY-TIME-outs during run 118437. 
+Coming from the muon system. 
+It turned out Walter was using the VBR and inadvertedly 
+interfered with data taking.  
+<!-- Author: Rolf :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=118437' target=_top>118437</a>) -->
+
+
+<!-- Date: Fri Jun 22 16:09:33 2001 -->
+<font color=red>Shift Summary: </font><pre>try to end the shift again!</pre> 
+<!-- Author: henry -->
+
+

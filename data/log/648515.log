@@ -1,0 +1,456 @@
+<!-- Title: Owl shift. Thu Jul 14, 2005 -->
+<!-- SciCo: Krzysztof Sliwa -->
+<!-- DAQAce: Viktor Veszpremi -->
+<!-- MonAce: Fabrizio Mangaroli -->
+<!-- CO: Markku Mehtala -->
+<!-- OpManager: Bob Wagner -->
+<!-- Notes: -->
+<pre>store 4271 lost due to a quench. They were trying to retune the beams. Most of CDF systems were on stand-by because of high losses due to retuning work. 
+ 
+Don't expect new store anytime soon, as stack is only about 40e10. Stash at 1.6e10.</pre>
+
+<!-- Date: Thu Jul 14 00:15:17.787 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200971">200971</A>
+TERMINATE: tevatron quenched
+<!-- Author: Viktor x2080 -->
+
+
+
+<!-- Date: Thu Jul 14 00:27:12.205 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-11895&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-11895  width='300' align='top'></a></td><td>BLM summary</td></tr></table>
+<!-- Author: Fabrizio -->
+
+
+<!-- Date: Thu Jul 14 00:41:46.092 2005 -->
+We received a "node unreachable" alarm from the PSM.
+<!-- Author: Viktor -->
+<!-- Comment: Thu Jul 14 01;41;30 comment by...Fabrizio -->
+<pre>VOLTMAN was hunging. I rebooted it - twice -'cause the first time for no reason it would not allow me to login. After rebooting i restarted manually Volt.exe; it should start automatically but it did not. Now it is fine.</pre>
+<!-- Date: Thu Jul 14 01:20:01.119 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200972">200972</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 02;06;52 comment by...mehtala -->
+Black and blue channel list below.
+<!-- Date: Thu Jul 14 01:20:27.697 2005 -->
+running calibrations
+<!-- Author: krzysztof -->
+
+<!-- Date: Thu Jul 14 01:28:45.303 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200972">200972</A>
+TERMINATE: Calorimeter calibration ended
+<!-- Author: Viktor x2080 -->
+
+
+
+<!-- Date: Thu Jul 14 01:30:18.280 2005 -->
+MCR phones to inform us: i) there will be several hours of quite time; ii) D0 requested an access; iii) ask whether we want one as well (answer: NO)
+<!-- Author: krzysztof -->
+<!-- Comment: Thu Jul 14 01;31;37 comment by...krzysztof -->
+quiet not quite (still not used to owl shift time-zone)
+<!-- Date: Thu Jul 14 01:31:32.223 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200973">200973</A>
+ACTIVATE: RunSet: CALIB_CLC_QIE 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 02;33;39 comment by...mehtala -->
+One peak in lego plot (SloErr/Slope MEAN by QIE vs. ADMEM)
+See plot below.
+<!-- Date: Thu Jul 14 01:33:43.650 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200973">200973</A>
+TERMINATE: CLC QIE ended
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 01:41:05.775 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200974">200974</A>
+ACTIVATE: RunSet: CALIB_QIE_FWD 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 01;53;29 comment by...mehtala -->
+Looks ok.
+<!-- Date: Thu Jul 14 01:42:25.135 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200974">200974</A>
+TERMINATE: BSC QIE ended
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 01:47:12.726 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200975">200975</A>
+ACTIVATE: RunSet: BOTHPLUGS_NORMAL 
+<!-- Author: Viktor x2080 -->
+
+
+
+<!-- Date: Thu Jul 14 01:54:57.928 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200975">200975</A>
+TERMINATE: Plug NORMAL calibration ended
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 01:56:25.411 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200976">200976</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM_C 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 02;10;37 comment by...mehtala -->
+Looks fine.
+<!-- Date: Thu Jul 14 01:59:58.449 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200976">200976</A>
+TERMINATE: Plug MM_C finished
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 02:03:01.342 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200977">200977</A>
+ACTIVATE: RunSet: BOTHPLUGS_MM 
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 02:04:35.842 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200977">200977</A>
+TERMINATE: Plug MM calibration ended
+<!-- Author: Viktor x2080 -->
+
+
+
+<!-- Date: Thu Jul 14 02:05:13.257 2005 -->
+<center><a href='/elog/notebooks/2005/Thu_Jul_14_2005_Owl.020301.ps'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11897' ></a><a href='/elog/notebooks/2005/Thu_Jul_14_2005_Owl.020335.ps'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11899' ></a></center>
+<!-- Author: mehtala -->
+
+
+<!-- Date: Thu Jul 14 02:09:52.072 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200978">200978</A>
+ACTIVATE: RunSet: CALIB_RP_SMQIE 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 03;03;48 comment by...mehtala -->
+More blue blocks in RP bad channels (electronic id) than in reference, plot can be found below.
+<!-- Date: Thu Jul 14 02:12:45.987 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200978">200978</A>
+TERMINATE: Roman pot calib ended
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 02:12:46.375 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200979">200979</A>
+ACTIVATE: RunSet: ACE_TOF_QIE_NEW 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 02;19;16 comment by...mehtala -->
+Looks ok.
+<!-- Date: Thu Jul 14 02:15:19.801 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200979">200979</A>
+TERMINATE: TOF Calibration ended
+<!-- Author: Viktor x2080 -->
+
+
+<!-- Date: Thu Jul 14 02:19:08.652 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200980">200980</A>
+ACTIVATE: RunSet: ACE_LED_ALL 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 02;25;05 comment by...mehtala -->
+Looks ok.
+<!-- Date: Thu Jul 14 02:20:23.831 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200980">200980</A>
+TERMINATE: CEM LED test ended
+<!-- Author: Viktor x2080 -->
+
+
+
+<!-- Date: Thu Jul 14 02:30:12.392 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200981">200981</A>
+ACTIVATE: RunSet: ACE_QIE 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 02;52;33 comment by...mehtala -->
+Bad channel list is below. There were some channels with Sig>10.
+<!-- Date: Thu Jul 14 02:31:07.417 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200981">200981</A>
+TERMINATE: Calorimeter QIE ended
+<!-- Author: Viktor x2080 -->
+
+
+
+
+<!-- Date: Thu Jul 14 02:34:35.212 2005 -->
+<table><tr><td><a href=/elog/notebooks/2005/Thu_Jul_14_2005_Owl.023429.ps align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-11901  align='top'></a></td><td>peak in lego plot.</td></tr></table>
+<!-- Author: mehtala -->
+<!-- Comment: Thu Jul 14 02;35;35 comment by...mehtala -->
+Plot for calibration: Run 200973 ACTIVATE: RunSet: CALIB_CLC_QIE  
+
+
+<!-- Date: Thu Jul 14 02:38:31.454 2005 -->
+<pre>PSM alarm; crate 1RR27I 2 shows channel two voltage -4.2 while it should be -5.2V. After a minute it went green again. Now channel two reads -4.3 but we don't have any alarm. Ignoring. </pre>
+<!-- Author: Fabrizio -->
+
+
+
+<!-- Date: Thu Jul 14 02:53:55.821 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-11902&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-11902  width='300' align='top'></a></td><td>Bad channel list. Some sig>10 for blue and black channels.</td></tr></table>
+<!-- Author: mehtala -->
+<!-- Comment: Thu Jul 14 02;54;49 comment by...mehtala -->
+Plot corresponds to Run 200981 ACTIVATE: RunSet: ACE_QIE 
+
+<!-- Comment: Thu Jul 14 03;24;51 comment by...Krzysztof -->
+I called Mat Martin (I only have his office and home numbers) first, but he did not respond. Then I paged SPL, Larry Nodulman responded (sorry for waking you up), he said that we should check with some previous runs to see if the same discrepancies existed in the past. The large disrcepancies indeed ARE THE SAME. Perhaps the reference pages that CO use to detect problems should be updated accordingly?
+<!-- Comment: Thu Jul 14 11;36;34 comment by...m mattson (ADMEM) -->
+<br>Uhh... why did you call Matt Martin?<p>
+As much as I would have been annoyed and cranky, you should have called the Cal ADMEM pager first.  I would've gave the same response as Larry did.
+<!-- Comment: Thu Jul 14 19;17;34 comment by...Steve -->
+Mark Mattson and Mat Martin:  one of them should change names...
+<!-- Date: Thu Jul 14 02:57:20.963 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200982">200982</A>
+ACTIVATE: RunSet: XEF_ALL 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 04;30;16 comment by...mehtala -->
+New dead channels. See plot below.
+<!-- Date: Thu Jul 14 03:01:46.504 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200982">200982</A>
+TERMINATE: CEM XEF finished
+<!-- Author: Viktor x2080 -->
+
+
+
+
+<!-- Date: Thu Jul 14 03:07:44.996 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-11903&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-11903  width='300' align='top'></a></td><td>Problem with roman pots? 
+Plot corresponding to Run 200978 ACTIVATE: RunSet: CALIB_RP_SMQIE.</td></tr></table>
+<!-- Author: mehtala -->
+<!-- Comment: Thu Jul 14 03;13;23 comment by...mehtala -->
+Similar problem was at 11th of July. It seems that access is needed to fix the problem.
+
+<!-- Date: Thu Jul 14 03:16:11.906 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200983">200983</A>
+ Activated at 2005.07.14 03:14:33
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 14 03:16:12.417 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200983">200983</A>
+ACTIVATE: RunSet: ACE_CALORIMETER_MINIMAL  Trigger: SUMET5 [5,622,540] 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 03;29;44 comment by...mehtala -->
+FRED L1 accepts rate: 80.5261 Hz
+L1 Accepts rate: 79.9038 Hz
+Both are in 50-100 Hz => ok.
+<!-- Date: Thu Jul 14 03:22:23.802 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200983">200983</A>
+ Terminated at 2005.07.14 03:20:55
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Jul 14 03:24:51.757 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200983">200983</A>
+TERMINATE: PMT spike run over
+<!-- Author: Viktor x2080 -->
+
+
+
+
+<!-- Date: Thu Jul 14 03:49:23.354 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200984">200984</A>
+ACTIVATE: RunSet: CALIB_RP_SMQIE 
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 04;09;53 comment by...mehtala -->
+We did reset power supply in the West Alcove rack.
+Results are now better, but still there is one bad channel more than in 11th of July calibration. See plot below.
+
+<!-- Date: Thu Jul 14 03:50:44.820 2005 -->
+PSM alarm happened again. Became green after few minutes.
+<!-- Author: Viktor -->
+<!-- Comment: Thu Jul 14 05;32;23 comment by...Fabrizio -->
+<pre>PSM alarm again. Again it is rack 1RR27I 2 channel 2, it reads -4.16. It cleared after 1 minute. It's the third time this shift, someone should have a look at that.</pre>
+<!-- Date: Thu Jul 14 03:55:55.247 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200984">200984</A>
+TERMINATE: Roman pot calibration done
+<!-- Author: Viktor x2080 -->
+<!-- Comment: Thu Jul 14 03;57;56 comment by...Viktor -->
+It was performed after cryo reset power supply in the West Alcove rack for the request of the CO.
+
+
+
+<!-- Date: Thu Jul 14 04:11:46.138 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-11904&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-11904  width='300' align='top'></a></td><td>Plot for Run 200984 ACTIVATE: RunSet: CALIB_RP_SMQIE.</td></tr></table>
+<!-- Author: mehtala -->
+
+<!-- Date: Thu Jul 14 04:16:00.425 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200985">200985</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [16,623,539] 
+<!-- Author: Viktor x2080 -->
+
+
+
+<!-- Date: Thu Jul 14 04:17:59.719 2005 -->
+l2 decision timeout
+<!-- Author: krzysztof -->
+<!-- Comment: Thu Jul 14 04;21;42 comment by...Viktor -->
+again
+
+<!-- Comment: Thu Jul 14 04;23;22 comment by...V -->
+again
+
+<!-- Comment: Thu Jul 14 04;24;36 comment by...v -->
+again
+
+<!-- Comment: Thu Jul 14 04;28;31 comment by...v -->
+again
+
+<!-- Comment: Thu Jul 14 04;30;09 comment by...v -->
+again
+
+
+
+<!-- Comment: Thu Jul 14 04;37;53 comment by...v -->
+again
+<!-- Comment: Thu Jul 14 05;25;05 comment by...v -->
+and twice more in the last 30 min.
+<!-- Comment: Thu Jul 14 05;33;17 comment by...Fabrizio -->
+again
+<!-- Comment: Thu Jul 14 05;37;08 comment by...f -->
+again
+<!-- Comment: Thu Jul 14 05;42;37 comment by...f -->
+again
+<!-- Comment: Thu Jul 14 06;00;22 comment by...f -->
+again
+<!-- Comment: Thu Jul 14 06;14;14 comment by...Fabrizio -->
+again & again
+<!-- Comment: Thu Jul 14 06;20;44 comment by...Bizio -->
+again. Is there really somebody out there that looks at the reason for the L2 decision timeouts??I deeply hope so...
+PS again
+<!-- Comment: Thu Jul 14 06;47;01 comment by...f -->
+a couple more...
+<!-- Comment: Thu Jul 14 06;54;07 comment by...k -->
+again
+<!-- Comment: Thu Jul 14 06;55;32 comment by...f -->
+4 more since last comment
+<!-- Comment: Thu Jul 14 07;33;40 comment by...k -->
+couple more times
+<!-- Date: Thu Jul 14 04:32:07.376 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11905&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11905' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-11906&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-11906' width='300'></a></center>
+<!-- Author: mehtala -->
+
+
+
+<!-- Date: Thu Jul 14 04:40:35.846 2005 -->
+RTServer caused a Proc Mon error, but got cleared by itself.
+<!-- Author: v -->
+
+
+<!-- Date: Thu Jul 14 04:53:10.105 2005 -->
+Icicle crashed and restarted
+<!-- Author: Viktor -->
+
+
+
+
+
+<!-- Date: Thu Jul 14 05:35:28.148 2005 -->
+<pre>PSM alarm again, as always it is 1RR27I 2 channel two that reads -4.16. We'll call the expert as sun rises. </pre>
+<!-- Author: Fabrizio -->
+
+
+
+
+<!-- Date: Thu Jul 14 05:47:20.753 2005 -->
+NEXT SHOT SETUP SOMETIME BETWEEN 12 NOON - 4 PM.
+<!-- Author: krzysztof -->
+
+
+<!-- Date: Thu Jul 14 05:53:55.585 2005 -->
+stacking resumed after transferring pbars to accumulator
+<!-- Author: krzysztof -->
+
+
+
+<!-- Date: Thu Jul 14 06:02:57.768 2005 -->
+Done TO for crate b0clc00
+<!-- Author: Fabrizio :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200985' target=_top>200985</a>) -->
+
+
+
+
+
+
+
+<!-- Date: Thu Jul 14 07:01:10.125 2005 -->
+CPR alarm.Cleare right after
+<!-- Author: fabrizio -->
+
+
+<!-- Date: Thu Jul 14 07:05:10.998 2005 -->
+MRC informs us that they will be injecting beam into TeVatron. Beam studies.
+<!-- Author: Krzysztof -->
+
+
+
+<!-- Date: Thu Jul 14 07:52:19.169 2005 -->
+<font color=red>Shift Summary: </font><pre>inherited store 4271 with CDF run 200971 stopped and svx on standby. 
+                                                                                 
+MCR was trying to retune the beams as the lifetime was only about 5 hours. CDF was notified before they started and svx was on standby when they generated enormous losses in abort gap and elsewhere. CMP, CMX, and COT tripped. We then brought COT, CMU, CMP, BMU, CES, CPR, and the plug to standby. 
+ 
+4 minutes into the shift they lost beam due to a quench in 8 (!!) houses. 
+                                                                                 
+we ran calibrations and later l2torture 
+                                                                                 
+icicle crashed (lost connection?) twice but recovered all by itself. 
+                                                                                 
+Markku, our CO found some discrepancies for PHA and WHA pedestals; we tried to contact Mat Martin, no success, paged SPL, Larry Nodulman advised to check previous calibration runs, as some discrepancies may be "normal". We found that the large discrepancies were indeed present already for some time, maybe someone should update the reference pages used by CO to monitor the detectors? He had also found some problems in CLC, new noisy 
+channels in RP: experts please have a look. 
+                                                                                 
+NEXT STORE PERHAPS SOMETIME BETWEEN 12 NOON - 4 PM. THE QUENCH WAS MOST LIKELY CAUSED BY MORE OF LONGITUDINAL INSTABILITY PROBLEMS AND THIS OBVIOUSLY NEEDS MORE BEAM STUDIES. 
+                                                                                 
+ALSO, MCR TRANSFERRED A 70e10 STACK INTO A RECYCLER AND ARE STACKING AGAIN. 
+                                                                                 
+</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   200971:200985
+Delivered Luminosity   0(17.6)  
+Acquired Luminosity    0  
+Efficiency             100%
+   
+</td></tr></table></pre>
+<!-- Author: krzysztof -->
+
+<!-- Date: Thu Jul 14 07:55:19.632 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>07:55:00</TD>                                                       
+<TD ALIGN=CENTER>::</TD>                                                
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD ALIGN=RIGHT></TD>                                                   
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Thu Jul 14 07:55:52.667 2005 -->
+L2 decision TO
+<!-- Author: Mikele :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=200985' target=_top>200985</a>) -->
+<!-- Comment: Thu Jul 14 08;01;23 comment by...Mikele -->
+again
+
+<!-- Comment: Thu Jul 14 08;14;46 comment by...Mikele -->
+again
+
+

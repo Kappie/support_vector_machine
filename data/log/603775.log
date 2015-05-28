@@ -1,0 +1,380 @@
+<!-- Title: Owl shift. Tue Jul  4, 2006 -->
+<!-- SciCo: Craig Blocker -->
+<!-- DAQAce: Sarah Malik -->
+<!-- MonAce: Niharika Ranjan -->
+<!-- CO: Bob Miller -->
+<!-- OpManager: Greg Feild &nbsp; -->
+<!-- Notes: -->
+<pre>We inherit store at 5.7E31.  Everything things seems to be 
+working fine.  Our plan is quiet, efficient data taking 
+all night long.</pre>
+
+
+<!-- Date: Tue Jul 4 00:12:53.109 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5646&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5646  width='300' align='top'></a></td><td>Pinkie! SVX VBIAS B3W6L2</td></tr></table>
+<!-- Author: Niharika -->
+<!-- Comment: Tue Jul  4 00;15;00 comment by...Niharika -->
+<pre>&lt;pre&gt;This cell is turning pink quite frequently. Turns yellow when I unmark it and after a few seconds turns pink again. The bias current is rising slowly (not a sharp jump)&lt;/pre&gt;</pre>
+
+<!-- Comment: Tue Jul  4 00;16;38 comment by...Niharika -->
+<pre>Same cell pink again. Turns yellow when I unmark it</pre>
+
+
+<!-- Date: Tue Jul 4 00:19:22.298 2006 -->
+<table border=0><td><tr><td bgcolor=#e0e030>Issues from previous shift(s) 
+ 
+*  'FCDFSGI1 TAPE'  is grey in ProcMon. This was documented in an elog entry a few days ago; 
+----------------------------------------------------------  
+June 30th: ProcMon error. FCDFSGI1 TAPE. Will ignore per instructions; Expert has already been emailed on previous shift. 
+---------------------------------------------------------- 
+I presume the experts know about this and so it is nothing to worry about? 
+ 
+ 
+ 
+ 
+</td></tr></td></table>
+<!-- Author: Sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 00:19:52.824 2006 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>Issues from previous shift(s) * 'FCDFSGI1 TAPE' is grey in ProcMon. This was documented in an elog entry a few days ago; ---------------------------------------------------------- June 30th: ProcMon error. FCDFSGI1 TAPE. Will ignore per instructions; Expert has already been emailed on previous shift. ---------------------------------------------------------- I presume the experts know about this and so it is nothing to worry about?</pre></td></tr></td></table>
+<!-- Author: Sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 00:20:08.384 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5647&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5647  width='300' align='top'></a></td><td>Same channel pink again. The current is slowly rising.. </td></tr></table>
+<!-- Author: niharika -->
+<!-- Comment: Tue Jul  4 00;38;27 comment by...NIharika -->
+<pre>Same cell pink again.. </pre>
+
+
+<!-- Date: Tue Jul 4 00:39:31.127 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5648&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5648  width='300' align='top'></a></td><td>pinkie</td></tr></table>
+<!-- Author: niharika -->
+<!-- Comment: Tue Jul  4 00;40;49 comment by...Niharika -->
+<pre>SVX VBIAS B3W6L2 pink again</pre>
+
+<!-- Comment: Tue Jul  4 00;42;55 comment by...Niharika -->
+<pre>This cell is turning pink too frequently. I am not sure we need to page Si for this since the rise in bias current slow but steady (?)</pre>
+
+
+<!-- Date: Tue Jul 4 00:50:52.684 2006 -->
+<pre>IFix alarm for BMU. NE wedges ANO 24 and CAT 24 had tripped. I ramped up the voltage.</pre>
+<!-- Author: Niharika :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 00:52:58.413 2006 -->
+<pre>Got BMU trip followed by lots of errrs; 
+ 
+Attention !!!. FERML_SRC_FATALITY ERROR !!!  
+  
+ SRC Fatality Error for b0svx02: Sl 6 L2A w/o L1A  
+  
+ - HALT the run      
+ - record any relevant information in e-log      
+ - RECOVER - RUN      
+ 
+Done TO. for crate/s:  
+    b0cmx01   b0svx02    Done TO. 1 crate/s: b0imu01    
+ 
+ 
+Attention!!!. FERML_HIGH_DEADTIME !!!  
+ - Trigger/DAQ Deadtime is too high (at 100.485695 %).  
+ - Look for source of hot triggers.  
+ - Contact a trigger expert for further assistance.  
+ 
+---------------------------------------------------- 
+ 
+But there is little  dead time on Scaler Mon1!</pre>
+<!-- Author: sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+<!-- Comment: Tue Jul  4 00;53;55 comment by...sarah -->
+<pre>Dead time has been below 5. 
+It seems ok now, we are taking data. </pre>
+
+
+<!-- Comment: Tue Jul  4 01;14;39 comment by...Sarah -->
+<pre>There were no auto entries in the downtime logger so I guess we didnt lose much data. I'm not entirely sure why we gto all these errors, they all seem to be triggered by the BMU trip though.</pre>
+<!-- Date: Tue Jul 4 00:55:09.092 2006 -->
+<pre>SVX VBIAS B3W6L2 is pink again. although I don't see any sharp rise in the bias current. I will keep an eye on it and check the history  for any sharp rises. </pre>
+<!-- Author: Niharika :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 01:06:42.578 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5649&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5649' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5650&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5650' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5651&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5651' width='300'></a></center>
+<!-- Author: Niharika (hourly plots) -->
+
+
+<!-- Date: Tue Jul 4 01:19:45.090 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471>219471</A>
+trigger: <tt>IMU Hat East wedge 4 and West wedge 13 are still hot; experts have been notified.</tt>
+<!-- Author: Consumer Operator( Bob Miller) -->
+
+
+
+<!-- Date: Tue Jul 4 01:27:15.528 2006 -->
+<pre>IFix alarm for CMX.  
+NE wedges 18-19 tripped. Ramped up the voltage.</pre>
+<!-- Author: Niharika :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 01:27:16.588 2006 -->
+<pre>Trigger Inhibit is set from the components: 
+ CMU00 West Trip  	[080] Central Muon Trip 00 
+ 
+GOT CMU trip. Auto HRR successful. </pre>
+<!-- Author: Sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+<!-- Comment: Tue Jul  4 01;29;05 comment by...Sarah -->
+<pre>
+
+Got high deadtime because of the trip I presume;
+---------------------------------------------------------
+ Attention!!!. FERML_HIGH_DEADTIME !!! 
+ - Trigger/DAQ Deadtime is too high (at 71.526566 %). 
+ - Look for source of hot triggers. 
+ - Contact a trigger expert for further assistance. 
+---------------------------------------------------------
+
+Do we really contact a trigger expert if we get this? The dead time is below 4 now. </pre>
+
+
+<!-- Comment: Tue Jul  4 11;06;19 comment by...gregf -->
+<pre>Often, but not always, the high deadtime is caused by 
+a runaway trigger.  If you think you know the cause of
+the deadtime and fix it, then there is no need to call 
+a trigger expert!
+</pre>
+<!-- Date: Tue Jul 4 01:33:13.631 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5652&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5652  width='300' align='top'></a></td><td>Pinkie in SVX VBIAS B3W6L2 history</td></tr></table>
+<!-- Author: niharika -->
+
+
+<!-- Date: Tue Jul 4 02:03:55.322 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5653&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5653' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5654&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5654' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5655&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5655' width='300'></a></center>
+<!-- Author: Niharika (hourly plots) -->
+
+<!-- Date: Tue Jul 4 02:24:35.118 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471>219471</A>
+trigger: <tt>IMU Hat East wedge 4 and West wedge 13 are still hot; experts have been notified.</tt>
+<!-- Author: Consumer Operator( Bob Miller) -->
+
+
+
+<!-- Date: Tue Jul 4 02:40:28.211 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5656&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5656  width='300' align='top'></a></td><td>Pinkie</td></tr></table>
+<!-- Author: niharika -->
+<!-- Comment: Tue Jul  4 02;40;53 comment by...niharika -->
+<pre>Pinkie in SVX VBIAS B3W6L2 history</pre>
+
+<!-- Date: Tue Jul 4 02:57:30.629 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471>219471</A>
+fwd: <tt>MNP marked bad because of empty bins 60-63 in MPA West OUT Occupancy Plot (as recommended in CO Fix List).</tt>
+<!-- Author: Consumer Operator( Bob Miller) -->
+
+
+<!-- Date: Tue Jul 4 02:57:31.495 2006 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471>219471</A>
+muons: <tt>Note that there are two new (non-contiguous) dead channels in CSX Part IE</tt>
+<!-- Author: Consumer Operator( Bob Miller) -->
+
+
+
+<!-- Date: Tue Jul 4 03:03:03.681 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5657&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5657' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5658&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5658' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5659&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5659' width='300'></a></center>
+<!-- Author: Niharika (hourly plots) -->
+
+
+<!-- Date: Tue Jul 4 03:33:41.259 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5660&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5660  width='300' align='top'></a></td><td>Pinkie in SVX VBIAS B3W6L2 history</td></tr></table>
+<!-- Author: niharika -->
+
+
+<!-- Date: Tue Jul 4 04:06:14.496 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5661&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5661' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5662&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5662' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5663&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5663' width='300'></a></center>
+<!-- Author: Niharika (Hourly plots) -->
+
+
+<!-- Date: Tue Jul 4 04:40:23.035 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5664&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5664  width='300' align='top'></a></td><td>Pinkie in SVX VBIAS B3W6L2 history</td></tr></table>
+<!-- Author: niharika -->
+
+
+<!-- Date: Tue Jul 4 05:03:42.862 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5665&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5665' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5666&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5666' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5667&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5667' width='300'></a></center>
+<!-- Author: Niharika (Hourly plots) -->
+
+
+<!-- Date: Tue Jul 4 05:18:17.613 2006 -->
+<pre>Got RXPT error ; 
+ 
+RXPT Error for crate/s:  
+    b0fcal01    
+ 
+Auto HRR was successful 
+ 
+</pre>
+<!-- Author: Sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 05:22:43.478 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5668&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5668  width='300' align='top'></a></td><td>Spike in B0AAGC but it is well below the limit.</td></tr></table>
+<!-- Author: Niharika -->
+
+
+<!-- Date: Tue Jul 4 06:03:06.280 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5669&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5669' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5670&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5670' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5671&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5671' width='300'></a></center>
+<!-- Author: Niharika (Hourly plots) -->
+
+
+<!-- Date: Tue Jul 4 06:04:44.426 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5672&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5672  width='300' align='top'></a></td><td>Pinkie in SVX VBIAS B3W6L2 history</td></tr></table>
+<!-- Author: niharika -->
+<!-- Comment: Tue Jul  4 06;32;58 comment by...Mark -->
+Thanks for the plots.  I will take a look at this guy when I get in.
+<!-- Date: Tue Jul 4 06:27:13.754 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5673&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5673  width='300' align='top'></a></td><td>Another spike in B0AAGC, but within limit.</td></tr></table>
+<!-- Author: Niharika -->
+
+
+<!-- Date: Tue Jul 4 06:27:16.905 2006 -->
+<pre>Got this error ; 
+ 
+" TevMon failing to receive Acnet messages via RTServer" 
+ 
+We checked both TeVMon and ACNET and both are updating as normal. 
+ 
+Checked RTServer. Its seems to be running fine; 
+ 
+Tue Jul 4 06:26:25 CDT 2006   procAction  rtserver   check   b0server05 
+Checking rtserver 
+Found 1 copy of the rtserver watcher 'sscheck' script running (1 expected) 
+Found 1 copy of the rtserver (rtserver.x) running (1 expected) 
+Found 209 rtserver connections (near &gt;235 will degrade performance) 
+Found 0 rtserver FIN_WAIT connections (&gt;0 may degrade performance) 
+Found 0 rtserver FIN_WAIT connections from b0www (TOMCAT) 
+Found 0 potentially stuck ports  
+RTServer is running 
+</pre>
+<!-- Author: Sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+
+<!-- Date: Tue Jul 4 06:45:09.049 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5674&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5674  width='300' align='top'></a></td><td>Pinkie in SVX VBIAS B3W6L2 history. Slight increase in the bias current</td></tr></table>
+<!-- Author: niharika -->
+
+
+<!-- Date: Tue Jul 4 06:55:43.378 2006 -->
+<pre>rigger Inhibit is set from the components: 
+ ISL00 Trip  		[008] Intermediate Silicon Trip 00 
+ ISL07 Trip  		[015] Intermediate Silicon Trip 07 
+ ISL HV:iFix  		[129] Intermediate Silicon High Voltage from iFix 
+</pre>
+<!-- Author: sarah :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+
+
+<!-- Date: Tue Jul 4 07:12:47.364 2006 -->
+<pre>Got an PS-TRIP alarm for ISL. 
+This alarm changed to PS-CAEN-OFF alarm after a few seconds.  
+The description was "&gt;= 1 power supply channels off -- see GUI window." The error message was "ISL B5W1 AVDD2 under voltage". When I selected the wedge none of the status was in 'off' state. Paged expert. Followed instructions and turned the wedge back on. </pre>
+<!-- Author: Niharika :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+<!-- Comment: Tue Jul  4 07;18;26 comment by...niharika -->
+<pre>unmarked all channels after recovering the trip in ISL.</pre>
+
+
+<!-- Comment: Tue Jul  4 07;51;44 comment by...Mark -->
+The recovery process we went through over the phone is the same as that in the instructions for trip recoveries, so this process can be done by ACEs even when a single ladder trips.
+<!-- Date: Tue Jul 4 07:19:16.100 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5675&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5675  width='300' align='top'></a></td><td>New pinkie</td></tr></table>
+<!-- Author: niharika -->
+<!-- Comment: Tue Jul  4 07;20;51 comment by...niharika -->
+<pre>SVX AVDD B5W5L4. History shows it was grey, probably unmarking all channels unmarked one of the grey channels that Mark mentioned about. </pre>
+
+
+<!-- Date: Tue Jul 4 07:22:25.701 2006 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2006&action=view&page=-5676&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2006&action=view&page=-5676  width='300' align='top'></a></td><td>another new pinkie</td></tr></table>
+<!-- Author: niharika -->
+<!-- Comment: Tue Jul  4 07;23;23 comment by...niharika -->
+<pre>SVX AVDD B0W1L2. History shows it was grey, probably unmarking all channels unmarked one of the
+grey channels that Mark mentioned about. </pre>
+
+
+<!-- Comment: Tue Jul  4 07;29;15 comment by...Sarah -->
+<pre>Issued an HRR ,they were yellow but they have become pink again.
+</pre>
+<!-- Date: Tue Jul 4 07:27:57.124 2006 -->
+<pre>Pinkies: 
+SVX AVDD B0W1L2 
+SVX AVDD B5W5L4 
+SVX VBIAS B3W6L2</pre>
+<!-- Author: niharika :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=219471' target=_top>219471</a>) -->
+<!-- Comment: Tue Jul  4 07;28;59 comment by...niharika -->
+<pre>These cells turn yellow when I unmark them and then turn pink again after a few seconds. </pre>
+
+
+
+<!-- Date: Tue Jul 4 07:34:57.608 2006 -->
+<center><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5677&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5677' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5678&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5678' width='300'></a><a href='/cgi/elog/elog.pl?nb=2006&action=view&page=-5679&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2006&action=view&page=-5679' width='300'></a></center>
+<!-- Author: Niharika (Hourly plots) -->
+
+
+<!-- Date: Tue Jul 4 07:55:58.271 2006 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=219471 target=_runSummary>219471</A> x3594F</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_00 [3,798,638]</FONT></TD>
+<TD ALIGN=CENTER>20:13:54</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>10:53:22</TD>
+<TD ALIGN=RIGHT>   3,175,060</TD>   <TD ALIGN=RIGHT>  2,193.95</TD>
+<TD ALIGN=RIGHT>  2,046.47</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>07:55:01</TD>
+<TD ALIGN=CENTER>10:53:22</TD>
+<TD ALIGN=RIGHT>     3,175,060</TD> <TD ALIGN=RIGHT>  2,193.95</TD>
+<TD ALIGN=RIGHT>  2,046.47</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Tue Jul 4 08:01:39.579 2006 -->
+<font color=red>Shift Summary: </font><pre>Quiet data taking all night, with the usual small glitches. 
+CMX 18-19 tripped once.  A few SVX channels are wandering 
+into pink.  At about 7:00am, we had a single SVX ladder 
+trip and were able to recover.  Expert came in to try 
+to understand why it tripped.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   219471
+Delivered Luminosity   1307nb-1  
+Acquired Luminosity    1219nb-1  
+Efficiency             93.2%
+   
+</td></tr></table></pre>
+<!-- Author: Craig Blocker -->
+

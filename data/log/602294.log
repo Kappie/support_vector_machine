@@ -1,0 +1,428 @@
+<!-- Title: Day shift. Sat Apr 14, 2007 -->
+<!-- SciCo: Robert Blair -->
+<!-- DAQAce: Benedetto Di Ruzza -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: Mike Albrow -->
+<!-- OpManager: Max -->
+<!-- Notes: -->
+<pre>Shift starts with store 5352 at 60E30 and taking data. 
+MCR says they will drop and shoot at 6PM.</pre>
+
+
+<!-- Date: Sat Apr 14 08:21:52.058 2007 -->
+PSM got an alarmon crate 1RR18I_2, the alarm disapeared suddently but the run halted.<br> 
+recovered and now is good.<br>
+<!-- Author: BDR :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:23:17.717 2007 -->
+We frequently get TeVmon warnings about b0aagc which is running rather high.  I call MCR to find out what is up and they inform me that RF station 7 is down and this likely causes this.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:33:24.151 2007 -->
+Hourly plots checked:<br> 
+higtht rate spykes on B0AAGC, good all the others values.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:44:07.432 2007 -->
+Often Tevmon shows >10k for b0aagc.  The exact relationship between the high values and the warnings we get is unclear.  The documentaion implies that 5k is too high but this appears to be out of sync with the TeVmon page which I hope is more up to date and correct.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:47:21.210 2007 -->
+We page Silicon main pager just to make sure they are comfortable with running this way.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:53:58.811 2007 -->
+Done Timeout detected in crates: 
+COT_05.<br> 
+Auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:56:33.371 2007 -->
+We will paste a plot of b0aagc into the log for review.  Advice is to "watch it closely".  
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 08:57:52.929 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3586&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3586  width='300' align='top'></a></td><td>Very high ontents in lowest bin.</td></tr></table>
+<!-- Author: Mike Albrow -->
+
+
+<!-- Date: Sat Apr 14 08:59:14.446 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3588&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3588  width='300' align='top'></a></td><td><br>Spikes on B0AAGC, they are creating a lot of TevMon alarm, (look at the range).<br></td></tr></table>
+<!-- Author: Benedetto -->
+
+<!-- Date: Sat Apr 14 09:04:52.557 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218>239218</A>
+general: <tt>Consumers OK but E CMU wedge contents has high bin, see note.</tt>
+<!-- Author: Consumer Operator( Mike Albrow) -->
+
+
+
+<!-- Date: Sat Apr 14 09:11:44.902 2007 -->
+Done Timeout detected in crates: 
+VRB_ISL_06 
+Done TO on crates:<br> 
+ 
+IMU_00 
+IMU_01 
+CMU_01 
+CMU_00 
+CMP_00 
+MUON_SCINT_00 
+CMX_00 
+CMX_01 
+CLC_00 
+HADRON_TIMING_00 
+EM_TIMING_00.<br> 
+Auto HRR fixed it.<Br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 09:15:30.512 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3589&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3589  width='300' align='top'></a></td><td>This was noted as possible problem last night Fri 13 at 16:37. 
+It is fine now.</td></tr></table>
+<!-- Author: Mike Albrow -->
+
+
+<!-- Date: Sat Apr 14 09:31:11.676 2007 -->
+During one of the many TeVmon warnings the CDF Permit/inhibit gos set - now TeVmon displays Alarm.  After speaking with Satyajit, we muddle on with an eye on the B0AAGC plot - watching for any upward trend.  It has spikes but the mean is stable. We go on with the "setting" and the "clearing".
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 09:34:05.254 2007 -->
+Alarms together during Fly Wire:<br> 
+Done Timeout detected in crates: 
+1)<br> 
+HADRON_TIMING_00<br> 
+2)<br> 
+Attention!!!. FERML_TDC_NOT_READY_GLOBAL !!!  
+ - Timeout on global TDC Done  for crate b0htdc00    
+ AUTO HRR will be issued.  <br> 
+Auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 09:53:56.820 2007 -->
+silicon resonance on SVX 02: SI 6 <br> 
+ 
+rwice HRR does not fixed it. 
+Halted run and recovered.<br> 
+ 
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 10:05:10.987 2007 -->
+Hourly plots cheked.<br> 
+only higth rate spikes on B0AAGC, good all the others value.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 10:45:34.797 2007 -->
+Hourly plots checked, B0AAGC higt rare, good all the others.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 10:47:35.868 2007 -->
+The crate Node b0fcal01 became red, shephered it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 11:31:47.131 2007 -->
+Trigger Inhibit is set from the components: 
+ Flying Wire, an then done TO.<br> 
+Auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 11:42:09.409 2007 -->
+Satyajit calls and suggests that we silence the warnings from Tevmon to preserve our sanity (not the alarms ONLY the warnings).  The abort gap rate is showing no sign of rising on the mean - just the spikes.  He is talking the ACE through the procedure to silence only the warnmings.  We make a request that in the longer term it would be nice to suppress the redundant messages (each message has a "blah blah set" and a "partition 0 blah blah set", etc.).  He will follow up on this with Ron Moore who might know how to achieve this.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+<!-- Date: Sat Apr 14 11:56:04.346 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218>239218</A>
+general: <tt>all OK</tt>
+<!-- Author: Consumer Operator( Mike Albrow) -->
+
+
+
+<!-- Date: Sat Apr 14 11:57:22.596 2007 -->
+hourly plots checked:<br> 
+all the values are good, only B0AAGC with higth rate spikes.
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 12:02:21.402 2007 -->
+<table border=0><td><tr><td bgcolor=#e0e030><pre>ATENTION: 
+the voice TevMon alarm is disabled for the warning coming from B0AAGC. 
+The voice alarm is still enabled for the TevMon error.</pre></td></tr></td></table>
+<!-- Author: Benedeto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+<!-- Comment: Sat Apr 14 12;18;54 comment by...Benedetto -->
+Following the silicon pager instruction i have resetted the TevMon SVXWRM flag too.<br>
+
+
+<!-- Comment: Sat Apr 14 13;52;55 comment by...Satyajit -->
+Technically speaking we have bypassed B0AAGC from the TevMon
+warning decision (using E:SVXWRN device). The latter comment 
+should read SVXPMT instead of SVXWRN, i.e. we have reset the 
+TevMon permit. The latter is a latching version of the former.
+
+<!-- Date: Sat Apr 14 12:29:07.302 2007 -->
+Silicon Resonator: Sl 20 Ch 3 -> f823: Bytes: 00780:<br> 
+Auto HRR fixed it, immediatly after another auto HRR:<br> 
+L2 Decision Timeout ERROR !!. <br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 12:39:50.502 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3590&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3590  width='300' align='top'></a></td><td>hourly plots:</td></tr></table>
+<!-- Author: Benedetto -->
+<!-- Comment: Sat Apr 14 12;42;57 comment by...Benedetto -->
+<br>
+Hourly plots checked, high rate on B0AAGC (see plot), good all the other values.<br> 
+
+
+<!-- Date: Sat Apr 14 12:50:04.600 2007 -->
+Fake PSM alarm on rack 1RR21G2, then trigger inhibit from Ifix halted the run.<br> 
+Recover and Run fixed it.<br> 
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 13:12:18.277 2007 -->
+Done Timeout detected in crates: 
+IMU_00.<br> 
+Auto HRR fixed it.<br>  
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+<!-- Comment: Sat Apr 14 13;14;25 comment by...Benedetto -->
+<br>during HRR:<br>
+Time Out on b0imu00 too.<br>
+
+<!-- Comment: Sat Apr 14 13;17;01 comment by...Benedetto -->
+Again: Done Timeout detected in crates:
+IMU_00<br>
+Auto HRR fixed.
+
+
+<!-- Comment: Sat Apr 14 14;11;09 comment by...Benedetto -->
+Again:<br>
+Done TO. for crate/s: b0imu01<br>
+Timeout on global TDC Done  for crate b0imu01<br>
+Auto HRR fixed it.<br>
+<!-- Date: Sat Apr 14 13:22:05.214 2007 -->
+L2 Decision Timeout.<br> 
+Auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 13:32:51.509 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3591&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3591  width='300' align='top'></a></td><td>Hourly plot.</td></tr></table>
+<!-- Author: Benedetto -->
+<!-- Comment: Sat Apr 14 13;36;08 comment by...Benedetto -->
+<br>Hourly plots checked, high spikes on B0AAGC, good all the other values.<br>
+
+<!-- Comment: Sat Apr 14 13;48;00 comment by...Satyajit -->
+Can you change the y-axis max value for B0AAGC to 30kHz?
+
+
+
+<!-- Date: Sat Apr 14 13:55:15.209 2007 -->
+L2 Decision Timeout ERROR:<br> 
+Auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 13:57:10.355 2007 -->
+Done Timeout detected in crates: 
+CLC_00 
+HADRON_TIMING_00<br> 
+in the same time<br> 
+Stuck Cellid S/B3/W9/L3/C6-9<br> 
+Auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 14:22:17.462 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218>239218</A>
+general: <tt>All OK</tt>
+<!-- Author: Consumer Operator( Mike Albrow) -->
+
+
+
+<!-- Date: Sat Apr 14 14:27:39.703 2007 -->
+Stuck Cellid S/B3/W9/L3/C0-5,<br> 
+auto HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 14:29:58.246 2007 -->
+The abort gap beam is slowly rising.  At about 10:30 the 6 minute average was 6800Hz and now at about 14:15 it is 8900 Hz.  Our guidance was that at "about 10kHz" we will need to shut the Si down.  We repeatedly get alarms on and off now that the abort gap halo has gone up.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+<!-- Comment: Sat Apr 14 15;13;07 comment by...convery -->
+<table border=0><td><tr><td bgcolor=#e0e030>Please check with the silicon SPLs if you get in this situation.  My understanding is that they agreed yesterday that the limit for turning off due to B0AAGC should be 20kHz.  thanks</td></tr></td></table>
+<!-- Comment: Sat Apr 14 15;26;43 comment by...Satyajit -->
+The 6 min average for B0AAGC is around 8.2 kHz but there are spikes
+&gt; 20 kHz almost every few mins. From talking to one of the SPLs
+the decision was to let the 6 min average get close to 10 kHz or 
+encounter too frequent alarm state (> 20 kHz) for the exclusion of 
+silicon. Looks like the time has come for this due to the latter
+condition.
+
+<!-- Comment: Sat Apr 14 16;09;23 comment by...Ignacio -->
+ The Alarm conditions on the antiproton abort gap counter, after they were relaxed on Friday should be:
+<pre>
+   * any average > 20 kHz
+   * any RMS > 3 kHz AND short or medium avg > 10. kHz
+</pre>
+It is the late condition that is going into alarm. 
+
+<!-- Date: Sat Apr 14 14:33:47.187 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3592&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3592  width='300' align='top'></a></td><td>Hourly plots 1:</td></tr></table>
+<!-- Author: Benedetto -->
+<!-- Comment: Sat Apr 14 14;37;17 comment by...Benedetto -->
+<br><b>Still High spikes rate on B0AAGC</B>,<br>
+TevMon value 6634, B0 Luminosity 44E30.<br>
+Good all the other values.<br>
+
+
+<!-- Date: Sat Apr 14 14:47:33.635 2007 -->
+Error on b0svx02<br> 
+b0svx02:Messenger:Apr 14, 2007 02:38:47 PM->SRC Fatal Error:Sl 6 Resonance Detected <br> 
+FrontEnd Crate Error Condition from: 
+VRB_SVX_02<br> 
+evb2b became red<br> 
+auto HRR twice did't fix, forced HRR fixed it.<br>
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 15:02:57.308 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3593&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3594  width='300' align='top'></a></td><td>Pinkie unmarked okay</td></tr></table>
+<!-- Author: reb -->
+
+
+
+<!-- Date: Sat Apr 14 15:18:27.687 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3595&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3595  width='300' align='top'></a></td><td>B0AAGC plot</td></tr></table>
+<!-- Author: Benedetto -->
+<!-- Comment: Sat Apr 14 15;22;12 comment by...Benedetto -->
+<br>Range value for B0AAGC axis : 2000-35000,<br>TevMon mean value of the last 6 minute:8430<br>
+B0 Luminosity :43E30<br>
+
+
+<!-- Comment: Sat Apr 14 15;28;28 comment by...Satyajit -->
+Can you show us the situation for last 2-3 hours?
+<!-- Date: Sat Apr 14 15:23:01.172 2007 -->
+From Run Coord log: 
+#  Store Termination 
+ 
+    * Terminate Store 5352 at 1800 hours. 
+    * Experts will be looking at TeV RF stations #7 we have had this station trip several times in the last week. 
+  
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 15:25:01.829 2007 -->
+Spoke to Satyajit about the numerous tevmon alarms.  He is going to consult with the SPL and call back as to whether we should ride it out or take data without the Si.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+
+
+<!-- Date: Sat Apr 14 15:33:11.938 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3596&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3596  width='300' align='top'></a></td><td>plot of B0AAGC in the last 1000 seconds (range -2000, 35000)</td></tr></table>
+<!-- Author: Benedetto -->
+
+
+<!-- Date: Sat Apr 14 15:36:46.578 2007 -->
+SPL will add something to log about Mary's coment above.  So far we are advised to hold tight and keep the Si in.
+<!-- Author: reb :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+
+<!-- Date: Sat Apr 14 15:38:18.127 2007 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2007&action=view&page=-3597&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2007&action=view&page=-3597  width='300' align='top'></a></td><td>Hourly plot (B0AAGC range 0,20000) </td></tr></table>
+<!-- Author: Benedetto -->
+
+
+<!-- Date: Sat Apr 14 15:50:06.944 2007 -->
+In DQMon WHA and PHA became red but in ifix there are no error messages.<br> 
+Checked the monitor in the 3th flor too, it is running well.<br> 
+<!-- Author: Benedetto :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=239218' target=_top>239218</a>) -->
+
+<!-- Date: Sat Apr 14 15:55:17.491 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=239207 target=_runSummary>239207</A> x3A667</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_02 [3,873,681]</FONT></TD>
+<TD ALIGN=CENTER>21:16:26</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>03:13:49</TD>
+<TD ALIGN=RIGHT>   1,436,187</TD>   <TD ALIGN=RIGHT>  1,710.03</TD>
+<TD ALIGN=RIGHT>  1,411.99</TD>
+<TD ALIGN=CENTER>1</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN=239218 target=_runSummary>239218</A> x3A672</TD>
+<TD>BEAM</TD>
+<TD><FONT SIZE=-1>PHYSICS_4_02 [3,873,681]</FONT></TD>
+<TD ALIGN=CENTER>04:54:03</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>09:58:48</TD>
+<TD ALIGN=RIGHT>   4,020,411</TD>   <TD ALIGN=RIGHT>  2,201.45</TD>
+<TD ALIGN=RIGHT>  1,991.25</TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER></TD>
+<TD ALIGN=CENTER>1</TD></TR>
+
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:01</TD>
+<TD ALIGN=CENTER>13:12:37</TD>
+<TD ALIGN=RIGHT>     5,456,598</TD> <TD ALIGN=RIGHT>  3,911.48</TD>
+<TD ALIGN=RIGHT>  3,403.24</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sat Apr 14 16:04:53.180 2007 -->
+<font color=red>Shift Summary: </font><pre>Lots of anti-proton halo (B0AAGC).  So bad that we disabled the warnings from TeVmon.  The losses rose throughout the shift and are now reaching the stage where Tevmon is constantly alarming.  Silicon experts tell us to press on without removing the silicon.  Aside from this all was quiet.</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   239218
+Delivered Luminosity   1453.9 nb-1  
+Acquired Luminosity    1303.6 nb-1  
+Efficiency             89.7
+   
+</td></tr></table></pre>
+<!-- Author: Robert Blair -->
+
+
+
+<!-- Date: Sat Apr 14 16:10:51.815 2007 -->
+PSM alarm : 1RR18D1 -> halted: So,I recover and run-> fixed it
+<!-- Author: Ji-Eun -->

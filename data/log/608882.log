@@ -1,0 +1,671 @@
+<!-- Title: 16:13:37  Sun Sep  8 2002 -->
+<!-- Crewchief: Martin Hennecke -->
+<!-- Op1: &nbsp; -->
+<!-- Op2: &nbsp; -->
+<!-- Op3: &nbsp; -->
+<!-- Op4: &nbsp; -->
+<!-- Op5: &nbsp; -->
+<!-- Op6: &nbsp; -->
+<!-- Notes: -->
+<pre>4.8.x based cdfsoftb0 releases</pre>
+
+
+<!-- Date: Sun Sep 8 16:16:00 2002 -->
+<pre>Started to build 4.8.0pre3. Packages from the head are: 
+ 
+#Consumer patches 
+Consumer -D 08-Sep2002UT2100 
+ConsumerFramework -D 08-Sep2002UT2100 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 08-Sep2002UT2100 
+L1GlobalTrigger -D 08-Sep2002UT2100 
+L2GlobalTrigger -D 08-Sep2002UT2100 
+MuonTrigger -D 08-Sep2002UT2100 
+XFTMods -D 08-Sep2002UT2100 
+XTRPSim -D 08-Sep2002UT2100 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sun Sep 8 17:10:53 2002 -->
+<pre>Building 4.8.0pre3 failed because of the following errors: 
+&lt;**compiling**&gt; SVXMon.cc 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.0pre3a/include/SvxDaqMods/SIXDMonitor.hh", line 76: warning:  
+overloaded virtual function "TclParameterSet::configChangeCallback" 
+is only partially overridden in class "SIXDMonitor" 
+  class SIXDMonitor : public SiliconMonitor, private TclParameterSet 
+ 
+/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.0pre3a/SvxDaqMods/test/SVXMon/SVXMon.cc", line 37: catastrophic error:  
+          could not open source file "TrackingMods/TestSiBanks.hh" 
+  #include "TrackingMods/TestSiBanks.hh" 
+                                        ^ 
+1 catastrophic error detected in the compilation of "/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.0pre3a/SvxDaqMods/test/SVXMon/SVXMon.cc". 
+Compilation terminated. 
+ 
+&lt;**compiling**&gt; L3RegionalMon.cc 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.0pre3a/Consumer/L3RegionalMon/L3RegionalMon.cc", line 26: catastrophic error:  
+could not open source file "TrackingMods/RegionDefModule.hh" 
+  #include "TrackingMods/RegionDefModule.hh" 
+                                            ^ 
+ 
+1 catastrophic error detected in the compilation of "/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.0pre3a/Consumer/L3RegionalMon/L3RegionalMon.cc". 
+ 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Tue Sep 10 22:24:26 2002 -->
+<pre>Started to build cdfsoftb0 release 4.8.0pre3c. Packages from the head are: 
+ 
+#Consumer patches 
+Consumer -D 11-Sep2002UT0320 
+ConsumerFramework -D 11-Sep2002UT0320 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 11-Sep2002UT0320 
+L1GlobalTrigger -D 11-Sep2002UT0320 
+L2GlobalTrigger -D 11-Sep2002UT0320 
+ 
+MuonTrigger -D 11-Sep2002UT0320 
+XFTMods -D 11-Sep2002UT0320 
+XTRPSim -D 11-Sep2002UT0320 
+</pre>
+<!-- Author: Martin Hennecke -->
+<!-- Comment: Sat Sep 14 09;26;42 comment by...Martin Hennecke -->
+<pre>Compilation failed.</pre>
+
+
+<!-- Date: Sat Sep 14 09:28:28 2002 -->
+<pre>Started to build 4.8.2a. Packages from the head are: 
+ 
+#Consumer patches 
+Consumer -D 14-Sep2002UT1400 
+ConsumerFramework -D 14-Sep2002UT1400 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 14-Sep2002UT1400 
+L1GlobalTrigger -D 14-Sep2002UT1400 
+L2GlobalTrigger -D 14-Sep2002UT1400 
+MuonTrigger -D 14-Sep2002UT1400 
+XFTMods -D 14-Sep2002UT1400 
+XTRPSim -D 14-Sep2002UT1400 
+</pre>
+<!-- Author: Martin Hennecke -->
+<!-- Comment: Sat Sep 14 11;01;43 comment by...Martin Hennecke -->
+<pre>Compilation failed:
+===================
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.2a/SvxDaqMods/test/SVXMon/SVXMon.cc", line 37: catastrophic error: 
+          could not open source file "TrackingMods/TestSiBanks.hh"
+  #include "TrackingMods/TestSiBanks.hh"
+                                        ^
+
+1 catastrophic error detected in the compilation of "/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.2a/SvxDaqMods/t
+</pre>
+
+
+<!-- Date: Mon Sep 16 17:14:52 2002 -->
+<pre>Started to build 4.8.2c. Packages from the head are: 
+ 
+#Consumer patches 
+Consumer -D 16-Sep2002UT2200 
+ConsumerFramework -D 16-Sep2002UT2200 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 16-Sep2002UT2200 
+L1GlobalTrigger -D 16-Sep2002UT2200 
+L2GlobalTrigger -D 16-Sep2002UT2200 
+MuonTrigger -D 16-Sep2002UT2200 
+XFTMods -D 16-Sep2002UT2200 
+XTRPSim -D 16-Sep2002UT2200 
+ 
+#package for SVXMon 
+SvxDaqMods -D 16-Sep2002UT2200 
+ 
+#package for EventDisplay 
+RootMods -D 16-Sep2002UT2200 
+ 
+RootMods are taken from the head in order to see if that cures  
+the mon.exe problem. The previous error for SVXMon went away by  
+taking SvxDaqMods from the head.</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Mon Sep 16 23:58:32 2002 -->
+<pre>/cdf/code-Linux-2.0.34 disk on b0dap32 is 96% full. 
+ 
+Currently, the default cdfsoftb0 is 4.6.0int4f. 
+We are using 4.6.0int4g for TrigMon, 4.7.0int3a for YMon 
+and SiliMon, and the default release version for the rest. 
+ 
+Delete some of the old cdfsoftb0 releases: 
+4.6.0int4b 
+4.6.0int4e 
+4.6.0int3b 
+ 
+====== 
+partially tested 4.8.2c release with partition 14. 
+ObjectMon gives out many many print-out, and could not 
+continue.  Something to do with id=0. 
+Others processed some partition 14 events. 
+ 
+When we run default release monitor, and running 4.8.2c  
+HistoDisplay Gui, as soon as open slide show, ObjectMon/Stage0 
+and LumMon/BeamMon/DAQMon Gui died.  Others worked. 
+ 
+===== 
+Script startMon_new.sh starts 4.8.2c version. 
+For now, I am leaving TrigMon and DAQMon running with 4.8.2c 
+with beam data.  TrigMon output looks ok.  
+ 
+</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Tue Sep 17 11:02:00 2002 -->
+<pre>Removed the following directories from online machines: 
+ 
+4.6.0int1a 
+ 
+4.7.0int4a 
+ 
+4.8.0pre3a 
+4.8.0pre3b 
+4.8.0pre3c 
+4.8.0pre3d 
+4.8.2a 
+4.8.2b 
+ 
+Disk is now 77% full. 
+ 
+/dev/sdb1             70557052  51300548  15672408  77% /cdf/code-Linux 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Tue Sep 17 12:55:16 2002 -->
+<pre>Started building 4.8.3d.  Only difference from yesterday's 
+4.8.3c is adding XFTSim package from the head. 
+ 
+#Consumer patches 
+Consumer -D 16-Sep2002UT2200 
+ConsumerFramework -D 16-Sep2002UT2200 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 16-Sep2002UT2200 
+L1GlobalTrigger -D 16-Sep2002UT2200 
+L2GlobalTrigger -D 16-Sep2002UT2200 
+MuonTrigger -D 16-Sep2002UT2200 
+XFTMods -D 16-Sep2002UT2200 
+XTRPSim -D 16-Sep2002UT2200 
+XFTSim  -D 16-Sep2002UT2200 
+ 
+#TrackingMods -D 28-Aug2002UT1400 
+ 
+#package for SVXMon SiliMon bug fix 
+#TrackingObjects -D 22-Aug2002UT2230 
+ 
+#package for SVXMon 
+SvxDaqMods -D 16-Sep2002UT2200 
+#SvxDaqUtils -D 19-Aug2002UT2230 
+ 
+#package for EventDisplay 
+RootMods -D 16-Sep2002UT2200</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Wed Sep 18 00:04:10 2002 -->
+<pre>using following release version at a moment in the 
+control room (inside of startMon.sh) 
+ 
+XMon and TrigMon 4.8.2d 
+YMon and SiliMon 4.7.0int3a 
+rest: 4.6.0int4f</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Fri Sep 27 12:34:37 2002 -->
+<pre>I updated runObjectMon.tcl in the runarea (taken from 
+development) und changed startMon.sh. ObjectMon is using  
+4.8.2d now. 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sat Sep 28 18:29:53 2002 -->
+<pre>Started to build 4.8.3a. Packages from the head are: 
+ 
+#Consumer patches 
+Consumer -D 28-Sep2002UT2300 
+ConsumerFramework -D 28-Sep2002UT2300 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 28-Sep2002UT2300 
+L1GlobalTrigger -D 28-Sep2002UT2300 
+L2GlobalTrigger -D 28-Sep2002UT2300 
+MuonTrigger -D 28-Sep2002UT2300 
+XFTMods -D 28-Sep2002UT2300 
+XTRPSim -D 28-Sep2002UT2300 
+XFTSim  -D 28-Sep2002UT2300 
+ 
+#package for SiliMon 
+TrackingSI -D 28-Sep2002UT2300 
+ 
+#package for SVXMon 
+SvxDaqMods -D 28-Sep2002UT2300 
+ 
+#package for EventDisplay 
+RootMods -D 28-Sep2002UT2300 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sun Sep 29 18:22:38 2002 -->
+<pre>Compilation failed because of the following errors in BeamMon: 
+&lt;**compiling**&gt; CotPrimaryVertexMonitor.cc 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3a/Consumer/BeamMon/ 
+CotPrimaryVertexMonitor.cc", line 108: error:  
+          identifier "istrstream" is undefined 
+    istrstream is(ios.str().c_str()); 
+    ^ 
+ 
+1 error detected in the compilation of 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3a/Consumer/BeamMon/ 
+CotPrimaryVertexMonitor.cc". 
+KCC: Compilation failed. 
+gmake[2]: *** [/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3a/tmp/Linux2-KCC_4_0/Consumer/ 
+BeamMon/CotPrimaryVertexMonitor.o] Error 2 
+&lt;**compiling**&gt; PrimaryVertexMonitor.cc 
+&lt;**compiling**&gt; SvxPrimaryVertexMonitor.cc 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3a/Consumer/BeamMon/ 
+SvxPrimaryVertexMonitor.cc", line 115: error:  
+          identifier "istrstream" is undefined 
+    istrstream is(ios.str().c_str()); 
+    ^ 
+ 
+1 error detected in the compilation of 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3a/Consumer/BeamMon/ 
+SvxPrimaryVertexMonitor.cc". 
+KCC: Compilation failed. 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Mon Sep 30 00:09:11 2002 -->
+<pre>Testing 4.8.2d with cosmic ray run.  (run 152239). 
+All monitor process data without crashing (no Silicon, therefore, 
+SVXMon is not showing any sign of life as always). 
+Problem occurs when I tried HistoDisplay with 4.8.2d version. 
+(with 4.8.2d consumers).  Displaying YMon, TrigMon, XMon, ObjectMon, and SiliMon are ok.  DAQMon is also ok, but DAQMon does not have slideshow.  Problem occurs when slide show is clicked for LumMon, Stage0 and BeamMon.  With LumMon and Stage0 
+slide show, HistoDisplayMain windows all disappears right away. 
+For BeamMon, it displays the first slide show canvas, then,  
+HistoDisplayMain crashes at the beginning of moving 
+to show the 2nd canvas (cotcanvas1). If 4.6.0int4f HistoDisplay 
+is used (while running with 4.8.2d monitors), this problem of 
+histodisplay crash does not occur in any of these monitors.</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Mon Sep 30 16:47:58 2002 -->
+<pre>Second trial to build 4.8.3a succeeded after Hartmut Stadie 
+commited a bugfix. It's available for testing.</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Tue Oct 1 15:27:55 2002 -->
+<pre>Up to now, current was 4.6.0int4f. 
+ 
+We were running with: 
+ 
+start_remote_482d $partition b0dap65 XMon +400+250 
+start_remote_470int3a $partition b0dap70 YMon +400+0 
+start_remote_470int3a $partition b0dap50 SiliMon +400+500 
+start_remote $partition b0dap67 LumMon +0+0 
+start_remote_482d $partition b0dap67 TrigMon +0+250 
+start_remote $partition b0dap69 Stage0 +0+500 
+start_remote $partition b0dap66 SVXMon +800+250 
+start_remote_482d $partition b0dap56 ObjectMon +0+750 
+start_remote $partition b0dap66 BeamMon +400+750 
+#start_remote $partition b0dap67 L3RegionalMon +800+0 
+start_remote $partition b0dap65 DAQMon +800+500 
+ 
+copy this startMon.sh to startMon.sh_old 
+=== 
+just decleared 4.8.3a as current. 
+ 
+4.8.3a seems to work, except SVXMon has a problem 
+with tcl. 
+Henri is notified.   
+We'll try, setting all to 4.8.3a default, but SVXMon running 
+with 4.8.2d. 
+ 
+StartMon.sh is now modified to run all with default, 
+but SVXMon running with 4.8.2d. 
+ 
+</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Fri Oct 4 11:13:52 2002 -->
+<pre>Started to build 4.8.3b. Packages from head are: 
+ 
+#Consumer patches 
+Consumer -D 04-Oct2002UT1500 
+ConsumerFramework -D 04-Oct2002UT1500 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 04-Oct2002UT1500 
+L1GlobalTrigger -D 04-Oct2002UT1500 
+L2GlobalTrigger -D 04-Oct2002UT1500 
+MuonTrigger -D 04-Oct2002UT1500 
+XFTMods -D 04-Oct2002UT1500 
+XTRPSim -D 04-Oct2002UT1500 
+XFTSim -D 04-Oct2002UT1500 
+ 
+#package for SiliMon 
+TrackingSI -D 04-Oct2002UT1500 
+ 
+#package for SVXMon 
+SvxDaqMods -D 04-Oct2002UT1500 
+ 
+#package for EventDisplay 
+RootMods -D 04-Oct2002UT1500 
+</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Fri Oct 4 11:30:29 2002 -->
+<pre>Building sucessfull. 4.8.3b is available for testing.</pre>
+<!-- Author: Martin Hennecke -->
+
+
+<!-- Date: Sun Oct 6 07:55:27 2002 -->
+<pre>Friday afternoon around 3 pm, 4.8.3b is tested and decleared 
+cdfsoftb0 current default.   (see cdf main shift e-log). 
+Everything is running with this version in the control room.</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Tue Oct 8 18:43:01 2002 -->
+<pre>According to Wolfgang suggestion, I tried 
+gmake ConsumerFramework.errorreceiver 
+ 
+from the current cdfsoftb0 release. 
+ErrorReceiver did not seem to be made.  Tried 
+gmake ConsumerFramework.tbin 
+ 
+Somehow, this caused the current cdfsoftb0 (4.8.3b) release to 
+be messed up. 
+ 
+For example, HistoDisplayMain does not get recoginized. 
+TrigMon DCAS monitor does not work any more. 
+ 
+I have decleared the previous version 4.8.3a as current default. 
+ 
+All the consumers are restared with the new (old) current 
+cdfsoftb0 default. 
+ 
+</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Tue Oct 8 18:45:20 2002 -->
+<pre>Making a new cdfsoftb0 release 4.8.3c. 
+ 
+&gt; more 4.8.3c.patches 
+#Consumer patches 
+Consumer -D 04-Oct2002UT1500 
+ConsumerFramework -D 08-Oct2002UT2100 
+  
+#packages needed for TrigMon and XMon 
+CalTrigger -D 04-Oct2002UT1500 
+L1GlobalTrigger -D 04-Oct2002UT1500 
+L2GlobalTrigger -D 04-Oct2002UT1500 
+MuonTrigger -D 04-Oct2002UT1500 
+XFTMods -D 04-Oct2002UT1500 
+XTRPSim -D 04-Oct2002UT1500 
+XFTSim -D 04-Oct2002UT1500 
+  
+#package for SiliMon 
+TrackingSI -D 04-Oct2002UT1500 
+  
+#package for SVXMon 
+SvxDaqMods -D 04-Oct2002UT1500 
+  
+#package for EventDisplay 
+RootMods -D 04-Oct2002UT1500 
+#RootEventDisplay -D 19-Aug2002UT2230 
+  
+#other packages 
+#HeaderObjects -D 19-Aug2002UT2230 
+#RunConfigDB -D 19-Aug2002UT2230 
+#UtilMods -D 19-Aug2002UT2230       </pre>
+<!-- Author: Kaori -->
+
+
+<!-- Date: Tue Oct 8 18:47:29 2002 -->
+<pre>Building of 4.8.3c failed in the compilation of ConsumerErrorReceiver.cc 
+ 
+=========== 
+ OK - ConsumerFramework.bin  
+Tue Oct  8 17:16:43 CDT 2002 
+&lt;**bin**&gt; ConsumerFramework 
+&lt;**compiling**&gt; ErrorMessage.cc 
+&lt;**compiling**&gt; ConsumerErrorReceiver.cc 
+"/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3c/ConsumerFramework/ErrorReceiver/ConsumerErrorReceiver.cc", line 34: catastrophic error:  
+          could not open source file "rtworks/cxxipc.hxx" 
+  #include &lt;rtworks/cxxipc.hxx&gt; 
+                               ^ 
+ 
+1 catastrophic error detected in the compilation of "/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3c/ConsumerFramework/ErrorReceiver/ConsumerErrorReceiver.cc". 
+Compilation terminated. 
+KCC: Compilation failed. 
+gmake[2]: *** [/cdf/code-Linux/cdfoffline/dist/cdfsoftb0/4.8.3c/tmp/Linux2-KCC_4_0/ConsumerFramework/ConsumerErrorReceiver/ConsumerErrorReceiver.o] Error 4 
+gmake[2]: Target `bin' not remade because of errors. 
+gmake[1]: *** [ErrorReceiver.bin] Error 2 
+</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Wed Oct 9 07:52:15 2002 -->
+<pre>making 4.8.3d, using identical patch file as 4.8.3b</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Thu Oct 10 11:28:05 2002 -->
+<pre>Making 4.8.3e to include SVX and TrigMon changes and 
+hopefully make ConsumerErrorReceiver.....</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Thu Oct 10 16:54:39 2002 -->
+<pre>There were two changes made from 4.8.3e. 
+4.8.3e failed as 4.8.3c. 
+The script to make ConsumerErrorReceiver was set that 
+HOST to be recoginized to be b0dap32 since StartSocket lib 
+must exits.  This caused to fail these releases. 
+Wolfgang changed the scripts to remove the check. 
+ConsumerErrorReceiver to be built, we have to be on b0dap32. 
+ 
+Other change is the location of the log files to be made. 
+It was set to /cdf/cdf_cf_data1 area.  This area is often not 
+mounted and causes to fail to write log files. 
+Change the location to write the log file back to /data1. 
+ 
+4.8.3f patch file is: 
+#Consumer patches 
+Consumer -D 10-Oct2002UT2100 
+ConsumerFramework -D 10-Oct2002UT2100 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 10-Oct2002UT2100 
+L1GlobalTrigger -D 10-Oct2002UT2100 
+L2GlobalTrigger -D 10-Oct2002UT2100 
+MuonTrigger -D 10-Oct2002UT2100 
+XFTMods -D 10-Oct2002UT2100 
+XTRPSim -D 10-Oct2002UT2100 
+XFTSim -D 10-Oct2002UT2100 
+ 
+#package for SiliMon 
+TrackingSI -D 10-Oct2002UT2100 
+ 
+#package for SVXMon 
+SvxDaqMods -D 10-Oct2002UT2100 
+ 
+#package for EventDisplay 
+RootMods -D 10-Oct2002UT2100 
+#RootEventDisplay -D 19-Aug20 
+ 
+#other packages 
+#HeaderObjects -D 19-Aug2002UT2230 
+#RunConfigDB -D 19-Aug2002UT2230 
+#UtilMods -D 19-Aug2002UT2230 
+ 
+============ 
+In addition to above two changes, we pick up new 
+SVXMon and TrigMon has a lot of changes. 
+</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Thu Oct 10 18:09:45 2002 -->
+<pre>4.8.3f was built successfully.  need to be tested.</pre>
+<!-- Author: Kaori -->
+<!-- Comment: Fri Oct 11 10;18;54 comment by...kaori -->
+<pre>4.8.3f was decleared to be current default cdfsoftb0 release
+at around 18:30 Oct. 10, and restarted all the consumers
+(except SVXMon) with this new release.</pre>
+
+<!-- Comment: Fri Oct 11 18;29;06 comment by...kaori -->
+<pre>New TrigMon had a problem with ISOList simulation and
+Nathan needs to fix it.  Until then, we run the old version
+of TrigMon (4.8.3d).  StartMon.sh is modify to run this.
+This change was done in the morning of Oct. 11th.</pre>
+
+
+<!-- Date: Fri Oct 11 19:15:13 2002 -->
+<pre>Remove some old cdfsoftb0 releases to make some disk space. 
+ 
+Removing old releases: 
+4.7.0int3a 
+4.8.2d 
+4.8.2c 
+4.7.0int5a 
+4.8.3a 
+4.8.3b 
+4.7.1a 
+ 
+/cdf/code-Linux  89% -&gt; 73% 
+ 
+Also requested to remove cdfsoft2: 
+4.7.0int3 
+4.7.0int5 
+</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Mon Oct 14 13:21:51 2002 -->
+<pre>Making a new cdfsoftb0 release using 4.8.4 as a base trying to 
+pick up TrigMon and SVXMon updates.  Patche file is below: 
+ 
+#Consumer patches 
+Consumer -D 14-Oct2002UT1800 
+ConsumerFramework -D 14-Oct2002UT1800 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 14-Oct2002UT1800 
+L1GlobalTrigger -D 14-Oct2002UT1800 
+L2GlobalTrigger -D 14-Oct2002UT1800 
+MuonTrigger -D 14-Oct2002UT1800 
+XFTMods -D 14-Oct2002UT1800 
+XTRPSim -D 14-Oct2002UT1800 
+XFTSim -D 14-Oct2002UT1800 
+ 
+#package for SiliMon and SVXMon 
+TrackingSI -D 14-Oct2002UT1800 
+ 
+#package for SVXMon 
+SvxDaqMods -D 14-Oct2002UT1800 
+TrackingObjects -D 14-Oct2002UT1800 
+ 
+#package for EventDisplay 
+RootMods -D 14-Oct2002UT1800</pre>
+<!-- Author: kaori -->
+
+
+<!-- Date: Mon Oct 14 21:41:01 2002 -->
+<pre>Since I was on shift, and we were doing beam studies, I took a little time to study YMon's performance.  I used Rick's runs as a metric - they provide 80 - 130 Hz of events.  YMon was in cosmics mode - accepting any trigger types. 
+ 
+The conclusion is that YMon seems to be CPU limited to about 1.4 Hz.  Other limitations (network? CSL?) limit it to about 5.2 Hz if you reduce the CPU usage. 
+ 
+Running on b0dap70 with the default tcl file (run 152840) YMon got 355 events in 261 seconds for 1.4 Hz.  The trigger rate was 129.6 Hz.  All the other consumers were running as well.   
+ 
+Running on b0dap70, with the default tcl, and having killed all the other consumers (well, not SVTSpyMon) (run 152842) YMon got 385 events/ 277 s for 1.4 Hz.  The trigger rate was 121.0 Hz. 
+ 
+Running on b0dap55, with the default tcl and no other consumers (run 152844) YMon got 560 events in 387 s , for 1.4 Hz.  The trigger rate was 80.7 Hz. 
+ 
+Modifyinh the tcl so that YMon basically does nothing (I turned off all the monitors except CEM), running on b0dap55 with no other conusmers, (run 152485) YMon got 1338 events in 259 s. 5.2 Hz.  The trigger rate was 131.9 Hz. 
+ 
+Trying the same thing on b0dap70 (run 152846) YMon got 1405 events in 270 s.  5.2 Hz.  The trigger rate was 124.6 Hz. 
+ 
+So, the conclusion is that YMon is CPU limited to about 1.4 Hz.  Talk about bloatware!  This has been verified with top as well - YMon will take all the CPU you can give it, in cosmics mode.  Running with the modified tcl file YMon was only using about 5% of a CPU.  It seemed to have plenty of memory as well - even on b0dap70 which only has 256M total. 
+ 
+</pre>
+<!-- Author: Adam -->
+
+
+<!-- Date: Tue Oct 15 10:01:43 2002 -->
+<pre>cdfsoftb0 release 4.8.4a faild building in Stage0. 
+I sent mail to kevin Burkett and he replied as follows: 
+ 
+ 
+There were changes that Chris Hays made to CT_ReFit.cc 
+in TrackingCT.  I asked him to tag them for the next 
+release, but it looks like they didn't make it into the 
+base release for this build of cdfsoftb0.  I think that 
+CT_ReFit.cc is the only thing that is needed, but it 
+might be easiest to just checkout TrackingCT from the 
+head. 
+ 
+I should have remembered that these files would probably 
+be needed and warned you when I committed the changes 
+to Stage0 last week.  I apologize for the inconvenience. 
+ 
+========== 
+I removed 4.8.4a, and added TrackingCT from the head, 
+and remaking 4.8.4a again. 
+ 
+New patch file of 4.8.4a looks: 
+ 
+#Consumer patches 
+Consumer -D 14-Oct2002UT1800 
+ConsumerFramework -D 14-Oct2002UT1800 
+ 
+#packages needed for TrigMon and XMon 
+CalTrigger -D 14-Oct2002UT1800 
+L1GlobalTrigger -D 14-Oct2002UT1800 
+L2GlobalTrigger -D 14-Oct2002UT1800 
+MuonTrigger -D 14-Oct2002UT1800 
+XFTMods -D 14-Oct2002UT1800 
+XTRPSim -D 14-Oct2002UT1800 
+XFTSim -D 14-Oct2002UT1800 
+ 
+#package for Stage0 
+TrackingCT -D 14-Oct2002UT1800 
+ 
+#package for SiliMon and SVXMon 
+TrackingSI -D 14-Oct2002UT1800 
+ 
+#package for SVXMon 
+SvxDaqMods -D 14-Oct2002UT1800 
+TrackingObjects -D 14-Oct2002UT1800 
+ 
+#package for EventDisplay 
+RootMods -D 14-Oct2002UT1800 
+========= 
+ 
+started making new 4.8.4a now. 
+#RootEventDisplay -D 19-Aug20 
+ 
+</pre>
+<!-- Author: kaori -->

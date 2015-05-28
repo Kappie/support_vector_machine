@@ -1,0 +1,414 @@
+<!-- Title: Day shift. Sun Dec 30, 2007 -->
+<!-- SciCo: Kaori Maeshima -->
+<!-- DAQAce: Constantino Calancha-Paredes -->
+<!-- MonAce: &nbsp; -->
+<!-- CO: P.K.Teng -->
+<!-- OpManager: Alon Attal -->
+<!-- Notes: -->
+<pre>No Beam. 
+Quiet cosmic run in progress. 
+If all goes well, we may have a shotsetup sometime on 
+new years day.</pre>
+
+
+<!-- Date: Sun Dec 30 08:09:16.666 2007 -->
+Cosmic run have been taken with COT on, but not muon chambers. 
+Asked ACE to end run, turn up muon, restart cosmic run.
+<!-- Author: kaori :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255616' target=_top>255616</a>) -->
+<!-- Comment: Sun Dec 30 10;48;37 comment by...kaori -->
+Late entry (should have been written around 8:30 am):
+CO P.K. Teng dismissed, will call if we need him.
+<!-- Date: Sun Dec 30 08:13:04.764 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255617>255617</A>
+ Activated at 2007.12.30 08:12:29
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 08:13:05.118 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255617>255617</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706]  All HV is on less Silicon detector.
+<!-- Author: Tino -->
+
+
+
+<!-- Date: Sun Dec 30 08:13:50.898 2007 -->
+Done TO for crate b0svt09. HRR fixed it.
+<!-- Author: Tino :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255617' target=_top>255617</a>) -->
+
+
+<!-- Date: Sun Dec 30 09:24:18.187 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-7481&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-7481' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-7482&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-7482' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-7483&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-7483' width='300'></a></center>
+<!-- Author: kaori -->
+<!-- Comment: Sun Dec 30 09;32;42 comment by...kaori -->
+<pre>Above problem in L1 Cal eta-1 phi-4 in TrigMon (left plot)
+was spotted by Carla last night and evening shift crew had 
+investigated.  I am just pasting a few more plots from the current
+quiet time cosmic run for the experts to look at.  Below is a 
+summary of current situation:
+- TrigMon plot L1 Had Cal DIRAC Occupancy plot shows a hot cell at 
+  eta-1, phi-4, which corresponds ADMEM 17 in PCAL01.
+- Spike run and YMon plots do not show any problems
+- Kwangzoo checked the corresponding ADMEM and saw no problem. </pre>
+
+<!-- Date: Sun Dec 30 09:54:30.808 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255617>255617</A>
+ Terminated at 2007.12.30 09:54:06
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 09:57:44.432 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255618>255618</A>
+ Activated at 2007.12.30 09:57:07
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 09:57:45.201 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255618>255618</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706]  PCAL01 have been removed.
+<!-- Author: Tino -->
+
+
+<!-- Date: Sun Dec 30 09:59:51.509 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255618>255618</A>
+ Terminated at 2007.12.30 09:58:57
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 10:00:55.684 2007 -->
+I set "Ignore reces" in RC because I have removed pcal01.
+<!-- Author: Tino :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255618' target=_top>255618</a>) -->
+
+<!-- Date: Sun Dec 30 10:01:49.882 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255619>255619</A>
+ Activated at 2007.12.30 10:01:35
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 10:02:15.741 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255619>255619</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] Set ignore reces. Removed pcal01
+<!-- Author: Tino -->
+<!-- Comment: Sun Dec 30 10;02;46 comment by...Tino -->
+Done TO for crate b0svt00. HRR fixed it.
+
+<!-- Comment: Sun Dec 30 10;05;44 comment by...Tino -->
+I have realized that I have no set "ignore reces", because the crate is no a ccal, it's a pcal, so I'll begin a new run without set "ignore reces".
+
+<!-- Date: Sun Dec 30 10:05:57.316 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255619>255619</A>
+ Terminated at 2007.12.30 10:05:48
+<!-- Author: RunControl -->
+
+
+
+<!-- Date: Sun Dec 30 10:05:57.872 2007 -->
+Kwangzoo came in to try what Mark (i.e. reloading the configuration 
+from QIETEST) to see if this fix the PCAL01 L1 Cal Trigger (eta1, 
+phi4) problem.  We ended cosmic run to exclude PCAL01 crate.  
+<!-- Author: kaori -->
+<!-- Comment: Sun Dec 30 10;09;35 comment by...kaori -->
+Actually, Kwangzoo wants all PCAL crates, so we don't take any
+cosmic run in parallel.
+
+<!-- Comment: Sun Dec 30 10;10;41 comment by...m mattson, k chung (ADMEM) -->
+Kwangzoo and I talked a bit.  Since there is no time pressure, we decided to do a calib-and-download for the PCAL crates.  If the HAD trigger channel is being caused by any sort of memory corruption (trigger Et table, CAFE channel look-up table, or the ADMEM configuration), this will fix it.  This is overkill, but will save us the effort of checking things one at a time.
+<p>
+There is a chance that the problem is with the trigger cable (or connector).  The west steel was opened and closed in the past days, maybe something was vibrated (slightly) loose.  (But we should try the fixes that can be done without an access first.)
+
+
+<!-- Date: Sun Dec 30 10:17:23.846 2007 -->
+There is a wondow popped up on VNODE2 (HBM) screen saying that 
+"You have not been backed up since Wed, Dec. 19, 2007.  Contact 
+your backup administrator for more info."
+<!-- Author: kaori -->
+<!-- Comment: Sun Dec 30 10;39;07 comment by...Tino -->
+The ifix node1, solenoid2 and the plugg terminal presented this windows today and last two shifts, but with another date (Thu, Dec 27 2007 I think so).
+<!-- Comment: Sun Dec 30 10;40;40 comment by...Tino -->
+I have seen the window in the plugg terminal. The date is Thu Dec 20, 2007.
+<!-- Date: Sun Dec 30 10:20:23.009 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255622>255622</A>
+ACTIVATE: RunSet: ACE_QIE with FRAM download for PCALs
+<!-- Author: k chung -->
+
+
+<!-- Date: Sun Dec 30 10:20:24.165 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255621>255621</A>
+CALIBRATION: <U><B>calqie</B></U> calibration FAILED, please investigate
+<!-- Author: CDFCALIB -->
+<!-- Comment: Sun Dec 30 10;23;50 comment by...k chung -->
+pcal01 was not responsive. after trying shepherding twice, reset the run.
+
+<!-- Date: Sun Dec 30 10:30:45.401 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255622>255622</A>
+TERMINATE: end of calib&load for PCALs
+<!-- Author: k chung -->
+
+
+<!-- Date: Sun Dec 30 10:34:09.737 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255623>255623</A>
+ Activated at 2007.12.30 10:33:39
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 10:34:10.725 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255623>255623</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,985,706] 
+<!-- Author: Tino -->
+<!-- Comment: Sun Dec 30 10;34;52 comment by...Tino -->
+DOne TO for crate b0svt00. HRR fixed it.
+
+
+
+
+
+<!-- Date: Sun Dec 30 11:00:23.179 2007 -->
+<center><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-7484&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-7484' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-7485&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-7485' width='300'></a><a href='/cgi/elog/elog.pl?nb=2007&action=view&page=-7486&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2007&action=view&page=-7486' width='300'></a></center>
+<!-- Author: kaori -->
+<!-- Comment: Sun Dec 30 11;02;52 comment by...kaori -->
+The same 3 plots pasted earlier, but after the memory refreshed.
+L2Cal Pass13 clusterning is still strange.  Will contact trigger
+expert.  But L1 Cal (eta1-phi4) problem is gone.
+
+<!-- Comment: Sun Dec 30 11;05;57 comment by...Laura -->
+I'm investigating, but it looks very strange...
+
+<!-- Comment: Sun Dec 30 11;14;03 comment by...kaori -->
+Restarting TrigMon (Laura's request).
+
+<!-- Comment: Sun Dec 30 11;14;27 comment by...k chung -->
+<pre>The hot trigger tower went away after calib&load (PCALs only). 
+This pins down the memory corruption in either Et table or Look-up table which was not so easy to catch in usual qietest.</pre>
+
+<!-- Comment: Sun Dec 30 11;25;57 comment by...kaori -->
+TrigMon is restarted.  The first 200 entries already indicate
+the same problem (accumulation in the 1st bin) in the L2Cal
+Pass13 clustering plots.
+
+<!-- Comment: Sun Dec 30 11;29;17 comment by...Laura -->
+Connections between DIRAC_PULSARS are ok. pass10 and pass12 are ok. 
+
+<!-- Comment: Sun Dec 30 11;35;04 comment by...Laura -->
+Maybe a trigger table problem...I would contact Tom about that.
+
+<!-- Comment: Sun Dec 30 11;42;29 comment by...kaori -->
+Would it help if we try no-track cosmic table and see?
+
+<!-- Comment: Sun Dec 30 11;47;43 comment by...Laura -->
+I want to see if in the previous run (before the tower problem)  we had a similar behaviour for pass13... 
+
+<!-- Comment: Sun Dec 30 12;01;26 comment by...twright -->
+The COSMICS table has not be recompiled to pick up the new Penn tau algorithm I would guess.
+
+
+<!-- Comment: Sun Dec 30 12;08;55 comment by...kaori -->
+Could you or someone can recompile and make a new COSMIC table?
+Shall we try shotsetup (physics) table? (not sure we get enough 
+events to look at....)
+
+<!-- Comment: Sun Dec 30 12;51;15 comment by...kaori -->
+Run 25577 (Dec. 28th 21:50 - Dec. 29th 07:31) taken with 
+Cosmic_notracks[9,989,706] shows no problem with the hot tower
+(eta-1,phi4), but shows the strange behaviour in the L2Cal Pass13 plots.
+
+<!-- Comment: Sun Dec 30 12;52;27 comment by...kaori -->
+I meant run 255577 (not 25577)
+
+<!-- Comment: Sun Dec 30 12;56;39 comment by...Laura -->
+I don't think there is a correlation between the two items. Same behaviour was there in run 255556 (cosmic run), taken 4 days ago, but same trigger table.
+
+<!-- Comment: Sun Dec 30 13;02;31 comment by...kaori -->
+Likely we don't get enough events, but we'll try physics table (shotsetup config.)
+<!-- Date: Sun Dec 30 13:00:20.589 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255623>255623</A>
+ Terminated at 2007.12.30 13:00:02
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Dec 30 13:02:14.185 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255623>255623</A>
+TERMINATE: Kaori suggested to try a run with shot setup configuration to check if the problem is due a failure in the physics table we are using.
+<!-- Author: Tino -->
+
+
+
+<!-- Date: Sun Dec 30 13:05:25.077 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255624>255624</A>
+ACTIVATE: RunSet: AAA_SHOTSETUP  Trigger: PHYSICS_5_01 [3,1016,713] 
+<!-- Author: Tino -->
+<!-- Comment: Sun Dec 30 13;06;11 comment by...Tino -->
+Done TO for crate b0svt00. HRr fixed it.
+
+
+<!-- Date: Sun Dec 30 13:34:53.732 2007 -->
+<table border=0><td><tr><td bgcolor=#e0e030>TrigMon gets enough events with shotsetup physics table and 
+we can see clearly, there is no problem with Pass13 CAL Cluster 
+plots with the physics table.  So, as Laura and Tom suspected, 
+this problem is associated with cosmic tables.</td></tr></td></table>
+<!-- Author: kaori :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255624' target=_top>255624</a>) -->
+
+<!-- Date: Sun Dec 30 13:43:06.978 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255625>255625</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,986,705] 
+<!-- Author: Tino -->
+<!-- Comment: Sun Dec 30 13;43;33 comment by...Tino -->
+Done TO for crate b0svt03. HRR fixed it.
+
+
+<!-- Date: Sun Dec 30 13:53:16.543 2007 -->
+L2 Decision TO. HRR fixed it.
+<!-- Author: Tino :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255625' target=_top>255625</a>) -->
+<!-- Comment: Sun Dec 30 14;54;51 comment by...Tino -->
+Again.
+
+<!-- Comment: Sun Dec 30 15;02;48 comment by...Tino -->
+Again.
+
+<!-- Comment: Sun Dec 30 15;08;02 comment by...Tino -->
+Again.
+
+<!-- Comment: Sun Dec 30 15;14;59 comment by...Tino -->
+Again.
+
+
+<!-- Date: Sun Dec 30 15:52:36.023 2007 -->
+Willis showed up.  He wants to put the test version of CSL. We are 
+stopping run.  
+<!-- Author: kaori :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255625' target=_top>255625</a>) -->
+
+<!-- Date: Sun Dec 30 15:55:13.873 2007 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>RunNumber</TH>
+<TH>DataType</TH>
+<TH>PhysicsTable</TH>
+<TH>Begin</TH>
+<TH>End</TH>
+<TH>LiveTime</TH>
+<TH>L3Accepts</TH>
+<TH>DelivLumi nb<SUP>-1</SUP></TH>
+<TH>LiveLumi nb<SUP>-1</SUP></TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+<TR><TD>Totals</TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD>
+<TD>15:55:00</TD>
+<TD ALIGN=CENTER>::</TD>
+<TD ALIGN=RIGHT></TD>               <TD ALIGN=RIGHT></TD>
+<TD ALIGN=RIGHT></TD>
+<TD> </TD>
+<TD> </TD>
+<TD> </TD></TR>
+
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+<!-- Date: Sun Dec 30 15:59:29.195 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255626>255626</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,986,705] 
+<!-- Author: Tino -->
+
+
+
+<!-- Date: Sun Dec 30 16:01:18.456 2007 -->
+<font color=red>Shift Summary: </font><pre>Another no beam day. 
+Tevatron cooldown began early this morning (0100h) (see update below) 
+We fixed some problems, also identified causes of some 
+problems as below. 
+ 
+ 
+------------------- 
+problem fixed today 
+------------------- 
+- TrigMon plot L1 Had Cal DIRAC Occupancy plot showed a hot tower at  
+  eta-1, phi-4, which corresponds ADMEM 17 in PCAL01. This problem 
+  was spotted by Carla last night.  During the evening shift last night 
+  they observed that: 
+    * Spike run and YMon plots do not show any problems 
+    * Kwangzoo checked the corresponding ADMEM with QIETEST  
+      and saw no problem.  
+  During today's day shift, Kwangzoo came in and did "calib-and-download" 
+  for all the PCAL crates. After that, this hot trigger tower problem  
+  went away. This confirmed that the problem was caused by 
+  memory corruption which was not detected by the usual QIETEST. 
+ 
+------------------------------------------------------------------- 
+problems found & still to be fixed, but identified how to fix them: 
+------------------------------------------------------------------- 
+- According to Kwangzoo, all the suspicious QIE Calibration results 
+  in CEM/CHA channels which we have been observing since two days 
+  ago belongs to CCAL08, scattered around the slots.  He noted that  
+    +5 power supply value (a capture in central wedges e-log) indicates  
+  lower than it should be (4.62V).   
+  Mark Mattson confirms that this would cause the problems.   
+  Mark and Kwangzoo have requested an access to fix the power supply on CCAL08. 
+ 
+- Problem was found in TrigMon, L2CAL PASS13 clustering plots in 
+  cosmic runs. Running in a shotsetup mode with the current physics table  
+  (run 255624) showed that this problem is associated with cosmic tables, 
+  not physics table. Tom Wright thinks that cosmic tables needed to be 
+  recompiled to pick up the new Penn tau algorithm. 
+ 
+----- 
+Runs: 
+----- 
+255617 - ACE_COSMICS_ALL Trigger: COSMICS [15,985,706] All HV on except Silicon 
+         showing L1 CAL hot tower problem (eta1-phi4) 
+255622 - ACE_QIE with FRAM download for PCALs, by K. Chung 
+255623 - ACE_COSMICS_ALL Trigger: COSMICS [15,985,706] All HV on except Silicon 
+         after the hot tower problem fixed 
+255624 - AAA_SHOTSETUP Trigger: PHYSICS_5_01 [3,1016,713]  
+         All HV on except Silicon.  This run shows L2Cal Pass13 plots look 
+         fine with a physics table. (look bad with above cosmic runs) 
+255625 - L2TORTURE Trigger: L2_TORTURE [19,986,705] 
+ 
+------------------------------------------------- 
+Tevatron A4 Update: Sunday Morning by S. Chaurize 
+------------------------------------------------- 
+Cooldown began at about 0100hrs. This morning EE Support experts are  
+completing tests to certify the house is ready to go and the Tevatron  
+can be powered. If all goes well we will get permission to power the  
+Tevatron by about 1000hrs today. Mechanical support still needs to  
+complete the E0 bake-out. They plan to pull equipment at about 1500hrs.  
+If the cooldown goes well we could be cold on the Monday owl shift and  
+trying to power the Tevatron on that shift. There may still be a chance  
+we can get a store in this year. 
+(note: permission to power the Tev once cold was given around noon today).</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   see above.  (no beam)
+Delivered Luminosity   0  
+Acquired Luminosity    0  
+Efficiency             NA
+   
+</td></tr></table></pre>
+<!-- Author: kaori -->
+
+<!-- Date: Sun Dec 30 16:04:51.628 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255627>255627</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,986,705] 
+<!-- Author: Tino -->
+
+
+<!-- Date: Sun Dec 30 16:11:08.679 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255627>255627</A>
+TERMINATE: end csl test  -- willis
+<!-- Author: Tino -->
+
+
+<!-- Date: Sun Dec 30 16:15:32.698 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255628>255628</A>
+ACTIVATE: RunSet: L2TORTURE  Trigger: L2_TORTURE [19,986,705] 
+<!-- Author: Tino -->
+
+
+<!-- Date: Sun Dec 30 16:15:48.353 2007 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=255628>255628</A>
+TERMINATE: end csl test
+<!-- Author: Tino -->
+

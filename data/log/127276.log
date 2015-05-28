@@ -1,0 +1,384 @@
+<!-- Title: Eve shift. Sun Jun  5, 2005 -->
+<!-- SciCo: Kevin Pitts -->
+<!-- DAQAce: Jiyeon Han -->
+<!-- MonAce: Junji Naganoma -->
+<!-- CO: Burkard Reisert -->
+<!-- OpManager: Aron Soha -->
+<!-- Notes: -->
+<pre>Luminosity is 19E30, stack is 0, stash is 131E10.   Plan is to continue to run, store termination time not yet known.</pre>
+
+
+<!-- Date: Sun Jun 5 16:08:25.387 2005 -->
+Run 199025 in progress is the only run taken for this store.  So far, this run has integrated 3.1pb-1 with an efficiency of 92.4%.
+<!-- Author: KPitts :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025' target=_top>199025</a>) -->
+
+
+<!-- Date: Sun Jun 5 16:31:29.958 2005 -->
+flying wire scan
+<!-- Author: Jiyeon :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025' target=_top>199025</a>) -->
+<!-- Comment: Sun Jun  5 17;31;21 comment by...Jiyeon -->
+again
+<!-- Comment: Sun Jun  5 18;31;22 comment by...Jiyeon -->
+again
+<!-- Comment: Sun Jun  5 19;31;20 comment by...Jiyeon -->
+again
+<!-- Comment: Sun Jun  5 20;31;26 comment by...Jiyeon -->
+again
+<!-- Comment: Sun Jun  5 21;31;18 comment by...Jiyeon -->
+again
+<!-- Comment: Sun Jun  5 22;31;27 comment by...Jiyeon -->
+again
+<!-- Comment: Sun Jun  5 23;31;18 comment by...Jiyeon -->
+again
+<!-- Date: Sun Jun 5 16:31:50.027 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-9684&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-9684  width='300' align='top'></a></td><td>CESWireCanvas: East, phi wedge 21 wire number ~225 to ~300 red, but there is no high trigger rate due to that so we conclude that is not an emergency. We'll watch it.</td></tr></table>
+<!-- Author: Burkard -->
+
+
+<!-- Date: Sun Jun 5 16:32:38.799 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9685&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9685' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9686&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9686' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9687&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9687' width='300'></a></center>
+<!-- Author: Hourly plots, 15:30-16:30, Junji -->
+
+
+<!-- Date: Sun Jun 5 16:36:42.242 2005 -->
+Consumer error for CER_SVXMON, auto HRRed
+<!-- Author: Jiyeon :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025' target=_top>199025</a>) -->
+
+
+
+<!-- Date: Sun Jun 5 17:32:08.437 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9688&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9688' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9689&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9689' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9690&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9690' width='300'></a></center>
+<!-- Author: Hourly plots, 16:30-17:30, Junji -->
+
+
+<!-- Date: Sun Jun 5 17:56:07.424 2005 -->
+XMon is displaying error camvasses (already for some time, several days) which are no real errors, as can be easily determind by  
+trigger experts, but not by the common shifters. 
+Charles requested that we put two as an example into the 
+e-log, which then will allow him to make an entry into the 
+CO fixlist. 
+<br> 
+The full list of XMon error canvases currently shown is<br> 
+L2 Trigger 15 L2_BCHARM_LOWPT_L1_UPS Prescaled Rate_error<br> 
+L2 Trigger 16 L2_B_CHARM_PH_L1_UPS Prescaled Rate error<br> 
+L2 Trigger 5 L2_AUTO_L1_RP Prescaled Rate error <br> 
+L2 Trigger 6 L2_AUTO_L1_RP_&_JET10 Prescaled Rate error <br> 
+L2 Trigger 80 L2_PS80_L1_RP_&_JET5 Prescaled Rate error <br> 
+L2 Trigger 91 L2_TEST_BMU10_BSU_PT15_PS1000 Prescaled Rate error <br> 
+PreFred  1 Rate_ERROR<br> 
+PreFred 17 Rate_ERROR<br> 
+PreFred 19 Rate_ERROR<br> 
+PreFred  2 Rate_ERROR<br> 
+PreFred 60 Rate_ERROR<br> 
+L1 Trigger 44 L1_TOF20_PTO Prescaled Rate error<br> 
+L2 Trigger 7 L2_AUTO_L1_TOF20_PTO Prescaled Rate error<br> 
+ 
+  
+<!-- Author: Burkard :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025' target=_top>199025</a>) -->
+<!-- Comment: Sun Jun  5 20;24;24 comment by...Charles Plager -->
+Thanks. :-)
+<!-- Date: Sun Jun 5 17:58:36.646 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9691&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9691' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9692&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9692' width='300'></a></center>
+<!-- Author: Burkard -->
+
+
+<!-- Date: Sun Jun 5 18:21:01.684 2005 -->
+Stacking has resumed.  The stack is at 2.5mA, accumulating at 13.5mA/hr.   Still 131E10 in recycler.
+<!-- Author: KPitts -->
+
+
+
+<!-- Date: Sun Jun 5 18:33:59.846 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9693&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9693' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9694&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9694' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9695&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9695' width='300'></a></center>
+<!-- Author: Hourly plots, 17:30-18:30, Junji -->
+
+
+
+<!-- Date: Sun Jun 5 19:32:34.778 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9696&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9696' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9697&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9697' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9698&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9698' width='300'></a></center>
+<!-- Author: Hourly plots, 18:30-19:30, Junji -->
+
+<!-- Date: Sun Jun 5 20:16:07.674 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025">199025</A>
+ Terminated at 2005.06.05 20:15:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jun 5 20:16:08.658 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025">199025</A>
+TERMINATE: to test trigger table
+<!-- Author: Kwangzoo x2080 -->
+
+
+
+<!-- Date: Sun Jun 5 20:24:29.679 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199026">199026</A>
+ Activated at 2005.06.05 20:24:12
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jun 5 20:24:30.791 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199026">199026</A>
+ACTIVATE: RunSet: AAA_NOSILICON  Trigger: TEST_MT [2,657,540] 
+<!-- Author: Kwangzoo x2080 -->
+<!-- Comment: Sun Jun  5 20;26;22 comment by...KPitts -->
+This run is testing new firmware for two track transverse mass triggers at Level 1.
+
+
+<!-- Date: Sun Jun 5 20:26:46.338 2005 -->
+Switched Sillicon HV to Standby.
+<!-- Author: Junji -->
+<!-- Comment: Sun Jun  5 21;13;04 comment by...KPitts -->
+We aren't running with silicon during these trigger test runs, so we switched it to standby.
+<!-- Date: Sun Jun 5 20:35:20.034 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199026">199026</A>
+ Terminated at 2005.06.05 20:34:36
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jun 5 20:35:21.900 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199026">199026</A>
+TERMINATE: another test
+<!-- Author: Kwangzoo x2080 -->
+
+
+<!-- Date: Sun Jun 5 20:40:21.486 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199027">199027</A>
+ Activated at 2005.06.05 20:39:42
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jun 5 20:40:22.516 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199027">199027</A>
+ACTIVATE: RunSet: AAA_NOSILICON  Trigger: TEST_MT [2,657,540] 
+<!-- Author: Kwangzoo x2080 -->
+<!-- Comment: Sun Jun  5 21;12;17 comment by...KPitts -->
+This run is also testing transverse mass.  We have turned on extra Three Track Trigger diagnostic readout for this run.
+<!-- Date: Sun Jun 5 20:46:55.979 2005 -->
+<pre>From the run coordinator: 
+Sun Jun 5 20:37:36-   Stacking resumed later than I hoped, store termination will be after midnight. I'll set the time late this evening. - J. Morgan</pre>
+<!-- Author: soha -->
+
+<!-- Date: Sun Jun 5 20:49:43.173 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199027">199027</A>
+ Terminated at 2005.06.05 20:48:15
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jun 5 20:49:44.948 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199027">199027</A>
+TERMINATE: end the test
+<!-- Author: Kwangzoo x2080 -->
+<!-- Comment: Sun Jun  5 21;13;31 comment by...KPitts -->
+This is the last of the two transverse mass test runs.
+<!-- Date: Sun Jun 5 20:54:48.742 2005 -->
+Switched Sillicon HV on.
+<!-- Author: Junji -->
+
+<!-- Date: Sun Jun 5 20:55:08.418 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199028">199028</A>
+ Activated at 2005.06.05 20:54:49
+<!-- Author: RunControl -->
+
+
+<!-- Date: Sun Jun 5 20:55:09.051 2005 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199028">199028</A>
+ACTIVATE: RunSet: AAA_CURRENT  Trigger: PHYSICS_3_02 [1,639,566] 
+<!-- Author: Jiyeon x2080 -->
+<!-- Comment: Sun Jun  5 21;13;46 comment by...KPitts -->
+Back to physics running.
+<!-- Date: Sun Jun 5 21:02:50.477 2005 -->
+Trigger Inhibit for TOF HV, but it cleared itself soon. 
+Run is recovered now.
+<!-- Author: Jiyeon :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199028' target=_top>199028</a>) -->
+
+
+
+
+
+
+<!-- Date: Sun Jun 5 21:21:45.535 2005 -->
+We got about 190k triggers testing the new L1 transverse mass triggers.   Preliminary results look very good.  We spotted one minor error in phi_6->phi_0 conversion that is easily correctable. Further analysis of this data will be performed offline.   Total time taken for this trigger test was 39 minutes, which is about 35nb^-1.
+<!-- Author: C.Marino/KPitts :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199026/199027' target=_top>199026/199027</a>) -->
+
+
+
+<!-- Date: Sun Jun 5 21:33:49.746 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9699&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9699' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9700&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9700' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9701&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9701' width='300'></a></center>
+<!-- Author: Hourly plots, 20:30-21:30, Junji -->
+
+
+<!-- Date: Sun Jun 5 21:57:52.008 2005 -->
+<pre>From the run coordinator: 
+ 
+Sun Jun 5 21:55:21-  
+The Plan: Terminate the store at 0100, follow with shot setup for  
+a combination shot (3Acc/6Rec) with transfers 2, 3, 4, 5, 6 & 7  
+coming from the Recycler. Protons 260-285E9 per bunch in the  
+Tevatron at 150 GeV, try to take out 80% of the stack. I'll decide when to send pbars to the Recycler in the morning. 
+ 
+ - J. Morgan  </pre>
+<!-- Author: KPitts -->
+
+
+<!-- Date: Sun Jun 5 22:15:05.897 2005 -->
+<pre>We got the heartbeart in CMU, CMP, CMX, BMU, and CES. 
+After two min, it was cleared.</pre>
+<!-- Author: Junji -->
+<!-- Comment: Sun Jun  5 22;20;48 comment by...Junji -->
+Again.
+
+<!-- Comment: Sun Jun  5 22;26;10 comment by...Junji -->
+Again(CMX, BMU). Connection problem with MUON3 PC.
+
+
+<!-- Comment: Sun Jun  5 22;43;09 comment by...Junji -->
+Again. (CMU, CMP, CMX, BMU, CES)
+
+
+<!-- Date: Sun Jun 5 22:53:40.906 2005 -->
+BMU NW 264 trip.  Turn off the HV -> on. 
+<!-- Author: Junji :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199028' target=_top>199028</a>) -->
+<!-- Comment: Sun Jun  5 23;32;45 comment by...Jiyeon -->
+We failed recovering at the first trial and second trial worked.
+<!-- Date: Sun Jun 5 22:56:44.752 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9707&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9707' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9708&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9708' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9709&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9709' width='300'></a></center>
+<!-- Author: Hourly plots, 21:30-22:30, Junji -->
+
+
+<!-- Date: Sun Jun 5 22:58:41.823 2005 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2005&action=view&page=-9710&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2005&action=view&page=-9710  width='300' align='top'></a></td><td>   </td></tr></table>
+<!-- Author: Junji -->
+<!-- Comment: Sun Jun  5 23;03;47 comment by...Junji -->
+Cell number is ISL BIAS1 Barrel 1Wedge 0 Layer 3 seems to be dropped, recovered on itself.
+
+<!-- Comment: Sun Jun  5 23;12;43 comment by...Rong-Shyang -->
+The gap is the period that you are not biasing silicon. Also the downtime log entry after the trigger test should not be under "SVX HV" since it's not the problem of svx HV causing downtime. Please help to correct that. Thanks.
+
+<!-- Comment: Sun Jun  5 23;19;03 comment by...Junji -->
+Sorry. I changed downtime log entry.
+
+<!-- Comment: Sun Jun  5 23;19;05 comment by...Jiyeon -->
+This cell was pink and it turned in yellow before I tried to HRR.
+
+
+
+<!-- Comment: Sun Jun  5 23;32;31 comment by...Rong-Shyang -->
+Thanks. This is actually bias current, so the HRR can't do too much.  Please also let the owl aces know that if the current is stable around that level (~100uA?), it's fine for the night. I will work on it tomorrow.
+
+
+
+<!-- Date: Sun Jun 5 23:33:13.628 2005 -->
+<center><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9711&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9711' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9712&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9712' width='300'></a><a href='/cgi/elog/elog.pl?nb=2005&action=view&page=-9713&button=yes' target='xxx' onclick='jswindow()'><img src='/cgi/elog/elog.pl?nb=2005&action=view&page=-9713' width='300'></a></center>
+<!-- Author: Hourly plots, 22:30-23:30, Junji -->
+
+
+<!-- Date: Sun Jun 5 23:39:11.738 2005 -->
+<pre>XMon is reporting several triggers as hot, such as: 
+ 
+L2_FOUR_JET15_SUMET175 	 zscore = 7.98 
+L2_JET40  zscore=2.79 
+L2_JET90  zscore=2.98 
+L2_B_CHARM_LOWPT_CMU1.5_PT1.5_90DPHI180  zscore 2.93 
+in addition to several other B_CHARM and MET triggers. 
+ 
+The cross sections for these triggers all look ok.  We are currently running at 1.2E31, and the cross section fits are not so great at low luminosity.    
+ 
+For example, the fit says that the FOUR_JET15_SUMET175 cross section should become negative at L~1.1E31.  </pre>
+<!-- Author: KPitts -->
+
+<!-- Date: Sun Jun 5 23:55:18.443 2005 -->
+<TABLE BORDER=2 CELLSPACING=1 CELLPADDING=1 BGCOLOR=WHITE>
+<TR BGCOLOR=YELLOW><TH>Run Number</TH>
+<TH>Data Type</TH>
+<TH>Physics Table</TH>
+<TH>Begin Time</TH>
+<TH>End Time</TH>
+<TH>Live Time</TH>
+<TH>L1 Accepts</TH>
+<TH>L2 Accepts</TH>
+<TH>L3 Accepts</TH>
+<TH>Live Lumi, nb-1</TH>
+<TH>GR</TH>
+<TH>SC</TH>
+<TH>RC</TH></TR>
+
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199025>199025</A> 
+x30971</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_3_02 [1,639,566]</TD>                                       
+<TD ALIGN=CENTER>17:36:34</TD>                                          
+<TD ALIGN=CENTER>20:15:36</TD>                                          
+<TD ALIGN=CENTER>25:19:26</TD>                                          
+<TD ALIGN=RIGHT>  1,798,514,865</TD>                                    
+<TD ALIGN=RIGHT>    22,312,341</TD>                                     
+<TD ALIGN=RIGHT>   5,980,944</TD>                                       
+<TD ALIGN=RIGHT> 3367.828</TD>                                          
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199026>199026</A> 
+x30972</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>TEST_MT [2,657,540]</TD>                                            
+<TD ALIGN=CENTER>20:24:12</TD>                                          
+<TD ALIGN=CENTER>20:34:36</TD>                                          
+<TD ALIGN=CENTER>00:01:56</TD>                                          
+<TD ALIGN=RIGHT>        210,203</TD>                                    
+<TD ALIGN=RIGHT>       103,720</TD>                                     
+<TD ALIGN=RIGHT>     103,720</TD>                                       
+<TD ALIGN=RIGHT>    1.918</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD>                                                 
+<TD ALIGN=CENTER>0</TD></TR>                                            
+                                                                        
+<TR><TD><A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=199028>199028</A> 
+x30974</TD>                                                             
+<TD>BEAM</TD>                                                           
+<TD>PHYSICS_3_02 [1,639,566]</TD>                                       
+<TD ALIGN=CENTER>20:54:49</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>02:52:42</TD>                                          
+<TD ALIGN=RIGHT>    106,730,010</TD>                                    
+<TD ALIGN=RIGHT>     1,249,552</TD>                                     
+<TD ALIGN=RIGHT>     379,343</TD>                                       
+<TD ALIGN=RIGHT>  139.167</TD>                                          
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER></TD>                                                  
+<TD ALIGN=CENTER>1</TD></TR>                                            
+                                                                        
+<TR><TD>Totals</TD>                                                     
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD>23:55:00</TD>                                                       
+<TD ALIGN=CENTER>28:14:05</TD>                                          
+<TD ALIGN=RIGHT>   1,905,455,078</TD>                                   
+<TD ALIGN=RIGHT>     23,665,613</TD>                                    
+<TD ALIGN=RIGHT>     6,464,007</TD>                                     
+<TD ALIGN=RIGHT> 3508.913</TD>                                          
+<TD> </TD>                                                              
+<TD> </TD>                                                              
+<TD> </TD></TR>                                                         
+                                                                        
+</TABLE>
+<!-- Author: End of Shift Report -->
+
+
+
+<!-- Date: Sun Jun 5 23:56:54.838 2005 -->
+<font color=red>Shift Summary: </font><pre>Store 4193 continued throughout the shift.  Took good data throughout the shift.  40 minutes for level 1 transverse mass tests.  Plan is to end this store at 0100 and go into shot setup. 
+ 
+ 
+Begin shift or beam at 16:00:36 
+End shift or beam at 23:54:47 
+Delivered luminosity: 439.95 
+Acquired luminosity: 401.27 
+Totals 
+Date:	2005.06.05 
+Shift:	eve 
+Delivered luminosity:	439.9 nb-1 
+Acquired luminosity:	401.3 nb-1 
+Efficiency:	91.2</pre> 
+<!-- Author: KPitts -->

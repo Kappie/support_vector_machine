@@ -4,48 +4,51 @@ import backports.lzma as lzma
 import os
 import io
 import pprint
-
 from sklearn import datasets
 from sklearn import svm
 import numpy
+import pdb
+import pickle
 
 
-DIRECTORIES = ["log", "csv"]
-ANCHORS_PER_TYPE = 10
-MAX_SAMPLES_PER_TYPE = 50
+BASE_DIR = "data"
+DIRECTORIES = ["log", "doc"]
+ANCHORS_PER_TYPE = 20
+TEST_SAMPLES_PER_TYPE = 20
+TRAINING_SAMPLES_PER_TYPE = 80
 
 contents = {}
 compressed_sizes = {}
 
 
 def prepare_data():
-    anchors, training_samples = [], []
+    anchors, training_samples, test_samples = [], [], []
 
     for directory in DIRECTORIES:
-        anchor_set, training_set = partition(directory)
-        contents.update( { file_name : io.FileIO( os.path.join(directory, file_name) ).readall() for file_name in anchor_set + training_set } )
+        anchor_set, training_set, test_set = partition(directory)
+        contents.update( { file_name : io.FileIO( os.path.join(BASE_DIR, directory, file_name) ).readall() for file_name in anchor_set + training_set + test_set} )
         anchors += anchor_set
         training_samples += training_set
+        test_samples += test_set
 
     compressed_sizes.update( { file_name : Z(contents[file_name]) for file_name in contents } )
      
-    items = extract_data_items(training_samples, anchors)
+    training_items = extract_data_items(training_samples, anchors)
+    test_items     = extract_data_items(test_samples, anchors)
 
-    pretty_print(items)
+    pretty_print(training_items)
 
-def generate_classifier(data_items):
-    classifier = svm.SVC()
+    return [training_items, test_items] 
 
-    coordinates = [ item[0] for item in data_items ]
-    labels      = [ item[1] for item in data_items ]
-
-    classifier.fit(coordinates, labels)
 
 def partition(directory):
     file_names = os.listdir(directory)
-    anchors, training_samples = file_names[:ANCHORS_PER_TYPE], file_names[ANCHORS_PER_TYPE:MAX_SAMPLES_PER_TYPE - ANCHORS_PER_TYPE]
 
-    return [anchors, training_samples]
+    anchors = file_names[:ANCHORS_PER_TYPE]
+    training_samples = file_names[ANCHORS_PER_TYPE:ANCHORS_PER_TYPE + TRAINING_SAMPLES_PER_TYPE]
+    test_samples = file_names[-TEST_SAMPLES_PER_TYPE:]
+
+    return [anchors, training_samples, test_samples]
 
 
 def extract_data_items(training_samples, anchors):
@@ -72,6 +75,17 @@ def pretty_print(obj):
     printer.pprint(obj)
 
 
+def generate_classifier(training_items):
+    classifier = svm.SVC(kernel="rbf", C = 100, gamma = 0.00001)
+
+    coordinates = numpy.asarray( [ item[0] for item in training_items ] )
+    labels      = numpy.asarray( [ item[1] for item in training_items ] )
+
+    classifier.fit(coordinates, labels)
+
+    return classifier
+
+
 lzma_filters = my_filters = [
     {
       "id": lzma.FILTER_LZMA2, 
@@ -90,12 +104,29 @@ lzma_filters = my_filters = [
 def Z(contents):
   return len(lzma.compress(contents, format=lzma.FORMAT_RAW, filters= lzma_filters))
 
+def serialize(training_items, test_items):
+    training_file = "-".join(["training", str(TRAINING_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES + [".pickle"])
+    testing_file  = "-".join(["testing", str(TEST_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES + [".pickle"])
+
+    with open(training_file) as f:
+        pickle.dump(training_items)
+
+    with open(testing_file) as f:
+        pickle.dump(test_items)
 
 def main():
-    data_items = prepare_data()
-    classifier = generate_classifier(data_items)
+    training_items, test_items = prepare_data()
+    serialize(training_items, test_items)
+    classifier = generate_classifier(training_items)
+
+    for test_item in test_items:
+        feature_vector = test_item[0]
+        correct_label  = test_item[1]
+
+        prediction = classifier.predict(feature_vector)[0]
+        print("my prediction is " + prediction + " and the correct answer is " + correct_label + ".")
 
 
-
+main()
 
 

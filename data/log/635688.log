@@ -1,0 +1,397 @@
+<!-- Title: Owl shift. Sun Nov  5, 2000 -->
+<!-- Leader: Hans Jensen -->
+<!-- Ace: Giulia Manca -->
+<!-- Co1: Koichi Kurino -->
+<!-- Co2: Niccolo Moggi -->
+<!-- Co3: Willis Sakumoto (SOS) -->
+<!-- Co4: &nbsp; -->
+<!-- Co5: &nbsp; -->
+<!-- Notes: -->
+<pre>36*36 store in progress with L ~ 1.5 E29. Taking data with run 
+103549 using trigger table Commissioning_2E29 (L3 exe 67). 
+The chamber HV's are on. The COT is at a higher-than normal HV 
+which gives a gain 40% higher than normal. Aseet Mukherjee 
+expresses satisfaction with how smoothly the chamber is behaving 
+at this higher gain (so far).</pre>
+
+
+<!-- Date: Sun Nov 5 00:12:54 2000 -->
+<table><tr><td><a href=/elog/notebooks/2000/Sun_Nov__5_2000_Owl.001234.ps align=top><img src=/elog/gifs/ghost64.gif  width='56' align='top'></td><td>Ray Culbertson's initial alignment of Barrel 4 compared to  the COT using stand-alone silicon tracks compared to  current COT tracks.  (Note: as shown last night, outside-in tracking is beginning to work also -- comparisons and  interdependecne between these approaches will be interesting.)</a></td></tr></table>
+<!-- Author: A. Sill for the silicon group -->
+
+
+<!-- Date: Sun Nov 5 00:13:44 2000 -->
+<pre>Willis Sakumoto notices that the clock is in an error state 
+(sync missing, sync timing, rf missing). We halt the run 
+(run 103549 at event 174782), reset the clock and resume data 
+taking with the same run.</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 00:21:46 2000 -->
+<pre>Currently taking data at about 70 Hz. The current trigger table 
+includes XFT triggers (with thresholds 2, 4, 8 and 12 GeV/c) 
+pointing at wedges 4 and 5. It is believed that these triggers 
+are correct at the FRED input. FRED is not doing the prescaling 
+correctly, however, and only half (four) of these triggers get 
+through FRED with nonzero rate.</pre>
+<!-- Author: Jensen :: (run 103549) -->
+<!-- Comment: Sun Nov  5 01;26;32 comment by...Ted Liu -->
+XFT folks will certainly need these runs offline for XFT performance study. so it's important to inform them about the missing bits.
+
+Greg already made a note of this at last shift E-log. 
+
+**** 23:10  FRED is having problems reliably providing the new tracking triggers after the prescaling/masking circiuts. Each time we
+reprogram the Xilinx chip a different set of bits get lost, so it seems the problem may be in Xilinx resource assignment. We will try to make more bits
+come through tomorrow.  - Greg F *********
+
+I will post a few screen shots to show which bits are on/off later.
+<!-- Date: Sun Nov 5 00:37:10 2000 -->
+<pre>Run stopped after about 294 K events (run 103549). Try to start 
+new run, same conditions.</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 00:59:22 2000 -->
+<pre>CMP and CMX HV trips (but not COT).</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 01:21:48 2000 -->
+<pre>CMP and CMX HV tripped off at 0100 hrs. They have been reset, 
+and except for hardware over/under voltage condition (one chamber 
+of the CMP bottom and CMX east wedge 15 inner), they are now  
+back at voltage. I could not tell if this trip was beam related 
+as the ACNET lumberjack plot with the beam losses was blank. 
+However, after bring the loss plotter back up, I did notice 
+occaisonal spikes in the p and pbar loss rates.</pre>
+<!-- Author: Willis Sakumoto -->
+
+
+
+<!-- Date: Sun Nov 5 01:35:12 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-503&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-503  width='250' align='top'></td><td>Raw track trigger rate vs. Pt threshold. this is the raw track Pt trigger inputs to PreFred.  this is the first attemp to study the  "Transvers-Momentum Distributions of charged particles Produced in ppbar interactions at sqrt(s) 1960 GeV", and we are doing this online...:).   see first CDF paper: PRL, Vol 61, Number 16. page 1819.</a></td></tr></table>
+<!-- Author: Ted Liu -->
+
+
+<!-- Date: Sun Nov 5 01:37:32 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-505&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-505  width='250' align='top'></td><td>the track Pt trigger bits at Fred. they are all there, but some lost after prescale, see next entry).</a></td></tr></table>
+<!-- Author: Ted Liu -->
+
+
+<!-- Date: Sun Nov 5 01:39:00 2000 -->
+<pre>COT SL8 HV trip</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 01:39:12 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-506&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-506  width='250' align='top'></td><td>the same as above, but after prescale. a few track pt trigger bits lost.  XFT folks should take this into account when study XFT trigger performance offline.</a></td></tr></table>
+<!-- Author: Ted Liu -->
+
+
+<!-- Date: Sun Nov 5 01:50:06 2000 -->
+<pre>With COT HV restored, we resume data taking, same conditions as 
+last run</pre>
+<!-- Author: Jensen :: (run 103551) -->
+
+
+<!-- Date: Sun Nov 5 01:50:12 2000 -->
+<pre>COT HV tripped: SL8, S9 - software (blue). HV reset with slow 
+controls  (standy, off, stamdy, on). </pre>
+<!-- Author: Willis Sakumoto -->
+
+
+<!-- Date: Sun Nov 5 02:11:20 2000 -->
+<pre>COT SL7 HV trip</pre>
+<!-- Author: Jensen :: (run 103551) -->
+
+
+<!-- Date: Sun Nov 5 02:16:40 2000 -->
+<pre>COT HV trip: SL7, S6 hardware. Reset HV via slow controls 
+(standy, then on).</pre>
+<!-- Author: Willis Sakumoto :: (run 103551) -->
+
+
+<!-- Date: Sun Nov 5 02:56:22 2000 -->
+<pre>CMP and CMX HV trip: CMP - several sections, CMX - west 13 and 14 
+(inner plus outer). HV reset without any problems. There didn't 
+appear to be any huge beam losses.</pre>
+<!-- Author: Willis Sakumoto -->
+
+
+<!-- Date: Sun Nov 5 03:42:51 2000 -->
+<pre>HV trips: COT SL7 S6 - software trip. 
+          CMX west 21 inner and outer. 
+Reset without problems. These trips could be beam related, 
+as there has been a noticable increase in the beam losses 
+over the last 10 minutes.</pre>
+<!-- Author: Willis Sakumoto -->
+<!-- Comment: Sun Nov  5 03;47;23 comment by...Willis Sakumoto -->
+<pre>COT SL7 S6 trips again, this time a hardware trip. Since this
+is the 3rd time, I am leaving it off. </pre>
+
+
+<!-- Date: Sun Nov 5 03:47:31 2000 -->
+<pre>Because COT SL7 has tripped again and because we are at a time 
+of night when the experts do not want to be called, we decide  
+to continue the run without SL7 HV. Run 103551 at event 258059</pre>
+<!-- Author: Jensen :: (run 103551) -->
+
+
+<!-- Date: Sun Nov 5 03:58:59 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-513&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-513  width='250' align='top'></td><td>I am puzzled about the L2 buffer occupancy on the  Trigger Rate monitor display.  the L2 buffer occupancy follows the order 0, 2, 1, 3, instead of 0,1,2,3, see the screen capture on the left. does this make sense?  it almost looks like the two L2 buffer bits are swaped. if this is true, at what level were  they swaped? hardware or software? if at hardware level, then myron mode wouldn't work properly, the data maybe ok, but the timing will be out of order (unless corrected in software in a consistent way). was this done on purpose?   what did I miss? experts please help me to understand this. This is the first time I looked at this nice fancy display, I am sure there is a good reason for this but I would  like to know.</a></td></tr></table>
+<!-- Author: Ted Liu -->
+<!-- Comment: Sun Nov  5 04;32;45 comment by...Ted Liu -->
+hmm, it's hard to imagine that the bits are swaped at hardware and (at least) most software level. because we can clearly
+see the bunch counter increase in the right order as
+the buffer number. I looked at the L2 buffer bits on the
+CDF-style backplane before, see next entry. anyway, still
+don't understand the L2 buffer occupancy though ...
+<!-- Comment: Sun Nov  5 07;52;26 comment by...patrick -->
+This is a known feature of unknown origin.
+<!-- Comment: Mon Nov  6 08;06;28 comment by...Michael Schmidt -->
+<pre><pre>
+The most sensible explanation is that the decoding of
+the L2 buffer bits from the J2 backplane has got buffer
+1 and 2 swapped on the TSI transition card that drives
+these scalers.  In fact we had already discovered that the hardware implementation was such that we expected (and as I recall verified) that the expected order (0,1,2,3)
+into the scalers was reversed (3,2,1,0) as is reflected
+in the bank description.  I will go back and double check
+all of this once again.
+</pre></pre>
+<!-- Comment: Mon Nov  6 16;32;48 comment by...Michael Schmidt -->
+<pre><pre>
+We have gone back to the TSI transition card schematics
+and sure enough the bits are swapped coming onto this board
+from the TS crate J2 backplane.  Note this is after the
+TS has sent the L1A message to the TRACER, so Myron mode
+works as expected.  The ONLY thing that is affected is the
+L2 buffer usage reported by the scalers which are driven
+by the TSI transition card: L2 buffer 1 and 2 are swapped.
+
+We could suggest changing the online/offline software to
+reflect this swap but I would suggest against it since the
+TSI transition board is a prototype and will be replaced
+with this feature corrected.
+
+
+</pre></pre>
+<!-- Comment: Mon Nov  6 18;11;35 comment by...Ted Liu -->
+glad to know that it was just a bits swap local to the scalers.
+nothing to worry about then.
+<!-- Date: Sun Nov 5 04:06:11 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-514&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-514  width='250' align='top'></td><td>here is a scope picture I took a while ago with one of the Linker crate, to show in myron mode the L2 buffer bits on CDF-style backplane. but I  forgot to doublecheck which one is bit0, and which  is bit 1 in the documentation. I bit numbering on the picture was just my interpretation by looking at the order of the four L1As.  </a></td></tr></table>
+<!-- Author: Ted Liu -->
+<!-- Comment: Sun Nov  5 04;38;46 comment by...Ted Liu -->
+found my logbook and checked that the L2 buffer(0) bit on
+the scope picture is indeed CDF_L2B0* (J2/P2 pin A14) where
+I connected the scope probe to, and L2 buffer(1) is pin A15 CDF_L2B1*.
+
+<!-- Date: Sun Nov 5 04:18:47 2000 -->
+<pre>
+run 103551 notes: 
+-problems in starting with b0svt00: it didn't respond in  
+partition; I rebooted and it was fine afterwards. 
+-b0tsi00 gave problems, evb was very slow; I cleaned up  
+EVB and L3; 
+-at the first trip in the COT I did H+R+R (not HRR)and  
+immediately after I got a DoneTimeOut from both 
+ b0cmp00 and b0svx02; it recovered anyway after trying  
+once more; 
+-immediately before getting a BusyTimeOut in the b0tsi02 
+ I noticed this  error in the green screen of death: 
+ 
+----- 05 Nov 2000 03:04:25 CST ----- b0eb19.fnal.gov ----- tRec_0 
+SCPU-P0-E-BadVrbByteCount: Event 203145 total byte count is lt 32, gt 65528, or not divisible by 8 for VRB in slot 13. 
+Count = 65535. 
+ 
+----- 05 Nov 2000 03:04:25 CST ----- b0eb19.fnal.gov ----- tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 203145 from VRB in slot 13: 
+0xffffffff 0x04104100 0x08030a03 0x0b060c00 0x10001106 0x12022e00 0x2f063000 0x5e005f09 
+ 
+----- 05 Nov 2000 03:04:25 CST ----- b0eb10.fnal.gov ----- tsmDisp 
+SM-P0-I-Suspending: Due to errors, data-taking in this partition is suspended until the next Recover transition. 
+                                                                                                                             
+I did HRR this time and it worked. 
+After a while I also noticed the message: 
+----- 05 Nov 2000 03:04:58 CST ----- b0eb10.fnal.gov ----- tsmDisp 
+SM-P0-I-FlushedEvent: Flushed event 203145. 
+                                                                        
+which I had never seen before; it didn't affect in any  
+way the run, but the green screen didn't scroll anymore  
+until the next H+R+R. 
+-for the other trips in the cot, I always used H+R+R, so  
+far so good. 
+-again many data truncations in all crates except 4,15,16; 
+17 particularly bad. 
+ 
+I kept out HADRON_TIMING_00, LEVEL2_GLOBAL_00 (when I  
+tried to include them they failed in partition); 
+TS_CRATE_00 was already out (am I supposed to have it in??)
+</pre>
+<!-- Author: giulia :: (run 103551) -->
+<!-- Comment: Sun Nov  5 04;38;06 comment by...giulia -->
+<pre>i'm sorry for the format of the entry, i forgot to clic plain but
+I'm sure I enter after each line..If someone can tell me how to change it I will do it.</pre>
+
+
+
+<!-- Date: Sun Nov 5 04:49:11 2000 -->
+<pre>CMP and CMX HV trips: beam related, as there has been a series 
+of rather large beam loss spikes. CMP:  upper SW region; 
+CMX: west 13-14 inner and outer. As soon as I reset them, the 
+CMP and CMX trip again, and these trips are again beam related. 
+ 
+We de not to bring the CMP and CMX back up, but to leave them 
+at standby because of the increased intensity and rate of 
+beam losses.</pre>
+<!-- Author: Willis Sakumoto :: (run 103551) -->
+<!-- Comment: Sun Nov  5 06;10;55 comment by...Willis Sakumoto -->
+<pre>CMX west wedge 21 inner and outer trip off in standby mode.</pre>
+<!-- Date: Sun Nov 5 04:50:10 2000 -->
+<pre>MCR has no explanation for the observed beam loss (tripping our 
+chambers). We decide to leave CMP, CMX at standby from now on 
+(run 103551 about event number 400 000). 
+COT SL7 also remains off. 
+</pre>
+<!-- Author: Jensen :: (run 103551) -->
+
+
+
+<!-- Date: Sun Nov 5 06:14:13 2000 -->
+<pre>End run 103551 after taking 1 million events total in 103549 and 
+103551.</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 06:17:55 2000 -->
+<table><tr><td><a href=/cgi/elog/elog.pl?nb=2000&action=view&page=-515&button=yes target='xxx' onclick='jswindow()'; align=top><img src=/cgi/elog/elog.pl?nb=2000&action=view&page=-515  width='250' align='top'></td><td>another naive question: how come only 9 out of 36 bunches have counts?</a></td></tr></table>
+<!-- Author: Ted Liu -->
+<!-- Comment: Sun Nov  5 17;37;34 comment by...Arnd -->
+This is almost certainly due to not-yet-fully-implemented
+features of the scalers. That's why also all the by-bunch
+rates are shown as zero.
+
+<!-- Comment: Mon Nov  6 07;56;01 comment by...Michael Schmidt -->
+<pre><pre>
+Ted, Arnd is correct, this feature and a few others were
+not yet implemented, as noted in a previous entry in this
+space, because they require some firmware adjustments to
+the card driving these scalers to adjust for the relative
+timing between signals from FRED, TS and the TRACER.  
+It would be VERY useful if the system is left in tact so
+that these timing adjustments can be made and tested (the
+fake clock will do).
+</pre></pre>
+<!-- Date: Sun Nov 5 06:25:29 2000 -->
+<pre>Run 103552 started;  
+TEST_CMU trigger table , L3exe 67, dedicated to check trigger  
+rates 
+</pre>
+<!-- Author: giulia -->
+
+
+<!-- Date: Sun Nov 5 07:10:33 2000 -->
+<pre>DoneTimeOut from b0svt00 after 31499 events; tried to reboot. 
+Started new run (103553);it seems to work now...I talked too early, new DoneTimeOut from b0svt00 right now(after 67646 events);HRR doesn't work as before. I start a new run without 
+ b0svt00.It will be 103554.</pre>
+<!-- Author: giulia -->
+<!-- Comment: Sun Nov  5 07;11;59 comment by...giulia -->
+<pre>To avoid confusion: both times I had a DoneTimeOut, 
+I tried HRR and it didn't work in either case.</pre>
+
+<!-- Comment: Sun Nov  5 07;23;28 comment by...giulia -->
+<pre>This is what I saw in the green screen
+
+SCPU-P0-E-VrbReadFailed: Error reading VRB in slot 12 for event
+ 67646.
+The VRB had no event.
+
+and being logged in the crate
+
+b0svt00-> Monitor: interval 6000, state ACTIVE for partition 0
+Monitor: Events sent/readout/triggered 67645/67646/67646
+Monitor: Error status / VRB busy flag  0/0
+Monitor: readout/sent rate 0.000000 Hz / 0.000000 Hz
+
+
+
+</pre>
+
+<!-- Comment: Sun Nov  5 07;34;03 comment by...giulia -->
+<pre>DoneTimeOut from b0cot11 too; HRR worked this time.</pre>
+
+
+<!-- Date: Sun Nov 5 07:35:59 2000 -->
+<pre>End run 103554 after taking 3 runs totaling 200K TEST_CMU events</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 07:39:03 2000 -->
+<pre>Begin preparations for TOF special run (Alexei+Ivan).</pre>
+<!-- Author: Jensen -->
+
+
+<!-- Date: Sun Nov 5 07:49:02 2000 -->
+while CLC and TOF folks doing a speical run, i.e. CLC is taken 
+out of the partition, we will take a run with track trigger 
+input from wegde 2 and 3 (was wedge 4 and 5). the idea is 
+to take a run for these two wedges so that XFT people will 
+have some data to look at for wedge 2 and 3. also will check 
+trigger bits on scope. I have just swaped the cable  
+(from wedge 4 and 5 to wedge 2 and 3), and will 
+put everything back after this run (back to wedge 4 and 5). 
+ 
+the trigger table for this run will be COMMISSIONING_2E29. 
+run number will be avaiable once the run starts. 
+  
+<!-- Author: Ted Liu -->
+
+
+<!-- Date: Sun Nov 5 07:49:18 2000 -->
+<pre>Shift summary: 
+ 
+1. Took data with Commissioning_2E29 which includes XFT triggers 
+   in the direction of wedges 4 and 5. COT operating with 40% 
+   higher gain than before. FRED prescaling not working 
+   correctly for all these XFT triggers. See notes by Ted Liu 
+   in logbook about this.  
+   Runs 103549 and 103551 (with COT SL7 HV off after 
+   approximately event 258059). Total of one million events  
+2. There is a note in the logbook about initial alignment of 
+   barrel 4 with respect to the COT. 
+3. There are notes in the logbook about pt dependence of XFT 
+   trigger rates and about a puzzle concerning the frequence 
+   of Level 2 buffer use (the order is 0, 2, 1, 3) by Ted Liu. 
+4. Had three trips of COT SL7 and several CMP, CMX HV trips. 
+   We also see loss peaks from the Tevatron beams though not as 
+   regular in time as two days ago. 
+5. We look at the monitors for differences in COT plots between 
+   now (higher COT gain) and before (normal gain) but see little 
+   difference.  
+6. Took data with TEST_CMU, 200 K events total, runs 103552, 
+   103553 (both including SVT00) and 103554 (without SVT00). 
+7. Began preparations for TOF special run (Ivan+Alexei) 
+8. Suggest day shift call COT expert on duty about SL7 HV trips</pre>
+<!-- Author: Jensen -->
+
+
+
+<!-- Date: Sun Nov 5 07:53:12 2000 -->
+<font color=red>Shift Summary: </font><pre>see above</pre> 
+<br><b>End of Shift Numbers</b>
+<table><tr><td width=60% align=left>
+<b>CDF Run II <p></b>                       
+<pre>
+Runs                   103549-103554
+Delivered Luminosity   some  pb-1
+Acquired Luminosity    some  pb-1
+Efficiency             OK
+   
+</td></tr></table></pre>
+<!-- Author: Jensen -->
+
+
+
+
+
