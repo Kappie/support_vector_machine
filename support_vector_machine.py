@@ -9,13 +9,14 @@ from sklearn import svm
 import numpy
 import pdb
 import pickle
+import random
 
 
 BASE_DIR = "data"
-DIRECTORIES = ["log", "doc"]
-ANCHORS_PER_TYPE = 20
-TEST_SAMPLES_PER_TYPE = 20
-TRAINING_SAMPLES_PER_TYPE = 80
+DIRECTORIES = ["fragmented_log", "fragmented_doc", "fragmented_html", "fragmented_csv", "fragmented_pdf"]
+ANCHORS_PER_TYPE = 10
+TEST_SAMPLES_PER_TYPE = 200
+TRAINING_SAMPLES_PER_TYPE = 400
 
 contents = {}
 compressed_sizes = {}
@@ -36,13 +37,14 @@ def prepare_data():
     training_items = extract_data_items(training_samples, anchors)
     test_items     = extract_data_items(test_samples, anchors)
 
-    pretty_print(training_items)
-
     return [training_items, test_items] 
 
 
 def partition(directory):
-    file_names = os.listdir(directory)
+    # Maybe randomize? Then anchors etc. are different each time.
+    # Less reproducability, but less bias
+    file_names = os.listdir( os.path.join(BASE_DIR, directory) )
+    random.shuffle(file_names)
 
     anchors = file_names[:ANCHORS_PER_TYPE]
     training_samples = file_names[ANCHORS_PER_TYPE:ANCHORS_PER_TYPE + TRAINING_SAMPLES_PER_TYPE]
@@ -76,7 +78,7 @@ def pretty_print(obj):
 
 
 def generate_classifier(training_items):
-    classifier = svm.SVC(kernel="rbf", C = 100, gamma = 0.00001)
+    classifier = svm.SVC(kernel="rbf", C = 32, gamma = 8)
 
     coordinates = numpy.asarray( [ item[0] for item in training_items ] )
     labels      = numpy.asarray( [ item[1] for item in training_items ] )
@@ -105,19 +107,43 @@ def Z(contents):
   return len(lzma.compress(contents, format=lzma.FORMAT_RAW, filters= lzma_filters))
 
 def serialize(training_items, test_items):
-    training_file = "-".join(["training", str(TRAINING_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES + [".pickle"])
-    testing_file  = "-".join(["testing", str(TEST_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES + [".pickle"])
+    training_file = os.path.join("feature_vectors", "-".join(["training", str(TRAINING_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES) + ".pickle")
+    testing_file  = os.path.join("feature_vectors", "-".join(["testing", str(TEST_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES) + ".pickle")
 
-    with open(training_file) as f:
-        pickle.dump(training_items)
+    with open(training_file, "wb" ) as f:
+        pickle.dump(training_items, f)
 
-    with open(testing_file) as f:
-        pickle.dump(test_items)
+    with open(testing_file, "wb" ) as f:
+        pickle.dump(test_items, f)
+
+
+def deserialize():
+    training_file = os.path.join("feature_vectors", "-".join(["training", str(TRAINING_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES) + ".pickle")
+    testing_file  = os.path.join("feature_vectors", "-".join(["testing", str(TEST_SAMPLES_PER_TYPE), "samples", str(ANCHORS_PER_TYPE), "anchors"] + DIRECTORIES) + ".pickle")
+
+    if os.path.isfile(training_file) and os.path.isfile(testing_file): 
+        with open(training_file, "rb" ) as f:
+            training_items = pickle.load(f)
+
+        with open(testing_file, "rb" ) as f:
+            test_items = pickle.load(f)
+
+        return [training_items, test_items]
+    else:
+        return None
 
 def main():
-    training_items, test_items = prepare_data()
-    serialize(training_items, test_items)
+    deserialized_vectors = deserialize()
+    if deserialized_vectors:
+        training_items, test_items = deserialized_vectors
+    else:
+        print("Couldn't find serialized data. Gonna prepare it by calculating ncd's. Could take a while...")
+        training_items, test_items = prepare_data()
+        serialize(training_items, test_items)
+
     classifier = generate_classifier(training_items)
+
+    mistakes = 0
 
     for test_item in test_items:
         feature_vector = test_item[0]
@@ -125,7 +151,11 @@ def main():
 
         prediction = classifier.predict(feature_vector)[0]
         print("my prediction is " + prediction + " and the correct answer is " + correct_label + ".")
+        
+        if prediction != correct_label:
+            mistakes += 1
 
+    print("I made " + str(mistakes) + " mistakes on " + str(len(test_items)) + " test items.")
 
 main()
 
