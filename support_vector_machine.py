@@ -15,23 +15,24 @@ from sklearn import metrics
 
 
 BASE_DIR = "data"
-DIRECTORIES = [
-    "fragmented_log",
-    "fragmented_doc",
-    "fragmented_html",
-    "fragmented_csv",
-    "fragmented_pdf",
-    "fragmented_txt",
-    "fragmented_xls",
-    "fragmented_xml",
-    "fragmented_ps",
-    "fragmented_ppt",
-    "fragmented_eps"
-]
+DIRECTORIES = ["fragmented_pdf", "fragmented_xml"]
+#DIRECTORIES = [
+    #"fragmented_log",
+    #"fragmented_doc",
+    #"fragmented_html",
+    #"fragmented_csv",
+    #"fragmented_pdf",
+    #"fragmented_txt",
+    #"fragmented_xls",
+    #"fragmented_xml",
+    #"fragmented_ps",
+    #"fragmented_ppt",
+    #"fragmented_eps"
+#]
 
-ANCHORS_PER_TYPE = 10
-TEST_SAMPLES_PER_TYPE = 100
-TRAINING_SAMPLES_PER_TYPE = 400
+ANCHORS_PER_TYPE = 20
+TEST_SAMPLES_PER_TYPE = 1000
+TRAINING_SAMPLES_PER_TYPE = 1000
 
 contents = {}
 compressed_sizes = {}
@@ -95,17 +96,26 @@ def pretty_print(obj):
 
 
 def generate_classifier(training_items):
+    random.shuffle(training_items)
+
     tuned_parameters = [
-        {'kernel': ['rbf'], 'gamma': [1e-3, 1e-4], 'C': [1, 10, 100, 1000]},
-        {'kernel': ['linear'], 'C': [1, 10, 100, 1000]}
+        {'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(4, 6, 0.2)], 'C': [2 ** n for n in numpy.arange(4, 6, 0.2)] }
+        #{'kernel': ['linear'], 'C': [1, 10, 100, 1000]}
     ]
 
-    classifier = svm.SVC(kernel="rbf", C=32, gamma=8)
+    # What does support vector regression (svr) do or mean?
+    # What does SVC mean?
+    support_vector_regression = svm.SVC()
+    classifier = grid_search.GridSearchCV(support_vector_regression, tuned_parameters, cv=2)
 
     coordinates = numpy.asarray( [ item[0] for item in training_items ] )
     labels      = numpy.asarray( [ item[1] for item in training_items ] )
 
+    print("Gonna fit my classifier. Wish me luck.")
     classifier.fit(coordinates, labels)
+
+    print("Best parameters found: ")
+    print(classifier.best_estimator_)
 
     return classifier
 
@@ -172,13 +182,14 @@ def main():
         correct_label  = test_item[1]
 
         prediction = classifier.predict(feature_vector)[0]
-        print("my prediction is " + prediction + " and the correct answer is " + correct_label + ".")
         
         if prediction != correct_label:
             mistakes[correct_label] = mistakes.get(correct_label, 0) + 1
 
+    number_of_mistakes = sum(mistakes.values())
     pretty_print(mistakes) 
     print("I made " + str(sum(mistakes.values())) + " mistakes on " + str(len(test_items)) + " test items.")
+    print("That's a hit percentage of " + str((1 - number_of_mistakes / len(test_items)) * 100))
 
 main()
 
