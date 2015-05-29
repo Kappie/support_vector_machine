@@ -2,8 +2,8 @@ import io
 import os
 
 BLOCK_SIZE = 512
-SOURCE_DIRS = ["data/html"]
-TARGET_DIRS = ["data/fragmented_html"]
+SOURCE_DIRS = ["data/txt", "data/xls", "data/xml", "data/ps", "data/ppt", "data/eps"]
+#TARGET_DIRS = ["data/fragmented_html"]
 
 def chunks(string, size):
     return [ string[i:i + size] for i in range(0, len(string), size) ]
@@ -22,6 +22,7 @@ def fragmentize_all_files_in_dir(source_dir, target_dir):
                target_file.write(chunk)
 
 for source_dir in SOURCE_DIRS:
+    print("starting with " + source_dir + ".")
     # Put fragments from data/log into data/fragmented_log
     rest, base_name = os.path.dirname(source_dir), os.path.basename(source_dir)
     target_dir = os.path.join(rest, "fragmented_" + base_name)

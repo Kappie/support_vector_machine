@@ -4,18 +4,33 @@ import backports.lzma as lzma
 import os
 import io
 import pprint
-from sklearn import datasets
-from sklearn import svm
 import numpy
 import pdb
 import pickle
 import random
+from sklearn import svm
+from sklearn import cross_validation
+from sklearn import grid_search
+from sklearn import metrics
 
 
 BASE_DIR = "data"
-DIRECTORIES = ["fragmented_log", "fragmented_doc", "fragmented_html", "fragmented_csv", "fragmented_pdf"]
+DIRECTORIES = [
+    "fragmented_log",
+    "fragmented_doc",
+    "fragmented_html",
+    "fragmented_csv",
+    "fragmented_pdf",
+    "fragmented_txt",
+    "fragmented_xls",
+    "fragmented_xml",
+    "fragmented_ps",
+    "fragmented_ppt",
+    "fragmented_eps"
+]
+
 ANCHORS_PER_TYPE = 10
-TEST_SAMPLES_PER_TYPE = 200
+TEST_SAMPLES_PER_TYPE = 100
 TRAINING_SAMPLES_PER_TYPE = 400
 
 contents = {}
@@ -60,6 +75,8 @@ def extract_data_items(training_samples, anchors):
         feature_vector = extract_features(sample, anchors)
         label = os.path.splitext(sample)[1]
         data_items.append([feature_vector, label])
+        if random.random() < 0.05:
+            print("I'm busy with a " + label + " file.")
 
     return data_items 
 
@@ -78,7 +95,12 @@ def pretty_print(obj):
 
 
 def generate_classifier(training_items):
-    classifier = svm.SVC(kernel="rbf", C = 32, gamma = 8)
+    tuned_parameters = [
+        {'kernel': ['rbf'], 'gamma': [1e-3, 1e-4], 'C': [1, 10, 100, 1000]},
+        {'kernel': ['linear'], 'C': [1, 10, 100, 1000]}
+    ]
+
+    classifier = svm.SVC(kernel="rbf", C=32, gamma=8)
 
     coordinates = numpy.asarray( [ item[0] for item in training_items ] )
     labels      = numpy.asarray( [ item[1] for item in training_items ] )
@@ -143,7 +165,7 @@ def main():
 
     classifier = generate_classifier(training_items)
 
-    mistakes = 0
+    mistakes = {}
 
     for test_item in test_items:
         feature_vector = test_item[0]
@@ -153,9 +175,10 @@ def main():
         print("my prediction is " + prediction + " and the correct answer is " + correct_label + ".")
         
         if prediction != correct_label:
-            mistakes += 1
+            mistakes[correct_label] = mistakes.get(correct_label, 0) + 1
 
-    print("I made " + str(mistakes) + " mistakes on " + str(len(test_items)) + " test items.")
+    pretty_print(mistakes) 
+    print("I made " + str(sum(mistakes.values())) + " mistakes on " + str(len(test_items)) + " test items.")
 
 main()
 
