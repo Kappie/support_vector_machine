@@ -12,27 +12,24 @@ from sklearn import svm
 from sklearn import cross_validation
 from sklearn import grid_search
 from sklearn import metrics
+from sklearn import preprocessing
+import multiprocessing
+from multiprocessing import Pool
 
 
 BASE_DIR = "data"
-DIRECTORIES = ["fragmented_pdf", "fragmented_xml"]
-#DIRECTORIES = [
-    #"fragmented_log",
-    #"fragmented_doc",
-    #"fragmented_html",
-    #"fragmented_csv",
-    #"fragmented_pdf",
+#DIRECTORIES = ["fragmented_log", "fragmented_doc"]
+DIRECTORIES = [
+    "fragmented_log",
+    "fragmented_html",
+    "fragmented_csv",
     #"fragmented_txt",
-    #"fragmented_xls",
-    #"fragmented_xml",
-    #"fragmented_ps",
-    #"fragmented_ppt",
-    #"fragmented_eps"
-#]
+    "fragmented_xml",
+]
 
-ANCHORS_PER_TYPE = 20
-TEST_SAMPLES_PER_TYPE = 1000
-TRAINING_SAMPLES_PER_TYPE = 1000
+ANCHORS_PER_TYPE = 5
+TEST_SAMPLES_PER_TYPE = 100
+TRAINING_SAMPLES_PER_TYPE = 200
 
 contents = {}
 compressed_sizes = {}
@@ -48,7 +45,12 @@ def prepare_data():
         training_samples += training_set
         test_samples += test_set
 
-    compressed_sizes.update( { file_name : Z(contents[file_name]) for file_name in contents } )
+    print("Compressing all files.")
+    p = Pool()
+    sizes = p.map( compress_file, contents.keys() )
+    compressed_sizes.update(sizes)
+    #compressed_sizes.update( { file_name : Z(contents[file_name]) for file_name in contents } )
+    print("Done compressing all files.")
      
     training_items = extract_data_items(training_samples, anchors)
     test_items     = extract_data_items(test_samples, anchors)
@@ -68,18 +70,28 @@ def partition(directory):
 
     return [anchors, training_samples, test_samples]
 
+def compress_file(file_name):
+   return [file_name, Z( contents[file_name] )] 
+
 
 def extract_data_items(training_samples, anchors):
-    data_items = []
 
-    for sample in training_samples:
-        feature_vector = extract_features(sample, anchors)
-        label = os.path.splitext(sample)[1]
-        data_items.append([feature_vector, label])
-        if random.random() < 0.05:
-            print("I'm busy with a " + label + " file.")
+    p = Pool()
+    data_items = p.map( extract_data_item, [[sample, anchors] for sample in training_samples] )
+
+    #for sample in training_samples:
+        #feature_vector = extract_features(sample, anchors)
+        #label = os.path.splitext(sample)[1]
+        #data_items.append([feature_vector, label])
 
     return data_items 
+
+def extract_data_item(args):
+    sample, anchors = args
+    feature_vector = extract_features(sample, anchors)
+    label = os.path.splitext(sample)[1]
+    return [feature_vector, label]
+
 
 def extract_features(sample, anchors):
     return [ ncd(sample, anchor) for anchor in anchors ]
@@ -99,25 +111,34 @@ def generate_classifier(training_items):
     random.shuffle(training_items)
 
     tuned_parameters = [
-        {'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(4, 6, 0.2)], 'C': [2 ** n for n in numpy.arange(4, 6, 0.2)] }
+        #{'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(-8, 2, 1)], 'C': [2 ** n for n in numpy.arange(-8, 2, 1)] }
+        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-8, 3, 1) ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } 
         #{'kernel': ['linear'], 'C': [1, 10, 100, 1000]}
     ]
 
     # What does support vector regression (svr) do or mean?
     # What does SVC mean?
-    support_vector_regression = svm.SVC()
-    classifier = grid_search.GridSearchCV(support_vector_regression, tuned_parameters, cv=2)
+    support_vector_classifier = svm.SVC()
+    classifier = grid_search.GridSearchCV(support_vector_classifier, tuned_parameters, cv=2)
+
+    #classifier = svm.SVC(kernel="rbf", gamma=4, C=1)
 
     coordinates = numpy.asarray( [ item[0] for item in training_items ] )
     labels      = numpy.asarray( [ item[1] for item in training_items ] )
 
+    scaler = preprocessing.StandardScaler().fit(coordinates)
+    scaled_coordinates = scaler.transform(coordinates)
+
     print("Gonna fit my classifier. Wish me luck.")
-    classifier.fit(coordinates, labels)
+    #classifier.fit(scaled_coordinates, labels)
+    classifier.fit(scaled_coordinates, labels)
+    print("Done fitting.")
 
     print("Best parameters found: ")
     print(classifier.best_estimator_)
 
-    return classifier
+    return [classifier, scaler]
+
 
 
 lzma_filters = my_filters = [
@@ -173,13 +194,18 @@ def main():
         training_items, test_items = prepare_data()
         serialize(training_items, test_items)
 
-    classifier = generate_classifier(training_items)
+    classifier, scaler = generate_classifier(training_items)
+
+    coordinates = numpy.asarray( [ item[0] for item in test_items ] )
+    labels      = numpy.asarray( [ item[1] for item in test_items ] )
+
+    scaled_test_items = scaler.transform(coordinates)
 
     mistakes = {}
 
-    for test_item in test_items:
-        feature_vector = test_item[0]
-        correct_label  = test_item[1]
+    for i in range(len(labels)):
+        feature_vector = scaled_test_items[i]
+        correct_label  = labels[i]
 
         prediction = classifier.predict(feature_vector)[0]
         

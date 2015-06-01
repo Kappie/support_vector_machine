@@ -2,7 +2,15 @@ import io
 import os
 
 BLOCK_SIZE = 512
-SOURCE_DIRS = ["data/txt", "data/xls", "data/xml", "data/ps", "data/ppt", "data/eps"]
+SOURCE_DIRS = [
+    "data/csv",
+    "data/log",
+    "data/txt",
+    "data/ps" ,
+    "data/xml",
+    "data/html",
+    "data/jpg"
+]
 #TARGET_DIRS = ["data/fragmented_html"]
 
 def chunks(string, size):
@@ -15,8 +23,9 @@ def fragmentize_all_files_in_dir(source_dir, target_dir):
         content = open(source_path).read()
         name, extension = os.path.splitext(source_file)
 
-        # Drop last chunk. I only want blocks of the same size.
-        for index, chunk in enumerate( chunks(content, BLOCK_SIZE)[:-1] ):
+        assert extension
+        # Drop first and last chunk. I only want blocks of the same size and no metadata / headers.
+        for index, chunk in enumerate( chunks(content, BLOCK_SIZE)[1:][:-1] ):
            target_path = os.path.join(target_dir, name + "_" + str(index) + extension)
            with open(target_path, "wb") as target_file:
                target_file.write(chunk)
