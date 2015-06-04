@@ -1,15 +1,15 @@
 import io
 import os
 
-BLOCK_SIZE = 512
+BLOCK_SIZE = 4096
 SOURCE_DIRS = [
-    "data/csv",
-    "data/log",
-    "data/txt",
-    "data/ps" ,
-    "data/xml",
-    "data/html",
-    "data/jpg"
+        "data/gz",
+        "data/csv",
+        "data/xml",
+        "data/csv",
+        "data/log",
+        "data/txt",
+        "data/jpg"
 ]
 #TARGET_DIRS = ["data/fragmented_html"]
 
@@ -34,6 +34,6 @@ for source_dir in SOURCE_DIRS:
     print("starting with " + source_dir + ".")
     # Put fragments from data/log into data/fragmented_log
     rest, base_name = os.path.dirname(source_dir), os.path.basename(source_dir)
-    target_dir = os.path.join(rest, "fragmented_" + base_name)
+    target_dir = os.path.join(rest, "fragmented_4096_" + base_name)
 
     fragmentize_all_files_in_dir(source_dir, target_dir)

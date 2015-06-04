@@ -18,18 +18,22 @@ from multiprocessing import Pool
 
 
 BASE_DIR = "data"
-#DIRECTORIES = ["fragmented_log", "fragmented_doc"]
+#DIRECTORIES = ["fragmented_4096_csv", "fragmented_4096_jpg"]
+
 DIRECTORIES = [
-    "fragmented_log",
-    "fragmented_html",
-    "fragmented_csv",
+    #"fragmented_4096_log",
+    #"fragmented_html",
+    #"fragmented_4096_csv",
     #"fragmented_txt",
-    "fragmented_xml",
+    #"fragmented_4096_xml",
+    "fragmented_4096_jpg",
+    "fragmented_4096_gz"
 ]
 
-ANCHORS_PER_TYPE = 5
+
+ANCHORS_PER_TYPE = 10
 TEST_SAMPLES_PER_TYPE = 100
-TRAINING_SAMPLES_PER_TYPE = 200
+TRAINING_SAMPLES_PER_TYPE = 400
 
 contents = {}
 compressed_sizes = {}
@@ -77,14 +81,13 @@ def compress_file(file_name):
 def extract_data_items(training_samples, anchors):
 
     p = Pool()
-    data_items = p.map( extract_data_item, [[sample, anchors] for sample in training_samples] )
+    return p.map( extract_data_item, [[sample, anchors] for sample in training_samples] )
 
     #for sample in training_samples:
         #feature_vector = extract_features(sample, anchors)
         #label = os.path.splitext(sample)[1]
         #data_items.append([feature_vector, label])
 
-    return data_items 
 
 def extract_data_item(args):
     sample, anchors = args
@@ -112,14 +115,14 @@ def generate_classifier(training_items):
 
     tuned_parameters = [
         #{'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(-8, 2, 1)], 'C': [2 ** n for n in numpy.arange(-8, 2, 1)] }
-        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-8, 3, 1) ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } 
-        #{'kernel': ['linear'], 'C': [1, 10, 100, 1000]}
+        #{'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-6, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(1, 8, 1) ] } ,
+        {'kernel': ['linear'], 'C': [ 2 ** n for n in numpy.arange(-1, 4, 1) ]}
     ]
 
     # What does support vector regression (svr) do or mean?
     # What does SVC mean?
     support_vector_classifier = svm.SVC()
-    classifier = grid_search.GridSearchCV(support_vector_classifier, tuned_parameters, cv=2)
+    classifier = grid_search.GridSearchCV(support_vector_classifier, tuned_parameters, cv=3)
 
     #classifier = svm.SVC(kernel="rbf", gamma=4, C=1)
 
@@ -211,6 +214,7 @@ def main():
         
         if prediction != correct_label:
             mistakes[correct_label] = mistakes.get(correct_label, 0) + 1
+            print("I predicted a " + prediction + " file, but it was a " + correct_label + ".")
 
     number_of_mistakes = sum(mistakes.values())
     pretty_print(mistakes) 
