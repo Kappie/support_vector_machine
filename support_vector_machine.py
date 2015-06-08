@@ -19,21 +19,21 @@ from multiprocessing import Pool
 
 BASE_DIR = "data"
 #DIRECTORIES = ["fragmented_4096_csv", "fragmented_4096_jpg"]
-
-DIRECTORIES = [
+DIRECTORIES = ["fragmented_csv", "fragmented_jpg"]
+#DIRECTORIES = [
     #"fragmented_4096_log",
     #"fragmented_html",
     #"fragmented_4096_csv",
     #"fragmented_txt",
     #"fragmented_4096_xml",
-    "fragmented_4096_jpg",
-    "fragmented_4096_gz"
-]
+    #"fragmented_4096_jpg",
+    #"fragmented_4096_gz"
+#]
 
 
-ANCHORS_PER_TYPE = 10
-TEST_SAMPLES_PER_TYPE = 100
-TRAINING_SAMPLES_PER_TYPE = 400
+ANCHORS_PER_TYPE = 2
+TEST_SAMPLES_PER_TYPE = 500
+TRAINING_SAMPLES_PER_TYPE = 1000
 
 contents = {}
 compressed_sizes = {}
@@ -115,14 +115,16 @@ def generate_classifier(training_items):
 
     tuned_parameters = [
         #{'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(-8, 2, 1)], 'C': [2 ** n for n in numpy.arange(-8, 2, 1)] }
-        #{'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-6, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(1, 8, 1) ] } ,
-        {'kernel': ['linear'], 'C': [ 2 ** n for n in numpy.arange(-1, 4, 1) ]}
+        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-8, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(1, 10, 1) ] } ,
+        #{'kernel': ['linear'], 'C': [ 2 ** n for n in numpy.arange(-10, 10, 1) ]}
+        #{'kernel': ['poly'], 'degree': [1, 2, 3, 4, 5], 'coef0': [1, 5, 25, 125], 'C': [1, 10, 100]}
+        
     ]
 
     # What does support vector regression (svr) do or mean?
     # What does SVC mean?
     support_vector_classifier = svm.SVC()
-    classifier = grid_search.GridSearchCV(support_vector_classifier, tuned_parameters, cv=3)
+    classifier = grid_search.GridSearchCV(support_vector_classifier, tuned_parameters, cv=2)
 
     #classifier = svm.SVC(kernel="rbf", gamma=4, C=1)
 
@@ -189,7 +191,7 @@ def deserialize():
         return None
 
 def main():
-    deserialized_vectors = deserialize()
+    deserialized_vectors = False#deserialize()
     if deserialized_vectors:
         training_items, test_items = deserialized_vectors
     else:
