@@ -23,16 +23,16 @@ BASE_DIR = "data"
 DIRECTORIES = [
         "fragmented_csv",
         "fragmented_jpg",
-        "fragmented_txt",
+        #"fragmented_txt",
         "fragmented_log",
-        "fragmented_xml",
+        #"fragmented_xml",
         "fragmented_html"
 ]
 
 
-ANCHORS_PER_TYPE = 2
+ANCHORS_PER_TYPE = 10
 TEST_SAMPLES_PER_TYPE = 500
-TRAINING_SAMPLES_PER_TYPE = 500
+TRAINING_SAMPLES_PER_TYPE = 3000
 
 contents = {}
 compressed_sizes = {}
@@ -114,9 +114,9 @@ def generate_classifier(training_items):
 
     tuned_parameters = [
         #{'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(-8, 2, 1)], 'C': [2 ** n for n in numpy.arange(-8, 2, 1)] }
-        #{'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-7, 0, 1) ], 'C': [ 2 ** n for n in numpy.arange(0, 6, 1) ] } ,
+        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-7, 0, 1) ], 'C': [ 2 ** n for n in numpy.arange(0, 6, 1) ] } ,
         #{'kernel': ['linear'], 'C': [ 2 ** n for n in numpy.arange(-10, 10, 1) ]}
-        {'kernel': ['poly'], 'degree': [1, 2, 3, 4, 5], 'coef0': [1, 5, 25, 125], 'C': [1, 10, 100]}
+        #{'kernel': ['poly'], 'degree': [1, 2, 3, 4, 5], 'coef0': [1, 5, 25, 125], 'C': [1, 10, 100]}
         
     ]
 
