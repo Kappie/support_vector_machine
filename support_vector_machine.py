@@ -19,21 +19,20 @@ from multiprocessing import Pool
 
 BASE_DIR = "data"
 #DIRECTORIES = ["fragmented_4096_csv", "fragmented_4096_jpg"]
-DIRECTORIES = ["fragmented_csv", "fragmented_jpg"]
-#DIRECTORIES = [
-    #"fragmented_4096_log",
-    #"fragmented_html",
-    #"fragmented_4096_csv",
-    #"fragmented_txt",
-    #"fragmented_4096_xml",
-    #"fragmented_4096_jpg",
-    #"fragmented_4096_gz"
-#]
+#DIRECTORIES = ["fragmented_gz", "fragmented_jpg"]
+DIRECTORIES = [
+        "fragmented_csv",
+        "fragmented_jpg",
+        "fragmented_txt",
+        "fragmented_log",
+        "fragmented_xml",
+        "fragmented_html"
+]
 
 
 ANCHORS_PER_TYPE = 2
 TEST_SAMPLES_PER_TYPE = 500
-TRAINING_SAMPLES_PER_TYPE = 1000
+TRAINING_SAMPLES_PER_TYPE = 500
 
 contents = {}
 compressed_sizes = {}
@@ -115,9 +114,9 @@ def generate_classifier(training_items):
 
     tuned_parameters = [
         #{'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(-8, 2, 1)], 'C': [2 ** n for n in numpy.arange(-8, 2, 1)] }
-        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-8, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(1, 10, 1) ] } ,
+        #{'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-7, 0, 1) ], 'C': [ 2 ** n for n in numpy.arange(0, 6, 1) ] } ,
         #{'kernel': ['linear'], 'C': [ 2 ** n for n in numpy.arange(-10, 10, 1) ]}
-        #{'kernel': ['poly'], 'degree': [1, 2, 3, 4, 5], 'coef0': [1, 5, 25, 125], 'C': [1, 10, 100]}
+        {'kernel': ['poly'], 'degree': [1, 2, 3, 4, 5], 'coef0': [1, 5, 25, 125], 'C': [1, 10, 100]}
         
     ]
 
