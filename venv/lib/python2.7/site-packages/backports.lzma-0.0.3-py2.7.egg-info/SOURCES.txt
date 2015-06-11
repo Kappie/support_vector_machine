@@ -1,0 +1,8 @@
+backports/__init__.py
+backports.lzma.egg-info/PKG-INFO
+backports.lzma.egg-info/SOURCES.txt
+backports.lzma.egg-info/dependency_links.txt
+backports.lzma.egg-info/top_level.txt
+backports/lzma/__init__.py
+backports/lzma/_lzmamodule.c
+test/test_lzma.py
