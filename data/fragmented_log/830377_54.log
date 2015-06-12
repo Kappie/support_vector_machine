@@ -1,0 +1,9 @@
+image2=no
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > select events "grade==0||(grade>=2&&grade<=4)" save_file=no
+The select output will overwrite the cleaned event list
+     if you have not saved it already.
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > extract "event image"
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > save obscat 76052020_sis1 clobberit = yes
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > $rm -f ascascreen_sis1*.cat 76052020_sis1_list.tmp 76052020_sis1_obscat.lis
+ Spawning...
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > save all 

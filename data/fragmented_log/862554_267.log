@@ -1,0 +1,14 @@
+etting 1st PHA channel to 0
+Making v1.1 1180x512 S0C1 Bright PI RMF
+Calibration data files:
+  ecd = /software/lheasoft/release/refdata/sisdata/sis0c1p40_290296.fits
+  cti = /software/lheasoft/release/refdata/sisdata/sisph2pi_110397.fits
+ echo = /software/lheasoft/release/refdata/sisdata/sisechos_290296.fits
+  rdd = /software/lheasoft/release/refdata/sisdata/sisrddis_290296.fits
+Please stand by...
+...Done.
+gnt_infrm: Creating response matrix for sis1...
+ 
+Sisrmg Version 1.1, Configured 04/97
+
+  This version 

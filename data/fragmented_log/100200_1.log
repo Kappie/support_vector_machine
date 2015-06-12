@@ -1,0 +1,6 @@
+ing the mdsupdate script "fix-MDSConfig-gk01.swt2.uta.edu-get-new-atlaskit-AtlasProduction-14.2.0-i686-slc4-gcc34-opt-2008-06-16T13-0400-25572" to remote site "gk01.swt2.uta.edu". 
+Sending the testrun script "KVtest.sh" to remote site "gk01.swt2.uta.edu". 
+Sending the AGLT2 patch script "copy_libs_ATLAS.sh" to remote site "gk01.swt2.uta.edu". 
+Sending the atlas_error_ignore.db file to remote site "gk01.swt2.uta.edu". 
+Running the install script in "/ifs0/osg/app" on "gk01.swt2.uta.edu"
+hostname is  gk01.swt

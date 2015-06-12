@@ -1,0 +1,10 @@
+ernal
+/External/SITE 	 /External/SITE  	 External
+/Test/TestApp 	 /Test/TestApp  	 Test
+/Generators/RadioActivity/Thorium 	 /Generators/RadioActivity/Thorium  	 Generators
+/Test/UnitTest 	 /Test/UnitTest  	 Test
+/Generators/RadioActivity/Uranium 	 /Generators/RadioActivity/Uranium  	 Generators
+/Base/Util 	 /Base/Util  	 Base
+/External/XERCES 	 /External/XERCES  	 External
+Sorted bases: AutoDoc Base DataStructure DybGaudi DybPolicy Everything External Generators Test dywRecon
+Sorted packages: /AutoDoc /Auto

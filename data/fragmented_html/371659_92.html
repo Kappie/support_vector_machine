@@ -1,0 +1,15 @@
+
+ 
+         WRITE (*,*) 'Enter planetocentric latitude of the '        //
+        .            'observer (degrees)'
+         READ   *,    OBSLAT
+ 
+         OBSLON = <a href="../spicelib/rpd.html">RPD</a>() * OBSLON
+         OBSLAT = <a href="../spicelib/rpd.html">RPD</a>() * OBSLAT
+ 
+   C
+   C     Look up the radii used in the ellipsoidal models of the
+   C     Earth and Jupiter.
+   C
+         CALL <a href="../spicelib/bodvar.html">BODVAR</a> ( 399, 'RADII', N, REARTH )
+         CALL <a href="../spicelib/bo

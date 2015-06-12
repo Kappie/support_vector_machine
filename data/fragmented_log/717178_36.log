@@ -1,0 +1,12 @@
+***************** 
+save 1514-241_S
+! Writing UV FITS file: 1514-241_S.uvf
+! Writing 199 model components to file: 1514-241_S.mod
+! wwins: Wrote 6 windows to 1514-241_S.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 2.845 x 9.274 at -11.72 degrees (North through East)
+! Clean map  min=-0.0059745  max=1.9324 Jy/beam
+! Writing clean map to FITS file: 1514-241_S.fits
+! Writing difmap environment to: 1514-241_S.par
+print "****************************"
+! ********

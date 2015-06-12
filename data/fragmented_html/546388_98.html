@@ -1,0 +1,23 @@
+f=gWtId;
+			}
+			else if ((typeof(gTempWtId)!="undefined")&&(gTempWtId!="")){
+				WT.co_f=gTempWtId;
+				WT.vt_f="1";
+			}
+			else{
+				WT.co_f="2";
+				var curt=dCur.getTime().toString();
+				for (var i=2;i<=(32-curt.length);i++){
+					WT.co_f+=Math.floor(Math.random()*16.0).toString(16);
+				}
+				WT.co_f+=curt;
+				WT.vt_f="1";
+			}
+			if (typeof(gWtAccountRollup)=="undefined"){
+				WT.vt_f_a="1";
+			}
+			WT.vt_f_s=WT.vt_f_d="1";
+			WT.vt_f_tlh=WT.vt_f_tlv="0";
+		}
+		else{
+			var c=

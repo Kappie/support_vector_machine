@@ -1,0 +1,19 @@
+s1[frame].complete) {
+  document.animation1.src=images1[frame].src;
+  document.animation2.src=images2[frame].src;
+  document.form.frame.value="Displaying "+j+" of "+imax;
+  if (swingon && (j == (rstop+1) || frame == rstart)) reverse();
+  timeout_id=setTimeout("animate()",delay);
+  playing=1;
+ }
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function rewind() // rewind frames
+{
+ var j;
+ if (timeout_id) clearTimeout(timeout_id); timeout_id=null;
+ playing=0;
+ frame=rstart;
+ j=f

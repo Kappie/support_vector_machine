@@ -1,0 +1,5 @@
+altzberg and Worcester -->
+
+
+<!-- Date: Wed Jul 25 01:34:16 2001 -->
+We got the system back from L2/Silicon.  Added CCAL08 (with slot 4 masked out) and SVT07 (slot 11 added) to run.  Per Arnds request we try to change partitions to 1.  We are unable to start a run.  Verified with Ilya that EVB doesn't see any triggers.  When the plug sourcing is finished for the night and we have the entire L3 system in one partition we will try to clean up EVB and attempt runs in partition 1 again.  (runs 121529,121531,121

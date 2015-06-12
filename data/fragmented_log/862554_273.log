@@ -1,0 +1,22 @@
+axchan(nocom) 67
+ numchan(nocom) 47
+ minchan(nocom) 68
+ maxchan(nocom) 171
+ numchan(nocom) 104
+ minchan(nocom) 172
+ maxchan(nocom) 240
+ numchan(nocom) 69
+ minchan(nocom) 241
+ maxchan(nocom) 343
+ numchan(nocom) 103
+ ...... exiting, changes written to file : 72016000_sis0_4_ch.pha
+ ** grppha 2.9.0 completed successfully
+ 
+gnt_infrm: Creating efficiency map for sis0...
+ 
+ASCAEFFMAP vers 2.27  5 May 1999.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+ 
+  193 grouped channels from the PHA file
+ 
+ Bin si

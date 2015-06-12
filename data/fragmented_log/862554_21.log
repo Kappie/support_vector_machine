@@ -1,0 +1,15 @@
+BGD rejection criterion
+I will start up SAOImage, and leave you in Xselect at the end
+Removing ring and calibration sources
+    Using the region:
+     CIRCLE(128.50,128.50,88.00)
+    -ELLIPSE(167.50,220.00,24.66,28.95,245.298)
+
+Writing command file 72016000_gis2.xco
+Index  NEVENTS   ONTIME  RAWXBINS RISEBINS TIMEBINS PHA_BINS  POS_DET
+    0    30614  30649.9       256       32        1     1024      FLF
+Using Rise Time window bkgd. rejection
+Command file written, goodbye
+
+
+                  ****** ASCASCREE

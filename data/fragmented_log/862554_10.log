@@ -1,0 +1,16 @@
+ lststr='ad*g3*.unf'
+''Using default selection expression: ONTIME>100&&NEVENTS>0&&HV_RED=='OFF'&&HVH_LVL==3&&HVL_LVL==4&&COORDPRO!='ERROR'&&INSTRUME=='GIS3'
+!cat:ASCA-GIS3 > save obscat g3.cat clobber=yes
+!cat:ASCA-GIS3 > exit save=no
+gnt_infrm: Makefilter file is: /tproc/nandra/processing/72016000/aux/ft940819_1644_0520.mkf
+ 
+gnt_infrm: Determining datamode...
+ 
+gnt_infrm: Determining BR_EARTH angle...
+ 
+rm: No match.
+rm: No match.
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_cats
+g

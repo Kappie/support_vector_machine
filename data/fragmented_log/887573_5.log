@@ -1,0 +1,13 @@
+
+      Number of atoms: 2771
+      Common with "A": 2717
+      Number of chains: 2
+        Number of residues, atoms: 302, 2333
+          Classifications: {'peptide': 302}
+          Modifications used: {'COO': 1}
+          Link IDs: {'PTRANS': 7, 'CIS': 1, 'TRANS': 293}
+          bond proxies already assigned to first conformer: 2332
+        Number of residues, atoms: 438, 438
+          Classifications: {'water': 438}
+          Link IDs: {None: 437}
+  Time building chain proxies: 3.26, per 1000 atoms: 1.15

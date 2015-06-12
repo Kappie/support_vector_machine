@@ -1,0 +1,15 @@
+t 72016000_sis0_list.tmp 72016000_sis0_obscat.lis
+ Spawning...
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > save all 72016000_sis0 clobberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 72016000_sis0.img
+ 
+Saving the Cleaned events list(s):
+Wrote cleaned events file to 72016000_sis0.evt
+ 
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/72016000/unscreened/
+to the current working directory.
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > clear mkf
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > set dumpca

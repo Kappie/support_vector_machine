@@ -1,0 +1,11 @@
+21:!+3s
+2001.296.06:37:49.22:tape
+2001.296.06:37:49.34/tape/off,04915,norm,moving,stop,unlock,ready,rem
+2001.296.06:37:49.34:postob
+2001.296.06:37:49.35:scan_name=296-0640
+2001.296.06:37:49.36:source=1255-316,125515.2,-313905.0,1950.0
+2001.296.06:37:49.37#antcn#Commanding to new source
+2001.296.06:37:51.21#antcn#Source:  1255-316  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.06:37:51.21#antcn# RAcommand  194.510   DECcommand -31.927
+2001.296.06:37:51.22:4f8m12a=8
+2001.296.06:37:51.91/pass/8,8,auto,175.0,17

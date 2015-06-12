@@ -1,0 +1,3 @@
+ter-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT reader1.o -MD -MP -MF .deps/reader1.Tpo -c -o reader1.o reader1.c
+mv -f .deps/reader1.Tpo .deps/reader1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-alig

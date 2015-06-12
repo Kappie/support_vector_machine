@@ -1,0 +1,18 @@
+ad:  Region      Time     Phase       Cut
+          2490       695            733         0         0      1062
+   in  33571.     seconds
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel]
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!xsel:ASCA > clear all proceed=yes	
+	WARNING: CLEAR ALL will remove all temporary files
+!xsel > set datadir ./
+ 
+Setting data 

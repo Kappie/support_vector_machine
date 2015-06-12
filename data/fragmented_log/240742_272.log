@@ -1,0 +1,10 @@
+norm,moving,stop,unlock,ready,rem
+2001.295.22:04:26.32:postob
+2001.295.22:04:26.33:scan_name=295-2209a
+2001.295.22:04:26.34:source=cta26,033658.9,-015616.9,1950.0
+2001.295.22:04:26.35#antcn#Commanding to new source
+2001.295.22:04:28.15#antcn#Source:  cta26  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.295.22:04:28.15#antcn# RAcommand   54.902   DECcommand  -1.770
+2001.295.22:04:28.17:4f8m12a=3
+2001.295.22:04:28.89/pass/3,3,auto,-271.0,-271.0,-271.0,-271.1,0.0,-0.1
+2001.295.22:04:33.92/form/debug:0x0027 0x0000 

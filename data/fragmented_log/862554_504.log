@@ -1,0 +1,11 @@
+uared =      5.422161     for    323 degrees of freedom
+ Null hypothesis probability =  0.00
+
+!XSPEC> fit 25;
+ Chi-Squared    Lvl  Fit param # 1     2           3           4
+                 5           6           7
+   1317.15     -3      1.000      3.3566E-02  0.6158      4.9483E-04
+               1.073       1.136       1.158
+   436.798     -4      1.000      0.2371       1.327      7.3682E-04
+               1.035       1.089       1.132
+   393.252     -2      1.000      0.3458       1.600      9.9706E-

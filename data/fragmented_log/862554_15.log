@@ -1,0 +1,16 @@
+rt up SAOImage, and leave you in Xselect at the end
+Writing command file 72016000_sis0.xco
+Index  NEVENTS   ONTIME  S0CCDMOD S0CCDLST S0_ARENA
+    0   213136  21671.1         2     0101        0
+Removing Hot and Flickering Pixels.
+Performing Grade selection ( keeping 0,2,3, and 4 ).
+Command file written, goodbye
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Applies standard clean criteria to all modes of ASCA data.
+
+Output:
+   -- A single cleaned events file (.evt) except in MPC mode 
+   -- An image 

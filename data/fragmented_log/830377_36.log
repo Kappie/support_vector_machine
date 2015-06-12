@@ -1,0 +1,12 @@
+data directory to /local/data/tproc/nandra/processing/76052020/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/76052020/aux/
+ 
+!ascascreen_sis0:ASCA-SIS0 > set dumpcat
+Obscat listing off
+!ascascreen_sis0:ASCA-SIS0 > set datamode BRIGHT2
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > make obscat cat_filt=@76052020_sis0_obscat.sel lststr = '[af][dt]*[Ss]0*[HhMmLl].unf'
+''!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > choose 1-** switch=yes
+ 
+   Setting datamode to BRIGHT2
+ 
+Got the minimum time resolutio

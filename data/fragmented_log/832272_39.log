@@ -1,0 +1,16 @@
+ Jy
+! Total flux subtracted in 200 components = -0.00055084 Jy
+! Clean residual min=-0.005441 max=0.005150 Jy/beam
+! Clean residual mean=-0.000281 rms=0.001408 Jy/beam
+! Combined flux in latest and established models = 0.253939 Jy
+selfcal false, false, phase_soltime
+! Performing phase self-cal over 0.5 minute time intervals
+! Adding 21 model components to the UV plane model.
+! The established model now contains 58 components and 0.253939 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+!

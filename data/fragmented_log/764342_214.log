@@ -1,0 +1,13 @@
+_aniso   =  0
+n_grad_occupancy =  106
+n_grad_fp        =  0
+n_grad_fdp       =  0
+n_anisotropic_flag =  0
+total number of scatterers =  2823
+
+Writing 2mFobs-DFmodel XPLOR map to file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_1019/model_refine_001_2mFobs-DFmodel.map
+Writing mFobs-DFmodel XPLOR map to file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_1019/model_refine_001_mFobs-DFmodel.map
+Writing map coefficients to MTZ file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_1019/m

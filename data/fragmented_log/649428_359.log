@@ -1,0 +1,6 @@
+644 './xml2-config.1' '/usr/local/cdat/Externals/share/man/man1/xml2-config.1'
+test -z "/usr/local/cdat/Externals/share/man/man3" || /bin/mkdir -p "/usr/local/cdat/Externals/share/man/man3"
+ /usr/bin/install -c -m 644 './libxml.3' '/usr/local/cdat/Externals/share/man/man3/libxml.3'
+test -z "/usr/local/cdat/Externals/lib/pkgconfig" || /bin/mkdir -p "/usr/local/cdat/Externals/lib/pkgconfig"
+ /usr/bin/install -c -m 644 'libxml-2.0.pc' '/usr/local/cdat/Externals/lib/pkgconfig/libxml-2.0.pc'
+make[3]: Leaving dir

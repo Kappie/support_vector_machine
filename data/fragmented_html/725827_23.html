@@ -1,0 +1,21 @@
+ocation.hostname;
+	DCS.dcsuri=window.location.pathname;
+	DCS.dcscfg="00000001";
+	if (window.location.search){
+		DCS.dcsqry=window.location.search;
+	}
+	if ((window.document.referrer!="")&&(window.document.referrer!="-")){
+		if (!(navigator.appName=="Microsoft Internet Explorer"&&parseInt(navigator.appVersion)<4)){
+			DCS.dcsref=window.document.referrer;
+		}
+	}
+}
+
+function A(N,V){
+	return "&"+N+"="+dcsEscape(V);
+}
+
+function dcsEscape(S){
+	if (typeof(RE)!="undefined"){
+		var retStr = new String(S);
+		for (R in

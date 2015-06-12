@@ -1,0 +1,17 @@
+es	
+	WARNING: CLEAR ALL will remove all temporary files
+!xsel > set datadir ./
+ 
+Setting data directory to /tproc/nandra/processing/76052020/work/
+Setting mkf directory to /tproc/nandra/processing/76052020/aux/
+ 
+!xsel > read e 76052020_gis3.evt
+ 
+Setting...
+ Image  keywords   = X          Y           with binning =    1
+ WMAP   keywords   = DETX       DETY        with binning =    1
+ Energy keywords   = PI                     with binning =    1
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max 

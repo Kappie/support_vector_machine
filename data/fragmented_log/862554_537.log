@@ -1,0 +1,7 @@
+ 3    8   powerlaw   PhoIndex            2.805     = par   3         2
+   11    4    8   powerlaw   norm               3.7463E-04 = par   4         2
+   12    5    9   wabs       nH       10^22     0.6602     = par   5         2
+   13    6   10   powerlaw   PhoIndex            1.658     = par   6         2
+   14    7   10   powerlaw   norm               1.1729E-03 = par   7         2
+   15    9   11   constant   factor              1.078     +/-  0.4303E-01   3
+   16    2   12   wabs       nH       10^22   

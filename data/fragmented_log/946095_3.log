@@ -1,0 +1,17 @@
+: 6..6
+! Reading IF 7 channels: 7..7
+! Reading IF 8 channels: 8..8
+startmod
+! Applying default point source starting model.
+! Performing phase self-cal
+! Adding 1 model components to the UV plane model.
+! The established model now contains 1 components and 1 Jy
+! 
+! Correcting IF 1.
+!  A total of 10 telescope corrections were flagged in sub-array 1.
+! 
+! Correcting IF 2.
+!  A total of 10 telescope corrections were flagged in sub-array 1.
+! 
+! Correcting IF 3.
+!  A total of 10 telescope corrections were flag

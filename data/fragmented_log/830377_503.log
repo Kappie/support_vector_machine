@@ -1,0 +1,8 @@
+  0.74 -0.66
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+  Model:  constant[1]*wabs[2]( powerlaw[3] )
+  Model Fit Model Component  Parameter  Unit     Value                    Data
+  par   par comp                                                          group
+    1    1    1   constant   factor              1.000     frozen            1
+    2    2    2   wabs       nH       10^22     0.1496     +

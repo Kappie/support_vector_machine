@@ -1,0 +1,14 @@
+m[geant] =I= [0m
+            You have successfully registered the following model factories.
+[0m[geant] =I= [0mRegistered model factories:
+[0m[geant] =I= [0m  generic
+[0m[geant] =I= [0m  drawByCharge
+[0m[geant] =I= [0m  drawByParticleID
+[0m[geant] =I= [0m  drawByOriginVolume
+[0m[geant] =I= [0m  drawByAttribute
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mRegistered filter factories:
+[0m[geant] =I= [0m  chargeFilter
+[0m[geant] =I= [0m  particleFilter
+[0m[geant] =I= [0m  originVolumeFilter
+[0m

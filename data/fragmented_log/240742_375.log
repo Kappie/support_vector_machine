@@ -1,0 +1,10 @@
+9:35.30/tape/off,06279,norm,moving,stop,unlock,ready,rem
+2001.295.23:59:35.30:postob
+2001.295.23:59:35.31:scan_name=296-0003b
+2001.295.23:59:35.32:source=0454-234,045457.3,-232928.3,1950.0
+2001.295.23:59:35.33#antcn#Commanding to new source
+2001.295.23:59:37.14#antcn#Source:  0454-234  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.295.23:59:37.15#antcn# RAcommand   74.283   DECcommand -23.409
+2001.295.23:59:37.17:4f8m12a=4
+2001.295.23:59:37.87/pass/4,4,auto,79.0,79.0,79.4,79.0,0.4,0.0
+2001.295.23:59:42.93/form/

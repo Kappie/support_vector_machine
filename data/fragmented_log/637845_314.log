@@ -1,0 +1,4 @@
+rCable_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:896: warning: unused variable 'CoSourceBox_phys'
+../Linux-i686/dywRPCLogicalVolume.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SITE/src"  -g -pi

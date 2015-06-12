@@ -1,0 +1,15 @@
+05:data_valid=on
+2003.308.17:30:00.06:midob
+2003.308.17:30:00.06&midob/onsource
+2003.308.17:30:00.06&midob/wth
+2003.308.17:30:00.06&midob/cable
+2003.308.17:30:00.06&midob/clkoff
+2003.308.17:30:00.06&midob/sy=run setcl &
+2003.308.17:30:00.06&midob/ifd
+2003.308.17:30:00.06&midob/if3
+2003.308.17:30:00.06&midob/vc06
+2003.308.17:30:00.06&midob/vc11
+2003.308.17:30:00.06&midob/tpi=formvc,formif
+2003.308.17:30:00.07&midob/caltemp=formvc,formif
+2003.308.17:30:00.07&midob/tsys=formvc,formif
+2003.308.17:30:00.07#antcn

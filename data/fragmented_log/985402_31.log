@@ -1,0 +1,20 @@
+ IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.117591Jy  sigma=0.556542
+! Fit after  self-cal, rms=0.106416Jy  sigma=0.507473
+! Inverting map and beam 
+! Estimated beam: bmin=0.9118 mas, bmaj=1.086 mas, bpa=80.41 degrees
+! Estimated noise=0.768226 mJy/beam.
+doamp = false
+solint = solint / (6.0/3.6)
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dyn

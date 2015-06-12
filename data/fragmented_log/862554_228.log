@@ -1,0 +1,14 @@
+** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/72016000/work/
+HK Directory is: /tproc/nandra/processing/72016000/work/
+ 
+!xsel:ASCA-GIS3-PH > set binsize 128
+!xsel:ASCA-GIS3-PH > set image sky
+!xsel:ASCA-GIS3-PH > set xybinsize 1
+!xsel:ASCA-GIS3-PH > extract image
+!xsel:ASCA-GIS3-PH > save image clobber=yes 72016000_gis3_sky.img
+Wrote image to file 72016000_gis3_sky.img
+!xsel:ASCA-GIS3-PH > set image det
+!xsel:ASCA-GIS3-PH > filter region 72016000_gis3_bgd.reg
+!x

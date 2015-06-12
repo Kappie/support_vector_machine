@@ -1,0 +1,11 @@
+can_name=350-1225,euro74,138,138
+2004.350.12:23:08.92:source=0602+673,060752.67,672055.4,2000.0,ccw
+2004.350.12:23:08.92#flagr#flagr/antenna,new-source
+2004.350.12:23:08.92:setupsx
+2004.350.12:23:08.92&setupsx/"connect the set 1 mark 5a recorder input to"
+2004.350.12:23:08.92&setupsx/"the headstack 2 output of the formatter"
+2004.350.12:23:08.92&setupsx/pcalon
+2004.350.12:23:08.92&setupsx/tpicd=stop
+2004.350.12:23:08.92&setupsx/trkfsx
+2004.350.12:23:08.92&setupsx/tracks=v4,v6
+2004.350.12:23:08.92&setupsx/vc

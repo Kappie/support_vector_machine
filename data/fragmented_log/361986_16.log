@@ -1,0 +1,5 @@
+rc/zonebasin.f90:37: warning: unused variable ‘icnt’
+Src/zonebasin.f90:37: warning: unused variable ‘nrw’
+Src/zonebasin.f90:37: warning: unused variable ‘numrec_max’
+gfortran:f90: build/src.linux-i686-2.5/ZonalMeans/_gengridzmean-f2pywrappers2.f90
+/usr/bin/gfortran -Wall -Wall -shared build/temp.linux-i686-2.5/build/src.linux-i686-2.5/ZonalMeans/_gengridzmeanmodule.o build/temp.linux-i686-2.5/build/src.linux-i686-2.5/fortranobject.o build/temp.linux-i686-2.5/Src/mask4d.o build/temp.linux-i686-2.

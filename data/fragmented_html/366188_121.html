@@ -1,0 +1,23 @@
+			WT.hp=document.body.isHomePage(location.href)?"1":"0";
+			}
+			catch(e){
+			}
+		}
+		if (document.all){
+			WT.bs=document.body?document.body.offsetWidth+"x"+document.body.offsetHeight:"unknown";
+		}
+		else{
+			WT.bs=window.innerWidth+"x"+window.innerHeight;
+		}
+		WT.fv=(function(){
+			var i,flash;
+			if (window.ActiveXObject){
+				for(i=10;i>0;i--){
+					try{
+						flash=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+i);
+						return i+".0";
+					}
+					catch(e){
+					}
+				}
+			

@@ -1,0 +1,12 @@
+ces:
+        1.58 -     2.24: 4
+        2.24 -     2.91: 1380
+        2.91 -     3.57: 4381
+        3.57 -     4.24: 9019
+        4.24 -     4.90: 13028
+  Nonbonded interactions sorted by model distance:
+             atom i - atom j             model   vdw sym.op. j
+  " O   HOH Z 207 " - " O   HOH Z 341 "  1.580 3.040 -x+1/2,-y+1,z+1/2
+  " CE BMET A  47 " - " O  BHOH Z  74 "  1.806 3.460
+  " O   HOH Z 208 " - " O   HOH Z 342 "  2.151 3.040 -x+1/2,-y+1,z+1/2
+  " CZ BARG A 275 " - " O  BHOH Z 338 "  2.218 3.2

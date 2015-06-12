@@ -1,0 +1,28 @@
+}
+				}
+				else if (navigator.plugins["Silverlight Plug-In"]){
+					slv="Unknown";
+				}
+			}
+			catch(e){
+			}
+			if (slv!="Not enabled"){
+				var i,j,v;
+				if ((typeof(Silverlight)=="object")&&(typeof(Silverlight.isInstalled)=="function")){
+					for (j=9;j>=0;j--){
+						for(i=3;i>0;i--){
+							v=i+"."+j;
+							if (Silverlight.isInstalled(v)){
+								slv=v;
+								break;
+							}
+						}
+						if (slv==v){
+							break;
+						}
+					}
+				}
+			}
+			return slv;
+		})();
+		if

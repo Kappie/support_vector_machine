@@ -1,0 +1,22 @@
+==================
+Fri Apr 28 06:23:56 EDT 2000
+ 
+[1] 5736
+gnt_infrm: Starting do_kill - checking for infinite xspec loop...
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_fits
+gnt_infrm: *************************
+Fri Apr 28 06:23:56 EDT 2000
+ 
+gnt_infrm: Performing spectral fitting to a powerlaw...
+ 
+
+               Xspec 11.0.1 06:24:06 28-Apr-2000
+http://xspec.gsfc.nasa.gov/
+
+ Plot device not set, use "cpd" to set it
+
+ Type "help" or "?" for further information
+XSPEC>@plfit.xcm

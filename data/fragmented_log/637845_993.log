@@ -1,0 +1,9 @@
+::StringTok(std::vector< std::string > &ls, const std::string &str, const std::string &tok)
+Possible candidates:
+  void StringTok(std::vector< std::string > &ls, const std::string &str, const std::string &tok)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:91: Warning: no matching file member found for 
+bool UtilString::IsInt(const char *s)
+Possible candidates:
+  bool IsInt(const char *s)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:112: Warning: no matching file member found for 
+bool UtilString::IsFlo

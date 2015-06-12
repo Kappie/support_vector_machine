@@ -1,0 +1,12 @@
+ub-array 4.
+! 
+! Correcting IF 4.
+!  A total of 506 telescope corrections were flagged in sub-array 1.
+!  A total of 546 telescope corrections were flagged in sub-array 2.
+!  A total of 65 telescope corrections were flagged in sub-array 3.
+!  A total of 1343 telescope corrections were flagged in sub-array 4.
+! 
+! Fit before self-cal, rms=0.633210Jy  sigma=0.006271
+! Fit after  self-cal, rms=0.631430Jy  sigma=0.006259
+! clrmod: Cleared the established, tentative and continuum models.
+! Redundant starting mod

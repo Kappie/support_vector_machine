@@ -1,0 +1,6 @@
+packages/ZonalMeans
+copying build/lib.linux-i686-2.5/ZonalMeans/__init__.py -> /usr/local/cdat/lib/python2.5/site-packages/ZonalMeans
+copying build/lib.linux-i686-2.5/ZonalMeans/zmean.py -> /usr/local/cdat/lib/python2.5/site-packages/ZonalMeans
+copying build/lib.linux-i686-2.5/ZonalMeans/package_version.py -> /usr/local/cdat/lib/python2.5/site-packages/ZonalMeans
+copying build/lib.linux-i686-2.5/ZonalMeans/_gengridzmean.so -> /usr/local/cdat/lib/python2.5/site-packages/ZonalMeans
+byte-compiling /usr/local/c

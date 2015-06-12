@@ -1,0 +1,6 @@
+eant] =I= [0m            annihil,      LowEnergyIoni,          LowEnBrem,      LowEnRayleigh
+[0m[geant] =I= [0m     LowEnPhotoElec,       LowEnCompton,    LowEnConversion,             muIoni
+[0m[geant] =I= [0m            muBrems,         muPairProd,muMinusCaptureAtRest,    PhotonInelastic
+[0m[geant] =I= [0m     ElectroNuclear,    PositronNuclear,          muNuclear,           LElastic
+[0m[geant] =I= [0m  PionPlusInelastic, PionMinusInelastic,PionMinusAbsorptionAtRest,  KaonPlusInelastic
+[0m[geant]

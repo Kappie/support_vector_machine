@@ -1,0 +1,12 @@
+t;Host b0eb14.fnal.gov, task tRec_0 
+SCPU-P7-E-VrbHeader: Dump of header words for event 598710 from VRB in slot 10: 
+0x00000000 0x00002db0 0x00080008 0x020801dc 0x040c022c 0x0214028c 0x09680430 0x0 
+e4002e8 
+</pre>
+<!-- Author: smaria :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=164512' target=_top>164512</a>) -->
+
+
+<!-- Date: Wed Jun 11 22:08:47.412 2003 -->
+b0dap73.fnal.gov:Thread-66:10:02:38 PM->Done Timeout: COT_18  
+CT: 6/11/2003, 22:2'42"  
+2'42" 1 crate/s: b0cot18(66),  Done TO.[RXPT] 

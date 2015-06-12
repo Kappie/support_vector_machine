@@ -1,0 +1,26 @@
+ility = 0.183
+
+!XSPEC> set chisq [show fit];
+
+!XSPEC> error max 15 4.61 2
+ Parameter   Confidence Range (     4.610)
+Chi-Squared when model parameter     2=    0.1378
+ is   389.3947, which is < previous minimum  390.3167
+(critical delta =     0.0100)
+
+!XSPEC> set str [error max 15 4.61 2];
+
+!XSPEC> lindex $str 0
+
+!XSPEC> set nhs_lo [lindex $str 0];
+
+!XSPEC> lindex $str 1
+
+!XSPEC> set nhs_hi [lindex $str 1];
+
+!XSPEC> expr ($nhs_hi - $nhs_lo)/2.0
+XSPEC>exit
+ XSPEC: quit
+ 
+gnt_infrm: ========================
+g

@@ -1,0 +1,8 @@
+       xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#">
+         <xapMM:DocumentID>uuid:A98800DAD90ADA11A770C8C99A256B50</xapMM:DocumentID>
+         <xapMM:InstanceID>uuid:AA8800DAD90ADA11A770C8C99A256B50</xapMM:InstanceID>
+         <xapMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:A78800DAD90ADA11A770C8C99A256B50</stRef:instanceID>
+            <stRef:documentID>uuid:A68800DAD90ADA11A770C8C99A256B50</stRef:documentID>
+         </xapMM:DerivedFrom>
+      </rdf:Descr

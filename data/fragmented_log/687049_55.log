@@ -1,0 +1,12 @@
+iterations in pfcluster finding: 0.003080711722
+HelixArbitraryPlaneCrossing::pathLength : no convergence
+HelixArbitraryPlaneCrossing::pathLength : no convergence
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 CSCGasCollisions     -e CSCDigiProducer:                       1        1
+    2 CSCRecHitBProducer   -e CSCRecHit

@@ -1,0 +1,6 @@
+ssing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xpath.lo -MD -MP -MF .deps/xpath.Tpo -c xpath.c  -fPIC -DPIC -o .libs/xpath.o
+xpath.c: In function `xmlXPathRegisterFuncNS__internal_alias':
+xpath.c:4739: warning: ISO C forbids passing arg 4 of `xmlHashAddEntry2__internal_alias' between function pointer and `void *'
+xpath.c: In function `xmlXPathFunctionLookupNS__internal_alias':
+xpath.c:4820: warning: ISO C forbids assignment between function pointer and `void *'
+xpath.c: In function `xmlXPa

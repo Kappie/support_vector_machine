@@ -1,0 +1,4 @@
+l  -D_GNU_SOURCE -o LogTest.o                              `/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/Base/Log/test-bin /home/tagg/autodaya/Base/Log/test-bin/LogTest.cc
+../Linux-i686/LogTest.exe
+cd ../Linux-i686/; c++  -g -o LogTest.exe.new ../Linux-i686/LogTest.o -L/home/tagg/autodaya/InstallArea/Linux-i686/lib    -lLog  -lUtil      -L/usr/lib   `/usr/local/opt/root-v5-16-00/bin/root-config --libs`      ; mv -f LogTest.exe.new LogTest.exe
+------> L

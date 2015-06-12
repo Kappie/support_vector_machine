@@ -1,0 +1,6 @@
+unction and pointer-to-object
+../Linux-i686/Log_Dict.cc: In function 'void G__setup_memfuncLoggingcLcLFmtHtml()':
+../Linux-i686/Log_Dict.cc:5891: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5892: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5893: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5894: warning: ISO C++ forb

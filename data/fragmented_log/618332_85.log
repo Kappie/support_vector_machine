@@ -1,0 +1,13 @@
+x/02(LO),on,a,on,on,on,off,locked,39.86
+9815516484956/rx/03(DCAL),on,a,on,on,on,off,locked,48.65
+9815516484968/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+9815516484979/rx/17(PRES),on,a,on,on,on,off,locked,2.566
+9815516484990/rx/1E(20K),on,a,on,on,on,off,locked,43.10
+9815516484997:nw2a1=11
+9815516485304/pass/11,11,auto,-75.0,-75.0,-74.7,-75.6,0.3,-0.6
+9815516485710/decode/a,crc,pass
+9815516485711:fastr=0m31s
+9815516492842:!155165023
+9815516502301:preob
+9815516502312/onsource/TRACKING
+9815516502554/tpical/2

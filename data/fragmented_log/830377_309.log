@@ -1,0 +1,12 @@
+andra/tartarus/scripts3.2/win_full2.wi dtnb=16 nbint=1884 tunits=1 clobber=yes 
+   outfile=/tproc/nandra/processing/76052020/work/76052020_sis_src_16s.flc rescale=2.0 plot=no
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/76052020/work/76052020_sis0_src.evt
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_501_N3          Start Time (d) .... 11015 20:55:48.883
+ FITS Extension ....  1 - `EVENTS    `   Stop Time (d) ..... 11016 05:18:05.018
+ No. of Rows 

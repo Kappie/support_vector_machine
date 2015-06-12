@@ -1,0 +1,10 @@
+.12:39:50.95:scan_name=309-1244,crf23,410
+2003.309.12:39:50.95:source=0524-460,052405.98,-460028.0,1950.0
+2003.309.12:39:51.30#antcn#Command a new source
+2003.309.12:39:51.31#flagr#flagr/antenna,off-source
+2003.309.12:39:51.90#antcn#Successfully sent new source position to antenna
+2003.309.12:39:51.91#flagr#flagr/antenna,new-source
+2003.309.12:39:51.91:setupsx
+2003.309.12:39:55.91/mk5/!play_rate = 0 ;
+2003.309.12:39:55.93/mk5/!mode = 0 ;
+2003.309.12:39:55.95/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 299 

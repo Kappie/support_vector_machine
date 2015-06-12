@@ -1,0 +1,13 @@
+
+9830207231742/rx/1F(70k),on,a,on,on,on,off,locked,46.16
+9830207231742:sx2c2=6
+9830207232372/pass/6,6,auto,-220.0,-220.0,-219.7,-220.3,0.3,-0.3
+9830207232716:fastf=1m14s
+9830207232767?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830207244147:!302072600
+9830207251734?ERROR ch -370 Total power integrator overflow on IF3
+9830207253934?ERROR ch -370 Total power integrator overflow on IF3
+9830207260000:preob
+9830207260000#antcn#Check if antenna is on-source
+9830207260030/onsource/TRACKING
+983

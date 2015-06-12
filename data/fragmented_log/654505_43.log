@@ -1,0 +1,10 @@
+ -shared -L/usr/local/lib DBI.o  -o blib/arch/auto/DBI/DBI.so      
+chmod 755 blib/arch/auto/DBI/DBI.so
+cp DBI.bs blib/arch/auto/DBI/DBI.bs
+chmod 644 blib/arch/auto/DBI/DBI.bs
+/usr/bin/perl "-Iblib/arch" "-Iblib/lib" dbiprof.PL dbiprof
+Extracted dbiprof from dbiprof.PL with variable substitutions.
+cp dbiprof blib/script/dbiprof
+/usr/bin/perl "-MExtUtils::MY" -e "MY->fixin(shift)" blib/script/dbiprof
+/usr/bin/perl "-Iblib/arch" "-Iblib/lib" dbiproxy.PL dbiproxy
+Extracted dbiproxy from dbiproxy.PL with variab

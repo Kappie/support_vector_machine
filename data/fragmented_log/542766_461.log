@@ -1,0 +1,9 @@
+ng to new source
+9919503063037#antcn#Source:  0003-066  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919503063037#antcn# RAcommand    1.551   DECcommand  -6.396
+9919503063038:wb2c2=4
+9919503063320#matcn#debug: 92 /ASS 0 3:0x1 5:0x3 7:0x5 9:0x7 11:0x9 13:0xb 15:0xd 17:0x0 ? ERROR 7
+9919503063408#matcn#debug: 92 /STA ? ERROR 7
+9919503063492/form/0x8015 0x1004 0x9222 38 3 4000 11 0 0 0
+9919503063492/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919503063492/form/map[0

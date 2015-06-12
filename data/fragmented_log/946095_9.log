@@ -1,0 +1,25 @@
+ervals
+! Adding 18 model components to the UV plane model.
+! The established model now contains 32 components and 1.60196 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Correcting IF 5.
+! 
+! Correcting IF 6.
+! 
+! Correcting IF 7.
+! 
+! Correcting IF 8.
+! 
+! Fit before self-cal, rms=0.354170Jy  sigma=0.001368
+! Fit after  self-cal, rms=0.353853Jy  sigma=0.001366
+! Inverting map 
+print "****************************************"
+! ********************************

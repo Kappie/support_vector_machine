@@ -1,0 +1,11 @@
+3101 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.309.07:05:40.95:scan_name=309-0707,crf23,360
+2003.309.07:05:40.95:source=0008-264,000828.89,-262914.7,1950.0
+2003.309.07:05:40.96#antcn#Command a new source
+2003.309.07:05:41.16#antcn#Successfully sent new source position to antenna
+2003.309.07:05:41.16#flagr#flagr/antenna,new-source
+2003.309.07:05:41.17:setupsx
+2003.309.07:05:45.02/mk5/!play_rate = 0 ;
+2003.309.07:05:45.03/mk5/!mode = 0 ;
+2003.309.07:05:45.06/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 217 ;
+2003.309.07

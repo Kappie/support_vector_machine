@@ -1,0 +1,22 @@
+0] + "=" + arrCtrls.join(",");
+				newLocation = qArray.join("&");
+			}
+		}
+		else
+			newLocation = "?forceElement=" + arrCtrls.join(",");
+			
+		self.location.search = newLocation;
+		if  (!dispFlag)
+			alert("You do not have access to the requested element.");
+	
+	}
+	else
+	{
+		if ( evalCol != 'undefined' )
+		{		
+			for(i=0;i<self.element_collection.length;i++)
+			{
+				sitem = self.element_collection[i];
+				sp = 'sched_elements_' + sitem.ctrl + '_' + sitem.id;
+				obj = document.all.item(sp);
+				if ( sitem

@@ -1,0 +1,17 @@
+eFormat.PMVerticalScaling</key>
+				<real>1</real>
+				<key>com.apple.print.ticket.client</key>
+				<string>com.apple.printingmanager</string>
+				<key>com.apple.print.ticket.modDate</key>
+				<date>2006-09-06T12:04:12Z</date>
+				<key>com.apple.print.ticket.stateFlag</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.print.subTicket.paper_info_ticket</key>
+	<dict>
+		<key>com.apple.print.PageFormat.PMAdjustedPageRect</key>
+		<dict>
+			<key>com.apple.print.ticket.creator</key>
+			<

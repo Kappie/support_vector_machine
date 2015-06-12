@@ -1,0 +1,26 @@
+999_12_20_pus]
+integer clean_niter
+clean_niter = 100
+float clean_gain
+clean_gain = 0.03
+float dynam
+dynam = 6.0
+float soltime1
+soltime1 = 120
+float soltime2
+soltime2 = 20
+float thresh
+thresh = 0.5
+float win_mult
+win_mult = 1.8
+float time_av
+time_av = 16
+float old_peak
+float new_peak
+float flux_cutoff
+mapsize field_size, field_cell
+! Map grid = 256x256 pixels with 0.200x0.200 milli-arcsec cellsize.
+startmod
+! Applying default point source starting model.
+! Performing phase self-cal
+! Adding 1 model component

@@ -1,0 +1,12 @@
+
+2004.349.22:44:59.64:setupsx
+2004.349.22:44:59.83#skua #Antenna slewing to azimuth  38.6, elevation 62.5
+2004.349.22:45:03.12/mk5/!play_rate = 0 ;
+2004.349.22:45:03.12/mk5/!mode = 0 ;
+2004.349.22:45:03.16/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.349.22:45:03.16:!2004.349.22:49:07
+2004.349.22:45:45.85#skua #Antenna slewing complete
+2004.349.22:45:52.77#flagr#flagr/antenna,acquired
+2004.349.22:49:07.00:preob
+2004.349.22:49:07.00/onsource/TRACKING
+2004.349.22:49:07.48/tpi/1u,34530,2u,22104,3u,236

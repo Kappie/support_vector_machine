@@ -1,0 +1,10 @@
+msse2 -msse -fomit-frame-pointer -malign-double
+creating build/temp.linux-i686-2.5/Src
+compile options: '-ISrc -Ibuild/src.linux-i686-2.5 -I/usr/local/cdat/lib/python2.5/site-packages/numpy/core/include -I/usr/local/cdat/include/python2.5 -c'
+extra options: '-Jbuild/temp.linux-i686-2.5/ZonalMeans -Ibuild/temp.linux-i686-2.5/ZonalMeans'
+gfortran:f90: Src/mask4d.f90
+gfortran:f90: Src/meme_cote.f90
+gfortran:f90: Src/intersecte.f90
+gfortran:f90: Src/echange.f90
+gfortran:f90: Src/SphericalPolyArea.f90
+Src/Spheri

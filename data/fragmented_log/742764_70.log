@@ -1,0 +1,12 @@
+clrmod true
+! clrmod: Cleared the established and tentative models.
+uvw 2,-1
+! Uniform weighting binwidth: 2 (pixels).
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! Estimated beam: bmin=0.5899 mas, bmaj=1.389 mas, bpa=-1.127 degrees
+! Estimated noise=814.

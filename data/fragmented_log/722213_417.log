@@ -1,0 +1,13 @@
+First GTI Start ... 10631 04:23:03.909
+ No. of Rows .......           63        Last GTI Stop ..... 10632 09:19:51.590
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ **** Warning : Infiles for series 1 overlap in time
+                Having > 1 intv or using time winds. might cause data loss !
+ 
+ Expected Start ... 10631.18268413196  (days)       4:23: 3:909  (h:m:s:ms)
+ Expected Stop .... 10632.38879155511  (days)       9:19:51:590  (h:m:s:ms)
+ 
+ Minimum Newbin Time   0.50000000      (s)
+ for Ma

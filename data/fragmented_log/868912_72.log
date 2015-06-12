@@ -1,0 +1,12 @@
+f-cal, rms=1.345753Jy  sigma=0.002315
+wmodel J0818+4222_X_1998_10_01_pus_map.mod
+! Writing 149 model components to file: J0818+4222_X_1998_10_01_pus_map.mod
+wobs J0818+4222_X_1998_10_01_pus_uvs.fits
+! Writing UV FITS file: J0818+4222_X_1998_10_01_pus_uvs.fits
+wwins J0818+4222_X_1998_10_01_pus_map.win
+! wwins: Wrote 6 windows to J0818+4222_X_1998_10_01_pus_map.win
+x = (field_size-8) * field_cell / 4
+addwin -x,x,-x,x
+clean (field_size*4),0.01
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% 

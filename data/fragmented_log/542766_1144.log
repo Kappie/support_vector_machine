@@ -1,0 +1,12 @@
+9590,norm,moving,nostop,locked,ready,rem
+9919517180006:"data start"
+9919517180006:midob
+9919517180006#antcn#Checking onsource status
+9919517180009#antcn# RAsource   299.494   DECsource  -38.751
+9919517180009#antcn# RAbeam     299.495   DECbeam    -38.752
+9919517180009#antcn# RAdelta      0.001   DECdelta     0.001
+9919517180010?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919517180010/onsource/SLEWING
+9919517180011/wx/16.0,868.0,63.2
+9919517180013/cable/00035.845491E-03
+9919517180020/ifd/23,23,nor,no

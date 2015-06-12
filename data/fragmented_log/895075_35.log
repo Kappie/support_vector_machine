@@ -1,0 +1,18 @@
+ntains 71 components and 0.357615 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.305913Jy  sigma=0.001455
+! Fit after  self-cal, rms=0.305905Jy  sigma=0.001455
+! Inverting map 
+! Your choice of large map pixels excluded 4.39% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+selfcal true, true, soltime2
+! Performing amp+phase self-ca

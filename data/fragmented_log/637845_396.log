@@ -1,0 +1,7 @@
+ing: unused parameter 'i'
+../include/dywOpticalPhotonTrajectory.hh:40: warning: unused parameter 'os'
+../include/dywOpticalPhotonTrajectory.hh:41: warning: unused parameter 'i_mode'
+/home/tagg/autodaya/G4dyb/src/dywAnalysisManager.cc:212: warning: unused parameter 'eID'
+/home/tagg/autodaya/G4dyb/src/dywAnalysisManager.cc: In member function 'void dywAnalysisManager::FillTrajectories(const G4Event*)':
+/home/tagg/autodaya/G4dyb/src/dywAnalysisManager.cc:810: warning: converting to 'int' from 'G4double'
+../Lin

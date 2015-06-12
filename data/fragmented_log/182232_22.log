@@ -1,0 +1,6 @@
+end run at 70K.  Will clean up EVB and L3 again to 1. see  if this helps DTO (I realize DTO are normally FE crates fault, but we're seeing most of the DTO message without any message telling us which crate it is coming from, along with SCPU VRB error messages on RC error screen), 2. see if this helps CN green problem
+<!-- Author: hray -->
+<!-- Comment: Wed Jul 25 08;01;23 comment by...SCN -->
+<a href=
+'/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=55&frame=2&anchor=08:00:23'>
+Comment</a> on TOs

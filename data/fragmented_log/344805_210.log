@@ -1,0 +1,11 @@
+=308-2030,crf23,350
+2003.308.20:28:20.97:source=1111+149,111121.30,145847.9,1950.0
+2003.308.20:28:20.97#antcn#Command a new source
+2003.308.20:28:21.17#flagr#flagr/antenna,new-source
+2003.308.20:28:21.57#antcn#Successfully sent new source position to antenna
+2003.308.20:28:21.58:setupsx
+2003.308.20:28:25.88/mk5/!play_rate = 0 ;
+2003.308.20:28:25.89/mk5/!mode = 0 ;
+2003.308.20:28:25.93/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 49 ;
+2003.308.20:28:25.94:!2003.308.20:30:40
+2003.308.20:29:48.86#flagr#flagr/a

@@ -1,0 +1,11 @@
+
+setup.make ok
+Linux-i686.make ok
+------> (constituents.make) Rebuilding library links
+   Symlinking /home/tagg/autodaya/Base/Util/Linux-i686/libUtil.so to /home/tagg/autodaya/InstallArea/Linux-i686/lib/libUtil.so
+------> (constituents.make) all done
+------> (constituents.make) Building install_includes_auto.make
+Document install_includes_auto
+------> (constituents.make) Starting install_includes_auto
+make[3]: Nothing to be done for `install_includes_auto'.
+------> (constituents.make) install_includes_auto 

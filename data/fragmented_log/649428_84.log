@@ -1,0 +1,2 @@
+r-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT HTMLtree.lo -MD -MP -MF .deps/HTMLtree.Tpo -c HTMLtree.c  -fPIC -DPIC -o .libs/HTMLtree.o
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -I/usr/local/cdat/Externals/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wun

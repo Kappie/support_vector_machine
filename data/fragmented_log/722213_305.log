@@ -1,0 +1,15 @@
+ssing/75084000/work/75084000_gis3.evt
+    reading   gti ext: STDGTI
+    querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/gis/bcf/gis3_ano_on_flf_180295.fits
+    reading inst file: /tproc/nandra/processing/75084000/work/75084000_gis3.effm
+ 
+    making an inst map...
+ rebin gis: 1
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/75084000/aux/fa970702_0346.0950
+ 
+    making a sky image...
+    writing sky image: /tproc/nandra/processing/75084000/work/75084000_gis3_sky_
+ 

@@ -1,0 +1,16 @@
+<string>com.apple.printingmanager</string>
+			<key>com.apple.print.ticket.itemArray</key>
+			<array>
+				<dict>
+					<key>com.apple.print.PageFormat.PMAdjustedPageRect</key>
+					<array>
+						<real>0.0</real>
+						<real>0.0</real>
+						<real>734</real>
+						<real>576</real>
+					</array>
+					<key>com.apple.print.ticket.client</key>
+					<string>com.apple.printingmanager</string>
+					<key>com.apple.print.ticket.modDate</key>
+					<date>2007-08-21T20:31:27Z</date>
+					<key>com.apple.print.ticket.stateF

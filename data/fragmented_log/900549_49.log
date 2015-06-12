@@ -1,0 +1,15 @@
+ AMPLITUDE SELF-CAL ************** 
+restore
+! Inverting map and beam 
+! Estimated beam: bmin=2.462 mas, bmaj=4.781 mas, bpa=1.294 degrees
+! Estimated noise=663.29 mJy/beam.
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 2.462 x 4.781 at 1.294 degrees (North through East)
+! Clean map  min=-0.0063069  max=1.7658 Jy/beam
+if(peak(flux) > thresh)
+  selfcal true, true
+  clean clean_niter,clean_gain
+  selfcal
+  flux_cutoff = imstat(rms) * dynam
+  repeat
+    if (peak(f

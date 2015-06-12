@@ -1,0 +1,11 @@
+sions: 1 - RATE TABLE;
+ 
+ Source ............ TOL0109-383         Start Time (d) .... 10631 04:23:03.909
+ FITS Extension ....  1 - `RATE      `   Stop Time (d) ..... 10632 09:19:35.909
+ No. of Rows .......         2072        Bin Time (s) ......    16.00
+ Right Ascension ...                     Internal time sys.. Literal
+ Declination .......                     Experiment ........
+ 
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  3- Y-axis;  4-

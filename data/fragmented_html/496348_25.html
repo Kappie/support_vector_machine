@@ -1,0 +1,12 @@
+on MyNCBI_r()
+{
+var x = MyNCBI_find();
+if( x != myncbi_x ) {
+myncbi_x = x;
+MyNCBI_auto_submit(myncbi_cu);
+} else {
+window.setTimeout(MyNCBI_r, 500);
+}
+}
+window.setTimeout(MyNCBI_r, 500);
+// --></script><table class="medium1" style="border:2px solid #336699;" cellpadding="2" cellspacing="0" id="myncbi_off"><tr><td bgcolor="#336699" align="left"><a href="/sites/myncbi/?"><font color="#FFFFFF"><b>My NCBI</b></font></a></td><td bgcolor="#336699" align="right"><a href="/books/bv.fcgi?rid=helpmyncbi.chapter.MyNCB

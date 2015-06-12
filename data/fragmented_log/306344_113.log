@@ -1,0 +1,13 @@
+rx/02(lo),on,a,on,on,on,off,locked,41.57
+9830206272701/rx/03(dcal),on,a,on,on,on,off,locked,47.55
+9830206272713/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.013
+9830206272725/rx/17(pres),on,a,on,on,on,off,locked,3.963
+9830206272736/rx/1E(20k),on,a,on,on,on,off,locked,28.82
+9830206272748/rx/1F(70k),on,a,on,on,on,off,locked,46.16
+9830206272748:sx2c2=4
+9830206272748&sx2c2/tapefrmsxc
+9830206272748&sx2c2/pass=$,same
+9830206272748&sx2c2/form=c,4.000
+9830206272748&sx2c2/form=reset
+9830206272748&sx2c2/vcsx2
+98302062727

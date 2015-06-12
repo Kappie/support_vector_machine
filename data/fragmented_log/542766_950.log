@@ -1,0 +1,13 @@
+,38857
+9919513281904:!195132826
+9919513282600:tape
+9919513282606/tape/off,05014,norm,moving,nostop,locked,ready,rem
+9919513282606:"data start"
+9919513282606:midob
+9919513282607#antcn#Checking onsource status
+9919513282611#antcn# RAsource   133.688   DECsource   20.111
+9919513282611#antcn# RAbeam     133.688   DECbeam     20.110
+9919513282611#antcn# RAdelta      0.000   DECdelta     0.001
+9919513282611?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919513282611/onsource/SLEWING
+9919513282612/wx/19.4,867

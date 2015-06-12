@@ -1,0 +1,9 @@
+T DVC #2898:   DPU error - no bubble HK identifier (EDR #7444, SCET=1496219696)
+CDF OUTPUT LOG:        CDF Records written=84 (Range Errors=0)
+[01-Apr-2002-21:10:59  End processing file: .\data\1997\19970531.cdf]
+
+[01-Apr-2002-21:10:59  Start processing file: .\data\1997\19970601.cdf]
+EDR INPUT LOG:         SEDRs=250, EDRs=7585 (Skipped=0, Gaps=25349), DVCs=2948 (Non Nominal=4, Skipped=400)
+[01-Apr-2002-21:10:59  End processing file: \UlsRawData\EdrData\1997\edr9705.glg]
+
+[01-Apr-2002-21:10:59  Star

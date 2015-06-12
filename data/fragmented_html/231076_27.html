@@ -1,0 +1,10 @@
+ar itemIdAndJSFileURL= 'newsandfeatures_newstopics_earth$/templateimages/redesign/leftnav-htmls/newsandfeatures_.js';
+		var splitResult = itemIdAndJSFileURL.split("$");
+		  $('menu_item_id').value = splitResult[0];		
+		
+		var url = splitResult[1];
+		var defPage = '/templateimages/redesign/leftnav-htmls/home_.js';
+		if(url == '.js') url = defPage;
+
+                                                         
+ document.write('<script src=' + url + ' type="text/javascript" language="javascript" >' + '</scr' + 'ip

@@ -1,0 +1,20 @@
+				jv="1.2";
+			}
+			return jv;
+		})();
+		WT.ct="unknown";
+		if (document.body&&document.body.addBehavior){
+			try{
+				document.body.addBehavior("#default#clientCaps");
+				WT.ct=document.body.connectionType||"unknown";
+				document.body.addBehavior("#default#homePage");
+				WT.hp=document.body.isHomePage(location.href)?"1":"0";
+			}
+			catch(e){
+			}
+		}
+		if (document.all){
+			WT.bs=document.body?document.body.offsetWidth+"x"+document.body.offsetHeight:"unknown";
+		}
+		else{
+			WT.bs=

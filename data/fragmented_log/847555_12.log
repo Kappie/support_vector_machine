@@ -1,0 +1,11 @@
+les -->
+b0l2de00:Messenger:5:44:05 PM->CListMonitor: Sync error in L2 pipeline, event 577828
+
+<!-- Comment: Wed Jun 11 17;50;28 comment by...Gilles -->
+<pre>b0l2de00:Messenger:5:44:50 PM->SvtMonitor: No data sent from client, event 577830</pre>
+
+<!-- Comment: Wed Jun 11 17;56;11 comment by...Gilles -->
+<pre>b0cot18:Messenger:5:46:41 PM->Runtime Error 1, Event 588010: See nonsequential event number (old 9, new 8) in L2 message. 
+crate successfully shephered.</pre>
+
+<!-- Comment: Wed Jun 11 18;05;54 comment b

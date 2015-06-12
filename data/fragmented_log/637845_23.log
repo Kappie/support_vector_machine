@@ -1,0 +1,13 @@
+----------
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+setup.make ok
+
+ allclean ok.
+Removing library links
+#--------------------------------------------------------------
+# Now trying [make clean] in /home/tagg/autodaya/DybPolicy/cmt (10/15)
+#--------------------------------------------------------------
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Lin

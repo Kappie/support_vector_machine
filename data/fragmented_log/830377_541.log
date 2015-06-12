@@ -1,0 +1,16 @@
+**-1 (  2.000- 10.000) DtSet :  1
+ Model flux  2.0398E-02 photons ( 1.3241E-10 ergs)cm**-2 s**-1 (  2.000- 10.000) DtSet :  2
+ Model flux  2.3239E-02 photons ( 1.5086E-10 ergs)cm**-2 s**-1 (  2.000- 10.000) DtSet :  3
+ Model flux  2.4654E-02 photons ( 1.6004E-10 ergs)cm**-2 s**-1 (  2.000- 10.000) DtSet :  4
+
+!XSPEC> set flux2 [flux 2.0 10.0];
+
+!XSPEC> lindex $flux1 1
+
+!XSPEC> set s0_flux1 [lindex $flux1 1];
+
+!XSPEC> lindex $flux2 1
+
+!XSPEC> set s0_flux2 [lindex $flux2 1];
+
+!XSPEC> puts $fileid "$s0_flux1 $

@@ -1,0 +1,7 @@
+m/232/pkgvar_type()] SPM
+[Build.pm/604/build_spm()] Args:  ""
+[Build.pm/185/prepare_build_tree()] perl-DBI | /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI | /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383 | /var/tmp/mezzanine.temp.dironly.29689.243e | 
+[PkgVars.pm/160/pkgvar_set()] Setting name
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "name" -> "perl-DBI"
+[PkgVars.pm/160/pkgvar_set()] Setting topdir
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "topdir" -> "/caos/repo/ext/autob

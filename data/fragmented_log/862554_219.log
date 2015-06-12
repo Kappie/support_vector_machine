@@ -1,0 +1,13 @@
+cutoff 43 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 72016000_gis2_bgd.evt
+Wrote events list to file 72016000_gis2_bgd.evt
+!xsel:ASCA-GIS2-PH > clear events
+!xsel:ASCA-GIS2-PH > clear pha_cutoff
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 72016000_gis2_bgd_hard.evt
+Wrote events list to file 72016000_gis2_bgd_hard.evt
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Extrac

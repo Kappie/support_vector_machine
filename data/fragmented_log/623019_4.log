@@ -1,0 +1,9 @@
+tures: 
+ 
+1) The TDCs now have a faster version of the L2 hit processing code. Timing measurements can now be done on these modules. 
+ 
+2) The Halt-Recover-Run code has been activated, but the instructions executed by the TDC DSP processor may not be  
+exactly what we want. (e.g., I think the boards don't answer 
+with DONE until the RUN is received.) This can now be tested at B0. 
+ 
+3) We have activated a new feature: By writing a '1' to bit 23 of the Control Register, the DSP should now put 97 words in the

@@ -1,0 +1,26 @@
+{
+    if (clearSearch == false) {
+        alert("Please enter search query");
+		theForm.searchQuery.focus();
+        return false;
+    }
+	
+	if (theForm.searchQuery.value == "") {
+		alert("Please enter search query");
+		theForm.searchQuery.focus();
+		return false;
+	}
+	
+    return true;
+}
+
+function clearSearchField(theField) {
+	if (clearSearch == false) {
+		theField.value = "";
+		clearSearch = true;
+	}
+}
+
+function setSearchField(theField) {
+	if (theField.value == "") {
+		theField.valu

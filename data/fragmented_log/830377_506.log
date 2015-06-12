@@ -1,0 +1,13 @@
+  = par   3         4
+   16    4   12   powerlaw   norm               5.1583E-02 = par   4         4
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      1557.813     using  1375 PHA bins.
+ Reduced chi-squared =      1.137920     for   1369 degrees of freedom
+ Null hypothesis probability = 2.629E-04
+
+!XSPEC> tclout param 2;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par2 [string tr

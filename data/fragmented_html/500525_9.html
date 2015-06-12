@@ -1,0 +1,31 @@
+ffsettype){
+
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+
+var parentEl=what.offsetParent;
+
+while (parentEl!=null){
+
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+
+parentEl=parentEl.offsetParent;
+
+}
+
+return totaloffset;
+
+}
+
+
+
+
+
+function showhide(obj, e, visible, hidden, menuwidth){
+
+if (ie4||ns6)
+
+dropmenuobj.style.left=dropmenuobj.style.top="-500px"
+
+if (menuwidth!=""){
+
+dropmenuobj.widthobj=dropm

@@ -1,0 +1,19 @@
+ time intervals
+! Adding 10 model components to the UV plane model.
+! The established model now contains 73 components and 0.141846 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.071516Jy  sigma=1.029180
+! Fit after  self-cal, rms=0.071508Jy  sigma=1.029133
+! Inverting map 
+! ************** FINISHED AMPLITUDE SELF-CAL ************** 
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 20 mega-wavelengths.
+win_mult = wi

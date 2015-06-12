@@ -1,0 +1,4 @@
+thCompOpEval':
+xpath.c:13338: warning: ISO C forbids assignment between function pointer and `void *'
+xpath.c:13363: warning: ISO C forbids assignment between function pointer and `void *'
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -I/usr/local/cdat/Externals/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomme

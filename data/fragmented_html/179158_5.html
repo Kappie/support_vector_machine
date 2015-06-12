@@ -1,0 +1,18 @@
+lVal = unescape(valVal);
+    var elemVal = document.namserch.keywordquery;
+    elemVal.value = valVal;
+  }
+}
+
+function addhandlers() {
+  document.namserch.mode.onchange = new Function("modeChanged()");
+  document.namserch.keywordquery.onchange = new Function("keywordChanged()");
+  document.namserch.onsubmit = new Function("keywordChanged()");
+}
+
+function modeChanged() {
+  var elemVal = document.namserch.mode.selectedIndex;
+  document.cookie = "namserchkey=" + escape(elemVal) + ";";
+}
+
+funct

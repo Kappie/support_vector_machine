@@ -1,0 +1,11 @@
+019914 Jy/beam
+! Clean residual mean=0.002238 rms=0.004202 Jy/beam
+! Combined flux in latest and established models = 2.46596 Jy
+! Adding 57 model components to the UV plane model.
+! The established model now contains 60 components and 2.46596 Jy
+! Inverting map 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0258896 Jy
+! Component: 100  -  t

@@ -1,0 +1,9 @@
+,1,agc,  1.34,  0.36,lock,16247,15984,550,1pps
+2004.167.07:09:15.31/form/v,16,1:2,8:1,1,2.92,a000,ok,a000,ok,ok
+2004.167.07:09:18.09/gps-fmout/T         +1.01E-05
+2004.167.07:09:18.22?ERROR an -103 Pointing computer tracking errors are too large.
+2004.167.07:09:18.22?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.167.07:09:18.24/onsource/SLEWING
+2004.167.07:09:18.26:!2004.167.07:12:19
+2004.167.07:09:19.01#setcl#time/42060880,1,2004,167,07,09,19.00,0.167,15.849,3
+2004.167.07:09:19.01#setcl#model/old

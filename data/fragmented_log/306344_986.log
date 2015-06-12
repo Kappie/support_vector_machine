@@ -1,0 +1,13 @@
+07
+9830302160313:!303021610
+9830302161000:tape
+9830302161011/tape/off,01163,norm,stopped,stop,unlock,ready,rem
+9830302161011:st=for,135
+9830302161024:"data start"
+9830302161024:midob
+9830302161024#antcn#Check if antenna is on-source
+9830302161088/onsource/TRACKING
+9830302161134?ERROR ch -370 Total power integrator overflow on IF3
+9830302161176#wx#/WX/20.6,1003.7, 41.8
+9830302161196?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830302161197?ERROR ib  -10 ibcon initialization failed, 

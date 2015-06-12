@@ -1,0 +1,11 @@
+ 100  -  total flux cleaned = 0.00430591 Jy
+! Component: 150  -  total flux cleaned = 0.00502902 Jy
+! Component: 200  -  total flux cleaned = 0.00546063 Jy
+! Total flux subtracted in 200 components = 0.00546063 Jy
+! Clean residual min=-0.006688 max=0.010007 Jy/beam
+! Clean residual mean=0.000772 rms=0.002182 Jy/beam
+! Combined flux in latest and established models = 1.96929 Jy
+selfcal
+! Performing phase self-cal
+! Adding 23 model components to the UV plane model.
+! The established model now contains 97 comp

@@ -1,0 +1,19 @@
+ The established model now contains 199 components and 2.41376 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.136418Jy  sigma=0.524796
+! Fit after  self-cal, rms=0.136392Jy  sigma=0.524692
+! Inverting map 
+print "***********************************"
+! *********************************** 
+print "*** Finished Amplitude Self-Cal ***"
+! *** Finished Amplitude Self-Cal *** 
+print "***********************************"
+! ******************

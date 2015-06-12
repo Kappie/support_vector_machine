@@ -1,0 +1,21 @@
+;
+		}
+		else{
+			return escape(S);
+		}
+	}
+	WebTrends.prototype.dcsA=function(N,V){
+		if (this.i18n&&(this.exre!="")&&!this.exre.test(N)){
+			if (N=="dcsqry"){
+				var newV="";
+				var params=V.substring(1).split("&");
+				for (var i=0;i<params.length;i++){
+					var pair=params[i];
+					var pos=pair.indexOf("=");
+					if (pos!=-1){
+						var key=pair.substring(0,pos);
+						var val=pair.substring(pos+1);
+						if (i!=0){
+							newV+="&";
+						}
+						newV+=key+"="+this.dcsEncode(val);

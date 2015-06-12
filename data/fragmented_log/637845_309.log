@@ -1,0 +1,5 @@
+ConstructCalibrationGeometry.cc:244: warning: unused variable 'Separatinglayer_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:264: warning: unused variable 'CalibrationBoxContainerWall_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:308: warning: unused variable 'Puck_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:323: warning: unused variable 'BearingRing_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:340: warnin

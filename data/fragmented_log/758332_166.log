@@ -1,0 +1,14 @@
+*************
+ 
+Data Directory is: /tproc/nandra/processing/74035000/work/
+HK Directory is: /tproc/nandra/processing/74035000/work/
+ 
+!xsel:ASCA-GIS2-PH > set binsize 128
+!xsel:ASCA-GIS2-PH > set image sky
+!xsel:ASCA-GIS2-PH > set xybinsize 1
+!xsel:ASCA-GIS2-PH > extract image
+!xsel:ASCA-GIS2-PH > save image clobber=yes 74035000_gis2_sky.img
+Wrote image to file 74035000_gis2_sky.img
+!xsel:ASCA-GIS2-PH > set image det
+!xsel:ASCA-GIS2-PH > filter region 74035000_gis2_src.reg
+!xsel:ASCA-GIS2-PH > extract spect

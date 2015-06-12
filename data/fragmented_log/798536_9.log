@@ -1,0 +1,10 @@
+est.c -lnet   -L/p/nessus/v2_0_9/lib -lnessus -lhosts_gatherer -lpcap-nessus  -lutil -lnsl -lresolv   -L/p/openssl/v0_9_7/lib -lssl -lcrypto -ldl  1>&5
+/p/binutils/v2_11_2/bin/ld: cannot find -lnet
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 6121 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char li

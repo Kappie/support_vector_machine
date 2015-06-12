@@ -1,0 +1,13 @@
+2016000_sis0_src_20.pha
+ ** grppha 2.9.0 completed successfully
+ascaarf
+Sat Apr 22 06:03:39 EDT 2000
+ascaarf 72016000_sis0_src.pha.tmp 72016000_sis0.rmf 72016000_sis0.arf point=yes simple=yes clobber=yes
+ASCAARF vers 3.00  6 Oct 1998.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xrt_psf_v2_0.fits
+ 
+ Input WMAP array has size   40 by   41 bins
+               expanded to   40 by   41 bins
+ First WMAP bin is at detector pixel  328  304
+   8 detector pixels per WM

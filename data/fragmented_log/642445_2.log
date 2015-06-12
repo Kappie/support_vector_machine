@@ -1,0 +1,12 @@
+ Oct 9 13:50:00 2001 -->
+<pre>The above entry is the look area a-stream data from run 128338. 
+The L2 jet cutting code appears to be working just fine.</pre>
+<!-- Author: Stephen -->
+
+
+<!-- Date: Tue Oct 9 14:18:22 2001 -->
+<pre>Isolation tests: had to remove DCAS crate 4 slot 9 since it 
+was hanging up L2 clustering.  Monica will be here tomorrow 
+and will look at it.   With the new firmware it appeared 
+on the scope that the zero energy cluster problem was  
+greatly reduced,  but our software now gives er

@@ -1,0 +1,7 @@
+E):  /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/build.log
+[buildtool/194/is_build_needed()] Got config key LOGFILE with value /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/build.log.
+[Config.pm/155/Config::get] Config::get(MAKE):  make
+[buildtool/194/is_build_needed()] Got config key MAKE with value make.
+[Config.pm/155/Config::get] Config::get(PARALLELIZE):  x1
+[buildtool/194/is_build_needed()] Got config key PARALLELIZE with value x1.
+[Config.pm/155/Config::get] Config::get(PATH):  /usr/build/bin:/usr/lo

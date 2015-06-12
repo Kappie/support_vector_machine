@@ -1,0 +1,11 @@
+DCs as part of the XFT 
+integration studies.  Here are some questions that came up, and 
+the answers that Mike Kelly sent us. 
+ 
+	We had a pretty successful day of XFT testing today -- by the end of 
+it, we had two XTCs talking to a single Finder, each XTC sending up randomized 
+data that was verified at the Finder end.  So we're pretty happy about that. 
+Here are a few things that came up. 
+ 
+	1)  One of the Rev C TDCs that they have seems to have trouble with 
+the mezzanine interface -- all of the XTC reg

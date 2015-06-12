@@ -1,0 +1,12 @@
+IS3-PH > set image sky
+!xsel:ASCA-GIS3-PH > set xybinsize 1
+!xsel:ASCA-GIS3-PH > extract image
+!xsel:ASCA-GIS3-PH > save image clobber=yes 72016000_gis3_sky.img
+Wrote image to file 72016000_gis3_sky.img
+!xsel:ASCA-GIS3-PH > set image det
+!xsel:ASCA-GIS3-PH > filter region 72016000_gis3_src.reg
+!xsel:ASCA-GIS3-PH > extract spectrum
+!xsel:ASCA-GIS3-PH > save spectrum group=no clobber=yes 72016000_gis3_src.pha
+Wrote spectrum to 72016000_gis3_src.pha
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS3

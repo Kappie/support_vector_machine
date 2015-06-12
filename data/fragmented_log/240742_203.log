@@ -1,0 +1,9 @@
+an_name=295-2058
+2001.295.20:54:46.34:source=1958-179,195804.6,-175717.0,1950.0
+2001.295.20:54:46.35#antcn#Commanding to new source
+2001.295.20:54:48.17#antcn#Source:  1958-179  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.295.20:54:48.17#antcn# RAcommand  300.258   DECcommand -17.812
+2001.295.20:54:48.19:check80f
+2001.295.20:55:49.69?ERROR qg -303 Track  5 parity errors exceed threshold.
+2001.295.20:55:49.69?ERROR qg -303 Track  7 parity errors exceed threshold.
+2001.295.20:55:49.69?ERROR qg -305 AUX data dif

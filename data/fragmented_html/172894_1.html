@@ -1,0 +1,13 @@
+o the visible portion selected by
+the scroll bars. Ideally, you would treat the Scroller exactly as if
+it WERE Scrolled, ie. adding to it, removing, etc; with the scrolling
+machinery transparently inserted in between.
+Also, Scrolled should be layed out to be as big as it wants to be.
+<UL> 
+<LI>I hoped to be able to keep the scrolled panel `secret', that is, you would
+simply use
+<PRE>
+ scroller.add(component)
+</PRE>
+to add component to the inner scrolled panel.  Maybe I still can, but it will
+take some trick

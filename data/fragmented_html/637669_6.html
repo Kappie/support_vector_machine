@@ -1,0 +1,14 @@
+600,height=340,scrollbars=yes");
+if (window.focus) {
+relatedWin.focus();
+}
+}
+function openComponentWindow() {
+var url = getAFFDocumentLocation("QTGeoComponentServlet?_lang=en" + replaceSessionId('&_jsessionId=pDvtmSu2GwM-OL6wSjQrJtf'), true);
+compWin = window.open(url,"compWin","menubar=yes,resizable=yes,scrollbars=yes,top=50,left=20,width=700,height=420");
+if (window.focus) {
+compWin.focus();
+}
+}
+function openLoadQueryWindow() {
+var url = getAFFDocumentLocation('/servlet/LoadQuery?_lang=en', t

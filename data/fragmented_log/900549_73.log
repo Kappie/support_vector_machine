@@ -1,0 +1,13 @@
+ device: 'J2218-0335_S_1999_12_20_pus_map.eps/VPS'
+loglevs 100*3*image_rms/peak_flux
+! The new contour levels are:
+!  -0.147247 0.147247 0.294494 0.588987 1.17797 2.35595 4.7119 9.42379 18.8476 37.6952 75.3904
+print "clev=",int(3*image_rms*10000)/10000
+! clev= 0.0026 
+print "peak=",int(1000*peak_flux)/1000
+! peak= 1.776 
+mapcolor none
+! Mapplot colormap: none, contrast: 1 brightness: 0.5.
+mapplot cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 2.463 x 4.798 

@@ -1,0 +1,12 @@
+293_X.uvf
+! Writing 116 model components to file: 1034-293_X.mod
+! wwins: Wrote 1 windows to 1034-293_X.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 1.254 x 4.656 at -5.949 degrees (North through East)
+! Clean map  min=-0.0048609  max=0.77544 Jy/beam
+! Writing clean map to FITS file: 1034-293_X.fits
+! Writing difmap environment to: 1034-293_X.par
+print "****************************"
+! **************************** 
+print "*** Now, make some plots ***"
+! **

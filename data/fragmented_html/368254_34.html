@@ -1,0 +1,26 @@
+variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<2)
+step++
+else
+step=1
+//call function "slideit()" every 3 seconds
+setTimeout("slideit()",2500)
+}
+slideit()
+//-->
+</script>		<font size="1" face=arial><b> Leonard Hall<br>
+    </b><i>Photos by 
+
+
+ Elizabeth Alley,
+
+courtesy of 
+
+
+ Raleigh Historic Districts Commiss

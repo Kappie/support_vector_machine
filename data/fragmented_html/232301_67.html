@@ -1,0 +1,24 @@
+arguments[i].indexOf('DCS.')==0){
+				DCS[arguments[i].substring(4)]=arguments[i+1];
+				i++;
+		}
+		if (arguments[i].indexOf('DCSext.')==0){
+				DCSext[arguments[i].substring(7)]=arguments[i+1];
+				i++;
+		}
+	}
+	var dCurrent=new Date();
+	DCS.dcsdat=dCurrent.getTime();
+	dcsTag();
+}
+
+
+dcsVar();
+dcsMeta();
+dcsFunc("dcsAdv");
+dcsTag();
+//-->
+</SCRIPT>
+
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://statse.webtrendslive.com/dcs7sl75d21e5hek6e95sli2p_2u4f/n

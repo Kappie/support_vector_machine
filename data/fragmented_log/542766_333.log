@@ -1,0 +1,13 @@
+,-274.4,0.1,0.6
+9919500210872:!195002815
+9919500281500:tape
+9919500281506/tape/off,07684,norm,stopped,stop,unlock,ready,rem
+9919500281506:st=for,80
+9919500281521:!195002825
+9919500282500:preob
+9919500282500#antcn#Checking onsource status
+9919500282503#antcn# RAsource    12.664   DECsource   -9.487
+9919500282503#antcn# RAbeam      12.665   DECbeam     -9.487
+9919500282503#antcn# RAdelta      0.001   DECdelta     0.000
+9919500282503?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919500282503/onsource/SLE

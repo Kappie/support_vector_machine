@@ -1,0 +1,22 @@
+		}
+				else
+					targetLink = jsDlgLoader + "?url=/commonspot/utilities/handle-link.cfm&thelink=" + link;
+				
+				if (windowname == "")
+					window.location = targetLink;
+				else
+				{
+					windowparams = FormatWindowParams(windowparams);
+					window.open (targetLink, windowname, windowparams);
+				}
+			}
+			else
+			{
+				commaPos = link.indexOf(",");
+				if (commaPos != -1)
+					link = link.substr(0, commaPos);
+				if (windowname == "")
+					window.location = link;
+				else
+				{
+					windowparams = For

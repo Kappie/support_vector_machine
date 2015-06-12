@@ -1,0 +1,15 @@
+point generated
+   C     by extending this unit vector.
+   C
+ 
+   C
+   C     Find the cartesian unit vector:
+   C
+         CALL <a href="../spicelib/latrec.html">LATREC</a> ( 1.D0, OBSLON, OBSLAT, UVEC )
+ 
+   C
+   C     Extend the unit vector from the origin and find the surface
+   C     intercept.  The output argument FOUND indicates whether the
+   C     intercept point was found; there's no need to check this
+   C     when the intercepting ray has its vertex inside the
+   C     ellipsoid.  OBSPT is the su

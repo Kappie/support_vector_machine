@@ -1,0 +1,13 @@
+555  max=2.1684 Jy/beam
+! 
+! Move the cursor into the plot window and press 'H' for help
+clean
+! Inverting map 
+! clean: niter=150  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0223806 Jy
+! Component: 100  -  total flux cleaned = 0.035687 Jy
+! Component: 150  -  total flux cleaned = 0.0435357 Jy
+! Total flux subtracted in 150 components = 0.0435357 Jy
+! Clean residual min=-0.022203 max=0.024651 Jy/beam
+! Clean residual mean=-0.000122 rms=0.005659 Jy/beam
+! Combined flux in latest and esta

@@ -1,0 +1,14 @@
+OR ch -370 Total power integrator overflow on IF3
+9830205492784?ERROR ch -370 Total power integrator overflow on IF3
+9830205494313;proc=crf04ho
+9830205494686;ifdwb
+9830205494686&ifdwb/ifd=19,17,nor,nor
+9830205494686&ifdwb/if3=4,in,1
+9830205494686&ifdwb/ifd=alarm
+9830205494686&ifdwb/if3=alarm
+9830205494686&ifdwb/lo=8080.00,2020.00,8580.1
+9830205494686&ifdwb/upconv=0,0,0
+9830205494686&ifdwb/patch=lo1,1l,2l,3h,4h,5h,6h,7h,8h
+9830205494686&ifdwb/patch=lo2,9l,10l,11h,12h,13h,14h
+9830205500000:preob
+9830205500000

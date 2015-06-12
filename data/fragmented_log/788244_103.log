@@ -1,0 +1,7 @@
+equivalent| Anisotropy lmin/max     |
+|    type    |iso    aniso | min     max     mean   | min   max    mean       |
+|    - - - - |- - - - - - -| - - - - - - - - - - - -| - - - - - - - - - -     |
+|    all     : 2823   0      1.22    79.57   16.33    None  None   None       |
+|    all(noH): 2823   0      1.22    79.57   16.33    None  None   None       |
+|    Sol.    : 438    0      6.05    70.54   37.00    None  None   None       |
+|    Mac.    : 2385   0      1.22    79.57   12.54    None  None   None   

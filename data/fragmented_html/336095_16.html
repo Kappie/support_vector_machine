@@ -1,0 +1,13 @@
+ngth;
+				for (i=0;i < forceElement.length;i++){				// Loop over the existing elements
+					iel = forceElement[i].split("-");
+					for (j=0;j < arrCtrlsCnt;j++){
+						jel = arrCtrls[j].split("-");
+						if (jel[0] == iel[0])									// Is it the same control
+							break;
+					}
+					if (j == arrCtrls.length)								// We reached the end  and did not find the control
+						arrCtrls[arrCtrls.length] = forceElement[i];
+				}
+				qel = qArray[forceElementIndex].split("=");
+				qArray[forceElementIndex] = qel[

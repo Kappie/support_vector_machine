@@ -1,0 +1,17 @@
+.740     arcmin^2
+ Optical axis is detector pixel 618.28 773.83
+ 
+ 1180 energies from RMF file
+ Effective area fudge applied
+ Arf filter applied
+ 
+ Point source at  455.00  483.00 (detector coordinates)
+ Point source at   20.41   36.35 (WMAP bins wrt optical axis)
+ Point source at    8.85   60.69 (... in polar coordinates)
+ 
+ Total counts in region = 2.36000E+03
+ Weighted mean angle from optical axis  =  8.428 arcmin
+ 
+gnt_infrm: Creating grouped spectrum files for gis2...
+grppha
+Fri Apr 28 06:02:29 EDT 200

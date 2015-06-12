@@ -1,0 +1,10 @@
+ter in use
+  EXPOSURE  - 33571.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 6.22070E-02     Background scaling factor
+  BACKFILE  - none            Associated background file
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - none            Associated redistribution matrix file
+  ANCRFILE  - none            Associated ancillary response file
+  POISSERR  - TRUE   

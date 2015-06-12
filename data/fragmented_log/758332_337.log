@@ -1,0 +1,11 @@
+: 1 - RATE TABLE;
+ 
+ Source ............ 3C_254              Start Time (d) .... 10424 13:20:29.435
+ FITS Extension ....  1 - `RATE      `   Stop Time (d) ..... 10425 10:26:37.435
+ No. of Rows .......         2409        Bin Time (s) ......    16.00
+ Right Ascension ...                     Internal time sys.. Literal
+ Declination .......                     Experiment ........
+ 
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  3- Y-axis;  4- Y-er

@@ -1,0 +1,20 @@
+hed model now contains 37 components and 0.447266 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.136425Jy  sigma=0.001113
+! Fit after  self-cal, rms=0.135302Jy  sigma=0.001096
+! Inverting map and beam 
+! Estimated beam: bmin=2.014 mas, bmaj=2.326 mas, bpa=15.62 degrees
+! Estimated noise=597.247 mJy/beam.
+doamp = false
+solint = solint / (6.0/3.6)
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mul

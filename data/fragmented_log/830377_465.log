@@ -1,0 +1,14 @@
+GTI    `   First GTI Start ... 11015 20:55:48.883
+ No. of Rows .......           49        Last GTI Stop ..... 11016 05:18:05.018
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ 
+ Expected Start ... 11015.87209355439  (days)      20:55:48:883  (h:m:s:ms)
+ Expected Stop .... 11016.22089141117  (days)       5:18: 5: 18  (h:m:s:ms)
+ 
+ Minimum Newbin Time    4.0000000      (s)
+ for Maximum Newbin No..             7535
+ 
+ Default Newbin Time is:   4.0000000    (s) (to have 1 Intv. of    7535 Newbins)
+ 

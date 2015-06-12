@@ -1,0 +1,10 @@
+21320/tape/off,09372,norm,stopped,stop,unlock,ready,rem
+9919421121320:postob
+9919421121320:source=1741-038,174120.6,-034848.9,1950.0
+9919421121321#antcn#Commanding to new source
+9919421121436#antcn#Source:  1741-038  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919421121437#antcn# RAcommand  265.991   DECcommand  -3.832
+9919421121438:wb2c2=2
+9919421121885/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919421121885/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919421

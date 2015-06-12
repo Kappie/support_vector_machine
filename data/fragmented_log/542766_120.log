@@ -1,0 +1,14 @@
+-201  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919419483037#antcn# RAcommand  287.786   DECcommand -20.114
+9919419483039:check2c2
+9919419483039&check2c2/check=*,-tp,-hd
+9919419483040&check2c2/form4=/rec 0
+9919419483040&check2c2/peak=3,1,r
+9919419483041&check2c2/decode=a,crc,byte
+9919419483042&check2c2/parity=,,ab,on,m1,m3
+9919419483042&check2c2/fastf=11.0s
+9919419483043&check2c2/!+6s
+9919419483043&check2c2/!*
+9919419483043&check2c2/st=rev,80,off
+9919419483043&check2c2/!+4s
+9919419483043&check2c2/repro=raw,5,7

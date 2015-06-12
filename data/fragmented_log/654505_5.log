@@ -1,0 +1,5 @@
+g::get] Config::get(INSTROOT_SOURCE_RSYNC):  /caos/buildroot-2-ia32/
+[buildtool/194/is_build_needed()] Got config key INSTROOT_SOURCE_RSYNC with value /caos/buildroot-2-ia32/.
+[Config.pm/155/Config::get] Config::get(LOCATIONS):  /src.rpm$/=/caos/repo/ext/autobuilder/SRPMS,/rpm$/=/caos/repo/ext/autobuilder/i386
+[buildtool/194/is_build_needed()] Got config key LOCATIONS with value /src.rpm$/=/caos/repo/ext/autobuilder/SRPMS,/rpm$/=/caos/repo/ext/autobuilder/i386.
+[Config.pm/155/Config::get] Config::get(LOGFIL

@@ -1,0 +1,9 @@
+for coordinate error:   0.21 A                  |
+| x-ray target function (ml) for work reflections: 5.385111                   |
+|-----------------------------------------------------------------------------|
+
+========================== Target weights: x-ray data =========================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 3.207437              wxc_scale = 0.500            w

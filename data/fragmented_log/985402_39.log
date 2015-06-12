@@ -1,0 +1,14 @@
+ting to open device: '0014+813_Xim.ps/vps'
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+loglevs -1,2048,2
+! The new contour levels are:
+!  -1 1 2 4 8 16 32 64 128 256 512 1024 2048
+cmul = imstat(rms)*3
+! Inverting map and beam 
+! Estimated beam: bmin=0.9118 mas, bmaj=1.086 mas, bpa=80.41 degrees
+! Estimated noise=0.768226 mJy/beam.
+mappl cln
+! restore: Substituting estimate of re

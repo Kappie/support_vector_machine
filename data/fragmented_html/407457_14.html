@@ -1,0 +1,22 @@
+ = link.indexOf("CPNEWWIN:");
+		if (pos != -1)
+		{
+			pos1 = link.indexOf ("^");
+			windowname = link.substring (pos+9, pos1);
+			pos2 = link.indexOf ("@");
+			windowparams = link.substring (pos1 + 1, pos2);
+			link = link.substring (pos2 + 1, link.length);
+		}
+		
+		if( displaylink && displaylink != "" )
+		{		
+			if (windowname == "")
+				window.location = displaylink;
+			else
+			{
+				windowparams = FormatWindowParams(windowparams);
+				window.open (displaylink, windowname, windowparams);
+			}
+		}
+		else
+	

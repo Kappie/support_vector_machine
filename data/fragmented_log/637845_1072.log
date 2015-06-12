@@ -1,0 +1,10 @@
+ternal/GEANT  	 External
+/Generators 	 /Generators  	 Generators
+/Generators/InverseBeta 	 /Generators/InverseBeta  	 Generators
+/Generators/RadioActivity/K40 	 /Generators/RadioActivity/K40  	 Generators
+/Base/Log 	 /Base/Log  	 Base
+/DataStructure/MCEvent 	 /DataStructure/MCEvent  	 DataStructure
+/Generators/Muon 	 /Generators/Muon  	 Generators
+/Generators/Neutron 	 /Generators/Neutron  	 Generators
+/Generators/RadioActivity 	 /Generators/RadioActivity  	 Generators
+/External/ROOT 	 /External/ROOT  	 Ext

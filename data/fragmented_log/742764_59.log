@@ -1,0 +1,20 @@
+y/beam
+! Combined flux in latest and established models = 1.24145 Jy
+selfcal
+! Performing phase self-cal
+! Adding 11 model components to the UV plane model.
+! The established model now contains 52 components and 1.24145 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.187552Jy  sigma=0.001318
+! Fit after  self-cal, rms=0.187544Jy  sigma=0.001318
+flux_cutoff = imstat(rms) * dynam
+! Inverting map 
+! Your choice of large map pixels exclu

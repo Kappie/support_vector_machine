@@ -1,0 +1,13 @@
+943,18.491,rate
+9919418235000:"data stop"
+9919418235000:et
+9919418235013:!+3s
+9919418235314:tape
+9919418235320/tape/off,06079,norm,stopped,stop,unlock,ready,rem
+9919418235320:postob
+9919418235320:source=1749+096,174910.4,093942.9,1950.0
+9919418235321#antcn#Commanding to new source
+9919418235438#antcn#Source:  1749+096  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919418235438#antcn# RAcommand  267.884   DECcommand   9.653
+9919418235438:wb2c1=1
+9919418235720#matcn#debug: 92 /ASS 0 2:0x1 4:0x3 6:0x5 8:0x7 10:0x9 12:

@@ -1,0 +1,9 @@
+2 r   2320.00 0.9902 120.0  592.8  54.834 0.7904
+2004.350.17:36:23.51#onoff#VAL 3c147       74.6 51.7 i3 3 r   8380.00 0.9902 35.09  578.1  82.363 0.2265
+2004.350.17:36:23.51#onoff#    source       Az   El  De I P   Center   Comp   Tsys  SEFD  Tcal(j) Tcal(r)
+2004.350.17:36:46.65;azeloff=0d,0d
+2004.350.17:36:48.59#flagr#flagr/antenna,off-source
+2004.350.17:36:52.90#flagr#flagr/antenna,re-acquired
+2004.350.17:37:20.09;source=azeluncr,180d,45d
+2004.350.17:37:20.09#flagr#flagr/antenna,new-source
+2004.350.17:37

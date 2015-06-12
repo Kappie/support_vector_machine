@@ -1,0 +1,11 @@
+06:23:12.21#skua #Interrupted: processing new source
+2004.350.06:23:15.19/mk5/!play_rate = 0 ;
+2004.350.06:23:15.19/mk5/!mode = 0 ;
+2004.350.06:23:15.22/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.06:23:15.22:!2004.350.06:25:46
+2004.350.06:23:15.41#skua #Antenna slewing to azimuth 368.5, elevation 29.5
+2004.350.06:24:25.27;"no scan 350-0622 - antenna problems
+2004.350.06:24:41.83#skua #Antenna slewing complete
+2004.350.06:24:53.30#flagr#flagr/antenna,acquired
+2004.350.06:25:46.00:preob
+2004.35

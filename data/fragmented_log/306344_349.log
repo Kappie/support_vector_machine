@@ -1,0 +1,11 @@
+8.40
+9830212112790/rx/03(dcal),on,a,on,on,on,off,locked,46.94
+9830212112801/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.012
+9830212112812/rx/17(pres),on,a,on,on,on,off,locked,3.298
+9830212112823/rx/1E(20k),on,a,on,on,on,off,locked,26.22
+9830212112834/rx/1F(70k),on,a,on,on,on,off,locked,45.14
+9830212122000:preob
+9830212122000#antcn#Check if antenna is on-source
+9830212122061/onsource/TRACKING
+9830212122302/tpical/48152,46234,41921,35684,24248,17970,33539,24056,11057,65535
+9830212122326/tpical/33546,20211,14976,

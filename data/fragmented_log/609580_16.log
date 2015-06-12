@@ -1,0 +1,11 @@
+s on layer 7 are found at phi coordinates 0 and 35. 
+ 
+2. There is a problem with bunch crossings 50, 103, and 156. At 
+   these bunch crossings phi side pedestals are 0 and z side 
+   pedestals are too high. See plots 
+   http://www-cdf.lbl.gov/~igv/Plots_run_110920/peds_vs_bunchx.ps 
+   http://www-cdf.lbl.gov/~igv/Plots_run_110920/example_pulse_height_distro.ps 
+ 
+3. The front end of the W 1 6 -A Z is dead. Is the AVDD power supply OK? 
+ 
+(W 1 6 -A Z means west barrel, layer 1, phi wedege 6, west halfbarr

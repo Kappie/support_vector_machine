@@ -1,0 +1,4 @@
+cess::EcalEndcaps                                                     91933        0.457 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::addCrossedHits                                                          91933        0.265 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::addHitsInTheRegion                                                      91933        4.741 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::matching                                                  

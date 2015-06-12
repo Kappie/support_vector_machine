@@ -1,0 +1,11 @@
+      1.03 -     1.80: 9
+        1.80 -     2.58: 83
+        2.58 -     3.35: 4090
+        3.35 -     4.13: 9495
+        4.13 -     4.90: 14932
+  Nonbonded interactions sorted by model distance:
+             atom i - atom j             model   vdw sym.op. j
+  " OE1 GLN A  55 " - " O   HOH Z 403 "  1.026 3.040 -x+1,y-1/2,-z+1/2
+  " O   HOH Z  43 " - " O   HOH Z 169 "  1.161 3.040 -x+1,y+1/2,-z+1/2
+  " NH1 ARG A  24 " - " O   GLY A  91 "  1.193 3.120 -x+1,y+1/2,-z+1/2
+  " O   HOH Z  94 " - " NH1BARG A 145 "  

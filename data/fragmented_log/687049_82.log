@@ -1,0 +1,5 @@
+u)
+firstcall_Muon|RecoMuon|GlobalMuonTrajectoryBuilder|makeTkCandCollection::trackCollection                      1        0.004 (real)        0.000 (cpu)
+firstcall_Muon|RecoMuon|GlobalMuonTrajectoryBuilder|trajectories::Total                                        1        0.033 (real)        0.000 (cpu)
+firstcall_Muon|RecoMuon|GlobalMuonTrajectoryBuilder|trajectories::build                                        1        0.022 (real)        0.000 (cpu)
+firstcall_Muon|RecoMuon|GlobalMuonTrajectoryBuilder|t

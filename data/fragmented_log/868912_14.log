@@ -1,0 +1,14 @@
+.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+win_mult = win_mult * 1.6
+clean_niter = clean_niter * 2
+dynam = dynam - 0.5
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Your choice of large map pixels excluded 1.03% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! Estimated beam: bmin=0.7607 mas, bmaj=0.9635 mas, bpa=-12.56 degrees
+! Estimated noise=237.072 mJy/beam.
+repeat
+  if (peak(flux

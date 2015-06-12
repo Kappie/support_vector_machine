@@ -1,0 +1,10 @@
+.12&ifdsx/lo=lo1,8080.00,usb,rcp,1
+2004.350.17:28:19.12&ifdsx/lo=lo2,2020.00,usb,rcp,1
+2004.350.17:28:19.12&ifdsx/lo=lo3,8080.00,usb,rcp,1
+2004.350.17:28:19.12&ifdsx/patch=
+2004.350.17:28:19.12&ifdsx/patch=lo1,1l,2l,3l,4h
+2004.350.17:28:19.12&ifdsx/patch=lo2,9l,10l,11l,12h,13h,14h
+2004.350.17:28:19.12&ifdsx/patch=lo3,5h,6h,7h,8h
+2004.350.17:28:19.15?ERROR qi -302 Last commanded IFD attenuations used as default, please modify command.
+2004.350.17:28:19.21/ifd/24,13,nor,nor,rem,7106,18671
+2004.350.17:28:19.24

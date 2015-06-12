@@ -1,0 +1,13 @@
+op,unlock,ready,rem
+9830300101329:postob
+9830300101329:source=1725+044,172556.4,042928.0,1950.0
+9830300101330#antcn#Command a new source
+9830300101351#antcn#Successfully sent new source position to antenna
+9830300101351:sx2c1=13
+9830300101459/pass/13,13,auto,0.0,0.0,-0.3,0.1,-0.3,0.1
+9830300101805:!303001430
+9830300142014?ERROR ch -370 Total power integrator overflow on IF3
+9830300143000:preob
+9830300143000#antcn#Check if antenna is on-source
+9830300143057/onsource/TRACKING
+9830300143296/tpical/54276,51887,

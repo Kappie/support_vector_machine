@@ -1,0 +1,6 @@
+ctor
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool_CD1.cc: In member function 'void dywDetectorConstruction::ConstructFarSitePool_CD1()':
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool_CD1.cc:456: warning: unused variable 'WaterModuleVolume_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool_CD1.cc:896: warning: unused variable 'physV_Module_1'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool_CD1.cc:903: warning: unused variable 'physV_Module_2'
+/home/tagg/autodaya/G4dyb/src/dywC

@@ -1,0 +1,11 @@
+onent: 850  -  total flux cleaned = 0.00321326 Jy
+! Component: 900  -  total flux cleaned = 0.00331189 Jy
+! Component: 950  -  total flux cleaned = 0.00333627 Jy
+! Component: 1000  -  total flux cleaned = 0.00336074 Jy
+! Total flux subtracted in 1024 components = 0.00340904 Jy
+! Clean residual min=-0.001302 max=0.001206 Jy/beam
+! Clean residual mean=0.000030 rms=0.000473 Jy/beam
+! Combined flux in latest and established models = 0.949255 Jy
+keep
+! Adding 86 model components to the UV plane model.
+! The esta

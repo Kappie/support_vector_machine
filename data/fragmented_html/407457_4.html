@@ -1,0 +1,23 @@
+height - 9;
+				intLeft=window.screen.width - 9;
+				intHeight=1;
+				intWidth=1;
+			}
+			else
+			{
+				intTop=(window.screen.height / 2) - 109;
+				intLeft=(window.screen.width / 2) - 210;
+				intHeight=218;
+				intWidth=421;
+			}
+			if(!url.match(externalLinkRegEx) && url.indexOf('kurrentPageID') == -1)
+			{
+				try
+				{
+					if( url.indexOf ('?') == -1 )
+						url = url + '?kurrentPageID=' + kurrentPageID;
+					else
+						url = url + '&kurrentPageID=' + kurrentPageID;
+				}
+				catch (oErr)
+				{ /* Do 

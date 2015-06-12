@@ -1,0 +1,8 @@
+  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919420595736#antcn# RAcommand  246.440   DECcommand -25.458
+9919420595736:wb2c2=2
+9919421000020#matcn#debug: ASS 0 3:0x1 5:0x3 7:0x5 9:0x7 11:0x9 13:0xb 15:0xd 17:0x0 ? ERROR 7
+9919421000108#matcn#debug: STA ? ERROR 7
+9919421000191/form/0x8015 0x1004 0x9222 38 3 4000 11 0 0 0
+9919421000191/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919421000191/form/map[0].stack[1].head[18] = x00 x00 x02 x02 x04 x04 x06 x06 x08 x08 

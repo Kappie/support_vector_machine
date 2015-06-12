@@ -1,0 +1,11 @@
+leotide blast searches through megablast, blastall, and bl2seq
+have until now allowed users to select arbitrary gap existence<A NAME="869"></A>
+and gap extension<A NAME="870"></A> penalties for a blastn<A NAME="871"></A>
+type search. This has been convenient for users but has led to the
+unfortunate situation that searches with some parameter sets were
+significantly overestimating the statistical significance of matches.
+The parameters that might cause an issue here are -r, -q, -G, and
+-E. 
+
+<P>
+To address t

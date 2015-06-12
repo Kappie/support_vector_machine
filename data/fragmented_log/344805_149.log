@@ -1,0 +1,10 @@
+tats? 0 : 6 : 26175 : 25794 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.308.19:20:10.95/mk5/!get_stats? 0 : 7 : 26172 : 25790 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.308.19:20:10.96:scan_name=308-1922,crf23,160
+2003.308.19:20:10.98:source=1718-649,171846.11,-645747.8,1950.0
+2003.308.19:20:11.27#antcn#Command a new source
+2003.308.19:20:11.27#flagr#flagr/antenna,off-source
+2003.308.19:20:11.87#antcn#Successfully sent new source position to antenna
+2003.308.19:20:11.87#flagr#flagr/antenna,new-source
+2003.308.19:20:11.88:setupsx
+20

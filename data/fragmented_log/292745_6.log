@@ -1,0 +1,12 @@
+6:34:18.44/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+1999.147.06:34:18.54/rx/17(PRES),on,a,on,on,on,off,locked,0.843
+1999.147.06:34:18.64/rx/1E(20K),on,a,on,on,on,off,locked,23.11
+1999.147.06:34:18.71/newtape/to continue, use LABEL command
+1999.147.06:34:39.93;label=gsi99063
+1999.147.06:34:39.94&loader/!+7s
+1999.147.06:34:39.94&loader/tape=reset
+1999.147.06:34:39.94&loader/!+2s
+1999.147.06:34:49.00/label/gsi99063
+1999.147.06:34:49.00:wb4k1=1
+1999.147.06:34:49.00&wb4k1/rec=synch_on
+1999.147.06:34:49.00&wb

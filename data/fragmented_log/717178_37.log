@@ -1,0 +1,16 @@
+******************** 
+print "*** Now, make some plots ***"
+! *** Now, make some plots *** 
+print "****************************"
+! **************************** 
+device 1514-241_Suv.ps/vps,1,2
+! Attempting to open device: '1514-241_Suv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+device 1514-241_Sim.ps/vps
+! Attempting to open device: '1514-241_Sim.ps/vps'
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial wei

@@ -1,0 +1,8 @@
+T):  <undef>
+[buildtool/194/is_build_needed()] Got config key BUILDROOT with value <undef>.
+[Config.pm/155/Config::get] Config::get(BUILDTREE_LAYOUT):  orc
+[buildtool/194/is_build_needed()] Got config key BUILDTREE_LAYOUT with value orc.
+[Config.pm/155/Config::get] Config::get(BUILDUSER):  nobody
+[buildtool/194/is_build_needed()] Got config key BUILDUSER with value nobody.
+[Config.pm/155/Config::get] Config::get(CFLAGS):  -O2 -march=pentium
+[buildtool/194/is_build_needed()] Got config key CFLAGS with value 

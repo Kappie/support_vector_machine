@@ -1,0 +1,14 @@
+2005_07_09_yyk_map.eps/VPS'
+loglevs 100*3*image_rms/peak_flux
+! The new contour levels are:
+!  -1.75215 1.75215 3.50429 7.00858 14.0172 28.0343 56.0687
+print "clev=",int(3*image_rms*10000)/10000
+! clev= 0.0018 
+print "peak=",int(peak_flux*1000)/1000
+! peak= 0.107 
+mapcolor none
+! Mapplot colormap: none, contrast: 1 brightness: 0.5.
+mapplot cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 3.517 x 8.57 at 5.307 degrees (North through East)
+! Clean map  min=-0.0

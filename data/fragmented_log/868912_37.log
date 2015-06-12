@@ -1,0 +1,15 @@
+ IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.420915Jy  sigma=0.002446
+! Fit after  self-cal, rms=0.420905Jy  sigma=0.002446
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! Added new window around map position (4, -1.4).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00308612 Jy
+! Component: 100  -  total flux cleaned = 0.00391914 Jy

@@ -1,0 +1,14 @@
+<dict>
+			<key>com.apple.print.ticket.creator</key>
+			<string>com.apple.print.pm.PostScript</string>
+			<key>com.apple.print.ticket.itemArray</key>
+			<array>
+				<dict>
+					<key>com.apple.print.PaperInfo.ppd.PMPaperName</key>
+					<string>US Letter</string>
+					<key>com.apple.print.ticket.client</key>
+					<string>com.apple.print.pm.PostScript</string>
+					<key>com.apple.print.ticket.modDate</key>
+					<date>2003-07-01T17:49:36Z</date>
+					<key>com.apple.print.ticket.stateFlag</key>
+					<integer>1</i

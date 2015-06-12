@@ -1,0 +1,11 @@
+ack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919517335185/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919517335273/pass/10,10,auto,-110.0,-110.0,-110.2,-109.6,-0.2,0.4
+9919517335288:!195173556
+9919517355600:tape
+9919517355606/tape/off,08103,norm,stopped,stop,unlock,ready,rem
+9919517355606:st=rev,80
+9919517355622:!195173606
+9919517360600:preob
+9919517360600#antcn#Checking onsource status
+9919517360603#antcn# RAsource   208.521   DECsource   

@@ -1,0 +1,17 @@
+   ? 
+     Waypoint for X-Sect: 
+       CLASS:       wig,ftc,lov,elb,flg
+       RADIOMETERS: ptv,stp,elb,eri
+       RADARS:      mhr,cp3,chl,und
+       SAOs:        bjc,den,apa,cos,cys,lar,lic,ako,gld,lhx,gxy
+       VORs:        kiw
+       MESONET:     bou
+                           OR I,J location:                           ? 
+  Waypt x,y =    0.50   0.50
+
+  Waypt x,y =   77.00  71.00
+  Right Edge   153.00  71.00
+  Left Edge      1.00  71.00
+  End Points     1.00  71.00   153.00  71.00  pos_sta  61.00
+
+  F

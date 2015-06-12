@@ -1,0 +1,5 @@
+t] =I= [0mAntiNeutronAnnihilationAtRest,    LambdaInelastic,AntiLambdaInelastic, SigmaPlusInelastic
+[0m[geant] =I= [0mSigmaMinusInelastic,AntiSigmaPlusInelastic,AntiSigmaMinusInelastic,    XiZeroInelastic
+[0m[geant] =I= [0m   XiMinusInelastic,AntiXiZeroInelastic,AntiXiMinusInelastic,OmegaMinusInelastic
+[0m[geant] =I= [0mAntiOmegaMinusInelastic,       IonInelastic,       He3Inelastic,      HadronElastic
+[0m[geant] =I= [0m     AlphaInelastic,  DeuteronInelastic,    TritonInelastic,           Cerenkov

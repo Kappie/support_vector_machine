@@ -1,0 +1,7 @@
+  nH       10^22     0.1408     +/-   1.139       1
+    3    3    3   powerlaw   PhoIndex            2.010     +/-   1.627       1
+    4    4    3   powerlaw   norm               4.0790E-02 +/-   1.729       1
+    5    5    4   wabs       nH       10^22     0.1880     +/-   2.831       1
+    6    6    5   powerlaw   PhoIndex            1.967     +/-   13.24       1
+    7    7    5   powerlaw   norm               1.0867E-02 +/-   1.728       1
+    8    8    6   constant   factor              1.010     +/-  0

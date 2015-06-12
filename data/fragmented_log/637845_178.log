@@ -1,0 +1,6 @@
+o-object
+../Linux-i686/Log_Dict.cc:5736: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc: In function 'void G__setup_memfuncLoggingcLcLFmtLevelColor()':
+../Linux-i686/Log_Dict.cc:5752: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5753: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5754: warning: ISO C++ forbids casting bet

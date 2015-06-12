@@ -1,0 +1,11 @@
+         LCP
+  remap_field_2d X:    13.00000        196.0000        1.000000     
+    121.0000    
+  remap_field_2d Y:    37.00000        174.0000        2.000000     
+    21.00000    
+  calling solid fill cloud plot - commented out
+  Gridded Cloud Cover        X-Sect  061521800
+  Plotting, Overlay =             0            1            1
+  CLOW,HIGH,CINT     0.000000        1.000000       0.1000000    
+  Max/Min =     1.000000        0.000000    
+  remap_field_2d X:    13.00000        196.0000        1.00

@@ -1,0 +1,13 @@
+ SN01, I reflowed Q15. Taking cosmic runs 
+129231, 129232 
+Both Clist and Isolist had good agreement on the number  
+of clusters. (although for both there was at least one 
+event with an error.) 
+For Clist the ntower entry had a lot of errors, but no 
+eta or phi errors. 
+For Isolist, there were still eta errors, but no phi errors. 
+ 
+I then reflowed B21-B25 and E8-E16 on CLique SN03. For this 
+board in run 129233, Clist has lots of ncluster and ntower 
+mismatches with just a few eta and phi errors. 
+Isolist

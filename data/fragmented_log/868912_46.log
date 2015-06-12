@@ -1,0 +1,10 @@
+e map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! Estimated beam: bmin=2.189 mas, bmaj=2.489 mas, bpa=23.25 degrees
+! Estimated noise=332.849 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00230278 Jy
+! Component: 100  -  total flux cleaned = 0.00356033 Jy
+! Component: 150  -  total flux cleaned = 0.00433999 Jy
+! Component: 200  -  total flux cleaned = 0.00462087 Jy
+! Total flux subtracted in 200 co

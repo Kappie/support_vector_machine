@@ -1,0 +1,13 @@
+fields
+            Radar Intermediate Vxx - Ref [rv], Vel [rd]
+
+     SFC: [p,pm,ps,pp,tf,tc,df,dc,ws,wp,vv,hu,ta,th,te,vo,mr,mc,dv,ha,ma]
+          [sp,cs,vs,tw,fw,hi,gf]
+          [of,oc,ov,os,op,og,qf,qc,qv,qs,qp,qg] obs plots
+          [st,mw] obs/mesowx locations
+          [bs] Sfc background/forecast
+          [li,lw,he,pe,ne] li, li*w, helcty, CAPE, CIN,
+          [s] Other Stability Indices, [sm] Soil Moisture
+
+     TEMP: [t,tb,tr,to,bt] (LAPS,LGA,FUA,OBS,BAL), [pt,pb] Theta, Bal Theta
+     HGTS: [ht

@@ -1,0 +1,12 @@
+ACTIVATE: Cosmics_Silicon_Tape
+<!-- Author: Chun -->
+
+
+
+<!-- Date: Thu Mar 20 03:02:52.268 2003 -->
+DTO.  (MLE) b0cot18:Messenger:2:59:10 AM->Event 12: Bunchcounters in slot 4 (BC=53) and slot 9 (BC=118) disagree. HRR cleared it.
+<!-- Author: Chun :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160433' target=_top>160433</a>) -->
+
+
+<!-- Date: Thu Mar 20 03:37:04.656 2003 -->
+Busy timeout from scpu b0eb12. HRR cleared it.   SCPU_BAD_VRB_BYTE_COUNT Error! Hardware EVB has detected a problem with da

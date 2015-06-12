@@ -1,0 +1,15 @@
+hics systems.
+[0m[geant] =I= [0mCurrent available graphics systems are:
+              ASCIITree (ATree)
+              DAWNFILE (DAWNFILE)
+              GAGTree (GAGTree)
+              G4HepRep (HepRepXML)
+              G4HepRepFile (HepRepFile)
+              RayTracer (RayTracer)
+              VRML1FILE (VRML1FILE)
+              VRML2FILE (VRML2FILE)
+              OpenGLImmediateX (OGLIX)
+              OpenGLStoredX (OGLSX)
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mRegistering model factories...
+[0m[geant

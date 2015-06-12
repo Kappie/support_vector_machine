@@ -1,0 +1,18 @@
+
+ASCAEFFMAP vers 2.27  5 May 1999.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+ 
+  385 grouped channels from the PHA file
+ 
+ Bin size is 0.0270 (mm) = 0.0265(arcmin)
+ Optical axis is 662.72 559.02
+ WMAP size is    45 x   39
+ WMAP offset is   264   320
+ WMAP bin factor is     8
+ 
+ 1024 ungrouped channels from the RMF file
+ 
+ 
+pha bin =   42, E =  0.600 -  2.004 keV  (   1 /    4)   calculating ...
+ <efficiency> =   105.4630     weight =  9.8029413E-05
+pha bin =   43, E =  2.004 -  4.987 keV  (   2

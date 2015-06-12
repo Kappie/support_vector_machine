@@ -1,0 +1,17 @@
+2
+ Writing events file
+    425 events written to the output file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+         68505       425          67258         0         0       822
+   in  13576.     seconds
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel]
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ C

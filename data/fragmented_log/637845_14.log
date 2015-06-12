@@ -1,0 +1,10 @@
+us make fragments from cmt
+Removing all previous make fragments from Linux-i686
+Creating setup scripts.
+Creating cleanup scripts.
+#--------------------------------------------------------------
+# Now trying [cmt config] in /home/tagg/autodaya/G4dyb/cmt (15/15)
+#--------------------------------------------------------------
+#CMT> bad syntax in requirements of GEANT v0 External line #13 [<<<<<<< ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements 

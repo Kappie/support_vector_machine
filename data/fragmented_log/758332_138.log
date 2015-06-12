@@ -1,0 +1,11 @@
+t image sky
+!xsel:ASCA-SIS0-BRIGHT2 > set xybinsize 4
+!xsel:ASCA-SIS0-BRIGHT2 > extract image
+!xsel:ASCA-SIS0-BRIGHT2 > save image clobber=yes 74035000_sis0_sky.img
+Wrote image to file 74035000_sis0_sky.img
+!xsel:ASCA-SIS0-BRIGHT2 > set image det
+!xsel:ASCA-SIS0-BRIGHT2 > select events CCDID.EQ.1
+!xsel:ASCA-SIS0-BRIGHT2 > filter region 74035000_sis0_src.reg
+!xsel:ASCA-SIS0-BRIGHT2 > extract spectrum
+!xsel:ASCA-SIS0-BRIGHT2 > save spectrum group=yes clobber=yes 74035000_sis0_src.pha
+Wrote spectrum to 7403500

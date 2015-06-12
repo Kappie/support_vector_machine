@@ -1,0 +1,22 @@
+6 minute time intervals
+! Adding 34 model components to the UV plane model.
+! The established model now contains 92 components and 0.205666 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.076188Jy  sigma=0.373993
+! Fit after  self-cal, rms=0.076111Jy  sigma=0.373623
+mapp
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+peakw 1
+! Added new window around map position (11.1, -5).
+clean 100
+! clean: niter

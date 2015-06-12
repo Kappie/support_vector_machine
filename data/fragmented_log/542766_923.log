@@ -1,0 +1,12 @@
+512560100:"data stop"
+9919512560100:et
+9919512560112:!+3s
+9919512560413:tape
+9919512560419/tape/off,07485,norm,stopped,stop,unlock,ready,rem
+9919512560419:postob
+9919512560419:source=1124-186,112434.0,-184046.3,1950.0
+9919512560420#antcn#Commanding to new source
+9919512560536#antcn#Source:  1124-186  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919512560536#antcn# RAcommand  171.757   DECcommand -18.952
+9919512560536:wb2c2=8
+9919512560821#matcn#debug: 92 /ASS 0 3:0x1 5:0x3 7:0x5 9:0x7 11:0x9 13:0xb 15:0xd 17:0x0 ?

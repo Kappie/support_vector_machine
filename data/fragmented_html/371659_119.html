@@ -1,0 +1,15 @@
+imb of the target body.
+ 
+   C
+   C
+   C     Step 1:  Find the light-time corrected position of the body
+   C              as seen from the spacecraft.  We will request the
+   C              state vector in J2000 coordinates.
+   C
+   C              Also find the light-time corrected inertial to body
+   C              equator and prime meridian transformation matrix.
+   C
+   C
+         CALL <a href="../spicelib/spkez.html">SPKEZ</a>  ( TARG, ET, 'J2000', CORR, SC, STATE, LT )
+ 
+         CALL <a href="../spic

@@ -1,0 +1,8 @@
+/Jaison x2080 -->
+<!-- Comment: Wed Jun 11 18;49;19 comment by...SCN -->
+<h3>Summation of 2 SRC mode and problems</h3>
+Two SRC mode makes use of the Calibration Enable message sent from
+the TS (TAXI Data = 000000001) as a "special L2A" to the second SRC, to insure that it gets L2 decisions in L1A order (otherwise,
+L2R can "jump over" L2A).  It had been <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=tsi&action=view&page=10&frame=2&anchor=14:19:31'>
+tested</a> (several entries) previou

@@ -1,0 +1,13 @@
+    Ser.1     Avg 0.3038        Chisq  18.15       Var 0.5410E-03 Newbs.      8
+               Min 0.2625          Max 0.3355    expVar 0.2079E-03  Bins    789
+Writing output file: /tproc/nandra/processing/72016000/work/72016000_sis_src_576
+nbint = 8
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_gis_src_16s.f
+ 
+ Selected FITS extensions: 1 - RATE TABLE;
+ 
+ Source ............ MRK_1040            Start Time (d) ....  9583 16:55:15.646
+ FITS Extension ....  1 -

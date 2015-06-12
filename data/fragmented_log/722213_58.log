@@ -1,0 +1,10 @@
+Good   Bad:  Region      Time     Phase       Cut
+         55950     10471          36429      9050         0         0
+   in  34166.     seconds
+Infile # of rows    Outfile # of rows    # filtered
+----------------    -----------------    ----------
+       10471                9010              1461
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: ascascreen_gis2_in_event.xsl
+ 10% completed 20% completed 30% completed 40% completed 50% completed 60% completed 70% completed 80% comp

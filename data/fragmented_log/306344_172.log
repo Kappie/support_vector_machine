@@ -1,0 +1,12 @@
+3:!302074250
+9830207425001:tape
+9830207425012/tape/off,04227,norm,stopped,stop,unlock,ready,rem
+9830207425012:st=rev,135
+9830207425025:"data start"
+9830207425025:midob
+9830207425025#antcn#Check if antenna is on-source
+9830207425071/onsource/TRACKING
+9830207425143#wx#/WX/15.8,1013.7, 51.0
+9830207425171?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830207425173?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830207425225?ERROR ib  -10 ibcon initialization failed

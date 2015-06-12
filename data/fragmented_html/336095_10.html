@@ -1,0 +1,12 @@
+above with the following:
+	woodbournewin = window.open (href, name, params);	
+	if ( woodbournewin )
+		woodbournewin.focus();
+}
+// 	CPNEWWIN:child^top=110:left=130:ww=140:hh=150:tb=1:loc=1:dir=0:stat=1:mb=1:sb=1:rs=1@CP___PAGEID=3811,Adv-Search-2.cfm,1
+function FormatWindowParams(windowparams)
+{
+	if( windowparams.indexOf(":loc=") != -1 || windowparams.indexOf(":ww=") != -1 || windowparams.indexOf(":hh=") != -1 || 
+	    windowparams.indexOf(":left=") != -1 || windowparams.indexOf(":top=") != -1 )
+	{
+		windowp

@@ -1,0 +1,12 @@
+ecting IF 4.
+!  A total of 793 telescope corrections were flagged in sub-array 1.
+!  A total of 1755 telescope corrections were flagged in sub-array 2.
+! 
+! Fit before self-cal, rms=1.016392Jy  sigma=0.009300
+! Fit after  self-cal, rms=0.837292Jy  sigma=0.007549
+! clrmod: Cleared the established, tentative and continuum models.
+! Redundant starting model cleared.
+uvw 2,-1
+! Uniform weighting binwidth: 2 (pixels).
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not c

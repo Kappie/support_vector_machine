@@ -1,0 +1,24 @@
+320");
+if (window.focus) {
+cqrTableWin.focus();
+}
+}
+function closeWindows() {
+if ((compWin) && (!compWin.closed)) {
+compWin.close();
+}
+if ((downloadWin) && (!downloadWin.closed)) {
+downloadWin.close();
+}
+if ((loadQueryWin) && (!loadQueryWin.closed)) {
+loadQueryWin.close();
+}
+if ((cqrTableWin) && (!cqrTableWin.closed)) {
+cqrTableWin.close();
+}
+}
+preloadImages(
+"/img/en/options",           //0
+"/img/en/geo_components",    //2
+"/img/en/currentselections", //4
+"/img/en/printdownload",    

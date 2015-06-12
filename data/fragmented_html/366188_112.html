@@ -1,0 +1,16 @@
+rototype.dcsMultiTrack=function(){
+		var args=dcsMultiTrack.arguments?dcsMultiTrack.arguments:arguments;
+		if (args.length%2==0){
+			for (var i=0;i<args.length;i+=2){
+				if (args[i].indexOf('WT.')==0){
+					this.WT[args[i].substring(3)]=args[i+1];
+				}
+				else if (args[i].indexOf('DCS.')==0){
+					this.DCS[args[i].substring(4)]=args[i+1];
+				}
+				else if (args[i].indexOf('DCSext.')==0){
+					this.DCSext[args[i].substring(7)]=args[i+1];
+				}
+			}
+			var dCurrent=new Date();
+			this.DCS.d

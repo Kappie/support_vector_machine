@@ -1,0 +1,14 @@
+Writing MTZ file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_955/model_refine_data.mtz
+
+
+========================== Anomalous scatterer groups =========================
+
+All atoms refined with f_prime=0 and f_double_prime=0.
+
+========================== Set up restraints manager ==========================
+
+  Number of disulfides: simple=3, symmetry=0
+    Simple disulfide: " SG  CYS A 168 " - " SG ACYS A 201 " distance=2.08
+    Simple disulfide: " SG  CYS A 168 " - " SG BCYS A 201 " distance=1.98
+ 

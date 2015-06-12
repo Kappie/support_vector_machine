@@ -1,0 +1,15 @@
+_hard.evt
+Wrote events list to file 75084000_sis1_src_hard.evt
+!xsel:ASCA-SIS1-BRIGHT2 > clear events
+!xsel:ASCA-SIS1-BRIGHT2 > clear pha_cutoff
+!xsel:ASCA-SIS1-BRIGHT2 > clear region all
+!xsel:ASCA-SIS1-BRIGHT2 > exit save=no
+ 
+gnt_infrm: Extracting src data for gis2...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 TOL0109-383 PH          MEDIUM      02/07/97    03:46:45    0.34E+05     9010     1024
+extractor v3.75  8 Mar 2000
+ Getting FITS WC

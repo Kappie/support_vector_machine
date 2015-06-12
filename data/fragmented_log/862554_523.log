@@ -1,0 +1,16 @@
+om
+ Null hypothesis probability = 0.277
+
+!XSPEC> query no;
+Querying disabled - assuming answer is no
+
+!XSPEC> model con*(wabs*po+wabs*po) ;1.0,-1, 0,0,1,1 ;0.03, 0.005,0,0,10,10 ;3.,0. ...
+  Model:  constant[1]( wabs[2]( powerlaw[3] ) + wabs[4]( powerlaw[5] ) )
+!Param# 1  : 1.0,-1, 0,0,1,1 
+!Param# 2  : 0.03, 0.005,0,0,10,10 
+!Param# 3  : 3.,0.05,1.5,1.5,5,5 
+!Param# 4  : .001,.0002,0,0,1e4,1e4 
+!Param# 5  : 1.0,0.01,0,0,1e5,1e5 
+!Param# 6  : 2.,0.05,-1,-1,3,3 
+!Param# 7  : .001,.0002,0,0,1e4,1e4 
+!Param# 8

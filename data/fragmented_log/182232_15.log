@@ -1,0 +1,3 @@
+watched the consumers and noted when they started/stopped : 
+<li>CAL QIE run 121551.  get two failure errors - from wcal05 and wcal07.  Vaia said this would be a "normal" amount, and to proceed with calib_load (after verifying this calibration made it to the DB and examining the log file for errors).  I did calib_load for the entire calorimeter (called Vaia to verify).  she said this will ensure all parts have the same tag.  vxlogin of one each of pcal,ccal,wcal crates shows correct run number loaded 
+<li>C

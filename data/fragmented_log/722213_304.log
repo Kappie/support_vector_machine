@@ -1,0 +1,16 @@
+lete: Total/live time:      34165.61     34165.61
+ 
+ Number of attitude steps  used:            6
+ Number of attitude steps avail:       101757
+ Mean RA/DEC pixel offset:       -7.5874      -3.6878
+ 
+    writing expo file: /tproc/nandra/processing/75084000/work/75084000_gis2_raw.
+    closing attitude file...
+    closing data file...
+ 
+gnt_infrm: Creating exposure map for gis3...
+ 
+instfile=/tproc/nandra/processing/75084000/work/75084000_gis3.effmap
+ASCAEXPO_V0.9b
+ 
+    reading data file: /tproc/nandra/proce

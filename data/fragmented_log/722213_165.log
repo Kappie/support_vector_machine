@@ -1,0 +1,8 @@
+-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 TOL0109-383 PH          MEDIUM      02/07/97    03:46:45    0.34E+05     9617     1024
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /tproc/nandra/processing/75084000/work/75084000_gis3.evt
+ 10% completed 20% completed 30% completed 40% completed 50% completed 60% completed 70% completed 80% completed 90% completed100% completed
+          Total      Good    Bad: Region      Time     Phase       Cut
+           9617      961

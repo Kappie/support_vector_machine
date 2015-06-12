@@ -1,0 +1,8 @@
+ded radial reflector into AD, r2024
+Found comment 2007-11-06:  Kevin removed effect of AD auxvolume, r1978
+Found comment 2007-11-01:  Raymond moved AD auxvolume, r1920
+Found comment 2008-01-10:  Standard requirements files changed so Geant can't find data files.
+Found comment 2008-01-14:  Fixed requirements file on autovalidation working copy.
+Found comment 2008-01-28:  Jilei add RPCs geometry. 
+Found comment 2009-02-20:  David change random seed algorithm, r2581.
+#CMT> bad syntax in requirements of GEANT v

@@ -1,0 +1,20 @@
+text/javascript">  
+function reportTerm(e) {
+      var t = utils.targetEvent(e);
+      e = e || window.event;
+      for (var x in Stats.stats) {
+          var st = Stats.stats[x];
+          var data = st.getData(e, t, e.type, t.id, t.name);
+	  data.term = document.getElementsByName('term')[0].value;
+          st.ping(data);
+      }
+}
+
+// __st(1000000,true,'UgLib',[['a'], ['input[name="submit"]', 'click', reportTerm]],'./');
+__st(1000000,true,'UgLib');
+
+</script>
+
+
+<script language="JavaScript1.2"> <!--
+var 

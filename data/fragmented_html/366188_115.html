@@ -1,0 +1,16 @@
+}
+					else if (text){
+						ttl=text;
+					}
+					else if (e.innerHTML){
+						ttl=e.innerHTML;
+					}
+					this.dcsMultiTrack("DCS.dcssip",hn,"DCS.dcsuri",pth,"DCS.dcsqry",e.search||"","WT.ti","Download:"+ttl,"WT.dl","20","WT.nv",this.dcsNavigation(evt));
+					this.DCS.dcssip=this.DCS.dcsuri=this.DCS.dcsqry=this.WT.ti=this.WT.dl=this.WT.nv="";
+				}
+			}
+		}
+	}
+	WebTrends.prototype.dcsAdv=function(){
+		if (this.trackevents&&(typeof(this.dcsET)=="function")){
+			if (window.addEventListener){

@@ -1,0 +1,10 @@
+rm,moving,stop,unlock,ready,rem
+2001.296.02:31:38.31:postob
+2001.296.02:31:38.32:scan_name=296-0235
+2001.296.02:31:38.34:source=0727-115,072758.1,-113452.5,1950.0
+2001.296.02:31:38.35#antcn#Commanding to new source
+2001.296.02:31:40.15#antcn#Source:  0727-115  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.02:31:40.15#antcn# RAcommand  112.598   DECcommand -11.687
+2001.296.02:31:40.17:4f8m12a=6
+2001.296.02:31:40.86/pass/6,6,auto,127.0,127.0,127.0,127.5,0.0,0.5
+2001.296.02:31:45.94/form/debug:0x0027 0x0000 0x

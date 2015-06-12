@@ -1,0 +1,15 @@
+Command a new source
+9830209472387#antcn#Successfully sent new source position to antenna
+9830209472387:check2c1
+9830209472388&check2c1/check=*,-tp,-hd
+9830209472388&check2c1/enable=
+9830209472388&check2c1/decode=a,crc,byte
+9830209472388&check2c1/parity=,,ab,on,g1,g3
+9830209472388&check2c1/fastr=15s
+9830209472388&check2c1/!+6s
+9830209472388&check2c1/!*
+9830209472388&check2c1/st=for,120,off
+9830209472388&check2c1/!+4s
+9830209472388&check2c1/repro=raw,1,3
+9830209472388&check2c1/parity
+9830209472388&check2c1/r

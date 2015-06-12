@@ -1,0 +1,11 @@
+8,2000.0,neutral
+2004.350.12:54:03.66#flagr#flagr/antenna,new-source
+2004.350.12:54:03.66:setupsx
+2004.350.12:54:03.80#skua #Antenna slewing to azimuth 253.6, elevation 21.0
+2004.350.12:54:07.08/mk5/!play_rate = 0 ;
+2004.350.12:54:07.08/mk5/!mode = 0 ;
+2004.350.12:54:07.12/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.12:54:07.12:!2004.350.12:56:46
+2004.350.12:54:42.52#skua #Antenna slewing complete
+2004.350.12:55:01.41#flagr#flagr/antenna,acquired
+2004.350.12:55:33.39#wxmon#Connected to meteo s

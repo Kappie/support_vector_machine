@@ -1,0 +1,16 @@
+ querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/gis/bcf/gis2_ano_on_flf_180295.fits
+    reading inst file: /tproc/nandra/processing/74035000/work/74035000_gis2.effm
+ 
+    making an inst map...
+ rebin gis: 1
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/74035000/aux/fa961207_1320.1050
+ 
+    making a sky image...
+    writing sky image: /tproc/nandra/processing/74035000/work/74035000_gis2_sky_
+ 
+    making an exposure map...
+ 
+ Aspect RA/DEC/ROLL :      168.7670   

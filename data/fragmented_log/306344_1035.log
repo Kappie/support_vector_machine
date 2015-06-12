@@ -1,0 +1,13 @@
+is not in requested position.
+9830303161000:"data stop"
+9830303161000:et
+9830303161016:!+3s
+9830303161317:tape
+9830303161330/tape/off,01613,norm,stopped,stop,unlock,ready,rem
+9830303161330:postob
+9830303161330:source=1929+226,192916.9,223706.3,1950.0
+9830303161331#antcn#Command a new source
+9830303161386#antcn#Successfully sent new source position to antenna
+9830303161386:check2c1
+9830303165478?ERROR qg -303 Track  1 parity errors exceed threshold.
+9830303165478?ERROR qg -305 AUX data differs from expected 

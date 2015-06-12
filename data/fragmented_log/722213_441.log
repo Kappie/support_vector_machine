@@ -1,0 +1,15 @@
+plied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  7- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   First GTI Start ... 10631 04:22:59.909
+ No. of Rows .......           64        Last GTI Stop ..... 10632 09:20:53.916
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ **** Warning : Infiles for series 1 overlap in time
+                Having > 1 intv or using time winds. might cause data loss !
+ 
+ Expected Start

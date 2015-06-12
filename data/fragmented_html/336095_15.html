@@ -1,0 +1,19 @@
+	forceElement = new Array();
+			forceElementIndex = -1;
+			for(i=0; i < qArray.length; i++)
+			{
+				el = qArray[i];
+				qel = el.split('=');
+				if  (qel.length == 1)
+					qel[1] = '';
+				if  (qel[0] == 'forceElement' || qel[0] == '?forceElement'){
+					forceElement = qel[1].split(",");					
+					forceElementIndex = i;
+					break;
+				}
+			}	
+			
+			if (0 == forceElement.length)
+				newLocation = str + "&forceElement=" + arrCtrls.join(",");
+			else{	// There is a forceElement
+				arrCtrlsCnt = arrCtrls.le

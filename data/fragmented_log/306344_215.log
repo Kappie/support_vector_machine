@@ -1,0 +1,14 @@
+rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.013
+9830209303524/rx/17(pres),on,a,on,on,on,off,locked,3.463
+9830209303535/rx/1E(20k),on,a,on,on,on,off,locked,27.57
+9830209303546/rx/1F(70k),on,a,on,on,on,off,locked,45.14
+9830209303546:sx2c1=11
+9830209303546&sx2c1/tapefrmsxc
+9830209303546&sx2c1/pass=$,same
+9830209303546&sx2c1/form=c,4.000
+9830209303546&sx2c1/form=reset
+9830209303546&sx2c1/vcsx2
+9830209303546&sx2c1/ifdsx
+9830209303546&sx2c1/tape=low
+9830209303546&sx2c1/enable=g1,g3
+9830209303546&sx2c1/repro=byp,3,19

@@ -1,0 +1,16 @@
+: /tproc/nandra/processing/75084000/work/75084000_gis2.effm
+ 
+    making an inst map...
+ rebin gis: 1
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/75084000/aux/fa970702_0346.0950
+ 
+    making a sky image...
+    writing sky image: /tproc/nandra/processing/75084000/work/75084000_gis2_sky_
+ 
+    making an exposure map...
+ 
+ Aspect RA/DEC/ROLL :       17.9079     -37.9980     291.4416
+ Mean   RA/DEC/ROLL :       17.9100     -38.0143     291.4416
+ Pnt    RA/DEC/ROLL :       17.8642

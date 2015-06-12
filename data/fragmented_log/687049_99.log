@@ -1,0 +1,4 @@
+RecoMuon|GlobalMuonTrajectoryBuilder|addTraj                                                          12129        0.013 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|addTraj::trackConvert                                                2        0.005 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|makeTkCandCollection                                               215        0.225 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|makeTkCandCollectio

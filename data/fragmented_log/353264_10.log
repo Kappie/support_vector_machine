@@ -1,0 +1,10 @@
+/mk5/!play_rate = 0 ;
+2003.279.16:32:48.61/mk5/!mode = 0 ;
+2003.279.16:32:48.62/bank_check/BKG-0025/1480/1024,VNVF31G6G963AT,VNVF31G6G95EVT,VNVF31G6G90B2T,VNVF31G6G9893T,VNVF31G6G95BGT,VNVF31G6G97Z2T,VNVF10G6G8N41G,VNVF31G6G93YAT
+2003.279.16:32:48.64/mk5/!mode? 0 : mark4 : 32 : mark4 : 32 : S : 5 ;
+2003.279.16:32:48.64:ready_disc
+2003.279.16:32:48.64&ready_disc/xdisp=on
+2003.279.16:32:48.64&ready_disc/"starting new schedule"
+2003.279.16:32:48.64&ready_disc/xdisp=off
+2003.279.16:32:48.64&ready_disc/wakeup
+20

@@ -1,0 +1,11 @@
+----------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      336.2739     using   329 PHA bins.
+ Reduced chi-squared =      1.050856     for    320 degrees of freedom
+ Null hypothesis probability = 0.255
+
+!XSPEC> notice 1-4:5.0-7.5;
+ A total of    53 more channels will be noticed
+ Net count rate (cts/s) for file   1  0.1416    +/-  3.7977E-03( 84.6% total)
+   using response (RMF) file...       72016000_sis0.rmf
+   using auxiliary (ARF) 

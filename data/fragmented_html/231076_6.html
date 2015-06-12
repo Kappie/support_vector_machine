@@ -1,0 +1,18 @@
+<br />" +
+		     "User Agent: " + nAgent;
+		      return info;
+		}
+		this.modernBrowser = function (){
+		     var isModern = false;
+		     if(typeof(this.modern[this.browser])=='number' || this.version === null){
+		     isModern = ( this.modern[this.browser] <= this.version || this.version === null ) == true ? true :0;
+		}
+		return isModern;
+		}
+		}
+		// Instantiate browser detect
+		var detectBrowser = new detectBrowserClass({
+		      'opera': 9,
+		      'safari': 2,
+		      'firefox': 1.5,
+		      'ie': 6

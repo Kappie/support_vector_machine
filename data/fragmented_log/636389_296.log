@@ -1,0 +1,10 @@
+OPER STATE: GKS SHALL BE IN STATE GKOP
+-rw-rw-rw-    1 oplapb   frdlapb    168480 2006-06-01 19:25 gmeta
+ctransarg=sun
+ctransext=sun
+netpbm=yes
+Thu Jun  1 19:25:26 UTC 2006
+Running /usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans | netpbm to make gmeta_h5b.gif file
+/usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans -verbose -d sun -window 0.0:0.0:1.0:1.0 -resolution 885x885 gmeta | rasttopnm | ppmtogif > /w3/lapb/domains/tw_fsl9/anal2d/gmeta_h5b.gif
+Thu Jun  1 19:25:27 UTC 2006
+Generating Graphical Storm Total Prod

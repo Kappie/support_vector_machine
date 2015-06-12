@@ -1,0 +1,11 @@
+ read in          500
+   500 hPa WIND  (anl)    kt                                                                            061521800
+  Plotting: c_metacode,i_overlay = c             2
+  write_label_lplot:
+  500 hPa WIND  (anl)    kt                                                                          
+  Plotting black wind barbs            1            0
+
+  Plot_winds_2d: interval/size=            4   0.5600000    
+
+  winds are assumed to be GRID north at this point
+  Initializing latlon_to_rlapsgrid

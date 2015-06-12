@@ -1,0 +1,17 @@
+
+print "*** Now, make some plots ***"
+! *** Now, make some plots *** 
+print "****************************"
+! **************************** 
+![@gonzo_plot 2243-123_X]
+device 2243-123_Xuv.ps/vps,1,2
+! Attempting to open device: '2243-123_Xuv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+! Using default options string ""
+device 2243-123_Xim.ps/vps
+! Attempting to open device: '2243-123_Xim.ps/vps'
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by erro

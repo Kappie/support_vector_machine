@@ -1,0 +1,12 @@
+.350.12:21:17.00:preob
+2004.350.12:21:17.00&preob/onsource
+2004.350.12:21:17.00&preob/caltsys
+2004.350.12:21:17.00?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.350.12:21:17.00/onsource/SLEWING
+2004.350.12:21:17.00&caltsys/tpi=formvc,formif
+2004.350.12:21:17.00&caltsys/ifd=max,max,*,*
+2004.350.12:21:17.00&caltsys/if3=max,*,*,*,*,*
+2004.350.12:21:17.00&caltsys/!+2s
+2004.350.12:21:17.00&caltsys/tpzero=formvc,formif
+2004.350.12:21:17.00&caltsys/ifd=old,old,*,*
+2004.350.12:21:17.00&caltsys/if3=old,*,*

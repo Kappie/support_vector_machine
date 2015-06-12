@@ -1,0 +1,12 @@
+ keywords   = X          Y           with binning =    4
+ WMAP   keywords   = DETX       DETY        with binning =    8
+ Energy keywords   = PI                     with binning =    1
+ 
+!ascascreen_sis1:ASCA-SIS1 > set datadir /local/data/tproc/nandra/processing/74035000/unscreened
+ 
+Setting data directory to /local/data/tproc/nandra/processing/74035000/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/74035000/aux/
+ 
+!ascascreen_sis1:ASCA-SIS1 > set dumpcat
+Obscat listing off
+!ascas

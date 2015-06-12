@@ -1,0 +1,10 @@
+hecking host system type
+configure:1215: checking build system type
+configure:1244: checking for ld used by GCC
+configure:1312: checking if the linker (/p/binutils/v2_11_2/bin/ld) is GNU ld
+GNU ld version 2.11.2 (with BFD 2.11.2)
+configure:1329: checking for /p/binutils/v2_11_2/bin/ld option to reload object files
+configure:1341: checking for BSD-compatible nm
+configure:1379: checking whether ln -s works
+configure:1400: checking how to recognise dependant libraries
+configure:1583: checking for object suffix

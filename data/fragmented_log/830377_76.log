@@ -1,0 +1,21 @@
+.
+!ascascreen_gis3:ASCA-GIS3-PH > clear mkf
+!ascascreen_gis3:ASCA-GIS3-PH > clear region all
+!ascascreen_gis3:ASCA-GIS3-PH > set dumpcat
+Obscat listing on
+!ascascreen_gis3:ASCA-GIS3-PH > exit save=no
+ 
+gnt_infrm: Checking for G3BITFIX problem...
+ 
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_scrn
+gnt_infrm: ========================
+Sun Apr 23 02:52:29 EDT 2000
+ 
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_cent
+gnt_infrm: *************************
+Sun Apr 

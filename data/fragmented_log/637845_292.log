@@ -1,0 +1,6 @@
+rflowTef_inLS_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:595: warning: unused variable 'OverflowGdLS_inTef_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc: At global scope:
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:61: warning: unused parameter 'optContLogVols'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc: In function 'G4LogicalVolume* aTube(std::string, G4double, G4double, G4ThreeVector, G4Material*, G4LogicalVolume*)':
+/home/tagg/autodaya/G4dyb/s

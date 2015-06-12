@@ -1,0 +1,12 @@
+restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.8524 x 2.375 at -8.167 degrees (North through East)
+! Clean map  min=-0.0045576  max=1.5728 Jy/beam
+! Writing clean map to FITS file: J0730-1141_X_1999_12_20_pus_map.fits
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak flux is 1.57278 
+invert
+! Inverting map 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.190

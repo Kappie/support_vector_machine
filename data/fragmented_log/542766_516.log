@@ -1,0 +1,13 @@
+38940
+9919504214401:!195042151
+9919504215100:tape
+9919504215105/tape/off,03475,norm,moving,nostop,locked,ready,rem
+9919504215105:"data start"
+9919504215105:midob
+9919504215105#antcn#Checking onsource status
+9919504215108#antcn# RAsource    60.962   DECsource  -36.084
+9919504215108#antcn# RAbeam      60.963   DECbeam    -36.085
+9919504215108#antcn# RAdelta      0.001   DECdelta     0.001
+9919504215108?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919504215109/onsource/SLEWING
+9919504215110/wx/3.6,876.5

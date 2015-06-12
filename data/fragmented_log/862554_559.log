@@ -1,0 +1,4 @@
+complete!
+Setting current scaling limits: user 1 23
+Display of image '/tproc/nandra/processing/72016000/work/72016000_gis3_det.img' complete!
+Executing GIF creation command '(/usr/local/saord/bin.linux/xpaget 'SAO042200055872016000' colormap display > /tmp/saotng.lut; /usr/local/saord/bin.linux/xpaget 'SAO042200055872016000' display_data | /usr/local/saord/bin.linux/fits2gif -luts /tmp/saotng.lut > /tproc/nandra/processing/72016000/work/72016000_gis3.gif; echo "GIF file created!" | /usr/local/saord/bin.linu

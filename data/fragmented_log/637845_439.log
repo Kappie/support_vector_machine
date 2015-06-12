@@ -1,0 +1,10 @@
+ake[3]: Nothing to be done for `data_installation'.
+------> (constituents.make) data_installation done
+------> (constituents.make) Building G4dybApp.make
+Application G4dybApp
+------> (constituents.make) Starting G4dybApp
+------> (G4dybApp.make) Rebuilding ../Linux-i686/G4dybApp_dependencies.make
+sh: /usr/lib/geant4/libname.map: No such file or directory
+sh: /usr/lib/geant4/libname.map: No such file or directory
+computing dependencies for dyw.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/hom

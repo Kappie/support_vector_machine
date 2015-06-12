@@ -1,0 +1,13 @@
+loud Cover (2-D) [cy,py] Cloud/Precip Type
+         [pc,rn,sn] Precip Conc, [sa/pa] Snow/Pcp Accum, [sc/csc] Snow Cvr
+
+     STATIC INFO: [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ? 
+  [rf-i] Reflectivity Data, 
+  [mr-i] Column Max Ref, [mt] Max Tops,
+  [lr-i] Low Lvl Ref, [f1] 1 HR Fcst Max Reflectivity,
+                                                               [

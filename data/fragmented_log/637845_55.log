@@ -1,0 +1,6 @@
+ryHelper.hh ../src/dywGLEvent_LinkDef.hh && touch ../Linux-i686/dywGLEvent_Dict.cc
+WARNING >> You should provide a target for ../src//dywOpticalTrajectory.hh
+echo "Generating ROOT Dictionary for " ../src/dywOpticalTrajectory_LinkDef.hh ../src//dywOpticalTrajectory.hh
+Generating ROOT Dictionary for  ../src/dywOpticalTrajectory_LinkDef.hh ../src//dywOpticalTrajectory.hh
+if [ ! -d ../Linux-i686/ ]; then mkdir ../Linux-i686/; fi ;
+`/usr/local/opt/root-v5-16-00/bin/root-config --bindir`/rootcint -f ../Linux-i686

@@ -1,0 +1,12 @@
+or when the system is up again. 
+ 
+SVXMon seems to experience silicon numerology problems. The latest 
+numerology changes didn't make it into one of the online stable releases 
+yet, so for now I switched the svxmon version on the online machines 
+to development. Please try to run it again when events are streaming, 
+with the same command: 
+ 
+/cdf/people2/svxii/consumer/svxmon.run 0 
+ 
+The plots will not be sent to the display program, I turned this 
+feature off in the script. If this dumps core, please send

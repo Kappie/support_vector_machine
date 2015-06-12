@@ -1,0 +1,10 @@
+86/UtilTest.exe
+cd ../Linux-i686/; c++  -g -o UtilTest.exe.new ../Linux-i686/SingletonTest.o -L/home/tagg/autodaya/InstallArea/Linux-i686/lib    -lUtil      -L/usr/lib       ; mv -f UtilTest.exe.new UtilTest.exe
+------> UtilTest ok
+installation done
+------> (constituents.make) UtilTest done
+------> (constituents.make) Building UtilUnitTest.make
+Library UtilUnitTest
+------> (constituents.make) Starting UtilUnitTest
+------> (UtilUnitTest.make) Rebuilding ../Linux-i686/UtilUnitTest_dependencies.make
+computing 

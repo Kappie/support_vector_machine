@@ -1,0 +1,10 @@
+.500000    
+  Subroutine ccpfil for solid fill plot...
+  input array range:    1.7512357E-02   6.5193087E-02
+  input scale:    9.9999998E-03
+  Colortable is tpw    0.000000       5.5000000E-02            0  F  F  F  F
+  ccpfil_sub - scale,scale_loc =    9.9999998E-03   5.5000000E-02
+  subroutine set_image_colortable: ncols =            20
+  subroutine generate_colortable: ncols =            60
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/tpw.lut
+  Subroutine color_ramp..             1     

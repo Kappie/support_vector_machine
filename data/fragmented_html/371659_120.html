@@ -1,0 +1,11 @@
+elib/bodmat.html">BODMAT</a> ( TARG, ET-LT, TIPM )
+ 
+   C
+   C     Step 2:  Find the position of the spacecraft as seen from
+   C              the light-time corrected body position.  Convert
+   C              this position vector to equator and prime meridian
+   C              coordinates.  Also transform the boresight ray.
+   C
+         CALL <a href="../spicelib/vminus.html">VMINUS</a> ( STATE, SCPOS          )
+         CALL <a href="../spicelib/mxv.html">MXV</a>    ( TIPM,  SCPOS,  SCPOS  )
+         CALL

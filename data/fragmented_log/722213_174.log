@@ -1,0 +1,12 @@
+es 75084000_gis3_src.pha
+Wrote spectrum to 75084000_gis3_src.pha
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 75084000_gis3_src.evt
+Wrote events list to file 75084000_gis3_src.evt
+!xsel:ASCA-GIS3-PH > clear events
+!xsel:ASCA-GIS3-PH > clear pha_cutoff
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 75084000_gis3_src_hard.evt
+Wrote eve

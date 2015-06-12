@@ -1,0 +1,10 @@
+********** FINISHED AMPLITUDE SELF-CAL ************** 
+restore
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! Estimated beam: bmin=0.7651 mas, bmaj=0.975 mas, bpa=-12.08 degrees
+! Estimated noise=236.69 mJy/beam.
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.7651 x 0.975 at -12.08 degrees (North through East)
+! Clean map  min=-0.0016049  max=0.672

@@ -1,0 +1,2 @@
+ 22:06:44 2001 -->
+Several things: first, I powercycled the crate to no avail. I rebooted the alpha computer, as it was in an odd state after the power outage earlier this week.  Second, I tried unplugging the blue ethernet cable from alpha in 00, hoping to load the exe by hand after cs.  The 00 crate will not pass CS, with errors as listed above, so I can never get to the point of loading exe by hand (I think it needs to be done after cs, please someone correct me if I'm wrong).  I tried 01 crate.  there a

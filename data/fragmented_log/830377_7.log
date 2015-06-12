@@ -1,0 +1,10 @@
+on expression: ONTIME>100&&NEVENTS>0&&COORDPRO!='ERROR'&&INSTRUME=='SIS1'&&DATAMODE=='BRIGHT'
+!cat:ASCA-SIS1-BRIGHT > save obscat s1_bright.cat clobber=yes
+!cat:ASCA-SIS1-BRIGHT > set datamode BRIGHT2
+!cat:ASCA-SIS1-BRIGHT2 > make obscat cat_filt=DEF lststr='ad*s1*.unf'
+''Using default selection expression: ONTIME>100&&NEVENTS>0&&COORDPRO!='ERROR'&&INSTRUME=='SIS1'&&DATAMODE=='BRIGHT2'
+!cat:ASCA-SIS1-BRIGHT2 > save obscat s1_bright2.cat clobber=yes
+!cat:ASCA-SIS1-BRIGHT2 > set inst gis2
+ 
+Setting...
+ Image 

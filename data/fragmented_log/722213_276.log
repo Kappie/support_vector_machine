@@ -1,0 +1,11 @@
+CAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 5.70120E-02     Background scaling factor
+  BACKFILE  - 75084000_sis1_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 75084000_sis1.rmf
+  ANCRFILE  - 75084000_sis1.arf
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether channels have been corrected
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS

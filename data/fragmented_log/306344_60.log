@@ -1,0 +1,12 @@
+15:tape
+9830205293327/tape/off,05004,norm,stopped,stop,unlock,ready,rem
+9830205293327:postob
+9830205293327:source=1307+121,130704.4,121022.6,1950.0
+9830205293328#antcn#Command a new source
+9830205293360#antcn#Successfully sent new source position to antenna
+9830205293361:sx2c2=2
+9830205293420/pass/2,2,auto,-330.0,-330.0,-330.2,-331.0,-0.2,-1.0
+9830205293766:!302053330
+9830205300880?ERROR ch -370 Total power integrator overflow on IF3
+9830205303077?ERROR ch -370 Total power integrator overflow on IF3
+9830205

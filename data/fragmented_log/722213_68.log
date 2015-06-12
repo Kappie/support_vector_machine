@@ -1,0 +1,11 @@
+o the output file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+         51748     11282          30627      9839         0         0
+   in  34160.     seconds
+Infile # of rows    Outfile # of rows    # filtered
+----------------    -----------------    ----------
+       11282                9617              1665
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: ascascreen_gis3_in_event.

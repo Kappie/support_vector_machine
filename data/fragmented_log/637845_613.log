@@ -1,0 +1,10 @@
+p to 1000 PeV.
+                PhysicsTables from 1 GeV to 1000 PeV in 100 bins. 
+            
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmuIoni:   tables are built for  mu-
+[0m[geant] =I= [0m      dE/dx and range tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Lambda tables from threshold to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Bether-Bloch model for E > 0.2 MeV, parametrisation of Bragg peak below, 
+[0m[geant] =I= [0m      radiative corrections for E > 1 GeV
+[0m[geant] =

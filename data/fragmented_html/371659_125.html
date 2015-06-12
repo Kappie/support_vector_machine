@@ -1,0 +1,12 @@
+a> ( PJPOS,   PJLIMB,   NEAR,    ALT           )
+ 
+         CALL <a href="../spicelib/vprjpi.html">VPRJPI</a> ( NEAR,    PLANE,   LPLANE,  LNEAR,  FOUND )
+ 
+   C
+   C     If FOUND is false, the inverse projection could not be
+   C     performed.  This indicates that the limb plane is too
+   C     close to parallel to the boresight ray for this method to
+   C     work.  This problem is very unlikely to occur.
+   C
+         IF ( .NOT. FOUND ) THEN
+            CALL <a href="../spicelib/setmsg.html">SETMSG</a> 

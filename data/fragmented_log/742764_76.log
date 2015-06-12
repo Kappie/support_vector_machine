@@ -1,0 +1,11 @@
+ts to the UV plane model.
+! The established model now contains 53 components and 1.23697 Jy
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 70 mega-wavelengths.
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcs

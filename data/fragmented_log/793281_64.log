@@ -1,0 +1,8 @@
+---------------|
+| start r-factor (work) = 0.3253      final r-factor (work) = 0.3113          |
+| start r-factor (free) = 0.4033      final r-factor (free) = 0.3912          |
+|-----------------------------------------------------------------------------|
+| T_start = wxu * wxu_scale * Exray + wu * Eadp                               |
+| 5.2405 = 0.85 * 1.00 * 6.1150 + 1.00 * 0.0318                               |
+|                                                                             |
+| T_final = wxu

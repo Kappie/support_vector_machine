@@ -1,0 +1,9 @@
+ped,unlocked,ready,10.6,85,okay
+2004.167.04:20:02.13:postob
+2004.167.04:20:02.13:scan_name=167-0424a,r1127,123
+2004.167.04:20:02.13:source=2351+456,235149.98,453622.4,1950.0
+2004.167.04:20:08.67:check80f
+2004.167.04:20:10.79?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.04:20:10.79?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.04:21:01.82?ERROR qg -303 Track 24 parity errors exceed threshold.
+2004.167.04:21:01.82/parity/2.,8.,2.,10.,24.,18.,2.,16.,2.,0.,0.,0.,0.,4.,

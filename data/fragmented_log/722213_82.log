@@ -1,0 +1,13 @@
+/
+HK Directory is: /tproc/nandra/processing/75084000/work/
+ 
+!xsel:ASCA-GIS2-PH > set binsize 128
+!xsel:ASCA-GIS2-PH > set image sky
+!xsel:ASCA-GIS2-PH > filter region gis2_src_reg.tmp
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 60 900
+!xsel:ASCA-GIS2-PH > extract spectrum
+!xsel:ASCA-GIS2-PH > save spectrum gis2_spec_src.tmp clobber=yes group=no
+Wrote spectrum to gis2_spec_src.tmp
+!xsel:ASCA-GIS2-PH > filter region gis2_bgd_reg.tmp
+!xsel:ASCA-GIS2-PH > extract spectrum
+!xsel:ASCA-GIS2-PH > save spectrum gis2_spe

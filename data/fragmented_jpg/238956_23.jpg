@@ -1,0 +1,20 @@
+ontrol>
+  <exif:Contrast>0</exif:Contrast>
+  <exif:Saturation>0</exif:Saturation>
+  <exif:Sharpness>0</exif:Sharpness>
+  <exif:SubjectDistanceRange>1</exif:SubjectDistanceRange>
+  <exif:ISOSpeedRatings>
+   <rdf:Seq>
+    <rdf:li>100</rdf:li>
+   </rdf:Seq>
+  </exif:ISOSpeedRatings>
+  <exif:ComponentsConfiguration>
+   <rdf:Seq>
+    <rdf:li>1</rdf:li>
+    <rdf:li>2</rdf:li>
+    <rdf:li>3</rdf:li>
+    <rdf:li>0</rdf:li>
+   </rdf:Seq>
+  </exif:ComponentsConfiguration>
+  <exif:Flash rdf:parseType='Resource'>
+   <e

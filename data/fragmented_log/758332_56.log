@@ -1,0 +1,13 @@
+e cleaned events file to 74035000_sis1.evt
+ 
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/74035000/unscreened/
+to the current working directory.
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > clear mkf
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > set dumpcat
+Obscat listing on
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > exit save=no
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /local/data/tproc/nandra/processing/74035000/unscreened/ad74035000g200170h.unf
+ 10% completed 20% completed 

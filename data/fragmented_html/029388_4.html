@@ -1,0 +1,15 @@
+AXID.selectedIndex].value;
+		querystr = document.freeform.querytext.value;
+		querystr = querystr + "[TAX_ID]=" + taxnum;
+	    document.freeform.querytext.value = querystr;
+    }
+function getSubID()
+	{
+		selection = document.searchID.Type;
+   		gettype = selection.options[selection.selectedIndex].value;
+		b = document.searchID.sub_id.value;
+		if (gettype == "dbSNP_rs")
+		{	
+			var numstr = /rs\d+$/;	
+    		if (!(b.match(numstr)) ) {
+   		    	alert (b + " is incorrect format!\nThe ID should have the prefix \

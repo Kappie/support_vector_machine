@@ -1,0 +1,11 @@
+ers  = 0
+beamstop_shadow_outliers = 0
+total                    = 0
+
+====================== Target weights (before refinement) =====================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 9.174117              wxc_scale = 0.500            wc = 1.000         |
+| angle between x-ray and geometry gradient vectors: 90.037   (deg)           |
+|                                          

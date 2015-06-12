@@ -1,0 +1,10 @@
+47:25.12:st=for,160
+2001.296.15:47:25.28:!2001.296.15:47:25
+2001.296.15:47:25.28:preob
+2001.296.15:47:25.30#antcn#Checking onsource status
+2001.296.15:47:25.31#antcn# RAsource   266.011   DECsource   -3.834
+2001.296.15:47:25.31#antcn# RAbeam     266.019   DECbeam     -3.835
+2001.296.15:47:25.31#antcn# RAdelta      0.008   DECdelta     0.002
+2001.296.15:47:25.32?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2001.296.15:47:25.32/onsource/SLEWING
+2001.296.15:47:27.89/tpical/11892,10031,10226,7382,2318,799

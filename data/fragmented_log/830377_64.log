@@ -1,0 +1,9 @@
+t image detector
+!ascascreen_gis2:ASCA-GIS2-PH > select mkf @76052020_gis2_mkf.sel
+!ascascreen_gis2:ASCA-GIS2-PH > filter region 76052020_gis2_randc.reg
+!ascascreen_gis2:ASCA-GIS2-PH > extract events
+!ascascreen_gis2:ASCA-GIS2-PH > gisclean
+Using table:/software/lheasoft/develop/refdata/rti_gis_1024_040693.fits
+!ascascreen_gis2:ASCA-GIS2-PH > extract "event image"
+!ascascreen_gis2:ASCA-GIS2-PH > save obscat 76052020_gis2 clobberit = yes
+!ascascreen_gis2:ASCA-GIS2-PH > $rm -f ascascreen_gis2*.cat 76052020_gi

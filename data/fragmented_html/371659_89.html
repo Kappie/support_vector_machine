@@ -1,0 +1,16 @@
+     <a href="../req/kernel.html">KERNEL.REQ</a> required reading for more information about
+   C     P_constants kernels).
+   C
+         WRITE (*,*) 'Enter name of P_constants kernel'
+         READ  (*,FMT='(A)') PCK
+ 
+         CALL <a href="../spicelib/furnsh.html">FURNSH</a> ( PCK )
+ 
+   C
+   C     We'll need to load an SPK file containing ephemeris data for
+   C     both Earth and Jupiter.
+   C
+         WRITE (*,*) 'Enter name of SPK file'
+         READ  (*,FMT='(A)') SPK
+ 
+         CALL <a href="../spi

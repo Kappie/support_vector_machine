@@ -1,0 +1,15 @@
+================================== X-ray data =================================
+
+F-obs:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cns:FOBS,SIGMA
+
+R-free flags:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cns:TEST
+
+Miller array info: /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cns:FOBS,SIGMA
+Observation type: xray.amplitude
+Type of data: double, size=19589
+Type of sigmas: double, size=19589
+Number of Miller indices: 19589
+Anomalous flag: False
+Unit cell: (70.25, 45.7567, 86.39, 90,

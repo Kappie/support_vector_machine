@@ -1,0 +1,10 @@
+ng is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+flux_cutoff = imstat(rms) * dynam
+! Adding 22 model components to the UV plane model.
+! The established model now contains 22 components and 1.0985 Jy
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! Estimated beam: bmin=0.8201 mas, bmaj=1.746 mas, bpa=0.97

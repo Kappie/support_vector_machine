@@ -1,0 +1,15 @@
+ = 0.364791 Jy
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  keep
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 5.6908e-05 Jy
+! Component: 100  -  total flux cleaned = 5.61542e-05 Jy
+! Component: 150  -  total flux cleaned = 5.62429e-05 Jy
+! Component: 200  -  total flux cleaned = 5.68456e-05 Jy
+! Total flu

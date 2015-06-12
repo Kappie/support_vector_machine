@@ -1,0 +1,9 @@
+ factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - none            Associated redistribution matrix file
+  ANCRFILE  - none            Associated ancillary response file
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether channels have been corrected
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS  - 1024            No. of legal detector channels
+  NCHAN     - 1024            No. of detector channels in datase

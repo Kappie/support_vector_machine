@@ -1,0 +1,17 @@
+ent.getElementsByTagName("meta");
+	}
+	if (typeof(myDocumentElements)!="undefined"){
+		for (var i=1;i<=myDocumentElements.length;i++){
+			myMeta=myDocumentElements.item(i-1);
+			if (myMeta.name){
+				if (myMeta.name.indexOf('WT.')==0){
+					WT[myMeta.name.substring(3)]=myMeta.content;
+				}
+				else if (myMeta.name.indexOf('DCSext.')==0){
+					DCSext[myMeta.name.substring(7)]=myMeta.content;
+				}
+				else if (myMeta.name.indexOf('DCS.')==0){
+					DCS[myMeta.name.substring(4)]=myMeta.content;
+				}
+			}
+		}

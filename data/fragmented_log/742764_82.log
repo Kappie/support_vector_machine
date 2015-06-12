@@ -1,0 +1,17 @@
+.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.179546Jy  sigma=0.001223
+! Fit after  self-cal, rms=0.179531Jy  sigma=0.001222
+wmodel J0121+1149_X_2000_12_04_pus_map.mod
+! Writing 66 model components to file: J0121+1149_X_2000_12_04_pus_map.mod
+wobs J0121+1149_X_2000_12_04_pus_uvs.fits
+! Writing UV FITS file: J0121+1149_X_2000_12_04_pus_uvs.fits
+wwins J0121+1149_X_2000_12_04_pus_map.win
+! wwins: Wrote 3 windows to J0121+1149_X_2000_12_04_pus_map.win
+x = (f

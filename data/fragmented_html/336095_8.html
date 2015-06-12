@@ -1,0 +1,21 @@
+-link.cfm&thelink=" + link;
+				
+				if (windowname == "")
+					window.location = targetLink;
+				else
+				{
+					windowparams = FormatWindowParams(windowparams);
+					// window.open (targetLink, windowname, windowparams);
+					// replace the above with the following:
+					woodbournewin = window.open (targetLink, windowname, windowparams);
+					if ( woodbournewin )
+						woodbournewin.focus();
+				}
+			}
+			else
+			{
+				if (windowname == "")
+					window.location = link;
+				else
+				{
+					windowparams = F

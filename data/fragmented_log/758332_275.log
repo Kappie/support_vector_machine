@@ -1,0 +1,13 @@
+of detector channels in dataset
+  PHAVERSN  - 1.1.0           OGIP FITS version number
+  STAT_ERR  - FALSE           Statistical Error
+  SYS_ERR   - TRUE            Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+ minchan(nocom) 41
+ maxchan(nocom) 136
+ numchan(nocom) 96
+ minchan(nocom) 137
+ maxchan(noc

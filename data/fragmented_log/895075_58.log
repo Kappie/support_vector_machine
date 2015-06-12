@@ -1,0 +1,11 @@
+s
+! Estimated noise=775.498 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00398889 Jy
+! Component: 100  -  total flux cleaned = 0.00566971 Jy
+! Component: 150  -  total flux cleaned = 0.00632735 Jy
+! Component: 200  -  total flux cleaned = 0.00641905 Jy
+! Total flux subtracted in 200 components = 0.00641905 Jy
+! Clean residual min=-0.003100 max=0.002665 Jy/beam
+! Clean residual mean=0.000221 rms=0.001016 Jy/beam
+! Combined flux in latest and established models

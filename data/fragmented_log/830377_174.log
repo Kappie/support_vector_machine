@@ -1,0 +1,13 @@
+processing/76052020/work/
+ 
+!xsel:ASCA-GIS3-PH > set binsize 128
+!xsel:ASCA-GIS3-PH > set image sky
+!xsel:ASCA-GIS3-PH > set xybinsize 1
+!xsel:ASCA-GIS3-PH > extract image
+!xsel:ASCA-GIS3-PH > save image clobber=yes 76052020_gis3_sky.img
+Wrote image to file 76052020_gis3_sky.img
+!xsel:ASCA-GIS3-PH > set image det
+!xsel:ASCA-GIS3-PH > filter region 76052020_gis3_src.reg
+!xsel:ASCA-GIS3-PH > extract spectrum
+!xsel:ASCA-GIS3-PH > save spectrum group=no clobber=yes 76052020_gis3_src.pha
+Wrote spectrum to 760520

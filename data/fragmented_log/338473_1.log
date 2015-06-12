@@ -1,0 +1,13 @@
+:47:43.62:schedstart=e3005
+2002.170.19:47:43.62&schedstart/setups2das
+2002.170.19:47:43.62&schedstart/rxmon
+2002.170.19:47:43.62&schedstart/wx
+2002.170.19:47:43.62&setups2das/fs=stop
+2002.170.19:47:43.62&setups2das/agc=on
+2002.170.19:47:43.62&setups2das/encode=vlba
+2002.170.19:47:43.63&setups2das/mode=32x4-2-u
+2002.170.19:47:43.63&setups2das/setuptone
+2002.170.19:47:43.63&setups2das/ifx=,,,,dir,,,dir
+2002.170.19:47:43.63&setups2das/ifx=auto,,,auto
+2002.170.19:47:43.63&setups2das/bbc1=,,16.0,16.0
+2002.170.19

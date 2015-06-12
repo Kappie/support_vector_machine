@@ -1,0 +1,14 @@
+k -211 Tsys value for device ve overflowed or were less than zero.
+9830215532356/tsys2/63.0,64.7,65.9,62.1,62.9,$$$$$$$$,81.6
+9830215532356:!302155610
+9830215561000:"data stop"
+9830215561000:et
+9830215561017:!+3s
+9830215561318:tape
+9830215561330/tape/off,04384,norm,stopped,stop,unlock,ready,rem
+9830215561330:postob
+9830215561330:source=0400+258,040003.6,255146.4,1950.0
+9830215561331#antcn#Command a new source
+9830215561375#antcn#Successfully sent new source position to antenna
+9830215561375:sx2c1=23
+9830215

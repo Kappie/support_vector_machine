@@ -1,0 +1,7 @@
+ data = 0x0000011c 0xdc080023 0x50454d44 0x000c0003 0x00000000 0x00000051 0x00000001 0x01d40035 ... 
+... 0x00100030 0x00000000 0x00100000 0x00000000 0x08200022 0x01010010 0x08000021 0x00000000 
+(MLE) b0l3gate1.fnal.gov:main:11:19:12 AM->Host b0eb16.fnal.gov, task tRec_0 
+SCPU-P0-E-TracerEventId: Event 554280, crate 4, channel 3 has either bad Tracer ID or bad markers around Tracer word. 
+ Tracer word event ID is 0, should be 8. 
+Tracer word = 0x10000004 (I think). 
+Channel data = 0x0000002b 0x08000000 0x000

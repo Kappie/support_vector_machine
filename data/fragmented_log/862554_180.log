@@ -1,0 +1,10 @@
+LESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - SIS0            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 14105.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 4.02250E-02     Background scaling factor
+  BACKFILE  - none            Associated background file
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE 

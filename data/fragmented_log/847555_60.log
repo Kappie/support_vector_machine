@@ -1,0 +1,12 @@
+ta in SVTMON comsumer; multiple DONE 
+	TIMEOUT from several TDC COT crates. This run was 
+	taken on partition 7, w/2 SRCs (elog for details) 
+ 
+20:19   The SVX expert found the reason why two SVT wedges 
+	were missing. Consulted also w/SVT pager and decided 
+	(1) to end the run and include the missing wedges, 
+	(2) declare SVT data good for this run because these 
+	two wedges were missing also in hardware DB (so 
+	everything should be correctly accounted for). 
+ 
+21:20   ConsumerMonitor status not updated. 

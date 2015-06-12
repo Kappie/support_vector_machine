@@ -1,0 +1,8 @@
+ng to be done for `lib_macro'.
+------> (constituents.make) lib_macro done
+------> (constituents.make) Building UtilTest.make
+Application UtilTest
+------> (constituents.make) Starting UtilTest
+------> (UtilTest.make) Rebuilding ../Linux-i686/UtilTest_dependencies.make
+computing dependencies for SingletonTest.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Wover

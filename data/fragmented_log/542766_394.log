@@ -1,0 +1,10 @@
+norm,stopped,stop,unlock,ready,rem
+9919501281922:postob
+9919501281922:source=1921-293,192142.3,-292026.3,1950.0
+9919501281924#antcn#Commanding to new source
+9919501282037#antcn#Source:  1921-293  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919501282037#antcn# RAcommand  291.208   DECcommand -29.241
+9919501282039:wb2c1=3
+9919501282673#matcn#debug: #92 /STA[lf]
+9919501282756/form/0x8015 0x1004 0x9222 38 3 4000 11 0 0 0
+9919501282756/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b 

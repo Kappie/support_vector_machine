@@ -1,0 +1,10 @@
+6.8136463E-03
+pha bin =   63, E =  2.016 -  5.022 keV  (   2 /    4)   calculating ...
+ <efficiency> =   71.05551     weight =  5.3060995E-03
+pha bin =   64, E =  5.022 -  7.014 keV  (   3 /    4)   calculating ...
+ <efficiency> =   61.16132     weight =  1.3905915E-03
+pha bin =   65, E =  7.014 - 10.008 keV  (   4 /    4)   calculating ...
+ <efficiency> =   21.56624     weight =  2.4597195E-03
+ 
+wrote /tproc/nandra/processing/74035000/work/74035000_gis2.effmap
+gnt_infrm: Creating 4-channel spectrum for gis

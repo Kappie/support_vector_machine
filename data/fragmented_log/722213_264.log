@@ -1,0 +1,13 @@
+0  6 Oct 1998.
+bethick : /FTP/caldb/data/asca/gis/bcf/s3bev1.fits
+grid : /FTP/caldb/data/asca/gis/bcf/s3gridv3.fits
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xrt_psf_v2_0.fits
+ 
+ Input WMAP array has size   54 by   54 bins
+               expanded to  128 by  128 bins
+ First WMAP bin is at detector pixel   50   50
+   1 detector pixels per WMAP bin
+ WMAP bin size is   0.25000 mm
+                    0.24555 arcmin
+ Selected region size is   144.80     arcmin^2

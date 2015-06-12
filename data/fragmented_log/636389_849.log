@@ -1,0 +1,21 @@
+                                         [q] QUIT ? 
+
+
+
+                       ----   ADD NEW FRAME??    ----
+
+
+
+
+
+     [h/hz]  Horizontal Plan View    (Const Pressure Level or SFC)
+     [x]  Vertical Cross Section
+     [s]  Sounding
+                                                             [q] QUIT ?   Success in get_pres_3d
+     Reading in static grid: LAT 
+     Reading in static grid: LON 
+     Reading in static grid: AVG 
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/L

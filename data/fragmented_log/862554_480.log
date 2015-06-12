@@ -1,0 +1,15 @@
+791.2       Var 0.4458E-03 Newbs.    845
+               Min  0.000          Max 0.1250    expVar 0.4761E-03  Bins    108
+Writing output file: /tproc/nandra/processing/72016000/work/72016000_sis0_bgd_16
+ 
+gnt_infrm: Countrate for GIS full-band...
+ 
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_gis2_bgd.evt
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_1040            Start Time (d) ....  9583 16:55:15.646
+ FITS Extension ....

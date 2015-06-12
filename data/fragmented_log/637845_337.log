@@ -1,0 +1,4 @@
+arameterisation.hh:73: warning: 'class G4VPVParameterisation' has virtual functions but non-virtual destructor
+/usr/include/geant4/G4VGraphicsScene.hh:67: warning: 'class G4VGraphicsScene' has virtual functions but non-virtual destructor
+../Linux-i686/dywTrackInformation.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/gean

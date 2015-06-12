@@ -1,0 +1,11 @@
+.09:30:44.13:source=nrao512,164029.6,394646.0,2000.0,ccw
+2002.171.09:30:45.08:setups2=1
+2002.171.09:30:49.16:!2002.171.09:31:32
+2002.171.09:31:18.04;"weather-moon and some stars visible
+2002.171.09:31:32.00:preob
+2002.171.09:31:32.16?ERROR an -103 Pointing computer tracking errors are too large.
+2002.171.09:31:32.16?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2002.171.09:31:32.16/onsource/SLEWING
+2002.171.09:31:32.16:!2002.171.09:31:42
+2002.171.09:31:37.10#trakl#Source acquired
+2002.171.09:31:42.00:d

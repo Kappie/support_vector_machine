@@ -1,0 +1,11 @@
+l error.
+2004.350.12:58:34.64?ERROR st -999 Failed: processing new source
+2004.350.12:58:36.09/mk5/!play_rate = 0 ;
+2004.350.12:58:36.09/mk5/!mode = 0 ;
+2004.350.12:58:36.13/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.12:58:36.13:!2004.350.13:02:05
+2004.350.12:59:15.78;source=hold
+2004.350.12:59:15.78#flagr#flagr/antenna,new-source
+2004.350.12:59:22.26;source=hold
+2004.350.12:59:22.79?ERROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.12:59:22.79?ERROR st -

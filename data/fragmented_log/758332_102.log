@@ -1,0 +1,16 @@
+mage sis1_sky.tmp clobber=yes
+Wrote image to file sis1_sky.tmp
+!xsel:ASCA-SIS1-BRIGHT2 > exit save=no
+ 
+gnt_infrm: Smoothing sky image for sis1...
+ 
+ 
+gnt_infrm: Finding maximum pixel (centroid) for sis1...
+ 
+
+****** statistics for /tproc/nandra/processing/74035000/work/sis1_sky_sm.tmp ******
+
+The sum of the selected image                 = 1509.000000
+The mean of the selected image                = 0.349063
+The standard deviation of the selected image  = 0.455698
+The number of points used in calculation   

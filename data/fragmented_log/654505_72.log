@@ -1,0 +1,4 @@
+ /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SRPMS/perl-DBI-1.40-4.caos.src.rpm /caos/repo/ext/autobuilder/SRPMS/perl-DBI-1.40-4.caos.src.rpm
+[buildtool/694/place_package_files()] Testing location "/src.rpm$/=/caos/repo/ext/autobuilder/SRPMS"
+[buildtool/694/place_package_files()] Testing location "/rpm$/=/caos/repo/ext/autobuilder/i386"
+[buildtool/707/place_package_files()] Match found for /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/RPMS/i386/perl-DBI-1.40-4.caos.i386.rpm:  =rpm$ (/caos/

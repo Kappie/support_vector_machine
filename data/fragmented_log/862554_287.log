@@ -1,0 +1,14 @@
+6000_gis2.effmap
+gnt_infrm: Creating 4-channel spectrum for gis3...
+ 
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - GIS3            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EX

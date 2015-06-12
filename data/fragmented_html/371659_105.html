@@ -1,0 +1,15 @@
+icelib/edlimb.html">EDLIMB</a> ( A, B, C, OBSERV, LIMB )
+ 
+   C
+   C     The ray direction vector is RAYDIR, so the ray is the
+   C     set of points
+   C
+   C        OBSERV  +  t * RAYDIR
+   C
+   C     where t is any non-negative real number.
+   C
+   C     The `down' vector is just -OBSERV.  The vectors
+   C     OBSERV and RAYDIR are spanning vectors for the plane
+   C     we're interested in.  We can use <a href="../spicelib/psv2pl.html">PSV2PL</a> to represent
+   C     this plane by a SPICELIB plane.
+   

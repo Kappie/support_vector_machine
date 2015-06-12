@@ -1,0 +1,5 @@
+nux-i686/Log_Dict.cc:5764: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc: In function 'void G__setup_memfuncLoggingcLcLFmtSpace()':
+../Linux-i686/Log_Dict.cc:5780: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5781: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5782: warning: ISO C++ forbids casting between pointer-to-fun

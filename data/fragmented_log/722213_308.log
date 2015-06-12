@@ -1,0 +1,23 @@
+g data file...
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_expo
+gnt_infrm: ========================
+Sat Apr 15 16:18:30 EDT 2000
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_lcvs
+gnt_infrm: *************************
+Sat Apr 15 16:18:30 EDT 2000
+ 
+gnt_infrm: Making lightcurves with 3 binsizes and 3 energy bands...
+ 
+gnt_infrm: Time ordering...
+ 
+ 
+gnt_infrm: Source, full-band, 16s bin, SIS/GIS...
+ 
+nbint = 6518
+gnt_infrm: Command...
+lcurve nser=1 cfile1=@/

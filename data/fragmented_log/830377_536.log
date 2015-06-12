@@ -1,0 +1,10 @@
+erlaw   norm               1.0867E-02 = par   7         4
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      1557.552     using  1375 PHA bins.
+ Reduced chi-squared =      1.140228     for   1366 degrees of freedom
+ Null hypothesis probability = 2.167E-04
+
+!XSPEC> notice 1-4:5.0-7.5;
+ A total of   472 more channels will be noticed
+ Net count rate (cts/s) for file   1   5.642    +/-  2

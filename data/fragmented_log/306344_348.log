@@ -1,0 +1,12 @@
+orm,stopped,stop,unlock,ready,rem
+9830212110325:postob
+9830212110325:source=0208-512,020856.9,-511507.5,1950.0
+9830212110326#antcn#Command a new source
+9830212110372#antcn#Successfully sent new source position to antenna
+9830212110372:sx2c2=16
+9830212110495/pass/16,16,auto,55.0,55.0,55.5,55.1,0.5,0.1
+9830212110853:!302121220
+9830212112746;rxmon
+9830212112757/rx/00(front),on,a,on,on,on,off,locked,14.71
+9830212112768/rx/01(rear),on,a,on,on,on,off,locked,30.58
+9830212112779/rx/02(lo),on,a,on,on,on,off,locked,3

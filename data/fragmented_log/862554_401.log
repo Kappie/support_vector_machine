@@ -1,0 +1,16 @@
+leted
+ 
+ Intv    1   Start  9583 17:43:15
+     Ser.1     Avg 0.1575        Chisq  26.89       Var 0.1886E-03 Newbs.      8
+               Min 0.1365          Max 0.1796    expVar 0.6451E-04  Bins   1247
+Writing output file: /tproc/nandra/processing/72016000/work/72016000_gis_src_576
+ 
+gnt_infrm: Background, full-band, 16s/5760s bin, SIS/GIS...
+ 
+nbint = 2597
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_sis0_bgd.evt
+ 
+ Selected FITS extensions: 1 - RATE TABLE

@@ -1,0 +1,28 @@
+ animate();
+ }
+} 
+
+///////////////////////////////////////////////////////////////////////////
+
+function stop_play() // stop movie
+{ 
+ if (timeout_id) clearTimeout(timeout_id); 
+  timeout_id=null;
+  playing = 0;
+} 
+
+///////////////////////////////////////////////////////////////////////////
+
+function swing_mode()    // set swing mode
+{
+ if (swingon) {
+  swingon=0;
+  document.form.swing.value="OFF";
+ }
+  else {
+  swingon=1;
+  document.form.swing.value="ON";
+ }
+}
+
+/////////////////////////////////////////////

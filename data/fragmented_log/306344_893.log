@@ -1,0 +1,9 @@
+ if antenna is on-source
+9830300002062/onsource/TRACKING
+9830300002154#wx#/WX/16.8,1007.3, 53.3
+9830300002174?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830300002177?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830300002229?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830300002280?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830300002287/ifd/9,7,nor,nor,rem,8806,9229
+9830300002294/if3/8,out,1,1,,,presen

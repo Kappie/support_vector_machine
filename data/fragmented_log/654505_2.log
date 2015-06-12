@@ -1,0 +1,9 @@
+-O2 -march=pentium.
+[Config.pm/155/Config::get] Config::get(CLEAN):  orc
+[buildtool/194/is_build_needed()] Got config key CLEAN with value orc.
+[Config.pm/155/Config::get] Config::get(DEBUG):  1
+[buildtool/194/is_build_needed()] Got config key DEBUG with value 1.
+[Config.pm/155/Config::get] Config::get(HINTS =):  <undef>
+[buildtool/194/is_build_needed()] Got config key HINTS = with value <undef>.
+[Config.pm/155/Config::get] Config::get(DEP_INSTALLER):  /usr/bin/yum -ty install
+[buildtool/194/is_build_needed

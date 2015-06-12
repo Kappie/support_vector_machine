@@ -1,0 +1,5 @@
+u)
+MuonIdProducer::produce::fillIsolation                                                                      7759       67.053 (real)        0.000 (cpu)
+MuonIdProducer::produce::fillMuonId                                                                        35272      206.820 (real)        0.000 (cpu)
+MuonIdProducer::produce::init                                                                                499        0.351 (real)        0.000 (cpu)
+MuonIdProducer::produce::init::getInputCollections   

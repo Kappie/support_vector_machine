@@ -1,0 +1,22 @@
+odel now contains 150 components and 0.23627 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.073640Jy  sigma=0.354313
+! Fit after  self-cal, rms=0.073645Jy  sigma=0.354287
+mapp
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+radp
+! Using default options string "m1"
+! Move the cursor into the plot window and press 'H' for help
+save 2120+099_X
+! Writing UV FITS file: 2120+099_X.uvf
+! Writing 150 model 

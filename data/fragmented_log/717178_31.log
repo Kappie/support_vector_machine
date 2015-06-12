@@ -1,0 +1,19 @@
+ and 2.37243 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.142378Jy  sigma=0.550346
+! Fit after  self-cal, rms=0.138795Jy  sigma=0.534802
+! Inverting map and beam 
+! Estimated beam: bmin=2.845 mas, bmaj=9.273 mas, bpa=-11.72 degrees
+! Estimated noise=2.24817 mJy/beam.
+! Added new window around map position (30, -26).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0133706 Jy
+! Component: 100  -  

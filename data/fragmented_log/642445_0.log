@@ -1,0 +1,12 @@
+ align='top'></td><td>L2 SVT trigger</a></td></tr></table>
+<!-- Author: Stephen -->
+
+
+<!-- Date: Tue Oct 9 10:37:48 2001 -->
+<pre>Run 128419 was run with TWO_TRACK_SVT_v-5 table using SVT 
+triggers at L2. Above plot shows successful implementation 
+of L2 cuts: d0 >= 100um, Pt >= 2Gev, Chisq <= 25, Ntracks 
+satisfying cuts >=2. Black histogram is all SVT tracks, 
+Blue histogram is the value for the 2 tracks with the maximum 
+(minimum) values for events where the L1 trigger bit was set. 
+Red histogram is the 

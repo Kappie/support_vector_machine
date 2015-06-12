@@ -1,0 +1,22 @@
+ML, adding a CLOSE button
+
+if (win) {
+ d=win.document;
+ d.write('<html><head><title>Image Window</title></head><body bgcolor="white"><center>');
+ if (title) {
+  d.write('<h1>'+title+'</h1>');
+ }
+ d.write('<img src='+url+'>');
+ d.write('<br><br><br>');
+ d.write('<form><b><input type="button" value="CLOSE" onClick="self.close();"></b></form></center>'); 
+ d.write('</html></body>');
+ d.close();
+ win.focus();
+}
+
+return true;     
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+fu

@@ -1,0 +1,15 @@
+long we wait after
+disabling  "2 SRC Operations" to see if the TDC problems 
+were gone, and the response was that we needed to wait at least
+until after the Prescales changed, so it wasn't (to my knowledge)
+done on purpose then.  Perhaps with the L2 Done Timeouts?
+<!-- Date: Wed Jun 11 22:30:45.502 2003 -->
+<pre>close partion 7 
+select partition 7 
+partition new run 
+errlog does not partition 
+quit errorhandler 
+restart errorhandler 
+partion errlog from RC local client 
+L3 partitioning</pre>
+<!-- Author

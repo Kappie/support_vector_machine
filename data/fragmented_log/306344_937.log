@@ -1,0 +1,9 @@
+pib devices inaccessible.
+9830301004189?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301004241?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301004292?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301004299/ifd/9,7,nor,nor,rem,8263,8936
+9830301004306/if3/8,out,1,1,,,present,500.10,rem,lock,51216
+9830301004313/vc06/420.99,2.000,u,10,10,rem,lock,13410
+9830301004320/vc11/217.99,2.000,u,10,10,rem,lock,12033
+9830301004351/tpi/36

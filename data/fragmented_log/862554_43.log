@@ -1,0 +1,13 @@
+els are removed by comparing to the cell mean.
+ 
+ 3. In faint areas (zero bgd), flickering pixels are removed with a
+    cutoff threshold.
+ 
+ Hints:
+ Choose cell size and thresholds based on the expected background and the PSF.
+ Use the DIRTYSIS option to examine the anomalous pixel spectra.
+ Try a multiple pass clean:
+     Choose a PHA cut to optimize the S/N of the flickering pixels,
+     then a broad band clean.
+ Be suspicious of extended source cleans.
+ For very bright sources you may need to turn off t

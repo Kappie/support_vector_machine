@@ -1,0 +1,10 @@
+06:13:57.22:!2004.350.06:19:13
+2004.350.06:15:33.10#skua #Antenna slewing complete
+2004.350.06:16:32.33;source=hold
+2004.350.06:16:32.33#flagr#flagr/antenna,new-source
+2004.350.06:16:39.34?ERROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.06:16:39.34?ERROR st -999 Antenna STOP command failed!!!
+2004.350.06:16:39.34?ERROR st -999 Failed: stopping antenna motion
+2004.350.06:16:43.87;source=disable
+2004.350.06:16:43.87#flagr#flagr/antenna,new-source
+2004.350.06:16:50.88?ER

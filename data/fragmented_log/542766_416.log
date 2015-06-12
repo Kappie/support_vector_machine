@@ -1,0 +1,12 @@
+ xff xff xff
+9919502010356/form/mmp[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919502010356/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919502010441/pass/4,4,auto,-275.0,-275.0,-275.4,-275.0,-0.4,0.0
+9919502010456:!195020320
+9919502032000:tape
+9919502032006/tape/off,16296,norm,stopped,stop,unlock,ready,rem
+9919502032006:st=rev,80
+9919502032022:!195020330
+9919502033000:preob
+9919502033000#antcn#Checking onsource status
+9919502033003#a

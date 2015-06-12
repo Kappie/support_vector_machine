@@ -1,0 +1,18 @@
+g IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.219670Jy  sigma=0.001761
+! Fit after  self-cal, rms=0.218382Jy  sigma=0.001744
+! Inverting map 
+! Your choice of large map pixels excluded 0.678% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+print "************** FINISHED NATURAL WEIGHTING CLEAN **************"
+! ************** FINISHED NATURAL WEIGHTING CLEAN ************** 
+! 
+gscale true
+! Performing overall amplitude self-cal
+! 
+! Cor

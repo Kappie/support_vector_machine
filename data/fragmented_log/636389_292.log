@@ -1,0 +1,19 @@
+0.vad
+  Sfc/METAR Data
+  filename13 = 061521800.sag
+
+  Profile Winds (e.g. Profiler, Tower, Raob, Dropsonde)
+  filename13 = 061521800.prg
+
+  ACARS/CDW Winds
+  filename13 = 061521800.pig
+
+  MODEL Winds
+  filename13 = 061521800.mpg
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/LWM, LGA/LGB, FUA/FSF, LAPS-BKG, BAL), 
+     [wo,co,bo,lo,fo] Anlyz/Cloud/Balance/Bkg/Fcst Omega
+     RADAR: [ra] Intermediate VRC, [rf] Anal/Fcst fields
+            Radar Intermediate Vxx - Ref [rv], Vel

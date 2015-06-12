@@ -1,0 +1,11 @@
+ FIFO: One header word hit words. This is just a simple way to put data in the FIFO without actually sending pulses to the chips. 
+ 
+The Boards which received this update are serial numbers: 
+28 26 18 22 14 17 32 19 12 
+ 
+They are all labeled (on the back) in black felt-tip marker: 
+"22 April 99 Firmware Update - mlk" 
+ 
+We have left two boards (serial numbers 21 and 30) in the trigger room with the old firmware, just in case the new boards are too confusing. 
+ 
+Board 33 is going back to Michigan for a VME-

@@ -1,0 +1,8 @@
+.279.20:08:17.70/caltemp/i2,30.000
+2003.279.20:08:17.71/caltemp/5u,26.000,6u,26.000,7u,26.000,8d,26.000,i3,26.000
+2003.279.20:08:17.72?ERROR qk -211 Tsys value for device vc overflowed or was less than zero.
+2003.279.20:08:17.72?ERROR qk -211 Tsys value for device vd overflowed or was less than zero.
+2003.279.20:08:17.73/tsys/1d,67.7,2u,67.9,3u,62.0,4u,66.8,i1,62.6
+2003.279.20:08:17.74/tsys/9u,38.9,au,45.8,bu,43.4,cu,$$$$$$$$,du,$$$$$$$$,eu,379.1
+2003.279.20:08:17.74/tsys/i2,43.5
+2003.279.20:08:17.75/tsys/5

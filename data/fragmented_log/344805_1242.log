@@ -1,0 +1,12 @@
+:32.42/onsource/SLEWING
+2003.309.13:30:41.06;clkoff
+2003.309.13:30:41.20#flagr#flagr/antenna,acquired
+2003.309.13:30:41.86/fmout-gps/2.063870e-05 20.6 usec (Hmaser leads GPS)
+2003.309.13:30:49.93;onsource
+2003.309.13:30:49.93#antcn#Check if antenna is on-source
+2003.309.13:30:50.49/onsource/TRACKING
+2003.309.13:31:50.00:preob
+2003.309.13:31:50.00#antcn#Check if antenna is on-source
+2003.309.13:31:50.59/onsource/TRACKING
+2003.309.13:31:53.18/tpical/1u,10009,2u,10440,3u,10707,4u,9280,i1,6034
+2003.309.13:31:53

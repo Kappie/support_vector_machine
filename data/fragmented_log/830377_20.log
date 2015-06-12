@@ -1,0 +1,14 @@
+ mode, please wait.
+
+Using 0.01 for Maximum allowed angular deviation
+Using 5 for minimum elevation
+Using standard GIS particle BGD rejection criterion
+I will start up SAOImage, and leave you in Xselect at the end
+Removing ring and calibration sources
+    Using the region:
+     CIRCLE(128.50,128.50,88.00)
+    -ELLIPSE(167.50,220.00,24.66,28.95,245.298)
+
+Writing command file 76052020_gis2.xco
+Index  NEVENTS   ONTIME  RAWXBINS RISEBINS TIMEBINS PHA_BINS  POS_DET
+    0   103695  28729.9       256       32     

@@ -1,0 +1,10 @@
+erGraphicsSystem(int*)'
+/usr/include/geant4/G4VisManager.hh:194: note: candidates are: G4bool G4VisManager::RegisterGraphicsSystem(G4VGraphicsSystem*)
+/home/tagg/autodaya/G4dyb/app/dyw.cc: At global scope:
+/home/tagg/autodaya/G4dyb/app/dyw.cc:199: warning: unused parameter 'argc'
+/home/tagg/autodaya/G4dyb/app/dyw.cc:199: warning: unused parameter 'argv'
+make[3]: *** [../Linux-i686/dyw.o] Error 1
+make[2]: *** [G4dybApp] Error 2
+make[1]: *** [common_target] Error 2
+make: *** [check_config] Error 2
+CMT> Error:

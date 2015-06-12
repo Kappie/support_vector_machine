@@ -1,0 +1,14 @@
+Writing default parameters for subsequent refinement:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/run_1283/model_refine_002.def
+
+
+=============================== Detailed timings ==============================
+
+Pure refinement (no I/O, processing, etc)= 313.38 
+  Macro-tasks:
+    bulk solvent and scale       = 39.74  
+    individual site refinement   = 125.15 
+    weights calculation          = 31.29  
+    collect and process          = 6.57   
+    model show statistics        = 0.14   
+    TOTAL for ma

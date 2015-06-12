@@ -1,0 +1,15 @@
+517 x 8.57 at 5.307 degrees (North through East)
+! Clean map  min=-0.0036894  max=0.10734 Jy/beam
+! Writing clean map to FITS file: J2357-2451_S_2005_07_09_yyk_map.fits
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak flux is 0.107343 
+invert
+! Inverting map 
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.000626937 
+device "J2357-2451_S_2005_07_09_yyk\_map.eps/VPS"
+! Attempting to open device: 'J2357-2451_S_

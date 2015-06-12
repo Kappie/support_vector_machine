@@ -1,0 +1,13 @@
+
+! Gridding weights will be scaled by errors raised to the power -2.
+! Radial weighting is not currently selected.
+flux_cutoff = imstat(rms) * dynam
+! Adding 28 model components to the UV plane model.
+! The established model now contains 28 components and 0.135375 Jy
+! Inverting map and beam 
+! Estimated beam: bmin=3.517 mas, bmaj=8.57 mas, bpa=5.307 degrees
+! Estimated noise=1.13829 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) 

@@ -1,0 +1,17 @@
+r
+   than Jupiter: the necessary change would be to make the ID code of the
+   occulting body a variable.
+<P>
+ 
+   We're going to take the offset of the observer from the Earth's center
+   into account because doing so gives us an opportunity to demonstrate the
+   use of a number of SPICELIB routines. The actual parallax involved is
+   not necessarily important.
+<P>
+ 
+<PRE>
+ 
+         PROGRAM STAROC
+   C
+   C     Determine whether a star is occulted by Jupiter as seen from
+   C     Earth at a specified surf

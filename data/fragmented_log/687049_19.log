@@ -1,0 +1,10 @@
+ more than 50 iterations in pfcluster finding: 1.646378619e-07
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-2007 09:10:18 EDT  Run: 1 Event: 10
+Warning: L1 trigger info not available 
+%MSG
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 4.3747709e-08
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 09:11:44 EDT  Run: 1 Event: 11
+Fitted position is out of tracker bounds.
+
+%MSG
+PFClusterAlgo Warning: more than 50 iter

@@ -1,0 +1,16 @@
+ ones you want 
+   to look at.  Example tag names are: 
+ 
+	SVX_B0W6_L0_VBIAS_IREAD.F_CV 
+	ISL_B0W3_L1_VBIAS_IREAD.F_CV 
+	ISL_B0W3_L1_VBIAS1_IREAD.F_CV 
+	L00_B1W3_L2_VBIAS_IREAD.F_CV 
+	L00_B1W3_L3_VBIAS_IREAD.F_CV 
+	L00_B1W3_L3_VBIAS1_IREAD.F_CV 
+ 
+5. For each tag, uncheck the "Fetch Limits" box and enter the 
+   appropriate low and high limits for the plot. 
+6. When you are all done click OK. 
+7. If it works, the plot will update every 5-10 s. 
+ 
+I also set up the iFix Historian to permanently log the bias 

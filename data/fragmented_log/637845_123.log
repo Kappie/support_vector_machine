@@ -1,0 +1,8 @@
+done
+------> (constituents.make) Building Util.make
+Library Util
+------> (constituents.make) Starting Util
+------> (Util.make) Rebuilding ../Linux-i686/Util_dependencies.make
+computing dependencies for NamedFactory.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual    /home/tagg/autodaya/Base/Util/src/NamedFactory.cc
+computing dependencies for

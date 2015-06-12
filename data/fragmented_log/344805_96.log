@@ -1,0 +1,10 @@
+t_stats? 0 : 7 : 16303 : 16088 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.308.18:38:51.00:scan_name=308-1840,crf23,160
+2003.308.18:38:51.01:source=0522-611,052200.34,-611041.3,1950.0
+2003.308.18:38:51.03#antcn#Command a new source
+2003.308.18:38:51.78#antcn#Successfully sent new source position to antenna
+2003.308.18:38:51.78#flagr#flagr/antenna,new-source
+2003.308.18:38:51.80:setupsx
+2003.308.18:38:55.91/mk5/!play_rate = 0 ;
+2003.308.18:38:55.92/mk5/!mode = 0 ;
+2003.308.18:38:55.96/mk5/!mode? 0 : mark4 : 16 : mark4 : 

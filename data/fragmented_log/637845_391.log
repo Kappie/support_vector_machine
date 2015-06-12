@@ -1,0 +1,4 @@
+-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/G4dyb/src /home/tagg/autodaya/G4dyb/src/dywConstructFarSite.cc
+/usr/include/geant4/G4VPVParameterisation.hh:73: warning: 'class G4VPVParameterisation' has virtual functions but non-virtual destructor
+../Linux-i686/dywRPC_Hit.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I

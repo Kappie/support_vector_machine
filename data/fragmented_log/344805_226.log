@@ -1,0 +1,11 @@
+4.88/mk5/!mode = 0 ;
+2003.308.20:47:14.91/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 53 ;
+2003.308.20:47:14.92:!2003.308.20:51:30
+2003.308.20:49:27.56#flagr#flagr/antenna,acquired
+2003.308.20:51:30.00:preob
+2003.308.20:51:30.14#antcn#Check if antenna is on-source
+2003.308.20:51:30.14#flagr#flagr/antenna,off-source
+2003.308.20:51:30.74/onsource/TRACKING
+2003.308.20:51:31.24#flagr#flagr/antenna,re-acquired
+2003.308.20:51:33.32/tpical/1u,9680,2u,10140,3u,10241,4u,9016,i1,5797
+2003.308.20:51:33.32/tpical/9u,4

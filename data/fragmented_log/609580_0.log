@@ -1,0 +1,18 @@
+------------------------- 
+  wedge   remark 
+------------------------------------------------- 
+* S B0W6  L4 drops RO 
+  S B1W6  OK 
+  S B2W6  L0?, L4 OFTM replaced 
+  S B2W7  L4 RO error, L4 huge current 
+  S B2W8  OK 
+  S B3W5  Ok 
+  S B3W6  L2 draws & current 
+  S B4W5  L2 grassy & current, L3 partial deplete 
+* I B0W3  L2 inits but no RO 
+  I B1W3  L2 & L4 off (cooling) 
+  I B5W3  no data, NEED TEST 
+* L B0W3  OK 
+  L B1W3  L2 problem 
+------------------------------------------------- 
+* 3 for 1x8 if no

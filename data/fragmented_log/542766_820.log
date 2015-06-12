@@ -1,0 +1,12 @@
+f xff xff xff xff xff xff xff xff xff xff
+9919510511184/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919510511258/pass/7,7,auto,-165.0,-165.0,-165.1,-164.8,-0.1,0.2
+9919510511273:!195105421
+9919510542100:tape
+9919510542106/tape/off,13197,norm,stopped,stop,unlock,ready,rem
+9919510542106:st=for,80
+9919510542121:!195105431
+9919510543100:preob
+9919510543100#antcn#Checking onsource status
+9919510543105#antcn# RAsource    74.251   DECsource  -23.415
+9919510543105#antcn# RAbeam      74

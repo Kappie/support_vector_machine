@@ -1,0 +1,16 @@
+
+			else if(document.body.attachEvent){
+				document.body.attachEvent("on"+event, func.wtbind(this));
+			}
+		}
+	}
+	WebTrends.prototype.dcsET=function(){
+		var e=(navigator.appVersion.indexOf("MSIE")!=-1)?"click":"mousedown";
+		this.dcsBind(e,this.dcsDownload);
+	}
+	WebTrends.prototype.dcsMultiTrack=function(){
+		var args=dcsMultiTrack.arguments?dcsMultiTrack.arguments:arguments;
+		if (args.length%2==0){
+			for (var i=0;i<args.length;i+=2){
+				if (args[i].indexOf('WT.')==0){
+					this.WT[args[i

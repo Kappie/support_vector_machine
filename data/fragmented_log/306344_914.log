@@ -1,0 +1,13 @@
+300245365?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830300245365/tsys2/70.2,72.0,72.5,69.1,69.1,-34.7,81.4
+9830300245365:!303002710
+9830300271000:"data stop"
+9830300271000:et
+9830300271017:!+3s
+9830300271318:tape
+9830300271330/tape/off,08376,norm,stopped,stop,unlock,ready,rem
+9830300271330:postob
+9830300271330:source=1604-333,160422.2,-332310.6,1950.0
+9830300271331#antcn#Command a new source
+9830300271374#antcn#Successfully sent new source position to antenna
+9830300271374:m

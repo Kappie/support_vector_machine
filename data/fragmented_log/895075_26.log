@@ -1,0 +1,12 @@
+KK        1.04     KP        0.96     LA        1.01     
+!   MC        1.22     MK        1.01     NY        1.10     ON        1.09     
+!   OV        0.93     PT        0.99     SC        4.62     TS        0.96     
+!   WF        0.98     WZ        1.08     GN        0.96     NL        1.00     
+! 
+! 
+! Fit before self-cal, rms=0.333524Jy  sigma=0.001535
+! Fit after  self-cal, rms=0.286273Jy  sigma=0.001489
+dynam = dynam - 0.5
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Your choice of 

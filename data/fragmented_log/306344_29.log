@@ -1,0 +1,10 @@
+5&clkoff/"specify fmout-gps when formatter (h-maser) leads gps
+9830205083075&clkoff/hpib=pp,:read?
+9830205083075&clkoff/!+0.5s
+9830205083076&clkoff/fmout-gps=pp
+9830205083076&clkoff/!+0.5s
+9830205083076&clkoff/hpib=pp,:init:cont on
+9830205083076?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830205083128?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830205083180?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830205083187/ifd/9,7,nor,no

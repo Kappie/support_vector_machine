@@ -1,0 +1,11 @@
+pped,stop,unlock,ready,rem
+9830206592012:st=for,135
+9830206592025:"data start"
+9830206592025:midob
+9830206592025#antcn#Check if antenna is on-source
+9830206592087/onsource/TRACKING
+9830206592160#wx#/WX/15.8,1013.5, 52.0
+9830206592179?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830206592181?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830206592233?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830206592285?ERROR ib  -10 ibcon initia

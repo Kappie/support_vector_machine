@@ -1,0 +1,8 @@
+DR INPUT DVC #71:     Non nominal MCP bias power supply level (EDR #486, SCET=1491178742)
+EDR INPUT DVC #71:     Non nominal ADC trigger (EDR #486, SCET=1491178742)
+CDF OUTPUT LOG:        CDF Records written=66 (Range Errors=0)
+[01-Apr-2002-21:10:41  End processing file: .\data\1997\19970401.cdf]
+
+[01-Apr-2002-21:10:41  Start processing file: .\data\1997\19970402.cdf]
+CDF OUTPUT LOG:        No records written to CDF, file contains no data (data gap > one day)
+CDF OUTPUT LOG:        CDF Records writte

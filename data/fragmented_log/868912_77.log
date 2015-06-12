@@ -1,0 +1,15 @@
+: J0818+4222_X_1998_10_01_pus_map.fits
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak flux is 0.672173 
+invert
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.000473298 
+device "J0818+4222_X_1998_10_01_pus\_map.eps/VPS"
+! Attempting to open device: 'J0818+4222_

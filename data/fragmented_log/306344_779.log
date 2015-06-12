@@ -1,0 +1,13 @@
+n,on,off,locked,1.012
+9830221434607/rx/17(pres),on,a,on,on,on,off,locked,3.463
+9830221434618/rx/1E(20k),on,a,on,on,on,off,locked,25.99
+9830221434629/rx/1F(70k),on,a,on,on,on,off,locked,46.16
+9830221444000:"data stop"
+9830221444000:et
+9830221444016:!+3s
+9830221444317:tape
+9830221444329/tape/off,00608,norm,stopped,stop,unlock,ready,rem
+9830221444329:postob
+9830221444329:source=1307+121,130704.4,121022.6,1950.0
+9830221444330#antcn#Command a new source
+9830221444385#antcn#Successfully sent new source position t

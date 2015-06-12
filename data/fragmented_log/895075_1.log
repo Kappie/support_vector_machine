@@ -1,0 +1,20 @@
+Read 2418 lines of history.
+! 
+! Reading 28268 visibilities.
+select I
+! Polarization I is unavailable.
+! Selecting polarization: RR,  channels: 1..4
+! Reading IF 1 channels: 1..1
+! Reading IF 2 channels: 2..2
+! Reading IF 3 channels: 3..3
+! Reading IF 4 channels: 4..4
+print "field_size =",field_size
+! field_size = 256 
+print "field_cell =",field_cell
+! field_cell = 0.2 
+print "taper_size =",taper_size
+! taper_size = 70 
+![@muppet J1727+4530_X_1999_12_20_pus]
+integer clean_niter
+clean_niter = 100
+float clean

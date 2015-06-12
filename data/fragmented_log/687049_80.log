@@ -1,0 +1,4 @@
+it::getInputCollections                                                   1        0.003 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::init::getPropagator                                                         1        0.000 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::init::misc                                                                  1        0.000 (real)        0.000 (cpu)
+firstcall_Muon|RecoMuon|GlobalMuonTrajectoryBuilder|addTraj                                  

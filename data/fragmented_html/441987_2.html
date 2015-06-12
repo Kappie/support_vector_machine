@@ -1,0 +1,14 @@
+protein%26amp%3Bdispmax%3D20%26amp%3Bdopt%3Dgp%26amp%3Bextrafeat%3D1016%26amp%3Blinkbar%3Djsmenu3%26amp%3Bpage%3D1%26amp%3Bqty%3D1%26amp%3Bquery%5Fkey%3D1%26amp%3Bterm%3DNP%5F996258.1%26amp%3Btool%3Dportal');
+function MyNCBI_find()
+{
+var cs = document.cookie.split('; ');
+for(var i = 0; i < cs.length; i++) {
+// a name/value pair (a crumb) is separated by an equal sign
+var c = cs[i].split('=');
+if(c[0] == 'WebCubbyUser') { return c[1]; }
+}
+return '';
+}
+function MyNCBI_auto_submit(url)
+{
+var qm = url.indexOf('

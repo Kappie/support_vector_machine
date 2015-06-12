@@ -1,0 +1,14 @@
+nd beam 
+! Estimated beam: bmin=0.3078 mas, bmaj=0.7383 mas, bpa=7.606 degrees
+! Estimated noise=1663.22 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0470426 Jy
+! Component: 100  -  total flux cleaned = 0.0721664 Jy
+! Component: 150  -  total flux cleane

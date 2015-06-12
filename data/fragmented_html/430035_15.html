@@ -1,0 +1,16 @@
+    draw_fan();
+    popmatrix();            /* draw smooth, antialiased lines -- upper right */
+    color (128);   /* red */
+    pushmatrix();
+    translate (390.0, 390.0, 0.0);
+    rotate( getvaluator (MOUSEX) -2300, 'z');
+    draw_fan();
+    popmatrix();         /* draw smooth, antialiased lines -- upper left */
+    color (192);   /* blue */
+    pushmatrix();
+    translate (30.0, 360.0, 0.0);
+    rotate( -400 - getvaluator (MOUSEX), 'z');
+    draw_fan();
+    popmatrix();
+    popmatrix();
+    swapbuffers()

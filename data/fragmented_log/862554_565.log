@@ -1,0 +1,23 @@
+2 06:31:11 EDT 2000
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_tran
+gnt_infrm: *************************
+Sat Apr 22 06:31:11 EDT 2000
+ 
+gnt_infrm: Copying the files to the database (universe)...
+ 
+gnt_infrm: Transferring web page files to html area...
+ 
+(remove /www/tartarus/restricted/html/72016000)
+(create /www/tartarus/restricted/html/72016000)
+(set permissions)
+ 
+72016000.html
+72016000_gis_sky_sm.gif
+72016000_flc.gif
+72016000_pha.gif
+72016000_sis0.gif
+72016000_sis1.gif
+7201

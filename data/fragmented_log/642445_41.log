@@ -1,0 +1,8 @@
+>
+<pre>Isolation thursday:  eventful morning.   I'll try to reconstruct step by step. 
+1) 5 boards in: L1, Clist, 2 tracks, Iso. 
+2) No detector booked, unplug cable.  Data looks perfect in all 5 boards, the 2 track boards are causing the 600 us timeout as expected. 
+3) Book endwalls.  Cal Clustering seems messed up since both 
+Clist and Isolist have Ncluster mismatches. 
+4) Remove track boards as a test,  coldstart fails due to Clist. This is the spare Clist that Monica put in last night. 
+5) Put in other 

@@ -1,0 +1,10 @@
+CA-SIS0-BRIGHT > filter pha_cutoff 140 560
+!xsel:ASCA-SIS0-BRIGHT > extract events
+!xsel:ASCA-SIS0-BRIGHT > save events use=no clobber=yes 72016000_sis0_src_soft.evt
+Wrote events list to file 72016000_sis0_src_soft.evt
+!xsel:ASCA-SIS0-BRIGHT > clear events
+!xsel:ASCA-SIS0-BRIGHT > clear pha_cutoff
+!xsel:ASCA-SIS0-BRIGHT > filter pha_cutoff 560 1723
+!xsel:ASCA-SIS0-BRIGHT > extract events
+!xsel:ASCA-SIS0-BRIGHT > save events use=no clobber=yes 72016000_sis0_src_hard.evt
+Wrote events list to file 72016000_sis

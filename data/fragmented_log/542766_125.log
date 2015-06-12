@@ -1,0 +1,13 @@
+1,16713,35607
+9919420044399:!194200451
+9919420045100:tape
+9919420045106/tape/off,16887,norm,moving,nostop,locked,ready,rem
+9919420045106:"data start"
+9919420045106:midob
+9919420045106#antcn#Checking onsource status
+9919420045109#antcn# RAsource   287.786   DECsource  -20.114
+9919420045109#antcn# RAbeam     287.786   DECbeam    -20.114
+9919420045109#antcn# RAdelta      0.001   DECdelta     0.000
+9919420045109?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919420045109/onsource/SLEWING
+9919420045111/wx/7

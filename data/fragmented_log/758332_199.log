@@ -1,0 +1,13 @@
+s/sec
+ ... written the PHA data Extension
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - SIS1            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 35636.          In

@@ -1,0 +1,12 @@
+ded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.000599728 
+device "J0530+1331_X_2001_10_29_pus\_map.eps/VPS"
+! Attempting to open device: 'J0530+1331_X_2001_10_29_pus_map.eps/VPS'
+loglevs 100*3*image_rms/peak_flux
+! The new contour levels are:
+!  -0.0912282 0.0912282 0.182456 0.364913 0.729826 1.45965 2.9193 5.83861 11.6772 23.3544 46.7088 93.4177
+print "cle

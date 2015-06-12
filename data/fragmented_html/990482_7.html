@@ -1,0 +1,9 @@
+ suitable increment M.  Alternatively, 
+the increment M may be specified via the <A HREF="fit_level2.html#hinc">HINC</A> parameter.  The condensed
+histogram H' may be interpreted as follows:
+
+   H'(I) = H(I) + H(I+1) + ... + H(I+M-1)   for I=1, M+1, 2*M+1, 3*M+1,...
+   H'(I) = 0  for all other I.
+
+After zeroing <A HREF="fit_level2.html#out">out</A> the excluded elements from the histogram, the mean and
+standard deviation computed from the excluded histogram are printed <A HREF="fit_level2.html#out">out</A>.

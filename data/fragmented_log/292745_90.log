@@ -1,0 +1,10 @@
+2:20.31#antcn#Received message for antenna: TCHECK
+1999.147.08:02:20.31?ERROR ST   -4 Error in antenna communication
+1999.147.08:02:20.31:source=0458-020,045841.3,-020333.9,1950.0,neutral
+9914708022077  check_onso: Antenna Communication Error!, can't check antenna.
+9914708022078  check_onso: FS_time - Antenna_time = 58.0 sec.
+ 
+1999.147.08:02:33.52?ERROR ST   -4 Error in antenna communication
+1999.147.08:02:33.52:wb4k1=1
+9914708023554  check_onso: Antenna Communication Error!, can't check antenna.
+991470802

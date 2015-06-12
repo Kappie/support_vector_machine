@@ -1,0 +1,8 @@
+ ERROR: constituent tower energy is 0, Em/Had contributions are 0/0
+. THIS SHOULD NEVER HAPPEN - please inform ratnikov@fnal.gov. Thank you!
+[AdaptiveVertexFitter] warning: updator throws ---- Propagation to perigee plane failed! BEGIN
+---- Propagation to perigee plane failed! ENp
+[AdaptiveVertexFitter] (your vertex might just have lost one good track)
+[AdaptiveVertexFitter] warning: updator throws ---- Propagation to perigee plane failed! BEGIN
+---- Propagation to perigee plane failed! ENp
+[AdaptiveVertexF

@@ -1,0 +1,2 @@
+ns -Winline -Wredundant-decls -MT HTMLparser.lo -MD -MP -MF .deps/HTMLparser.Tpo -c -o HTMLparser.lo HTMLparser.c
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -I/usr/local/cdat/Externals/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Ws

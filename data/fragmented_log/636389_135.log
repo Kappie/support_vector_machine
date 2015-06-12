@@ -1,0 +1,11 @@
+     1
+  CLOW,HIGH,CINT    -500.0000        50.00000        50.00000    
+  Max/Min/n_missing =     999.0000       -500.0000                0
+  write_label_lplot:
+ CIN                 (J/KG)                                                                          
+  lapsplot: call "conrec", cint =     50.00000    
+  conrec_line: calling plot_contour   -500.0000        50.00000     
+    50.00000                2            1
+
+ MIN =  -500.00         MAX =   999.00          PLOT INTERVAL =   50.000    
+  FMAX/

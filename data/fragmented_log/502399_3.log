@@ -1,0 +1,11 @@
+003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=159482">159482</A>
+TERMINATE: end testing LED in D mode
+now works OK with hTDC crate. Thanks to Bill.
+<!-- Author: slava77 -->
+
+
+
+<!-- Date: Thu Feb 27 02:56:02 2003 -->
+CMX tripped (channels SE 16 and 17). It was on at the begining of the shift. I tried unsuccessfully to bring it back on, but it was probably because of the TeV studies. Left it on stand by.
+<!-- Author: Luis :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=159479' targ

@@ -1,0 +1,13 @@
+yes
+checking if gfortran supports -c -o file.o... yes
+checking whether the gfortran linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+Checking zlib
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzread in -lz... yes
+Checking headers
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... non

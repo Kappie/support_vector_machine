@@ -1,0 +1,17 @@
+e getting too high rates (> 3 sigma) for the following triggers: 
+==== 
+ 
+	L1_MET25_v1 
+	L2_AUTO_L1_MET25_v1 
+	MET_L3PS100_L1_MET25_v1 
+	L2_JET40_&_GAP_EAST_v3 and WEAST_v3  
+	L2_JET60_PS8_v3 
+	L2_JET90_v3 
+	L2_PEM8_L1_CEM8_PT8_v2 
+	 
+	TAU_ELECTRON8_TRACK5_ISO_v4 
+	ELECTRON_CENTRAL_8_V8 
+ 
+(Do the reference numbers need to be updated ?)</pre>
+<!-- Author: Carmine :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=148377' target=_top>148377</a>) -->
+<!-- Comment: Tue Jul 16 23;18;22 comment by...Xmon

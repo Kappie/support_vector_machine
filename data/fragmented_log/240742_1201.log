@@ -1,0 +1,10 @@
+36:14.01/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.13:36:14.02/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.13:36:14.17:!2001.296.13:44:52
+2001.296.13:36:30.32;"weather is cloudy"
+2001.296.13:44:52.00:tape
+2001.296.13:44:52.13/tape/off,05845,norm,stopped,stop,unlock,ready,rem
+2001.296.13:44:52.13:st=rev,160
+2001.296.13:44:52.31:!2001.296.13:44:52
+2001.296.13:44:52.31:preob
+2001.296.13:44:52.34#ant

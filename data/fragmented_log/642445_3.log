@@ -1,0 +1,12 @@
+rors in  
+unpacking TC2D and the histograms are not reasonable. 
+Nathan fixed and tested the Trigmon version with  
+isolation in it but it only has the seed information,  
+no energies yet.   So we took a lot of data but don't 
+know the quality yet.   
+Run 128661 had a DCAS cable unplugged as a test.   
+Runs 128676 and 680 had all cables plugged in.   
+ 
+Trigmon showed Iso and Clist in sync at all times in all  
+runs.  We left Isolist plugged in and request that others 
+do so as well unless a problem is seen

@@ -1,0 +1,20 @@
+  This 
+fixes bugs in the HALT/RECOVER/RUN interrupt service routine and in the formation of the event header word put into the VME FIFO. 
+ 
+ 
+TDC #19 has a possible problem with its flashram, and I could not 
+erase and reprogram it, although the old DSP program still seems 
+intact. 
+ 
+</pre>
+<!-- Author: Ron Moore -->
+
+
+<!-- Date: Thu Jun 10 21:08:19 1999 -->
+<pre>The TDCs with DSP code V22 should also contain a ID PROM which 
+conforms to CDF-2388. 
+</pre>
+<!-- Author: Ron Moore -->
+
+
+<!-- Date: Tue Dec 7 

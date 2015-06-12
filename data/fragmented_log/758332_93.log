@@ -1,0 +1,14 @@
+ resolution of the read data:   4.0000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/74035000/work/
+HK Directory is: /tproc/nandra/processing/74035000/work/
+ 
+!xsel:ASCA-SIS0-BRIGHT2 > set binsize 128
+!xsel:ASCA-SIS0-BRIGHT2 > set image sky
+!xsel:ASCA-SIS0-BRIGHT2 > filter region init_reg.tmp
+!xsel:ASCA-SIS0-BRIGHT2 > extract image
+!xsel:ASCA-SIS0-BRIGHT2 > save image sis0_sky.tmp clobber=yes
+Wrote image to file s

@@ -1,0 +1,8 @@
+------------------------|
+| start r-factor (work) = 0.1166      final r-factor (work) = 0.1126          |
+| start r-factor (free) = 0.1634      final r-factor (free) = 0.1621          |
+|-----------------------------------------------------------------------------|
+| T_start = wxc * wxc_scale * Exray + wc * Echem                              |
+| 7.4903 = 2.86 * 0.50 * 5.1882 + 1.00 * 0.0719                               |
+|                                                                             |
+| T_fi

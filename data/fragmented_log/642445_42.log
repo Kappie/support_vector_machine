@@ -1,0 +1,6 @@
+Clist,  changing proms as per Monica's instructions over the phone.  Coldstart and running now works,  
+no clustering problems.  Isolist sees eta mismatches, probably due to bad solder joints on Clique like yesterday. 
+6) With Monica's instructions put in other Clique.  As we 
+saw yesterday eta and phi are fixed for Iso with this Clique,  but a seed is not generated all the time.  This is reproducible.  This is worse than an 
+eta-phi mismatch so I put the other Clique back in. 
+7) With Matt created a config

@@ -1,0 +1,11 @@
+-----------------------------
+ ......  Channel 1024 is not within the channel range !
+ ......  Upper channel reset to last channel : 1023
+ ...... exiting, changes written to file : 75084000_sis0_src_20.pha
+ ** grppha 2.9.0 completed successfully
+ascaarf
+Sat Apr 15 15:54:19 EDT 2000
+ascaarf 75084000_sis0_src.pha.tmp 75084000_sis0.rmf 75084000_sis0.arf point=yes simple=yes clobber=yes
+ASCAARF vers 3.00  6 Oct 1998.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xr

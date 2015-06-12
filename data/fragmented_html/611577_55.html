@@ -1,0 +1,13 @@
+.not. exist) then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print*,'&nbsp;&nbsp;
+Invalid input file name: ',file_name
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stop ' '
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endif
+
+c Open and read all the data from the file.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; open (11, file=file_name,
+form=file_format, readonly)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i = 0

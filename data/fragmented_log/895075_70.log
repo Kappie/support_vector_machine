@@ -1,0 +1,14 @@
+ux
+! The new contour levels are:
+!  -0.833475 0.833475 1.66695 3.3339 6.6678 13.3356 26.6712 53.3424
+print "clev=",int(3*image_rms*10000)/10000
+! clev= 0.0018 
+print "peak=",int(1000*peak_flux)/1000
+! peak= 0.225 
+mapcolor none
+! Mapplot colormap: none, contrast: 1 brightness: 0.5.
+mapplot cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.6416 x 0.8618 at -0.5017 degrees (North through East)
+! Clean map  min=-0.0021939  max=0.22524 Jy/beam
+mapcolor color, 0.

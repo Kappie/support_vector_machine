@@ -1,0 +1,10 @@
+tsys1/50.0,49.5,50.0,48.8,47.0,43.8,43.4,42.9,46.6,46.9
+9830221431400?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830221431400/tsys2/62.4,63.8,64.8,60.7,60.7,$$$$$$$$,83.7
+9830221431400:!302214440
+9830221434533;rxmon
+9830221434546/rx/00(front),on,a,on,on,on,off,locked,17.52
+9830221434559/rx/01(rear),on,a,on,on,on,off,locked,29.60
+9830221434572/rx/02(lo),on,a,on,on,on,off,locked,39.01
+9830221434585/rx/03(dcal),on,a,on,on,on,off,locked,47.31
+9830221434596/rx/0E(lo5mhz),on,a,on,o

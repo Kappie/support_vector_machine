@@ -1,0 +1,13 @@
+  The intersection of
+   C              the boresight itself with the plane is just the
+   C              orthogonal projection of the boresight ray's vertex
+   C              onto the plane.
+   C
+         CALL <a href="../spicelib/nvc2pl.html">NVC2PL</a> ( RAYDIR, 0.D0,   PLANE  )
+ 
+         CALL <a href="../spicelib/pjelpl.html">PJELPL</a> ( LIMB,   PLANE,  PJLIMB )
+ 
+         CALL <a href="../spicelib/vprjp.html">VPRJP</a>  ( SCPOS,  PLANE,  PJPOS  )
+ 
+   C
+   C     Step 5.  Find the nearest point (NEAR)

@@ -1,0 +1,23 @@
+ 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Correcting IF 5.
+! 
+! Correcting IF 6.
+! 
+! Correcting IF 7.
+! 
+! Correcting IF 8.
+! 
+! Fit before self-cal, rms=0.345302Jy  sigma=0.001345
+! Fit after  self-cal, rms=0.345206Jy  sigma=0.001344
+! Inverting map 
+print "****************************************"
+! **************************************** 
+print "*** Finished Natural Weighting CLEAN ***"
+! *** Finished Natural Weighting CLEAN *** 
+print "****************************************"
+! ***********

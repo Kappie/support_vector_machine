@@ -1,0 +1,13 @@
+cking for vsprintf... yes
+checking for vsnprintf... yes
+checking for sscanf... yes
+checking for va_copy... yes
+checking for library containing gethostent... none required
+checking for library containing setsockopt... none required
+checking for library containing connect... none required
+checking for type of socket length (socklen_t)... socklen_t *
+checking whether to enable IPv6... yes
+checking struct sockaddr::ss_family... yes
+checking for getaddrinfo... yes
+checking for isnan... yes
+checking for isinf... 

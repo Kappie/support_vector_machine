@@ -1,0 +1,10 @@
+= ADP refinement ===============================
+
+
+                 ----------Individual ADP refinement----------                 
+
+|-LBFGS minimization----------------------------------------------------------|
+| start r-factor (work) = 0.1083      final r-factor (work) = 0.1080          |
+| start r-factor (free) = 0.1555      final r-factor (free) = 0.1559          |
+|-----------------------------------------------------------------------------|
+| T_start = wxu * wxu_scale * Exray + wu * Eadp             

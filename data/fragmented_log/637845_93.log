@@ -1,0 +1,4 @@
+-virtual  -D_GNU_SOURCE -o dywTrajectory_Dict.o                  `/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I../Linux-i686 ../Linux-i686/dywTrajectory_Dict.cc
+../Linux-i686/dywTrajectory_Dict.cc: In function 'ROOT::TGenericClassInfo* ROOT::GenerateInitInstanceLocal(const dywTrajectoryPoint*)':
+../Linux-i686/dywTrajectory_Dict.cc:90: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywTrajectory_Dict.cc: In function 'ROOT::

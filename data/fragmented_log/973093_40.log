@@ -1,0 +1,12 @@
+2451_S_2005_07_09_yyk\_map.win
+! wwins: Wrote 1 windows to J2357-2451_S_2005_07_09_yyk_map.win
+x = (field_size-8) * field_cell / 4
+addwin -x,x,-x,x
+clean (field_size*4),0.01
+! Inverting map 
+! clean: niter=2048  gain=0.01  cutoff=0
+! Component: 050  -  total flux cleaned = -0.00222248 Jy
+! Component: 100  -  total flux cleaned = -0.00409949 Jy
+! Component: 150  -  total flux cleaned = -0.00527305 Jy
+! Component: 200  -  total flux cleaned = -0.00598918 Jy
+! Component: 250  -  total flux cleaned = -0.0065450

@@ -1,0 +1,18 @@
+self-cal, rms=0.071580Jy  sigma=1.030872
+! Fit after  self-cal, rms=0.071580Jy  sigma=1.030872
+! Performing phase self-cal over 0.5 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.071580Jy  sigma=1.030872
+! Fit after  self-cal, rms=0.071597Jy  sigma=1.030408
+! Inverting map and beam 
+! Estimated beam: bmin=3.514 mas, bmaj=8.565 mas, bpa=5.194 degrees
+! Estimated noise=1.14238 mJy/beam.
+! clean: niter=200  gain=0.04

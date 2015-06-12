@@ -1,0 +1,15 @@
+  Chisq  993.6       Var 0.1091E-01 Newbs.    817
+               Min  0.000          Max 0.7500    expVar 0.8975E-02  Bins   1992
+Writing output file: /tproc/nandra/processing/76052020/work/76052020_sis0_bgd_16
+ 
+gnt_infrm: Countrate for SIS soft-band...
+ 
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/76052020/work/76052020_sis0_bgd_soft
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_501_N3          Start Time (d) .... 11015 20:55:48.883
+ FITS Exte

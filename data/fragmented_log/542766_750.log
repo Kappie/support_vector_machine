@@ -1,0 +1,9 @@
+35#antcn#Source:  1144-379  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919509365236#antcn# RAcommand  176.746   DECcommand -38.202
+9919509365237:check2c1
+9919509372346/peak/3,1,read,0.200,0.205,40.5,t,-1.948
+9919509372906/peak/3,1,read,0.200,0.127,80.8,f,-2.036
+9919509372931/pass/7,7,auto,-165.0,-165.0,-165.1,-168.3,-0.1,-3.3
+9919509374480?ERROR qg -303 Track  4 parity errors exceed threshold.
+9919509374480?ERROR qg -305 AUX data differs from expected value on track  4.
+9919509374480?ERROR qg -303 Track  6 parit

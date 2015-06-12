@@ -1,0 +1,15 @@
+ts = 0.0643337 Jy
+! Clean residual min=-0.005167 max=0.007802 Jy/beam
+! Clean residual mean=0.001297 rms=0.002335 Jy/beam
+! Combined flux in latest and established models = 1.97632 Jy
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  keep
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00469086 Jy
+! Component: 

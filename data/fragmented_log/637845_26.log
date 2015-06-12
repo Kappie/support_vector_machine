@@ -1,0 +1,11 @@
+allclean ok.
+Removing library links
+#--------------------------------------------------------------
+# Now trying [make clean] in /home/tagg/autodaya/Base/Util/cmt (13/15)
+#--------------------------------------------------------------
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+setup.make ok
+UtilUnitTestclean UtilTestclean lib_macroclean library_postinstallationclean Utilclean install_includes_autoclean
+ allcle

@@ -1,0 +1,11 @@
+r/antenna,new-source
+2004.350.05:39:02.64:setupsx
+2004.350.05:39:02.79#skua #Antenna slewing to azimuth 301.1, elevation 34.8
+2004.350.05:39:06.18/mk5/!play_rate = 0 ;
+2004.350.05:39:06.19/mk5/!mode = 0 ;
+2004.350.05:39:06.22/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.05:39:06.22:!2004.350.05:43:00
+2004.350.05:40:04.26?ERROR st -100 invalid time in antenna message - antenna protocol error.
+2004.350.05:40:04.71#skua #Antenna slewing complete
+2004.350.05:40:21.18#flagr#flagr/antenna,acquired
+20

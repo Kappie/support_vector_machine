@@ -1,0 +1,6 @@
+09:40:51.30/tpi/1l,15856,1u,15981,2u,16178,3u,16236,4u,16215,ia,35225
+2004.167.09:40:51.30/tpi/9u,16067,au,15952,bu,16184,cu,16041,du,16176,eu,16016,ib,29889
+2004.167.09:40:51.30/tpi/5u,16080,6u,16090,7u,16313,8l,16357,8u,16309,ic,11052
+2004.167.09:40:51.88?ERROR qk -211 Tsys value for device 8l overflowed or was less than zero.
+2004.167.09:40:51.88?ERROR qk -211 Tsys value for device 5u overflowed or was less than zero.
+2004.167.09:40:51.88?ERROR qk -211 Tsys value for device 6u overflowed or was less than

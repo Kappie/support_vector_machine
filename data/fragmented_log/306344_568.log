@@ -1,0 +1,16 @@
+0216333000:et
+9830216333016:!+3s
+9830216333317:tape
+9830216333329/tape/off,00349,norm,stopped,stop,unlock,ready,rem
+9830216333329:postob
+9830216333329:source=0925-203,092533.5,-202144.9,1950.0
+9830216333330#antcn#Command a new source
+9830216333365#antcn#Successfully sent new source position to antenna
+9830216333365:fastr=0m14s
+9830216334795:unlod
+9830216334795&unlod/enable=,
+9830216334795&unlod/check=*,-tp
+9830216334795&unlod/tape=off
+9830216334795&unlod/st=rev,120,off
+9830216334795&unlod/xdisp=on
+983021633

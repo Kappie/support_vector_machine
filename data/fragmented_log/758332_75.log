@@ -1,0 +1,10 @@
+cascreen_gis3:ASCA-GIS3 > set datadir /local/data/tproc/nandra/processing/74035000/unscreened
+ 
+Setting data directory to /local/data/tproc/nandra/processing/74035000/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/74035000/aux/
+ 
+!ascascreen_gis3:ASCA-GIS3 > set dumpcat
+Obscat listing off
+!ascascreen_gis3:ASCA-GIS3 > set datamode PH
+!ascascreen_gis3:ASCA-GIS3-PH > make obscat cat_filt=@74035000_gis3_obscat.sel lststr = '[af][dt]*[Gg]3*[HhMmLl].unf'
+''!ascascreen_gis3:ASCA-GIS3-PH >

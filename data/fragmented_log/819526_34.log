@@ -1,0 +1,20 @@
+onents and 1.96929 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.203038Jy  sigma=0.001320
+! Fit after  self-cal, rms=0.202930Jy  sigma=0.001318
+flux_cutoff = imstat(rms) * dynam
+! Inverting map 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imsta

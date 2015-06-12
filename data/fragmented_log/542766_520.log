@@ -1,0 +1,11 @@
+f xff xff xff xff xff xff xff xff xff xff xff xff
+9919504231184/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919504231184/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919504231255/pass/5,5,auto,-220.0,-220.0,-220.4,-220.5,-0.4,-0.5
+9919504231270:!195042425
+9919504242500:tape
+9919504242507/tape/off,03960,norm,stopped,stop,unlock,ready,rem
+9919504242507:st=for,80
+9919504242523:!195042435
+9919504243500:preob
+9919504243500#antcn#Ch

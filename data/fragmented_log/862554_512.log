@@ -1,0 +1,27 @@
+PEC> set lpar4 [split $cpar4];
+
+!XSPEC> regsub -all { +} $dof  { } cpar5;
+
+!XSPEC> split $cpar5
+
+!XSPEC> set lpar5 [split $cpar5];
+
+!XSPEC> lindex $lpar2 0
+
+!XSPEC> set nh [lindex $lpar2 0];
+
+!XSPEC> lindex $lpar3 0
+
+!XSPEC> set gamma [lindex $lpar3 0];
+
+!XSPEC> lindex $lpar4 0
+
+!XSPEC> set norm [lindex $lpar4 0];
+
+!XSPEC> lindex $lpar5 0
+
+!XSPEC> set dof  [lindex $lpar5 0];
+
+!XSPEC> show fit
+ Chi-Squared =      337.6197     using   329 PHA bins.
+ Reduced chi-squared =      1.045262     for    323 degrees o

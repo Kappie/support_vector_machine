@@ -1,0 +1,11 @@
+ of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.6416 x 0.8618 at -0.5017 degrees (North through East)
+! Clean map  min=-0.0021939  max=0.22524 Jy/beam
+! Writing clean map to FITS file: J1727+4530_X_1999_12_20_pus_map.fits
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak f

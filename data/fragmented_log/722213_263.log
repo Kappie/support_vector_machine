@@ -1,0 +1,12 @@
+ version number
+  STAT_ERR  - FALSE           Statistical Error
+  SYS_ERR   - TRUE            Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+ ...... exiting, changes written to file : 75084000_gis3_src_20.pha
+ ** grppha 2.9.0 completed successfully
+ascaarf
+Sat Apr 15 16:05:40 EDT 2000
+ASCAARF vers 3.0

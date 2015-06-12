@@ -1,0 +1,15 @@
+f
+!xsel:ASCA-SIS0-BRIGHT > filter pha_cutoff 560 1723
+!xsel:ASCA-SIS0-BRIGHT > extract events
+!xsel:ASCA-SIS0-BRIGHT > save events use=no clobber=yes 72016000_sis0_bgd_hard.evt
+Wrote events list to file 72016000_sis0_bgd_hard.evt
+!xsel:ASCA-SIS0-BRIGHT > clear events
+!xsel:ASCA-SIS0-BRIGHT > clear pha_cutoff
+!xsel:ASCA-SIS0-BRIGHT > clear region all
+!xsel:ASCA-SIS0-BRIGHT > exit save=no
+ 
+gnt_infrm: Extracting bgd data for sis1...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONT

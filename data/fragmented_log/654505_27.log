@@ -1,0 +1,6 @@
+set()] Setting instructions
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instructions" -> "/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SPECS/perl-DBI.spec"
+[Util.pm/691/copy_files()] Copying S/DBI-1.40.tar.gz S/filter-requires-dbi.sh P/perl-DBI-1.37-prever.patch to /var/tmp/mezzanine.temp.dironly.29689.243e/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SOURCES/.
+[Prod.pm/482/parse_prod_file()] Args:  ""
+[Prod.pm/166/find_product_file()] Args:  "<undef>", "<undef>"
+[Prod.pm/484/par

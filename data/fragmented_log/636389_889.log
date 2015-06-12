@@ -1,0 +1,10 @@
+Getting Radar data via get_laps_3dgrid
+  Sort_fn: names sorted, non_numeric/total =             0           18
+     file time (needed/nearest) = 061521800     / 061521600
+  Subroutine get_laps_3d...
+  get_3d_dir_time: /data/lapb/tw/fsl-linux9/data/lapsprd/lps/    061521600 lps                             REF
+  Generating Reflectivity Image
+  LAPS  Reflectivity  Vert X-Sect    061521600
+  Plotting, Overlay =             0            2            1
+  write_label_lplot:
+ LAPS  Reflectivity  Vert X-Sect        

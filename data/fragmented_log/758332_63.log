@@ -1,0 +1,15 @@
+r a command listing
+!ascascreen_gis2:ASCA > set mission ASCA
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+!ascascreen_gis2:ASCA > set instru GIS2
+ 
+Setting...
+ Image  keywords   = X          Y           with binning =    1
+ WMAP   keywords   = DETX       DETY        with binning =    1
+ Energy keywords   = PI                     with binning =    1
+ 
+!ascascreen_gis2:ASCA-GIS2 > set datadir /local/data/tproc/nandra/processing/74035000/

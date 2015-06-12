@@ -1,0 +1,19 @@
+ally be below 0.1907 milli-arcsec
+! Performing amp+phase self-cal
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.211012Jy  sigma=0.001162
+! Fit after  self-cal, rms=0.212133Jy  sigma=0.001162
+print "************** CLEARING MODEL AND STARTING OVER **********"
+! ************** CLEARING MODEL AND STARTING OVER ********** 
+clrmod true
+! clrmod: Cleared the established and tentative models.
+uvw 2,-1
+! Uniform weighting binwidth: 2 (pixels).

@@ -1,0 +1,16 @@
+XPO_V0.9b
+ 
+    reading data file: /tproc/nandra/processing/74035000/work/74035000_gis3.evt
+    reading   gti ext: STDGTI
+    querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/gis/bcf/gis3_ano_on_flf_180295.fits
+    reading inst file: /tproc/nandra/processing/74035000/work/74035000_gis3.effm
+ 
+    making an inst map...
+ rebin gis: 1
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/74035000/aux/fa961207_1320.1050
+ 
+    making a sky image...
+    writing sky image: /tpro

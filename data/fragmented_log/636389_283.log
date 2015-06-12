@@ -1,0 +1,10 @@
+ 
+     Looking for laps wind data: lw3
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+
+  Field [di,sp,u,v,om,dv,vo,va,vc (barbs), ob (obs))]              ?   ext = balance                        
+  Valid time = 061521800
+  Calling get_uv_2d for balance                        
+  2d - LAPS U and V analysis successfully read in          500
+   500 hPa WIND  (bal)    kt                                                           

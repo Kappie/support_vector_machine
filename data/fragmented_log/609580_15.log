@@ -1,0 +1,17 @@
+re 
+                being dropped, bit 2 is stuck hi  
+                sometimes (Superfib?) 
+		L4 still drops readout.</pre>
+<!-- Author: Mad Mary -->
+
+
+<!-- Date: Mon Apr 2 14:46:18 2001 -->
+<pre>From Igor 
+ 
+There were some problems with the silicon calibration data in run 
+110920. Here is the list: 
+ 
+1. Something is wrong with either hardware fib id bits or with 
+   bank unpacking for ISL. SVXMon finds a detector in the data 
+   stream at west barrel, west half, layer 6, phiWedge 35. The 
+   ISL ladder

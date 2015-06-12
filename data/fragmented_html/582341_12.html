@@ -1,0 +1,23 @@
+/////////
+
+function clear_range() // clear subrange
+{
+  rstart=0;
+  frame=-1;
+  rstop=imax-1;
+  dir=1;
+  playing=0;
+  document.form.start_frame.value=rstart+1;
+  document.form.stop_frame.value=rstop+1;
+  document.form.direction.value="Reverse"; bname="Reverse";
+  reset_display();
+}
+
+///////////////////////////////////////////////////////////////////////////
+   
+function cur2start() // set current frame to start range
+{
+  playing=0;
+  rstart=frame;
+  document.form.start_frame.value=rstart+1;
+  if (rstart >= 

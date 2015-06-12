@@ -1,0 +1,15 @@
+START:            2           2           2           2
+ AREA DISC V  STOP:          422         422         150         112
+  
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/75084000/aux/fa970702_0346.0950
+ 
+    making a sky image...
+    writing sky image: /tproc/nandra/processing/75084000/work/75084000_sis0_sky_
+ 
+    making an exposure map...
+ 
+ Aspect RA/DEC/ROLL :       17.9079     -37.9980     291.4555
+ Mean   RA/DEC/ROLL :       17.8884     -38.0054     291.4555
+ Pnt    R

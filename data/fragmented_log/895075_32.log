@@ -1,0 +1,19 @@
+17 max=0.002956 Jy/beam
+! Clean residual mean=0.000093 rms=0.000726 Jy/beam
+! Combined flux in latest and established models = 0.357024 Jy
+selfcal
+! Performing phase self-cal
+! Adding 15 model components to the UV plane model.
+! The established model now contains 67 components and 0.357024 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.305326Jy  sigma=0.001457
+! Fit after  self-cal, rms=0.305924Jy  sigma=0.001456
+flux_cutoff = imsta

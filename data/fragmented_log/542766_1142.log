@@ -1,0 +1,11 @@
+ xff xff xff xff xff xff xff xff xff xff xff xff
+9919517114583/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919517114583/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919517114668/pass/10,10,auto,-110.0,-110.0,-111.0,-110.5,-1.0,-0.5
+9919517114683:!195171740
+9919517174000:tape
+9919517174005/tape/off,09707,norm,stopped,stop,unlock,ready,rem
+9919517174005:st=rev,80
+9919517174020:!195171750
+9919517175000:preob
+9919517175000#antcn#C

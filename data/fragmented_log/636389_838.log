@@ -1,0 +1,12 @@
+                                                   061521800
+  c_metacode,i_overlay = m             0
+  Skipping map plot - already done with image
+  Not calling plot_station_locations: 2
+  Plotting: c_metacode,i_overlay = c             1
+  write_label_lplot:
+ PBL Mean Wind            (kt)                                                                       
+  Plotting wind barbs, color =            11
+
+  Plot_winds_2d: interval/size=            3   0.4500000    
+
+  winds are assumed to be GRID north at th

@@ -1,0 +1,23 @@
+=====
+
+individual_sites       = True
+rigid_body             = False
+individual_adp         = True
+group_adp              = False
+tls                    = False
+individual_occupancies = True
+group_occupancies      = False
+group_anomalous        = False
+size = 2823
+
+n_use            =  2823
+n_use_u_iso      =  2823
+n_use_u_aniso    =  0
+n_grad_site      =  0
+n_grad_u_iso     =  0
+n_grad_u_aniso   =  0
+n_grad_occupancy =  0
+n_grad_fp        =  0
+n_grad_fdp       =  0
+n_anisotropic_flag =  0
+total number of sca

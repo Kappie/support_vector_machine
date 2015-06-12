@@ -1,0 +1,11 @@
+tenna STOP command failed!!!
+2004.350.07:12:56.22?ERROR st -999 Failed: processing new source
+2004.350.07:15:59.97?ERROR st -999 Error in antenna communication
+2004.350.07:15:59.97#skua #antenna communication closed
+2004.350.07:16:24.96;schedule=
+2004.350.07:16:33.66;source=idle
+2004.350.07:16:33.66#flagr#flagr/antenna,new-source
+2004.350.07:16:33.66#skua #Connected to antenna
+2004.350.07:16:33.68#skua #skua mode: SKUA-2
+2004.350.07:16:34.22#skua #subr/-39.97,-18.29,15.25,263d37m,263.617
+2004.350.07:17:11.3

@@ -1,0 +1,4 @@
+                                  1        0.001 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce                                                                              1        2.283 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::fillArbitration                                                             1        0.001 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::fillCaloCompatibility                                                       1        0.001 (real) 

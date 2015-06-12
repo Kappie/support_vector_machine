@@ -1,0 +1,4 @@
+                               7964       49.647 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillCaloTowers::access::CaloTowers                                                 7964        0.120 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillCaloTowers::addCrossedTowers                                                   7964        0.058 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillCaloTowers::addTowersInTheRegion                                               7964        4.838 (real) 

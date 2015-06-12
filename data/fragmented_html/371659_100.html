@@ -1,0 +1,16 @@
+f the observer in
+   C     Jupiter equator and prime meridian coordinates.
+   C
+         CALL <a href="../spicelib/vadd.html">VADD</a> ( OBSPOS, OBSPT, OBSPOS )
+ 
+   C
+   C     Convert the RA and Dec of the star into a unit vector
+   C     specified in J2000 coordinates.
+   C
+         CALL <a href="../spicelib/radrec.html">RADREC</a> ( 1.D0, RA, DEC, VSTAR )
+ 
+   C
+   C     Rotate the star's direction vector into
+   C     Jupiter equator and prime meridian coordinates.
+   C
+         CALL <a href="../spiceli

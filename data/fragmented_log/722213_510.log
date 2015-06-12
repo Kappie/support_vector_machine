@@ -1,0 +1,11 @@
+0155075084000' display_data | /usr/local/saord/bin.linux/fits2gif -luts /tmp/saotng.lut > /tproc/nandra/processing/75084000/work/75084000_gis_sky_sm.gif; echo "GIF file created!" | /usr/local/saord/bin.linux/xpaset SAO041500155075084000 message) &'
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_mosa
+gnt_infrm: ========================
+Sat Apr 15 16:21:10 EDT 2000
+ 
+XPA$ERROR no 'xpaset' access points match template: 04_15_00.15:50
+ 
+gnt_infrm: *************************
+gnt_infrm: Runni

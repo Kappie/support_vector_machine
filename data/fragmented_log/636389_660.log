@@ -1,0 +1,9 @@
+fil_sub - scale,scale_loc =     1.000000        20.00000    
+  subroutine set_image_colortable: ncols =            20
+  subroutine generate_colortable: ncols =            40
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/spectral.lut
+  Subroutine color_ramp..             1            1
+    1   0.600   0.700   0.400   0.307   0.120   0.400
+  Subroutine color_ramp..             2            2
+    2   0.701   0.727   0.446   0.260   0.121   0.446
+  Subroutine color_ramp..             3         

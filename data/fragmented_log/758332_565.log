@@ -1,0 +1,24 @@
+les to html area...
+ 
+(remove /www/tartarus/restricted/html/74035000)
+(create /www/tartarus/restricted/html/74035000)
+(set permissions)
+ 
+74035000.html
+74035000_gis_sky_sm.gif
+74035000_flc.gif
+74035000_pha.gif
+74035000_sis0.gif
+74035000_sis1.gif
+74035000_gis2.gif
+74035000_gis3.gif
+veron96.txt
+ 
+gnt_infrm: Tarring selected files...
+74035000.tar ...
+74035000_spectral.tar ...
+ 
+gnt_infrm: Gzipping the tar files...
+gnt_infrm: Transferring tar files to ftp area...
+ 
+(remove /www/tartarus/restricted/ftp/74035000/

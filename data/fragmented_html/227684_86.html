@@ -1,0 +1,21 @@
+itedoms.test(host);
+			}
+			else if (this.onsitedoms.length>0){
+				var doms=this.dcsSplit(this.onsitedoms);
+				var len=doms.length;
+				for (var i=0;i<len;i++){
+					if (host==doms[i]){
+						return true;
+					}
+				}
+			}
+		}
+		return false;
+	}
+	WebTrends.prototype.dcsTypeMatch=function(pth, typelist){
+		var type=pth.substring(pth.lastIndexOf(".")+1,pth.length);
+		var types=this.dcsSplit(typelist);
+		var tlen=types.length;	
+		for (var i=0;i<tlen;i++){
+			if (type==types[i]){
+				retur

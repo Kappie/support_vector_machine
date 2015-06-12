@@ -1,0 +1,12 @@
+xcluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! Estimated beam: bmin=0.8199 mas, bmaj=1.744 mas, bpa=0.9982 degrees
+! Estimated noise=371.87 mJy/beam.
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.8199 x 1.744 at 0.9982 degrees (North through East)
+! Clean map  min=-0.0018551  max=1.0072 Jy/beam
+if(peak(flux) > thresh)
+  selfcal true, true
+  clean clean_niter,clean_gain
+  selfcal
+  flux_cutoff = imstat(rms) 

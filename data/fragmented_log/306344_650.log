@@ -1,0 +1,11 @@
+ad 1 is not in requested position.
+9830218402145?ERROR ch -351 Tape head 1 is not in requested position.
+9830218404344?ERROR ch -351 Tape head 1 is not in requested position.
+9830218405000:preob
+9830218405000#antcn#Check if antenna is on-source
+9830218405060/onsource/TRACKING
+9830218405301/tpical/48935,46355,41715,36125,24687,18498,34411,24585,11497,65535
+9830218405325/tpical/34726,20966,15574,22366,32740,$$$$$,13166
+9830218405334:!302184100
+9830218410000:tape
+9830218410012/tape/off,08803,norm,stopped,stop,

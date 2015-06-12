@@ -1,0 +1,13 @@
+ - FALSE           Statistical Error
+  SYS_ERR   - TRUE            Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+ ...... exiting, changes written to file : 76052020_sis1_src.pha.tmp
+ ** grppha 2.9.0 completed successfully
+grppha
+Sun Apr 23 03:07:49 EDT 2000
+ 
+  -------------------------
+  MANDATORY K

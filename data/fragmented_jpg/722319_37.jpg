@@ -1,0 +1,13 @@
+tion rdf:about='uuid:cd1b7bb4-c360-11db-9a54-d63c162b85cd'
+  xmlns:tiff='http://ns.adobe.com/tiff/1.0/'>
+  <tiff:Make>Canon</tiff:Make>
+  <tiff:Model>Canon EOS DIGITAL REBEL XT</tiff:Model>
+  <tiff:Orientation>1</tiff:Orientation>
+  <tiff:XResolution>72/1</tiff:XResolution>
+  <tiff:YResolution>72/1</tiff:YResolution>
+  <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+  <tiff:YCbCrPositioning>2</tiff:YCbCrPositioning>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:cd1b7bb4-c360-11db-9a54-d63c162b85cd'
+  

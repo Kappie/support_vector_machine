@@ -1,0 +1,9 @@
+03786294)
+EDR INPUT DVC #2457:   Missing or incomplete EDB - DVC skipped (EDR #6174, SCET=1503787876)
+CDF OUTPUT LOG:        CDF Records written=85 (Range Errors=0)
+[01-Apr-2002-21:11:26  End processing file: .\data\1997\19970826.cdf]
+
+[01-Apr-2002-21:11:26  Start processing file: .\data\1997\19970827.cdf]
+EDR INPUT DVC #2505:   DPU error - no bubble HK identifier (EDR #6304, SCET=1503832963)
+EDR INPUT DVC #2550:   Non nominal matrix rate value (overflow) (EDR #6421, SCET=1503878041)
+CDF OUTPUT LOG:

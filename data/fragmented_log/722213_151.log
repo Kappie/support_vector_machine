@@ -1,0 +1,13 @@
+tion Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/75084000/work/
+HK Directory is: /tproc/nandra/processing/75084000/work/
+ 
+!xsel:ASCA-SIS1-BRIGHT2 > set binsize 128
+!xsel:ASCA-SIS1-BRIGHT2 > set image sky
+!xsel:ASCA-SIS1-BRIGHT2 > set xybinsize 4
+!xsel:ASCA-SIS1-BRIGHT2 > extract image
+!xsel:ASCA-SIS1-BRIGHT2 > save image clobber=yes 75084000_sis1_sky.img
+Wrote image to file 75084000_sis1_sky.img
+!xsel:ASCA-SIS1-BRIGHT2 > set image det
+!xsel:ASCA-SIS1-BRIGHT2 > select events

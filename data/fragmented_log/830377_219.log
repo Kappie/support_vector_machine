@@ -1,0 +1,11 @@
+> save spectrum group=no clobber=yes 76052020_gis2_bgd.pha
+Wrote spectrum to 76052020_gis2_bgd.pha
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 76052020_gis2_bgd.evt
+Wrote events list to file 76052020_gis2_bgd.evt
+!xsel:ASCA-GIS2-PH > clear events
+!xsel:ASCA-GIS2-PH > clear pha_cutoff
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 76

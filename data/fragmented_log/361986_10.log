@@ -1,0 +1,9 @@
+.5
+creating build/temp.linux-i686-2.5/build
+creating build/temp.linux-i686-2.5/build/src.linux-i686-2.5
+creating build/temp.linux-i686-2.5/build/src.linux-i686-2.5/ZonalMeans
+compile options: '-ISrc -Ibuild/src.linux-i686-2.5 -I/usr/local/cdat/lib/python2.5/site-packages/numpy/core/include -I/usr/local/cdat/include/python2.5 -c'
+gcc: build/src.linux-i686-2.5/ZonalMeans/_gengridzmeanmodule.c
+gcc: build/src.linux-i686-2.5/fortranobject.c
+compiling Fortran 90 module sources
+creating build/temp.linux-i686-2.5/Z

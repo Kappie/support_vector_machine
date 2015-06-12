@@ -1,0 +1,11 @@
+418290913:!+3s
+9919418291215:tape
+9919418291221/tape/off,06668,norm,stopped,stop,unlock,ready,rem
+9919418291222:postob
+9919418291223:source=1741-038,174120.6,-034848.9,1950.0
+9919418291224#antcn#Commanding to new source
+9919418291342#antcn#Source:  1741-038  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919418291342#antcn# RAcommand  265.991   DECcommand  -3.832
+9919418291343:wb2c1=1
+9919418291621#matcn#debug: 92 /ASS 0 2:0x1 4:0x3 6:0x5 8:0x7 10:0x9 12:0xb 14:0xd 16:0x0 ? ERROR 7
+9919418291708#matcn#debug: 92 /STA

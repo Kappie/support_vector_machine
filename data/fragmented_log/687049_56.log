@@ -1,0 +1,7 @@
+BProduc                     250*     250
+    3 Muon                 -e GlobalMuonProduc                       3        3
+    4 MuonTrackFinder      -e GlobalMuonProduc                       3        3
+    5 PFProducer           -e GoodSeedProducer                    6024*    6024
+    6 RecoMuon             -e GlobalMuonProduc                       3        3
+    7 RecoVertex/Sequentia -e ConvertedPhotonP                    5936*    5936
+    8 Root_Error           -e PoolOutputModule TClass::BuildRea      1 

@@ -1,0 +1,13 @@
+pha
+Sat Apr 15 15:54:19 EDT 2000
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - SIS0            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 33571.          Integration

@@ -1,0 +1,24 @@
+oid, and let
+   VIEWPT be the viewing location. The output argument LIMB is declared as
+   a SPICELIB ellipse.
+<P>
+ 
+   We also declare variables that represent the center and semi-axes of the
+   limb.
+<P>
+ 
+<PRE>
+   INTEGER               UBEL
+   PARAMETER           ( UBEL = 9 )
+ 
+   DOUBLE PRECISION      VIEWPT ( 3 )
+   DOUBLE PRECISION      LIMB   ( UBEL )
+ 
+   DOUBLE PRECISION      CENTER ( 3 )
+   DOUBLE PRECISION      SMAJOR ( 3 )
+   DOUBLE PRECISION      SMINOR ( 3 )
+</PRE>
+   After the call
+<P>
+ 
+<PRE

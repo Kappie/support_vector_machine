@@ -1,0 +1,14 @@
+le:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_381/model_refine_001_mFobs-DFmodel.map
+Writing map coefficients to MTZ file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_381/model_refine_001_map_coeffs.mtz
+
+Writing default parameters for subsequent refinement:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_381/model_refine_002.def
+
+
+=============================== Detailed timings ==============================
+
+Pure refinement (no I/O, processing, etc)= 338.40 
+  Macro-tasks:
+    

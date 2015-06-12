@@ -1,0 +1,7 @@
+---------------------
+# Now trying [cmt autodoc] in /home/tagg/autodaya/DybPolicy/DybArchPolicy/cmt (9/29)
+#--------------------------------------------------------------
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/AutoDoc.pl DybArchPolicy /home/tagg/autodaya/DybPolicy/DybArchPolicy $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on DybArchPolicy at /home/tagg/autodaya/DybPolicy/DybArchPolicy to /home/tagg/autodaya/InstallArea/doc
+Error: Unexpected tag `class' found
+Error: Unexpected tag `class' found

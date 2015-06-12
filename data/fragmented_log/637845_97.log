@@ -1,0 +1,4 @@
+ointer-arith -Woverloaded-virtual  -D_GNU_SOURCE -o dywScintEnergy_Dict.o                  `/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I../Linux-i686 ../Linux-i686/dywScintEnergy_Dict.cc
+../Linux-i686/dywScintEnergy_Dict.cc: In function 'void G__setup_memfuncdywScintEnergy()':
+../Linux-i686/dywScintEnergy_Dict.cc:499: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywScintEnergy_Dict.cc:500: warning: ISO C++ forbids casti

@@ -1,0 +1,6 @@
+/Linux-i686/UnitTestRegistry.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/External/SITE/src"  -g -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual  -D_GNU_SOURCE -o UnitTestRegistry.o                            -I/home/tagg/autodaya/Test/UnitTest/src /home/tagg/autodaya/Test/UnitTest/src/UnitTestRegistry.cc
+library
+cd ../Linux-i686/; \
+  ar r ../Linux-i686/libUnitTest.a ../Linux-i686/UnitTestRegistry.o
+ranlib ../Linux-i68

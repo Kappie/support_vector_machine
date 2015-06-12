@@ -1,0 +1,18 @@
+ser;
+			this.os;
+			
+			this.modern = (typeof modern == 'object') == true ? modern:0;	
+			
+			if(nVersion.indexOf('Windows') !=-1){
+				this.os = 'win';
+			}else{
+				this.os = (nVersion.indexOf('Macintosh') !=-1) == true ? 'mac':'other';
+			}
+			
+			if (nAgent.indexOf('Opera') !=-1){
+				var strIndex = nAgent.indexOf('Opera');
+				this.version = nAgent.substring((strIndex + 6), (strIndex + 9));
+				this.browser = 'opera';
+			}
+			else if (nAgent.indexOf('Firefox') !=-1){
+				var strIndex = nAgent.indexOf('

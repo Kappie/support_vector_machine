@@ -1,0 +1,9 @@
+ --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - SIS0            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 34656.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 6.21580E-02     Background s

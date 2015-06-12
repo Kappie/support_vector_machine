@@ -1,0 +1,13 @@
+el show statistics        = 0.13   
+    TOTAL for macro-tasks        = 236.99 
+  Micro-tasks:
+    mask                            = 2.31   
+    f_calc                          = 105.46 
+    alpha_beta                      = 8.53   
+    target                          = 1.23   
+    gradients_wrt_atomic_parameters = 116.57 
+    fmodel                         = 9.19   
+    r_factors                      = 0.29   
+    phase_errors                   = 10.79  
+    foms                           = 0.32   
+    TOTA

@@ -1,0 +1,11 @@
+tcn#Currently slewing to requested source
+2003.308.17:45:05.65?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2003.308.17:45:05.68/onsource/SLEWING
+2003.308.17:45:21.34;clkoff
+2003.308.17:45:21.88/fmout-gps/2.056370e-05 20.6 usec (Hmaser leads GPS)
+2003.308.17:46:16.22#flagr#flagr/antenna,acquired
+2003.308.17:46:30.00:preob
+2003.308.17:46:30.00#antcn#Check if antenna is on-source
+2003.308.17:46:30.61/onsource/TRACKING
+2003.308.17:46:33.20/tpical/1u,10037,2u,10621,3u,10656,4u,9335,i1,6044
+2003.308.17:46:

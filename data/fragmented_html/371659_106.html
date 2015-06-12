@@ -1,0 +1,18 @@
+C
+         CALL <a href="../spicelib/psv2pl.html">PSV2PL</a> ( OBSERV, OBSERV, RAYDIR, PLANE )
+   C
+   C
+   C     Find the intersection of the plane defined by OBSERV
+   C     and RAYDIR with the limb.
+   C
+         CALL <a href="../spicelib/inelpl.html">INELPL</a> ( LIMB, PLANE, NXPTS, XPT1, XPT2 )
+   C
+   C
+   C     We always expect two intersection points, if DOWN
+   C     is valid.
+   C
+   C                  IF ( NXPTS .LT. 2 ) THEN
+   C
+   C                     [ do something about the error ]
+   C
+   

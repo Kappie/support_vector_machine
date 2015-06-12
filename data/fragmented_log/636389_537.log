@@ -1,0 +1,14 @@
+AS BEEN PLOTTED
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/LWM, LGA/LGB, FUA/FSF, LAPS-BKG, BAL), 
+     [wo,co,bo,lo,fo] Anlyz/Cloud/Balance/Bkg/Fcst Omega
+     RADAR: [ra] Intermediate VRC, [rf] Anal/Fcst fields
+            Radar Intermediate Vxx - Ref [rv], Vel [rd]
+
+     SFC: [p,pm,ps,pp,tf,tc,df,dc,ws,wp,vv,hu,ta,th,te,vo,mr,mc,dv,ha,ma]
+          [sp,cs,vs,tw,fw,hi,gf]
+          [of,oc,ov,os,op,og,qf,qc,qv,qs,qp,qg] obs plots
+          [st,mw] obs/mesowx locations
+   

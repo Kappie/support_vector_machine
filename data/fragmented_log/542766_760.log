@@ -1,0 +1,11 @@
+919509435113:!+3s
+9919509435414:tape
+9919509435420/tape/off,01973,norm,stopped,stop,unlock,ready,rem
+9919509435420:postob
+9919509435420:source=1034-293,103455.8,-291827.0,1950.0
+9919509435421#antcn#Commanding to new source
+9919509435542#antcn#Source:  1034-293  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919509435542#antcn# RAcommand  159.306   DECcommand -29.566
+9919509435542:wb2c1=7
+9919509435821#matcn#debug: 92 /ASS 0 2:0x1 4:0x3 6:0x5 8:0x7 10:0x9 12:0xb 14:0xd 16:0x0 ? ERROR 7
+9919509435909#matcn#debug: 92 /

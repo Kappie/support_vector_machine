@@ -1,0 +1,9 @@
+dinate error:   0.92 A                  |
+| x-ray target function (ml) for work reflections: 6.301854                   |
+|-----------------------------------------------------------------------------|
+
+========================== Target weights: x-ray data =========================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 19.680835             wxc_scale = 0.500            wc = 1.00

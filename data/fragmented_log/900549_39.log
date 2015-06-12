@@ -1,0 +1,20 @@
+01497
+! Fit after  self-cal, rms=0.272901Jy  sigma=0.001497
+! Inverting map 
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.272901Jy  sigma=0.001497
+! Fit after  self-cal, rms=0.273853Jy  sigma=0.001494
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Estimated beam: bmin=2.457 mas, bmaj=4.77 mas, bpa=1.263 degrees
+! Estimated noise=662.7

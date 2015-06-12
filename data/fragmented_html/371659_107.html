@@ -1,0 +1,13 @@
+C                  ENDIF
+   C
+   C
+   C     Form the vectors from OBSERV to the intersection
+   C     points.  Find the angular separation between the
+   C     boresight ray and each vector from OBSERV to the
+   C     intersection points.
+   C
+         CALL <a href="../spicelib/vsub.html">VSUB</a> ( XPT1, OBSERV, VEC1 )
+         CALL <a href="../spicelib/vsub.html">VSUB</a> ( XPT2, OBSERV, VEC2 )
+ 
+         SEP1 = <a href="../spicelib/vsep.html">VSEP</a> ( VEC1, RAYDIR )
+         SEP2 = <a href="../spicelib

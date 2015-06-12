@@ -1,0 +1,7 @@
+7:17:20.59/mk5/!SS_rev1? 0 : "BoardType PCI-816VXF2, SerialNum 8186, ApiVersion 5.17, ApiDateCode Jun 28 2004" ;
+2004.350.07:17:20.59/mk5/!SS_rev2? 0 : "FirmwareVersion 10.72, FirmDateCode Jun 25 2004, MonitorVersion 6.02, XbarVersion 3.12, AtaVersion 1.04, UAtaVersion 0.00, DriverVersion 603" ;
+2004.350.07:17:20.59/mk5/!status? 0 : 0x00300001 ;
+2004.350.07:17:22.15&ifdsx/ifd=24,13,nor,nor
+2004.350.07:17:22.15&ifdsx/if3=18,out,1,1,,,on
+2004.350.07:17:22.15&ifdsx/lo=
+2004.350.07:17:22.15&ifdsx/lo=lo1,8080.00

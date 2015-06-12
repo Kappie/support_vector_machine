@@ -1,0 +1,16 @@
+=========
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+          3045      1509           1536         0         0         0
+   in  35636.     seconds
+ Image            has     1509 counts for 4.2345E-02 counts/sec
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel]
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!xsel:ASCA > clear all p

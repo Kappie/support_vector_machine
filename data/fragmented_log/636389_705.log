@@ -1,0 +1,9 @@
+    file time (needed/nearest) = 061521800     / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/lsx/    061521800 lsx   THE
+  Subroutine plot_field_2d: i4time =    1464804000
+  plot_field_2d - image plot tei           250.0000        370.0000    
+  Subroutine ccpfil for solid fill plot...
+  input array range:     322.5657        374.3493    
+  input scale:     1.000000    
+  Colortable is hues    250.0000        370.0000                0  F  F  F  F
+  ccpfil_sub - scale,scale_loc =     1.000000

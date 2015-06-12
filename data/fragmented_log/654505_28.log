@@ -1,0 +1,5 @@
+se_prod_file()] find_product_file() failed.  Returning 0.
+[Build.pm/572/build_topdir()] Args:  ""
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "buildpkglist_filename" -> "/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/perl-DBI.pkglist"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "buildpkglist_filename" -> "/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/perl-DBI.pkglist"
+[RPM.pm/498/rpm_build()] Saving package list to /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/perl

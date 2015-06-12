@@ -1,0 +1,17 @@
+ with 
+             each other.  
+ 
+ tdc 561591: Board passes all tests. 
+ 
+ tdc 561592: Split pulse problem on channel 24 for 80% of the 
+             events.  
+ 
+ tdc 561593: Split pulse problem on channel 15 for <0.5% of the 
+             events. 
+ 
+ tdc 561594: Board passes all tests. 
+ 
+ tdc 561596: Tail in the distribution of Start_ch45 - Start_ref 
+             (where Start_ref is just the start time of channel 
+             0). Tail extends out to about -25 ns. Note that the 
+             correct di

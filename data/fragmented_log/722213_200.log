@@ -1,0 +1,11 @@
+Bad: Region      Time     Phase       Cut
+           2212       371           1630         0         0       211
+ Writing events file
+    371 events written to the output file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+          2212       371           1630         0         0       211
+   in  33351.     seconds
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /local/data/tproc/nand

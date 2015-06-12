@@ -1,0 +1,14 @@
+e_rms
+! The final image rms is 0.00057241 
+device "J0121+1149_X_2000_12_04_pus\_map.eps/VPS"
+! Attempting to open device: 'J0121+1149_X_2000_12_04_pus_map.eps/VPS'
+loglevs 100*3*image_rms/peak_flux
+! The new contour levels are:
+!  -0.170315 0.170315 0.340629 0.681259 1.36252 2.72504 5.45007 10.9001 21.8003 43.6006 87.2011
+print "clev=",int(3*image_rms*10000)/10000
+! clev= 0.0017 
+print "peak=",int(1000*peak_flux)/1000
+! peak= 1.008 
+mapcolor none
+! Mapplot colormap: none, contrast: 1 brightness: 0.5.
+mapplo

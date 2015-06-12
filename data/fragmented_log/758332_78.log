@@ -1,0 +1,17 @@
+35000_gis3 clobberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 74035000_gis3.img
+ 
+Saving the Filtered Events list:
+Wrote events list to file 74035000_gis3.evt
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/74035000/unscreened/
+to the current working directory.
+!ascascreen_gis3:ASCA-GIS3-PH > clear mkf
+!ascascreen_gis3:ASCA-GIS3-PH > clear region all
+!ascascreen_gis3:ASCA-GIS3-PH > set dumpcat
+Obscat listing on
+!ascascreen_gis3:ASCA-GIS3-PH > exit save=no
+ 
+gnt_infrm:

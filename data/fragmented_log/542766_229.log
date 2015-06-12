@@ -1,0 +1,14 @@
+2:!194220515
+9919421590046;status
+9919422051500:tape
+9919422051505/tape/off,06429,norm,stopped,stop,unlock,ready,rem
+9919422051505:st=rev,80
+9919422051520:!194220525
+9919422052500:preob
+9919422052500#antcn#Checking onsource status
+9919422052503#antcn# RAsource    12.664   DECsource   -9.487
+9919422052503#antcn# RAbeam      12.665   DECbeam     -9.488
+9919422052503#antcn# RAdelta      0.001   DECdelta     0.001
+9919422052503?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919422052503/onsource/SLEWING
+99

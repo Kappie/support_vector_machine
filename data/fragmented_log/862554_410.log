@@ -1,0 +1,15 @@
+ completed 99% completed100% completed
+ 
+ Intv    1   Start  9583 17:18: 7
+     Ser.1     Avg 0.2048E-01    Chisq  793.9       Var 0.6439E-03 Newbs.    789
+               Min  0.000          Max 0.1250    expVar 0.6399E-03  Bins    577
+Writing output file: /tproc/nandra/processing/72016000/work/72016000_sis_bgd_16s
+nbint = 8
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_sis_bgd_16s.f
+ 
+ Selected FITS extensions: 1 - RATE TABLE;
+ 
+ Source ............ MRK_10

@@ -1,0 +1,11 @@
+lock,ready,rem
+9919515373107:st=for,80
+9919515373122:!195153741
+9919515374100:preob
+9919515374100#antcn#Checking onsource status
+9919515374102#antcn#WARNING: source presently below limit horizon
+9919515374102#antcn# RAsource   141.745   DECsource   39.043
+9919515374103#antcn# RAbeam     142.498   DECbeam     39.042
+9919515374103#antcn# RAdelta      0.753   DECdelta     0.002
+9919515374103?ERROR an -103 Pointing computer tracking errors are too large.
+9919515374103?ERROR qo -301 WARNING: ONSOURCE status is S

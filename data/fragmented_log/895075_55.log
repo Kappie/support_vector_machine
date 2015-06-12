@@ -1,0 +1,10 @@
+ contains 53 components and 0.341229 Jy
+! Inverting map 
+! Your choice of large map pixels excluded 4.39% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+! Added new window around map position (-3.4, -1).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0063503 Jy
+! Component: 100  -  total flux cleaned = 0.0110309 Jy
+! Component: 150  -  total flux cleaned = 0.0145169 Jy

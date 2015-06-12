@@ -1,0 +1,9 @@
+m/map[0].stack[2].head[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919419240684/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919419240684/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919419240755/pass/1,1,auto,-330.0,-330.0,-331.1,-330.1,-1.1,-0.1
+9919419240770:!194192511
+9919419251100:tape
+9919419251106/tape/off,14363,norm,stopped,stop,unlock,ready,rem
+9919419251106:st=for,80
+9919419251121:!194192521

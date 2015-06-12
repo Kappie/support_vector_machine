@@ -1,0 +1,12 @@
+future.</pre>
+<!-- Author: Mike Kelly -->
+
+
+<!-- Date: Fri May 14 16:06:35 1999 -->
+<pre>A new DSP software version was programmed into TDCs #12, 14, 19, 
+28 and 32.  This version contains a fix for a scanlist-related 
+bug.  Now, scanlist 0 will add the calibration constants to the 
+pulse start times, while scanlist 1 will *not* add the 
+calibration  constants.  The calibration constants for the above 
+TDCs will make the reported start times of calibration test 
+pulses more or less identical for all channel

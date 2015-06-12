@@ -1,0 +1,12 @@
+,27599,$$$$$,18723
+9830214510341?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830214510341/tsys1/51.3,52.2,51.8,51.1,49.0,45.7,45.3,44.4,48.5,$$$$$$$$
+9830214510342?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830214510342/tsys2/62.2,64.0,64.9,62.0,63.1,$$$$$$$$,95.1
+9830214510342:!302145230
+9830214523000:"data stop"
+9830214523000:et
+9830214523017:!+3s
+9830214523318:tape
+9830214523330/tape/off,04604,norm,stopped,stop,unlock,ready,rem
+9830214523330:

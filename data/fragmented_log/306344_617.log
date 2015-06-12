@@ -1,0 +1,14 @@
+or device ve overflowed or were less than zero.
+9830217555379/tsys2/60.9,61.5,63.0,59.4,60.2,$$$$$$$$,89.6
+9830217555379:!302175830
+9830217583000:"data stop"
+9830217583000:et
+9830217583017:!+3s
+9830217583318:tape
+9830217583330/tape/off,01095,norm,stopped,stop,unlock,ready,rem
+9830217583330:postob
+9830217583330:source=3c138,051816.5,163526.8,1950.0
+9830217583330#antcn#Command a new source
+9830217583364#antcn#Successfully sent new source position to antenna
+9830217583365:midtp
+9830217583608/tpzero/401,445,484

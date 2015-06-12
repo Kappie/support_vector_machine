@@ -1,0 +1,12 @@
+ma=0.003893
+! Fit after  self-cal, rms=0.282871Jy  sigma=0.003893
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.140825 Jy
+! Total flux subtracted in 50 components = 0.140825 Jy
+! Clean residual min=-0.023561 max=0.061872 Jy/beam
+! Clean residual mean=0.000334 rms=0.010800 Jy/beam
+! Combined flux in latest and established models = 0.708235 Jy
+! Performing phase self-cal over 0.6 minute time intervals
+! Adding 16 model components to the UV plane model.
+! T

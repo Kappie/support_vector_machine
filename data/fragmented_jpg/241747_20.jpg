@@ -1,0 +1,12 @@
+ifVersion>
+  <exif:DateTimeOriginal>2006-05-30T08:24:40-07:00</exif:DateTimeOriginal>
+  <exif:DateTimeDigitized>2006-05-30T08:24:40-07:00</exif:DateTimeDigitized>
+  <exif:ExposureBiasValue>2/6</exif:ExposureBiasValue>
+  <exif:MaxApertureValue>0/1</exif:MaxApertureValue>
+  <exif:MeteringMode>2</exif:MeteringMode>
+  <exif:LightSource>3</exif:LightSource>
+  <exif:Flash rdf:parseType='Resource'>
+   <exif:Fired>False</exif:Fired>
+   <exif:Return>0</exif:Return>
+   <exif:Mode>0</exif:Mode>
+   <exif:Function>False

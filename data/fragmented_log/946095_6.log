@@ -1,0 +1,14 @@
+mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (0, 0).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 1.06194 Jy
+! Component: 100  -  total flux cleaned = 1.38929 Jy
+! Total flux subtracted in 100 components = 1.38929 Jy
+! Clean residual min=-0.059163 max=0.137806 J

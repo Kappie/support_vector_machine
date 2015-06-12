@@ -1,0 +1,12 @@
+916.9,223706.3,1950.0
+9830205100329#antcn#Command a new source
+9830205100381#antcn#Successfully sent new source position to antenna
+9830205100381:sx2c1=1
+9830205100472/pass/1,1,auto,-330.0,-330.0,-330.3,-329.9,-0.3,0.1
+9830205100818:!302051130
+9830205102724;list
+9830205104301?ERROR ch -370 Total power integrator overflow on IF3
+9830205110500?ERROR ch -370 Total power integrator overflow on IF3
+9830205112698?ERROR ch -370 Total power integrator overflow on IF3
+9830205113000:preob
+9830205113000#antcn#Check if

@@ -1,0 +1,13 @@
+ap 
+! 
+! Move the cursor into the plot window and press 'H' for help
+clean 100
+! clean: niter=100  gain=0.05  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0105552 Jy
+! Component: 100  -  total flux cleaned = 0.0171994 Jy
+! Total flux subtracted in 100 components = 0.0171994 Jy
+! Clean residual min=-0.005475 max=0.006883 Jy/beam
+! Clean residual mean=0.000009 rms=0.001562 Jy/beam
+! Combined flux in latest and established models = 0.205666 Jy
+selfcal false,false,0.6
+! Performing phase self-cal over 0.

@@ -1,0 +1,20 @@
+<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.print.subTicket.paper_info_ticket</key>
+	<dict>
+		<key>com.apple.print.PageFormat.PMAdjustedPageRect</key>
+		<dict>
+			<key>com.apple.print.ticket.creator</key>
+			<string>com.apple.printingmanager</string>
+			<key>com.apple.print.ticket.itemArray</key>
+			<array>
+				<dict>
+					<key>com.apple.print.PageFormat.PMAdjustedPageRect</key>
+					<array>
+						<real>0.0</real>
+						<real>0.0</real>
+						<real>734</real>
+						<real>576</real>
+	

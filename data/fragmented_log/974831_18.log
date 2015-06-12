@@ -1,0 +1,17 @@
+103497:!240141213
+9924014121300:"data stop"
+9924014121300:et
+9924014121311:!+3s
+9924014121612:tape
+9924014121617/tape/off,00772,norm,stopped,stop,unlock,ready,rem
+9924014121617:postob
+9924014121617&postob/cable
+9924014121617&postob/counter2
+9924014121617&postob/onsource
+9924014121617&postob/antenna=tcheck
+9924014121617&postob/relheight
+9924014121664/cable/+3.052E-04
+9924014121808/gps-fmout/+4.5E-06
+9924014121815/onsource/TRACKING
+9924014121815#antcn#Received message for antenna: TCHECK
+9924014121815/relheig

@@ -1,0 +1,12 @@
+ cutoff=0
+! Component: 050  -  total flux cleaned = 0.00433275 Jy
+! Component: 100  -  total flux cleaned = 0.00693661 Jy
+! Component: 150  -  total flux cleaned = 0.00861282 Jy
+! Component: 200  -  total flux cleaned = 0.00970748 Jy
+! Total flux subtracted in 200 components = 0.00970748 Jy
+! Clean residual min=-0.002121 max=0.002315 Jy/beam
+! Clean residual mean=0.000183 rms=0.000725 Jy/beam
+! Combined flux in latest and established models = 0.9455 Jy
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flu

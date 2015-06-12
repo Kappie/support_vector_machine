@@ -1,0 +1,5 @@
+ePenetration.cc:237: warning: unused variable 'OverflowAcry_inLS_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:252: warning: unused variable 'OverflowGdLS_inLS_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:300: warning: unused variable 'OverflowLS_inLSTank_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:338: warning: unused variable 'OverflowGdLSTube_inLSTank_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:354: warning: unused variable 'OverflowGdL

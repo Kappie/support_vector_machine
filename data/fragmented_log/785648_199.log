@@ -1,0 +1,10 @@
+  
+1_occ: refinement of individual occupancies                             
+------------------------------------------------------------------------
+ R-factors, x-ray target values and norm of gradient of x-ray target
+ stage     r-work r-free  xray_target_w  xray_target_t
+   0    :  0.4395 0.4256   6.234516e+00   6.211300e+00
+   1_bss:  0.4311 0.4122   6.229144e+00   6.201715e+00
+   1_xyz:  0.3259 0.3458   6.036001e+00   6.079247e+00
+   1_adp:  0.2646 0.3058   5.871211e+00   5.978901e+00
+   1_occ:  0.2642 0

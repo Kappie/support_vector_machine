@@ -1,0 +1,12 @@
+    populations: 80% at the correct value and 20% 
+             off by about 240 ns. 
+ 
+ tdc 561605: Board passes all tests. 
+ 
+ tdc 561607: Problem in the Start_ch69-start_ref distribution. 
+             There are three populations in this distribution. 
+             Each population has rms <1 ns. 
+             The means of the populations are seperated from  
+             each other by about four ns. Also, the output 
+             width of channel 69 has three populations. Each 
+             population ha

@@ -1,0 +1,22 @@
+e do_prod
+gnt_infrm: *************************
+Sat Apr 22 06:02:29 EDT 2000
+ 
+gnt_infrm: Running extraction procedure for 72016000...
+ 
+gnt_infrm: Running SISPI...
+SISPI v1.1.1
+SISPI v1.1.1
+ 
+gnt_infrm: DATAMODE = BRIGHT.
+ 
+gnt_infrm: BITFIX = n.
+ 
+ 
+gnt_infrm: Extracting src data for sis0...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S0CCDPOW
+      1 MRK_1040    BRIGHT      HIGH        19/08/94    17:17:59    0.14E+05     4956 1100
+extractor v3.75  8 Mar 200

@@ -1,0 +1,8 @@
+ -->
+<pre>Page SVT : Marco said to stop automatic HRR's and catch the timeout next time so he can run a diagnostic- the cause maybe in the svx-- svx expert here</pre>
+<!-- Comment: Wed Jun 11 22;07;05 comment by...Stephen -->
+<pre>The L2 error is the board in slot 12 not sending any data.
+That board is the SVT interface board. In the past this has
+always been problems upstream of the L2 crate. Usually it
+was part of the SVX failing to send data to SVT.</pre>
+<!-- Comment: Wed Jun 11 22;26;01 comment by..

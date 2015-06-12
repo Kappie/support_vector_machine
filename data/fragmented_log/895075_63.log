@@ -1,0 +1,17 @@
+ed model now contains 101 components and 0.36442 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.305347Jy  sigma=0.001453
+! Fit after  self-cal, rms=0.305283Jy  sigma=0.001452
+wmodel J1727+4530_X_1999_12_20_pus_map.mod
+! Writing 101 model components to file: J1727+4530_X_1999_12_20_pus_map.mod
+wobs J1727+4530_X_1999_12_20_pus_uvs.fits
+! Writing UV FITS file: J1727+4530_X_1999_12_20_pus_uvs.fits
+wwins J1727+4530_X_1999_12_20_pus_map.w

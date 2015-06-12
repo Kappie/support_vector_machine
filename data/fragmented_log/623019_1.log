@@ -1,0 +1,11 @@
+hu Apr 22 11:37:38 1999 -->
+TDC Rev C Firmware Update 
+ 
+Ron Moore and I have updated several of the Rev C TDC boards  
+in the full crate test with the following features: 
+ 
+1) The TDCs now have a faster version of the L2 hit processing code. Timing measurements can now be done on these modules. 
+ 
+2) The Halt-Recover-Run code has been activated, but the instructions executed by the TDC DSP processor may not be  
+exactly what we want. (e.g., I think the boards don't answer 
+with DONE until the RUN is recei

@@ -1,0 +1,15 @@
+Cur.getTime()>(dLst.getTime()+1800000))||(dCur.getTime()>(dSes.getTime()+28800000))){
+				WT.vt_f_tlv=Math.floor((dSes.getTime()-adj)/1000);
+				dSes.setTime(dCur.getTime());
+				WT.vt_f_s="1";
+			}
+			if ((dCur.getDay()!=dLst.getDay())||(dCur.getMonth()!=dLst.getMonth())||(dCur.getYear()!=dLst.getYear())){
+				WT.vt_f_d="1";
+			}
+		}
+		WT.co_f=escape(WT.co_f);
+		WT.vt_sid=WT.co_f+"."+(dSes.getTime()-adj);
+		
+		
+		// Change the persistence cookie to a session cookie
+		//var expiry="; expires="

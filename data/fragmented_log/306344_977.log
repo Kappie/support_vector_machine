@@ -1,0 +1,12 @@
+0302034327/tpical/31048,18683,13963,19948,29420,54260,20433
+9830302034336:!303020350
+9830302035000:tape
+9830302035012/tape/off,01916,norm,stopped,stop,unlock,ready,rem
+9830302035012:st=rev,135
+9830302035027:"data start"
+9830302035027:midob
+9830302035027#antcn#Check if antenna is on-source
+9830302035052/onsource/TRACKING
+9830302035138#wx#/WX/19.4,1004.2, 44.8
+9830302035158?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830302035159?ERROR ib  -10 ibcon initialization failed, gpib devic

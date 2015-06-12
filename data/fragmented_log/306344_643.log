@@ -1,0 +1,12 @@
+3,$$$$$,8955
+9830218321378?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830218321378/tsys1/52.2,52.8,52.0,51.9,50.0,46.6,46.3,45.8,48.8,$$$$$$$$
+9830218321379?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830218321379/tsys2/63.8,64.7,65.2,63.0,64.1,$$$$$$$$,55.9
+9830218321379:!302183430
+9830218343000:"data stop"
+9830218343000:et
+9830218343016:!+3s
+9830218343317:tape
+9830218343329/tape/off,07297,norm,stopped,stop,unlock,ready,rem
+9830218343329:postob

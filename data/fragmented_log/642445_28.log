@@ -1,0 +1,10 @@
+orning, but it wasn't clear 
+what the real problem was. A flaky SVT board (which might 
+have caused the problem) was replaced Friday evening. 
+  Someone should check the error logger to find out how often 
+there was a L2 timeout error. 
+  Svt cutting was succesfully tested, with an L2 SVT trigger 
+correctly cutting on svt track quantities. There are no known 
+problems with the Tracklist board design. 
+  Electron triggers didn't have much time for testing. The 
+alpha code was crashing while evaluating the el

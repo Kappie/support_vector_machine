@@ -1,0 +1,12 @@
+5#antcn#Successfully sent new source position to antenna
+2003.309.07:46:31.56#flagr#flagr/antenna,new-source
+2003.309.07:46:31.57:setupsx
+2003.309.07:46:35.99/mk5/!play_rate = 0 ;
+2003.309.07:46:36.00/mk5/!mode = 0 ;
+2003.309.07:46:36.04/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 231 ;
+2003.309.07:46:36.05:!2003.309.07:48:20
+2003.309.07:48:09.13#flagr#flagr/antenna,acquired
+2003.309.07:48:20.00:preob
+2003.309.07:48:20.00#antcn#Check if antenna is on-source
+2003.309.07:48:20.64/onsource/TRACKING
+2003.309.0

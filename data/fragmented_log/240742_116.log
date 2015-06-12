@@ -1,0 +1,12 @@
+2001.295.19:23:32.33&check80r/!+3s
+2001.295.19:23:32.34&check80r/parity
+2001.295.19:23:32.34&check80r/!*+53s
+2001.295.19:23:32.34&check80r/et
+2001.295.19:23:32.34&check80r/!+2s
+2001.295.19:23:32.34&check80r/repro=byp,5,7
+2001.295.19:23:32.36&sfastf/sff
+2001.295.19:23:32.36&sfastf/!+$
+2001.295.19:23:32.36&sfastf/et
+2001.295.19:24:33.96?ERROR qg -303 Track 17 parity errors exceed threshold.
+2001.295.19:24:33.96?ERROR qg -303 Track 23 parity errors exceed threshold.
+2001.295.19:24:33.96?ERROR qg -303 Track 32 

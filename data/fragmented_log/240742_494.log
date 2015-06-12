@@ -1,0 +1,7 @@
+bug:map[0].stack[1].head[18] = x03 x0a x43 x4a x04 x0b x44 x4b x05 x0c x45 x4c x06 x0d x46 x4d
+2001.296.02:10:22.94/form/debug:map[0].stack[2].head[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.02:10:22.94/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.02:10:22.94/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.02:10:23.10:fastf=1m14s
+2001.296.02:11:42.58:!+5s
+2001.296.02:1

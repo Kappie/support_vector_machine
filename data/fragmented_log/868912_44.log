@@ -1,0 +1,18 @@
+ux in latest and established models = 0.936855 Jy
+! Performing phase self-cal
+! Adding 30 model components to the UV plane model.
+! The established model now contains 98 components and 0.936855 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.422011Jy  sigma=0.002445
+! Fit after  self-cal, rms=0.422010Jy  sigma=0.002445
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should idea

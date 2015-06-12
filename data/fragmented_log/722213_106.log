@@ -1,0 +1,17 @@
+**********
+ 
+Data Directory is: /tproc/nandra/processing/75084000/work/
+HK Directory is: /tproc/nandra/processing/75084000/work/
+ 
+!xsel:ASCA-GIS2-PH > set binsize 128
+!xsel:ASCA-GIS2-PH > set image sky
+!xsel:ASCA-GIS2-PH > filter region init_reg.tmp
+!xsel:ASCA-GIS2-PH > extract image
+!xsel:ASCA-GIS2-PH > save image gis2_sky.tmp clobber=yes
+Wrote image to file gis2_sky.tmp
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Smoothing sky image for gis2...
+ 
+ 
+gnt_infrm: Finding maximum pixel (centroid) for gis2.

@@ -1,0 +1,11 @@
+nt: 3
+invalid trajectory state on surface:  iSurf = 3 tan theta = -1.1622 pz = -0.652671
+%MSG
+%MSG-e PFProducer:  GoodSeedProducer:elecpreid 07-Aug-2007 08:59:49 EDT  Run: 1 Event: 3
+invalid trajectory state on surface:  iSurf = 4 tan theta = 0.836618 pz = 1.07052
+%MSG
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-2007 09:00:00 EDT  Run: 1 Event: 4
+Warning: L1 trigger info not available 
+%MSG
+#              Written by Matteo Cacciari and Gavin Salam		   
+#              http://www.lpthe

@@ -1,0 +1,9 @@
+6 76 86 86 86 86 85 85 85 85 85 85 84 84
+  Plotting: c_metacode,i_overlay = c             2
+  CLOW,HIGH,CINT     40.00000        90.00000        5.000000    
+  Max/Min/n_missing =     88.10948        49.02853                0
+  write_label_lplot:
+ Sfc Temperature (F)                                                                                 
+  lapsplot: call "conrec", cint =     5.000000    
+  conrec_line: calling plot_contour    40.00000        90.00000     
+    5.000000                2            2

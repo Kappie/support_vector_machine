@@ -1,0 +1,12 @@
+0220235712/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.012
+9830220235723/rx/17(pres),on,a,on,on,on,off,locked,3.216
+9830220235735/rx/1E(20k),on,a,on,on,on,off,locked,25.57
+9830220235746/rx/1F(70k),on,a,on,on,on,off,locked,45.14
+9830220235746:sx2c1=7
+9830220240314/pass/7,7,auto,-165.0,-165.0,-164.9,-165.2,0.1,-0.2
+9830220240662:fastr=1m24s
+9830220240712?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830220253093:!302202610
+9830220261000:preob
+9830220261000#antcn#Check if antenna is on-source
+9

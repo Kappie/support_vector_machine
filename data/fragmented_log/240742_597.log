@@ -1,0 +1,8 @@
+.5cm Dual Feed Cryogenic )
+2001.296.03:58:20.19#antcn# RAcommand  171.782   DECcommand -18.960
+2001.296.03:58:20.21:check80f
+2001.296.03:59:21.72?ERROR qg -303 Track  2 parity errors exceed threshold.
+2001.296.03:59:21.72?ERROR qg -303 Track  7 parity errors exceed threshold.
+2001.296.03:59:21.72?ERROR qg -303 Track 17 parity errors exceed threshold.
+2001.296.03:59:21.72?ERROR qg -305 AUX data differs from expected value on track 22.
+2001.296.03:59:21.72?ERROR qg -303 Track 23 parity errors exceed threshold

@@ -1,0 +1,11 @@
+0 The Receiver 20K stage is hotter than  35K.
+2004.167.05:42:01.19?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.05:42:01.19?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.05:42:12.00:data_valid=off
+2004.167.05:42:12.00:et
+2004.167.05:42:12.05:!+3s
+2004.167.05:42:15.06:tape
+2004.167.05:42:15.13/tape/low,13849,off,stopped,unlocked,ready,10.6,85,okay
+2004.167.05:42:15.13:postob
+2004.167.05:42:15.13:scan_name=167-0544,r1127,160
+2004.167.05:42:15.13:source=1418+546,14180

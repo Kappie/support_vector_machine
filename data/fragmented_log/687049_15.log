@@ -1,0 +1,10 @@
+.jussieu.fr/~salam/fastjet		   
+#								      	   
+# Longitudinally invariant Kt, and inclusive Cambridge/Aachen clustering
+# using fast geometric algorithms, with optional external jet-finder    
+# plugins. Please cite hep-ph/0512210 if you use this code.             
+#								      	   
+# This package uses T.Chan's closest pair algorithm, Proc.13th ACM-SIAM 
+# Symp. Discr. Alg, p.472 (2002).
+#-----------------------------------------------------------------------
+PFClusterAlgo Warning: more than 50 itera

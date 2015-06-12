@@ -1,0 +1,2 @@
+rith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parserInternals.lo -MD -MP -MF .deps/parserInternals.Tpo -c -o parserInternals.lo parserInternals.c
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -I/usr/local/cdat/Externals/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wform

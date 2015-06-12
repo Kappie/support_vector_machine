@@ -1,0 +1,16 @@
+rrecting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.390012Jy  sigma=0.002573
+! Fit after  self-cal, rms=0.389846Jy  sigma=0.002572
+! Inverting map 
+! Your choice of large map pixels excluded 1.03% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+print "************** FINISHED UNIFORM WEIGHTING CLEAN **************"
+! ************** FINISHED UNIFORM WEIGHTING CLEAN ************** 
+! 
+uvw 0,-1
+! Uniform weighting is not currently selected

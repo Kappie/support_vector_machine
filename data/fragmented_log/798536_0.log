@@ -1,0 +1,19 @@
+environment
+configure:993: gcc -c -g -O2  conftest.c 1>&5
+configure: In function `main':
+configure:989: `__CYGWIN32__' undeclared (first use in this function)
+configure:989: (Each undeclared identifier is reported only once
+configure:989: for each function it appears in.)
+configure: failed program was:
+#line 982 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:1010: checking for mingw32 environment
+configure

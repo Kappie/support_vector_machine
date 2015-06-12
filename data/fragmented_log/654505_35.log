@@ -1,0 +1,12 @@
+irror, in particular
+    http://search.cpan.org/
+    http://www.perl.com/CPAN/modules/by-module
+    http://www.perl.org/CPAN/modules/by-module
+    ftp://ftp.funet.fi/pub/languages/perl/CPAN/modules/by-module
+
+Creating extra DBI::PurePerl test: t/zz_01basics_pp.t 
+Creating extra DBI::PurePerl test: t/zz_02dbidrv_pp.t 
+Creating extra DBI::PurePerl test: t/zz_03handle_pp.t 
+Creating extra DBI::PurePerl test: t/zz_04mods_pp.t 
+Creating extra DBI::PurePerl test: t/zz_05thrclone_pp.t (use threads)
+Creating extra 

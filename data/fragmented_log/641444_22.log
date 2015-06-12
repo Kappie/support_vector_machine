@@ -1,0 +1,11 @@
+o the Plug HV PC 
+     on the 3rd floor.  
+  3. There are two distinct processes that are involved in 
+     the monitoring: a server program and a client. The client 
+     is the one prone to crashing.  When the client crashes, 
+     you can either restart the client or restart both 
+     processes.  The procedure for doing this is in the 
+     instructions mentioned above. 
+  4. Killing the HV monitoring program on the Plug PC will NOT 
+     affect the plug voltages.  The worst thing that can happen 
+     

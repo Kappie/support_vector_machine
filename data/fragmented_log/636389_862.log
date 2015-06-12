@@ -1,0 +1,10 @@
+or your ./gmeta file
+ GKS ERROR NUMBER    2 ISSUED FROM SUBROUTINE GCLKS :
+ --GKS NOT IN PROPER STATE: GKS SHALL BE IN STATE GKOP
+-rw-rw-rw-    1 oplapb   frdlapb     51840 2006-06-01 19:25 gmeta
+ctransarg=sun
+ctransext=sun
+netpbm=yes
+Thu Jun  1 19:25:56 UTC 2006
+Running /usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans | netpbm to make gmeta_ham.gif file
+/usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans -verbose -d sun -window 0.0:0.0:1.0:1.0 -resolution 885x885 gmeta | rasttopnm | ppmtogif > /w3/lapb/domains/tw_f

@@ -1,0 +1,14 @@
+df='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description about='uuid:f2558d46-2e30-11db-9e01-9a33b8dd8148'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+  <!-- pdf:Subject is aliased -->
+ </rdf:Description>
+
+ <rdf:Description about='uuid:f2558d46-2e30-11db-9e01-9a33b8dd8148'
+  xmlns:photoshop='http://ns.adobe.com/photoshop/1.0/'>
+  <!-- photoshop:Caption is aliased -->
+ </rdf:Description>
+
+ <rdf:Description about='uuid:f2558d46-2e30-11db-9e01-9a33b8dd8148'
+  

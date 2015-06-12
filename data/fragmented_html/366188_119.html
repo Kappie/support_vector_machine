@@ -1,0 +1,16 @@
+4=(nn&&(major==4));
+			var nn6up=(nn&&(major>=5));
+			var ie=((agt.indexOf("msie")!=-1)&&(agt.indexOf("opera")==-1));
+			var ie4=(ie&&(major==4)&&(agt.indexOf("msie 4")!=-1));
+			var ie5up=(ie&&!ie4);
+			var op=(agt.indexOf("opera")!=-1);
+			var op5=(agt.indexOf("opera 5")!=-1||agt.indexOf("opera/5")!=-1);
+			var op6=(agt.indexOf("opera 6")!=-1||agt.indexOf("opera/6")!=-1);
+			var op7up=(op&&!op5&&!op6);
+			var jv="1.1";
+			if (ff3up){
+				jv="1.8";
+			}
+			else if (ff20){
+				jv="1.7";
+			}

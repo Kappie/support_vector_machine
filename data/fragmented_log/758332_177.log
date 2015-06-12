@@ -1,0 +1,11 @@
+74035000_gis3_sky.img
+Wrote image to file 74035000_gis3_sky.img
+!xsel:ASCA-GIS3-PH > set image det
+!xsel:ASCA-GIS3-PH > filter region 74035000_gis3_src.reg
+!xsel:ASCA-GIS3-PH > extract spectrum
+!xsel:ASCA-GIS3-PH > save spectrum group=no clobber=yes 74035000_gis3_src.pha
+Wrote spectrum to 74035000_gis3_src.pha
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 74035000_gis3_src.evt
+Wrote events list to file 74035000_gis3_src.

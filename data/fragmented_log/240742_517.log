@@ -1,0 +1,10 @@
+k[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.02:31:45.95/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.02:31:46.10:!2001.296.02:35:02
+2001.296.02:35:02.00:tape
+2001.296.02:35:02.12/tape/off,13846,norm,stopped,stop,unlock,ready,rem
+2001.296.02:35:02.13:st=rev,160
+2001.296.02:35:02.29:!2001.296.02:35:02
+2001.296.02:35:02.29:preob
+2001.296.02:35:02.31#antcn#Checking onsource status
+2001.296.02:35:02.33#antcn# RAsource   112.5

@@ -1,0 +1,9 @@
+1284/form/map[0].stack[2].head[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919501091284/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919501091284/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919501091354/pass/3,3,auto,-275.0,-275.0,-275.8,-274.4,-0.8,0.6
+9919501091369:!195011357
+9919501135700:tape
+9919501135706/tape/off,13867,norm,stopped,stop,unlock,ready,rem
+9919501135706:st=for,80
+9919501135721:!195

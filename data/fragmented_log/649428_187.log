@@ -1,0 +1,2 @@
+ -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlsave.lo -MD -MP -MF .deps/xmlsave.Tpo -c -o xmlsave.lo xmlsave.c
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -I/usr/local/cdat/Externals/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include -

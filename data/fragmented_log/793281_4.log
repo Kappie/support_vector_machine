@@ -1,0 +1,17 @@
+CTBX/Sources/mon_lib"
+  Total number of atoms: 2823
+  Number of models: 1
+  Model: 0
+    Number of conformers: 2
+    Conformer: "A"
+      Number of atoms: 2769
+      Number of chains: 2
+        Number of residues, atoms: 302, 2333
+          Classifications: {'peptide': 302}
+          Modifications used: {'COO': 1}
+          Link IDs: {'PTRANS': 7, 'CIS': 1, 'TRANS': 293}
+        Number of residues, atoms: 436, 436
+          Classifications: {'water': 436}
+          Link IDs: {None: 435}
+    Conformer: "B"
+ 

@@ -1,0 +1,7 @@
+install -c .libs/xmlcatalog /usr/local/cdat/Externals/bin/xmlcatalog
+test -z "/usr/local/cdat/Externals/bin" || /bin/mkdir -p "/usr/local/cdat/Externals/bin"
+ /usr/bin/install -c 'xml2-config' '/usr/local/cdat/Externals/bin/xml2-config'
+test -z "/usr/local/cdat/Externals/lib" || /bin/mkdir -p "/usr/local/cdat/Externals/lib"
+ /usr/bin/install -c -m 644 'xml2Conf.sh' '/usr/local/cdat/Externals/lib/xml2Conf.sh'
+/bin/sh ./mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31
+mkdir -p -- /usr/local/cd

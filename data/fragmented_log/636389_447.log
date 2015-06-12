@@ -1,0 +1,12 @@
+9998E-03
+  l_integral,l_discrete,l_divisible,l_set_contours  F  F  T  F
+  Colorbar left edge =        0
+  Colorbar right edge = 5.5     
+  Plotting colorbar    0.000000       4.9999999E-03          409          924
+  write_label_lplot:
+ Total Precipitable Water  cm                                                                        
+  lapsplot_setup: start
+  c6_maproj = lambrt
+  standard_lon =     120.9100    
+  standard_lats =     10.00000        40.00000    
+  lapsplot_setup: IFRAME =             1  JD

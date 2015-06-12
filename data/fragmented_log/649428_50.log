@@ -1,0 +1,3 @@
+cdat/Externals/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT tree.lo -MD -MP -MF .deps/tree.Tpo -c tree.c -o tree.o >/dev/null 2>&1
+mv -f .deps/tree.Tpo .deps/tree.Plo
+/bin/sh ./libtool --tag=CC   --mode=compi

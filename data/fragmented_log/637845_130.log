@@ -1,0 +1,13 @@
+temp_shlib/SingletonManager.o" "Utiltemp_shlib/UtilString.o"
+------> Util : library ok
+------> Util ok
+installation done
+------> (constituents.make) Util done
+------> (constituents.make) Building library_postinstallation.make
+Document library_postinstallation
+------> (constituents.make) Starting library_postinstallation
+------> (constituents.make) library_postinstallation done
+------> (constituents.make) Building lib_macro.make
+Document lib_macro
+------> (constituents.make) Starting lib_macro
+make[3]: Nothi

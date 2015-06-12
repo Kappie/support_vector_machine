@@ -1,0 +1,8 @@
+G: source presently below limit horizon
+2001.296.05:28:26.33#antcn# RAsource    88.908   DECsource   39.813
+2001.296.05:28:26.33#antcn# RAbeam      90.481   DECbeam     39.807
+2001.296.05:28:26.33#antcn# RAdelta      1.573   DECdelta     0.006
+2001.296.05:28:26.33?ERROR an -103 Pointing computer tracking errors are too large.
+2001.296.05:28:26.34?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2001.296.05:28:26.34/onsource/SLEWING
+2001.296.05:28:28.89/tpical/10761,8734,8858,6247,1882,6748,7520,5613,13001

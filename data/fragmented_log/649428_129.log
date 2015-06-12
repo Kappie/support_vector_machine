@@ -1,0 +1,8 @@
+pthread_self' was here
+threads.c:81: warning: function declaration isn't a prototype
+threads.c:81: warning: redundant redeclaration of 'pthread_key_create'
+threads.c:65: warning: previous declaration of 'pthread_key_create' was here
+threads.c:83: warning: function declaration isn't a prototype
+threads.c:83: warning: redundant redeclaration of 'pthread_cond_signal'
+/usr/include/pthread.h:399: warning: previous declaration of 'pthread_cond_signal' was here
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_R

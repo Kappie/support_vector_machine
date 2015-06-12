@@ -1,0 +1,18 @@
+tproc/nandra/processing/76052020/work/
+HK Directory is: /tproc/nandra/processing/76052020/work/
+ 
+!xsel:ASCA-GIS3-PH > set binsize 128
+!xsel:ASCA-GIS3-PH > set image sky
+!xsel:ASCA-GIS3-PH > filter region init_reg.tmp
+!xsel:ASCA-GIS3-PH > extract image
+!xsel:ASCA-GIS3-PH > save image gis3_sky.tmp clobber=yes
+Wrote image to file gis3_sky.tmp
+!xsel:ASCA-GIS3-PH > exit save=no
+ 
+gnt_infrm: Smoothing sky image for gis3...
+ 
+ 
+gnt_infrm: Finding maximum pixel (centroid) for gis3...
+ 
+
+****** statistics for /tpro

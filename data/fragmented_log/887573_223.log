@@ -1,0 +1,13 @@
+cro-tasks        = 202.89 
+  Micro-tasks:
+    mask                            = 1.74   
+    f_calc                          = 94.18  
+    alpha_beta                      = 8.31   
+    target                          = 1.16   
+    gradients_wrt_atomic_parameters = 103.91 
+    fmodel                         = 7.09   
+    r_factors                      = 0.20   
+    phase_errors                   = 10.84  
+    foms                           = 0.25   
+    TOTAL for micro-tasks          = 227.68 
+NUMBER OF MASK 

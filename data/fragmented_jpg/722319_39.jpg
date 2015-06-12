@@ -1,0 +1,11 @@
+edFrom rdf:parseType='Resource'>
+   <stRef:instanceID>uuid:fa93d984-c0fe-11db-b059-e264a2e1a7b9</stRef:instanceID>
+   <stRef:documentID>adobe:docid:photoshop:bded886b-c0fd-11db-b059-e264a2e1a7b9</stRef:documentID>
+  </xapMM:DerivedFrom>
+  <xapMM:DocumentID>adobe:docid:photoshop:cd1b7bb3-c360-11db-9a54-d63c162b85cd</xapMM:DocumentID>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:cd1b7bb4-c360-11db-9a54-d63c162b85cd'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+  <dc:format>image/jpeg</dc:format>
+ 

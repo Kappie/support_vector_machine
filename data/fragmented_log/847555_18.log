@@ -1,0 +1,13 @@
+vlet/RunSummary?RUN_NUMBER=164511">164511</A>
+ Terminated at 2003.06.11 20:12:43
+<!-- Author: RunControl -->
+
+
+<!-- Date: Wed Jun 11 20:14:37.381 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=164511">164511</A>
+TERMINATE: stop to refresh Hard. DB.
+<!-- Author: Gilles X2080 -->
+<!-- Comment: Wed Jun 11 20;19;42 comment by...Simone D. -->
+The SVX expert found the reason why two SVT wedges were missing.
+Consulted also w/SVT pager and decided (1) to end the run and
+include the missing wedges, 

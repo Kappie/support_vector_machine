@@ -1,0 +1,11 @@
+**************************** 
+save 2209+236_K
+! Writing UV FITS file: 2209+236_K.uvf
+! Writing 81 model components to file: 2209+236_K.mod
+! wwins: Wrote 1 windows to 2209+236_K.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.3062 x 0.7437 at 7.603 degrees (North through East)
+! Clean map  min=-0.0096168  max=1.3457 Jy/beam
+! Writing clean map to FITS file: 2209+236_K.fits
+! Writing difmap environment to: 2209+236_K.par
+print "****************************"

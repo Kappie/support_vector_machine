@@ -1,0 +1,19 @@
+maxchan(nocom) 343
+ numchan(nocom) 103
+ ...... exiting, changes written to file : 72016000_sis1_4_ch.pha
+ ** grppha 2.9.0 completed successfully
+ 
+gnt_infrm: Creating efficiency map for sis1...
+ 
+ASCAEFFMAP vers 2.27  5 May 1999.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+ 
+  193 grouped channels from the PHA file
+ 
+ Bin size is 0.0270 (mm) = 0.0265(arcmin)
+ Optical axis is 618.28 773.83
+ WMAP size is    40 x   36
+ WMAP offset is   328   344
+ WMAP bin factor is     8
+ 
+  512 ungrouped channels f

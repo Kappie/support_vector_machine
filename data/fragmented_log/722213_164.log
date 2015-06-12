@@ -1,0 +1,15 @@
+ clobber=yes 75084000_gis2_src.evt
+Wrote events list to file 75084000_gis2_src.evt
+!xsel:ASCA-GIS2-PH > clear events
+!xsel:ASCA-GIS2-PH > clear pha_cutoff
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 75084000_gis2_src_hard.evt
+Wrote events list to file 75084000_gis2_src_hard.evt
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Extracting BITFIX=n src data for gis3...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE

@@ -1,0 +1,12 @@
+v11,v12,v13,v14,if2
+9919418000007&midob/caltemps
+9919418000007&midob/tsys1=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9919418000007&midob/tsys2=v9,v10,v11,v12,v13,v14,if2
+9919418000007&midob/hpib=of,fetc?
+9919418000007&midob/gps-fmout=of
+9919418000007&midob/sy=run setcl &
+9919418000008#antcn#Checking onsource status
+9919418000011#antcn# RAsource   291.208   DECsource  -29.240
+9919418000011#antcn# RAbeam     291.209   DECbeam    -29.241
+9919418000011#antcn# RAdelta      0.001   DECdelta     0.000
+9919418000011/onsource

@@ -1,0 +1,11 @@
+    - NONE            Instrument filter in use
+  EXPOSURE  - 13680.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 5.77050E-02     Background scaling factor
+  BACKFILE  - 76052020_sis0_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 76052020_sis0.rmf
+  ANCRFILE  - 76052020_sis0.arf
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  -

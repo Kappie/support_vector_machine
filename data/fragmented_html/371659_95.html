@@ -1,0 +1,11 @@
+rface point on output.
+   C
+         CALL <a href="../spicelib/surfpt.html">SURFPT</a> ( ORIGIN, UVEC, REARTH(1), REARTH(2), REARTH(3),
+        .              OBSPT,  FOUND                                 )
+ 
+   C
+   C     Now find the vector from the Earth's center to the
+   C     observation point in J2000 coordinates.  We'll need the
+   C     transformation from J2000 to Earth body equator and prime
+   C     meridian coordinates.  This transformation, which we'll name
+   C     ETIPM, can be obtained from

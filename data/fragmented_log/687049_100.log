@@ -1,0 +1,4 @@
+n::chooseRegionalTrackerTracks                  215        0.128 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|makeTkCandCollection::trackCollection                              215        0.224 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|trajectories::Total                                                227       13.070 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|trajectories::build                                                215     

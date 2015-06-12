@@ -1,0 +1,12 @@
+ntry.o" "Logtemp_shlib/LogStream.o" "Logtemp_shlib/Log_Dict.o" "Logtemp_shlib/Manager.o" "Logtemp_shlib/ScriptLog.o"
+------> Log : library ok
+------> Log ok
+installation done
+------> (constituents.make) Log done
+------> (constituents.make) Building library_postinstallation.make
+Document library_postinstallation
+------> (constituents.make) Starting library_postinstallation
+------> (constituents.make) library_postinstallation done
+------> (constituents.make) Building lib_macro.make
+Document lib_macro
+------> 

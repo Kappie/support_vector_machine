@@ -1,0 +1,14 @@
+8457Jy  sigma=0.002532
+! Inverting map 
+! Your choice of large map pixels excluded 1.03% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+print "************** FINISHED NATURAL WEIGHTING CLEAN **************"
+! ************** FINISHED NATURAL WEIGHTING CLEAN ************** 
+! 
+gscale true
+! Performing overall amplitude self-cal
+! 
+! Correcting IF 1.
+!  A total of 93 telescope corrections were flagged in sub-array 1.
+!  Telescope amplitude corrections in sub-array 1:
+!   BR  

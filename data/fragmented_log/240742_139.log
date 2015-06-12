@@ -1,0 +1,10 @@
+ff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.19:52:16.90/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.19:52:16.90/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.19:52:17.07:!2001.295.20:01:26
+2001.295.20:01:26.00:tape
+2001.295.20:01:26.12/tape/off,11656,norm,stopped,stop,unlock,ready,rem
+2001.295.20:01:26.12:st=rev,160
+2001.295.20:01:26.28:!2001.295.20:01:26
+2001.295.20:01:26.28:preob
+2001.2

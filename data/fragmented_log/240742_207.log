@@ -1,0 +1,11 @@
+29.00:tape
+2001.295.20:58:29.12/tape/off,02853,norm,stopped,stop,unlock,ready,rem
+2001.295.20:58:29.12:st=for,160
+2001.295.20:58:29.28:!2001.295.20:58:29
+2001.295.20:58:29.28:preob
+2001.295.20:58:29.30#antcn#Checking onsource status
+2001.295.20:58:29.31#antcn# RAsource   300.258   DECsource  -17.812
+2001.295.20:58:29.31#antcn# RAbeam     300.261   DECbeam    -17.811
+2001.295.20:58:29.31#antcn# RAdelta      0.002   DECdelta     0.000
+2001.295.20:58:29.32/onsource/TRACKING
+2001.295.20:58:31.87/tpical/7853,612

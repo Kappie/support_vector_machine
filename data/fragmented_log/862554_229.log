@@ -1,0 +1,11 @@
+sel:ASCA-GIS3-PH > extract spectrum
+!xsel:ASCA-GIS3-PH > save spectrum group=no clobber=yes 72016000_gis3_bgd.pha
+Wrote spectrum to 72016000_gis3_bgd.pha
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 72016000_gis3_bgd.evt
+Wrote events list to file 72016000_gis3_bgd.evt
+!xsel:ASCA-GIS3-PH > clear events
+!xsel:ASCA-GIS3-PH > clear pha_cutoff
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS3-PH > extract events

@@ -1,0 +1,10 @@
+SG
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 09:04:20 EDT  Run: 1 Event: 6
+The maximum number of steps has been exceeded. Returned vertex is invalid
+
+%MSG
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-2007 09:04:26 EDT  Run: 1 Event: 7
+Warning: L1 trigger info not available 
+%MSG
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 1.071342489e-08
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-

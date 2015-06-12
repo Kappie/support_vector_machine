@@ -1,0 +1,10 @@
+00        10654.05    
+  input scale:     156.9083    
+  Colortable is vnt                     0.000000        23536.24     
+            1  T  F  F  F
+  l_discrete case, ncols =     150.0000        10.00000               15
+  ccpfil_sub - scale,scale_loc =     156.9083        23536.24    
+  subroutine set_image_colortable: ncols =            15
+  subroutine generate_colortable: ncols =            15
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/vnt.lut
+  Subroutine color_ramp..             

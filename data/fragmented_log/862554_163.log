@@ -1,0 +1,16 @@
+
+ 
+Got the minimum time resolution of the read data:  0.50000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/72016000/work/
+HK Directory is: /tproc/nandra/processing/72016000/work/
+ 
+!xsel:ASCA-GIS2-PH > set binsize 128
+!xsel:ASCA-GIS2-PH > set image sky
+!xsel:ASCA-GIS2-PH > set xybinsize 1
+!xsel:ASCA-GIS2-PH > extract image
+!xsel:ASCA-GIS2-PH > save image clobber=yes 72016000_gis2_sky.img
+Wrote image to file 72016

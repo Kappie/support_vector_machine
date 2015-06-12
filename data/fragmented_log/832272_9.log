@@ -1,0 +1,13 @@
+! 
+! Fit before self-cal, rms=0.223842Jy  sigma=0.001343
+! Fit after  self-cal, rms=0.223829Jy  sigma=0.001343
+! Inverting map 
+print "************** FINISHED NATURAL WEIGHTING CLEAN **************"
+! ************** FINISHED NATURAL WEIGHTING CLEAN ************** 
+! 
+restore
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.8703 x 2.326 at -3.247 degrees (North through East)
+! Clean map  min=-0.012297  max=0.19871 Jy/beam
+if(peak(flux) < thresh*2)
+  selflims amp

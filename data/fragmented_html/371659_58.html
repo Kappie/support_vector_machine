@@ -1,0 +1,21 @@
+lipse; POINT is just a
+   point in three-dimensional space:
+<P>
+ 
+<PRE>
+   INTEGER               UBEL
+   PARAMETER           ( UBEL = 9 )
+ 
+   DOUBLE PRECISION      POINT  ( 3 )
+   DOUBLE PRECISION      ELLIPS ( UBEL )
+   DOUBLE PRECISION      NRPT   ( 3 )
+   DOUBLE PRECISION      DIST
+</PRE>
+   Then the call
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/npelpt.html">NPELPT</a> ( POINT, ELLIPS, NRPT, DIST )
+</PRE>
+   returns NRPT as the point on ELLIPS closest to POINT, and DIST as the
+   distance between NRPT a

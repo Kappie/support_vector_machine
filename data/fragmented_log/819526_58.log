@@ -1,0 +1,12 @@
+not currently selected.
+flux_cutoff = imstat(rms) * dynam
+! Adding 12 model components to the UV plane model.
+! The established model now contains 12 components and 1.7022 Jy
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmin=0.8524 mas, bmaj=2.375 mas, bpa=-8.167 degrees
+! Estimated noise=509.631 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_nit

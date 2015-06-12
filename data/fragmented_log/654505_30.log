@@ -1,0 +1,8 @@
+ --qf '%25{NAME} %10{EPOCH} %15{VERSION} %15{RELEASE}
+' | sort -bf"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> ""
+[Util.pm/269/file_user()] UID:  99
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "builduser" -> "nobody"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> "chroot /var/tmp/mezzanine.temp.dironly.29689.243e /bin/su -s /bin/sh nobody -c /bin/sh -c "/usr/bin/r

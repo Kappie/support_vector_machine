@@ -1,0 +1,10 @@
+ode for today's shots.  We called Stephen  
+and he and Pasha are working on fixing the data stream so that it 
+(hopefully) doesn't split the stream and we accept everything into one place until things are more stable.  Work is in progress.  However, this may indicate that at least the L1 early 
+mode is functioning, given that bucket 1 was kept and bucket 0 
+filtered (ie- the events were mainly in bucket 1).
+<!-- Author: R. Erbacher :: (run 100750) -->
+
+
+<!-- Date: Sun Oct 8 11:35:46 2000 -->
+<table><tr><td>

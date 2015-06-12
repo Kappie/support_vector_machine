@@ -1,0 +1,14 @@
+v=",int(3*image_rms*10000)/10000
+! clev= 0.0017 
+print "peak=",int(1000*peak_flux)/1000
+! peak= 1.972 
+mapcolor none
+! Mapplot colormap: none, contrast: 1 brightness: 0.5.
+mapplot cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.6904 x 1.913 at -6.457 degrees (North through East)
+! Clean map  min=-0.0018639  max=1.9722 Jy/beam
+mapcolor color, 0.9
+! Mapplot colormap: rainbow, contrast: 0.9 brightness: 0.5.
+device "J0530+1331_X_2001_10_29_pus\_map.gif/vgif"
+!

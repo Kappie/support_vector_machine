@@ -1,0 +1,14 @@
+tart ... 10631 04:22:59.909
+ No. of Rows .......           64        Last GTI Stop ..... 10632 09:20:53.916
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ 
+ Expected Start ... 10631.18263783559  (days)       4:22:59:909  (h:m:s:ms)
+ Expected Stop .... 10632.38951291246  (days)       9:20:53:916  (h:m:s:ms)
+ 
+ Minimum Newbin Time    4.0000000      (s)
+ for Maximum Newbin No..            26069
+ 
+ Default Newbin Time is:   10.428026    (s) (to have 1 Intv. of   10000 Newbins)
+ Type INDEF to accept t

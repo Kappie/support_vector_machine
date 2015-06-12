@@ -1,0 +1,9 @@
+Of(":ww=") != -1 || windowparams.indexOf(":hh=") != -1 || 
+	    windowparams.indexOf(":left=") != -1 || windowparams.indexOf(":top=") != -1 )
+	{
+		windowparams = substringReplace(windowparams,':left=',',left=');
+		windowparams = substringReplace(windowparams,'left=','left=');
+		windowparams = substringReplace(windowparams,':ww=',',width=');
+		windowparams = substringReplace(windowparams,'ww=','width=');		
+		windowparams = substringReplace(windowparams,':hh=',',height=');
+		windowparams = substringReplace(wi

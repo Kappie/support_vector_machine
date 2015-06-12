@@ -1,0 +1,20 @@
+l
+! Adding 14 model components to the UV plane model.
+! The established model now contains 108 components and 2.57646 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.203242Jy  sigma=0.001509
+! Fit after  self-cal, rms=0.203223Jy  sigma=0.001509
+flux_cutoff = imstat(rms) * dynam
+! Inverting map 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+repeat
+  i

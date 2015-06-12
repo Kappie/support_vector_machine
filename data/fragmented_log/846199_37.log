@@ -1,0 +1,12 @@
+shed Amplitude Self-Cal ***"
+! *** Finished Amplitude Self-Cal *** 
+print "***********************************"
+! *********************************** 
+save 1053+815_S
+! Writing UV FITS file: 1053+815_S.uvf
+! Writing 39 model components to file: 1053+815_S.mod
+! wwins: Wrote 2 windows to 1053+815_S.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 2.014 x 2.326 at 15.62 degrees (North through East)
+! Clean map  min=-0.0025422  max=0.37978 Jy/beam
+! Writing clea

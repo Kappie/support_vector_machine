@@ -1,0 +1,8 @@
+11.100,bu,11.100,cu,11.100,du,11.100,eu,11.100
+2004.349.22:15:22.43/caltemp/i2,11.100
+2004.349.22:15:22.43/caltemp/5u,5.000,6u,5.000,7u,5.000,8u,5.000,i3,5.000
+2004.349.22:15:22.43?ERROR qk -211 Tsys value for device ve overflowed or was less than zero.
+2004.349.22:15:22.43?ERROR qk -211 Tsys value for device i3 overflowed or was less than zero.
+2004.349.22:15:22.43/tsys/1u,95.7,2u,92.8,3u,88.3,4u,92.0,i1,94.9
+2004.349.22:15:22.43/tsys/9u,168.7,au,163.2,bu,152.5,cu,138.3,du,134.3,eu,$$$$$$$$
+2004.349.22:15:

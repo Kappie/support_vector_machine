@@ -1,0 +1,12 @@
+off,locked,44.11
+9830217583734:sx2c1=3
+9830217584968?ERROR q@ -404 Head positioning failed to converge.
+9830217585312:fastr=0m49s
+9830217591520?ERROR ch -351 Tape head 1 is not in requested position.
+9830217593718?ERROR ch -351 Tape head 1 is not in requested position.
+9830217594243:!302180010
+9830217595896?ERROR ch -351 Tape head 1 is not in requested position.
+9830218001000:preob
+9830218001000#antcn#Check if antenna is on-source
+9830218001043/onsource/TRACKING
+9830218001284/tpical/49397,46702,42333,36671,

@@ -1,0 +1,5 @@
+/local/cdat/Externals/share/gtk-doc/html/libxml2
+mkdir -p -- /usr/local/cdat/Externals/share/gtk-doc/html/libxml2
+/usr/bin/install -c -m 0644 libxml2.devhelp /usr/local/cdat/Externals/share/gtk-doc/html/libxml2
+/usr/bin/install -c -m 0644 home.png left.png right.png up.png style.css /usr/local/cdat/Externals/share/gtk-doc/html/libxml2
+/usr/bin/install -c -m 0644 index.html general.html libxml2-c14n.html libxml2-catalog.html libxml2-chvalid.html libxml2-debugXML.html libxml2-dict.html libxml2-DOCBparser.html

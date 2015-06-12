@@ -1,0 +1,15 @@
+9924019205218/tape/off,02383,norm,stopped,stop,unlock,ready,rem
+9924019205218:postob
+9924019205280/cable/+3.073E-04
+9924019205407/gps-fmout/+4.4E-06
+9924019205414/onsource/TRACKING
+9924019205414#antcn#Received message for antenna: TCHECK
+9924019205414/relheight/T1,T2,T3,T4,L5/ 28.08.1999  19:20  24.47  25.41  21.42  24.75  3.129
+ 
+9924019205414:fastr=1m39s
+9924019223341:unlod
+9924019223341&unlod/!+5s
+9924019223341&unlod/enable=,
+9924019223341&unlod/check=*,-tp
+9924019223341&unlod/tape=off
+9924019223341&unlo

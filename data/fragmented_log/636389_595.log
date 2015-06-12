@@ -1,0 +1,12 @@
+m_count
+  Plotting Continents             1            0
+  Subroutine supmap...            3
+  DSRDI =     2663.868    
+ /data/lapb/tw/fsl-linux9/data/static//ncarg/continent_minus_
+  UMIN/UMAX/VMIN/VMAX  -4.3245178E-02   4.3245580E-02  -0.8741419     
+  -0.7944792    
+  lapsplot_setup: return
+  Not calling plot_station_locations: 1
+  Plotting: c_metacode,i_overlay = c             1
+  CLOW,HIGH,CINT     4.000000        30.00000        2.000000    
+  Max/Min/n_missing =     28.09235        5.611969          

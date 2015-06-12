@@ -1,0 +1,16 @@
+ndex  * 1
+!Param# 21 : =7 
+Equating parameter :norm to parameter wabs:norm  * 1
+!Param# 22 : 0.99,0.01,0,0,2,2 
+!Param# 23 : =2 
+Equating parameter :nH to parameter wabs:nH  * 1
+!Param# 24 : =3 
+Equating parameter :PhoIndex to parameter powerlaw:PhoIndex  * 1
+!Param# 25 : =4 
+Equating parameter :norm to parameter wabs:norm  * 1
+!Param# 26 : =5 
+Equating parameter :nH to parameter powerlaw:nH  * 1
+!Param# 27 : =6. 
+Equating parameter :PhoIndex to parameter constant:PhoIndex  * 1
+!Param# 28 : =7
+Equating para

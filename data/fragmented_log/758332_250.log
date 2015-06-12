@@ -1,0 +1,12 @@
+scaarf 74035000_sis1_src.pha.tmp 74035000_sis1.rmf 74035000_sis1.arf point=yes simple=yes clobber=yes
+ASCAARF vers 3.00  6 Oct 1998.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xrt_psf_v2_0.fits
+ 
+ Input WMAP array has size   45 by   38 bins
+               expanded to   45 by   38 bins
+ First WMAP bin is at detector pixel  272  328
+   8 detector pixels per WMAP bin
+ WMAP bin size is   0.21600 mm
+                    0.21216 arcmin
+ Selected region size is   65

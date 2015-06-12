@@ -1,0 +1,10 @@
+8)
+EDR INPUT DVC #2925:   Non nominal matrix rate value (overflow) (EDR #7257, SCET=1498861641)
+CDF OUTPUT LOG:        CDF Records written=94 (Range Errors=0)
+[01-Apr-2002-21:11:08  End processing file: .\data\1997\19970630.cdf]
+
+[01-Apr-2002-21:11:08  Start processing file: .\data\1997\19970701.cdf]
+EDR INPUT LOG:         SEDRs=242, EDRs=7291 (Skipped=0, Gaps=19447), DVCs=2931 (Non Nominal=6, Skipped=323)
+[01-Apr-2002-21:11:08  End processing file: \UlsRawData\EdrData\1997\edr9706.glg]
+
+[01-Apr-20

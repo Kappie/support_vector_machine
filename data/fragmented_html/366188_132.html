@@ -1,0 +1,17 @@
+his.dcsCreateImage(P);
+		this.WT.ad="";
+	}
+	WebTrends.prototype.dcsFunc=function(func){
+		if (typeof(func)=="function"){
+			func();
+		}
+	}
+	WebTrends.prototype.dcsDebug=function(){
+		var t=this;
+		var i=t.images[0].src;
+		var q=i.indexOf("?");
+		var r=i.substring(0,q).split("/");
+		var m="<b>Protocol</b><br><code>"+r[0]+"<br></code>";
+		m+="<b>Domain</b><br><code>"+r[2]+"<br></code>";
+		m+="<b>Path</b><br><code>/"+r[3]+"/"+r[4]+"<br></code>";
+		m+="<b>Query Params</b><code>"+i.substring(q+1)

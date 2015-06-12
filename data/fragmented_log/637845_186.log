@@ -1,0 +1,6 @@
+etween pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc: In function 'void G__setup_memfuncLoggingcLcLFmtPadTo()':
+../Linux-i686/Log_Dict.cc:5865: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5866: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5867: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5868: w

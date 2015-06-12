@@ -1,0 +1,18 @@
+nction MyNCBI_find()
+{
+var cs = document.cookie.split('; ');
+for(var i = 0; i < cs.length; i++) {
+// a name/value pair (a crumb) is separated by an equal sign
+var c = cs[i].split('=');
+if(c[0] == 'WebCubbyUser') { return c[1]; }
+}
+return '';
+}
+function MyNCBI_auto_submit(url)
+{
+var qm = url.indexOf('?');
+if( qm < 0 || qm >= (url.length - 1) ) {
+window.location.replace(url);
+} else {
+var w = (self != top && self.name) ? top.frames[self.name] : self;
+var f = '<form name="myncbiautosubmitform" method="POST" ac

@@ -1,0 +1,23 @@
+7.813     using  1375 PHA bins.
+ Reduced chi-squared =      1.137920     for   1369 degrees of freedom
+ Null hypothesis probability = 2.629E-04
+
+!XSPEC> set chisq [show fit];
+
+!XSPEC> error max 15 4.61 2
+ Parameter   Confidence Range (     4.610)
+     2    0.141705        0.157122
+
+!XSPEC> set str [error max 15 4.61 2];
+
+!XSPEC> lindex $str 0
+
+!XSPEC> set nhlo [lindex $str 0];
+
+!XSPEC> lindex $str 1
+
+!XSPEC> set nhhi [lindex $str 1];
+
+!XSPEC> expr ($nhhi - $nhlo)/2.0
+
+!XSPEC> set nh_err [expr ($nhhi - $nhlo

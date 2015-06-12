@@ -1,0 +1,16 @@
+.
+! Restoring with beam: 2.463 x 4.798 at 1.24 degrees (North through East)
+! Clean map  min=-0.00384  max=1.7762 Jy/beam
+! Writing clean map to FITS file: J2218-0335_S_1999_12_20_pus_map.fits
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak flux is 1.77617 
+invert
+! Inverting map 
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.000871785 
+device "J2218-0335_S_1999_12_20_pus\_map.eps/VPS"
+! Attempting to open

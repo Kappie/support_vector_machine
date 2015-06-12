@@ -1,0 +1,18 @@
+led()?"Yes":"No";
+		}
+		if (document.title){
+			if (window.RegExp){
+				var tire=new RegExp("^"+window.location.protocol+"//"+window.location.hostname+"\\s-\\s");
+				WT.ti=document.title.replace(tire,"");
+			}
+			else{
+				WT.ti=document.title;
+			}
+		}
+		WT.js="Yes";
+		WT.jv=(function(){
+			var agt=navigator.userAgent.toLowerCase();
+			var major=parseInt(navigator.appVersion);
+			var mac=(agt.indexOf("mac")!=-1);
+			var ff=(agt.indexOf("firefox")!=-1);
+			var ff0=(agt.indexOf("firefox/0."

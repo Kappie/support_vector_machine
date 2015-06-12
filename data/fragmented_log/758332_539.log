@@ -1,0 +1,11 @@
+    = par   6         4
+   28    7   20   powerlaw   norm               2.0380E-04 = par   7         4
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      353.6949     using   331 PHA bins.
+ Reduced chi-squared =      1.098431     for    322 degrees of freedom
+ Null hypothesis probability = 0.108
+
+!XSPEC> notice 1-4:5.0-7.5;
+ A total of    44 more channels will be noticed
+ Net count ra

@@ -1,0 +1,10 @@
+ield_2d: i4time =    1464804000
+  plot_field_2d - image plot spi           0.000000        50.00000    
+  Subroutine ccpfil for solid fill plot...
+  input array range:    2.8073065E-02    37.83950    
+  input scale:     1.000000    
+  Colortable is spectral    0.000000        50.00000                0  T  F  F 
+  F
+  l_discrete case, ncols =     50.00000        10.00000                5
+  ccpfil_sub - scale,scale_loc =     1.000000        50.00000    
+  subroutine set_image_colortable: ncols =             5

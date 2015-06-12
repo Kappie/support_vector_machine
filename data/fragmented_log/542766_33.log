@@ -1,0 +1,12 @@
+ff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919418184083/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919418184154/pass/1,1,auto,-330.0,-330.0,-331.1,-329.2,-1.1,0.8
+9919418184170:!194182015
+9919418201500:tape
+9919418201507/tape/off,04657,norm,stopped,stop,unlock,ready,rem
+9919418201507:st=for,80
+9919418201522:!194182025
+9919418202500:preob
+9919418202500#antcn#Checking onsource status
+9919418202504#antcn# RAsource   194.487   DECsource  -31.919
+9919418202504#antc

@@ -1,0 +1,21 @@
+')==0?'s':'')+"://"+this.domain+(this.dcsid==""?'':'/'+this.dcsid)+"/dcs.gif?";
+		if (i18n){
+			WT.dep="";
+		}
+		for (var N in DCS){
+			if (DCS[N]&&(typeof DCS[N]!="function")){
+				P+=this.dcsA(N,DCS[N]);
+			}
+		}
+		var keys=["co_f","vt_sid","vt_f_tlv"];
+		for (var i=0;i<keys.length;i++){
+			var key=keys[i];
+			if (WT[key]){
+				P+=this.dcsA("WT."+key,WT[key]);
+				delete WT[key];
+			}
+		}
+		for (N in WT){
+			if (WT[N]&&(typeof WT[N]!="function")){
+				P+=this.dcsA("WT."+N,WT[N]);
+			}

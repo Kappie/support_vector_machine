@@ -1,0 +1,23 @@
+ ) {
+p.shift();
+f += '" value="' + unescape(p.join('=')).replace(/"/g,'&quot;');
+}
+f += '"/>';
+}
+f += '</form>';
+w.document.body.innerHTML += f;
+w.document.myncbiautosubmitform.submit();
+}
+}
+function MyNCBI_r()
+{
+var x = MyNCBI_find();
+if( x != myncbi_x ) {
+myncbi_x = x;
+MyNCBI_auto_submit(myncbi_cu);
+} else {
+window.setTimeout(MyNCBI_r, 500);
+}
+}
+window.setTimeout(MyNCBI_r, 500);
+// --></script><table class="medium1" style="border:2px solid #336699;" cellpadding="2" cellspacing="0" id="myncbi_off"><tr><td 

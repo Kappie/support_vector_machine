@@ -1,0 +1,11 @@
+r test
+configure:5788: checking for mkdir
+configure:5823: checking for cat
+configure:5858: checking for gzip
+configure:5895: checking for lynx
+configure:5930: checking for wget
+configure:5965: checking for curl
+configure:6000: checking for links
+configure:6088: checking for fetch command
+configure:6113: checking for libnet_init in -lnet
+configure:6132: gcc -o conftest -g -O2  -I/p/nessus/v2_0_9/include/nessus -DNESSUS_ON_SSL -DHAVE_SSL -I/p/openssl/v0_9_7/include -I/p/openssl/v0_9_7/include/openssl    conft

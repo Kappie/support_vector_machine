@@ -1,0 +1,16 @@
+.fits
+Please stand by...
+...Done.
+gnt_infrm: Creating response matrix for sis1...
+ 
+Sisrmg Version 1.1, Configured 04/97
+
+  This version resolves *all* known keyword incompatibilities with
+  other FTOOLS tasks.  If you have previously fudged *any* keywords
+  in the PHA file to compensate, incorrect results will follow.
+ 
+Setting 1st PHA channel to 0
+Making v1.1 1180x1024 S1C3 Bright2 PI RMF
+Calibration data files:
+  ecd = /software/lheasoft/release/refdata/sisdata/sis1c3p40_290296.fits
+  cti = /software/lhe

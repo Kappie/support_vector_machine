@@ -1,0 +1,9 @@
+eant] =I= [0m        Nuclear stopping power model is ICRU_R49
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmsc:  Model variant of multiple scattering for mu+
+[0m[geant] =I= [0m      Lambda tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Boundary/stepping algorithm is active with facrange= 0.02  Step limitation 1
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmuIoni:   tables are built for  mu+
+[0m[geant] =I= [0m      dE/dx and range tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I

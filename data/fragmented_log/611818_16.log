@@ -1,0 +1,13 @@
+/TRACKING
+9921515503502#antcn#Received message for antenna: TCHECK
+9921515503502/relheight/T1,T2,T3,T4,L5/ 03.08.1999  15:50  24.99  28.62  30.20  24.95  3.597
+ 
+9921515503502:source=0642+449,064253.0,445430.9,1950.0,cw
+9921515503538:check2a1
+9921515503538&check2a1/"checks 32 tracks at 80 ips
+9921515503538&check2a1/check=*,-tp,-hd
+9921515503538&check2a1/decode=a,crc,byte
+9921515503538&check2a1/parity=,,ab,off,m0,m1,m2,m3
+9921515503538&check2a1/st=rev,160,off
+9921515503538&check2a1/!+18s
+9921515503538&check2

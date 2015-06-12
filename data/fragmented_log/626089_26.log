@@ -1,0 +1,5 @@
+rate readout!!!</h3>
+
+<p>After much head-scratching (and some luck), finally figured out what was wrong with the laser reference crate readout.  Using <tt>fdaq</tt> to watch the pipeline depth and offset along with the L2 buffer contents in the ADMEM, I found that these were not changing correctly when these parameters were changed using <tt>cardEditor</tt> and running <tt>RUN_CONTROL</tt>.</p>
+
+<p>Instead, Frank changed them using VISIONdemo directly inside the ADMEM, which meant we didn't even have to

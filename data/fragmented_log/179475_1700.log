@@ -1,0 +1,12 @@
+0 ;
+2004.350.06:20:27.19/mk5/!mode = 0 ;
+2004.350.06:20:27.22/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.06:20:27.22:!2004.350.06:22:21
+2004.350.06:22:19.96;source=hold
+2004.350.06:22:19.96#flagr#flagr/antenna,new-source
+2004.350.06:22:20.21#skua #Interrupted: processing new source
+2004.350.06:22:21.00:preob
+2004.350.06:22:21.00?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.350.06:22:21.00/onsource/SLEWING
+2004.350.06:22:21.48/tpi/1u,15727,2u,9979,3u,10640,4u,5243,i1,7822
+2004.350.0

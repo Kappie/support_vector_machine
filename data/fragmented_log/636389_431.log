@@ -1,0 +1,14 @@
+(LAPS,LGA,FUA,BAL),
+           [hh,bl,lf] Ht of Temp Sfc, PBL, Fire Wx
+
+     HUMIDITY: [br,fr,lq,rb] (lga;fua;lq3;bal)
+               [pw] Precipitable H2O
+
+     CLOUDS/PRECIP: [ci] Cloud Ice, [ls] Cloud LWC
+         [is] Integrated Cloud LWC  
+         [mv] Mean Volume Drop Diam,   [ic] Icing Index,
+         [cc] Cld Ceiling (AGL), [cb,ct] Cld Base/Top (MSL)
+         [cv/cg] Cloud Cover (2-D) [cy,py] Cloud/Precip Type
+         [pc,rn,sn] Precip Conc, [sa/pa] Snow/Pcp Accum, [sc/csc] Snow Cvr
+
+     STATIC I

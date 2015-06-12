@@ -1,0 +1,10 @@
+,580,763,773
+9924015015522/rx/02(LO),on,a,on,on,on,off,locked,36.69
+9924015015533/rx/03(DCAL),on,a,on,on,on,off,locked,47.43
+9924015015543/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+9924015015553/rx/17(PRES),on,a,on,on,on,off,locked,1.227
+9924015015563/rx/1E(20K),on,a,on,on,on,off,locked,25.85
+9924015015570:nw2a1=4
+9924015020172/pass/4,4,auto,55.0,55.0,56.0,54.9,1.0,-0.1
+9924015020483/form/0x0015 0x0000 0x9221 38 1 4000 11 0 0 0
+9924015020483/form/map[0].stack[1].head[2] = xff xff x00 x01 x02 x03 x04 x05 

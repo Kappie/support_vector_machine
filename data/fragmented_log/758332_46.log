@@ -1,0 +1,14 @@
+31E-05
+ Zero Bgd Cutoff threshold (>)   :            3
+ Iterate                         :            T
+ Dirtysis                        :            F
+ 
+ Minimum PHA value (inclusive)   :            0
+ Maximum PHA value (inclusive)   :         4095
+ 
+    open output  file: /local/data/tproc/nandra/processing/74035000/work/ascascr
+    reading data file: /local/data/tproc/nandra/processing/74035000/work/ascascr
+    copying primary header to output file...
+    making chip image...
+ 
+ Total counts in chip image

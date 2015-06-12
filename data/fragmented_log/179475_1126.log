@@ -1,0 +1,12 @@
+nna slewing to azimuth 183.8, elevation 49.5
+2004.350.01:30:08.15/mk5/!play_rate = 0 ;
+2004.350.01:30:08.15/mk5/!mode = 0 ;
+2004.350.01:30:08.19/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.01:30:08.19:!2004.350.01:32:17
+2004.350.01:30:33.14#skua #Antenna slewing complete
+2004.350.01:30:43.94#flagr#flagr/antenna,acquired
+2004.350.01:32:08.11;stlog=on,on
+2004.350.01:32:08.11#skua #antenna data recording started
+2004.350.01:32:08.11/stlog/on,on
+2004.350.01:32:17.00:preob
+2004.350.01:32:17.00/onso

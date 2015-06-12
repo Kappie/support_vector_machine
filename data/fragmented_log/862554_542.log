@@ -1,0 +1,11 @@
+ 72016000_gis2.arf
+   using background file...           72016000_gis2_bgd.pha
+ Net count rate (cts/s) for file   4  0.1094    +/-  2.7156E-03( 79.6% total)
+   using response (RMF) file...       72016000_gis3.rmf
+   using auxiliary (ARF) file...      72016000_gis3.arf
+   using background file...           72016000_gis3_bgd.pha
+ Chi-Squared =      415.8423     using   382 PHA bins.
+ Reduced chi-squared =      1.114859     for    373 degrees of freedom
+ Null hypothesis probability = 6.222E-02
+
+!XSPEC> ignore 

@@ -1,0 +1,13 @@
+111.0,-109.6,-1.0,0.4
+9919517540971:!195175840
+9919517555404;"clock offset:UTC-Hartrao=9.184 microsec.@17;56"
+9919517584000:tape
+9919517584006/tape/off,04323,norm,stopped,stop,unlock,ready,rem
+9919517584006:st=rev,80
+9919517584021:!195175850
+9919517585000:preob
+9919517585000#antcn#Checking onsource status
+9919517585003#antcn# RAsource   299.494   DECsource  -38.751
+9919517585004#antcn# RAbeam     299.495   DECbeam    -38.752
+9919517585004#antcn# RAdelta      0.001   DECdelta     0.001
+9919517585004/onsource

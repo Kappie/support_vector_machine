@@ -1,0 +1,11 @@
+1.935
+2004.167.03:06:00.64/rx/17(pres),on,a,on,on,on,off,locked,1319.
+2004.167.03:06:00.74/rx/1E(20k),on,a,on,on,on,off,locked,212.2
+2004.167.03:06:00.84/rx/1F(70k),on,a,on,on,on,off,locked,234.1
+2004.167.03:06:00.84:4f8v12a=8
+2004.167.03:06:08.16/pass/8,,auto,165.0,,165.0,,-0.0,
+2004.167.03:06:17.31:fastf=0m27.42s
+2004.167.03:06:32.78?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.03:06:32.78?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.03:06:44.83:!+5s
+2004.167.03

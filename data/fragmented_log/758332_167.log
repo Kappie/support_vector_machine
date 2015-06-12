@@ -1,0 +1,12 @@
+rum
+!xsel:ASCA-GIS2-PH > save spectrum group=no clobber=yes 74035000_gis2_src.pha
+Wrote spectrum to 74035000_gis2_src.pha
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 74035000_gis2_src.evt
+Wrote events list to file 74035000_gis2_src.evt
+!xsel:ASCA-GIS2-PH > clear events
+!xsel:ASCA-GIS2-PH > clear pha_cutoff
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save event

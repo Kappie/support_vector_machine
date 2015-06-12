@@ -1,0 +1,11 @@
+CDID.EQ.1
+!xsel:ASCA-SIS0-BRIGHT2 > filter region 76052020_sis0_src.reg
+!xsel:ASCA-SIS0-BRIGHT2 > extract spectrum
+!xsel:ASCA-SIS0-BRIGHT2 > save spectrum group=yes clobber=yes 76052020_sis0_src.pha
+Wrote spectrum to 76052020_sis0_src.pha
+!xsel:ASCA-SIS0-BRIGHT2 > filter pha_cutoff 140 2796
+!xsel:ASCA-SIS0-BRIGHT2 > extract events
+!xsel:ASCA-SIS0-BRIGHT2 > save events use=no clobber=yes 76052020_sis0_src.evt
+Wrote events list to file 76052020_sis0_src.evt
+!xsel:ASCA-SIS0-BRIGHT2 > clear events
+!xsel:ASCA-SI

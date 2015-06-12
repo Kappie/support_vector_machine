@@ -1,0 +1,4 @@
+5/Src/meme_cote.o build/temp.linux-i686-2.5/Src/intersecte.o build/temp.linux-i686-2.5/Src/echange.o build/temp.linux-i686-2.5/Src/SphericalPolyArea.o build/temp.linux-i686-2.5/Src/cal_int.o build/temp.linux-i686-2.5/Src/cfraction.o build/temp.linux-i686-2.5/Src/zonebasin.o build/temp.linux-i686-2.5/build/src.linux-i686-2.5/ZonalMeans/_gengridzmean-f2pywrappers2.o -lgfortran -o build/lib.linux-i686-2.5/ZonalMeans/_gengridzmean.so
+running scons
+running install_lib
+creating /usr/local/cdat/lib/python2.5/site-

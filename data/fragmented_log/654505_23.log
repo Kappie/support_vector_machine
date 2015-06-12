@@ -1,0 +1,9 @@
+stic
+[RPM.pm/315/parse_spec_file()]     release -> 4.caos
+[RPM.pm/315/parse_spec_file()]     requires -> perl >= 5.6.1
+[RPM.pm/315/parse_spec_file()]     summary -> A database access API for perl
+[RPM.pm/315/parse_spec_file()]     url -> http://dbi.perl.org/
+[RPM.pm/315/parse_spec_file()]     version -> 1.40
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "allow_epoch" -> "0"
+[Build.pm/317/install_deps()] Installing the following:  perl-Time-HiRes
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable 

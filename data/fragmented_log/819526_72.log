@@ -1,0 +1,14 @@
+7 milli-arcsec
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.00110797 
+device "J0730-1141_X_1999_12_20_pus\_map.eps/VPS"
+! Attempting to open device: 'J0730-1141_X_1999_12_20_pus_map.eps/VPS'
+loglevs 100*3*image_rms/peak_flux
+! The new contour levels are:
+!  -0.211339 0.211339 0.422679 0.845358 1.69072 3.38143 6.76286 13.5257 27.0514 54.1029
+print "clev=",int(3*image_rms*10000)/10000
+! clev= 0.0033 
+print "peak=",int(1000*peak_flux)/1000
+! peak= 

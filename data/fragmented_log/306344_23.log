@@ -1,0 +1,15 @@
+d a new source
+9830205072823#antcn#Successfully sent new source position to antenna
+9830205072824:check2c1
+9830205080911/parity/0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.,0.
+9830205080911/parity/0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9830205082197:sx2c1=1
+9830205082197&sx2c1/tapefrmsxc
+9830205082197&sx2c1/pass=$,same
+9830205082197&sx2c1/form=c,4.000
+9830205082197&sx2c1/form=reset
+9830205082197&sx2c1/vcsx2
+9830205082197&sx2c1/ifdsx
+9830205082197&sx2c1/tape=low
+9830205082197&sx2c1/enable=g1,g3
+9830205082197&sx2c1/repro=byp,

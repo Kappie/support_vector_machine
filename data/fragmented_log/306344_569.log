@@ -1,0 +1,16 @@
+4795&unlod/"**************dismount this tape now************"
+9830216334795&unlod/wakeup
+9830216334795&unlod/xdisp=off
+9830216335461/                     !!!! wake up !!!!
+9830216335461:sx2c1=1
+9830216340923/pass/1,1,auto,-330.0,-330.0,-330.3,-329.9,-0.3,0.1
+9830216341269:ready
+9830216341269&ready/sxcts
+9830216341269&ready/rxmon
+9830216341269&ready/newtape
+9830216341269&ready/tape=low,reset
+9830216341269&ready/st=for,120,off
+9830216341269&ready/!+11s
+9830216341269&ready/et
+9830216341269&ready/!+3s
+983021634

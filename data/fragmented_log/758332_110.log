@@ -1,0 +1,17 @@
+ image
+!xsel:ASCA-GIS2-PH > save image gis2_sky.tmp clobber=yes
+Wrote image to file gis2_sky.tmp
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Smoothing sky image for gis2...
+ 
+ 
+gnt_infrm: Finding maximum pixel (centroid) for gis2...
+ 
+
+****** statistics for /tproc/nandra/processing/74035000/work/gis2_sky_sm.tmp ******
+
+The sum of the selected image                 = 1140.999998
+The mean of the selected image                = 0.627268
+The standard deviation of the selected image  = 0.757920
+The number of 

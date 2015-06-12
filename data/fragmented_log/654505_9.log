@@ -1,0 +1,10 @@
+OGS/cpan/perl-DBI/SRPMS does not exist.
+/bin/ls: /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SRPMS/../: No such file or directory
+[buildtool/228/is_build_needed()] Listing:  
+
+----
+[PkgVars.pm/160/pkgvar_set()] Setting instroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "instroot" -> "/var/tmp/mezzanine.temp.dironly.29689.243e"
+Resetting chroot jail, please wait.
+[Util.pm/1155/run_cmd()] About to run true /var/tmp/mezzanine.temp.dironly.29689.243e
+[Util.pm/1192/run_cmd()] "true /var/tmp

@@ -1,0 +1,10 @@
+ Value Detected in 2D Field
+  Subroutine ccpfil for solid fill plot...
+  input array range:    -500.0000        999.0000    
+  input scale:     1.000000    
+  Colortable is cpe   -500.0000        50.00000                0  F  F  F  F
+  ccpfil_sub - scale,scale_loc =     1.000000        550.0000    
+  subroutine set_image_colortable: ncols =            20
+  subroutine generate_colortable: ncols =            48
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/cpe.lut
+  Subroutine color_ramp..   

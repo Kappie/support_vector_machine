@@ -1,0 +1,17 @@
+A, B, C be the lengths of the
+   semi-axes of the ellipsoid, let the variable POINT represent a surface
+   point on the ellipsoid, and let NORMAL represent the unit outward normal
+   at POINT. The variables POINT and NORMAL are declared
+<P>
+ 
+<PRE>
+   DOUBLE PRECISION      POINT  ( 3 )
+   DOUBLE PRECISION      NORMAL ( 3 )
+</PRE>
+   The call
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/surfnm.html">SURFNM</a> ( A, B, C, POINT, NORMAL )
+</PRE>
+   returns NORMAL as the unit outward normal vector at the surface po

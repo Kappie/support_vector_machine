@@ -1,0 +1,6 @@
+l/cdat/Externals/include/libxml2/libxml/xmlexports.h'
+ /usr/bin/install -c -m 644 'xmlwriter.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlwriter.h'
+ /usr/bin/install -c -m 644 'chvalid.h' '/usr/local/cdat/Externals/include/libxml2/libxml/chvalid.h'
+ /usr/bin/install -c -m 644 'pattern.h' '/usr/local/cdat/Externals/include/libxml2/libxml/pattern.h'
+ /usr/bin/install -c -m 644 'xmlsave.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlsave.h'
+ /usr/bin/install -c -m 644 'schematron.h' '/usr/l

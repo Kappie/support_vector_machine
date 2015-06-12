@@ -1,0 +1,22 @@
+SPEC> lindex $str 0
+
+!XSPEC> set nhlo [lindex $str 0];
+
+!XSPEC> lindex $str 1
+
+!XSPEC> set nhhi [lindex $str 1];
+
+!XSPEC> expr ($nhhi - $nhlo)/2.0
+XSPEC>exit
+ XSPEC: quit
+gnt_error(fits): File web_pha.gif was not created.
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_fits
+gnt_infrm: ========================
+Sat Apr 15 16:19:18 EDT 2000
+ 
+[1]  + Done                          /home/rosserv/nandra/tartarus/scripts3.2/do_kill  ...
+ 
+gnt_infrm: *************************
+gnt_infrm: Running 

@@ -1,0 +1,7 @@
+22,1pps
+2004.128.11:37:50.98/bbc12/772.89,b,4,4,1,agc,  6.25,  5.20,lock,16182,16189,1019,1pps
+2004.128.11:37:51.06/bbc13/807.89,b,4,4,1,agc,  9.13,  8.70,lock,16294,16397,1031,1pps
+2004.128.11:37:51.14/bbc14/812.89,b,4,4,1,agc,  7.92,  7.59,lock,16372,16216,1021,1pps
+2004.128.11:37:51.18#antcn#Received message for antenna: GETS
+2004.128.11:37:52.15#antcn#ACU: MJD:  53132, UTC:  41870, Src:  ext. 1pps present
+2004.128.11:37:52.15#antcn#ACU:   Azimuth: Pos:  3804630, Dev:       -1, Mode: Auto    , Drives STO

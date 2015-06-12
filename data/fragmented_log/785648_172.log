@@ -1,0 +1,11 @@
+ map (map cutoff=3.00 sigma)= 206         
+Filter by distance & map next to the model:
+   mapped sites are within: 0.571 - 5.286
+   number of sites selected in [dist_min= 0.70, dist_max= 6.00]: 204 from: 206
+   mapped sites are within: 0.731 - 5.286
+
+peak=   -5.327 closest distance to " CG2 VAL A 230 " =    0.731
+peak=   -4.530 closest distance to " CB  PRO A 243 " =    2.633
+peak=   -4.395 closest distance to " CD  ARG A 156 " =    2.006
+peak=   -4.279 closest distance to " O   HOH Z 290 " =    1.134
+peak=

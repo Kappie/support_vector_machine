@@ -1,0 +1,18 @@
+% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+! Performing amp+phase self-cal
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.297267Jy  sigma=0.001264
+! Fit after  self-cal, rms=0.301536Jy  sigma=0.001264
+print "************** CLEARING MODEL AND STARTING OVER **********"
+! ************** CLEARING MODEL AND STARTING OVER ********** 
+clrmod true
+! clrmod: Cleared the established and tentative models.

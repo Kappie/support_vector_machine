@@ -1,0 +1,12 @@
+101715:tape
+9919514101721/tape/off,00833,norm,stopped,stop,unlock,ready,rem
+9919514101722:postob
+9919514101723:source=0727-115,072758.1,-113452.5,1950.0
+9919514101724#antcn#Commanding to new source
+9919514101843#antcn#Source:  0727-115  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919514101843#antcn# RAcommand  112.566   DECcommand -11.686
+9919514101844:check2c1
+9919514104373#matcn#debug: #92 /rec 0[lf]
+9919514105249/peak/3,1,read,0.200,0.127,65.4,f,-1.675
+9919514105682/peak/3,1,read,0.200,0.146,50.0,f,-1.611
+9919

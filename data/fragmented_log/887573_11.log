@@ -1,0 +1,12 @@
+le disulfide: " SG  CYS A 168 " - " SG ACYS A 201 " distance=2.08
+    Simple disulfide: " SG  CYS A 168 " - " SG BCYS A 201 " distance=1.98
+    Simple disulfide: " SG  CYS A 254 " - " SG  CYS A 260 " distance=2.05
+  Time building geometry restraints manager: 0.14 seconds
+  Histogram of bond lengths:
+        1.21 -     1.38: 943
+        1.38 -     1.56: 1465
+        1.56 -     1.73: 7
+        1.73 -     1.90: 21
+        1.90 -     2.08: 3
+  Bond restraints sorted by residual:
+             atom i - atom j    

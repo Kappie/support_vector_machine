@@ -1,0 +1,14 @@
+table border=0><td><tr><td bgcolor=#e0e030><pre>Everybody, please, check that free space of  
+(disk3+disk4)@b0dau32 >= 50 GB 
+ 
+Don't send the data if  
+(disk3+disk4)@b0dau32 <= 5 GB</pre></td></tr></td></table>
+<!-- Author: Alexei V -->
+
+
+<!-- Date: Sun Oct 8 14:58:43 2000 -->
+<pre>around 11 am asked L3 group (Farrukh) to link new L3  
+executable with all 
+the events written into stream A - we do not need stream B  
+until it becomes clear what needs to go there. Also need  
+to drop 2 CT_HitSets (240 KB/eve

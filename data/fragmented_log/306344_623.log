@@ -1,0 +1,12 @@
+t in requested position.
+9830218010817?ERROR ch -351 Tape head 1 is not in requested position.
+9830218013015?ERROR ch -351 Tape head 1 is not in requested position.
+9830218015217?ERROR ch -351 Tape head 1 is not in requested position.
+9830218021417?ERROR ch -351 Tape head 1 is not in requested position.
+9830218023000:"data stop"
+9830218023000:et
+9830218023016:!+3s
+9830218023318:tape
+9830218023330/tape/off,01509,norm,stopped,stop,unlock,ready,rem
+9830218023330:postob
+9830218023330:source=0727-115,072758.1,-1

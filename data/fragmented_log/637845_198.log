@@ -1,0 +1,9 @@
+(constituents.make) Starting lib_macro
+make[3]: Nothing to be done for `lib_macro'.
+------> (constituents.make) lib_macro done
+------> (constituents.make) Building LogTest.make
+Application LogTest
+------> (constituents.make) Starting LogTest
+------> (LogTest.make) Rebuilding ../Linux-i686/LogTest_dependencies.make
+computing dependencies for LogTest.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/local/opt/root-v5-16-00/includ

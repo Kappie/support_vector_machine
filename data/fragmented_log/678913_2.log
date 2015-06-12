@@ -1,0 +1,23 @@
+0.4_0537 0537-441_S]
+print "***********************************"
+! *********************************** 
+print "*** Using gonzo instruction set ***"
+! *** Using gonzo instruction set *** 
+print "***********************************"
+! *********************************** 
+float field_size
+field_size = 1024
+float field_cell
+field_cell = 0.4
+integer clean_niter
+clean_niter = 50
+float clean_gain
+clean_gain = 0.03
+float dynam
+dynam = 12.0
+float win_mult
+win_mult = 0.7
+float solint
+solint = 3.6/6.0
+logical doflt
+do

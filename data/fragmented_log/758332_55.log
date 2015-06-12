@@ -1,0 +1,13 @@
+e cleaned event list
+     if you have not saved it already.
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > extract "event image"
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > save obscat 74035000_sis1 clobberit = yes
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > $rm -f ascascreen_sis1*.cat 74035000_sis1_list.tmp 74035000_sis1_obscat.lis
+ Spawning...
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > save all 74035000_sis1 clobberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 74035000_sis1.img
+ 
+Saving the Cleaned events list(s):
+Wrot

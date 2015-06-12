@@ -1,0 +1,4 @@
+            1428916       39.204 (real)        0.000 (cpu)
+MuonIdProducer::produce                                                                                      499      275.420 (real)        0.000 (cpu)
+MuonIdProducer::produce::fillArbitration                                                                     499        0.189 (real)        0.000 (cpu)
+MuonIdProducer::produce::fillCaloCompatibility                                                              7759        0.227 (real)        0.000 (cp

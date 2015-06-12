@@ -1,0 +1,10 @@
+eta:             min =    31829.55 max =        97608.78 mean =     61403.52|
+|figures of merit: min =        0.00 max =            1.00 mean =         0.47|
+|phase err.(work): min =        0.00 max =           89.99 mean =        54.06|
+|phase err.(test): min =        0.00 max =           89.64 mean =        54.44|
+|-----------------------------------------------------------------------------|
+
+============================== Outliers rejection =============================
+
+basic_wilson_outliers    = 0
+ext

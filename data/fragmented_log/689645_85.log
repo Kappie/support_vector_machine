@@ -1,0 +1,8 @@
+===== xyz refinement ===============================
+
+|-LBFGS minimization----------------------------------------------------------|
+| start r-factor (work) = 0.1459      final r-factor (work) = 0.1246          |
+| start r-factor (free) = 0.1967      final r-factor (free) = 0.1733          |
+|-----------------------------------------------------------------------------|
+| T_start = wxc * wxc_scale * Exray + wc * Echem                              |
+| 6.8857 = 2.53 * 0.50 * 5.3964 + 1.00 * 0.0504           

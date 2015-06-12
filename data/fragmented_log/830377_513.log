@@ -1,0 +1,16 @@
+2030.630     using  1847 PHA bins.
+ Reduced chi-squared =      1.103004     for   1841 degrees of freedom
+ Null hypothesis probability = 1.204E-03
+
+!XSPEC> ignore bad;
+ Chi-Squared =      2030.630     using  1847 PHA bins.
+ Reduced chi-squared =      1.103004     for   1841 degrees of freedom
+ Null hypothesis probability = 1.204E-03
+
+!XSPEC> save all 76052020_webfit;
+
+!XSPEC> show files;
+
+ Information for file   1
+  belonging to plot group   1, data group   1
+ telescope = ASCA , instrument = SIS0 , channel 

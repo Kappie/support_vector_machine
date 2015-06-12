@@ -1,0 +1,11 @@
+Associated correlation file
+  RESPFILE  - 74035000_sis0.rmf
+  ANCRFILE  - 74035000_sis0.arf
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether channels have been corrected
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS  - 1024            No. of legal detector channels
+  NCHAN     - 1024            No. of detector channels in dataset
+  PHAVERSN  - 1.1.0           OGIP FITS version number
+  STAT_ERR  - FALSE           Statistical Error
+  

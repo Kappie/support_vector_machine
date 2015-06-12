@@ -1,0 +1,5 @@
+enetration.cc:515: warning: unused variable 'OverflowGdLSPuck_inESR_log'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:521: warning: unused variable 'OverflowGdLSPuck_inRef_upper_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:548: warning: unused variable 'LSOverflowTef_inMO_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:564: warning: unused variable 'LSOverflow_inTef_phy'
+/home/tagg/autodaya/G4dyb/src/dywOneModulePenetration.cc:580: warning: unused variable 'GdLSOve

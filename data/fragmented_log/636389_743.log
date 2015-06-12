@@ -1,0 +1,12 @@
+/local/apps/teTeX/bin:/usr/local/apps/Acrobat/bin:/usr/local/apps/JMF/bin:/usr/local/apps/gcc/bin:/usr/local/apps/make/bin:/usr/local/apps/ical/bin:/usr/local/apps/gs/bin
+prod =pbl
+WINDOW =0.0:0.0:1.0:1.0
+NCARG_ROOT =/usr/local/apps/ncarg-4.3.1.LINUX9
+utc_hhmm =1800
+LAPS_DATA_ROOT =/data/lapb/tw/fsl-linux9/data
+latest =latest
+RESOLUTION =885x885
+LAPS_ETC = /usr/nfs/common/lapb/www/anal2d
+WWW_DIR =/w3/lapb/domains/tw_fsl9
+SCRATCH_DIR =/w3/lapb/domains/tw_fsl9/anal2d
+-rwxrwxr-x    1 oplapb   frdlapb   3945633

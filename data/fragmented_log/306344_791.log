@@ -1,0 +1,13 @@
+
+9830221580276?ERROR ch -370 Total power integrator overflow on IF3
+9830221582474?ERROR ch -370 Total power integrator overflow on IF3
+9830221584672?ERROR ch -370 Total power integrator overflow on IF3
+9830221591000:"data stop"
+9830221591000:et
+9830221591017:!+3s
+9830221591091?ERROR ch -370 Total power integrator overflow on IF3
+9830221591318:tape
+9830221591330/tape/off,03221,norm,stopped,stop,unlock,ready,rem
+9830221591330:postob
+9830221591330:source=vela,083339.3,-450009.5,1950.0
+9830221591331#antcn#Comma

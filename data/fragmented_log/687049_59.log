@@ -1,0 +1,4 @@
+                               4246        4.463 (real)        0.050 (cpu)
+CSCBaseEl:simulate                                                                                          4246        5.565 (real)        0.050 (cpu)
+CSCStripEl:filldigi                                                                                         2123        2.288 (real)        0.020 (cpu)
+CSCStripEl:init                                                                                             2123        0.001 (real) 

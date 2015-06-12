@@ -1,0 +1,19 @@
+7326789');
+}
+function printQuick() {
+    frame = frames['__hiddenframe'+nextFrame()];
+    frame.location.href = '/index?print_preview=1&print_dialog=1&version=1237326789';
+}
+function printMe() {
+  if (typeof(window.print) == 'function') {
+    window.print();
+  }
+  else {
+    print();
+  }
+}
+function printPreviewNow() {
+	if (document.getElementById('stylesheet_print')) {
+		var s = document.getElementById('stylesheet_print');
+		var p = document.createElement('link');
+		var m = (s.getAttribute('media') == 'prin

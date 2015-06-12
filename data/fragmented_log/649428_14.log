@@ -1,0 +1,17 @@
+cking for ieeefp.h... no
+checking nan.h usability... no
+checking nan.h presence... no
+checking for nan.h... no
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fp_class.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for st

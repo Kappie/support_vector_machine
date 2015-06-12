@@ -1,0 +1,6 @@
+../src/dywScintEnergy_LinkDef.hh && touch ../Linux-i686/dywScintEnergy_Dict.cc
+WARNING >> You should provide a target for ../src//dywGLEvent.hh
+echo "Generating ROOT Dictionary for " ../src/dywGLEvent_LinkDef.hh ../src//dywGLEvent.hh
+Generating ROOT Dictionary for  ../src/dywGLEvent_LinkDef.hh ../src//dywGLEvent.hh
+if [ ! -d ../Linux-i686/ ]; then mkdir ../Linux-i686/; fi ;
+`/usr/local/opt/root-v5-16-00/bin/root-config --bindir`/rootcint -f ../Linux-i686/dywGLEvent_Dict.cc -c -p -I"../include" -I"/home/tagg

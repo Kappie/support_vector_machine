@@ -1,0 +1,12 @@
+tproc/nandra/processing/75084000/work/lcvs.tmp 
+   window=/home/rosserv/nandra/tartarus/scripts3.2/win_full2.wi dtnb=16 nbint=6518 tunits=1 clobber=yes 
+   outfile=/tproc/nandra/processing/75084000/work/75084000_sis_src_16s.flc rescale=2.0 plot=no
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/75084000/work/75084000_sis1_src.evt
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ TOL0109-383         Start Time (d) .... 10631 04:22:55.909
+ FITS Extension ....

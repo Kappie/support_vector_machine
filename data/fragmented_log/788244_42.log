@@ -1,0 +1,9 @@
+m likelihood estimate for coordinate error:   0.24 A                  |
+| x-ray target function (ml) for work reflections: 5.691481                   |
+|-----------------------------------------------------------------------------|
+
+========================== Target weights: x-ray data =========================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 2.417728              wxc_scal

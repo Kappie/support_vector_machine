@@ -1,0 +1,10 @@
+ff xff xff xff xff xff xff
+2001.296.15:13:36.02/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.15:13:36.02/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.15:13:36.18:!2001.296.15:18:16
+2001.296.15:18:16.00:tape
+2001.296.15:18:16.12/tape/off,07829,norm,stopped,stop,unlock,ready,rem
+2001.296.15:18:16.12:st=for,160
+2001.296.15:18:16.29:!2001.296.15:18:16
+2001.296.15:18:16.29:preob
+2001.296.15:18:16.31#antcn

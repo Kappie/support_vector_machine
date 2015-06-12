@@ -1,0 +1,9 @@
+.128.00:46:02.94/rx/24(TE_I__),on,on,off,,,,off,closed,off,low,locked,-0.271
+2004.128.00:46:03.44/rx/25(HE_SUP),on,on,off,,,,off,closed,off,low,locked,236.5
+2004.128.00:46:03.94/rx/26(HE_RTN),on,on,off,,,,off,closed,off,low,locked,61.77
+2004.128.00:46:03.94:scan_name=128-0151a,r4120,98
+2004.128.00:46:03.95:source=0727-115,073019.11,-114112.6,2000.0,cw
+2004.128.00:46:08.62:setupsx
+2004.128.00:46:10.98/mk5/!play_rate = 0 ;
+2004.128.00:46:11.00/mk5/!mode = 0 ;
+2004.128.00:46:11.01/bank_check/usn-0102/960/1024O

@@ -1,0 +1,17 @@
+le.print.ticket.stateFlag</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.print.PageFormat.PMOrientation</key>
+	<dict>
+		<key>com.apple.print.ticket.creator</key>
+		<string>com.apple.printingmanager</string>
+		<key>com.apple.print.ticket.itemArray</key>
+		<array>
+			<dict>
+				<key>com.apple.print.PageFormat.PMOrientation</key>
+				<integer>1</integer>
+				<key>com.apple.print.ticket.client</key>
+				<string>com.apple.printingmanager</string>
+				<key>com.apple.print.ticket.mod

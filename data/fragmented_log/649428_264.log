@@ -1,0 +1,3 @@
+nals/NetCDF/include  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testModule.o -MD -MP -MF .deps/testModule.Tpo -c -o testModule.o testModule.c
+mv -f .deps/testModule.Tpo .deps/testModule.Po
+/bin/sh ./libtool --tag=CC   --m

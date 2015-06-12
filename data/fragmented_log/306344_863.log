@@ -1,0 +1,11 @@
+power integrator overflow on IF3
+9830223270024?ERROR ch -370 Total power integrator overflow on IF3
+9830223272000:preob
+9830223272000#antcn#Check if antenna is on-source
+9830223272066/onsource/TRACKING
+9830223272308/tpical/53520,51153,46775,40144,27063,20216,37760,27104,12259,65535
+9830223272332/tpical/35860,21588,16045,23275,34695,$$$$$,12766
+9830223272341:!302232730
+9830223272520?ERROR ch -370 Total power integrator overflow on IF3
+9830223273000:tape
+9830223273012/tape/off,08881,norm,stopped,stop,unlock,r

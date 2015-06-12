@@ -1,0 +1,6 @@
+used variable 'pRefSurLog'
+/home/tagg/autodaya/G4dyb/src/dywConstructOneModule.cc:2285: warning: unused variable 'pRefSurLogTop'
+/home/tagg/autodaya/G4dyb/src/dywConstructOneModule.cc:2287: warning: unused variable 'pRefSurLogBot'
+/home/tagg/autodaya/G4dyb/src/dywConstructOneModule.cc:2219: warning: unused variable 'pRM2'
+../Linux-i686/dywRPC_SD.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/in

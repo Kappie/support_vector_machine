@@ -1,0 +1,16 @@
+T=")!=-1){
+			return;
+		}
+		var WT=this.WT;
+		var name=this.fpc;
+		var dCur=new Date();
+		var adj=(dCur.getTimezoneOffset()*60000)+(this.timezone*3600000);
+		dCur.setTime(dCur.getTime()+adj);
+		var dExp=new Date(dCur.getTime()+315360000000);
+		var dSes=new Date(dCur.getTime());
+		WT.co_f=WT.vt_sid=WT.vt_f=WT.vt_f_a=WT.vt_f_s=WT.vt_f_d=WT.vt_f_tlh=WT.vt_f_tlv="";
+		if (document.cookie.indexOf(name+"=")==-1){
+			if ((typeof(gWtId)!="undefined")&&(gWtId!="")){
+				WT.co_f=gWtId;
+			}
+			else if 

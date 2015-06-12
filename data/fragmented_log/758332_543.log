@@ -1,0 +1,11 @@
+*-1 (  0.500-  2.000) DtSet :  1
+ Model flux  4.2196E-04 photons ( 6.9204E-13 ergs)cm**-2 s**-1 (  0.500-  2.000) DtSet :  2
+ Lower range    0.500     reset by matrix bound to    0.564
+ Model flux  2.8368E-04 photons ( 4.9227E-13 ergs)cm**-2 s**-1 (  0.564-  2.000) DtSet :  3
+ Lower range    0.500     reset by matrix bound to    0.564
+ Model flux  3.1683E-04 photons ( 5.4978E-13 ergs)cm**-2 s**-1 (  0.564-  2.000) DtSet :  4
+
+!XSPEC> set flux1 [flux 0.5 2.0];
+
+!XSPEC> flux 2.0 10.0
+ Model flux  2.1133E-04 p

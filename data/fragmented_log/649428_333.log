@@ -1,0 +1,7 @@
+r/local/lib -L/usr/local/cdat/Externals/HDF5/lib -L/usr/local/cdat/Externals/NetCDF/lib ../../.libs/libxml2.so -ldl -lz -lm  -Wl,--rpath -Wl,/usr/local/cdat/Externals/lib
+creating xpath2
+make[4]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc/examples'
+make[4]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc'
+make[3]: Leaving directory `/ext_drv/sv

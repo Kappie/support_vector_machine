@@ -1,0 +1,20 @@
+tURL(url, file_name) {
+		/* 
+		ensures that if: 
+			- we're passing in a file_name it's inserted in the proper location and 
+			- that there is a ? mark present
+		*/
+		var qmark, leading, trailing, i;
+		qmark = "?"; 
+		
+		if (url == "") 
+			return url;
+		// insert file_name before the ?
+		i = url.indexOf(qmark);
+		if ( i > -1) {
+			leading = url.substring(0, i);
+			trailing = url.substring(i, url.length);
+			url = leading + file_name + trailing;
+		}
+		else {
+			url = url + file_name + qma

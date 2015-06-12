@@ -1,0 +1,13 @@
+05/tpical/40272,24487,18338,26320,39028,$$$$$,13425
+9830220164314:!302201650
+9830220164490?ERROR ch -370 Total power integrator overflow on IF3
+9830220165000:tape
+9830220165013/tape/off,04602,norm,stopped,stop,unlock,ready,rem
+9830220165013:st=rev,135
+9830220165029:"data start"
+9830220165029:midob
+9830220165029#antcn#Check if antenna is on-source
+9830220165078/onsource/TRACKING
+9830220165165#wx#/WX/ 8.6, 952.0,100.0
+9830220165185?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+98302201

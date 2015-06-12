@@ -1,0 +1,12 @@
+solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (0, 0).
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 1.33666 Jy
+! Total flux subtracted in 50 components = 1.33666 Jy
+! Clean residual min=-0.122593 max=0.413878 Jy/beam
+! Clean residual mean=0.001636 rms=0.038191 Jy/beam
+! Combined flux in latest and established models = 1.33666 Jy
+! Performing phase self-cal over 0.6 minute time intervals
+! Adding 6 model components to t

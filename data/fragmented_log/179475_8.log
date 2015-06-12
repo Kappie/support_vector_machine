@@ -1,0 +1,11 @@
+&checkcrc/"decode=a,crc
+2004.349.15:02:16.50&checkcrc/"decode
+2004.349.15:02:16.50&caloff/cvur=modout,0
+2004.349.15:02:16.50&caloff/!+1s
+2004.349.15:02:16.51/cvur/2d,abcd,1a,t1,f1111-0,22-24,22-24,22-24,22-24,----
+2004.349.15:02:17.52/calrx/x,fixed,8080.00,8580.10
+2004.349.15:02:17.52/calrx/s,fixed,2020.00,
+2004.349.15:02:28.39;proc=euro74sv
+2004.349.15:02:37.64;setupsx
+2004.349.15:02:37.64&setupsx/"connect the set 1 mark 5a recorder input to"
+2004.349.15:02:37.64&setupsx/"the headstack 2 output of the form

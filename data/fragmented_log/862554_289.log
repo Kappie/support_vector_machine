@@ -1,0 +1,11 @@
+ed
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS  - 1024            No. of legal detector channels
+  NCHAN     - 1024            No. of detector channels in dataset
+  PHAVERSN  - 1.1.0           OGIP FITS version number
+  STAT_ERR  - FALSE           Statistical Error
+  SYS_ERR   - TRUE            Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --

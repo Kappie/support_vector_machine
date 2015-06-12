@@ -1,0 +1,15 @@
+! 
+! Fit before self-cal, rms=0.314622Jy  sigma=0.004076
+! Fit after  self-cal, rms=0.313618Jy  sigma=0.004068
+! Inverting map 
+print "****************************************"
+! **************************************** 
+print "*** Finished Natural Weighting CLEAN ***"
+! *** Finished Natural Weighting CLEAN *** 
+print "****************************************"
+! **************************************** 
+gscale true
+! Performing overall amplitude self-cal
+! 
+! Correcting IF 1.
+!  A total of 24 telescope corr

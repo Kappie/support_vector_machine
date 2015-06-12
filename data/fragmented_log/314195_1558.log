@@ -1,0 +1,11 @@
+R ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.09:24:09.84?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.09:24:31.56?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.09:24:31.56?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.09:24:43.34:unlod
+2004.167.09:24:43.34&unlod/bell
+2004.167.09:24:43.34&unlod/!+5s
+2004.167.09:24:43.34&unlod/enable=,
+2004.167.09:24:43.34&unlod/check=*,-rc
+2004.167.09:24:43.34&unlod/tape=off
+2004.167.09:24:43.3

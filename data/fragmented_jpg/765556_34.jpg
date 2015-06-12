@@ -1,0 +1,20 @@
+nteger>
+				</dict>
+			</array>
+		</dict>
+		<key>com.apple.print.ticket.APIVersion</key>
+		<string>00.20</string>
+		<key>com.apple.print.ticket.privateLock</key>
+		<false/>
+		<key>com.apple.print.ticket.type</key>
+		<string>com.apple.print.PaperInfoTicket</string>
+	</dict>
+	<key>com.apple.print.ticket.APIVersion</key>
+	<string>00.20</string>
+	<key>com.apple.print.ticket.privateLock</key>
+	<false/>
+	<key>com.apple.print.ticket.type</key>
+	<string>com.apple.print.PageFormatTicket</string>
+</dict>
+</plist>
+8BI

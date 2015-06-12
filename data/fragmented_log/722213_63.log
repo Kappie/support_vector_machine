@@ -1,0 +1,11 @@
+0170h.unf
+   3   ad75084000g200370l.unf
+ 
+!ascascreen_gis2:ASCA-GIS2-PH > set image detector
+!ascascreen_gis2:ASCA-GIS2-PH > select mkf @75084000_gis2_mkf.sel
+!ascascreen_gis2:ASCA-GIS2-PH > filter region 75084000_gis2_randc.reg
+!ascascreen_gis2:ASCA-GIS2-PH > extract events
+!ascascreen_gis2:ASCA-GIS2-PH > gisclean
+Using table:/software/lheasoft/release/refdata/rti_gis_1024_040693.fits
+!ascascreen_gis2:ASCA-GIS2-PH > extract "event image"
+!ascascreen_gis2:ASCA-GIS2-PH > save obscat 75084000_gis2 clobberit =

@@ -1,0 +1,11 @@
+ displays var resolution or pull
+  mures2(draw, varx, vary, nbinx, xmin, xmax, ylim, flim, opt)
+    - displays vary resolution or pull as a function of varx
+Classes:
+  MuDraw - Plots and fits distributions and ratios thereof
+  MuPublish - Publish plots and HTML descriptions
+Objects:
+  cut_mc_not_htau - Select truth not hadron or tau: muperf.set_cut(cut_mc_not_htau)
+  cut_mc_b - Select truth from b: muperf.set_cut(cut_mc_b)
+  cut_mc_tau - Select truth from tau: muperf.set_cut(cut_mc_tau)
+  cut_w - Select tru

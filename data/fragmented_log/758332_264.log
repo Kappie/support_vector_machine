@@ -1,0 +1,14 @@
+000_gis3_src.pha.tmp
+ ** grppha 2.9.0 completed successfully
+grppha
+Fri Apr 28 06:10:47 EDT 2000
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - GIS3            Instrument/Detector
+  FILTER    - NONE            In

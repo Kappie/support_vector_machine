@@ -1,0 +1,12 @@
+4.349.17:59:00.66#flagr#flagr/antenna,new-source
+2004.349.17:59:00.66:setupsx
+2004.349.17:59:00.80#skua #Antenna slewing to azimuth  47.2, elevation 21.5
+2004.349.17:59:04.10/mk5/!play_rate = 0 ;
+2004.349.17:59:04.10/mk5/!mode = 0 ;
+2004.349.17:59:04.13/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.349.17:59:04.13:!2004.349.18:01:49
+2004.349.18:00:05.72#skua #Antenna slewing complete
+2004.349.18:00:14.57#flagr#flagr/antenna,acquired
+2004.349.18:01:49.00:preob
+2004.349.18:01:49.00/onsource/TRACKING
+2

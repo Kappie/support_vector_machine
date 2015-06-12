@@ -1,0 +1,7 @@
+nd pointer-to-object
+../Linux-i686/dywGLRPCHitData_Dict.cc:592: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywGLRPCHitData_Dict.cc:593: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywGLRPCHitData_Dict.cc:594: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+library
+cd ../Linux-i686/; \
+  ar r ../Linux-i686/libMCEvent.a ../Linux-i686/dywGLPhotonHitData.o ../Linux-i686/d

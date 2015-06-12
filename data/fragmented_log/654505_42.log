@@ -1,0 +1,6 @@
+ls/xsubpp  -typemap /usr/lib/perl5/5.8.5/ExtUtils/typemap -typemap typemap  DBI.xs > DBI.xsc && mv DBI.xsc DBI.c
+gcc -c   -D_REENTRANT -D_GNU_SOURCE -DTHREADS_HAVE_PIDS -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/gdbm -O2 -march=pentium   -DVERSION=\"1.40\" -DXS_VERSION=\"1.40\" -fPIC "-I/usr/lib/perl5/5.8.5/i386-linux-thread-multi/CORE"  -Wall -Wno-comment DBI.c
+Running Mkbootstrap for DBI ()
+chmod 644 DBI.bs
+rm -f blib/arch/auto/DBI/DBI.so
+gcc 

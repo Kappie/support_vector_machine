@@ -1,0 +1,12 @@
+        ON         OFF         OFF
+ AREA DISC  IN/OUT:          OUT         OUT          IN          IN
+ AREA DISC H START:            6           6           6         316
+ AREA DISC H  STOP:          425         425         200         425
+ AREA DISC V START:            2           2           2           2
+ AREA DISC V  STOP:          422         422         150         112
+  
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/74035000/aux/fa961207_1320.1050
+ 
+    making a sky im

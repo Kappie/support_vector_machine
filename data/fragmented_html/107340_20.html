@@ -1,0 +1,16 @@
+] == 'WebCubbyUser') { return c[1]; }
+}
+return '';
+}
+function MyNCBI_auto_submit(url)
+{
+var qm = url.indexOf('?');
+if( qm < 0 || qm >= (url.length - 1) ) {
+window.location.replace(url);
+} else {
+var w = (self != top && self.name) ? top.frames[self.name] : self;
+var f = '<form name="myncbiautosubmitform" method="POST" action="' + url.substr(0, qm) + '" target="' + w.name + '">';
+var q = url.substr(qm + 1).replace(/&amp;/g,'&');
+var args = q.split('&');
+for(j = 0; j < args.length; j++) {
+var p = args[j].split

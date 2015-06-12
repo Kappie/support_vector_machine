@@ -1,0 +1,12 @@
+sigma=0.001506
+dynam = dynam - 0.75
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Estimated beam: bmin=2.451 mas, bmaj=4.755 mas, bpa=1.222 degrees
+! Estimated noise=662.136 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = -0.0120949 Jy
+! Component: 100  -  total flux cleaned = -0.0155039 Jy
+! Component: 150  -  total flux cleaned = -0.0185098 Jy
+! Component: 200  -  total flux cleaned = -0.0205025 Jy
+! Total flux subtracted in 200 components = -0.020502

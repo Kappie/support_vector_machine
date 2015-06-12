@@ -1,0 +1,12 @@
+ 2 Interlock inactive, Drive 2 no fault
+2004.128.00:40:31.60#antcn#ACU: Az: no fault                , no fault
+2004.128.00:40:31.60#antcn#ACU: El: no fault                , no fault
+2004.128.00:40:31.61/antenna/ACK
+2004.128.00:40:31.61:!2004.128.00:42:03
+2004.128.00:42:03.00:data_valid=off
+2004.128.00:42:03.01:disc_end
+2004.128.00:42:03.28/disc_end/usn-0102/960/1024OK
+2004.128.00:42:03.28:disc_pos
+2004.128.00:42:03.29/disc_pos/90594827968,88816046632,
+2004.128.00:42:03.29:disc_check
+2004.128.00:42:03.61/dis

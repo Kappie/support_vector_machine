@@ -1,0 +1,13 @@
+/A>
+ Terminated at 2008.08.20 15:31:42
+<!-- Author: RunControl -->
+<!-- Comment: Wed Aug 20 15;35;40 comment by...Donatella -->
+can't run with L2 tag = 1117: get L2 Decision timeouts. Need a new tag but the L2 build is nor working right now. Pedro is looking at it.
+
+
+
+<!-- Comment: Wed Aug 20 15;48;32 comment by...Donatella -->
+Pedro fixed the problem and made tag = 1125.
+<!-- Date: Wed Aug 20 15:36:58.718 2008 -->
+Run <A HREF=/java/cdfdb/servlet/RunSummary?RUN_NUMBER=266360>266360</A>
+ Activated at 2008.

@@ -1,0 +1,4 @@
+                       2123        1.374 (real)        0.000 (cpu)
+CSCWireHitSim                                                                                               2123        1.544 (real)        0.020 (cpu)
+CachedTrajectory::propagate                                                                              2172765       48.782 (real)        0.000 (cpu)
+CachedTrajectory::propagate::findClosestPoint                                                            2172765        1.996 (real)        0

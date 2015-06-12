@@ -1,0 +1,11 @@
+na,new-source
+2004.350.04:56:38.65:setupsx
+2004.350.04:56:38.79#skua #Antenna slewing to azimuth 163.5, elevation 61.2
+2004.350.04:56:42.18/mk5/!play_rate = 0 ;
+2004.350.04:56:42.18/mk5/!mode = 0 ;
+2004.350.04:56:42.22/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.04:56:42.22:!2004.350.04:59:57
+2004.350.04:57:15.79;stlog=off,off
+2004.350.04:57:15.79#cvur #CVUR data recording finished
+2004.350.04:57:15.79#skua #antenna data recording finished
+2004.350.04:57:15.79#stlog#Data file 2004349170527.stl

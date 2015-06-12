@@ -1,0 +1,10 @@
+RIGHT2 > filter pha_cutoff 140 560
+!xsel:ASCA-SIS1-BRIGHT2 > extract events
+!xsel:ASCA-SIS1-BRIGHT2 > save events use=no clobber=yes 76052020_sis1_src_soft.evt
+Wrote events list to file 76052020_sis1_src_soft.evt
+!xsel:ASCA-SIS1-BRIGHT2 > clear events
+!xsel:ASCA-SIS1-BRIGHT2 > clear pha_cutoff
+!xsel:ASCA-SIS1-BRIGHT2 > filter pha_cutoff 560 2796
+!xsel:ASCA-SIS1-BRIGHT2 > extract events
+!xsel:ASCA-SIS1-BRIGHT2 > save events use=no clobber=yes 76052020_sis1_src_hard.evt
+Wrote events list to file 76052020_sis1

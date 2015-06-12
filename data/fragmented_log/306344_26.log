@@ -1,0 +1,14 @@
+x/ifd=9,7,nor,nor
+9830205082588&ifdsx/if3=7,out,1,1
+9830205082588&ifdsx/lo=8080.00,2020.00,
+9830205082588&ifdsx/patch=lo1,1l,2l,3l,4h,5h,6h,7h,8h
+9830205082588&ifdsx/patch=lo2,9l,10l,11l,12h,13h,14h
+9830205082611:!302050740
+9830205082611:preob
+9830205082611&preob/onsource
+9830205082611&preob/calon
+9830205082611&preob/!+2s
+9830205082611&preob/tpical=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9830205082611&preob/tpical=v9,v10,v11,v12,v13,v14,if2
+9830205082611&preob/caloff
+9830205082612#antcn#Check if antenna is on-sourc

@@ -1,0 +1,11 @@
+on2.5/site-packages/numpy/f2py/src/fortranobject.h -> build/src.linux-i686-2.5
+  adding 'build/src.linux-i686-2.5/ZonalMeans/_gengridzmean-f2pywrappers2.f90' to sources.
+running build_py
+creating build/lib.linux-i686-2.5
+creating build/lib.linux-i686-2.5/ZonalMeans
+copying Lib/__init__.py -> build/lib.linux-i686-2.5/ZonalMeans
+copying Lib/zmean.py -> build/lib.linux-i686-2.5/ZonalMeans
+copying Lib/package_version.py -> build/lib.linux-i686-2.5/ZonalMeans
+running build_ext
+customize UnixCCompiler
+customize U

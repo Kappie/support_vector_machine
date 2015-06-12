@@ -1,0 +1,18 @@
+></p>
+<H3> Finding the nearest point on an ellipsoid to a point
+</H3><P><BR><BR>
+   The routine <a href="../spicelib/nearpt.html">NEARPT</a> finds the nearest point on a triaxial ellipsoid to a
+   specified point. The point may be outside, on, or inside the ellipsoid.
+   If the variable POINT and output arguments NRPT and ALT are declared by
+<P>
+ 
+<PRE>
+   DOUBLE PRECISION      POINT ( 3 )
+   DOUBLE PRECISION      NRPT  ( 3 )
+   DOUBLE PRECISION      ALT
+</PRE>
+   then the code fragment
+<P>
+ 
+<PRE>
+   CALL 

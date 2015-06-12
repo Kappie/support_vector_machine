@@ -1,0 +1,10 @@
+blished model now contains 235 components and 0.949255 Jy
+![Exited script file: muppet]
+wmap "J0818+4222_X_1998_10_01_pus\_map.fits"
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.7635 x 0.9741 at -12.05 degrees (North through East)
+! Clean map  min=-0.0014491  max=0.67217 Jy/beam
+! Writing clean map to FITS file

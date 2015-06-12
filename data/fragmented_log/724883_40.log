@@ -1,0 +1,21 @@
+y
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.059003Jy  sigma=0.000739
+! Fit after  self-cal, rms=0.058991Jy  sigma=0.000739
+! Inverting map 
+print "***********************************"
+! *********************************** 
+print "*** Finished Amplitude Self-Cal ***"
+! *** Finished Amplitude Self-Cal *** 
+print "***********************************"
+! *********************************** 
+save 1034-293_X
+! Writing UV FITS file: 1034-

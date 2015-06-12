@@ -1,0 +1,11 @@
+dsx/lo=lo3,8080.00,usb,rcp,1
+2004.349.22:27:58.66&ifdsx/patch=
+2004.349.22:27:58.66&ifdsx/patch=lo1,1l,2l,3l,4h
+2004.349.22:27:58.66&ifdsx/patch=lo2,9l,10l,11h,12h,13h,14h
+2004.349.22:27:58.66&ifdsx/patch=lo3,5h,6h,7h,8h
+2004.349.22:28:00.12/mk5/!play_rate = 0 ;
+2004.349.22:28:00.12/mk5/!mode = 0 ;
+2004.349.22:28:00.15/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.349.22:28:00.16:!2004.349.22:32:26
+2004.349.22:28:56.34#skua #Antenna slewing complete
+2004.349.22:29:08.28#flagr#flagr/antenna,acquired

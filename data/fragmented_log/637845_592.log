@@ -1,0 +1,8 @@
+a/InstallArea/Linux-i686/data/xml/DYBDetector.xml"
+[0m[geant] =I= [0m
+            ---> warning from G4Material::GetMaterial(). The material: PMT_Mirror does not exist in the table. Return NULL pointer.
+[0m[dyb]   =W= [1mWarning: setting PMT mirror reflectivity to 0.9999 because no PMT_Mirror material properties defined
+[0m[geant] =I= [0mThank you for using G4BinaryCascade. 
+[0m/usr/local/opt/geant4-data/G4NDL3.10
+[dyb]   =I= [0mCapture : start of construction!!!!!!!!
+[0m[dyb]   =I= [0m++++++++++++

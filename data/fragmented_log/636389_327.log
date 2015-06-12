@@ -1,0 +1,17 @@
+ It will be located in ./gmeta
+
+
+ Enter time, <yydddhhmm>, or <RETURN> for latest:
+  Calling COLOR
+  Color: Black Background
+  Calling GOPWK
+ success reading lapsplot_nl in 
+ /data/lapb/tw/fsl-linux9/data/static//lapsplot.nl                                                                                                     
+ &LAPSPLOT_NL
+ LATLON_INT =            5,
+ CONTINENT_LINE_WIDTH =    1.000000    ,
+ C3_TIME_ZONE = UTC,
+ TIME_ZONE =    0.000000    ,
+ C_INSTITUTION = NOAA/GSD ,
+ C_VNT_UNITS = KT-FT ,
+ 

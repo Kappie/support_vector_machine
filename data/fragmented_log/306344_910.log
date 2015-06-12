@@ -1,0 +1,13 @@
+9,62.2,60.4,55.0,55.5,54.9,58.7,$$$$$$$$
+9830300211364?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830300211364/tsys2/71.3,73.5,74.5,70.5,71.9,$$$$$$$$,248.8
+9830300211364:!303002330
+9830300233000:"data stop"
+9830300233000:et
+9830300233017:!+3s
+9830300233318:tape
+9830300233330/tape/off,06817,norm,stopped,stop,unlock,ready,rem
+9830300233330:postob
+9830300233330:source=1323+321,132357.9,320943.4,1950.0
+9830300233331#antcn#Command a new source
+9830300233387#antcn#Successfully sen

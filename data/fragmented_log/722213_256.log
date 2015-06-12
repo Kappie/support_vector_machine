@@ -1,0 +1,16 @@
+ctor pixels per WMAP bin
+ WMAP bin size is   0.25000 mm
+                    0.24555 arcmin
+ Selected region size is   144.80     arcmin^2
+ Optical axis is detector pixel 133.00 130.96
+ 
+  201 energies from RMF file
+ Effective area fudge applied
+ Arf filter applied
+ 
+ Point source at  107.50  113.50 (detector coordinates)
+ Point source at   25.50   17.46 (WMAP bins wrt optical axis)
+ Point source at    7.59   34.40 (... in polar coordinates)
+ 
+ Total counts in region = 1.20600E+03
+ Weighted mean angle from o

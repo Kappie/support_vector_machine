@@ -1,0 +1,11 @@
+8] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.22:32:50.92/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.22:32:51.09:fastf=0m12s
+2001.295.22:33:08.57:!+5s
+2001.295.22:33:13.58:!2001.295.22:35:38
+2001.295.22:35:38.00:tape
+2001.295.22:35:38.12/tape/off,17266,norm,stopped,stop,unlock,ready,rem
+2001.295.22:35:38.12:st=rev,160
+2001.295.22:35:38.29:!2001.295.22:35:38
+2001.295.22:35:38.29:preob
+2001.295.22:35:38.31#antcn#Checking onsource sta

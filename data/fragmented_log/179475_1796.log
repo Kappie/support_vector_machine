@@ -1,0 +1,12 @@
+mark4 : 16 : S : 1 ;
+2004.350.07:00:23.22:!2004.350.07:05:18
+2004.350.07:01:51.80;source=hold
+2004.350.07:01:51.80#flagr#flagr/antenna,new-source
+2004.350.07:01:52.21#skua #Interrupted: processing new source
+2004.350.07:01:55.55;source=track
+2004.350.07:01:55.55#flagr#flagr/antenna,new-source
+2004.350.07:01:55.56#skua #Antenna slewing to azimuth 131.7, elevation 16.5
+2004.350.07:05:18.00:preob
+2004.350.07:05:18.00?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.350.07:05:18.00/onsource/SLEWING
+2004.

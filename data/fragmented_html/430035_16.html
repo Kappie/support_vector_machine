@@ -1,0 +1,19 @@
+;
+  }
+  restore_cmap();</PRE>
+
+<PRE><A NAME="A64E988554ttay"></A>}</PRE>
+
+<PRE><A NAME="A64E988730ttay"></A>/*This saves the colormap*/
+#define lo_end 0
+#define hi_end 255
+short *CarrayR, *CarrayG, *CarrayB;</PRE>
+
+<PRE><A NAME="A64E988927ttay"></A>save_cmap()
+{
+  CarrayR = calloc (lo_end+hi_end,sizeof(short));
+  CarrayG = calloc (lo_end+hi_end,sizeof(short));
+  CarrayB = calloc (lo_end+hi_end,sizeof(short));</PRE>
+
+<PRE><A NAME="A64E989100ttay"></A>  getmcolors ((Int16 const)lo_end,(Int16 const)hi_end,
+   

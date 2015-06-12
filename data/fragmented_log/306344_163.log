@@ -1,0 +1,12 @@
+30207290014:!+3s
+9830207290315:tape
+9830207290327/tape/off,07010,norm,stopped,stop,unlock,ready,rem
+9830207290327:postob
+9830207290327:source=1604-333,160422.2,-332310.6,1950.0
+9830207290327#antcn#Command a new source
+9830207290386#antcn#Successfully sent new source position to antenna
+9830207290387:check2c2
+9830207290460?ERROR ch -370 Total power integrator overflow on IF3
+9830207294473/parity/0.,0.,0.,0.,0.,0.,0.,16.,0.,0.,0.,0.,0.,16.
+9830207294473/parity/0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9830207295760:sx2c2=6

@@ -1,0 +1,10 @@
+usr/bin/dbiprof
+/usr/bin/dbiproxyX' = X ']'
+sh-trace: /usr/lib/rpm/caos/brp-compress
+sh-trace: /usr/lib/rpm/caos/brp-strip /usr/bin/strip
+sh-trace: /usr/lib/rpm/caos/brp-strip-static-archive /usr/bin/strip
+sh-trace: /usr/lib/rpm/caos/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
+Processing files: perl-DBI-1.40-4.caos
+Finding  Provides: /usr/lib/rpm/caos/find-provides
+Finding  Requires: /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SOURCES/filter-requires-dbi.sh
+Provides: DBI.so perl(Bundle:

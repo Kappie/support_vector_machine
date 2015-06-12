@@ -1,0 +1,19 @@
+nute time intervals
+! Adding 9 model components to the UV plane model.
+! The established model now contains 83 components and 0.804328 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.106358Jy  sigma=0.507221
+! Fit after  self-cal, rms=0.106361Jy  sigma=0.507190
+! Inverting map 
+! Added new window around map position (-2, -4.4).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00322035 Jy
+! Component

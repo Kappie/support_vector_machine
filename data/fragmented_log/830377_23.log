@@ -1,0 +1,18 @@
+ bit rate data.
+
+
+Using LOW bit rate data.
+
+
+Analysing files for your chosen mode, please wait.
+
+Using 0.01 for Maximum allowed angular deviation
+Using 5 for minimum elevation
+Using standard GIS particle BGD rejection criterion
+I will start up SAOImage, and leave you in Xselect at the end
+Removing ring and calibration sources
+     CIRCLE(128.50,128.50,88.00)
+    -ELLIPSE(217,95,21.56,25.92,169.216)
+
+Writing command file 76052020_gis3.xco
+Index  NEVENTS   ONTIME  RAWXBINS RISEBINS TIMEBINS PHA_BINS  POS_DET

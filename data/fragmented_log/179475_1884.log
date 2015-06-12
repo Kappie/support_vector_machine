@@ -1,0 +1,13 @@
+if
+2004.350.12:21:27.00&midob/"add your station command to measure the gps to fm output clock offset
+2004.350.12:21:27.00&midob/"gps-fmout
+2004.350.12:21:27.00&midob/clocko
+2004.350.12:21:27.00&midob/gps-maser
+2004.350.12:21:27.00&midob/sy=run setcl &
+2004.350.12:21:27.00&midob/subr=?
+2004.350.12:21:27.00?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.350.12:21:27.00/onsource/SLEWING
+2004.350.12:21:27.00/wx/0.5,1004.2,100.0
+2004.350.12:21:27.00&cab/hpib=ca,calc:data?
+2004.350.12:21:27.00&cab/!+2s
+2

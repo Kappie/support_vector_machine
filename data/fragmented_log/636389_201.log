@@ -1,0 +1,9 @@
+nput scale:     1.000000    
+  Colortable is hues   -20.00000        120.0000                1  F  F  F  F
+  ccpfil_sub - scale,scale_loc =     1.000000        140.0000    
+  subroutine set_image_colortable: ncols =            20
+  subroutine generate_colortable: ncols =            60
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/hues.lut
+  Subroutine color_ramp..             1            1
+    1   0.500   0.150   0.600   0.600   0.510   0.600
+  Subroutine color_ramp..             2        

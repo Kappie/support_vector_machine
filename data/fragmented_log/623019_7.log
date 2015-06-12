@@ -1,0 +1,17 @@
+ating resistors to board 28. 
+</pre>
+<!-- Author: Mike Kelly -->
+
+
+<!-- Date: Thu Apr 22 19:42:33 1999 -->
+Reconfigured lower TDC crate. Testclock in lower crate is now 
+driving TSIE and clock signals to TRACER in lower crate.
+<!-- Author: Bill Orejudos -->
+
+
+<!-- Date: Thu Apr 29 16:28:45 1999 -->
+<pre>Remark on the Firmware update! 
+ 
+A bug in the DSP code prevents the different Scan Lists from doing anything. The Interrupts should work as described, however. 
+ 
+We will correct this oversight in the near 

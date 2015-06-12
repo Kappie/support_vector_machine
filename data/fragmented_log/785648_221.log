@@ -1,0 +1,14 @@
+oefficients to MTZ file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/run_885/model_refine_001_map_coeffs.mtz
+
+Writing default parameters for subsequent refinement:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/run_885/model_refine_002.def
+
+
+=============================== Detailed timings ==============================
+
+Pure refinement (no I/O, processing, etc)= 313.21 
+  Macro-tasks:
+    bulk solvent and scale       = 39.00  
+    individual site refinement   = 123.23 
+    weights calculation         

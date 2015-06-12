@@ -1,0 +1,13 @@
+ = 31.05  
+    collect and process          = 6.46   
+    model show statistics        = 0.09   
+    TOTAL for macro-tasks        = 199.83 
+  Micro-tasks:
+    mask                            = 1.74   
+    f_calc                          = 95.52  
+    alpha_beta                      = 8.13   
+    target                          = 1.17   
+    gradients_wrt_atomic_parameters = 105.25 
+    fmodel                         = 6.64   
+    r_factors                      = 0.22   
+    phase_errors                   = 

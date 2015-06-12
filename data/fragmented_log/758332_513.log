@@ -1,0 +1,27 @@
+hhi - $nhlo)/2.0
+
+!XSPEC> set nh_err [expr ($nhhi - $nhlo)/2.0];
+
+!XSPEC> error max 15 4.61 3
+ Parameter   Confidence Range (     4.610)
+     3     1.47860         1.83067
+
+!XSPEC> set str [error max 15 4.61 3];
+
+!XSPEC> lindex $str 0
+
+!XSPEC> set glo [lindex $str 0];
+
+!XSPEC> lindex $str 1
+
+!XSPEC> set ghi [lindex $str 1];
+
+!XSPEC> expr ($ghi - $glo)/2.0
+
+!XSPEC> set g_err [expr ($ghi - $glo)/2.0];
+
+!XSPEC> puts $fileid "$nh $nh_err $gamma $g_err $norm $chisq $dof";
+
+!XSPEC> close $fileid;
+
+!XSPEC> notice 

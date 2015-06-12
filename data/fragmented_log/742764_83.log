@@ -1,0 +1,12 @@
+ield_size-8) * field_cell / 4
+addwin -x,x,-x,x
+clean (field_size*4),0.01
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! clean: niter=1024  gain=0.01  cutoff=0
+! Component: 050  -  total flux cleaned = 0.000923485 Jy
+! Component: 100  -  total flux cleaned = 0.00145272 Jy
+! Component: 150  -  total flux cleaned = 0.00174867 Jy
+! Component: 200  -  total flux cleaned = 0.00191108 Jy
+! Component: 250  -  tot

@@ -1,0 +1,22 @@
+rstop) {
+     rstop=imax-1;
+     document.form.stop_frame.value=rstop+1;
+  }
+}
+                                     
+///////////////////////////////////////////////////////////////////////////
+
+function cur2stop() // set current frame to stop range
+{
+  playing=0;
+  rstop=frame;
+  document.form.stop_frame.value=rstop+1;
+  if (rstart >= rstop) {
+     rstart=0;
+     document.form.start_frame.value=rstart+1;
+  } 
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function image_abor

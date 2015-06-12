@@ -1,0 +1,12 @@
+4150607/tape/off,01833,norm,moving,nostop,locked,ready,rem
+9919504150607:"data start"
+9919504150607:midob
+9919504150608#antcn#Checking onsource status
+9919504150615#antcn# RAsource    20.478   DECsource    4.370
+9919504150615#antcn# RAbeam      20.479   DECbeam      4.369
+9919504150615#antcn# RAdelta      0.001   DECdelta     0.000
+9919504150615?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919504150615/onsource/SLEWING
+9919504150616/wx/4.0,869.8,100.8
+9919504150618/cable/00035.837557E-03
+991950415062

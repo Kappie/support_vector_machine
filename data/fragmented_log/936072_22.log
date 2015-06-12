@@ -1,0 +1,21 @@
+ap 
+! 
+! Move the cursor into the plot window and press 'H' for help
+selfcal true,true,0.6
+! Performing amp+phase self-cal over 0.6 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.072705Jy  sigma=0.361895
+! Fit after  self-cal, rms=0.073718Jy  sigma=0.354684
+clean 100
+! Inverting map and beam 
+! Estimated beam: bmin=1.024 mas, bmaj=2.657 mas, bpa=-13.24 degrees
+! Estimated noise=2.61027 mJy/beam.
+! clean: niter=100

@@ -1,0 +1,12 @@
+meta
+ctransarg=sun
+ctransext=sun
+netpbm=yes
+Thu Jun  1 19:25:55 UTC 2006
+Running /usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans | netpbm to make gmeta_vnt.gif file
+/usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans -verbose -d sun -window 0.0:0.0:1.0:1.0 -resolution 885x885 gmeta | rasttopnm | ppmtogif > /w3/lapb/domains/tw_fsl9/anal2d/gmeta_vnt.gif
+Thu Jun  1 19:25:56 UTC 2006
+Mid-Level Haines Index
+Thu Jun  1 19:25:56 UTC 2006
+Start laps_gifs_sub.sh...
+PATH=/usr/local/apps/mpich/bin:.:/usr/nfs/lapb/netcdf-3.4/b

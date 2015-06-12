@@ -1,0 +1,3 @@
+-Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testSchemas.o -MD -MP -MF .deps/testSchemas.Tpo -c -o testSchemas.o testSchemas.c
+mv -f .deps/testSchemas.Tpo .deps/testSchemas.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -

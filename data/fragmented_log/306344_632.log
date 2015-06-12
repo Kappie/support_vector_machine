@@ -1,0 +1,14 @@
+17:!+3s
+9830218091318:tape
+9830218091330/tape/off,02510,norm,stopped,stop,unlock,ready,rem
+9830218091330:postob
+9830218091330:source=0458-020,045841.3,-020333.9,1950.0
+9830218091331#antcn#Command a new source
+9830218091383#antcn#Successfully sent new source position to antenna
+9830218091384:sx2c1=3
+9830218091726/pass/3,3,auto,-275.0,-275.0,-274.7,-275.3,0.3,-0.3
+9830218092071:!302181330
+9830218133000:preob
+9830218133000#antcn#Check if antenna is on-source
+9830218133059/onsource/TRACKING
+9830218133300/tpical

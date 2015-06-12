@@ -1,0 +1,11 @@
+86586586586586586586586
+  c_metacode,i_overlay = m             0
+  Skipping map plot - already done with image
+  Not calling plot_station_locations: 1
+  Plotting: c_metacode,i_overlay = c             1
+  CLOW,HIGH,CINT     572.0000        588.0000        2.000000    
+  Max/Min/n_missing =     587.3965        575.0557                0
+  write_label_lplot:
+  500 hPa Height  (Bal)   dm                                                                         
+  lapsplot: call "conrec", cint =     2.000000    
+  

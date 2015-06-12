@@ -1,0 +1,14 @@
+                      = 6.69   
+    r_factors                      = 0.28   
+    phase_errors                   = 10.82  
+    foms                           = 0.26   
+    TOTAL for micro-tasks          = 253.27 
+NUMBER OF MASK CALCS=  5
+Time per interpreted Python bytecode instruction: 4.770 micro seconds
+Total CPU time: 5.86 minutes
+from_scatterers_fft:    657 calls, 106.70 s
+gradients_fft:          602 calls, 102.44 s
+
+=========================== phenix.refine: finished ===========================
+
+# Date

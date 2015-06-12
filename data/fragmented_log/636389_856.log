@@ -1,0 +1,11 @@
+ale_l,scale_h,scale    1.500000        6.500000     
+    1.000000    
+  l_integral,l_discrete,l_divisible,l_set_contours  T  F  T  F
+  Plotting colorbar    1.500000       0.5000000              409          924
+  write_label_lplot:
+ Haines Index (850-700hPa)                                                                           
+  lapsplot_setup: start
+  c6_maproj = lambrt
+  standard_lon =     120.9100    
+  standard_lats =     10.00000        40.00000    
+  lapsplot_setup: IFRAME =             1  JDOT =

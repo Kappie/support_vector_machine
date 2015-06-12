@@ -1,0 +1,17 @@
+     RANGE
+         DOUBLE PRECISION      REARTH ( 3 )
+         DOUBLE PRECISION      RJUP   ( 3 )
+         DOUBLE PRECISION      JSTATE ( 6 )
+         DOUBLE PRECISION      UVEC   ( 3 )
+         DOUBLE PRECISION      VSTAR  ( 3 )
+         DOUBLE PRECISION      XPT    ( 3 )
+ 
+         INTEGER               HANDLE
+         INTEGER               N
+ 
+         LOGICAL               FOUND
+ 
+         DATA ORIGIN  /  3 * 0.D0                /
+ 
+   C
+   C     Convert the UTC epoch to ephemeris time.  Before doing t

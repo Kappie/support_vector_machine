@@ -1,0 +1,12 @@
+ in lat/lon/topo/land frac 
+
+  subroutine check_domain: checking latlon_to_rlapsgrid
+  Initializing latlon_to_rlapsgrid  -0.04325   0.04325  -0.87414  -0.79448
+  check_domain: max_diff (gridpoints) =    1.2230730E-03  at i/j            1 
+           66
+  check_domain: max_diff (approx m)   =     11.00766    
+  Checking rlapsgrid_to_latlon
+  Initializing rlapsgrid_to_latlon  -0.04325   0.04325  -0.87414  -0.79448
+  check_domain: max_diff (degrees) =    6.1131752E-05  at i/j            6 
+           51
+  chec

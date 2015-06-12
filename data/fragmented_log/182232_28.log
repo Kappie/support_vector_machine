@@ -1,0 +1,7 @@
+ Run 121572 again several BTO from CMX_01.  end and manually reboot TSI00.  -> From our L3 info: BTO are from EVB (HRR or cleanup fixes), SM (need to reboot eb10), TS(reboot tsi00), or downstream of L3/CSL.  So far this shift we've tried HRR and cleaning up EVB/L3.  Check of SM/EVB/L3 doesn't show anything hung on eb10.  Now trying reboot of TSI00......
+<!-- Author: hray -->
+
+
+
+<!-- Date: Wed Jul 25 07:35:05 2001 -->
+Run 121573 started with Cosmics_All[2,165] after reboot of TSI00 - so far at 80K with no BT

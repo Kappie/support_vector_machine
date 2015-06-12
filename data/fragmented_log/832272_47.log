@@ -1,0 +1,17 @@
+ts
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak flux is 0.201031 
+invert
+! Inverting map 
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.0008234 
+device "J0246-1236_X_1997_05_07_yyk\_map.eps/VPS"
+! Attempting to open device: 'J0246-1236_X_1997_05_07_yyk_map.eps/VPS'
+loglevs 100*3*image_rms/peak_flux
+! The new contour levels are:
+!  -1.22877 1.22877 2.45754 4.91507 9.83014 19.6603 39.3206 78.6411
+print "c

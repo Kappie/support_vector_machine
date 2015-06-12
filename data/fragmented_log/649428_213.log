@@ -1,0 +1,3 @@
+/lib -o .libs/xmllint xmllint.o  -L/usr/local/cdat/Externals/lib -L/usr/X11R6/lib -L/usr/local/lib -L/usr/local/cdat/Externals/HDF5/lib -L/usr/local/cdat/Externals/NetCDF/lib ./.libs/libxml2.so -ldl -lz -lm  -Wl,--rpath -Wl,/usr/local/cdat/Externals/lib
+creating xmllint
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT    -I/usr/local/cdat/Externals/include   -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include  -I/usr/X11R6

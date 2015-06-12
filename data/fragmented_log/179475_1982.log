@@ -1,0 +1,8 @@
+999 Antenna STOP command failed!!!
+2004.350.12:59:22.79?ERROR st -999 Failed: stopping antenna motion
+2004.350.12:59:28.59;source=disable
+2004.350.12:59:28.59#flagr#flagr/antenna,new-source
+2004.350.12:59:29.79?ERROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.12:59:29.79?ERROR st -999 Antenna STOP command failed!!!
+2004.350.12:59:29.79?ERROR st -999 Failed: stopping antenna motion
+2004.350.12:59:36.79?ERROR st -100 Waiting for antenna response timed out - antenna proto

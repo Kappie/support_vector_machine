@@ -1,0 +1,10 @@
+urce=4c39.25,092703.01,390220.9,2000.0,ccw
+2004.350.07:12:48.70#flagr#flagr/antenna,new-source
+2004.350.07:12:48.71:setupsx
+2004.350.07:12:49.21#skua #Interrupted: processing new source
+2004.350.07:12:52.20/mk5/!play_rate = 0 ;
+2004.350.07:12:52.20/mk5/!mode = 0 ;
+2004.350.07:12:52.24/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.07:12:52.24:!2004.350.07:20:03
+2004.350.07:12:56.22?ERROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.07:12:56.22?ERROR st -999 An

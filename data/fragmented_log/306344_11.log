@@ -1,0 +1,15 @@
+he tape drive.
+9830204494832&prepass/" use the cont command when finished.
+9830204494832&prepass/halt
+9830204494832&prepass/xdisp=off
+9830204494832&prepass/check=*,-tp,-hd
+9830204494832&prepass/tape=low
+9830204494832&prepass/sff
+9830204494832&prepass/!+5m27s
+9830204494832&prepass/et
+9830204494832&prepass/!+9s
+9830204494832&prepass/wakeup
+9830204494833&prepass/xdisp=on
+9830204494833&prepass/"drop vacuum loop, clean the tape drive thoroughly.
+9830204494833&prepass/"re-thread the tape, establish vacuum.
+983020

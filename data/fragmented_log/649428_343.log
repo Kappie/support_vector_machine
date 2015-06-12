@@ -1,0 +1,6 @@
+de/libxml2/libxml/hash.h'
+ /usr/bin/install -c -m 644 'xpath.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xpath.h'
+ /usr/bin/install -c -m 644 'xpathInternals.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xpathInternals.h'
+ /usr/bin/install -c -m 644 'xpointer.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xpointer.h'
+ /usr/bin/install -c -m 644 'xinclude.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xinclude.h'
+ /usr/bin/install -c -m 644 'xmlIO.h' '/usr/local/cdat/Externals/inc

@@ -1,0 +1,13 @@
+,vo,mr,mc,dv,ha,ma]
+          [sp,cs,vs,tw,fw,hi,gf]
+          [of,oc,ov,os,op,og,qf,qc,qv,qs,qp,qg] obs plots
+          [st,mw] obs/mesowx locations
+          [bs] Sfc background/forecast
+          [li,lw,he,pe,ne] li, li*w, helcty, CAPE, CIN,
+          [s] Other Stability Indices, [sm] Soil Moisture
+
+     TEMP: [t,tb,tr,to,bt] (LAPS,LGA,FUA,OBS,BAL), [pt,pb] Theta, Bal Theta
+     HGTS: [ht,hb,hr,bh] (LAPS,LGA,FUA,BAL),
+           [hh,bl,lf] Ht of Temp Sfc, PBL, Fire Wx
+
+     HUMIDITY: [br,fr,lq,rb] (lga;f

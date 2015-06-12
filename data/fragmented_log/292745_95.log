@@ -1,0 +1,11 @@
+enna.
+9914708031910  check_onso: FS_time - Antenna_time = 116.4 sec.
+ 
+9914708032063  check_onso: Antenna Communication Error!, can't check antenna.
+9914708032063  check_onso: FS_time - Antenna_time = 117.9 sec.
+ 
+1999.147.08:03:25.11?ERROR ST   -4 Error in antenna communication
+1999.147.08:03:25.11?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+1999.147.08:03:25.11/onsource/SLEWING
+1999.147.08:03:25.11#antcn#Received message for antenna: CHECK
+1999.147.08:03:25.11?ERROR ST   -4 Error in antenna communi

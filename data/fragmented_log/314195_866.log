@@ -1,0 +1,8 @@
+7.02:23:46.19?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.02:24:06.99?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.02:24:06.99?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.02:24:20.31;check=all
+2004.167.02:24:28.71?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.02:24:28.71?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.02:24:33.12;tnx=ch,-349
+2004.167.02:24:33.12?ERROR bo -304 This error already in TNX

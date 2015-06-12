@@ -1,0 +1,6 @@
+ failed:  Unable to open hint file yum -Cty install -- No such file or directory
+[Util.pm/974/find_spec_file()] Found single spec file for perl-DBI in F:  F/perl-DBI.spec
+[Util.pm/691/copy_files()] Copying F/perl-DBI.spec to /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SPECS/.
+[Util.pm/691/copy_files()] Copying F/perl-DBI.spec to /var/tmp/mezzanine.temp.dironly.29689.243e/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SPECS/.
+[PkgVars.pm/160/pkgvar_set()] Setting instructions
+[PkgVars.pm/164/

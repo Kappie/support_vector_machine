@@ -1,0 +1,11 @@
+quit [q] ?   Reading pregenerated SFC precip type field PTT 
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/lct/    061521800 lct   PTT
+  Missing Data Value Detected in 2D Field
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/LWM, LGA/LGB, FUA/FSF, LAPS-BKG, BAL), 
+     [wo,co,bo,lo,fo] Anlyz/Cloud/Balance/Bkg/Fcst Omega
+     RADAR: [ra] Interme

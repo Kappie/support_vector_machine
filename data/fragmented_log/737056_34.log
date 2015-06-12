@@ -1,0 +1,13 @@
+n_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (2.2, 4.2).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0103857 Jy
+! Component: 100  -  total flux cleaned = 0.0124776 Jy
+! Component: 150  -  total flux cleaned = 0.012663 Jy
+! Component: 200  -  total flux cleaned = 0.012838 Jy
+! Total flux subtracted in 200 components = 0.012838 Jy
+! Clean residual min=-0.005982 max=0.00

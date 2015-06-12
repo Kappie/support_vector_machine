@@ -1,0 +1,24 @@
+newin )
+					woodbournewin.focus();
+			}
+		}
+		else
+		{
+			targetLink = link;
+			if (link.indexOf ("CP___") != -1)
+			{
+				httpPos = -1;
+				commaPos = link.indexOf(",");
+				if (commaPos != -1)
+				{
+					targetUrl = link.substr(commaPos + 1);
+					if (targetUrl.indexOf("://") != -1 || targetUrl.indexOf("/") == 0)
+					{
+							httpPos = commaPos + 1;
+					}		
+				}
+		
+				if (httpPos != -1)
+					targetLink = link.substr(httpPos);
+				else
+					targetLink = jsDlgLoader + "?url=/commonspot/utilities/handle

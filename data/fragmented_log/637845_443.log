@@ -1,0 +1,6 @@
+ons but non-virtual destructor
+/usr/include/geant4/G4VGraphicsScene.hh:67: warning: 'class G4VGraphicsScene' has virtual functions but non-virtual destructor
+/usr/include/geant4/G4VisExecutive.icc: In member function 'virtual void G4VisExecutive::RegisterGraphicsSystems()':
+/usr/include/geant4/G4VisExecutive.icc:110: error: expected type-specifier before 'G4OpenGLImmediateX'
+/usr/include/geant4/G4VisExecutive.icc:110: error: expected `)' before 'G4OpenGLImmediateX'
+/usr/include/geant4/G4VisExecutive.icc:110

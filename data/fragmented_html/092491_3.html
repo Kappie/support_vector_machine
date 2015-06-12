@@ -1,0 +1,21 @@
+ }//end if
+
+    //must have some search field
+    if (! allHaveValues(form.fiUlsSearchByValue))
+    {
+        alertString += "Please enter search criteria\n";
+    }//end if
+
+	if((wildcardCharCHK(form.fiUlsSearchByValue, 'Y')).length > 0){
+		alertString += wildcardCharCHK(form.fiUlsSearchByValue, 'Y');
+	}
+
+    //alert the summary or errors
+    if (alertString)
+    {
+        alert(alertString);
+        return false;
+    }//end if
+
+    setValidatedFlagTrue(form.jsValidated);
+    return true

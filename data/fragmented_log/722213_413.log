@@ -1,0 +1,15 @@
+completed 98% completed 99% completed100% completed
+ 
+ Intv    1   Start 10631  5:11:11
+     Ser.1     Avg 0.2194E-01    Chisq  11.95       Var 0.1544E-04 Newbs.     19
+               Min 0.1484E-01      Max 0.3125E-01expVar 0.1780E-04  Bins   2020
+Writing output file: /tproc/nandra/processing/75084000/work/75084000_sis_bgd_576
+nbint = 6513
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/75084000/work/75084000_gis2_bgd.evt
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ S

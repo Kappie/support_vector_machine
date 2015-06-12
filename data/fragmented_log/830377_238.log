@@ -1,0 +1,12 @@
+24 is not within the channel range !
+ ......  Upper channel reset to last channel : 1023
+ ...... exiting, changes written to file : 76052020_sis0_src_20.pha
+ ** grppha 2.9.0 completed successfully
+ascaarf
+Sun Apr 23 03:05:05 EDT 2000
+ascaarf 76052020_sis0_src.pha.tmp 76052020_sis0.rmf 76052020_sis0.arf point=yes simple=yes clobber=yes
+ASCAARF vers 3.00  6 Oct 1998.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xrt_psf_v2_0.fits
+ 
+ Input WMAP array has size   45

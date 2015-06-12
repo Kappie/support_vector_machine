@@ -1,0 +1,11 @@
+lock,ready,rem
+9830205135328:postob
+9830205135328:source=1933-400,193351.1,-400447.4,1950.0
+9830205135328#antcn#Command a new source
+9830205135407#antcn#Successfully sent new source position to antenna
+9830205135407:sx2c1=1
+9830205135465/pass/1,1,auto,-330.0,-330.0,-330.3,-329.9,-0.3,0.1
+9830205135810:!302051620
+9830205142061?ERROR ch -370 Total power integrator overflow on IF3
+9830205152654?ERROR ch -370 Total power integrator overflow on IF3
+9830205154851?ERROR ch -370 Total power integrator overflow on I

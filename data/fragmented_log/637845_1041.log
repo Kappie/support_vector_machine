@@ -1,0 +1,9 @@
+x...
+Generating graph info page...
+#--------------------------------------------------------------
+# Now trying [cmt autodoc] in /home/tagg/autodaya/G4dyb/cmt (27/29)
+#--------------------------------------------------------------
+#CMT> bad syntax in requirements of GEANT v0 External line #13 [<<<<<<< ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #25 [>>>>>>> ...]
+Execute action autodoc => /home/tagg/autodaya/Auto

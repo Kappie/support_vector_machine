@@ -1,0 +1,11 @@
+      0
+  write_label_lplot:
+ Sfc Dew Point       (C)                                                                             
+  lapsplot: call "conrec", cint =     2.000000    
+  conrec_line: calling plot_contour    4.000000        30.00000     
+    2.000000                2            1
+
+ MIN =   5.6120         MAX =   28.092          PLOT INTERVAL =   2.0000    
+  FMAX/NSD/NLS =     28.09235                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+           14            1

@@ -1,0 +1,16 @@
+58 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=148380">148380</A>
+ Terminated at 2002.07.16 13:37:30
+<!-- Author: RunControl -->
+
+
+<!-- Date: Tue Jul 16 13:41:49 2002 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=148381">148381</A>
+ACTIVATE: COT calibration
+<!-- Author: ace 2080 -->
+<!-- Comment: Tue Jul 16 14;03;52 comment by...Ke -->
+<pre>
+The entry in DBANA looks strange. 
+When I list all, the entry for this run shows
+status BAD and table COTCHANT0 . 
+Not sure if it's nor

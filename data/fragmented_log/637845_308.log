@@ -1,0 +1,5 @@
+onGeometry.cc: In member function 'void dywDetectorConstruction::CentreCalibrationBox(G4double, G4double, G4double, G4LogicalVolume*)':
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:197: warning: unused variable 'Lowestlayer_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:211: warning: unused variable 'OverflowTank_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:225: warning: unused variable 'Uppestlayer_phys'
+/home/tagg/autodaya/G4dyb/src/dyw

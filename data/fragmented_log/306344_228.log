@@ -1,0 +1,12 @@
+ is on-source
+9830209445080/onsource/TRACKING
+9830209445080&wth/sy=/usr2/st/bin/wx
+9830209445176#wx#/WX/12.0,1015.1, 70.8
+9830209445196?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830209445196&clkoff/"specify fmout-gps when formatter (h-maser) leads gps
+9830209445196&clkoff/hpib=pp,:read?
+9830209445197&clkoff/!+0.5s
+9830209445197&clkoff/fmout-gps=pp
+9830209445197&clkoff/!+0.5s
+9830209445197&clkoff/hpib=pp,:init:cont on
+9830209445197?ERROR ib  -10 ibcon initialization failed, gpib 

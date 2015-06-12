@@ -1,0 +1,12 @@
+   Find the nearest point on the body to the observer.
+   C
+            CALL <a href="../spicelib/nearpt.html">NEARPT</a> ( OBSPOS, RADII(1), RADII(2), RADII(3),
+        .                 <a href="../spicelib/subpt.html">SUBPT</a>,  ALT                           )
+ 
+   C
+   C        Find the latitude and longitude of the sub-observer point.
+   C
+            CALL <a href="../spicelib/reclat.html">RECLAT</a> ( <a href="../spicelib/subpt.html">SUBPT</a>,  DIST,  SUBLON,  SUBLAT )
+ 
+   C
+   C        Write out t

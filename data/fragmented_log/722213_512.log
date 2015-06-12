@@ -1,0 +1,33 @@
+l info (.evt)
+centroid
+datamode
+ccdmode
+bitfix
+spectral fit
+gnt_error(html): fit_result_pl.dat has no data
+gnt_error(html): fit_result_flux.dat does not exist
+gnt_warng(html): File fit_result_2pl.dat does not exist
+warning
+fatal
+sds
+name
+object
+version
+ 
+gnt_infrm: Making veron.96 table...
+ 
+ 
+gnt_infrm: Making images for the web page...
+ 
+pha
+flc
+ 
+gnt_infrm: Creating the web page...
+ 
+ 
+gnt_infrm: Creating the download web page...
+ 
+ 
+gnt_infrm: Writing an entry into browse.table...
+ 
+gnt_error(html): Fil

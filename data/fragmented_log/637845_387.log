@@ -1,0 +1,5 @@
+lass dywTorusStack::RootFinder' has virtual functions but non-virtual destructor
+/usr/include/geant4/G4VPVParameterisation.hh:73: warning: 'class G4VPVParameterisation' has virtual functions but non-virtual destructor
+/usr/include/geant4/G4VGraphicsScene.hh:67: warning: 'class G4VGraphicsScene' has virtual functions but non-virtual destructor
+/home/tagg/autodaya/G4dyb/src/dywTorusStack.cc:246: warning: 'class dywTorusStack_TorusFunc' has virtual functions but non-virtual destructor
+../Linux-i686/dywConstruc

@@ -1,0 +1,16 @@
+70
+  " NH1BARG A 275 " - " O  BHOH Z 338 "  2.341 3.120
+  ... (remaining 27807 not shown)
+  Histogram of dihedral angle deviations from ideal:
+        0.01 -    17.19: 754
+       17.19 -    34.36: 62
+       34.36 -    51.54: 27
+       51.54 -    68.71: 23
+       68.71 -    85.89: 4
+  Dihedral angle restraints sorted by residual:
+  " CA  PHE A 192 "
+  " CB  PHE A 192 "
+  " CG  PHE A 192 "
+  " CD1 PHE A 192 "
+      ideal   model   delta periodicty    weight residual
+      90.00    7.91   82.09     2       2.5

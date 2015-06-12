@@ -1,0 +1,13 @@
+05
+pha bin =   43, E =  2.004 -  4.987 keV  (   2 /    4)   calculating ...
+ <efficiency> =   91.55376     weight =  3.6995214E-05
+pha bin =   44, E =  4.987 -  6.991 keV  (   3 /    4)   calculating ...
+ <efficiency> =   84.55531     weight =  2.1082749E-05
+pha bin =   45, E =  6.991 - 10.002 keV  (   4 /    4)   calculating ...
+ <efficiency> =   25.98236     weight =  4.0480089E-05
+ 
+wrote /tproc/nandra/processing/75084000/work/75084000_sis0.effmap
+ 
+gnt_infrm: Creating 4-channel spectrum for sis1...
+ 
+ 

@@ -1,0 +1,15 @@
+frm: Running procedure do_cent
+gnt_infrm: *************************
+Sat Apr 15 15:52:32 EDT 2000
+ 
+gnt_infrm: Getting RA and DEC from attitude file...
+ 
+gnt_infrm: Getting OTIME from attitude file...
+ 
+gnt_infrm: Checking permanent area...
+gunzip: No match.
+gnt_infrm: Files not in permanent area; performing centroiding...
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 TOL0109-383 PH          MEDIUM      02/07/97    03:46:45    0.34E+05     9010    

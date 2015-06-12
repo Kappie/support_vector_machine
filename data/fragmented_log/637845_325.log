@@ -1,0 +1,5 @@
+arSitePool_CDR.cc: In member function 'void dywDetectorConstruction::ConstructNearSitePool_CDR()':
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool_CDR.cc:438: warning: unused variable 'physV_Module_1'
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool_CDR.cc:445: warning: unused variable 'physV_Module_2'
+../Linux-i686/dywConstructFarSitePool0.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/aut

@@ -1,0 +1,2 @@
+totypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT SAX2.lo -MD -MP -MF .deps/SAX2.Tpo -c SAX2.c  -fPIC -DPIC -o .libs/SAX2.o
+ gcc -DHAVE_CONFIG_H -I. -I./include -I./include -D_REENTRANT -I/usr/local/cdat/Externals/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscri

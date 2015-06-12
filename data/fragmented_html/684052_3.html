@@ -1,0 +1,9 @@
+al) { nm=args[i+1]; if ((val=val.value)!="") {
+if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+} else if (test!='R') { num = parseFloat(val);
+if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+min=test.substring(8,p); max=test.substring(p+1);
+if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+} } }

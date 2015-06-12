@@ -1,0 +1,15 @@
+y=e.search?e.search.substring(e.search.indexOf("?")+1,e.search.length):"";
+					var pth=e.pathname?((e.pathname.indexOf("/")!=0)?"/"+e.pathname:e.pathname):"/";
+					var ttl="";
+					var text=document.all?e.innerText:e.text;
+					var img=this.dcsEvt(evt,"IMG");
+					if (img.alt){
+						ttl=img.alt;
+					}
+					else if (text){
+						ttl=text;
+					}
+					else if (e.innerHTML){
+						ttl=e.innerHTML;
+					}
+					this.dcsMultiTrack("DCS.dcssip",hn,"DCS.dcsuri",pth,"DCS.dcsqry",e.search||"","WT.ti

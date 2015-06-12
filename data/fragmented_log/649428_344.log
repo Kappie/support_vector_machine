@@ -1,0 +1,6 @@
+lude/libxml2/libxml/xmlIO.h'
+ /usr/bin/install -c -m 644 'xmlmemory.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlmemory.h'
+ /usr/bin/install -c -m 644 'nanohttp.h' '/usr/local/cdat/Externals/include/libxml2/libxml/nanohttp.h'
+ /usr/bin/install -c -m 644 'nanoftp.h' '/usr/local/cdat/Externals/include/libxml2/libxml/nanoftp.h'
+ /usr/bin/install -c -m 644 'uri.h' '/usr/local/cdat/Externals/include/libxml2/libxml/uri.h'
+ /usr/bin/install -c -m 644 'valid.h' '/usr/local/cdat/Externals/include/libxml2/

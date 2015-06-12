@@ -1,0 +1,13 @@
+0
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - GIS2            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 38995.          Integration time (in secs) of PHA data
+  A

@@ -1,0 +1,13 @@
+9830300015000:"data stop"
+9830300015000:et
+9830300015017:!+3s
+9830300015318:tape
+9830300015330/tape/off,02704,norm,stopped,stop,unlock,ready,rem
+9830300015330:postob
+9830300015330:source=0727-115,072758.1,-113452.5,1950.0
+9830300015331#antcn#Command a new source
+9830300015390#antcn#Successfully sent new source position to antenna
+9830300015390:sx2c1=13
+9830300020332?ERROR q@ -404 Head positioning failed to converge.
+9830300020679:!303000830
+9830300044082?ERROR ch -352 Tape head 2 is not in requested positio

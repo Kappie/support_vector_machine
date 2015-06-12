@@ -1,0 +1,15 @@
+... yes
+checking for iconv.h... yes
+checking for iconv... yes
+Enabled Schematron support
+Enabled Schemas/Relax-NG support
+configure: creating ./config.status
+config.status: creating libxml2.spec
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating include/libxml/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating example/Makefile
+config.status: creating py

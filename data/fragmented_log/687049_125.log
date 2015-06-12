@@ -1,0 +1,4 @@
+                  1        0.001 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::fillHcal::addHcal                                                           1        0.000 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::fillHcal::addHitsInTheRegion                                                1        0.000 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::fillHcal::matching                                                          1        0.001 (real)        0.000 (cp

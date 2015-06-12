@@ -1,0 +1,16 @@
+3proxy 
+  in Setup (L3ProxyPartition.cc:958) 
+  @L3_INVALID_TAGS - invalid CALIB tag 
+ 
+As a workaround, I told Alex to use the DAQ state manager instead 
+of the 'Generic Calibration' - something is broken in the 
+calibration state manager. A fix will have to wait until 
+tomorrow. 
+</pre>
+<!-- Author: Arnd -->
+
+
+<!-- Date: Wed Jul 25 00:28:22 2001 -->
+Finished L2 reces studies.  Details in <a href= 
+'/cgi/elog/det-system-elog.pl?nb=l2&action=view&page=13&frame=2&anchor=00:19:42'>L2 e-log</a>.
+<!-- Author: S

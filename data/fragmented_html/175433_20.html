@@ -1,0 +1,16 @@
+;
+		windowparams = substringReplace(windowparams,':mb=',',menubar=');
+		windowparams = substringReplace(windowparams,':sb=',',scrollbars=');
+		windowparams = substringReplace(windowparams,':rs=',',resizable=');
+	}
+	return windowparams;
+}
+function substringReplace(source,pattern,replacement)
+{
+	var pos = 0;
+	var target="";
+	while ((pos = source.indexOf(pattern)) != (-1))
+	{
+		target = target + source.substring(0,pos) + replacement;
+		source = source.substring(pos+pattern.length);
+		pos = source.indexOf(patte

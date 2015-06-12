@@ -1,0 +1,14 @@
+procedure do_mosa
+gnt_infrm: *************************
+Sat Apr 15 16:19:18 EDT 2000
+ 
+gnt_infrm: Creating the exposure corrected sky image and sky images...
+ 
+[1] 31888
+Executing: /usr/local/saord/bin.linux/SAOtng -title SAO041500155075084000  -xrm *cmapDir1:/usr/local/saord/Colormaps/ -xrm *port:-1 -xrm *geometry:+5+5 -xrm *errorlog:SAO041500155075084000_error.log
+
+Welcome to SAOtng 1.9.1
+Setting current scaling limits: data
+Setting current scale: linear
+Resetting zoom factor: 2 centered at: 256.5,256.5
+Se

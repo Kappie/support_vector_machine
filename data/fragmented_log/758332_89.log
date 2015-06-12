@@ -1,0 +1,15 @@
+idence because S = 44.73
+gnt_infrm: The scripts will find centroids from smoothed sky images.
+gnt_infrm: The source coordinates will be X and Y of the centroid.
+ 
+gnt_infrm: Centroid for sis0...
+ 
+gnt_infrm: Centroiding region is circle(179,137,33).
+ 
+gnt_infrm: Creating sky image for sis0...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S0CCDPOW
+      1 3C_254      BRIGHT2     HIGH        07/12/96    13:20:13    0.35E+05     5055 0100
+extractor v3.75  8 Mar 200

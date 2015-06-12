@@ -1,0 +1,22 @@
+status=yes,toolbar=yes,width=700,height=500"); 
+  myWin.focus(); 
+  myWin.target="desclinks"; 
+} 
+ 
+<!-- popup window for journal links --> 
+function gotoEJLinks(url) { 
+  if (! window.focus) return; 
+  var myWin=window.open(url,"gotoejlinks"); 
+  myWin.focus(); 
+  myWin.target="gotoejlinks"; 
+} 
+ 
+<!-- popup window for database links --> 
+function gotoDBLinks(url) { 
+  if (! window.focus) return; 
+  var myWin=window.open(url,"gotodblinks"); 
+  myWin.focus(); 
+  myWin.target="gotodblinks"; 
+} 
+
+<!-- identif

@@ -1,0 +1,7 @@
+ancestry: muperf.draw(&ancfill, 16, 0, 16)
+  algfill - Filler for algorithm pattern: mureco.draw(&algfill, 7, 0, 7)
+   muperfstd - Plots simulated, found, good and lost: muperfstd.draw("reta", 60, 3.0)
+   murecostd - Plots reconstructed, found and fake: murecostd.draw("feta", 60, 3.0)
+    musimstd - Plots simulated variables: musimstd.draw("reta", 60, 3.0)
+   murecostd_combined - Plots reco, selected, notsel and fake for combined tracks: murecosel_combined.draw("feta", 60, 3.0)
+   muperfsel - Plots simulate

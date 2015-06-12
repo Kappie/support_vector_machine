@@ -1,0 +1,14 @@
+equest
+9830210041461?ERROR ch -338 Reproduce equalizer does not check with request
+9830210043101;sx2c2=12
+9830210043159/pass/12,12,auto,-55.0,-55.0,-55.0,-54.9,-0.0,0.1
+9830210044561;onsource
+9830210044561#antcn#Check if antenna is on-source
+9830210044615/onsource/TRACKING
+9830210130000:preob
+9830210130000&preob/onsource
+9830210130000&preob/calon
+9830210130000&preob/!+2s
+9830210130000&preob/tpical=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9830210130000&preob/tpical=v9,v10,v11,v12,v13,v14,if2
+9830210130000&preob/calof

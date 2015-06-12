@@ -1,0 +1,12 @@
+470330/tape/off,02879,norm,stopped,stop,unlock,ready,rem
+9830217470330:postob
+9830217470330:source=0400+258,040003.6,255146.4,1950.0
+9830217470331#antcn#Command a new source
+9830217470386#antcn#Successfully sent new source position to antenna
+9830217470387:sx2c2=2
+9830217470445/pass/2,2,auto,-330.0,-330.0,-330.2,-330.3,-0.2,-0.3
+9830217470791:!302175540
+9830217554000:preob
+9830217554000#antcn#Check if antenna is on-source
+9830217554058#antcn#Successfully sent new source position to antenna
+9830217554058?ERR

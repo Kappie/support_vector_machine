@@ -1,0 +1,19 @@
+odel now contains 71 components and 2.23323 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.169617Jy  sigma=0.001900
+! Fit after  self-cal, rms=0.168340Jy  sigma=0.001882
+! Inverting map 
+print "***********************************"
+! *********************************** 
+print "*** Finished Amplitude Self-Cal ***"
+! *** Finished Amplitude Self-Cal *** 
+print "***********************************"
+! *********************************** 

@@ -1,0 +1,9 @@
+5.000
+2004.349.22:36:32.43?ERROR qk -211 Tsys value for device ve overflowed or was less than zero.
+2004.349.22:36:32.43?ERROR qk -211 Tsys value for device i3 overflowed or was less than zero.
+2004.349.22:36:32.43/tsys/1u,105.6,2u,106.2,3u,106.1,4u,108.1,i1,110.5
+2004.349.22:36:32.43/tsys/9u,190.8,au,176.2,bu,168.8,cu,155.7,du,151.5,eu,$$$$$$$$
+2004.349.22:36:32.43/tsys/i2,171.4
+2004.349.22:36:32.43/tsys/5u,128.4,6u,129.5,7u,130.1,8u,135.2,i3,$$$$$$$$
+2004.349.22:36:34.44/gps-fmout/+1.3183E-006
+2004.349.22

@@ -1,0 +1,10 @@
+tion reached 
+<li>XENON ALL run 121560 fails setup - all ccal crates show no SEVB error 
+<li>XENON ALL run 121561.  okay.  Consumer = XEF_0. 
+<li>conclusion: do calibrations in such an order as to avoid conflicts between consumers that take awhile to stop.  All calibrations are then written to db.
+</ul>
+<!-- Author: hray -->
+
+
+<!-- Date: Wed Jul 25 04:58:04 2001 -->
+Run 121562 attempted Rick Run.  several BTO at beginning of run.  End and clean up L3 and EVB.  Run 121563 Rick Run successful and ended with 3

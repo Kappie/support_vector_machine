@@ -1,0 +1,19 @@
+hey are loaded into cache
+{ 
+ if (++num_loaded_images1 == imax) {
+  clear_ids();
+ } else {
+  document.animation1.src=images1[num_loaded_images1-1].src;
+  document.form.frame.value="Loading "+num_loaded_images1+" of "+imax; 
+ }
+}
+
+function count_images2() // count images as they are loaded into cache
+{ 
+ if (++num_loaded_images2 == imax) {
+  show_speed();
+  clear_ids();
+  animate();
+ } else {
+  document.animation2.src=images2[num_loaded_images2-1].src;
+  document.form.frame.value="Loading "+num_loaded_images

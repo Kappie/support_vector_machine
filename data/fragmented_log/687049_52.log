@@ -1,0 +1,9 @@
+a = -1.23049 pz = -0.810064
+%MSG
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 4.12957936e-06
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 4.568073654e-06
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 3.747121768e-08
+HelixArbitraryPlaneCrossing::pathLength : no convergence
+HelixArbitraryPlaneCrossing::pathLength : no convergence
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 7.693987968e-08
+PFClusterAlgo Warning: mor

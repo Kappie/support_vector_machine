@@ -1,0 +1,4 @@
+onalMeans
+Fortran f77 compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops -march=pentium4 -mmmx -msse2 -msse -fomit-frame-pointer -malign-double
+Fortran f90 compiler: /usr/bin/gfortran -Wall -fno-second-underscore -fPIC -O3 -funroll-loops -march=pentium4 -mmmx -msse2 -msse -fomit-frame-pointer -malign-double
+Fortran fix compiler: /usr/bin/gfortran -Wall -ffixed-form -fno-second-underscore -Wall -fno-second-underscore -fPIC -O3 -funroll-loops -march=pentium4 -mmmx -

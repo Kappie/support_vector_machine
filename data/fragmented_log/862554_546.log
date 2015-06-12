@@ -1,0 +1,31 @@
+ng trim $xspec_tclout];
+
+!XSPEC> tclout param 4;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par4 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 5;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par5 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 6;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par6 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 7;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par7 [string trim $xspec_tclout];
+
+!XSPEC> tclout dof;
+
+!XSPEC> string trim $xspec_tclout
+
+!XS

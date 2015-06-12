@@ -1,0 +1,22 @@
+ge();
+  }
+  images1[index].onload=count_images1;
+  images2[index].onload=count_images2;
+  images1[index].src = urls1[index];
+  images2[index].src = urls2[index];
+  index++;
+ }
+ return;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+function clear_ids() {         // clear asynchronous id's
+ for (i=0; i < imax ; i++) {clearTimeout(id[i]);}
+ return;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+function count_images1() // count images as t

@@ -1,0 +1,5 @@
+6/dywGLEvent_Dict.o ../Linux-i686/dywGLVertex_Dict.o ../Linux-i686/dywGLRPCHitData_Dict.o
+ranlib ../Linux-i686/libMCEvent.a
+cat /dev/null >../Linux-i686/MCEvent.stamp
+cd ../Linux-i686/; QUIET=; /home/dayabay/code/CMT/v1r20p20070524/mgr/cmt_make_shlib_common.sh extract "Linux-i686,debug" MCEvent 
+g++ -L/home/tagg/autodaya/InstallArea/Linux-i686/lib -shared -o libMCEvent.so "MCEventtemp_shlib/dywGLAberdeenHitData.o" "MCEventtemp_shlib/dywGLAberdeenHitData_Dict.o" "MCEventtemp_shlib/dywGLEvent.o" "MCEventtemp_

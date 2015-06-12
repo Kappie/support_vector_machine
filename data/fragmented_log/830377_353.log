@@ -1,0 +1,12 @@
+1 - `EVENTS    `   Stop Time (d) ..... 11016 05:18:05.018
+ No. of Rows .......        57080        Bin Time (s) ......    4.000
+ Right Ascension ... 2.5335E+02          Internal time sys.. Converted to TJD
+ Declination ....... 3.9752E+01          Experiment ........ ASCA     SIS0
+ Filter ............ NONE
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  7- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   F

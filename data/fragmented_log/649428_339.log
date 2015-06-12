@@ -1,0 +1,10 @@
+
+make[1]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31'
+Making install in include
+make[2]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include'
+Making install in libxml
+make[3]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include/libxml'
+make[4]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include/libxml'
+make  install-exec-hook
+make[5]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include/libxml'
+/bin/sh 

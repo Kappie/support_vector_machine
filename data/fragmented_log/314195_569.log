@@ -1,0 +1,11 @@
+9,36355191,0.127,24.602,rate
+2004.166.23:19:24.58?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.166.23:19:24.58?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.166.23:19:38.00:data_valid=off
+2004.166.23:19:38.00:et
+2004.166.23:19:38.05:!+3s
+2004.166.23:19:41.06:tape
+2004.166.23:19:41.13/tape/low,10020,off,stopped,unlocked,ready,10.8,85,okay
+2004.166.23:19:41.13:postob
+2004.166.23:19:41.13:scan_name=166-2331,r1127,43
+2004.166.23:19:41.13:source=oq208,140445.63,284129.5,1950.0

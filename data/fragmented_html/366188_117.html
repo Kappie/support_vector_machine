@@ -1,0 +1,18 @@
+of(screen)=="object"){
+			WT.cd=navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth;
+			WT.sr=screen.width+"x"+screen.height;
+		}
+		if (typeof(navigator.javaEnabled())=="boolean"){
+			WT.jo=navigator.javaEnabled()?"Yes":"No";
+		}
+		if (document.title){
+			if (window.RegExp){
+				var tire=new RegExp("^"+window.location.protocol+"//"+window.location.hostname+"\\s-\\s");
+				WT.ti=document.title.replace(tire,"");
+			}
+			else{
+				WT.ti=document.title;
+			}
+		}
+		WT.js="Yes";
+		W

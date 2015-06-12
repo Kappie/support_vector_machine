@@ -1,0 +1,13 @@
+075538&check2c1/form4=/rec 1
+9919418075553&fastr/repro=byp,0,0
+9919418075553&fastr/tape=low
+9919418075553&fastr/rw
+9919418075553&fastr/!+$
+9919418075553&fastr/et
+9919418075553&fastr/!+5s
+9919418082832/peak/3,1,read,0.200,0.264,64.8,t,-2.983
+9919418083292/peak/3,1,read,0.200,0.273,92.9,t,-2.993
+9919418083317/pass/1,1,auto,-330.0,-330.0,-328.6,-342.5,1.4,-12.5
+9919418084867?ERROR qg -303 Track  4 parity errors exceed threshold.
+9919418084867?ERROR qg -303 Track  6 parity errors exceed threshold.
+9919418084867

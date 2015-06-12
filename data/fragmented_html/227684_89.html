@@ -1,0 +1,19 @@
+].substring(3)]=args[i+1];
+				}
+				else if (args[i].indexOf('DCS.')==0){
+					this.DCS[args[i].substring(4)]=args[i+1];
+				}
+				else if (args[i].indexOf('DCSext.')==0){
+					this.DCSext[args[i].substring(7)]=args[i+1];
+				}
+			}
+			var dCurrent=new Date();
+			this.DCS.dcsdat=dCurrent.getTime();
+			this.dcsFunc(this.dcsFPC());
+			this.dcsTag();
+		}
+	}
+	WebTrends.prototype.dcsSplit=function(list){
+		var items=list.toLowerCase().split(",");
+		var len=items.length;
+		for (var i=0;i<len;i+

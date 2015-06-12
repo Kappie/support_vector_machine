@@ -1,0 +1,12 @@
+c_bgd.tmp clobber=yes group=no
+Wrote spectrum to gis2_spec_bgd.tmp
+!xsel:ASCA-GIS2-PH > exit save=no
+
+****** statistics for /tproc/nandra/processing/75084000/work/gis2_spec_src.tmp ******
+
+The sum of the selected image                 = 536.000000
+The mean of the selected image                = 0.795252
+The standard deviation of the selected image  = 1.104177
+The number of points used in calculation      = 674
+The minimum of selected image                 =   -1.0
+The maximum of selected image              

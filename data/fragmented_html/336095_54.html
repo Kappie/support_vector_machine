@@ -1,0 +1,18 @@
+rk;
+		}
+		return url;
+	}
+	
+	function renderFor(render_option,file_name){
+		myDate = new Date(); // allows to open more than one excel spreatsheets or print docs 
+		if (file_name)
+			filename = '/' + myDate.getSeconds() + file_name;
+		else
+			filename = "";
+			
+		var thepage = "/about/org/crmc/cdb/projects.cfm" + filename + "?NIHORG=HNT3D&FISCAL_YEAR=2009&renderfor" + render_option + "=1" ;
+		var theform = eval("document.RenderForForm");
+		theform.action = thepage;	
+		theform.submit();
+	}
+

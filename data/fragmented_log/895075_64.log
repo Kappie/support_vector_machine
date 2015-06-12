@@ -1,0 +1,12 @@
+in
+! wwins: Wrote 4 windows to J1727+4530_X_1999_12_20_pus_map.win
+x = (field_size-8) * field_cell / 4
+addwin -x,x,-x,x
+clean (field_size*4),0.01
+! Inverting map 
+! Your choice of large map pixels excluded 4.39% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+! clean: niter=1024  gain=0.01  cutoff=0
+! Component: 050  -  total flux cleaned = -0.000436196 Jy
+! Component: 100  -  total flux cleaned = -0.00074

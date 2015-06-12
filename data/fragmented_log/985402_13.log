@@ -1,0 +1,18 @@
+ model now contains 38 components and 0.745489 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.132995Jy  sigma=0.642768
+! Fit after  self-cal, rms=0.132951Jy  sigma=0.642565
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0225274 Jy
+! Total flux subtracted in 50 components = 0.0225274 Jy
+! Clean residual min=-0.006655 max=0.012667 Jy/beam
+! Clean residual mean=-0.000009 rms=0.001615

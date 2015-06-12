@@ -1,0 +1,4 @@
+dependencies for NamedFactoryTest.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual    /home/tagg/autodaya/Base/Util/unit-test/NamedFactoryTest.cc
+computing dependencies for SingletonUnitTest.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -pedan

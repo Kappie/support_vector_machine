@@ -1,0 +1,17 @@
+     __cmsResetFormCachedOnSubmit = __CMS_PostbackForm.onsubmit;
+        __CMS_PostbackForm.onsubmit = __cmsResetFormOverrideOnSubmit;
+    }
+    else
+    {
+        __cmsResetFormCachedOnSubmit = null;
+        __CMS_PostbackForm.onsubmit = __cmsResetFormOverrideOnSubmit;
+    }
+
+    function __cmsResetFormOverridePostBack( eventTarget, eventArgument )
+    {
+        __cmsRestFormAction();
+        __cmsResetFormCachedPostBack( eventTarget, eventArgument );
+    }
+
+    function __cmsResetFormOverrideOnSubmit()
+  

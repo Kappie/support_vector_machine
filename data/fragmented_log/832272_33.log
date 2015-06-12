@@ -1,0 +1,12 @@
+x cleaned = 0.236561 Jy
+! Total flux subtracted in 200 components = 0.236561 Jy
+! Clean residual min=-0.008827 max=0.010732 Jy/beam
+! Clean residual mean=-0.000087 rms=0.002505 Jy/beam
+! Combined flux in latest and established models = 0.236561 Jy
+uvw 0,-2
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -2.
+! Radial weighting is not currently selected.
+flux_cutoff = imstat(rms) * dynam
+! Adding 18 model components to the UV plane model.
+! The es

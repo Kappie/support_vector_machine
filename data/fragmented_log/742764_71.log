@@ -1,0 +1,12 @@
+945 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.734784 Jy
+! Component: 100  -  total flux cleaned = 0.939336 Jy
+! Component: 150  -  total flux cleaned = 1.03887 Jy
+! Component: 200  -  total flux cleaned = 1.0985 Jy
+! Total flux subtracted in 200 components = 1.0985 Jy
+! Clean residual min=-0.011095 max=0.031726 Jy/beam
+! Clean residual mean=0.000141 rms=0.003573 Jy/beam
+! Combined flux in latest and established models = 1.0985 Jy
+uvw 0,-1
+! Uniform weighti

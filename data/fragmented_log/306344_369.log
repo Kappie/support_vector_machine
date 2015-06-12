@@ -1,0 +1,12 @@
+212324366?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830212324366/tsys1/50.8,51.7,51.1,49.9,48.6,44.9,44.8,44.7,48.1,$$$$$$$$
+9830212324367?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830212324367/tsys2/61.4,63.9,63.2,59.9,60.6,-33.4,73.0
+9830212324367:!302123410
+9830212341000:"data stop"
+9830212341000:et
+9830212341015:!+3s
+9830212341316:tape
+9830212341327/tape/off,01070,norm,stopped,stop,unlock,ready,rem
+9830212341327:postob
+9830212341327:sourc

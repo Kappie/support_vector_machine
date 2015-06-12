@@ -1,0 +1,9 @@
+492228196)
+EDR INPUT DVC #1220:   Missing or incomplete EDB - DVC skipped (EDR #3493, SCET=1492251115)
+CDF OUTPUT LOG:        CDF Records written=94 (Range Errors=0)
+[01-Apr-2002-21:10:45  End processing file: .\data\1997\19970415.cdf]
+
+[01-Apr-2002-21:10:45  Start processing file: .\data\1997\19970416.cdf]
+EDR INPUT DVC #1299:   DPU error - no bubble sync. word (EDR #3694, SCET=1492320657)
+EDR INPUT DVC #1299:   DPU error - no bubble HK identifier (EDR #3694, SCET=1492320657)
+CDF OUTPUT LOG:       

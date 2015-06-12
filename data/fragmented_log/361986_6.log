@@ -1,0 +1,7 @@
+fraction(xlon,ylat,bandlat,[imt,jmt,nband])
+	Wrote C/API module "_gengridzmean" to file "build/src.linux-i686-2.5/ZonalMeans/_gengridzmeanmodule.c"
+	Fortran 90 wrappers are saved to "build/src.linux-i686-2.5/ZonalMeans/_gengridzmean-f2pywrappers2.f90"
+  adding 'build/src.linux-i686-2.5/fortranobject.c' to sources.
+  adding 'build/src.linux-i686-2.5' to include_dirs.
+copying /usr/local/cdat/lib/python2.5/site-packages/numpy/f2py/src/fortranobject.c -> build/src.linux-i686-2.5
+copying /usr/local/cdat/lib/pyth

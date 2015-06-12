@@ -1,0 +1,18 @@
+n of the chosen data:  0.40000E+01,
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   4095
+ 
+ 
+Number of files read in:    3
+ 
+Files currently in use:
+ 
+   1   ad76052020s000112m.unf
+   2   ad76052020s000312l.unf
+   3   ad76052020s000212h.unf
+ 
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > set image detector
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > select mkf @76052020_sis0_mkf.sel
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > extract events
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > sisclean clean=2 cellsize=

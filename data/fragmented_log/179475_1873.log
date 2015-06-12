@@ -1,0 +1,10 @@
+device info
+2004.350.12:18:39.73?ERROR m5 -904 MARK5 return code 4: error encountered (during attempt to execute)
+2004.350.12:18:39.73/!SS_rev1? 4 : Can't get device info ;
+ 
+2004.350.12:18:39.74?ERROR m5 -900 Can't get SS version
+2004.350.12:18:39.74?ERROR m5 -904 MARK5 return code 4: error encountered (during attempt to execute)
+2004.350.12:18:39.74/!SS_rev2? 4 : Can't get SS version ;
+ 
+2004.350.12:18:39.74/mk5/!status? 0 : 0x0030004b : 10 : Invalid request for system mode ;
+2004.350.12:18:40.74&valarm/v

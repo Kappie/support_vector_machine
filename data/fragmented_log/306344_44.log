@@ -1,0 +1,15 @@
+,on,off,locked,1.007
+9830205184738/rx/17(pres),on,a,on,on,on,off,locked,4.048
+9830205184749/rx/1E(20k),on,a,on,on,on,off,locked,29.44
+9830205184760/rx/1F(70k),on,a,on,on,on,off,locked,47.70
+9830205184760:sx2c2=2
+9830205184760&sx2c2/tapefrmsxc
+9830205184760&sx2c2/pass=$,same
+9830205184760&sx2c2/form=c,4.000
+9830205184760&sx2c2/form=reset
+9830205184760&sx2c2/vcsx2
+9830205184760&sx2c2/ifdsx
+9830205184760&sx2c2/tape=low
+9830205184760&sx2c2/enable=g2,g4
+9830205184760&sx2c2/repro=byp,4,20
+9830205185485/pass/2,2,a

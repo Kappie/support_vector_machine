@@ -1,0 +1,13 @@
+:ASCA-GIS2-PH > save events use=no clobber=yes 75084000_gis2_bgd_hard.evt
+Wrote events list to file 75084000_gis2_bgd_hard.evt
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Extracting BITFIX=n bgd data for gis3...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 TOL0109-383 PH          MEDIUM      02/07/97    03:46:45    0.34E+05     9617     1024
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /tproc/nandra/processing/75084000

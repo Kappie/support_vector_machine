@@ -1,0 +1,3 @@
+e  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT io1.o -MD -MP -MF .deps/io1.Tpo -c -o io1.o io1.c
+mv -f .deps/io1.Tpo .deps/io1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -

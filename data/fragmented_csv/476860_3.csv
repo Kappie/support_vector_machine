@@ -1,0 +1,7 @@
+ture Delay
+(in mins.)",Wheels Off,Air Time,Wheels On,"Taxi-In Time
+(in mins.)",Scheduled Arrival Time,Actual Gate Arrival Time,"Arrival Delay
+(in mins.)",Distance,Air Carrier ,NAS ,Security ,Weather ,Late Arriving Aircraft
+United,9/27,239,271,PHL,"Philadelphia, PA",DEN,"Denver, CO",4,1650,1658,8,2057,214,2231,7,1855,2238,223,1557,0,215,0,6,2
+Continental,9/30,230,370,EWR,"Newark, NJ",MSP,"Minneapolis/St. Paul, MN",7,1535,1606,31,1956,164,2140,11,1752,2151,239,1008,0,239,0,0,0
+ExpressJet,9/27,230,2756,EWR,

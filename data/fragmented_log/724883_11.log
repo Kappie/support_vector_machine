@@ -1,0 +1,18 @@
+he established model now contains 16 components and 0.708235 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.181555Jy  sigma=0.002514
+! Fit after  self-cal, rms=0.181459Jy  sigma=0.002514
+! Inverting map 
+print "****************************************"
+! **************************************** 
+print "*** Finished Uniform Weighting CLEAN ***"
+! *** Finished Uniform Weighting CLEAN *** 
+print "***************************************

@@ -1,0 +1,16 @@
+)
+ Point source at    2.86   19.94 (WMAP bins wrt optical axis)
+ Point source at    4.95   81.84 (... in polar coordinates)
+ 
+ Total counts in region = 2.90100E+03
+ Weighted mean angle from optical axis  =  5.130 arcmin
+ 
+gnt_infrm: Creating response matrix for sis0...
+ 
+Sisrmg Version 1.1, Configured 04/97
+
+  This version resolves *all* known keyword incompatibilities with
+  other FTOOLS tasks.  If you have previously fudged *any* keywords
+  in the PHA file to compensate, incorrect results will follow.
+ 
+S

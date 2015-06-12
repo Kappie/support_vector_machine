@@ -1,0 +1,9 @@
+,04827,norm,moving,nostop,locked,ready,rem
+2001.296.06:40:20.13:data_valid=on
+2001.296.06:40:20.15:midob
+2001.296.06:40:20.16#antcn#Checking onsource status
+2001.296.06:40:20.18#antcn# RAsource   194.510   DECsource  -31.927
+2001.296.06:40:20.18#antcn# RAbeam     194.512   DECbeam    -31.935
+2001.296.06:40:20.18#antcn# RAdelta      0.002   DECdelta     0.008
+2001.296.06:40:20.18?ERROR an -103 Pointing computer tracking errors are too large.
+2001.296.06:40:20.19?ERROR qo -301 WARNING: ONSOURCE status is SLEW

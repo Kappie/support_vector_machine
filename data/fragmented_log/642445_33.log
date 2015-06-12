@@ -1,0 +1,11 @@
+nd of error. 
+The track plots showed disagreement between TL2D and XTRD, but 
+that may all be problems on the XTRP side as no sync errors 
+were observed in the online TrigMon plots.  
+ 
+The New MBus - is being redesigned to put the RC termination 
+as surface mount parts. The design should be ready towards the 
+beginning of next week. The delay in the new bus design will put 
+some time pressure on getting the bus tested. 
+Peter Wittich and Ted will setup some tests to be done on the 
+bus and will initially d

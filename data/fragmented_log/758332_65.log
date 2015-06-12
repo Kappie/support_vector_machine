@@ -1,0 +1,19 @@
+on of the chosen data:  0.20000E+01,
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   1023
+ 
+ 
+Number of files read in:    4
+ 
+Files currently in use:
+ 
+   1   ad74035000g200170h.unf
+   2   ad74035000g200270m.unf
+   3   ad74035000g200370l.unf
+   4   ad74035000g200470l.unf
+ 
+!ascascreen_gis2:ASCA-GIS2-PH > set image detector
+!ascascreen_gis2:ASCA-GIS2-PH > select mkf @74035000_gis2_mkf.sel
+!ascascreen_gis2:ASCA-GIS2-PH > filter region 74035000_gis2_randc.reg
+!ascascreen_gis2:ASCA-GI

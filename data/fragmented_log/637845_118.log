@@ -1,0 +1,8 @@
+) install_includes_auto done
+------> (constituents.make) Building UnitTest.make
+Library UnitTest
+------> (constituents.make) Starting UnitTest
+------> (UnitTest.make) Rebuilding ../Linux-i686/UnitTest_dependencies.make
+computing dependencies for UnitTestRegistry.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual    /home/tagg/autodaya/Test/UnitTest/src/UnitTestRegistry.cc
+..

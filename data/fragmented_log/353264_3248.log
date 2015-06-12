@@ -1,0 +1,8 @@
+OR qk -211 Tsys value for device vc overflowed or was less than zero.
+2003.280.10:15:39.76?ERROR qk -211 Tsys value for device vd overflowed or was less than zero.
+2003.280.10:15:39.76?ERROR qk -211 Tsys value for device ve overflowed or was less than zero.
+2003.280.10:15:39.78/tsys/1d,63.9,2u,62.9,3u,56.9,4u,62.2,i1,58.1
+2003.280.10:15:39.79/tsys/9u,40.9,au,38.7,bu,36.8,cu,$$$$$$$$,du,$$$$$$$$,eu,$$$$$$$$
+2003.280.10:15:39.79/tsys/i2,40.1
+2003.280.10:15:39.80/tsys/5u,53.5,6u,63.6,7u,54.0,8d,51.1,i3,55.0
+20

@@ -1,0 +1,11 @@
+strument filter in use
+  EXPOSURE  - 38989.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 3.66360E-02     Background scaling factor
+  BACKFILE  - 74035000_gis3_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 74035000_gis3.rmf
+  ANCRFILE  - 74035000_gis3.arf
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether

@@ -1,0 +1,11 @@
+2007 09:04:48 EDT  Run: 1 Event: 8
+Warning: L1 trigger info not available 
+%MSG
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 5.055696235e-05
+%MSG-e PFProducer:  GoodSeedProducer:elecpreid 07-Aug-2007 09:07:11 EDT  Run: 1 Event: 8
+invalid trajectory state on surface:  iSurf = 4 tan theta = 91.8457 pz = 0.0111785
+%MSG
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-2007 09:07:21 EDT  Run: 1 Event: 9
+Warning: L1 trigger info not available 
+%MSG
+PFClusterAlgo Warning:

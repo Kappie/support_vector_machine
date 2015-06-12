@@ -1,0 +1,8 @@
+..
+#--------------------------------------------------------------
+# Now trying [cmt autodoc] in /home/tagg/autodaya/External/XERCES/cmt (6/29)
+#--------------------------------------------------------------
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/AutoDoc.pl XERCES /home/tagg/autodaya/External/XERCES $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on XERCES at /home/tagg/autodaya/External/XERCES to /home/tagg/autodaya/InstallArea/doc
+Error: Unexpected tag `class' found
+Error: Unexpected tag `class

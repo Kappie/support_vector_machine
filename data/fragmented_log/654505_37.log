@@ -1,0 +1,12 @@
+t: t/zz_42prof_data_pp.t 
+Creating extra DBI::PurePerl test: t/zz_60preparse_pp.t 
+Creating extra DBI::PurePerl test: t/zz_80proxy_pp.t 
+Checking if your kit is complete...
+Looks good
+
+    I see you're using perl 5.008005 on i386-linux-thread-multi, okay.
+    Remember to actually *read* the README file!
+    Use  'make' to build the software (dmake or nmake on Windows).
+    Then 'make test' to execute self tests.
+    Then 'make install' to install the DBI and then delete this working
+    directory before unp

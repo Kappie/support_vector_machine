@@ -1,0 +1,14 @@
+t/autobuilder/i386/00_LOGS/cpan/perl-DBI/BUILD
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: cd /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/BUILD
+sh-trace: rm -rf DBI-1.40
+sh-trace: /bin/gzip -dc /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SOURCES/DBI-1.40.tar.gz
+sh-trace: tar -xf -
+sh-trace: STATUS=0
+sh-trace: '[' 0 -ne 0 ']'
+sh-trace: cd DBI-1.40
+sh-trace: echo 'Patch #0 (perl-DBI-1.37-prever.patch):'
+Patch #0 (perl-DBI-1.37-prever.patch):
+sh-trace: patch -p1

@@ -1,0 +1,12 @@
+         = 250.86 
+NUMBER OF MASK CALCS=  3
+Time per interpreted Python bytecode instruction: 4.575 micro seconds
+Total CPU time: 5.75 minutes
+from_scatterers_fft:    657 calls, 104.50 s
+gradients_fft:          602 calls, 101.59 s
+
+=========================== phenix.refine: finished ===========================
+
+# Date 2008-01-16 Time 06:13:23 PST -0800 (1200492803.52 s)
+Start R-work = 0.3262, R-free = 0.3194 (no bulk solvent and anisotropic scale)
+Final R-work = 0.1309, R-free = 0.1776 (no bulk solvent and 

@@ -1,0 +1,16 @@
+		<string>US Letter</string>
+					<key>com.apple.print.ticket.client</key>
+					<string>com.apple.print.pm.PostScript</string>
+					<key>com.apple.print.ticket.modDate</key>
+					<date>2003-07-01T17:49:36Z</date>
+					<key>com.apple.print.ticket.stateFlag</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>com.apple.print.ticket.APIVersion</key>
+		<string>00.20</string>
+		<key>com.apple.print.ticket.privateLock</key>
+		<false/>
+		<key>com.apple.print.ticket.type</key>
+		<string>com.appl

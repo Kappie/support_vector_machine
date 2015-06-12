@@ -1,0 +1,13 @@
+633,35210
+9919503085202:!195030859
+9919503085900:tape
+9919503085906/tape/off,08597,norm,moving,nostop,locked,ready,rem
+9919503085906:"data start"
+9919503085906:midob
+9919503085906#antcn#Checking onsource status
+9919503085909#antcn# RAsource     1.551   DECsource   -6.396
+9919503085910#antcn# RAbeam       1.551   DECbeam     -6.394
+9919503085910#antcn# RAdelta      0.000   DECdelta     0.002
+9919503085910?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919503085910/onsource/SLEWING
+9919503085911/wx/2.6,8

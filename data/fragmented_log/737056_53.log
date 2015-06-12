@@ -1,0 +1,18 @@
+ual mean=-0.000065 rms=0.000811 Jy/beam
+! Combined flux in latest and established models = 2.58493 Jy
+! Performing phase self-cal
+! Adding 24 model components to the UV plane model.
+! The established model now contains 136 components and 2.58493 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.297267Jy  sigma=0.001264
+! Fit after  self-cal, rms=0.297267Jy  sigma=0.001264
+! Inverting map 
+! Your choice of large map pixels excluded 2.61

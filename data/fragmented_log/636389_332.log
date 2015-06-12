@@ -1,0 +1,11 @@
+ [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ?      Enter Level in mb, -1 = mean, 0 = sfc                        ? 
+     Looking for laps wind data: lwm
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+
+  Field [di,sp,u,v,om,dv,vo,va,vc (barbs), ob (obs))]              ?   ext = lw3      

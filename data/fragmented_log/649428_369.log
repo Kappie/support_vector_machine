@@ -1,0 +1,7 @@
+als/share/doc/libxml2-2.6.31/html/tutorial/images/callouts
+/usr/bin/install -c -m 0644 ./tutorial/images/callouts/*.* \
+	/usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial/images/callouts
+test -z "/usr/local/cdat/Externals/share/man/man1" || /bin/mkdir -p "/usr/local/cdat/Externals/share/man/man1"
+ /usr/bin/install -c -m 644 './xmllint.1' '/usr/local/cdat/Externals/share/man/man1/xmllint.1'
+ /usr/bin/install -c -m 644 './xmlcatalog.1' '/usr/local/cdat/Externals/share/man/man1/xmlcatalog.1'
+mak

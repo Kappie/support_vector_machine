@@ -1,0 +1,57 @@
+tTarget, e.relatedTarget))
+
+delayhidemenu()
+
+}
+
+
+
+function hidemenu(e){
+
+if (typeof dropmenuobj!="undefined"){
+
+if (ie4||ns6)
+
+dropmenuobj.style.visibility="hidden"
+
+}
+
+}
+
+
+
+function delayhidemenu(){
+
+if (ie4||ns6)
+
+delayhide=setTimeout("hidemenu()",disappeardelay)
+
+}
+
+
+
+function clearhidemenu(){
+
+if (typeof delayhide!="undefined")
+
+clearTimeout(delayhide)
+
+}
+
+
+
+if (hidemenu_onclick=="yes")
+
+document.onclick=hidemenu
+
+
+
+</script>
+
+
+
+
+
+
+
+<META HTTP-EQUI

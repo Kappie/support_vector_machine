@@ -1,0 +1,10 @@
+
+ Energy keywords   = PI                     with binning =    1
+ 
+!cat:ASCA-SIS0 > set datamode BRIGHT
+!cat:ASCA-SIS0-BRIGHT > make obscat cat_filt=DEF lststr='ad*s0*.unf'
+''Using default selection expression: ONTIME>100&&NEVENTS>0&&COORDPRO!='ERROR'&&INSTRUME=='SIS0'&&DATAMODE=='BRIGHT'
+!cat:ASCA-SIS0-BRIGHT > save obscat s0_bright.cat clobber=yes
+!cat:ASCA-SIS0-BRIGHT > set datamode BRIGHT2
+!cat:ASCA-SIS0-BRIGHT2 > make obscat cat_filt=DEF lststr='ad*s0*.unf'
+''Using default selection expression: ONTIME>

@@ -1,0 +1,12 @@
+213383846?ERROR ch -370 Total power integrator overflow on IF3
+9830213390044?ERROR ch -370 Total power integrator overflow on IF3
+9830213392243?ERROR ch -370 Total power integrator overflow on IF3
+9830213394440?ERROR ch -370 Total power integrator overflow on IF3
+9830213400000:"data stop"
+9830213400000:et
+9830213400016:!+3s
+9830213400317:tape
+9830213400329/tape/off,03719,norm,stopped,stop,unlock,ready,rem
+9830213400329:postob
+9830213400329:source=0528+134,052806.7,132942.3,1950.0
+9830213400330#antcn#Command

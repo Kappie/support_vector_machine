@@ -1,0 +1,23 @@
+.
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_expo
+gnt_infrm: ========================
+Fri Apr 28 06:23:28 EDT 2000
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_lcvs
+gnt_infrm: *************************
+Fri Apr 28 06:23:28 EDT 2000
+ 
+gnt_infrm: Making lightcurves with 3 binsizes and 3 energy bands...
+ 
+gnt_infrm: Time ordering...
+ 
+ 
+gnt_infrm: Source, full-band, 16s bin, SIS/GIS...
+ 
+nbint = 4762
+gnt_infrm: Command...
+lcurve nser=1 cfile1=@/tproc/nandra/

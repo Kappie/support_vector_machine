@@ -1,0 +1,15 @@
+toff rigidity
+Using 275 for Radiation Belt Monitor upper-threshold
+Using 100 for SIS Pixel rejection upper-threshold for chips 3 .
+I will start up SAOImage, and leave you in Xselect at the end
+Writing command file 74035000_sis1.xco
+Index  NEVENTS   ONTIME  S1CCDMOD S1CCDLST S1_ARENA
+    0   205127  64400.2         1     3333        0
+Removing Hot and Flickering Pixels.
+Performing Grade selection ( keeping 0,2,3, and 4 ).
+Command file written, goodbye
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Appl

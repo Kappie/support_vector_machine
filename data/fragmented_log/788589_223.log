@@ -1,0 +1,14 @@
+================== Detailed timings ==============================
+
+Pure refinement (no I/O, processing, etc)= 325.09 
+  Macro-tasks:
+    bulk solvent and scale       = 39.55  
+    individual site refinement   = 135.22 
+    weights calculation          = 32.42  
+    collect and process          = 6.87   
+    model show statistics        = 0.13   
+    TOTAL for macro-tasks        = 214.19 
+  Micro-tasks:
+    mask                            = 1.70   
+    f_calc                          = 97.49  
+    alpha_bet

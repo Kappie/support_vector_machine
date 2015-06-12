@@ -1,0 +1,12 @@
+ntly selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+clean 150, 0.03,0
+! Inverting map and beam 
+! Estimated beam: bmin=3.715 mas, bmaj=7.177 mas, bpa=-8.323 degrees
+! Estimated noise=2.92652 mJy/beam.
+! clean: niter=150  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.148983 Jy
+! Component: 100  -  total flux cleaned = 0.223897 Jy
+! Component: 150  -  total flux cleaned = 0.266838 Jy
+! Total flux subtracted in 150 c

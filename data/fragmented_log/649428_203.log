@@ -1,0 +1,5 @@
+ads.o c14n.o xmlstring.o xmlregexp.o xmlschemas.o xmlschemastypes.o xmlunicode.o xmlreader.o relaxng.o dict.o SAX2.o xmlwriter.o legacy.o chvalid.o pattern.o xmlsave.o xmlmodule.o schematron.o
+ranlib .libs/libxml2.a
+creating libxml2.la
+(cd .libs && rm -f libxml2.la && ln -s ../libxml2.la libxml2.la)
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT    -I/usr/local/cdat/Externals/include   -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Exter

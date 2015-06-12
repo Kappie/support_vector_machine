@@ -1,0 +1,18 @@
+mage            has     8804 counts for 0.4356     counts/sec
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel] ascascreen_gis3
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!ascascreen_gis3:ASCA > set mission ASCA
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+!ascascreen_gis3:ASCA > set

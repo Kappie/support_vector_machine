@@ -1,0 +1,18 @@
+(_tag)!="undefined"){
+			return(_tag.dcsMultiTrack());
+		}
+	}
+	
+	Function.prototype.wtbind = function(obj){
+		var method=this;
+		var temp=function(){
+			return method.apply(obj,arguments);
+		};
+		return temp;
+	}
+</script>
+<!-- webtrends.js end -->
+
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with

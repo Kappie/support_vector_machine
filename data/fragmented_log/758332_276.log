@@ -1,0 +1,20 @@
+om) 340
+ numchan(nocom) 204
+ minchan(nocom) 341
+ maxchan(nocom) 477
+ numchan(nocom) 137
+ minchan(nocom) 478
+ maxchan(nocom) 683
+ numchan(nocom) 206
+ ...... exiting, changes written to file : 74035000_sis0_4_ch.pha
+ ** grppha 2.9.0 completed successfully
+ 
+gnt_infrm: Creating efficiency map for sis0...
+ 
+ASCAEFFMAP vers 2.27  5 May 1999.
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+ 
+  385 grouped channels from the PHA file
+ 
+ Bin size is 0.0270 (mm) = 0.0265(arcmin)
+ Optical axis is 662.72 559.02

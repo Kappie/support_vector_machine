@@ -1,0 +1,10 @@
+et_stats? 0 : 7 : 63427 : 62641 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.308.21:37:40.94:scan_name=308-2142,crf23,410
+2003.308.21:37:40.95:source=1048-313,104843.35,-312218.6,1950.0
+2003.308.21:37:40.95#antcn#Command a new source
+2003.308.21:37:41.38#antcn#Successfully sent new source position to antenna
+2003.308.21:37:41.38#flagr#flagr/antenna,new-source
+2003.308.21:37:41.39:setupsx
+2003.308.21:37:44.86/mk5/!play_rate = 0 ;
+2003.308.21:37:44.87/mk5/!mode = 0 ;
+2003.308.21:37:44.90/mk5/!mode? 0 : mark4 : 16 : mark4 :

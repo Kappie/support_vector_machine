@@ -1,0 +1,12 @@
+lpha does load the exe correctly, but this crate also fails in cs, with a different error: 
+<br>b0l2de01-> TRACER: VISIONopen Name=geo32:/slot=2 
+FISION: S_errno_EIO (0x5): VME BERR received! 
+FISION: S_errno_EIO (0x5): VME BERR received! 
+FISION: S_errno_EIO (0x5): VME BERR received! 
+Cannot configure readout - check readout list. 
+Readout process not started. Error status: 1 
+Setup failed with error code 5 
+Setup failed with error code 1 
+Statechange failed  
+<br> 
+but at least this is a real error and no

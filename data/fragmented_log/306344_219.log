@@ -1,0 +1,15 @@
+/if3=8,out,1,1
+9830209304388&ifdsx/lo=8080.00,2020.00,
+9830209304388&ifdsx/patch=lo1,1l,2l,3l,4h,5h,6h,7h,8h
+9830209304388&ifdsx/patch=lo2,9l,10l,11l,12h,13h,14h
+9830209304418:fastr=1m4s
+9830209304418&fastr/rw
+9830209304418&fastr/!+$
+9830209304418&fastr/et
+9830209314852:!302094440
+9830209320214;halt
+9830209350586;cont
+9830209355165?ERROR ch -332 Tape drive is not in remote
+9830209361366?ERROR ch -332 Tape drive is not in remote
+9830209363569?ERROR ch -332 Tape drive is not in remote
+9830209365773?ERROR ch -

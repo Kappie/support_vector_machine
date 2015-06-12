@@ -1,0 +1,12 @@
+: ncols =            60
+  col_offset / scale_loc =    0.6666667        120.0000    
+  Regular image contour fill without raster
+  Drawing colorbar:           153          141
+  colorbar: scale_l,scale_h,scale    250.0000        370.0000     
+    1.000000    
+  l_integral,l_discrete,l_divisible,l_set_contours  F  F  T  F
+  Colorbar left edge =      250
+  Colorbar right edge = 370     
+  Plotting colorbar    250.0000        10.00000              409          924
+  write_label_lplot:
+ Sfc Equiv Potl Temp  (Deg

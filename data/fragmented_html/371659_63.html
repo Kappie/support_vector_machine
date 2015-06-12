@@ -1,0 +1,18 @@
+generate, ellipse. The projection is just the union of the
+   orthogonal projections onto the plane of each point in the ellipse. The
+   orthogonal projection of a point X onto a plane is the closest point in
+   the plane to X.
+<P>
+ 
+   Let ELLIN and ELLOUT be declared as SPICELIB ellipses, and let PLANE be
+   declared as a SPICELIB plane:
+<P>
+ 
+<PRE>
+   INTEGER               UBEL
+   PARAMETER           ( UBEL = 9 )
+ 
+   INTEGER               UBPL
+   PARAMETER           ( UBPL = 4 )
+ 
+   DOUBLE PRECISION   

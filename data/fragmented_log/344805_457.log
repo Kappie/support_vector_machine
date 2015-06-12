@@ -1,0 +1,10 @@
+.93/mk5/!get_stats? 0 : 7 : 113050 : 111721 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.309.00:38:00.93:scan_name=309-0044,crf23,360
+2003.309.00:38:00.94:source=1817-254,181752.36,-252937.4,1950.0
+2003.309.00:38:00.94#antcn#Command a new source
+2003.309.00:38:01.35#antcn#Successfully sent new source position to antenna
+2003.309.00:38:01.36#flagr#flagr/antenna,new-source
+2003.309.00:38:01.36:setupsx
+2003.309.00:38:05.81/mk5/!play_rate = 0 ;
+2003.309.00:38:05.83/mk5/!mode = 0 ;
+2003.309.00:38:05.87/mk5/!mode? 0 : mark4 : 

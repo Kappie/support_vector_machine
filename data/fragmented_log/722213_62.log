@@ -1,0 +1,19 @@
+off
+!ascascreen_gis2:ASCA-GIS2 > set datamode PH
+!ascascreen_gis2:ASCA-GIS2-PH > make obscat cat_filt=@75084000_gis2_obscat.sel lststr = '[af][dt]*[Gg]2*[HhMmLl].unf'
+''!ascascreen_gis2:ASCA-GIS2-PH > choose 1-** switch=yes
+ 
+   Setting datamode to PH
+ 
+Got the minimum time resolution of the chosen data:  0.20000E+01,
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   1023
+ 
+ 
+Number of files read in:    3
+ 
+Files currently in use:
+ 
+   1   ad75084000g200270m.unf
+   2   ad75084000g20

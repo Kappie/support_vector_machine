@@ -1,0 +1,17 @@
+
+				window.addEventListener("load",this.dcsET.wtbind(this),false);
+			}
+			else if (window.attachEvent){
+				window.attachEvent("onload",this.dcsET.wtbind(this));
+			}
+		}
+		this.dcsFunc(this.dcsFPC());
+	}
+	WebTrends.prototype.dcsVar=function(){
+		var dCurrent=new Date();
+		var WT=this.WT;
+		var DCS=this.DCS;
+		WT.tz=parseInt(dCurrent.getTimezoneOffset()/60*-1)||"0";
+		WT.bh=dCurrent.getHours()||"0";
+		WT.ul=navigator.appName=="Netscape"?navigator.language:navigator.userLanguage;
+		if (type

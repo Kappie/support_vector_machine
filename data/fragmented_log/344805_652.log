@@ -1,0 +1,10 @@
+:16.41;check=*,v12
+2003.309.03:44:24.78;check=*,v13
+2003.309.03:44:30.08;rxmon
+2003.309.03:44:30.20/rx/00(front),on,a,on,on,on,off,locked,27.04
+2003.309.03:44:30.31/rx/01(rear),on,a,on,on,on,off,locked,40.35
+2003.309.03:44:30.42/rx/02(lo),on,a,on,on,on,off,locked,45.60
+2003.309.03:44:30.53/rx/03(dcal),on,a,on,on,on,off,locked,48.04
+2003.309.03:44:30.64/rx/0E(lo5mhz),on,a,on,on,on,off,locked,0.363
+2003.309.03:44:30.76/rx/17(pres),on,a,on,on,on,off,locked,2.727
+2003.309.03:44:30.87/rx/1E(20k),on,a,on,on,on,of

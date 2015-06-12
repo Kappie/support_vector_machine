@@ -1,0 +1,6 @@
+Externals/include/libxml2/libxml/HTMLparser.h'
+ /usr/bin/install -c -m 644 'HTMLtree.h' '/usr/local/cdat/Externals/include/libxml2/libxml/HTMLtree.h'
+ /usr/bin/install -c -m 644 'debugXML.h' '/usr/local/cdat/Externals/include/libxml2/libxml/debugXML.h'
+ /usr/bin/install -c -m 644 'tree.h' '/usr/local/cdat/Externals/include/libxml2/libxml/tree.h'
+ /usr/bin/install -c -m 644 'list.h' '/usr/local/cdat/Externals/include/libxml2/libxml/list.h'
+ /usr/bin/install -c -m 644 'hash.h' '/usr/local/cdat/Externals/inclu

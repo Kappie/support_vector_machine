@@ -1,0 +1,13 @@
+angular deviation
+Using 5 for minimum elevation
+Using standard GIS particle BGD rejection criterion
+I will start up SAOImage, and leave you in Xselect at the end
+Removing ring and calibration sources
+     CIRCLE(128.50,128.50,88.00)
+    -ELLIPSE(217,95,21.56,25.92,169.216)
+
+Writing command file 72016000_gis3.xco
+Index  NEVENTS   ONTIME  RAWXBINS RISEBINS TIMEBINS PHA_BINS  POS_DET
+    0    29150  30641.9       256       32        1     1024      FLF
+Using Rise Time window bkgd. rejection
+    Using the regio

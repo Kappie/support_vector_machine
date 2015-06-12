@@ -1,0 +1,14 @@
+imum channels are 60 (gis2), 60 (gis3).
+ 
+gnt_infrm: Creating grouped spectrum files for sis0...
+grppha
+Sat Apr 22 06:03:39 EDT 2000
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - SIS0            Instrument/Detec

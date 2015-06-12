@@ -1,0 +1,13 @@
+2,35523
+9919503023201:!195030239
+9919503023900:tape
+9919503023906/tape/off,10232,norm,moving,nostop,locked,ready,rem
+9919503023906:"data start"
+9919503023906:midob
+9919503023906#antcn#Checking onsource status
+9919503023911#antcn# RAsource    20.478   DECsource    4.370
+9919503023911#antcn# RAbeam      20.479   DECbeam      4.371
+9919503023911#antcn# RAdelta      0.001   DECdelta     0.002
+9919503023911?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919503023911/onsource/SLEWING
+9919503023913/wx/4.3,876

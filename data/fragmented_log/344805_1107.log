@@ -1,0 +1,11 @@
+name=309-1127,crf23,410
+2003.309.11:25:10.92:source=0454-463,045424.16,-462038.6,1950.0
+2003.309.11:25:10.93#antcn#Command a new source
+2003.309.11:25:11.26#flagr#flagr/antenna,new-source
+2003.309.11:25:11.36#antcn#Successfully sent new source position to antenna
+2003.309.11:25:11.37:setupsx
+2003.309.11:25:14.95/mk5/!play_rate = 0 ;
+2003.309.11:25:14.96/mk5/!mode = 0 ;
+2003.309.11:25:14.99/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 279 ;
+2003.309.11:25:14.99:!2003.309.11:27:40
+2003.309.11:26:31.55#flagr#f

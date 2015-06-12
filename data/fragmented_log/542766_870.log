@@ -1,0 +1,8 @@
+383596?ERROR qg -305 AUX data differs from expected value on track 29.
+9919511383596?ERROR qg -303 Track 31 parity errors exceed threshold.
+9919511383596?ERROR qg -305 AUX data differs from expected value on track 31.
+9919511383602/parity/$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$,$$$$$
+9919511383602/parity/0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9919511384341/pass/8,8,auto,-165.0,-165.0,-164.7,-165.3,0.3,-0.3
+9919511384346:wb2c2=8
+9919511384784/form/0x0015 0x0000 0x9222 38 3 4000 11 

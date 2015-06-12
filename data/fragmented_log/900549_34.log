@@ -1,0 +1,26 @@
+nents and 2.1384 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.286311Jy  sigma=0.001655
+! Fit after  self-cal, rms=0.286787Jy  sigma=0.001654
+! Inverting map 
+selfcal true, true, soltime1
+! Performing amp+phase self-cal over 120 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.286787Jy  sigma=0.001654
+! Fit after  self-cal, rms=0.274244Jy  

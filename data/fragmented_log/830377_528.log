@@ -1,0 +1,16 @@
+
+   28    7   20   powerlaw   norm               1.0000E-03 = par   7         4
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      210040.4     using  1375 PHA bins.
+ Reduced chi-squared =      153.7631     for   1366 degrees of freedom
+ Null hypothesis probability =  0.00
+
+!XSPEC> chatter 0;
+
+!XSPEC> fit 100;
+
+!XSPEC> chatter 10;
+
+!XSPEC> fit 100;
+ Chi-Squared    Lvl  Fit param # 1  

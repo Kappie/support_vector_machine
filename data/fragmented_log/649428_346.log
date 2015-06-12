@@ -1,0 +1,6 @@
+ibxml/threads.h'
+ /usr/bin/install -c -m 644 'globals.h' '/usr/local/cdat/Externals/include/libxml2/libxml/globals.h'
+ /usr/bin/install -c -m 644 'c14n.h' '/usr/local/cdat/Externals/include/libxml2/libxml/c14n.h'
+ /usr/bin/install -c -m 644 'xmlautomata.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlautomata.h'
+ /usr/bin/install -c -m 644 'xmlregexp.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlregexp.h'
+ /usr/bin/install -c -m 644 'xmlmodule.h' '/usr/local/cdat/Externals/include/libxml2/

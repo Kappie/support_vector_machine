@@ -1,0 +1,9 @@
+=/home/tagg/autodaya/AutoValidation/output/2008-03-22/result.html 
+Mar 22 19:31:27 coop sendEmail[11052]: Email was sent successfully!
+Found comment : #
+Found comment : # This file is for comments on AutoValidator. Each line is one comment. 
+Found comment : # Syntax:
+Found comment : #   YYYY-MM-DD The text of the comment
+Found comment : # 
+Found comment : #  Only one line per comment! Newline indicates end of comment. 
+Found comment : #  Note you can put html tags if you want to reference a longer comment i

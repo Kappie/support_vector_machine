@@ -1,0 +1,11 @@
+save 2243-123_X
+! Writing UV FITS file: 2243-123_X.uvf
+! Writing 71 model components to file: 2243-123_X.mod
+! wwins: Wrote 2 windows to 2243-123_X.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.6661 x 1.667 at 5.648 degrees (North through East)
+! Clean map  min=-0.026149  max=1.6788 Jy/beam
+! Writing clean map to FITS file: 2243-123_X.fits
+! Writing difmap environment to: 2243-123_X.par
+print "****************************"
+! **************************** 

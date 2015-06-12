@@ -1,0 +1,24 @@
+ternet Explorer"&&parseInt(navigator.appVersion)<4)){
+				DCS.dcsref=window.document.referrer;
+			}
+		}
+	}
+	WebTrends.prototype.dcsEscape=function(S, REL){
+		if (REL!=""){
+			S=S.toString();
+			for (var R in REL){
+				if (REL[R] instanceof RegExp){
+					S=S.replace(REL[R],R);
+				}
+			}
+			return S;
+		}
+		else{
+			return escape(S);
+		}
+	}
+	WebTrends.prototype.dcsA=function(N,V){
+		if (this.i18n&&(this.exre!="")&&!this.exre.test(N)){
+			if (N=="dcsqry"){
+				var newV="";
+				var params

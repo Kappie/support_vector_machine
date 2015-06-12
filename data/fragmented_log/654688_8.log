@@ -1,0 +1,15 @@
+ 1.06     HN        0.94     LA        0.98     
+!   MK        1.02     NL        0.95     OV        0.98     PT        1.01     
+!   SC        1.00     
+! 
+! 
+! Fit before self-cal, rms=0.265904Jy  sigma=2.849041
+! Fit after  self-cal, rms=0.242738Jy  sigma=2.558148
+! 
+! Reinstating the default IF.
+clean
+! Inverting map and beam 
+! Estimated beam: bmin=3.725 mas, bmaj=7.183 mas, bpa=-8.335 degrees
+! Estimated noise=2.89387 mJy/beam.
+! clean: niter=150  gain=0.03  cutoff=0
+! Component: 050  -  total flux cl

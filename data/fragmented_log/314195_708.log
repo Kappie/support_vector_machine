@@ -1,0 +1,10 @@
+0:43:41.25?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.00:43:44.06:tape
+2004.167.00:43:44.13/tape/low,10967,off,stopped,unlocked,ready,10.8,85,okay
+2004.167.00:43:44.13:postob
+2004.167.00:43:44.13:scan_name=167-0050,r1127,90
+2004.167.00:43:44.13:source=1611+343,161147.94,342020.0,1950.0
+2004.167.00:43:50.67:4f8v12a=6
+2004.167.00:43:55.31/pass/6,,auto,110.0,,109.3,,-0.7,
+2004.167.00:44:01.90?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.00:44:01.90?ERROR ch -350 Th

@@ -1,0 +1,9 @@
+ead[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.11:34:32.00/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.11:34:32.00/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.11:34:32.17:!2001.296.11:43:38
+2001.296.11:43:38.00:tape
+2001.296.11:43:38.13/tape/off,06094,norm,stopped,stop,unlock,ready,rem
+2001.296.11:43:38.13:st=for,160
+2001.296.11:43:38.31:!2001.296.11:43:38
+2001.29

@@ -1,0 +1,12 @@
+                  IMAX              32767  I
+The program determines linear stretch constants IMIN and IMAX such that:
+
+ a) IMIN is the largest I which satisfies the equation
+       A(-32768,I) &lt= PL * A(-32768,32767)
+
+ b) IMAX is the smallest I which satisfies the equation
+       A(I,32767) &lt= PH * A(-32768,32767)
+
+where PL and PH may be specified by the LPER and HPER keywords.  The values
+A(-32768,IMIN) and A(IMAX,32767) represent the shaded areas under the curve in 
+the above graph.  Note that A(-3276

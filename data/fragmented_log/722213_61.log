@@ -1,0 +1,12 @@
+..
+ Image  keywords   = X          Y           with binning =    1
+ WMAP   keywords   = DETX       DETY        with binning =    1
+ Energy keywords   = PI                     with binning =    1
+ 
+!ascascreen_gis2:ASCA-GIS2 > set datadir /local/data/tproc/nandra/processing/75084000/unscreened
+ 
+Setting data directory to /local/data/tproc/nandra/processing/75084000/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/75084000/aux/
+ 
+!ascascreen_gis2:ASCA-GIS2 > set dumpcat
+Obscat listing 

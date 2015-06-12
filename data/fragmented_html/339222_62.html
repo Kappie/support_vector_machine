@@ -1,0 +1,21 @@
+&&(name==this.fpc)){
+				var dLatest=new Date(0);
+				for (i=0;i<cmatchCount;i++){
+					var lv=parseInt(this.dcsGetCrumb(cmatch[i],"lv"));
+					var dLst=new Date(lv);
+					if (dLst>dLatest){
+						dLatest.setTime(dLst.getTime());
+						idx=i;
+					}
+				}
+			}
+			return unescape(cmatch[idx].substring(namelen+1));
+		}
+		else{
+			return null;
+		}
+	}
+	WebTrends.prototype.dcsGetCrumb=function(cval,crumb,sep){
+		var aCookie=cval.split(sep||":");
+		for (var i=0;i<aCookie.length;i++){
+			var aC

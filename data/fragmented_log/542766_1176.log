@@ -1,0 +1,12 @@
+7540000:et
+9919517540013:!+3s
+9919517540314:tape
+9919517540320/tape/off,04323,norm,stopped,stop,unlock,ready,rem
+9919517540320:postob
+9919517540320:source=1954-388,195439.1,-385313.5,1950.0
+9919517540321#antcn#Commanding to new source
+9919517540443#antcn#Source:  1954-388  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919517540443#antcn# RAcommand  299.494   DECcommand -38.751
+9919517540443:wb2c2=10
+9919517540885/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919517540885/form/map[0].stack[1].head[2] = xff xff x01 x

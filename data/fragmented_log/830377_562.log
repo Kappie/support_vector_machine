@@ -1,0 +1,24 @@
+ 
+(remove /www/tartarus/restricted/html/76052020)
+(create /www/tartarus/restricted/html/76052020)
+(set permissions)
+ 
+76052020.html
+76052020_gis_sky_sm.gif
+76052020_flc.gif
+76052020_pha.gif
+76052020_sis0.gif
+76052020_sis1.gif
+76052020_gis2.gif
+76052020_gis3.gif
+veron96.txt
+ 
+gnt_infrm: Tarring selected files...
+76052020.tar ...
+76052020_spectral.tar ...
+ 
+gnt_infrm: Gzipping the tar files...
+gnt_infrm: Transferring tar files to ftp area...
+ 
+(remove /www/tartarus/restricted/ftp/76052020/*.tar)
+rm: No match.

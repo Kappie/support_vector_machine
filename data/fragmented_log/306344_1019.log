@@ -1,0 +1,13 @@
+.7,47.8,47.6,47.6,51.1,51.8
+9830302540383?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830302540383/tsys2/66.3,67.8,69.1,63.7,64.2,$$$$$$$$,188.5
+9830302540383:!303025610
+9830302561000:"data stop"
+9830302561000:et
+9830302561017:!+3s
+9830302561318:tape
+9830302561330/tape/off,03345,norm,stopped,stop,unlock,ready,rem
+9830302561330:postob
+9830302561330:source=1424-418,142446.7,-415254.7,1950.0
+9830302561331#antcn#Command a new source
+9830302561367#antcn#Successfully sent new source

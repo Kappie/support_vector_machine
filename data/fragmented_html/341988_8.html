@@ -1,0 +1,23 @@
+onUnload="closeWindows()">
+
+<script type="text/javascript">
+<!--
+function gotoServlet(url) {
+if (self.opener) { // I'm a popup.
+opener.top.document.location.href = url;
+self.close();
+}
+else { // business as usual
+top.document.location.href = url;
+}
+}
+-->
+</script>
+<script type="text/javascript">
+<!--
+if (is_ie50) {
+document.write('<'+'link rel="stylesheet" href="/css/saff/global_ie50.css" />');
+}
+-->
+</script>
+<script type="text/javascript" src="/javascript/gotoMainPage.js"></script>

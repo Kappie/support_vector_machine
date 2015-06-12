@@ -1,0 +1,13 @@
+.0,48.7,$$$$$$$$
+9830215484382?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830215484382/tsys2/64.1,65.4,64.5,62.8,63.2,$$$$$$$$,60.2
+9830215484382:!302155050
+9830215505000:"data stop"
+9830215505000:et
+9830215505016:!+3s
+9830215505317:tape
+9830215505329/tape/off,02488,norm,stopped,stop,unlock,ready,rem
+9830215505329:postob
+9830215505329:source=0119+041,011921.4,040643.9,1950.0
+9830215505330#antcn#Command a new source
+9830215505390#antcn#Successfully sent new source position to 

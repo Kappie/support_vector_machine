@@ -1,0 +1,15 @@
+ (MSL)
+         [cv/cg] Cloud Cover (2-D) [cy,py] Cloud/Precip Type
+         [pc,rn,sn] Precip Conc, [sa/pa] Snow/Pcp Accum, [sc/csc] Snow Cvr
+
+     STATIC INFO: [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ? 
+
+  SELECT FIELD (VAR_2D):  
+
+ PBL | FIREWX: [ptp,pdm | vnt,ham,hah,fwi,cwi] ?   Getting pregenerated file lfr HAM 
+  Sort_fn: names sorted, non_numeric/total =    

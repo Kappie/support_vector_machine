@@ -1,0 +1,16 @@
+tian x2080 -->
+
+
+
+<!-- Date: Thu Feb 27 00:35:53 2003 -->
+Finish the SVT timing test successfully.<br> 
+Results will be described on SVT e-log. <br> 
+In short, after each Track Fitter, it takes 4us to combine  
+all wedge data and it takes 1us to bust Ghost. <br> 
+ 
+I recover everything same as before. Now, SVT is ready to 
+take any data with same configration as before.  
+<!-- Author: Taka Maruyama -->
+
+<!-- Date: Thu Feb 27 00:38:55 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=159479">15

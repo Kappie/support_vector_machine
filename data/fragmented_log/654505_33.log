@@ -1,0 +1,14 @@
+ -s
+sh-trace: exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.26458
+sh-trace: umask 022
+sh-trace: cd /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/BUILD
+sh-trace: cd DBI-1.40
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: CFLAGS='-O2 -march=pentium'
+sh-trace: perl Makefile.PL PREFIX=/var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr INSTALLDIRS=vendor
+
+*** You are using a perl configured with threading enabled.
+*** You should be aware that using multiple threads is

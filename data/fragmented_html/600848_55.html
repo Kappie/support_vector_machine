@@ -1,0 +1,12 @@
+opNavigationMenu_Data.verticalOffset = 0;
+zz1_TopNavigationMenu_Data.hoverClass = 'ms-topNavFlyOutsHover';
+zz1_TopNavigationMenu_Data.iframeUrl = '/WebResource.axd?d=yEM5UovL0QbNr3cnSZmhsg2&t=633361287362089386';
+if (typeof(overrideMenu_HoverStatic) == 'function' && typeof(Menu_HoverStatic) == 'function')
+{
+_spBodyOnLoadFunctionNames.push('enableFlyoutsAfterDelay');
+Menu_HoverStatic = overrideMenu_HoverStatic;
+}
+var flyoutsAllowed = false;
+function enableFlyoutsAfterDelay()
+{
+setTimeout('flyoutsAllowed =

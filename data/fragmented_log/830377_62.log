@@ -1,0 +1,12 @@
+eywords   = DETX       DETY        with binning =    1
+ Energy keywords   = PI                     with binning =    1
+ 
+!ascascreen_gis2:ASCA-GIS2 > set datadir /local/data/tproc/nandra/processing/76052020/unscreened
+ 
+Setting data directory to /local/data/tproc/nandra/processing/76052020/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/76052020/aux/
+ 
+!ascascreen_gis2:ASCA-GIS2 > set dumpcat
+Obscat listing off
+!ascascreen_gis2:ASCA-GIS2 > set datamode PH
+!ascascreen_gis2:ASCA-GIS2-

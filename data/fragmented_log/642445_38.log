@@ -1,0 +1,3 @@
+. with SVT and XTRP interface boards plugged in the alpha crate and the front panel connector unplugged. Which is like saying that CLIST does behave only if the alpha has to timeout before sending new SLOAD*!  
+ 
+Anyway, by the time I "solved" this loss of sync, I had to give CCAL crates to Rick. When I tried runnig at high rates with L2_TORTURE trigger table but no front-end crates, I could NEVER trigger on the cluster merging condition of last night (LOC_BOSS being shorter than 1.15 usec when two DCAS cab

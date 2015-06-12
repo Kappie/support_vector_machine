@@ -1,0 +1,15 @@
+bgd_16
+ 
+gnt_infrm: Countrate for GIS hard-band...
+ 
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/74035000/work/74035000_gis2_bgd_hard
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ 3C_254              Start Time (d) .... 10424 13:20:29.435
+ FITS Extension ....  1 - `EVENTS    `   Stop Time (d) ..... 10425 10:26:43.207
+ No. of Rows .......         1791        Bin Time (s) ......   0.6250E-01
+ Right Ascension ... 1.6877E+02          Internal time sys..

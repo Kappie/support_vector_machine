@@ -1,0 +1,11 @@
+e for device v9 overflowed or were less than zero.
+9815514542476/tsys2/$$$$$$$$,49.3,52.4,57.1,50.2,56.0,56.4
+9815514542488/rx/02(LO),on,a,on,on,on,off,locked,40.23
+9815514542499/rx/03(DCAL),on,a,on,on,on,off,locked,48.65
+9815514542510/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+9815514542521/rx/17(PRES),on,a,on,on,on,off,locked,2.647
+9815514542532/rx/1E(20K),on,a,on,on,on,off,locked,44.66
+9815514542540/newtape/"to continue, use label command"
+9815514543969/label/00000000,0000
+9815514545015;cont
+9815515231

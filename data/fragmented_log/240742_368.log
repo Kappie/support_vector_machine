@@ -1,0 +1,12 @@
+43.19:!2001.295.23:45:22
+2001.295.23:45:22.00:data_valid=off
+2001.295.23:45:22.02:et
+2001.295.23:45:22.18:!+3s
+2001.295.23:45:25.19:tape
+2001.295.23:45:25.31/tape/off,06910,norm,moving,stop,unlock,ready,rem
+2001.295.23:45:25.31:postob
+2001.295.23:45:25.32:scan_name=295-2358a
+2001.295.23:45:25.33:source=cta26,033658.9,-015616.9,1950.0
+2001.295.23:45:25.34#antcn#Commanding to new source
+2001.295.23:45:27.25#antcn#Source:  cta26  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.295.23:45:27.25#antcn# RAcommand   54.9

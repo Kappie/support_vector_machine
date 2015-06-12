@@ -1,0 +1,13 @@
+bulk solvent and scale       = 39.70  
+    individual site refinement   = 139.98 
+    weights calculation          = 30.34  
+    collect and process          = 6.78   
+    model show statistics        = 0.10   
+    TOTAL for macro-tasks        = 216.90 
+  Micro-tasks:
+    mask                            = 2.36   
+    f_calc                          = 107.05 
+    alpha_beta                      = 8.53   
+    target                          = 1.18   
+    gradients_wrt_atomic_parameters = 116.10 
+    fmodel   

@@ -1,0 +1,12 @@
+Internal time sys.. Converted to TJD
+ Declination ....... -3.7998E+01         Experiment ........ ASCA     GIS2
+ Filter ............ NONE
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  4- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   First GTI Start ... 10631 04:23:03.909
+ No. of Rows .......           63        Last GTI Stop ..... 10632 09:19:51.590
+ Selected Columns:    1 - GTI Start;    2 - GTI Sto

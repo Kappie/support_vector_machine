@@ -1,0 +1,25 @@
+ name="data[Item][message]" cols="15" rows="3" id="ItemMessage" ></textarea><br />
+		</form>
+</div>
+<script type="text/javascript">
+
+
+
+function showWindow(){
+	jQuery('#sendtofriend').dialog('open');
+}
+
+jQuery(document).ready(function(){
+	jQuery('#sendtofriend').dialog({
+		autoOpen: false,
+		modal: true,
+		draggable: false,
+		resizable: false,
+		height: 300,
+		overlay: {
+			opacity:0.5,
+			background:"black"
+		},
+		buttons: {
+	        "Send": function() {
+				var params = $("form#sendtofriend").serialize();

@@ -1,0 +1,11 @@
+349.22:34:20.78#flagr#flagr/antenna,new-source
+2004.349.22:34:20.78:setupsx
+2004.349.22:34:20.92#skua #Antenna slewing to azimuth -56.4, elevation 14.2
+2004.349.22:34:24.12/mk5/!play_rate = 0 ;
+2004.349.22:34:24.12/mk5/!mode = 0 ;
+2004.349.22:34:24.16/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.349.22:34:24.16:!2004.349.22:36:18
+2004.349.22:35:53.74#skua #Antenna slewing complete
+2004.349.22:36:18.00:preob
+2004.349.22:36:18.00?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.349.22:36:18.00

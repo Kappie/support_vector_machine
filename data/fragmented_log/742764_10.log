@@ -1,0 +1,11 @@
+y  sigma=0.002627
+! Fit after  self-cal, rms=0.271279Jy  sigma=0.002626
+! Inverting map 
+! Your choice of large map pixels excluded 1.01% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.102049 Jy
+! Component: 100  -  total flux cleaned = 0.164185 Jy
+! Total flux subtracted in 100 components = 0.164185 Jy
+! Clean residual min=-0.022859 max=0.039127 Jy/beam
+! Clean residual mean=0.000280 rms=0

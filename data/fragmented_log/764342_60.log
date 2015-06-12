@@ -1,0 +1,9 @@
+                
+
+|-LBFGS minimization----------------------------------------------------------|
+| start r-factor (work) = 0.1250      final r-factor (work) = 0.1218          |
+| start r-factor (free) = 0.1675      final r-factor (free) = 0.1623          |
+|-----------------------------------------------------------------------------|
+| T_start = wxu * wxu_scale * Exray + wu * Eadp                               |
+| 0.9026 = 0.17 * 1.00 * 5.3138 + 1.00 * 0.0090                               |
+|             

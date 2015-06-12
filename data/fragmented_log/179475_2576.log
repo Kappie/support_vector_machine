@@ -1,0 +1,12 @@
+:15.72#flagr#flagr/antenna,new-source
+2004.350.17:22:15.86#skua #Antenna slewing to azimuth  73.3, elevation 50.9
+2004.350.17:26:37.97#skua #Antenna slewing complete
+2004.350.17:26:48.29#flagr#flagr/antenna,acquired
+2004.350.17:27:31.07;proc=euro74sv
+2004.350.17:27:46.95;proc=point
+2004.350.17:28:09.21;check=*.-t1,-h1
+2004.350.17:28:15.53;initp
+2004.350.17:28:15.53&initp/setupa=1
+2004.350.17:28:15.53&initp/caloff
+2004.350.17:28:15.53&initp/fivept=azel,-2,9,.4,1,i1,120
+2004.350.17:28:15.53&initp/onoff=2,1,75

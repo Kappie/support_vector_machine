@@ -1,0 +1,32 @@
+   test_flag_value = 1
+      }
+    }
+  }
+  output {
+    prefix = "model_refine"
+    serial = 1
+  }
+  main {
+    number_of_macro_cycles = 5
+  }
+  modify_start_model {
+    adp {
+      set_b_iso = 10
+    }
+    sites {
+      shake = 0.5
+    }
+  }
+}
+#phil __OFF__
+
+
+============================= ml refinement start =============================
+
+
+   ----------structure factors based statistics (before refinement)----------  
+
+
+                         ----------X-ray data----------                        
+
+|--(re

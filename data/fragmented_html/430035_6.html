@@ -1,0 +1,12 @@
+ \ 
+       1.0/gammy);                                        \ 
+     gramp[col_idx] = (int) corr;                         \ 
+     corr = 255.0 * pow (((double) bramp[col_idx])/255.0, \ 
+       1.0/gammy);                                        \ 
+     bramp[col_idx] = (int) corr;                         \ 
+  }                                                       \ 
+}</PRE>
+
+<PRE><A NAME="A64E982277ttay"></A>/* a utility that blends the supplied foreground color
+ * to several backgrounds */
+void blend_back

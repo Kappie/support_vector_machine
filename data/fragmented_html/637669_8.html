@@ -1,0 +1,12 @@
+gc_url.value = url;
+document.gcForm.action = replaceTSParam(document.gcForm.action);
+document.gcForm.submit();
+}
+function navigateTo(skip) {
+document.navForm._skip.value = skip;
+document.navForm.action = replaceTSParam(document.navForm.action);
+document.navForm.submit();
+}
+function openCQR() {
+var url = getAFFDocumentLocation('/servlet/CQRTablenull', true);
+cqrTableWin = window.open(url, "cqrtablewin","menubar=no,scrollbars=yes,toolbar=no,location=no,resizable=yes,top=20,left=20,width=550,height=

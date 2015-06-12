@@ -1,0 +1,16 @@
+is0_sky.tmp
+!xsel:ASCA-SIS0-BRIGHT2 > exit save=no
+ 
+gnt_infrm: Smoothing sky image for sis0...
+ 
+ 
+gnt_infrm: Finding maximum pixel (centroid) for sis0...
+ 
+
+****** statistics for /tproc/nandra/processing/74035000/work/sis0_sky_sm.tmp ******
+
+The sum of the selected image                 = 1874.999999
+The mean of the selected image                = 0.375601
+The standard deviation of the selected image  = 0.493928
+The number of points used in calculation      = 4992
+The minimum of selected image            

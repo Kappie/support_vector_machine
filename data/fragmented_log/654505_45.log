@@ -1,0 +1,13 @@
+ifying blib/man3/DBI::W32ODBC.3pm
+Manifying blib/man3/DBI::Const::GetInfo::ODBC.3pm
+Manifying blib/man3/DBI::ProfileDumper::Apache.3pm
+Manifying blib/man3/Bundle::DBI.3pm
+Manifying blib/man3/DBI::Profile.3pm
+Manifying blib/man3/DBI::ProfileDumper.3pm
+Manifying blib/man3/DBI::ProxyServer.3pm
+Manifying blib/man3/DBI::DBD.3pm
+Manifying blib/man3/Win32::DBIODBC.3pm
+Manifying blib/man3/DBI::PurePerl.3pm
+Manifying blib/man3/DBI::ProfileData.3pm
+sh-trace: exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.782

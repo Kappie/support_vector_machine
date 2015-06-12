@@ -1,0 +1,12 @@
+3740,17475,14048,15239,20218,17138,38091
+9919504445303:!195044500
+9919504450000:tape
+9919504450006/tape/off,06509,norm,moving,nostop,locked,ready,rem
+9919504450006:"data start"
+9919504450006:midob
+9919504450006#antcn#Checking onsource status
+9919504450013#antcn# RAsource     1.551   DECsource   -6.396
+9919504450013#antcn# RAbeam       1.552   DECbeam     -6.394
+9919504450013#antcn# RAdelta      0.001   DECdelta     0.001
+9919504450013?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919504450013/onsource

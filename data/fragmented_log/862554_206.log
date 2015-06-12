@@ -1,0 +1,14 @@
+t the minimum time resolution of the read data:   8.0000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/72016000/work/
+HK Directory is: /tproc/nandra/processing/72016000/work/
+ 
+!xsel:ASCA-SIS1-BRIGHT > set binsize 128
+!xsel:ASCA-SIS1-BRIGHT > set image sky
+!xsel:ASCA-SIS1-BRIGHT > set xybinsize 4
+!xsel:ASCA-SIS1-BRIGHT > extract image
+!xsel:ASCA-SIS1-BRIGHT > save image clobber=yes 72016000_sis1_sky.img
+Wrote imag

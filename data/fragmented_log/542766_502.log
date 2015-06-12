@@ -1,0 +1,9 @@
+42.4,f,-2.314
+9919504131011/peak/3,1,read,0.200,0.142,65.5,f,-2.290
+9919504131036/pass/5,5,auto,-220.0,-220.0,-220.4,-214.3,-0.4,5.7
+9919504132583?ERROR qg -303 Track  4 parity errors exceed threshold.
+9919504132583?ERROR qg -305 AUX data differs from expected value on track  4.
+9919504132583?ERROR qg -303 Track  6 parity errors exceed threshold.
+9919504132583?ERROR qg -305 AUX data differs from expected value on track  6.
+9919504132583?ERROR qg -303 Track  8 parity errors exceed threshold.
+9919504132583?ER

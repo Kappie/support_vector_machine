@@ -1,0 +1,20 @@
+    // Creates a marker at the given point with the given label and icon
+        function createMarker(point, label, icon) {
+          var marker = new GMarker(point, icon);
+          GEvent.addListener(marker, "click", function() {
+            marker.openInfoWindowHtml("" + label + "");
+          });
+          return marker;
+        }
+
+          map.addOverlay(createMarker(point, html, icon));
+      }
+    }
+
+    //]]>
+    </script>
+
+</HEAD>
+
+<body onload="load()" onunload="GUnload()">
+

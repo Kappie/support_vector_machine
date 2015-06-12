@@ -1,0 +1,11 @@
+es a grey level frequency table (histogram) of the input 
+image.  The histogram has 65536 bins, hence spans the entire halfword
+range from -32768 to +32767.
+
+If <A HREF="fit_level2.html#exclude">EXCLUDE</A>=(N1,N2) is specified, the histogram is modified by setting:
+
+	H(I) = 0 for N1 &lt= I <= N2
+
+In addition, the histogram is modified by setting the low-saturation DN
+to zero.  If the input image contains negative DN values, the low-saturation
+DN is assumed to be -32768.  If not, then the low-saturation DN 

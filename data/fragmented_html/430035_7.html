@@ -1,0 +1,16 @@
+ground_cmap (int offset, short fore_r, short
+                            fore_g, short fore_b)
+{
+  int j, col_idx;
+  double corr;</PRE>
+
+<PRE><A NAME="A64E982445ttay"></A>    /* blend to background of green */
+  ADD_TO_RAMP (offset, 0, 255, 0);</PRE>
+
+<PRE><A NAME="A64E982614ttay"></A>    /* blend to background of purple */
+  ADD_TO_RAMP (offset+16, 155, 0, 255);</PRE>
+
+<PRE><A NAME="A64E982782ttay"></A>    /* blend to background of black */
+  ADD_TO_RAMP (offset+32, 0, 0, 0);</PRE>
+
+<PRE><A NAME="A64E98295

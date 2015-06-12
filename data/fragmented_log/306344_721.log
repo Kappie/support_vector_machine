@@ -1,0 +1,9 @@
+5,37267,26653,12184,65535
+9830220165373/tpi/35327,21556,16179,23099,34349,$$$$$,11900
+9830220165374?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830220165374/tsys1/66.5,66.9,66.9,66.4,66.3,60.7,60.8,59.7,61.7,$$$$$$$$
+9830220165375?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830220165375/tsys2/74.6,76.5,77.1,73.8,76.1,$$$$$$$$,81.5
+9830220165375:!302201920
+9830220170666?ERROR ch -370 Total power integrator overflow on IF3
+9830220172864?ERROR ch -3

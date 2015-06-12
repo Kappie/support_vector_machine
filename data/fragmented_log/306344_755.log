@@ -1,0 +1,11 @@
+f,locked,36.93
+9830220564684/rx/03(dcal),on,a,on,on,on,off,locked,47.07
+9830220564695/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.012
+9830220564706/rx/17(pres),on,a,on,on,on,off,locked,3.216
+9830220564717/rx/1E(20k),on,a,on,on,on,off,locked,25.66
+9830220564728/rx/1F(70k),on,a,on,on,on,off,locked,47.19
+9830220564728:sx2c2=8
+9830220565326/pass/8,8,auto,-165.0,-165.0,-164.8,-164.9,0.2,0.1
+9830220565671:fastf=0m40s
+9830220565720?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830220573703:!3022104

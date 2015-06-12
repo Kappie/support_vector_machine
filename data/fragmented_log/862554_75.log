@@ -1,0 +1,13 @@
+:ASCA-GIS3-PH > save obscat 72016000_gis3 clobberit = yes
+!ascascreen_gis3:ASCA-GIS3-PH > $rm -f ascascreen_gis3*.cat 72016000_gis3_list.tmp 72016000_gis3_obscat.lis
+ Spawning...
+!ascascreen_gis3:ASCA-GIS3-PH > save all 72016000_gis3 clobberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 72016000_gis3.img
+ 
+Saving the Filtered Events list:
+Wrote events list to file 72016000_gis3.evt
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/72016000/unscreened/
+to the current workin

@@ -1,0 +1,12 @@
+ng,nostop,locked,ready,rem
+9919512255705:"data start"
+9919512255705:midob
+9919512255705#antcn#Checking onsource status
+9919512255708#antcn# RAsource   126.445   DECsource    3.158
+9919512255708#antcn# RAbeam     126.446   DECbeam      3.158
+9919512255708#antcn# RAdelta      0.000   DECdelta     0.001
+9919512255708?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919512255708/onsource/SLEWING
+9919512255709/wx/13.7,867.6,39.1
+9919512255711/cable/00035.843326E-03
+9919512255718/ifd/23,23,nor,nor,rem,6423,332

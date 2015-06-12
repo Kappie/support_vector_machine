@@ -1,0 +1,16 @@
+ng/72016000/work/72016000_gis_bgd_576
+ 
+gnt_infrm: Background, soft-band, 16s bin, SIS...
+ 
+nbint = 2597
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_sis0_bgd_soft
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_1040            Start Time (d) ....  9583 17:17:59.640
+ FITS Extension ....  1 - `EVENTS    `   Stop Time (d) .....  9584 04:50:17.476
+ No. of Rows .......          165        Bin Time (s) ......    8.000
+ Right Ascen

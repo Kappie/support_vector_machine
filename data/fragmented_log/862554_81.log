@@ -1,0 +1,18 @@
+ame >[xsel]
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!xsel:ASCA > clear all proceed=yes	
+	WARNING: CLEAR ALL will remove all temporary files
+!xsel > set datadir ./
+ 
+Setting data directory to /tproc/nandra/processing/72016000/work/
+Setting mkf directory to /tproc/nandra/processing/72016000/aux/
+ 
+!xsel > read e 72016000_gis2.evt
+ 
+Setting...
+ Image  keywords   = X          Y         

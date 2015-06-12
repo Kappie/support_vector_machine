@@ -1,0 +1,13 @@
+ocal/data/tproc/nandra/processing/72016000/work/ascascr
+    copying primary header to output file...
+    making chip image...
+ 
+ Total counts in chip images :       165913
+ 
+    copy bad pix array...
+cleaning chip # 0
+ Hot pixels & counts                   :              73      112127
+ Flickering pixels iter, pixels & cnts :   1          34        1654
+cleaning chip # 1
+ Hot pixels & counts                   :              35       46389
+ Flickering pixels iter, pixels & cnts :   1          18         787

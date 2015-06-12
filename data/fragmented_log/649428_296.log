@@ -1,0 +1,3 @@
+type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT parse4.o -MD -MP -MF .deps/parse4.Tpo -c -o parse4.o parse4.c
+mv -f .deps/parse4.Tpo .deps/parse4.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wt

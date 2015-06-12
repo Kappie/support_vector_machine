@@ -1,0 +1,9 @@
+y state on surface:  iSurf = 4 tan theta = -3.40922 pz = -0.323012
+%MSG
+%MSG-e PFProducer:  GoodSeedProducer:elecpreid 07-Aug-2007 08:54:03 EDT  Run: 1 Event: 1
+invalid trajectory state on surface:  iSurf = 4 tan theta = -2.36515 pz = -0.429619
+%MSG
+%MSG-e Root_Error:  PoolOutputModule:RECO TClass::BuildRealData()  07-Aug-2007 08:54:33 EDT  Run: 1 Event: 1
+Cannot find any ShowMembers function for TrackingRecHit!
+%MSG
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-2007 08:54:41 EDT  Run:

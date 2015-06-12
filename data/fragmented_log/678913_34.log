@@ -1,0 +1,16 @@
+040Jy  sigma=0.001596
+! Inverting map and beam 
+! Estimated beam: bmin=1.936 mas, bmaj=3.171 mas, bpa=-48.85 degrees
+! Estimated noise=895.538 mJy/beam.
+doamp = false
+solint = solint / (6.0/3.6)
+flux_cutoff = imstat(rms) * dynam
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (2, 3.6).
+! clean: niter=100  gain=

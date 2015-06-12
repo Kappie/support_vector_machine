@@ -1,0 +1,12 @@
+  0           1           2           3
+  
+ CCD POWER  ON/OFF:          OFF         OFF          ON          ON
+ AREA DISC  IN/OUT:          OUT         OUT         OUT         OUT
+ AREA DISC H START:            6          89           6         206
+ AREA DISC H  STOP:          425         425         342         282
+ AREA DISC V START:            2         123         123           2
+ AREA DISC V  STOP:          422         422         422         422
+  
+     multiply inst map...
+ 
+    reading att  file: /

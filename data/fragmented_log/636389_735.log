@@ -1,0 +1,10 @@
+ c_metacode,i_overlay = c             1
+  CLOW,HIGH,CINT     250.0000        380.0000        2.000000    
+  Max/Min/n_missing =     374.3493        322.5657                0
+  write_label_lplot:
+ Sfc Equiv Potl Temp  (Deg K)                                                                        
+  lapsplot: call "conrec", cint =     2.000000    
+  conrec_line: calling plot_contour    250.0000        380.0000     
+    2.000000                2            1
+
+ MIN =   322.57         MAX =   374.35          PLO

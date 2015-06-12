@@ -1,0 +1,14 @@
+=========================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+        215753    155892              0     59861         0         0
+   in  13628.     seconds
+CLEANSIS_V1.6
+    allocating image arrays...
+ 
+ PROGRAM TO MAKE AN SIS SCIENCE FILE CLEANED OF ANOMALOUS PIXELS.
+ 
+ * Anomalous pixels may consist of at least two populations.
+ 
+ 1. Persistent HOT pixels are removed by comparing to the chip mean.
+ 
+ 2. Flickering WARM pix

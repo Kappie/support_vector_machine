@@ -1,0 +1,10 @@
+.28 -     4.90: 12274
+  Nonbonded interactions sorted by model distance:
+             atom i - atom j             model   vdw sym.op. j
+  " CE BMET A  47 " - " O  BHOH Z  74 "  1.806 3.460
+  " O   HOH Z 341 " - " O   HOH Z 207 "  2.154 3.040 -x+1/2,-y+1,z-1/2
+  " O   HOH Z 207 " - " O   HOH Z 341 "  2.154 3.040 -x+1/2,-y+1,z+1/2
+  " CZ BARG A 275 " - " O  BHOH Z 338 "  2.218 3.270
+  " NH1BARG A 275 " - " O  BHOH Z 338 "  2.341 3.120
+  ... (remaining 28029 not shown)
+  Histogram of dihedral angle deviations 

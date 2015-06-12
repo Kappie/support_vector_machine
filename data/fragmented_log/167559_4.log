@@ -1,0 +1,11 @@
+king hard on this and we need to test it before using it in beam today.</i>
+<!-- Date: Sun Oct 8 12:29:57 2000 -->
+<p> 
+Starting in run 100763 (11:40 AM) new SCPU code has been loaded to try to reduce the frequency of NoSuchEvent errors from the SCPUs ("Can't find event xxx for sending to L3"). This is a short patch in SCPU 3.20 not in CVS. 
+<p>
+<!-- Author: Steve Tether :: (run 100763) -->
+<!-- Comment: Sun Oct  8 12;47;43 comment by...Steve Tether -->
+Link to EVB log entry
+
+
+<!-- Comment: Sun Oct  8 12;50

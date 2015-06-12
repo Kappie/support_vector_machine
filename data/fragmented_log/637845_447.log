@@ -1,0 +1,17 @@
+essary)
+Sending email on completion:
+   From: AutoValidator <tagg@minos.phy.tufts.edu>
+   To:   Simulation Group <theta13-simulation@lbl.gov>
+Jobs to Run:
+	gamma_1MeV
+	eminus_1MeV
+	neutron_1keV
+	muon_100GeV
+======================================================
+Running AutoValidate.pl 2008-03-22 at 2008-03-22 19:04
+======================================================
+------
+-- Overriding run_name as 2008-03-22
+------
+ Comparing /home/tagg/autodaya/AutoValidation/output/2008-03-22
+      with /home/tagg/aut

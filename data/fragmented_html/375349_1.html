@@ -1,0 +1,10 @@
+ the materials provided by other agencies or organizations, nor does the BLM endorse other agencies or organizations, their views, products or services.";
+        for (var i = 0; i < document.links.length; i++) {
+	   var href = document.links[i].href;
+	   if (href.indexOf(document.domain) == -1 &&
+	       href.indexOf('#') == -1 &&
+	       href.indexOf('www.blm.gov') == -1 &&
+	       href.indexOf('.mil') == -1 &&
+	       href.indexOf('.gov') == -1 &&
+	       href.indexOf('.fed.us') == -1 &&
+	      

@@ -1,0 +1,15 @@
+) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		reports_01_over = newImage("../images/reports_01-over.gif");
+		reports_02_over = newImage("../images/reports_02-over.gif");
+		reports_03_over = newImage("../images/reports_03-over.gif");
+		reports_05_over = newImage("../images/reports_05-over.gif");
+		reports_06_over = newImage("../images

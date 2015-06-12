@@ -1,0 +1,21 @@
+t() //  abort loading images
+{ 
+ imax=num_loaded_images1;
+ if (!images1[num_loaded_images1].complete) imax=imax-1;
+ alert("Aborting");
+ if (imax > -1) animate(); 
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function image_error(message) //  abort loading images
+{ 
+ alert(message);
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function start_play()  // start movie
+{
+ if (playing == 0) {
+  if (timeout_id == null && num_loaded_images1==imax)

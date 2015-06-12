@@ -1,0 +1,9 @@
+5201.4,394821.9,1950.0
+9919508393524#antcn#Commanding to new source
+9919508393642#antcn#WARNING: source presently below limit horizon
+9919508393643#antcn#Source:  0552+398  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919508393643#antcn# RAcommand   88.860   DECcommand  39.811
+9919508393645:wb2c2=6
+9919508394084/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919508394084/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919508394084/form/map[0].stack[1].head[18] = x00 x

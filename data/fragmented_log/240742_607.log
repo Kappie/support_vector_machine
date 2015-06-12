@@ -1,0 +1,11 @@
+f xff xff xff xff xff xff xff xff xff xff
+2001.296.04:05:52.95/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.04:05:53.11:!2001.296.04:09:49
+2001.296.04:09:49.00:tape
+2001.296.04:09:49.12/tape/off,03177,norm,stopped,stop,unlock,ready,rem
+2001.296.04:09:49.12:st=for,160
+2001.296.04:09:49.28:!2001.296.04:09:49
+2001.296.04:09:49.28:preob
+2001.296.04:09:49.30#antcn#Checking onsource status
+2001.296.04:09:49.31#antcn# RAsource   159.330   DECsource  -29.571
+2001.296.04:09

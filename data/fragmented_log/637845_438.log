@@ -1,0 +1,12 @@
+ting lib_macro
+make[3]: Nothing to be done for `lib_macro'.
+------> (constituents.make) lib_macro done
+------> (constituents.make) Building install_includes_auto.make
+Document install_includes_auto
+------> (constituents.make) Starting install_includes_auto
+make[3]: Nothing to be done for `install_includes_auto'.
+------> (constituents.make) install_includes_auto done
+------> (constituents.make) Building data_installation.make
+Document data_installation
+------> (constituents.make) Starting data_installation
+m

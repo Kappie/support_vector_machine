@@ -1,0 +1,11 @@
+f,00163,norm,stopped,stop,unlock,ready,rem
+9830302114012:st=for,135
+9830302114028:"data start"
+9830302114028:midob
+9830302114028#antcn#Check if antenna is on-source
+9830302114094/onsource/TRACKING
+9830302114165#wx#/WX/20.1,1003.9, 44.0
+9830302114184?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830302114185?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830302114237?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830302114288?ERROR ib  

@@ -1,0 +1,15 @@
+sp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xrt_psf_v2_0.fits
+ 
+ Input WMAP array has size   54 by   54 bins
+               expanded to  128 by  128 bins
+ First WMAP bin is at detector pixel   43   52
+   1 detector pixels per WMAP bin
+ WMAP bin size is   0.25000 mm
+                    0.24555 arcmin
+ Selected region size is   144.80     arcmin^2
+ Optical axis is detector pixel 133.00 130.96
+ 
+  201 energies from RMF file
+ Effective area fudge applied
+ Arf filter 

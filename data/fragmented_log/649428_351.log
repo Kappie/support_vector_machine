@@ -1,0 +1,8 @@
+Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include'
+make[3]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include'
+make[2]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include'
+Making install in .
+make[2]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31'
+make[3]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31'
+test -z "/usr/local/cdat/Externals/lib" || /bin/mkdir -p "/usr/local/cdat/Externals/lib"
+ /bin/sh ./libto

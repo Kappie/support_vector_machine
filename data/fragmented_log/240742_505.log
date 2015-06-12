@@ -1,0 +1,11 @@
+3027,8856,13876,7807,13266
+2001.296.02:21:01.35:!2001.296.02:21:08
+2001.296.02:21:08.00:tape
+2001.296.02:21:08.12/tape/off,15473,norm,moving,nostop,locked,ready,rem
+2001.296.02:21:08.12:data_valid=on
+2001.296.02:21:08.13:midob
+2001.296.02:21:08.13#antcn#Checking onsource status
+2001.296.02:21:08.15#antcn# RAsource    39.688   DECsource   16.624
+2001.296.02:21:08.15#antcn# RAbeam      39.690   DECbeam     16.623
+2001.296.02:21:08.15#antcn# RAdelta      0.002   DECdelta     0.001
+2001.296.02:21:08.16/onsource

@@ -1,0 +1,12 @@
+al power integrator overflow on IF3
+9830221564000:tape
+9830221564011/tape/off,01550,norm,stopped,stop,unlock,ready,rem
+9830221564011:st=for,135
+9830221564024:"data start"
+9830221564024:midob
+9830221564024#antcn#Check if antenna is on-source
+9830221564102/onsource/TRACKING
+9830221564190#wx#/WX/12.8,1008.9, 64.7
+9830221564210?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830221564211?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830221564262?ERROR ib  -10 ibco

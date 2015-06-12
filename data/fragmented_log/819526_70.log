@@ -1,0 +1,12 @@
+ean residual min=-0.002717 max=0.003196 Jy/beam
+! Clean residual mean=0.000223 rms=0.001106 Jy/beam
+! Combined flux in latest and established models = 1.99544 Jy
+keep
+! Adding 56 model components to the UV plane model.
+! The established model now contains 220 components and 1.99544 Jy
+![Exited script file: muppet]
+wmap "J0730-1141_X_1999_12_20_pus\_map.fits"
+! Inverting map 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+! 

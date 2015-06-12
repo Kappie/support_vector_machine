@@ -1,0 +1,7 @@
+00104 0x00080004 0x00100000 0x00000010 0x00100000 0x00500022 ... 
+... 0x00000060 0x00100000 0x00000000 0x00000000 0x02220022 0x10010040 0x10000004 0x00000000 
+(MLE) b0l3gate1.fnal.gov:main:11:19:12 AM->Host b0eb16.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 554280 from VRB in slot 10: 
+0x00000000 0x000015b8 0x00270027 0x02ec0448 0x047002ec 0x038c0370 0x00000000 0x00000000 
+(MLE) b0l3gate1.fnal.gov:main:11:19:12 AM->Host b0eb16.fnal.gov, task tRec_0 
+SCPU-P0-E-BadVrbByteCount: 

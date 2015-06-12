@@ -1,0 +1,13 @@
+lert=off
+9919510042400:tape
+9919510042405/tape/off,05956,norm,stopped,stop,unlock,ready,rem
+9919510042405:st=for,80
+9919510042420:!195100434
+9919510043400:preob
+9919510043400#antcn#Checking onsource status
+9919510043405#antcn# RAsource    88.860   DECsource   39.811
+9919510043406#antcn# RAbeam      88.861   DECbeam     39.811
+9919510043406#antcn# RAdelta      0.001   DECdelta     0.000
+9919510043406?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919510043406/onsource/SLEWING
+9919510043660/tpical/14679,

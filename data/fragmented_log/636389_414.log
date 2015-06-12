@@ -1,0 +1,14 @@
+] Snow Cvr
+
+     STATIC INFO: [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ?      Enter # of Hours of Precip Accumulation, [-99 for Storm Total]   ? 
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/l1s/    061521800 l1s R01
+The LAPS file /data/lapb/tw/fsl-linux9/data/lapsprd/l1s/061521800.l1s does not exist
+  ERROR: Missing precip file
+
+
+  SELECT FIELD: (append with "i

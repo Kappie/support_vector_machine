@@ -1,0 +1,17 @@
+_sis1_obscat.lis
+ Spawning...
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > save all 75084000_sis1 clobberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 75084000_sis1.img
+ 
+Saving the Cleaned events list(s):
+Wrote cleaned events file to 75084000_sis1.evt
+ 
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/75084000/unscreened/
+to the current working directory.
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > clear mkf
+!ascascreen_sis1:ASCA-SIS1-BRIGHT2 > set dumpcat
+Obscat listing on
+!ascascree

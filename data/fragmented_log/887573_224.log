@@ -1,0 +1,13 @@
+CALCS=  4
+Time per interpreted Python bytecode instruction: 4.493 micro seconds
+Total CPU time: 5.45 minutes
+from_scatterers_fft:    623 calls, 93.81 s
+gradients_fft:          569 calls, 91.22 s
+
+=========================== phenix.refine: finished ===========================
+
+# Date 2008-01-16 Time 03:38:40 PST -0800 (1200483520.37 s)
+Start R-work = 0.4701, R-free = 0.4580 (no bulk solvent and anisotropic scale)
+Final R-work = 0.1388, R-free = 0.1845 (no bulk solvent and anisotropic scale)
+
+Start R-work = 0

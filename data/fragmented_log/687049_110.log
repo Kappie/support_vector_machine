@@ -1,0 +1,4 @@
+Associator::fillHcal::matching                                                                35070       17.883 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillMuon                                                                          35272       70.094 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillMuon::access                                                                  35272        0.642 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillMuon::findSemgents                      

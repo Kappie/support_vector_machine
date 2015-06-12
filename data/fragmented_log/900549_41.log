@@ -1,0 +1,20 @@
+Performing phase self-cal
+! Adding 20 model components to the UV plane model.
+! The established model now contains 95 components and 2.09957 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.273339Jy  sigma=0.001490
+! Fit after  self-cal, rms=0.273356Jy  sigma=0.001490
+flux_cutoff = imstat(rms) * dynam
+! Inverting map 
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * d

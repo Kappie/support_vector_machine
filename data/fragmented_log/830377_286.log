@@ -1,0 +1,13 @@
+set is    79    90
+ WMAP bin factor is     1
+ 
+ 1024 ungrouped channels from the RMF file
+ 
+ 
+pha bin =   62, E =  0.719 -  2.016 keV  (   1 /    4)   calculating ...
+ <efficiency> =   62.95716     weight =  8.2994336E-03
+pha bin =   63, E =  2.016 -  5.022 keV  (   2 /    4)   calculating ...
+ <efficiency> =   72.09076     weight =  5.0769770E-03
+pha bin =   64, E =  5.022 -  7.014 keV  (   3 /    4)   calculating ...
+ <efficiency> =   62.10263     weight =  9.4921648E-04
+pha bin =   65, E =  7.014 - 10.00

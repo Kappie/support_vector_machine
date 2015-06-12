@@ -1,0 +1,14 @@
+ 
+Saving the Filtered Events list:
+Wrote events list to file 72016000_gis2.evt
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/72016000/unscreened/
+to the current working directory.
+!ascascreen_gis2:ASCA-GIS2-PH > clear mkf
+!ascascreen_gis2:ASCA-GIS2-PH > clear region all
+!ascascreen_gis2:ASCA-GIS2-PH > set dumpcat
+Obscat listing on
+!ascascreen_gis2:ASCA-GIS2-PH > exit save=no
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /local/data/tproc/nandra/processing/720160

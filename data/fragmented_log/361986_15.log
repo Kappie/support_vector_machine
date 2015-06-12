@@ -1,0 +1,11 @@
+unroll-loops -march=pentium4 -mmmx -msse2 -msse -fomit-frame-pointer -malign-double
+compile options: '-ISrc -Ibuild/src.linux-i686-2.5 -I/usr/local/cdat/lib/python2.5/site-packages/numpy/core/include -I/usr/local/cdat/include/python2.5 -c'
+extra options: '-Jbuild/temp.linux-i686-2.5/ZonalMeans -Ibuild/temp.linux-i686-2.5/ZonalMeans'
+gfortran:f90: Src/zonebasin.f90
+ In file Src/zonebasin.f90:241
+
+91    CONTINUE
+ 1
+Warning: Label 91 at (1) defined but not used
+Src/zonebasin.f90: In function ‘zonebasin’:
+S

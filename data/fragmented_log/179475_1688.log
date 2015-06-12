@@ -1,0 +1,9 @@
+5.14#flagr#flagr/antenna,new-source
+2004.350.06:17:15.16#skua #Antenna slewing to azimuth 439.3, elevation 58.6
+2004.350.06:17:24.84;source=disable
+2004.350.06:17:24.84#flagr#flagr/antenna,new-source
+2004.350.06:17:25.16#skua #Interrupted: processing new source
+2004.350.06:17:32.16?ERROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.06:17:32.16?ERROR st -999 Antenna STOP command failed!!!
+2004.350.06:17:32.16?ERROR st -999 Failed: closing antenna communication
+2004.350.06

@@ -1,0 +1,9 @@
+.166.20:16:08.19?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.166.20:16:28.99?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.166.20:16:28.99?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.166.20:16:31.00:tape
+2004.166.20:16:31.08/tape/low,03996,off,stopped,unlocked,ready,10.8,85,okay
+2004.166.20:16:31.08:st=for,160
+2004.166.20:16:31.14:!2004.166.20:16:31
+2004.166.20:16:31.14:preob
+2004.166.20:16:34.00/tpical/1l,16453,1u,16181,2u,16258,3u,16757,4u,17265,ia,50
