@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+pdb/__init__.py
+pdb/manage_pdb.py
+pdb/pdb.py
+pdb.egg-info/PKG-INFO
+pdb.egg-info/SOURCES.txt
+pdb.egg-info/dependency_links.txt
+pdb.egg-info/entry_points.txt
+pdb.egg-info/requires.txt
+pdb.egg-info/top_level.txt

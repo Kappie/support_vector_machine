@@ -21,18 +21,20 @@ BASE_DIR = "data"
 #DIRECTORIES = ["fragmented_4096_csv", "fragmented_4096_jpg"]
 #DIRECTORIES = ["fragmented_gz", "fragmented_jpg"]
 DIRECTORIES = [
-        "fragmented_csv",
-        "fragmented_jpg",
+	"male_blogs",
+	"female_blogs"
+        #"fragmented_csv",
+        #"fragmented_jpg",
         #"fragmented_txt",
-        "fragmented_log",
+        #"fragmented_log",
         #"fragmented_xml",
-        "fragmented_html"
+        #"fragmented_html"
 ]
 
 
-ANCHORS_PER_TYPE = 10
-TEST_SAMPLES_PER_TYPE = 500
-TRAINING_SAMPLES_PER_TYPE = 3000
+ANCHORS_PER_TYPE = 2
+TEST_SAMPLES_PER_TYPE = 100
+TRAINING_SAMPLES_PER_TYPE = 100
 
 contents = {}
 compressed_sizes = {}
