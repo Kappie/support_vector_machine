@@ -1,0 +1,14 @@
+tp/check=
+2004.349.15:02:11.71&initp/sy=go aquir &
+2004.349.15:02:11.71&initp/calrx=x,fixed,8080,8580.1
+2004.349.15:02:11.71&initp/calrx=s,fixed,2020
+2004.349.15:02:11.71&setupa/pcalon
+2004.349.15:02:11.71&setupa/vcsx2
+2004.349.15:02:11.71&setupa/form=c1,4.000
+2004.349.15:02:11.71&setupa/"form=reset
+2004.349.15:02:11.71&setupa/ifdsx
+2004.349.15:02:11.71&setupa/tapeformc
+2004.349.15:02:11.71&setupa/pass=$,same
+2004.349.15:02:11.71&setupa/enable=g1,g3
+2004.349.15:02:11.71&setupa/tape=low
+2004.349.15:02:11.71&

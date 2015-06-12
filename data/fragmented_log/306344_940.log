@@ -1,0 +1,12 @@
+on,off,locked,47.80
+9830301021717/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.004
+9830301021728/rx/17(pres),on,a,on,on,on,off,locked,4.132
+9830301021739/rx/1E(20k),on,a,on,on,on,off,locked,28.18
+9830301021750/rx/1F(70k),on,a,on,on,on,off,locked,48.21
+9830301021750:sx2c1=15
+9830301022358/pass/15,15,auto,55.0,55.0,54.6,54.8,-0.4,-0.2
+9830301022703:fastr=0m29s
+9830301022752?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830301025635:!303010530
+9830301053000:preob
+9830301053000#antcn#Check if ant

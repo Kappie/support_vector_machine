@@ -1,0 +1,4 @@
+                                                        499        0.335 (real)        0.000 (cpu)
+MuonIdProducer::produce::init::getPropagator                                                                 499        0.007 (real)        0.000 (cpu)
+MuonIdProducer::produce::init::misc                                                                          499        0.001 (real)        0.000 (cpu)
+Muon|RecoMuon|GlobalMuonTrajectoryBuilder|addTraj                                                          12

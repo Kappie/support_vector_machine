@@ -1,0 +1,16 @@
+events file (.evt) except in MPC mode 
+   -- An image for the entire detector (.img) except in FAST and MPC modes
+   -- The timing filters (.gti) in MPC mode
+   -- A lightcurve (.lc) and spectrum (.pha) in MPC mode.
+   -- The Dark Frame Error history file (.dfe) for FAINT mode.
+   -- A reduced obscat (.cat)
+
+Try ascascreen -h for help.
+
+Report problems to ascahelp@athena.gsfc.nasa.gov
+
+A return will accept the default.
+For character replies, the default is in upper case.
+
+
+Okay, I'll only write the xco file

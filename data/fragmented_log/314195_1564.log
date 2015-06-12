@@ -1,0 +1,8 @@
+.000
+2004.167.09:25:47.75/caltemp/9u,13.000,au,13.000,bu,13.000,cu,13.000,du,13.000,eu,13.000
+2004.167.09:25:47.75/caltemp/ib,13.000
+2004.167.09:25:47.75/caltemp/5u,18.000,6u,18.000,7u,18.000,8l,18.000,8u,18.000,ic,18.000
+2004.167.09:25:47.75?ERROR qk -211 Tsys value for device 8l overflowed or was less than zero.
+2004.167.09:25:47.75?ERROR qk -211 Tsys value for device 5u overflowed or was less than zero.
+2004.167.09:25:47.75?ERROR qk -211 Tsys value for device 6u overflowed or was less than zero.
+2004.167

@@ -1,0 +1,10 @@
+  / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/balance/lt1/   061521800 lt1   HT 
+  Subroutine plot_field_2d: i4time =    1464804000
+  plot_field_2d - contour plot bh        
+  Subroutine contour_settings...
+  rmax/rmin prior to scaling =     5873.965        5750.557    
+  rmax/rmin after scaling =     587.3965        575.0557    
+  range/zoom/cint/scale =     12.34082        1.000000        2.000000     
+    10.00000    
+  Subroutine plot_cont...    572.0000        588.0000        2.000000

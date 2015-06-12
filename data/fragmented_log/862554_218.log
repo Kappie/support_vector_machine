@@ -1,0 +1,12 @@
+ set binsize 128
+!xsel:ASCA-GIS2-PH > set image sky
+!xsel:ASCA-GIS2-PH > set xybinsize 1
+!xsel:ASCA-GIS2-PH > extract image
+!xsel:ASCA-GIS2-PH > save image clobber=yes 72016000_gis2_sky.img
+Wrote image to file 72016000_gis2_sky.img
+!xsel:ASCA-GIS2-PH > set image det
+!xsel:ASCA-GIS2-PH > filter region 72016000_gis2_bgd.reg
+!xsel:ASCA-GIS2-PH > extract spectrum
+!xsel:ASCA-GIS2-PH > save spectrum group=no clobber=yes 72016000_gis2_bgd.pha
+Wrote spectrum to 72016000_gis2_bgd.pha
+!xsel:ASCA-GIS2-PH > filter pha_

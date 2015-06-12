@@ -1,0 +1,15 @@
+ completed100% completed
+ 
+ Intv    1   Start 10631  4:23:11
+     Ser.1     Avg 0.5341E-01    Chisq  2206.       Var 0.1778E-02 Newbs.   2072
+               Min  0.000          Max 0.2812    expVar 0.1670E-02  Bins   3673
+Writing output file: /tproc/nandra/processing/75084000/work/75084000_gis_bgd_16s
+nbint = 19
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/75084000/work/75084000_gis_bgd_16s.f
+ 
+ Selected FITS extensions: 1 - RATE TABLE;
+ 
+ Source ............ TOL0109-383         

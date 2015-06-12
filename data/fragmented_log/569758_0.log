@@ -1,0 +1,13 @@
+support.
+
+CINT/ROOT C/C++ Interpreter version 5.16.16, November 24, 2006
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+******** Welcome to the muon performance package. ********
+Documentation may be found at
+  https://twiki.cern.ch/twiki/bin/view/Atlas/MuPerf
+Note: muhist_help() - lists macros available for analysis of histograms
+Functions:
+  muhelp() - This message.
+  mutree() - Returns a pointer to the muperf tree (ntuple).
+  mures(draw, var, nbin, xlim, opt) -

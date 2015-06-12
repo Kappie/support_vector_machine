@@ -1,0 +1,7 @@
+of 'pthread_once' was here
+threads.c:59: warning: redundant redeclaration of 'pthread_getspecific'
+/usr/include/pthread.h:568: warning: previous declaration of 'pthread_getspecific' was here
+threads.c:62: warning: redundant redeclaration of 'pthread_setspecific'
+/usr/include/pthread.h:565: warning: previous declaration of 'pthread_setspecific' was here
+threads.c:65: warning: redundant redeclaration of 'pthread_key_create'
+/usr/include/pthread.h:558: warning: previous declaration of 'pthread_key_create' was 

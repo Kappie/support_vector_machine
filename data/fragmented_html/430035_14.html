@@ -1,0 +1,16 @@
+!getbutton(ESCKEY)) {
+    color (0);
+    clear ();
+    pushmatrix();        /* draw normal, jaggy lines */
+    linesmooth(FALSE);
+    color (15); /* maximum shade of white */
+    pushmatrix();
+    translate (10.0, 10.0, 0.0);
+    rotate( 500-getvaluator (MOUSEY), 'z');
+    draw_fan();
+    popmatrix();         /* draw smooth, antialiased lines -- lower right*/
+    linesmooth(TRUE);
+    color (64);  /* yellow */
+    pushmatrix();
+    translate (390.0, 30.0, 0.0);
+    rotate( getvaluator (MOUSEY) + 400, 'z');

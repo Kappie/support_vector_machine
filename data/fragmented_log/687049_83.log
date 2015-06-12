@@ -1,0 +1,4 @@
+rajectories::makeTkCandCollection                         1        0.004 (real)        0.000 (cpu)
+firstcall_Muon|RecoMuon|GlobalMuonTrajectoryBuilder|trajectories::trackMatcher                                 1        0.006 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::associate                                                                   1        0.965 (real)        0.010 (cpu)
+firstcall_TrackDetectorAssociator::associate::fillInfo                                                       

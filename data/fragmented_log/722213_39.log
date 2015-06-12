@@ -1,0 +1,17 @@
+bberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 75084000_sis0.img
+ 
+Saving the Cleaned events list(s):
+Wrote cleaned events file to 75084000_sis0.evt
+ 
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/75084000/unscreened/
+to the current working directory.
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > clear mkf
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > set dumpcat
+Obscat listing on
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > exit save=no
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keyword

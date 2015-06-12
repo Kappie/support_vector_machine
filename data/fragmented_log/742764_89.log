@@ -1,0 +1,12 @@
+t cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.8201 x 1.746 at 0.976 degrees (North through East)
+! Clean map  min=-0.0021211  max=1.0083 Jy/beam
+mapcolor color, 0.9
+! Mapplot colormap: rainbow, contrast: 0.9 brightness: 0.5.
+device "J0121+1149_X_2000_12_04_pus\_map.gif/vgif"
+! Attempting to open device: 'J0121+1149_X_2000_12_04_pus_map.gif/vgif'
+mapplot cln
+quit
+! Quitting program
+! Log file J0121+1149_X_2000_12_04_pus_uvs.log closed on Fri Oct 12 15:1

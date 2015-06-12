@@ -1,0 +1,11 @@
+/lo=lo1,8080.00,usb,rcp,1
+2004.350.07:26:56.29&ifdsx/lo=lo2,2020.00,usb,rcp,1
+2004.350.07:26:56.29&ifdsx/lo=lo3,8080.00,usb,rcp,1
+2004.350.07:26:56.29&ifdsx/patch=
+2004.350.07:26:56.29&ifdsx/patch=lo1,1l,2l,3l,4h
+2004.350.07:26:56.29&ifdsx/patch=lo2,9l,10l,11h,12h,13h,14h
+2004.350.07:26:56.29&ifdsx/patch=lo3,5h,6h,7h,8h
+2004.350.07:26:58.04&checkcrc/"comment out the following lines if you do _not_ have a mark iii decoder
+2004.350.07:26:58.04&checkcrc/"decode=a,crc
+2004.350.07:26:58.04&checkcrc/"decode
+2004.

@@ -1,0 +1,6 @@
+uilder/i386/00_LOGS/cpan/perl-DBI"
+[PkgVars.pm/160/pkgvar_set()] Setting buildroot
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "buildroot" -> "/var/tmp/mezzanine-buildroot.29689/perl-DBI.2383"
+[Build.pm/202/prepare_build_tree()] Creating /var/tmp/mezzanine.temp.dironly.29689.243e/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI with mkdirhier().
+[Build.pm/220/prepare_build_tree()] I'm creating /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/BUILD.
+[Build.pm/229/prepare_build_tree()] I'm 

@@ -1,0 +1,18 @@
+09          924
+  write_label_lplot:
+ Gridded Cloud Cover        X-Sect                                                                   
+
+  Field - (add "i" for image):
+
+          [WIND: di,sp,u,v,om,dv,vo,va,vc (barbs)
+
+           TEMP: [t,pt,tb,pb] (T, Theta, T Blnc, Theta Blnc)
+
+           HT: [ht] (Height)
+
+           HUMID: sh,rh,rl (Specific/Relative Humidity)
+
+           ts (Thetae Sat), tw (wetbulb)
+
+           cg/cf (3D Cloud Image),  tc (Cloud Type),  tp (Precip Type)
+           ls (cloud liquid

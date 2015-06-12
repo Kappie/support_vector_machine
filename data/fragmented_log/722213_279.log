@@ -1,0 +1,16 @@
+ PHA file
+ 
+ Bin size is 0.0270 (mm) = 0.0265(arcmin)
+ Optical axis is 618.28 773.83
+ WMAP size is    44 x   39
+ WMAP offset is   288   320
+ WMAP bin factor is     8
+ 
+ 1024 ungrouped channels from the RMF file
+ 
+ 
+pha bin =   42, E =  0.600 -  2.003 keV  (   1 /    4)   calculating ...
+ <efficiency> =   89.98222     weight =  6.6607085E-05
+pha bin =   43, E =  2.003 -  4.983 keV  (   2 /    4)   calculating ...
+ <efficiency> =   75.20991     weight =  4.3520566E-05
+pha bin =   44, E =  4.983 -  6.984 keV  

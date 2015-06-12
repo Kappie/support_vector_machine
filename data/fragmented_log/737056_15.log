@@ -1,0 +1,13 @@
+self-cal, rms=0.263517Jy  sigma=0.002021
+! Fit after  self-cal, rms=0.261589Jy  sigma=0.002001
+! Inverting map 
+! Your choice of large map pixels excluded 2.5% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+print "************** FINISHED NATURAL WEIGHTING CLEAN **************"
+! ************** FINISHED NATURAL WEIGHTING CLEAN ************** 
+! 
+gscale true
+! Performing overall amplitude self-cal
+! 
+! Correcting IF 1.
+!  A total of 69 telescope corrections were flagged in s

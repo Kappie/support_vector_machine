@@ -1,0 +1,13 @@
+cip Type
+         [pc,rn,sn] Precip Conc, [sa/pa] Snow/Pcp Accum, [sc/csc] Snow Cvr
+
+     STATIC INFO: [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ?   Plotting difference field of last two entries
+  scale/cint:     1.000000        5.000000    
+  Subroutine ccpfil for solid fill plot...
+  input array range:    -18.46533        0.000000    
+  input scale:     1.000000    

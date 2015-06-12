@@ -1,0 +1,8 @@
+calPolyArea.f90: In function ‘sphericalpolyarea’:
+Src/SphericalPolyArea.f90:69: warning: ‘lam2’ may be used uninitialized in this function
+Src/SphericalPolyArea.f90:70: warning: ‘cosb2’ may be used uninitialized in this function
+Src/SphericalPolyArea.f90:69: warning: ‘beta2’ may be used uninitialized in this function
+gfortran:f90: Src/cal_int.f90
+gfortran:f90: Src/cfraction.f90
+Src/cfraction.f90: In function ‘cfraction’:
+Src/cfraction.f90:99: warning: ‘aire_t’ may be used uninitializ

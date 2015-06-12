@@ -1,0 +1,11 @@
+ud/Precip Type
+         [pc,rn,sn] Precip Conc, [sa/pa] Snow/Pcp Accum, [sc/csc] Snow Cvr
+
+     STATIC INFO: [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ?   Copying field_2d to field_buf for diff optn
+     Enter Level in mb; [0] for surface, OR [-1] for sfc thresholded: ?   Subroutine input_product_info...
+  Product type: analysis [a], bkgnd [b], balance [n], fcst [f], 

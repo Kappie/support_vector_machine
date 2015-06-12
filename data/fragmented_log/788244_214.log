@@ -1,0 +1,16 @@
+l_refine_002.def
+
+
+=============================== Detailed timings ==============================
+
+Pure refinement (no I/O, processing, etc)= 275.60 
+  Macro-tasks:
+    bulk solvent and scale       = 32.47  
+    individual site refinement   = 118.89 
+    weights calculation          = 24.19  
+    collect and process          = 5.44   
+    model show statistics        = 0.08   
+    TOTAL for macro-tasks        = 181.07 
+  Micro-tasks:
+    mask                            = 0.48   
+    f_calc                 

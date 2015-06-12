@@ -1,0 +1,6 @@
+ation' has virtual functions but non-virtual destructor
+../include/dywOpticalPhotonTrajectory.hh:38: warning: unused parameter 'i'
+../include/dywOpticalPhotonTrajectory.hh:40: warning: unused parameter 'os'
+../include/dywOpticalPhotonTrajectory.hh:41: warning: unused parameter 'i_mode'
+../Linux-i686/dywScintSD.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/includ

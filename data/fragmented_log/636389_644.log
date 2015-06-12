@@ -1,0 +1,10 @@
+  Plotting: c_metacode,i_overlay = c             3
+  CLOW,HIGH,CINT    -8.000000        2.000000        2.000000    
+  Max/Min/n_missing =     0.000000       -10.25851                0
+  write_label_lplot:
+ difference field (a - b)                                                                            
+  lapsplot: call "conrec", cint =     2.000000    
+  conrec_line: calling plot_contour   -8.000000        2.000000     
+    2.000000                2            3
+
+ MIN =  -10.259         MAX =   0.0000  

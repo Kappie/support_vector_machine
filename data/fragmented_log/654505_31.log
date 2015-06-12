@@ -1,0 +1,5 @@
+pmbuild"
+[RPM.pm/172/rpm_form_command()] Command:  chroot /var/tmp/mezzanine.temp.dironly.29689.243e /bin/su -s /bin/sh nobody -c /bin/sh -c "/usr/bin/rpmbuild --define '_topdir /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI' --define 'optflags -O2 -march=pentium' --buildroot='/var/tmp/mezzanine-buildroot.29689/perl-DBI.2383' -ba /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SPECS/perl-DBI.spec"
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.26458
+sh-trace: umask 022
+sh-trace: cd /caos/repo/ex

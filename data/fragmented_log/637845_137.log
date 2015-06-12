@@ -1,0 +1,6 @@
+inux-i686/; \
+  ar r ../Linux-i686/libUtilUnitTest.a ../Linux-i686/NamedFactoryTest.o ../Linux-i686/SingletonUnitTest.o
+ranlib ../Linux-i686/libUtilUnitTest.a
+cat /dev/null >../Linux-i686/UtilUnitTest.stamp
+cd ../Linux-i686/; QUIET=; /home/dayabay/code/CMT/v1r20p20070524/mgr/cmt_make_shlib_common.sh extract "Linux-i686,debug" UtilUnitTest 
+g++ -L/home/tagg/autodaya/InstallArea/Linux-i686/lib -shared -o libUtilUnitTest.so "UtilUnitTesttemp_shlib/NamedFactoryTest.o" "UtilUnitTesttemp_shlib/SingletonUnitTest.o

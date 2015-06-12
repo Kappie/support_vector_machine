@@ -1,0 +1,8 @@
+ <div class="contenttype-plone-site" tal:attributes="class typeClass">
+                       <a class="visualIconPadding"
+                          tal:attributes="href root/absolute_url;
+                                          title portal/Description;
+                                          class string:$selectedClass visualIconPadding;">
+                       <span tal:omit-tag=""
+                             tal:condition="python:root == portal"
+                             i18n:translate="tabs_ho

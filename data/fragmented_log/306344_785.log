@@ -1,0 +1,12 @@
+906;rxmon
+9830221540919/rx/00(front),on,a,on,on,on,off,locked,17.76
+9830221540932/rx/01(rear),on,a,on,on,on,off,locked,29.97
+9830221540945/rx/02(lo),on,a,on,on,on,off,locked,38.88
+9830221540959/rx/03(dcal),on,a,on,on,on,off,locked,47.31
+9830221540972/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.009
+9830221540985/rx/17(pres),on,a,on,on,on,off,locked,3.629
+9830221540998/rx/1E(20k),on,a,on,on,on,off,locked,26.47
+9830221541011/rx/1F(70k),on,a,on,on,on,off,locked,46.16
+9830221544000:"data stop"
+9830221544000:et
+9830

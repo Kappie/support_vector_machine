@@ -1,0 +1,10 @@
+2:21:24.62/tsys/i2,116.9
+2004.350.12:21:24.62/tsys/5u,51.4,6u,48.2,7u,52.8,8u,56.7,i3,44.8
+2004.350.12:21:24.62:!2004.350.12:21:27
+2004.350.12:21:27.00:disk_pos
+2004.350.12:21:27.00/disk_pos/259722174464,121618158520
+2004.350.12:21:27.00:disk_record=on
+2004.350.12:21:27.00?ERROR m5 -900 Previous recording still active
+2004.350.12:21:27.00?ERROR m5 -906 MARK5 return code 6: inconsistent or conflicting request
+2004.350.12:21:27.00:data_valid=on
+2004.350.12:21:27.00?ERROR m5 -906 MARK5 return code 6: inconsist

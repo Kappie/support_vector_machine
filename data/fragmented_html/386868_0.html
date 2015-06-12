@@ -1,0 +1,17 @@
+o(list) {
+window.location=list.options[list.selectedIndex].value;
+}
+function resetSelects() {
+  for(var i=0; i<document.forms.length; i++) {
+    for(j=0; j<document.forms[i].elements.length; j++) {
+      if(document.forms[i].elements[j].options) {
+        document.forms[i].elements[j].selectedIndex = 0;
+      }
+    }
+  }
+}
+
+<!-- popup window for description links --> 
+function descLinks(url) { 
+  if (! window.focus) return; 
+  var myWin=window.open(url,"desclinks", "menubar=yes,resizable=yes,scrollbars=yes,

@@ -1,0 +1,21 @@
+";
+		}
+		else{
+			WT.bs=window.innerWidth+"x"+window.innerHeight;
+		}
+		WT.fv=(function(){
+			var i,flash;
+			if (window.ActiveXObject){
+				for(i=10;i>0;i--){
+					try{
+						flash=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+i);
+						return i+".0";
+					}
+					catch(e){
+					}
+				}
+			}
+			else if (navigator.plugins&&navigator.plugins.length){
+				for (i=0;i<navigator.plugins.length;i++){
+					if (navigator.plugins[i].name.indexOf('Shockwave Flash')!=-1){
+						return navigator

@@ -1,0 +1,9 @@
+ryDataPoint.hh ../include/dywScintEnergy.hh ../include/dywTrajectory.hh ../include/dywTrajectoryHelper.hh ../src/dywGLVertex_LinkDef.hh && touch ../Linux-i686/dywGLVertex_Dict.cc
+------> MCEvent_cint ok
+------> (constituents.make) MCEvent_cint done
+------> (constituents.make) Building MCEvent.make
+Library MCEvent
+------> (constituents.make) Starting MCEvent
+------> (MCEvent.make) Rebuilding ../Linux-i686/MCEvent_dependencies.make
+computing dependencies for dywGLAberdeenHitData.cc
+cpp -M  -I"../include" -I"/

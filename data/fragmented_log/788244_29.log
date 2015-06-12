@@ -1,0 +1,11 @@
+=        33578.22 mean =     15026.02|
+|figures of merit: min =        0.00 max =            1.00 mean =         0.85|
+|phase err.(work): min =        0.00 max =           89.98 mean =        21.93|
+|phase err.(test): min =        0.00 max =           89.22 mean =        21.66|
+|-----------------------------------------------------------------------------|
+
+============================== Outliers rejection =============================
+
+basic_wilson_outliers    = 0
+extreme_wilson_outliers  = 0
+beamstop_shad

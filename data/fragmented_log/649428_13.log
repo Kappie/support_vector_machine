@@ -1,0 +1,17 @@
+yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking ansidecl.h usability... yes
+checking ansidecl.h presence... yes
+checking for ansidecl.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+che

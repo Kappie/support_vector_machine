@@ -1,0 +1,13 @@
+mp3,mpeg,ppt,pptx,pdf,rar,rpm,sit,tar,wav,z,zip";
+		this.trackevents=true;
+		this.enabled=true;
+		this.i18n=false;
+		this.fpc="WT_FPC";
+		// end: user modifiable
+		this.DCS={};
+		this.WT={};
+		this.DCSext={};
+		this.images=[];
+		this.index=0;
+		this.exre=(function(){return(window.RegExp?new RegExp("dcs(uri)|(ref)|(aut)|(met)|(sta)|(sip)|(pro)|(byt)|(dat)|(p3p)|(cfg)|(redirect)|(cip)","i"):"");})();
+		this.re=(function(){return(window.RegExp?(that.i18n?{"%25":/\%/g}:{"%09":/\t/g,"%20":/ /g,"%23":

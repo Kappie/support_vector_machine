@@ -1,0 +1,15 @@
+calculating ...
+ <efficiency> =   25.96718     weight =  3.3008705E-03
+ 
+wrote /tproc/nandra/processing/75084000/work/75084000_gis3.effmap
+ 
+gnt_infrm: Creating exposure map for sis0...
+ 
+instfile=/tproc/nandra/processing/75084000/work/75084000_sis0.effmap
+ASCAEXPO_V0.9b
+ 
+    reading data file: /tproc/nandra/processing/75084000/work/75084000_sis0.evt
+    reading   gti ext: STDGTI
+    reading    hp ext: HOT_PIXELS
+    querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/sis/bcf/s0_teldef_070294.fi

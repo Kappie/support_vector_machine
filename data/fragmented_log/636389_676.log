@@ -1,0 +1,14 @@
+ing map plot - already done with image
+  Not calling plot_station_locations: 2
+  Plotting: c_metacode,i_overlay = c             1
+  write_label_lplot:
+ Surface Wind            (kt)                                                                        
+  Plotting black wind barbs            1            0
+
+  Plot_winds_2d: interval/size=            2   0.3000000    
+
+  winds are assumed to be GRID north at this point
+  Initializing latlon_to_rlapsgrid  -0.04325   0.04325  -0.87414  -0.79448
+
+
+  SELECT FIELD

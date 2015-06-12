@@ -1,0 +1,7 @@
+t autodoc] in /home/tagg/autodaya/Generators/RadioActivity/Thorium/cmt (17/29)
+#--------------------------------------------------------------
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/AutoDoc.pl Thorium /home/tagg/autodaya/Generators/RadioActivity/Thorium $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on Thorium at /home/tagg/autodaya/Generators/RadioActivity/Thorium to /home/tagg/autodaya/InstallArea/doc
+Error: Unexpected tag `class' found
+Error: Unexpected tag `class' found
+Searching for include

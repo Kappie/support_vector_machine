@@ -1,0 +1,11 @@
+f-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description rdf:about='uuid:cd1b7bb4-c360-11db-9a54-d63c162b85cd'
+  xmlns:exif='http://ns.adobe.com/exif/1.0/'>
+  <exif:ExposureTime>1/13</exif:ExposureTime>
+  <exif:FNumber>56/10</exif:FNumber>
+  <exif:ExposureProgram>0</exif:ExposureProgram>
+  <exif:ExifVersion>0221</exif:ExifVersion>
+  <exif:DateTimeOriginal>2007-02-06T15:28:36-07:00</exif:DateTimeOriginal>
+  <exif:DateTimeDigitized>2007-02-06T15:28:36-07:00</exif:DateTimeDigitized>
+  <exif:Shu

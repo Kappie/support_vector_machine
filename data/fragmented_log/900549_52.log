@@ -1,0 +1,19 @@
+nd established models = 2.07296 Jy
+! Performing phase self-cal
+! Adding 15 model components to the UV plane model.
+! The established model now contains 120 components and 2.07296 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.254655Jy  sigma=0.001209
+! Fit after  self-cal, rms=0.254658Jy  sigma=0.001209
+! Inverting map 
+! Added new window around map position (-6, -30.5).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  t

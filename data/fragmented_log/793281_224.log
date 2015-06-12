@@ -1,0 +1,14 @@
+.14  
+    individual site refinement   = 148.60 
+    weights calculation          = 32.57  
+    collect and process          = 6.36   
+    model show statistics        = 0.11   
+    TOTAL for macro-tasks        = 227.78 
+  Micro-tasks:
+    mask                            = 2.94   
+    f_calc                          = 107.08 
+    alpha_beta                      = 8.35   
+    target                          = 1.18   
+    gradients_wrt_atomic_parameters = 119.30 
+    fmodel                         = 7.18   
+ 

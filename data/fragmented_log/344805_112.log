@@ -1,0 +1,11 @@
+!play_rate = 0 ;
+2003.308.18:47:45.93/mk5/!mode = 0 ;
+2003.308.18:47:45.96/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 23 ;
+2003.308.18:47:45.96:!2003.308.18:49:50
+2003.308.18:49:32.97#flagr#flagr/antenna,acquired
+2003.308.18:49:50.00:preob
+2003.308.18:49:50.37#antcn#Check if antenna is on-source
+2003.308.18:49:50.38#flagr#flagr/antenna,off-source
+2003.308.18:49:51.08/onsource/TRACKING
+2003.308.18:49:51.67#flagr#flagr/antenna,re-acquired
+2003.308.18:49:53.66/tpical/1u,10114,2u,10727,3u,10762,4u,9361,i1,609

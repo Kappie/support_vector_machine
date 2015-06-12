@@ -1,0 +1,12 @@
+20_gis3_src.pha
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 76052020_gis3_src.evt
+Wrote events list to file 76052020_gis3_src.evt
+!xsel:ASCA-GIS3-PH > clear events
+!xsel:ASCA-GIS3-PH > clear pha_cutoff
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 76052020_gis3_src_hard.evt
+Wrote events list to file 76052020_gis3_src_hard.evt
+!xsel

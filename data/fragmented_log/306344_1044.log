@@ -1,0 +1,12 @@
+r integrator overflow on IF3
+9830303195766?ERROR ch -370 Total power integrator overflow on IF3
+9830303201974?ERROR ch -370 Total power integrator overflow on IF3
+9830303203577;list
+9830303204172?ERROR ch -370 Total power integrator overflow on IF3
+9830303210369?ERROR ch -370 Total power integrator overflow on IF3
+9830303212568?ERROR ch -370 Total power integrator overflow on IF3
+9830303213000:"data stop"
+9830303213000:et
+9830303213016:!+3s
+9830303213317:tape
+9830303213329/tape/off,03400,norm,stopped,stop,u

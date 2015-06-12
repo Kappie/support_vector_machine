@@ -1,0 +1,15 @@
+evt
+!xsel:ASCA-GIS3-PH > clear events
+!xsel:ASCA-GIS3-PH > clear pha_cutoff
+!xsel:ASCA-GIS3-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS3-PH > extract events
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 74035000_gis3_src_hard.evt
+Wrote events list to file 74035000_gis3_src_hard.evt
+!xsel:ASCA-GIS3-PH > exit save=no
+ 
+gnt_infrm: Extracting bgd data for sis0...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S0CCDPOW
+      1 3C_254      BRIGHT2     HIGH     

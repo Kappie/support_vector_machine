@@ -1,0 +1,10 @@
+pe/off,05761,norm,stopped,stop,unlock,ready,rem
+2001.295.21:23:00.12:st=for,160
+2001.295.21:23:00.29:!2001.295.21:23:00
+2001.295.21:23:00.29:preob
+2001.295.21:23:00.31#antcn#Checking onsource status
+2001.295.21:23:00.33#antcn# RAsource    74.283   DECsource  -23.409
+2001.295.21:23:00.33#antcn# RAbeam      74.285   DECbeam    -23.410
+2001.295.21:23:00.33#antcn# RAdelta      0.002   DECdelta     0.001
+2001.295.21:23:00.33/onsource/TRACKING
+2001.295.21:23:02.87/tpical/7174,5611,5950,4191,1282,4482,4507,3860,80

@@ -1,0 +1,12 @@
+tenna
+2003.308.19:01:21.56#flagr#flagr/antenna,new-source
+2003.308.19:01:21.58:setupsx
+2003.308.19:01:25.91/mk5/!play_rate = 0 ;
+2003.308.19:01:25.93/mk5/!mode = 0 ;
+2003.308.19:01:25.96/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 27 ;
+2003.308.19:01:25.96:!2003.308.19:03:40
+2003.308.19:02:36.04#flagr#flagr/antenna,acquired
+2003.308.19:03:40.00:preob
+2003.308.19:03:40.00#antcn#Check if antenna is on-source
+2003.308.19:03:40.63/onsource/TRACKING
+2003.308.19:03:43.21/tpical/1u,10146,2u,10676,3u,10853,4u,9401

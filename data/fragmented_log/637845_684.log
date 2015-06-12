@@ -1,0 +1,8 @@
+0m[geant] =I= [0m      Bether-Bloch model for E > 0.2 MeV, parametrisation of Bragg peak below, 
+[0m[geant] =I= [0m      radiative corrections for E > 1 GeV
+[0m[geant] =I= [0m      Step function: finalRange(mm)= 1, dRoverRange= 0.2, integral: 1
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmuBrems:   tables are built for  mu-
+[0m[geant] =I= [0m      dE/dx and range tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Lambda tables from threshold to 100 TeV in 120 bins.
+[0m[geant] =I= [0

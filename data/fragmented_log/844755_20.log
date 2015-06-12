@@ -1,0 +1,18 @@
+itten to the .eff file above.
+Below are only the non-defaults.
+
+#phil __ON__
+refinement {
+  crystal_symmetry {
+    unit_cell = 68.845 46.22605 88.54975 90 90 90
+    space_group = "P 21 21 21"
+  }
+  input {
+    pdb {
+      file_name = "/net/cci-filer1/vol1/tmp/phzwart/tassos/trial/model.pdb"
+    }
+    xray_data {
+      file_name = "/net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cns"
+      labels = "FOBS,SIGMA"
+      r_free_flags {
+        file_name = "/net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cn

@@ -1,0 +1,12 @@
+ery.
+
+<LI>Scrolling is quite jumpy.
+
+<LI>If you add items to Scrolled, or a container within it, after it has
+already been displayed, Scrolled needs not only to be layed out, but
+it should to be resized to its preferred size.  This latter doesn't happen
+automatically -- I'm not sure how to get it to notice.  At present you've
+got to invalidate and then validate the Scroller (or Viewport?).
+</UL> 
+Some of these could, no doubt, be worked around, but this may be moot, 
+as Javasoft apparently intends to includ

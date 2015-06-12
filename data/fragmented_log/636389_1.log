@@ -1,0 +1,27 @@
+0 /data/lapb/tw/fsl-linux9/data/time/systime.dat
+utc_hour = 18
+utc_min  = 00
+ 
+cputime 	unlimited
+filesize 	unlimited
+datasize 	unlimited
+stacksize 	unlimited
+coredumpsize 	unlimited
+memoryuse 	unlimited
+vmemoryuse 	unlimited
+descriptors 	1024 
+memorylocked 	unlimited
+maxproc 	7168 
+ 
+cputime 	unlimited
+filesize 	unlimited
+datasize 	unlimited
+stacksize 	unlimited
+coredumpsize 	unlimited
+memoryuse 	unlimited
+vmemoryuse 	unlimited
+descriptors 	1024 
+memorylocked 	unlimited
+maxproc 	7168 
+ 
+Thu Jun  1 19:25:12

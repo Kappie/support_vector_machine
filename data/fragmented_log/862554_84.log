@@ -1,0 +1,12 @@
+p
+!xsel:ASCA-GIS2-PH > exit save=no
+
+****** statistics for /tproc/nandra/processing/72016000/work/gis2_spec_src.tmp ******
+
+The sum of the selected image                 = 1681.000000
+The mean of the selected image                = 2.494065
+The standard deviation of the selected image  = 2.953265
+The number of points used in calculation      = 674
+The minimum of selected image                 =   -1.0
+The maximum of selected image                 =   20.0
+The location of minimum is at pixel number    = (1,1

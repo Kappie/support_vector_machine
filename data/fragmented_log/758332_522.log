@@ -1,0 +1,14 @@
+C> ignore 1-4:5.0-7.5;
+ Chi-Squared =      354.1564     using   331 PHA bins.
+ Reduced chi-squared =      1.089712     for    325 degrees of freedom
+ Null hypothesis probability = 0.128
+
+!XSPEC> query no;
+Querying disabled - assuming answer is no
+
+!XSPEC> model con*(wabs*po+wabs*po) ;1.0,-1, 0,0,1,1 ;0.03, 0.005,0,0,10,10 ;3.,0. ...
+  Model:  constant[1]( wabs[2]( powerlaw[3] ) + wabs[4]( powerlaw[5] ) )
+!Param# 1  : 1.0,-1, 0,0,1,1 
+!Param# 2  : 0.03, 0.005,0,0,10,10 
+!Param# 3  : 3.,0.05,1.5,1.5,5,5 
+!Par

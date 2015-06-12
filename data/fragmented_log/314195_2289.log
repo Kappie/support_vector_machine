@@ -1,0 +1,10 @@
+16:14:38.05:!+3s
+2004.167.16:14:41.06:tape
+2004.167.16:14:41.13/tape/low,15342,off,stopped,unlocked,ready,10.8,85,okay
+2004.167.16:14:41.13:postob
+2004.167.16:14:41.13:scan_name=167-1617,r1127,80
+2004.167.16:14:41.13:source=1726+455,172601.24,453304.7,1950.0
+2004.167.16:14:47.67:check80r
+2004.167.16:14:49.79?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.16:14:49.79?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.16:15:40.90?ERROR qg -303 Track  2 parity errors exceed 

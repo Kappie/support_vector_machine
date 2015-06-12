@@ -1,0 +1,11 @@
+caling factor
+  BACKFILE  - 74035000_sis0_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 74035000_sis0.rmf
+  ANCRFILE  - 74035000_sis0.arf
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether channels have been corrected
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS  - 1024            No. of legal detector channels
+  NCHAN     - 1024            No. 

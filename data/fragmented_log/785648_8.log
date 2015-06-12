@@ -1,0 +1,18 @@
+type: None
+Type of data: int, size=19589
+Type of sigmas: None
+Number of Miller indices: 19589
+Anomalous flag: False
+Unit cell: (70.9525, 46.4607, 86.39, 90, 90, 90)
+Space group: P 21 21 21 (No. 19)
+Systematic absences: 0
+Centric reflections: 2427
+Resolution range: 15.1028 1.98276
+Completeness in resolution range: 0.961518
+Completeness with d_max=infinity: 0.9586
+
+Test (R-free flags) flag value: 1
+
+Number of work/free reflections by resolution:
+                                         work  free  %free
+  bin

@@ -1,0 +1,11 @@
+0.003169 max=0.003944 Jy/beam
+! Clean residual mean=0.000397 rms=0.001031 Jy/beam
+! Combined flux in latest and established models = 2.56298 Jy
+! Adding 47 model components to the UV plane model.
+! The established model now contains 117 components and 2.56298 Jy
+! Inverting map 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 70 mega-wavelengths.
+clean clean_ni

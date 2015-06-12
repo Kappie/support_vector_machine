@@ -1,0 +1,8 @@
+ccupancy refinement =======================
+
+|-individual occupancy refinement: start--------------------------------------|
+| r_work = 0.2017 r_free = 0.2535             target_work(ml) = 5.643         |
+| occupancies: max = 1.00  min = 0.08   number of occupancies < 0.1:        1 |
+|-----------------------------------------------------------------------------|
+|-individual occupancy refinement: end----------------------------------------|
+| r_work = 0.2012 r_free = 0.2537             target_work(ml) = 5.6

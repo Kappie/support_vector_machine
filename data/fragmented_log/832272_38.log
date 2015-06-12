@@ -1,0 +1,13 @@
+odel now contains 49 components and 0.254489 Jy
+! Inverting map 
+uvtaper 0
+! No UV-taper is currently set.
+clean
+! Inverting map and beam 
+! Estimated beam: bmin=0.8979 mas, bmaj=2.362 mas, bpa=-2.069 degrees
+! Estimated noise=805.996 mJy/beam.
+! clean: niter=200  gain=0.04  cutoff=0
+! Component: 050  -  total flux cleaned = -0.000792349 Jy
+! Component: 100  -  total flux cleaned = -0.000703596 Jy
+! Component: 150  -  total flux cleaned = -0.000625429 Jy
+! Component: 200  -  total flux cleaned = -0.00055084

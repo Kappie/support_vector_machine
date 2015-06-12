@@ -1,0 +1,14 @@
+m: 0.8201 x 1.746 at 0.976 degrees (North through East)
+! Clean map  min=-0.0021211  max=1.0083 Jy/beam
+! Writing clean map to FITS file: J0121+1149_X_2000_12_04_pus_map.fits
+float peak_flux
+peak_flux = peak(flux,max)
+print "The peak flux is",peak_flux
+! The peak flux is 1.00827 
+invert
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",imag

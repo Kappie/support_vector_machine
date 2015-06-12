@@ -1,0 +1,13 @@
+ynam
+  selfcal
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = -0.00193916 Jy
+! Component: 100  -  total flux cleaned = -0.00295867 Jy
+! Component: 150  -  total flux cleaned = -0.00375322 Jy
+! Component: 200  -  total flux cleaned = -0.00416801 Jy
+! Total flux subtracted in 200 components = -0.00416801 Jy
+! Clean residual min=-0.007547 max=0.008365 Jy/beam
+! Clean residual mean=0.000202 rms=0.002013 Jy/beam
+! Combined 

@@ -1,0 +1,11 @@
+allation
+------> (constituents.make) Starting library_postinstallation
+------> (constituents.make) library_postinstallation done
+ all ok.
+#--------------------------------------------------------------
+# Now trying [make] in /home/tagg/autodaya/Base/Util/cmt (13/15)
+#--------------------------------------------------------------
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+../Linux-i686/Utilsetup.make untouched 

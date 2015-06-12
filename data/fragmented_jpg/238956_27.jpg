@@ -1,0 +1,10 @@
+xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/'>
+  <xapMM:DerivedFrom rdf:parseType='Resource'>
+   <stRef:instanceID>uuid:1c096adc-140d-11da-a0cc-9ac89befe8ec</stRef:instanceID>
+   <stRef:documentID>adobe:docid:photoshop:ded95119-140c-11da-a0cc-9ac89befe8ec</stRef:documentID>
+  </xapMM:DerivedFrom>
+  <xapMM:DocumentID>adobe:docid:photoshop:57c8c184-3916-11db-94ed-ca97bbccfe8d</xapMM:DocumentID>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:57c8c185-3916-11db-94ed-ca97bbccfe8d'
+  xmlns:dc='http://purl

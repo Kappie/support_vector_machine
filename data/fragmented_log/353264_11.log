@@ -1,0 +1,10 @@
+03.279.16:32:48.64&ready_disc/"halt
+2003.279.16:32:48.64&ready_disc/"mk5=reset=mount
+2003.279.16:32:48.64&ready_disc/"!+25s
+2003.279.16:32:48.64&ready_disc/disc_serial
+2003.279.16:32:48.64&ready_disc/"!+2s
+2003.279.16:32:48.64&ready_disc/"mk5=reset=erase
+2003.279.16:32:48.64&ready_disc/!+5s
+2003.279.16:32:48.64&ready_disc/disc_pos
+2003.279.16:32:49.37/                     !!!! wake up !!!!
+2003.279.16:32:49.38/disc_serial/VNVF31G6G963AT,VNVF31G6G95EVT,VNVF31G6G90B2T,VNVF31G6G9893T,VNVF31G6G95BGT,VNVF31G6G97

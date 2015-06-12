@@ -1,0 +1,15 @@
+...... NONE
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  4- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   First GTI Start ... 11015 20:55:57.008
+ No. of Rows .......           85        Last GTI Stop ..... 11016 05:19:41.018
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ 
+ Expected Start ... 11015.87218759374  (days)      20:55:57:  8  (h:m:s:ms)
+ Expected Stop .... 11016.22200252228  (da

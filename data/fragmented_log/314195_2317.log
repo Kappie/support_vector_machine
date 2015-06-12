@@ -1,0 +1,8 @@
+ta_valid=on
+2004.167.16:25:15.10:midob
+2004.167.16:25:15.30/tpi/1l,16230,1u,15979,2u,16120,3u,16169,4u,16225,ia,30577
+2004.167.16:25:15.30/tpi/9u,16032,au,15889,bu,16153,cu,16042,du,16256,eu,16366,ib,30151
+2004.167.16:25:15.30/tpi/5u,15913,6u,16103,7u,16201,8l,16254,8u,16315,ic,7808
+2004.167.16:25:15.88?ERROR qk -211 Tsys value for device 8l overflowed or was less than zero.
+2004.167.16:25:15.88?ERROR qk -211 Tsys value for device 5u overflowed or was less than zero.
+2004.167.16:25:15.88?ERROR qk -211 Tsys 

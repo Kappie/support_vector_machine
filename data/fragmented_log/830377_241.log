@@ -1,0 +1,11 @@
+ABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - SIS1            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 13576.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 5.12500E-02     Background scaling factor
+  BACKFILE  - none            Associated background file
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  

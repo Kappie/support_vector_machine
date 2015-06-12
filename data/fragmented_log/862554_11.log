@@ -1,0 +1,23 @@
+nt_infrm: ========================
+Sat Apr 22 06:00:16 EDT 2000
+ 
+gnt_infrm: (do_proc) The dominant datamode is: BRIGHT.
+ 
+gnt_infrm: (do_proc) The BR_EARTH angle is: 20.
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_scrn
+gnt_infrm: *************************
+Sat Apr 22 06:00:16 EDT 2000
+ 
+gnt_infrm: The datamode is BRIGHT.
+ 
+gnt_infrm: Determining the CCD mode...
+ 
+CCD EXP_TIME
+--------------------------
+2 1.162370636641979E+04
+2 2.523928850889206E+03
+1 1.028719182893634E+03
+1 4.6

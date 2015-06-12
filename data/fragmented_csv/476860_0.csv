@@ -1,0 +1,6 @@
+s.)",Flight Number,Origin Airport,Origin City,Destination Airport,Destination City,Day of Week,Scheduled Departure Time,Actual Gate Departure Time,"Departure Delay
+(in mins.)",Wheels Off,Air Time,Wheels On,"Taxi-In Time
+(in mins.)",Scheduled Arrival Time,Actual Gate Arrival Time,"Arrival Delay
+(in mins.)",Distance,Air Carrier ,NAS ,Security ,Weather ,Late Arriving Aircraft
+United,9/27,257,783,IAD,"Washington, DC",ABQ,"Albuquerque, NM",4,1745,1739,-6,2156,230,2346,19,2000,5,245,1628,0,245,0,0,0
+ExpressJet,

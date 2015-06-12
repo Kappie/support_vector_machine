@@ -1,0 +1,12 @@
+ff xff xff xff xff xff xff xff xff xff xff xff
+9919503413085/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919503413156/pass/4,4,auto,-275.0,-275.0,-275.4,-275.0,-0.4,0.0
+9919503413171:!195040502
+9919504050200:tape
+9919504050205/tape/off,01418,norm,stopped,stop,unlock,ready,rem
+9919504050205:st=rev,80
+9919504050220:!195040512
+9919504051200:preob
+9919504051200#antcn#Checking onsource status
+9919504051204#antcn# RAsource     1.551   DECsource   -6.396
+9919504051204#antcn# RAbeam   

@@ -1,0 +1,18 @@
+d=cval.substring(0,cval.indexOf(":lv="));
+		var aCrumb=id.split("=");
+		for (var i=0;i<aCrumb.length;i++){
+			if (crumb==aCrumb[0]){
+				return aCrumb[1];
+			}
+		}
+		return null;
+	}
+	WebTrends.prototype.dcsIsFpcSet=function(name,id,lv,ss){
+		var c=this.dcsGetCookie(name);
+		if (c){
+			return ((id==this.dcsGetIdCrumb(c,"id"))&&(lv==this.dcsGetCrumb(c,"lv"))&&(ss==this.dcsGetCrumb(c,"ss")))?0:3;
+		}
+		return 2;
+	}
+	WebTrends.prototype.dcsFPC=function(){
+		if (document.cookie.indexOf("WTLOPTOU

@@ -1,0 +1,20 @@
+ype of phosphors) and therefore needs to be tuned to the
+* model of the monitor.
+* 
+* Antialiased lines are supported on the 8 and 24 bit 3D adapters.
+* Colormode antialiased lines is not supported on the
+* High Speed Graphics Adapter.
+*/ </PRE>
+
+<PRE><A NAME="A64E980860ttay"></A>draw_fan()
+{
+  /* draw fan */
+  
+  int i;</PRE>
+
+<PRE><A NAME="A64E981054ttay"></A>  for (i=0; i&lt;= 90; i+=10) {
+    pushmatrix();
+    rot (-(float) i, 'z');
+    move (0.0, 0.0, 0.0);
+    draw (0.0, 300.0, 0.0);
+    popmatrix();

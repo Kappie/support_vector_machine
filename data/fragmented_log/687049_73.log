@@ -1,0 +1,5 @@
+      35272        5.887 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHO::access::HO                                                                18467        0.181 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHO::addCrossedHits                                                            18467        0.062 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHO::addHitsInTheRegion                                                        18467        1.100 (real)        0.000 (cpu)
+Track

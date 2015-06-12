@@ -1,0 +1,20 @@
+ld_2d to field_buf for diff optn
+
+
+
+
+                       ----   ADD NEW FRAME??    ----
+
+
+
+
+
+     [h/hz]  Horizontal Plan View    (Const Pressure Level or SFC)
+     [x]  Vertical Cross Section
+     [s]  Sounding
+                                                             [q] QUIT ? 
+  closing GKS, look for your ./gmeta file
+ GKS ERROR NUMBER    2 ISSUED FROM SUBROUTINE GCLKS :
+ --GKS NOT IN PROPER STATE: GKS SHALL BE IN STATE GKOP
+-rw-rw-rw-    1 oplapb   frdlapb    354240 2006-06-01 19:25 gmeta
+ctransa

@@ -1,0 +1,12 @@
+88,18024,14469,15460,20724,17351,37766
+9919510092204:!195100929
+9919510092900:tape
+9919510092906/tape/off,06774,norm,moving,nostop,locked,ready,rem
+9919510092906:"data start"
+9919510092906:midob
+9919510092906#antcn#Checking onsource status
+9919510092909#antcn# RAsource    82.720   DECsource   13.530
+9919510092909#antcn# RAbeam      82.722   DECbeam     13.529
+9919510092909#antcn# RAdelta      0.002   DECdelta     0.001
+9919510092909?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919510092909/onsource/S

@@ -1,0 +1,5 @@
+   0.061 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::fillEcal                                                                    1        0.002 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::fillEcal::access::EcalBarrel                                                1        0.000 (real)        0.000 (cpu)
+firstcall_TrackDetectorAssociator::fillEcal::access::EcalEndcaps                                               1        0.000 (real)        0.000 (cpu)
+firstcall_TrackDetect

@@ -1,0 +1,7 @@
+uration file under the ace 
+area, L2_COSMICS_TEST,  that sets up the track boards with fake data and books the trigger, CCAL, WCAL, xtrp, svt.  Run all 5 boards with it and signals on backplane look good and data looks good,  except for eta-phi mismatches in Iso mentioned above.  It's still an open question whether the energy mismatches seen are completely due to the eta phi mismatches or not.  I'm looking into this.  </pre>
+<!-- Author: Steve Kuhlmann -->
+
+
+<!-- Date: Fri Oct 19 16:09:13 2001 -->
+<pre>Rece

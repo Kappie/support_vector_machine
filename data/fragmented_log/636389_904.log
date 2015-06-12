@@ -1,0 +1,11 @@
+1 oplapb   frdlapb    266400 2006-06-01 19:26 gmeta
+ctransarg=sun
+ctransext=sun
+netpbm=yes
+Thu Jun  1 19:26:01 UTC 2006
+Running /usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans | netpbm to make gmeta_xct.gif file
+/usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans -verbose -d sun -window 0.06:0.12:0.94:0.85 -resolution 1056x885 gmeta | rasttopnm | ppmtogif > /w3/lapb/domains/tw_fsl9/anal2d/gmeta_xct.gif
+Thu Jun  1 19:26:02 UTC 2006
+Update systime on web directory...
+01-JUN-2006 1800
+Running purger of LAPS gif files,

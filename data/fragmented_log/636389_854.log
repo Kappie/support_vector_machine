@@ -1,0 +1,11 @@
+6.500000     
+            0  F  F  T  F
+  ccpfil_sub - scale,scale_loc =     1.000000        5.000000    
+  subroutine set_image_colortable: ncols =            20
+  Subroutine color_ramp..             1            1
+    1   0.600   0.700   0.400   0.307   0.120   0.400
+  Subroutine color_ramp..             2            2
+    2   1.000   0.850   0.550   0.082   0.082   0.550
+  Subroutine color_ramp..             3            3
+    3   2.000   0.400   0.400   0.240   0.400   0.240
+  Subroutine color_ramp..   

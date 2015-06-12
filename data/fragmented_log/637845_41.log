@@ -1,0 +1,10 @@
+---> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+../Linux-i686/MCEventsetup.make untouched 
+setup.make ok
+Linux-i686.make ok
+------> (constituents.make) Rebuilding library links
+   Symlinking /home/tagg/autodaya/DataStructure/MCEvent/Linux-i686/libMCEvent.so to /home/tagg/autodaya/InstallArea/Linux-i686/lib/libMCEvent.so
+------> (constituents.make) all done
+------> (constituents.make) Building install_includes_auto.mak

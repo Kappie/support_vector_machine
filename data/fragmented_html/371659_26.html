@@ -1,0 +1,13 @@
+>
+ 
+<PRE>
+   CALL <a href="../spicelib/cgv2el.html">CGV2EL</a> ( CENTER, V1, V2, ELLIPS )
+</PRE>
+   This call produces the SPICELIB ellipse ELLIPS, which represents the
+   same mathematical ellipse as do CENTER, V1, and V2.
+<P>
+ 
+   The generating vectors need not be linearly independent. If they are
+   not, the resulting ellipse will be degenerate. Specifically, if the
+   generating vectors are both zero, the ellipse will be the single point
+   represented by CENTER, and if just one of the semi-axis vector

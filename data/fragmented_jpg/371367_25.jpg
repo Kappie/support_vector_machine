@@ -1,0 +1,13 @@
+w.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description about='uuid:f9df1988-828b-11d8-aa0d-820135f7a9c5'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+  <!-- pdf:Creator is aliased -->
+ </rdf:Description>
+
+ <rdf:Description about='uuid:f9df1988-828b-11d8-aa0d-820135f7a9c5'
+  xmlns:xap='http://ns.adobe.com/xap/1.0/'>
+  <xap:CreatorTool>Adobe Photoshop Elements for Windows, version 2.0</xap:CreatorTool>
+ </rdf:Description>
+
+ <rdf:Description about='uuid:f9df1988-828b-11d8

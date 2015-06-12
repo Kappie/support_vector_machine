@@ -1,0 +1,18 @@
+		}
+			else{
+				WT.le="unknown";
+			}
+		}
+		WT.tv="8.5.0";
+	//	WT.sp="@@SPLITVALUE@@";
+		WT.dl="0";
+		WT.ssl=(window.location.protocol.indexOf('https:')==0)?"1":"0";
+		DCS.dcsdat=dCurrent.getTime();
+		DCS.dcssip=window.location.hostname;
+		DCS.dcsuri=window.location.pathname;
+		WT.es=DCS.dcssip+DCS.dcsuri;
+		if (window.location.search){
+			DCS.dcsqry=window.location.search;
+		}
+		if ((window.document.referrer!="")&&(window.document.referrer!="-")){
+			if (!(navigator.appName=="Microsoft In

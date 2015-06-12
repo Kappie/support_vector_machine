@@ -1,0 +1,19 @@
+ned flux in latest and established models = 0.360335 Jy
+selfcal
+! Performing phase self-cal
+! Adding 25 model components to the UV plane model.
+! The established model now contains 76 components and 0.360335 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.305641Jy  sigma=0.001453
+! Fit after  self-cal, rms=0.305833Jy  sigma=0.001453
+flux_cutoff = imstat(rms) * dynam
+! Inverting map 
+! Your choice of large map pixels excluded 4.39% of

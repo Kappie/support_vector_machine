@@ -1,0 +1,17 @@
+t all 4  
+reces boards. 
+  I triggered the LA with the BERR* line on the VME backplane. 
+Looking on the Alpha PCI bus, I see the problem is that  
+the CIA chip doesn't respond to a vme read (via the universe) 
+when the CIA has just read a reces board.  
+  Perhaps the crate controller code could be changed so that it 
+it retries after getting a vme berr, and only gives a dto if 
+it gets several in a row. 
+</pre>
+<!-- Author: Stephen -->
+
+
+<!-- Date: Fri Oct 19 17:28:01 2001 -->
+<pre>Clique Work 
+  
+On Clique

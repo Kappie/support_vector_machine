@@ -1,0 +1,9 @@
+lclean ok.
+Removing library links
+#--------------------------------------------------------------
+# Now trying [make clean] in /home/tagg/autodaya/G4dyb/cmt (15/15)
+#--------------------------------------------------------------
+#CMT> bad syntax in requirements of GEANT v0 External line #13 [<<<<<<< ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #25 [>>>>>>> ...]
+------> (Makefile.header) Rebuilding constituents.ma

@@ -1,0 +1,10 @@
+t the energy data is out 
+of sync with the seed location information. This is likely 
+due to the fact that it takes longer to make the energy sums. 
+  The TrigMon code for Isolation monitoring has been validated 
+by comparing to standalone offline validation code. 
+ 
+Data Validation of Cutting Runs- Only data from 2 long runs 
+was successfully read from tape. These showed no L1 bit errors, 
+and the usual Cluster merging and eta bit errors. The data will 
+be reanalyzed to get a count of the number of each ki

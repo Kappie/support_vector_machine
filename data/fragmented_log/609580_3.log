@@ -1,0 +1,11 @@
+er ran PSMon in short testing spurts.</p> 
+ 
+<p> 
+As a consequence PSMon only sends the interlock status to the GUI about once every 30 s.  Andrew has the GUI set up to say "Lost communication with iFix" when it doesn't get data from PSMon after some period of time less than 30 s, so this message keeps popping up.  I'll email Andrew and have him increase the timeout limit.</p>
+<!-- Author: Andy H. -->
+
+
+<!-- Date: Sat Mar 31 21:19:22 2001 -->
+<p> 
+<h1> 
+CONTROL ROOM AUDIO ALARMS FOR SVX/ISL/L00 PS TRIPS ARE

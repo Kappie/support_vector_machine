@@ -1,0 +1,17 @@
+os1);
+			pos2 = link.indexOf ("@");
+			windowparams = link.substring (pos1 + 1, pos2);
+			link = link.substring (pos2 + 1, link.length);
+		}
+		
+		if( displaylink && displaylink != "" )
+		{		
+			if (windowname == "")
+				window.location = displaylink;
+			else
+			{
+				windowparams = FormatWindowParams(windowparams);
+				// window.open (displaylink, windowname, windowparams);
+				// replace the above with the following:
+				woodbournewin = window.open (displaylink, windowname, windowparams);
+				if ( woodbour

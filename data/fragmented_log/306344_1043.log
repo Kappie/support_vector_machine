@@ -1,0 +1,8 @@
+R qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830303185373/tsys1/80.4,81.8,80.7,81.0,79.2,73.7,75.0,71.9,74.7,$$$$$$$$
+9830303185374?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830303185374?ERROR qk -211 Tsys value for device i2 overflowed or were less than zero.
+9830303185374/tsys2/81.7,84.1,86.6,80.9,80.9,$$$$$$$$,-1542.1
+9830303185374:!303032130
+9830303191371?ERROR ch -370 Total power integrator overflow on IF3
+9830303193569?ERROR ch -370 Total powe

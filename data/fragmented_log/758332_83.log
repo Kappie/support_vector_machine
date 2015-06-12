@@ -1,0 +1,17 @@
+ime     Phase       Cut
+         13304      2582          10435         0         0       287
+   in  38995.     seconds
+ Spectrum         has     2582 counts for 6.6213E-02 counts/sec
+ ... written the PHA data Extension
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel]
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!xsel:ASCA > clear all proceed=yes	
+	WARNING

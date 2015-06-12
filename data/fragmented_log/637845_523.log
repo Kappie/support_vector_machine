@@ -1,0 +1,8 @@
+[dyb]   =W= [1mWarning: setting PMT mirror reflectivity to 0.9999 because no PMT_Mirror material properties defined
+[0m[geant] =I= [0mThank you for using G4BinaryCascade. 
+[0m/usr/local/opt/geant4-data/G4NDL3.10
+[dyb]   =I= [0mCapture : start of construction!!!!!!!!
+[0m[dyb]   =I= [0m+++++++++++++++++++++++++++++++++++++++++++++++++
+[0m[dyb]   =I= [0minitializing theCapture 0 22 name Hydrogen
+[0m[dyb]   =I= [0minitializing theCapture 1 22 name Boron
+[0m[dyb]   =I= [0minitializing theCapture 2 2

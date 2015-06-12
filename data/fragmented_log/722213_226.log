@@ -1,0 +1,17 @@
+ command listing
+!xsel:ASCA > clear all proceed=yes	
+	WARNING: CLEAR ALL will remove all temporary files
+!xsel > set datadir ./
+ 
+Setting data directory to /tproc/nandra/processing/75084000/work/
+Setting mkf directory to /tproc/nandra/processing/75084000/aux/
+ 
+!xsel > read e 75084000_gis3.evt
+ 
+Setting...
+ Image  keywords   = X          Y           with binning =    1
+ WMAP   keywords   = DETX       DETY        with binning =    1
+ Energy keywords   = PI                     with binning =    1
+ 
+ 
+Getting 

@@ -1,0 +1,13 @@
+rms)*3), 20000, 2
+! The new contour levels are:
+!  -0.108189 0.108189 0.216378 0.432755 0.86551 1.73102 3.46204 6.92408 13.8482 27.6963 55.3927 110.785 221.571 443.141 886.282 1772.56 3545.13 7090.26 14180.5
+device /xw
+! Attempting to open device: '/xw'
+mappl
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+cmul = 1.0
+loglevs (imstat(rms)*3), 20000, 2
+! The new contour levels are:
+!  -0.0168476 0.0168476 0.0336952 0.0673903 0.134781 0.269561 0.539123 1.07825 2.15649 4.31298 

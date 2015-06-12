@@ -1,0 +1,13 @@
+nf
+   2   ad72016000g300170h.unf
+   3   ad72016000g300470l.unf
+   4   ad72016000g300370h.unf
+ 
+!ascascreen_gis3:ASCA-GIS3-PH > set image detector
+!ascascreen_gis3:ASCA-GIS3-PH > select mkf @72016000_gis3_mkf.sel
+!ascascreen_gis3:ASCA-GIS3-PH > filter region 72016000_gis3_randc.reg
+!ascascreen_gis3:ASCA-GIS3-PH > extract events
+!ascascreen_gis3:ASCA-GIS3-PH > gisclean
+Using table:/software/lheasoft/develop/refdata/rti_gis_1024_040693.fits
+!ascascreen_gis3:ASCA-GIS3-PH > extract "event image"
+!ascascreen_gis3

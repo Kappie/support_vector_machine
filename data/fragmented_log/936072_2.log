@@ -1,0 +1,18 @@
+.62 degrees
+! Estimated noise=2.5922 mJy/beam.
+! 
+! Move the cursor into the plot window and press 'H' for help
+pwakw 1
+! Syntax error in line:
+! pwakw 1
+!     ^
+! Unable to identify keyword "pwakw"
+! 
+peakw 1
+! Added new window around map position (0, 0).
+clean 100
+! clean: niter=100  gain=0.05  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0976577 Jy
+! Component: 100  -  total flux cleaned = 0.108289 Jy
+! Total flux subtracted in 100 components = 0.108289 Jy
+! Clean residual min=-0.011186 max=0.022

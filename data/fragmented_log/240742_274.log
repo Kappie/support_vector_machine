@@ -1,0 +1,10 @@
+ack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.22:04:33.92/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.22:04:34.09:!2001.295.22:09:08
+2001.295.22:09:08.00:tape
+2001.295.22:09:08.12/tape/off,13343,norm,stopped,stop,unlock,ready,rem
+2001.295.22:09:08.12:st=for,160
+2001.295.22:09:08.29:!2001.295.22:09:08
+2001.295.22:09:08.29:preob
+2001.295.22:09:08.31#antcn#Checking onsource status
+2001.295.22:09:08.33#antcn# RAsource    54

@@ -1,0 +1,9 @@
+f,low,locked,-0.244
+2004.128.17:06:49.36/rx/25(HE_SUP),on,on,off,,,,off,closed,off,low,locked,241.7
+2004.128.17:06:49.86/rx/26(HE_RTN),on,on,off,,,,off,closed,off,low,locked,66.66
+2004.128.17:06:49.86:scan_name=128-1709,r4120,144
+2004.128.17:06:49.87:source=3c446,222547.26,-045701.4,2000.0,cw
+2004.128.17:06:54.43:setupsx
+2004.128.17:06:56.87/mk5/!play_rate = 0 ;
+2004.128.17:06:56.89/mk5/!mode = 0 ;
+2004.128.17:06:56.91/bank_check/usn-0102/960/1024OK,VNVD06G4H79HHL,VNVD06G4H79NPL,VNVD06G4H79P5L,VNVD06G4H79JE

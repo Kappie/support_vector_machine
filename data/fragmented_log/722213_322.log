@@ -1,0 +1,14 @@
+d Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ **** Warning : Infiles for series 1 overlap in time
+                Having > 1 intv or using time winds. might cause data loss !
+ 
+ Expected Start ... 10631.18268413196  (days)       4:23: 3:909  (h:m:s:ms)
+ Expected Stop .... 10632.38879155511  (days)       9:19:51:590  (h:m:s:ms)
+ 
+ Minimum Newbin Time   0.50000000      (s)
+ for Maximum Newbin No..           208416
+ 
+ Default Newbin Time is:   203.76942    (s) (to have 1 Intv. of     512 Newbins)
+ Type IND

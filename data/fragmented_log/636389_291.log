@@ -1,0 +1,15 @@
+n window v03       
+  mode / radar =             1            4
+  calling get_laps_3dgrid
+  Sort_fn: names sorted, non_numeric/total =             0           10
+     file time (needed/nearest) = 061521800     / 061521721
+  No field found within window v04       
+ Derived radar obs  [r, Ret = None]                              ? 
+  Derived Radar Obs
+  filename13 = 061521800.d01
+  filename13 = 061521800.d02
+  filename13 = 061521800.d03
+  filename13 = 061521800.d04
+
+  Plotting VAD Wind
+  filename13 = 06152180

@@ -1,0 +1,9 @@
+ stage is hotter than  35K.
+2004.167.16:49:23.11?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.16:49:23.11?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.16:49:32.93;rxmon
+2004.167.16:49:33.04/rx/00(front),on,a,on,on,on,off,locked,30.09
+2004.167.16:49:33.15/rx/02(lo),on,a,on,on,on,off,locked,48.41
+2004.167.16:49:33.26/rx/03(dcal),on,a,on,on,on,off,locked,49.63
+2004.167.16:49:33.37/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.931
+2004.167.16:49:33.48/rx/17(pres),on,a,on,o

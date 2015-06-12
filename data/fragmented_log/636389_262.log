@@ -1,0 +1,13 @@
+   141
+  colorbar: scale_l,scale_h,scale    0.000000        100.0000     
+    1.000000    
+  l_integral,l_discrete,l_divisible,l_set_contours  F  F  T  F
+  Colorbar left edge =        0
+  Colorbar right edge = 100     
+  Plotting colorbar    0.000000        10.00000              409          924
+  write_label_lplot:
+  500 hPa Isotachs (kt) lw3b                                                                         
+  lapsplot_setup: start
+  c6_maproj = lambrt
+  standard_lon =     120.9100    
+  standard_la

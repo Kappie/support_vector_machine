@@ -1,0 +1,14 @@
++){
+			items[i]=items[i].replace(/^\s*/,"").replace(/\s*$/,"");
+		}
+		return items;
+	}
+	// Code section for Track clicks to download links.
+	WebTrends.prototype.dcsDownload=function(evt){
+		evt=evt||(window.event||"");
+		if (evt&&((typeof(evt.which)!="number")||(evt.which==1))){
+			var e=this.dcsEvt(evt,"A");
+			if (e.href){
+				var hn=e.hostname?(e.hostname.split(":")[0]):"";
+				if (this.dcsIsOnsite(hn)&&this.dcsTypeMatch(e.pathname,this.downloadtypes)){
+					var qry=e.search?e.search.substri

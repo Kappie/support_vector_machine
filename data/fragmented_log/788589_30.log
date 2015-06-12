@@ -1,0 +1,14 @@
+        89.97 mean =        45.61|
+|phase err.(test): min =        0.00 max =           89.90 mean =        45.68|
+|-----------------------------------------------------------------------------|
+
+============================== Outliers rejection =============================
+
+basic_wilson_outliers    = 0
+extreme_wilson_outliers  = 0
+beamstop_shadow_outliers = 0
+total                    = 0
+
+====================== Target weights (before refinement) =====================
+
+|------------------------------------

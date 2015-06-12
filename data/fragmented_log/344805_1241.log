@@ -1,0 +1,12 @@
+a
+2003.309.13:29:11.31#flagr#flagr/antenna,new-source
+2003.309.13:29:11.32:setupsx
+2003.309.13:29:14.90/mk5/!play_rate = 0 ;
+2003.309.13:29:14.92/mk5/!mode = 0 ;
+2003.309.13:29:14.96/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 313 ;
+2003.309.13:29:14.97:!2003.309.13:31:50
+2003.309.13:29:31.77;onsource
+2003.309.13:29:31.77#antcn#Check if antenna is on-source
+2003.309.13:29:32.41#antcn#Currently slewing to requested source
+2003.309.13:29:32.41?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2003.309.13:29

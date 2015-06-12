@@ -1,0 +1,14 @@
+ than zero.
+9830216104390/tsys2/60.6,61.7,63.5,59.2,60.1,$$$$$$$$,68.5
+9830216104390:!302161210
+9830216121000:"data stop"
+9830216121000:et
+9830216121017:!+3s
+9830216121318:tape
+9830216121330/tape/off,07807,norm,stopped,stop,unlock,ready,rem
+9830216121330:postob
+9830216121330:source=0420-014,042043.5,-012728.7,1950.0
+9830216121331#antcn#Command a new source
+9830216121377#antcn#Successfully sent new source position to antenna
+9830216121377:check2c2
+9830216125461?ERROR qg -305 AUX data differs from expected va

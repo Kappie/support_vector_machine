@@ -1,0 +1,25 @@
+000
+ 
+gnt_infrm: The datamode is BRIGHT2.
+ 
+gnt_infrm: Determining the CCD mode...
+ 
+CCD EXP_TIME
+--------------------------
+1 5.496000596940517E+03
+-------------------------------------
+Exposure time in 1-CCD mode: 5496
+Exposure time in 2-CCD mode: 0
+Exposure time in 4-CCD mode: 0
+-------------------------------------
+ 
+gnt_infrm: Using 1-CCD mode.
+ 
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Applies standard clean criteria to all modes of ASCA data.
+
+Output:
+   -- A single cleaned events file (.

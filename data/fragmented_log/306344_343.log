@@ -1,0 +1,13 @@
+9830212052355/tsys2/65.3,66.4,66.4,63.3,63.8,$$$$$$$$,72.7
+9830212052355:!302120650
+9830212065000:"data stop"
+9830212065000:et
+9830212065016:!+3s
+9830212065317:tape
+9830212065329/tape/off,07840,norm,stopped,stop,unlock,ready,rem
+9830212065329:postob
+9830212065329:source=0150-334,015057.0,-332510.7,1950.0
+9830212065330#antcn#Command a new source
+9830212065386#antcn#Successfully sent new source position to antenna
+9830212065386:check2c2
+9830212073472?ERROR qg -305 AUX data differs from expected value on track

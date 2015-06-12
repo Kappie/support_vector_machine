@@ -1,0 +1,10 @@
+         |
+| x-ray target function (ml) for work reflections: 5.122264                   |
+|-----------------------------------------------------------------------------|
+
+========================== Target weights: x-ray data =========================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 1.902276              wxc_scale = 0.500            wc = 1.000         |
+| angle between x-r

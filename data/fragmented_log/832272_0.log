@@ -1,0 +1,15 @@
+    bandwidth
+!  ------------------------------------------------------------- (Hz)
+!  01        1  8.15447e+09        8e+06          1        8e+06
+!  02        2  8.23447e+09        8e+06          1        8e+06
+!  03        3  8.41447e+09        8e+06          1        8e+06
+!  04        4  8.55447e+09        8e+06          1        8e+06
+! 
+! Polarization(s): RR
+! 
+! Read 613 lines of history.
+! 
+! Reading 16172 visibilities.
+select I
+! Polarization I is unavailable.
+! Selecting polarization: RR,  chann

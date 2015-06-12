@@ -1,0 +1,10 @@
+m,stopped,stop,unlock,ready,rem
+9919512064322:postob
+9919512064322:source=0727-115,072758.1,-113452.5,1950.0
+9919512064324#antcn#Commanding to new source
+9919512064444#antcn#Source:  0727-115  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919512064444#antcn# RAcommand  112.566   DECcommand -11.686
+9919512064445:wb2c2=8
+9919512064885/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919512064885/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919512064885/form/map[0].stack

@@ -1,0 +1,7 @@
+	/usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial
+/bin/sh ../mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial/images
+mkdir -p -- /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial/images
+/usr/bin/install -c -m 0644 ./tutorial/images/*.* \
+	/usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial/images
+/bin/sh ../mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial/images/callouts
+mkdir -p -- /usr/local/cdat/Extern

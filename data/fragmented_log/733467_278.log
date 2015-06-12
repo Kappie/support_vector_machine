@@ -1,0 +1,9 @@
+OG:         SEDRs=250, EDRs=7685 (Skipped=0, Gaps=23238), DVCs=2949 (Non Nominal=6, Skipped=396)
+[01-Apr-2002-21:12:04  End processing file: \UlsRawData\EdrData\1997\edr9712.glg]
+
+SEDR INPUT SUMMARY:    Files=12, total SEDRs=2956 (Skipped=0)
+EDR INPUT SUMMARY:     Files=12, total EDRs=88589 (Skipped=1) total DVCs=34783 (Non Nominal=281, Skipped=4573)
+CDF OUTPUT LOG:        CDF Records written=3 (Range Errors=0)
+[01-Apr-2002-21:12:04  End processing file: .\data\1998\19980101.cdf]
+
+CDF OUTPUT SUMMARY

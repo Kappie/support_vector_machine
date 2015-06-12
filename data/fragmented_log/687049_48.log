@@ -1,0 +1,9 @@
+n pfcluster finding: 0.0009073594507
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 7.081168729e-06
+%MSG-e Muon:  GlobalMuonProducer:globalMuons 07-Aug-2007 12:51:58 EDT  Run: 1 Event: 188
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e RecoMuon:  GlobalMuonProducer:globalMuons 07-Aug-2007 12:51:58 EDT  Run: 1 Event: 188
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e MuonTrackFinder:  Globa

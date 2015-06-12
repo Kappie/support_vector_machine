@@ -1,0 +1,5 @@
+opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/G4dyb/src /home/tagg/autodaya/G4dyb/src/dywUImessenger.cc
+/home/tagg/autodaya/G4dyb/src/dywUImessenger.cc: In member function 'dywMacroLine* dywUImessenger::GetMacroLine(size_t)':
+/home/tagg/autodaya/G4dyb/src/dywUImessenger.cc:84: warning: comparison of unsigned expression >= 0 is always true
+../Linux-i686/dywDetectorMessenger.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/aut

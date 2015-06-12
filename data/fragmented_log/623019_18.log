@@ -1,0 +1,13 @@
+5 for 6% of the events.  
+ 
+ tdc 561588: Get many unpaired edges on channels 0 and 1 (and  
+             maybe on channel 2 as well; this bears further 
+             investigating). 
+ 
+ tdc 561589: Split pulse problem on channel 61 for 1% of the  
+             events. 
+ 
+ tdc 561590: No output on channel 47. Also see an unpaired 
+             edge and a second hit of correct pulse width 
+             for a single event on channel 1. The start times 
+             for these pulses do not seem to be correlated

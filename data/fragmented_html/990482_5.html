@@ -1,0 +1,11 @@
+8,32767) is the total histogram <A HREF="fit_level2.html#area">area</A>, and 
+represents the number of samples in the image which have not been excluded.
+The linear stretch which is applied to the image is defined as follows:
+	
+	   HVAL - LVAL
+      Y =  -----------*(X - IMIN) + LVAL
+	   IMAX - IMIN
+
+where X and Y are the input and output DN values respectively for each
+pixel.  If Y is less than LVAL, then Y is set equal to LVAL.  If Y is greater
+than HVAL, then Y is set equal to HVAL (See LVAL and HVAL par

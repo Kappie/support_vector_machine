@@ -1,0 +1,14 @@
+mns:  1- Time;  7- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   First GTI Start ... 11015 20:55:48.883
+ No. of Rows .......           56        Last GTI Stop ..... 11016 05:18:05.018
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ **** Warning : Infiles for series 1 overlap in time
+                Having > 1 intv or using time winds. might cause data loss !
+ 
+ Expected Start ... 11015.87209355439  (days)      20:55:48:883  (h:m:s:ms)
+ Expected Stop ....

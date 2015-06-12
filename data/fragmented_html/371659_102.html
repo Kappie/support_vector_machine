@@ -1,0 +1,13 @@
+If <a href="../spicelib/surfpt.html">SURFPT</a> sets the output argument FOUND to .TRUE., the
+   C     star is occulted.  Otherwise, it is visible.
+   C
+   C
+         CALL <a href="../spicelib/surfpt.html">SURFPT</a> ( OBSPOS, VSTAR, RJUP(1), RJUP(2), RJUP(3),
+        .              XPT,    FOUND                                )
+ 
+         WRITE (*,*) ' '
+ 
+         IF ( FOUND ) THEN
+            WRITE (*,*) 'Star is occulted by Jupiter at time ', UTC
+         ELSE
+            WRITE (*,*) 'Star is not occult

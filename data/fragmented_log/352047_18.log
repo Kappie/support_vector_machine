@@ -1,0 +1,5 @@
+ replace the control card tomorrow. - R. Wagner 
+ 
+00:53:47 Silicon Access report: Did some diagnosis on bad bits, found one is tied to the DAQ channel, one tied to the ladder. - SCN, Lester, David 
+  
+01:01:09 At 11:30 csl was shut down for a reboot. fcdfsgi1 was also rebooted. This was an attempt to fix a problem seen with disk6, one of the csl disks. The problem was not fixed. this does not prevent data taking. we will investigate more on Thursday. The problem is that fcdfsgi1 can not see disk6 and so ca

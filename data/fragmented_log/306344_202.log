@@ -1,0 +1,12 @@
+rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.012
+9830208204718/rx/17(pres),on,a,on,on,on,off,locked,3.712
+9830208204730/rx/1E(20k),on,a,on,on,on,off,locked,29.44
+9830208204743/rx/1F(70k),on,a,on,on,on,off,locked,46.16
+9830208204743:sx2c2=8
+9830208205438/pass/8,8,auto,-165.0,-165.0,-164.8,-164.9,0.2,0.1
+9830208205783:fastf=1m19s
+9830208221713:!302082530
+9830208253000:preob
+9830208253000#antcn#Check if antenna is on-source
+9830208253058/onsource/TRACKING
+9830208253298/tpical/51995,49961,45699,38893,26508,19826,36

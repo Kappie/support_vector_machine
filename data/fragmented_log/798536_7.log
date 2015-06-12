@@ -1,0 +1,12 @@
+-Wl,conftest -o conftest 2>&1 | grep  -lc  >/dev/null 2>&1
+configure:5324: checking whether make sets ${MAKE}
+configure:5362: checking for a BSD compatible install
+configure:5441: checking for openpty in -lutil
+configure:5460: gcc -o conftest -g -O2   conftest.c -lutil   1>&5
+configure:5484: checking for nessus-config
+configure:5538: checking for cp
+configure:5573: checking for mv
+configure:5608: checking for rm
+configure:5643: checking for gmake
+configure:5718: checking for echo
+configure:5753: checking fo

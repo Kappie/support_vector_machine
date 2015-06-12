@@ -1,0 +1,15 @@
+nt_infrm: End of procedure do_fits
+gnt_infrm: ========================
+Fri Apr 28 06:24:46 EDT 2000
+ 
+[1]  + Done                          /home/rosserv/nandra/tartarus/scripts3.2/do_kill  ...
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_mosa
+gnt_infrm: *************************
+Fri Apr 28 06:24:46 EDT 2000
+ 
+gnt_infrm: Creating the exposure corrected sky image and sky images...
+ 
+[1] 6538
+Executing: /usr/local/saord/bin.linux/SAOtng -title SAO042800055474035000  -xrm *cmapDir1:/us

@@ -1,0 +1,12 @@
+ot_contour   -100.0000        100.0000     
+    5.000000                2            1
+
+ MIN =  -82.385         MAX =   30.371          PLOT INTERVAL =   5.0000    
+  FMAX/NSD/NLS =     30.37135                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+           41            1   1.3000000E-02           13           13 
+           13            1   2.5000000E-02            2            2 
+           13
+ THE FIELD HAS BEEN PLOTTED
+  write_label_lplot:
+ LAPS Temp      Vert X-Sect  D

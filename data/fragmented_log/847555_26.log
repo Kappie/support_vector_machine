@@ -1,0 +1,13 @@
+aria/BB :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=164512' target=_top>164512</a>) -->
+<!-- Comment: Wed Jun 11 22;44;45 comment by...maria -->
+<pre>Gilles is sick; scico dismisses him</pre>
+<!-- Date: Wed Jun 11 21:31:30.468 2003 -->
+<pre>The partition 7 closed due to rtserver  
+misbehaviour.   When you restart the run, 
+please go back to "START" state and close  
+and reopen your partition. 
+ 
+This closure caused the COnsumerMonitor to die,  
+and subsequent complaints from RC. 
+</pre>
+<!-- 

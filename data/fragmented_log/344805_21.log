@@ -1,0 +1,12 @@
+8.17:29:50.00&preob/tpical=formvc,formif
+2003.308.17:29:50.00&preob/caloff
+2003.308.17:29:50.00&preob/ifd=max,max,*,*
+2003.308.17:29:50.00&preob/if3=max,*,*,*,*,*
+2003.308.17:29:50.00&preob/!+2s
+2003.308.17:29:50.00&preob/tpzero=formvc,formif
+2003.308.17:29:50.00&preob/ifd=old,old,*,*
+2003.308.17:29:50.00&preob/if3=old,*,*,*,*,*
+2003.308.17:29:50.03#antcn#Check if antenna is on-source
+2003.308.17:29:50.58/onsource/TRACKING
+2003.308.17:29:53.15/tpical/1u,10074,2u,10564,3u,10757,4u,9388,i1,6122
+2003.308.17:29

@@ -1,0 +1,24 @@
+nite xspec loop...
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_fits
+gnt_infrm: *************************
+Sun Apr 23 03:36:55 EDT 2000
+ 
+gnt_infrm: Performing spectral fitting to a powerlaw...
+ 
+
+               Xspec 11.0.1 03:37:33 23-Apr-2000
+http://xspec.gsfc.nasa.gov/
+
+ Plot device not set, use "cpd" to set it
+
+ Type "help" or "?" for further information
+XSPEC>@plfit.xcm
+
+!XSPEC> set xs_return_result 1;
+
+!XSPEC> open fit_result_pl.dat w
+
+!XSPEC> set fileid [open fit_result_pl

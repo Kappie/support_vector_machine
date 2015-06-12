@@ -1,0 +1,23 @@
+;!x&&d.layers&&i<d.layers.length;i++) 
+x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function jumpMenu(targ,selObj,restore){ //v3.0
+eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+if (restore) selObj.selectedIndex=0;
+}
+
+function mailto(user,domain) {
+status="mailto:" + user + "@" + domain;
+locationstring = "mailto:" + user + "@" + domain;
+window.location = locationstring;
+}
+
+// -->
+</script>   
+  </head>
+
+    
+    
+    <body c

@@ -1,0 +1,20 @@
+ectory is /tproc/nandra/processing/74035000.
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_cats
+gnt_infrm: *************************
+Fri Apr 28 05:55:44 EDT 2000
+ 
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel] cat
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!cat:ASCA > clear all proceed=yes	
+	WARNING: CLEAR ALL will remove al

@@ -1,0 +1,12 @@
+000_gis2_sky.img
+!xsel:ASCA-GIS2-PH > set image det
+!xsel:ASCA-GIS2-PH > filter region 72016000_gis2_src.reg
+!xsel:ASCA-GIS2-PH > extract spectrum
+!xsel:ASCA-GIS2-PH > save spectrum group=no clobber=yes 72016000_gis2_src.pha
+Wrote spectrum to 72016000_gis2_src.pha
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 43 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 72016000_gis2_src.evt
+Wrote events list to file 72016000_gis2_src.evt
+!xsel:ASCA-GIS2-PH > clear events
+!xsel:ASC

@@ -1,0 +1,14 @@
+g/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description rdf:about='uuid:32f953ba-f86f-11d9-ab03-ef89a1cd90c8'
+  xmlns:exif='http://ns.adobe.com/exif/1.0/'>
+  <exif:ColorSpace>4294967295</exif:ColorSpace>
+  <exif:PixelXDimension>130</exif:PixelXDimension>
+  <exif:PixelYDimension>161</exif:PixelYDimension>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:32f953ba-f86f-11d9-ab03-ef89a1cd90c8'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+ </rdf:Description>
+
+ <rdf:Descriptio

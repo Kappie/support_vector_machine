@@ -1,0 +1,13 @@
+9375E-01expVar 0.6088E-04  Bins   2020
+Writing output file: /tproc/nandra/processing/75084000/work/75084000_sis_src_576
+nbint = 19
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/75084000/work/75084000_gis_src_16s.f
+ 
+ Selected FITS extensions: 1 - RATE TABLE;
+ 
+ Source ............ TOL0109-383         Start Time (d) .... 10631 04:23:03.909
+ FITS Extension ....  1 - `RATE      `   Stop Time (d) ..... 10632 09:19:35.909
+ No. of Rows .......         2072        Bin Time (s) ......    1

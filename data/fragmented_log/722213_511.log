@@ -1,0 +1,21 @@
+ng procedure do_html
+gnt_infrm: *************************
+Sat Apr 15 16:21:10 EDT 2000
+ 
+gnt_infrm: Creating the web page for sequence 75084000...
+ 
+gnt_infrm: Setting all variables...
+ 
+spectrum
+gnt_error(html): File web_pha.gif does not exist.
+spectrum:
+lightcurve
+lightcurve: /tproc/nandra/processing/75084000/work/75084000_sis_src_5760s.flc
+sky image
+sky image: /tproc/nandra/processing/75084000/work/75084000_gis_sky_sm.gif
+countrate
+ 
+All done!
+ 
+countrate: 0.0403 0.0367 0.0201 0.0201 0.0301 0.0203
+genera

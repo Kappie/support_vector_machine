@@ -1,0 +1,10 @@
+(Range Errors=0)
+[01-Apr-2002-21:10:14  End processing file: .\data\1997\19970106.cdf]
+
+[01-Apr-2002-21:10:14  Start processing file: .\data\1997\19970107.cdf]
+CDF OUTPUT LOG:        CDF Records written=95 (Range Errors=0)
+[01-Apr-2002-21:10:15  End processing file: .\data\1997\19970107.cdf]
+
+[01-Apr-2002-21:10:15  Start processing file: .\data\1997\19970108.cdf]
+EDR INPUT DVC #695:    DPU error - no bubble HK identifier (EDR #1711, SCET=1483845819)
+CDF OUTPUT LOG:        CDF Records written=70 (Ra

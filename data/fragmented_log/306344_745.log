@@ -1,0 +1,14 @@
+rflow on IF3
+9830220484000:"data stop"
+9830220484000:et
+9830220484016:!+3s
+9830220484122?ERROR ch -370 Total power integrator overflow on IF3
+9830220484317:tape
+9830220484329/tape/off,05976,norm,stopped,stop,unlock,ready,rem
+9830220484329:postob
+9830220484329:source=0727-115,072758.1,-113452.5,1950.0
+9830220484329#antcn#Command a new source
+9830220484374#antcn#Successfully sent new source position to antenna
+9830220484374:sx2c1=7
+9830220484500/pass/7,7,auto,-165.0,-165.0,-164.9,-165.2,0.1,-0.2
+9830220484847

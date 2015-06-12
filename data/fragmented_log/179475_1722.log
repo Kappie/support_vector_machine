@@ -1,0 +1,10 @@
+05.20/mk5/!mode = 0 ;
+2004.350.06:27:05.23/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.06:27:05.23:!2004.350.06:28:45
+2004.350.06:27:42.27?ERROR st -100 invalid time in antenna message - antenna protocol error.
+2004.350.06:27:42.71#skua #Antenna slewing complete
+2004.350.06:27:50.17#flagr#flagr/antenna,acquired
+2004.350.06:28:45.00:preob
+2004.350.06:28:45.00/onsource/TRACKING
+2004.350.06:28:45.48/tpi/1u,14253,2u,8811,3u,9267,4u,4631,i1,6884
+2004.350.06:28:45.48/tpi/9u,8784,au,17101,bu,10189,cu

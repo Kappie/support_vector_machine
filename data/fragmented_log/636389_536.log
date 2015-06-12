@@ -1,0 +1,11 @@
+t: call "conrec", cint =     10.00000    
+  conrec_line: calling plot_contour    0.000000        250.0000     
+    10.00000                2           32
+
+ MIN =   1.4494         MAX =   82.425          PLOT INTERVAL =   10.000    
+  FMAX/NSD/NLS =     82.42526                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+           26           32   1.3000000E-02            5            5 
+            5            1   2.5000000E-02            2            2 
+            5
+ THE FIELD H

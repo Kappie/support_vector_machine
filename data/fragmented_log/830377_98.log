@@ -1,0 +1,15 @@
+      Y           with binning =    4
+ WMAP   keywords   = DETX       DETY        with binning =    8
+ Energy keywords   = PI                     with binning =    1
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   4095
+ 
+Got the minimum time resolution of the read data:   4.0000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/76052020/work/
+HK Directory is: /tproc/nandra/processing/76052

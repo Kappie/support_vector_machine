@@ -1,0 +1,20 @@
+t gh [lindex $lpar6 0];
+
+!XSPEC> lindex $lpar7 0
+
+!XSPEC> set normh [lindex $lpar7 0];
+
+!XSPEC> show fit
+ Chi-Squared =      415.8423     using   382 PHA bins.
+ Reduced chi-squared =      1.114859     for    373 degrees of freedom
+ Null hypothesis probability = 6.222E-02
+
+!XSPEC> set chisq [show fit];
+
+!XSPEC> error max 15 4.61 2
+ Parameter   Confidence Range (     4.610)
+Chi-Squared when model parameter     2=    0.2698
+ is   408.2313, which is < previous minimum  415.8423
+(critical delta =     0.0100)
+
+!X

@@ -1,0 +1,11 @@
+
+  subroutine generate_colortable: ncols =             5
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/spectral.lut
+  Subroutine color_ramp..             1            1
+    1   0.600   0.700   0.400   0.307   0.120   0.400
+  Subroutine color_ramp..             2            2
+    2   1.400   0.933   0.700   0.047   0.482   0.700
+  Subroutine color_ramp..             3            3
+    3   2.000   0.400   0.400   0.240   0.400   0.240
+  Subroutine color_ramp..             3            3
+    3

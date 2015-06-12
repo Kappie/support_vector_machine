@@ -1,0 +1,8 @@
+-> (constituents.make) Building Log_cint.make
+Document Log_cint
+------> (constituents.make) Starting Log_cint
+WARNING >> You should provide a target for ../src//Log.hh
+echo "Generating ROOT Dictionary for " ../src/Log_LinkDef.hh ../src//Log.hh
+Generating ROOT Dictionary for  ../src/Log_LinkDef.hh ../src//Log.hh
+if [ ! -d ../Linux-i686/ ]; then mkdir ../Linux-i686/; fi ;
+`/usr/local/opt/root-v5-16-00/bin/root-config --bindir`/rootcint -f ../Linux-i686/Log_Dict.cc -c -p -I"../include" -I"/home/tagg/autodaya/i

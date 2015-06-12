@@ -1,0 +1,15 @@
+);
+    if (endKey == -1) endKey = PlantCooky.length;
+    var valKey = PlantCooky.substring(startKey, endKey);
+    valKey = unescape(valKey);
+    var elemKey = document.namserch.mode;
+    elemKey.selectedIndex = valKey;
+  }
+
+  var posval = PlantCooky.indexOf("namserchval");
+  if (posval != -1) {
+    var startVal = posval + 12;
+    var endVal = PlantCooky.indexOf(";", startVal);
+    if (endVal == -1) endVal = document.cookie.length;
+    var valVal = PlantCooky.substring(startVal, endVal);
+    va

@@ -1,0 +1,13 @@
+plot group   2, data group   2
+ telescope = ASCA , instrument = SIS1 , channel type = PI
+  Current data file : 76052020_sis1_src_20.pha
+   with integration time    1.3576E+04
+          effective area     1.000
+    selected region area    5.1250E-02
+  Background file : 76052020_sis1_bgd.pha
+   with integration time    1.3576E+04
+      and effective area     1.000
+    selected region area    4.3203E-02
+  No current correction
+  Response (RMF) file    : 76052020_sis1.rmf
+  Auxiliary (ARF) file    : 76052020_si

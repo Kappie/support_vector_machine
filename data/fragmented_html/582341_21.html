@@ -1,0 +1,22 @@
+/ minus 10 frames
+{
+ var j;
+ if (timeout_id) clearTimeout(timeout_id); timeout_id=null;
+ playing=0;
+ dir=-10;
+ next_frame();
+ dir=-1;
+ j=frame+1;
+ if (images1[frame].complete) {
+  document.animation1.src=images1[frame].src;
+  document.animation2.src=images2[frame].src;
+  document.form.frame.value="Displaying "+j+" of "+imax;
+ }
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function keycntl1() // Keybord Control
+{
+ if (event.keyCode == 37) prev(); // <--
+ if (event.keyCode =

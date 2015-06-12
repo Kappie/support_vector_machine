@@ -1,0 +1,11 @@
+30211393000:tape
+9830211393012/tape/off,00047,norm,stopped,stop,unlock,ready,rem
+9830211393012:st=for,135
+9830211393028:"data start"
+9830211393028:midob
+9830211393028#antcn#Check if antenna is on-source
+9830211393066/onsource/TRACKING
+9830211393152#wx#/WX/10.8,1014.3, 79.2
+9830211393172?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830211393175?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830211393226?ERROR ib  -10 ibcon initialization failed, gpib devices 

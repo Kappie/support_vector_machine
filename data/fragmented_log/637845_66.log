@@ -1,0 +1,4 @@
+.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual    /home/tagg/autodaya/DataStructure/MCEvent/src/dywTrajectoryHelper.cc
+computing dependencies for dywGLAberdeenHitData_Dict.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SITE/src"  -pipe -ansi -ped

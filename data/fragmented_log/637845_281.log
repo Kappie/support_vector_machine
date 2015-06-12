@@ -1,0 +1,5 @@
+or
+/usr/include/geant4/G4VIsotopeProduction.hh:41: warning: 'class G4VIsotopeProduction' has virtual functions but non-virtual destructor
+/usr/include/geant4/G4VLeadingParticleBiasing.hh:36: warning: 'class G4VLeadingParticleBiasing' has virtual functions but non-virtual destructor
+../Linux-i686/dywG4Helper.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" 

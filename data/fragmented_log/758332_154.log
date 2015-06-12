@@ -1,0 +1,17 @@
+                 with binning =    1
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   4095
+ 
+Got the minimum time resolution of the read data:   4.0000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/74035000/work/
+HK Directory is: /tproc/nandra/processing/74035000/work/
+ 
+!xsel:ASCA-SIS1-BRIGHT2 > set binsize 128
+!xsel:ASCA-SIS1-BRIGHT2 > set image sky
+!xsel:ASCA-SIS1-BRIGHT2 > set xybin

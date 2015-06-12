@@ -1,0 +1,12 @@
+ 1 Event: 2
+Warning: L1 trigger info not available 
+%MSG
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 08:57:24 EDT  Run: 1 Event: 2
+Fitted position is out of tracker bounds.
+
+%MSG
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 08:57:24 EDT  Run: 1 Event: 2
+Fitted position is out of tracker bounds.
+
+%MSG
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProducer:csc2DRecHits  07-Aug-2007 08:57:34 EDT  Run: 1 Event: 3

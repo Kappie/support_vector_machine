@@ -1,0 +1,10 @@
+     Name of this BINTABLE
+  TELESCOP  - ASCA            Mission/Satellite name
+  INSTRUME  - GIS2            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 34166.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 3.66360E-02     Background scaling factor
+  BACKFILE  - none            Associated background file
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associat

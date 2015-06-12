@@ -1,0 +1,23 @@
+=" + document.forms.ViewOptions.view.value +
+                  ((document.getElementById("token") == undefined || document.forms.ViewOptions.token.value.length == 0) ? "" :
+                  "&token=" + document.forms.ViewOptions.token.value), "_self");
+    }
+
+    return false;
+  }
+
+  function OpenFTP(url)
+  {
+    window.open(url, '_blank');
+  }
+
+  function OpenLink(url, where)
+  {
+    window.open(url, where);
+  }
+
+  utils.addEvent(window, "load", OnFormFieldChange)
+  </script>
+
+</head>
+<body background="ht

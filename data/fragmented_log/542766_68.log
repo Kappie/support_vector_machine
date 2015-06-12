@@ -1,0 +1,11 @@
+].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919419081283/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919419081355/pass/1,1,auto,-330.0,-330.0,-331.1,-330.1,-1.1,-0.1
+9919419081370:!194191044
+9919419104400:tape
+9919419104406/tape/off,11475,norm,stopped,stop,unlock,ready,rem
+9919419104406:st=for,80
+9919419104421:!194191054
+9919419105400:preob
+9919419105400#antcn#Checking onsource status
+9919419105405#antcn# RAsource   287.786   DECsource  -20.114

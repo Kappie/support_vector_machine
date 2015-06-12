@@ -1,0 +1,18 @@
+ var alertString = "";
+    var tmp = "";
+
+    //only 10 digit frn
+    if (getSelectValue(form.fiUlsSearchByType).indexOf("uls_l_frn") > -1)
+    {
+		tmp = frnValidateSearch(form.fiUlsSearchByValue.value);
+		if (tmp)
+		{
+			alertString += tmp;
+		}
+    }//end if
+
+    //only 9 lic id
+    if ((getSelectValue(form.fiUlsSearchByType).indexOf("uls_l_licensee_id") > -1)
+        && (form.fiUlsSearchByValue.value.length > 9))
+    {
+        alertString += "Licensee ID must be no more than 9 characters\

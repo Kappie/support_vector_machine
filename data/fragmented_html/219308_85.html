@@ -1,0 +1,16 @@
+nfig = [
+					["UseLocalConfig","jsmenu3Config","",""]
+				]
+				
+				
+				function ShowLinks(url,linkscount)
+				{        
+				   var X,Y;
+				   var H = (linkscount + 5)*30, W = 300;
+				   if(parseFloat(navigator.appVersion)>= 4) { 
+					 if(navigator.appName=="Netscape") {
+						X=window.innerWidth;Y=window.innerHeight;
+						if(H > window.innerHeight) { H=window.innerHeight-50;}
+					 }else{
+						X=document.body.offsetWidth;Y=document.body.offsetHeight;
+						if(H > document.body.offsetHeight) { H=win

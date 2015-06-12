@@ -1,0 +1,11 @@
+9830205411327#antcn#Command a new source
+9830205411388#antcn#Successfully sent new source position to antenna
+9830205411389:sx2c2=2
+9830205411447/pass/2,2,auto,-330.0,-330.0,-330.2,-330.3,-0.2,-0.3
+9830205411793:!302054340
+9830205414017?ERROR ch -370 Total power integrator overflow on IF3
+9830205424610?ERROR ch -370 Total power integrator overflow on IF3
+9830205430810?ERROR ch -370 Total power integrator overflow on IF3
+9830205434000:preob
+9830205434000#antcn#Check if antenna is on-source
+9830205434066/onso

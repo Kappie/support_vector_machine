@@ -1,0 +1,26 @@
+f freedom
+ Null hypothesis probability = 0.277
+
+!XSPEC> set chisq [show fit];
+
+!XSPEC> error max 15 4.61 2
+ Parameter   Confidence Range (     4.610)
+     2    0.334180        0.526317
+
+!XSPEC> set str [error max 15 4.61 2];
+
+!XSPEC> lindex $str 0
+
+!XSPEC> set nhlo [lindex $str 0];
+
+!XSPEC> lindex $str 1
+
+!XSPEC> set nhhi [lindex $str 1];
+
+!XSPEC> expr ($nhhi - $nhlo)/2.0
+
+!XSPEC> set nh_err [expr ($nhhi - $nhlo)/2.0];
+
+!XSPEC> error max 15 4.61 3
+ Parameter   Confidence Range (     4.610)
+     3     1.5169

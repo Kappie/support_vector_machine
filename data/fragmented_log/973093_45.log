@@ -1,0 +1,12 @@
+8 components = -0.00845252 Jy
+! Clean residual min=-0.001956 max=0.001657 Jy/beam
+! Clean residual mean=-0.000070 rms=0.000640 Jy/beam
+! Combined flux in latest and established models = 0.132941 Jy
+keep
+! Adding 127 model components to the UV plane model.
+! The established model now contains 174 components and 0.132941 Jy
+![Exited script file: muppet]
+wmap "J2357-2451_S_2005_07_09_yyk\_map.fits"
+! Inverting map 
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 3.

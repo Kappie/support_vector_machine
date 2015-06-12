@@ -1,0 +1,23 @@
+ward"; bname="Forward";
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function show_speed()      // show speed
+{
+  document.form.rate.value=Math.round(speed);
+  delay = 1000.0/speed; 
+}
+
+///////////////////////////////////////////////////////////////////////////
+// actual image loading is done here
+
+show_speed();
+images1 = new Array(imax);          
+images2 = new Array(imax);          
+urls1= new Array(imax);
+urls2= new Array(imax);
+id= new Array(imax);
+
+
+urls1[0]=url_path+

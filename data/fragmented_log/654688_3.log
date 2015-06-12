@@ -1,0 +1,17 @@
+Correcting IF 1.
+! 
+! Fit before self-cal, rms=0.558055Jy  sigma=6.562215
+! Fit after  self-cal, rms=0.558057Jy  sigma=6.561771
+! 
+! Reinstating the default IF.
+mappl
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+clean
+! clean: niter=75  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.340523 Jy
+! Total flux subtracted in 75 components = 0.437561 Jy
+! Clean residual min=-0.090940 max=0.160248 Jy/beam
+! Clean residual mean=0.000437 rms=0.030078 Jy/beam
+! Com

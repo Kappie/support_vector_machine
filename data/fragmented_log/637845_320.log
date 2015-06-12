@@ -1,0 +1,4 @@
+onstructFarSitePool_CD1.cc:910: warning: unused variable 'physV_Module_3'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool_CD1.cc:917: warning: unused variable 'physV_Module_4'
+../Linux-i686/dywSimplePMTLogicalVolume.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr/local/opt/root-v5-16-

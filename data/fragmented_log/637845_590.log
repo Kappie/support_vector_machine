@@ -1,0 +1,12 @@
+[0m[geant] =I= [0m  drawByParticleID
+[0m[geant] =I= [0m  drawByOriginVolume
+[0m[geant] =I= [0m  drawByAttribute
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mRegistered filter factories:
+[0m[geant] =I= [0m  chargeFilter
+[0m[geant] =I= [0m  particleFilter
+[0m[geant] =I= [0m  originVolumeFilter
+[0m[geant] =I= [0m  attributeFilter
+[0m[geant] =I= [0m
+[0m[dyb]   =I= [0mLoading XML file "/home/tagg/autodaya/InstallArea/Linux-i686/data/xml/control.xml"
+[0m[dyb]   =I= [0mLoading XML file "/home/tagg/

@@ -1,0 +1,21 @@
+ocedure do_expo
+gnt_infrm: ========================
+Sun Apr 23 03:34:34 EDT 2000
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_lcvs
+gnt_infrm: *************************
+Sun Apr 23 03:34:35 EDT 2000
+ 
+gnt_infrm: Making lightcurves with 3 binsizes and 3 energy bands...
+ 
+gnt_infrm: Time ordering...
+ 
+ 
+gnt_infrm: Source, full-band, 16s bin, SIS/GIS...
+ 
+nbint = 1884
+gnt_infrm: Command...
+lcurve nser=1 cfile1=@/tproc/nandra/processing/76052020/work/lcvs.tmp 
+   window=/home/rosserv/n

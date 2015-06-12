@@ -1,0 +1,8 @@
+_spec_file()] Header:  license -> Artistic
+[RPM.pm/251/parse_spec_file()] Header:  group -> Applications/Databases
+[RPM.pm/251/parse_spec_file()] Header:  source -> DBI-1.40.tar.gz
+[RPM.pm/251/parse_spec_file()] Header:  source2 -> filter-requires-dbi.sh
+[RPM.pm/251/parse_spec_file()] Header:  patch0 -> perl-DBI-1.37-prever.patch
+[RPM.pm/251/parse_spec_file()] Header:  buildroot -> /var/tmp/perl-DBI-1.40-root
+[RPM.pm/251/parse_spec_file()] Header:  requires -> perl >= 5.6.1
+[RPM.pm/286/parse_spec_file()] Go

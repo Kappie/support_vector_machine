@@ -1,0 +1,12 @@
+ me an e-mail 
+(and don't delete the core file). If this doesn't seem to dump core for 
+some number of events then stop the program and change the script: 
+ 
+cd /cdf/people2/svxii/consumer 
+cp SVXMon_demo_template.tcl.old SVXMon_demo_template.tcl 
+ 
+Try to run it again, the plots now should be sent to the 
+display. Note that the file SVXMon_demo_template.tcl need changes 
+anyway since it books strip-level histograms only for the wedge 
+which is in the same position as barrel 4 was. I'll fix this 
+as soon as

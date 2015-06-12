@@ -1,0 +1,8 @@
+pthread_cond_init'
+/usr/include/pthread.h:393: warning: previous declaration of 'pthread_cond_init' was here
+threads.c:77: warning: function declaration isn't a prototype
+threads.c:77: warning: redundant redeclaration of 'pthread_equal'
+/usr/include/pthread.h:172: warning: previous declaration of 'pthread_equal' was here
+threads.c:79: warning: function declaration isn't a prototype
+threads.c:79: warning: redundant redeclaration of 'pthread_self'
+/usr/include/pthread.h:169: warning: previous declaration of '

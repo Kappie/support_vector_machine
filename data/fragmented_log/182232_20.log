@@ -1,0 +1,14 @@
+ora -->
+
+
+<!-- Date: Wed Jul 25 05:46:17 2001 -->
+<p>Solenoid is up.  COT and TOF turned on.
+<!-- Author: Napora -->
+
+
+
+<!-- Date: Wed Jul 25 06:06:37 2001 -->
+<ul> 
+<li>run 121567 everything times out waiting for r/o list 
+<li>Run 121568 with Test_Two_Track[10,165], Solenoid on, COT and TOF HV on.  L1A/L2A = 90 Hz.  Fred L1A = 1.7 MHz. Rates: L1_MB_XING_PS1M = 1.7 Hz.  L1_TWO_TAU0_PT2_OPP, L1_CEM0_PT4_PS1, L1_TWO_CEM0_PT2_OPP, L1_CMU0_PT4_PS1 all = 1.7 MHz.   
+<li>the email received about this said two thi

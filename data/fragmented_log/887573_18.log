@@ -1,0 +1,22 @@
+
+size = 2823
+
+n_use            =  2823
+n_use_u_iso      =  2823
+n_use_u_aniso    =  0
+n_grad_site      =  0
+n_grad_u_iso     =  0
+n_grad_u_aniso   =  0
+n_grad_occupancy =  0
+n_grad_fp        =  0
+n_grad_fdp       =  0
+n_anisotropic_flag =  0
+total number of scatterers =  2823
+
+==================== Process input NCS or/and find new NCS ====================
+
+Using existing and finding new NCS is disabled.
+Use refinement.main.ncs=true to activate it.
+Look at refinement.ncs for more NCS related parameters.
+
+===

@@ -1,0 +1,12 @@
+09.577 2003 -->
+At 11:30 csl was shut down for a reboot. fcdfsgi1 was also 
+rebooted. This was an attempt to fix a problem seen 
+with disk6, one of the csl disks. The problem was not 
+fixed. this does not prevent data taking. we will 
+investigate more on Thursday. The problem is that 
+fcdfsgi1 can not see disk6 and so can not write 
+any files on disk 6 to tape. 
+ 
+Bringing up the CSL there was a software problem 
+related to recent changes in java code on the online 
+cluster. This was fixed after talking wit

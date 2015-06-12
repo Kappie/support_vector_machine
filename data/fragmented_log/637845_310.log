@@ -1,0 +1,5 @@
+g: unused variable 'TurntableLower_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:355: warning: unused variable 'SScylinder_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:362: warning: unused variable 'TurntableUpper_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc: In member function 'void dywDetectorConstruction::PuCSourceContainer(G4ThreeVector, G4LogicalVolume*)':
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:401: w

@@ -1,0 +1,19 @@
+
+!xsel:ASCA-GIS3-PH > save events use=no clobber=yes 72016000_gis3_bgd_hard.evt
+Wrote events list to file 72016000_gis3_bgd_hard.evt
+!xsel:ASCA-GIS3-PH > exit save=no
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_prod
+gnt_infrm: ========================
+Sat Apr 22 06:03:28 EDT 2000
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_spec
+gnt_infrm: *************************
+Sat Apr 22 06:03:28 EDT 2000
+ 
+gnt_infrm: Group .pha files for 72016000...
+ 
+gnt_infrm: Min

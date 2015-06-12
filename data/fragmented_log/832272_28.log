@@ -1,0 +1,15 @@
+ 4.
+! 
+! Fit before self-cal, rms=0.201003Jy  sigma=0.001251
+! Fit after  self-cal, rms=0.200919Jy  sigma=0.001250
+! Inverting map 
+! ************** FINISHED AMPLITUDE SELF-CAL ************** 
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 70 mega-wavelengths.
+win_mult = win_mult * 1.4
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=2.27 mas, bmaj=4.526 mas, bpa=6.571 degrees
+! Estimated noise=1026.33 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peak

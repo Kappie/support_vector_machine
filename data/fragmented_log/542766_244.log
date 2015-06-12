@@ -1,0 +1,10 @@
+242821/tape/off,04356,norm,stopped,stop,unlock,ready,rem
+9919422242822:postob
+9919422242822:source=1958-179,195804.6,-175717.0,1950.0
+9919422242824#antcn#Commanding to new source
+9919422242939#antcn#Source:  1958-179  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919422242939#antcn# RAcommand  300.233   DECcommand -17.815
+9919422242940:wb2c2=2
+9919422243383/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919422243383/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+991942

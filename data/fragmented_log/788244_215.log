@@ -1,0 +1,13 @@
+         = 87.45  
+    alpha_beta                      = 6.78   
+    target                          = 0.95   
+    gradients_wrt_atomic_parameters = 97.27  
+    fmodel                         = 5.37   
+    r_factors                      = 0.11   
+    phase_errors                   = 9.26   
+    foms                           = 0.20   
+    TOTAL for micro-tasks          = 207.87 
+NUMBER OF MASK CALCS=  2
+Time per interpreted Python bytecode instruction: 3.809 micro seconds
+Total CPU time: 4.79 minutes
+from_s

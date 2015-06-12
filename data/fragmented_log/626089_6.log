@@ -1,0 +1,7 @@
+Event 554280 total byte count is lt 32, gt 65528, or not divisible by 8 for VRB in slot 12. 
+Count = 14. 
+(MLE) b0l3gate1.fnal.gov:main:11:19:12 AM->Host b0eb16.fnal.gov, task tRec_0 
+SCPU-P0-E-VrbHeader: Dump of header words for event 554280 from VRB in slot 12: 
+0x00000000 0x0000000e 0x00000003 0x00000001 0x00000003 0x0000000d 0x83e1ed67 0xdc08002a 
+(TS)   11:19:40 ********* L2 trigger rate has dropped to 0 Hz! Events are not being logged ! 
+(CSL)  11:20:24 ********* L3 trigger rate has dropped to 0 Hz! E

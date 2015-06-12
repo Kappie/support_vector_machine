@@ -1,0 +1,12 @@
+ /* the writemask write-protects the background while lines
+     * are being drawn */
+  writemask (0xcf);</PRE>
+
+<PRE><A NAME="A64E986206ttay"></A>  if (argc==2) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;l_lop=atol(argv[1]);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logicop (l_lop);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf ("The logic op is: %ld\n",l_lop);
+&nbsp;&nbsp;&nbsp;}</PRE>
+
+<PRE><A NAME="A64E988410ttay"></A>    /* loop until the right mouse button is depressed */
+  while (!getbutton(RIGHTMOUSE) &amp;&amp; 

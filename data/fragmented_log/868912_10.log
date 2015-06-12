@@ -1,0 +1,10 @@
+ce of large map pixels excluded 1.03% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0367929 Jy
+! Component: 100  -  total flux cleaned = 0.0614841 Jy
+! Total flux subtracted in 100 components = 0.0614841 Jy
+! Clean residual min=-0.011667 max=0.015189 Jy/beam
+! Clean residual mean=0.000160 rms=0.002801 Jy/beam
+! Combined flux in latest and established models = 0.80944 Jy
+! Performing phase 

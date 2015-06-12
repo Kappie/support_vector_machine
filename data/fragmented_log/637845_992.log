@@ -1,0 +1,8 @@
+bin/SingletonTest.hh...
+Preprocessing /home/tagg/autodaya/Base/Util/unit-test/NamedFactoryTest.cc...
+Preprocessing /home/tagg/autodaya/Base/Util/unit-test/Singleton/home/tagg/autodaya/Base/Util/src/UtilString.cc:17: Warning: no matching file member found for 
+void UtilString::MakePrintable(const char *in, std::string &out)
+Possible candidates:
+  void MakePrintable(const char *in, std::string &out)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:58: Warning: no matching file member found for 
+void UtilString

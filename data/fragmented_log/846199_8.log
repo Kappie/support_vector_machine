@@ -1,0 +1,19 @@
+UV plane model.
+! The established model now contains 1 components and 0.285671 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.184068Jy  sigma=0.001753
+! Fit after  self-cal, rms=0.184068Jy  sigma=0.001753
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0708503 Jy
+! Total flux subtracted in 50 components = 0.0708503 Jy
+! Clean residual min=-0.009804 max=0.030812 Jy/beam
+! Clean resi

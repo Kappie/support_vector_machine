@@ -1,0 +1,10 @@
+000    
+  subroutine set_image_colortable: ncols =            20
+  subroutine generate_colortable: ncols =            60
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/hues.lut
+  Subroutine color_ramp..             1            1
+    1   0.500   0.150   0.600   0.600   0.510   0.600
+  Subroutine color_ramp..             2            2
+    2   0.500   0.220   0.620   0.620   0.484   0.620
+  Subroutine color_ramp..             3            3
+    3   0.500   0.290   0.640   0.640   0.454   0.64

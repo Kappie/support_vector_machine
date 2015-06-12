@@ -1,0 +1,13 @@
+d.pha
+   1 data set is in use
+
+!XSPEC> data 2:2 72016000_sis1_src_20;
+ Net count rate (cts/s) for file   2  0.1161    +/-  3.8348E-03( 79.9% total)
+   using response (RMF) file...       72016000_sis1.rmf
+   using auxiliary (ARF) file...      72016000_sis1.arf
+   using background file...           72016000_sis1_bgd.pha
+   2 data sets are in use
+
+!XSPEC> data 3:3 72016000_gis2_src_20;
+ Net count rate (cts/s) for file   3  9.6506E-02+/-  2.7137E-03( 76.4% total)
+   using response (RMF) file...       72016000_g

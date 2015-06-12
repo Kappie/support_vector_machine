@@ -1,0 +1,13 @@
+23110
+9919502311000:tape
+9919502311005/tape/off,12032,norm,moving,nostop,locked,ready,rem
+9919502311005:"data start"
+9919502311005:midob
+9919502311005#antcn#Checking onsource status
+9919502311008#antcn# RAsource    12.664   DECsource   -9.487
+9919502311008#antcn# RAbeam      12.665   DECbeam     -9.487
+9919502311008#antcn# RAdelta      0.001   DECdelta     0.000
+9919502311008/onsource/TRACKING
+9919502311009/wx/3.6,876.5,98.7
+9919502311011/cable/00035.837171E-03
+9919502311018/ifd/23,23,nor,nor,rem,6203,32239

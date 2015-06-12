@@ -1,0 +1,32 @@
+dfe) for FAINT mode.
+   -- A reduced obscat (.cat)
+
+Try ascascreen -h for help.
+
+Report problems to ascahelp@athena.gsfc.nasa.gov
+
+A return will accept the default.
+For character replies, the default is in upper case.
+
+
+Okay, I'll only write the xco file
+
+To use it, say: 
+xselect @output_root.xco
+
+
+
+I will choose all the minor modes.
+
+
+Okay, I will use the defaults.
+
+
+Got data directory: /local/data/tproc/nandra/processing/75084000/unscreened 
+
+Got instrument SIS1 
+
+Got datamode BRIGHT2 
+
+
+Using HIGH bit ra

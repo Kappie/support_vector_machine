@@ -1,0 +1,9 @@
+ to hardcode library paths into programs
+configure:3748: checking whether stripping libraries is possible
+configure:3762: checking dynamic linker characteristics
+configure:4159: checking if libtool supports shared libraries
+configure:4163: checking whether to build shared libraries
+configure:4186: checking whether to build static libraries
+configure:4722: checking whether -lc should be explicitly linked in
+configure:4729: gcc -c -g -O2  conftest.c 1>&5
+configure:4742: gcc -shared conftest.o  -v -Wl,-soname 

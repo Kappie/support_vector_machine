@@ -1,0 +1,10 @@
+b/lib/DBD/Sponge.pm
+cp lib/DBI/Const/GetInfoType.pm blib/lib/DBI/Const/GetInfoType.pm
+cp lib/DBI/W32ODBC.pm blib/lib/DBI/W32ODBC.pm
+cp lib/DBI/DBD/Metadata.pm blib/lib/DBI/DBD/Metadata.pm
+cp lib/DBI/Const/GetInfo/ODBC.pm blib/lib/DBI/Const/GetInfo/ODBC.pm
+cp lib/DBI/ProfileDumper/Apache.pm blib/lib/DBI/ProfileDumper/Apache.pm
+cp lib/Bundle/DBI.pm blib/lib/Bundle/DBI.pm
+cp lib/DBI/Profile.pm blib/lib/DBI/Profile.pm
+cp lib/DBI/ProfileDumper.pm blib/lib/DBI/ProfileDumper.pm
+cp Driver.xst blib/arch/auto/DBI/Dri

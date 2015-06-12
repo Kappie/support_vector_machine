@@ -1,0 +1,6 @@
+nMinusInelastic,PionMinusAbsorptionAtRest,  KaonPlusInelastic
+[0m[geant] =I= [0m KaonZeroSInelastic, KaonZeroLInelastic, KaonMinusInelastic,KaonMinusAbsorption
+[0m[geant] =I= [0m    ProtonInelastic,AntiProtonInelastic,AntiProtonAnnihilationAtRest,     neutronElastic
+[0m[geant] =I= [0m   NeutronInelastic,      HadronFission,      HadronCapture,AntiNeutronInelastic
+[0m[geant] =I= [0mAntiNeutronAnnihilationAtRest,    LambdaInelastic,AntiLambdaInelastic, SigmaPlusInelastic
+[0m[geant] =I= [0mSigmaMinus

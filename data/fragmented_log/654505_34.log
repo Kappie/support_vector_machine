@@ -1,0 +1,12 @@
+
+*** not recommended for production environments.
+
+*** Note:
+    The optional PlRPC-modules (RPC::PlServer etc) are not installed.
+    If you want to use the DBD::Proxy driver and DBI::ProxyServer
+    modules, then you'll need to install the RPC::PlServer, RPC::PlClient,
+    Storable and Net::Daemon modules. The CPAN Bundle::DBI may help you.
+    You can install them any time after installing the DBI.
+    You do *not* need these modules for typical DBI usage.
+
+Optional modules are available from any CPAN m

@@ -1,0 +1,15 @@
+thon/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating xstc/Makefile
+config.status: creating include/libxml/xmlversion.h
+config.status: creating xml2-config
+config.status: creating libxml-2.0.pc
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: creating python/setup.py
+config.status: creating config.h
+config.status: executing depfiles commands
+Done configuring
+make;
+make[1]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31'
+make  all-recursive
+make

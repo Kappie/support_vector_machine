@@ -1,0 +1,13 @@
+e, field_cell
+! Map grid = 256x256 pixels with 0.200x0.200 milli-arcsec cellsize.
+startmod
+! Applying default point source starting model.
+! Performing phase self-cal
+! Adding 1 model components to the UV plane model.
+! The established model now contains 1 components and 1 Jy
+! 
+! Correcting IF 1.
+!  A total of 3375 telescope corrections were flagged in sub-array 1.
+!  A total of 2032 telescope corrections were flagged in sub-array 2.
+!  A total of 607 telescope corrections were flagged in sub-array 3.
+!  A

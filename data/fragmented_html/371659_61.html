@@ -1,0 +1,17 @@
+( 3 )
+   DOUBLE PRECISION      SMINOR ( 3 )
+</PRE>
+   then the call
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/saelgv.html">SAELGV</a> ( V1, V2, SMAJOR, SMINOR )
+</PRE>
+   returns SMAJOR as a semi-major axis of the ellipse and SMINOR as a
+   semi-minor axis. SMAJOR and SMINOR are orthogonal; SMAJOR is a point on
+   the ellipse of largest norm, and SMINOR is a point of smallest norm. The
+   semi-axis vectors are not unique: the inverse of any semi-axis vector is
+   also a semi-axis vector.
+<P>
+ 
+   <a href="..

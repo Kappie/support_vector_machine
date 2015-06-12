@@ -1,0 +1,14 @@
+inus.html">VMINUS</a>
+   C     negates a three-dimensional vector.
+   C
+         CALL <a href="../spicelib/vminus.html">VMINUS</a> ( JSTATE, OBSPOS )
+         CALL <a href="../spicelib/mxv.html">MXV</a>    ( JTIPM,  OBSPOS, OBSPOS )
+ 
+   C
+   C     While we're at it, transform the observer's offset vector
+   C     from J2000 to Jupiter equator and prime meridian coordinates.
+   C
+         CALL <a href="../spicelib/mxv.html">MXV</a>  ( JTIPM, OBSPT, OBSPT )
+ 
+   C
+   C     Finally, we can find the position o

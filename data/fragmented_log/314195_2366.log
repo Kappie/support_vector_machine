@@ -1,0 +1,9 @@
+,on,off,locked,49.51
+2004.167.16:47:52.28/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.931
+2004.167.16:47:52.38/rx/17(pres),on,a,on,on,on,off,locked,1357.
+2004.167.16:47:52.48/rx/1E(20k),on,a,on,on,on,off,locked,206.4
+2004.167.16:47:52.58/rx/1F(70k),on,a,on,on,on,off,locked,229.4
+2004.167.16:48:18.33?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.16:48:18.33?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.16:48:20.04;caltsys
+2004.167.16:48:22.83/tpi/1l,16259,1u,16013,2u,16

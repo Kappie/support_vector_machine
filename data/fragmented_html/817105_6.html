@@ -1,0 +1,18 @@
+s[1] >=0)
+			{
+				intTop=strTopPos[1];
+				strOptions=strOptions.replace(/top=\s*\d+\s*,?/i,'')
+			}
+			var strLeftPos=strOptions.match(/left=\s*(\d+)/i);
+			if(strLeftPos && strLeftPos[1] >=0)
+			{
+				intLeft=strLeftPos[1];
+				strOptions=strOptions.replace(/left=\s*\d+\s*,?/i,'')
+			}
+			var strHeight=strOptions.match(/height=\s*(\d+)/i);
+			if(strHeight && strHeight[1] >=0)
+			{
+				intHeight=strHeight[1];
+				strOptions=strOptions.replace(/height=\s*\d+\s*,?/i,'')
+			}
+			var strWidth=strOptions.match

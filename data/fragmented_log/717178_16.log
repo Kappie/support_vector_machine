@@ -1,0 +1,14 @@
+utoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=2.852 mas, bmaj=9.057 mas, bpa=-11.43 degrees
+! Estimated noise=2.25248 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal doamp, doflt, solint
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0635654 Jy
+! Component: 100  -  total flux cleaned = 0.10477

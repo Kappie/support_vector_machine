@@ -1,0 +1,16 @@
+rd/bin.linux/xpaget 'SAO042300024176052020' display_data | /usr/local/saord/bin.linux/fits2gif -luts /tmp/saotng.lut > /tproc/nandra/processing/76052020/work/76052020_gis3.gif; echo "GIF file created!" | /usr/local/saord/bin.linux/xpaset SAO042300024176052020 message) &'
+Destroying image '76052020_gis3_det.img-19265'
+ 
+gnt_infrm: Adding images for the SIS...
+ 
+gnt_infrm:adding and smoothing
+ 
+gnt_infrm: Adding images for the GIS...
+ 
+ 
+
+****** successfully exited ******
+
+ 
+
+****** successfully exited ******

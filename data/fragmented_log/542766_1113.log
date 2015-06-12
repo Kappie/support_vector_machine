@@ -1,0 +1,11 @@
+map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919516441085/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919516441159/pass/10,10,auto,-110.0,-110.0,-111.0,-108.8,-1.0,1.2
+9919516441175:!195164930
+9919516493000:tape
+9919516493005/tape/off,13317,norm,stopped,stop,unlock,ready,rem
+9919516493005:st=rev,80
+9919516493020:!195164940
+9919516494000:preob
+9919516494000#antcn#Checking onsource status
+9919516494003#antcn# RAsource   216.977   DEC

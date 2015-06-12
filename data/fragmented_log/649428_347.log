@@ -1,0 +1,6 @@
+libxml/xmlmodule.h'
+ /usr/bin/install -c -m 644 'xmlschemas.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlschemas.h'
+ /usr/bin/install -c -m 644 'schemasInternals.h' '/usr/local/cdat/Externals/include/libxml2/libxml/schemasInternals.h'
+ /usr/bin/install -c -m 644 'xmlschemastypes.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlschemastypes.h'
+ /usr/bin/install -c -m 644 'xmlstring.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlstring.h'
+ /usr/bin/install -c -m 644 'xmlunicode.h' '

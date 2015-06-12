@@ -1,0 +1,8 @@
+s: x-ray data =========================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 5.138676              wxc_scale = 0.500            wc = 1.000         |
+| angle between x-ray and geometry gradient vectors: 94.649   (deg)           |
+|                                                                             |
+| ADP refinement: T = Eexperimental * wxu * wxu_scale + Eadp  * wu     

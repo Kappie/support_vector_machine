@@ -1,0 +1,11 @@
+   coordinates.  Use light time correction.  The output
+   C     argument JSTATE is a state vector--the first three
+   C     components are position; the next three are velocity.
+   C
+         CALL <a href="../spicelib/spkez.html">SPKEZ</a> ( 599, ET, 'J2000', 'LT', 399, JSTATE, LT )
+ 
+   C
+   C     Find the J2000 to body equator and prime meridian
+   C     transformation for Jupiter.  Note:  the epoch at which to
+   C     evaluation this transformation must be adjusted for
+   C     light time.  Anticipatin

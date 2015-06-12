@@ -1,0 +1,10 @@
+eally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 70 mega-wavelengths.
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 4.39% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+! Estimated beam: bmin=2.339 mas, bmaj=2.856 mas, bpa=42.13 degree

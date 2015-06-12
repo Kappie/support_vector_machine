@@ -1,0 +1,7 @@
+800055474035000' display_data | /usr/local/saord/bin.linux/fits2gif -luts /tmp/saotng.lut > /tproc/nandra/processing/74035000/work/74035000_sis0.gif; echo "GIF file created!" | /usr/local/saord/bin.linux/xpaset SAO042800055474035000 message) &'
+Destroying image '74035000_sis0_det.img-6547'
+ 
+gnt_infrm: Making sis1 detector image...
+ 
+Received new filename '/tproc/nandra/processing/74035000/work/74035000_sis1_det.img'
+No WCS information available for image '/tproc/nandra/processing/74035000/work/74035000_sis

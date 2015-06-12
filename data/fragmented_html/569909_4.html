@@ -1,0 +1,21 @@
+(i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  		   for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  		   if(!x && document.getElementById) x=document.getElementById(n); return x;
+
+		}
+
+
+
+		function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+
+  		   var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+
+		}
+
+
+
+// Want the page to JUMP after a change in the menu?  UNCOMMENT the next line.		
+
+//			document.write("<select n

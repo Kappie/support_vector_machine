@@ -1,0 +1,19 @@
+0.076317Jy  sigma=1.101778
+! Fit after  self-cal, rms=0.076317Jy  sigma=1.101778
+selfcal false, false, phase_soltime
+! Performing phase self-cal over 10 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.076317Jy  sigma=1.101778
+! Fit after  self-cal, rms=0.076276Jy  sigma=1.101272
+dynam = dynam - 0.5
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=3.514 mas, bmaj=8.565 mas, bpa=5.19

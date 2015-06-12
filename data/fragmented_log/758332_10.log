@@ -1,0 +1,14 @@
+               with binning =    1
+ 
+!cat:ASCA-GIS3 > make obscat cat_filt=DEF lststr='ad*g3*.unf'
+''Using default selection expression: ONTIME>100&&NEVENTS>0&&HV_RED=='OFF'&&HVH_LVL==3&&HVL_LVL==4&&COORDPRO!='ERROR'&&INSTRUME=='GIS3'
+!cat:ASCA-GIS3 > save obscat g3.cat clobber=yes
+!cat:ASCA-GIS3 > exit save=no
+gnt_infrm: Makefilter file is: /tproc/nandra/processing/74035000/aux/ft961207_1320_1050.mkf
+ 
+gnt_infrm: Determining datamode...
+ 
+gnt_infrm: Determining BR_EARTH angle...
+ 
+rm: No match.
+rm: No matc

@@ -1,0 +1,3 @@
+har-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT tree1.o -MD -MP -MF .deps/tree1.Tpo -c -o tree1.o tree1.c
+mv -f .deps/tree1.Tpo .deps/tree1.Po
+/bin/sh ../../libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -W

@@ -1,0 +1,11 @@
+     
+  lapsplot: call "conrec", cint =   -0.5000000    
+  conrec_line: calling plot_contour    0.000000       1.0000000E+08 
+   1.0000000E+08            2            1
+
+ MIN = -0.10000E-05     MAX =   8.8688          PLOT INTERVAL =  0.10000E+09
+  FMAX/NSD/NLS =     8.868777                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+            2            1   1.3000000E-02           11           11 
+           11            1   2.5000000E-02            2            2 
+           

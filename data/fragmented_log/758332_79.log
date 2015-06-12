@@ -1,0 +1,22 @@
+ Checking for G3BITFIX problem...
+ 
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_scrn
+gnt_infrm: ========================
+Fri Apr 28 05:57:21 EDT 2000
+ 
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_cent
+gnt_infrm: *************************
+Fri Apr 28 05:57:22 EDT 2000
+ 
+gnt_infrm: Getting RA and DEC from attitude file...
+ 
+gnt_infrm: Getting OTIME from attitude file...
+ 
+gnt_infrm: Checking permanent area...
+gunzip: No match.
+gnt_infrm: Files not in perman

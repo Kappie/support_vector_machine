@@ -1,0 +1,5 @@
+ng.o ../Linux-i686/LogEntry.o ../Linux-i686/Manager.o ../Linux-i686/Format.o ../Linux-i686/Level.o ../Linux-i686/Log_Dict.o
+ranlib ../Linux-i686/libLog.a
+cat /dev/null >../Linux-i686/Log.stamp
+cd ../Linux-i686/; QUIET=; /home/dayabay/code/CMT/v1r20p20070524/mgr/cmt_make_shlib_common.sh extract "Linux-i686,debug" Log 
+g++ -L/home/tagg/autodaya/InstallArea/Linux-i686/lib -shared -o libLog.so "Logtemp_shlib/FormString.o" "Logtemp_shlib/Format.o" "Logtemp_shlib/Level.o" "Logtemp_shlib/Log.o" "Logtemp_shlib/LogE

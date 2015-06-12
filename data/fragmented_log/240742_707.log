@@ -1,0 +1,11 @@
+,19542
+2001.296.05:28:29.12/tpical/9453,9806,16026,10893,16987,8522,16383
+2001.296.05:28:29.36:!2001.296.05:28:36
+2001.296.05:28:36.00:tape
+2001.296.05:28:36.12/tape/off,15139,norm,moving,nostop,locked,ready,rem
+2001.296.05:28:36.12:data_valid=on
+2001.296.05:28:36.13:midob
+2001.296.05:28:36.13#antcn#Checking onsource status
+2001.296.05:28:36.15#antcn#WARNING: source presently below limit horizon
+2001.296.05:28:36.15#antcn# RAsource    88.908   DECsource   39.813
+2001.296.05:28:36.16#antcn# RAbeam      90.52

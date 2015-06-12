@@ -1,0 +1,27 @@
+llbars=yes,resizable=yes");
+		t.w.document.write(m);
+		t.w.focus();
+	}
+	WebTrends.prototype.dcsCollect=function(){
+		if (this.enabled){
+			this.dcsVar();
+			this.dcsMeta();
+			this.dcsFunc(this.dcsAdv());
+			this.dcsTag();
+		}
+	}
+	
+	function dcsMultiTrack(){
+		if (typeof(_tag)!="undefined"){
+			return(_tag.dcsMultiTrack());
+		}
+	}
+	
+	Function.prototype.wtbind = function(obj){
+		var method=this;
+		var temp=function(){
+			return method.apply(obj,arguments);
+		};
+		return temp;
+	}
+</s

@@ -1,0 +1,9 @@
+23
+9830218002374/tpi/30132,18319,13668,19527,28954,$$$$$,9841
+9830218002375?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830218002375/tsys1/50.3,51.9,50.8,50.6,49.1,45.4,45.7,44.6,48.1,$$$$$$$$
+9830218002376?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830218002376/tsys2/63.1,63.5,65.1,61.0,61.9,$$$$$$$$,144.5
+9830218002376:!302180230
+9830218002417?ERROR ch -351 Tape head 1 is not in requested position.
+9830218004617?ERROR ch -351 Tape head 1 is no

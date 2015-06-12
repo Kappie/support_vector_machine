@@ -1,0 +1,10 @@
+ld_buf
+  Subroutine input_product_info...
+  Product type: analysis [a], bkgnd [b], balance [n], fcst [f], quit [q] ? 
+  Subroutine get_temp_3d: iflag=            1
+  Subroutine get_3dgrid_dname...
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+  get_3d_dir_time: /data/lapb/tw/fsl-linux9/data/lapsprd/lt1/    061521800 lt1                             T3 
+  LAPS Temp      Vert X-Sect  Deg C  061521800
+  Plotting, Overlay =    

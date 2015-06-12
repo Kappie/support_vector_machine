@@ -1,0 +1,18 @@
+ished models = 0.266462 Jy
+! Performing phase self-cal over 10 minute time intervals
+! Adding 8 model components to the UV plane model.
+! The established model now contains 29 components and 0.266462 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.224803Jy  sigma=0.001335
+! Fit after  self-cal, rms=0.224796Jy  sigma=0.001335
+! Inverting map 
+print "************** FINISHED AMPLITUDE GSCALE SELF-CAL **************"
+! ************** FIN

@@ -1,0 +1,8 @@
+                                         
+         Enter Radar # (0=all)                                        ?   Start/End radars =             1            4
+  Subroutine plot_obs at 061521800: Level            13
+ Want Radial Velocities     [y,n,a,<RET>=y] ?   Skipping call to ht_of_level to get retheight
+  mode / radar =             1            1
+  calling get_laps_3dgrid
+  Sort_fn: names sorted, non_numeric/total =             0           15
+     file time (needed/nearest) = 061521800     / 06152170

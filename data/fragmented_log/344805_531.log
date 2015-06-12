@@ -1,0 +1,9 @@
+13:52:56.4 ; Dec(J2000):-02:56:53.4
+2003.309.01:44:40.49#antcn#Successfully sent new source position to antenna
+2003.309.01:44:40.49?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2003.309.01:44:40.49/onsource/SLEWING
+2003.309.01:44:41.28#wx#/WX/17.3,1012.7, 43.3
+2003.309.01:44:41.39#flagr#flagr/antenna,off-source
+2003.309.01:44:41.61/cable/0015956.7E-6
+2003.309.01:44:42.14/fmout-gps/2.052770e-05 20.5 usec (Hmaser leads GPS)
+2003.309.01:44:42.78#setcl#time/77191344,3,2003,309,01,44,42.98,-13.393,15.286,

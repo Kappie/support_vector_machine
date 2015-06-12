@@ -1,0 +1,20 @@
+have global sst on 0.5 degree resolution...
+
+For @ASN:
+
+define axis/x=0:360:0.5/units=degrees/edges lon
+define axis/y=90s:90n:0.5/units=degrees/edges lat
+define grid/x=lon/y=lat xygrid
+show grid xygrid
+let new_sst = sst[gxy=xygrid@ASN]
+
+For RESHAPE:
+
+define axis/x=0:360:0.5/units=degrees/edges lon
+define axis/y=90s:90n:0.5/units=degrees/edges lat
+define grid/x=lon/y=lat xygrid
+show grid xygrid
+let dummy = x[gxy=xygrid] + y[gxy=xygrid]
+let new_sst = RESHAPE(sst,dummy)
+
+Remember that /edges defines the bounds

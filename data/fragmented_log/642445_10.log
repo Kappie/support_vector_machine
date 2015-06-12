@@ -1,0 +1,10 @@
+work.   
+This is what happens: 
+b0l2de00-> i 
+ 
+  NAME        ENTRY       TID    PRI   STATUS      PC       SP     ERRNO  DELAY 
+---------- ------------ -------- --- ---------- -------- -------- ------- ----- 
+tExcTask   excTask        efe738   0 PEND         299530   efe660       0     0 
+tNetTask   netTask        edd0b8   1 PEND         27f83c   edd008       0     0 
+tPortmapd  portmapd       ed8330   1 PEND         27f83c   ed81c0      16     0 
+tRlogOutTasrlogOutTask    e4abf8   2 PEND         27f83c   

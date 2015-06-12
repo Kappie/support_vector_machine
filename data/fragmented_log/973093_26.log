@@ -1,0 +1,10 @@
+cutoff=0
+! Component: 050  -  total flux cleaned = -0.000604377 Jy
+! Component: 100  -  total flux cleaned = -0.000631515 Jy
+! Component: 150  -  total flux cleaned = -0.000606676 Jy
+! Component: 200  -  total flux cleaned = -0.000606805 Jy
+! Total flux subtracted in 200 components = -0.000606805 Jy
+! Clean residual min=-0.005178 max=0.003699 Jy/beam
+! Clean residual mean=-0.000200 rms=0.001390 Jy/beam
+! Combined flux in latest and established models = 0.141846 Jy
+! Performing phase self-cal over 0.5 minute

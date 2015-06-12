@@ -1,0 +1,10 @@
+950.0
+2001.295.17:30:33.34#antcn#Commanding to new source
+2001.295.17:30:35.16#antcn#Source:  1954-388  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.295.17:30:35.16#antcn# RAcommand  299.523   DECcommand -38.750
+2001.295.17:30:35.16:check80f
+2001.295.17:30:35.17&check80f/"comment out the following line if you do _not_ have a mark iii decoder
+2001.295.17:30:35.17&check80f/"decode=a,err,byte
+2001.295.17:30:35.17&check80f/parity=,,ab,on
+2001.295.17:30:35.17&check80f/sfastr=13.61s
+2001.295.17:30:35.17&check80f/!+8

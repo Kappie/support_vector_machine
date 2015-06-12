@@ -1,0 +1,13 @@
+d, found, good and lost: muperfsel.draw("reta", 60, 3.0)
+   murecosel - Plots reco, selected, not selected and fake: murecosel.draw("feta", 60, 3.0)
+   murecosel_combined - Plots reco, selected, notsel and fake for combined tracks: murecosel_combined.draw("feta", 60, 3.0)
+Good muon evaluation distance is 4.5
+Good dimuon evaluation distance is 10
+
+Processing cscnote_plot.C...
+Dataset: t1
+Selection: mucmb_mugirl_kine_selk001
+Reference name: direct
+CSCPLOT: 
+Input tree file:
+  /usatlas/groups/tracking/www/tupl

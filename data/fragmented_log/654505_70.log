@@ -1,0 +1,8 @@
+der/i386/00_LOGS/cpan/perl-DBI/RPMS/i386/perl-DBI-1.40-4.caos.i386.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.91781
+sh-trace: umask 022
+sh-trace: cd /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/BUILD
+sh-trace: cd DBI-1.40
+sh-trace: rm -rf /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383
+sh-trace: exit 0
+[buildtool/675/place_package_files()] Output files for perl-DBI:  /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SRPMS/perl-DBI-1.40-4.caos.src.rpm /caos/repo/ext/autobuilder/i386/00_

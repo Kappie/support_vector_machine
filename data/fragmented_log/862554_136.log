@@ -1,0 +1,11 @@
+HT > filter region 72016000_sis0_src.reg
+!xsel:ASCA-SIS0-BRIGHT > extract spectrum
+!xsel:ASCA-SIS0-BRIGHT > save spectrum group=yes clobber=yes 72016000_sis0_src.pha
+Wrote spectrum to 72016000_sis0_src.pha
+!xsel:ASCA-SIS0-BRIGHT > filter pha_cutoff 140 1723
+!xsel:ASCA-SIS0-BRIGHT > extract events
+!xsel:ASCA-SIS0-BRIGHT > save events use=no clobber=yes 72016000_sis0_src.evt
+Wrote events list to file 72016000_sis0_src.evt
+!xsel:ASCA-SIS0-BRIGHT > clear events
+!xsel:ASCA-SIS0-BRIGHT > clear pha_cutoff
+!xsel:AS

@@ -1,0 +1,9 @@
+/mezzanine.temp.dironly.29689.243e" returned 0
+[PkgVars.pm/160/pkgvar_set()] Setting builduser
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "builduser" -> "nobody"
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "builduser" -> "nobody"
+[buildtool/416/build_single_package()] Building as nobody (99:99)
+[buildtool/426/build_single_package()] Build tree layout style:  orc
+[Build.pm/995/build_package()] Args:  ""
+[PkgVars.pm/265/pkgvar_filename()] /home/mej/cvs/caos/groups/cpan/perl-DBI
+[PkgVars.p

@@ -1,0 +1,7 @@
+
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #25 [>>>>>>> ...]
+#CMT> Warning: package AutoValidation *  not found (requested by DocMaster)
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/DocMaster.pl DocMaster /home/tagg/autodaya/AutoDoc/DocMaster $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on DocMaster at /home/tagg/autodaya/AutoDoc/DocMaster to /home/tagg/autodaya/InstallArea/doc
+Error: Unexpected tag `class'

@@ -1,0 +1,12 @@
+
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmin=0.6276 mas, bmaj=1.967 mas, bpa=-7.926 degrees
+! Estimated noise=846.767 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 1.13935 Jy
+! Component

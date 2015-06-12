@@ -1,0 +1,13 @@
+endency style of gcc... gcc3
+checking for a BSD-compatible install... /usr/bin/install -c
+checking how to run the C preprocessor... gcc -E
+checking for rm... /bin/rm
+checking for mv... /bin/mv
+checking for tar... /bin/tar
+checking for perl... /usr/bin/perl
+checking for wget... /usr/bin/wget
+checking for xmllint... /lgm/cdat/latest/bin/xmllint
+checking for xsltproc... /lgm/cdat/latest/bin/xsltproc
+checking for function prototypes... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking f

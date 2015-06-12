@@ -1,0 +1,12 @@
+t
+9919517493412:!+3s
+9919517493713:tape
+9919517493719/tape/off,05238,norm,stopped,stop,unlock,ready,rem
+9919517493719:postob
+9919517493719:source=1958-179,195804.6,-175717.0,1950.0
+9919517493720#antcn#Commanding to new source
+9919517493838#antcn#Source:  1958-179  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919517493839#antcn# RAcommand  300.233   DECcommand -17.815
+9919517493840:wb2c2=10
+9919517494120#matcn#debug: 92 /ASS 0 3:0x1 5:0x3 7:0x5 9:0x7 11:0x9 13:0xb 15:0xd 17:0x0 ? ERROR 7
+9919517494208#matcn#debug: 

@@ -1,0 +1,9 @@
+                         \ 
+     col_idx = COL + j;                                   \ 
+     rramp[col_idx] = (j*fore_r + (16-j)*back_r) / 16;    \ 
+     gramp[col_idx] = (j*fore_g + (16-j)*back_g) / 16;    \ 
+     bramp[col_idx] = (j*fore_b + (16-j)*back_b) / 16;    \ 
+     corr = 255.0 * pow (((double) rramp[col_idx])/255.0, \ 
+       1.0/gammy);                                        \ 
+     rramp[col_idx] = (int) corr;                         \ 
+     corr = 255.0 * pow (((double) gramp[col_idx])/255.0,

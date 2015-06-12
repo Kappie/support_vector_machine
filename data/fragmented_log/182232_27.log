@@ -1,0 +1,5 @@
+eety-alarm on the SVX::<i>SVX_PS_TRIP  SVX Power Supply Trip</i>.  I do not think this is real since no power supplies had been turned on since the rack regained power.  I attributed it to GUI wierdness and reset.
+<!-- Comment: Wed Jul 25 07;47;29 comment by...Napora -->
+<p>Sono-alarms were unsilenced shortly after the problem was fixed.
+<!-- Date: Wed Jul 25 07:23:20 2001 -->
+Run 121571 get several BTO from CMX_01 and from "unknown" crates (no messages anywhere).  L3 SF13 pink.  End run and try coldstart. 

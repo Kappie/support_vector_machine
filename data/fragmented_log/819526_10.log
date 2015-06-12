@@ -1,0 +1,11 @@
+xis pixel size should ideally be below 0.1907 milli-arcsec
+! Added new window around map position (0.6, -2).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0588897 Jy
+! Component: 100  -  total flux cleaned = 0.0804735 Jy
+! Total flux subtracted in 100 components = 0.0804735 Jy
+! Clean residual min=-0.039488 max=0.046787 Jy/beam
+! Clean residual mean=0.000758 rms=0.007799 Jy/beam
+! Combined flux in latest and established models = 1.80182 Jy
+! Performing phase self-cal
+! 

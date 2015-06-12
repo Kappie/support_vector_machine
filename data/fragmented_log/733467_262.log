@@ -1,0 +1,10 @@
+s - continuing
+SEDR INPUT SEDR #248:  Invalid minor data record class - continuing
+SEDR INPUT SEDR #249:  Invalid minor data record class - continuing
+SEDR INPUT SEDR #250:  Invalid minor data record class - continuing
+SEDR INPUT LOG:        SEDRs=251 (Skipped=0)
+[01-Apr-2002-21:11:55  End processing file: \UlsRawData\SedrData\1997\sedr9712.fix]
+
+[01-Apr-2002-21:11:55  Start processing file: \UlsRawData\EdrData\1997\edr9712.glg]
+CDF OUTPUT LOG:        CDF Records written=97 (Range Errors=0)
+[01-Apr

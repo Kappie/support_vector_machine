@@ -1,0 +1,15 @@
+:1022: gcc -c -g -O2  conftest.c 1>&5
+configure: In function `main':
+configure:1018: `__MINGW32__' undeclared (first use in this function)
+configure:1018: (Each undeclared identifier is reported only once
+configure:1018: for each function it appears in.)
+configure: failed program was:
+#line 1015 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:1039: checking how to run the C preprocessor
+configure:1060: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1194: c

@@ -1,0 +1,11 @@
+dat/Externals/lib?g' \
+    -e 's?\@XML_INCLUDEDIR\@?-I/usr/local/cdat/Externals/include/libxml2?g' \
+    -e 's?\@VERSION\@?2.6.31?g' \
+    -e 's?\@XML_LIBS\@?-lxml2 -lz   -lm ?g' \
+       < ./xml2Conf.sh.in > xml2Conf.tmp \
+&& mv xml2Conf.tmp xml2Conf.sh
+make[3]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31'
+Making all in doc
+make[3]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc'
+Making all in devhelp
+make[4]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxm

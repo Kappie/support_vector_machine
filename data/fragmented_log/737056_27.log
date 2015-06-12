@@ -1,0 +1,13 @@
+P        1.00     LA        0.95     
+!   MA        1.00*    MC        1.00*    MK        1.05     NL        1.01     
+!   OV        0.93     PT        1.01     SC        1.03     TS        1.00*    
+!   WF        1.02     WZ        1.00*    
+! 
+! 
+! Fit before self-cal, rms=0.261589Jy  sigma=0.002001
+! Fit after  self-cal, rms=0.231868Jy  sigma=0.001720
+dynam = dynam - 0.5
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis

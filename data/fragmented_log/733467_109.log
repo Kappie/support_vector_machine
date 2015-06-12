@@ -1,0 +1,10 @@
+3.cdf]
+CDF OUTPUT LOG:        CDF Records written=95 (Range Errors=0)
+[01-Apr-2002-21:10:47  End processing file: .\data\1997\19970423.cdf]
+
+[01-Apr-2002-21:10:47  Start processing file: .\data\1997\19970424.cdf]
+EDR INPUT DVC #2139:   Invalid DVC duration (776.01 < 778.03) - DVC skipped (EDR #5805, SCET=1493052491)
+CDF OUTPUT LOG:        CDF Records written=97 (Range Errors=0)
+[01-Apr-2002-21:10:48  End processing file: .\data\1997\19970424.cdf]
+
+[01-Apr-2002-21:10:48  Start processing file: .\dat

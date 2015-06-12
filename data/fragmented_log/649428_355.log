@@ -1,0 +1,7 @@
+ormation, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/local/cdat/Externals/bin" || /bin/mkdir -p "/usr/local/cdat/Externals/bin"
+  /bin/sh ./libtool --mode=install /usr/bin/install -c 'xmllint' '/usr/local/cdat/Externals/bin/xmllint'
+/usr/bin/install -c .libs/xmllint /usr/local/cdat/Externals/bin/xmllint
+  /bin/sh ./libtool --mode=install /usr/bin/install -c 'xmlcatalog' '/usr/local/cdat/Externals/bin/xmlcatalog'
+/usr/bin/

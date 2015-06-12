@@ -1,0 +1,10 @@
+ 4.90: 12233
+  Nonbonded interactions sorted by model distance:
+             atom i - atom j             model   vdw sym.op. j
+  " O   HOH Z 207 " - " O   HOH Z 341 "  1.780 3.040 -x+1/2,-y+1,z+1/2
+  " CE BMET A  47 " - " O  BHOH Z  74 "  1.806 3.460
+  " O   HOH Z  42 " - " O   HOH Z 183 "  1.916 3.040 -x+1,y+1/2,-z+1/2
+  " O   HOH Z 343 " - " O   HOH Z 277 "  2.043 3.040 -x+1/2,-y+1,z-1/2
+  " O   HOH Z 277 " - " O   HOH Z 343 "  2.043 3.040 -x+1/2,-y+1,z+1/2
+  ... (remaining 27636 not shown)
+  Histogram of

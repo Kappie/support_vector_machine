@@ -1,0 +1,10 @@
+/UtilString.cc:158: Warning: no matching file member found for 
+bool UtilString::atob(const char *s, bool &isvalid)
+Possible candidates:
+  bool atob(const char *s)
+  bool atob(const char *s, bool &isvalid)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:187: Warning: no matching file member found for 
+int UtilString::cmp_nocase(const std::string &s1, const std::string &s2)
+Possible candidates:
+  int cmp_nocase(const std::string &s1, const std::string &s2)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:203:

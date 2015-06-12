@@ -1,0 +1,6 @@
+
+../Linux-i686/dywGLAberdeenHitData_Dict.cc:592: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywGLAberdeenHitData_Dict.cc:593: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywGLAberdeenHitData_Dict.cc:594: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywGLEvent_Dict.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/usr/local

@@ -1,0 +1,13 @@
+rm,stopped,stop,unlock,ready,rem
+9921516031625:postob
+9921516031711/cable/+2.770E-04
+9921516031895/gps-fmout/+4.4E-06
+9921516031903/onsource/TRACKING
+9921516031903#antcn#Received message for antenna: TCHECK
+9921516031903/relheight/T1,T2,T3,T4,L5/ 03.08.1999  16:00  25.04  28.67  30.18  24.96  3.589
+ 
+9921516031903:source=1219+044,121949.3,042953.8,1950.0,neutral
+9921516032240:check2a2
+9921516032240&check2a2/"checks 32 tracks at 80 ips
+9921516032240&check2a2/check=*,-tp,-hd
+9921516032240&check2a2/decode=a,cr

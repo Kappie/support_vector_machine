@@ -1,0 +1,12 @@
+2180/tpical/13342,17138,13815,14923,19682,16723,36930
+9919507402201:!195074029
+9919507402900:tape
+9919507402906/tape/off,10995,norm,moving,nostop,locked,ready,rem
+9919507402906:"data start"
+9919507402906:midob
+9919507402906#antcn#Checking onsource status
+9919507402909#antcn# RAsource    75.290   DECsource   -1.989
+9919507402909#antcn# RAbeam      75.291   DECbeam     -1.987
+9919507402909#antcn# RAdelta      0.001   DECdelta     0.002
+9919507402909?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+991950740

@@ -1,0 +1,17 @@
+celib/spklef.html">SPKLEF</a> ( SPK, HANDLE )
+ 
+   C
+   C     Now obtain the UTC time and convert UTC to ET.
+   C
+         WRITE (*,*) 'Enter time of observation, UTC'
+         READ  (*,FMT='(A)') UTC
+ 
+         CALL <a href="../spicelib/utc2et.html">UTC2ET</a> ( UTC, ET )
+ 
+   C
+   C     Obtain the RA and Dec of the star.
+   C
+         WRITE (*,*) 'Enter RA of star, relative to '               //
+        .            'J2000 reference frame (degrees)'
+         READ   *,    RA
+         WRITE (*,*) 'Enter Dec

@@ -1,0 +1,9 @@
+q] quit/display ?   Copying field_2d to field_buf for diff optn
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/lsx/    061521800 lsx   P  
+  Subroutine plot_field_2d: i4time =    1464804000
+  plot_field_2d - contour plot p         
+  Subroutine plot_cont...    1000.000        1016.000        1.000000     
+    100.0000    
+          0 M REDUCED PRESSURE (mb)                  

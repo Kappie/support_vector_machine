@@ -1,0 +1,4 @@
+       `/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/G4dyb/src /home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool_CD1.cc
+/usr/include/geant4/G4VPVParameterisation.hh:73: warning: 'class G4VPVParameterisation' has virtual functions but non-virtual destructor
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool_CD1.cc: In member function 'void dywDetectorConstruction::ConstructNearSitePool_CD1()':
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSiteP

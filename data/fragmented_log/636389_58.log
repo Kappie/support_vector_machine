@@ -1,0 +1,15 @@
+/local/apps/gs/bin
+prod =pbe
+WINDOW =0.0:0.0:1.0:1.0
+NCARG_ROOT =/usr/local/apps/ncarg-4.3.1.LINUX9
+utc_hhmm =1800
+LAPS_DATA_ROOT =/data/lapb/tw/fsl-linux9/data
+latest =latest
+RESOLUTION =885x885
+LAPS_ETC = /usr/nfs/common/lapb/www/anal2d
+WWW_DIR =/w3/lapb/domains/tw_fsl9
+SCRATCH_DIR =/w3/lapb/domains/tw_fsl9/anal2d
+-rwxrwxr-x    1 oplapb   frdlapb   3945633 2006-05-29 11:17 /usr/nfs/lapb/builds/laps/bin/lapsplot.exe
+Running /usr/nfs/lapb/builds/laps/bin/lapsplot.exe
+Thu Jun  1 19:25:16 UTC 2006
+Input to la

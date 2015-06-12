@@ -1,0 +1,13 @@
+ 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.200742Jy  sigma=0.001250
+! Fit after  self-cal, rms=0.200670Jy  sigma=0.001249
+wmodel J0246-1236_X_1997_05_07_yyk\_map.mod
+! Writing 58 model components to file: J0246-1236_X_1997_05_07_yyk_map.mod
+wobs J0246-1236_X_1997_05_07_yyk\_uvs.fits
+! Writing UV FITS file: J0246-1236_X_1997_05_07_yyk_uvs.fits
+wwins J0246-1236_X_1997_05_07_yyk\_map.win
+! wwins: Wrote 2 windows to J0246-1236_X_1997_05_07_yyk_map.win
+x = (field_size-8) * field_cell / 4
+addwin -x,x,-x

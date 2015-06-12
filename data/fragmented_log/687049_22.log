@@ -1,0 +1,8 @@
+erAlgo Warning: more than 50 iterations in pfcluster finding: 4.655086917e-07
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 1.468511377e-06
+JetMaker::makeSpecific (CaloJet)-> ERROR: constituent tower energy is 0, Em/Had contributions are 0/0
+. THIS SHOULD NEVER HAPPEN - please inform ratnikov@fnal.gov. Thank you!
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 09:29:17 EDT  Run: 1 Event: 29
+Fitted position is out of tracker bounds.
+
+%M

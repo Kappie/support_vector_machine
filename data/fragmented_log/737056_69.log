@@ -1,0 +1,12 @@
+ITS file: J0530+1331_X_2001_10_29_pus_uvs.fits
+wwins J0530+1331_X_2001_10_29_pus_map.win
+! wwins: Wrote 6 windows to J0530+1331_X_2001_10_29_pus_map.win
+x = (field_size-8) * field_cell / 4
+addwin -x,x,-x,x
+clean (field_size*4),0.01
+! Inverting map 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+! clean: niter=1024  gain=0.01  cutoff=0
+! Component: 050  -  total flux cleaned = 0.000307993 Jy
+! Component: 100  -  total flux cl

@@ -1,0 +1,34 @@
+
+   }
+} // end findpdf
+
+findpdf();
+
+
+function findmp3(){
+
+   var l = document.links;
+
+   function check(){
+      var dest = this.pathname;
+      var title = this.firstChild.data;
+      dcsMultiTrack('DCS.dcsuri',dest,'WT.ti',title);
+   }
+
+   for (i = 0; i < l.length; i++){
+      if(l[i].pathname.match(/\.mp3/)){
+         if(!l[i].onclick){
+            l[i].onclick=check;
+         }
+      }
+   }
+} // end findmp3
+
+findmp3();
+
+
+function findwav(){
+
+   var l = document.links;
+
+  

@@ -1,0 +1,11 @@
+ focus X : -255.2mm ; Y : 251.4mm ; Z : 18.1mm
+2003.309.06:35:25.78;onsource
+2003.309.06:35:25.80#antcn#Check if antenna is on-source
+2003.309.06:35:26.36#antcn#Currently slewing to requested source
+2003.309.06:35:26.38?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2003.309.06:35:26.38/onsource/SLEWING
+2003.309.06:36:10.45#flagr#flagr/antenna,acquired
+2003.309.06:36:15.01;onsource
+2003.309.06:36:15.35#antcn#Check if antenna is on-source
+2003.309.06:36:15.35#flagr#flagr/antenna,off-source
+2003.309.06:36

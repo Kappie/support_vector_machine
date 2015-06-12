@@ -1,0 +1,13 @@
+urce
+2003.308.21:53:11.43:setupsx
+2003.308.21:53:15.85/mk5/!play_rate = 0 ;
+2003.308.21:53:15.88/mk5/!mode = 0 ;
+2003.308.21:53:15.92/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 71 ;
+2003.308.21:53:15.92:!2003.308.21:55:20
+2003.308.21:54:59.80#flagr#flagr/antenna,acquired
+2003.308.21:55:20.00:preob
+2003.308.21:55:20.30#antcn#Check if antenna is on-source
+2003.308.21:55:20.30#flagr#flagr/antenna,off-source
+2003.308.21:55:20.90/onsource/TRACKING
+2003.308.21:55:21.40#flagr#flagr/antenna,re-acquired
+2003.308.2

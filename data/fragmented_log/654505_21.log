@@ -1,0 +1,10 @@
+t dep perl >= 5.6.1
+[RPM.pm/746/parse_deps()] Dependency string:  perl >= 5.6.1
+[RPM.pm/763/parse_deps()] Dep packages:  perl
+[RPM.pm/251/parse_spec_file()] Header:  buildrequires -> perl-Time-HiRes
+[RPM.pm/289/parse_spec_file()] Got build dep perl-Time-HiRes
+[RPM.pm/746/parse_deps()] Dependency string:  perl-Time-HiRes
+[RPM.pm/763/parse_deps()] Dep packages:  perl-Time-HiRes
+[RPM.pm/305/parse_spec_file()] Got the following sources:
+[RPM.pm/307/parse_spec_file()]     Source 0 -> DBI-1.40.tar.gz
+[RPM.pm/307/

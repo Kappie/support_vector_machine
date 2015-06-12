@@ -1,0 +1,15 @@
+21,27.881,rate
+9924014174215;"delta ut(ref-gps;sv#10) = 2.341 micsec at 240/14:11 ut.
+9924014174825;"pointing with casa ok.
+9924014175886;"wx/covered after rain, light wind from south.
+9924014185700:"data stop"
+9924014185700:et
+9924014185711:!+3s
+9924014190012:tape
+9924014190017/tape/off,02094,norm,stopped,stop,unlock,ready,rem
+9924014190017:postob
+9924014190121/cable/+3.021E-04
+9924014190207/gps-fmout/+4.9E-06
+9924014190214/onsource/TRACKING
+9924014190214#antcn#Received message for antenna: TCHECK
+99240141

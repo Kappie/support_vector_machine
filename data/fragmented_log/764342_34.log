@@ -1,0 +1,8 @@
+----------------|
+|-Geometry statistics: start--------------------------------------------------|
+|      Type |    Count |    Deviation from ideal |     Targets | Target (sum) |
+|           |          |    rmsd      max    min |             |              |
+|      bond |     2439 |   0.010    0.070  0.000 |       0.254 |              |
+|     angle |     3299 |   1.822    9.874  0.001 |       1.000 |              |
+| chirality |      348 |   0.101    0.314  0.000 |       0.257 |        0.161 |
+| planarity | 

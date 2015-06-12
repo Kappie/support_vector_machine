@@ -1,0 +1,11 @@
+:46:47.65:scan_name=349-1949,euro74,57,57
+2004.349.19:46:47.65:source=cta26,033930.94,-014635.8,2000.0,neutral
+2004.349.19:46:47.65#flagr#flagr/antenna,new-source
+2004.349.19:46:47.65:setupsx
+2004.349.19:46:47.80#skua #Antenna slewing to azimuth 174.9, elevation 27.6
+2004.349.19:46:51.09/mk5/!play_rate = 0 ;
+2004.349.19:46:51.09/mk5/!mode = 0 ;
+2004.349.19:46:51.13/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.349.19:46:51.13:!2004.349.19:49:45
+2004.349.19:47:25.41#skua #Antenna slewing complete
+200

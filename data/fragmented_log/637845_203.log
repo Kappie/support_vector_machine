@@ -1,0 +1,11 @@
+k
+Linux-i686.make ok
+------> (constituents.make) Rebuilding library links
+   Symlinking /home/tagg/autodaya/G4dyb/Linux-i686/libG4dyb.so to /home/tagg/autodaya/InstallArea/Linux-i686/lib/libG4dyb.so
+------> (constituents.make) all done
+------> (constituents.make) Building G4dyb.make
+Library G4dyb
+------> (constituents.make) Starting G4dyb
+------> (G4dyb.make) Rebuilding ../Linux-i686/G4dyb_dependencies.make
+sh: /usr/lib/geant4/libname.map: No such file or directory
+sh: /usr/lib/geant4/libname.map: No such f

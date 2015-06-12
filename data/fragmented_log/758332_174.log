@@ -1,0 +1,16 @@
+put file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+         13853      1374          11183         0         0      1296
+   in  38989.     seconds
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel]
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!xsel:ASC

@@ -1,0 +1,10 @@
+pe/off,05845,norm,stopped,stop,unlock,ready,rem
+9919423470622:postob
+9919423470622:source=1622-253,162244.1,-252051.7,1950.0
+9919423470624#antcn#Commanding to new source
+9919423470741#antcn#Source:  1622-253  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919423470741#antcn# RAcommand  246.440   DECcommand -25.458
+9919423470742:wb2c1=3
+9919423471184/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919423471184/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919423471184/f

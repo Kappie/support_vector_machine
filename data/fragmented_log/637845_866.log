@@ -1,0 +1,7 @@
+g graph info page...
+#--------------------------------------------------------------
+# Now trying [cmt autodoc] in /home/tagg/autodaya/Generators/RadioActivity/Co60/cmt (16/29)
+#--------------------------------------------------------------
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/AutoDoc.pl Co60 /home/tagg/autodaya/Generators/RadioActivity/Co60 $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on Co60 at /home/tagg/autodaya/Generators/RadioActivity/Co60 to /home/tagg/autodaya/InstallArea/doc
+Error: 

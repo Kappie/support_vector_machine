@@ -1,0 +1,16 @@
+p  min=-0.0019919  max=0.63158 Jy/beam
+! Writing clean map to FITS file: 0014+813_X.fits
+! Writing difmap environment to: 0014+813_X.par
+print "****************************"
+! **************************** 
+print "*** Now, make some plots ***"
+! *** Now, make some plots *** 
+print "****************************"
+! **************************** 
+device 0014+813_Xuv.ps/vps,1,2
+! Attempting to open device: '0014+813_Xuv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+device 0014+813_Xim.ps/vps
+! Attemp

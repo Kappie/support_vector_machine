@@ -1,0 +1,24 @@
+ICELIB plane,
+   respectively:
+<P>
+ 
+<PRE>
+   INTEGER               UBEL
+   PARAMETER           ( UBEL = 9 )
+ 
+   INTEGER               UBPL
+   PARAMETER           ( UBPL = 4 )
+ 
+   DOUBLE PRECISION      ELLIPS ( UBEL )
+   DOUBLE PRECISION      PLANE  ( UBPL )
+   DOUBLE PRECISION      XPT1   ( 3 )
+   DOUBLE PRECISION      XPT2   ( 3 )
+   INTEGER               NXPTS
+</PRE>
+   Then the call
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/inelpl.html">INELPL</a> ( ELLIPS, PLANE, NXPTS, XPT1, XPT2 )
+</PRE>
+   sets the

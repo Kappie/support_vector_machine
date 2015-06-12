@@ -1,0 +1,16 @@
+* Now, make some plots *** 
+print "****************************"
+! **************************** 
+![@gonzo_plot 1034-293_X]
+device 1034-293_Xuv.ps/vps,1,2
+! Attempting to open device: '1034-293_Xuv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+! Using default options string ""
+device 1034-293_Xim.ps/vps
+! Attempting to open device: '1034-293_Xim.ps/vps'
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weight

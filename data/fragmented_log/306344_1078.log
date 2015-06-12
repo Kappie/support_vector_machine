@@ -1,0 +1,11 @@
+03585330/tape/off,00565,norm,stopped,stop,unlock,ready,rem
+9830303585330:postob
+9830303585330:source=1307+121,130704.4,121022.6,1950.0
+9830303585331#antcn#Command a new source
+9830303585383#antcn#Successfully sent new source position to antenna
+9830303585383:midtp
+9830303585626/tpzero/399,450,491,515,337,322,767,767,38,85
+9830303585650/tpzero/201,218,331,470,436,704,85
+9830303585671/rx/00(front),on,a,on,on,on,off,locked,26.19
+9830303585683/rx/01(rear),on,a,on,on,on,off,locked,39.49
+9830303585694/rx/02(lo),o

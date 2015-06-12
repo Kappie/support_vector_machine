@@ -1,0 +1,13 @@
+urrently selected.
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Your choice of large map pixels excluded 4.41% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+! Estimated beam: bmin=0.5347 mas, bmaj=0.7414 mas, bpa=5.73 degrees
+! Estimated noise=768.214 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  sel

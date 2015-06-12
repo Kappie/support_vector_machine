@@ -1,0 +1,12 @@
+0.003776 Jy/beam
+! Combined flux in latest and established models = 1.91199 Jy
+! Adding 66 model components to the UV plane model.
+! The established model now contains 74 components and 1.91199 Jy
+! Inverting map 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 70 mega-wavelengths.
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large m

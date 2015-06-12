@@ -1,0 +1,13 @@
+
+9919511183406/tape/off,15080,norm,moving,nostop,locked,ready,rem
+9919511183406:"data start"
+9919511183406:midob
+9919511183406#antcn#Checking onsource status
+9919511183409#antcn# RAsource   141.745   DECsource   39.043
+9919511183409#antcn# RAbeam     141.746   DECbeam     39.043
+9919511183409#antcn# RAdelta      0.001   DECdelta     0.001
+9919511183410?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919511183410/onsource/SLEWING
+9919511183412/wx/22.1,868.2,43.7
+9919511183413/cable/00035.848932E-03
+99195

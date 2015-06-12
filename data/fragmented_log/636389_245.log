@@ -1,0 +1,17 @@
+    97           97
+ /data/lapb/tw/fsl-linux9/data/static/nest7grid.parms
+  get_laps_config - parameters read in OK
+
+
+  This program will produce a gmeta file for display
+
+  It will be located in ./gmeta
+
+
+ Enter time, <yydddhhmm>, or <RETURN> for latest:
+  Calling COLOR
+  Color: Black Background
+  Calling GOPWK
+ success reading lapsplot_nl in 
+ /data/lapb/tw/fsl-linux9/data/static//lapsplot.nl                                                                                                     
+ &LAPSPLOT_NL

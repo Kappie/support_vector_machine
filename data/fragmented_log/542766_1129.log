@@ -1,0 +1,11 @@
+d,stop,unlock,ready,rem
+9919517022921:postob
+9919517022921:source=1741-038,174120.6,-034848.9,1950.0
+9919517022923#antcn#Commanding to new source
+9919517023041#antcn#Source:  1741-038  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919517023041#antcn# RAcommand  265.991   DECcommand  -3.832
+9919517023043:wb2c2=10
+9919517023320#matcn#debug: 92 /ASS 0 3:0x1 5:0x3 7:0x5 9:0x7 11:0x9 13:0xb 15:0xd 17:0x0 ? ERROR 7
+9919517023408#matcn#debug: 92 /STA ? ERROR 7
+9919517023490/form/0x8015 0x1004 0x9222 38 3 4000 11 0 0 0
+991

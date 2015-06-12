@@ -1,0 +1,12 @@
+594,416,392,69
+9815515490886/tpzero/0,220,460,451,1107,991,502
+9815515490907/rx/02(LO),on,a,on,on,on,off,locked,40.72
+9815515490919/rx/03(DCAL),on,a,on,on,on,off,locked,48.65
+9815515490930/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+9815515490941/rx/17(PRES),on,a,on,on,on,off,locked,2.566
+9815515490952/rx/1E(20K),on,a,on,on,on,off,locked,44.14
+9815515490959:check2a2
+9815515490959&check2a2/check2c2
+9815515490960&check2c2/check=*,-tp,-hd
+9815515490960&check2c2/enable=
+9815515490961&check2c2/decode=a,crc,byte

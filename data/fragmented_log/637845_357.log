@@ -1,0 +1,6 @@
+itePool.cc:122: warning: unused variable 'physV_Module_1'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool.cc:129: warning: unused variable 'physV_Module_2'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool.cc:136: warning: unused variable 'physV_Module_3'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool.cc:143: warning: unused variable 'physV_Module_4'
+../Linux-i686/dywNeutronHPCapture.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -

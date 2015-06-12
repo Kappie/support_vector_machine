@@ -1,0 +1,8 @@
+06
+Running /usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans | netpbm to make gmeta_pbe.gif file
+/usr/local/apps/ncarg-4.3.1.LINUX9/bin/ctrans -verbose -d sun -window 0.0:0.0:1.0:1.0 -resolution 885x885 gmeta | rasttopnm | ppmtogif > /w3/lapb/domains/tw_fsl9/anal2d/gmeta_pbe.gif
+Thu Jun  1 19:25:18 UTC 2006
+Generating Graphical NBE Product
+Thu Jun  1 19:25:18 UTC 2006
+Start laps_gifs_sub.sh...
+PATH=/usr/local/apps/mpich/bin:.:/usr/nfs/lapb/netcdf-3.4/bin:/usr/local/apps/netcdf/bin:/opt/pgi/linux86/bin:/opt/nfs/

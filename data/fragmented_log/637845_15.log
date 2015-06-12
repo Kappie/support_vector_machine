@@ -1,0 +1,10 @@
+of GEANT v0 External line #25 [>>>>>>> ...]
+Removing all previous make fragments from cmt
+Removing all previous make fragments from Linux-i686
+Creating setup scripts.
+Creating cleanup scripts.
+#CMT> bad syntax in requirements of GEANT v0 External line #13 [<<<<<<< ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #25 [>>>>>>> ...]
+#--------------------------------------------------------------
+# Now trying [make clean

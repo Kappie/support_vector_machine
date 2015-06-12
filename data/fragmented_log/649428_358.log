@@ -1,0 +1,6 @@
+ ./testHTML.c /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/examples
+/usr/bin/install -c -m 0644 ./testXPath.c /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/examples
+test -z "/usr/local/cdat/Externals/share/aclocal" || /bin/mkdir -p "/usr/local/cdat/Externals/share/aclocal"
+ /usr/bin/install -c -m 644 'libxml.m4' '/usr/local/cdat/Externals/share/aclocal/libxml.m4'
+test -z "/usr/local/cdat/Externals/share/man/man1" || /bin/mkdir -p "/usr/local/cdat/Externals/share/man/man1"
+ /usr/bin/install -c -m 

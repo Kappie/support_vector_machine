@@ -1,0 +1,13 @@
+6.0V, after ten seconds it went back to green (-5.24V).
+<!-- Author: m mattson -->
+<!-- Comment: Thu Mar 20 07;28;44 comment by...m mattson -->
+GAM turned red, heartbeat pink.  Voice alarm claims node unreachable.
+<!-- Comment: Thu Mar 20 07;33;31 comment by...m mattson -->
+GAM has just turned green again.
+<!-- Date: Thu Mar 20 07:10:17.213 2003 -->
+on vxmon b0imu00 red H (Heap corruption). reboot the crate and cleared the problem.
+<!-- Author: Chun -->
+
+
+<!-- Date: Thu Mar 20 07:26:52.981 2003 -->
+Ch 13 sh

@@ -1,0 +1,12 @@
+lf-cal, rms=0.206599Jy  sigma=0.001406
+! Fit after  self-cal, rms=0.203720Jy  sigma=0.001332
+dynam = dynam - 0.75
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmin=0.8495 mas, bmaj=2.37 mas, bpa=-8.269 degrees
+! Estimated noise=510.09 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0037397 Jy
+! Component:

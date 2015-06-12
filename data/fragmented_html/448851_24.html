@@ -1,0 +1,21 @@
+			    jQuery.post("/1663/sendToFriend/632", params,  closeDialog());
+	        },
+	        "Cancel": closeDialog()
+	    }
+	});
+
+});
+
+function closeDialog(){
+	jQuery('#sendtofriend').dialog('close');
+}
+
+//jQuery('#sendtofriend').hide();
+//
+//Event.observe('sendEmail','click',function(b) {
+//	var params = Form.serializeElements([$('ItemEmailFriend'),$('ItemEmailSelf'),$('ItemMessage')]);
+//	new Ajax.Updater('sendToFriend','',{
+//		method: 'post',
+//		evalScripts: true,
+//		parameters: params,
+//		onLoading: f

@@ -1,0 +1,4 @@
+
+cat /dev/null >../Linux-i686/G4dyb.stamp
+cd ../Linux-i686/; QUIET=; /home/dayabay/code/CMT/v1r20p20070524/mgr/cmt_make_shlib_common.sh extract "Linux-i686,debug" G4dyb 
+g++ -L/home/tagg/autodaya/InstallArea/Linux-i686/lib -shared -o libG4dyb.so "G4dybtemp_shlib/GLG4PosGen.o" "G4dybtemp_shlib/GLG4VertexGen.o" "G4dybtemp_shlib/GeantToRootUtil.o" "G4dybtemp_shlib/LogConfigurator.o" "G4dybtemp_shlib/LogG4dyb.o" "G4dybtemp_shlib/dywAnalysisManager.o" "G4dybtemp_shlib/dywCerenkov.o" "G4dybtemp_shlib/dywConstruct

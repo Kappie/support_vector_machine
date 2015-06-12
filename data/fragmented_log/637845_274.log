@@ -1,0 +1,3 @@
+ipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual    /home/tagg/autodaya/G4dyb/src/dywXMLReader.cc
+computing dependencies for dyw_PMT_LogicalVolume.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SITE/src"  -pi

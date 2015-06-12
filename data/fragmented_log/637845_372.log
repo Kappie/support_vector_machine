@@ -1,0 +1,6 @@
+n-virtual destructor
+/home/tagg/autodaya/G4dyb/src/dywSteppingAction.cc: In member function 'virtual void dywSteppingAction::UserSteppingAction(const G4Step*)':
+/home/tagg/autodaya/G4dyb/src/dywSteppingAction.cc:215: warning: unused variable 'thePostPoint'
+/home/tagg/autodaya/G4dyb/src/dywSteppingAction.cc:217: warning: unused variable 'boundaryStatus'
+../Linux-i686/dywPhysicsListMessenger.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tag

@@ -1,0 +1,18 @@
+}
+			else if (navigator.plugins&&navigator.plugins.length){
+				for (i=0;i<navigator.plugins.length;i++){
+					if (navigator.plugins[i].name.indexOf('Shockwave Flash')!=-1){
+						return navigator.plugins[i].description.split(" ")[2];
+					}
+				}
+			}
+			return "Not enabled";
+		})();
+		WT.slv=(function(){
+			var slv="Not enabled";
+			try{     
+				if (navigator.userAgent.indexOf('MSIE')!=-1){
+					var sli = new ActiveXObject('AgControl.AgControl');
+					if (sli){
+						slv="Unknown";
+					

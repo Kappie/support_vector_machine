@@ -1,0 +1,5 @@
+e/tagg/autodaya/Base/Util/unit-test/NamedFactoryTest.cc
+../Linux-i686/SingletonUnitTest.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/External/SITE/src"  -g -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wpointer-arith -Woverloaded-virtual  -D_GNU_SOURCE -o SingletonUnitTest.o                                -I/home/tagg/autodaya/Base/Util/unit-test /home/tagg/autodaya/Base/Util/unit-test/SingletonUnitTest.cc
+library
+cd ../L

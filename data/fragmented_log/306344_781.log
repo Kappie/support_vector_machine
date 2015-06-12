@@ -1,0 +1,14 @@
+,on,on,off,locked,26.04
+9830221444751/rx/1F(70k),on,a,on,on,on,off,locked,45.14
+9830221444751:sx2c1=9
+9830221445593/pass/9,9,auto,-110.0,-110.0,-109.3,-110.6,0.7,-0.6
+9830221445948:fastr=0m24s
+9830221445997?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830221452380:!302215220
+9830221514788;onsource
+9830221514788#antcn#Check if antenna is on-source
+9830221514848/onsource/TRACKING
+9830221522000:preob
+9830221522000#antcn#Check if antenna is on-source
+9830221522067/onsource/TRACKING
+983022152

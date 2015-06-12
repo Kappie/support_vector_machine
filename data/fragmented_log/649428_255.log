@@ -1,0 +1,3 @@
+ibs/libxml2.so -ldl -lz -lm  -Wl,--rpath -Wl,/usr/local/cdat/Externals/lib
+creating testRegexp
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT    -I/usr/local/cdat/Externals/include   -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/include  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpoint

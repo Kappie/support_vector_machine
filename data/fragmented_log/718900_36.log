@@ -1,0 +1,11 @@
+_cutoff)
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0322945 Jy
+! Component: 100  -  total flux cleaned = 0.0341487 Jy
+! Total flux subtracted in 100 components = 0.0341487 Jy
+! Clean residual min=-0.025279 max=0.026844 Jy/beam
+! Clean residual mean=0.000500 rms=0.006202 Jy/beam
+! Combined flux in latest and established models = 2.23323 Jy
+! Performing phase self-cal over 0.6 minute time intervals
+! Adding 11 model components to the UV plane model.
+! The established m

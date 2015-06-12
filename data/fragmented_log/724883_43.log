@@ -1,0 +1,13 @@
+ing is not currently selected.
+loglevs -1,2048,2
+! The new contour levels are:
+!  -1 1 2 4 8 16 32 64 128 256 512 1024 2048
+cmul = imstat(rms)*3
+! Inverting map and beam 
+! Estimated beam: bmin=1.254 mas, bmaj=4.656 mas, bpa=-5.949 degrees
+! Estimated noise=1657.97 mJy/beam.
+mappl cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 1.254 x 4.656 at -5.949 degrees (North through East)
+! Clean map  min=-0.0048609  max=0.77544 Jy/beam
+![Exited script file: gonzo_pl

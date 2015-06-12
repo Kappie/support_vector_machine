@@ -1,0 +1,23 @@
+if (window.event) event.cancelBubble=true
+
+else if (e.stopPropagation) e.stopPropagation()
+
+clearhidemenu()
+
+dropmenuobj=document.getElementById? document.getElementById("dropmenudiv") : dropmenudiv
+
+populatemenu(menucontents)
+
+
+
+if (ie4||ns6){
+
+showhide(dropmenuobj.style, e, "visible", "hidden", menuwidth)
+
+dropmenuobj.x=getposOffset(obj, "left")
+
+dropmenuobj.y=getposOffset(obj, "top")
+
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+"px"
+
+dropmenuobj.style.top

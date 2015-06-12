@@ -1,0 +1,14 @@
+=0.001765 Jy/beam
+! Combined flux in latest and established models = 0.142629 Jy
+! Adding 5 model components to the UV plane model.
+! The established model now contains 36 components and 0.142629 Jy
+! Inverting map 
+uvtaper 0
+! No UV-taper is currently set.
+clean
+! Inverting map and beam 
+! Estimated beam: bmin=3.517 mas, bmaj=8.57 mas, bpa=5.307 degrees
+! Estimated noise=1.13829 mJy/beam.
+! clean: niter=200  gain=0.04  cutoff=0
+! Component: 050  -  total flux cleaned = -0.00112853 Jy
+! Component: 100  -  t

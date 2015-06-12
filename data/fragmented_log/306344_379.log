@@ -1,0 +1,12 @@
+0212423317:tape
+9830212423329/tape/off,03966,norm,stopped,stop,unlock,ready,rem
+9830212423329:postob
+9830212423329:source=0528+134,052806.7,132942.3,1950.0
+9830212423330#antcn#Command a new source
+9830212423369#antcn#Successfully sent new source position to antenna
+9830212423369:sx2c1=17
+9830212423427/pass/17,17,auto,110.0,110.0,110.2,110.2,0.2,0.2
+9830212423773:!302124320
+9830212430356?ERROR ch -370 Total power integrator overflow on IF3
+9830212432000:preob
+9830212432000#antcn#Check if antenna is on-source

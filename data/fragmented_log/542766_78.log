@@ -1,0 +1,10 @@
+3119,norm,stopped,stop,unlock,ready,rem
+9919419163020:postob
+9919419163020:source=2121+053,212114.8,052227.4,1950.0
+9919419163021#antcn#Commanding to new source
+9919419163136#antcn#Source:  2121+053  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919419163136#antcn# RAcommand  320.932   DECcommand   5.588
+9919419163137:wb2c1=1
+9919419163420#matcn#debug: 92 /ASS 0 2:0x1 4:0x3 6:0x5 8:0x7 10:0x9 12:0xb 14:0xd 16:0x0 ? ERROR 7
+9919419163508#matcn#debug: 92 /STA ? ERROR 7
+9919419163590/form/0x8015 0x1004 0x9222 38 3 400

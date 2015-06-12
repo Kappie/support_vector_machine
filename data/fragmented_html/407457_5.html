@@ -1,0 +1,15 @@
+Nothing */ }
+			}
+		var re = new RegExp();
+		re = /&amp;/gi;
+		url = url.replace(re,"&");
+		if(url.search(/[\/\\]/g) >= 0 && blnPopUpsOffScreen==0)
+		{
+			if(document.CS_StaticURL && window.location.href.indexOf(document.CS_StaticURL) == -1)
+				url = '/commonspot/utilities/longproc.cfm?onlyurlvars=1&url=' + escape(url);
+		}
+		var strWinOptions = 'toolbar=no,resizable=yes,scrollbars=yes,menubar=no,location=no';
+		if(arguments.length >= 2 && arguments[2])
+		{
+			var strOptions=arguments[2];
+			var strTopPos=

@@ -1,0 +1,11 @@
+ape/off,07612,norm,stopped,stop,unlock,ready,rem
+9830304572330:postob
+9830304572330:source=1950-613,195049.4,-612313.5,1950.0
+9830304572331#antcn#Command a new source
+9830304572392#antcn#Successfully sent new source position to antenna
+9830304572392:midtp
+9830304572634/tpzero/398,438,488,515,336,321,767,761,21,86
+9830304572658/tpzero/200,220,331,466,438,701,73
+9830304572679/rx/00(front),on,a,on,on,on,off,locked,25.45
+9830304572692/rx/01(rear),on,a,on,on,on,off,locked,39.37
+9830304572703/rx/02(lo),on,a,on,on

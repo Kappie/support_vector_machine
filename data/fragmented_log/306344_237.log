@@ -1,0 +1,12 @@
+10;@sy=run setcl
+9830209530610?ERROR sp   -4 Unrecognized name (not a function or procedure).
+9830209531000:tape
+9830209531011/tape/off,03413,norm,stopped,stop,unlock,ready,rem
+9830209531011:st=for,135
+9830209531024:"data start"
+9830209531024:midob
+9830209531024#antcn#Check if antenna is on-source
+9830209531091/onsource/TRACKING
+9830209531241#wx#/WX/11.7,1015.2, 71.7
+9830209531261?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830209531262?ERROR ib  -10 ibcon initialization failed, g

@@ -1,0 +1,11 @@
+ : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.309.02:00:00.93:scan_name=309-0203,crf23,230
+2003.309.02:00:00.94:source=2037-253,203710.79,-251826.4,1950.0
+2003.309.02:00:01.53#antcn#Command a new source
+2003.309.02:00:01.53#flagr#flagr/antenna,off-source
+2003.309.02:00:02.13#antcn#Successfully sent new source position to antenna
+2003.309.02:00:02.13#flagr#flagr/antenna,new-source
+2003.309.02:00:02.14:setupsx
+2003.309.02:00:05.79/mk5/!play_rate = 0 ;
+2003.309.02:00:05.81/mk5/!mode = 0 ;
+2003.309.02:00:05.83/mk5/!mode? 0 :

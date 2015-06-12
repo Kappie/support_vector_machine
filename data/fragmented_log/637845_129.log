@@ -1,0 +1,7 @@
+brary
+cd ../Linux-i686/; \
+  ar r ../Linux-i686/libUtil.a ../Linux-i686/SingletonManager.o ../Linux-i686/UtilString.o ../Linux-i686/NamedFactory.o ../Linux-i686/Singleton.o
+ranlib ../Linux-i686/libUtil.a
+cat /dev/null >../Linux-i686/Util.stamp
+cd ../Linux-i686/; QUIET=; /home/dayabay/code/CMT/v1r20p20070524/mgr/cmt_make_shlib_common.sh extract "Linux-i686,debug" Util 
+g++ -L/home/tagg/autodaya/InstallArea/Linux-i686/lib -shared -o libUtil.so "Utiltemp_shlib/NamedFactory.o" "Utiltemp_shlib/Singleton.o" "Util

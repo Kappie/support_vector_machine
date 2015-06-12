@@ -1,0 +1,9 @@
+ execution_error : make
+Useless use of a variable in void context at /home/tagg/autodaya/AutoValidation/scripts/AutoValidate.pl line 383.
+Reading configuration from /home/tagg/autodaya/AutoValidation/scripts/av_config.pl
+Running AutoValidator with configuration:
+Macro  Directory: /home/tagg/autodaya/AutoValidation/macros 
+Script Directory: /home/tagg/autodaya/AutoValidation/scripts 
+Output Directory: /home/tagg/autodaya/AutoValidation/output 
+Compare To Run:   yesterday 
+Overwriting existing output (if necc

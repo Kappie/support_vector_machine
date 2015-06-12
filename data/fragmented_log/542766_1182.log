@@ -1,0 +1,15 @@
+518001012:!+3s
+9919518001313:tape
+9919518001319/tape/off,03734,norm,stopped,stop,unlock,ready,rem
+9919518001319:postob
+9919518001319:fastr=2m38s
+9919518002636;source=stow
+9919518002636#antcn#Stowing to zenith
+9919518002741#antcn#Source:  stow  ( Feed = None )
+9919518002741#antcn# AZcommand    0.000   ELcommand   90.000
+9919518004547;phase=off
+9919518010499;source=idle
+9919518010499#antcn#Antenna idle - unlocked SYPARM configuration
+9919518025664:unlod
+9919518025664&unlod/check=*,-tp,-hd
+9919518025664&unlod/

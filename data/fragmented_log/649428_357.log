@@ -1,0 +1,7 @@
+at/Externals/share/doc/libxml2-2.6.31
+/usr/bin/install -c -m 0644 ./Copyright /usr/local/cdat/Externals/share/doc/libxml2-2.6.31
+/bin/sh ./mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/examples
+mkdir -p -- /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/examples
+/usr/bin/install -c -m 0644 ./xmllint.c /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/examples
+/usr/bin/install -c -m 0644 ./testSAX.c /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/examples
+/usr/bin/install -c -m 0644

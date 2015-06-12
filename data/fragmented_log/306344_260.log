@@ -1,0 +1,15 @@
+nlock,ready,rem
+9830210154328:postob
+9830210154328:source=0426-380,042654.7,-380252.0,1950.0
+9830210154329#antcn#Command a new source
+9830210154384#antcn#Successfully sent new source position to antenna
+9830210154384:check2c2
+9830210154384&check2c2/check=*,-tp,-hd
+9830210154384&check2c2/enable=
+9830210154384&check2c2/decode=a,crc,byte
+9830210154384&check2c2/parity=,,ab,on,g1,g3
+9830210154384&check2c2/fastf=15s
+9830210154384&check2c2/!+6s
+9830210154384&check2c2/!*
+9830210154384&check2c2/st=rev,120,off
+983021

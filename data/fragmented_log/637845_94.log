@@ -1,0 +1,5 @@
+TGenericClassInfo* ROOT::GenerateInitInstanceLocal(const dywTrajectory*)':
+../Linux-i686/dywTrajectory_Dict.cc:132: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywTrajectory_Dict.cc: In function 'void G__setup_memfuncdywTrajectories()':
+../Linux-i686/dywTrajectory_Dict.cc:2064: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywTrajectory_Dict.cc:2065: warning: ISO C++ forbids casting between pointer-to-fun

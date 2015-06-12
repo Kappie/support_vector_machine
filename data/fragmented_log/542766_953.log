@@ -1,0 +1,8 @@
+g to new source
+9919513310637#antcn#Source:  4c39.25  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919513310637#antcn# RAcommand  141.745   DECcommand  39.043
+9919513310637:wb2c2=8
+9919513311085/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919513311085/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919513311085/form/map[0].stack[1].head[18] = x00 x00 x02 x02 x04 x04 x06 x06 x08 x08 x0a x0a x0c x0c xff xff
+9919513311085/form/map[0].stack[2].head[2] = xff xff xff xff

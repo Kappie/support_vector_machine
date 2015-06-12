@@ -1,0 +1,16 @@
+0
+total number of scatterers =  2823
+
+==================== Process input NCS or/and find new NCS ====================
+
+Using existing and finding new NCS is disabled.
+Use refinement.main.ncs=true to activate it.
+Look at refinement.ncs for more NCS related parameters.
+
+=================== Write initial parameters into .eff file ===================
+
+Writing effective parameters to file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_381/model_refine_001.eff
+
+Writing geometry restraints to file:
+  /net/

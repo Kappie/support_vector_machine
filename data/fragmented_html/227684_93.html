@@ -1,0 +1,13 @@
+prototype.dcsVar=function(){
+		var dCurrent=new Date();
+		var WT=this.WT;
+		var DCS=this.DCS;
+		WT.tz=parseInt(dCurrent.getTimezoneOffset()/60*-1)||"0";
+		WT.bh=dCurrent.getHours()||"0";
+		WT.ul=navigator.appName=="Netscape"?navigator.language:navigator.userLanguage;
+		if (typeof(screen)=="object"){
+			WT.cd=navigator.appName=="Netscape"?screen.pixelDepth:screen.colorDepth;
+			WT.sr=screen.width+"x"+screen.height;
+		}
+		if (typeof(navigator.javaEnabled())=="boolean"){
+			WT.jo=navigator.javaEnab

@@ -1,0 +1,28 @@
+0
+
+!XSPEC> set nhs [lindex $lpar2 0];
+
+!XSPEC> lindex $lpar3 0
+
+!XSPEC> set gs [lindex $lpar3 0];
+
+!XSPEC> lindex $lpar4 0
+
+!XSPEC> set norms [lindex $lpar4 0];
+
+!XSPEC> lindex $lpar5 0
+
+!XSPEC> set nhh [lindex $lpar5 0];
+
+!XSPEC> lindex $lpar6 0
+
+!XSPEC> set gh [lindex $lpar6 0];
+
+!XSPEC> lindex $lpar7 0
+
+!XSPEC> set normh [lindex $lpar7 0];
+
+!XSPEC> show fit
+ Chi-Squared =      390.3167     using   375 PHA bins.
+ Reduced chi-squared =      1.066439     for    366 degrees of freedom
+ Null hypothesis probab

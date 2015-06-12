@@ -1,0 +1,11 @@
+13:28.81:scan_name=349-1730,euro74,40,40
+2004.349.17:13:28.81:source=2136+141,213901.31,142336.0,2000.0,neutral
+2004.349.17:13:28.82#flagr#flagr/antenna,new-source
+2004.349.17:13:28.82:setupsx
+2004.349.17:13:28.82&setupsx/"connect the set 1 mark 5a recorder input to"
+2004.349.17:13:28.82&setupsx/"the headstack 2 output of the formatter"
+2004.349.17:13:28.82&setupsx/pcalon
+2004.349.17:13:28.82&setupsx/tpicd=stop
+2004.349.17:13:28.82&setupsx/trkfsx
+2004.349.17:13:28.82&setupsx/tracks=v4,v6
+2004.349.17:13:28.8

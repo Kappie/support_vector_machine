@@ -1,0 +1,10 @@
+sfm/mat=#aa=e800003f$;
+2004.166.17:00:06.46&gpsfm/!+1s
+2004.166.17:00:06.48&gpsfm/gps-fmout=c3
+2004.166.17:00:09.12/gps-fmout/T         +1.02E-05
+2004.166.17:00:09.25?ERROR an -102 Pointing computer command angles are incorrect.
+2004.166.17:00:09.25?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2004.166.17:00:09.27/onsource/SLEWING
+2004.166.17:00:09.29:!2004.166.17:02:06
+2004.166.17:00:10.04#setcl#time/36965990,1,2004,166,17,00,10.00,0.141,1.697,0
+2004.166.17:00:10.04#setcl#model/old,1086862749,109,363

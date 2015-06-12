@@ -1,0 +1,7 @@
+In the process of checking the existing mask, I realized there was no good way of checking the history of previous maskings.  Since the masking may be there either for a calorimeter or a trigger problem, it's very difficult to decide whether one should unmask any tower, other than to take the stand of unmasking everything and then remasking (as Rick and Pedro have been doing). 
+<p> 
+Editorial mode off.  The towers masked were (in Carla notation): 
+<ul> 
+<li>phi=22, eta=19 
+<li>phi= 2, eta=23 
+<li>phi= 3, et

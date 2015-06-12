@@ -1,0 +1,12 @@
+m,moving,nostop,locked,ready,rem
+9919422584306:"data start"
+9919422584306:midob
+9919422584306#antcn#Checking onsource status
+9919422584309#antcn# RAsource   299.494   DECsource  -38.751
+9919422584309#antcn# RAbeam     299.495   DECbeam    -38.749
+9919422584309#antcn# RAdelta      0.001   DECdelta     0.001
+9919422584309?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919422584309/onsource/SLEWING
+9919422584311/wx/6.3,886.5,89.7
+9919422584313/cable/00035.836253E-03
+9919422584320/ifd/23,23,nor,nor,rem,593

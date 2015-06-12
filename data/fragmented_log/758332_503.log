@@ -1,0 +1,8 @@
+^22      0.000     = par   2         4
+   15    3   12   powerlaw   PhoIndex            2.000     = par   3         4
+   16    4   12   powerlaw   norm               1.0000E-03 = par   4         4
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      7458.284     using   331 PHA bins.
+ Reduced chi-squared =      22.94856     for    325 degrees of freedom
+ Null hypothesis probability =  0

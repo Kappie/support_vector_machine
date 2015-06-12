@@ -1,0 +1,16 @@
+etting all isotropic ADP = 10.000: selected atoms: all (2823)
+Shaking sites (RMS = 0.500): selected atoms: all (2823)
+
+==================== Fixing bad ADP in input model (if any) ===================
+
+
+================== Extract refinement strategy and selections =================
+
+individual_sites       = True
+rigid_body             = False
+individual_adp         = True
+group_adp              = False
+tls                    = False
+individual_occupancies = True
+group_occupancies      = False
+group_anomalous 

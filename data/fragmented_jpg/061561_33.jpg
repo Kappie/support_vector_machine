@@ -1,0 +1,13 @@
+</rdf:Description>
+
+ <rdf:Description rdf:about='uuid:58a68eef-a1b2-11db-8858-95fff73d1e6a'
+  xmlns:photoshop='http://ns.adobe.com/photoshop/1.0/'>
+  <photoshop:History></photoshop:History>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:58a68eef-a1b2-11db-8858-95fff73d1e6a'
+  xmlns:tiff='http://ns.adobe.com/tiff/1.0/'>
+  <tiff:Make>EASTMAN KODAK COMPANY</tiff:Make>
+  <tiff:Model>KODAK CX7530 ZOOM DIGITAL CAMERA</tiff:Model>
+  <tiff:Orientation>1</tiff:Orientation>
+  <tiff:XResolution>230/1</tiff:XRe

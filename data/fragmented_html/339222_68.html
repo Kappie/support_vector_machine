@@ -1,0 +1,15 @@
++dExp.toGMTString();
+		var expiry=""; expires="";
+
+		var cur=dCur.getTime().toString();
+		var ses=dSes.getTime().toString();
+		document.cookie=name+"="+"id="+WT.co_f+":lv="+cur+":ss="+ses+expiry+"; path=/"+(((this.fpcdom!=""))?("; domain="+this.fpcdom):(""));
+		var rc=this.dcsIsFpcSet(name,WT.co_f,cur,ses);
+		if (rc!=0){
+			WT.co_f=WT.vt_sid=WT.vt_f_s=WT.vt_f_d=WT.vt_f_tlh=WT.vt_f_tlv="";
+			WT.vt_f=WT.vt_f_a=rc;
+		}
+	}
+	WebTrends.prototype.dcsIsOnsite=function(host){
+		if (host.length>0){
+			

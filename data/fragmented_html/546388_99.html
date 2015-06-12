@@ -1,0 +1,14 @@
+this.dcsGetCookie(name);
+			var id=this.dcsGetIdCrumb(c,"id");
+			var lv=parseInt(this.dcsGetCrumb(c,"lv"));
+			var ss=parseInt(this.dcsGetCrumb(c,"ss"));
+			if ((id==null)||(id=="null")||isNaN(lv)||isNaN(ss)){
+				return;
+			}
+			WT.co_f=id;
+			var dLst=new Date(lv);
+			WT.vt_f_tlh=Math.floor((dLst.getTime()-adj)/1000);
+			dSes.setTime(ss);
+			if ((dCur.getTime()>(dLst.getTime()+1800000))||(dCur.getTime()>(dSes.getTime()+28800000))){
+				WT.vt_f_tlv=Math.floor((dSes.getTime()-adj)/1000);
+				d

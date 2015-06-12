@@ -1,0 +1,22 @@
+  : 72016000_gis3.rmf
+  Auxiliary (ARF) file    : 72016000_gis3.arf
+ Weighting method is standard
+
+
+!XSPEC> setplot command ma 17 on 2;
+
+!XSPEC> setplot command la t Energy spectrum;
+
+!XSPEC> setplot command la y Counts;
+
+!XSPEC> setplot command time off;
+
+!XSPEC> setplot command cs 1.3;
+
+!XSPEC> setplot command h web_pha.gif/gif;
+
+!XSPEC> plot ldata ratio;
+
+!XSPEC> ignore 1-4:5.0-7.5;
+ Chi-Squared =      337.6197     using   329 PHA bins.
+ Reduced chi-squared =      1.045262     for    323 degrees of freed

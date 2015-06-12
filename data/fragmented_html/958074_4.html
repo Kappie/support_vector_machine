@@ -1,0 +1,18 @@
+antiate browser detect
+		var detectBrowser = new detectBrowserClass({ 
+			'opera': 9,
+			'safari': 2,
+			'firefox': 1.5,
+			'ie': 6
+		});
+		
+		// Support legacy browsers
+		if(detectBrowser.modernBrowser() == true){
+			var css = '<style title="css" type="text/css">' + "\n" +
+					  '@import "/cm/newui/blog/css/nasa/blog_xsl.css";' + "\n" +
+					  '</style>';
+					  
+			document.write(css); 
+		}else{
+			var legacyMsg = '<center><div class="site_errors">' + "\n" +
+							'<div class="floatType_site_error_top">

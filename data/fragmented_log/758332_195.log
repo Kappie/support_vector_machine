@@ -1,0 +1,13 @@
+ > save events use=no clobber=yes 74035000_sis0_bgd_hard.evt
+Wrote events list to file 74035000_sis0_bgd_hard.evt
+!xsel:ASCA-SIS0-BRIGHT2 > clear events
+!xsel:ASCA-SIS0-BRIGHT2 > clear pha_cutoff
+!xsel:ASCA-SIS0-BRIGHT2 > clear region all
+!xsel:ASCA-SIS0-BRIGHT2 > exit save=no
+ 
+gnt_infrm: Extracting bgd data for sis1...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S1CCDPOW
+      1 3C_254      BRIGHT2     HIGH        07/12/96    13:20:13    0.36E+05     4369 00

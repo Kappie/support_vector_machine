@@ -1,0 +1,5 @@
+AL QIE run 121552.  get three failures - wcal04, ccal12, ccal05.  done after calib_load to check all went well.  Consumer = QIE.  this stayed on until I switched from Qie to Generic calibration, three calibrations later...(cot) 
+<li>SMX QIE run 121553.  okay.  Consumer = CES CALIB.  stayed on until switched from Qie to Generic calibration 
+<li>TOF run 121554.  showed a lot of failures in all wcal crates.   
+Consumer = TOF QIE.  stayed on until switched from Qie to  Generic calibration 
+<li>COT run 121555.  

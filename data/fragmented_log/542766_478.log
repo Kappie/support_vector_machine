@@ -1,0 +1,9 @@
+03284120:postob
+9919503284120:source=0402-362,040202.6,-361311.8,1950.0
+9919503284121#antcn#Commanding to new source
+9919503284236#antcn#Source:  0402-362  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919503284236#antcn# RAcommand   60.962   DECcommand -36.084
+9919503284236:wb2c2=4
+9919503284684/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919503284684/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919503284684/form/map[0].stack[1].head[18] = x00 x00 x02 x02 x04 x0

@@ -1,0 +1,15 @@
+However SVXMON 
+	is running (same as on June 4). Got help from Badgett 
+ 
+21:45   Bad ladder which SVX expert requested to be 
+	power-cycled: failed, so ladder lost until access. 
+ 
+21:30-22:15 L2 Decision Timeouts. Paged L2 person. Paged 
+	SVT. SVX is the culprit ? Paged Steve Nahn. 
+ 
+22:20   Somehow we are running w/dynamic prescales (DPS) 
+	disabled !! L1/2/3 rate are consequently low. 
+	Restarted a new run w/DPS on. 
+ 
+23:10   TEVMON ALARM (spike on C:B0PAGC, abort gap). 
+	SVX set to stdby and investig

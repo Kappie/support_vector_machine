@@ -1,0 +1,8 @@
+es on after the first BRD_HSD, even though no BRD_SEL* or TOW_HAS_SD0* is seen. Observed correct FLAG_OUTs 
+(0 qnd 1) as well as FLAG_OUT2 being set when cluster skipping conditions are met. Need more investigation.</pre>
+<!-- Author: monica -->
+
+
+<!-- Date: Wed Oct 17 18:02:01 2001 -->
+<pre>Tried to get more insight into cluster merging problem. 
+Had to spend most of my time trying to understand why CLIST is seemingly losing sync in the old fashion, i.e. not all of the clusters in the event are passed to M

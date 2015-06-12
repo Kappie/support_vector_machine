@@ -1,0 +1,19 @@
+; }
+			
+			this.getInfo = function (){
+				var info = "Browser name: " + nBrowser + "<br />" +
+						   "Browser version: "+ nVersion + "<br />" +
+						   "User Agent: " + nAgent;
+				return info;
+			}
+			
+			this.modernBrowser = function (){				
+				var isModern = false;
+				if(typeof(this.modern[this.browser])=='number' || this.version === null){
+					isModern = ( this.modern[this.browser] <= this.version || this.version === null ) == true ? true :0;				
+				}		
+				return isModern;
+			}
+		}
+		
+		// Inst

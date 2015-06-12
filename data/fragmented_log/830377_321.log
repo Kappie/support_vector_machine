@@ -1,0 +1,15 @@
+to TJD
+ Declination ....... 3.9752E+01          Experiment ........ ASCA     GIS3
+ Filter ............ NONE
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  4- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   First GTI Start ... 11015 20:55:57.008
+ No. of Rows .......           85        Last GTI Stop ..... 11016 05:19:41.018
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ **** Warning : Infiles 

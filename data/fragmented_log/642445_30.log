@@ -1,0 +1,14 @@
+ will also add ntuple  
+creation to his code. This will allow further analysis of  
+events with errors. 
+  We should be able to make use of the dedicated Trigger group 
+disks on fcdfsgi2. Peter Wilson knows what the area is. 
+ 
+Friday: 
+   Tape drives don't seem to be working so no validation of 
+data yet.  
+   Isolation board has energies out of sync with the seed  
+information.  
+   The MBUS is being redesigned because of the difficulty 
+in obtaining RC termination in a SIP package. We will use  
+SMT pull

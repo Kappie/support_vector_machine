@@ -1,0 +1,10 @@
+xel size should ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmin=0.8503 mas, bmaj=2.372 mas, bpa=-8.237 degrees
+! Estimated noise=509.934 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.000433923 Jy
+! Component: 100  -  total flux cleaned = 0.00168703 Jy
+! Component: 150  -  total flux cleaned = 0.00222635 Jy
+! Component: 200  -  total flux cleaned = 0.00238674 Jy
+! Total flux subtracted in 200 components = 0.00238674 Jy
+! Clean residual min=-0.005982

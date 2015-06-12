@@ -1,0 +1,9 @@
+ Warning: no matching file member found for 
+int UtilString::cmp_wildcard(const std::string &s, const std::string &w)
+Possible candidates:
+  int cmp_wildcard(const std::string &s, const std::string &w)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:214: Warning: no matching file member found for 
+std::string UtilString::ToUpper(const std::string &str)
+Possible candidates:
+  std::string ToUpper(const std::string &str)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:230: Warning: no matching file member foun

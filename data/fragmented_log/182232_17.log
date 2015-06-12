@@ -1,0 +1,5 @@
+okay.  Consumer = COT CTT.  all consumers cleared, and this consumer stops when end of calibration reached 
+<li>MUON run 121556.  okay.  Consumer = NONE SHOWN.  This calibration did NOT make it to DB. 
+<li>CLC QIE run 121557.  one failure in ADMEM 16, CLC00.  Consumer = QIE.  consumer stops when end of calibration reached 
+<li>CAL LED run 121558.  okay.  Consumer = LED_0.  consumer stops when end of calibration reached 
+<li>XENON FPED run 121559.  okay.  Consumer = XEF_0.  consumer stops when end of calibra

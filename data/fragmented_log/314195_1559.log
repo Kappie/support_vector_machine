@@ -1,0 +1,13 @@
+4&unlod/rec=unload
+2004.167.09:24:43.34&unlod/xdisp=on
+2004.167.09:24:43.34&unlod/"**dismount this tape now**"
+2004.167.09:24:43.34&unlod/wakeup
+2004.167.09:24:43.34&unlod/xdisp=off
+2004.167.09:24:43.34&unlod/!+40s
+2004.167.09:24:43.34&unlod/rel
+2004.167.09:24:43.34&unlod/clocks
+2004.167.09:24:43.36&bell/mat=#aa=d8000002$
+2004.167.09:24:43.36&bell/!+7s
+2004.167.09:24:43.36&bell/mat=#aa=d8000000$
+2004.167.09:24:53.64?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.09:24:53.64?ERROR ch -350

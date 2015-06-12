@@ -1,0 +1,12 @@
+self-cal, rms=1.422045Jy  sigma=0.014490
+! Fit after  self-cal, rms=0.706804Jy  sigma=0.007535
+! clrmod: Cleared the established, tentative and continuum models.
+! Redundant starting model cleared.
+uvw 2,-1
+! Uniform weighting binwidth: 2 (pixels).
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.678% of the data.
+!  The x-axis pixel size s

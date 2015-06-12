@@ -1,0 +1,16 @@
+ppl
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+mappl cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 3.715 x 7.177 at -8.323 degrees (North through East)
+! Clean map  min=-0.068255  max=2.1996 Jy/beam
+! 
+! Move the cursor into the plot window and press 'H' for help
+gscale true
+! Performing overall amplitude self-cal
+! 
+! Correcting IF 1.
+!  Telescope amplitude corrections in sub-array 1:
+!   BR        0.99     FD       

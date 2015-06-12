@@ -1,0 +1,14 @@
+ory to /local/data/tproc/nandra/processing/75084000/aux/
+ 
+!ascascreen_sis0:ASCA-SIS0 > set dumpcat
+Obscat listing off
+!ascascreen_sis0:ASCA-SIS0 > set datamode BRIGHT2
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > make obscat cat_filt=@75084000_sis0_obscat.sel lststr = '[af][dt]*[Ss]0*[HhMmLl].unf'
+''!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > choose 1-** switch=yes
+ 
+   Setting datamode to BRIGHT2
+ 
+Got the minimum time resolution of the chosen data:  0.40000E+01,
+ 
+Getting Min and Max for Energy Column...
+Got min and ma

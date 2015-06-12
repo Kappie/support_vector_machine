@@ -1,0 +1,16 @@
+ibilities.
+! Selecting polarization: RR,  channels: 1..1
+startmod
+! Applying default point source starting model.
+! Performing phase self-cal
+! Adding 1 model components to the UV plane model.
+! The established model now contains 1 components and 1 Jy
+! 
+! Correcting IF 1.
+!  A total of 30 telescope corrections were flagged in sub-array 1.
+! 
+! Fit before self-cal, rms=1.361193Jy  sigma=16.151363
+! Fit after  self-cal, rms=1.361153Jy  sigma=16.151297
+! 
+! Reinstating the default IF.
+! clrmod: Cleared the es

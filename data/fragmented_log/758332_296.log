@@ -1,0 +1,16 @@
+ASCAEXPO_V0.9b
+ 
+    reading data file: /tproc/nandra/processing/74035000/work/74035000_sis0.evt
+    reading   gti ext: STDGTI
+    reading    hp ext: HOT_PIXELS
+    querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/sis/bcf/s0_teldef_070294.fits
+    reading inst file: /tproc/nandra/processing/74035000/work/74035000_sis0.effm
+ 
+    making an inst map...
+  
+ SIS AREA DISC ENABL         OFF
+  
+              CHIP:            0           1           2           3
+  
+ CCD POWER  ON/OFF:          OFF  

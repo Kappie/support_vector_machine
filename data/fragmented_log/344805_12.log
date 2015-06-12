@@ -1,0 +1,11 @@
+52:14.44&ifdsx/patch=
+2003.308.16:52:14.44&ifdsx/patch=lo1,1l,2l,3l,4h
+2003.308.16:52:14.44&ifdsx/patch=lo2,9l,10l,11h,12h,13h,14h
+2003.308.16:52:14.45&ifdsx/patch=lo3,5h,6h,7h,8h
+2003.308.16:52:15.93&checkcrc/"comment out the following lines if you do _not_ have a mark iii decoder
+2003.308.16:52:15.93&checkcrc/"st=*,*,on
+2003.308.16:52:15.93&checkcrc/"decode=a,crc
+2003.308.16:52:15.93&checkcrc/"decode
+2003.308.16:52:15.97/mk5/!play_rate = 0 ;
+2003.308.16:52:15.99/mk5/!mode = 0 ;
+2003.308.16:52:16.01/bank_c

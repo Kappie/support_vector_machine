@@ -1,0 +1,12 @@
+lor_ramp..            48           48
+   48   3.000   0.900   0.350   0.350   0.035   0.035
+  leaving set_image_colortable: ncols =            48
+  col_offset / scale_loc =    0.8333333        7000.000    
+  Regular image contour fill without raster
+  Drawing colorbar:           153          141
+  colorbar: scale_l,scale_h,scale    0.000000        7000.000     
+    1.000000    
+  l_integral,l_discrete,l_divisible,l_set_contours  F  F  T  F
+  Colorbar left edge =        0
+  Colorbar right edge = 7000    
+  P

@@ -1,0 +1,12 @@
+s value for device ve overflowed or were less than zero.
+9830220551368/tsys2/73.3,74.5,76.8,71.9,72.6,$$$$$$$$,135.5
+9830220551368:!302205640
+9830220551442?ERROR ch -370 Total power integrator overflow on IF3
+9830220553642?ERROR ch -370 Total power integrator overflow on IF3
+9830220555839?ERROR ch -370 Total power integrator overflow on IF3
+9830220562037?ERROR ch -370 Total power integrator overflow on IF3
+9830220564000:"data stop"
+9830220564000:et
+9830220564016:!+3s
+9830220564317:tape
+9830220564329/tape/of

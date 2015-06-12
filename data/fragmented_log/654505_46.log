@@ -1,0 +1,11 @@
+42
+sh-trace: umask 022
+sh-trace: cd /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/BUILD
+sh-trace: cd DBI-1.40
+sh-trace: LANG=C
+sh-trace: export LANG
+sh-trace: unset DISPLAY
+sh-trace: rm -rf /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383
+sh-trace: make install
+Installing /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr/lib/perl5/vendor_perl/5.8.5/i386-linux-thread-multi/auto/DBI/dbd_xsh.h
+Installing /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr/lib/perl5/vendor_perl/5.8.5/i386-linux-thre

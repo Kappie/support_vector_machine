@@ -1,0 +1,12 @@
+,03367,norm,stopped,stop,unlock,ready,rem
+9919418075421:postob
+9919418075421:source=1606+106,160623.4,103700.0,1950.0
+9919418075422#antcn#Commanding to new source
+9919418075537#antcn#Source:  1606+106  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919418075537#antcn# RAcommand  242.188   DECcommand  10.491
+9919418075537:check2c1
+9919418075537&check2c1/check=*,-tp,-hd
+9919418075537&check2c1/form4=/rec 0
+9919418075537&check2c1/peak=3,1,r
+9919418075537&check2c1/decode=a,crc,byte
+9919418075538&check2c1/parity=,,ab,on,m

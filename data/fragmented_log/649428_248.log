@@ -1,0 +1,3 @@
+sr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testAutomata.o -MD -MP -MF .deps/testAutomata.Tpo -c -o testAutomata.o testAutomata.c
+mv -f .deps/testAutomata.Tpo .deps/testAutomata.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc 

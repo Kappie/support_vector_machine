@@ -1,0 +1,13 @@
+5,-4392,20605,7.943,18.491,rate
+9919511550700:"data stop"
+9919511550700:et
+9919511550713:!+3s
+9919511551014:tape
+9919511551020/tape/off,15911,norm,stopped,stop,unlock,ready,rem
+9919511551021:postob
+9919511551021:source=0552+398,055201.4,394821.9,1950.0
+9919511551023#antcn#Commanding to new source
+9919511551142#antcn#WARNING: source presently below limit horizon
+9919511551142#antcn#Source:  0552+398  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919511551142#antcn# RAcommand   88.860   DECcommand  39.811
+99195115511

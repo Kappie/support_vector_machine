@@ -1,0 +1,11 @@
+d: Region      Time     Phase       Cut
+          85891      1992          83820         0         0        79
+ Writing events file
+   1992 events written to the output file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+         85891      1992          83820         0         0        79
+   in  13680.     seconds
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /local/data/tproc/nandra

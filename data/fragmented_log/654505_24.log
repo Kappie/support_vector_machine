@@ -1,0 +1,8 @@
+"dep_installer" -> "/usr/bin/yum -ty install"
+[Util.pm/1155/run_cmd()] About to run chroot /var/tmp/mezzanine.temp.dironly.29689.243e /usr/bin/yum -ty install perl-Time-HiRes
+pkg-installer:  error: failed to open /etc/mtab: No such file or directory
+pkg-installer:  error: failed to open /etc/mtab: No such file or directory
+pkg-installer:  Setting up Install Process
+pkg-installer:  Setting up Repos
+pkg-installer:  Reading repository metadata in from local files
+pkg-installer:  Parsing package install argumen

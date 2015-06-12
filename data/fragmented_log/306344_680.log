@@ -1,0 +1,12 @@
+713/rx/17(pres),on,a,on,on,on,off,locked,3.052
+9830219161724/rx/1E(20k),on,a,on,on,on,off,locked,25.00
+9830219161735/rx/1F(70k),on,a,on,on,on,off,locked,44.11
+9830219161735:sx2c1=5
+9830219162356/pass/5,5,auto,-220.0,-220.0,-219.8,-219.9,0.2,0.1
+9830219162701:fastr=0m20s
+9830219162750?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830219164733:!302192030
+9830219203000:preob
+9830219203000#antcn#Check if antenna is on-source
+9830219203048/onsource/TRACKING
+9830219203289/tpical/49606,47052,425

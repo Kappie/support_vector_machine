@@ -1,0 +1,5 @@
+ction and pointer-to-object
+../Linux-i686/dywOpticalTrajectory_Dict.cc: In function 'void G__setup_memfuncdywOpticalPhotonTrajectoryData()':
+../Linux-i686/dywOpticalTrajectory_Dict.cc:864: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywOpticalTrajectory_Dict.cc:865: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywOpticalTrajectory_Dict.cc:866: warning: ISO C++ forbids casting between pointer-to-function 

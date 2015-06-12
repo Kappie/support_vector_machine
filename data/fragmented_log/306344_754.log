@@ -1,0 +1,11 @@
+f,07967,norm,stopped,stop,unlock,ready,rem
+9830220564329:postob
+9830220564329:source=1101-536,110141.0,-534049.5,1950.0
+9830220564329#antcn#Command a new source
+9830220564366#antcn#Successfully sent new source position to antenna
+9830220564367:midtp
+9830220564610/tpzero/405,444,477,509,335,313,756,763,14,88
+9830220564632/tpzero/203,215,324,466,428,694,73
+9830220564651/rx/00(front),on,a,on,on,on,off,locked,14.83
+9830220564662/rx/01(rear),on,a,on,on,on,off,locked,27.41
+9830220564673/rx/02(lo),on,a,on,on,on,of

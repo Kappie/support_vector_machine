@@ -1,0 +1,6 @@
+../../mkinstalldirs /usr/local/cdat/Externals/include/libxml2/libxml
+mkdir -p -- /usr/local/cdat/Externals/include/libxml2/libxml
+make[5]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/include/libxml'
+test -z "/usr/local/cdat/Externals/include/libxml2/libxml" || /bin/mkdir -p "/usr/local/cdat/Externals/include/libxml2/libxml"
+ /usr/bin/install -c -m 644 'SAX.h' '/usr/local/cdat/Externals/include/libxml2/libxml/SAX.h'
+ /usr/bin/install -c -m 644 'entities.h' '/usr/local/cdat/Externals/inclu

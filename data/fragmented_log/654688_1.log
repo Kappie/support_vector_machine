@@ -1,0 +1,16 @@
+tablished, tentative and continuum models.
+! Redundant starting model cleared.
+mappl
+! mapplot: No map or beam yet created - use the 'mapsize' command.
+! Error occured in command: mapplot
+! 
+mapsize 1024, 0.5
+! Map grid = 1024x1024 pixels with 0.500x0.500 milli-arcsec cellsize.
+mappl
+! Inverting map and beam 
+! Estimated beam: bmin=3.521 mas, bmaj=7.231 mas, bpa=-8.192 degrees
+! Estimated noise=3.37335 mJy/beam.
+! 
+! Move the cursor into the plot window and press 'H' for help
+clean 75, 0.03, 0
+! clean: nite

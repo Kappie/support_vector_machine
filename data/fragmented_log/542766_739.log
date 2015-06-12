@@ -1,0 +1,11 @@
+509191684/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919509191684/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919509191755/pass/6,6,auto,-220.0,-220.0,-220.1,-220.2,-0.1,-0.2
+9919509191770:!195093040
+9919509304000:tape
+9919509304005/tape/off,01899,norm,stopped,stop,unlock,ready,rem
+9919509304005:st=rev,80
+9919509304020:!195093050
+9919509305000:preob
+9919509305000#antcn#Checking onsource status
+9919509305003#antcn# RAsource  

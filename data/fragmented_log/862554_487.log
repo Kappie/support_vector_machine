@@ -1,0 +1,15 @@
+E-02  Bins   1339
+Writing output file: /tproc/nandra/processing/72016000/work/72016000_gis2_bgd_16
+ 
+gnt_infrm: Countrate for GIS hard-band...
+ 
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_gis2_bgd_hard
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_1040            Start Time (d) ....  9583 16:55:15.646
+ FITS Extension ....  1 - `EVENTS    `   Stop Time (d) .....  9584 05:03:15.646
+ No. of Rows .......          811        B

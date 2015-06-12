@@ -1,0 +1,6 @@
+ll be with cal triggers on noisy towers. 
+Steve and I compared the noisy ones to the masked channels 
+in traceDirac.  It looks like there are a few in the plug and 
+perhaps elsewhere that might be nice to mask, as they keep triggering much more than others.  We've all decided that 2GeV 
+is too low for the sum Et threshold, but also things might be helped if we got rid of only a few noisy channels throughout the 
+whole detector.  This is something Rick or I could look into later when we see the rates when we

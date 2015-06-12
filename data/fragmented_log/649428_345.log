@@ -1,0 +1,6 @@
+libxml/valid.h'
+ /usr/bin/install -c -m 644 'xlink.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xlink.h'
+ /usr/bin/install -c -m 644 'xmlversion.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlversion.h'
+ /usr/bin/install -c -m 644 'DOCBparser.h' '/usr/local/cdat/Externals/include/libxml2/libxml/DOCBparser.h'
+ /usr/bin/install -c -m 644 'catalog.h' '/usr/local/cdat/Externals/include/libxml2/libxml/catalog.h'
+ /usr/bin/install -c -m 644 'threads.h' '/usr/local/cdat/Externals/include/libxml2/l

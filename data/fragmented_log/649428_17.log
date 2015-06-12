@@ -1,0 +1,20 @@
+s
+checking for strerror... yes
+checking for finite... yes
+checking for isnand... no
+checking for fp_class... no
+checking for class... no
+checking for fpclass... no
+checking for strftime... (cached) yes
+checking for localtime... yes
+checking for gettimeofday... yes
+checking for ftime... yes
+checking for stat... yes
+checking for _stat... no
+checking for signal... yes
+checking for printf... yes
+checking for sprintf... yes
+checking for fprintf... yes
+checking for snprintf... yes
+checking for vfprintf... yes
+che

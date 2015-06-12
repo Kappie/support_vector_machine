@@ -1,0 +1,10 @@
+:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.22:38:04.92/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.22:38:05.09:!2001.295.22:48:08
+2001.295.22:48:08.00:tape
+2001.295.22:48:08.12/tape/off,16515,norm,stopped,stop,unlock,ready,rem
+2001.295.22:48:08.12:st=rev,160
+2001.295.22:48:08.28:!2001.295.22:48:08
+2001.295.22:48:08.28:preob
+2001.295.22:48:08.30#antcn#Checking onsource status
+2001.295.22:48:08.31#antcn# RAso

@@ -1,0 +1,26 @@
+//////////////////////////////
+
+function next_frame()   // increment frame logic (TODO - work through equivilent  "mod" logic....
+{
+  frame=frame+dir;
+  if (frame < rstart) {
+    frame=rstop;
+    if (swingon) frame=rstart;
+    } else 
+    {
+      if (frame > rstop) {
+        frame=rstart;
+        if (swingon) frame=rstop;
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+  
+function animate()  // control movie loop
+{
+ var j;
+ next_frame();
+ j=frame+1;
+ if (image

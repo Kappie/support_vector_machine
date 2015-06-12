@@ -1,0 +1,10 @@
+-370 Total power integrator overflow on IF3
+9830303075951?ERROR ch -370 Total power integrator overflow on IF3
+9830303082149?ERROR ch -370 Total power integrator overflow on IF3
+9830303084347?ERROR ch -370 Total power integrator overflow on IF3
+9830303090546?ERROR ch -370 Total power integrator overflow on IF3
+9830303092743?ERROR ch -370 Total power integrator overflow on IF3
+9830303093000:preob
+9830303093000#antcn#Check if antenna is on-source
+9830303093033/onsource/TRACKING
+9830303093274/tpical/54086,5135

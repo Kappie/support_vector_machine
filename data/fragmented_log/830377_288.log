@@ -1,0 +1,11 @@
+A            Mission/Satellite name
+  INSTRUME  - GIS3            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 15322.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 3.66360E-02     Background scaling factor
+  BACKFILE  - 76052020_gis3_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 76052020_gis3.rmf
+  ANCRFILE  -

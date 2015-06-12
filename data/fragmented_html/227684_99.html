@@ -1,0 +1,24 @@
+it(" ")[2];
+					}
+				}
+			}
+			return "Not enabled";
+		})();
+		WT.slv=(function(){
+			var slv="Not enabled";
+			try{     
+				if (navigator.userAgent.indexOf('MSIE')!=-1){
+					var sli = new ActiveXObject('AgControl.AgControl');
+					if (sli){
+						slv="Unknown";
+					}
+				}
+				else if (navigator.plugins["Silverlight Plug-In"]){
+					slv="Unknown";
+				}
+			}
+			catch(e){
+			}
+			if (slv!="Not enabled"){
+				var i,j,v;
+				if ((typeof(Silverlight)=="object")&&(typeof(Silverlight.

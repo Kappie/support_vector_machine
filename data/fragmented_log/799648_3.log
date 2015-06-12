@@ -1,0 +1,18 @@
+----------------
+
+Processing inputs. This may take a minute or two.
+
+Command line parameter definitions:
+  refinement.modify_start_model.adp.set_b_iso = 10
+
+  refinement.modify_start_model.sites.shake = 0.5
+
+  refinement.main.number_of_macro_cycles = 5
+
+Working crystal symmetry after inspecting all inputs:
+  Unit cell: (72.0062, 45.7567, 87.2539, 90, 90, 90)
+  Space group: P 21 21 21 (No. 19)
+
+/net/cci-filer1/vol1/tmp/phzwart/tassos/trial/model.pdb
+  Monomer Library directory:
+    "/net/rosie/scratch3/phzwa

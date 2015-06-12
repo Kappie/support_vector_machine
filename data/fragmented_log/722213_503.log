@@ -1,0 +1,3 @@
+ng limits: user 1 6
+Display of image '/tproc/nandra/processing/75084000/work/75084000_sis1_det.img' complete!
+Executing GIF creation command '(/usr/local/saord/bin.linux/xpaget 'SAO041500155075084000' colormap display > /tmp/saotng.lut; /usr/local/saord/bin.linux/xpaget 'SAO041500155075084000' display_data | /usr/local/saord/bin.linux/fits2gif -luts /tmp/saotng.lut > /tproc/nandra/processing/75084000/work/75084000_sis1.gif; echo "GIF file created!" | /usr/local/saord/bin.linux/xpaset SAO041500155075084000 m

@@ -1,0 +1,19 @@
+65255102284253E+03
+-------------------------------------
+Exposure time in 1-CCD mode: 5693
+Exposure time in 2-CCD mode: 14147
+Exposure time in 4-CCD mode: 0
+-------------------------------------
+ 
+gnt_infrm: Using 2-CCD mode.
+ 
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Applies standard clean criteria to all modes of ASCA data.
+
+Output:
+   -- A single cleaned events file (.evt) except in MPC mode 
+   -- An image for the entire detector (.img) except in FAST and MPC modes
+   -- The timing filters (

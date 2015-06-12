@@ -1,0 +1,13 @@
+ent.indexOf('Netscape');
+		     this.version = nAgent.substring((strIndex + 9), (strIndex + 12));
+		     this.browser = 'netscape';
+		}else{
+		     this.browser = nBrowser.toLowerCase();
+		     this.version = null;
+		}
+		this.whichBrowser = function (){ return this.browser; }
+		this.whichVersion = function (){ return this.version; }
+		this.whichOS = function (){	return this.os; }
+		this.getInfo = function (){
+		     var info = "Browser name: " + nBrowser + "<br />" +
+		     "Browser version: "+ nVersion + "

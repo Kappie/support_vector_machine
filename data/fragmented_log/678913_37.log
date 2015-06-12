@@ -1,0 +1,11 @@
+file: 0537-441_S.uvf
+! Writing 12 model components to file: 0537-441_S.mod
+! wwins: Wrote 2 windows to 0537-441_S.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 1.936 x 3.171 at -48.85 degrees (North through East)
+! Clean map  min=-0.033803  max=1.9905 Jy/beam
+! Writing clean map to FITS file: 0537-441_S.fits
+! Writing difmap environment to: 0537-441_S.par
+print "****************************"
+! **************************** 
+print "*** Now, make some plots *

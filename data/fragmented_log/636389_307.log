@@ -1,0 +1,10 @@
+ge:     0.000000       9.9996984E-02
+  input scale:    1.0000000E-03
+  Colortable is acc    0.000000       1.0000001E-02            0  F  F  F  T
+  ccpfil_sub - scale,scale_loc =    1.0000000E-03    0.000000    
+  subroutine set_image_colortable: ncols =            14
+  subroutine generate_colortable: ncols =            14
+  Reading colortable /data/lapb/tw/fsl-linux9/data/static//www/acc.lut
+  Subroutine color_ramp..             1            1
+    1   0.600   0.700   0.250   0.192   0.075   0.250
+  Subrout

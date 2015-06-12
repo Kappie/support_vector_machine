@@ -1,0 +1,18 @@
+the body you're working with).
+   C
+ 
+   C
+   C        Find the epoch for which the inertial to body equator and
+   C        prime meridian transformation should be computed.
+   C
+            IF ( CORR .EQ. 'NONE' ) THEN
+               EPOCH = ET
+            ELSE
+               EPOCH = ET - LT
+            END IF
+ 
+   C
+   C        Find the transformation from inertial to body equator and
+   C        prime meridian coordinates at the appropriate epoch.
+   C
+            CALL <a href="../spicelib/bodmat.html">

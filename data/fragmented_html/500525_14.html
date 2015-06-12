@@ -1,0 +1,43 @@
+=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+"px"
+
+}
+
+
+
+return clickreturnvalue()
+
+}
+
+
+
+function clickreturnvalue(){
+
+if (ie4||ns6) return false
+
+else return true
+
+}
+
+
+
+function contains_ns6(a, b) {
+
+while (b.parentNode)
+
+if ((b = b.parentNode) == a)
+
+return true;
+
+return false;
+
+}
+
+
+
+function dynamichide(e){
+
+if (ie4&&!dropmenuobj.contains(e.toElement))
+
+delayhidemenu()
+
+else if (ns6&&e.currentTarget!= e.relatedTarget&& !contains_ns6(e.curren

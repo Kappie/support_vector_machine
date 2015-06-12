@@ -1,0 +1,22 @@
+g disabled - assuming answer is no
+
+!XSPEC> model con*wabs*po ;1.0,-1, 0,0,1,1 ;0.0, 0.02,0,0,10000,10000 ;2.,0.2,-1,- ...
+ MTCHMD: failed to open model definition file :
+    /software/lheasoft/release/spectral/xspec/manager/model_11.0.1
+
+!XSPEC> fit 25;
+ No fit: No model components
+
+!XSPEC> tclout param 2;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par2 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 3;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par3 [string trim $xspec_tclout];
+
+!XSPEC> tclou

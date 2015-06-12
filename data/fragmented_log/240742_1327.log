@@ -1,0 +1,10 @@
+01.296.15:59:42.38:!2001.296.15:59:49
+2001.296.15:59:49.00:tape
+2001.296.15:59:49.12/tape/off,15326,norm,moving,nostop,locked,ready,rem
+2001.296.15:59:49.12:data_valid=on
+2001.296.15:59:49.13:midob
+2001.296.15:59:49.13#antcn#Checking onsource status
+2001.296.15:59:49.15#antcn# RAsource   299.523   DECsource  -38.750
+2001.296.15:59:49.15#antcn# RAbeam     299.518   DECbeam    -38.758
+2001.296.15:59:49.15#antcn# RAdelta      0.005   DECdelta     0.008
+2001.296.15:59:49.17?ERROR qo -301 WARNING: ONSOURCE statu

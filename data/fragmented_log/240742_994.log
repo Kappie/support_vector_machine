@@ -1,0 +1,10 @@
+2001.296.10:15:30.11/tpical/5980,6500,10324,6976,10767,5669,10354
+2001.296.10:15:30.35:!2001.296.10:15:37
+2001.296.10:15:37.00:tape
+2001.296.10:15:37.13/tape/off,10235,norm,moving,nostop,locked,ready,rem
+2001.296.10:15:37.14:data_valid=on
+2001.296.10:15:37.15:midob
+2001.296.10:15:37.17#antcn#Checking onsource status
+2001.296.10:15:37.18#antcn# RAsource   242.205   DECsource   10.484
+2001.296.10:15:37.18#antcn# RAbeam     242.200   DECbeam     10.483
+2001.296.10:15:37.19#antcn# RAdelta      0.005   DECdelta 

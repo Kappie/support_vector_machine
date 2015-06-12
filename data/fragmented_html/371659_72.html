@@ -1,0 +1,18 @@
+to use:'
+            WRITE (*,*) 'NONE, LT, or LT+S'
+            READ  (*,FMT='(A)') CORR
+ 
+   C
+   C        Convert the UTC epoch to ET.
+   C
+            CALL <a href="../spicelib/utc2et.html">UTC2ET</a> ( UTC, ET )
+ 
+   C
+   C        Find the state of the target as seen from the observer at
+   C        ET.
+   C
+            CALL <a href="../spicelib/spkez.html">SPKEZ</a> ( TARGET, ET, 'J2000', CORR, OBSRVR, STATE,
+        .                LT                                        )
+ 
+   C
+   C        The p

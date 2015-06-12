@@ -1,0 +1,9 @@
+to parameter powerlaw:PhoIndex  * 1
+!Param# 16 : =4
+Equating parameter :norm to parameter constant:norm  * 1
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+  Model:  constant[1]*wabs[2]( powerlaw[3] )
+  Model Fit Model Component  Parameter  Unit     Value                    Data
+  par   par comp                                                          group
+    1    1    1   constant   factor        

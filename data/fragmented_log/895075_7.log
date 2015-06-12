@@ -1,0 +1,17 @@
+g 7 model components to the UV plane model.
+! The established model now contains 7 components and 0.222602 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.339712Jy  sigma=0.001694
+! Fit after  self-cal, rms=0.339515Jy  sigma=0.001693
+! Inverting map 
+! Your choice of large map pixels excluded 4.41% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883

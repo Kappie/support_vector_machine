@@ -1,0 +1,14 @@
+ value for device vd overflowed or were less than zero.
+9830211261381/tsys2/-11316.6,-19618.7,-10857.0,20989.5,-8454.4,37.6,2260.0
+9830211261381:!302112740
+9830211274000:"data stop"
+9830211274000:et
+9830211274016:!+3s
+9830211274317:tape
+9830211274329/tape/off,02435,norm,stopped,stop,unlock,ready,rem
+9830211274329:postob
+9830211274329:source=2131-021,213135.1,-020640.0,1950.0
+9830211274330#antcn#Command a new source
+9830211274368#antcn#Successfully sent new source position to antenna
+9830211274368:sx2c2=14
+9

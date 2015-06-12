@@ -1,0 +1,18 @@
+rsection point and let FOUND be a logical flag indicating whether
+   the ray and ellipsoid intersect. VERTEX, DIR, XPT, and FOUND are
+   declared as follows:
+<P>
+ 
+<PRE>
+   DOUBLE PRECISION      VERTEX ( 3 )
+   DOUBLE PRECISION      DIR    ( 3 )
+   DOUBLE PRECISION      XPT    ( 3 )
+   LOGICAL               FOUND
+</PRE>
+   Then if A, B, and C are the semi-axis lengths of the ellipsoid, the call
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/surfpt.html">SURFPT</a> ( VERTEX, DIR, A, B, C, XPT, FOUND )
+</PRE>
+   re

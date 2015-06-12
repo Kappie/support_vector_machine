@@ -1,0 +1,16 @@
+--------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      1819.598     using   329 PHA bins.
+ Reduced chi-squared =      5.686245     for    320 degrees of freedom
+ Null hypothesis probability =  0.00
+
+!XSPEC> chatter 0;
+
+!XSPEC> fit 100;
+
+!XSPEC> chatter 10;
+
+!XSPEC> fit 100;
+ Chi-Squared    Lvl  Fit param # 1     2           3           4
+                 5           6           7           8           9
+     

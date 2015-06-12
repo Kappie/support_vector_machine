@@ -1,0 +1,17 @@
+0% completed
+ 
+ Intv    1   Start 10631  4:23: 7
+     Ser.1     Avg 0.1027E-01    Chisq  2073.       Var 0.6512E-03 Newbs.   2044
+               Min  0.000          Max 0.1875    expVar 0.6421E-03  Bins    348
+Writing output file: /tproc/nandra/processing/75084000/work/75084000_sis0_bgd_16
+ 
+gnt_infrm: Countrate for SIS soft-band...
+ 
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/75084000/work/75084000_sis0_bgd_soft
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ..

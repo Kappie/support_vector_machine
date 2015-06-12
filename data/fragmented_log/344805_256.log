@@ -1,0 +1,12 @@
+ource position to antenna
+2003.308.21:07:01.98#flagr#flagr/antenna,new-source
+2003.308.21:07:01.99:setupsx
+2003.308.21:07:05.87/mk5/!play_rate = 0 ;
+2003.308.21:07:05.88/mk5/!mode = 0 ;
+2003.308.21:07:05.91/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 61 ;
+2003.308.21:07:05.92:!2003.308.21:10:50
+2003.308.21:09:05.96#flagr#flagr/antenna,acquired
+2003.308.21:10:50.00:preob
+2003.308.21:10:50.00#antcn#Check if antenna is on-source
+2003.308.21:10:50.55/onsource/TRACKING
+2003.308.21:10:53.14/tpical/1u,10140,2u,10

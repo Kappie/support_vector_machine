@@ -1,0 +1,15 @@
+tatus = "collected";        
+		var icon = new GIcon();
+			icon.image = "/images/icons/marker_" + status.substr(0,3) + ".png";
+			icon.shadow = "/images/icons/mm_20_shadow.png";
+			icon.iconSize = new GSize(12, 20);
+			icon.shadowSize = new GSize(22, 20);
+			icon.iconAnchor = new GPoint(6, 20);
+			icon.infoWindowAnchor = new GPoint(5, 1);
+
+        
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        map.setCenter(new GLatLng(lat,lng), 7);
+
+    

@@ -1,0 +1,6 @@
+/usr/local/cdat/Externals/include/libxml2/libxml/xmlunicode.h'
+ /usr/bin/install -c -m 644 'xmlreader.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlreader.h'
+ /usr/bin/install -c -m 644 'relaxng.h' '/usr/local/cdat/Externals/include/libxml2/libxml/relaxng.h'
+ /usr/bin/install -c -m 644 'dict.h' '/usr/local/cdat/Externals/include/libxml2/libxml/dict.h'
+ /usr/bin/install -c -m 644 'SAX2.h' '/usr/local/cdat/Externals/include/libxml2/libxml/SAX2.h'
+ /usr/bin/install -c -m 644 'xmlexports.h' '/usr/loca

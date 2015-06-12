@@ -1,0 +1,9 @@
+rProd:   tables are built for  mu-
+[0m[geant] =I= [0m      dE/dx and range tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Lambda tables from threshold to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Parametrised model 
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mG4UHadronElasticProcess for neutron PDGcode= 2112  Elow(MeV)= 19  Elowest(eV)= 0
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmsc:  Model variant of multiple scattering for pi-
+[0m[geant] =I= [0m      Lambda tables from 100 eV 

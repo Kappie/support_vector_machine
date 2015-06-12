@@ -1,0 +1,7 @@
+5 log_prob=-5.24 bkg_thr=3 clean_phalow=0 clean_phahi =4095 sis_plot2=no saoimage2=no
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > select events "grade==0||(grade>=2&&grade<=4)" save_file=no
+The select output will overwrite the cleaned event list
+     if you have not saved it already.
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > extract "event image"
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > save obscat 76052020_sis0 clobberit = yes
+!ascascreen_sis0:ASCA-SIS0-BRIGHT2 > $rm -f ascascreen_sis0*.cat 76052020_sis0_list.tmp 76052020

@@ -1,0 +1,11 @@
+om read_sfc for labelling 
+  filename13 = 061521700.lso
+  Subroutine read_surface_old...
+  infile = /data/lapb/tw/fsl-linux9/data/lapsprd/lso/061521700.lso
+  Calling read_surface_data for 061521700
+  Normal completion of new READ_SURFACE_OLD
+      n_obs_b          464
+ i,xsta,ysta,frac,rmin,stations(i),stapos,dist_min,ran,azi
+  11  62.7  71.3 0.406   0.3 CQC  49.7  48.7   0.3 178.7  3S CQC   0
+ 217  76.2  70.5 0.495  -0.5 C0H  60.3  10.7   0.5  -0.1  5N C0H   0
+ 281  69.4  71.7 0.450   0.7 C0K  55.0   5.3  

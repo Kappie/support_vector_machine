@@ -1,0 +1,19 @@
+p defined by an ellipsoid whose semi-axes are A, B, and C
+   is represented by the matrix
+<P>
+ 
+<PRE>
+   +-                -+
+   |  1/A   0    0    |
+   |   0   1/B   0    |.
+   |   0    0    1/C  |
+   +-                -+
+</PRE>
+   The distortion map is (as is clear from examining the matrix) one-to-one
+   and onto, and in particular is invertible, so it preserves set
+   operations such as intersection. That is, if M is a distortion map and
+   X, Y are two sets, then
+<P>
+ 
+<PRE>
+   M( X intersect Y ) = M(X

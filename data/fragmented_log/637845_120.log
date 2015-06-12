@@ -1,0 +1,10 @@
+6/libUnitTest.a
+cat /dev/null >../Linux-i686/UnitTest.stamp
+cd ../Linux-i686/; QUIET=; /home/dayabay/code/CMT/v1r20p20070524/mgr/cmt_make_shlib_common.sh extract "Linux-i686,debug" UnitTest 
+g++ -L/home/tagg/autodaya/InstallArea/Linux-i686/lib -shared -o libUnitTest.so "UnitTesttemp_shlib/UnitTestRegistry.o"
+------> UnitTest : library ok
+------> UnitTest ok
+installation done
+------> (constituents.make) UnitTest done
+------> (constituents.make) Building library_postinstallation.make
+Document library_postinst

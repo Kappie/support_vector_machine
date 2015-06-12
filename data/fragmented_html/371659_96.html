@@ -1,0 +1,14 @@
+ <a href="../spicelib/bodmat.html">BODMAT</a>.
+   C
+         CALL <a href="../spicelib/bodmat.html">BODMAT</a> ( 399, ET, ETIPM )
+ 
+   C
+   C     To convert OBSPT to J2000 coordinates, use the transpose
+   C     of ETIPM.  The routine <a href="../spicelib/mtxv.html">MTXV</a> left-multiplies a vector by
+   C     the transpose of a specified matrix.
+   C
+         CALL <a href="../spicelib/mtxv.html">MTXV</a> ( ETIPM, OBSPT, OBSPT )
+ 
+   C
+   C     Find the state of Jupiter, as seen from Earth, in J2000
+   C  

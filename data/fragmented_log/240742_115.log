@@ -1,0 +1,11 @@
+ Feed Cryogenic )
+2001.295.19:23:32.32#antcn# RAcommand  320.955   DECcommand   5.598
+2001.295.19:23:32.33:check80r
+2001.295.19:23:32.33&check80r/"comment out the following line if you do _not_ have a mark iii decoder
+2001.295.19:23:32.33&check80r/"decode=a,err,byte
+2001.295.19:23:32.33&check80r/parity=,,ab,on
+2001.295.19:23:32.33&check80r/sfastf=13.61s
+2001.295.19:23:32.33&check80r/!+8s
+2001.295.19:23:32.33&check80r/repro=raw,5,7
+2001.295.19:23:32.33&check80r/!*
+2001.295.19:23:32.33&check80r/st=rev,80,off

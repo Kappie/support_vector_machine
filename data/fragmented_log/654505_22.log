@@ -1,0 +1,8 @@
+parse_spec_file()]     Source 2 -> filter-requires-dbi.sh
+[RPM.pm/309/parse_spec_file()] Got the following patches:
+[RPM.pm/311/parse_spec_file()]     Patch 0 -> perl-DBI-1.37-prever.patch
+[RPM.pm/313/parse_spec_file()] Got the following header info:
+[RPM.pm/315/parse_spec_file()]     buildrequires -> perl-Time-HiRes
+[RPM.pm/315/parse_spec_file()]     buildroot -> /var/tmp/perl-DBI-1.40-root
+[RPM.pm/315/parse_spec_file()]     group -> Applications/Databases
+[RPM.pm/315/parse_spec_file()]     license -> Arti

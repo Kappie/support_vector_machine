@@ -1,0 +1,7 @@
+2.uta.edu
+PACMAN_CMD is  pacman
+Doing a pacman "get-new-atlaskit-AtlasProduction-14.2.0-i686-slc4-gcc34-opt" on gk01.swt2.uta.edu now... 
+The directory "/ifs0/osg/app/atlas_app/atlas_rel/14.2.0" doesn't exist on gk01.swt2.uta.edu, create it
+Now we are in , /ifs0/osg/app/atlas_app/atlas_rel/14.2.0
+pacman -get http://atlas-computing.web.cern.ch/atlas-computing/links/kitsDirectory/projects/cache:AtlasProduction_14_2_0_i686_slc4_gcc34_opt -trust-all-caches -allow tar-overwrite
+Package [AtlasProduction_14_2_0_i6

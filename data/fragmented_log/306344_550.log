@@ -1,0 +1,12 @@
+2161420
+9830216142000:tape
+9830216142012/tape/off,07802,norm,stopped,stop,unlock,ready,rem
+9830216142012:st=rev,135
+9830216142028:"data start"
+9830216142028:midob
+9830216142028#antcn#Check if antenna is on-source
+9830216142085/onsource/TRACKING
+9830216142172#wx#/WX/ 7.3,1010.7,100.0
+9830216142190?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830216142191?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830216142242?ERROR ib  -10 ibcon initialization failed, gpi

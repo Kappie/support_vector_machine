@@ -1,0 +1,10 @@
+s Tests 
+  I was able to create the DTO errors that occur when reading 
+Reces. The run used just the lower crate with only the alpha 
+and 4 reces boards in. No other crates book in the run. 
+Running TEST_RECES_v-2 exe.  
+ Start_load timed out at 600us each time. This is because 
+MOD_DONE(2) is shorted to START_LOAD on that backplane. 
+I would get a DTO error within a minute or less of running. 
+I changed the alpha code to ignore that mod_done bit. In that 
+mode I never had the DTO error even with reading ou

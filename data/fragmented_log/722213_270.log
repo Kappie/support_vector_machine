@@ -1,0 +1,11 @@
+E  - SIS0            Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 33571.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 6.22070E-02     Background scaling factor
+  BACKFILE  - 75084000_sis0_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 75084000_sis0.rmf
+  ANCRFILE  - 75084000_sis0.arf
+  POISSERR  - TRUE        

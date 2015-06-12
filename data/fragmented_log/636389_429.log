@@ -1,0 +1,14 @@
+t Pressure Level or SFC)
+     [x]  Vertical Cross Section
+     [s]  Sounding
+                                                             [q] QUIT ?   Success in get_pres_3d
+     Reading in static grid: LAT 
+     Reading in static grid: LON 
+     Reading in static grid: AVG 
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/LWM, LGA/LGB, FUA/FSF, LAPS-BKG, BAL), 
+     [wo,co,bo,lo,fo] Anlyz/Cloud/Balance/Bkg/Fcst Omega
+     RADAR: [ra] Intermediate VRC, [rf] Anal/Fcst fields
+    

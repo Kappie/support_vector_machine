@@ -1,0 +1,13 @@
+*********** CLEARING MODEL AND STARTING OVER **********"
+! ************** CLEARING MODEL AND STARTING OVER ********** 
+clrmod true
+! clrmod: Cleared the established and tentative models.
+uvw 2,-1
+! Uniform weighting binwidth: 2 (pixels).
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Estimated beam: bmin=1.954 mas, bmaj=3.759 mas, bpa=6.496 degrees
+! Estimated noise=1217.95 mJy/beam.
+!

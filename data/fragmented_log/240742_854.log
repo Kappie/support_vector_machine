@@ -1,0 +1,12 @@
+486595,7.943,18.491,rate
+2001.296.07:57:32.00:data_valid=off
+2001.296.07:57:32.02:et
+2001.296.07:57:32.19:!+3s
+2001.296.07:57:35.20:tape
+2001.296.07:57:35.32/tape/off,06774,norm,moving,stop,unlock,ready,rem
+2001.296.07:57:35.32:postob
+2001.296.07:57:35.33:scan_name=296-0811
+2001.296.07:57:35.34:source=oj287,085157.2,201758.6,1950.0
+2001.296.07:57:35.35#antcn#Commanding to new source
+2001.296.07:57:37.18#antcn#Source:  oj287  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.07:57:37.19#antcn# RAcommand  133.723

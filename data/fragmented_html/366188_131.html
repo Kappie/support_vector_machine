@@ -1,0 +1,27 @@
+unction")){
+				P+=this.dcsA("WT."+N,WT[N]);
+			}
+		}
+		for (N in DCSext){
+			if (DCSext[N]&&(typeof DCSext[N]!="function")){
+				if (i18n){
+					WT.dep=(WT.dep.length==0)?N:(WT.dep+";"+N);
+				}
+				P+=this.dcsA(N,DCSext[N]);
+			}
+		}
+		if (i18n&&(WT.dep.length>0)){
+			P+=this.dcsA("WT.dep",WT.dep);
+		}
+		if (P.length>2048&&navigator.userAgent.indexOf('MSIE')>=0){
+			P=P.substring(0,2040)+"&WT.tu=1";
+		}
+		
+		
+		
+			P=P+"&spsite_id=36253020";
+		
+			P=P+"&WT.sp=36253020";
+		
+		
+		t

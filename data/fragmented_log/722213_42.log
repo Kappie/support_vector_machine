@@ -1,0 +1,14 @@
+le
+  49786 events written to the output file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+        117429     49786              0     67643         0         0
+   in  33351.     seconds
+CLEANSIS_V1.6
+    allocating image arrays...
+ 
+ PROGRAM TO MAKE AN SIS SCIENCE FILE CLEANED OF ANOMALOUS PIXELS.
+ 
+ * Anomalous pixels may consist of at least two populations.
+ 
+ 1. Persistent HOT pixels are removed by co

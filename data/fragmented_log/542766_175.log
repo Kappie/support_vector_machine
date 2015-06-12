@@ -1,0 +1,12 @@
+20511056/pass/2,2,auto,-330.0,-330.0,-330.8,-329.8,-0.8,0.2
+9919420511071:!194205808
+9919420574207?ERROR ch -317 Total power integrator overflow on IF2
+9919420580800:tape
+9919420580806/tape/off,11412,norm,stopped,stop,unlock,ready,rem
+9919420580806:st=rev,80
+9919420580821:!194205818
+9919420581800:preob
+9919420581800#antcn#Checking onsource status
+9919420581803#antcn# RAsource   320.932   DECsource    5.588
+9919420581803#antcn# RAbeam     320.932   DECbeam      5.588
+9919420581803#antcn# RAdelta      0.001  

@@ -1,0 +1,3 @@
+ict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wl,-R/usr/local/cdat/Externals/lib -o .libs/testThreads testThreads.o  -L/usr/local/cdat/Externals/lib -L/usr/X11R6/lib -L/usr/local/lib -L/usr/local/cdat/Externals/HDF5/lib -L/usr/local/cdat/Externals/NetCDF/lib -lpthread ./.libs/libxml2.so -ldl -lz -lm  -Wl,--rpath -Wl,/usr/local/cdat/Externals/lib
+creating testThreads
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT    -I/usr/local/cdat/Externals/include   -I/us

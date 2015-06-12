@@ -1,0 +1,2 @@
+/Linux-i686/GeantToRootUtil.o ../Linux-i686/dywSeedReader.o ../Linux-i686/dywConstructTunnelLab.o ../Linux-i686/dywConstructNearSitePool_CD1.o ../Linux-i686/dywGSD.o ../Linux-i686/dywMacroLine.o ../Linux-i686/dywConstructFarSite_OctagonalPool.o ../Linux-i686/dywSensitiveSkinEdit.o ../Linux-i686/LogConfigurator.o ../Linux-i686/dywTrackingAction.o ../Linux-i686/dywScintSD.o ../Linux-i686/dywGenerator2.o ../Linux-i686/dywabPlasticScintSD.o ../Linux-i686/dywDetectorConstruction.o
+ranlib ../Linux-i686/libG4dyb.a

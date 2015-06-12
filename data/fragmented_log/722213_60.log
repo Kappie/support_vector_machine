@@ -1,0 +1,20 @@
+ 9010 counts for 0.2637     counts/sec
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel] ascascreen_gis2
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+ Command not found; type ? for a command listing
+!ascascreen_gis2:ASCA > set mission ASCA
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.000
+ 
+!ascascreen_gis2:ASCA > set instru GIS2
+ 
+Setting.

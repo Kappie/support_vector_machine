@@ -1,0 +1,10 @@
+f-cal, rms=0.174074Jy  sigma=0.001220
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = -0.000262992 Jy
+! Component: 100  -  total flux cleaned = -0.000359859 Jy
+! Component: 150  -  total flux cleaned = -0.000360391 Jy
+! Component: 200  -  total flux cleaned = -0.000361719 Jy
+! Total flux subtracted in 200 components = -0.000361

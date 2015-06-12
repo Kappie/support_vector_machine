@@ -1,0 +1,10 @@
+10 26 30 32 30 29 44 14  3  6 -5  1  6 -3-13  8  8  1 -1 -2 19 25
+  c_metacode,i_overlay = m             0
+  Skipping map plot - already done with image
+  Not calling plot_station_locations: 1
+  Plotting: c_metacode,i_overlay = c             1
+  CLOW,HIGH,CINT    -500.0000        700.0000        40.00000    
+  Max/Min/n_missing =     270.8882       -347.5998                0
+  write_label_lplot:
+ Storm Rel Helicity m**2/s**2                                                                        
+  lapsplot:

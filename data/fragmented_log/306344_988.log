@@ -1,0 +1,8 @@
+,18470,14064,19962,29886,38475,18999
+9830302161381?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830302161381/tsys1/67.0,68.3,68.1,66.7,66.5,60.3,60.5,59.9,63.9,$$$$$$$$
+9830302161382?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830302161382?ERROR qk -211 Tsys value for device i2 overflowed or were less than zero.
+9830302161382/tsys2/76.5,78.3,84.6,74.7,76.1,$$$$$$$$,-142.6
+9830302161382:!303021840
+9830302165533?ERROR ch -370 Total power integrator 

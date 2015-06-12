@@ -1,0 +1,12 @@
+tting data directory to /local/data/tproc/nandra/processing/72016000/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/72016000/aux/
+ 
+!ascascreen_gis2:ASCA-GIS2 > set dumpcat
+Obscat listing off
+!ascascreen_gis2:ASCA-GIS2 > set datamode PH
+!ascascreen_gis2:ASCA-GIS2-PH > make obscat cat_filt=@72016000_gis2_obscat.sel lststr = '[af][dt]*[Gg]2*[HhMmLl].unf'
+''!ascascreen_gis2:ASCA-GIS2-PH > choose 1-** switch=yes
+ 
+   Setting datamode to PH
+ 
+Got the minimum time resolution of the chose

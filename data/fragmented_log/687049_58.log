@@ -1,0 +1,12 @@
+oducer           1/1              1/1              1/250
+    6 RecoMuon             1/35             1/48             1/188
+    7 RecoVertex/SequentialVertexFitter 1/1              1/1              1/250
+    8 Root_Error           1/1                               
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Error               12221               12221
+
+Timing Report  (in seconds)
+
+CSCBaseEl:loop                                                               

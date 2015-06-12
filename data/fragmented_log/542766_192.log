@@ -1,0 +1,13 @@
+ta stop"
+9919421051901:et
+9919421051914:!+3s
+9919421052215:tape
+9919421052221/tape/off,10134,norm,stopped,stop,unlock,ready,rem
+9919421052221:postob
+9919421052221:source=1954-388,195439.1,-385313.5,1950.0
+9919421052222#antcn#Commanding to new source
+9919421052336#antcn#Source:  1954-388  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919421052336#antcn# RAcommand  299.494   DECcommand -38.751
+9919421052336:wb2c2=2
+9919421052620#matcn#debug: ASS 0 3:0x1 5:0x3 7:0x5 9:0x7 11:0x9 13:0xb 15:0xd 17:0x0 ? ERROR 7
+99194210

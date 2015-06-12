@@ -1,0 +1,5 @@
+070        0.374 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHcal::addCrossedHits                                                          35070        4.222 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHcal::addHcal                                                                 35070        0.163 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHcal::addHitsInTheRegion                                                      35070        3.878 (real)        0.000 (cpu)
+TrackDetector

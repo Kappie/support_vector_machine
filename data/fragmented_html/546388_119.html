@@ -1,0 +1,23 @@
+=V.substring(1).split("&");
+				for (var i=0;i<params.length;i++){
+					var pair=params[i];
+					var pos=pair.indexOf("=");
+					if (pos!=-1){
+						var key=pair.substring(0,pos);
+						var val=pair.substring(pos+1);
+						if (i!=0){
+							newV+="&";
+						}
+						newV+=key+"="+this.dcsEncode(val);
+					}
+				}
+				V=V.substring(0,1)+newV;
+			}
+			else{
+				V=this.dcsEncode(V);
+			}
+		}
+		return "&"+N+"="+this.dcsEscape(V, this.re);
+	}
+	WebTrends.prototype.dcsEncode=function(S){
+		ret

@@ -1,0 +1,26 @@
+isInstalled)=="function")){
+					for (j=9;j>=0;j--){
+						for(i=3;i>0;i--){
+							v=i+"."+j;
+							if (Silverlight.isInstalled(v)){
+								slv=v;
+								break;
+							}
+						}
+						if (slv==v){
+							break;
+						}
+					}
+				}
+			}
+			return slv;
+		})();
+		if (this.i18n){
+			if (typeof(document.defaultCharset)=="string"){
+				WT.le=document.defaultCharset;
+			} 
+			else if (typeof(document.characterSet)=="string"){
+				WT.le=document.characterSet;
+			}
+			else{
+				WT.le="u

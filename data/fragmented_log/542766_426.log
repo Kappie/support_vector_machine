@@ -1,0 +1,11 @@
++3s
+9919502145914:tape
+9919502145920/tape/off,13473,norm,stopped,stop,unlock,ready,rem
+9919502145921:postob
+9919502145921:source=2234+282,223401.7,281323.0,1950.0
+9919502145923#antcn#Commanding to new source
+9919502150038#antcn#Source:  2234+282  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919502150038#antcn# RAcommand  339.090   DECcommand  28.478
+9919502150039:wb2c2=4
+9919502150485/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919502150485/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x

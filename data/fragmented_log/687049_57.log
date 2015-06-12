@@ -1,0 +1,11 @@
+       1
+
+* Some occurrences of this message were suppressed in all logs, due to limits.
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 CSCGasCollisions     1/145                             
+    2 CSCRecHitBProducer   1/1              1/2              1/250
+    3 Muon                 1/35             1/48             1/188
+    4 MuonTrackFinder      1/35             1/48             1/188
+    5 PFPr

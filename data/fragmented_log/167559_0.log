@@ -1,0 +1,13 @@
+e SL7 problem did not appear, but the ones in SL3 and SL4  
+came back.  Best guess at the moment is that we will have to 
+disable SL3 quad C, but may be able to live with the SL4 trips.  </pre>
+<!-- Author: R. Wagner  -->
+
+
+<!-- Date: Sun Oct 8 11:28:10 2000 -->
+<pre>We are taking a test run with COMM...TABLE_2 5 (40) 
+ 
+We are going to change prescales (by hand) so that we only let  
+min_bias trigger to be unprescaled. 
+ 
+During the run we saw several done_timeout error messages related to bunch crossing m

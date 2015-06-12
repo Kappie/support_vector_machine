@@ -1,0 +1,11 @@
+ CCDID.EQ.3
+!xsel:ASCA-SIS1-BRIGHT2 > filter region 75084000_sis1_src.reg
+!xsel:ASCA-SIS1-BRIGHT2 > extract spectrum
+!xsel:ASCA-SIS1-BRIGHT2 > save spectrum group=yes clobber=yes 75084000_sis1_src.pha
+Wrote spectrum to 75084000_sis1_src.pha
+!xsel:ASCA-SIS1-BRIGHT2 > filter pha_cutoff 140 2796
+!xsel:ASCA-SIS1-BRIGHT2 > extract events
+!xsel:ASCA-SIS1-BRIGHT2 > save events use=no clobber=yes 75084000_sis1_src.evt
+Wrote events list to file 75084000_sis1_src.evt
+!xsel:ASCA-SIS1-BRIGHT2 > clear events
+!xsel:ASCA-

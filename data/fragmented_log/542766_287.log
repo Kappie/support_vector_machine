@@ -1,0 +1,12 @@
+ead[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919423000184/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919423000255/pass/3,3,auto,-275.0,-275.0,-274.9,-275.3,0.1,-0.3
+9919423000270:!194231034
+9919423103400:tape
+9919423103406/tape/off,02902,norm,stopped,stop,unlock,ready,rem
+9919423103406:st=for,80
+9919423103421:!194231044
+9919423104400:preob
+9919423104400#antcn#Checking onsource status
+9919423104403#antcn# RAsource    12.664   DECsource   -9.487
+991

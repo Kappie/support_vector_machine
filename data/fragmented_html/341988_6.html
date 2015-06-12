@@ -1,0 +1,19 @@
+.focus) {
+loadQueryWin.focus();
+}
+}
+function openSaveQueryWindow() {
+var url = getAFFDocumentLocation('/servlet/PQRSavedQuery?_lang=en', true);
+loadQueryWin = window.open(url, "loadquerywin", "menubar=no,resizable=no,scrollbars=no,top=100,left=70,width=660,height=260");
+if (window.focus) {
+loadQueryWin.focus();
+}
+}
+function closeWindows() { 
+if ((relatedWin) && (!relatedWin.closed)) {
+relatedWin.close();
+}
+if ((downloadWin) && (!downloadWin.closed)) {
+downloadWin.close();
+}
+if ((loadQueryW

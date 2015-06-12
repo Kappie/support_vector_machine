@@ -1,0 +1,13 @@
+tude corrections in sub-array 1:
+!   BR        1.12     FD        0.84     HN        1.05     KP        0.95     
+!   LA        0.93     MK        1.02     NL        1.15     OV        1.14     
+!   PT        0.85     SC        1.02     
+! 
+! 
+! Fit before self-cal, rms=0.345206Jy  sigma=0.001344
+! Fit after  self-cal, rms=0.290323Jy  sigma=0.001138
+dynam = dynam - 0.5
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=0.3078 mas, bmaj=0.7433 mas, bpa=7.717 degr

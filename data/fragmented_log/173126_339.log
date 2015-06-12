@@ -1,0 +1,7 @@
+sed,off,low,locked,64.17
+2004.128.03:30:11.69/rx/1F(70K___),on,on,off,,,,off,closed,off,low,locked,78.44
+2004.128.03:30:12.19/rx/24(TE_I__),on,on,off,,,,off,closed,off,low,locked,-0.244
+2004.128.03:30:12.64/rx/25(HE_SUP),on,on,off,,,,off,closed,off,low,locked,230.9
+2004.128.03:30:13.14/rx/26(HE_RTN),on,on,off,,,,off,closed,off,low,locked,61.53
+2004.128.03:30:13.23/bbc01/612.89,a,4,4,1,agc, -0.90, -1.36,lock,15657,15872,1018,1pps
+2004.128.03:30:13.31/bbc02/652.89,a,4,4,1,agc,  6.88,  4.42,lock,16177,15966,10

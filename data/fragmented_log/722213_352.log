@@ -1,0 +1,16 @@
+ 5:11: 3
+     Ser.1     Avg 0.7375E-01    Chisq  15.93       Var 0.4261E-04 Newbs.     19
+               Min 0.6112E-01      Max 0.8599E-01expVar 0.5411E-04  Bins   2072
+Writing output file: /tproc/nandra/processing/75084000/work/75084000_gis_src_576
+ 
+gnt_infrm: Source, soft-band, 16s/5760s bin, SIS...
+ 
+nbint = 6518
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/75084000/work/75084000_sis1_src_soft
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ TOL010

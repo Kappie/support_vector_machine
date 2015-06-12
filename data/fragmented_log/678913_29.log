@@ -1,0 +1,13 @@
+ LA        0.00*    MK        0.00*    NL        0.00*    
+!   NY        0.00*    OV        0.00*    PT        0.00*    MC        0.00*    
+!   SC        0.00*    SV        0.00*    TC        0.00*    WF        0.00*    
+!   WZ        0.00*    
+! 
+! 
+! Fit before self-cal, rms=0.568029Jy  sigma=0.005743
+! Fit after  self-cal, rms=0.401349Jy  sigma=0.002472
+dynam = dynam - 0.5
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=1.945 mas, bmaj=3.17 mas, bpa=-48.7 

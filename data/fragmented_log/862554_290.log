@@ -1,0 +1,20 @@
+------------------------------------------------------------------
+ minchan(nocom) 61
+ maxchan(nocom) 170
+ numchan(nocom) 110
+ minchan(nocom) 171
+ maxchan(nocom) 425
+ numchan(nocom) 255
+ minchan(nocom) 426
+ maxchan(nocom) 594
+ numchan(nocom) 169
+ minchan(nocom) 595
+ maxchan(nocom) 848
+ numchan(nocom) 254
+ ...... exiting, changes written to file : 72016000_gis3_4_ch.pha
+ ** grppha 2.9.0 completed successfully
+ 
+gnt_infrm: Creating efficiency map for gis3...
+ 
+ASCAEFFMAP vers 2.27  5 May 1999.
+bethick : /FTP/

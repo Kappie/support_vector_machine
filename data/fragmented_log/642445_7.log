@@ -1,0 +1,4 @@
+-393' width='300'></a></center>
+<!-- Author: hray -->
+<!-- Comment: Thu Oct 11 20;22;51 comment by...hray -->
+The above plots are from the search for cluster merging.  Ignore the labels - I couldn't figure out how to remove them.  For these runs I had the top connector on DCAS in slot 10 (brd 4) and slot 19 (brd 10) unplugged for DCAS in crate b0l2cl01.  These signals are from the backplane LOCOS for that crate.  Yellow is BRD_HS_SEED4, Green is BRD_HS_SEED10, Purple is BRD_SEL4, Pink is BRD_SEL10.  In the 

@@ -1,0 +1,10 @@
+aya/G4dyb/cmt (15/15)
+#--------------------------------------------------------------
+#CMT> bad syntax in requirements of GEANT v0 External line #13 [<<<<<<< ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #25 [>>>>>>> ...]
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+../Linux-i686/G4dybsetup.make untouched 
+setup.make o

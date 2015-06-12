@@ -1,0 +1,15 @@
+.01
+jpeg luminance   quantization=0
+jpeg chrominance quantization=0 (higher values give greater compression)
+scan: 45, convert/display: 0, compress: 19, total: 64 seconds
+5.4 compression factor, 1993297 bytes file size
+
+ --- 14:49:58 3/13/96 top of scan loop ---
+1122 MegaBytes free disk space on drive C
+samples per pixel=1
+bits per sample=8
+image startX=0, startY=0, width=2544, length=4200
+photometric interpretation=0
+contrast stretching enabled
+ISIS output pipe is: ""
+C:\TMP\FPRA\09640004\000

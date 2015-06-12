@@ -1,0 +1,10 @@
+ts
+pkg-installer:  Resolving Dependencies
+pkg-installer:  --> Populating transaction set with selected packages. Please wait.
+pkg-installer:  ---> Downloading header for perl-Time-HiRes to pack into transaction set.
+pkg-installer:  ---> Package perl-Time-HiRes.i386 0:1.55-2.caos set to be updated
+pkg-installer:  --> Running transaction check
+pkg-installer:  
+pkg-installer:  Dependency Resolution Not Required
+pkg-installer:  Transaction Listing:
+pkg-installer:    Install: perl-Time-HiRes.i386 0:1.55-2.caos -

@@ -1,0 +1,12 @@
+ Bright Earth Angle
+Using 10 for minimum elevation
+Using 6 for minimum cutoff rigidity
+Using 275 for Radiation Belt Monitor upper-threshold
+Using 100 for SIS Pixel rejection upper-threshold for chips 3 .
+I will start up SAOImage, and leave you in Xselect at the end
+Writing command file 76052020_sis1.xco
+Index  NEVENTS   ONTIME  S1CCDMOD S1CCDLST S1_ARENA
+    0   140540  30663.9         1     3333        0
+Removing Hot and Flickering Pixels.
+Performing Grade selection ( keeping 0,2,3, and 4 ).
+Command file w

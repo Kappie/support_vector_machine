@@ -1,0 +1,5 @@
+ids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5530: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5531: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5537: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5538: warning: ISO C++ forbids casting between pointer-to-function and pointer-

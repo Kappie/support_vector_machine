@@ -1,0 +1,11 @@
+U and V analysis successfully read in          500
+  Subroutine plot_field_2d: i4time =    1464804000
+  plot_field_2d - image plot sp            0.000000        100.0000    
+  Subroutine ccpfil for solid fill plot...
+  input array range:     1.320313        53.02987    
+  input scale:     1.000000    
+  Colortable is spectral    0.000000        100.0000                0  F  F  F 
+  F
+  ccpfil_sub - scale,scale_loc =     1.000000        100.0000    
+  subroutine set_image_colortable: ncols =            20
+  

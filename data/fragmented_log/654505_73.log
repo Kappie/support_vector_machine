@@ -1,0 +1,5 @@
+repo/ext/autobuilder/i386).
+[buildtool/721/place_package_files()] /caos/repo/ext/autobuilder/i386/perl-DBI-1.40-4.caos.i386.rpm exists; removing.
+[buildtool/725/place_package_files()] ln -f /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/RPMS/i386/perl-DBI-1.40-4.caos.i386.rpm /caos/repo/ext/autobuilder/i386/perl-DBI-1.40-4.caos.i386.rpm
+Package build for perl-DBI completed successfully.  (Friday, 07 October 2005 08:31:12 EDT)
+[Build.pm/462/cleanup_build_tree()] /caos/repo/ext/autobuilder/i386/00_LOGS

@@ -1,0 +1,20 @@
+ phase self-cal
+! Adding 14 model components to the UV plane model.
+! The established model now contains 114 components and 2.07995 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.273981Jy  sigma=0.001486
+! Fit after  self-cal, rms=0.273982Jy  sigma=0.001486
+! Inverting map 
+uvtaper 0,0
+! No UV-taper is currently set.
+win_mult = win_mult / 1.2
+print "************** FINISHED AMPLITUDE SELF-CAL **************"
+! ************** FINISHED

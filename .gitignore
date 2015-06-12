@@ -1,10 +1,10 @@
-data/
+/data/*
 
-!data/fragmented_csv
-!data/fragmented_log
-!data/fragmented_jpg
-!data/fragmented_html
-!data/fragmented_gz
+!/data/fragmented_csv/
+!/data/fragmented_log/
+!/data/fragmented_jpg/
+!/data/fragmented_html/
+!/data/fragmented_gz/
 
 
 feature_vectors/

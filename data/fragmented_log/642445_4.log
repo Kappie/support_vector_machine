@@ -1,0 +1,8 @@
+.</pre>
+<!-- Author: Steve Kuhlmann, Bob Blair -->
+
+
+<!-- Date: Tue Oct 9 20:37:13 2001 -->
+Dear God, I even get paged when the entire detector is down... 
+ 
+they tried taking a Rick run tonight.  Our old friend b0l2cl04 wouldn't pass coldstart.  It turns out the real reason was that the ace didn't know the dcas in slot 9 was unplugged, so he didn't know to remove it from the run configuration, and the error messages from RC didn't give any indication of this fact.  I came in and replaced that board (SN40) 

@@ -1,0 +1,16 @@
+ of star, relative to '              //
+        .            'J2000 reference frame (degrees)'
+         READ   *,    DEC
+ 
+   C
+   C     Convert input RA and Dec to radians.
+   C
+         RA  = RA  * <a href="../spicelib/rpd.html">RPD</a>()
+         DEC = DEC * <a href="../spicelib/rpd.html">RPD</a>()
+ 
+   C
+   C     Obtain the observation longitude and latitude.
+   C
+         WRITE (*,*) 'Enter planetocentric longitude of the '       //
+        .            'observer (degrees)'
+         READ   *,    OBSLON

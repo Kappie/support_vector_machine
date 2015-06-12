@@ -1,0 +1,12 @@
+962,norm,moving,nostop,locked,ready,rem
+9919418550406:"data start"
+9919418550406:midob
+9919418550406#antcn#Checking onsource status
+9919418550411#antcn# RAsource   159.306   DECsource  -29.566
+9919418550411#antcn# RAbeam     159.306   DECbeam    -29.565
+9919418550411#antcn# RAdelta      0.000   DECdelta     0.001
+9919418550411?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919418550411/onsource/SLEWING
+9919418550413/wx/8.0,870.5,78.0
+9919418550414/cable/00035.839634E-03
+9919418550421/ifd/23,23,nor,nor,

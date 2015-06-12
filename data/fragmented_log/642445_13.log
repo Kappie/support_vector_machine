@@ -1,0 +1,14 @@
+0l2de00->  
+b0l2de00->  
+b0l2de00->  
+b0l2de00-> Message from RTserver: Connection established. 
+Start subscribing to subject </_b0l2de00_15227864>. 
+FER_smartInitMS: Connected iTry = 0 
+Making local Connection...Successful 
+Subscribed to >>/setPartition/frontEnd/level2/decision/00<< 
+Subscribed to >>/*/vxconfig/frontEnd/level2/decision/00<< 
+Messenger: processPartition 2 
+Sent ack to Run Control: 2 IDLE SUCCESS  
+Messenger: processStatechange Config [0] 
+ 
+so...everything looks okay, but then this is where

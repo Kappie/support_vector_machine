@@ -1,0 +1,5 @@
+inter-to-object
+../Linux-i686/dywTrajectory_Dict.cc:2075: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywTrajectory_Dict.cc:2076: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/dywScintEnergy_Dict.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SITE/src"  -g -pipe -ansi -pedantic -W -Wall -Wwrite-strings -Wp

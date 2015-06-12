@@ -1,0 +1,7 @@
+349.15:02:15.17/ifd/22,13,nor,nor,rem,9714,10424
+2004.349.15:02:15.20?ERROR q+ -302 Last commanded IF3 attenuation used as default, please modify command.
+2004.349.15:02:15.26/if3/17,out,1,1,,,,present,missing,500.10,rem,lock,26063
+2004.349.15:02:15.30&tapeformc/tapeform=1,-330,2,-330,3,-275,4,-275,5,-220,6,-220
+2004.349.15:02:15.30&tapeformc/tapeform=7,-165,8,-165,9,-110,10,-110,11,-55,12,-55
+2004.349.15:02:15.30&tapeformc/tapeform=13,  0,14,  0,15, 55,16, 55,17,110,18,110
+2004.349.15:02:15.30&tapeformc/ta

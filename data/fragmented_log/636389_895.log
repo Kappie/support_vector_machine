@@ -1,0 +1,17 @@
+                      PTY
+  LAPS Precip Type                   061521800
+  Plotting, Overlay =             2            4            0
+  write_label_lplot:
+ LAPS Precip Type                                                                                    
+
+  Field - (add "i" for image):
+
+          [WIND: di,sp,u,v,om,dv,vo,va,vc (barbs)
+
+           TEMP: [t,pt,tb,pb] (T, Theta, T Blnc, Theta Blnc)
+
+           HT: [ht] (Height)
+
+           HUMID: sh,rh,rl (Specific/Relative Humidity)
+
+           ts (Thetae

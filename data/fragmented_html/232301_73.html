@@ -1,0 +1,31 @@
+       }
+      }
+   }
+} // end findavi
+
+findavi();
+
+function findpps(){
+
+   var l = document.links;
+
+   function check(){
+      var dest = this.pathname;
+      var title = this.firstChild.data;
+      dcsMultiTrack('DCS.dcsuri',dest,'WT.ti',title);
+   }
+
+   for (i = 0; i < l.length; i++){
+      if(l[i].pathname.match(/\.pps/)){
+         if(!l[i].onclick){
+            l[i].onclick=check;
+         }
+      }
+   }
+} // end findpps
+
+findpps();
+
+function findppt(){
+
+   var l = documen

@@ -1,0 +1,16 @@
+bs.   2409
+               Min  0.000          Max 0.2812    expVar 0.1917E-02  Bins   4784
+Writing output file: /tproc/nandra/processing/74035000/work/74035000_gis_src_16s
+ 
+gnt_infrm: Source, full-band, 256/5760s bin, SIS/GIS...
+ 
+nbint = 298
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/74035000/work/74035000_sis_src_16s.f
+ 
+ Selected FITS extensions: 1 - RATE TABLE;
+ 
+ Source ............ 3C_254              Start Time (d) .... 10424 13:20:29.435
+ FITS Extension ....  1 - `RATE 

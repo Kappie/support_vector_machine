@@ -1,0 +1,8 @@
+x     |
+|    type    |iso    aniso | min     max     mean   | min   max    mean       |
+|    - - - - |- - - - - - -| - - - - - - - - - - - -| - - - - - - - - - -     |
+|    all     : 2823   0      0.00    104.02  16.38    None  None   None       |
+|    all(noH): 2823   0      0.00    104.02  16.38    None  None   None       |
+|    Sol.    : 438    0      3.18    104.02  45.03    None  None   None       |
+|    Mac.    : 2385   0      0.00    101.99  11.12    None  None   None       |
+|    Hyd.    : 0      0 

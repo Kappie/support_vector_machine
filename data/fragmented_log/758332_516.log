@@ -1,0 +1,16 @@
+e...           74035000_gis3_bgd.pha
+ Chi-Squared =      392.2356     using   375 PHA bins.
+ Reduced chi-squared =      1.062969     for    369 degrees of freedom
+ Null hypothesis probability = 0.194
+
+!XSPEC> ignore bad;
+ Chi-Squared =      392.2356     using   375 PHA bins.
+ Reduced chi-squared =      1.062969     for    369 degrees of freedom
+ Null hypothesis probability = 0.194
+
+!XSPEC> save all 74035000_webfit;
+
+!XSPEC> show files;
+
+ Information for file   1
+  belonging to plot group   1, data group   1

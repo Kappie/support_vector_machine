@@ -1,0 +1,17 @@
+e 75084000_pha.gif was not created.
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_html
+gnt_infrm: ========================
+Sat Apr 15 16:21:22 EDT 2000
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_tran
+gnt_infrm: *************************
+Sat Apr 15 16:21:22 EDT 2000
+ 
+gnt_infrm: Copying the files to the database (universe)...
+ 
+gnt_error(tran): There were errors in the processing; NOT transferring files.
+gnt_error: (do_proc) Procedure do_tran did not finis

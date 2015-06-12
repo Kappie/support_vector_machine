@@ -1,0 +1,32 @@
+urve
+lightcurve: /tproc/nandra/processing/74035000/work/74035000_sis_src_5760s.flc
+sky image
+sky image: /tproc/nandra/processing/74035000/work/74035000_gis_sky_sm.gif
+countrate
+ 
+All done!
+ 
+countrate: 0.0960 0.0386 0.0636 0.0324 0.0526 0.0269
+general info (.evt)
+centroid
+datamode
+ccdmode
+bitfix
+spectral fit
+gnt_warng(html): File fit_result_2pl.dat does not exist
+warning
+fatal
+sds
+name
+object
+version
+ 
+gnt_infrm: Making veron.96 table...
+ 
+ 
+gnt_infrm: Making images for the web page...
+ 
+pha
+flc
+ 
+gnt_infrm

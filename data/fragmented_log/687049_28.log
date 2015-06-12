@@ -1,0 +1,10 @@
+Event: 48
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e RecoMuon:  GlobalMuonProducer:globalMuons 07-Aug-2007 09:57:54 EDT  Run: 1 Event: 48
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e MuonTrackFinder:  GlobalMuonProducer:globalMuons  07-Aug-2007 09:57:54 EDT  Run: 1 Event: 48
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e CSCRecHitBProducer:  CSCRecHitBProdu

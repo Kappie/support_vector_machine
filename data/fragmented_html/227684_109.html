@@ -1,0 +1,12 @@
+c;
+		var q=i.indexOf("?");
+		var r=i.substring(0,q).split("/");
+		var m="<b>Protocol</b><br><code>"+r[0]+"<br></code>";
+		m+="<b>Domain</b><br><code>"+r[2]+"<br></code>";
+		m+="<b>Path</b><br><code>/"+r[3]+"/"+r[4]+"<br></code>";
+		m+="<b>Query Params</b><code>"+i.substring(q+1).replace(/\&/g,"<br>")+"</code>";
+		m+="<br><b>Cookies</b><br><code>"+document.cookie.replace(/\;/g,"<br>")+"</code>";
+		if (t.w&&!t.w.closed){
+			t.w.close();
+		}
+		t.w=window.open("","dcsDebug","width=500,height=650,scro

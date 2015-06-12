@@ -1,0 +1,19 @@
+.pha
+ ** grppha 2.9.0 completed successfully
+ 
+gnt_infrm: Creating efficiency map for gis3...
+ 
+ASCAEFFMAP vers 2.27  5 May 1999.
+bethick : /FTP/caldb/data/asca/gis/bcf/s3bev1.fits
+grid : /FTP/caldb/data/asca/gis/bcf/s3gridv3.fits
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+ 
+  240 grouped channels from the PHA file
+ 
+ Bin size is 0.2500 (mm) = 0.2456(arcmin)
+ Optical axis is 119.36 134.44
+ WMAP size is    54 x   54
+ WMAP offset is    85    90
+ WMAP bin factor is     1
+ 
+ 1024 ungrouped channels 

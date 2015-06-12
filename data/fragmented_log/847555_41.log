@@ -1,0 +1,8 @@
+ 00;05;43 comment by...smaria -->
+<pre>&lt;a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=158&frame=2&anchor=23:49:36'&gt;
+for the diagnosisetc see silicon log&lt;/a&gt; 
+</pre>
+<!-- Comment: Thu Jun 12 01;14;54 comment by...rainer -->
+There was a spike in the abort gap losses which triggered a TEVMon alarm requesting the DAQ Ace to turn the the silicon to standby. The TEVMon alarm came back into normal values about 6 minutes later (see <a href=
+'http://ww

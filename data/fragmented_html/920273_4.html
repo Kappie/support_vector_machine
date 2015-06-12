@@ -1,0 +1,19 @@
+            view.add(NewOption, null);
+        }
+        catch(ex)
+        {
+            view.add(NewOption);
+        }
+    }
+  }
+
+  function SubmitViewOptionsForm()
+  {
+    if(document.getElementById("ViewOptions").form.value == 'html')
+    {
+        document.forms.ViewOptions.submit();
+    }
+    else
+    {
+        window.open("acc.cgi?acc=" + document.forms.ViewOptions.acc.value + "&targ=" + document.forms.ViewOptions.targ.value +
+                  "&form=" + document.forms.ViewOptions.form.value + "&view

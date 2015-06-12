@@ -1,0 +1,12 @@
+3,18.491,rate
+2001.296.13:31:02.00:data_valid=off
+2001.296.13:31:02.02:et
+2001.296.13:31:02.18:!+3s
+2001.296.13:31:05.19:tape
+2001.296.13:31:05.31/tape/off,06356,norm,moving,stop,unlock,ready,rem
+2001.296.13:31:05.31:postob
+2001.296.13:31:05.32:scan_name=296-1335
+2001.296.13:31:05.33:source=1749+096,174910.4,093942.9,1950.0
+2001.296.13:31:05.34#antcn#Commanding to new source
+2001.296.13:31:07.24#antcn#Source:  1749+096  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.13:31:07.25#antcn# RAcommand  267.901   DE

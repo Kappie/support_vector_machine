@@ -1,0 +1,7 @@
+ss for neutron PDGcode= 2112  Elow(MeV)= 19  Elowest(eV)= 0
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmsc:  Model variant of multiple scattering for pi-
+[0m[geant] =I= [0m      Lambda tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Boundary/stepping algorithm is active with facrange= 0.02  Step limitation 1
+[0m[geant] =I= [0mG4GlobalFastSimulationManager::Notify() : DEPRECATING, will be dropped @ next major release
+[0m[dyb]   =I= [0m############### BeginOfRunAction: Run 0 now is s

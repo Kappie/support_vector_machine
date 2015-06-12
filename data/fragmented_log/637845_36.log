@@ -1,0 +1,13 @@
+ake
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+../Linux-i686/GEANTsetup.make untouched 
+setup.make ok
+Linux-i686.make ok
+------> (constituents.make) Rebuilding library links
+------> (constituents.make) all done
+ all ok.
+#--------------------------------------------------------------
+# Now trying [make] in /home/tagg/autodaya/External/CLHEP/cmt (7/15)
+#--------------------------------------------------------------
+------> (Makefile.header) Rebuilding constituents.m

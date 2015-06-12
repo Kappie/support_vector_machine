@@ -1,0 +1,13 @@
+        PLOT INTERVAL =   2.0000    
+  FMAX/NSD/NLS =     0.000000                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+            6            3   1.3000000E-02           13           13 
+           13            1   2.5000000E-02            2            2 
+           13
+ THE FIELD HAS BEEN PLOTTED
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/LWM, LGA/LGB, FUA/FSF, LAPS-BKG, BAL), 
+     [wo,co,bo,lo,fo] Anlyz/Cloud/Balance/Bkg/Fcst Omega
+    

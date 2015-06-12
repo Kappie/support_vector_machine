@@ -1,0 +1,24 @@
+elf-cal over 1 minute time intervals
+! Adding 18 model components to the UV plane model.
+! The established model now contains 76 components and 1.67605 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Correcting IF 5.
+! 
+! Correcting IF 6.
+! 
+! Correcting IF 7.
+! 
+! Correcting IF 8.
+! 
+! Fit before self-cal, rms=0.289180Jy  sigma=0.001132
+! Fit after  self-cal, rms=0.280525Jy  sigma=0.001097
+! Inverting map and beam 
+! Estimated beam: bmin=0.3062 mas, bmaj=0.74

@@ -1,0 +1,10 @@
+n="right"><a href="#top"><small>Top</small></a></p>
+<H3> <a href="../spicelib/cgv2el.html">CGV2EL</a> and <a href="../spicelib/el2cgv.html">EL2CGV</a> are not inverses
+</H3><P><BR><BR>
+   Because the routine <a href="../spicelib/el2cgv.html">EL2CGV</a> always returns semi-axes as generating
+   vectors, if V1 and V2 are not semi-axes on input to <a href="../spicelib/cgv2el.html">CGV2EL</a>, the sequence
+   of calls
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/cgv2el.html">CGV2EL</a> ( CENTER,  V1,      V2,  ELLI

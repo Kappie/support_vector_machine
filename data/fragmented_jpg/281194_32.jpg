@@ -1,0 +1,12 @@
+.6'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description rdf:about='uuid:f9f1e64c-f65f-11da-b8f5-a00f458abb0b'
+  xmlns:exif='http://ns.adobe.com/exif/1.0/'>
+  <exif:ColorSpace>4294967295</exif:ColorSpace>
+  <exif:PixelXDimension>200</exif:PixelXDimension>
+  <exif:PixelYDimension>172</exif:PixelYDimension>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:f9f1e64c-f65f-11da-b8f5-a00f458abb0b'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3

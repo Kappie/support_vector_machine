@@ -1,0 +1,13 @@
+components to file: 2120+099_X.mod
+! wwins: Wrote 5 windows to 2120+099_X.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 1.024 x 2.657 at -13.24 degrees (North through East)
+! Clean map  min=-0.0034009  max=0.1054 Jy/beam
+! Writing clean map to FITS file: 2120+099_X.fits
+! Writing difmap environment to: 2120+099_X.par
+device 2120+099_Xuv.ps/vps,1,2
+! Attempting to open device: '2120+099_Xuv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+device 2

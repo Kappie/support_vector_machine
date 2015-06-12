@@ -1,0 +1,19 @@
+= win_mult * 1.2
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.187250Jy  sigma=0.001318
+! Fit after  self-cal, rms=0.187565Jy  sigma=0.001318
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! Estimated beam: 

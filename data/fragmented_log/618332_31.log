@@ -1,0 +1,12 @@
+delta ut(ref - gps,sv#14) = 2.0136 microsec at 15:18 ut
+9815515535554;"delta ut(ref - gps,sv#31) = 2.2797 microsec at 15:02 ut
+9815515542602;"delta ut(ref - gps,sv# 1) = 2.2268 microsec at 14:46 ut
+9815515545726;"delta ut(ref - efos.13) = 18.711 - 0.6 = 18.211 microsec at 15:48 ut
+9815515551324;"pointing tested with casa
+9815515560001:"data stop"
+9815515560001:et
+9815515560016:!+3s
+9815515560318:tape
+9815515560328/tape/off,02340,norm,stopped,stop,unlock,ready,rem
+9815515560328:postob
+9815515560365/cable/+3.

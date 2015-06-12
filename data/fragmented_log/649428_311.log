@@ -1,0 +1,3 @@
+al/cdat/Externals/NetCDF/include  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT reader4.o -MD -MP -MF .deps/reader4.Tpo -c -o reader4.o reader4.c
+mv -f .deps/reader4.Tpo .deps/reader4.Po
+/bin/sh ../../libtool --tag=CC   --mo

@@ -1,0 +1,19 @@
+/work/
+ 
+!xsel:ASCA-SIS1-BRIGHT > set binsize 128
+!xsel:ASCA-SIS1-BRIGHT > set image sky
+!xsel:ASCA-SIS1-BRIGHT > filter region init_reg.tmp
+!xsel:ASCA-SIS1-BRIGHT > extract image
+!xsel:ASCA-SIS1-BRIGHT > save image sis1_sky.tmp clobber=yes
+Wrote image to file sis1_sky.tmp
+!xsel:ASCA-SIS1-BRIGHT > exit save=no
+ 
+gnt_infrm: Smoothing sky image for sis1...
+ 
+ 
+gnt_infrm: Finding maximum pixel (centroid) for sis1...
+ 
+
+****** statistics for /tproc/nandra/processing/72016000/work/sis1_sky_sm.tmp ******
+
+The sum

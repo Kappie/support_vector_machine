@@ -1,0 +1,10 @@
+ead[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.19:18:55.90/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.19:18:55.90/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.19:18:56.06:fastf=0m44s
+2001.295.19:18:56.06&fastf/repro=byp,0,0
+2001.295.19:18:56.06&fastf/tape=low
+2001.295.19:18:56.06&fastf/ff
+2001.295.19:18:56.06&fastf/!+$
+2001.295.19:18:56.06&fastf/et
+2001.295.19:18:

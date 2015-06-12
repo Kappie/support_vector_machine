@@ -1,0 +1,11 @@
+ents CCDID.EQ.3
+!xsel:ASCA-SIS1-BRIGHT2 > filter region 74035000_sis1_bgd.reg
+!xsel:ASCA-SIS1-BRIGHT2 > extract spectrum
+!xsel:ASCA-SIS1-BRIGHT2 > save spectrum group=yes clobber=yes 74035000_sis1_bgd.pha
+Wrote spectrum to 74035000_sis1_bgd.pha
+!xsel:ASCA-SIS1-BRIGHT2 > filter pha_cutoff 140 2796
+!xsel:ASCA-SIS1-BRIGHT2 > extract events
+!xsel:ASCA-SIS1-BRIGHT2 > save events use=no clobber=yes 74035000_sis1_bgd.evt
+Wrote events list to file 74035000_sis1_bgd.evt
+!xsel:ASCA-SIS1-BRIGHT2 > clear events
+!xsel:A

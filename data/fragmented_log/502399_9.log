@@ -1,0 +1,15 @@
+mber WHA source runs to set HVs for replaced WHA PMTs:<pre> 
+##159480, 159481        | Bon, FE LERs = 1, HVs new 
+##159487, 159488,159489 |                   HVs new 
+ 
+ID  383  LERnew = 0.9911E +00; HVset = 1054v; 
+ID  495  LERnew = 0.1012E +01; HVset = 1040v; 
+ID 24CF  LERnew = 0.1004E +01; HVset =  924v;  
+</pre>
+<!-- Author: Nikolay Luzhetskiy -->
+
+
+
+<!-- Date: Thu Feb 27 07:24:41 2003 -->
+SCPU_TRACER_EVENT_ID error, from SCPU b0eb16 (forwarded by PCAL09). Auto HRR ok.
+<!-- Author: Luis :: (run <a href=

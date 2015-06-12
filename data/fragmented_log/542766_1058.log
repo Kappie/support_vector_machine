@@ -1,0 +1,10 @@
+515505913:tape
+9919515505918/tape/off,12157,norm,stopped,stop,unlock,ready,rem
+9919515505918:postob
+9919515505918:source=1124-186,112434.0,-184046.3,1950.0
+9919515505919#antcn#Commanding to new source
+9919515510034#antcn#Source:  1124-186  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919515510034#antcn# RAcommand  171.757   DECcommand -18.952
+9919515510035:wb2c1=9
+9919515510483/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919515510483/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 

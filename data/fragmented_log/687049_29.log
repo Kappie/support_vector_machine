@@ -1,0 +1,11 @@
+cer:csc2DRecHits  07-Aug-2007 10:00:31 EDT  Run: 1 Event: 50
+Warning: L1 trigger info not available 
+%MSG
+%MSG-e PFProducer:  GoodSeedProducer:elecpreid 07-Aug-2007 10:01:28 EDT  Run: 1 Event: 50
+invalid trajectory state on surface:  iSurf = 4 tan theta = -3.3405 pz = -0.30879
+%MSG
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 10:04:03 EDT  Run: 1 Event: 51
+Fitted position is out of tracker bounds.
+
+%MSG
+PFClusterAlgo Warning: more than 50 iterations in pf

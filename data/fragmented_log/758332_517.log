@@ -1,0 +1,14 @@
+
+ telescope = ASCA , instrument = SIS0 , channel type = PI
+  Current data file : 74035000_sis0_src_20.pha
+   with integration time    3.4656E+04
+          effective area     1.000
+    selected region area    6.2158E-02
+  Background file : 74035000_sis0_bgd.pha
+   with integration time    3.4656E+04
+      and effective area     1.000
+    selected region area    3.0928E-02
+  No current correction
+  Response (RMF) file    : 74035000_sis0.rmf
+  Auxiliary (ARF) file    : 74035000_sis0.arf
+ Weighting method is st

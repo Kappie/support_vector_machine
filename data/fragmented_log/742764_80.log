@@ -1,0 +1,13 @@
+d ideally be below 0.1543 milli-arcsec
+uvtaper 0,0
+! No UV-taper is currently set.
+clean
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! Estimated beam: bmin=0.8201 mas, bmaj=1.746 mas, bpa=0.976 degrees
+! Estimated noise=371.945 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = -0.000762816 Jy
+! Component: 100  -  total flux cleaned = -0.000358701 Jy
+! Co

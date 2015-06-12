@@ -1,0 +1,14 @@
+Using 275 for Radiation Belt Monitor upper-threshold
+Using 100 for SIS Pixel rejection upper-threshold for chips 1 .
+I will start up SAOImage, and leave you in Xselect at the end
+Writing command file 76052020_sis0.xco
+Index  NEVENTS   ONTIME  S0CCDMOD S0CCDLST S0_ARENA
+    0   124907  30695.9         1     1111        0
+Removing Hot and Flickering Pixels.
+Performing Grade selection ( keeping 0,2,3, and 4 ).
+Command file written, goodbye
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Applies standard c

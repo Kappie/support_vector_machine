@@ -1,0 +1,25 @@
+00
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_prod
+gnt_infrm: *************************
+Sat Apr 15 15:53:14 EDT 2000
+ 
+gnt_infrm: Running extraction procedure for 75084000...
+ 
+gnt_infrm: Running SISPI...
+SISPI v1.1.1
+SISPI v1.1.1
+ 
+gnt_infrm: DATAMODE = BRIGHT2.
+ 
+gnt_infrm: BITFIX = n.
+ 
+ 
+gnt_infrm: Extracting src data for sis0...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S0CCDPOW
+      1 TOL0109-383 BRIGHT2     MEDIUM      0

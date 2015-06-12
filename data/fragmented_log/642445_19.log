@@ -1,0 +1,9 @@
+ut it at the beginning of the memory I see this : the RH picture, of a L1A coming around 400 us later, but then nothing else for the remainder of the scope memory.  
+<br>
+Traces:0=L1A, 1=HLNK_LE0, 2=EOE, 3=RCLK, 4=FIFO_EMPTY*, 5=LOC_REQ, 6=DSTROBE*,7=DDONE*,
+    8=LOC_BOSS, 9=MB_DONE_OUT, 10=CLIQUE_END, 11=CLIQUE_BUF0, 12=CLIQUE_BUF1, 13=WCLK,
+    14=WEN0, 15=WEN1 BACKPLANE: 16=STARTLOAD, 17=DONE0, 18=BUF0, 19=BUF1 
+
+
+<!-- Date: Fri Oct 12 12:51:04 2001 -->
+<table><tr><td><a href=/cgi/elog/det-system-el

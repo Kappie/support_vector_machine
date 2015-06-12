@@ -1,0 +1,8 @@
+0,7u,5.000,8u,5.000,i3,5.000
+2004.350.15:37:17.43?ERROR qk -211 Tsys value for device vb overflowed or was less than zero.
+2004.350.15:37:17.43?ERROR qk -211 Tsys value for device ve overflowed or was less than zero.
+2004.350.15:37:17.43/tsys/1u,38.5,2u,38.2,3u,36.8,4u,38.5,i1,40.7
+2004.350.15:37:17.43/tsys/9u,131.2,au,125.3,bu,$$$$$$$$,cu,113.8,du,110.0,eu,$$$$$$$$
+2004.350.15:37:17.43/tsys/i2,166.7
+2004.350.15:37:17.43/tsys/5u,45.7,6u,44.8,7u,48.9,8u,49.0,i3,39.3
+2004.350.15:37:19.44/gps-fmout/+1.2258E-00

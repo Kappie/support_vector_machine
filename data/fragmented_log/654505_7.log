@@ -1,0 +1,4 @@
+cal/build/bin:/usr/lib/qt-1.45/bin:/usr/lib/qt-2.1.0/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/X11R6/bin:/usr/kerberos/sbin:/usr/kerberos/bin:.
+[buildtool/194/is_build_needed()] Got config key PATH with value /usr/build/bin:/usr/local/build/bin:/usr/lib/qt-1.45/bin:/usr/lib/qt-2.1.0/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/X11R6/bin:/usr/kerberos/sbin:/usr/kerberos/bin:..
+[Config.pm/155/Config::get] Config::get(TARGET):  rpms
+[buildtool/194/is_build_needed()] Got config key TARGET w

@@ -1,0 +1,12 @@
+ce that the SVX is causing this;
+reminds us that in the beginning of this run Taka cured similar problem with coldstart
+<!-- Date: Wed Jun 11 22:21:05.216 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=164512">164512</A>
+ Terminated at 2003.06.11 22:18:41
+<!-- Author: RunControl -->
+<!-- Comment: Wed Jun 11 22;42;10 comment by...smaria -->
+<pre>We have to terminate the run  to cure more than one problems:
+
+1. L2 DONE timeout every minute
+2. re-select partition
+3. run with the dynamic p

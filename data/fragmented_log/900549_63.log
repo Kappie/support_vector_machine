@@ -1,0 +1,13 @@
+leaned = 0.00200384 Jy
+! Total flux subtracted in 200 components = 0.00200384 Jy
+! Clean residual min=-0.004483 max=0.006579 Jy/beam
+! Clean residual mean=0.000345 rms=0.001732 Jy/beam
+! Combined flux in latest and established models = 2.09279 Jy
+! Adding 47 model components to the UV plane model.
+! The established model now contains 106 components and 2.09279 Jy
+! Inverting map 
+uvtaper 0,0
+! No UV-taper is currently set.
+clean
+! Inverting map and beam 
+! Estimated beam: bmin=2.463 mas, bmaj=4.798 mas, bpa

@@ -1,0 +1,14 @@
+n=0.8516 mas, bmaj=2.374 mas, bpa=-8.191 degrees
+! Estimated noise=510.023 mJy/beam.
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.8516 x 2.374 at -8.191 degrees (North through East)
+! Clean map  min=-0.007397  max=1.5649 Jy/beam
+if(peak(flux) > thresh)
+  selfcal true, true
+  clean clean_niter,clean_gain
+  selfcal
+  flux_cutoff = imstat(rms) * dynam
+  repeat
+    if (peak(flux) > flux_cutoff) peakwin win_mult
+    clean clean_niter,clean_gain
+    flux_cutoff =

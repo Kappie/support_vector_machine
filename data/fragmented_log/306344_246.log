@@ -1,0 +1,13 @@
+30210002159#antcn#Initializing interface to SYS26M
+9830210002500#antcn#Command a new source
+9830210002530#antcn#Successfully sent new source position to antenna
+9830210002531:midtp
+9830210002531&midtp/ifd=max,max,*,*
+9830210002531&midtp/if3=max,*,*,*,*,*
+9830210002531&midtp/!+2s
+9830210002531&midtp/tpzero=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9830210002531&midtp/tpzero=v9,v10,v11,v12,v13,v14,if2
+9830210002531&midtp/ifd=old,old,*,*
+9830210002531&midtp/if3=old,*,*,*,*,*
+9830210002531&midtp/rxmon
+9830210002771/tpzer

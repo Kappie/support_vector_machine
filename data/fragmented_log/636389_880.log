@@ -1,0 +1,11 @@
+k_domain: max_diff (approx m)   =     6.724493    
+  measured grid spacing on earths surface at domain center is:    9313.902    
+  calculated grid spacing on earths surface at domain center is: 
+    9313.789    
+  grid spacing on projection plane using "latlon_to_xy" is:    8989.750    
+
+     Lowest Displayed Level =             2
+     NX_P/NZ_C/NZ_L          208           21           21
+     iyl_remap,iyh_remap           36           34
+
+    Type of Xsect  [we, sn, xxx (azimuth-true), arr (arrival gate)]

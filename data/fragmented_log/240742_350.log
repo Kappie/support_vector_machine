@@ -1,0 +1,10 @@
+ug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.23:25:01.92/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.23:25:02.10:!2001.295.23:28:10
+2001.295.23:28:10.00:tape
+2001.295.23:28:10.12/tape/off,11348,norm,stopped,stop,unlock,ready,rem
+2001.295.23:28:10.12:st=rev,160
+2001.295.23:28:10.28:!2001.295.23:28:10
+2001.295.23:28:10.28:preob
+2001.295.23:28:10.30#antcn#Checking onsource status
+2001.295.23:28:10.31#antcn# RA

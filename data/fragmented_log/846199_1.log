@@ -1,0 +1,21 @@
+    8e+06          1        8e+06
+! 
+! Polarization(s): RR
+! 
+! Read 947 lines of history.
+! 
+! Reading 15476 visibilities.
+![@gonzo7-0.4 1053+815_S]
+print "***********************************"
+! *********************************** 
+print "*** Using gonzo instruction set ***"
+! *** Using gonzo instruction set *** 
+print "***********************************"
+! *********************************** 
+float field_size
+field_size = 1024
+float field_cell
+field_cell = 0.4
+integer clean_niter
+clean_niter = 50
+float c

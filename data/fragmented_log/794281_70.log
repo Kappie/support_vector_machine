@@ -1,0 +1,7 @@
+-------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 3.639790              wxc_scale = 0.500            wc = 1.000         |
+| angle between x-ray and geometry gradient vectors: 104.788  (deg)           |
+|                                                                             |
+| ADP refinement: T = Eexperimental * wxu * wxu_scale + Eadp  * wu            |
+| wxc = 2.610945              wxc_scale = 1.000            wc

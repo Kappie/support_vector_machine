@@ -1,0 +1,12 @@
+2:46:12.18#flagr#flagr/antenna,new-source
+2003.308.22:46:12.19:setupsx
+2003.308.22:46:15.84/mk5/!play_rate = 0 ;
+2003.308.22:46:15.85/mk5/!mode = 0 ;
+2003.308.22:46:15.89/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 85 ;
+2003.308.22:46:15.90:!2003.308.22:50:20
+2003.308.22:48:21.26#flagr#flagr/antenna,acquired
+2003.308.22:50:20.00:preob
+2003.308.22:50:20.74#antcn#Check if antenna is on-source
+2003.308.22:50:20.74#flagr#flagr/antenna,off-source
+2003.308.22:50:21.44/onsource/TRACKING
+2003.308.22:50:21.84#flagr

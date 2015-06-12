@@ -1,0 +1,4 @@
+duce::fillCaloCompatibility                                                       1        0.001 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::fillIsolation                                                               1        0.969 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::fillMuonId                                                                  1        0.968 (real)        0.000 (cpu)
+firstcall_MuonIdProducer::produce::init                                              

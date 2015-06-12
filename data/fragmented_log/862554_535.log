@@ -1,0 +1,7 @@
+------------------------------------------------------------------------
+  Model:  constant[1]( wabs[2]( powerlaw[3] ) + wabs[4]( powerlaw[5] ) )
+  Model Fit Model Component  Parameter  Unit     Value                    Data
+  par   par comp                                                          group
+    1    1    1   constant   factor              1.000     frozen            1
+    2    2    2   wabs       nH       10^22     0.2748     +/-   2.007       1
+    3    3    3   powerlaw   PhoIndex            

@@ -1,0 +1,9 @@
+trons in the energy range [250eV,100GeV].
+                  The process must work with G4LowEnergyIonisation.
+[0m[geant] =I= [0m
+[0m[geant] =I= [0meIoni:   tables are built for  e+
+[0m[geant] =I= [0m      dE/dx and range tables from 100 eV  to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Lambda tables from threshold to 100 TeV in 120 bins.
+[0m[geant] =I= [0m      Delta cross sections and sampling from MollerBhabha model
+                  Good description from 1 KeV to 100 GeV.
+[0m[geant] =I= [0m

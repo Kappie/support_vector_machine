@@ -1,0 +1,12 @@
+stances:
+        1.57 -     2.24: 24
+        2.24 -     2.90: 1403
+        2.90 -     3.57: 4502
+        3.57 -     4.23: 9177
+        4.23 -     4.90: 13128
+  Nonbonded interactions sorted by model distance:
+             atom i - atom j             model   vdw sym.op. j
+  " O   HOH Z 201 " - " O   HOH Z 349 "  1.570 3.040 -x+1/2,-y+1,z+1/2
+  " OG1 THR A  29 " - " O   HOH Z 245 "  1.681 3.040 x,y+1,z
+  " O   HOH Z  61 " - " O   HOH Z 246 "  1.742 3.040 x,y+1,z
+  " N   ASN A 148 " - " O   HOH Z 138 "  1.794 

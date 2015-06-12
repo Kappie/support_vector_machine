@@ -1,0 +1,13 @@
+6:56:38.61;clkoff
+2003.308.16:56:38.61&clkoff/"specify fmout-gps when formatter (h-maser) leads gps
+2003.308.16:56:38.61&clkoff/hpib=pp,:read?
+2003.308.16:56:38.61&clkoff/!+0.5s
+2003.308.16:56:38.61&clkoff/fmout-gps=pp
+2003.308.16:56:38.61&clkoff/!+0.5s
+2003.308.16:56:38.61&clkoff/hpib=pp,:init:cont on
+2003.308.16:56:39.15/fmout-gps/2.065220e-05 20.7 usec (Hmaser leads GPS)
+2003.308.17:29:50.00:preob
+2003.308.17:29:50.00&preob/onsource
+2003.308.17:29:50.00&preob/calon
+2003.308.17:29:50.00&preob/!+2s
+2003.30

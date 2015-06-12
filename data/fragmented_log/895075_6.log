@@ -1,0 +1,13 @@
+fcal
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (0, 0).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.17407 Jy
+! Component: 100  -  total flux cleaned = 0.222603 Jy
+! Total flux subtracted in 100 components = 0.222603 Jy
+! Clean residual min=-0.009689 max=0.022490 Jy/beam
+! Clean residual mean=0.000195 rms=0.002957 Jy/beam
+! Combined flux in latest and established models = 0.222602 Jy
+! Performing phase self-cal
+! Addin

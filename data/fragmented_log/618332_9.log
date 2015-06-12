@@ -1,0 +1,13 @@
+on,off,locked,40.59
+9815514530417/rx/03(DCAL),on,a,on,on,on,off,locked,48.65
+9815514530428/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+9815514530439/rx/17(PRES),on,a,on,on,on,off,locked,2.647
+9815514530450/rx/1E(20K),on,a,on,on,on,off,locked,44.66
+9815514530458/newtape/"to continue, use label command"
+9815514530458;check=all,-rx
+9815514534977;label=wesa1126,dfbb
+9815514534985?ERROR q< -301 Vacuum is not ready.
+9815514540401/label/WESA1126,DFBB
+9815514540402:!155153921
+9815514540645;label=wesa1126,dfbb
+9815

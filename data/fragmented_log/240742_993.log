@@ -1,0 +1,8 @@
+.30#antcn#Checking onsource status
+2001.296.10:15:27.32#antcn# RAsource   242.205   DECsource   10.484
+2001.296.10:15:27.32#antcn# RAbeam     242.216   DECbeam     10.481
+2001.296.10:15:27.32#antcn# RAdelta      0.012   DECdelta     0.003
+2001.296.10:15:27.32?ERROR an -103 Pointing computer tracking errors are too large.
+2001.296.10:15:27.33?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+2001.296.10:15:27.33/onsource/SLEWING
+2001.296.10:15:29.88/tpical/6675,5199,5634,4053,1281,4520,4659,3984,7714,11782

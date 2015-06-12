@@ -1,0 +1,13 @@
+,9428
+9830220222381?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830220222381/tsys1/49.0,49.5,49.3,48.5,47.0,43.7,43.3,43.3,46.2,$$$$$$$$
+9830220222382?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830220222382/tsys2/61.4,62.9,62.5,60.7,60.1,$$$$$$$$,85.0
+9830220222382:!302202350
+9830220235000:"data stop"
+9830220235000:et
+9830220235016:!+3s
+9830220235317:tape
+9830220235329/tape/off,01936,norm,stopped,stop,unlock,ready,rem
+9830220235329:postob
+983022

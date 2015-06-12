@@ -1,0 +1,19 @@
+tion="' + url.substr(0, qm) + '" target="' + w.name + '">';
+var q = url.substr(qm + 1).replace(/&amp;/g,'&');
+var args = q.split('&');
+for(j = 0; j < args.length; j++) {
+var p = args[j].split('=');
+if(p[0].length < 1) { continue; }
+f += '<input type="hidden" name="' + unescape(p[0]);
+if( p.length > 1 ) {
+p.shift();
+f += '" value="' + unescape(p.join('=')).replace(/"/g,'&quot;');
+}
+f += '"/>';
+}
+f += '</form>';
+w.document.body.innerHTML += f;
+w.document.myncbiautosubmitform.submit();
+}
+}
+function MyNCBI_r()

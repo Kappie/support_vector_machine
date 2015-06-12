@@ -1,0 +1,15 @@
+_bgd_hard.evt
+Wrote events list to file 74035000_sis1_bgd_hard.evt
+!xsel:ASCA-SIS1-BRIGHT2 > clear events
+!xsel:ASCA-SIS1-BRIGHT2 > clear pha_cutoff
+!xsel:ASCA-SIS1-BRIGHT2 > clear region all
+!xsel:ASCA-SIS1-BRIGHT2 > exit save=no
+ 
+gnt_infrm: Extracting bgd data for gis2...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 3C_254      PH          HIGH        07/12/96    13:20:19    0.39E+05    13304     1024
+extractor v3.75  8 Mar 2000
+ Getting FIT

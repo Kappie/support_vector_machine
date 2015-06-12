@@ -1,0 +1,11 @@
+T TIME. <br>
+The run appears in database and there is a log file in ~cdfdaq/consumers/log: <br>
+runQiePed_0_2001-12-27_12:54:58.log 
+  
+<!-- Author: Tania :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135771' target=_top>135771</a>) -->
+<!-- Comment: Thu Dec 27 15;31;48 comment by...Tania -->
+<pre>I have put plots for QIE's and PED's for this run in
+the DBANA Folder.
+Also I have put the plots in ~cdfdaq/DBANAplots</pre>
+<!-- Date: Thu Dec 27 13:10:46 2001 -->
+<pre>Heather takes back L1CAL,L2C

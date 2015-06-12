@@ -1,0 +1,7 @@
+ pfcluster finding: 0.006249849706
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 1.947207048e-07
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 2.300568561e-07
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 1.831459018e-07
+JetMaker::makeSpecific (CaloJet)-> ERROR: constituent tower energy is 0, Em/Had contributions are 0/0
+. THIS SHOULD NEVER HAPPEN - please inform ratnikov@fnal.gov. Thank you!
+JetMaker::makeSpecific (CaloJet)-> ERROR: const

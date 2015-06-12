@@ -1,0 +1,9 @@
+lay_rate = 0 ;
+2004.127.18:28:40.06/mk5/!mode = 0 ;
+2004.127.18:28:40.09/bank_check/usn-0102/960/1024OK,VNVD06G4H79HHL,VNVD06G4H79NPL,VNVD06G4H79P5L,VNVD06G4H79JEL,VNVD06G4H79KXL,VNVD06G4H79ALL,VNVD06G4H79KBL,VNVD06G4H79LSL
+2004.127.18:28:40.11/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.127.18:28:40.11:ready_disc
+2004.127.18:28:40.12&ready_disc/mk5close
+2004.127.18:28:40.12&ready_disc/xdisp=on
+2004.127.18:28:40.12&ready_disc/"mount the mark5 discs for this experiment now
+2004.127.18:28:40.12&read

@@ -1,0 +1,18 @@
+g 11 model components to the UV plane model.
+! The established model now contains 19 components and 0.666931 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.159500Jy  sigma=0.772604
+! Fit after  self-cal, rms=0.159454Jy  sigma=0.772394
+! Inverting map 
+! clean: niter=50  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0467518 Jy
+! Total flux subtracted in 50 components = 0.0467518 Jy
+! Clean residual min=-0.007456 max

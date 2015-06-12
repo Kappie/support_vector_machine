@@ -1,0 +1,13 @@
+07
+9919512145400:!195121501
+9919512150100:tape
+9919512150105/tape/off,13751,norm,moving,nostop,locked,ready,rem
+9919512150105:"data start"
+9919512150105:midob
+9919512150105#antcn#Checking onsource status
+9919512150108#antcn# RAsource   112.566   DECsource  -11.686
+9919512150108#antcn# RAbeam     112.567   DECbeam    -11.687
+9919512150108#antcn# RAdelta      0.001   DECdelta     0.001
+9919512150108?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919512150108/onsource/SLEWING
+9919512150110/wx/18.0,867.6,4

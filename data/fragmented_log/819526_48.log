@@ -1,0 +1,12 @@
+ur choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+uvtaper 0,0
+! No UV-taper is currently set.
+win_mult = win_mult / 1.2
+print "************** FINISHED AMPLITUDE SELF-CAL **************"
+! ************** FINISHED AMPLITUDE SELF-CAL ************** 
+restore
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmi

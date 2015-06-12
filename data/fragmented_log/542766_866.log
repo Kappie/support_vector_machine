@@ -1,0 +1,9 @@
+80708#matcn#debug: rec 0 ? ERROR 7
+9919511381581/peak/3,1,read,0.200,0.234,0.0,t,-2.046
+9919511382020/peak/3,1,read,0.200,0.249,21.6,t,-1.992
+9919511382045/pass/8,8,auto,-165.0,-165.0,-165.6,-144.1,-0.6,20.9
+9919511383596?ERROR qg -303 Track  5 parity errors exceed threshold.
+9919511383596?ERROR qg -305 AUX data differs from expected value on track  5.
+9919511383596?ERROR qg -303 Track  7 parity errors exceed threshold.
+9919511383596?ERROR qg -305 AUX data differs from expected value on track  7.
+9919511383

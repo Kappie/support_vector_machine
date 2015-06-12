@@ -1,0 +1,15 @@
+ DATAMODE = BRIGHT2.
+ 
+gnt_infrm: BITFIX = n.
+ 
+ 
+gnt_infrm: Extracting src data for sis0...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S0CCDPOW
+      1 3C_254      BRIGHT2     HIGH        07/12/96    13:20:13    0.35E+05     5055 0100
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /tproc/nandra/processing/74035000/work/74035000_sis0.evt
+ 10% completed 20% completed 30% completed 40% completed 50% completed 60% completed 70% complet

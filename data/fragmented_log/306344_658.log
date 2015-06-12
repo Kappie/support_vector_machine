@@ -1,0 +1,8 @@
+ data differs from expected value on track 23.
+9830218431474?ERROR qg -303 Track 25 parity errors exceed threshold.
+9830218431474?ERROR qg -305 AUX data differs from expected value on track 25.
+9830218431474?ERROR qg -303 Track 27 parity errors exceed threshold.
+9830218431474?ERROR qg -305 AUX data differs from expected value on track 27.
+9830218431474?ERROR qg -304 Track  7 sync errors exceed threshold.
+9830218431474?ERROR qg -304 Track 13 sync errors exceed threshold.
+9830218431474?ERROR qg -304 Track 15 

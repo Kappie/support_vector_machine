@@ -1,0 +1,15 @@
+ard.evt
+Wrote events list to file 76052020_sis0_src_hard.evt
+!xsel:ASCA-SIS0-BRIGHT2 > clear events
+!xsel:ASCA-SIS0-BRIGHT2 > clear pha_cutoff
+!xsel:ASCA-SIS0-BRIGHT2 > clear region all
+!xsel:ASCA-SIS0-BRIGHT2 > exit save=no
+ 
+gnt_infrm: Extracting src data for sis1...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  S1CCDPOW
+      1 MRK_501_N3  BRIGHT2     MEDIUM      1998-07-21  20:02:12    0.14E+05    72026 0001
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keyw

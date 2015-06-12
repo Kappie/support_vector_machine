@@ -1,0 +1,8 @@
+NUMBER=266354>266354</A>
+ACTIVATE: RunSet: ACE_COSMICS_ALL  Trigger: COSMICS [15,1120,706] to verify L1MET work
+<!-- Author: Andreas -->
+<!-- Comment: Wed Aug 20 14;45;17 comment by...Laura -->
+I would like to verify L2CAL05 is till working correctly after recabling of pulsar15. At the same time L1MET is included and I'm running with all the L1MET system included.
+15 minutes would be enough to verify L2CAL is fine. If L1MET system works correctly I'll put a request for an end of store test.
+
+<!-- Comment: 

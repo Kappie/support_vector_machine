@@ -1,0 +1,7 @@
+PkgVars::pkgvar_set] Package variable "instructions" -> "/var/tmp/mezzanine.temp.dironly.29689.243e/caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SPECS/perl-DBI.spec"
+[RPM.pm/251/parse_spec_file()] Header:  summary -> A database access API for perl
+[RPM.pm/251/parse_spec_file()] Header:  name -> perl-DBI
+[RPM.pm/251/parse_spec_file()] Header:  version -> 1.40
+[RPM.pm/251/parse_spec_file()] Header:  release -> 4.caos
+[RPM.pm/251/parse_spec_file()] Header:  url -> http://dbi.perl.org/
+[RPM.pm/251/parse

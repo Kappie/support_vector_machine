@@ -1,0 +1,13 @@
+lux is 0.225239 
+invert
+! Inverting map 
+! Your choice of large map pixels excluded 4.39% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+float image_rms
+image_rms = imstat(rms)
+print "The final image rms is",image_rms
+! The final image rms is 0.000625771 
+device "J1727+4530_X_1999_12_20_pus\_map.eps/VPS"
+! Attempting to open device: 'J1727+4530_X_1999_12_20_pus_map.eps/VPS'
+loglevs 100*3*image_rms/peak_fl

@@ -1,0 +1,3 @@
+l -Wwrite-strings -Wpointer-arith -Woverloaded-virtual  -D_GNU_SOURCE -o dywTrajectoryHelper.o                  `/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/DataStructure/MCEvent/src /home/tagg/autodaya/DataStructure/MCEvent/src/dywTrajectoryHelper.cc
+../Linux-i686/dywOpticalPhotonTrajectoryData.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SITE/src" 

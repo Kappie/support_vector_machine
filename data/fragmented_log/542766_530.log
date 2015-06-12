@@ -1,0 +1,11 @@
+rem
+9919504295821:postob
+9919504295821:source=cta26,033658.9,-015616.9,1950.0
+9919504295823#antcn#Commanding to new source
+9919504295941#antcn#WARNING: source presently below limit horizon
+9919504295941#antcn#Source:  cta26  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919504295941#antcn# RAcommand   54.867   DECcommand  -1.779
+9919504295942:wb2c1=5
+9919504300220#matcn#debug: 92 /ASS 0 2:0x1 4:0x3 6:0x5 8:0x7 10:0x9 12:0xb 14:0xd 16:0x0 ? ERROR 7
+9919504300308#matcn#debug: 92 /STA ? ERROR 7
+9919504300390/form/0x80

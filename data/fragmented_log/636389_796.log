@@ -1,0 +1,12 @@
+ Colorbar midpoint = 0
+  write_label_lplot:
+ difference field (a - b)                                                                            
+  lapsplot_setup: start
+  c6_maproj = lambrt
+  standard_lon =     120.9100    
+  standard_lats =     10.00000        40.00000    
+  lapsplot_setup: IFRAME =             2  JDOT =             1  lambrt
+  Subroutine draw_county_map...            1            3
+  Plotting Counties     1260000.                1            5
+  Subroutine supmap...            3
+  DSRDI 

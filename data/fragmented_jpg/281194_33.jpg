@@ -1,0 +1,15 @@
+/'>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:f9f1e64c-f65f-11da-b8f5-a00f458abb0b'
+  xmlns:photoshop='http://ns.adobe.com/photoshop/1.0/'>
+  <photoshop:History></photoshop:History>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:f9f1e64c-f65f-11da-b8f5-a00f458abb0b'
+  xmlns:tiff='http://ns.adobe.com/tiff/1.0/'>
+  <tiff:Orientation>1</tiff:Orientation>
+  <tiff:XResolution>72/1</tiff:XResolution>
+  <tiff:YResolution>72/1</tiff:YResolution>
+  <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+ <

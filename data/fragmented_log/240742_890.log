@@ -1,0 +1,10 @@
+2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.08:27:34.98/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.08:27:35.14:!2001.296.08:35:07
+2001.296.08:35:07.00:tape
+2001.296.08:35:07.13/tape/off,10832,norm,stopped,stop,unlock,ready,rem
+2001.296.08:35:07.13:st=for,160
+2001.296.08:35:07.32:!2001.296.08:35:07
+2001.296.08:35:07.32:preob
+2001.296.08:35:07.35#antcn#Checking onsource status
+2001.296.08:35:07.36#antcn# RAsource   141.783

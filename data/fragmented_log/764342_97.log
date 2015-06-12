@@ -1,0 +1,8 @@
+======================= Target weights: x-ray data =========================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 3.457541              wxc_scale = 0.500            wc = 1.000         |
+| angle between x-ray and geometry gradient vectors: 163.363  (deg)           |
+|                                                                             |
+| ADP refinement: T = Eexperimenta

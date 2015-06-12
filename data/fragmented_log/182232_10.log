@@ -1,0 +1,10 @@
+ we are having one more iteration of these cooling trips to celebrate the end of this shift!
+<!-- Date: Wed Jul 25 02:54:01 2001 -->
+<ul> 
+<li>Run 121544 get DTO from CCAL08 - SMXR in slot 4 not responding: header x3bfe46a, so this is the same error as before - it should be x38, not x3b.   
+<li>end run and removed this card via cardEditor 
+<li>Run 121546 get L3 errors from the start and are unable to run (see below) 
+</ul>  
+<!-- Author: hray -->
+<!-- Comment: Wed Jul 25 13;09;03 comment by...Boris.  -->
+<p

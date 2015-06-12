@@ -1,0 +1,10 @@
+6.3583E-04 photons ( 1.2949E-12 ergs)cm**-2 s**-1 (  0.500-  2.000) DtSet :  3
+ Model flux  6.5547E-04 photons ( 1.3349E-12 ergs)cm**-2 s**-1 (  0.500-  2.000) DtSet :  4
+
+!XSPEC> set flux1 [flux 0.5 2.0];
+
+!XSPEC> flux 2.0 10.0
+ Model flux  7.3212E-04 photons ( 5.1376E-12 ergs)cm**-2 s**-1 (  2.000- 10.000) DtSet :  1
+ Model flux  7.6198E-04 photons ( 5.3471E-12 ergs)cm**-2 s**-1 (  2.000- 10.000) DtSet :  2
+ Model flux  7.8921E-04 photons ( 5.5382E-12 ergs)cm**-2 s**-1 (  2.000- 10.000) DtSet :  3
+ Model 

@@ -1,0 +1,20 @@
+
+!cat:ASCA-GIS3 > save obscat g3.cat clobber=yes
+!cat:ASCA-GIS3 > exit save=no
+gnt_infrm: Makefilter file is: /tproc/nandra/processing/75084000/aux/ft970702_0346_0950.mkf
+ 
+gnt_infrm: Determining datamode...
+ 
+gnt_infrm: Determining BR_EARTH angle...
+ 
+rm: No match.
+rm: No match.
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_cats
+gnt_infrm: ========================
+Sat Apr 15 15:51:36 EDT 2000
+ 
+gnt_infrm: (do_proc) The dominant datamode is: BRIGHT2.
+ 
+gnt_infrm: (do_proc) The BR_EART

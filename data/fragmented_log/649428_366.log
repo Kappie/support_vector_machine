@@ -1,0 +1,5 @@
+irectory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc'
+make[4]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html
+/usr/bin/install -c -m 0644 ./xml.html ./encoding.html ./FAQ.html ./structure.gif ./DOM.gif ./smallfootonly.gif ./redhat.gif ./libxml.gif ./w3c.png ./Libxml2-Logo-180x168.gif ./Libxml2-Logo-90x34.gif /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html
+/bin/sh ../mkinstalldirs /usr/local/cdat/Externals/share/doc/lib

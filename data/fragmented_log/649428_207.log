@@ -1,0 +1,3 @@
+ign -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testdso.lo -MD -MP -MF .deps/testdso.Tpo -c testdso.c -o testdso.o >/dev/null 2>&1
+mv -f .deps/testdso.Tpo .deps/testdso.Plo
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Ww

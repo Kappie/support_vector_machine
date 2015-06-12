@@ -1,0 +1,23 @@
+Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.420874Jy  sigma=0.002446
+! Fit after  self-cal, rms=0.420871Jy  sigma=0.002446
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit bef

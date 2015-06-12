@@ -1,0 +1,12 @@
+ver.xst
+cp lib/DBI/ProxyServer.pm blib/lib/DBI/ProxyServer.pm
+cp dbipport.h blib/arch/auto/DBI/dbipport.h
+cp lib/DBD/NullP.pm blib/lib/DBD/NullP.pm
+cp lib/DBI/DBD.pm blib/lib/DBI/DBD.pm
+cp lib/Win32/DBIODBC.pm blib/lib/Win32/DBIODBC.pm
+cp lib/DBI/PurePerl.pm blib/lib/DBI/PurePerl.pm
+cp lib/DBD/ExampleP.pm blib/lib/DBD/ExampleP.pm
+cp dbi_sql.h blib/arch/auto/DBI/dbi_sql.h
+cp lib/DBI/ProfileData.pm blib/lib/DBI/ProfileData.pm
+/usr/bin/perl -p -e "s/~DRIVER~/Perl/g" blib/arch/auto/DBI/Driver.xst > Perl.xsi
+/us

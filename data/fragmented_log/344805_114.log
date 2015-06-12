@@ -1,0 +1,11 @@
+disc_start=on
+2003.308.18:50:00.05:data_valid=on
+2003.308.18:50:00.06:midob
+2003.308.18:50:00.06#antcn#Check if antenna is on-source
+2003.308.18:50:00.28/onsource/TRACKING
+2003.308.18:50:01.16#wx#/WX/ 8.3,1012.6, 63.6
+2003.308.18:50:01.41/cable/0015952.8E-6
+2003.308.18:50:01.94/fmout-gps/2.058770e-05 20.6 usec (Hmaser leads GPS)
+2003.308.18:50:02.58/ifd/7,9,nor,nor,rem,5239,3952
+2003.308.18:50:02.66/if3/7,out,1,1,,,,present,missing,500.10,rem,lock,24389
+2003.308.18:50:02.74/vc06/420.99,2.000,u,10,10,rem,loc

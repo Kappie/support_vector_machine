@@ -1,0 +1,11 @@
+001.295.22:02:05
+2001.295.22:02:05.00:tape
+2001.295.22:02:05.12/tape/off,11481,norm,moving,nostop,locked,ready,rem
+2001.295.22:02:05.12:data_valid=on
+2001.295.22:02:05.13:midob
+2001.295.22:02:05.13#antcn#Checking onsource status
+2001.295.22:02:05.15#antcn# RAsource    75.325   DECsource   -1.983
+2001.295.22:02:05.15#antcn# RAbeam      75.328   DECbeam     -1.983
+2001.295.22:02:05.15#antcn# RAdelta      0.002   DECdelta     0.000
+2001.295.22:02:05.16/onsource/TRACKING
+2001.295.22:02:05.17/wx/14.4,864.8,77.1

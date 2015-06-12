@@ -1,0 +1,18 @@
+R="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="'+dcsSrc+'">');
+		}
+	}
+	WebTrends.prototype.dcsMeta=function(){
+		var elems;
+		if (document.all){
+			elems=document.all.tags("meta");
+		}
+		else if (document.documentElement){
+			elems=document.getElementsByTagName("meta");
+		}
+		if (typeof(elems)!="undefined"){
+			var length=elems.length;
+			for (var i=0;i<length;i++){
+				var name=elems.item(i).name;
+				var content=elems.item(i).content;
+				var equiv=elems.item(i).httpEquiv;
+				if (name.len

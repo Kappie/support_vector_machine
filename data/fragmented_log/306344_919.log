@@ -1,0 +1,14 @@
+vice ve overflowed or were less than zero.
+9830300300375/tsys2/64.0,65.1,65.8,62.8,60.5,$$$$$$$$,875.1
+9830300300375:!303003210
+9830300321000:"data stop"
+9830300321000:et
+9830300321017:!+3s
+9830300321318:tape
+9830300321330/tape/off,07440,norm,stopped,stop,unlock,ready,rem
+9830300321330:postob
+9830300321330:source=0925-203,092533.5,-202144.9,1950.0
+9830300321331#antcn#Command a new source
+9830300321368#antcn#Successfully sent new source position to antenna
+9830300321368:check2c2
+9830300325460?ERROR qg -305 A

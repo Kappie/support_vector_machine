@@ -1,0 +1,15 @@
+_fits
+gnt_infrm: ========================
+Sun Apr 23 03:39:37 EDT 2000
+ 
+[1]  + Done                          /home/rosserv/nandra/tartarus/scripts3.2/do_kill  ...
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_mosa
+gnt_infrm: *************************
+Sun Apr 23 03:39:39 EDT 2000
+ 
+gnt_infrm: Creating the exposure corrected sky image and sky images...
+ 
+[1] 19252
+Executing: /usr/local/saord/bin.linux/SAOtng -title SAO042300024176052020  -xrm *cmapDir1:/usr/local/saord/Colormaps/ -xr

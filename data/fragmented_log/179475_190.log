@@ -1,0 +1,11 @@
+57
+2004.349.17:39:54.66:source=cta26,033930.94,-014635.8,2000.0,neutral
+2004.349.17:39:54.66#flagr#flagr/antenna,new-source
+2004.349.17:39:54.66:setupsx
+2004.349.17:39:54.80#skua #Antenna slewing to azimuth 140.4, elevation 21.7
+2004.349.17:39:58.10/mk5/!play_rate = 0 ;
+2004.349.17:39:58.11/mk5/!mode = 0 ;
+2004.349.17:39:58.14/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.349.17:39:58.14:!2004.349.17:42:17
+2004.349.17:40:32.32#skua #Antenna slewing complete
+2004.349.17:40:40.86#flagr#flagr/antenna,a

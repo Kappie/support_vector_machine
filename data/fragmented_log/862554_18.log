@@ -1,0 +1,14 @@
+r-threshold
+Using 75 for SIS Pixel rejection upper-threshold for chips 23 .
+I will start up SAOImage, and leave you in Xselect at the end
+Writing command file 72016000_sis1.xco
+Index  NEVENTS   ONTIME  S1CCDMOD S1CCDLST S1_ARENA
+    0   215753  21593.1         2     2323        0
+Removing Hot and Flickering Pixels.
+Performing Grade selection ( keeping 0,2,3, and 4 ).
+Command file written, goodbye
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Applies standard clean criteria to all modes of ASCA data.

@@ -1,0 +1,14 @@
+1F(70k),on,a,on,on,on,off,locked,46.67
+9830210214279;sxcts
+9830210214279&sxcts/tpi=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9830210214279&sxcts/tpi=v9,v10,v11,v12,v13,v14,if2
+9830210214279&sxcts/ifd=max,max,*,*
+9830210214279&sxcts/if3=max,*,*,*,*,*
+9830210214279&sxcts/!+2s
+9830210214279&sxcts/tpzero=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9830210214279&sxcts/tpzero=v9,v10,v11,v12,v13,v14,if2
+9830210214279&sxcts/ifd=old,old,*,*
+9830210214279&sxcts/if3=old,*,*,*,*,*
+9830210214279&sxcts/calon
+9830210214279&sxcts/!+2s
+983021021

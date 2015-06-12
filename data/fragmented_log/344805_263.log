@@ -1,0 +1,10 @@
+ 0 : 7 : 56913 : 56174 : 0 : 0 : 0 : 0 : 0 : 0 ;
+2003.308.21:13:41.00:scan_name=308-2116,crf23,450
+2003.308.21:13:41.01:source=1325-558,132550.49,-555232.5,1950.0
+2003.308.21:13:41.03#antcn#Command a new source
+2003.308.21:13:41.32#flagr#flagr/antenna,new-source
+2003.308.21:13:41.72#antcn#Successfully sent new source position to antenna
+2003.308.21:13:41.73:setupsx
+2003.308.21:13:45.87/mk5/!play_rate = 0 ;
+2003.308.21:13:45.89/mk5/!mode = 0 ;
+2003.308.21:13:45.91/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S :

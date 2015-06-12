@@ -1,0 +1,11 @@
+s/s) for file   2  4.4761E-02+/-  1.9140E-03( 67.3% total)
+   using response (RMF) file...       74035000_sis1.rmf
+   using auxiliary (ARF) file...      74035000_sis1.arf
+   using background file...           74035000_sis1_bgd.pha
+   2 data sets are in use
+
+!XSPEC> data 3:3 74035000_gis2_src_20;
+ Net count rate (cts/s) for file   3  2.0591E-02+/-  1.4238E-03( 35.0% total)
+   using response (RMF) file...       74035000_gis2.rmf
+   using auxiliary (ARF) file...      74035000_gis2.arf
+   using background file.

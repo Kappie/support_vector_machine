@@ -1,0 +1,11 @@
+a number in 
+the registers.  The FNAL boards (e.g. Testclk, Tracer) have the serial number 
+written as ASCII characters that translate to the number. 
+ 
+I don't understand, doesn't the number make more sense? 
+(Note added in proof -- the TDC had moved away from the spec on 
+this.  It will be corrected soon.) 
+ 
+	4)  We tried to set the calibration cell registers via block transfers 
+to the TDC.  This didn't seem to work -- what we read back was not what we 
+tried to write in.  We switched to single word tra

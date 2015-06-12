@@ -1,0 +1,13 @@
+y,rem
+9921516381425:postob
+9921516381479/cable/+2.780E-04
+9921516381495/gps-fmout/+4.4E-06
+9921516381503/onsource/TRACKING
+9921516381503#antcn#Received message for antenna: TCHECK
+9921516381503/relheight/T1,T2,T3,T4,L5/ 03.08.1999  16:35  25.12  28.76  30.17  25.00  3.584
+ 
+9921516381503:source=4c39.25,092355.3,391523.8,1950.0,cw
+9921516381541:check2a1
+9921516391619?ERROR qg -303 Track 30 parity errors exceed threshold.
+9921516391619?ERROR qg -303 Track 31 parity errors exceed threshold.
+9921516391619/parit

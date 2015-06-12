@@ -1,0 +1,15 @@
+
+				var hn=e.hostname?(e.hostname.split(":")[0]):"";
+				if (this.dcsIsOnsite(hn)&&this.dcsTypeMatch(e.pathname,this.downloadtypes)){
+					var qry=e.search?e.search.substring(e.search.indexOf("?")+1,e.search.length):"";
+					var pth=e.pathname?((e.pathname.indexOf("/")!=0)?"/"+e.pathname:e.pathname):"/";
+					var ttl="";
+					var text=document.all?e.innerText:e.text;
+					var img=this.dcsEvt(evt,"IMG");
+					if (img.alt){
+						ttl=img.alt;
+					}
+					else if (text){
+						ttl=text;
+					}
+		

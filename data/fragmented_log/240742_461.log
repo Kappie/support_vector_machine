@@ -1,0 +1,10 @@
+2001.296.01:37:10.13/tape/off,09313,norm,stopped,stop,unlock,ready,rem
+2001.296.01:37:10.13:st=for,160
+2001.296.01:37:10.31:!2001.296.01:37:10
+2001.296.01:37:10.31:preob
+2001.296.01:37:10.33#antcn#Checking onsource status
+2001.296.01:37:10.35#antcn# RAsource    39.688   DECsource   16.624
+2001.296.01:37:10.35#antcn# RAbeam      39.690   DECbeam     16.622
+2001.296.01:37:10.35#antcn# RAdelta      0.002   DECdelta     0.002
+2001.296.01:37:10.35/onsource/TRACKING
+2001.296.01:37:12.89/tpical/8355,6545,6916,4798

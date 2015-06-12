@@ -1,0 +1,14 @@
+848 Jy/beam
+! Clean residual mean=0.000043 rms=0.004165 Jy/beam
+! Combined flux in latest and established models = 0.108289 Jy
+selfcal false,false,0.6
+! Performing phase self-cal over 0.6 minute time intervals
+! Adding 12 model components to the UV plane model.
+! The established model now contains 12 components and 0.108289 Jy
+! 
+! Correcting IF 1.
+!  A total of 414 telescope corrections were flagged in sub-array 1.
+!  A total of 48 telescope corrections were flagged in sub-array 2.
+! 
+! Correcting IF 2.
+! 

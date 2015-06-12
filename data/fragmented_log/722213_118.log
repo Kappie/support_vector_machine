@@ -1,0 +1,19 @@
+region for gis3...
+gnt_infrm: Writing GIS background region for gis3...
+ 
+113,113
+ 
+gnt_infrm: Comparing SIS and GIS centroids respectively...
+ 
+ 
+gnt_infrm: Combining respective sky images...
+ 
+ 
+gnt_infrm: Comparing combined GIS centroid to SIS0 and SIS1...
+ 
+
+****** statistics for /tproc/nandra/processing/75084000/work/gis_sky_sm.tmp ******
+
+The sum of the selected image                 = 1302.000001
+The mean of the selected image                = 1.271484
+The standard deviation of the selected image  = 

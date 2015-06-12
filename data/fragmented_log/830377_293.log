@@ -1,0 +1,15 @@
+ight =  7.1743323E-04
+ 
+wrote /tproc/nandra/processing/76052020/work/76052020_gis3.effmap
+ 
+gnt_infrm: Creating exposure map for sis0...
+ 
+instfile=/tproc/nandra/processing/76052020/work/76052020_sis0.effmap
+ASCAEXPO_V0.9b
+ 
+    reading data file: /tproc/nandra/processing/76052020/work/76052020_sis0.evt
+    reading   gti ext: STDGTI
+    reading    hp ext: HOT_PIXELS
+    querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/sis/bcf/s0_teldef_070294.fits
+    reading inst file: /tproc/nandra/processin

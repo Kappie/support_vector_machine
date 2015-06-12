@@ -1,0 +1,12 @@
+, [sc/csc] Snow Cvr
+
+     STATIC INFO: [gg] 
+     [lv(d),lr(lsr),v3,v5,po,lc] lvd; lsr; VCF; Tsfc-11u; Polar Orbiter, lcv
+
+     Difference field: [di] 
+
+                                                     [q] quit/display ?   Copying field_2d to field_buf for diff optn
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/lsx/    061521800 lsx   MSL
+  Subroutine plot_field_2d: i4t

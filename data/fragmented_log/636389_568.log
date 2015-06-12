@@ -1,0 +1,10 @@
+y = m             0
+  Skipping map plot - already done with image
+  Not calling plot_station_locations: 1
+  Plotting: c_metacode,i_overlay = c             1
+  CLOW,HIGH,CINT     0.000000        400.0000        10.00000    
+  Max/Min/n_missing =     49.50033       -10.00000                0
+  write_label_lplot:
+ Low LVL Ref   (Anlyzd/DBZ)                                                                          
+  lapsplot: call "conrec", cint =     10.00000    
+  conrec_line: calling plot_contour    0.000000

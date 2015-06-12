@@ -1,0 +1,13 @@
+if:DigitalZoomRatio>0/100</exif:DigitalZoomRatio>
+  <exif:FocalLengthIn35mmFilm>34</exif:FocalLengthIn35mmFilm>
+  <exif:SceneCaptureType>0</exif:SceneCaptureType>
+  <exif:GainControl>1</exif:GainControl>
+  <exif:Contrast>0</exif:Contrast>
+  <exif:Saturation>0</exif:Saturation>
+  <exif:Sharpness>0</exif:Sharpness>
+  <exif:SubjectDistanceRange>0</exif:SubjectDistanceRange>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:58a68eef-a1b2-11db-8858-95fff73d1e6a'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+ 

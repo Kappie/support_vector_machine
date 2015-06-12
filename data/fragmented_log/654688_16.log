@@ -1,0 +1,15 @@
+blished models = 3.07196 Jy
+selfcal false, true, 0.66667
+! Performing phase self-cal over 0.66667 minute time intervals
+! Adding 34 model components to the UV plane model.
+! The established model now contains 155 components and 3.07196 Jy
+! 
+! Correcting IF 1.
+! 
+! Fit before self-cal, rms=0.144769Jy  sigma=1.343046
+! Fit after  self-cal, rms=0.144523Jy  sigma=1.340857
+! 
+! Reinstating the default IF.
+save 2145+067_S
+! Writing UV FITS file: 2145+067_S.uvf
+! Writing 155 model components to file: 2145+067_S.m

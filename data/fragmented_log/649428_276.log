@@ -1,0 +1,6 @@
+l2-2.6.31/doc/devhelp'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc/devhelp'
+Making all in examples
+make[4]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc/examples'
+gcc -DHAVE_CONFIG_H -I. -I../.. -I../../include -I../../include -I./include  -D_REENTRANT   -I/usr/local/cdat/Externals/include   -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/HDF5/include -I/usr/local/cdat/Externals/NetCDF/includ

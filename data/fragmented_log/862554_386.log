@@ -1,0 +1,13 @@
+5E-03 Newbs.      8
+               Min 0.1231          Max 0.1719    expVar 0.9809E-04  Bins    789
+Writing output file: /tproc/nandra/processing/72016000/work/72016000_sis_src_576
+nbint = 2731
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/72016000/work/72016000_gis2_src_hard
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_1040            Start Time (d) ....  9583 16:55:15.646
+ FITS Extension ....  1 - `EVENTS    `   Stop Time (d) .....  9584 05:03:

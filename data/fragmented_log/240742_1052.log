@@ -1,0 +1,10 @@
+ready,rem
+2001.296.11:07:45.35:postob
+2001.296.11:07:45.36:scan_name=296-1113
+2001.296.11:07:45.39:source=1958-179,195804.6,-175717.0,1950.0
+2001.296.11:07:45.39#antcn#Commanding to new source
+2001.296.11:07:47.21#antcn#Source:  1958-179  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.11:07:47.21#antcn# RAcommand  300.258   DECcommand -17.812
+2001.296.11:07:47.21:check80f
+2001.296.11:08:48.76?ERROR qg -303 Track  3 parity errors exceed threshold.
+2001.296.11:08:48.76?ERROR qg -303 Track  5 parity errors exce

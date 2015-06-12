@@ -1,0 +1,11 @@
+ke
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+setup.make ok
+G4dybAppclean data_installationclean install_includes_autoclean lib_macroclean library_postinstallationclean G4dybclean
+ allclean ok.
+Removing library links
+#CMT> bad syntax in requirements of GEANT v0 External line #13 [<<<<<<< ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #19 [======= ...]
+#CMT> bad syntax in requirements of GEANT v0 External line #25 [>>>>>>> ...]
+#-------------------

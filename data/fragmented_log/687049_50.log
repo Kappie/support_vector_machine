@@ -1,0 +1,9 @@
+ 13:14:12 EDT  Run: 1 Event: 204
+The maximum number of steps has been exceeded. Returned vertex is invalid
+
+%MSG
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 3.278578168e-08
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 5.245984955e-08
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 7.039544069e-09
+PFClusterAlgo Warning: more than 50 iterations in pfcluster finding: 1.165153436e-06
+PFClusterAlgo Warning: more than 50 iterations in pfcluster

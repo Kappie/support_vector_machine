@@ -1,0 +1,23 @@
+SPEC> set str [error max 15 4.61 2];
+
+!XSPEC> lindex $str 0
+
+!XSPEC> set nhs_lo [lindex $str 0];
+
+!XSPEC> lindex $str 1
+
+!XSPEC> set nhs_hi [lindex $str 1];
+
+!XSPEC> expr ($nhs_hi - $nhs_lo)/2.0
+XSPEC>exit
+ XSPEC: quit
+ 
+gnt_infrm: ========================
+gnt_infrm: End of procedure do_fits
+gnt_infrm: ========================
+Sat Apr 22 06:28:48 EDT 2000
+ 
+[1]  + Done                          /home/rosserv/nandra/tartarus/scripts3.2/do_kill  ...
+ 
+gnt_infrm: *************************
+gnt_infrm: Running pro

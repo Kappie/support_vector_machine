@@ -1,0 +1,14 @@
+54898/rx/02(LO),on,a,on,on,on,off,locked,40.84
+9815515454909/rx/03(DCAL),on,a,on,on,on,off,locked,48.65
+9815515454921/rx/0E(LO5MHZ),on,a,on,on,on,off,locked,2.500
+9815515454931/rx/17(PRES),on,a,on,on,on,off,locked,2.647
+9815515454942/rx/1E(20K),on,a,on,on,on,off,locked,44.14
+9815515454950:nw2a1=2
+9815515455218/pass/2,2,auto,0.0,0.0,0.1,-2.0,0.1,-2.0
+9815515455624/decode/a,crc,pass
+9815515455624:fastf=0m31s
+9815515455625&fastf/ff
+9815515455625&fastf/!+$
+9815515455625&fastf/et
+9815515462757:!155154650
+9815515

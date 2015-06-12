@@ -1,0 +1,13 @@
+ in latest and established models = 0.14088 Jy
+! Adding 8 model components to the UV plane model.
+! The established model now contains 34 components and 0.14088 Jy
+! Inverting map 
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 20 mega-wavelengths.
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=9.069 mas, bmaj=22.72 mas, bpa=12.14 degrees
+! Estimated noise=1.37391 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clea

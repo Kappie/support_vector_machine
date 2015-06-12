@@ -1,0 +1,9 @@
+:scan_name=167-0206,r1127,190
+2004.167.02:02:59.13:source=1606+106,160623.42,103700.0,1950.0
+2004.167.02:03:05.67:4f8v12a=7
+2004.167.02:03:10.30/pass/7,,auto,-185.0,,-185.2,,-0.2,
+2004.167.02:03:16.89?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.02:03:16.89?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.02:03:19.45:!2004.167.02:05:56
+2004.167.02:03:38.01?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.02:03:38.01?ERROR ch -350 The Receiver 20K sta

@@ -1,0 +1,9 @@
+nd perhaps SVT seem to be responding to
+the special TAXI word in a way they didn't during the torture tests (it is hard to say if it happened in the data run, since
+other errors were occuring at higher rate).<P>
+Next step (already underway) is to query TDC/SVT people to see if the
+response to the "express L2A" can be simply disabled by VME.
+Only when that is answered will we reattempt this with any beam time.
+
+<!-- Date: Wed Jun 11 16:28:03.955 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER

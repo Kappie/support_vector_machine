@@ -1,0 +1,6 @@
+cintEnergy.hh ../include/dywTrajectory.hh ../include/dywTrajectoryHelper.hh ../src/dywOpticalTrajectory_LinkDef.hh && touch ../Linux-i686/dywOpticalTrajectory_Dict.cc
+WARNING >> You should provide a target for ../src//dywGLVertex.hh
+echo "Generating ROOT Dictionary for " ../src/dywGLVertex_LinkDef.hh ../src//dywGLVertex.hh
+Generating ROOT Dictionary for  ../src/dywGLVertex_LinkDef.hh ../src//dywGLVertex.hh
+if [ ! -d ../Linux-i686/ ]; then mkdir ../Linux-i686/; fi ;
+`/usr/local/opt/root-v5-16-00/bin/root-con

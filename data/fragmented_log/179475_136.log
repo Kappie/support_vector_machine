@@ -1,0 +1,12 @@
+.82;source=azeluncr,180d,45d
+2004.349.16:05:18.82#flagr#flagr/antenna,new-source
+2004.349.16:05:18.96#skua #Antenna slewing to azimuth 180.0, elevation 45.0
+2004.349.16:07:40.98#skua #Antenna slewing complete
+2004.349.16:08:22.99;caltsys
+2004.349.16:08:23.00&caltsys/tpi=formvc,formif
+2004.349.16:08:23.00&caltsys/ifd=max,max,*,*
+2004.349.16:08:23.00&caltsys/if3=max,*,*,*,*,*
+2004.349.16:08:23.00&caltsys/!+2s
+2004.349.16:08:23.00&caltsys/tpzero=formvc,formif
+2004.349.16:08:23.00&caltsys/ifd=old,old,*,*
+2004.3

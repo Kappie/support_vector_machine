@@ -1,0 +1,13 @@
+g weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+loglevs -1,2048,2
+! The new contour levels are:
+!  -1 1 2 4 8 16 32 64 128 256 512 1024 2048
+cmul = imstat(rms)*3
+! Inverting map and beam 
+! Estimated beam: bmin=0.3062 mas, bmaj=0.7437 mas, bpa=7.603 degrees
+! Estimated noise=1654.82 mJy/beam.
+mappl cln
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.3062 x 0.7437 at 7.603 degrees (North through East)
+! C

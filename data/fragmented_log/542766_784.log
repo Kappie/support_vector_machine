@@ -1,0 +1,9 @@
+50.0
+9919510104220#antcn#Commanding to new source
+9919510104336#antcn#Source:  0454-234  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919510104336#antcn# RAcommand   74.251   DECcommand -23.415
+9919510104336:wb2c1=7
+9919510104784/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919510104784/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+9919510104784/form/map[0].stack[1].head[18] = x00 x00 x02 x02 x04 x04 x06 x06 x08 x08 x0a x0a x0c x0c xff xff
+9919510104784/form/map[0]

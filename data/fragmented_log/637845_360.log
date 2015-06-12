@@ -1,0 +1,4 @@
+yYourself(const G4HadProjectile&, G4Nucleus&)':
+/home/tagg/autodaya/G4dyb/src/dywNeutronHPCapture.cc:172: warning: converting to 'G4int' from 'G4double'
+../Linux-i686/dywEdit.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/External/SIT

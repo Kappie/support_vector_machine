@@ -1,0 +1,4 @@
+src /home/tagg/autodaya/G4dyb/src/dywConstructFarSite_OctagonalPool.cc
+/usr/include/geant4/G4VPVParameterisation.hh:73: warning: 'class G4VPVParameterisation' has virtual functions but non-virtual destructor
+../Linux-i686/dywSensitiveSkinEdit.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr/

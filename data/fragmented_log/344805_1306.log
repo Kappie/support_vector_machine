@@ -1,0 +1,12 @@
+ition to antenna
+2003.309.14:28:21.62:setupsx
+2003.309.14:28:25.88/mk5/!play_rate = 0 ;
+2003.309.14:28:25.89/mk5/!mode = 0 ;
+2003.309.14:28:25.93/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 329 ;
+2003.309.14:28:25.93:!2003.309.14:35:20
+2003.309.14:31:58.78#flagr#flagr/antenna,acquired
+2003.309.14:35:20.00:preob
+2003.309.14:35:20.05#antcn#Check if antenna is on-source
+2003.309.14:35:20.05#flagr#flagr/antenna,off-source
+2003.309.14:35:20.75/onsource/TRACKING
+2003.309.14:35:21.35#flagr#flagr/antenna,re-acquir

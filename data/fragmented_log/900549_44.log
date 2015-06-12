@@ -1,0 +1,20 @@
+_mult * 1.2
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.273214Jy  sigma=0.001490
+! Fit after  self-cal, rms=0.274126Jy  sigma=0.001488
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Estimated beam: bmin=7.035 mas, bmaj=12.62 mas, bpa=-8.241 degrees
+! Estimated noise=857.474 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Componen

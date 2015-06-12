@@ -1,0 +1,11 @@
+----> (constituents.make) Starting lib_macro
+make[3]: Nothing to be done for `lib_macro'.
+------> (constituents.make) lib_macro done
+ all ok.
+#--------------------------------------------------------------
+# Now trying [make] in /home/tagg/autodaya/Test/UnitTest/cmt (12/15)
+#--------------------------------------------------------------
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+../Linux-i686/UnitTestsetup.mak

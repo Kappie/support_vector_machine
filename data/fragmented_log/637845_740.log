@@ -1,0 +1,9 @@
+---------
+# Now trying [cmt autodoc] in /home/tagg/autodaya/External/BOOST/cmt (5/29)
+#--------------------------------------------------------------
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/AutoDoc.pl BOOST /home/tagg/autodaya/External/BOOST $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on BOOST at /home/tagg/autodaya/External/BOOST to /home/tagg/autodaya/InstallArea/doc
+Error: Unexpected tag `class' found
+Error: Unexpected tag `class' found
+Searching for include files...
+Searching for example f

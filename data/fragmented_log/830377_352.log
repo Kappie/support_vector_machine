@@ -1,0 +1,16 @@
+ Newbs.      6
+               Min  7.555          Max  7.956    expVar 0.4047E-02  Bins    903
+Writing output file: /tproc/nandra/processing/76052020/work/76052020_gis_src_576
+ 
+gnt_infrm: Source, soft-band, 16s/5760s bin, SIS...
+ 
+nbint = 1884
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/76052020/work/76052020_sis0_src_soft
+ 
+ Selected FITS extensions: 1 - RATE TABLE; 2 - GTIs
+ 
+ Source ............ MRK_501_N3          Start Time (d) .... 11015 20:55:48.883
+ FITS Extension ....  

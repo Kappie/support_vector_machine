@@ -1,0 +1,10 @@
+d to field_buf for diff optn
+     Enter Level in mb, -1 = mean, 0 = sfc                        ? 
+     Looking for laps wind data: lwm
+  Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+
+  Field [di,sp,u,v,om,dv,vo,va,vc (barbs), ob (obs))]              ?   ext = lw3                            
+  Valid time = 061521800
+  Calling get_uv_2d for lw3                            
+  2d - LAPS U and V analysis successfully read in     

@@ -1,0 +1,8 @@
+f:Description rdf:about=""
+            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#">
+         <xapMM:DocumentID>uuid:7B47F3A1BF5EDB118D36AEC51531F969</xapMM:DocumentID>
+         <xapMM:InstanceID>uuid:7C47F3A1BF5EDB118D36AEC51531F969</xapMM:InstanceID>
+         <xapMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:7A47F3A1BF5EDB118D36AEC51531F969</stRef:instanceID>
+            <stRef:documentID>uuid:7A47F3A1B

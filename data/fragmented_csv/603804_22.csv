@@ -1,0 +1,5 @@
+eels On,Taxi-In Time (in mins.),Scheduled Arrival Time,Actual Gate Arrival Time,Arrival Delay (in mins.),Distance,Cause of Delay (in Minutes),,,,
+,,,,,,,,,,,,,,,,,,,,Air Carrier ,National Aviation System,Security ,Weather ,Late Arriving Aircraft
+JetBlue,7/23,239,649,JFK,"New York, NY",SFO,"San Francisco, CA",3,2030,2029,-1,28,344,312,8,2358,320,202,2586,0,202,0,0,0
+Delta,7/10,239,1148,PHX,"Phoenix, AZ",SLC,"Salt Lake City, UT",4,1750,1929,99,2328,72,140,6,2026,146,320,507,0,221,0,0,99
+Comair,7/23,239,51

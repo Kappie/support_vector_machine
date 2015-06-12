@@ -1,0 +1,17 @@
+){
+			elems=document.getElementsByTagName("meta");
+		}
+		if (typeof(elems)!="undefined"){
+			var length=elems.length;
+			for (var i=0;i<length;i++){
+				var name=elems.item(i).name;
+				var content=elems.item(i).content;
+				var equiv=elems.item(i).httpEquiv;
+				if (name.length>0){
+					if (name.indexOf("WT.")==0){
+						this.WT[name.substring(3)]=content;
+					}
+					else if (name.indexOf("DCSext.")==0){
+						this.DCSext[name.substring(7)]=content;
+					}
+					else if (name.indexOf("DCS."

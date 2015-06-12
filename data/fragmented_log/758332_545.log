@@ -1,0 +1,29 @@
+!XSPEC> puts $fileid "$s0_flux1 $s0_flux2";
+
+!XSPEC> close $fileid;
+
+!XSPEC> tclout param 2;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par2 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 3;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par3 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 4;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par4 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 5;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par5 [string trim $xspec_tclout];
+
+!XSPEC> tclout 

@@ -1,0 +1,11 @@
+ 
+ /data/lapb/tw/fsl-linux9/data/static//ncarg/continent_minus_
+  UMIN/UMAX/VMIN/VMAX  -4.3245178E-02   4.3245580E-02  -0.8741419     
+  -0.7944792    
+  lapsplot_setup: return
+  Not calling plot_station_locations: 1
+  Plotting: c_metacode,i_overlay = c             1
+  CLOW,HIGH,CINT     40.00000        85.00000        5.000000    
+  Max/Min/n_missing =     82.56622        42.10154                0
+  write_label_lplot:
+ Sfc Dew Point       (F)                                                                 

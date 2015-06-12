@@ -1,0 +1,14 @@
+rppha 2.9.0 completed successfully
+ascaarf
+Sun Apr 23 03:09:13 EDT 2000
+ASCAARF vers 3.00  6 Oct 1998.
+bethick : /FTP/caldb/data/asca/gis/bcf/s2bev1.fits
+grid : /FTP/caldb/data/asca/gis/bcf/s2gridv3.fits
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+xrtpsf : /FTP/caldb/data/asca/xrt/bcf/xrt_psf_v2_0.fits
+ 
+ Input WMAP array has size   54 by   54 bins
+               expanded to  128 by  128 bins
+ First WMAP bin is at detector pixel   43   54
+   1 detector pixels per WMAP bin
+ WMAP bin size is   0.25

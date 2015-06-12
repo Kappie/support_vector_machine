@@ -1,0 +1,11 @@
+stribution is a gaussian-like shape 
+             with a rms < 1 ns.  
+ 
+ tdc 561597: Problem in Start_ch50 - Start_ref distribution. 
+             We get 2 populations: 80% at -244 ns and 20% 
+             at 1804 ns. This problem may be due to a problem 
+             with the calibration cell on the TDC - switching 
+             to a different pulse caused this problem to go  
+             away. Oddly enough, when I run this test with 
+             front panel input (via ASDQ pulsing) I see two 
+         

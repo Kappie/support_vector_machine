@@ -1,0 +1,3 @@
+dywGLAberdeenHitData.hh ../include/dywGLEvent.hh ../include/dywGLPhotonHitData.hh ../include/dywGLRPCHitData.hh ../include/dywGLVertex.hh ../include/dywOpticalPhotonTrajectoryData.hh ../include/dywOpticalPhotonTrajectoryDataPoint.hh ../include/dywScintEnergy.hh ../include/dywTrajectory.hh ../include/dywTrajectoryHelper.hh ../src/dywGLAberdeenHitData_LinkDef.hh && touch ../Linux-i686/dywGLAberdeenHitData_Dict.cc
+WARNING >> You should provide a target for ../src//dywGLRPCHitData.hh
+echo "Generating ROOT Dicti

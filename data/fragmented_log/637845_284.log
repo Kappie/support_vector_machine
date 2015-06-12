@@ -1,0 +1,3 @@
+              -I/usr/include/geant4 -DG4VIS_USE_OPENGLX       `/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/G4dyb/src /home/tagg/autodaya/G4dyb/src/dywFakeSD.cc
+../Linux-i686/dywXMLReader.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr

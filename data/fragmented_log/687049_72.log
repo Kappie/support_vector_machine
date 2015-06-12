@@ -1,0 +1,4 @@
+cone                                                          91933        0.060 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::matching::crossed                                                       91933       25.484 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::matching::region                                                        91933       11.601 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillHO                                                                      

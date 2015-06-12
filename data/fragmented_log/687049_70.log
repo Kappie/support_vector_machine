@@ -1,0 +1,4 @@
+                       7964       44.493 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal                                                                          92763       45.748 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::access::EcalBarrel                                                      91933        1.101 (real)        0.000 (cpu)
+TrackDetectorAssociator::fillEcal::access::EcalEndcaps                                                     91933        0.457 (real)        0

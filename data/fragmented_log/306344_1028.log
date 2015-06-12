@@ -1,0 +1,13 @@
+l power integrator overflow on IF3
+9830303103302?ERROR ch -370 Total power integrator overflow on IF3
+9830303105500?ERROR ch -370 Total power integrator overflow on IF3
+9830303111000:"data stop"
+9830303111000:et
+9830303111016:!+3s
+9830303111317:tape
+9830303111329/tape/off,01353,norm,stopped,stop,unlock,ready,rem
+9830303111329:postob
+9830303111329:source=1604-333,160422.2,-332310.6,1950.0
+9830303111330#antcn#Command a new source
+9830303111391#antcn#Successfully sent new source position to antenna
+98303031113

@@ -1,0 +1,19 @@
+al, rms=0.187235Jy  sigma=0.001324
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.187235Jy  sigma=0.001324
+! Fit after  self-cal, rms=0.187442Jy  sigma=0.001320
+clean clean_niter,clean_gain
+! Inverti

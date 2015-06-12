@@ -1,0 +1,21 @@
+2+" of "+imax; 
+ }
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+
+function reset_display()      // update display/settings after range change
+{
+  var j;
+  frame=rstart;
+  j=frame+1;
+  if (images1[frame].complete) {
+    document.animation1.src=images1[frame].src;
+    document.animation2.src=images2[frame].src;
+    document.form.frame.value="Displaying "+j+" of "+imax;
+  }
+  playing=0;
+}  
+                    
+//////////////////////////////////////////////////////////////////

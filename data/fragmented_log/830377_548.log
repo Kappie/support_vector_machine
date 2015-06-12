@@ -1,0 +1,13 @@
+m *port:-1 -xrm *geometry:+5+5 -xrm *errorlog:SAO042300024176052020_error.log
+
+Welcome to SAOtng 1.9.1
+Setting current scaling limits: data
+Setting current scale: linear
+Resetting zoom factor: 2 centered at: 256.5,256.5
+Setting current scale: log
+ 
+gnt_infrm: Making sis0 detector image...
+ 
+Received new filename '/tproc/nandra/processing/76052020/work/76052020_sis0_det.img'
+No WCS information available for image '/tproc/nandra/processing/76052020/work/76052020_sis0_det.img'
+Display of image '/tproc/nandra/p

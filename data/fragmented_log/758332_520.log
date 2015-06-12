@@ -1,0 +1,15 @@
+ area    8.7402E-02
+  No current correction
+  Response (RMF) file    : 74035000_gis2.rmf
+  Auxiliary (ARF) file    : 74035000_gis2.arf
+ Weighting method is standard
+
+ Information for file   4
+  belonging to plot group   4, data group   4
+ telescope = ASCA , instrument = GIS3 , channel type = PI
+  Current data file : 74035000_gis3_src_20.pha
+   with integration time    3.8989E+04
+          effective area     1.000
+    selected region area    3.6636E-02
+  Background file : 74035000_gis3_bgd.pha
+   with integr

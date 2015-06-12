@@ -1,0 +1,11 @@
+f xff xff xff xff xff xff xff xff
+2001.295.17:39:52.90/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.17:39:53.06:!2001.295.17:47:56
+2001.295.17:47:56.00:tape
+2001.295.17:47:56.14/tape/off,01705,norm,stopped,stop,unlock,ready,rem
+2001.295.17:47:56.14:st=for,160
+2001.295.17:47:56.31:!2001.295.17:47:56
+2001.295.17:47:56.31:preob
+2001.295.17:47:56.34#antcn#Checking onsource status
+2001.295.17:47:56.35#antcn# RAsource    12.696   DECsource   -9.475
+2001.295.17:47:56.35#a

@@ -1,0 +1,8 @@
+ DPU error - no bubble HK identifier (EDR #2847, SCET=1505285781)
+CDF OUTPUT LOG:        CDF Records written=93 (Range Errors=0)
+[01-Apr-2002-21:11:32  End processing file: .\data\1997\19970913.cdf]
+
+[01-Apr-2002-21:11:32  Start processing file: .\data\1997\19970914.cdf]
+EDR INPUT DVC #1286:   DV power supply turned off - DVC skipped (EDR #3021, SCET=1505348262)
+EDR INPUT DVC #1286:   Invalid DV step width - DVC skipped (EDR #3021, SCET=1505349054)
+CDF OUTPUT LOG:        CDF Records written=87 (Range

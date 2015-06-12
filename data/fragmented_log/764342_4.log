@@ -1,0 +1,15 @@
+    Number of atoms: 2769
+      Number of chains: 2
+        Number of residues, atoms: 302, 2333
+          Classifications: {'peptide': 302}
+          Modifications used: {'COO': 1}
+          Link IDs: {'PTRANS': 7, 'CIS': 1, 'TRANS': 293}
+        Number of residues, atoms: 436, 436
+          Classifications: {'water': 436}
+          Link IDs: {None: 435}
+    Conformer: "B"
+      Number of atoms: 2771
+      Common with "A": 2717
+      Number of chains: 2
+        Number of residues, atoms: 302, 2333
+        

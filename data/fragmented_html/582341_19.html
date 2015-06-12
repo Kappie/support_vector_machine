@@ -1,0 +1,23 @@
+mation2.src=images2[frame].src;
+  document.form.frame.value="Displaying "+j+" of "+imax;
+ }
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+function prev() // prev frames
+{
+ var j;
+ if (timeout_id) clearTimeout(timeout_id); timeout_id=null;
+ playing=0;
+ dir=-1;
+ next_frame();
+ j=frame+1;
+ if (images1[frame].complete) {
+  document.animation1.src=images1[frame].src;
+  document.animation2.src=images2[frame].src;
+  document.form.frame.value="Displaying "+j+" of "+imax;
+ }
+}
+
+////

@@ -1,0 +1,17 @@
+ipsoid and a plane
+</H3><P><BR><BR>
+   The routine <a href="../spicelib/inedpl.html">INEDPL</a> finds the intersection of a triaxial ellipsoid and a
+   plane. Let A, B, C be the lengths of the semi-axes of the ellipsoid, and
+   let PLANE and ELLIPS be declared as a SPICELIB plane and SPICELIB
+   ellipse respectively:
+<P>
+ 
+<PRE>
+   INTEGER               UBEL
+   PARAMETER           ( UBEL = 9 )
+ 
+   INTEGER               UBPL
+   PARAMETER           ( UBPL = 4 )
+ 
+   DOUBLE PRECISION      PLANE  ( UBPL )
+   D

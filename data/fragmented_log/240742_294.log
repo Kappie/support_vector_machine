@@ -1,0 +1,9 @@
+ xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.22:23:11.92/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.295.22:23:11.92/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.22:23:12.10:!2001.295.22:26:20
+2001.295.22:26:20.00:tape
+2001.295.22:26:20.12/tape/off,15648,norm,stopped,stop,unlock,ready,rem
+2001.295.22:26:20.12:st=for,160
+2001.295.22:26:20.28:!2001.295.22:26:20
+2001.295.22:26:

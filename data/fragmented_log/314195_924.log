@@ -1,0 +1,9 @@
+92,a000,ok,a000,ok,ok
+2004.167.02:58:33.04?ERROR ib   -4 GPIB Device time-out on response c3
+2004.167.02:58:33.17/onsource/TRACKING
+2004.167.02:58:33.17:!2004.167.03:01:32
+2004.167.02:58:34.04#setcl#time/40556385,1,2004,167,02,58,34.00,0.123,11.670,0
+2004.167.02:58:34.04#setcl#model/old,1086862749,109,36355191,0.127,24.602,rate
+2004.167.02:58:39.26?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.02:58:39.26?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.02:59:00.98?ERR

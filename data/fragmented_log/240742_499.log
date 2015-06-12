@@ -1,0 +1,12 @@
+,13372,148486595,7.943,18.491,rate
+2001.296.02:18:45.00:data_valid=off
+2001.296.02:18:45.02:et
+2001.296.02:18:45.19:!+3s
+2001.296.02:18:48.20:tape
+2001.296.02:18:48.32/tape/off,15560,norm,moving,stop,unlock,ready,rem
+2001.296.02:18:48.32:postob
+2001.296.02:18:48.33:scan_name=296-0221a
+2001.296.02:18:48.34:source=0235+164,023552.6,162403.9,1950.0
+2001.296.02:18:48.35#antcn#Commanding to new source
+2001.296.02:18:50.18#antcn#WARNING: source presently below limit horizon
+2001.296.02:18:50.19#antcn#Source:  023

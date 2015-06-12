@@ -1,0 +1,33 @@
+PEC> set lpar6 [split $cpar6];
+
+!XSPEC> regsub -all { +} $par7 { } cpar7;
+
+!XSPEC> split $cpar7
+
+!XSPEC> set lpar7 [split $cpar7];
+
+!XSPEC> regsub -all { +} $par8 { } cpar8;
+
+!XSPEC> split $cpar8
+
+!XSPEC> set lpar8 [split $cpar8];
+
+!XSPEC> lindex $lpar2 0
+
+!XSPEC> set nhs [lindex $lpar2 0];
+
+!XSPEC> lindex $lpar3 0
+
+!XSPEC> set gs [lindex $lpar3 0];
+
+!XSPEC> lindex $lpar4 0
+
+!XSPEC> set norms [lindex $lpar4 0];
+
+!XSPEC> lindex $lpar5 0
+
+!XSPEC> set nhh [lindex $lpar5 0];
+
+!XSPEC> lindex $lpar6 0
+
+!XSPEC> se

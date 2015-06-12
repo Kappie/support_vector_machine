@@ -1,0 +1,11 @@
+9.00:06:20.90:source=1600-445,160100.00,-443321.2,1950.0
+2003.309.00:06:20.91#antcn#Command a new source
+2003.309.00:06:21.07#flagr#flagr/antenna,new-source
+2003.309.00:06:21.47#antcn#Successfully sent new source position to antenna
+2003.309.00:06:21.48:setupsx
+2003.309.00:06:25.81/mk5/!play_rate = 0 ;
+2003.309.00:06:25.83/mk5/!mode = 0 ;
+2003.309.00:06:25.88/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 105 ;
+2003.309.00:06:25.88:!2003.309.00:10:30
+2003.309.00:06:25.88;"weather: 50% cloud
+2003.309.00:08:36.

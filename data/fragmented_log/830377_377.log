@@ -1,0 +1,11 @@
+ns: 1 - RATE TABLE;
+ 
+ Source ............ MRK_501_N3          Start Time (d) .... 11015 20:55:48.883
+ FITS Extension ....  1 - `RATE      `   Stop Time (d) ..... 11016 05:17:56.883
+ No. of Rows .......          786        Bin Time (s) ......    16.00
+ Right Ascension ...                     Internal time sys.. Literal
+ Declination .......                     Experiment ........
+ 
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  3- Y-axis;  4- Y-

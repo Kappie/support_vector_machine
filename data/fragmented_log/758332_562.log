@@ -1,0 +1,19 @@
+=======================
+gnt_infrm: End of procedure do_mosa
+gnt_infrm: ========================
+Fri Apr 28 06:26:48 EDT 2000
+ 
+XPA$ERROR no 'xpaset' access points match template: 04_28_00.05:54
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_html
+gnt_infrm: *************************
+Fri Apr 28 06:26:49 EDT 2000
+ 
+gnt_infrm: Creating the web page for sequence 74035000...
+ 
+gnt_infrm: Setting all variables...
+ 
+spectrum
+spectrum: /tproc/nandra/processing/74035000/work/web_pha.gif
+lightc

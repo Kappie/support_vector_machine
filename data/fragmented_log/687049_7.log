@@ -1,0 +1,10 @@
+rtedPhotonProducer:convertedPhotons  07-Aug-2007 08:54:02 EDT  Run: 1 Event: 1
+Fitted position is out of tracker bounds.
+
+%MSG
+%MSG-e RecoVertex/SequentialVertexFitter:   ConvertedPhotonProducer:convertedPhotons  07-Aug-2007 08:54:02 EDT  Run: 1 Event: 1
+Fitted position is invalid (out of tracker bounds or has NaN). Returned vertex is invalid
+
+%MSG
+%MSG-e PFProducer:  GoodSeedProducer:elecpreid 07-Aug-2007 08:54:03 EDT  Run: 1 Event: 1
+invalid trajectory state on surface:  iSurf = 4 tan theta = -1.24475 pz 

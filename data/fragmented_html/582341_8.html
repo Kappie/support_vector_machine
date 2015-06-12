@@ -1,0 +1,17 @@
+nction load_img() {        // asynchronously load all images into cache
+ for (i=0; i < imax ; i++) {
+  id[i]=setTimeout("load_src()",delay);
+ }
+ return;
+}
+/////////////////////////////////////////////////////////////////////////////
+
+function load_src() {      // load individual images into cache
+
+ if (index < imax) {
+  if (iwidth && iheight) {
+   images1[index] = new Image(iwidth,iheight);
+   images2[index] = new Image(iwidth,iheight);
+  } else {
+   images1[index] = new Image();
+   images2[index] = new Ima

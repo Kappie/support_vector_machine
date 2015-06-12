@@ -1,0 +1,9 @@
+0/rx/24(TE_I__),on,on,off,,,,off,closed,off,low,locked,-0.271
+2004.128.12:25:31.40/rx/25(HE_SUP),on,on,off,,,,off,closed,off,low,locked,229.5
+2004.128.12:25:31.90/rx/26(HE_RTN),on,on,off,,,,off,closed,off,low,locked,58.60
+2004.128.12:25:31.90:scan_name=128-1242,r4120,98
+2004.128.12:25:31.91:source=1741-038,174358.86,-035004.6,2000.0,ccw
+2004.128.12:25:36.21:setupsx
+2004.128.12:25:37.91/mk5/!play_rate = 0 ;
+2004.128.12:25:37.92/mk5/!mode = 0 ;
+2004.128.12:25:37.94/bank_check/usn-0102/960/1024OK,VNVD06G4H79HH

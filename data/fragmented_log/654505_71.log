@@ -1,0 +1,5 @@
+LOGS/cpan/perl-DBI/RPMS/i386/perl-DBI-1.40-4.caos.i386.rpm
+[buildtool/694/place_package_files()] Testing location "/src.rpm$/=/caos/repo/ext/autobuilder/SRPMS"
+[buildtool/707/place_package_files()] Match found for /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SRPMS/perl-DBI-1.40-4.caos.src.rpm:  =src.rpm$ (/caos/repo/ext/autobuilder/SRPMS).
+[buildtool/721/place_package_files()] /caos/repo/ext/autobuilder/SRPMS/perl-DBI-1.40-4.caos.src.rpm exists; removing.
+[buildtool/725/place_package_files()] ln -f

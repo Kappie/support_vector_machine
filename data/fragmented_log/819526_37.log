@@ -1,0 +1,19 @@
+.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time intervals
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.202227Jy  sigma=0.001309
+! Fit after  self-cal, rms=0.202675Jy  sigma=0.001303
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pi

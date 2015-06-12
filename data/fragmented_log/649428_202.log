@@ -1,0 +1,4 @@
+-lm  -Wl,-R/usr/local/cdat/Externals/lib -Wl,-soname -Wl,libxml2.so.2 -o .libs/libxml2.so.2.6.31
+(cd .libs && rm -f libxml2.so.2 && ln -s libxml2.so.2.6.31 libxml2.so.2)
+(cd .libs && rm -f libxml2.so && ln -s libxml2.so.2.6.31 libxml2.so)
+ar cru .libs/libxml2.a  SAX.o entities.o encoding.o error.o parserInternals.o parser.o tree.o hash.o list.o xmlIO.o xmlmemory.o uri.o valid.o xlink.o HTMLparser.o HTMLtree.o debugXML.o xpath.o xpointer.o xinclude.o nanohttp.o nanoftp.o DOCBparser.o catalog.o globals.o thre

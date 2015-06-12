@@ -1,0 +1,16 @@
+	if (c){
+			return ((id==this.dcsGetIdCrumb(c,"id"))&&(lv==this.dcsGetCrumb(c,"lv"))&&(ss==this.dcsGetCrumb(c,"ss")))?0:3;
+		}
+		return 2;
+	}
+	WebTrends.prototype.dcsFPC=function(){
+		if (document.cookie.indexOf("WTLOPTOUT=")!=-1){
+			return;
+		}
+		var WT=this.WT;
+		var name=this.fpc;
+		var dCur=new Date();
+		var adj=(dCur.getTimezoneOffset()*60000)+(this.timezone*3600000);
+		dCur.setTime(dCur.getTime()+adj);
+		var dExp=new Date(dCur.getTime()+315360000000);
+		var dSes=new Date(dCur.getTime()

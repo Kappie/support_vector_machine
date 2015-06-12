@@ -1,0 +1,18 @@
+ill remove all temporary files
+!xsel > set datadir ./
+ 
+Setting data directory to /tproc/nandra/processing/72016000/work/
+Setting mkf directory to /tproc/nandra/processing/72016000/aux/
+ 
+!xsel > read e 72016000_sis1.evt
+ 
+Setting...
+ Image  keywords   = X          Y           with binning =    4
+ WMAP   keywords   = DETX       DETY        with binning =    8
+ Energy keywords   = PI                     with binning =    1
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   2047
+ 
+Go

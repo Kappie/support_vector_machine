@@ -1,0 +1,9 @@
+Sort_fn: names sorted, non_numeric/total =             0           20
+     file time (needed/nearest) = 061521800     / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/lt1/    061521800 lt1   HT 
+  Subroutine plot_field_2d: i4time =    1464804000
+  plot_field_2d - contour plot ht        
+  Subroutine contour_settings...
+  rmax/rmin prior to scaling =     5874.010        5750.519    
+  rmax/rmin after scaling =     587.4010        575.0519    
+  range/zoom/cint/scale =     12.34912        1.00000

@@ -1,0 +1,14 @@
+xmlns:xap='http://ns.adobe.com/xap/1.0/'>
+  <!-- xap:Description is aliased -->
+ </rdf:Description>
+
+ <rdf:Description about='uuid:f2558d46-2e30-11db-9e01-9a33b8dd8148'
+  xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/'>
+  <xapMM:DocumentID>adobe:docid:photoshop:a4c08611-b51f-11d9-85a4-91ac4e503e10</xapMM:DocumentID>
+ </rdf:Description>
+
+ <rdf:Description about='uuid:f2558d46-2e30-11db-9e01-9a33b8dd8148'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+  <dc:description>
+   <rdf:Alt>
+    <rdf:li xml:lang='x-defa

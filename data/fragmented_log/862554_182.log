@@ -1,0 +1,15 @@
+          Statistical Error
+  SYS_ERR   - TRUE            Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+ ...  QUALITY
+ ...
+ ...  -------
+ ...  QUALITY
+ ...  -------
+ ...  Bad Channels (Channel - Channel)
+ ...  ---------------------------------------------
+ ...         0 -      13  have quality 5
+ ...

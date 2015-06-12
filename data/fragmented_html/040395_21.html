@@ -1,0 +1,66 @@
+-->
+
+
+
+
+
+
+	  
+	  
+	
+
+
+
+    
+
+    
+        
+	
+	  
+	    
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Begin Javascript -->
+		<script language="JavaScript">
+		function checkSurveyForm(theForm) {
+			var itemRadio = theForm.surveyResponseItem;
+			var found = false;
+			
+			for (var i = 0; i < itemRadio.length; i++) {
+				if (itemRadio[i].checked == true) {
+					found = true;
+					break;
+				}
+			}
+		
+			if (!found) {
+				alert("Please select a survey response."

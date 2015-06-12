@@ -1,0 +1,11 @@
+blished models = 0.239088 Jy
+keep
+! Adding 156 model components to the UV plane model.
+! The established model now contains 214 components and 0.239088 Jy
+![Exited script file: muppet]
+wmap "J0246-1236_X_1997_05_07_yyk\_map.fits"
+! Inverting map 
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.8979 x 2.362 at -2.069 degrees (North through East)
+! Clean map  min=-0.0044669  max=0.20103 Jy/beam
+! Writing clean map to FITS file: J0246-1236_X_1997_05_07_yyk_map.fi

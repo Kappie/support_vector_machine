@@ -1,0 +1,8 @@
+.0
+2004.167.07:50:07.67:check80r
+2004.167.07:50:18.81?ERROR ch -349 The Receiver 70K stage is hotter than  80K.
+2004.167.07:50:18.81?ERROR ch -350 The Receiver 20K stage is hotter than  35K.
+2004.167.07:51:00.82?ERROR qg -303 Track  3 parity errors exceed threshold.
+2004.167.07:51:00.82?ERROR qg -303 Track 24 parity errors exceed threshold.
+2004.167.07:51:00.82?ERROR qg -303 Track 32 parity errors exceed threshold.
+2004.167.07:51:00.82/parity/10.,1090.,18.,18.,6.,8.,6.,6.,18.,4.,4.,10.,2.,12.,2.,2.,4.,0.,0.

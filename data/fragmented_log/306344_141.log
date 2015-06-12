@@ -1,0 +1,14 @@
+ice ve overflowed or were less than zero.
+9830206592374/tsys2/68.0,68.5,69.8,66.4,66.2,$$$$$$$$,136.4
+9830206592375:!302070130
+9830207013000:"data stop"
+9830207013000:et
+9830207013014:!+3s
+9830207013315:tape
+9830207013326/tape/off,01603,norm,stopped,stop,unlock,ready,rem
+9830207013326:postob
+9830207013326:source=1958-179,195804.6,-175717.0,1950.0
+9830207013327#antcn#Command a new source
+9830207013375#antcn#Successfully sent new source position to antenna
+9830207013375:check2c1
+9830207021461/parity/0.,0.,0.,

@@ -1,0 +1,17 @@
+"rs\" and a number \n (eg. rs23131)");
+				return false;}
+		}
+		if (gettype == "dbSNP_ss")
+		{
+			var numstr = /ss\d+$/;	
+    		if (!(b.match(numstr)) ) {
+   		    	alert (b + " is incorrect format!\nThe ID should have the prefix \"ss\" and a number \n (eg. ss23131)");
+				return false;}
+		}
+	}
+function getSTSname()
+	   {
+   		if ((document.STSSearch.STSname1.value == "") || (document.STSSearch.STSname2.value == ""))
+      		{
+      		alert("Please enter two STS markers!")
+      		document.STSSearch.STSname

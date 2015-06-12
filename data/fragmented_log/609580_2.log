@@ -1,0 +1,6 @@
+n fact, she says it never should have been on.  I turned it off, and I will disable SVX B0 in iFix.</p>
+
+
+<!-- Date: Sat Mar 31 19:51:34 2001 -->
+<p> 
+I had to lower the frequency of PSMon updates to iFix to approximately once every 30 s (previously it was about 5 s).  This is because PSMon hogs iFix's resources while it accesses the database, so with a 5 s update frequency iFix doesn't have a chance to respond to commands like activating/deactivating enables.  We never noticed this before because I only ev

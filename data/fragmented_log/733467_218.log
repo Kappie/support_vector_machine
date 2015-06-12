@@ -1,0 +1,9 @@
+skipped (EDR #2925, SCET=1510551664)
+EDR INPUT DVC #987:    Missing or incomplete EDB - DVC skipped (EDR #2978, SCET=1510565112)
+EDR INPUT DVC #991:    Missing or incomplete EDB - DVC skipped (EDR #3017, SCET=1510575398)
+CDF OUTPUT LOG:        CDF Records written=62 (Range Errors=0)
+[01-Apr-2002-21:11:49  End processing file: .\data\1997\19971113.cdf]
+
+[01-Apr-2002-21:11:49  Start processing file: .\data\1997\19971114.cdf]
+EDR INPUT DVC #1104:   DPU error - PHA error (EDR #3311, SCET=1510675077)
+CDF

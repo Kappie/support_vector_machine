@@ -1,0 +1,11 @@
+0  -  total flux cleaned = 1.47934 Jy
+! Component: 100  -  total flux cleaned = 1.8689 Jy
+! Component: 150  -  total flux cleaned = 2.06764 Jy
+! Component: 200  -  total flux cleaned = 2.18907 Jy
+! Total flux subtracted in 200 components = 2.18907 Jy
+! Clean residual min=-0.014531 max=0.063582 Jy/beam
+! Clean residual mean=0.001555 rms=0.007075 Jy/beam
+! Combined flux in latest and established models = 2.18907 Jy
+uvw 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by er

@@ -1,0 +1,23 @@
+d model now contains 105 components and 0.218204 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.075561Jy  sigma=0.370910
+! Fit after  self-cal, rms=0.075515Jy  sigma=0.370686
+mapp
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+peakw 1
+! Added new window around map position (1.9, -0.4).
+mapp
+! 
+! Move the cursor into the plot window and press 'H' for help
+clean 100
+! clean: niter=100  gain=0.05  cut

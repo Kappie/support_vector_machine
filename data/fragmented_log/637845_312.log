@@ -1,0 +1,5 @@
+c/dywConstructCalibrationGeometry.cc:585: warning: unused variable 'LowerCable_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:637: warning: unused variable 'PuCSourceBox_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc: In member function 'void dywDetectorConstruction::CoSourceContainer(G4ThreeVector, G4LogicalVolume*)':
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:673: warning: unused variable 'weight1_phys'
+/home/tagg/autodaya/G4dyb/src/dyw

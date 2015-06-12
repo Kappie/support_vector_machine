@@ -1,0 +1,11 @@
+x/ifd=22,13,nor,nor
+2004.349.17:13:30.84&ifdsx/if3=17,out,1,1,,,on
+2004.349.17:13:30.84&ifdsx/lo=
+2004.349.17:13:30.84&ifdsx/lo=lo1,8080.00,usb,rcp,1
+2004.349.17:13:30.84&ifdsx/lo=lo2,2020.00,usb,rcp,1
+2004.349.17:13:30.84&ifdsx/lo=lo3,8080.00,usb,rcp,1
+2004.349.17:13:30.84&ifdsx/patch=
+2004.349.17:13:30.84&ifdsx/patch=lo1,1l,2l,3l,4h
+2004.349.17:13:30.84&ifdsx/patch=lo2,9l,10l,11h,12h,13h,14h
+2004.349.17:13:30.84&ifdsx/patch=lo3,5h,6h,7h,8h
+2004.349.17:13:32.10&checkcrc/"comment out the following lines if 

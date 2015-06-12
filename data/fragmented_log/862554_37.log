@@ -1,0 +1,21 @@
+ch=yes
+ 
+   Setting datamode to BRIGHT
+ 
+Got the minimum time resolution of the chosen data:  0.80000E+01,
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   2047
+ 
+ 
+Number of files read in:    2
+ 
+Files currently in use:
+ 
+   1   ad72016000s000202h.unf
+   2   ad72016000s000102h.unf
+ 
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > set image detector
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > select mkf @72016000_sis0_mkf.sel
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > extract events
+!ascascreen_sis0:ASCA-SIS

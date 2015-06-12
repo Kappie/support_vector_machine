@@ -1,0 +1,10 @@
+1595620:source=0235+164,023552.6,162403.9,1950.0
+9919501595621#antcn#Commanding to new source
+9919501595734#antcn#Source:  0235+164  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919501595734#antcn# RAcommand   39.651   DECcommand  16.612
+9919501595734:check2c2
+9919502002885/peak/3,1,read,0.200,0.151,48.4,f,-2.671
+9919502003365/peak/3,1,read,0.200,0.142,37.9,f,-2.695
+9919502003390/pass/4,4,auto,-275.0,-275.0,-275.4,-271.4,-0.4,3.6
+9919502004941?ERROR qg -303 Track  5 parity errors exceed threshold.
+9919502004941?ER

@@ -1,0 +1,22 @@
+IsOnsite=function(host){
+		if (host.length>0){
+			host=host.toLowerCase();
+			if (host==window.location.hostname.toLowerCase()){
+				return true;
+			}
+			if (typeof(this.onsitedoms.test)=="function"){
+				return this.onsitedoms.test(host);
+			}
+			else if (this.onsitedoms.length>0){
+				var doms=this.dcsSplit(this.onsitedoms);
+				var len=doms.length;
+				for (var i=0;i<len;i++){
+					if (host==doms[i]){
+						return true;
+					}
+				}
+			}
+		}
+		return false;
+	}
+	WebTrends.prototype.dc

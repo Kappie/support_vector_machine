@@ -1,0 +1,16 @@
+yes
+checking for python... /usr/local/cdat/bin/python
+Found Python version 2.5
+could not find python2.5/Python.h
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+Checking configuration requirements
+Enabling multithreaded support
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+checking iconv.h usability... yes
+checking iconv.h presence

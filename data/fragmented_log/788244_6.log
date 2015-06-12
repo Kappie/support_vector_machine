@@ -1,0 +1,17 @@
+.cns:FOBS,SIGMA
+
+R-free flags:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cns:TEST
+
+Miller array info: /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w.cns:FOBS,SIGMA
+Observation type: xray.amplitude
+Type of data: double, size=19589
+Type of sigmas: double, size=19589
+Number of Miller indices: 19589
+Anomalous flag: False
+Unit cell: (70.9525, 46.93, 85.9581, 90, 90, 90)
+Space group: P 21 21 21 (No. 19)
+Systematic absences: 0
+Centric reflections: 2427
+Resolution range: 15.0819 1.99103
+Completeness 

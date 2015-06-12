@@ -1,0 +1,13 @@
+2218-0335_S_1999_12_20_pus_uvs.fits
+! Writing UV FITS file: J2218-0335_S_1999_12_20_pus_uvs.fits
+wwins J2218-0335_S_1999_12_20_pus_map.win
+! wwins: Wrote 4 windows to J2218-0335_S_1999_12_20_pus_map.win
+x = (field_size-8) * field_cell / 4
+addwin -x,x,-x,x
+clean (field_size*4),0.01
+! Inverting map 
+! clean: niter=2048  gain=0.01  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00162149 Jy
+! Component: 100  -  total flux cleaned = 0.00256105 Jy
+! Component: 150  -  total flux cleaned = 0.00336933 Jy
+! Co

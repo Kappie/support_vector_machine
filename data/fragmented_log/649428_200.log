@@ -1,0 +1,2 @@
+astypes.lo xmlunicode.lo xmlreader.lo relaxng.lo dict.lo SAX2.lo xmlwriter.lo legacy.lo chvalid.lo pattern.lo xmlsave.lo xmlmodule.lo schematron.lo -lz  -lm  
+gcc -shared  .libs/SAX.o .libs/entities.o .libs/encoding.o .libs/error.o .libs/parserInternals.o .libs/parser.o .libs/tree.o .libs/hash.o .libs/list.o .libs/xmlIO.o .libs/xmlmemory.o .libs/uri.o .libs/valid.o .libs/xlink.o .libs/HTMLparser.o .libs/HTMLtree.o .libs/debugXML.o .libs/xpath.o .libs/xpointer.o .libs/xinclude.o .libs/nanohttp.o .libs/nanoft

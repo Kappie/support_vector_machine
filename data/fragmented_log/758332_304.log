@@ -1,0 +1,16 @@
+ steps  used:            3
+ Number of attitude steps avail:        67332
+ Mean RA/DEC pixel offset:      -41.4043     -14.7776
+ 
+    writing expo file: /tproc/nandra/processing/74035000/work/74035000_sis1_raw.
+    closing attitude file...
+    closing data file...
+ 
+gnt_infrm: Creating exposure map for gis2...
+ 
+instfile=/tproc/nandra/processing/74035000/work/74035000_gis2.effmap
+ASCAEXPO_V0.9b
+ 
+    reading data file: /tproc/nandra/processing/74035000/work/74035000_gis2.evt
+    reading   gti ext: STDGTI
+   

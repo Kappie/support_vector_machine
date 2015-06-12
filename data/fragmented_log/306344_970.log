@@ -1,0 +1,8 @@
+x#/WX/18.6,1004.5, 47.9
+9830301510200?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301510201?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301510252?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301510303?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830301510310/ifd/9,7,nor,nor,rem,8505,10903
+9830301510317/if3/8,out,1,1,,,present,500.10,rem,lock,52627
+9830301510324/vc06/420.99,2.000,u,10,10,rem,loc

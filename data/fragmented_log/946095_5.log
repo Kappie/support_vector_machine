@@ -1,0 +1,13 @@
+sigma=0.002424
+! Fit after  self-cal, rms=0.627004Jy  sigma=0.002424
+! clrmod: Cleared the established, tentative and continuum models.
+! Redundant starting model cleared.
+uvweight 2,-1
+! Uniform weighting binwidth: 2 (pixels).
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=0.2854 mas, bmaj=0.6991 mas, bpa=9.075 degrees
+! Estimated noise=2411.44 

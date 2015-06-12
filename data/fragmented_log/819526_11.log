@@ -1,0 +1,17 @@
+Adding 13 model components to the UV plane model.
+! The established model now contains 22 components and 1.80182 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.236333Jy  sigma=0.002037
+! Fit after  self-cal, rms=0.236024Jy  sigma=0.002031
+! Inverting map 
+! Your choice of large map pixels excluded 0.678% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+print "************** FINISHED UNIFORM WEIGHTING

@@ -1,0 +1,5 @@
+ool_CD1.cc:455: warning: unused variable 'WaterModuleVolume_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool_CD1.cc:898: warning: unused variable 'physV_Module_1'
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool_CD1.cc:905: warning: unused variable 'physV_Module_2'
+../Linux-i686/dywGSD.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/

@@ -1,0 +1,8 @@
+g: more than 50 iterations in pfcluster finding: 1.035906484e-06
+%MSG-e Muon:  GlobalMuonProducer:globalMuons 07-Aug-2007 09:35:02 EDT  Run: 1 Event: 35
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e RecoMuon:  GlobalMuonProducer:globalMuons 07-Aug-2007 09:35:02 EDT  Run: 1 Event: 35
+MuonTrackFinder::reconstruct: Size of trajectory and track collections do not match
+%MSG
+%MSG-e MuonTrackFinder:  GlobalMuonProducer:globalMuons  07-Aug-2007 09:35:02 EDT  Run: 1

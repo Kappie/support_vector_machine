@@ -1,0 +1,10 @@
+ead[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.14:25:30.02/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.14:25:30.18:!2001.296.14:32:03
+2001.296.14:32:03.00:tape
+2001.296.14:32:03.12/tape/off,01439,norm,stopped,stop,unlock,ready,rem
+2001.296.14:32:03.12:st=for,160
+2001.296.14:32:03.28:!2001.296.14:32:03
+2001.296.14:32:03.29:preob
+2001.296.14:32:03.30#antcn#Checking onsource status
+2001.296.14:32:03.31#antcn# RAsource   291.234   D

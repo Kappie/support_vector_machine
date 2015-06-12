@@ -1,0 +1,13 @@
+ogTest ok
+installation done
+------> (constituents.make) LogTest done
+------> (constituents.make) Building LogUnitTest.make
+Library LogUnitTest
+------> (constituents.make) Starting LogUnitTest
+------> (LogUnitTest.make) Rebuilding ../Linux-i686/LogUnitTest_dependencies.make
+WARNING >> You should provide a target for LogUnitTestLIB
+------> LogUnitTest ok
+------> (constituents.make) LogUnitTest done
+ all ok.
+#--------------------------------------------------------------
+# Now trying [make] in /home/tagg/autod

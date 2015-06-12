@@ -1,0 +1,12 @@
+isters cannot set the highest 
+bit (i.e. write FF, read 7F).  I remember that I had this problem on a board 
+that you lent me once, and you were able to fix it almost instantly -- there 
+was a solder bridge somewhere, or something.  Could you recommend a spot for 
+me to look for trouble?  Or would you like me to bring the board to Michigan? 
+ 
+Look for shorts on components Q19 and P19 
+ 
+My best guess: the Short is on Q19-33, Q19-24, P19-44 or P19-13 
+ 
+ 
+	2)  We had a mix of Rev B and Rev C boards on hand,

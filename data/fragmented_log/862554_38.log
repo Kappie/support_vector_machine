@@ -1,0 +1,7 @@
+0-BRIGHT > sisclean clean=2 cellsize=5 log_prob=-5.24 bkg_thr=3 clean_phalow=0 clean_phahi =4095 sis_plot2=no saoimage2=no
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > select events "grade==0||(grade>=2&&grade<=4)" save_file=no
+The select output will overwrite the cleaned event list
+     if you have not saved it already.
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > extract "event image"
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > save obscat 72016000_sis0 clobberit = yes
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > $rm -f ascascreen_sis0*.ca

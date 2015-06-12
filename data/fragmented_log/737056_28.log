@@ -1,0 +1,14 @@
+ pixel size should ideally be below 0.1539 milli-arcsec
+! Estimated beam: bmin=0.6905 mas, bmaj=1.914 mas, bpa=-6.506 degrees
+! Estimated noise=556.148 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (0.8, 3).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0289282 Jy
+! Component: 100  

@@ -1,0 +1,3 @@
+used -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT HTMLtree.lo -MD -MP -MF .deps/HTMLtree.Tpo -c HTMLtree.c -o HTMLtree.o >/dev/null 2>&1
+mv -f .deps/HTMLtree.Tpo .deps/HTMLtree.Plo
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENT

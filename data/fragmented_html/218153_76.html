@@ -1,0 +1,19 @@
+" SRC="http://statse.webtrendslive.com/dcs4o6w3n4twkf0ur09tjdxb3_3r4s/njs.gif?dcsuri=/nojavascript&WT.js=No">
+</NOSCRIPT>
+<!-- END OF SmartSource Data Collector  TAG -->
+
+<script type="text/javascript">
+function findpdf(){
+
+   var l = document.links;
+
+   function check(){
+      var dest = this.pathname;
+      var title = this.firstChild.data;
+      dcsMultiTrack('DCS.dcsuri',dest,'WT.ti',title);
+   }
+
+   for (i = 0; i < l.length; i++){
+      if(l[i].pathname.match(/\.pdf/)){
+         if(!l[i].onclick){
+    

@@ -1,0 +1,9 @@
+6.95;schedule=
+2004.350.07:19:01.25;source=disable
+2004.350.07:19:01.25#flagr#flagr/antenna,new-source
+2004.350.07:19:02.22#skua #Interrupted: processing new source
+2004.350.07:19:06.10?ERROR st -999 Error in antenna communication
+2004.350.07:19:06.10#skua #antenna communication closed
+2004.350.07:19:06.10?ERROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.07:19:06.10?ERROR st -999 Antenna STOP command failed!!!
+2004.350.07:19:06.10?ERROR st -999 Failed: closing antenna 

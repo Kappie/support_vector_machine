@@ -1,0 +1,5 @@
+ol --mode=install /usr/bin/install -c  'libxml2.la' '/usr/local/cdat/Externals/lib/libxml2.la'
+/usr/bin/install -c .libs/libxml2.so.2.6.31 /usr/local/cdat/Externals/lib/libxml2.so.2.6.31
+(cd /usr/local/cdat/Externals/lib && { ln -s -f libxml2.so.2.6.31 libxml2.so.2 || { rm -f libxml2.so.2 && ln -s libxml2.so.2.6.31 libxml2.so.2; }; })
+(cd /usr/local/cdat/Externals/lib && { ln -s -f libxml2.so.2.6.31 libxml2.so || { rm -f libxml2.so && ln -s libxml2.so.2.6.31 libxml2.so; }; })
+/usr/bin/install -c .libs/libxm

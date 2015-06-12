@@ -1,0 +1,12 @@
+*************************************
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mVisualization Manager instantiating...
+[0m[geant] =I= [0mVisualization Manager initialising...
+[0m[geant] =I= [0mRegistering graphics systems...
+[0m[geant] =I= [0m
+            You have successfully registered the following graphics systems.
+[0m[geant] =I= [0mCurrent available graphics systems are:
+              ASCIITree (ATree)
+              DAWNFILE (DAWNFILE)
+              GAGTree (GAGTree)
+              G4HepRep (HepR

@@ -1,0 +1,8 @@
+/local/cdat/Externals/NetCDF/lib  -Wl,-R/usr/local/cdat/Externals/lib -Wl,-soname -Wl,testdso.so.0 -o .libs/testdso.so.0.0.0
+(cd .libs && rm -f testdso.so.0 && ln -s testdso.so.0.0.0 testdso.so.0)
+(cd .libs && rm -f testdso.so && ln -s testdso.so.0.0.0 testdso.so)
+ar cru .libs/testdso.a  testdso.o
+ranlib .libs/testdso.a
+creating testdso.la
+(cd .libs && rm -f testdso.la && ln -s ../testdso.la testdso.la)
+gcc -DHAVE_CONFIG_H -I. -I./include -I./include  -D_REENTRANT    -I/usr/local/cdat/Externals/include   -I

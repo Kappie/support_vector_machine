@@ -1,0 +1,7 @@
+'/java/cdfdb/servlet/RunSummary?RUN_NUMBER=159490' target=_top>159490</a>) -->
+<!-- Comment: Thu Feb 27 07;26;17 comment by...Luis -->
+<pre>SCPU-P2-E-TracerEventId: Event 257961, crate 44, channel 3 has either bad Tracer ID or bad markers around Tracer word.
+ Tracer word event ID is 12, should be 9.
+Tracer word = 0x960c022c (I think).
+Channel data = 0x000000bb 0x960c022c 0x50454d44 0x000c000a 0x00000000 0x00000051 0x00000001 0x0ad40033 ...
+... 0x000002e0 0x00000017 0x0003efa9 0x00000000 0xaaaaaaaa 0x555

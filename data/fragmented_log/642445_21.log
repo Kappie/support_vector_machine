@@ -1,0 +1,13 @@
+SGRIN is the only signal that looks healthy.  I tried running with FRED and in CalibContinuous, but both gave this  pic? note BOSS scale is ~1/4 that of the BOSSGRIN signal</a></td></tr></table>
+<!-- Author: hray -->
+
+
+<!-- Date: Fri Oct 12 19:41:53 2001 -->
+modifed memory allocation in svt cold start code, so that a 
+single big malloc is done once (and never freed), which i 
+expect to reduce memory fragmentation problems that cause 
+svt crates to have to be rebooted.  
+<!-- Author: bill a -->
+
+
+<!-- Date: 

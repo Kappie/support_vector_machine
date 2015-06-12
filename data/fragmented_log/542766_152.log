@@ -1,0 +1,11 @@
+ff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919420245084/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919420245084/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919420245155/pass/2,2,auto,-330.0,-330.0,-329.9,-330.7,0.1,-0.7
+9919420245170:!194202740
+9919420274000:tape
+9919420274006/tape/off,13900,norm,stopped,stop,unlock,ready,rem
+9919420274006:st=rev,80
+9919420274021:!194202750
+9919420275000:preob
+9919420275000#

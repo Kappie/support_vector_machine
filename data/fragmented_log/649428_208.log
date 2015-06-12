@@ -1,0 +1,2 @@
+rite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -module -rpath /usr/local/cdat/Externals/lib -L/usr/local/cdat/Externals/lib   -L/usr/X11R6/lib   -L/usr/local/lib  -Wl,-R/usr/local/cdat/Externals/lib -L/usr/local/cdat/Externals/HDF5/lib -L/usr/local/cdat/Externals/NetCDF/lib -o testdso.la  testdso.lo  
+gcc -shared  .libs/testdso.o  -L/usr/local/cdat/Externals/lib -L/usr/X11R6/lib -L/usr/local/lib -L/usr/local/cdat/Externals/HDF5/lib -L/usr

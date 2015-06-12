@@ -1,0 +1,12 @@
+5030855/pass/9,9,auto,-110.0,-110.0,-109.7,-110.8,0.3,-0.8
+9919515030870:!195151451
+9919515145100:tape
+9919515145105/tape/off,08083,norm,stopped,stop,unlock,ready,rem
+9919515145105:st=for,80
+9919515145120:!195151501
+9919515150100:preob
+9919515150100#antcn#Checking onsource status
+9919515150104#antcn# RAsource   265.991   DECsource   -3.832
+9919515150104#antcn# RAbeam     265.992   DECbeam     -3.832
+9919515150104#antcn# RAdelta      0.001   DECdelta     0.000
+9919515150104?ERROR qo -301 WARNING: ONSOURCE st

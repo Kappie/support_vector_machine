@@ -1,0 +1,11 @@
+            0
+  write_label_lplot:
+ Sfc Rel Humidity   (PERCENT)                                                                        
+  lapsplot: call "conrec", cint =     10.00000    
+  conrec_line: calling plot_contour    0.000000        150.0000     
+    10.00000                2            1
+
+ MIN =   53.704         MAX =   100.00          PLOT INTERVAL =   10.000    
+  FMAX/NSD/NLS =     100.0000                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+           16       

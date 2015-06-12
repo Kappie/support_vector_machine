@@ -1,0 +1,14 @@
+ation ....... 4.0662E+01          Experiment ........ ASCA     SIS0
+ Filter ............ NONE
+ Corrections applied: Vignetting - No ; Deadtime - No ; Bkgd - No ; Clock - No
+ 
+ Selected Columns:  1- Time;  7- E-Channel;
+ 
+ File contains arrival-time data.
+ 
+ FITS Extension ....  2 - `STDGTI    `   First GTI Start ... 10424 13:20:29.435
+ No. of Rows .......           56        Last GTI Stop ..... 10425 10:30:05.435
+ Selected Columns:    1 - GTI Start;    2 - GTI Stop
+ 
+ 
+ Series 1 file   2:/tproc/nandra/proce

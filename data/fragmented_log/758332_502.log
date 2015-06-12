@@ -1,0 +1,7 @@
+  8    4    6   powerlaw   norm               1.0000E-03 = par   4         2
+    9    6    7   constant   factor             0.9900     +/-   0.000       3
+   10    2    8   wabs       nH       10^22      0.000     = par   2         3
+   11    3    9   powerlaw   PhoIndex            2.000     = par   3         3
+   12    4    9   powerlaw   norm               1.0000E-03 = par   4         3
+   13    7   10   constant   factor             0.9900     +/-   0.000       4
+   14    2   11   wabs       nH       10

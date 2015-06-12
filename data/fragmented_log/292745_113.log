@@ -1,0 +1,13 @@
+8:05:03.05:tape
+1999.147.08:05:04.60/tape/261040,on,on,3,0x41,0x50
+1999.147.08:05:04.60:postob
+1999.147.08:05:04.83/cable/+3.162E-04
+1999.147.08:05:05.12/gps-fmout/+6E-07
+1999.147.08:05:05.19#antcn#onsource cmd:   Antenna in STOP!
+1999.147.08:05:05.19?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+1999.147.08:05:05.19/onsource/SLEWING
+1999.147.08:05:05.19#antcn#Received message for antenna: TCHECK
+1999.147.08:05:05.19:unlod
+1999.147.08:05:05.19&unlod/unloader
+1999.147.08:05:05.19&unlod/xdisp=on
+1999.147

@@ -1,0 +1,10 @@
+ Max/Min/n_missing =     0.000000       -18.46533                0
+  write_label_lplot:
+ difference field (a - b)                                                                            
+  lapsplot: call "conrec", cint =     2.000000    
+  conrec_line: calling plot_contour   -16.00000        2.000000     
+    2.000000                2            3
+
+ MIN =  -18.465         MAX =   0.0000          PLOT INTERVAL =   2.0000    
+  FMAX/NSD/NLS =     0.000000                2            1
+ NCON/IHL / HLS / HIC

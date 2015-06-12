@@ -1,0 +1,16 @@
+nsfers, and everything was 
+fine.  I remember that there was some trouble that Frank Chlebana had seen 
+with this a long time ago...but I don't remember how it got resolved.  What 
+happened? 
+ 
+ 
+What you are doing is in violation of the spec! The Spec was changed so 
+that the only block reads that the TDC will do is from the FIFO. Stick 
+with single-word transfers. 
+ 
+</pre>
+<!-- Author: Ken Bloom -->
+
+
+<!-- Date: Thu Jun 10 21:06:45 1999 -->
+<pre>TDCs #14, 18, 28, and 32 now have DSP code V22 in flashram.

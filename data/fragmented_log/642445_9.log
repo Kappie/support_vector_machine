@@ -1,0 +1,5 @@
+ure that the cluster merging was happening.  See today's evening shift elog -> L2DE wouldn't pass partition from the start, and there was some problem with resetting/rebooting any crates.  Luckilly Arnd just walked through the trigger room and offered to change the boot parameters so I can fix the L2DE crate.  Now I can fix that crate and connect the LA to look at more stuff.  more to follow..
+
+
+<!-- Date: Thu Oct 11 21:04:54 2001 -->
+<pre>well, I spoke too soon.  I am still unable to get the l2de crate to 

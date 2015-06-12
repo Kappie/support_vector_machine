@@ -1,0 +1,31 @@
+2001 -->
+<pre>"minimal Silicon set of ladders" 
+Tested integrated with the rest of CDF<br> 
+See <a href=" /cgi-bin/elog.pl"> main logbook </a> 4/1/2001 for this. 
+<pre> 
+Bias currents: 
+ 
+SB0W6 
+ch V   I(reading) 
+0 94 185 *** 
+1 99  22 *** 
+2 22  24 
+3 92 138 *** 
+4 95   2 
+*** means: is the sensitivity taken into account for in the 
+     GUI ? 
+ 
+ 
+LB0W3 
+ch  V  I 
+0  65  7  
+1  65  2 
+2  65  7 
+3 140 72 
+4 140 23 
+ 
+IB0W3 
+ch  v1  I1    V2   I2 
+0  40   0    40    0 
+1  90  50   110  343 
+2  45   0    25

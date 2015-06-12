@@ -1,0 +1,15 @@
+od
+! wwins: Wrote 5 windows to 2145+067_S.win
+! Inverting map 
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 3.72 x 7.191 at -8.243 degrees (North through East)
+! Clean map  min=-0.021546  max=2.17 Jy/beam
+! Writing clean map to FITS file: 2145+067_S.fits
+! Writing difmap environment to: 2145+067_S.par
+device 2145+067_Suv.ps/vps,1,2
+! Attempting to open device: '2145+067_Suv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+cmul = 1.0
+loglevs (imstat(

@@ -1,0 +1,10 @@
+ CLOW,HIGH,CINT     1000.000        1016.000        1.000000    
+  Max/Min/n_missing =     1010.020        1002.506                0
+  write_label_lplot:
+    0 M REDUCED PRESSURE (mb)                                                                        
+  lapsplot: call "conrec", cint =     1.000000    
+  conrec_line: calling plot_contour    1000.000        1016.000     
+    1.000000                2            2
+
+ MIN =   1002.5         MAX =   1010.0          PLOT INTERVAL =   1.0000    
+  FMAX/NSD/NLS 

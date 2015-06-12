@@ -1,0 +1,14 @@
+avarro -->
+Results of this calqie look OK
+
+
+<!-- Comment: Wed Aug 20 12;59;38 comment by...Shalhout  -->
+<pre>This was a calibration with expert download.  This calibration included all cal crates and should eliminate warnings of badly configured admems in ccal09 and ccal10.</pre>
+<!-- Date: Wed Aug 20 12:48:55.897 2008 -->
+<P> 
+ProcMon complained about cdfdaq disk quota  
+on /cdf/onln/data disk.   I cleaned up some  
+files and gzipped others.   Disk usage has gone  
+down. 
+<P>
+<!-- Author: badgett :: (run 

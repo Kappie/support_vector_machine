@@ -1,0 +1,8 @@
+tic
+[0m[geant] =I= [0m   XiMinusInelastic,AntiXiZeroInelastic,AntiXiMinusInelastic,OmegaMinusInelastic
+[0m[geant] =I= [0mAntiOmegaMinusInelastic,       IonInelastic,       He3Inelastic,      HadronElastic
+[0m[geant] =I= [0m     AlphaInelastic,  DeuteronInelastic,    TritonInelastic,           Cerenkov
+[0m[geant] =I= [0m      Scintillation,       OpAbsorption,         OpRayleigh,         OpBoundary
+[0m[geant] =I= [0m
+[0m[geant] =I= [0m
+[0m[geant] =I= [0mmsc:  Model variant of multiple scatterin

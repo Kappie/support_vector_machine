@@ -1,0 +1,14 @@
+of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/74035000/work/
+HK Directory is: /tproc/nandra/processing/74035000/work/
+ 
+!xsel:ASCA-SIS0-BRIGHT2 > set binsize 128
+!xsel:ASCA-SIS0-BRIGHT2 > set image sky
+!xsel:ASCA-SIS0-BRIGHT2 > set xybinsize 4
+!xsel:ASCA-SIS0-BRIGHT2 > extract image
+!xsel:ASCA-SIS0-BRIGHT2 > save image clobber=yes 74035000_sis0_sky.img
+Wrote image to file 74035000_sis0_sky.img
+!xsel:ASCA-SIS0-BRIGHT2 > se

@@ -1,0 +1,9 @@
+ile time (needed/nearest) = 061521800     / 061521800
+ Reading 2d /data/lapb/tw/fsl-linux9/data/lapsprd/lst/    061521800 lst   PBE
+  Subroutine ccpfil for solid fill plot...
+  input array range:     300.0000        5683.757    
+  input scale:     1.000000    
+  Colortable is cpe    0.000000        7000.000                0  F  F  F  F
+  ccpfil_sub - scale,scale_loc =     1.000000        7000.000    
+  subroutine set_image_colortable: ncols =            20
+  subroutine generate_colortable: ncols =          

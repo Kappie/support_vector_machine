@@ -1,0 +1,15 @@
+021212&ready/check=*,tp,hd
+9919417021212&ready/midtp
+9919417021216/newtape/"to continue, use label command"
+9919417023209;label=hst00206,b83a
+9919417023212&loader/st=for,135,off
+9919417023212&loader/!+11s
+9919417023212&loader/et
+9919417023212&loader/!+3s
+9919417023212&loader/tape=low
+9919417024646/label/HST00206,B83A
+9919417024647&midtp/ifd=max,max,*,*
+9919417024647&midtp/if3=max,*,*,*,*,*
+9919417024647&midtp/!+2s
+9919417024647&midtp/tpzero=v1,v2,v3,v4,v5,v6,v7,v8,if1,if3
+9919417024647&midtp/tpzero=v9,v10,v

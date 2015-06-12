@@ -1,0 +1,14 @@
+"
+------> UtilUnitTest : library ok
+------> UtilUnitTest ok
+installation done
+------> (constituents.make) UtilUnitTest done
+ all ok.
+#--------------------------------------------------------------
+# Now trying [make] in /home/tagg/autodaya/Base/Log/cmt (14/15)
+#--------------------------------------------------------------
+------> (Makefile.header) Rebuilding constituents.make
+------> (constituents.make) Rebuilding setup.make Linux-i686.make
+CMTCONFIG=Linux-i686
+../Linux-i686/Logsetup.make untouched 
+setup.

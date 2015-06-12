@@ -1,0 +1,14 @@
+052020_gis2_bgd_hard.evt
+Wrote events list to file 76052020_gis2_bgd_hard.evt
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Extracting BITFIX=n bgd data for gis3...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 MRK_501_N3  PH          MEDIUM      1998-07-21  20:02:21    0.15E+05    79157     1024
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /tproc/nandra/processing/76052020/work/76052020_gis3.evt
+ 10% completed 20% compl

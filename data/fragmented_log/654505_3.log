@@ -1,0 +1,6 @@
+()] Got config key DEP_INSTALLER with value /usr/bin/yum -ty install.
+[Config.pm/155/Config::get] Config::get(INSTROOT):  /caos/buildroot-2-ia32
+[buildtool/194/is_build_needed()] Got config key INSTROOT with value /caos/buildroot-2-ia32.
+[Config.pm/155/Config::get] Config::get(INSTROOT_COPY):  rsync -Ha --delete --delete-after
+[buildtool/194/is_build_needed()] Got config key INSTROOT_COPY with value rsync -Ha --delete --delete-after.
+[Config.pm/155/Config::get] Config::get(INSTROOT_INIT):  rsync -Haz --dele

@@ -1,0 +1,14 @@
+.002532
+! Fit after  self-cal, rms=0.418137Jy  sigma=0.002465
+dynam = dynam - 0.5
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! Estimated beam: bmin=0.7667 mas, bmaj=0.9742 mas, bpa=-12.95 degrees
+! Estimated noise=235.994 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfca

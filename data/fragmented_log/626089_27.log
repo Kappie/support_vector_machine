@@ -1,0 +1,3 @@
+ do a cold start, but only pause and resume during running.  We found that the correct value was 26 (decimal) instead of the default of 29 to see the laser energy in the reference PMTs.  Hallelujah!</p>
+
+<p>This run is a long run of several thousand events with the pipeline depth actually set at 27 and in Myron mode (NOT L1 early), so laser in CHA/WHA should be in buffer 0 and laser in LSA bank should be in buffer 1.  Right, Frank?  Frank is analyzing this offline.  Then, the next question is what has to 

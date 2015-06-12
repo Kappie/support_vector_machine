@@ -1,0 +1,11 @@
+unSummary?RUN_NUMBER=160432">160432</A>
+ Terminated at 2003.03.20 02:50:33
+<!-- Author: RunControl -->
+
+
+<!-- Date: Thu Mar 20 02:52:45.482 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=160432">160432</A>
+TERMINATE: end the run to turn all HVs on (including silicon as permitted)
+<!-- Author: Chun -->
+<!-- Comment: Thu Mar 20 02;55;36 comment by...m mattson -->
+While all HV were turning on (blinking bars), had a PSM alarm.  SVX_SET_1, channel 2 (-5.2V analog) displayed -6.01V for about 10 s

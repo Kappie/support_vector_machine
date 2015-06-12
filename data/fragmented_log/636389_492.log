@@ -1,0 +1,11 @@
+E-02
+  Skip contouring at +/-           10   0.1000000    
+  Skip contouring at +/-           11   0.2000000    
+  Contouring at +/-           12   0.5000000    
+  conrec_line: calling plot_contour   0.5000000       0.5000000     
+   1.0000000E-06            1            2
+
+ MIN = -0.10000E-05     MAX =   8.8688          PLOT INTERVAL =  0.10000E-05
+  FMAX/NSD/NLS =     8.868777                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+            1            2   1.3000000E-02    

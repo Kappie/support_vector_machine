@@ -1,0 +1,16 @@
+23 02:52:30 EDT 2000
+ 
+gnt_infrm: Getting RA and DEC from attitude file...
+ 
+gnt_infrm: Getting OTIME from attitude file...
+ 
+gnt_infrm: Checking permanent area...
+gunzip: No match.
+gnt_infrm: Files not in permanent area; performing centroiding...
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 MRK_501_N3  PH          MEDIUM      1998-07-21  20:02:21    0.15E+05    63803     1024
+extractor v3.75  8 Mar 2000
+ Getting FITS WCS Keywords
+ Doing file: /t

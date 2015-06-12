@@ -1,0 +1,10 @@
+ROR st -100 Waiting for antenna response timed out - antenna protocol error.
+2004.350.06:16:50.88?ERROR st -999 Antenna STOP command failed!!!
+2004.350.06:16:50.88?ERROR st -999 Failed: closing antenna communication
+2004.350.06:17:09.37;source=idle
+2004.350.06:17:09.37#flagr#flagr/antenna,new-source
+2004.350.06:17:09.38#skua #Connected to antenna
+2004.350.06:17:09.40#skua #skua mode: SKUA-2
+2004.350.06:17:10.21#skua #subr/-39.94,-18.31,15.36,263d28m,263.467
+2004.350.06:17:15.14;source=track
+2004.350.06:17:1

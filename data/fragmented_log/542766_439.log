@@ -1,0 +1,9 @@
+230190/form/map[0].stack[2].head[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919502230190/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919502230190/form/0x1555 0x5554  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919502230260/pass/4,4,auto,-275.0,-275.0,-275.4,-275.0,-0.4,0.0
+9919502230275:!195023050
+9919502305000:tape
+9919502305006/tape/off,12148,norm,stopped,stop,unlock,ready,rem
+9919502305006:st=rev,80
+9919502305021:!1

@@ -1,0 +1,13 @@
+16:51:56 1999 -->
+<pre>Log entry for TDC checkout performed Nov. 26 - Nov 30. Total 
+of 13 TDC's inspected with the commisioning software during 
+this time. 
+ 
+ tdc 561586: Failed SRAM read/write test. At first one could  
+              still talk with TDC despite this fact. After 
+              several trials, though, it became impossible to 
+              talk with TDC. This is the current state of the 
+              TDC. 
+ 
+ tdc 561587: Two channels on board show problems: channel 73 
+              does 

@@ -1,0 +1,12 @@
+9919504474400:tape
+9919504474407/tape/off,06981,norm,stopped,stop,unlock,ready,rem
+9919504474407:st=for,80
+9919504474423:!195044754
+9919504475400:preob
+9919504475400#antcn#Checking onsource status
+9919504475405#antcn# RAsource    20.478   DECsource    4.370
+9919504475405#antcn# RAbeam      20.479   DECbeam      4.369
+9919504475405#antcn# RAdelta      0.001   DECdelta     0.000
+9919504475406?ERROR qo -301 WARNING: ONSOURCE status is SLEWING!
+9919504475406/onsource/SLEWING
+9919504475658/tpical/13539,19874,110

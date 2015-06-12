@@ -1,0 +1,11 @@
+es/12.0.6.1/trig1_misal1_mc12.005200.T1_McAtNlo_Jimmy.recon.AOD.v12000601/mucmb_mugirl_kine_selk001/muperf_tree.root
+
+Setting ATLAS style
+   events: 437011
+    truth: 288447 +/- 628.235
+***** truth selection: (rpdg_ancestry&256)&&!(rpdg_ancestry&(15+64))
+    truth: 127374 +/- 417.574
+***** truth selection: (rpdg_ancestry&256)&&!(rpdg_ancestry&(15+64))&&abs(reta)<2.5
+    truth: 116231 +/- 398.905
+===== Efficiencies
+***** truth selection: (rpdg_ancestry&256)&&!(rpdg_ancestry&(15+64))&&abs(reta)<2.5&&rpt>10000

@@ -1,0 +1,11 @@
+[0m   Done, exit code 0
+  Histograming gamma_1MeV.events.root
+  Histograming eminus_1MeV.events.root
+  Histograming neutron_1keV.events.root
+  Histograming muon_100GeV.events.root
+  Printing gamma_1MeV
+  Printing eminus_1MeV
+  Printing neutron_1keV
+  Printing muon_100GeV
+Sending mail with:
+  /home/tagg/autodaya/AutoValidation/scripts/sendEmail  -s smtp.bnl.gov   -f "AutoValidator <tagg@minos.phy.tufts.edu>" -t "Simulation Group <theta13-simulation@lbl.gov>" -u "Result for 2008-03-22: Exact"  -o message-file

@@ -1,0 +1,16 @@
+orrecting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.203309Jy  sigma=0.001510
+! Fit after  self-cal, rms=0.203287Jy  sigma=0.001510
+! Inverting map 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+uvtaper 0.3,taper_size
+! Gaussian taper: value 0.3 at UV radius = 70 mega-wavelengths.
+win_mult = win_mult * 1.2
+selfcal true, true, soltime2
+! Performing amp+phase self-cal over 20 minute time

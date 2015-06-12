@@ -1,0 +1,18 @@
+ing phase self-cal
+! Adding 21 model components to the UV plane model.
+! The established model now contains 190 components and 2.58477 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.301238Jy  sigma=0.001263
+! Fit after  self-cal, rms=0.301157Jy  sigma=0.001262
+wmodel J0530+1331_X_2001_10_29_pus_map.mod
+! Writing 190 model components to file: J0530+1331_X_2001_10_29_pus_map.mod
+wobs J0530+1331_X_2001_10_29_pus_uvs.fits
+! Writing UV F

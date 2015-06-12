@@ -1,0 +1,5 @@
+ConstructCalibrationGeometry.cc:705: warning: unused variable 'weight2_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:752: warning: unused variable 'Vacuumlayer_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:796: warning: unused variable 'Cable_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:827: warning: unused variable 'UpperCable_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructCalibrationGeometry.cc:857: warning: unused variable 'Lowe

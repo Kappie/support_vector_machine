@@ -1,0 +1,17 @@
+/gis/bcf/s3gridv3.fits
+xrtrsp : /FTP/caldb/data/asca/xrt/bcf/xrt_ea_v2_0.fits
+ 
+  240 grouped channels from the PHA file
+ 
+ Bin size is 0.2500 (mm) = 0.2456(arcmin)
+ Optical axis is 119.36 134.44
+ WMAP size is    54 x   54
+ WMAP offset is    85    88
+ WMAP bin factor is     1
+ 
+ 1024 ungrouped channels from the RMF file
+ 
+ 
+pha bin =   62, E =  0.719 -  2.016 keV  (   1 /    4)   calculating ...
+ <efficiency> =   71.22426     weight =  6.0752723E-03
+pha bin =   63, E =  2.016 -  5.022 keV  (   2 /    4)   c

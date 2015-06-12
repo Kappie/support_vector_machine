@@ -1,0 +1,15 @@
+ed100% completed
+ 
+ Intv    1   Start 11015 20:57:56
+     Ser.1     Avg  10.47        Chisq  694.4       Var  1.136     Newbs.     25
+               Min  6.594          Max  12.29    expVar 0.4090E-01  Bins    786
+Writing output file: /tproc/nandra/processing/76052020/work/76052020_sis_src_256
+nbint = 119
+ 
+lcurve 1.0 (xronos5.16)
+ 
+ Series 1 file   1:/tproc/nandra/processing/76052020/work/76052020_gis_src_16s.f
+ 
+ Selected FITS extensions: 1 - RATE TABLE;
+ 
+ Source ............ MRK_501_N3          Start T

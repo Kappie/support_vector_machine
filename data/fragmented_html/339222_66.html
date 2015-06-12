@@ -1,0 +1,19 @@
+of(gWtAccountRollup)=="undefined"){
+				WT.vt_f_a="1";
+			}
+			WT.vt_f_s=WT.vt_f_d="1";
+			WT.vt_f_tlh=WT.vt_f_tlv="0";
+		}
+		else{
+			var c=this.dcsGetCookie(name);
+			var id=this.dcsGetIdCrumb(c,"id");
+			var lv=parseInt(this.dcsGetCrumb(c,"lv"));
+			var ss=parseInt(this.dcsGetCrumb(c,"ss"));
+			if ((id==null)||(id=="null")||isNaN(lv)||isNaN(ss)){
+				return;
+			}
+			WT.co_f=id;
+			var dLst=new Date(lv);
+			WT.vt_f_tlh=Math.floor((dLst.getTime()-adj)/1000);
+			dSes.setTime(ss);
+			if ((d

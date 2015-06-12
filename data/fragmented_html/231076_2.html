@@ -1,0 +1,19 @@
+rts--><script src="/js/196918main_browser_message.js" type="text/javascript" language="javascript"></script>
+
+
+<script type="text/javascript">
+	/**
+	 *  Browser Detect Class
+	 */
+	function detectBrowserClass(modern){
+		var nBrowser = navigator.appName;
+		var nVersion = navigator.appVersion;
+		var nAgent = navigator.userAgent;
+		this.version;
+		this.browser;
+		this.os;
+		this.modern = (typeof modern == 'object') == true ? modern:0;
+		if(nVersion.indexOf('Windows') !=-1){
+		     this.os = 'win';
+		}else{
+		  

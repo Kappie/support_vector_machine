@@ -1,0 +1,14 @@
+ yes
+!ascascreen_gis2:ASCA-GIS2-PH > $rm -f ascascreen_gis2*.cat 75084000_gis2_list.tmp 75084000_gis2_obscat.lis
+ Spawning...
+!ascascreen_gis2:ASCA-GIS2-PH > save all 75084000_gis2 clobberit=yes use_events=yes
+ 
+Saving the Image:
+Wrote image to file 75084000_gis2.img
+ 
+Saving the Filtered Events list:
+Wrote events list to file 75084000_gis2.evt
+Changing Data directory from:
+    /local/data/tproc/nandra/processing/75084000/unscreened/
+to the current working directory.
+!ascascreen_gis2:ASCA-GIS2-PH > clear mk

@@ -1,0 +1,3 @@
+ointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT testURI.o -MD -MP -MF .deps/testURI.Tpo -c -o testURI.o testURI.c
+mv -f .deps/testURI.Tpo .deps/testURI.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align

@@ -1,0 +1,16 @@
+RunSummary?RUN_NUMBER=164511' target=_top>164511</a>) -->
+
+
+<!-- Date: Wed Jun 11 17:03:57.127 2003 -->
+Run <A HREF="/java/cdfdb/servlet/RunSummary?RUN_NUMBER=164509">164509</A>
+RUNSTATUS: <PRE>Marked Bad, explanation:
+SVT: missing data in SVTMON comsumer; multiple DONE TIMEOUT from several TDC COT
+crates. This run was taken on partition 7, with two SRCs.
+</PRE>
+<!-- Author: cdfscico -->
+
+
+
+<!-- Date: Wed Jun 11 17:03:59.933 2003 -->
+Stuck Cellid S/B0/W3/L4/C0-6
+<!-- Author: Gilles :: (run <a href='/java/cd

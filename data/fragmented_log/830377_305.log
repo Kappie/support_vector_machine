@@ -1,0 +1,17 @@
+p
+ASCAEXPO_V0.9b
+ 
+    reading data file: /tproc/nandra/processing/76052020/work/76052020_gis3.evt
+    reading   gti ext: STDGTI
+    querying  CALDB...
+    reading  cal file: /FTP/caldb/data/asca/gis/bcf/gis3_ano_on_flf_180295.fits
+    reading inst file: /tproc/nandra/processing/76052020/work/76052020_gis3.effm
+ 
+    making an inst map...
+ rebin gis: 1
+     multiply inst map...
+ 
+    reading att  file: /tproc/nandra/processing/76052020/aux/fa980721_2002.0530
+ 
+    making a sky image...
+    writing sky image

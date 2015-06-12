@@ -1,0 +1,12 @@
+0016:!+3s
+9830300170317:tape
+9830300170329/tape/off,05259,norm,stopped,stop,unlock,ready,rem
+9830300170329:postob
+9830300170329:source=1213+350,121324.8,350455.4,1950.0
+9830300170330#antcn#Command a new source
+9830300170364#antcn#Successfully sent new source position to antenna
+9830300170365:sx2c1=13
+9830300171308?ERROR q@ -404 Head positioning failed to converge.
+9830300171653:!303002100
+9830300173865?ERROR ch -352 Tape head 2 is not in requested position.
+9830300173878?ERROR ch -370 Total power integrator

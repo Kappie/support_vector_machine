@@ -1,0 +1,22 @@
+--------
+
+CPU time actual refinement: 292.40
+
+
+============================== Exporting results ==============================
+
+Writing refined structure to PDB file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/run_1217/model_refine_001.pdb
+n_use            =  2823
+n_use_u_iso      =  2823
+n_use_u_aniso    =  0
+n_grad_site      =  0
+n_grad_u_iso     =  0
+n_grad_u_aniso   =  0
+n_grad_occupancy =  106
+n_grad_fp        =  0
+n_grad_fdp       =  0
+n_anisotropic_flag =  0
+total number of scatterers =  2823
+
+W

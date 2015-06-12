@@ -1,0 +1,9 @@
+0209402752&caltemps/caltemp2=10.5
+9830209402755?ERROR qk -211 Tsys value for device i3 overflowed or were less than zero.
+9830209402756/tsys1/51.5,52.2,51.8,51.2,49.3,45.4,45.1,44.4,48.5,$$$$$$$$
+9830209402756?ERROR qk -211 Tsys value for device ve overflowed or were less than zero.
+9830209402756/tsys2/62.1,63.5,64.7,61.2,60.8,$$$$$$$$,59.4
+9830209403985;rxomn
+9830209403985?ERROR sp   -4 Unrecognized name (not a function or procedure).
+9830209404175;rxmon
+9830209404189/rx/00(front),on,a,on,on,on,off,locked,

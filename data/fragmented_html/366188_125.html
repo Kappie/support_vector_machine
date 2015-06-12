@@ -1,0 +1,19 @@
+.dcsuri;
+		if (window.location.search){
+			DCS.dcsqry=window.location.search;
+		}
+		if ((window.document.referrer!="")&&(window.document.referrer!="-")){
+			if (!(navigator.appName=="Microsoft Internet Explorer"&&parseInt(navigator.appVersion)<4)){
+				DCS.dcsref=window.document.referrer;
+			}
+		}
+	}
+	WebTrends.prototype.dcsEscape=function(S, REL){
+		if (REL!=""){
+			S=S.toString();
+			for (var R in REL){
+				if (REL[R] instanceof RegExp){
+					S=S.replace(REL[R],R);
+				}
+			}
+			return S

@@ -1,0 +1,14 @@
+acking and building any DBD::* drivers.
+
+Writing Makefile for DBI
+sh-trace: make
+cp Changes blib/lib/DBI/Changes.pm
+cp dbd_xsh.h blib/arch/auto/DBI/dbd_xsh.h
+cp lib/DBI/FAQ.pm blib/lib/DBI/FAQ.pm
+cp Driver_xst.h blib/arch/auto/DBI/Driver_xst.h
+cp lib/DBD/Proxy.pm blib/lib/DBD/Proxy.pm
+cp lib/DBI/Const/GetInfo/ANSI.pm blib/lib/DBI/Const/GetInfo/ANSI.pm
+cp DBIXS.h blib/arch/auto/DBI/DBIXS.h
+cp lib/DBI/Const/GetInfoReturn.pm blib/lib/DBI/Const/GetInfoReturn.pm
+cp DBI.pm blib/lib/DBI.pm
+cp lib/DBD/Sponge.pm bli

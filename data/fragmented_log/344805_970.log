@@ -1,0 +1,11 @@
+9-0904,crf23,400
+2003.309.09:02:00.99:source=2314-340,231400.92,-340535.8,1950.0
+2003.309.09:02:01.00#antcn#Command a new source
+2003.309.09:02:01.69#antcn#Successfully sent new source position to antenna
+2003.309.09:02:01.69#flagr#flagr/antenna,new-source
+2003.309.09:02:01.71:setupsx
+2003.309.09:02:05.97/mk5/!play_rate = 0 ;
+2003.309.09:02:05.99/mk5/!mode = 0 ;
+2003.309.09:02:06.02/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 245 ;
+2003.309.09:02:06.03:!2003.309.09:04:10
+2003.309.09:03:56.37#flagr#flagr/an

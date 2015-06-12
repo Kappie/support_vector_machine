@@ -1,0 +1,12 @@
+12031017:!+3s
+9830212031318:tape
+9830212031330/tape/off,07877,norm,stopped,stop,unlock,ready,rem
+9830212031330:postob
+9830212031330:source=0104-408,010427.6,-405021.4,1950.0
+9830212031331#antcn#Command a new source
+9830212031390#antcn#Successfully sent new source position to antenna
+9830212031391:midtp
+9830212031634/tpzero/408,449,497,526,339,331,770,777,52,86
+9830212031658/tpzero/201,225,336,472,424,712,93
+9830212031679/rx/00(front),on,a,on,on,on,off,locked,14.83
+9830212031690/rx/01(rear),on,a,on,on,on,off

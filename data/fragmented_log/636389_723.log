@@ -1,0 +1,14 @@
+        [bs] Sfc background/forecast
+          [li,lw,he,pe,ne] li, li*w, helcty, CAPE, CIN,
+          [s] Other Stability Indices, [sm] Soil Moisture
+
+     TEMP: [t,tb,tr,to,bt] (LAPS,LGA,FUA,OBS,BAL), [pt,pb] Theta, Bal Theta
+     HGTS: [ht,hb,hr,bh] (LAPS,LGA,FUA,BAL),
+           [hh,bl,lf] Ht of Temp Sfc, PBL, Fire Wx
+
+     HUMIDITY: [br,fr,lq,rb] (lga;fua;lq3;bal)
+               [pw] Precipitable H2O
+
+     CLOUDS/PRECIP: [ci] Cloud Ice, [ls] Cloud LWC
+         [is] Integrated Cloud LWC  
+         [mv] 

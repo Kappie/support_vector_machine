@@ -1,0 +1,8 @@
+-2.6.31/doc/devhelp'
+make[3]: Leaving directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc/devhelp'
+Making install in examples
+make[3]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc/examples'
+make[4]: Entering directory `/ext_drv/svn/cdat/trunk/build/libxml2-2.6.31/doc/examples'
+make[4]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html
+mkdir -p -- /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html

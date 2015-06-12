@@ -1,0 +1,11 @@
+ter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+! Estimated beam: bmin=2.085 mas, bmaj=3.12 mas, bpa=-11.41 degrees
+! Estimated noise=765.571 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0074628 Jy
+! Component: 100  -  total flux cleaned = 0.012111 Jy
+! Component: 150  -  total flux cleaned = 0.0152764 Jy
+! Component: 200  -  total flux 

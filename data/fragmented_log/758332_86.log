@@ -1,0 +1,12 @@
+-PH > save spectrum gis2_spec_src.tmp clobber=yes group=no
+Wrote spectrum to gis2_spec_src.tmp
+!xsel:ASCA-GIS2-PH > filter region gis2_bgd_reg.tmp
+!xsel:ASCA-GIS2-PH > extract spectrum
+!xsel:ASCA-GIS2-PH > save spectrum gis2_spec_bgd.tmp clobber=yes group=no
+Wrote spectrum to gis2_spec_bgd.tmp
+!xsel:ASCA-GIS2-PH > exit save=no
+
+****** statistics for /tproc/nandra/processing/74035000/work/gis2_spec_src.tmp ******
+
+The sum of the selected image                 = 1061.000000
+The mean of the selected image     

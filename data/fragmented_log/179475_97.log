@@ -1,0 +1,8 @@
+8 0.8338
+2004.349.15:35:21.29#onoff#VAL 3c147       53.8 38.0 i3 3 r   8380.00 0.9963 31.60  322.1  50.974 0.1402
+2004.349.15:35:21.29#onoff#    source       Az   El  De I P   Center   Comp   Tsys  SEFD  Tcal(j) Tcal(r)
+2004.349.15:35:54.70;source=3c295,141120.65,521209.10,2000,neutral
+2004.349.15:35:54.70#flagr#flagr/antenna,new-source
+2004.349.15:35:54.84#skua #Antenna slewing to azimuth 330.7, elevation 28.3
+2004.349.15:39:34.58#skua #Antenna slewing complete
+2004.349.15:39:54.94#flagr#flagr/antenna,acqu

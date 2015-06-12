@@ -1,0 +1,16 @@
+*"
+! **************************************** 
+uvweight 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+win_mult = win_mult * 1.6
+clean_niter = clean_niter * 2
+dynam = dynam - 0.5
+doamp = false
+flux_cutoff = imstat(rms) * dynam
+! Inverting map and beam 
+! Estimated beam: bmin=1.246 mas, bmaj=4.576 mas, bpa=-6.071 degrees
+! Estimated noise=1700.3 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutof

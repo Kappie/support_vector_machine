@@ -1,0 +1,10 @@
+11:01.21:tape
+2001.296.06:11:01.34/tape/off,08918,norm,moving,stop,unlock,ready,rem
+2001.296.06:11:01.34:postob
+2001.296.06:11:01.35:scan_name=296-0618
+2001.296.06:11:01.38:source=4c39.25,092355.3,391523.8,1950.0
+2001.296.06:11:01.38#antcn#Commanding to new source
+2001.296.06:11:03.27#antcn#WARNING: source presently below limit horizon
+2001.296.06:11:03.29#antcn#Source:  4c39.25  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.06:11:03.29#antcn# RAcommand  141.783   DECcommand  39.031
+2001.296.06:11:03.29:4f8

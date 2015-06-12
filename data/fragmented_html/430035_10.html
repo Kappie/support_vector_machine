@@ -1,0 +1,21 @@
+d draw_background()
+{</PRE>
+
+<PRE><A NAME="A64E984330ttay"></A>  float vv[2];
+  int i, j;</PRE>
+
+<PRE><A NAME="A64E984487ttay"></A>  srand (24515);
+  color (0);
+  clear();</PRE>
+
+<PRE><A NAME="A64E984744ttay"></A>    /* the writemask guarantees that drawing is occurring only
+     * into the "background" bitplanes */
+  writemask (0x30);
+  for (j=0; j&lt;12; j++) {
+    color (16*((4*rand())/32767));
+    bgnpolygon();
+    for (i=0; i&lt;6; i++) {
+      vv[0] = RRRANDO;
+      vv[1] = RRRANDO;
+      v2f (vv);
+  

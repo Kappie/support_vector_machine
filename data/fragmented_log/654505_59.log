@@ -1,0 +1,6 @@
+.2383/usr/lib/perl5/vendor_perl/5.8.5/i386-linux-thread-multi/auto/DBI/.packlist
+Appending installation info to /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr/lib/perl5/5.8.5/i386-linux-thread-multi/perllocal.pod
+sh-trace: '[' -x /usr/lib/rpm/brp-compress ']'
+sh-trace: /usr/lib/rpm/brp-compress
+sh-trace: find /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383 '(' -name perllocal.pod -o -name .packlist ')' -exec rm -v '{}' ';'
+removed `/var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr/lib/perl5/vendor

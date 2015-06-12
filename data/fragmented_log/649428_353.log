@@ -1,0 +1,11 @@
+l2.lai /usr/local/cdat/Externals/lib/libxml2.la
+/usr/bin/install -c .libs/libxml2.a /usr/local/cdat/Externals/lib/libxml2.a
+chmod 644 /usr/local/cdat/Externals/lib/libxml2.a
+ranlib /usr/local/cdat/Externals/lib/libxml2.a
+PATH="$PATH:/sbin" ldconfig -n /usr/local/cdat/Externals/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/cdat/Externals/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR

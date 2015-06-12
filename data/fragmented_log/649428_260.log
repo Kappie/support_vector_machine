@@ -1,0 +1,7 @@
+ted-externs -Winline -Wredundant-decls -MT testapi.o -MD -MP -MF .deps/testapi.Tpo -c -o testapi.o testapi.c
+testapi.c:17978: warning: 'gen_xmlSchematronPtr' defined but not used
+testapi.c:17981: warning: 'des_xmlSchematronPtr' defined but not used
+testapi.c:17998: warning: 'gen_xmlSchematronParserCtxtPtr' defined but not used
+testapi.c:18001: warning: 'des_xmlSchematronParserCtxtPtr' defined but not used
+testapi.c:33930: warning: 'gen_xmlSAXHandlerPtr_ptr' defined but not used
+testapi.c:33933: warning: 'de

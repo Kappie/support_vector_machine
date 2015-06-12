@@ -1,0 +1,10 @@
+min =    26056.64 max =        85845.58 mean =     54338.59|
+|figures of merit: min =        0.00 max =            1.00 mean =         0.54|
+|phase err.(work): min =        0.00 max =           90.00 mean =        48.49|
+|phase err.(test): min =        0.00 max =           89.92 mean =        48.74|
+|-----------------------------------------------------------------------------|
+
+============================== Outliers rejection =============================
+
+basic_wilson_outliers    = 0
+extreme_wilson_outli

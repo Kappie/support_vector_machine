@@ -1,0 +1,12 @@
+.011596 Jy/beam
+! Clean residual mean=0.000133 rms=0.001772 Jy/beam
+! Combined flux in latest and established models = 0.273452 Jy
+uvw 0,-1
+! Uniform weighting is not currently selected.
+! Gridding weights will be scaled by errors raised to the power -1.
+! Radial weighting is not currently selected.
+flux_cutoff = imstat(rms) * dynam
+! Adding 11 model components to the UV plane model.
+! The established model now contains 11 components and 0.273452 Jy
+! Inverting map and beam 
+! Your choice of large map pixel

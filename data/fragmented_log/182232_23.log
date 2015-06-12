@@ -1,0 +1,13 @@
+ from Si
+<!-- Date: Wed Jul 25 06:17:59 2001 -->
+Getting a lot of "Failed to book any crates" errors in RC.  Have to either exit partition and reselect, or exit RC, cleanup, and restart.
+<!-- Author: hray -->
+
+
+<!-- Date: Wed Jul 25 06:27:19 2001 -->
+<p>Solenoid ramping back down.  COT put on standby, TOF turned off.
+<!-- Author: Napora -->
+
+
+<!-- Date: Wed Jul 25 06:57:07 2001 -->
+Run 121569 ErrorLogger fails CS.  Reset and partition.  Run 121570 get several BTO and DTO, both from VRB_SVX_02.  Have to hit 

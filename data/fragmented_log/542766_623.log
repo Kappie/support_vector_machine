@@ -1,0 +1,8 @@
+69/peak/3,1,read,0.200,0.093,84.2,f,-2.368
+9919506484224/peak/3,1,read,0.200,0.249,13.7,t,-2.314
+9919506484250/pass/6,6,auto,-220.0,-220.0,-220.1,-203.4,-0.1,16.6
+9919506485798?ERROR qg -303 Track  5 parity errors exceed threshold.
+9919506485798?ERROR qg -305 AUX data differs from expected value on track  5.
+9919506485798?ERROR qg -303 Track  7 parity errors exceed threshold.
+9919506485798?ERROR qg -305 AUX data differs from expected value on track  7.
+9919506485798?ERROR qg -303 Track  9 parity errors exce

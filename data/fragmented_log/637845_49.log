@@ -1,0 +1,5 @@
+vide a target for ../src//dywGLPhotonHitData.hh
+echo "Generating ROOT Dictionary for " ../src/dywGLPhotonHitData_LinkDef.hh ../src//dywGLPhotonHitData.hh
+Generating ROOT Dictionary for  ../src/dywGLPhotonHitData_LinkDef.hh ../src//dywGLPhotonHitData.hh
+if [ ! -d ../Linux-i686/ ]; then mkdir ../Linux-i686/; fi ;
+`/usr/local/opt/root-v5-16-00/bin/root-config --bindir`/rootcint -f ../Linux-i686/dywGLPhotonHitData_Dict.cc -c -p -I"../include" -I"/home/tagg/autodaya/include" -I"/usr/local/opt/root-v5-16-00/inclu

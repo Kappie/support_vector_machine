@@ -1,0 +1,8 @@
+_perl/5.8.5/i386-linux-thread-multi/auto/DBI/.packlist'
+removed `/var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr/lib/perl5/5.8.5/i386-linux-thread-multi/perllocal.pod'
+sh-trace: find /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383/usr -type f -print
+sh-trace: sed 's@^/var/tmp/mezzanine-buildroot.29689/perl-DBI.2383@@g'
+sh-trace: grep -v perllocal.pod
+sh-trace: grep -v '\.packlist'
+ssh-trace: cat perl-DBI-1.40-filelist
+sh-trace: '[' '/usr/lib/perl5/vendor_perl/5.8.5/i386-linux-thread-multi/auto/DBI/dbd

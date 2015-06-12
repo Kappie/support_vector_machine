@@ -1,0 +1,18 @@
+	function renderForOtherPage(render_option, theurl, file_name){
+		// properly format theurl so we can add it to the form's action
+		if (file_name)
+			filename = '/' + file_name;
+		else
+			filename = "";
+
+		theurl = FormatURL(theurl, filename);
+
+		var thepage = theurl + "&renderfor" + render_option + "=1" ;
+		var theform = eval("document.RenderForForm");
+		theform.action = thepage;
+		// alert("theform.action: " + theform.action);
+		theform.submit();
+	}
+</script>
+
+<form action="/about/org/crm

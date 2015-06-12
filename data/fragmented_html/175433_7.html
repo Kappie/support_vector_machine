@@ -1,0 +1,13 @@
+idth=strOptions.match(/width=\s*(\d+)/i);
+			if(strWidth && strWidth[1] >=0)
+			{
+				intWidth=strWidth[1];
+				strOptions=strOptions.replace(/width=\s*\d+\s*,?/i,'')
+			}
+			var strWinOptions = strOptions;
+		}
+		strWinOptions = strWinOptions + ',top='+ intTop + ',left=' + intLeft + ',height=' + intHeight + ',width=' + intWidth;
+			var winWindow=window.open(url,name,strWinOptions);
+		if (!winWindow)
+			alert('Unable to open window - please make sure the pop-up blocker is disabled for this site');
+		if(argum

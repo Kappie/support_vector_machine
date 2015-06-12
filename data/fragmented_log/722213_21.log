@@ -1,0 +1,16 @@
+00,24.66,28.95,245.298)
+
+Writing command file 75084000_gis2.xco
+Index  NEVENTS   ONTIME  RAWXBINS RISEBINS TIMEBINS PHA_BINS  POS_DET
+    0    55950  75227.8       256       32        1     1024      FLF
+Using Rise Time window bkgd. rejection
+Command file written, goodbye
+
+
+                  ****** ASCASCREEN V.0.51 ******
+
+Applies standard clean criteria to all modes of ASCA data.
+
+Output:
+   -- A single cleaned events file (.evt) except in MPC mode 
+   -- An image for the entire detector (.img) except in 

@@ -1,0 +1,6 @@
+        -I/home/tagg/autodaya/G4dyb/app /home/tagg/autodaya/G4dyb/app/dyw.cc
+In file included from /usr/include/geant4/G4VisExecutive.hh:105,
+                 from /home/tagg/autodaya/G4dyb/app/dyw.cc:34:
+/usr/include/geant4/G4VisExecutive.icc:58:33: error: G4OpenGLImmediateX.hh: No such file or directory
+/usr/include/geant4/G4VisExecutive.icc:59:30: error: G4OpenGLStoredX.hh: No such file or directory
+/usr/include/geant4/G4VPVParameterisation.hh:73: warning: 'class G4VPVParameterisation' has virtual functi

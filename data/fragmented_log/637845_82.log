@@ -1,0 +1,5 @@
+/usr/local/opt/root-v5-16-00/bin/root-config --cflags` -Wno-long-long          -I/home/tagg/autodaya/DataStructure/MCEvent/src /home/tagg/autodaya/DataStructure/MCEvent/src/dywTrajectory.cc
+/home/tagg/autodaya/DataStructure/MCEvent/src/dywTrajectory.cc: In constructor 'dywTrajectory::dywTrajectory()':
+/home/tagg/autodaya/DataStructure/MCEvent/src/dywTrajectory.cc:12: warning: converting to 'int' from 'float'
+../Linux-i686/dywGLRPCHitData.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/incl

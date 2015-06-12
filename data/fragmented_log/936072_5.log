@@ -1,0 +1,14 @@
+Fit after  self-cal, rms=0.088042Jy  sigma=0.432532
+mapp
+! Inverting map and beam 
+! Estimated beam: bmin=1.011 mas, bmaj=2.691 mas, bpa=-13.49 degrees
+! Estimated noise=2.60038 mJy/beam.
+! 
+! Move the cursor into the plot window and press 'H' for help
+peakw 1
+! Added new window around map position (9.9, -2.9).
+clean 100
+! clean: niter=100  gain=0.05  cutoff=0
+! Component: 050  -  total flux cleaned = 0.0313811 Jy
+! Component: 100  -  total flux cleaned = 0.0443595 Jy
+! Total flux subtracted in 100 componen

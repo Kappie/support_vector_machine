@@ -1,0 +1,13 @@
+4857/pass/5,5,auto,-220.0,-220.0,-220.4,-219.6,-0.4,0.4
+9919505574872:!195060013
+9919506001300:tape
+9919506001307/tape/off,12841,norm,stopped,stop,unlock,ready,rem
+9919506001307:st=for,80
+9919506001322:!195060023
+9919506002300:preob
+9919506002300#antcn#Checking onsource status
+9919506002303#antcn# RAsource    74.251   DECsource  -23.415
+9919506002303#antcn# RAbeam      74.251   DECbeam    -23.415
+9919506002303#antcn# RAdelta      0.000   DECdelta     0.000
+9919506002303/onsource/TRACKING
+9919506002558/tpica

@@ -1,0 +1,13 @@
+,0x50
+1999.147.08:02:04.60:postob
+1999.147.08:02:05.63/cable/+3.167E-04
+1999.147.08:02:07.11/gps-fmout/+5E-07
+9914708021728  check_onso: Antenna Communication Error!, can't check antenna.
+9914708021728  check_onso: FS_time - Antenna_time = 54.5 sec.
+ 
+9914708021901  check_onso: Antenna Communication Error!, can't check antenna.
+9914708021901  check_onso: FS_time - Antenna_time = 56.3 sec.
+ 
+1999.147.08:02:20.31?ERROR ST   -4 Error in antenna communication
+1999.147.08:02:20.31/onsource/TRACKING
+1999.147.08:0

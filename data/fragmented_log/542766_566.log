@@ -1,0 +1,8 @@
+head[18] = x00 x00 x02 x02 x04 x04 x06 x06 x08 x08 x0a x0a x0c x0c xff xff
+9919505195284/form/map[0].stack[2].head[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919505195284/form/map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+9919505195284/form/0x2aaa 0xaaa8  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+9919505195355/pass/5,5,auto,-220.0,-220.0,-220.4,-220.5,-0.4,-0.5
+9919505195370:!195052245
+9919505224500:tape
+9919505224506/tape/of

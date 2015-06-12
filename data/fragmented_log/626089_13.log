@@ -1,0 +1,16 @@
+mal. So didn't update the calibration date 
+on the board. 
+I checked the log file ~cdfdaq/consumers/log/, the last 
+part says: 
+
+ave start time for good channels is 305.654
+number of missing channels = 0
+number of good channels = 29843
+number of drifted good channels = 42
+ave drift = -0.0093883
+num drifted good channels, crate 0 is 0
+num drifted good channels, crate 1 is 3
+num drifted good channels, crate 2 is 0
+num drifted good channels, crate 3 is 1
+num drifted good channels, crate 4 is 1
+num drifted good

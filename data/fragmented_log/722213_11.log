@@ -1,0 +1,23 @@
+H angle is: 20.
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_scrn
+gnt_infrm: *************************
+Sat Apr 15 15:51:36 EDT 2000
+ 
+gnt_infrm: The datamode is BRIGHT2.
+ 
+gnt_infrm: Determining the CCD mode...
+ 
+CCD EXP_TIME
+--------------------------
+1 2.112604472452402E+04
+1 1.272545895951986E+04
+-------------------------------------
+Exposure time in 1-CCD mode: 33851
+Exposure time in 2-CCD mode: 0
+Exposure time in 4-CCD mode: 0
+-------------------------------------
+ 
+gnt_infr

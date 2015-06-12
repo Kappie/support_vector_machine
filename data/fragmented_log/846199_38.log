@@ -1,0 +1,17 @@
+n map to FITS file: 1053+815_S.fits
+! Writing difmap environment to: 1053+815_S.par
+print "****************************"
+! **************************** 
+print "*** Now, make some plots ***"
+! *** Now, make some plots *** 
+print "****************************"
+! **************************** 
+![@gonzo_plot 1053+815_S]
+device 1053+815_Suv.ps/vps,1,2
+! Attempting to open device: '1053+815_Suv.ps/vps'
+radplot
+! Using default options string "m1"
+uvplot
+! Using default options string ""
+device 1053+815_Sim.ps/vps
+!

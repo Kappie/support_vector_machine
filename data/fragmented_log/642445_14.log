@@ -1,0 +1,11 @@
+ it stops.   
+The minicom window has no response after the partition transition. 
+The ALPHA never seems to receive the ColdStart messages?  I've tried 
+reset_crate and pressing reset on both ALPHA and the crate.  Now 
+I'll try the more drastic power cycle</pre>
+<!-- Author: hray -->
+<!-- Comment: Thu Oct 11 21;09;23 comment by...hray -->
+oh yeah - the alpha_check shows everything is fine -> with the one little exception that the alpha thinks it has a physics_01 table loaded.  Hmmm.  
+
+
+<!-- Date: Thu Oct 11

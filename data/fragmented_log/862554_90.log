@@ -1,0 +1,16 @@
+ywords   = DETX       DETY        with binning =    8
+ Energy keywords   = PI                     with binning =    1
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   2047
+ 
+Got the minimum time resolution of the read data:   8.0000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/72016000/work/
+HK Directory is: /tproc/nandra/processing/72016000/work/
+ 
+!xsel:ASCA-SIS0-BRIGHT > set binsize

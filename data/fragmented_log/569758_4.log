@@ -1,0 +1,8 @@
+.0)
+   mureco_combined - Plots reco, found and fake for combined tracks: mureco_combined.draw("feta", 60, 3.0)
+   muhits - Plots hit counts: muhits.draw("#SUM#", 50, 0, 50.)
+  dimudata - Plots reconstructed variables: dimudata.draw("fmass", 100, 200000.)
+  ssdimudata - Plots reconstructed variables: ssdimudata.draw("fmass", 100, 200000.)
+  dimufound - Plots found variables: dimufound.draw("rmass", 100, 200000.)
+   mufake - Plots reconstructed fakes: dimufake.draw("feta", 60, 6.0)
+  ancfill - Filler for PDG 

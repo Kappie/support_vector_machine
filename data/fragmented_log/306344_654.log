@@ -1,0 +1,13 @@
+"
+9830218423000:et
+9830218423016:!+3s
+9830218423317:tape
+9830218423329/tape/off,07808,norm,stopped,stop,unlock,ready,rem
+9830218423329:postob
+9830218423329:source=0426-380,042654.7,-380252.0,1950.0
+9830218423329#antcn#Command a new source
+9830218423388#antcn#Successfully sent new source position to antenna
+9830218423388:check2c2
+9830218431474?ERROR qg -303 Track  1 parity errors exceed threshold.
+9830218431474?ERROR qg -305 AUX data differs from expected value on track  1.
+9830218431474?ERROR qg -303 Track 

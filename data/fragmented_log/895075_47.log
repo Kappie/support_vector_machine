@@ -1,0 +1,18 @@
+ 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.305311Jy  sigma=0.001453
+! Fit after  self-cal, rms=0.305324Jy  sigma=0.001453
+! Inverting map 
+! Your choice of large map pixels excluded 4.39% of the data.
+!  The x-axis pixel size should ideally be below 0.1603 milli-arcsec
+!  The y-axis pixel size should ideally be below 0.1883 milli-arcsec
+uvtaper 0,0
+! No UV-taper is currently set.
+win_mult = win_mult / 1.2
+print "************** FINISHED AMPLITUDE SEL

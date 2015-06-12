@@ -1,0 +1,15 @@
+var strIndex = nAgent.indexOf('MSIE');
+		    this.version = nAgent.substring((strIndex + 5), (strIndex + 8));
+		    this.browser = 'ie';
+		}
+		else if (nAgent.indexOf('Safari') !=-1){
+		     if (nAgent.indexOf('Version') !=-1){
+		          var strIndex = nAgent.indexOf('Version')
+		          this.version = nAgent.substring((strIndex + 8), (strIndex + 11))
+		     }else{
+		          this.version = 2;
+		     }
+		this.browser = 'safari';
+		}
+		else if (nAgent.indexOf('Netscape') !=-1){
+		     var strIndex = nAg

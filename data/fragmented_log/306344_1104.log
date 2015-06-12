@@ -1,0 +1,13 @@
+ked,0.999
+9830304332739/rx/17(pres),on,a,on,on,on,off,locked,4.642
+9830304332750/rx/1E(20k),on,a,on,on,on,off,locked,28.57
+9830304332761/rx/1F(70k),on,a,on,on,on,off,locked,48.21
+9830304332761:sx2c2=22
+9830304333461/pass/22,22,auto,220.0,220.0,220.1,219.8,0.1,-0.2
+9830304333807:fastf=0m5s
+9830304333856?ERROR ch -336 Enabled tracks do not check with requested tracks
+9830304334338:!303043540
+9830304354000:preob
+9830304354000#antcn#Check if antenna is on-source
+9830304354055/onsource/TRACKING
+9830304354296/tpi

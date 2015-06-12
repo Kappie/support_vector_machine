@@ -1,0 +1,9 @@
+not output any data at all, and channel 45 
+              shows the "split pulse problem". Symptoms of this 
+              problem: the boards outputs two hits for some 
+              of the events. The second hit begins 1 ns after 
+              the first one ends. The sum of the two pulse  
+              widths is consistent with the expected output 
+              pulse width. It seems that some glitch is causing 
+              a single bit to be held low. This problem occurred 
+              on channel 4

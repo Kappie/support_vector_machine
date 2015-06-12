@@ -1,0 +1,11 @@
+norm,stopped,stop,unlock,ready,rem
+9830223404012:st=rev,135
+9830223404028:"data start"
+9830223404028:midob
+9830223404028#antcn#Check if antenna is on-source
+9830223404082/onsource/TRACKING
+9830223404168#wx#/WX/16.2,1007.5, 54.9
+9830223404188?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830223404189?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830223404240?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830223404291?ERROR ib  -10 ibco

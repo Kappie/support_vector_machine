@@ -1,0 +1,10 @@
+ow_outliers = 0
+total                    = 0
+
+====================== Target weights (before refinement) =====================
+
+|-----------------------------------------------------------------------------|
+| XYZ refinement: T = Eexperimental * wxc * wxc_scale + Echem * wc            |
+| wxc = 2.629082              wxc_scale = 0.500            wc = 1.000         |
+| angle between x-ray and geometry gradient vectors: 89.325   (deg)           |
+|                                                                

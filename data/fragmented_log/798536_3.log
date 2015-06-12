@@ -1,0 +1,8 @@
+
+configure:1589: gcc -c -g -O2  conftest.c 1>&5
+configure:1609: checking for executable suffix
+configure:1619: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1650: checking command to parse /p/binutils/v2_11_2/bin/nm -B output
+configure:1730: gcc -c -g -O2  conftest.c 1>&5
+configure:1733: /p/binutils/v2_11_2/bin/nm -B conftest.o | sed -n -e 's/^.*[ ]\([ABCDGISTW][ABCDGISTW]*\)[ ][ ]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2\3 \3/p' > conftest.nm
+configure:1784: gcc -o conftest -g -O2   conftest.c conftstm.

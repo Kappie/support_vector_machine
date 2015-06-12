@@ -1,0 +1,7 @@
+xml2-2.6.31/html/html
+mkdir -p -- /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/html
+/usr/bin/install -c -m 0644 ./html/*.html /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/html
+/usr/bin/install -c -m 0644 ./html/*.png /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/html
+/bin/sh ../mkinstalldirs /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial
+mkdir -p -- /usr/local/cdat/Externals/share/doc/libxml2-2.6.31/html/tutorial
+/usr/bin/install -c -m 0644 ./tutorial/*.* \

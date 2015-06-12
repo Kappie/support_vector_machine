@@ -1,0 +1,18 @@
+y LANL clients --> 
+var ip ='<!--#echo var="REMOTE_ADDR"-->';
+var LanlIP = /^128\.165\./;
+
+<!-- show RSS info to LANL clients --> 
+function showRSSfeed(feed) {
+  if (LanlIP.test(ip)){
+    //display RSS feed and icon to LANL clients
+    var thisfeed = feed;
+    document.writeln(thisfeed);
+  }
+}
+
+<!-- direct LANL clients to Google Mini -->
+function selectGoogle() {
+ if(LanlIP.test(ip)) {
+  //LANL clients use Research Library Google Mini
+  var google = '<form style="margin: 5px 0.5em 3px 0px;" action="http://m

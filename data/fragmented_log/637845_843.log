@@ -1,0 +1,8 @@
+--------------------------------
+# Now trying [cmt autodoc] in /home/tagg/autodaya/Generators/Neutron/cmt (14/29)
+#--------------------------------------------------------------
+Execute action autodoc => /home/tagg/autodaya/AutoDoc/AutoDoc.pl Neutron /home/tagg/autodaya/Generators/Neutron $CMTPATH/InstallArea/doc
+AutoDoc.pl Running on Neutron at /home/tagg/autodaya/Generators/Neutron to /home/tagg/autodaya/InstallArea/doc
+Error: Unexpected tag `class' found
+Error: Unexpected tag `class' found
+Searching for 

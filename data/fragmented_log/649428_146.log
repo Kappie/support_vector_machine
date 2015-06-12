@@ -1,0 +1,3 @@
+/NetCDF/include -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -MT xmlschemas.lo -MD -MP -MF .deps/xmlschemas.Tpo -c xmlschemas.c -o xmlschemas.o >/dev/null 2>&1
+mv -f .deps/xmlschemas.Tpo .deps/xmlschemas.Plo
+/bin/sh ./libtool -

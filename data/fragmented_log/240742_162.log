@@ -1,0 +1,10 @@
+5.20:21:49.48?ERROR ch -308 va total power integrator overflow
+2001.295.20:22:07.00:tape
+2001.295.20:22:07.12/tape/off,09310,norm,stopped,stop,unlock,ready,rem
+2001.295.20:22:07.12:st=rev,160
+2001.295.20:22:07.28:!2001.295.20:22:07
+2001.295.20:22:07.28:preob
+2001.295.20:22:07.30#antcn#Checking onsource status
+2001.295.20:22:07.31#antcn# RAsource   320.955   DECsource    5.598
+2001.295.20:22:07.31#antcn# RAbeam     320.958   DECbeam      5.595
+2001.295.20:22:07.31#antcn# RAdelta      0.003   DECdelta     0.0

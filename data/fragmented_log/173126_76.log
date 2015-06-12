@@ -1,0 +1,11 @@
+ , Drive 1 Interlock inactive, Drive 1 no fault
+2004.127.19:21:16.34#antcn#ACU: El: Drive 2 active  , Drive 2 Interlock inactive, Drive 2 no fault
+2004.127.19:21:16.34#antcn#ACU: Az: no fault                , no fault
+2004.127.19:21:16.34#antcn#ACU: El: no fault                , no fault
+2004.127.19:21:16.35/antenna/ACK
+2004.127.19:21:16.35:!2004.127.19:23:57
+2004.127.19:23:57.00:data_valid=off
+2004.127.19:23:57.01:disc_end
+2004.127.19:23:57.27/disc_end/usn-0102/960/1024OK
+2004.127.19:23:57.28:disc_pos
+2004

@@ -1,0 +1,12 @@
+ autobuilder
+pkg-installer:  Total download size: 22 k
+pkg-installer:  Downloading Packages:
+pkg-installer:  Running Transaction Test
+pkg-installer:  Finished Transaction Test
+pkg-installer:  Transaction Test Succeeded
+pkg-installer:  Running Transaction
+pkg-installer:  
+pkg-installer:  Installed: perl-Time-HiRes.i386 0:1.55-2.caos
+pkg-installer:  Complete!
+[Util.pm/1192/run_cmd()] "chroot /var/tmp/mezzanine.temp.dironly.29689.243e /usr/bin/yum -ty install perl-Time-HiRes" returned 0
+[PkgVars.pm/160/pkgvar_

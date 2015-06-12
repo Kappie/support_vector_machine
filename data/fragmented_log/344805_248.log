@@ -1,0 +1,11 @@
+1:02:10.92:scan_name=308-2104,crf23,150
+2003.308.21:02:10.93:source=0524-460,052405.98,-460028.0,1950.0
+2003.308.21:02:10.94#flagr#flagr/antenna,new-source
+2003.308.21:02:10.95#antcn#Command a new source
+2003.308.21:02:11.53#antcn#Successfully sent new source position to antenna
+2003.308.21:02:11.54:setupsx
+2003.308.21:02:15.87/mk5/!play_rate = 0 ;
+2003.308.21:02:15.88/mk5/!mode = 0 ;
+2003.308.21:02:15.93/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 59 ;
+2003.308.21:02:15.94:!2003.308.21:04:20
+2003.308.21:0

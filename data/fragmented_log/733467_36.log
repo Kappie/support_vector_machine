@@ -1,0 +1,8 @@
+UT DVC #1107:   DPU error - no bubble sync. word (EDR #2602, SCET=1489254304)
+EDR INPUT DVC #1107:   DPU error - no bubble HK identifier (EDR #2602, SCET=1489254304)
+CDF OUTPUT LOG:        CDF Records written=101 (Range Errors=0)
+[01-Apr-2002-21:10:35  End processing file: .\data\1997\19970311.cdf]
+
+[01-Apr-2002-21:10:35  Start processing file: .\data\1997\19970312.cdf]
+EDR INPUT DVC #1154:   DPU error - no bubble sync. word (EDR #2752, SCET=1489296176)
+EDR INPUT DVC #1154:   DPU error - no bubble HK

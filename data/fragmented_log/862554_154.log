@@ -1,0 +1,11 @@
+t events
+!xsel:ASCA-SIS1-BRIGHT > save events use=no clobber=yes 72016000_sis1_src_soft.evt
+Wrote events list to file 72016000_sis1_src_soft.evt
+!xsel:ASCA-SIS1-BRIGHT > clear events
+!xsel:ASCA-SIS1-BRIGHT > clear pha_cutoff
+!xsel:ASCA-SIS1-BRIGHT > filter pha_cutoff 560 1723
+!xsel:ASCA-SIS1-BRIGHT > extract events
+!xsel:ASCA-SIS1-BRIGHT > save events use=no clobber=yes 72016000_sis1_src_hard.evt
+Wrote events list to file 72016000_sis1_src_hard.evt
+!xsel:ASCA-SIS1-BRIGHT > clear events
+!xsel:ASCA-SIS1-BRIGH

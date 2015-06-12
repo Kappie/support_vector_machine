@@ -1,0 +1,12 @@
+o 1>&5
+configure:1833: checking for dlfcn.h
+configure:1843: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2011: checking for ranlib
+configure:2078: checking for strip
+configure:2593: checking for objdir
+configure:2620: checking for gcc option to produce PIC
+configure:2772: checking if gcc PIC flag -fPIC works
+configure:2786: gcc -c -g -O2 -fPIC -DPIC  conftest.c 1>&5
+configure:2838: checking if gcc static flag -static works
+configure:2853: gcc -o conftest -g -O2   -static conftest.c  1>&5
+configure

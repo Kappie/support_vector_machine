@@ -1,0 +1,4 @@
+121: warning: unused variable 'physV_Module_1'
+/home/tagg/autodaya/G4dyb/src/dywConstructNearSitePool.cc:128: warning: unused variable 'physV_Module_2'
+../Linux-i686/dywSteppingAction.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/include" -I"/usr/include/geant4" -I"/usr/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/home/tagg/autodaya/Ext

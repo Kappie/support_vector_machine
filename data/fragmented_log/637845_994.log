@@ -1,0 +1,13 @@
+at(const char *s)
+Possible candidates:
+  bool IsFloat(const char *s)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:127: Warning: no matching file member found for 
+bool UtilString::IsBool(const char *s)
+Possible candidates:
+  bool IsBool(const char *s)
+/home/tagg/autodaya/Base/Util/src/UtilString.cc:139: Warning: no matching file member found for 
+bool UtilString::atob(const char *s)
+Possible candidates:
+  bool atob(const char *s)
+  bool atob(const char *s, bool &isvalid)
+/home/tagg/autodaya/Base/Util/src

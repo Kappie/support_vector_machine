@@ -1,0 +1,19 @@
+enable update comparison to improve line intersections */
+  zbuffer (TRUE);
+  zclear();
+    /* use color, not depth values, to determine if pixel is 
+     * written */
+  zsource (ZSRC_COLOR);
+    /* foreground colors always have greater values than 
+     * background */
+  zfunction (ZF_GEQUAL);
+    /* create the color ramp */
+#endif</PRE>
+
+<PRE><A NAME="A64E986025ttay"></A>  save_cmap();
+  load_cross_ramp();
+    /* draw the random background */
+  draw_background();
+  swapbuffers ();
+  draw_background();
+   

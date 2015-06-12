@@ -1,0 +1,8 @@
+("reta", 60, 3.0)
+   mugood - Plots good variables: mugood.draw("reta", 60, 3.0)
+    mubad - Plots misreconstructed variables: mubad.draw("reta", 60, 3.0)
+   mulost - Plots lost variables: mulost.draw("reta", 60, 3.0)
+   muperf - Plots simulated, found, good and lost: muperf.draw("reta", 60, 3.0)
+   mudata - Plots reconstructed variables: mudata.draw("feta", 60, 3.0)
+   mufake - Plots reconstructed fakes: mufake.draw("feta", 60, 3.0)
+   mureco - Plots reconstructed, found and fake: mureco.draw("feta", 60, 3

@@ -1,0 +1,6 @@
+::LevelToString(Logging::Level)':
+/home/tagg/autodaya/Base/Log/src/Level.cc:84: warning: comparison between signed and unsigned integer expressions
+/home/tagg/autodaya/Base/Log/src/Level.cc: In function 'Logging::Level Logging::StringToLevel(std::string)':
+/home/tagg/autodaya/Base/Log/src/Level.cc:100: warning: comparison between signed and unsigned integer expressions
+../Linux-i686/Log_Dict.o
+cd ../Linux-i686/; c++ -c -I"../include" -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/home/t

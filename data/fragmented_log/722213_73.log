@@ -1,0 +1,18 @@
+ 1023
+ 
+ 
+Number of files read in:    3
+ 
+Files currently in use:
+ 
+   1   ad75084000g300270m.unf
+   2   ad75084000g300170h.unf
+   3   ad75084000g300370l.unf
+ 
+!ascascreen_gis3:ASCA-GIS3-PH > set image detector
+!ascascreen_gis3:ASCA-GIS3-PH > select mkf @75084000_gis3_mkf.sel
+!ascascreen_gis3:ASCA-GIS3-PH > filter region 75084000_gis3_randc.reg
+!ascascreen_gis3:ASCA-GIS3-PH > extract events
+!ascascreen_gis3:ASCA-GIS3-PH > gisclean
+Using table:/software/lheasoft/release/refdata/rti_gis_1024_040693.fits
+!asca

@@ -1,0 +1,12 @@
+eatorTool>Adobe Photoshop CS2 Windows</xap:CreatorTool>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:format>image/jpeg</dc:format>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/">
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>Adobe RGB (1998)</photoshop:ICCProfile>
+         <photoshop:History/>
+      </rdf:D

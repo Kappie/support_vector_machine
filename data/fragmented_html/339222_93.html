@@ -1,0 +1,20 @@
+ies</b><br><code>"+document.cookie.replace(/\;/g,"<br>")+"</code>";
+		if (t.w&&!t.w.closed){
+			t.w.close();
+		}
+		t.w=window.open("","dcsDebug","width=500,height=650,scrollbars=yes,resizable=yes");
+		t.w.document.write(m);
+		t.w.focus();
+	}
+	WebTrends.prototype.dcsCollect=function(){
+		if (this.enabled){
+			this.dcsVar();
+			this.dcsMeta();
+			this.dcsFunc(this.dcsAdv());
+			this.dcsTag();
+		}
+	}
+	
+	function dcsMultiTrack(){
+		if (typeof(_tag)!="undefined"){
+			return(_tag.dcsMultiTrack(

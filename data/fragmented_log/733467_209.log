@@ -1,0 +1,8 @@
+C #43:     DPU error - no bubble HK identifier (EDR #133, SCET=1509530368)
+EDR INPUT DVC #55:     Missing or incomplete EDB - DVC skipped (EDR #173, SCET=1509541444)
+EDR INPUT DVC #55:     Missing or incomplete EDB - DVC skipped (EDR #178, SCET=1509543817)
+CDF OUTPUT LOG:        CDF Records written=91 (Range Errors=0)
+[01-Apr-2002-21:11:46  End processing file: .\data\1997\19971101.cdf]
+
+[01-Apr-2002-21:11:46  Start processing file: .\data\1997\19971102.cdf]
+EDR INPUT DVC #167:    DPU error - no bubb

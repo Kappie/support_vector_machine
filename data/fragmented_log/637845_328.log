@@ -1,0 +1,6 @@
+ng: unused variable 'OuterWaterVolume_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool0.cc:691: warning: unused variable 'InnerWaterVolume_phys'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool0.cc:724: warning: unused variable 'physV_Module_1'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool0.cc:731: warning: unused variable 'physV_Module_2'
+/home/tagg/autodaya/G4dyb/src/dywConstructFarSitePool0.cc:738: warning: unused variable 'physV_Module_3'
+/home/tagg/autodaya/G4dyb/src/dywConstruc

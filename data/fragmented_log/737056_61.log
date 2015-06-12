@@ -1,0 +1,10 @@
+ce of large map pixels excluded 2.61% of the data.
+!  The x-axis pixel size should ideally be below 0.1539 milli-arcsec
+! Added new window around map position (0.8, -0.2).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00884597 Jy
+! Component: 100  -  total flux cleaned = 0.0158275 Jy
+! Component: 150  -  total flux cleaned = 0.0215542 Jy
+! Component: 200  -  total flux cleaned = 0.0263219 Jy
+! Total flux subtracted in 200 components = 0.0263219 Jy
+! Clean residual min=-

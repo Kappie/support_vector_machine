@@ -1,0 +1,12 @@
+3
+2001.296.01:01:13.00:tape
+2001.296.01:01:13.12/tape/off,02965,norm,stopped,stop,unlock,ready,rem
+2001.296.01:01:13.12:st=for,160
+2001.296.01:01:13.28:!2001.296.01:01:13
+2001.296.01:01:13.28:preob
+2001.296.01:01:13.30#antcn#Checking onsource status
+2001.296.01:01:13.31#antcn# RAsource    82.759   DECsource   13.534
+2001.296.01:01:13.31#antcn# RAbeam      82.761   DECbeam     13.531
+2001.296.01:01:13.31#antcn# RAdelta      0.002   DECdelta     0.003
+2001.296.01:01:13.32/onsource/TRACKING
+2001.296.01:01:15.8

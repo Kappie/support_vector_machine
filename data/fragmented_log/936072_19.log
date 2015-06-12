@@ -1,0 +1,14 @@
+       0.94     
+!   MK        1.00*    NL        1.01     ON        1.00*    OV        0.89     
+!   PT        1.08     WF        1.00*    
+! 
+!  Telescope amplitude corrections in sub-array 2:
+!   BR        1.00*    FD        0.98     GN        1.00*    HN        0.93     
+!   KP        0.96     MK        0.93     NL        0.90     OV        1.11     
+!   PT        1.10     
+! 
+! 
+! Fit before self-cal, rms=0.075098Jy  sigma=0.368633
+! Fit after  self-cal, rms=0.072826Jy  sigma=0.362699
+radp
+! Using defa

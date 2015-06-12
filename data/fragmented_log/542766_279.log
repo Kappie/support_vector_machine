@@ -1,0 +1,10 @@
+385313.5,1950.0
+9919422554421#antcn#Commanding to new source
+9919422554543#antcn#Source:  1954-388  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919422554543#antcn# RAcommand  299.494   DECcommand -38.751
+9919422554543:check2c1
+9919422561959/peak/3,1,read,0.200,0.303,72.6,t,-2.725
+9919422562457/peak/3,1,read,0.200,0.215,77.3,t,-2.720
+9919422562482/pass/3,3,auto,-275.0,-275.0,-275.8,-293.0,-0.8,-18.0
+9919422564033?ERROR qg -303 Track  6 parity errors exceed threshold.
+9919422564033/parity/163.,792.,57.,122.,98.,16.

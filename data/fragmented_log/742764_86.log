@@ -1,0 +1,12 @@
+72 Jy/beam
+! Combined flux in latest and established models = 1.24359 Jy
+keep
+! Adding 74 model components to the UV plane model.
+! The established model now contains 138 components and 1.24359 Jy
+![Exited script file: muppet]
+wmap "J0121+1149_X_2000_12_04_pus\_map.fits"
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1543 milli-arcsec
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with bea

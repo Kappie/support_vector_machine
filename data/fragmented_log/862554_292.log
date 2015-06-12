@@ -1,0 +1,13 @@
+E-03
+pha bin =   63, E =  2.016 -  5.022 keV  (   2 /    4)   calculating ...
+ <efficiency> =   82.35159     weight =  5.0899535E-03
+pha bin =   64, E =  5.022 -  7.014 keV  (   3 /    4)   calculating ...
+ <efficiency> =   74.07213     weight =  1.5077956E-03
+pha bin =   65, E =  7.014 - 10.008 keV  (   4 /    4)   calculating ...
+ <efficiency> =   28.20178     weight =  1.9923397E-03
+ 
+wrote /tproc/nandra/processing/72016000/work/72016000_gis3.effmap
+ 
+gnt_infrm: Creating exposure map for sis0...
+ 
+instfi

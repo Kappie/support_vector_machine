@@ -1,0 +1,10 @@
+xis pixel size should ideally be below 0.1883 milli-arcsec
+! Estimated beam: bmin=0.5346 mas, bmaj=0.737 mas, bpa=1.873 degrees
+! Estimated noise=750.201 mJy/beam.
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.168508 Jy
+! Component: 100  -  total flux cleaned = 0.220416 Jy
+! Component: 150  -  total flux cleaned = 0.252228 Jy
+! Component: 200  -  total flux cleaned = 0.273452 Jy
+! Total flux subtracted in 200 components = 0.273452 Jy
+! Clean residual min=-0.005827 max=0

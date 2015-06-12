@@ -1,0 +1,14 @@
+**********
+ 
+Data Directory is: /tproc/nandra/processing/72016000/work/
+HK Directory is: /tproc/nandra/processing/72016000/work/
+ 
+!xsel:ASCA-SIS0-BRIGHT > set binsize 128
+!xsel:ASCA-SIS0-BRIGHT > set image sky
+!xsel:ASCA-SIS0-BRIGHT > set xybinsize 4
+!xsel:ASCA-SIS0-BRIGHT > extract image
+!xsel:ASCA-SIS0-BRIGHT > save image clobber=yes 72016000_sis0_sky.img
+Wrote image to file 72016000_sis0_sky.img
+!xsel:ASCA-SIS0-BRIGHT > set image det
+!xsel:ASCA-SIS0-BRIGHT > select events CCDID.EQ.1
+!xsel:ASCA-SIS0-BRIG

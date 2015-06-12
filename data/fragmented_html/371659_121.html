@@ -1,0 +1,11 @@
+ <a href="../spicelib/mxv.html">MXV</a>    ( TIPM,  RAYDIR, RAYDIR )
+ 
+   C
+   C     Step 3:  Look up the radii of the body and find the limb.
+   C              Find the limb plane as well, since we'll use it
+   C              soon.
+   C
+         CALL <a href="../spicelib/bodvar.html">BODVAR</a> ( TARG, 'RADII', N, RADII )
+ 
+         CALL <a href="../spicelib/edlimb.html">EDLIMB</a> ( RADII(1), RADII(2), RADII(3), SCPOS,  LIMB   )
+         CALL <a href="../spicelib/el2cgv.html">EL2CGV</a> ( LIMB,     CENTER

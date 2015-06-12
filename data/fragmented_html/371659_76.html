@@ -1,0 +1,17 @@
+BODMAT</a> ( TARGET, EPOCH, TIPM )
+ 
+   C
+   C        Negate the observer-target vector and rotate the result
+   C        into body-fixed coordinates.
+   C
+            CALL <a href="../spicelib/vminus.html">VMINUS</a> ( STATE, OBSPOS )
+ 
+            CALL <a href="../spicelib/mxv.html">MXV</a>    ( TIPM,  OBSPOS,  OBSPOS )
+ 
+   C
+   C        Look up the radii of the target body from the PCK file.
+   C
+            CALL <a href="../spicelib/bodvar.html">BODVAR</a> ( TARGET, 'RADII', N, RADII )
+ 
+   C
+   C     

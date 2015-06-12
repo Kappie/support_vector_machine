@@ -1,0 +1,7 @@
+ManagergR()':
+../Linux-i686/Log_Dict.cc:5990: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5991: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5992: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+library
+cd ../Linux-i686/; \
+  ar r ../Linux-i686/libLog.a ../Linux-i686/LogStream.o ../Linux-i686/ScriptLog.o ../Linux-i686/Log.o ../Linux-i686/FormStri

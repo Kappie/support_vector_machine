@@ -1,0 +1,10 @@
+  333           1263       453         0         0
+ Writing events file
+   9245 events written to the output file
+===============================================================================
+   Grand Total      Good   Bad:  Region      Time     Phase       Cut
+         29064      9245          16521      3298         0         0
+   in  20221.     seconds
+Infile # of rows    Outfile # of rows    # filtered
+----------------    -----------------    ----------
+        9245                8461               7

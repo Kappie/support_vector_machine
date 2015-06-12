@@ -1,0 +1,4 @@
+Wno-long-long          -I/home/tagg/autodaya/G4dyb/src /home/tagg/autodaya/G4dyb/src/dywNeutronHPCapture.cc
+/usr/include/geant4/G4VIsotopeProduction.hh:41: warning: 'class G4VIsotopeProduction' has virtual functions but non-virtual destructor
+/usr/include/geant4/G4VLeadingParticleBiasing.hh:36: warning: 'class G4VLeadingParticleBiasing' has virtual functions but non-virtual destructor
+/home/tagg/autodaya/G4dyb/src/dywNeutronHPCapture.cc: In member function 'virtual G4HadFinalState* dywNeutronHPCapture::Appl

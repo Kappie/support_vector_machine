@@ -1,0 +1,13 @@
+830305075330/tape/off,06019,norm,stopped,stop,unlock,ready,rem
+9830305075330:postob
+9830305075330:fastr=4m24s
+9830305121765:unlod
+9830305122428/                     !!!! wake up !!!!
+9830305122428:source=stow
+9830305122428#antcn#Command a new source
+9830305122646:*end of schedule
+9830305141654;srw
+9830305141662?ERROR q< -301 Vacuum is not ready.
+9830305144666?ERROR ch   -4 Device hd timed-out on response from MATCN
+9830305144688?ERROR ch   -4 Device hd timed-out on response from MATCN
+9830305150861?ERROR ch

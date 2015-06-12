@@ -1,0 +1,17 @@
+TX       DETY        with binning =    1
+ Energy keywords   = PI                     with binning =    1
+ 
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0   1023
+ 
+Got the minimum time resolution of the read data:  0.50000
+ Number of files read in:  1
+ 
+******************** Observation Catalogue ********************
+ 
+Data Directory is: /tproc/nandra/processing/72016000/work/
+HK Directory is: /tproc/nandra/processing/72016000/work/
+ 
+!xsel:ASCA-GIS3-PH > set binsize 128
+!xsel:ASCA-G

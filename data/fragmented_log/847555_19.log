@@ -1,0 +1,7 @@
+(2) declare SVT data good for this
+run because these two wedges were missing in the data but also
+in the hardware DB, so everything should be correctly accounted for.
+<!-- Comment: Wed Jun 11 20;31;40 comment by...rainer -->
+A FIB excluded during today's SRC2 study  was left out of the hardware database by accident after the test. It was successfully included back. See Silicon elog <a href=
+'http://www-cdfonline.fnal.gov/cgi/elog/det-system-elog.pl?nb=silicon&action=view&page=158&frame=2&anchor=19:47:47'>
+h

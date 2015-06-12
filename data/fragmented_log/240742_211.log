@@ -1,0 +1,12 @@
+9:09.00:data_valid=off
+2001.295.20:59:09.02:et
+2001.295.20:59:09.18:!+3s
+2001.295.20:59:12.19:tape
+2001.295.20:59:12.31/tape/off,03363,norm,moving,stop,unlock,ready,rem
+2001.295.20:59:12.31:postob
+2001.295.20:59:12.32:scan_name=295-2107b
+2001.295.20:59:12.33:source=2121+053,212114.8,052227.4,1950.0
+2001.295.20:59:12.34#antcn#Commanding to new source
+2001.295.20:59:14.24#antcn#Source:  2121+053  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.295.20:59:14.25#antcn# RAcommand  320.955   DECcommand   5.598
+2001.295.

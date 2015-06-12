@@ -1,0 +1,10 @@
+ed flux in latest and established models = 0.923404 Jy
+! Adding 47 model components to the UV plane model.
+! The established model now contains 74 components and 0.923404 Jy
+! Inverting map 
+! Your choice of large map pixels excluded 0.973% of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! Added new window around map position (2.6, -1.6).
+! clean: niter=200  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00412044 Jy
+! Component: 100  -  total flux cleaned =

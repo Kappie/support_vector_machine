@@ -1,0 +1,14 @@
+91200&rxmon/rxx=lo5mhz
+9830204491200&rxmon/rx
+9830204491200&rxmon/rxx=pres
+9830204491200&rxmon/rx
+9830204491200&rxmon/rxx=20k
+9830204491200&rxmon/rx
+9830204491200&rxmon/rxx=70k
+9830204491200&rxmon/rx
+9830204491201&rxx/rx=$,*,*,*,*,*,*
+9830204491217/rx/00(front),on,a,on,on,on,off,locked,22.28
+9830204491228/rx/01(rear),on,a,on,on,on,off,locked,36.32
+9830204491239/rx/02(lo),on,a,on,on,on,off,locked,43.77
+9830204491250/rx/03(dcal),on,a,on,on,on,off,locked,47.55
+9830204491261/rx/0E(lo5mhz),on,a,on,on,on,off,lock

@@ -1,0 +1,18 @@
+87
+   5_occ:    1.169    0.056    0.387
+   5_bss:    1.169    0.056    0.387
+------------------------------------------------------------------------
+
+CPU time actual refinement: 331.42
+
+
+============================== Exporting results ==============================
+
+Writing refined structure to PDB file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_1019/model_refine_001.pdb
+n_use            =  2823
+n_use_u_iso      =  2823
+n_use_u_aniso    =  0
+n_grad_site      =  0
+n_grad_u_iso     =  0
+n_grad_u

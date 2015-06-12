@@ -1,0 +1,14 @@
+hould ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmin=0.5988 mas, bmaj=1.931 mas, bpa=-6.472 degrees
+! Estimated noise=822.128 mJy/beam.
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! Added new window around map position (0, 0).
+! clean: niter=100  gain=0.03  cutoff=0
+! Component: 050  -  total flux cleaned = 1.11476 Jy
+! Component: 100  -  total flux cle

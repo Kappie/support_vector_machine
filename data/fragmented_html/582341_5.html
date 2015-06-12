@@ -1,0 +1,30 @@
+c*parseFloat(window.screen.width));
+} else {
+ width=def;
+}
+
+return width;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+function get_window_height(fac,def) {   // Return window height
+
+ 
+var height;
+if (!fac) {fac=.75;}
+if (!def) {def=512;}
+
+if (window.screen) {
+ height=parseInt(fac*parseFloat(window.screen.height));
+} else {
+ height=def;
+}
+
+return height;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// Javascript Pop-up image Window

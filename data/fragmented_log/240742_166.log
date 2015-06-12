@@ -1,0 +1,9 @@
+0:22:19.04/gps-fmout/+1.51262E-005
+2001.295.20:22:19.16#setcl#time/151027905,3,2001,295,20,22,19.06,7.786,7.059,-5
+2001.295.20:22:19.16#setcl#model/old,1002271724,13372,148486595,7.943,18.491,rate
+2001.295.20:22:19.17:!2001.295.20:23:54
+2001.295.20:22:33.38?ERROR ch -308 va total power integrator overflow
+2001.295.20:22:39.41;alert=off
+2001.295.20:22:55.21?ERROR ch -308 va total power integrator overflow
+2001.295.20:23:15.32;setcl
+2001.295.20:23:15.32?ERROR sp   -4 Unrecognized name (not a function or proce

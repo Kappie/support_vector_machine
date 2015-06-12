@@ -1,0 +1,12 @@
+********************************** 
+print "*** Finished Amplitude Self-Cal ***"
+! *** Finished Amplitude Self-Cal *** 
+print "***********************************"
+! *********************************** 
+save 0014+813_X
+! Writing UV FITS file: 0014+813_X.uvf
+! Writing 112 model components to file: 0014+813_X.mod
+! wwins: Wrote 4 windows to 0014+813_X.win
+! restore: Substituting estimate of restoring beam from last 'invert'.
+! Restoring with beam: 0.9118 x 1.086 at 80.41 degrees (North through East)
+! Clean ma

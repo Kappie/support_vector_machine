@@ -1,0 +1,7 @@
+b x05 x0c x45 x4c x06 x0d x46 x4d
+2001.296.04:16:38.96/form/debug:map[0].stack[2].head[2] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.04:16:38.96/form/debug:map[0].stack[2].head[18] = xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff xff
+2001.296.04:16:38.96/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.296.04:16:39.14:!2001.296.04:20:32
+2001.296.04:20:32.00:tape
+2001.296.04:20:32.12/tape/off,04812,norm,stopped,stop,unlock,ready,

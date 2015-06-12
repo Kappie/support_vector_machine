@@ -1,0 +1,19 @@
+s
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.202109Jy  sigma=0.001294
+! Fit after  self-cal, rms=0.202943Jy  sigma=0.001293
+clean clean_niter,clean_gain
+! Inverting map and beam 
+! Your choice of large map pixels excluded 0.697% of the data.
+!  The x-axis pixel size should ideally be below 0.1907 milli-arcsec
+! Estimated beam: bmin=2.193 mas, bmaj=3.862 mas, bpa=-1.952 degrees
+! Estimated noise=620.325 mJy/beam.
+! clean: niter=200 

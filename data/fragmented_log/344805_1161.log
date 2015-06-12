@@ -1,0 +1,10 @@
+9.12:19:30
+2003.309.12:16:33.84#flagr#flagr/antenna,acquired
+2003.309.12:19:30.00:preob
+2003.309.12:19:30.32#antcn#Check if antenna is on-source
+2003.309.12:19:30.32#flagr#flagr/antenna,off-source
+2003.309.12:19:31.02/onsource/TRACKING
+2003.309.12:19:31.42#flagr#flagr/antenna,re-acquired
+2003.309.12:19:33.60/tpical/1u,10991,2u,11693,3u,12171,4u,10127,i1,6698
+2003.309.12:19:33.60/tpical/9u,4625,au,4445,bu,6879,cu,4008,du,8820,eu,23593,i2,5035
+2003.309.12:19:33.60/tpical/5u,11446,6u,7021,7u,5830,8u,8121,i3,31

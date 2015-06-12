@@ -1,0 +1,15 @@
+ndex            2.000     = par   6         4
+   28    7   20   powerlaw   norm               1.0000E-03 = par   7         4
+  ---------------------------------------------------------------------------
+  ---------------------------------------------------------------------------
+ Chi-Squared =      9796.196     using   331 PHA bins.
+ Reduced chi-squared =      30.42297     for    322 degrees of freedom
+ Null hypothesis probability =  0.00
+
+!XSPEC> chatter 0;
+
+!XSPEC> fit 100;
+
+!XSPEC> chatter 10;
+
+!XSPEC> 

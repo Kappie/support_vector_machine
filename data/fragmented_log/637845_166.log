@@ -1,0 +1,5 @@
+Linux-i686/Log_Dict.cc:5567: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5568: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc: In function 'void G__setup_memfuncLoggingcLcLFmtFileName()':
+../Linux-i686/Log_Dict.cc:5584: warning: ISO C++ forbids casting between pointer-to-function and pointer-to-object
+../Linux-i686/Log_Dict.cc:5585: warning: ISO C++ forbids casting between pointer-t

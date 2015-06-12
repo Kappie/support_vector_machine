@@ -1,0 +1,18 @@
+bined flux in latest and established models = 2.46814 Jy
+selfcal
+! Performing phase self-cal
+! Adding 14 model components to the UV plane model.
+! The established model now contains 17 components and 2.46814 Jy
+! 
+! Correcting IF 1.
+! 
+! Fit before self-cal, rms=0.348426Jy  sigma=3.964818
+! Fit after  self-cal, rms=0.333591Jy  sigma=3.799826
+! 
+! Reinstating the default IF.
+mappl
+! Inverting map 
+! 
+! Move the cursor into the plot window and press 'H' for help
+uvweight 0, -1
+! Uniform weighting is not curre

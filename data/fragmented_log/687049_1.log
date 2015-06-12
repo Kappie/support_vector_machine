@@ -1,0 +1,11 @@
+ in future releases.  Please fix.
+%MSG
+%MSG-w Configuration:  07-Aug-2007 08:50:57 EDT pre-events
+WARNING: do not embed replace statements to modify a parameter from a module which hasn't been cloned: 
+  Parameter UseCalibDataFromDB in siStripClusters
+  Replace happens in Configuration/StandardSequences/data/FakeConditions.cff
+  This will be an error in future releases.  Please fix.
+%MSG
+Element: Constant (64)
+MagneticFieldVolumes:MAGF
+Timing in XMLIdealGeometryESSource : Real Time = 0.65 (s), User Time = 0

@@ -1,0 +1,10 @@
+el, Z side) 
+ 
+The plots of pedestals, noise, and dnoise can be found at 
+http://www-cdf.lbl.gov/~igv/Plots_run_110920/ 
+Pedestals and noise are determined without bad bunch crossing suppression 
+but using robust statistics (pulse height distribution median is plotted 
+as pedestal, half of the range between 84th and 16th percentiles as noise). 
+Overall, there seems to be large common mode noise both in L00 and ISL 
+while SVX seems to be OK. I'll suppress bad bunch crossings and make 
+more representative plo

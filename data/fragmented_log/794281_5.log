@@ -1,0 +1,14 @@
+sifications: {'peptide': 302}
+          Modifications used: {'COO': 1}
+          Link IDs: {'PTRANS': 7, 'CIS': 1, 'TRANS': 293}
+          bond proxies already assigned to first conformer: 2332
+        Number of residues, atoms: 438, 438
+          Classifications: {'water': 438}
+          Link IDs: {None: 437}
+  Time building chain proxies: 3.24, per 1000 atoms: 1.15
+
+
+================================== X-ray data =================================
+
+F-obs:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/trial/1e0w

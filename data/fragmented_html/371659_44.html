@@ -1,0 +1,16 @@
+>
+   CALL <a href="../spicelib/edlimb.html">EDLIMB</a> ( A, B, C, VIEWPT, LIMB )
+</PRE>
+   LIMB represents the limb of the ellipsoid as viewed from VIEWPT. The
+   routine <a href="../spicelib/el2cgv.html">EL2CGV</a> can be used to extract the center and semi-axes of the
+   limb:
+<P>
+ 
+<PRE>
+   CALL <a href="../spicelib/el2cgv.html">EL2CGV</a> ( LIMB, CENTER, SMAJOR, SMINOR )
+</PRE>
+   Several uses of the calculated limb are:
+<P>
+ 
+<UL>
+<TT>--</TT> Predicting the appearance of an extended body in an instrume

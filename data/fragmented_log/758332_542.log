@@ -1,0 +1,17 @@
+g   375 PHA bins.
+ Reduced chi-squared =      1.066439     for    366 degrees of freedom
+ Null hypothesis probability = 0.183
+
+!XSPEC> ignore bad;
+ Chi-Squared =      390.3167     using   375 PHA bins.
+ Reduced chi-squared =      1.066439     for    366 degrees of freedom
+ Null hypothesis probability = 0.183
+
+!XSPEC> save all 74035000_2plfit;
+
+!XSPEC> open fit_result_flux.dat w
+
+!XSPEC> set fileid [open fit_result_flux.dat w];
+
+!XSPEC> flux 0.5 2.0
+ Model flux  3.8864E-04 photons ( 6.3738E-13 ergs)cm**-2 s*

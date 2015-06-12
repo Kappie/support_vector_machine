@@ -1,0 +1,9 @@
+essible from the interpreter /home/tagg/autodaya/include/Log/LogEntry.hh:23:
+------> Log_cint ok
+------> (constituents.make) Log_cint done
+------> (constituents.make) Building Log.make
+Library Log
+------> (constituents.make) Starting Log
+------> (Log.make) Rebuilding ../Linux-i686/Log_dependencies.make
+computing dependencies for FormString.cc
+cpp -M  -I"../include" -I"/home/tagg/autodaya/include"  -I"/home/tagg/autodaya/include" -I"/home/tagg/autodaya/include" -I"/usr/local/opt/root-v5-16-00/include" -I"/ho

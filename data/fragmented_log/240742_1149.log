@@ -1,0 +1,10 @@
+ng,stop,unlock,ready,rem
+2001.296.12:48:16.33:postob
+2001.296.12:48:16.33:scan_name=296-1257
+2001.296.12:48:16.35:source=1921-293,192142.3,-292026.3,1950.0
+2001.296.12:48:16.35#antcn#Commanding to new source
+2001.296.12:48:18.16#antcn#Source:  1921-293  ( Feed = 3.5cm Dual Feed Cryogenic )
+2001.296.12:48:18.16#antcn# RAcommand  291.234   DECcommand -29.240
+2001.296.12:48:18.17:check80r
+2001.296.12:49:19.69?ERROR qg -303 Track  5 parity errors exceed threshold.
+2001.296.12:49:19.69?ERROR qg -303 Track  7 par

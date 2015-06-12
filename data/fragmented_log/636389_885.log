@@ -1,0 +1,13 @@
+0000     
+    121.0000    
+  remap_field_2d Y:    37.00000        174.0000        2.000000     
+    21.00000    
+  calling solid fill plot (clow/chigh/cint)    0.000000        1.000000     
+   0.1000000    
+  Subroutine ccpfil for solid fill plot...
+  input array range:     0.000000        1.000000    
+  input scale:     1.000000    
+  Colortable is linear        0.000000        1.000000                0  F  F 
+  F  F
+  ccpfil_sub - scale,scale_loc =     1.000000        1.000000    
+  subroutine set_image_c

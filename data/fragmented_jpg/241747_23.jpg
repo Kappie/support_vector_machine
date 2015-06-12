@@ -1,0 +1,15 @@
+if:Saturation>0</exif:Saturation>
+  <exif:Sharpness>0</exif:Sharpness>
+  <exif:SubjectDistanceRange>0</exif:SubjectDistanceRange>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:1694c366-eeb0-11db-bcc0-9779072491ad'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:1694c366-eeb0-11db-bcc0-9779072491ad'
+  xmlns:photoshop='http://ns.adobe.com/photoshop/1.0/'>
+  <photoshop:History></photoshop:History>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid

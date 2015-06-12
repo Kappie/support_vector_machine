@@ -1,0 +1,4 @@
+rocessing/76052020/work/76052020_gis_sky_sm.img' complete!
+Executing GIF creation command '(/usr/local/saord/bin.linux/xpaget 'SAO042300024176052020' colormap display > /tmp/saotng.lut; /usr/local/saord/bin.linux/xpaget 'SAO042300024176052020' display_data | /usr/local/saord/bin.linux/fits2gif -luts /tmp/saotng.lut > /tproc/nandra/processing/76052020/work/76052020_gis_sky_sm.gif; echo "GIF file created!" | /usr/local/saord/bin.linux/xpaset SAO042300024176052020 message) &'
+ 
+gnt_infrm: =====================

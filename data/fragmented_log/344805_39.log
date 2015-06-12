@@ -1,0 +1,11 @@
+tcn#Command a new source
+2003.308.17:37:21.00#flagr#flagr/antenna,new-source
+2003.308.17:37:21.50#antcn#Successfully sent new source position to antenna
+2003.308.17:37:21.51:setupsx
+2003.308.17:37:25.93/mk5/!play_rate = 0 ;
+2003.308.17:37:25.96/mk5/!mode = 0 ;
+2003.308.17:37:25.99/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 5 ;
+2003.308.17:37:26.01:!2003.308.17:42:00
+2003.308.17:40:14.77#flagr#flagr/antenna,acquired
+2003.308.17:41:00.53;clkoff
+2003.308.17:41:01.07/fmout-gps/2.061820e-05 20.6 usec (Hmaser l

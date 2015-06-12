@@ -1,0 +1,20 @@
+ to file:
+  /net/cci-filer1/vol1/tmp/phzwart/tassos/noshake/run_955/model_refine_001.geo
+
+CPU time processing inputs: 9.03
+
+
+============================ Non-default parameters ===========================
+
+A complete record of all parameters was written to the .eff file above.
+Below are only the non-defaults.
+
+#phil __ON__
+refinement {
+  crystal_symmetry {
+    unit_cell = 70.9525 47.8686 88.1178 90 90 90
+    space_group = "P 21 21 21"
+  }
+  input {
+    pdb {
+      file_name = "/net/cci-filer1/vol1/tmp/phzwa

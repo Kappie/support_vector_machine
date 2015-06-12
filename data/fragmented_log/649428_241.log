@@ -1,0 +1,3 @@
+ant-decls -MT testThreads.o -MD -MP -MF .deps/testThreads.Tpo -c -o testThreads.o testThreads.c
+mv -f .deps/testThreads.Tpo .deps/testThreads.Po
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredunda

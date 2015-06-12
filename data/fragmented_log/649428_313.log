@@ -1,0 +1,2 @@
+als/NetCDF/lib -o reader4 reader4.o ../../libxml2.la  -lz  -lm  
+gcc -I/usr/X11R6/include -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wl,-R/usr/local/cdat/Externals/lib -o .libs/reader4 reader4.o  -L/usr/local/cdat/Externals/lib -L/usr/X11R6/lib 

@@ -1,0 +1,12 @@
+rgument.
+! Found source: J0818+4222
+! 
+! There are 4 IFs, and a total of 4 channels:
+! 
+!  IF  Channel    Frequency  Freq offset  Number of   Overall IF
+!       origin    at origin  per channel   channels    bandwidth
+!  ------------------------------------------------------------- (Hz)
+!  01        1  8.40798e+09        4e+06          1        4e+06
+!  02        2  8.47798e+09        4e+06          1        4e+06
+!  03        3  8.79298e+09        4e+06          1        4e+06
+!  04        4  8.89798e+09  

@@ -1,0 +1,21 @@
+// Written: Zarro (SAC/GSFC), October 1998, (dzarro@solar.stanford.edu)
+
+var win;
+
+function pop_img(url,title,width,height) {
+
+if (!url) {
+ alert('Image URL not entered');
+ return false;
+}
+
+// default to fit within 75% of browser window, or 512x512
+
+if (!width) {width=get_window_width(.75,512);}
+if (!height) {height=get_window_height(.75,512);}
+
+if (!win || win.closed) {
+ win = open("","img","width="+width.toString()+",height="+height.toString()+",scrollbars=yes,resizable=yes"); 
+}
+
+// dynamically create HT

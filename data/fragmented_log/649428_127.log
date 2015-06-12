@@ -1,0 +1,8 @@
+rototype
+threads.c:71: warning: redundant redeclaration of 'pthread_mutex_lock'
+/usr/include/pthread.h:343: warning: previous declaration of 'pthread_mutex_lock' was here
+threads.c:73: warning: function declaration isn't a prototype
+threads.c:73: warning: redundant redeclaration of 'pthread_mutex_unlock'
+/usr/include/pthread.h:353: warning: previous declaration of 'pthread_mutex_unlock' was here
+threads.c:75: warning: function declaration isn't a prototype
+threads.c:75: warning: redundant redeclaration of '

@@ -1,0 +1,11 @@
+f xff xff xff xff xff xff
+2001.295.19:24:55.90/form/debug:0xffff 0xffff  ;  0x0000 0x0000  ;  0x0000 0x0000  ;  0x0000 0x0000
+2001.295.19:24:56.07:!2001.295.19:30:00
+2001.295.19:26:00.46?ERROR ch -308 v9 total power integrator overflow
+2001.295.19:30:00.00:tape
+2001.295.19:30:00.14/tape/off,16160,norm,stopped,stop,unlock,ready,rem
+2001.295.19:30:00.14:st=rev,160
+2001.295.19:30:00.33:!2001.295.19:30:00
+2001.295.19:30:00.33:preob
+2001.295.19:30:00.36#antcn#Checking onsource status
+2001.295.19:30:00.37#antcn# 

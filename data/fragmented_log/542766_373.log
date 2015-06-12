@@ -1,0 +1,13 @@
+55255/pass/3,3,auto,-275.0,-275.0,-275.8,-274.4,-0.8,0.6
+9919501055271:!195010734
+9919501073400:tape
+9919501073407/tape/off,13278,norm,stopped,stop,unlock,ready,rem
+9919501073407:st=for,80
+9919501073423:!195010744
+9919501074400:preob
+9919501074400#antcn#Checking onsource status
+9919501074405#antcn# RAsource   300.233   DECsource  -17.815
+9919501074405#antcn# RAbeam     300.234   DECbeam    -17.815
+9919501074405#antcn# RAdelta      0.001   DECdelta     0.000
+9919501074405/onsource/TRACKING
+9919501074659/tpic

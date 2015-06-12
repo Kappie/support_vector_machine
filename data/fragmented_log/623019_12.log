@@ -1,0 +1,13 @@
+ and the control 
+registers need to be handled differently.  The thinking was that we could 
+check the TDC serial number to decide how to initialize the board.  What is 
+the serial number breakpoint between B and C? 
+ 
+ 
+Rev B boards are serial numbers 1-10 
+ 
+Rev C boards are serial numbers 11 - 24 
+ 
+	3)  Speaking of the serial numbers, it looks like the TDC has a 
+different convention for writing the serial number in the ID PROM than the 
+boards made at FNAL do.  The TDC has the actual number written as 

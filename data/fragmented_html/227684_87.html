@@ -1,0 +1,20 @@
+n true;
+			}
+		}
+		return false;
+	}
+	WebTrends.prototype.dcsEvt=function(evt,tag){
+		var e=evt.target||evt.srcElement;
+		while (e.tagName&&(e.tagName!=tag)){
+			e=e.parentElement||e.parentNode;
+		}
+		return e;
+	}
+	WebTrends.prototype.dcsNavigation=function(evt){
+		return "";
+	}
+	WebTrends.prototype.dcsBind=function(event,func){
+		if ((typeof(func)=="function")&&document.body){
+			if (document.body.addEventListener){
+				document.body.addEventListener(event, func.wtbind(this), true);
+			}

@@ -1,0 +1,8 @@
+th from W: muperf.set_cut(cut_mc_w)
+  cut_mc_z - Select truth from Z: muperf.set_cut(cut_mc_z)
+  cut_mc_t - Select truth from top: muperf.set_cut(cut_mc_t)
+  cut_mc_tdirect - Select truth direct from top: muperf.set_cut(cut_mc_tdirect)
+  cut_mc_z - Select truth from Z: muperf.set_cut(cut_mc_z)
+    musim - Plots simulated variables: musim.draw("reta", 60, 3.0)
+  mufound - Plots found variables: mufound.draw("reta", 60, 3.0)
+  mufound_combined - Plots found variables for combined tracks: mufound_combined.draw

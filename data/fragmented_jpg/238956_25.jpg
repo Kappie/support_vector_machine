@@ -1,0 +1,15 @@
+ory>
+ </rdf:Description>
+
+ <rdf:Description rdf:about='uuid:57c8c185-3916-11db-94ed-ca97bbccfe8d'
+  xmlns:tiff='http://ns.adobe.com/tiff/1.0/'>
+  <tiff:Orientation>1</tiff:Orientation>
+  <tiff:Make>EASTMAN KODAK COMPANY</tiff:Make>
+  <tiff:Model>KODAK DX7630 ZOOM DIGITAL CAMERA</tiff:Model>
+  <tiff:XResolution>72/1</tiff:XResolution>
+  <tiff:YResolution>72/1</tiff:YResolution>
+  <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+  <tiff:YCbCrPositioning>1</tiff:YCbCrPositioning>
+ </rdf:Description>
+
+ <rdf:Descrip

@@ -1,0 +1,8 @@
+,moving,locked,ready,10.8,85,okay
+2004.167.13:51:06.08:data_valid=on
+2004.167.13:51:06.10:midob
+2004.167.13:51:06.30/tpi/1l,15543,1u,16088,2u,16223,3u,16304,4u,16326,ia,30947
+2004.167.13:51:06.30/tpi/9u,15944,au,15807,bu,16016,cu,15716,du,16222,eu,16152,ib,29618
+2004.167.13:51:06.30/tpi/5u,15787,6u,16181,7u,16346,8l,16221,8u,16363,ic,8086
+2004.167.13:51:06.89?ERROR qk -211 Tsys value for device 8l overflowed or was less than zero.
+2004.167.13:51:06.89?ERROR qk -211 Tsys value for device 5u overflowed or was

@@ -1,0 +1,13 @@
+.26/newtape/"to continue, use label  command
+2002.170.19:48:00.57?ERROR rz   -2 --C STAT_DIAGDONE: Diagnostic test completed successfully.\n
+2002.170.19:48:36.09#trakl#Source acquired
+2002.170.19:49:08.82;label=ca-3-001930e
+2002.170.19:49:09.45&loader/rw
+2002.170.19:49:09.45&loader/!+20s
+2002.170.19:49:09.45&loader/et
+2002.170.19:49:09.45&loader/!+10s
+2002.170.19:49:09.45&loader/tape=reset
+2002.170.19:49:41.40/label/CA-3-001930E,3,
+2002.170.19:49:41.40:setups2=1
+2002.170.19:49:46.17:!2002.170.20:04:54
+2002.

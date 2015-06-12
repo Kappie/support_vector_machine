@@ -1,0 +1,26 @@
+PLOT_NL
+ LATLON_INT =            5,
+ CONTINENT_LINE_WIDTH =    1.000000    ,
+ C3_TIME_ZONE = UTC,
+ TIME_ZONE =    0.000000    ,
+ C_INSTITUTION = NOAA/GSD ,
+ C_VNT_UNITS = KT-FT ,
+ C_UNITS_TYPE = metric ,
+ C_PBL_DEPTH_UNITS = metric ,
+ L_DISCRETE =  F,
+ MODE_SUPMAP =            1,
+ IRASTER =            0
+ /
+
+
+
+
+
+     [h/hz]  Horizontal Plan View    (Const Pressure Level or SFC)
+     [x]  Vertical Cross Section
+     [s]  Sounding
+                                                             [q] QUIT ? 
+
+
+
+    

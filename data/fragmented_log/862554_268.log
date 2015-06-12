@@ -1,0 +1,11 @@
+resolves *all* known keyword incompatibilities with
+  other FTOOLS tasks.  If you have previously fudged *any* keywords
+  in the PHA file to compensate, incorrect results will follow.
+ 
+Setting 1st PHA channel to 0
+Making v1.1 1180x512 S1C3 Bright PI RMF
+Calibration data files:
+  ecd = /software/lheasoft/release/refdata/sisdata/sis1c3p40_290296.fits
+  cti = /software/lheasoft/release/refdata/sisdata/sisph2pi_110397.fits
+ echo = /software/lheasoft/release/refdata/sisdata/sisechos_290296.fits
+  rdd = /softwar

@@ -1,0 +1,3 @@
+B so that FIFO_EF* is always high and CLIST becomes BOSS right after SLOAD* goes low, even if EOE for that event has not been received yet. 
+In trying to solve this problem, I swapped CLIST (was SNO 1, now SNO 2) and CLIQUE (was SNO 1. noe SNO 3) without any effect on sync loss. I also tried unplugging L1 Int so that CLIST was the only board in the crate. BOSS, BOSSGIN and BOSSGOUT on the backplane all seemed fine. 
+I could "solve" the problem only by reproducing exactly last evening running conditions, i.e

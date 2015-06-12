@@ -1,0 +1,16 @@
+s/lapb/builds/laps/bin/lapsplot.exe
+Running /usr/nfs/lapb/builds/laps/bin/lapsplot.exe
+Thu Jun  1 19:25:21 UTC 2006
+Input to lapsplot.exe (dataroot) = /data/lapb/tw/fsl-linux9/data/static/www/lapsplot.tt
+ Here: get_grid_dim_xy
+  Sort_fn: names sorted, non_numeric/total =            97           97
+ /data/lapb/tw/fsl-linux9/data/static/nest7grid.parms
+  get_laps_config - parameters read in OK
+
+
+  This program will produce a gmeta file for display
+
+  It will be located in ./gmeta
+
+
+ Enter time, <yydddhhmm>, o

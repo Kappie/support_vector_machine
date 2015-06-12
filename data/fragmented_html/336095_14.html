@@ -1,0 +1,18 @@
+pFlag = false;
+	ua = navigator.userAgent.toLowerCase();
+	if (bName == "Netscape" || ua.indexOf('aol') >= 0)
+	{
+		// cloned from always-include-ns.js
+		str = self.location.search;
+		
+		arrCtrls = new Array;
+		for (i=0;i < self.element_collection.length;i++){
+			sitem = self.element_collection[i];
+			if (sitem.id == eid)
+				arrCtrls[arrCtrls.length] = sitem.ctrl + "-" + eid;
+		}
+		dispFlag = arrCtrls.length != 0;
+		// Look for the existing forceElement array		
+		if (str != ""){
+			qArray = str.split("&");
+		

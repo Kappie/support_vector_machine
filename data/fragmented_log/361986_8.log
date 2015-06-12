@@ -1,0 +1,18 @@
+nixCCompiler using build_ext
+customize GnuFCompiler
+Could not locate executable g77
+Could not locate executable f77
+customize IntelFCompiler
+Could not locate executable ifort
+Could not locate executable ifc
+customize LaheyFCompiler
+Could not locate executable lf95
+customize PGroupFCompiler
+Could not locate executable pgf90
+Could not locate executable pgf77
+customize AbsoftFCompiler
+Could not locate executable f90
+customize NAGFCompiler
+Could not locate executable f95
+customize VastFCompiler
+customize GnuFCo

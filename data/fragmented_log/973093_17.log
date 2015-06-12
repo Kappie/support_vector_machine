@@ -1,0 +1,15 @@
+76223Jy  sigma=1.100463
+! Fit after  self-cal, rms=0.071837Jy  sigma=1.036179
+dynam = dynam - 0.5
+flux_cutoff = imstat(rms) * dynam
+! Inverting map 
+repeat
+  if (peak(flux) > flux_cutoff) peakwin win_mult
+  clean clean_niter,clean_gain
+  flux_cutoff = imstat(rms) * dynam
+  selfcal false,false,phase_soltime
+  new_peak = peak(flux)
+  until(new_peak<=flux_cutoff)
+! clean: niter=200  gain=0.04  cutoff=0
+! Component: 050  -  total flux cleaned = 0.00151622 Jy
+! Component: 100  -  total flux cleaned = 0.001562 Jy

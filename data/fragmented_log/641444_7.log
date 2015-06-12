@@ -1,0 +1,13 @@
+pre>Swap a PHA ASD card on b0pcal03 (wedges 15-17 West). 
+The new card has lower test thresholds (4mV instead of the  
+nominal 10 mV) for the last 4 eta towers (18-21). </pre>
+<!-- Author: fotis :: (run <a href='/java/cdfdb/servlet/RunSummary?RUN_NUMBER=135759' target=_top>135759</a>) -->
+
+
+<!-- Date: Thu Dec 27 10:30:41 2001 -->
+<pre>SVX, ISL, L00 went into alarm state for a few seconds.</pre>
+<!-- Author: H-C -->
+
+
+<!-- Date: Thu Dec 27 10:31:36 2001 -->
+<pre>Took several QIE calibration runs for the BSC 

@@ -1,0 +1,13 @@
+A-GIS2-PH > clear pha_cutoff
+!xsel:ASCA-GIS2-PH > filter pha_cutoff 170 850
+!xsel:ASCA-GIS2-PH > extract events
+!xsel:ASCA-GIS2-PH > save events use=no clobber=yes 72016000_gis2_src_hard.evt
+Wrote events list to file 72016000_gis2_src_hard.evt
+!xsel:ASCA-GIS2-PH > exit save=no
+ 
+gnt_infrm: Extracting BITFIX=n src data for gis3...
+ 
+ 
+ 
+        OBJECT      DATAMODE    BIT_RATE    DATE-OBS    TIME-OBS    ONTIME   NEVENTS  PHA_BINS
+      1 MRK_1040    PH          MEDIUM      19/08/94    16:51:47    0.20E+05   

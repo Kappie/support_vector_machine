@@ -1,0 +1,10 @@
+5720:postob
+9919504515720:source=0727-115,072758.1,-113452.5,1950.0
+9919504515721#antcn#Commanding to new source
+9919504515838#antcn#WARNING: source presently below limit horizon
+9919504515838#antcn#Source:  0727-115  ( Feed = 3.5cm Dual Feed Cryogenic )
+9919504515838#antcn# RAcommand  112.566   DECcommand -11.686
+9919504515838:wb2c1=5
+9919504520284/form/0x0015 0x0000 0x9222 38 3 4000 11 0 0 0
+9919504520284/form/map[0].stack[1].head[2] = xff xff x01 x01 x03 x03 x05 x05 x07 x07 x09 x09 x0b x0b x0d x0d
+991950

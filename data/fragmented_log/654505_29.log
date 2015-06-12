@@ -1,0 +1,6 @@
+-DBI.pkglist.
+[Util.pm/269/file_user()] UID:  99
+[PkgVars.pm/129/PkgVars::pkgvar_get] Package variable "builduser" -> "nobody"
+[PkgVars.pm/160/pkgvar_set()] Setting command
+[PkgVars.pm/164/PkgVars::pkgvar_set] Package variable "command" -> "/bin/su -s /bin/sh nobody -c /bin/sh -c "/bin/rpm"
+[RPM.pm/172/rpm_form_command()] Command:  /bin/su -s /bin/sh nobody -c /bin/sh -c "/bin/rpm --define '_topdir /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI' --root='/var/tmp/mezzanine.temp.dironly.29689.243e' -qa

@@ -1,0 +1,8 @@
+here
+threads.c:67: warning: function declaration isn't a prototype
+threads.c:67: warning: redundant redeclaration of 'pthread_mutex_init'
+/usr/include/pthread.h:334: warning: previous declaration of 'pthread_mutex_init' was here
+threads.c:69: warning: function declaration isn't a prototype
+threads.c:69: warning: redundant redeclaration of 'pthread_mutex_destroy'
+/usr/include/pthread.h:337: warning: previous declaration of 'pthread_mutex_destroy' was here
+threads.c:71: warning: function declaration isn't a p

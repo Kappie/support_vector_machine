@@ -1,0 +1,20 @@
+ of procedure do_getf
+gnt_infrm: ========================
+Sun Apr 23 02:44:33 EDT 2000
+ 
+gnt_infrm: (do_proc) Sequence directory is /tproc/nandra/processing/76052020.
+ 
+ 
+gnt_infrm: *************************
+gnt_infrm: Running procedure do_cats
+gnt_infrm: *************************
+Sun Apr 23 02:44:35 EDT 2000
+ 
+ 
+                         **  XSELECT V2.0   **
+ 
+!> Enter session name >[xsel] cat
+ 
+ Notes: XSELECT set up for      ASCA
+ Time keyword is TIME       in units of s
+ Default timing binsize =   16.00

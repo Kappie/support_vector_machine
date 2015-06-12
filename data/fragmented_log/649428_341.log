@@ -1,0 +1,6 @@
+de/libxml2/libxml/entities.h'
+ /usr/bin/install -c -m 644 'encoding.h' '/usr/local/cdat/Externals/include/libxml2/libxml/encoding.h'
+ /usr/bin/install -c -m 644 'parser.h' '/usr/local/cdat/Externals/include/libxml2/libxml/parser.h'
+ /usr/bin/install -c -m 644 'parserInternals.h' '/usr/local/cdat/Externals/include/libxml2/libxml/parserInternals.h'
+ /usr/bin/install -c -m 644 'xmlerror.h' '/usr/local/cdat/Externals/include/libxml2/libxml/xmlerror.h'
+ /usr/bin/install -c -m 644 'HTMLparser.h' '/usr/local/cdat/

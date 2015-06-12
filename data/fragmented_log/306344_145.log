@@ -1,0 +1,14 @@
+e for device ve overflowed or were less than zero.
+9830207033367/tsys2/66.1,66.7,67.7,64.6,63.7,$$$$$$$$,107.7
+9830207033368:!302070500
+9830207050000:"data stop"
+9830207050000:et
+9830207050014:!+3s
+9830207050315:tape
+9830207050326/tape/off,02603,norm,stopped,stop,unlock,ready,rem
+9830207050326:postob
+9830207050326:source=2131-021,213135.1,-020640.0,1950.0
+9830207050327#antcn#Command a new source
+9830207050351#antcn#Successfully sent new source position to antenna
+9830207050352:sx2c1=5
+9830207050409/pass/5,5

@@ -1,0 +1,12 @@
+kit 2.8.2-33, framework 1.5'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description about='uuid:286383d1-db8d-11d8-b324-8aa5bf2a9555'
+  xmlns:pdf='http://ns.adobe.com/pdf/1.3/'>
+  <!-- pdf:Creator is aliased -->
+ </rdf:Description>
+
+ <rdf:Description about='uuid:286383d1-db8d-11d8-b324-8aa5bf2a9555'
+  xmlns:xap='http://ns.adobe.com/xap/1.0/'>
+  <xap:CreatorTool>Adobe Photoshop Elements for Windows, version 2.0</xap:CreatorTool>
+ </rdf:Des

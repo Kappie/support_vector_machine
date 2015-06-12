@@ -1,0 +1,18 @@
+_PostbackFormBeenReset )
+        {
+            // set form postback Url to be current translated CMS Url
+            __CMS_PostbackForm.action = __CMS_CurrentUrl;
+        }
+    }
+
+    var __cmsResetFormCachedPostBack = null;
+    if( typeof window.__doPostBack != "undefined" )
+    {
+        __cmsResetFormCachedPostBack = __doPostBack;
+        __doPostBack = __cmsResetFormOverridePostBack;
+    }
+
+    var __cmsResetFormCachedOnSubmit = null;
+    if( typeof __CMS_PostbackForm.onsubmit != "undefined" )
+    {
+   

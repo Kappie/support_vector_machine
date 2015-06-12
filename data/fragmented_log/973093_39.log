@@ -1,0 +1,18 @@
+ane model.
+! The established model now contains 47 components and 0.141393 Jy
+! 
+! Correcting IF 1.
+! 
+! Correcting IF 2.
+! 
+! Correcting IF 3.
+! 
+! Correcting IF 4.
+! 
+! Fit before self-cal, rms=0.071517Jy  sigma=1.029246
+! Fit after  self-cal, rms=0.071513Jy  sigma=1.029124
+wmodel J2357-2451_S_2005_07_09_yyk\_map.mod
+! Writing 47 model components to file: J2357-2451_S_2005_07_09_yyk_map.mod
+wobs J2357-2451_S_2005_07_09_yyk\_uvs.fits
+! Writing UV FITS file: J2357-2451_S_2005_07_09_yyk_uvs.fits
+wwins J2357-

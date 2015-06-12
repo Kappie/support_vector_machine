@@ -1,0 +1,11 @@
+ent/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 20221.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 3.66360E-02     Background scaling factor
+  BACKFILE  - 72016000_gis2_bgd.pha
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - 72016000_gis2.rmf
+  ANCRFILE  - 72016000_gis2.arf
+  POISSERR  - TRUE            Whether Poissonian error

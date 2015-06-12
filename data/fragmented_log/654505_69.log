@@ -1,0 +1,5 @@
+rofileDumper::Apache) = 1.0 perl(DBI::ProxyServer) = 0.3005 perl(DBI::ProxyServer::db) perl(DBI::ProxyServer::dr) perl(DBI::ProxyServer::st)
+Requires(rpmlib): rpmlib(PayloadFilesHavePrefix) <= 4.0-1 rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(VersionedDependencies) <= 3.0.3-1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /var/tmp/mezzanine-buildroot.29689/perl-DBI.2383
+Wrote: /caos/repo/ext/autobuilder/i386/00_LOGS/cpan/perl-DBI/SRPMS/perl-DBI-1.40-4.caos.src.rpm
+Wrote: /caos/repo/ext/autobuil

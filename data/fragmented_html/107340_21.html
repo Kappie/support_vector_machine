@@ -1,0 +1,26 @@
+('=');
+if(p[0].length < 1) { continue; }
+f += '<input type="hidden" name="' + unescape(p[0]);
+if( p.length > 1 ) {
+p.shift();
+f += '" value="' + unescape(p.join('=')).replace(/"/g,'&quot;');
+}
+f += '"/>';
+}
+f += '</form>';
+w.document.body.innerHTML += f;
+w.document.myncbiautosubmitform.submit();
+}
+}
+function MyNCBI_r()
+{
+var x = MyNCBI_find();
+if( x != myncbi_x ) {
+myncbi_x = x;
+MyNCBI_auto_submit(myncbi_cu);
+} else {
+window.setTimeout(MyNCBI_r, 500);
+}
+}
+window.setTimeout(MyNCBI_r, 500);
+// --></script><ta

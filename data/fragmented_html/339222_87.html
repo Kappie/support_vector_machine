@@ -1,0 +1,17 @@
+		else{
+				V=this.dcsEncode(V);
+			}
+		}
+		return "&"+N+"="+this.dcsEscape(V, this.re);
+	}
+	WebTrends.prototype.dcsEncode=function(S){
+		return (typeof(encodeURIComponent)=="function")?encodeURIComponent(S):escape(S);
+	}
+	WebTrends.prototype.dcsCreateImage=function(dcsSrc){
+		if (document.images){
+			this.images[this.index]=new Image();
+			this.images[this.index].src=dcsSrc;
+			this.index++;
+		}
+		else{
+			document.write('<IMG ALT="" BORDER="0" NAME="DCSIMG" WIDTH="1" HEIGHT="1" SRC="'+dcsS

@@ -1,0 +1,4 @@
+nterface have input cable removed, ISOLIST is out). Trigger table is COSMIC_NOTRACKS[3,205] and SMXRs are removed form a lot of CCAL crates. 
+ 
+Create conditions for 2 clusters in the same crate by removing 3 cables from DCAS front panel. I can trigger easily on the error by requiring LOC_BOSS &lt; 1.15 usec which happens only when 5 or less clusters are received in CLIST. 
+Connect LA to some of DCAS internal signals (by removing DCAS in slot 20 and IsoPick in slot 21 of b0l2cl00). Found that PROPAGATING ho

@@ -1,0 +1,11 @@
+ found.
+[0m[dyb]   =I= [0mnumber of event = 100 User=119.69s Real=120.55s Sys=0.69s
+[0m[dyb]   =I= [0mClosing gamma_1MeV.events.root
+[0m[geant] =I= [0mGraphics systems deleted.
+[0m[geant] =I= [0mVisualization Manager deleting...
+[0m   Done, exit code 0
+Running job eminus_1MeV ...
+[dyb_main] =I= [0mCommand line:  G4dybApp.exe eminus_1MeV.mac
+[0m[geant] =I= [0m
+[0m[geant] =I= [0m*************************************************************
+[0m[geant] =I= [0m Geant4 version Name: geant4-08-02-p

@@ -1,0 +1,11 @@
+0131076&wth/sy=/usr2/st/bin/wx
+9830210131163#wx#/WX/11.5,1015.1, 74.6
+9830210131182?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830210131183&clkoff/"specify fmout-gps when formatter (h-maser) leads gps
+9830210131183&clkoff/hpib=pp,:read?
+9830210131183&clkoff/!+0.5s
+9830210131183&clkoff/fmout-gps=pp
+9830210131183&clkoff/!+0.5s
+9830210131183&clkoff/hpib=pp,:init:cont on
+9830210131184?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830210131235?ERROR ib  -10 ib

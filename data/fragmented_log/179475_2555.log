@@ -1,0 +1,11 @@
+tenna,new-source
+2004.350.17:07:17.01#skua #Antenna slewing to azimuth 398.3, elevation 17.5
+2004.350.17:07:20.12/mk5/!play_rate = 0 ;
+2004.350.17:07:20.12/mk5/!mode = 0 ;
+2004.350.17:07:20.15/mk5/!mode? 0 : mark4 : 16 : mark4 : 16 : S : 1 ;
+2004.350.17:07:20.15:!2004.350.17:09:01
+2004.350.17:08:29.93#skua #Antenna slewing complete
+2004.350.17:08:37.71#flagr#flagr/antenna,acquired
+2004.350.17:09:01.00:preob
+2004.350.17:09:01.00/onsource/TRACKING
+2004.350.17:09:01.48/tpi/1u,17686,2u,10926,3u,11314,4u,5475,i1

@@ -1,0 +1,10 @@
+ datadir /local/data/tproc/nandra/processing/72016000/unscreened
+ 
+Setting data directory to /local/data/tproc/nandra/processing/72016000/unscreened/
+Setting mkf directory to /local/data/tproc/nandra/processing/72016000/aux/
+ 
+!ascascreen_sis0:ASCA-SIS0 > set dumpcat
+Obscat listing off
+!ascascreen_sis0:ASCA-SIS0 > set datamode BRIGHT
+!ascascreen_sis0:ASCA-SIS0-BRIGHT > make obscat cat_filt=@72016000_sis0_obscat.sel lststr = '[af][dt]*[Ss]0*[HhMmLl].unf'
+''!ascascreen_sis0:ASCA-SIS0-BRIGHT > choose 1-** swit

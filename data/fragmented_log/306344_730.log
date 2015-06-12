@@ -1,0 +1,8 @@
+itialization failed, gpib devices inaccessible.
+9830220262169?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830220262221?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830220262273?ERROR ib  -10 ibcon initialization failed, gpib devices inaccessible.
+9830220262280/ifd/9,7,nor,nor,rem,9446,9844
+9830220262287/if3/8,out,1,1,,,present,500.10,rem,lock,58873
+9830220262294/vc06/420.99,2.000,u,10,10,rem,lock,15464
+9830220262301/vc11/217.99,2.000,u,10,10,rem,lock,1440

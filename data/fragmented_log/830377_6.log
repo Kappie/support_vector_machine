@@ -1,0 +1,12 @@
+100&&NEVENTS>0&&COORDPRO!='ERROR'&&INSTRUME=='SIS0'&&DATAMODE=='BRIGHT2'
+!cat:ASCA-SIS0-BRIGHT2 > save obscat s0_bright2.cat clobber=yes
+!cat:ASCA-SIS0-BRIGHT2 > set inst sis1
+ 
+Setting...
+ Image  keywords   = X          Y           with binning =    4
+ WMAP   keywords   = DETX       DETY        with binning =    8
+ Energy keywords   = PI                     with binning =    1
+ 
+!cat:ASCA-SIS1 > set datamode BRIGHT
+!cat:ASCA-SIS1-BRIGHT > make obscat cat_filt=DEF lststr='ad*s1*.unf'
+''Using default selecti

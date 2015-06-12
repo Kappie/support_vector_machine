@@ -1,0 +1,30 @@
+pec_tclout
+
+!XSPEC> set par6 [string trim $xspec_tclout];
+
+!XSPEC> tclout param 7;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par7 [string trim $xspec_tclout];
+
+!XSPEC> tclout dof;
+
+!XSPEC> string trim $xspec_tclout
+
+!XSPEC> set par8 [string trim $xspec_tclout];
+
+!XSPEC> regsub -all { +} $par2 { } cpar2;
+
+!XSPEC> split $cpar2
+
+!XSPEC> set lpar2 [split $cpar2];
+
+!XSPEC> regsub -all { +} $par3 { } cpar3;
+
+!XSPEC> split $cpar3
+
+!XSPEC> set lpar3 [split $cpar3];
+
+!XSPEC> regsub -all { +} $par4 { } cpar4;
+

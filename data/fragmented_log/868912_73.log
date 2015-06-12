@@ -1,0 +1,10 @@
+of the data.
+!  The x-axis pixel size should ideally be below 0.1656 milli-arcsec
+! clean: niter=1024  gain=0.01  cutoff=0
+! Component: 050  -  total flux cleaned = 0.000288755 Jy
+! Component: 100  -  total flux cleaned = 0.000646524 Jy
+! Component: 150  -  total flux cleaned = 0.000991243 Jy
+! Component: 200  -  total flux cleaned = 0.0012957 Jy
+! Component: 250  -  total flux cleaned = 0.00150376 Jy
+! Component: 300  -  total flux cleaned = 0.00179403 Jy
+! Component: 350  -  total flux cleaned = 0.0020213

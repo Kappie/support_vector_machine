@@ -1,0 +1,17 @@
+    4.0
+The location of minimum is at pixel number    = (1,1)
+The location of maximum is at pixel number    = (95,78)
+ 
+****** successfully exited ******
+
+gnt_infrm: SDS = 125.73
+ 
+gnt_infrm: Source was detected with confidence because S = 125.73
+gnt_infrm: The scripts will find centroids from smoothed sky images.
+gnt_infrm: The source coordinates will be X and Y of the centroid.
+ 
+gnt_infrm: Centroid for sis0...
+ 
+gnt_infrm: Centroiding region is circle(178,126,33).
+ 
+gnt_infrm: Creating sky image for sis0

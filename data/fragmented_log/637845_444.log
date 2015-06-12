@@ -1,0 +1,5 @@
+: error: no matching function for call to 'G4VisExecutive::RegisterGraphicsSystem(int*)'
+/usr/include/geant4/G4VisManager.hh:194: note: candidates are: G4bool G4VisManager::RegisterGraphicsSystem(G4VGraphicsSystem*)
+/usr/include/geant4/G4VisExecutive.icc:111: error: expected type-specifier before 'G4OpenGLStoredX'
+/usr/include/geant4/G4VisExecutive.icc:111: error: expected `)' before 'G4OpenGLStoredX'
+/usr/include/geant4/G4VisExecutive.icc:111: error: no matching function for call to 'G4VisExecutive::Regist

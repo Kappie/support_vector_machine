@@ -1,0 +1,28 @@
+		}
+				P+=this.dcsA(N,DCSext[N]);
+			}
+		}
+		if (i18n&&(WT.dep.length>0)){
+			P+=this.dcsA("WT.dep",WT.dep);
+		}
+		if (P.length>2048&&navigator.userAgent.indexOf('MSIE')>=0){
+			P=P.substring(0,2040)+"&WT.tu=1";
+		}
+		
+		
+		
+			P=P+"&spsite_id=53021565";
+		
+			P=P+"&WT.sp=53021565";
+		
+		
+		this.dcsCreateImage(P);
+		this.WT.ad="";
+	}
+	WebTrends.prototype.dcsFunc=function(func){
+		if (typeof(func)=="function"){
+			func();
+		}
+	}
+	WebTrends.prototype.dcsDebug=function(){
+		var t=th

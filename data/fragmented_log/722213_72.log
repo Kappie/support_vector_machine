@@ -1,0 +1,14 @@
+ectory to /local/data/tproc/nandra/processing/75084000/aux/
+ 
+!ascascreen_gis3:ASCA-GIS3 > set dumpcat
+Obscat listing off
+!ascascreen_gis3:ASCA-GIS3 > set datamode PH
+!ascascreen_gis3:ASCA-GIS3-PH > make obscat cat_filt=@75084000_gis3_obscat.sel lststr = '[af][dt]*[Gg]3*[HhMmLl].unf'
+''!ascascreen_gis3:ASCA-GIS3-PH > choose 1-** switch=yes
+ 
+   Setting datamode to PH
+ 
+Got the minimum time resolution of the chosen data:  0.20000E+01,
+ 
+Getting Min and Max for Energy Column...
+Got min and max for PI:     0  

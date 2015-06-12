@@ -1,0 +1,14 @@
+Date: Thu Dec 27 09:53:19 2001 -->
+<pre>PSM CONET_3 in alarm state for a while.  Recovered itself.</pre>
+<!-- Author: H-C -->
+
+
+<!-- Date: Thu Dec 27 10:03:45 2001 -->
+iFIX: 
+The Vnode1 problem (disk space problem) went away after we moved the tmp files to recycling bin. There were about 2000 files with the name, ~DF*.tmp. This freed up about 400Mbyte from C: disk. Most of the files were created during this month. 
+<!-- Author: JC Yun -->
+
+
+<!-- Date: Thu Dec 27 10:04:12 2001 -->
+<br>
+<font color="darkgreen

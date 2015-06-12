@@ -1,0 +1,19 @@
+
+         READ  (*,FMT='(A)') PCK
+ 
+         CALL <a href="../spicelib/furnsh.html">FURNSH</a> ( PCK )
+ 
+ 
+         DO WHILE ( CONT )
+ 
+            WRITE (*,*) ' '
+            WRITE (*,*) 'Enter NAIF integer code of target body'
+            READ   *,    TARGET
+ 
+            WRITE (*,*) 'Enter NAIF integer code of observer body'
+            READ   *,    OBSRVR
+ 
+            WRITE (*,*) 'Enter UTC epoch of observation'
+            READ  (*,FMT='(A)') UTC
+ 
+            WRITE (*,*) 'Enter aberration correction 

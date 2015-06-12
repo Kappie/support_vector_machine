@@ -1,0 +1,25 @@
+ be a replacement. For now, 
+CSL has been restarted using the remaining disks: disk3 
+and disk4 (total of 450 GB). 
+ 
+</pre>
+<!-- Author: Tony (and Stephan) -->
+
+
+
+<!-- Date: Sun Oct 8 14:26:57 2000 -->
+<pre>We are starting a run with the COMM...TABLE_2 5 (40) without  
+modifying any prescales.  
+ 
+SUM_ET_10   no prescale 
+JET_2 no prescale 
+ 
+MIN_BIAS prescaled by 5 
+ZERO_BIAS prescaled by 100,000 
+ 
+ No SVX. No COT </pre>
+<!-- Author: Alexei V :: (run 100776) -->
+
+
+<!-- Date: Sun Oct 8 14:57:27 2000 -->
+<

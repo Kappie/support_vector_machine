@@ -1,0 +1,6 @@
+002.171.07:57:39.45?ERROR rz  -51 EFC STAT_RPMONBOTEOT: Encountered EOT (end of tape) during\nautomatic record (transport 7). All tapes have been stopped.\n
+2002.171.07:57:40.53?ERROR rl  -56 Tape motion state is inconsistent or illegal
+2002.171.07:57:53.43?ERROR ch -510 Recorder state does not agree with request.
+2002.171.07:58:14.47?ERROR ch -510 Recorder state does not agree with request.
+2002.171.07:58:35.61?ERROR ch -510 Recorder state does not agree with request.
+2002.171.07:58:57.69?ERROR ch -510 Rec

@@ -1,0 +1,18 @@
+ freedom
+ Null hypothesis probability = 8.423E-02
+
+!XSPEC> ignore bad;
+ Chi-Squared =      414.3342     using   382 PHA bins.
+ Reduced chi-squared =      1.101953     for    376 degrees of freedom
+ Null hypothesis probability = 8.423E-02
+
+!XSPEC> save all 72016000_webfit;
+
+!XSPEC> show files;
+
+ Information for file   1
+  belonging to plot group   1, data group   1
+ telescope = ASCA , instrument = SIS0 , channel type = PI
+  Current data file : 72016000_sis0_src_20.pha
+   with integration time    1.4105E+04
+ 

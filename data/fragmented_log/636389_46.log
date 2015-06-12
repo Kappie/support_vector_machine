@@ -1,0 +1,12 @@
+=     1010.020                2            1
+ NCON/IHL / HLS / HIC/HLC/LOC/LLP/LLS/LIS/LIU/ICOL = 
+           17            2   1.3000000E-02            5            5 
+            5            1   2.5000000E-02            2            2 
+            5
+ THE FIELD HAS BEEN PLOTTED
+
+
+  SELECT FIELD: (append with "i" for image)
+     [wd,wb,wr,wf,bw] Wind (LW3/LWM, LGA/LGB, FUA/FSF, LAPS-BKG, BAL), 
+     [wo,co,bo,lo,fo] Anlyz/Cloud/Balance/Bkg/Fcst Omega
+     RADAR: [ra] Intermediate VRC, [rf] Anal/Fcst fields

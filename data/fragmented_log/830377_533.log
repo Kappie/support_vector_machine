@@ -1,0 +1,8 @@
+.5562E-02   2
+    9    2    7   wabs       nH       10^22     0.1408     = par   2         2
+   10    3    8   powerlaw   PhoIndex            2.010     = par   3         2
+   11    4    8   powerlaw   norm               4.0790E-02 = par   4         2
+   12    5    9   wabs       nH       10^22     0.1880     = par   5         2
+   13    6   10   powerlaw   PhoIndex            1.967     = par   6         2
+   14    7   10   powerlaw   norm               1.0867E-02 = par   7         2
+   15    9   11   consta

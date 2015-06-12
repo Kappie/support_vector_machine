@@ -1,0 +1,11 @@
+,on,on,on,off,locked,35.22
+9830223512692/rx/02(lo),on,a,on,on,on,off,locked,41.81
+9830223512703/rx/03(dcal),on,a,on,on,on,off,locked,47.55
+9830223512714/rx/0E(lo5mhz),on,a,on,on,on,off,locked,1.004
+9830223512725/rx/17(pres),on,a,on,on,on,off,locked,3.963
+9830223512736/rx/1E(20k),on,a,on,on,on,off,locked,27.85
+9830223512747/rx/1F(70k),on,a,on,on,on,off,locked,47.70
+9830223512747:sx2c1=13
+9830223513223/pass/13,13,auto,0.0,0.0,-0.3,0.1,-0.3,0.1
+9830223513567:fastr=0m34s
+9830223513617?ERROR ch -336 Enabled trac
