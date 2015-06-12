@@ -28,14 +28,14 @@ DIRECTORIES = [
         #"fragmented_txt",
         "fragmented_log",
         #"fragmented_xml",
-        "fragmented_html",
-	      "fragmented_csv"
+        #"fragmented_html",
+	      #"fragmented_csv"
 ]
 
 
-ANCHORS_PER_TYPE = 20
-TEST_SAMPLES_PER_TYPE = 500
-TRAINING_SAMPLES_PER_TYPE = 3000
+ANCHORS_PER_TYPE = 2
+TEST_SAMPLES_PER_TYPE = 100
+TRAINING_SAMPLES_PER_TYPE = 100
 
 contents = {}
 compressed_sizes = {}
