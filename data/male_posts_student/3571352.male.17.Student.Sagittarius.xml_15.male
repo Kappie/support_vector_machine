@@ -1,0 +1,8 @@
+
+
+
+       
+      I was bored in shop again and I was searching for how to make an  urlLink e-book  on a Palm Pilot.  So I found that by using  urlLink DropBook , a free application, I am able to convert .txt documents into full e-books.  Now I know it sounds too simple and it is... just to make the book you need to use the  urlLink Palm Markup Language .  This language will allow you to add chapters and such.  Here is an example of the code:  ----------------------  \r \p \c \w="50%" For Reba Vartanian, Shelly Jaffe, Chickie Leventhal, and Mitchell Mitnick, and for the late Alan Mitnick, Adam Mitnick, and Jack Biello \w="25%" For Arynne, Victoria, and David, Sheldon,Vincent, and Elena. \w="50%" \c \p  \x\BSocial Engineering\B\x  \iSocial Engineering\i uses influence and persuasion to deceive people by convincing them that the social engineer is someone he is not, or by manipulation. As a result, the social engineer is able to take advantage of people to obtain information with or without the use of technology.  ----------------------   The \w="50%" would made a solid line 50% of the width of the screen.  \x makes new chapters. \i makes italics. \p makes a new page.  Check out the  urlLink Palm Markup Language  site for more info on the coding.  This would be excellent for english class where you have to read that Shakespeare Novel.  You can find the novel online at various sources.  You can then convert it to e-book with chapters and all the markups necessary.  The best part about an e-book is that you can make virtual notes in the book as well as highlight and bookmark.  If you have a Palm Pilot (or a pocket pc) I would recommend checking this out.  I enjoy using my Sony Clie as a book. :-)
+     
+
+    

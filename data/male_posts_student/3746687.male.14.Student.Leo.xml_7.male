@@ -1,0 +1,7 @@
+
+
+	 
+          var chatterbox = 'no';         urlLink target="flooblechatterbox"  onClick="window.open('about:blank','flooblechatterbox','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=480,height=400');return true;">  align="absbottom">Talk   in my  urlLink flooble chatterbox, a free javascript chat tag board / shoutbox / tagboard program for your xanga, diary, blogger or weblog  |   urlLink Blackjack Primer      if (!chatterbox || chatterbox != 'ok') {  document.write('This  urlLink flooble chatterbox  is'); document.write(' temporarily unavailable. It will be back up shortly.'); }    
+     
+
+    

@@ -1,0 +1,10 @@
+
+
+
+     
+
+      Today has mostly been a low level sort of day; I've come up with a few ideas for the terrain generator, but putting them into code has proved more challenging than I would have expected.  This morning was spent implementing an interpolation function. Actually it only took me about 15 minutes. Basically it just takes a start value, an end value, and the number of steps you want to spread the change over, and returns the amount by which you need to increment each time to reach the end value. Simple really.  This afternoon I took a break, and tried to figure out some more ideas. It came to me that one way to do it would be to have a list. Each time I need to add an inbetween point, I can bump all the later items down a notch to make room for it. This would be an elegant solution to my problem, but for one thing: The support in DarkBasic for lists seems to be broken. There is a function to do EXACTLY this job, and it's called ARRAY INSERT AT ELEMENT. Supposedly, it creates a new element after the position you specify, and bumps everything after it down a bit. BUT, when I've tried it this evening, it manages to create the new element, but wipes everything after it. Maybe I'm doing it wrong, or maybe it's a bug in the system. I'm going to do a search on the DB site and see what I can turn up.  There's probably easier ways to generate terrain. But I can't think of any :)  
+
+     
+
+    

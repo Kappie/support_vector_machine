@@ -1,0 +1,8 @@
+
+
+
+       
+      From Yahoo News: 'The Department of Homeland Security's U.S. Computer Emergency Readiness Team touched off a storm this week when it recommended for security reasons using browsers other than Microsoft's Internet Explorer.'  US-CERT actually released a  urlLink Vulnerability Note :  There are a number of significant vulnerabilities in technologies relating to the IE domain/zone security model, the DHTML object model, MIME type determination, and ActiveX. It is possible to reduce exposure to these vulnerabilities by using a different web browser, especially when browsing untrusted sites. Such a decision may, however, reduce the functionality of sites that require IE-specific features such as DHTML, VBScript, and ActiveX. Note that using a different web browser will not remove IE from a Windows system, and other programs may invoke IE, the WebBrowser ActiveX control, or the HTML rendering engine (MSHTML).    All in all, you really should use  urlLink Firefox . 
+     
+
+    

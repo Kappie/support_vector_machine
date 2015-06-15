@@ -1,0 +1,8 @@
+
+
+
+       
+      Have you ever wondered if you could acutally run an OS from your iPod hard drive.  Well, now you can.       urlLink Linux for the iPod  is a very cool thing.  One of its purposes is to allow the iPod to play a variety of other music formats such as Ogg Vorbis.    You might ask    What applications can it run?     In theory most applications that run on uClinux can run on the iPod however there are important limitations;        The iPod does not have a FPU (floating point unit) so things like mpg123 won't run too nicely. Integer based versions of MP3 players however are available and will run.   The frame buffer does not support  mmap()  so X11 would not run.   Since we are running on uClinux the  fork()  system call is not supported ( vfork()  however is available).        A few good things about Linux on the iPod is that you will not lose any data on the iPod should you choose to install Linux. Also it has a built in boot loader which will allow you to choose between Linux and Apple's Firmware after you reset the iPod.   You should be able to run this on all iPods except the mini and G4.  (This may only be temporary.)     Be sure to read the  urlLink FAQ  to get general knowledge and help.     In reality Linux on your iPod doesn't improve its functionality too much, but it sure is cool...     +MacMan     
+     
+
+    

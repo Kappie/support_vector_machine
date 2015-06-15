@@ -1,0 +1,6 @@
+
+
+     
+      As a frequent Linux user for some years now, and a frequent  urlLink LKML  reader. I have made up some thoughts about the  urlLink new "Development model" . I think that it's a big mistake, I think that the unstable and new features should be put into its own tree. Linux might not be thought as a Secure and Stable(TM) kernel when Linus began to develop it, but now, over ten years later, it has gained a repetition as quite stable and secure. So if the developers are beginning to implant many new features and other "unstable" is going into the mainline kernel, I'm sure that many flaws(all new and experimental code do contain flaws, don't they? ;)) are going to be exploited, and many exploits and security flaws are being detected, Linux'es reputation as quite stable and secure is being weakened and other solutions are being analyzed, we do all want that all should use Linux? Or a politically equivalent. Tho, if all the new experimental stuff is getting into akpm's tree first, and will stay  in -mm for some time i can accept it, the new stuff will then have some time to be tested and looked over, as well as the Mainstream kernel will keep its reputation as stable and secure. :)
+     
+    

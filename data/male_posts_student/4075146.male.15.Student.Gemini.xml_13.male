@@ -1,0 +1,6 @@
+
+
+     
+      Not too much time to update today, as I've got a plane to catch (visiting family in Milwaukee for the weekend), but the summary of my day is pretty quick: I've been working on Chidamber's WMC metric some more, as per the weighting of Tom Ball at Sun, who I've now e-mailed about 6 or 7 times in our correspondence during the last two days. He counts WMC as the total number of code paths per method, with some provisions (add one code path by default for every method that's not private, synthetic methods are at 0 automatically). I've been able to implement this in a test file, but I get some odd results when transferring it to the file that actually calculates the metrics, so there's obviously something there that has to be worked out. This weekend, I'll check out some more literature and work on my paper, and not much else more I can do.  Also, comment please! Thanks :)  Adam
+     
+    

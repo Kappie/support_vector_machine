@@ -1,0 +1,8 @@
+
+
+
+       
+      Nuts, so turns out a good friend of mine is moving to Dubai I swear that is spelt wrong I shall check up on it later, mehh shes going like at the end of october grr ah well.  Also ive noticed when working with sockets perl and other languages are quite agressive such as  my $listen = IO::Socket::INET->new(Proto => 'tcp', 				   LocalPort => 9192, 				   Listen => 1, 				   Reuse => 1) or die $!;  "Reuse => 1) or die $!;" thats the main bit in that if you missed it, time to go watch dazed and confused  
+     
+
+    

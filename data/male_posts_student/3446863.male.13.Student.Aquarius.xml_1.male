@@ -1,0 +1,6 @@
+
+
+     
+      Hi everyone...  Its drizzling here..   I'm back from my grandparent's house and my grandfather is back from hospital... He had sum infection in his lungs but now everything is fine n dandy.  Just going through the MSIL code the C# compiler generated and doing some manual performance profiling. Just look at the number of boxing-unboxing operations!! I think even in large .NET projects if you understand the underlying IL you could really improve .NET Application performance.   There are two books which I would really recommend reading:    * Inside C#, Tom Archer  Andrew Whitechapel for those low level explanations of the underlying MSIL (Targets C# .NET) * Programming Microsoft Visual Basic .NET, Francesco Balena for a serious VB 6 to VB .NET Developer (Targets VB .NET and upgradation of VB 6 Architecture to the .NET Platform)    Ofcourse there are many books on .NET which I haven't read, these are just two of my recommendations...  
+     
+    

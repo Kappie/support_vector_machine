@@ -1,0 +1,6 @@
+
+
+	 
+       Here is the first part in what i hope to be a long running series of programs for the Casio CFX-9850BG Plus Graphics Calculator.   Random Number generator Ver 1.0 (Engineered by Burt)  ClrText Int 6Ran#+1->A Locate 11,6,A A=6=>"You just hit 6"  Number Game (Engineered by Daniel)  "Stop on 100 with Del" 0->A While Getkey=/44    (=/ is the = sign with the line thru it)  A+1->A Locate 10,6,A WhileEnd ClrText A=100=>"Correct" A=/100=>"Wrong" Stop
+     
+    
