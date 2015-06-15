@@ -1,0 +1,7 @@
+
+
+	 
+       urlLink Linux: 2.6.6 Released   Linux creator Linus Torvalds announced the release of the 2.6.6 stable kernel. A number of notable additions found their way into the mainline 2.6 kernel during this development cycle, including Jens Axboe's laptop mode [story] and the completely fair queueing (CFQ) I/O scheduler [story], support for a non-executable stack on a number of architectures, several patches laying the groundwork for object-based reverse mapping, and 4KB kernel stacks for the i386 architecture reducing the kernel's per process overhead. Since 2.6.6-rc3 [story], Linus highlights the following changes:      "NTFS, XFS, FAT and CIFS updates. IDE cache-flush at shutdown fixes. ppc, sparc, s390 and ARM updates (and a few x86-64 fixes)."
+     
+
+    

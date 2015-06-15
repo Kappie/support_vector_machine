@@ -1,0 +1,21 @@
+
+
+
+
+
+       
+
+       urlLink Povray  has added a nice feature that allows users to render isosurfaces: you give it a function of (x,y,z) and ask it to plot the surface where that function takes on some value, f(x,y,z)=c.  A good example of this in physics is the Fermi surface--the surfaces in electron momentum space that correspond to some energy.  For an  urlLink fcc  crystal structure you can dig up a formula in  urlLink Ashcroft and Mermin  and draw in the Brillouin zones: (here's the  urlLink povray file  to do this)
+  urlLink   
+ I went a little crazy after this and plugged in different structures and povray settings that probably don't have any physical relevance, but they make nice pictures.  For much more imaginative and attractive uses of isosurfaces, see  urlLink Tsutomu Higo's  page.
+  urlLink fcc Fermi surface, single BZ boundary 
+  urlLink fcc Fermi surface, single cell 
+  urlLink fcc Fermi surface, several cells 
+  urlLink bcc Fermi surface, several cells 
+  urlLink bcc Fermi surface, several cells bounded 
+
+     
+
+
+
+    

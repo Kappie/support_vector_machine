@@ -1,0 +1,6 @@
+
+
+     
+       mysqldiff -- a utility for comparing MySQL database structures   mysqldiff can take two SQL dumps, from two different databases and compare them, just like the regular diff. The best part is that it produces a valid SQL patch to apply in the second database. Very usefull, grab it here:  urlLink mysqldiff .   This post was created using BloGTK 
+     
+    

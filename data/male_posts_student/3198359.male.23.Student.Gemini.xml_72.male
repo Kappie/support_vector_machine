@@ -1,0 +1,7 @@
+
+
+	 
+      Finally got Fedora 2 installed along with all the updates :-)  We have now almost a totally Windows free house! the folks love their new computer loaded with Fedora. They can syncronise their camera using gPhoto2 and run Microsoft Office using CrossOver Office.  One thing I would suggest, don't use up2date, it is, quite frankly, a buggy POS should never have seen the light of day; who ever wrote it needs a public flogging due to the time wasted on my behalf trying to download patches only to find the bloody thing stops working halfway through a download.  What is the alternative? edit /etc/yum.conf and change the mirror to something close, in mycase I used planetmirror.com, drop down to command line, log in as root, and run yum update, that will update the list of available packages and start downloading those files that can be updated.
+     
+
+    

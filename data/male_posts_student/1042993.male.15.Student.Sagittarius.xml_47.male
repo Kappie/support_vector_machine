@@ -1,0 +1,8 @@
+
+
+
+       
+      Currently, I am working on what seems to be the beginnings of a talk radio show.   urlLink Nick  and I will be working on this internet radio show early this summer and hope to have it running for the rest of the summer.  So, if you're curious, here's how I'm doing the test version right now...  I'm running PeerCast as a radio client which allows me to open a channel on port 7144 (supposedly internet radio).  Then, I have SHOUTcast and Winamp running in the background as my DSP (which collects sound to transmit).  Overall, I find this pretty neat, but there are still a few bugs to be worked out.  If you want to listen in on some of the test work being done, go over to peercast.org and click on talk radio.... We should be up there somewhere if we haven't pulled down for configuration...   UPDATE:  Right now we are DOWN because of a few minor bugs, but we should be back for some more testing tomorrow night...  I am going to dedicate the Tech Help blog that I have to show notes - Stay tuned!
+     
+
+    

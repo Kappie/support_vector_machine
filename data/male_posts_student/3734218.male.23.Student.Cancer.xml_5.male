@@ -1,0 +1,8 @@
+
+
+
+       
+      I've partially finished my cocoa wrapper class for the BSD sockets API.  Fun stuff.  Not very good, only does TCP streams, it's not buffered, and both the writing and reading block, so they should be called within a thread or a runloop, or something.  Well, the reading, at least.  The class is pretty small, and should be easy to extend to do what you want, including buffers or other socket types.  You can get it  urlLink here .  Just leave me a comment!
+     
+
+    

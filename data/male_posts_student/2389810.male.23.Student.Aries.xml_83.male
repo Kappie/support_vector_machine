@@ -1,0 +1,11 @@
+
+
+
+    
+
+        
+ I finally managed to figure out how to compile on the SGI.  I figured I'd start with a version of POV-Ray that is specifically designed to render protein surfaces (Pov4Grasp).  In general surfaces have a ton of triangles.  With the version compiled for the SGI Tezro system, I rendered the image above in 5 seconds.  I even managed to put in a white floor (sort of reminds me of Apple's product photos).  Pretty impressive stuff.  Now that I have this all figured out I have to leave.  Argh! 
+
+    
+
+    

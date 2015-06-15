@@ -1,0 +1,12 @@
+
+
+
+    
+
+        File Transfer on Steroids 
+ 
+ I wanted to transfer some files from the SGI machine at work to my home PC.  I have my home PC set up with Bulletproof FTP.  As it turns out, I can access this FTP account from the UNIX shell on the SGI.  IRIX thinks my machine at home is a UNIX box.  I transferred files to my machine at a rate of around 388 Kbytes/s!  The only annoying thing is that everything is command driven.  Perhaps someone has written a GUI. 
+
+    
+
+    

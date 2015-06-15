@@ -1,0 +1,8 @@
+
+
+
+       
+       Lifted off the net >>   Go to  /usr/share/apps/switchdesk  and you will find files like Xclients.gnome, Xclients.kde so make a file for your chosen window manager and make it excutable. As for the contents of the  file, keep it similar to other Xclients.xxx   And now edit the file:   /etc/X11/xdm/Xsession   and check out the section that calls window managers and add a entry for your chosen window manager. As you will see this file actually calls  /usr/share/apps/switchdesk/Xclients.xxx    And now go to the directory  /etc/X11/gdm/Session  and create a new file having name of your Window Manager and for the contents of this file. You will find files like GNOME, KDE in the directory so keep the contents of the new file similar to those files, and make it executable.   And now simply restart gdm with command:   #gdm-restart   Another good source is  urlLink http://www.networksynapse.net/gdm.html 
+     
+
+    

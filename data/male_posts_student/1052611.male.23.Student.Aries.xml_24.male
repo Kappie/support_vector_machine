@@ -1,0 +1,8 @@
+
+
+    
+       
+      Wanted to learn and write a tutorial on windbg. But you know what, someone beat me to it :(.  http://www.codeproject.com/debug/windbg_part1.asp provides a nice introduction.   Why learn a new debugger? you may ask. Well here are some reasons:       Cool value    Scare your peers when they come to your office (assuming they dont know :) )    You can say, this can be done easily in windbg when you dont know what to do.    It has the wt (call graphs of each call) command     Execute arbitrary commands on break point and continue    Good logging features   
+       
+    
+    

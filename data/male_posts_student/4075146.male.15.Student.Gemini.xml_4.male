@@ -1,0 +1,6 @@
+
+
+     
+      A bit of progress today...lately, since about late Thursday, I've been working on using NetBeans's metrics module for my program, as it calculates all of Chidamber's metrics, and is open source. However, I'm missing libraries, I can't get the JAR to open the class I tell it too, I can't figure out how to access the module from Java itself without using NetBeans, etc...lol just a whole slew of problems with that. So while I wait for word on that problem off the Java forums, I've been implementing more metrics...I "implemented" WMC (although that was really just renaming the method count that I've had in there for weeks--Chidamber and Kemerer were pretty vague on defining "complexity", and a definition of it can't be agreed on, so generally a straight method count is used (Pasha, should I change this to something else?). I also implemented the DIT metric--that was fairly simple, and I actually discovered it by accident while testing what was supposed to be the first part of a fairly complicated DIT calculation method. Turns out that was all I needed, and it cut out a bit of work--I meant to get the superclasses of each class, check it against all the other classes, add to a running count, etc., but it turns out that BCEL does that automatically when creating the superclasses array. How nice :) Shalom!
+     
+    

@@ -1,0 +1,8 @@
+
+
+
+           
+      While I'm surfing the web I found a software called Reflector has released its new version, so I downloaded and installed this new version to see if there is any difference. Reflector is a decompiler for .NET. It can decompile the .NET programs and components to IL or  even C# code. It is very useful since I can use it to view how a function is implemented in the .NET Framework. When I started the program, the Reflector let me chose the .NET Framework version, including 2.0 one. I clicked the 2.0 one, and the program worked fine. I tryed to open the mscorlib assembly and decompiled a method in the List  class. Wow, the decompilation process worked smoothly and I can see the C# 2.0 code! So I can conclude that the Reflector works woth .NET 2.0! How amazing it is!
+     
+
+        

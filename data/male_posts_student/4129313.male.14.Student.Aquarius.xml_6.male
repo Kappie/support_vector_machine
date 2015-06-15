@@ -1,0 +1,8 @@
+
+
+
+           
+      I made a few more changes to the template, put back the original commenting system, but left the trackback for some odd reason. Added a google search thing, but I cant figure out why it don't work, but I think that indexing thing isn't instant. If/When I do get it to work, all you have to do is hit enter when your done typing. All I did was hid the submit button with a style="display:none;" if you want my code just view the source code:  urlLink Firefox  users click  urlLink here   I also added this realy cool expandy/contracty script to the comments (like on my 1337 desktop:) ) Thats also viewable in the source.  I removed the stupid navbar at the top by commenting out the original closing head tag and opening body tag and adding a new one right after the comments, but in IE (use firefox ;) ) it has a --> at the very top 
+     
+
+        

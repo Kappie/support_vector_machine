@@ -1,0 +1,8 @@
+
+
+
+       
+      Are you tired of getting the messenger Service popups every time you go online?  Well there is an easy solution to that problem.     Goto:  » Start » Settings » Control Panel » Administrative Tools (under "classic view") » Services  Now locate the service "messenger" and click stop.  It's that simple!  You could also stop those popups by using a firewall.  You can use the Windows Firewall (Under Windows XP) or use the Free ZoneAlarm I told you about yesterday.  If you want to send messages to someone go to the command prompt and type this in:  net send "ip address" "message you want"  Do not use the ""s  I just used them to seperate the message.  
+     
+
+    

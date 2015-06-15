@@ -1,0 +1,8 @@
+
+
+
+       
+         Xfce is a really cool Desktop environment for Linux. Its really light on resources compared to Gnome and Kde, and just as pretty.   Installation I tried doing an rpm install. I guess a tool like  apt  would've made it a lot easier. After downloading 23 rpms, I realized that I was missing a few files. They turned out to be headers with the  .hdr  extention. I found these files in the header directory, but had *no* idea what to do with them.  But then I had also started a parallel download of the source files. And instead of going through help forums, I opted to do a source compile. This is my compiling order:   libxfce4util  libxfcegui4  libxfce4mcs  xfce-mcs-manager  dbh   xfce4-panel  gtk-xfce-engine  xfce4-systray  xfdesktop   xfce-mcs-plugins  xfce4-themes  xfce4-iconbox  xfce4-mixer   xfce4-toys  xfce4-trigger-launcher  xffm  xffm-icons   xfprint  xfwm4  xfwm4-themes    Note  ldconfig:   To add the path  /usr/local/lib  to ldconfig, append it to  /etc/ld.co.conf  and then run ldconfig.
+     
+
+    

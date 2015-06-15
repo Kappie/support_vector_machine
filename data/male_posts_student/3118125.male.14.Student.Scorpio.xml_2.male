@@ -1,0 +1,6 @@
+
+
+    
+       ok, stuff about my website now id cahnged it so tht it would automatically log the times tht people logged onto the site whenever they did it was only later tht i realised tht the times tht it was getting were the times according to the server, which are american. as i live in the UK, i decided to change them all to their proper GMT counterparts this proved to be very time consuming, as i had to replace  	 $date = date("d/m/y H:i:s");   with   		$date = date("d/m/y"); 		$date2 = date(":i:s"); 		$hour = date("H");  		switch ($hour) 		{ 		case "1":$hour = 7;break; 		case "2":$hour = 8;break; 		case "3":$hour = 9;break; 		case "4":$hour = 10;break; 		case "5":$hour = 11;break; 		case "6":$hour = 12;break; 		case "7":$hour = 13;break; 		case "8":$hour = 14;break; 		case "9":$hour = 15;break; 		case "10":$hour = 16;break; 		case "11":$hour = 17;break; 		case "12":$hour = 18;break; 		case "13":$hour = 19;break; 		case "14":$hour = 20;break; 		case "15":$hour = 21;break; 		case "16":$hour = 22;break; 		case "17":$hour = 23;break; 		case "18":$hour = 24;break; 		case "19":$hour = 1;break; 		case "20":$hour = 2;break; 		case "21":$hour = 3;break; 		case "22":$hour = 4;break; 		case "23":$hour = 5;break; 		case "24":$hour = 6;break; 		}   
+    
+    

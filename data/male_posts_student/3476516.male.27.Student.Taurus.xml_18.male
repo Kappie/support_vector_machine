@@ -1,0 +1,18 @@
+
+
+
+	 
+
+       urlLink blogbot 
+ Ok I have added a sitefeed which allows for people to either view my site in a newsreader or to be used on other sites. To test this aspect out I tried blogbot from the above link. 
+ 
+ It installs itself in the broswer, which allows for easy access, and you can view if there are updates very easily by the number next to the feed name. 
+ 
+ So to set up I had to add a new feed and enter the following:
+ Title: William Andrus
+ URL: http://www.cs.sunyit.edu/~andrusw/home.html
+ RSS URL: http://www.cs.sunyit.edu/~andrusw/atom.xml
+
+     
+
+    

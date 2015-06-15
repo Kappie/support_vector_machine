@@ -1,0 +1,8 @@
+
+
+
+       
+       #!/usr/bin/perl # AutoTagger-Perl v0.1a (June 26, 2004) # Pravin [pravinp at gmail dot com] # This snippet illustrates automatic tagging of  # http://www.tag-board.com tag boards  use HTTP::Request::Common; use LWP::UserAgent;  # Enter your details here my $myname = 'wyrm'; my $myurl = 'http://wyrmspace.blogspot.com'; my $mymessage = 'Test Message';  # Add taggy names to this list my @taggylist = ( 	"oh_its_dee", 	"me_reiya", 	"Vighy", 	"rrighton");  # Code Starts $ua = LWP::UserAgent->new(); foreach (@taggylist) { 	print "$_\t"; 	$ua->request(POST 'http://www.tag-board.com/add.tag',  		[name => $_,  		tagname => $myname,  		tagurl =>$myurl,  		message => $mymessage]); 	print "done\n"; } 
+     
+
+    

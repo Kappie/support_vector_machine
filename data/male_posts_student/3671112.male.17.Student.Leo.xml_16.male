@@ -1,0 +1,5 @@
+
+
+	 
+      lately i've been working on a Final Fantasy Tactics-style engine (i think there's also a game called Battle Ogre or something that's similar and came before FFT?). i'm calling it the Tactx Engine (catchy, huh?). there's not much right now, as i started on it two days ago, but here's  urlLink a screenshot  i took about an hour ago. coding the map editor first so i'll have a map format to load and build the rest of the engine on top of. the Square class i made is looking pretty good so far, and hopefully everything that follows will too.    oh, and the code is cross-platform, thanks to  urlLink glut . i'm using  urlLink freeglut  on my linux machine, but a friend of mine compiled what i have so far on his windows machine using  urlLink MinGW  and the "official" glut port to windows, and it worked fine (had to define GLUT_DISABLE_AFHACK_SOMETHING - or something similar, don't remember - for it to compile on windows, but it works (and yes, the process DOES exit, for those of you who know what i'm talking about). anyway,  urlLink OpenGL  kicks ass. period. 
+    

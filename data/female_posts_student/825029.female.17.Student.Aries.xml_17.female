@@ -1,0 +1,6 @@
+
+
+	 
+      // Chapter 8 test // Charles McTygue #include  iostream.h>  int main() { 	int j; 	float x; 	for(j=0; j 		cout  	cout  	for(j=16; j>=3; j--) 		cout  	cout  	for(j=2; j 		cout  	cout  	 	cout  	cout  	cin >> x; 	if(x 100) 		cout  	while(x>1.0) 	{ 		cout  		x=x/3; 	} 	do 	{ 		cout  		cin >> j; 		if(j>=1  j 			break; 	} while(j 10); 	cout  	return 0; }
+     
+    

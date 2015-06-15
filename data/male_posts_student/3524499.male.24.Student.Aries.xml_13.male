@@ -1,0 +1,8 @@
+
+
+    
+       
+       [Participants] : Cecile, Kyle, Olly (with Steve)  [Time  Location] : 2pm  Steve's office    [Issues] :  1) VPN setup: a) machines will be allocated soon together with hubs; b) 2 network interfaces per machine, so possible do some routing;   2) Design proposal : a) should include the functionalities, not too much detail; b) show what a dynamic system might be/how to achieve dynamic (eg. who change the policy(dynamically)) c) a sequence diagram is helpful; d) what threats are there in the system, and how to deal with them. e) divide/define the system blocks; f) specify the policy (refer to AKENTI) g) distribute policy (protocol) and justify it!  h) key points: distribute policy in a secure way; authenticate; whether to store or not the policy; forwarding engine and how to realise it....   3) Manish a) talk to him maybe next Tuesday; b) he's the Mr. VPN ---- excellent resource!!  4) Hash Chain a) used for secure packet identification (packet label, if same then not secure (vulnerable to vicious traffic analysis) , so use hash chain to change label in a controlled way) b) is fine in simple situation; c) but in Piergiovanni's report, he didn't explain well. Find out what it is!! d) a good way for report: present/explain the problem, and then approach it, solve it!  5) AKENTI It is very helpful in the policy specification/distribution, although not about VPN. Explore it more carefully!!    [To Do List] : 1) prepare the design proposal; 2) try to work out a clearer idea about the prototype;    [Supplement] : 1) Next meeting with Steve on Thursday(10th June) at 3pm; 2) He expect more technical detail!! good proposal!!  
+       
+    
+    

@@ -1,0 +1,25 @@
+
+
+	 
+        
+
+MXM (Mobile PCI eXpress Module) 
+•Faster time to market, with the latest graphics technology 
+•One notebook design, sold into many notebook products 
+•One notebook design that can use any graphics solution, from any vendor 
+•Notebooks whose graphics technology can be upgraded through the channel or,
+potentially by consumers 
+
+
+ 
+  
+  The modules themselves come in three "flavors" - MXM-I, MXM-II, and MXM-III. The proposed design is installed by sliding the module into the slot at a 20   - 30 degree   angle, rotating it into its final position (in contact with the cooling solution) and locking it into place with four screws. Also note that t he stand-off locations for the screws will be the same for all MXM graphics modules, which would allow one motherboard to support all three MXM graphics module types . Each of these modules will use the same slot, and each is backwards compatible with the other, but they have different physical attributes and can accommodate different components...   
+
+ urlLink View the chart here.  
+ 
+  In the chart above, each module varies in physical size, max power consumption, memory configuration and the maximum GPU size. MXM-I is designed for entry-level notebooks, MXM-II for medium form factors with somewhat higher performance, and MXM-III is designed for high-performance systems. MXM-I and MXM-II slots were also designed with the same thermal considerations in mind, but MXM-III slots will be equipped with beefier cooling solutions. At a maximum of 35W for an MXM-III slot, we obviously won't be seeing the power-hungry GeForce 6800 Ultra populating an MXM module anytime soon, but NVIDIA did tell us that this initiative will facilitate the introduction of their GeForce Go 6 Series of mobile GPUs derived from the NV40 architecture. I'm sure there will be some more information regarding mobile NV40 derivatives as it becomes available...  
+		
+	
+	
+     
+    
