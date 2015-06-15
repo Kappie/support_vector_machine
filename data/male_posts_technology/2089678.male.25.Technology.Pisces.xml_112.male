@@ -1,0 +1,6 @@
+
+
+     
+      Date and Time handling is fundamental to many applications. However, the classes supplied in Java have always been weak. Date should have been immutable, like String. Instead, it has many deprecated methods. Calendar makes accessing 'normal' dates difficult, due to the lack of simple methods. Calendar also has some strange performance characteristics.  The Joda Dates project seeks to provide an implementation of dates and times for the Java community. The 'default' calendar system implemented will be the ISO8601 standard. This specifies a framework for date and time independent of locale. Thus, in the standard, the first day of the week is Monday, and this has the index 1. This avoids any ambiguity across national boundaries.  Additional calendar systems supported are Gregorian, Julian, GregorianJulian (GJ), Buddhist and Coptic. The design is flexible and pluggable, so adding additional calendar systems should be easy.   [Resource-Type: API; Category: Java/J2SE; Level: All, XRating: 4]  *Explore this API with  urlLink JACK  and develop your programs faster  
+     
+    

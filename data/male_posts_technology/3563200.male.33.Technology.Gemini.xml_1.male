@@ -1,0 +1,6 @@
+
+
+	 
+      set the ID of dynamically created web user controls in your ASP.NET pages so events on post-back go the the 'right' places. If you don't set the ID, then the runtime will do it for you and the results may not route events on post-back the way you intend.  Took me an hour to figure that out. Hope I've saved someone some trouble. 
+     
+    

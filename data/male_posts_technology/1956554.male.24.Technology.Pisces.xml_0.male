@@ -1,0 +1,6 @@
+
+
+     
+       urlLink http://sourceforge.net/projects/editorviewer/   urlLink http://www.eclipse-plugins.info/eclipse/plugin_details.jsp?id=540   "This Eclipse Plugin "EditorViewer" provides a view of all open editors within Eclipse. The goal is to provide as many of the same features of the "Navigator" plugin provided with the base Eclipse install. Currently Eclipse presents the list of open editors via the use of tabs, while useful if only a few files are open, the names on those tabs quickly become useless/unreadable as more and more editors are open. This plugin aims to provide a means to clearly access the open editors regardless of the number as well as provide convenient functionality for those editors such as comparison and team functions."  This is a very nice plugin.. It corrects one of the few irritant factors in Eclipse. This is the beauty of the Eclipse's plugin architecture, one does not need to wait for the next release of the product, anyone can build a plugin for the small/big feature that he believes will make Eclipse a better place to live.
+     
+    

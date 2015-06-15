@@ -1,0 +1,10 @@
+
+
+
+    
+
+       Add features to your SharePoint sites through reusable Web Parts by Jason Mauss   For This Solution: C#, Microsoft ASP.NET 1.1, Microsoft Windows SharePoint Services Beta 2, Microsoft Windows Server 2003, IIS 6.0, Microsoft Visual Studio .NET (2002 or 2003)  With the release of Microsoft ® Windows ® SharePoint TM Services 2.0, both developers and users will have a much more powerful way of pulling information from multiple locations into a single display. Included is an extensible infrastructure (including a .NET object model) for building components from which users can assemble their own sites.  At the heart of this infrastructure are three things. First, there are Web Part Pages, which are the pages the end users see and can personalize to fit their needs. Second, contained within Web Part Pages are Web Part Zones, which are the containers of the third item, Web Parts. The focus of this article is to show you how you can build Web Parts that users can then add to their Web Part Pages, customizing the look (if desired).  
+
+    
+
+    

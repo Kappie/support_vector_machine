@@ -1,0 +1,7 @@
+
+
+	 
+      Doh, you made me curious about whether it is possible to connect via COM toUNO with Python, and yes it is!I claim to know that there is no information about how to do that withPython (especially), but it might be useful that you read documentationabout the Automation Bridge: urlLink http://udk.openoffice.org/common/man/tutorial/office_automation.html What I did is easily use the lines you write in VB for Python and itabsolutely worked:The following example will open a new writer document of OOo:>>> from win32com.client.dynamic import Dispatch>>> server = Dispatch('com.sun.star.ServiceManager')>>> odesktop = server.CreateInstance('com.sun.star.frame.Desktop')>>> odesktop.loadComponentfromURL('private:factory/swriter', '_blank', 0,[])list is the equivalent to an array type of UNO.Now it should be easy for you to figure out how to export something to pdf,I would just read how you do it with Starbasic (OOo's own scriptinglanguage) and then translate it into Python (as you saw in my example it'sactually a very simple translation of how you would do it with Starbasic,VB). 
+     
+
+    

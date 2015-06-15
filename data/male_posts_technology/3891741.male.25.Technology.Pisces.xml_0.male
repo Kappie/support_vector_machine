@@ -1,0 +1,5 @@
+
+
+	 
+      It is pain to look up the connection strings for these databases, here are some snippets.   -- Oracle --  oracle.jdbc.driver.OracleDriver  conn = DriverManager.getConnection("jdbc:oracle:thin:@0.0.0.0:1521:DB_NAME",_username,_password);  note: classes12.zip  -- MySQL --  dbc:mysql://127.0.0.1/MYSQL_DB?user=MY_USER=XXX   and the Driver  com.mysql.jdbc.Driver    -- Sql Server --  public static final String _connectString = "jdbc:jtds:sqlserver://0.0.0.0:1433/SOME_DB;user=BLAH;password=BLAH";    try {  Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();_conn =DriverManager.getConnection(_connectString); } catch(Exception e) {e.printStackTrace(); } // end of the try - catch 
+    

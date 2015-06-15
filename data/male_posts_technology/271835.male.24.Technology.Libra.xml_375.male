@@ -1,0 +1,8 @@
+
+
+
+       
+      4 REM POKE to stop scroll y/n prompt  5 POKE 23692, 0  10 FOR n=1 TO 10000  15 REM next escaped slave  20 PRINT I'm  urlLink Spartacus!   30 NEXT n  35 REM Crassus  40 PRINT Well you can all fscking die then!  50 FOR n=1 TO 10000  60 PRINT hammer, hammer, hammer  70 PRINT arrrggghhh!  80 NEXT n  85 REM Senate  90 PRINT Pompey is our hero! Yay!  95 REM Crassus  100 PRINT WTF?  110 STOP  READY      EDIT:  To be truly geeky I've just added lines 4  5.   
+     
+
+    

@@ -1,0 +1,7 @@
+
+
+	 
+      Optimisation... more thoughts.  I posted yesterday about the importance of optimising your code, something that is often done as an after thought (we're just as bad as this). Well it got me thinking on my way home last night.  Currently I am rewriting the development process for my company. This is something that's never been done as a formal excercise here, and it's harder than you might think.  It's not like we have no development process and it's all chaos, not at all. The process has evolved over the last 5 years. But no one has sat down and tried to pull all the threads together into a cohesive whole and bring in new best practice from outside.  The reason I'm talking about this is that while I was bemoaning the fact that people don't have planned optimisation periods in their development plans, I hadn't yet thought about this in the one I was writing.  As part of the rewriting the process I have been reading  urlLink Java Extreme Programming Cookbook  by Eric M. Burke and Brian M. Coyner. In this they talk about  urlLink JUnitPerf . While this canot do all your performance monitoring, and you should still have a period of optimisation, I do think that this should be the foundation of an early warning system for you.  I'm going to add this to our development process document, and I'll let you know how it goes. Would be good to know if anyone else had ideas about this.
+     
+
+    

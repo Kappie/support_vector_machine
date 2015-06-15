@@ -1,0 +1,6 @@
+
+
+     
+      Hi everyone,    I found a way by which images can be posted. Remember, Images can be inserted only, not uploaded. To insert images into the blog post, you need to know a little bit of basic HTML.    Say, I want to insert a image into the post say a Blogger logo. All I have to do is write the post as a HTML code.   --------  p  This is a bsample test post/bbr  This shows how you can insert images into the postbr  img src="aaa" width="xxx" height="yyy"  eg.      Note:  'aaa'=source image, the actual path of the image. You can find this out by rightclicking the image you want to be posted to the blog.  'xxx'=the width of the image to be displayed.   'yyy'=the height of the image to be displayed.  --------------------------    Try it out...    Bye,  Jax.   
+     
+    

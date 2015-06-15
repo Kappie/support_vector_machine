@@ -1,0 +1,38 @@
+
+
+       
+       
+ 
+ 
+   Introducing: NUnitX and the Rollback attribute - Seamless database rollback with Nunit      
+  My article on    performing database unit tests with rollback ability    has managed to get quite a lot of attention. There were some caveats to that method, though:  
+ 
+  You had to inherit from ServicedComponent thus limiting your inheritance chain  
+  It meant you had to strong name your assemblies  
+  Some trouble was encountered when running the tests through the NUnit GUI (disposing objects too soon) for some people.  
+  All tests were run under the same transaction context   
+  The other way to go on this was to use the method called "Services without components" - mainly utilising the ServiceDomain and the ServiceConfig classes found in the System.EnterpriseServices namespace, but are relatively unknown or unused. I won't extend the discussion of the actual technicalities here because I'm planning at article on this subject, but for now you can enjoy the fruits of this research today.  
+  What I  really wanted  was to be able to write something as elegant as this:  
+   [ Test , Rollback ]   
+    public    void   Insert ()    
+   {   
+      //Do some inserts into the DB here     
+      //and the automatically roll back     
+   }   
+   
+  So, I dug deep into the bowels of the Nunit Framework and came out with something that did exactly that - I added a new attribute to the framework -   
+   RollbackAttribute   
+  by placing that attribute on a test method that test case will automatically run inside its own transaction context, and automatically roll back at the end of the test. It's really quite cool and I'm using it today in our applications.  
+  yes. using it looks exactly like this:  
+    
+   [ Test , Rollback ]   
+    public    void   Insert ()    
+   {   
+      //Do some inserts into the DB here     
+      //and the automatically roll back     
+   }   
+  So - I went ahead and compiled a custom version of the NUnit framework just for you. I like to call it NunitX - it is a mutant and as such must have a cool name. Hope you agree. To use - simply add a reference to the NUnit.framework.dll found in the zip file instead of the one you usually reference. that's basically it.  
+   Here's a direct download link for the zip file (130k)   
+     USAGE NOTES  ------------- *  windows XP SP 1 or above required  (COM+ 1.5 is required for this to work - that's why) * this version is using Services without components = no strong naming assemblies is needed * the NUnit Add-in will work, but when you use the Nunit-Addin you will *not* have Rollback abilities * Each Test method will run in its own separate transaction * If you have an object down the line which uses its own transaction and calls Commit on it - you will not be able to rollback that commit.  This will only happen if that object uses the TransactionOption.RequiresNew flag. for objects that use the TransactionOption.Required flag - rollback will work just fine. * you need to use the  Nunit-gui  and  nunit-console  versions that come with  this  distribution. you CANNOT use the original NUnit gui or console applications to run tests that use this custom framework    
+       
+    

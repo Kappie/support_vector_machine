@@ -1,0 +1,10 @@
+
+
+
+    
+
+       
+
+      I finally manged to upload my homepage, it's not yet complete, but the design is getting close to finished anyways!  I've moved to a really simple way of doing everything, using ASP Include to include (!!) the menu, head and stuff like that. Otherwise it's just simple XHTML files really...   They all validate, pr. the  urlLink W3.org Validator , as XHTML1.1 and the stylesheets, pr. the  urlLink W3.org CSS Validator , as CSS Level 2.  The original design is by my good friend  urlLink Mabus, from Q1N.org .   I sincerly hope that people start using XHTML soon, couse it is way better than all the old 'standards'. And if just IE could conform to the standards, that would be nice! :)  Don't even bother having a look at the page if you are using IE, it sucks... For some unknown reason it renders the page wrong and picks the wrong stylesheet... I couldn't really be bothered to fix it for now... But the 'colorful-style' sheet is NOT finished... It's just bad, plain and simple... But I'll work on it some other time, not now... Design is boring! :)  Also alot of the content is missing from the page, working on a lot of the stuff right now. Got big plans for my CV section, PDF generation on the fly etc. Need to figure out how to do that from ASP.NET, but shouldn't really be that hard, should it ? :)
+
+      

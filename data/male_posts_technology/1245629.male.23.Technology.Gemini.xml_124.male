@@ -1,0 +1,8 @@
+
+
+
+       
+      Suppose you have 1.c 2.c 3.c To create tar file of name *codes.tar*, the command is tar -cf codes.tar 1.c 2.c 3.c  c option stands for create. f for file  tar -czf codes.tgz 1.c 2.c 3.c will create a compressed tarred file.  Now for extracting these is this command tar xvf codes.tar tar xvzf codes.tgz  f should go along with filename.     
+     
+
+    

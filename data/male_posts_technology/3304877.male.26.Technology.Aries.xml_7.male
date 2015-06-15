@@ -1,0 +1,8 @@
+
+
+
+           
+       urlLink fedora core 2  was released to the general public today and my first impressions are that it is a better version of core 1. i can't say that i really got a chance to dive into it that much (mostly due to the fact that the complete installs i do are time-consuming and i did three today) but i can say that it doesn't have the quirks that the core 2 test releases seemed to have. specifically, it actually installed on all three machines and didn't crash when i went to use the main menu (a first since core 1). one hiccup i did encounter was that the current  urlLink nvidia  driver doesn't seem to work with the new kernel. i'll do more research tomorrow to see if there is a workaround but it was easy enough to rollback the  urlLink X  driver for now (i can live without 3-d acceleration for a  little  while). i still hate the default bluecurve (is it still called that?) theme - makes  urlLink linux  look like  urlLink windows'  crappy stepchild.
+     
+
+        

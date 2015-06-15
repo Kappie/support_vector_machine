@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Microsoft to issue security patch for IE  : "This is how it works. The actual URL syntax in the link--which appears in the IE address bar when the link is clicked, and also at the bottom of the IE window when someone rolls over the link with the cursor--looks like this: http(s)://username:password@server/resource.ext. The browser uses whatever is to the right of the @ symbol to locate the Web page. Everything to the left of the @ is used to authenticate the user. If there is no authentication mechanism available on the targeted page, the beginning part of the URL is ignored. Attackers, then, can use the area to the left of the @ symbol to create a fake Web address and fool victims into going to a different page or site. For instance, the URL http://www.cnet.com@example.com looks like it will go to the Web site www.cnet.com, but it actually goes to http://example.com. "
+     
+
+    

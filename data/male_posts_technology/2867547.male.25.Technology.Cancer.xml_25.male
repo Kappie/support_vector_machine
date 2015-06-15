@@ -1,0 +1,6 @@
+
+
+	 
+      A week ago I made a post about my implementation of a urlLink  Data Access Library for my first .NET project . Recently I found and read a very good document of ADO.NET usage. It is  urlLink ".NET Data Access Architecture Guide"  from the splendid series of articles 'Microsoft patterns  practices'. This document is just a great starting point and  companion through your ADO.NET programming. Many interesting topics are covered in there: connections, .NET Data providers, stored procedures, performance, datasets, transactions etc.. There is no need for me to repeat the TOC,  just take a look at it. Definitely, the document is written by experts and there are a bunch of useful tips and recommended practices in there. Different scenarios of using ADO.NET are described, depending on project's requirements and flexibility/performance tradeoffs. After reading the doc, I think I should make some changes in DBHelper DAL library.  I have dozens of ideas how to improve it and how to prepare some useful recommendations how to use it. I hope I will do what I've planned, when I am not that occupied...
+     
+    

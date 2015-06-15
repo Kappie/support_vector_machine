@@ -1,0 +1,6 @@
+
+
+    
+       I discussed the algorithm one would use to convert decimal to binary.  I decided that it would probably be easiest to start of with a simple method simlar to this:   $decnum = STDIN>; # get input from the user while($decnum    for ($x = 1; $x    # find the largest number that where { log(x)/log(2) = W (W is a whole number) }     $maxnum = $x;   }   $decnum -= $maxnum; # subtract the binary-based num. we have so we can loop   push (@onevals, $maxnum); # store the binary-based num. for later use  } $currentnum = shift(@onevals); # get the largest binary-based num. we put in storage $binarynum = "1"; # add a 1 in front (this is our starting point)  for($x = 1; $x    $binarynum .= "0"; }  while(@onevals) { # add all the ones in the right spots   $currentnum = shift(@onevals); # find the next largest binary-based number   $binarynum ~= /0(0{log($currentnum - 1)})$/; # find where the next one should go   $binarynum = $` . 1 . $1; # add the one in there } print "$decnum in binary is: $binarynum"; # print the result   Please realize that this code was just written off the top of my head and I haven't even tried it yet.  Perl is almost never bug-free for me the first time.  Its the basic idea though. 
+    
+    

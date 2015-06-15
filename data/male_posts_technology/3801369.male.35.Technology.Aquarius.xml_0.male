@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink    From a mate of mine, Sean McLeod:  Feel like flying with a Thinkpad laptop? ;-)  A lot of the new IBM Thinkpad laptops have accelerometers in them to detect hard-knocks and to detect when the laptop is being dropped in order to park the hard-drive heads so that they don't damage the hard-disk.  Using the 2-axis accelerometers it's possible to calculate the pitch and roll angles of the laptop assuming that the laptop isn't currently accelerating.  So hooking up this data from the accelerometers into my PFD (attitude indicator etc.) software I've got some attitude on Marcelle's Thinkpad. See the attachment for a demo snapshot of it in operation.  The original idea came from  urlLink here .   urlLink   
+     
+
+    

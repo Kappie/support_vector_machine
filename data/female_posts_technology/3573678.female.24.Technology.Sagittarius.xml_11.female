@@ -1,0 +1,6 @@
+
+
+    
+       I was writing a web based RSS reader. Working in .NET, I wanted to write my own reader, rather than download one. Actually the reason for going in for a web based reader was, it could be used by even others who do not have .NET Fx installed. Actually, many of you who have already done this, would know how simple it is to write a RSS reader. Even I found it very simple. But when I tried running the app, I was in for some surprises. My office network is behind a firewall. So whenever I tried running the app, “ The underlying connection was closed: The remote name could not be resolved ” error. After some thought a little research I found out a workaround. Thought I would share this.  I added the following lines to the page load event…and lo! It started working…  IWebProxy proxyObj = new  WebProxy(“IP address of the proxy server:portnumber”,true); proxyObj.Credentials = new NetworkCredential( , , ); GlobalProxySelection.Select = proxyObj;  Hope this helps…  
+    
+    

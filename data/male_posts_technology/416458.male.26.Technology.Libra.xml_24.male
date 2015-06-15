@@ -1,0 +1,7 @@
+
+
+	 
+      Optimisation update...  So we're still improving on our optimisations from the other day. I've been doing a bit of a postmotem in my head about how we got into this situation.  At the core our code is five years old, has been optimised and works extremely well. Our problems have come from adding a new layer over that code. In this case a WebDAV implementation, for communications with the administration application. Now WebDAV specifies oppourtunities for optimisation of the protocol, for example you are able to ask for a partial set of a resources properties.  Well the WebDAV optimisations didn't quite fit with our model and so we were getting all the properties each time, planning on fixing this later....it got forgotten.
+     
+
+    

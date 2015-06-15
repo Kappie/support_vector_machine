@@ -1,0 +1,6 @@
+
+
+     
+      Atlast found some thing to have [more] clean registry .... though never really programmed in COM [.NET being my bread and butter from start] but have to use COM  time and again .. for eg Shim controls which help putting user controls in VS.NET, MMC etc etc.  Tools mainly used while playing with COM :  regasm : tool in .NET Framework to register/unregister dotnet assemblies in windows registry. regsvr32 : tool in Win32 to install/uintsall dll as in-proc server  if you go through a process of using these tools for register  install it seems that whatever you added in registry would go away using unregister  uninstall but its not the case, you could see type library entries in registry even after unregister/uninstall from these tools.  here comes for rescue a good tool/utility from Jose at  urlLink developerfusion.com  .... this would get rid of stale entries from your registry.  Thanks to Jose for this good tool. 
+     
+    

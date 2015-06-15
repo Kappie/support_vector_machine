@@ -1,0 +1,8 @@
+
+
+
+       
+       File size limits for various file systems .  These values look pretty cool...  ext2/3 : 16TB reiserFS : 1EB (exabyte) JFS : 16TB on 32 bit, 4PB (petabyte) on 64 bit XFS : 8TB  BTW  urlLink this  article even though its outdated seems to contain very useful information on various journalling file systems.  In future Novell Storage Services shall rock... in these comparisons ;)  Here is NSS information.  * 64-bit file system that allows a file size up to 8 Terabytes. * Supports up to 8 trillion files per volume (depending on file size, the limit in data capacity is 8 Terabytes). * Allows 1,000,000 open files per server. 
+     
+
+    

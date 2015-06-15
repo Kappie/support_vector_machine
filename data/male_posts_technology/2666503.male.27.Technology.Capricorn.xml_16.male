@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      In one of my projects at work I've recently introduced a batch scanning module that uses the Kofax Ascent Capture product.  The project is a VB6 application.  In the past we had attempted to handle the batch scanning on our own, with, quite frankly, limited success.  Kofax is the largest manufacturer of imaging products in the world, and as such their software is incredible.  The move to a third party batch scanning solution was most definitely a good idea for us.  Kofax offers two distinct benefits: speed and flexibility.   Speed  Ascent Capture is very fast.  We paired the software with Fujitsu 4097D scanners that support Virtual Rescan (VRS).  VRS offers many advantages, the best of which is increased speed.  The performance is increased by converting a grayscale image to black and white at the hardware level instead of having to do the conversion on the PC.  In my tests I found that the 4097D scanned almost twice as fast when using VRS compared to having the VRS disabled.  Since Kofax is the creators of VRS, their software knows how to handle it.   Flexibility  Ascent Capture allows you to write VB scripts for almost everything!  I wrote a custom OCX that allowed me to call the Scan module from within our application seamlessly, as if it were a part of our own app.  That was great.  Even without writing a line of code, though, Ascent Capture is very flexible.  You can have the batch information written to any DSN data source, using the fields that you supply.  It supports bar code scanning as well.  We use it to pull the document number off of the documents we scan, tying them back to a record in our database and updating the image accordingly--no user input necessary.  Very cool stuff.  If you're looking to implement batch scanning in any of your projects, I'd definitely look into Kofax and Ascent Capture.  Oh, by the way, did I mention that it's cheap?  A 5,000 scans-per-month license is a little under $1,000.  A 25,000 scans-per-month license is available, as well as an unlimited license.  All very reasonably priced.  Our sales-people were jumping for joy when they found out how much money we were going to make off of our new batch scanning module! :) 
+     
+
+    

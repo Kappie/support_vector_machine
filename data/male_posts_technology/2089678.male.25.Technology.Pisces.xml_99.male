@@ -1,0 +1,6 @@
+
+
+     
+      With the Mobile Information Device Profile (MIDP) version 1.0, the Application Manager System (AMS) was the only means to start a MIDlet. Although the AMS is still ultimately responsible for installing, managing, starting, and stopping MIDlets, MIDP 2.0 applications can now be started based on a request from a remote connection or scheduled timer. This new feature brings with it a wealth of potential applications. For example, a remote application can push stock quote information on an hourly basis to a mobile device. Or how about this -- notifications from the corporate office can be sent to road warriors to alert them of schedule changes. Using the alarm feature, a MIDlet can now offer up reminders of scheduled events, such as a reminder of a meeting an hour before it begins.  This tutorial from IBM will walk through the basics of using Push technology with MIDP 2.0, including development of  a MIDlet that will be activated based on an incoming SMS message .  [Resource-Type: Tutorial; Category: Java/J2ME; Level: ADV; XRating: 5]
+     
+    

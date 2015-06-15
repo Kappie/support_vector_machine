@@ -1,0 +1,8 @@
+
+
+    
+       
+      Both the common language runtime (CLR) on which .NET applications run, and the C# language itself are open standards which anybody is free to implement. CLR -  urlLink http://www.ecma.ch/ecma1/STAND/ecma-334.htm  C# -  urlLink http://www.ecma.ch/ecma1/STAND/ecma-335.htm   Java, by the way, is not an open standard. It's proprietary, which means you need Sun's permission (ie: licensing) to create Java compilers and application frameworks. (There's nothing wrong with that per se, but how does this make Sun any better than Microsoft?)  In fact, there are a number of (open-source no less) projects underway to port the CLR to run under Unix and Apache.  The Mono Project -  urlLink http://www.go-mono.com/   Pretty soon, you'll be able to develop .NET applications (XML Web Services in ASP.NET even) without a single Microsoft product in sight.  If you're worried about Mr. Bill, I would also be worried about Mr. Scott (McNeely, CEO of Sun) and Mr. Larry (Ellison, CEO of Oracle). Both these companies would be just as nasty and ruthless and monopolistic were they "in charge" as our friends at Microsoft are. It's just like politics -- it's easy to appear to be a "good guy" when you're not in power, but when you are the clear market leader, it's hard to resist the lure of profits at the expense of customer service.  Perhaps the best solution is not to be married to any one vendor. Use a mix of Microsoft, Sun, Oracle, etc.  
+       
+    
+    

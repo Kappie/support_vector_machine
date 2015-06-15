@@ -1,0 +1,10 @@
+
+
+
+	 
+
+      Been messing about with ASP.Net and was having trouble getting CustomValidators to work correctly. I wanted Server Side validation for a Username (check to make sure that the username does not exist). I got it to the point where it comes back if an error occurs without writing to the database but it didn't display the error. Found this page:  urlLink 4 Guys from Rolla  that provided an easy server side only example. Still didn't fix why my message wasn't being displayed though. I think it has something to do with setting the controls to validate at design time in the design window. I am currently setting those properties at runtime through a function. Lets see how it goes when I switch that. 
+
+     
+
+    

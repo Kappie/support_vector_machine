@@ -1,0 +1,5 @@
+
+
+	 
+       A while back i wrote this application called Lancast, which is a server free 100% redundant IM protocol for local communication, to retaliate the fascist approach my school had taken against Instant Messaging. The idea was to create an IM protocol which just couldn't be blocked. I succeeded. To block this you'd have to close all UDP ports. Including those used by Netbios, DHCP, DNS and so forth, which would prevent anyone from accessing the network. There was just this tiny problem, it was written in C for GNU/Linux, which locked out 95% of the potential users.  Well, now i have fixed that flaw. I've re-written the entire thing in Java, making it publicly accessible to anyone, no matter which platform they're using (MS Windoze, Linux, *BSD, Solaris, they all work just as fine) 
+    

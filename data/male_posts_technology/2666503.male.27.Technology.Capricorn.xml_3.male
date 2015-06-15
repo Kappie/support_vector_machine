@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      In a recent project I decided to explore the idea of code generation, even writing a tool that automatically generated the classes for all the database access to a SQL Server database.  My tool was pretty specific to my needs, and in a later project I found that it just wasn't flexible enough.  In a link sent to me I happened to find a great freeware code generation tool created by Eric J. Smith called  urlLink CodeSmith .  It lets you write your own templates for code generation based on tables from any database (OLE DB or ODBC, including Access and SQL Server).  I used it to generate dozens of database access classes for one of my team's projects.  Saved literally hundreds of hours of coding.  Check it out and let me know what you think.  CodeSmith  urlLink http://www.ericjsmith.net/codesmith/ 
+     
+
+    

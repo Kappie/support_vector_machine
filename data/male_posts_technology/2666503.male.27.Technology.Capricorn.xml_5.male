@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      Yet another winning product I discovered while working on my current ASP.NET project is Active PDF (www.activepdf.com), an incredible toolset for creating PDF reports from .NET.  The tool I'm using from Active PDF is Active PDF Server.  Active PDF Server sets up a printer which can be selected and print to from your application.  You print to the PDF printer, and the object returns the path to where the PDF was created.  Very spiffy.  It took a little bit of tinkering and a few registry entries to get everything working right (since I have it installed on Windows 2003 running in terminal server mode--Active PDF requires some registry entries to run it in terminal server mode).  But once it was all setup and installed--WOOHOO!  I was very impressed.  Great compression, support for linearization (where the PDF is downloaded in pieces so that the web user can be reading the first page or two while the rest of the file downloads in the background), security settings (disable printing--which I needed--disable copy/paste, password protection, etc.), very fast PDF creation.  If you need a solid PDF solution, check 'em out.   NOTE:  I tried using a companion product, Active PDF DocConverter, but I had little success.  Although it purports to convert MS Word files and Rich Text Format files, I could never get either to convert with any consistancy.  I must say, though, that after talking (well, typing) to their excellent tech support guys, that it appears to be a Windows 2003 permissions issue.  I have had more Win2003 permissions issue than you can shake a stick at...  At any rate, I gave up on the DocConverter and just wrote my own custom reports in .NET (I was originally creating HTML templates and trying to convert them to PDF using the DocConverter).  One more thing: When I was able to get DocConverter to convert MS Word, RTF and HTML files, the quality of the output PDF was not good.  Most of the lines and tables were misformatted, fonts were wrong and missized.  It just wasn't a good solution.
+     
+
+    

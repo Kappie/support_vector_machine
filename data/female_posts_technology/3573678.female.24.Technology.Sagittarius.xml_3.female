@@ -1,0 +1,6 @@
+
+
+    
+       Given an XML Schema that complies with the XML Schema definition language (XSD) standard, you can generate a strongly typed DataSet using the XSD.exe tool provided with the .NET Framework SDK. The following code shows the syntax for generating a DataSet using this tool. xsd.exe /d /l:CS XSDSchemaFileName.xsd /n:XSDSchema.Namespace In this syntax, the /d directive tells the tool to generate a DataSet, and the /l: tells the tool what language to use (for example, C# or Visual Basic .NET). The optional /n: directive tells the tool to also generate a namespace for the DataSet called XSDSchema.Namespace. The output of the command is XSDSchemaFileName.cs, which can be compiled and used in an ADO.NET application. The generated code can be compiled as a library or a module.  
+    
+    

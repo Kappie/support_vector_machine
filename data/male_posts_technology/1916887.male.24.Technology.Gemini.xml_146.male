@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Personal Message Store Export Utility : "PMSEU was designed to export Internet messages out of Outlook while preserving the Internet headers during export" At startup PMSEU attempts to locate all message stores. These are displayed in the first list box. Selecting one of the message stores listed in the 1st list box will fill the 2nd list box with all the root level folders in the message store. Selecting a folder in the 2nd list box fills the 3rd list box with any subfolders found in the folder you selected. The utility does not support folders beyond that level but the source code is included if you need to drill farther down. You can export messages out of items listed in either list box #2 or list box #3. Just select a folder to export from, type a filename to export to into the edit box and press the Export button.
+     
+
+    

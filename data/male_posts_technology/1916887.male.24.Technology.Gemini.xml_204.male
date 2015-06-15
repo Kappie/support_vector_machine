@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink 283037 - Large memory support is available in Windows 2000 and Windows Server 2003    urlLink Google Groups: View Thread "W2k3 32-bit - more than 4GB RAM useful?"  - 1. (modified) Physical Address Extensions (PAE) mode is automatically set on if a) you are running WS2003 Enterprise or Datacenter Edition and b) your machine has more than 4Gb of physical RAM and c) your BIOS indicates that your machine supports hot pluggable memory. If your machine meets a) and b), but not c), you can add the /PAE switch in boot.ini to enable access to more than 4Gb of physical RAM. In all other cases the OS will not use more than 4Gb of physical RAM. 
+     
+
+    

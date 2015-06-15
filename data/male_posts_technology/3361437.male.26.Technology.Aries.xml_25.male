@@ -1,0 +1,20 @@
+
+
+    
+       
+       
+ 
+ 
+The Humanoid Project  
+  The Humanoid Project is a project being undertaken at Chalmers University in Gothenburg, Sweden. The long term aim is to build a life-sized humanoid robot which is capable of walking, navigating around obstacles, and operating completely autonomously whilst being controlled verbally. To date a 60cm tall prototype robot named Elvis has been built (see below).     The behaviours of the robot, such as walking, are entirely developed using evolutionary software. This software employs genetic algorithms to enable the robot to teach itself to maintain balance and walk. Thus adaptability is placed before precision.   
+   Elvis, The Prototype:   The prototype robot is bipedal and has human-like geometry  motion. It has legs, arms and hands all controlled by 42 servos. Senses are provided by microphones, cameras, touch sensors.   
+  Evolutionary algorithms and genetic programming are used in three hierarchical layers used for control:   
+  Reactive layer - for reactive behaviours such as balancing.  Model building layer - for memories of past events, evolving models and basic control tasks.  Reasoning layer - for symbolic processing, higher brain functions such as navigation and safety.  Behaviours and Control:  Balancing - achieved through touch sensors on the feet to find the centre of gravity and two electronic gyros mounted in the head to minimize head movements. The robot is initially suspended in a safety harness with a sensor to detect total loss of balance. Evolutionary algorithms in the reactive and model building layers enable the robot to learn to walk and balance.  Vision - the robot has two CCD cameras for stereo vision. A program is evolved to build a 3D model of the environment. Another program is then evolved which uses this 3D map to build generalised representations of 3D objects such as boxes and cones.  Navigation - the third symbolic reasoning layer is used to integrate vision and walking to follow walls and avoid obstacles.  Audio orientation - 2 microphones are used for stereophonic hearing. A Genetic Programming system evolves a program to determine the direction sound and to focus the robots attention. Future work will be on separation of sound sources and recognition of commands.  Manipulation - each hand has 2 fingers and a thumb. Each is equipped with touch sensors capable of sensing forces from 10g to tens of Kg's.   
+   Future Plans:   The prototype robot is not yet fully autonomous. It is currently controlled by a remote NT Workstation and power supply. The plan is to make it fully autonomous by including an onboard power supply and main processing unit - perhaps a handheld PC. Total weight should be less than 5Kg. The long term aim is a human sized humanoid weighing 60Kg.   
+   Links:   The Humanoid Project: humanoid.fy.chalmers.se 
+ 
+ 
+  
+       
+    
+    

@@ -1,0 +1,6 @@
+
+
+	 
+      Marilyn Hughes Blackmon, Peter G. Polson, Clayton Lewis, and Muneo Kitajima:   urlLink Cognitive Walkthrough for the Web (CWW) .  Dr. Bailey said, [paraphased] "This paper was dificult to summarize, and then I realized these people are way ahead of what you and I are doing today."  CWW simulates users performing navigation tasks on a Web site by assuming that users perform goal-driven exploration.  It uses contextually rich desription of user goals (usually 100-200 words), which is different from saying, "The user will find the checkout information."  Assumes that generating an action is a two-step process.  1) Parsing a new page into sub-regions and attenting to the correct sub-region, and 2) Selecting a widget from the attended sub-region and acting on it.  This is an interesting study.  They use Comprehension-based Linked model of Deliberate Search (CoLiDes) (how's that for an acronym), which assumes that problem solving processes drive users' information seeking behaviors when exploring a new Web site, or carrying out a novel task on a familiar site.  Users perceive similarity between their goals and the descriptions within alternative regions or actions.  The similarities can be calculated by  urlLink Latent Semantic Analysis (LSA).   You can go to the LSA site to use some of their  urlLink tools .   
+     
+    

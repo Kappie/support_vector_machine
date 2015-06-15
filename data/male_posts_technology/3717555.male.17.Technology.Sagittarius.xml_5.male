@@ -1,0 +1,5 @@
+
+
+	 
+       Current popup blocking is pretty simple.   Site blocking  If the URL of the popup matches a certain server, don't open it.  Inverse site blocking  Only allow popups from a certain list of servers, this is the method that's used in  urlLink Mozilla 's built in popup blocker, the flaw with this is that some sites have both 'good' and 'bad' popups.  URL matching  If the URL of the popup matches a certain scheme, perhaps contains the word 'ad' or 'banner', don't show it. The flaw with this is that some servers use obfuscated names such as 'http://q3dn.szwd.com/qn4ngl/ah34.html'. This is used in  urlLink adblock .   But what i'd like to see is intelligent popup blocking, popup blocking that realizes that if a popup window only consists of a clickable image it's most likely nothing the user wants to see. We've already got a lot of ways of detecting unwanted spam, so why not just build a Bayesian advertising blocker?  
+    

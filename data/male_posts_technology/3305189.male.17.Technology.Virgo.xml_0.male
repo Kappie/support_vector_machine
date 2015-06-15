@@ -1,0 +1,23 @@
+
+
+	 
+       Ok, this post derived from a discussion on the comments of previous posts, but I'm just going to summarize everything here for future reference. 
+
+ You see many  MIME  types like these: 
+
+ 
+  application/xhtml+xml  
+  application/atom+xml  
+  application/rss+xml  
+  application/rdf+xml  
+ 
+
+ Yes, many different  XML  Schemas have their own  MIME  type. The rest will just have to do with  application/xml . However, why the  +xml  bit at the end? 
+
+ Well, not all user agents support all of these individual  XML  Schemas. However, that doesn't necessarily mean that they can't do anything with them. Therefore, we always need to let them know that a particular file is  XML  regardless. The  +xml  bit at the end signifies this. 
+
+ Neither Mozilla nor Internet Explorer seem to make use of this (yet). However, Opera does. (Thanks,  urlLink Anne ). 
+
+ Anything to add? Comment! 
+     
+    

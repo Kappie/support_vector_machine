@@ -1,0 +1,8 @@
+
+
+
+       
+      C folks all love the null-terminated strings. They can do all sort of wonderful tricks to them such as inserting nulls at arbitrary positions to cut or deliminate the the strings. However, it is not the case in Java or .NET strings, where they are heavily protected and limited by their length field.  If you are using Winforms on Windows, you will notice that the assemblies are simply the wrappers of the good old WIN32 API. If you try to make a text field display a string with Unicode 0x0000 in it, when it gets to the marshalling everything after the null character will get truncated.  It's some interesting observation, but I have yet to find a use for this trick.   
+     
+
+    

@@ -24,18 +24,18 @@ DIRECTORIES = [
 	#"male_blogs",
 	#"female_blogs"
         #"fragmented_csv",
-        "fragmented_jpg",
+        "male_posts_technology",
         #"fragmented_txt",
-        "fragmented_log",
+        "female_posts_technology",
         #"fragmented_xml",
         #"fragmented_html",
         #"fragmented_csv"
 ]
 
 
-ANCHORS_PER_TYPE = 2
-TEST_SAMPLES_PER_TYPE = 100
-TRAINING_SAMPLES_PER_TYPE = 100
+ANCHORS_PER_TYPE = 60
+TEST_SAMPLES_PER_TYPE = 1000
+TRAINING_SAMPLES_PER_TYPE = 400
 
 contents = {}
 compressed_sizes = {}

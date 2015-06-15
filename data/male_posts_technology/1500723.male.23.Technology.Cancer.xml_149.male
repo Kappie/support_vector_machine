@@ -1,0 +1,8 @@
+
+
+
+       
+      Dude!!! What's happening to me???  for(len = 0 , dummyptr = dummystr; (errcode = read(*fd,dummystr,NAME_MAX))  (errcode != -1)   (dummyptr = strchr( dummystr,'\n')) ==NULL ; );   len + = (dummyptr - dummystr); 
+     
+
+    

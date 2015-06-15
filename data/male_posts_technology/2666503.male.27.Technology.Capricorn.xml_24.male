@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      One of the things that I've always thought was a little lacking in PHP is its ability to easily perform date/time math.  In Visual Basic.NET there are functions called AddDays, AddHours, AddMinutes, etc. that make it very easy to adjust a date.  In PHP there are no such functions.  You have to go through a little more complexity to make this work.  Since I often needed a function to add hours to a date in my PHP applications, I wrote this little function to do it for me.  Just pass in the date structure (returned by the getdate() function) that you want to add the hours to and the number of hours (positive or negative) that you want to add to the date.      // Returns the date adjusted by the number of hours specified.   function AddHours($date, $hours)   {         $newdate = date("m/d/y H:i:s", mktime($date["hours"] + $hours,                                                 $date["minutes"],                                                 $date["seconds"],                                                 $date["mon"],                                                 $date["mday"],                                                 $date["year"]));         return $newdate;   }  
+     
+
+    

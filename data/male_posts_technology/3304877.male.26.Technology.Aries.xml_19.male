@@ -1,0 +1,8 @@
+
+
+
+           
+      there was a bug in the template ("Rounders") i got from  urlLink blogger . in the mock-up they use to show you the template, each post title is a hyperlink with a hover color. somehow that got broken so i had to go in and fix it myself. basically, all i did was change this:   BlogItemTitle> BlogItemUrl>a href="$BlogItemUrl$>" title="external link" class="title-link">/BlogItemUrl> h3 class="post-title"> $BlogItemTitle$> /h3> BlogItemUrl>/a>/BlogItemUrl> /BlogItemTitle>   into:   BlogItemTitle> a href="$BlogItemPermalinkURL$>" title="permanent link" class="title-link"> h3 class="post-title"> $BlogItemTitle$> /h3> /a> /BlogItemTitle>  
+     
+
+        

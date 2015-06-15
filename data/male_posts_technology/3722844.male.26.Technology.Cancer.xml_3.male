@@ -1,0 +1,6 @@
+
+
+    
+       I have to admit it: I'm not that good at using Word.  During the past few days, I've been working on the Envisioning phase of my current project, writing the system's specs.  I was the kind of a guy who saved the documents with an ad-hoc versioning convention: * MyFile_Jun15.doc * MyFile_Jun22.doc * MyFile_Jun27.doc  More often that you may think, I have to deal with some evil variations of this pattern that lead to some not-so-useful file names such as: * MyFile_Final_Revised.doc * MyFile_Final_Final.doc * MyFile_Final_Definitive.doc  By using this versioning "strategy", you would probably end with a whole bunch of MyFile*whatever*.doc files and the chance of choosing the wrong one is quite big.  I was searching a way to access some of the Word's collaboration functionality via VBA and I found a versioning feature that allows to save different versions of the document in the same .doc file (I'm quoting from Word 2003 Help Online), and switch between them at a given time:  Save the current state of a document by using versioning ---------------------------------------------------------- On the File menu, click Versions.  Click Save Now.  In the Comments on version box, type descriptive information about the version you're saving.   That said, I suppose it won't be more MyFile_ThisIsTheOne_Final.doc in my computer from now on :). 
+    
+    

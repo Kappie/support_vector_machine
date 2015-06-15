@@ -1,0 +1,8 @@
+
+
+
+       
+      This seems to be  Old Programming School Practise. Came to know from  urlLink Ariya .    a ^=b; b ^=a; a ^=b;    In C Programming, ^ stands for Exclusive OR.  Lets expand this expression and denote  an  and  bn  for new values of a and b then,   bn = b xor ( a xor b) = b xor a xor b = a an = a xor ( b xor a) = a xor b xor a = b    
+     
+
+    

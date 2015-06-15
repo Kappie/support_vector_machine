@@ -1,0 +1,8 @@
+
+
+
+       
+        clause	         1.   A {logical formula} in {conjunctive normal form},          which has the {schema} 			 p1 ^ ...^ pm => q1 V ... V qn. 	or,equivalently 			~p1 V ... V ~pn V q1 V ... V qn, 	where pi and qi are {atoms}. 	The operators ~,^,V,=> are connectives,where ~ stands for a	                                     {negation},^ for a {conjunction},V for a {disjunction} and =>  	for an {implication}.  	2.   A part of a {SQL} statement that does not	constitute         a full statement; for e.g. a "WHERE clause". 	(2004-5-15)   Was sent to me on  urlLink Apr 7 , took a little extra time to edit.  Thanks  urlLink FOLDOC  
+     
+
+    

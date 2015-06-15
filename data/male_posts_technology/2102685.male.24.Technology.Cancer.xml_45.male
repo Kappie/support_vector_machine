@@ -1,0 +1,10 @@
+
+
+
+    
+
+       
+
+      So I haven't posted anything these last 3 weeks or so, been busy with Easter and all...   I'm currently hard at work with a Human-Computer Interaction project. We are building an interface for something called an Office Door. Which is basically an electronic replacement for the notices people here at Uni hangs on their doors. The idea is that Visitors can post messages, both written and voice, to the Owner on the door. And then the Owner can read these messages on the same interface, a Web interface or download then via e-mail. Now in our prototype we only implement the door interface and the programming bit is of minor interest for the subject. But of course for me the coding bit is still very interesting!   So far I've gotten to play with DirectX and the TabletPC APIs! The TabletPC API is great! Took me 2 minutes to figure out how to enable ink-on-screen and then save the ink as a Gif! :) How cool!  The DirectX APIs are more advanced, but still pretty easy to use. I've used it to record wave files and then playing them back. The alternative was to use the Win32 API, but that was a lot of coding... :)  Now that we're finished with the prototype we are going to perform a usability test on it. We are inviting 6-8 students/lecturers to come and test it in the  urlLink Swinburne Usability Lab . I'm certain it will be interesting and hopefully it will be worth all the time and effort! :)  In time I'll post the code/report etc. on  urlLink my homepage .
+
+      

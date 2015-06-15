@@ -1,0 +1,8 @@
+
+
+
+       
+      Ever since reading  urlLink The Selfish Gene by Richard Dawkins  I've wondered about the feasibility of writing software that evolves (in a Darwinian way, you understand - survival of the fittest and all that stuff).  Would it be possible to emulate the process of evolution (by which complex life forms have evolved from much simpler life forms through random mutations) for the purposes of software creation?  Many before me must have contemplated this.  I wonder what the current "state of the art" is?  This is not traditional "artificial intelligence" as far as I can see, and neither is it very closely related to "neural networks", from what little I know of those branches of computer science.  Can anyone enlighten me?  The principle is quite simple - randomly altering a piece of software a large number of times (as in zillions of times) is a fairly simple and cheap operation.  And testing the ability of the resulting (changed) software to perform a particular task could also be pretty simple, at least in a limited set of cases.  So surely it should be possible to improve an existing piece of software by simply randomly altering it a huge number of times, and throwing away all the "mutants" which don't work any better than the original?  And by repeating this over and over again (gazillions of times), it should be possible to produce very capable software, without any "conscious" design?  Where's the flaw in my thinking?  Sure, it will be difficult to define "better" and "worse" mutants, but that doesn't sound insurmountable.  Any ideas?
+     
+
+    

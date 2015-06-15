@@ -1,0 +1,6 @@
+
+
+     
+       urlLink Charming Python: Create declarative mini-languages , from an IBM guy, by way of  urlLink Tim .  For me, this is what MDA is really all about. The statement at the end, "... problems of rule-based systems, such as grammars and inference systems, are much easier to manage if they can be described declaratively." I have been a big proponent of a declarative approach to MOF QVT for a long time - MOF models are just big ol' grammars, and transformations, IMHO, should be the "inference systems" that hold them together.
+     
+    

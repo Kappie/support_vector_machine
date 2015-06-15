@@ -1,0 +1,6 @@
+
+
+     
+      This article examines two data management strategies available on the Java platform: Java object serialization and Java Database Connectivity (JDBC). While neither data management strategy is inherently superior or inferior to the other, when it comes to managing enterprise information systems, JDBC wins hands down. In this article Java developers G.V.B. Subrahmanyam and Shankar Itchapurapu look at both serialization and JDBC, and through discussion and example show you why JDBC is your best bet.  You may also treat this as a crash course to JDBC and Serialization.  [Resource-Type: Article; Category: Java/J2SE/JDBC; Level: Beginner/IMD; XRating: 5]
+     
+    

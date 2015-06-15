@@ -1,0 +1,6 @@
+
+
+     
+      I was playing with how to host SoapService in IIS and used wsewsdl2.exe to create a stub(proxy) for the soapservice ..... for a long time i could not figure out what is wrong out as kept on getting errors that action is not supported ... after comparing the values in Service and that of proxy i found that wsewsdl2.exe made the case of all characters in action value to be lowercase.  Lucien acknowledges this at  urlLink MSDN WSE newsgroup  .
+     
+    

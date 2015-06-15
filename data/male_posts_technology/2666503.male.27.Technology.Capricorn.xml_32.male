@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This function checks the passed text to see if it is a numeric value and returns True if it is, False if it is not.    /* 	IsNumeric - true for all numeric, false if not */ function IsNumeric(PossibleNumber) { 	var PNum = new String(PossibleNumber); 	var regex = /[^0-9]/; 	return !regex.test(PNum); }  
+     
+
+    

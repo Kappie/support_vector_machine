@@ -1,0 +1,6 @@
+
+
+     
+      Wireless applications written in the Java programming language (wireless Java applications), like all other types of software, must be tested to ensure functionality and usability under all working conditions. Testing is even more important in the wireless world because working conditions vary a lot more than they do for most software. For example, wireless Java applications are developed on high-end desktop machines but deployed on handheld wireless devices with very different characteristics.   The aim of this article is to help you test your wireless applications. The article:   -Provides an overview of software testing  -Describes the challenges in testing wireless applications  -Presents a tutorial on testing wireless applications  -Furnishes testing checklists for user interface, networking, and other areas  -Discusses certification programs for applications targeted at the Java 2 Platform, Micro Edition (J2ME applications)   [Resource-Type: Article; Category: Java/J2ME; Level: IMD/ADV; XRating: 4]
+     
+    

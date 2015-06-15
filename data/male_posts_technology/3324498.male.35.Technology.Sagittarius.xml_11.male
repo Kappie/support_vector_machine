@@ -1,0 +1,8 @@
+
+
+
+       
+      What a pain in the butt!  I was working on getting the  urlLink IMF Archive Manager  working for globalization when I suddenly ran into this.  I have two forms, main and report.  The main report I took care of without a hitch, but as soon as I turned localization = true on the report form, the app would throw a MissingManifestResourceException when it loaded.  There were several articles that I read that could cause this problem, but none of them offered a solution or the solution didn't apply.  After some digging I realized that my main form resource file was being generated as Microsoft.Exchange.Tools.IMFArchiveManger.frmMain.resources where my report form was being generated as IMFFilterManger.Report.resources.  The fix was as simple as going into the project settings and changing the default namespace from IMFFilterManager to Microsoft.Exchange.Tools.IMFArchiveManager and then suddenly everything started working.  God I hate dumb things like that! :P
+     
+
+    

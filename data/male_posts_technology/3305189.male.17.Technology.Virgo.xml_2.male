@@ -1,0 +1,22 @@
+
+
+	 
+       I just read the following post by Anne van Kesteren:  urlLink Channel 9 does a markover and restyles a bit . 
+
+ Apparently  urlLink Channel 9  at Msdn.com just got a redesign, where they claim to have worked on cross-browser compatibility. 
+
+ I decided to test the site out in three browsers, namely Opera 7.51, and Firefox 0.9, and Internet Explorer 6, on my screen at 800x600 resolution. Here are the results: 
+
+ 
+ Opera 7.51 - Fine 
+ Firefox 0.9 - Fine 
+ Internet Explorer 6 - Broken 
+ 
+
+ Yes,  broken . And I have screenshots to prove it. I don't know if it is just my version (6.0.2800.1106 to be precise), but the site is in pieces with the boxes not being aligned correctly. 
+
+ This must be the joke of the decade or something. I still cannot believe it myself. Microsoft actually goes and breaks their pages  for   in  their own browser, while having other browsers display the pages more-or-less correctly. 
+
+ I think the problem is that the developers have been using a higher screen resolution. However, many people (like myself) are still using 800x600, so you  must  cater for that by testing. Obviously, this testing has not been done propperly. 
+     
+    

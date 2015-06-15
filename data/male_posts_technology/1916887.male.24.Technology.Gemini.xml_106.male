@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Microsoft Security Bulletin MS04-004  - Cumulative Security Update for Internet Explorer (832894) - Fixes 3 security issues, one of which is rated critical.  - A vulnerability that involves the cross-domain security model of Internet Explorer. The cross domain security model of Internet Explorer keeps windows of different domains from sharing information. This vulnerability could result in the execution of script in the Local Machine zone.   - A vulnerability that involves performing a drag-and-drop operation with function pointers during dynamic HTML (DHTML) events in Internet Explorer. This vulnerability could allow a file to be saved in a target location on the user's system if the user clicked a link. No dialog box would request that the user approve this download.   - A vulnerability that involves the incorrect parsing of URLs that contain special characters. When combined with a misuse of the basic authentication feature that has "username:password@" at the beginning of a URL, this vulnerability could result in a misrepresentation of the URL in the address bar of an Internet Explorer window. 
+     
+
+    

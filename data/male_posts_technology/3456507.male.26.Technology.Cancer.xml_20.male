@@ -1,0 +1,6 @@
+
+
+     
+      When you build a Microsoft Visual C++ .NET project in Microsoft Visual Studio .NET, you may receive an error message that is similar to the following error message:  fatal error LNK1181: cannot open inputfile 'f:\temp\test.obj'  This problem may occur when the path of the Intermediate file folder or the path of the Output file folder in the Visual C++ project starts with a leading backward slash (\). The IDE uses the drive from where it is launched. The IDE does not use the drive that the project uses.    To work around this problem, include the drive name for the Intermediate file folder and for the Output file folder. To edit the entries for the IntDir folder or for the OutDir folder, follow these steps: On the Project menu, click Properties Pages. In the Properties Pages dialog box, click Configuration Properties. In the General list, type new entries for the Output Directory items and for the Intermediate Directory items that include the drive names. 
+     
+    

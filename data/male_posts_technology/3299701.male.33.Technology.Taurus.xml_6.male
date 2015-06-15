@@ -1,0 +1,5 @@
+
+
+	 
+      I'm toying with the idea of setting up an SMTP gateway server on a Linux or Unix platform to catch spam and viruses before they reach the Exchange server. Here's what I've found so far:   urlLink How to configure a Linux mail server with SpamAssassin, MIMEDefang, and sendmail    urlLink Sendmail    urlLink FreeBSD (similar distribution to what sendmail was developed on, so it should be the most stable)    urlLink SpamAssasin    urlLink MIMEDefang   
+    

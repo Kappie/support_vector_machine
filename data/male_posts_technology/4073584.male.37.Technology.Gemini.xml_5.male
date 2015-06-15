@@ -1,0 +1,6 @@
+
+
+     
+        Allright,   urlLink SmartPlugin   is going to enter the  .NET  world. Here I will be registering every stage of this "adventure".      If you ever wish to post comments, you must be registered to  urlLink  BlogSpot  , not necessarily member of this blog, so everyone is welcome.        Some considerations :       SmartPlugin  for  .NET  will only be out in its v 3.0 . Before that, we'll have v 2.2.01 , v 2.2.02 , and so on, until I'm finished porting the  Win32  code to  .NET .    Currently, I can't allocate more than a few hours per day for this task, so do not expect v 3.0  to be released too soon.    All efforts are being made to keep as much as possible of the features available in the  Win32  version.    Both engine and sample projects will generate  pure ,  safe  code. When possible,  unmanaged  code will be avoided.   
+     
+    

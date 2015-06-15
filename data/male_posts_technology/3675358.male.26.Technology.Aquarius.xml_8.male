@@ -1,0 +1,6 @@
+
+
+    
+       There is a difference to close a scoket connection on Windows and Linux.  On Linux, we may simply use  close()  function to close a socket connection, but you  CAN NOT  use this function on Windows. Use  closesocket()  function instead. If using close() function on Windows to close a socket connection, it will remain  Close Wait  connection status means unable to close socket successfully. 
+    
+    

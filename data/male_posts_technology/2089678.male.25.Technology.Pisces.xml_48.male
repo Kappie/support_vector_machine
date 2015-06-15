@@ -1,0 +1,6 @@
+
+
+     
+      If you require sending a large chuck of data as your servlet response to the client and want a faster performance then this article is a must read for you. The author recommends using Cache Filter and Compression Filter for better perfomance. A caching filter optimizes the time it takes to send back a response from your web server, and a compression filter optimizes the size of the content that you send from your web server to a user via the Internet.   [Resource-Type: Article, Category: Java/Servlet 2.3, Java-Edition: J2EE, XRating: 5] 
+     
+    

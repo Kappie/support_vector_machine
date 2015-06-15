@@ -1,0 +1,6 @@
+
+
+     
+      This is a frequently asked question by the beginners and intermediate level EJB developers. These are the quick tips to find out when and when not to use EJB.  When is EJB best suited (in NO particular order)?    The application is larger in size. Understand the meaning and power of 'E' in EJB.   The application has multiple client types. Apart from web, if the client is a desktop or handheld system.   When you are require to take advantage of declarative middleware like instance pooling, transactions, security, container-managed persistence, container-managed relationships, and data caching. These had to hardcoded in case of mere java classes.   Because EJB is standardised, it is easier to maintain the code as compared to the java classes written by different developers. It is also easier for organization to hire and replace employees.   There is a requirement for clear and cleaner separation between the presentation and busniess layer.   
+     
+    

@@ -1,0 +1,6 @@
+
+
+    
+       Multiple result sets can be fectched by using 2 queries separated by a semicolon. If multiple result sets are returned, the DataReader provides the NextResult method to iterate through the result sets in order, as shown in the following code example. [In Visual Basic.Net]  Dim myCMD As SqlCommand = New SqlCommand("SELECT CategoryID, CategoryName FROM Categories;SELECT EmployeeID, LastName FROM Employees", nwindConn) nwindConn.Open()  Dim myReader As SqlDataReader = myCMD.ExecuteReader()  Dim fNextResult As Boolean = True Do Until Not fNextResult   Console.WriteLine( myReader.GetName(0)  myReader.GetName(1))    Do While myReader.Read()     Console.WriteLine(myReader.GetInt32(0)  myReader.GetString(1))   Loop    fNextResult = myReader.NextResult() Loop  myReader.Close() nwindConn.Close()  
+    
+    

@@ -1,0 +1,6 @@
+
+
+	 
+      ---------------- InvisibleNodeTreeExample.java -------------------  /* (swing1.1) */ import java.awt.*;import java.awt.event.*;import javax.swing.*;import javax.swing.tree.*;import javax.swing.border.*; /** * @version 1.0 01/12/99 */public class InvisibleNodeTreeExample extends JFrame {  public InvisibleNodeTreeExample() {    super("InvisibleNode TreeExample");        String[] strs = {"swing",     // 0       "platf",     // 1       "basic",     // 2       "metal",     // 3       "JTree"};    // 4                                                 InvisibleNode[] nodes = new InvisibleNode[strs.length];    for (int i=0;i   public static void main(String args[]) {    InvisibleNodeTreeExample frame = new InvisibleNodeTreeExample();    frame.addWindowListener(new WindowAdapter() {      public void windowClosing(WindowEvent e) {System.exit(0);}    });    frame.setSize(300, 180);    frame.setVisible(true);  }} 
+     
+    

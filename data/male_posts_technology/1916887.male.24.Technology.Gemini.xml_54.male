@@ -1,0 +1,8 @@
+
+
+
+       
+      More proof that firewalls aren't always the only answer:   urlLink Security Experts Warn of New Way to Attack Windows  - Microsoft Corp. issued a patch for the vulnerability in November, but the security bulletin also listed several workarounds for the flaw, including disabling the Workstation Service and using a firewall to block specific UDP and TCP ports. But penetration testers at Core Security Technologies, a Boston-based security company,  discovered a new attack vector that uses a different UDP port . This attack still allows the malicious packets to reach the vulnerable Workstation Service. 
+     
+
+    

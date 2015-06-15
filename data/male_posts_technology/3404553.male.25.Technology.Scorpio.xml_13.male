@@ -1,0 +1,8 @@
+
+
+
+           
+      Combining OPC and design for printability into 65nm logic designs Kevin Lucas, Chi-Min Yuan*, Robert Boone, Kirk Strozewski*, Jason Porter*, Ruiqi Tian*, Karl Wimmer, Jonathan Cobb*, Bill Wilkinson*, Olivier Toublan** Motorola, Semiconductor Product Sector, 870 rue Jean Monnet, 38926 Crolles, France *Motorola, Semiconductor Product Sector, 3501 Ed Bluestein Blvd., Austin TX 78721, USA **Mentor Graphics Europe, 180 Ave de l'Europe, 38334 St Ismier, France Contact email: kevin.lucas@motorola.com   ABSTRACT   The patterning of logic layouts for the 65nm and subsequent device generations will require the implementation of new capabilities in process control, optical proximity correction (OPC), resolution enhancement technique (RET) complexity, and lithography-design interactions. Many of the methods used to implement and verify these complex interactions can be described as design for manufacturability (DFM) techniques. In this paper we review a wide range of existing non-lithographic and lithographic DFM techniques in the semiconductor industry. We also analyze existing product designs for DFM technique implementation potential and propose new design methods for improving lithographic capability. Keywords: optical proximity correction, OPC, lithography, design for manufacturability, DFM  urlLink  Details  
+     
+
+        

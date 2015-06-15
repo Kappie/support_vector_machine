@@ -1,0 +1,7 @@
+
+
+       
+       urlLink Subset document loading and transformation with XPathNavigatorReader : "Subset document loading and transformation with XPathNavigatorReader 
+Thanks to Tom Smalley who pointed it, I fixed a bug that prevented the XPathNavigatorReader from being used for loading a new XmlDocument or XPathDocument. This feature is very useful if you have to apply a transformation to a subset of a document. For this purpose, the MSDN documentation suggests using XmlDocument both for the entire document loading as well as the subset, which is the most inefficient way of performing transformations in .NET."
+       
+    

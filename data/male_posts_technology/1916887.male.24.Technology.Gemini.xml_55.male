@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Techweb > News > Windows Messenger Service security woes > Big New Chink Found In Windows Messenger Service > December 9, 2003  - According to analysis done by Symantec's DeepSight Threat Analyst Team, the Windows Messenger Service vulnerability can be exploited by a single UDP broadcast, allowing a wholesale compromise of all vulnerable systems on the targeted network.   “If I can exploit one single box on your network, I can exploit all of them,” Huger added.   “An application doesn't care about UDP,” said Huger. “It takes the packet, period, with no authentication.”   A worm just 2.7K in size would be enough to simultaneously infect up to 254 machines. Although that's larger than the minute 376 bytes used by SQLSlammer, “the difference is really trivial,” Huger said.   Not only might such a worm spread faster than Slammer, its damage could significantly outweigh Slammer's damage, for it would have a much greater number of potential targets. The Windows Messenger Service vulnerability exists not just in enterprise machines -- as with Slammer -- but also countless home computers running Windows.  
+     
+
+    

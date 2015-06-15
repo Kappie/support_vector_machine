@@ -1,0 +1,8 @@
+
+
+
+       
+      #!/bin/sh function factorial() {         N=$1         A=1         while test $N -gt 0  ; do                 A = `expr $A '*' $N`                 N = `expr $N - 1`         done         echo $A }  factorial  It is giving me a message that unary operator is expected at line 6 which is while test $N - gt 0 ; do 
+     
+
+    

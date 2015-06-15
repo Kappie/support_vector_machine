@@ -1,0 +1,6 @@
+
+
+     
+      Look at my previous post about the StaticMethodNullObjectConfusion class example where a null object is used to invoke a static class without causing a NullPointerException.  It is now that I completely understand how it works.   It works since the binding of which method to call for nullObj.someStaticMethod(); happens at compilation time and not at Runtime. That is why it does not matter that the value assigned to the nullObj is null. It will be interesting to see the results of this class's compilation using some ByteCode viewer tool. When Jimmy has some time I will ask him to join me this.
+     
+    

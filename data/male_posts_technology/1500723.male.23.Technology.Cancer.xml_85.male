@@ -1,0 +1,8 @@
+
+
+
+       
+      Used this method to fool two people on April 1st..  Telnet to port 25 of the machine you want the mail to appear to originate from.  Enter your message as in this example:   HELO bellcore.com  MAIL FROM:voyager@bellcore.com  RCPT TO:president@whitehouse.gov  DATA  From: voyager@bellcore.com (The Voyager)  To: president@whitehouse.gov  Subject: Clipper  Reply-To: voyager@bellcore.com          Please discontinue your silly Clipper initiative.  .  QUIT   
+     
+
+    

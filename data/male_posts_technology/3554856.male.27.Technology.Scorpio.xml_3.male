@@ -1,0 +1,6 @@
+
+
+	 
+       Problem:   Cannot deleate files via file.delete();  1. It throws no exception. 2. All input data with respect to the file is correct.   Sample program:    String[] fileList = new File(toDir).list();  for(int j = 0; j    try{     if(!fileList[j].endsWith("zip"))     new File(fileList[j]).delete();   }catch(Exception e)  {     System.out.println("Error deleting file." + fileList[j]);     continue;   } }     Solution:   Opening a FileInputStream and never closing manually. A simple mistake but one that can be hard to catch when you have got 10 different streams opening and closing at different points in the program.  Check for all the open Streams.   - Rahul Ramachandra 
+     
+    

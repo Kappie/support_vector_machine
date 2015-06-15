@@ -1,0 +1,5 @@
+
+
+	 
+      I working with parsing HTML, it can get complicated if you are using String.indexOf and parsing it this way.  The new(old) java 1.4.2 regex utilities are the way to go, and you probably could write a pretty simple browser in a couple of days or so.  Here is a simple regex expression that works pretty well(uses grouping) :  The first group includes the anchor tag and the text, The second group includes the text inside the anchor tag  Pattern p = Pattern.compile("({a.*?href=.*?}(.*?){/a})"); Matcher m = p.matcher(some_url_page);  while(m.find()) {      int n = m.groupCount();    ....   }
+    

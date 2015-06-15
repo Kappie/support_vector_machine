@@ -1,0 +1,6 @@
+
+
+     
+      Garbage collection is not the only issue preventing Java from being used for a real-time system. Other issues include thread scheduling, accurate timer, synchronization overhead, lock queuing order, class initialization, and maximum interrupt response latency. Until now it has definitively been a "stopper." Because of it, most real-time systems today are developed in C/C++ despite the existence of Java compilers.   Point to the Link to Resource  (title is the link)  for a detailed discussion for this topic and some pointers to the works on Java Real Time Systems.  [Resource-Type: Article; Category: Embdded Systems/Java; XRating: 4]
+     
+    

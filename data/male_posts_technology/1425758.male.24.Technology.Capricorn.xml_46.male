@@ -1,0 +1,23 @@
+
+
+     
+       It is  urlLink  XHTML  1.1   now, although still not 100% valid, but again -- only blogger code is to blame. Mostly under-the-hood improvements. 
+ 
+ Removed all style attributes into the <style> element. 
+ Changed #xxxxxx color specs to rgb(x, x, x). 
+ Removed unnecessary tables, <br>'s and nbsp's. 
+ Layed the groundwork for transforming <td>'s into <div>'s 
+ Hidden the mysterious <hr> at the bottom. 
+ 
+ TODO: 
+ 
+ Dump the utility <hr> completely. 
+ Replace <td>'s with <div>'s and <iframe>'s. 
+ More  CSS  cleanup. 
+ Quit my job. 
+ Find a way for a better main page display. It's not very good that the whole blog is displayed completely. 
+ Permanent easy-to-access link to  urlLink nevIoth  and other friends. 
+ Improve the color of hyperlinks (the hardest part). 
+ 
+     
+    

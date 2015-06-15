@@ -1,0 +1,7 @@
+
+
+	 
+      Java date problems follow up...  Some kind, anonymous, soul just posted this link in a comment on yesterdays post. It's a good article generally on Calendar, and explains some of the history of Java and dates. I especially liked the following.   urlLink International Calendars in Java :  "You would think that when we deprecated most of Date and added the new Calendar class, we would have fixed Date's biggest annoyance: the fact that January is month 0. We certainly should have, but unfortunately we didn't. We were afraid that programmers would be confused if Date used zero-based months and Calendar used one-based months. And a few programmers probably would have been. But in hindsight, the fact that Calendar is still zero-based has caused an enormous amount of confusion, and it was probably the biggest single mistake in the Java international API's."   Thank you to whoever posted that.
+     
+
+    

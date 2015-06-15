@@ -1,0 +1,34 @@
+
+
+	 
+       I own an IBM R40 laptop, and since those laptops have quite a bunch of hidden features i thought i'd share what i've discovered so far. 
+ Running GNU/Linux 
+ Kernel tips 
+ Add ACPI support if you want to be able to check available battery time. You can remove floppy support if your computer lacks one (all it does is eat memory). If you use an old kernel you need to use the e100 driver instead of eepro for Ethernet. 
+ Graphics 
+ My R40 has an ATI Mobility M6 LY, GPU which has absolutely no support anywhere. Accelerated drivers just don't exist for it. You can get the FPS to ~300 in glxgears with a bit of work if you run gentoo. You have to emerge something called "xfree-drm" and mess around with XF86Config a bit. Otherwise just use the 'ati' or 'radeon' drivers. 
+ Other unices 
+ FreeBSD 
+ You need to remove cardbus support from the kernel in order to get ethernet working in some versions of FreeBSD 
+ Sun Solaris 
+ For networking, run
+ $rem_drv iprb
+$add_drv -i pci1014,522 iprb  Will continue to add details here later 
+ Secrets 
+ Hidden and special keys 
+ 
+  Fn+F8 
+  Switch between scaled and 640x480-ish text mode 
+  
+   At boot  
+  The [access ibm]-button is really redundant. Everything you can do there you can access immediately by the function-keys 
+  
+   F1 
+   Access BIOS 
+   F12 
+   Select boot device 
+  
+  BIOS tips 
+  You can add an extra 4 Gb to your harddrive by fiddling around in the BIOS (under security IIRC). It's a hidden area called backup-something, just occupies space, unless you want to use Windows XP on the box again i'd adivse you do something better with that space. 
+ You can also have a lot of fun in the power section, increase or decrease CD speed (just a warning: having maximum CD speed kinda makes your hands go numb when typing because of the vibrations the CD reader creates :-) or disable those horrid auto-powersaves 
+    

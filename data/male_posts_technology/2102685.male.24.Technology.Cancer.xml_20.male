@@ -1,0 +1,10 @@
+
+
+
+    
+
+       
+
+      I'm currently trying to figure out a neat way to dynamically generate PDF documents from a ASP.NET application, from a XML source. I've seen it be done using Crystal Reports, I even got an example of it. So I'll give it a try later today, see if I can make it work.   The goal of it is to output my CV/resume in different languages and formats from a single source. Currently I do this using XML-FO and the JAVA FOP package offline. But I want to be able to do this from my web page, that way all I have to do is to upload an updated XML file whenever my CV changes and the changes are ready available for everyone... :)  BTW my homepage,  urlLink dunkelzahn.org , has been updated! It's getting close to completion! Verfied today that all pages are indeed XHTML 1.1 compliant, had to correct minor stuff, but nothing major! :)
+
+      

@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Secunia - Advisories - Yahoo! Messenger "yauto.dll" Buffer Overflow Vulnerability : "A vulnerability has been reported in Yahoo! Messenger, which can be exploited by malicious people to compromise a vulnerable system.  The vulnerability is caused due to a boundary error in the ActiveX component 'yauto.dll' in the 'Open()' function. This can be exploited to cause a buffer overflow by supplying an overly long argument to the vulnerable function via a malicious web page."
+     
+
+    

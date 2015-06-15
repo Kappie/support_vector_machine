@@ -1,0 +1,42 @@
+
+
+	 
+       Ok, this is just a simple example for how to send pages as  application/xhtml+xml  to user agents that supports it. This is of course in ASP.NET. Note that this does not address the  q -value issue, but I'll get around to that later with a more complex example. 
+
+ Here is the minimal code in  C# : 
+
+ <%@ Page Language="C#" ResponseEncoding="UTF-8" %>
+
+<script language="C#" runat="server">
+	void Page_Load()
+	{
+		Response.CacheControl = "No-cache";
+
+		string httpAccept = Request.ServerVariables["HTTP_ACCEPT"];
+		if(httpAccept != null && httpAccept.IndexOf("application/xhtml+xml") != -1)
+		{
+			Response.ContentType = "application/xhtml+xml";
+			Response.Write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+		}
+		else
+		{
+			Response.ContentType = "text/html";
+		}
+	}
+</script> 
+
+ Note that this does not include user agent sniffing (like sniffing for the W3C Validator to send it the correct MIME-type, etc). 
+
+ Also note that the above example sets  cache-control  to  no-cache . This is to prevent problems with proxy servers. In PHP, you would have had: 
+
+  header("Vary: Accept");  
+
+ The PHP solution is much better, because it doesn't completely stop caching like my solution, but only selectively stops caching. 
+
+ However, I don't know of an alternative in ASP.NET. It seems like that system has limited support for HTTP and that it doesn't allow you to directly write to the HTTP response header. I could be wrong though. 
+
+ I don't know if the code is 100% correct, so please comment if you think something is wrong. Thanks. 
+
+ And another thing, the above code is in C# so obviously you need to ajust it if you prefer VB. But that shouldn't be too difficult for you, right? 
+     
+    

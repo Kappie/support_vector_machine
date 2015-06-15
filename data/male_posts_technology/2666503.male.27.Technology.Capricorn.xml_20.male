@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      A couple of days ago I posted some code for a VB.NET HTML Parser.  If you need to do something similar using PHP, I've used this class with good success:   urlLink http://php-html.sourceforge.net/   It operates a little differently than the VB.NET parser, since it actually provides a means for you to walk down the document object model tree, but it works well.
+     
+
+    

@@ -1,0 +1,6 @@
+
+
+     
+      This is something interesting. One of the guy was taking up an interview when the interviewer asked him what is a Headless Exception? The guy could not answer. You know what happened, he wasnt taken in...  So whats so important about HeadlessException? HeadlessException is a new feature in J2SE 1.4. The link to resource points to the api documentation of the page that says it is   "Thrown when code that is dependent on a keyboard, display, or mouse is called in an environment that does not support a keyboard, display, or mouse."   An example could be a high fidelity server having no display, keyboard or mouse.  [Resource-Type: Tip; Category: Java/J2SE; Level: All, XRating: 5]  
+     
+    

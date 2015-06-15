@@ -1,0 +1,10 @@
+
+
+
+    
+
+       Okay, so I've been terrible about working on the Single-Player Project, i.e. my XGDX and IGF game. To be painfully honest: I've been lazy. But, to avoid embarassment in front of my peers, I will now enter the infamous crunch mode and churn this baby out.  To give a bit of status on where things stand: I'm working on the game framework that will be the basis for the game. I have done some prototypes of some aspects of the game already: world renderer, artwork drafts. I have done some extensive (for me) designs on paper for the actual gameplay. I'm on the road right now ( urlLink Meltdown ), but will scan and upload these once I return home.  The game framework I'm working on is called  Sandbox.  I hope to outfit it with the basics for graphics, events, task scheduling, pack file loading, video mode configuration, input devices, audio, etc. Once it is a bit further along I'll post some design specs on it. I'll also probably put it up online so that anyone else who wants to take a peek can. There's nothing special in there, just all the boilerplate stuff any Windows game needs.  A colleague pointed out to me today how easy it is to integrate  urlLink Lua  into a game engine. I've always heard that, and figured it wasn't too bad, but was really suprised to see  urlLink how very easy it is . In fact, it inspired me to add it the Sandbox as well. Should be a nice little framework.   
+
+    
+
+    

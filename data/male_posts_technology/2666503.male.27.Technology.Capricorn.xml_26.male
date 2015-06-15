@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      Here's a link to a file contaning the functions posted in the last 10 or so posts, as well as some additional functions that can be extremely useful in form validation.  Pay particular attention to the ValidateField() function toward the bottom of the JavaScript include file.  It allows you to pass the field object (represented by 'this' in a JavaScript event), the type of validation you want to perform (i.e. "date", "email", "phone", "numeric", etc.), a flag indicating whether or not the field is required (i.e. can accept blanks) and a custom error message to display if the field fails validation.  I've used it in many of my web projects and hope you will get some use out of it to.  You can download the JavaScript include file with the validation functions here:   urlLink http://www.related-pages.com/form_validation.js 
+     
+
+    
