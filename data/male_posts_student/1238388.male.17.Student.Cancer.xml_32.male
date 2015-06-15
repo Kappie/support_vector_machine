@@ -1,0 +1,10 @@
+
+
+
+     
+
+       X.X  •  Routers  Computer Hell    There is a tradition around my house... When one thing breaks, it tends to lead to serveral other things breaking. This time it was the DSL stuff.    Yesterday morning, I get up early and decide to take routers to inspect and upgrade the firmware. Turns out that it failed the inspection because it was mostly corrupt. So, we went to a local RadioShack here in Seneca where we could get a replacement WAPR (Wireless Access Point Router). Today I got up early and drove it down to the ground.... So, the wireless part of the network got fixed and $95.00 later, it passed my strenous inspection.    After I found out that my WAPR had failed my inspection, I’d decided to do something with the wired part of the network. a collision indicator kept illuminated when I began driving TCP/UDP packets to a old "tester" server on the network. So, it turns out that the reason the collision indicator was on was because the cabling was causing corrupt data go even corruptier. My switch with that collision incidator could've shorted out with all that corrupted data, it kept on trying to decrypt and reassemble it correctly, thus it could've overheated and died. So I had to go and get a new CAT5e cable, 5 footer.    Also yesterday, my friend, Tony, has a old computer that currently runs Windows 98SE, and it has a Celeron 400MHz processor and the kicker is: it has 64 megs of RAM. Horrible! So I'm trying to reinstall Windows 2000 on it. But its complaining that the network card isn't there at all. The computer decides to up and go... and delete the drivers for it! So, I had to reinstall drivers.    I guess you could say it’s been hell around my house for dealing with the systems and equipment this week. All in all though, things are great again. I wonder what is next to go wrong. :-P    Until next time, take care! Dusty. 
+
+     
+
+    

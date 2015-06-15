@@ -1,0 +1,12 @@
+
+
+
+           
+       
+ Warning : this entry is on the geeky side so my nontechnical readers probably won't get much out of it.
+  
+Having seen my original project - the semi-complete tree visualizer for Java source code that I inherited - through to completion, I've been given a larger one that should take up the rest of my time here. This time I'll be writing a symbol tree verifier for our source code transformation engine. It looks like I'll be diving deep into the bowels of the Java compiler in the process, which ought to prove very handy when I take the compiler construction course this winter. The first step will be to shadow the syntax analyser, validating the partially reattributed symbol tree for consistency with the existing abstract syntax tree where the stock syntax analyser would normally add nodes to a nascant symbol tree. 
+ 
+     
+
+        

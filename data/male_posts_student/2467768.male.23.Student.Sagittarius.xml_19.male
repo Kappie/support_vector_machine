@@ -1,0 +1,5 @@
+
+
+	 
+      import java.io.*; import java.net.*;  /**Connecting to port  */    class RealSocketTest{  	public static void main(String[] args){  		String str = "";  		String str2 = "";  		DataOutputStream out;  		DataInputStream in;  		  		//point to the port  		try{  			Socket t = new Socket("127.0.0.1",9001);  		  		//declare for the date to be in/out put  		in = new DataInputStream(t.getInputStream());  		out = new DataOutputStream(t.getOutputStream());  		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  		  		boolean more = true;  		System.out.println(in.readUTF());  		while(more){  			str = in.readUTF();  			System.out.println(str);  			str2=br.readLine();  			out.writeUTF(str2);  			out.flush();  			str = in.readUTF();  			if(str == null)  				more = false;  			else  				System.out.println(str);  			}  	    }catch (IOException e){  	    	System.out.println("Error"+ e);  	    }  	    System.out.println(str); 	} }
+    

@@ -1,0 +1,5 @@
+
+
+	 
+      An entry on his behalf:  Today I did the following    1) Put all the links into place on the index.php. At the moment they point to imaginery pages, but they'll come next :)  2) Created an index copy called subindex.php with the querystring 'platform=' Now the console menu's work - subindex filters through all the query's and just picks the ones with the relevant console.   i.e. http://server1.larrytech.biz/~thunder6/subindex.php?platform=PS2
+    

@@ -1,0 +1,6 @@
+
+
+     
+      I take a look at  urlLink http://bact.blogspot.com  and found something interesting for me ;)   urlLink A Talk by Bruce Eckel: Java Issues  Directions   A talk given at UC Berkeley, Haas School of Business, on June 25, 2004.  on first 50 mins, he covers      garbage collection is the way for new languages to go -- program managability   problems with Java's checked exception   Java just has too many 'words' (too long code) -- maintainability   classpath nightmare -- At the very least we need a equivalent of "which" (in Unix)   Applets have failed   Truly "Write Once, Run Anywhere" from other camps -- Microsoft XAML + Aurora vs Macromedia Flash + MXML + Flex   Java on Desktop   Eclipse 3.0 as a rich client platform   Java is good on server   developers: write once learning curve (Java is bad. too complex)   users: seamlessly run anywhere (Java is bad, too complex)    urlLink JDK 5.0  new features: generics, autoboxing, enumerations, attributes/metadata, new concurrency, syntax improvements (e.g. for-each) -- competition is good   ...    with a lot mentionings to Python    urlLink Free Java report library and chart library   Like it!  thanks to bact! 
+     
+    

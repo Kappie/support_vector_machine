@@ -1,0 +1,65 @@
+
+
+
+           
+       
+Since the O'Reilly OS X conference was being held a mere 10 minute bike ride away from my apartment, I couldn't pass up the opportunity to attend. I used a combination of the student discount as well as the special Sun Mac users discount to get in on the cheap. The first day was essentially a warm-up with no keynotes so I skipped it. Then on  urlLink Tuesday morning , I biked over to the Westin hotel, picked up my registration package and went to the first keynote. On my way into the hall I noticed that several people were using the (presumably) provided wireless access point. 
+  
+Tim O'Reilly, whom I'd had a chance to meet a few weeks ago at the Accelerating Change conference, had just begun speaking when I walked in. That man is a veritable fountain of ideas! He highlighted several cases where facilities provided in one of the iApps were missing in others that could have made good use of them. After praising Apple for being innovative with their user-centric design, he chided them for not being consistent with the implementation of their ideas. For instance, he remarked that we ought to be able to share our images in iPhoto the way we can share music in iTunes. For a more detailed write-up of his keynote, take a look at  urlLink somebody else's coverage of the keynote . 
+  
+Tim was followed by David Pogue, who held the audience's attention for the next 45 minutes as he delivered  urlLink a highly entertaining tour of some little-known aspects of Panther . He also confessed that many of the secrets uncovered by his books were actually discovered by a young chap called Adam Goldstein, whom he has now hired. 
+  
+After Mr. Pogue left the stage, I skipped the rest of the day to take a look at the new digs that my team is moving into at Menlo Park. 
+  
+Unfortunately, I didn't make very good time getting to the hotel the next morning and Adam Engst had already launched into  urlLink his keynote  by the time I got to the room. He essentially presented a report card, grading the new OS release in several categories. In the end, deemed it worthy of an A-, which was an improvement from the B that Jaguar merited. 
+  
+When he was done, Adam handed the stage over to Andy Ihnatko, the tech columnist for the Chicago Sun-Times. Andy had already foreshadowed his keynote in  urlLink interview  he gave a week or so before the conference. 
+ urlLink His keynote  was essentially a walk down memory lane for longtime Mac users, of which I am not one. Nevertheless, he is a very amusing guy and, with the help of a large collection of photographs, he managed to do a fabulous job of keeping the audience in stitches. 
+My favourite anecdote was the one about how he once inadvertently had his email address mistaken for an Apple VP, resulting in his being privy to several very interesting  highly confidential information about Apple's activities. 
+  
+There were 6 sessions that day, organized along different tracks that catered to the various groups of people in attendance. Since most of the work I do can be considered software development, I stuck to the Programming track. 
+  
+The first session was called  UI design for collaborative multi-user apps . The presenter introduced us to some useful tactic: data can be divided into quantitative (exact numerical values), ordinal (ordered relative to each other)  nominal (used for identification only); Time can be organized by synchronicity  immediacy (think chat VS email); Collaboration can be organized by the author/audience relationship (round-table VS leader/group), number of tasks  scale of collaboration (number of participants); Visual language used by the UI needs to reflect ownership, permissions  latency. 
+  
+The next session was about  urlLink using Java-based web tech to create desktop user apps . The key idea put forth here was that the browser could be used for the UI  the engine could run as a Java appserver on the client machine instead of having a central server. This strategy leverages the high-powered desktops now prevalent in most computing environments  neatly avoids the issue of network traffic congestion or disconnected portable computers. 
+  
+I was fortunate enough to run into the creator of iBlog at the beginning of the lunch break  had a pleasant conversation with him about Apple's Cocoa API while we ate lunch. 
+  
+The session after lunch bore the title  Multi-modal UI design . 
+It focused upon the use of handwriting recognition as well as speech synthesis  recognition in OS X. However, the presenter failed to consider the impact of internationalization  localization upon these nascent technologies. 
+  
+Once this session had concluded, Andy Ihnatko returned for an encore. 
+This time he waxed poetic about the merits of AppleScript, which he felt is often given short shrift for not being a  real  development tool. 
+He actually compared it to the Ebola virus, talking about how it is extremely simple to start using for basic task automation but scales well to application integration and even all-out software development. 
+As proof, he offered his custom weblog system, which started out as glue between the various apps he used to maintain the blog  has now evolved to actually replace much of the functionality heretofore provided by those apps. 
+  
+The  urlLink next session  began after a short break. It carried the provocative title  Why Mac users hate Java   proceeded to outline some of these reasons. 
+Apparently speed is no longer the prime concern; it has been replaced with the feeling that momentum for Java on the desktop has stalled. 
+The presenter explored some solutions to this stagnation, most of which revolved around breathing new life into desktop Java by producing innovative desktop apps that take advantage of Java's strengths. 
+  
+Keeping with the Java theme, the final session of the day was about Java hacks for OS X. The 1st few were simple VM args that enabled some neat Mac-only enhancements to Java apps. These were some more in-depth instructions for overriding the default About box with a custom one  using resource files combined with polymorphism to implement platform-specific keyboard shortcuts for menu items. 
+At the end of this session, I spoke to Apple's Java product manager, Rob Fraser, who showed me how to get Ant working with Xcode, which makes my life a lot easier. 
+  
+Even while I was speaking to Rob,  urlLink the next event  was being set up. The creators of several popular shareware apps for OS X took the stage to entertain questions from the audience. 
+I was impressed by just how many lone coders were able to produce such polished apps in so short a time span. From their responses to questions it is clear that almost all of them believe that Cocoa  Objective-C are the best possible development platform out there. 
+They were also generally happy with user uptake of their work.
+  
+The last thing I did that day was to attend an informal discussion with the 2 people currently responsible for the OS X port of OpenOffice.org, the largest open source program in existence. 
+They talked about how they had recently managed to substitute the X11 dependencies of OpenOffice.org on the Mac with Java instead, which is good news in the short term as Java has astonishingly good support on OS X. 
+Near the end of their discussion, somebody even showed up with free beer for all takers!
+  
+ urlLink The 1st keynote of the last day  was basically all about Apple's forays into the scientific computing market, spurred by the popularity of the G5's low price/performance ration. Much ballyhooing was made of all the scientific visualization tools available for OS X.
+  
+The last part of the conference that I attended was the keynote by a computer scientist turned biologist working at the Rockefeller Institute in San Diego. 
+Her talk was completely devoid of the OS X cheerleading that had marked the rest of the conference but heavy on biological jargon. 
+She ran through  urlLink an introduction to bioinformatics with a specific focus on gene sequencing . 
+Among her revelations was the fact that the quantity of data being uncovered was actually managing to outpace the growth in CPU horsepower! 
+She cautioned, however, that accuracy is more important than raw speed when making predictions in this field because a bad guess could waste upto a year of valuable research time. 
+I found myself struggling to recall the relationships between genetics terms that I used to be familiar with a few scant years hence so I vowed to brush up on them. 
+  
+On my way out, I ran into the creator of  urlLink F-script , a SmallTalk-derived language for accessing  manipulating Cocoa objects. 
+We spoke briefly  he handed me a paper about adding support for array-based language features to regular object-oriented languages. 
+ 
+     
+
+        

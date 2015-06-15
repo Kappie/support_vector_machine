@@ -1,0 +1,8 @@
+
+
+
+       
+       #include <stdio.h>  int main() { 	float uptime, idletime; 	char tmp; 	FILE *f = fopen ("/proc/uptime","r");  	if (!f) 	{ 		printf ("unable to open file"); 		return 1; 	} 	 	fscanf (f,"%f %f",,);  	printf ("ratio of idle time to cpu time = %f",  		idletime/uptime); 	fclose (f); 	return 0; } 
+     
+
+    

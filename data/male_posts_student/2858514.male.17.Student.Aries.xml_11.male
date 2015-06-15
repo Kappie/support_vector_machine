@@ -1,0 +1,8 @@
+
+
+
+           
+      Data management is easy in ASP.NET 1.1, but it still require coding to add functionality to sort, update and delete data in a DataGrid web control. But now in ASP.NET 2.0, using the new GridView control and SqlDataSource control, I can enable sorting, paging, update, deletion function with only several clicks. This greatly increases efficiency and shorten the time for developing data-driven web applications.  The new membership controls in ASP.NET 2.0 also simplifies the development of web applications. By dragging some controls and setting few properties, you can set up a web site with membership feature. In other server-side technology such as PHP, it needs a lot of coding to add login functions and manipulate session variables. In ASP.NET 2.0, all the coding is done by M$, programmer no longer needs any coding. So everyone can develop professional web site in no time.  And this is only the ASP.NET 2.0 beta version, so I think in product version the features would be more complete and verbose.
+     
+
+        

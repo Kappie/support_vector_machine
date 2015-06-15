@@ -1,0 +1,8 @@
+
+
+
+           
+      This is a small HOWTO that will help you get a DataSource with the MSSQL 2000 database using the official MS JDBC drivers and the Tomcat container.  1. Copy the files: msutil.jar mssqlserver.jar and msbase.jar to a directory that will be visible to your java environment; A good one would be the_path_to_your_SDK/jre/lib/ext/ It might be good idea to put them in the containers libs as well and your web application lib folder... you never know :) Just remember to keep all of them in sync. 2. Log into your Tomcat administration utility (probably http://localhost:8080/admin/) and log in. 3. Go to Service > Host > your_web_app_context 4. Go to Data Sources and create a new data source setting these parameters:  JNDI Name:  jdbc/mssql Data Source URL:  jdbc:microsoft:sqlserver://localhost:1433;databaseName=db_name JDBC Driver Class:  com.microsoft.jdbc.sqlserver.SQLServerDriver then fill the user name and password fields. I don't know yet how to determine what are the best connection settings so that's up to you. If you have some advice, please leave some comments.  5. Then you switch to some java coding, go to the place where you'd be putting the Class.forName and DriverManager.getConnection() bits and replace them with something like:  DataSource ds=null; try{ InitialContext ctx= new InitialContext(); ds=(DataSource)ctx.lookup("java:comp/env/jdbc/mssql"); Connection connection = ds.getConnection(); catch (Exception e){ throw new NotFoundDBException("Blah blah blah" + e); }   NotFoundDBException is a class I wrote to handle the exception, you'll have to come up with your own :) that's it, I think.
+     
+
+        

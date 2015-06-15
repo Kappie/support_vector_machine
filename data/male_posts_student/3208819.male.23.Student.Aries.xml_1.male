@@ -1,0 +1,8 @@
+
+
+
+       
+      Have you ever passed a member function to the Win32 API and wondered why the compiler kept bailing out on you? Well I did. D'oh! I really need to brush up on my C++ skills :(.  Apparently, non-static member functions have a secret  this  parameter which make them incompatible with the function signature required by Win32 callbacks.  This is set right by changing the function definition from  void FooBar  to  static FooBar .  Now I need a graceful way of resolving   error C2597: illegal reference to data member 'CNetDocDlg::alldevs' in a static member function  
+     
+
+    

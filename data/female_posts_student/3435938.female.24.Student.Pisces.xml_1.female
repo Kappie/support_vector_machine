@@ -1,0 +1,7 @@
+
+
+	 
+      Sound's a bit weird trying to put a complete FreeBSD in a Virtual Machine using VMWare? For me it's a reasonably great solution for experimenting with operating systems, since you don't have to mess up a standalone machine. (Some of us don't even have access to a 2nd or 3rd machine for testing purposes.)  While booting from CD works great, the graphics is painfully slow. Compared to other installation procedures that operate in textmode (i.e. SuSE Linux) this is definately not worth the time. I've a Solaris 8 for Intel running and tried getting BSD on my machine to test some MySQL issues, but selecting a single menu entry takes at least three or four seconds to display. You can imagine how long it takes to select individual packages for install an reading feedback in dialog boxes.  Now, I'm trying to create an automated install. This may take a while. It it works success stories can be found here.  Bye,  Jane.
+     
+
+    
