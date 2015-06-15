@@ -1,0 +1,8 @@
+
+
+
+       
+      I've added a download section to the sidebar at the right.  The first download I've made available is "SevenUp".  This is a four-player (3 computer players, and one human player) card game that I wrote in Delphi.  This game was written with very little reuse in mind.  As I have mentioned before, I am in the process of writing a card game library.  First, this project is intended to give me some practical expirience in writing programs in C#.  Second, it is designed to be reusable, so that writing new card games will be much easier with this library.  The first game I plan on writing with this new library is a replacement for the SevenUp game.  When That is done, I will place that game in the Download area.
+     
+
+    

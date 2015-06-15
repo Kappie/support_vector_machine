@@ -1,0 +1,6 @@
+
+
+     
+       urlLink The Java IAQ   Nice set of java questions here.  One that  surprised  :-O me:   public class StaticMethodNullObjectConfusion { 	public static void someStaticMethod() { 		System.out.println("someStaticMethod called"); 	} 	 	public static void main(String args[]) { 		StaticMethodNullObjectConfusion nullObj = null; 		nullObj.someStaticMethod(); 		System.out.println("look maa!!, No NullPointerException"); 	} }    The above main method runs without causing a NullPointerException, since while executing a static method only the type of the object being used for the call is considered and its value is ignored. 
+     
+    

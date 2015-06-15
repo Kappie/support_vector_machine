@@ -1,0 +1,6 @@
+
+
+    
+       About two weeks ago I made a Perl script that traps malicious bots (specifically spambots) that visit a website using the script, clutters the spambots email lists with an infinite amount of randomly generated email addresses, and blocks the bot from the web server. I am hosting the scripts on Sourceforge under the name  urlLink SandTrap .  I am hoping that the script will be used on at least a few servers and that some perl/CGI junkies might help touch it up a little eventually.  The website for SandTrap is not functional at the moment but the layout is done.  The full website will eventually be at  urlLink sandtrap.sourceforge.net . 
+    
+    

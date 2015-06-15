@@ -1,0 +1,8 @@
+
+
+
+       
+      I know I went on and on about this exploit weeks ago, but this time it's a little different.  Here's a post from the  urlLink NTSysAdmin  list:    rpc-dcom2 exploitIt doesn't matter if your system is patched.  I tried this against a fully patched win2k and a fully patched XP system.  Both systems crashed or crucial operating system services crashed but explorer remained up.    Microsoft admits that WinXP SP1, even though patched, got exploited (but says that they haven't tested it on other platforms).  This is bad, really bad.  Here's a little help:   Snort signature:  alert TCP any any -> any 135 (msg:"RPC Vulnerability - bind initiation";sid:1; rev:1; content:"|05 00 0B 03 10 00 00 00 48 00 00 00 7F 00 00 00 D0 16 D0 16 00 00 00 00 01 00 00 00 01 00 01 00 a0 01 00 00 00 00 00 00 C0 00 00 00 00 00 00 46 00 00 00 00 04 5D 88 8A EB 1C C9 11 9F E8 08 00 2B10 48 60 02 00 00 00|"; flow:to_server,established;classtype:attempted-admin;)  One suggestion would be to turn off these services and to block ports TCP 135, 139, 445 and 593; and UDP 135, 137, 138 and 445.  I urge caution before doing this; there are numerous programs/applications that rely on RPC/DCOM and these ports.  (Like a program called ScanRouter - which I had some rpc issues with over the weekend or  urlLink Veritas Netbackup ).      Here's a SearchSecurity article for further information:  urlLink SearchSecurity.com | Exploit code targets recent RPC flaws   Link to the code:  urlLink rpcdcom3.c 
+     
+
+    

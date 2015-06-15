@@ -1,0 +1,7 @@
+
+
+	 
+       It took me 4 hours to figure out why there was a difference in rendered layout between Mozilla/Firefox and Internet Explorer. I chose a template for my blog from the gallery (and did some minor changes, nothing special). Then I tested it and the width of the left part (where the blog items are displayed) was always a lot smaller in IE than in Mozilla. I changed the CSS definitions ("width" property) for the div tag, but again no success.  Next, I viewed the sample of my template from the gallery. Voila, the rendered layout in IE and Mozilla was the same. Why on earth did mine break?  After some minutes of copy and paste I found the problem: the template had no DOCTYPE statement, e.g. 
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+ I didn't know that this statement makes such a big difference in IE! 
+    

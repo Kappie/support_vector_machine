@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      I've been toying with the idea of writing my own "mini search engines" on targeted topics for some time now, primarily so that I can put advertisements on them and maybe make a few extra bucks.  I initially thought I would use ASP.NET and MS SQL Server, but then I found out something wonderful:   MySQL 4.0 and later supports full text indexing!   And boy, talk about a breeze to implement.  Using  urlLink MySQL Control Center , you simply edit the table and create a new index, selecting the  FULL TEXT  radio button.  Tada!  Instant full text indexing.  In fact, MySQL offers some significant advantages over SQL Server in the arena of full text indexing.     In MySQL, full text is activated automatically (you have to turn it on for SQL Server, which is a pain if your site is hosted by somebody else).  In MySQL, the full text indexes are updated automatically as records are inserted (in SQL Server you have to rebuild the indexes every time--yuck).    Querying your full text indexes is also simple.  Let's say I've created a full text index on a table called "documents", with the full text index on two fields "title" and "body".  You can query it like this:   SELECT title, body FROM documents WHERE MATCH(title, body) AGAINST ('keyword phrase')   The results are automatically sorted by relevancy.  For an example of one of my mini search engines in action,  urlLink click here .   FINAL NOTE:  By default, MySQL considers any term that shows up in 50% or more of the indexed records as a stop term.  What that means is that any term showing up in 50% or more of the records, if used as the search term, will return zero results.  For an example, try searching for "diet" at my  urlLink weight loss search engine .  No results, because every page in the index is about weight loss. 
+     
+
+    

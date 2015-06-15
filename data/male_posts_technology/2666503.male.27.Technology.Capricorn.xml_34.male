@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This function returns True if a Zipcode is a validly formatted U.S. Zip code, false if it is not.    /* 	ValidZipCode - true for valid zip codes, false for invalid ones */ function ValidZipCode(ZipCode) { 	//Your zip code must contain 5 or 9 digits.         // 9 digit zip codes should contain no spaces and a         // hyphen before the last 4 digits. 	 	var stringValue = new String(ZipCode); 	var stringLength = stringValue.length; 	 	if ((stringLength!=5)(stringLength!=9)(stringLength!=10)) 	{ 		return false; 	}  	if(stringLength==5) 	{ 		 		for (var i = 0; i  		{ 			value = stringValue.charAt(i) 			if (!((value >= 0)  (value  			{ 				return false; 			} 		} 	} 	 	if(stringLength==9) 	{ 		for (var i = 0; i  		{ 			value = stringValue.charAt(i) 			if (!((value >= 0)  (value  			{ 				return false; 			} 		} 	}  	if(stringLength==10) 	{ 		var zip=stringValue.substring(0,5) 		var symbol=stringValue.substring(5,6) 		var plus4=stringValue.substring(6,10) 	 		if(symbol!="-") 		{ 			return false; 			 		} 			 			 		for (var i = 0; i  		{ 			value = zip.charAt(i) 			if (!((value >= 0)  (value  			{ 				return false; 			} 		} 		for (var i = 0; i  		{ 			value = plus4.charAt(i) 			if (!((value >= 0)  (value  			{ 				return false; 			} 		} 		 	} 	return true; }  
+     
+
+    

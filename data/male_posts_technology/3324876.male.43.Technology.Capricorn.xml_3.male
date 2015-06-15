@@ -1,0 +1,6 @@
+
+
+	 
+       urlLink Tipue  has been going for around two years and has proven to be rather popular(ish); to my knowledge, it's used on three large corporate and countless small and medium-sized sites. What I'm often asked is something along the lines of 'I have a hundred or so pages on my site so how do I create the data file?'  Good question. Late last year I decided to write a Windows application to do just that, and version 1.0 of Tipue Standard Edition was released in early February. Roughly it did what it was supposed to do but, by version 1.03, I realised roughly wasn't even close to being good enough. It got less rough, but not less rough enough.  There were a number of fundamental problems; I'd decided to write the indexing code almost from scratch and it soon became obvious that the quality and style of HTML coding out in the real world is a moveable feast. I decided for version 2 I'd use Microsoft IE 6 and MSHTML to walk the DOM. How many sites throw serious errors under IE6?  The second major problem was licensing; it was all but impossible to release as open source, given that I'd used Delphi 7 and couldn't find open source-friendly replacements for a couple of commercial components. So now I'm using Visual Studio C# .NET 2003.  I'm currently developing the UI and the like, and all, thus far, is going well.       
+     
+    

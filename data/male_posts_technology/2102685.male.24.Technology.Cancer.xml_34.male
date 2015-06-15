@@ -1,0 +1,10 @@
+
+
+
+    
+
+       
+
+      Updated the comments system, since I wasn't very happy about it. I'm now using a system called  urlLink Ment-O-Matic.NET for ASP.NET , its built on ASP.NET (surprise!) and runs from my server (as did the old one).  It works pretty well I think, even though I had quite a few problems installing it... Had to do with where I put it and stuff, nothing major really, but a bit of a hassle to figure out... In the end I ended up doing a little hack in the source code, so now it's less pretty, but works better! :)
+
+      

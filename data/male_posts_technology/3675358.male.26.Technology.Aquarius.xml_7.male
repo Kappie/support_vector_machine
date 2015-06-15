@@ -1,0 +1,6 @@
+
+
+    
+       You may create shortcut/hotkey for a field in a web form by using tag label and attribute id of a form input-type (field). Please notice to following bold written text!   CODE    tr   td align="right" width="43%"img src="frontpage/imgname.gif" width="80" height="12"/td   td width="57%"      label for="user" accesskey="U"/label input type="text" name="user"  id="user"  class="input" size="15"   /td /tr tr   td align="right" width="43%"img src="frontpage/imgpass.gif" width="80" height="12"/td    td width="57%"      label for="pass" accesskey="P"/label input type="password" name="pass"  id="pass"  class="input" size="15"   /td /tr   By above code, you may using  ALT+U  to move the pointer into a form field named  user  or  ALT+P  to move the pointer into a form field named  pass . 
+    
+    

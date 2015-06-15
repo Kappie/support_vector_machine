@@ -1,0 +1,10 @@
+
+
+
+     
+
+      PHP auto-redirection is an overlooked concept that many people fear. You should fear nothing because with a single line of code I can show you how to redirect your page to another! It's as simple as  1 - 2 - 3 .     Note:  										 The only precaution to be aware of is the code syntax. The syntax of this small, yet powerful script is very, very code sensitive. There are many single quotes and commas in this script and if you make one typing mistake, then your script will generate errors and you will end up with very unhappy visitors.   Insert the following code into your .PHP  										document you would like the redirection  										to take place:      <?php    // Echos the page that you want to redirect to thus refreshing // The page to the pages specified after the code 'URL='    echo    "<meta equiv="refresh" content="2;URL=">"  ;       ?>     Conclusion  The small script may help out in many cases such as after a form has been submitted or a search has been made. This is something a web developer uses on a daily bases. I really hope this tutorial was helpful and may all your scripting be merry!  urlLink continued story... 
+
+     
+
+    

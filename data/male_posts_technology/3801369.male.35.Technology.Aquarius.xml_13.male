@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink This article  provides an interesting comparison between Java Data Objects (JDO) and Microsoft ObjectSpaces.   urlLink Chris Welsh  got me thinking about how to ensure that applications written in different languages can all access the same database when using OR tools like JDO.  I'm not sure how feasible this is, in which case it would be a very serious black mark against JDO.  Hopefully I'm mistaken, and they've thought of this and have an elegant solution.
+     
+
+    

@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Computerworld | Internet Explorer carved up by zero-day hole : "Two new vulnerabilities have been discovered in Internet Explorer which allow a complete bypass of security and provide system access to a computer, including the installation of files on someone's hard disk without their knowledge, through a single click.   In simple terms, the link uses an unknown vulnerability to open up a local Explorer help file -- ms-its:C:\WINDOWS\Help\iexplore.chm::/iegetsrt.htm. It delays executing anything immediately but instead uses another unknown vulnerability to run another file which in turn runs some script. This script is then used to run more script. And finally that script is used to run an exploit that Microsoft Corp. has been aware of since August 2003 but hasn't patched.   That exploit -- Adodb.stream -- has not been viewed as particularly dangerous, since it only works when the file containing the code is present on the user's hard disk. The problem comes in the fact that the Help file initially opened is assumed to be safe since it is a local file and so has minimal security restrictions. "
+     
+
+    

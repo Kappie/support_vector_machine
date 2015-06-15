@@ -1,0 +1,5 @@
+
+
+	 
+       For the rant, I've grown really tired of people writing stuff based on assumptions. Every POP3 client I've seen so far, with the exception of fetchmail, is based around the assumption that mails are small, so when you try to fetch a large mail they either get really sluggish or mercilessly crash.  AFAIK the POP3 RFC does not mention even once the maximum size of an e-mail. Why is it then that every client seems to think that it's some impossibility to find a 200 Mb mail in a POP3 box? My theory is that they assume that no SMTP server will allow such mails to pass, which rises another really bizarre issue. I've noticed some SMTP-servers has a habit of bouncing mails that are too large back to the sender (with the original message attached).  If the server receiving the bounced mail also has that rule, the mail would bounce back again, and be rejected again, until one of the servers run out of hard drive space or memory. 
+    

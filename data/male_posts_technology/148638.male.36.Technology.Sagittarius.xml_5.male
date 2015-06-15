@@ -1,0 +1,28 @@
+
+
+     
+       John Gruber over at  urlLink Daring Fireball  has posted two good articles on the recent URI Handling vulnerabilities in MacOS X: 
+
+
+
+  urlLink Unsafe URI Handlers   urlLink Telnet Protocol 
+
+ 
+
+
+
+ The second (he said, inverting order) notes that the telnet:// URI handler can be used to overwrite user-owned files, as the contents of the URI are passed as command-line options to telnet - including the option to write a log file of the telnet session that would overwrite existing files of the same name. So add telnet:// to the Bad Boy list. 
+
+
+
+ But before you fire up IE to disable it, read the first article. It covers much of what Josh Larios mentioned the other day, save that John discusses disabling the offending URI protocols via the Launch Services API  (using  urlLink RCDefaultApp ) rather than the Internet Config API (which is layed atop Launch Services). RCDefaultApp also allows you to outright disable the URI handlers, rather than assigning a null app (although it's handy to have that null app pop up so you know what happened). 
+
+
+
+ It's also important to note that these vulnerabilities are in all web browsers on OSX (since it's an issue of how URIs are handed off to certain helper programs), as well as in programs which have "live HTML" capabilities - like  urlLink NetNewsWire  and even  urlLink Mail.app  
+
+
+
+ Thorny beast. Apple has said that they're  urlLink aware of the reports and are examining the issue  but, in some ways, these vulnerabilities run pretty deep. 
+     
+    

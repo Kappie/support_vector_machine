@@ -1,0 +1,6 @@
+
+
+     
+      I'm seeing more and more talk about "Executable UML". Personally, I hate the term, and don't really buy the ideas (as I understand them) behind it. For me, the UML Action Semantics are a bit of a white elephant, especially in terms of usability, and the idea of a "platform-independent" action language seems like a gross contradiction in terms.  Generally, the idea of UML as a programming language is, to me, a bit weird. I use UML for so many different things, and in particular for so many levels of granularity, that a single interpretation is just absurd. Profiles help in no way whatsoever, because they're horribly broken and under-expressive. Also, I have a great taste for non-UML languages. I would much sooner design a business process in a workflow language than in UML state charts, activity diagrams, or use case diagrams (that the latter is now possible is somehow horrifying to me).  I hope that someone will  urlLink point me  at the document/s that will assuage my fears.
+     
+    

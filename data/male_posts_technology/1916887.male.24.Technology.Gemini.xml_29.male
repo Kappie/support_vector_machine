@@ -1,0 +1,8 @@
+
+
+
+       
+      A zero-day exploit targeting an Internet Explorer vulnerability (versions 5 and forward) is being used to install a Trojan. Experts warn that it's only a prelude to a series of attacks that are likely to wreck havoc given the number of unprotected systems.  "This zero-day exploit is huge. It will likely be a major, and highly successful, vector of attack upon thousands of computers for some time," says Ken Dunham, malicious code intelligence manager at iDEFENSE. "We have verified that attackers are installing backdoor Trojans and dialers on targeted computers at will."  "Multiple examples of the exploit code are available for attackers to analyze and use in crafting their own attack," adds Dunham. "This type of code availability and underground activity traditionally foreshadows a flurry of malicious attacks."  Microsoft first issued a patch for the 'object type' vulnerability on Aug. 20. The flaw allows an attacker to compromise a system by embedding malicious code in a Web page. If the Web page is viewed with a fully patched IE browser, the malicious code embedded in the Web page will execute. The 'object type' vulnerability patch doesn't prevent this variation of the flaw, but Microsoft plans to issue a fix shortly.  - From Security Wire Digest to subscribe, go to  urlLink http://infosecuritymag.bellevue.com 
+     
+
+    

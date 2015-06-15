@@ -1,0 +1,6 @@
+
+
+    
+       I've been trying for the last few weeks to put together fink packages for libgcrypt and gnutls.  There was probably something else I packaged as well, in my quest to get fink's gaim to work with MSN and Yahoo, but those are the two packages that give me trouble.  For some reason, libgcrypt build cleanly, but doesn't pass its own 'make check'.  I've contacted the libgcrypt developers about this (via the libgcrypt-bug email address), but so far they haven't gotten back to me.  It's very annoying.  Without libgcrypt, there will be no libgnutls.  I noticed that gaim supports the Mozilla NSS library.  So I downloaded the tarball to see if building that was any less painful.  The directions aren't even quite clear about what to compile, much less where to compile it.  I'm digging through the documentation in my free time to see what I'll need to build, but NSS seems to be much more annoying than libgcrypt/gnutls.  Oh well.  The quest continues. 
+    
+    

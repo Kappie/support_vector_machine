@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This function tests the passed text, returning True if the text is formatted in a valid U.S.A. phone number format, False otherwise.    /* 	ValidPhoneNumber - true for valid phone number, false for invalid */ function ValidPhoneNumber(PhoneNumber) { 	var PNum = new String(PhoneNumber); 	 	//	555-555-5555 	//	(555)555-5555 	//	(555) 555-5555 	//	555-5555          // NOTE: COMBINE THE FOLLOWING FOUR LINES ONTO ONE LINE. 	var regex = /^[0-9]{3,3}\-[0-9]{3,3}\-[0-9]{4,4}$|                      ^\([0-9]{3,3}\) [0-9]{3,3}\-[0-9]{4,4}$|                      ^\([0-9]{3,3}\)[0-9]{3,3}\-[0-9]{4,4}$|                      ^[0-9]{3,3}\-[0-9]{4,4}$/; 	 	return regex.test(PNum); }  
+     
+
+    

@@ -1,0 +1,6 @@
+
+
+	 
+      A big thumbs-up to the folks over at Mozilla for fixing a security flaw in a matter of hours! Idiotic articles at newsfactor overhype the situation - they wrote -  urlLink "Mozilla Security Nightmare Begins"  - that security nightmare died a quick death for sure.   On July 7, at 13:46 hrs GMT, Keith McCanless filed a bug in the Bugzilla Database reporting a new vulnerability. It exploits the windows “shell:” handler and allows a malicious web page to execute a program on a client’s computer. On the same day, at 16:26 GMT, Josh Perrymon sent an e-mail to the “Full-Disclosure” mailing list about the vulnerability. The vulnerability is not private anymore, but public knowledge. Within a few hours - to be precise - 18:16 GMT - Mozilla developer "timeless" created a patch closing the vulnerability. Within a mere three minutes (18:19), the patch got approved by Mike Shaver. Within 11 hours, the patch is checked into the Mozilla, Thunderbird and Firefox branches. On July 8, 14:13 GMT the Mozilla foundation released an extension to allow users to patch their browser with just a few seconds worth of download.   In less than a day and a half of public vulnerability, all Mozilla versions were patched. 
+     
+    

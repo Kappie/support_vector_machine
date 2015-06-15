@@ -1,0 +1,20 @@
+
+
+	 
+       Finally got around to try out Java 1.5 beta 2, and i like it =)  The details i really fell in love with is the new  for  syntax:    
+void foo(int[] bar) {
+  for(int q : bar) {
+    System.out.println(bar);
+  }
+}
+    and of course the generics and autoboxing    
+void foobar() {
+  linkedList<int> i = new linkedList<int>();
+  Integer n;
+  i.add(35);
+  i.add(27);
+  i.add(135);
+  n = i.get(2); /* NO casting at all!
+                 * Compare to 'n = (Integer)((int)i.get(2));' */
+}   The default L is better then Metal, but still could use some brushing up  -- is in love 
+    

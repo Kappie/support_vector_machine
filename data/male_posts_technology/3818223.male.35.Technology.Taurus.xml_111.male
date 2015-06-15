@@ -1,0 +1,8 @@
+
+
+
+       
+      Here's an interesting concept I've been dealing with at work - theory versus reality.  I want to deal with reality (which is normally a strange concept to me), but my bosses want me to work in theory.  Here's the argument:  IN THEORY, the servers are great and powerful machines connected to the users by high-speed reliable connections, therefore all data processing should take place on their end.  IN REALITY, the servers are based on old technology and are overloaded, as is the network connecting them to us.  That's been the SOP since I started here over three years ago, and it doesn't look like it will change anytime soon.  That's why I prefer to write queries that simply ask the servers to dump some data into my PC and let me do all the calculations locally.  Fearless Leader(s) insist I have the server perform all calculations then spit out the final results.  I do things their way since I'm not paid to think (that's a management function), but I should be allowed to use their "logic" against them. Boss:  When are you going to have my reports ready? Me:  In theory, they were on your desk an hour ago.  01001101, out 
+     
+
+    

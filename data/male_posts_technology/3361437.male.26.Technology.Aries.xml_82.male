@@ -1,0 +1,44 @@
+
+
+       
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+ 
+    Beta 1   
+ 
+ 
+ 
+ 
+    Introduction    
+ 
+   AutoCode v2.0 is an Add-In for Visual Studio .net that enables  autocomplete  for any language in Visual Studio .net. Generated code is based in command templates that can be easily created with  AutoCode Editor .    
+   
+   For example, typing in the editor:   
+   
+    Hello World! ws    
+   
+   And pressing Control+Enter, we get:   
+   
+    Console.WriteLine( "Hello World!" )    
+   
+   The template command ?ws? is one of the different command templates that comes with AutoCode, but what makes AutoCode a powerful tool is the ability to easily create new custom templates.   
+   
+   Version 2.0 includes:   
+   
+     ·     Smart templates using ASPX like syntax      
+     ·     Set cursor position      
+     ·     Create, edit and organize templates with the built-in editor      
+     ·     Multiple file templates to be easily shared      
+     ·     More new cool features?               
+ 
+   
+       
+    

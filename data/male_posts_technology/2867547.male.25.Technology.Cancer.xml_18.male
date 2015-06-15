@@ -1,0 +1,6 @@
+
+
+	 
+      I have just run into this article  urlLink Coding Best Practices Using DateTime in the .NET Framework   and I was pretty amazed how perilous the DateTime can be. I will just quote a sentence in the Conclusion section of the article:  Understanding the nuances of dealing with the class goes beyond what you can glean from Intellisense .    I had one issue with saving DateTime to a MS Access Database using SQL syntax. I used inappropriate format specifiers when converting to string and the result was that my PM values were stored as AM (13:00 turned 1:00). It was a hard to find bug, because it happens only when storing DateTime after noon. I guess, I was lucky! :)
+     
+    

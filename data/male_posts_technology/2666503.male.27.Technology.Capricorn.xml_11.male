@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      I noticed in my site logs that quite a few people are searching for how to encode and decode a url in ASP.NET, so I thought today I'd write a short blog on how to do that.  If you are wanting to do this from a WebForm, it's very simple:  Encoding:  encodedUrl = Server.UrlEncode(urlToEncode)   Decoding:  decodedUrl = Server.UrlDecode(urlToDecode)   If you are wanting to encode or decode a url from a project other than a web application, you will need to add a reference to System.Web to your project, and create an instance of a System.Web.HttpServerUtility, like so:    Imports System.Web  Public Class UrlDemoClass    Public Sub UrlDemo(ByVal url As String)         Dim o As System.Web.HttpServerUtility       Dim encodedUrl As String       Dim decodedUrl As String         encodedUrl = o.UrlEncode(urL)       decodedUrl = o.UrlDecode(encodedUrl)           End Sub End Class   That's it!
+     
+
+    

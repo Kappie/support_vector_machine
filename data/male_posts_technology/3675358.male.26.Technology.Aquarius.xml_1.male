@@ -1,0 +1,6 @@
+
+
+    
+        Cast any value that would be assigned to a variable, especially for pointer type ( void* )  Make sure to have same type while comparing two variables (values) avoiding warning message produced when compile the source code using gcc (NOT egcs). To get all warning message might caused unpredictable errors, use option  -Wall  while compiling 
+    
+    

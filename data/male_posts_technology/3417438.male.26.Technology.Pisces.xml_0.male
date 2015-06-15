@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink sunhelp   You can use vi mode by setting the option like this:   set -o vi (when in ksh already) OR ksh -o vi (when launching a ksh shell)   In this mode, you'll want to get familiar with a few commands:  Previous Command ----> [ESC]-k Use this key combination to access your previous command  Next Command ----> [ESC]-j Use this key combination to access your next command (if applicable)  Filename Completion ----> [ESC]-\ Use this key combination to complete a filename, or partial portion thereof  Filename Check ----> [ESC]-= Use this key combination to show which files would complete the command at this point  
+     
+
+    

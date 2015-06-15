@@ -1,0 +1,6 @@
+
+
+	 
+      I recently got Fedora Core 1 working quite nicely with  urlLink Asterisk  and I must say I am impressed. For those of you who know me, you know I've developed several IVR systems in the last decade and I've had a decent amount of experience deploying telephony systems....and I'll say it again: Asterisk is AWESOME!  If you are a small business in need of a quality telephone system on the cheap here is my recommendation:  1. Get a 23 channel PRI line from your favorite carrier ($300 or less in most areas) 2. Get a bunch of cheap GrandStream Budgetone SIP phones ($80 each) 3. Get a  urlLink Digium Wildcard T100P  ($495) 4. Set up a Fedora Core 1 Linux box and get Asterisk running on it to serve as your PBX and voice mail system  If you play your monkeys right, you can be in business with a high-quality phone system that'll blow away anything Lucent, Nortel, or Cisco has by a LONG shot, for under $1000.00.   I even called and spoke with Mark Spencer about it (owner of Digium, and original author of Asterisk). He's a really sharp guy and he has done an amazing job creating a business model for Digium based on open-source.  I'm very excited about having an interface to the telephone company that allows me to ditch Cisco and H.323. 
+     
+    

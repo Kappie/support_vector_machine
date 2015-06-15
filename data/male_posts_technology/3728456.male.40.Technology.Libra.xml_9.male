@@ -1,0 +1,8 @@
+
+
+
+       
+      SSH was created by  urlLink Tatu Ylonen  in 1995, OpenBSD picked up on the project in Dec 1999. SSH is intended as a complete replacement of the r utilities (rlogin, rsh, rcp, etc) and telnet. SSH focuses on securing network applications, such as terminal sessions.     SSHd is configured with the /etc/sshd_config file. This file can be used to configure such things as allow/deny hosts, idle timeout, and the type of authentication to be used. SSH reads the $HOME/.ssh/config file and the /etc/ssh_config when it starts up. Any configuration which needs to be done is accomplished with these three files, also the  urlLink MAN pages  will have more information about the SSH program.    The basic command to use SSH is:      ssh -l user@hostname    This will initiate the commands to log in. With SSH2, SSH splits the SSH functions into three separate protocolsusing the Transport Layer Protocol, Authentication Protocol, and the Connection Protocol. More information about the specifics of theses protocols can be found at the urlLink  Information Security web site.   This article has a good overview of the  differences between SSH1 and SSH2.    Once a connection with the remote computer is established then commands can be executed and the results will be returned to the same terminal screen. This brings us to having a connection and being able to run commands remotely. The next couple of days I'll look at secure copying of files, authentication and using Public Keys.    To return to the  urlLink main directory for the SSH tutuorials     
+     
+
+    

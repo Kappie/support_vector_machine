@@ -1,0 +1,8 @@
+
+
+
+       
+      I don't like the fact that whenever I open up my access log, I get overwhelmed by the junk requests that waste my valueable bandwidth and harddrive spaces. They all tend to attempt to execute some code, which does not exist on my Linux box, and compromise my server. Apache is not vulnerable to those IIS-specific exploits, but they are annoying to hell nonetheless.  A few google searches reveals that you can put a few lines in the config file that matches the requests to a regexp and redirect them to elsewhere if they are found to be malicious. They do work like a charm, well,  but for only subset of the exploits. The nastiest "SEARCH  /\x90\x02\xb1\x02\xb1\x02\xb1\x02\xb1\x02..." that easily takes hundreds of lines of my valueable log file space is still there. I'd really appreciate if some one could suggest an easy solution to get rid of this mess.
+     
+
+    

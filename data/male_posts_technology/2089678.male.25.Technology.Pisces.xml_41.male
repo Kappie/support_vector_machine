@@ -1,0 +1,6 @@
+
+
+     
+      In Java applications that do text searching and manipulation, the StringTokenizer and String classes are used heavily. This can often result in complex code and lead to a maintenance nightmare.  Often such Java applications are looking for an occurrence of a particular character or token in a String, and then trying to find a string surrounding it, validating the extracted String.  Use java.util.regex package that makes string search and manipulation very easy.  [Resource-Type: Article, Category: Java/J2SE, Level: All, Java-Edition: J2SE, XRating: 3]
+     
+    

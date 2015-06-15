@@ -1,0 +1,27 @@
+
+
+	 
+       I would like to keep track of how many standards-compliant websites there currently are in South Africa. 
+
+ Since I don't have the time to do a in-depth study of all of these sites, I only validated the homepage. That should already give you an indication of how many people  are at least aware of valid markup. 
+
+ Validated: 
+
+ 
+  urlLink Hello.za.com  
+  urlLink Abury.co.za  
+  urlLink Coda.co.za  
+  urlLink Yvonne Carola Pearce's African Wildlife Art Gallery   
+ 
+
+ 4 out of 9 sites I tested so far validated. But of course I only tested sites in what was supposedly the "standards-compliant sector". 
+
+ Also note that none of these sites served as  application/xhtml+xml  to compliant browsers. 
+
+ I also found a lot of companies that stated that they designed according to web standards. If you can't even get your homepage to validate, and additionally you can't use semantic markup, don't say that you design with web standards! 
+
+ It is also important to note that even if your homepage validates, you still can't claim standards compliancy. You must first make sure your CSS/RDF/XML/whatever validates and then you must make sure that you are sending under the correct mime-type. You must also make sure that your markup is semantical, and that you used all of your tags correctly as they should be used according to specification. And don't forget about accessibility. :-) 
+
+ The information in this post is correct at time of writing. Updates will be made as necessary. 
+     
+    

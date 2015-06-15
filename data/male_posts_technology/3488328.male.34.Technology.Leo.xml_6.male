@@ -1,0 +1,8 @@
+
+
+
+       
+      I upgraded logrus to Solaris Express 06/04 (aka Solaris 10 Beta 4, aka s10_b58). I did first a Live Upgrade, but then recalled that I wanted to change partitioning anyway and just went for fresh installation.  Build 58 supposed to support Opteron. At least it recognized Tyan S2885' on-board Gigabit Ethernet out of the box. Still no SATA support. Presumably it should come with Build 61 - which probably means August time frame.  
+     
+
+    

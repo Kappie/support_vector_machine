@@ -1,0 +1,6 @@
+
+
+	 
+       urlLink Secunia - Virus Information - BAGLE.AF    This one is spreading significantly.   This is a mass-mailing worm with the following characteristics:   * contains its own SMTP engine to construct outgoing messages  * harvests email addresses from the victim machine  * the From: address of messages is spoofed  * attachment can be a password-protected zip file, with the password included in the message body.  * contains a remote access component (notification is sent to hacker)  * copies itself to folders that have the phrase shar in the name (such as common peer-to-peer applications; KaZaa, Bearshare, Limewire, etc)  * uses various mutex names selected from those W32/Netsky variants have used, in order to prevent those W32/Netsky variants running on infected machines.       
+     
+    

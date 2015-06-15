@@ -1,0 +1,6 @@
+
+
+	 
+        Question:      How do I prevent the output of my JSP or Servlet pages from being cached by the browser?     Solution:        You will need to set the appropriate HTTP header attributes to prevent the dynamic content output by the JSP page from being cached by the browser. Just execute the following scriplet at the beginning of your JSP pages to prevent them from being cached at the browser. You need both the statements to take care of some of the older browser versions.   Code Block:          response.setHeader("Cache-Control","no-cache"); //HTTP 1.1      response.setHeader("Pragma","no-cache"); //HTTP 1.0      response.setDateHeader ("Expires", 0); //prevents caching at the proxy server    If the above fails, try changing the first line to   Code Block:   response.setHeader("Cache-Control","no-store"); //HTTP 1.1    The difference between no-cache and no-store is a bit dodgy, but apparently no-cache is the more polite keyword.  However, please note that there are some problems with disabling page caching under IE 5.0 due to the unique buffering requirements of the browser. Please see the Microsoft knowledge base for details:   urlLink http://support.microsoft.com/support/kb/articles/Q222/0/64.ASP   urlLink http://support.microsoft.com/support/kb/articles/Q234/2/47.ASP    - Rahul Ramachandra 
+     
+    

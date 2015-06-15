@@ -1,0 +1,6 @@
+
+
+    
+       Enormous research progress today. I know now how to parse .BSP files to retrieve its entities, how to build .FGD files to use with various map editors (like Hammer and QuArK) and how to reference textures.  Next on the list is to get the scripting engine somewhat woven into this. I plan to make it possible to tie entities to scripts directly from the editors. That would kick some major behind.  I should find out how to get .WADs working with all this too.  I also found a couple of particle editors (from the irrlicht forums) that allows real time editing of particle generators. I plan on using these as tools when creating content to this game.  This is so cool: I'll be able to build a game engine and expose the features to the people creating content through the scripting engine, a BSP mapping tool and a couple of small additional tools. Dig it!  
+    
+    

@@ -1,0 +1,6 @@
+
+
+     
+      Is this a normal behaviour or a security issue? Recently, while working on my J2ME based project, I had to create my own TextField with some added features like a cursor. I planned extending the TextField class (package javax.microedition.lcdui) and add my own behaviour. But!! the members keyPressed, keyRelease and graphics object were all package protected. I desperately needed this behaviour and thought of one trick. I made MyTextField Class being in the package javax.microedition.lcdui (of course by the package declaration statement). And VOILA! it worked well....  So the next time whenever you need to excess any package protected variables (even if they belong to VM core classes) just put your class in the same package name.   ENJOY!!!  [Resource-Type: Tip; Category: Java/All]
+     
+    

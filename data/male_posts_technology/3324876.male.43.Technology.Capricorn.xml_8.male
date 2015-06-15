@@ -1,0 +1,6 @@
+
+
+	 
+      Having played around with XML for a couple of days I've come to the conclusion that it really isn't ready; while Internet Explorer loads XML via JavaScript without any problems using an ActiveX object, the Gecko-based browsers such as Mozilla use DOM 2, their implementation of which appears flaky at best. It seems that support is better in the Linux release of Mozilla so I'm going to hang fire for the moment and wait until the Windows version catches up. Hopefully then Opera and the like will also have workable XML support via JavaScript.   
+     
+    

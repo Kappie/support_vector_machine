@@ -1,0 +1,8 @@
+
+
+
+	       
+	      Google had always provided me with the best and accurate search results (Okay... nothing new to that). But recently I noticed that the top ranking search results were not I would expect Google to display to me for my search queries. It was then I realized that my machine was hacked by some ad-ware/spyware and this was tampering my Google search results. So if I searched for "IBM Workplace Client Technology" in my search result the top entry would be links saying search for "IBM Workplace Technology" at eBay or some other stuff. The link was managed by searchbrowser.com which then redirects the users to their patrons/advertisers.   I used an anti-spyware tool to scan my machine and oh-la I had dozen different types of such worms on my m/c. I could remember reading some statistics about 60 (or was that 70) percent PCs are infected by such programs. Still I removed these from my m/c. (I used XoftSpy for the clean-up). This got rid of many other annoyances but not the one that tampered my Google Search Result page. For this I found that this was using a BHO (Browser Helper Object) 2_0_1browserhelper2.dll which gets loaded with your IE. I got rid of this by disabling it through BHODemon.  So this was another clever (but unethical) way of increasing the web traffic to one's site. Or should I say the extent to which Advertisements can be pushed to the Internet Users. The good old days of banners and pop-ups are over. Now we have light-weight spies on PC's that monitors user activities and tampers with their search results and other such utilities.
+	       
+
+	    

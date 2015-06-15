@@ -1,0 +1,6 @@
+
+
+     
+      As is the case for ZIP files, JAR files are used to package multiple files together, such as classes, images, and sounds. You have a choice of tools to create JAR files. You can use the jar command-line tool that comes with the J2SE Software Development Kit (SDK) or you can use the classes in the java.util.jar package. Although the command-line tool allows you to add files to an existing JAR file, there is no way to programmatically add a file. Also, there is no way using the SDK or the command-line tool to delete a single file from a JAR or delete multiple files. Instead, to update an existing JAR file, you must create a new JAR file and copy any desired content from the old JAR file.   This tech tip shows you how to update a JAR file by using java.util.jar package.  [Resource-Type: Tip; Category: Java/J2SE; XRating: 4]
+     
+    

@@ -1,0 +1,8 @@
+
+
+
+       
+      Well, after almost two months (6-7-2004 until today) of pretty solid development, ending in a mad two week rush of carrot stick eating and programming.  The huge new inventory maintenance and processing system which I more or less masterminded and programmed with the other two guys here at work has passed initial tests, and is ready for prime time tonight!  Parts of it are written in 5 different languages (c++, python, delphi, java, and php).  It ties together data entry via pc and wireless scanner gun in a mysql database running on a Linux server with web reports served by Apache and php, data processing, and finally import into an IBM AS400 mainframe.  There are a few areas for improvement of course, and some parts will need to be reworked as we get feedback from users, but HOT DAWG it is good to finally get to a stopping point.
+     
+
+    

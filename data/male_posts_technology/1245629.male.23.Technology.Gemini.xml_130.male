@@ -1,0 +1,8 @@
+
+
+
+       
+      I had installed FC2 on the Dell Latitude CPx which I have received to use for few days. When not connected to network,the boot asked me about the xircom card module and I replied to remove it. Later I did not know how to load the module back. There is this command  urlLink modprobe ,but I dont know how to use it. Whom should I ask?? :( The Laptop lied inside the desk for a couple of days coz I would not be able to go online with out activating the card. Trials for restarting the network services gave:  system-config network: xirc2ps_cs device eth0 does not seem to be  present, delaying initialization.  Then decided to just Google it and came across this  urlLink Bug 123734 . Wondered! The same problem has been faced by some other guy as well! Checked with the details and lead me an already opened bug, But the last section said.   ok, after further testing it appears that by removing the ether nete  configuration in Network configuration and rebooting the laptop. then  creating a new network interface definition repairs this.  note:  rebooting without removing the existing device profile does  not repair this, the current device profile must be deleted before  rebooting, then add a new profile.    Did this and Yo! Problem solved. :)    but need to analyze more has this is just a simple and a not so efficient way 
+     
+
+    

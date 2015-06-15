@@ -1,0 +1,8 @@
+
+
+
+       
+      A very very impressive quote by Dheerubhai Ambani I see written on one of those green-blue boards(those are the colors of the Reliance Info logo) in the DAKC (Dheerubhai Ambani Knowledge City)  "We should not give less importance to the seemingly smaller tasks at hand. We should do them with equal effort and focus. Cos every time we conquer such small task, we become more refined and get mor confident about solving the bigger and more complex problems."  Look at this quote in light of this discussion I had with one of the newly recruited Deployment Engineer at Reliance Infocom.  He was not interested in doing the job at hand (application deployment) cos he said that its a trivial and small task. And he supposedly wanted to do a bigger and more complex job of J2EE related software development.  And this guy who wanted to do "bigger" jobs screwed my app (a very simple serverside web app with no J2EE components) while he was deploying it. He took 1 full day to deploy my app cos he actualy screwed up the server itself while deployment (Websphere provides a complex GUI for deployment of apps, which in itself is a menace to manage; and when the GUI did not respond for some time, he started clicking his way to glory....he was litrally clicking every thing on the screen......the server died as a result)  So I was wondering that even I ...rather every one of us at one point or the other have wanted to do 'bigger' jobs while we are still an amatuer doing the things which are small but add up to be that one big job.  Hope the above stuff made sense....  :)
+     
+
+    

@@ -1,0 +1,5 @@
+
+
+	 
+      Oh ya for those who don't know I'm doing research in Grid Computing.  "Grid Computing basically means that you share resources across a network of computers and make it virtually seem like just 1 machine. The method you use to do this, can differ but in many cases (like SGE, LSF and PBS) would be batch-processing. By having a whole big number of jobs and dispatching it to a large grid, you are able to reduce the time required to do this work. [For example] analysis of data (like protein alignments, dna structures, etc). If you have one large dataset of 100 megabytes and it requires at least 6 hours to process 10kb of it (quite feasible for protein alignment), you can estimate how long it will take to process the full 100 megabytes. When your application submits jobs with each a small piece of the dataset and then submit it to a large grid, it will once again reduce the required time substantially." - my superior 
+    

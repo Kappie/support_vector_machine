@@ -1,0 +1,6 @@
+
+
+    
+       "Dreamweaver MX's script-generation capabilities highlight an increasingly important development trend, where developers make smart choices, but smart development environments do the grunt work of writing the code."
+
+ I know quite a bit about about writing scripts, and I still love Dreamweaver MX "script-generation capabilities". I can concentrate on what my application does rather than getting bogged down in syntax. I can still write my own code within this environment, I just need to be aware what is MX generated and what I wrote. A method I found useful was to use "server behaviors" for binding the recordset/data to the page, and then writing my own scripts to manipulate the data within the UI. I used Dreamweaver on my last project and I was much more productive than if I had wrote ever line of code myself.

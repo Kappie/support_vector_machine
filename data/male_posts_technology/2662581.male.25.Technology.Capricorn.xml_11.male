@@ -1,0 +1,8 @@
+
+
+
+           
+      A cool tip from a fellow MVP  ASP.Net Server Control can be broadly classified into 4 categories...  1. Intrinsic Controls -These controls correspond to their HTMLcounterpart... eg Textbox control, Button control 2. Data-Centric Controls - These controls are used for data display,binding, modification purposes... They bind to various data sources... e.g..DataGrid control 3. RichControls - Usually do not have HTML counterparts... These areusually composite controls which in themselves contain other controls...e.g. Calendar control 4. Validation Controls - As the name suggest they are used forvalidation purposes and can validate many type of user inputs.... e.g.RegularExpressionValidator    
+     
+
+        

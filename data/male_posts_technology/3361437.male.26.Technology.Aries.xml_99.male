@@ -1,0 +1,31 @@
+
+
+       
+             
+ 
+       
+     nUnit: Simplified Database Unit testing using Enterprise Services      
+        
+    Introduction    
+   Test Driven Development makes life easier. Unit tests are the lifeblood of a good Test Driven Development approach (and thus, are also the lifeblood of most of the agile methodologies out there such as XP, Scrum and others). Therefore it stands to reason that one should strive to create unit tests with the least amount of work and maintenance, which will in turn allow the developer to focus on the business problem at hand and the various design and algorithms needed to create a working product/component.   
+      
+   For the past couple of years I?ve been struggling with Unit tests, That is, I?ve used them in major production projects and have seen the good and the bad that can come from a fully test Driven approach. I?ll let the ?good? part be taken care of by the numerous other articles out there that talk about the benefits you get from Unit Tests and TDD, and will focus on one of the most problematic parts of Unit tests in a real world project ? testing against the database.   
+      
+   Testing Data Access layer components (DALs for short) is problematic in a number of ways. The number one reason f is this:   
+      
+   Testing the various CRUD(Create, Retrieve, Update, Delete) operations on a single class can result in a massive amount of ?garbage? data residing on the test database (You  are  using a test database, aren?t you?). This creates several problems:   
+      1.         Problem: Garbage Data      
+   Your database will eventually be full of junk data which you?ll need to get rid of sooner or later   
+      
+      2.         Problem: Affecting other tests      
+   Worst, you may break one of the golden rules of unit testing:  No test should be dependent on another test to perform correctly . That is, you should be able to run your tests in  any  order you choose or maybe just one of them at a time, and they should all still work. That means that every test needs to start with a known state on which it will act. For DALs this usually means a known state of records in the database.    
+   But guess what? When you test CRUD operations you?re actually changing the state of the database, so the next test that will be run that might depend on a specific record being there might fail because you just deleted that record in your current test. Anything can happen.   
+      
+      3.         Problem: starting tests from a known state      
+   This is the other side of the previous problem: My test needs to have something in the database in order to perform correctly. For example ? it needs a specific ?category? entity in the Category tables in order to test inserting a child ?Product? into the Products table. I need to make sure I insert these values into the database before I perform the test, but I also want to make sure that data is no longer there after I finish my test.   
+      
+   Dealing with the problems   
+   So how do you deal with all this garbage data that?s making your database and tests unstable? Obviously, you need to make sure that before and after each test you leave the database in the same state that you got it in. That is ? you need to ?undo? your CRUD operations after testing them. Here are some of the most prevalent methods used to achieve this.....   
+    
+       
+    

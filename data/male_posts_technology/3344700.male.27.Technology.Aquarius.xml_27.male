@@ -1,0 +1,6 @@
+
+
+						
+						   What is URL Rewriting? URL rewriting is the process of intercepting an incoming Web request and redirecting the request to a different resource.  I found a very interesting article by  urlLink   Scott Mitchell    on  urlLink   URL Rewriting in ASP.NET    @ MSDN. In this he describes how we can dynamically intercept an incoming Web request and automatically redirect it to a different URL. He has provided a downloadable source code as well.  How URL Rewriting done in classic ASP? In classic ASP, the only way to utilize URL rewriting was to write an ISAPI filter or to buy a third-party product that offered URL rewriting capabilities.  But in ASP.NET, it's very easy to create our own URL rewriting software in a number of ways.  This article explains everything about URL Rewriting in detail..  The following are the topics covered in this article   - Common Uses of URL Rewriting  - What Happens When a Request Reaches IIS  - Implementing URL Rewriting   - Building a URL Rewriting Engine  - Performing Simple URL Rewriting with the URL Rewriting Engine  - Creating Truly "Hackable" URLs  very useful and informative..a must to read for ASP.NET developers!!  
+
+						

@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Caldera OpenUNIX 8 FAQ: How do I use Korn shell filename and directory name completion?   vi mode   To use name completion, use the Korn or Bash shell with the EDITOR variable set to 'vi' as described in previous question (How do I use Korn shell command recall (history)?). Then start typing something like         cd /opt/net    then press:       'Esc'       '\' The keystrokes Esc, then \ will complete the name net to netscape if net contains enough characters to uniquely identify the only possible name as 'netscape.' If there are two or more files or directories that start with net, then nothing will change on your screen.   emacs mode   To use name completion, use the Korn or Bash shell with the EDITOR variable set to 'emacs' as described in previous question (How do I use Korn shell command recall (history)?). Then start typing something like   For emacs mode the equivalent character sequence is Esc Esc. That can be mapped to the more convenient TAB key with the trap and keybind function listed in the section on command line history recall and playback and the following binding in ~/.profile           keybind $'\t' $'\E\E'  # Tab -> file/cmd completion
+     
+
+    

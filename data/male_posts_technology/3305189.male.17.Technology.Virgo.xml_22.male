@@ -1,0 +1,87 @@
+
+
+	 
+        urlLink Via Anne van Kesteren :  urlLink Dean Edwards  discovered a way to get Internet Explorer to  urlLink display XHTML correctly when sent as  application/xml  . 
+
+ However, Dean  urlLink commented  that there were some problems worth note: 
+
+ 
+ apparently it doesn't work too well with ASP/JSP, although i haven't tested it myself. 
+ ... 
+ it doesn't work with the XHTML1.1 DTD. (it chokes on an entity reference) 
+ 
+
+ Since I am an avid ASP.NET developer, I decided to drop Dean an e-mail asking more about the ASP/JSP thing. He then referred me to  urlLink Rob Collyer , who came back to me with some rather interesting information. I quote some stuff below out from the e-mail he sent me: 
+
+ 
+
+ Hi Charl... 
+
+ The issues I've found is that Internet Explorer working in
+application/xml mode, will not pass on the referrer string to pages.
+This is slightly annoying if your pages use the referrer string to track
+users around your site, or to make sure they have come by a certain
+route into a secure area, etc. 
+
+ The above issue can be worked round with tweaks at the server end...
+Embedding referring page names into querystrings, or forms, etc (not
+very sightly in querystrings, I must say) 
+
+ The above also, wont affect many sites, but it's something to consider. 
+
+ The second and most major issue I've had, is that when you refresh a
+page that's had http POST data posted to it... 
+
+ Normally, explorer (and all other browsers) politely asks you if you
+want to repost the data.
+In application/xml mode, it does not ask you this at all, and it DOES
+NOT repost the data which is very annoying to the user (especially on
+multi-page forms.... It would be a big issue in .NET, as the webforms
+would lost state and postdata, and isPostBack would always return false
+for a refreshed form. 
+
+ So as long as you are prepared to code round the referrer issue, and to
+make all form actions a GET instead of POST, then you will probabally be
+ok. 
+
+ I personally, would just sniff the q value, and serve up content based
+on what the q values actually request as their preferred content-type...
+Eg..  Give IE html 4.0 strict / transitional, and everything whose q
+value asks for it, XHTML. 
+
+ Ie, was never supposed to be XHTML compliant, and the fact that Dean has
+found a clever work-around is remarkable, but not without issues as
+described above....  
+
+ I personally, would not like to see this hack perpetuated nor anything
+that keeps Internet Explorer's heavy head above water... It would be far
+better to leave Internet Explorer to take its current path to rack and
+ruin, and then maybe one day when either Microsoft release a better and
+compliant version, or when they lose their foothold in the browser
+market, our lives as web developers will be much easier (c'mon, you hate
+coding xBrowser IE issues too don't ya?) 
+
+ Leave standard-skirting browsers in the past where they belong, and help
+spread the word of mozilla, firebird and opera. 
+
+ That's just my personal opinion of course. 
+
+ Cheers, 
+
+ Rob 
+
+ 
+
+ Ok, so I quoted the entire e-mail. I hope Rob doesn't mind. 
+
+ At this moment I don't really think that it is viable in practice to use this technique, because there are many bugs as Rob pointed out, and the advantages are not really too clear. (Except for the fact that you can now send pages under a single content type to all browsers.) 
+
+ Also note that you  should  actually send XHTML as  application/xhtml+xml  for many reasons. 
+
+ Another thing that  urlLink came to mind  is how this would work with search engines. I don't really know if Google recognizes the important tags like  title  that are important for search engine optimization when it is sent as XML. That would probably depend on Google's XHTML/XML compatibility, but nobody really knows too much about this yet. 
+
+ So, probably still best to stick with  text/html  for non-XHTML/XML user agents. Very interesting experiment though. Congratulations, Dean! 
+
+ Oh yes, and before I forget, I like to hear more people (like what I quoted from Rob above) saying that we should leave Internet Explorer behind and design for Mozilla and Opera in full XHTML glory. The only problem is that this isn't viable for commercial sites, but for personal sites I say: Go right ahead! I plan on making some Internet Explorer-incompatible websites myself within the next few weeks. I'll keep you posted! 
+     
+    

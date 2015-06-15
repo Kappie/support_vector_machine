@@ -1,0 +1,8 @@
+
+
+       
+       urlLink Signs on the Sand: XML Bestiary: IndexingXPathNavigator : "XML Bestiary: IndexingXPathNavigator
+Here I go again with another experimental creature from my XML Bestiary: IndexingXPathNavigator. This one was inspired by Mark Fussell's 'Indexing XML, XML ids and a better GetElementByID method on the XmlDocument class'. I've been experimenting with Mark's extended XmlDocument, played a bit with XPathDocument and 'idkey()' extension function Mark was talking about. Finally I came to a conclusion that 1)XPath is the way to go (that' not the first time I say it, right? :) and thus what should be extended is XPathNavigator; 2)no need to reinvent the wheel as XSLT's keys is proved excellent stuff. 
+That is what IndexingXPathNavigator is - XPathNavigator, augmented with XSLT keys functionality: it supports declaring keys, lazy or eager indexing and retriving indexed nodes via key() function all as per familiar and proved XSLT semantics."
+       
+    

@@ -1,0 +1,6 @@
+
+
+     
+      "Version 0.5  urlLink Log4E  is an Eclipse Plugin which helps you to set up your logger easily in Java Projects. It assists you in several tasks: logger declaration, logger Inserts at certain method entries, replacements of System out's, modification of already existing logger statements.  "  This should be a useful plugin for projects which are using Log4J. This confirms the belief that people should just use the standard APIs available without building wrappers over it, unless your requirement is really different. I am not sure it was smart of Indigo to build its own wrappers for Logging. 
+     
+    

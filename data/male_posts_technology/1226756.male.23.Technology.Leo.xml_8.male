@@ -1,0 +1,6 @@
+
+
+	 
+      Hmm, time seems to just fly by. I've found a tutorial I think will help me greatly. It's a written article in the norwegian edition of LinuxMagazine, called LinuxSchool. This article is written in norwegian, but I'll soon mail the author, and ask if I can translate it to english. If -/ and when it's done, I'll post it on my site, and write about it here. The article covers setup of DNS, Mail, News, SSH and a few things more I don't remember right now. It bases on a real live example-domain, and that's exactly what I was looking for. I'm hoping to achieve the following, based on the fact I only have a dialup: One machine acting as Router/Gateway and firewall.  Another server handling all this other stuff. When connected to the internett, it'll retrieve all mail from my online hosts, and I can then read it all later, offline. It will act as my DNS server, asking the DNS' of my ISP for the info first. (Caching) I'm not sure about news yet, but I'll probably try it out. More about this will be on my web-site.
+     
+    

@@ -1,0 +1,7 @@
+
+
+	 
+      Swing interfaces, how do you implement yours?  I spent late Friday afternoon moaning about how, while extending JTextField, I couldn't consume character key presses before they were entered into the text field. Well of course you can, I was just being particularly stupid....it was Friday after all.  I had implemented the KeyListener interface, but only fulfilled my usual keyPressed method, which obviously gets called after the text field has dealt with text keys. After I'd realised what I'd done it got me to thinking. I have gotten into habits when implementing interfaces that I use a lot. For example, when constructing a new Swing component I also implement the LayoutManager interface, fulfill the layoutContainer method, call onto getPreferredSize from both min and max layout size methods and do nothing in the add and remove layout components. I then override the getPrefferedSize method to ensure I don't get into any infinate loops.  This works for me, but my concern is that I don't realise that this is what I'm doing any more, thus leading to the potential for such gotchas as the KeyListener problem. Well it's one to remember at any rate, and I made myself look soooo stupid over this one that I'm not going to forget it in a hurry. At least I can be thankful that ActionListener only has one method!
+     
+
+    

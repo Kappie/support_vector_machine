@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This function validates an email address, returning True if it is a properly formatted email address, False if it is not.    /* 	ValidEmail - true for valid email, false for invalid */ function ValidEmail(EmailAddr) { 	var reg1 = /(@.*@)|(\.\.)|(@\.)|(\.@)|(^\.)/; 	var reg2 = /^.+\@(\[?)[a-zA-Z0-9\-\.]+\.([a-zA-Z]{2,3}|[0-9]{1,3})(\]?)$/; 	 	var SpecChar="!#$%^*()'+{}[]\|:;?/> 	var frmValue = new String(EmailAddr); 	var len = frmValue.length; 	 	if( len  	for (var i=0;i 	{ 				temp=frmValue.substring(i,i+1) 				if (SpecChar.indexOf(temp)!=-1) 		 		{ 					return false; 				} 	}	 	 	if(!reg1.test(frmValue)  reg2.test(frmValue))  	{  		return true; 	} 	 	return false; }   
+     
+
+    

@@ -1,0 +1,6 @@
+
+
+    
+       I've been having a few problems with calvin of late.  First, he says "calculating..." forever instead of guessing how much battery I have left.  Second, he has been crashing a lot.  The second problem was actually pretty easy to solve, once I got off my butt and read the discussion boards.  Apparently some  urlLink other  people have also had the same problem.  One of them even posted a panic.log that looks -exactly- like mine.  The problem?  Loose Airport Extreme card.  Easily remedied.  The first problem seems to be both more subtle and more common.  Though apparently  urlLink some people  have found a solution.  I recently wiped my hard drive and reinstalled Panther (and fink (that was a -lot- of compiling)) from scratch, which -might- have fixed the battery problem.  I don't know, since the various knowledge base docs about it suggest that I need to drain the battery to 0% before it will recalibrate itself.  I've just started draining the battery now.  However, I'm a much happier person now that calvin doesn't shit on me every few minutes.  Maybe I just need to learn not to type so bloody hard. 
+    
+    

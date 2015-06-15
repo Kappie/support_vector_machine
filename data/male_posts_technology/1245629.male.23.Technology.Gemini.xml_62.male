@@ -1,0 +1,8 @@
+
+
+
+       
+      ls -t will sort the files present in the directory  with timeline- recently accessed files first.  But, following  urlLink TUPE , I created a file called  -t  using  ed . I am try to ls that  -t  file. even tried  ls '-t' ls \-t but it is not working.   trying to find a way to get around the option -t and list the file  -t    Got the Answer from a friend     ls -- -t  
+     
+
+    

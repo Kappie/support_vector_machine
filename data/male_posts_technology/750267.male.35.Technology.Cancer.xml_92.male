@@ -1,0 +1,8 @@
+
+
+    
+       
+      I am really starting to love reading other people's blogs. I can sit there all day listening to the words of wisdom coming in from the ether...  I just read a very interesting first-hand account of how application testing is performed at Microsoft. Thanks to the  urlLink ScottGu  blog. Scott is (and I could be wrong about this) Microsoft's development manager in charge of Visual Studio .NET and ASP .NET.     A tester -- sitting in their office -- can configure the operating system and hardware they want to use (for example: Windows Server 2000, Advanced Server Edition on a 2 processor hardware configuration with a German language build) as well as the test suite they want to run (for example: all session state tests).  The automation framework with then find a hardware machine that meets the specification selected, reformat and re-image the operating system for the choice selected, and then execute the test suite run.  All pass/fail results can then be viewed by the tester on their own machine with their office (fairly fancy -- we are quite proud of this testing framework).    Wow. A tester presses a magic button, and the testing system will find a server that matches the hardware specs they require. Then the chosen server reimages itself to match the operating system and language of the tester has choosen. Wow. And did I say, wow. Or, and can I please add a drool.  I would love to work for Microsoft in Redmond. If anyone is out there, I would move out there in a heartbeat.   
+       
+    
+    

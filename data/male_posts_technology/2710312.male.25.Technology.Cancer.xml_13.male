@@ -1,0 +1,10 @@
+
+
+
+    
+
+       Continuing to push forward on the Sandbox game framework. Attempting to tackle the event system. I see three different techniques to choose from for the event system: Windows-style messaging, Java-style listeners, and the Chain-of-Responsibility pattern.   urlLink Windows-style messaging  takes the form of a message handler function (WndProc under Win32) that receives all of the messages. This function is then responsible for dispatching them appropriately, usually through a large switch statement. By default, your message handler will be notified of all messages without have to specifically express interest for them.   urlLink Java-style listeners  are very lightweight but are hard-coded, not dat-driven. In this case you create a class that handles a specific message (or group of related messages). The class handles the messages by implementing a specific interface for specific messages, i.e. handleMouseMove, handleMouseDown, etc. This interface works for implementing UI widgets but does not handle soft-binding of messages at run-time, or scenarios where senders and receivers are unaware of each other.  This is where the  urlLink Chain-of-Responsibility  pattern comes into play. This pattern separates sender from receiver. It also allows event handlers to prematurely discontinue the handling of events by simply not pass the event further down the chain. This seems like the preferred approach.  Well, not much more to say right now. The implementation is not finished so it may end up looking different. And it's 3:40am, so it's time to stop posting...   
+
+    
+
+    

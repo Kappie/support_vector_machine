@@ -1,0 +1,8 @@
+
+
+
+           
+      I learned about this utility at TechEd and just had to share it...   If you've heard of  WMI, then WMIC.EXE will make it useful.  It's a command line interface for WMI that doesn't require scripting.  It also allows you to access WMI on Windows 2000 computers through the network.  It gives you invaluable information about your computer in an easy to read web page among other formats.  Try this on an XP or Win2K3 test computer.  wmic startup get /format:hform > startup.htm  Then open startup.htm.  You could add to it like this:  wmic useraccount get caption, lockout /format:hform > useracct.htm.  You could also use it interactively by typing wmic (enter) and using /? for help.  It contains a great deal of information about lots of stuff.  Okay, one more:  wmic netlogin get /format:hform > netlogin.htm. 
+     
+
+        

@@ -1,0 +1,5 @@
+
+
+	 
+      A couple of weeks ago, I spent the better part of a day banging my head against the wall when trying to add a web service resource to a project in Visual Studio .NET 2003. In my test project, the web reference worked fine, but as soon as I tried to add it to my production project, it couldn't find the type I was trying to create, even though the web reference was there, as if the namespace was different for the web reference than the rest of the project.  There is no namespace property for the web reference, but it takes the value for the "Default Namespace" property on the project.  The problem for me was I had changed the namespace for all my source files, but never updated the default namespace property on the project, so the web service reference was being added under a different namespace than my source C# file that was referencing it.    Moral of the story, if you change the namespace for the source files in your project, make sure you right click on the project, then properties, then change the "Default Namespace" property to the new namespace you want.  
+    

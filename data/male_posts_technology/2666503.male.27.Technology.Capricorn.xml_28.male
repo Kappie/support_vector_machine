@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This function returns True if the passed keycode is a digit, False if it is not.  This is useful when you want to limit the values of a input field to only numbers.    function isDigit(nKeyCode) { 	// Test for digit keycode (0-9).    if((nKeyCode > 47)  (nKeyCode     {       return true;    }        return false; }  
+     
+
+    

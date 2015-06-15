@@ -1,0 +1,8 @@
+
+
+
+       
+      Today I played a little with gtkmm. Now I know how communication between different windows goes. It's so simple ;).   I am working on the team project. I don't have a name right now but it has something to do with XML-RPC and project management :--). First I have to write the basic operations like task adding, editing and deleting. Then it's time tor saving functions, etc. When I'm done with that, I'll do the "real bussiness". Like sending rpc commands to a remote server, sharing XML documents, opening remote XML documents, etc.  What am I doing now: have some problems refreshing the TreeView widget. But I think I already know what to do. But now it's time to sleep. ZzZzz ...
+     
+
+    

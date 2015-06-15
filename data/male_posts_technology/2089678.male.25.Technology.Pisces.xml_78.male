@@ -1,0 +1,6 @@
+
+
+     
+      This article discusses using the Java Communications API to access COM ports in Windows. The example is taken from a java program that reads barcodes from an omni-directional scanner. It checks the barcode against a remote object and, based on the results, sends codes to a PLC (program logic controller) to fire a diverter arm.   [Resource-Type: Article; Category: Java/Embedded/Comm; Level: ADV; XRating: 4] 
+     
+    

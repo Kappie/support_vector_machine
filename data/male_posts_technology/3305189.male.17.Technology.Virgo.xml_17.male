@@ -1,0 +1,22 @@
+
+
+	 
+       Update: I accidentally typed  xmlns:p  instead of  xhtml:p  like I used in the feed. Just modified that. 
+
+ I am using RssReader version 1.0.88.0 
+
+ This morning, I felt like experimenting. Instead of using the following: 
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>  
+
+ I used this: 
+
+  <xhtml:p>  
+
+ With this on the root element: 
+
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"  
+
+ Isn't that correct? The  urlLink FeedValidator  says it is correct. But the XHTML doesn't get formatted correctly now in RssReader. It used to work perfect with the other technique, which I see on most feeds. However, mine should work also, yes? 
+     
+    

@@ -1,0 +1,6 @@
+
+
+	 
+      I found this great  urlLink SQL tip  and it is spreading like a disease, because most resources (even the MSDN) that explore the issue "how to extract an AutoNumber value after inserting a new column in a table", have recommended using @@IDENTITY! Now it appears that this is not the best way (it is actually BAD in many occasions). In fact, I had such a bad feeling about @@IDENTITY, so in my Data Access Layer I used "SELECT MAX(col) FROM table" to get the new value. I know that I am relying on the assumption that the new row will have the MAX value in the AutoIncrement field. If concurrently another user inserts a row in the same table the damage will be done, so a better way (but not always feasible) is to open a new transaction for the INSERT. So be careful!
+     
+    

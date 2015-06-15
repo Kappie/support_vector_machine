@@ -1,0 +1,7 @@
+
+
+	 
+      you probably didn't find anything about COM on openoffice.org, because OpenOffice has it's own component models concept, called UNO. The UNO has an Automation Bridge that provides the use of WSH, VBScript etc.  OpenOffice also comes along with its own small Python core, small because it doesn't support a lot of modules and you cannot just install extension modules, because every module must be known to UNO.  Though you can easily write add-ons with the OOo Python core which would then be available to others, even if they wouldn't have Python (they would at least have Python in their OpenOffice).  So you have two options what you could do now:  1.    get to know another component model (the one of OOo called UNO, which is pretty new, so don't expect it to be as good as COM) and write python code to make use of it:          http://udk.openoffice.org/python/python-bridge.html  2.     or delve into COM by using Python code for doing something in MS Word or Excel."
+     
+
+    

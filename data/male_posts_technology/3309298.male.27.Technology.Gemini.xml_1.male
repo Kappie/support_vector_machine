@@ -1,0 +1,5 @@
+
+
+	 
+       Constructing a first post is a daunting affair, so I'll just forgo that and start off with something interesting...   I'm starting to work on new article that I'd like to target at  urlLink Dr. Dobb's Journal .  I published an article there in Dec 2003 on Application Level Data Caching.  This article is going to be about a framework for integrated software performance profiling.  Obviously, you can run your code through a profiling tool and see how much time is spent in which functions, and how often they return success/failure results.  What my article will suggest, though, is that it's far more affective to actually integrate profiling features into your code, just like you'd integrate debugging features.  The article will describe an object-oriented framework for software performance profiling that I've been designing.  Look for it some trade publication... I hope.
+    

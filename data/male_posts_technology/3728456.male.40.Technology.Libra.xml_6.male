@@ -1,0 +1,8 @@
+
+
+
+       
+      In this third entry into my Locking down items I want to look at the commands which tell  the Linux box to run programs under a different user id or group id.  The SETUID and SETGID commands are very powerful commands in that they allow a program to be ran under a different user id or group id.  Why is this important - a program which doesn't need to be running on a server can be given ROOT privileges for no reason and can create a security hole that can be exploited.  as any good admin knows the only services which should be running are those that need to be running on that particular box.  The fastest way to find these files is to use the  FIND  command with a few particular options.  The command is  find / -perm +6000 -type f ls   what this command will do is search from the root partition for any file with permissions of 6000 or higher, is a file, and is executable. Obviously any executable file which runs with ROOT privileges should have the interest of the Administrator.  
+     
+
+    

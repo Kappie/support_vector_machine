@@ -1,0 +1,6 @@
+
+
+     
+      If you use a web container such as Tomcat 5.x, which supports Servlet API 2.4 and JSP 2.0, then you can use a number of useful new features. These include:  Using a servlet as a welcome file.  Mapping filters to RequestDispatchers.  The new ServletRequestListener and ServletRequestAttributeListener interfaces.  Using Expression Language (EL) code within template text, not just as tag attribute values.  Writing tag files.  Writing Expression Language qualified functions.  Read the complete article from OnJava.  [Resource-Type: Article; Category: J2EE/JSP/Servlet; Level: ADV, XRating: 2]
+     
+    

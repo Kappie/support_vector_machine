@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This function trims the white space from the left of a string, a useful function when removing extra spaces typed in by a user into a form.    /*  	LTrim - Trims whitespace from left of a string */ function LTrim(str) { 	var whitespace = new String(" \t\n\r");  	var s = new String(str);  	if (whitespace.indexOf(s.charAt(0)) != -1)  	{ 		var j=0, i = s.length; 		while (j  		{ 			j++; 		} 		s = s.substring(j, i); 	}  	return s; }  
+     
+
+    

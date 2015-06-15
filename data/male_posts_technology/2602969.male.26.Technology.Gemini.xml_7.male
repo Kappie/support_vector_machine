@@ -1,0 +1,5 @@
+
+
+	 
+      1. How do I set up the default select command while I am displaying the list of saved images. 2. When I save a map in the actual phone, I am not taken to a different screen after clicking on OK for the sucessfull save dialog. 3. Possibly have a different message to be displayed depending on the type of operation being performed, like "Sending Request for Image", and "Sending Request for Search" 4. The name of the map to be displayed in the title for the map display screen. 5. Handling the case where in I cannot save the map since I have run out of phone memory space. 6. Probally porting the application to MIDP1.0 so that it can run in older phones. 7. Addiing bluetooth facility to the phone. 8. I am not able to zoom into a saved image, I guess I am also not able to navigate in anyother direction using a saved image.
+    

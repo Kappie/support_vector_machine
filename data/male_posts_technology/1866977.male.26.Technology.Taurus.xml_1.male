@@ -1,0 +1,6 @@
+
+
+     
+      I am in love with the messaging framework of WSE 2.0 ......just wrote the custom transport (soap.apdu) for communicating with the services on .NET SmartCard. Its awesome ... hides all the card protocol specific stuff. Just replace soap.tcp with soap.apdu in SoapClient and ready to rock and roll.  ##  Note : .NET SmartCard is not out of factory yet. For more information see  urlLink Axalto FAQ  for .NET SmartCard technology.
+     
+    

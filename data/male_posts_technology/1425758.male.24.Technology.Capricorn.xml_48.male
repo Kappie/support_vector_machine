@@ -1,0 +1,17 @@
+
+
+     
+       You really don't have to read this entry unless you are interested in XML and HTML. 
+ Now i'm strict XHTML 1.0. Not yet 100% valid, but that's only because of the auto-generated blogger advertisement code. I complained to them about it. XML "validification" included: 
+ 
+ Converting all tags to lowercase. 
+ Closing unclosed tags like <br/>. 
+ Dropping all <font> tags (thank God, finally). 
+ Quoting all unquoted attributes' values. 
+ Converting the deprecated <td height> and <td bgcolor> into style attributes. 
+ Converting all &'s in dynamic URL's into &amp;'s. Apparently the links still work. 
+ Also -- the dates are written on a little different background now. 
+ 
+ TODO: CSS validification. Currently it is very messy. And also -- XHTML 1.1... 
+     
+    

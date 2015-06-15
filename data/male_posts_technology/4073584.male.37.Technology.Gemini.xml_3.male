@@ -1,0 +1,6 @@
+
+
+     
+            Published properties (including events)  are not  automatically loaded (after instantiated at  runtime ) from  TDatamodules  stream when hosted by an external module ( DLL ). This seems to be a  bug  in the  Delphi RTL , because the stream reader works normally for the host application.      I have managed to workaround this by getting the plugin class (  urlLink TatsSpi  ) to do it by itself transparently to user. This means you (user) won't even notice there was a problem and won't have to add anything to your plugin project code. In other words, your   urlLink plugin events   (set at  design-time ) will keep firing normally and your   urlLink plugin published properties   will be there as expected. Also, the   urlLink TatsSPi  .Loaded method (inherited from  TDataModule ) will fire too.     Looks like trivial ? Not in  VCL  for  .NET .       \\:^)      
+     
+    

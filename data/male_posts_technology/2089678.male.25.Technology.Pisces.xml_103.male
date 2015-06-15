@@ -1,0 +1,6 @@
+
+
+     
+      "'Push' is a very powerful concept and typically refers to the mechanism or ability to receive and act on information asynchronously, as information becomes available, instead of forcing the application to use synchronous polling techniques that increase resource use or latency.   This article will cover the new mechanism called the push registry, introduced in MIDP 2.0 (JSR 118). You'll start by finding out what the push registry comprises, see an overall description of its exposed API, and learn how to use this API to push-enable your application. The article will end by covering use of the version of the J2ME Wireless Toolkit that supports MIDP 2.0 to test your push-enabled MIDP application. "  [Resource-Type: Article; Category: Java/J2ME; Level: IMD/ADV, XRating: 3.5]
+     
+    

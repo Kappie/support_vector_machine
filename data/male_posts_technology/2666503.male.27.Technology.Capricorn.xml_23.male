@@ -1,0 +1,12 @@
+
+
+   
+ 
+ 
+   
+
+       
+      This really bugged me.  I found code all over the web for how to convert a TIFF from one compression format to another and how to convert a TIFF to every other kind of file format that .NET supports, but nowhere could I find a code snippet showing me how to know what compression method a TIFF is  currently  using except for a lone post on Google Groups.  So I am posting the code for knowing what the compression method of a TIFF is in VB.NET.          Private Function GetTiffCompressionType(ByVal FilePath As String) As Int32          Dim img As Bitmap         Dim c As Int32          Try             img = img.FromFile(FilePath)             c = Int32.Parse(img.GetPropertyItem(259).Value(0))             img.Dispose()         Catch ex As Exception             c = -1         End Try          'Return value:          '1 = ???         '2 = CCIT 3 (modified)         '3 = CCIT 3         '4 = CCIT 4         '5 = PackBits         'That's all I've discovered so far.         Return c      End Function    
+     
+
+    

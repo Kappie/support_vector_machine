@@ -1,0 +1,6 @@
+
+
+    
+       You will be mad if you can't locate error in your program especially finally you find out that the cause is only not set your dynamic allocated variable is not set to NULL after freed it, won't you?  There are some tips for freeing a dynamic allocated variable not to cause any trouble in future: 1. Use the same function call to allocate and deallocate a dynamic allocated variable in your whole program. 2. Check if a dynamic allocated variable is NULL or not before freeing it. Please ensure you don't free a dynamic allocated variable values NULL even some function call handle NULL condition. 3. Set a freed dynamic allocated variable to NULL. This will not cause any error if this code is accessed rarely and not repetitively. By experience, this will cause error for repetitive condition.    if (sTemp) {    free(sTemp);    sTemp = NULL; }     Reference  Based on my experiences  
+    
+    

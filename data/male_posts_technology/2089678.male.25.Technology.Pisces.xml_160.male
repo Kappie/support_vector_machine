@@ -1,0 +1,6 @@
+
+
+     
+      PERC is a clean-room Virtual Machine (VM) supporting the execution of Java™ platform applications in embedded systems.  PERC was expressly created for use in demanding embedded systems--not retro-fitted after the fact. PERC delivers the ease, elegance, and efficiency of Java without sacrificing the integrity, performance, or real-time benefits of legacy approaches.  PERC VM features:  Ahead-of-Time  Just-in-Time (AOT/JIT) compilation to speed execution up to 20x  High reliability and performance  Remote debug support (AOT, JIT, and interpreted)  Superior memory management (accurate, incremental, and paced garbage collection)  Garbage collector pacing agent monitors the memory allocation behavior and controls garbage collection  Deterministic, with field-leading low latencies  Backed by unequaled support and services  VxWorks, VxSim, OSE, OSE Softkernel, QNX, Linux, and WinNT support  PPC PPC, ARM, XSCALE, and x86 support  Product Peripherals:  [Resource-Type: Resource/Download; Category: Embedded Java; Level: ADV; XRating: 4]
+     
+    

@@ -1,0 +1,6 @@
+
+
+     
+      The class java.util.Collections contains many methods designed to operate on objects that implement the List interface. This utility class includes methods to perform a binary search on a list for a specified object, to copy the elements of one list into another, and to swap elements at specified positions in a list. In this tip, you will investigate two simple methods in the Collections class: shuffle() and rotate(). Then you'll use another Collections method, sort(), to sort items in a list. To sort there must be some way to compare objects. In this tip, you will sort using Comparable and later a Comparator.   [Resource-Type: Tip; Category: Java/J2SE; XRating: 4]   
+     
+    

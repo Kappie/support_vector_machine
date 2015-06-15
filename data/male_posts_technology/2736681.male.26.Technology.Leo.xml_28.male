@@ -1,0 +1,6 @@
+
+
+     
+      Netscape 7 botched my profile last week, so I canned it and switched to Firefox/Thunderbird. Generally, its been pretty good - firefox is just a little slicker, and has all the things that I depended upon (stored passwords, tabbed browsing, etc) in Netscape, and a few more neat tricks like the pluggable search engines (I currently have Google, Dictionary.com, Wikipedia, IMDB, Amazon). Thunderbird is fine, too, although I haven't really noticed much difference from the Netscape mail component.  You know what pisses me off, though? These applications should work fine together, right? The both come from the Mozilla project, right? Wrong. Thunderbird is, in theory at least, installed as my "default mail reader", yet when I clicked on a mailto: link in Firefox, it tried to open the enemy, Outlook Express. I'm not sure what caused that - perhaps the i8n stuff? Anyway, I used a baroque fix described here, and that worked, but then it was doing the same thing for news...  Also, my search plugins where lost when I upgraded to Firefox 0.9, which was a nuisance, in contrast to the rest of the migration process, which was seamless.  It shouldn't be this complicated...
+     
+    

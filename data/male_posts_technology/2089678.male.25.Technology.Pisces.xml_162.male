@@ -1,0 +1,6 @@
+
+
+     
+         function VoteWindow() { url="http://vote.sparklit.com/wait.html"; options="toolbar=no,scrollbars=no,directories=no,status=no,menubar=no,"; options+="resizable=yes,width=469,height=570"; window.open(url,"pollwindow", options); } // -->                   A survey of J2ME users today.      Do you own a J2ME enabled mobile handset?        No. But I would like to get one.   No.   Yes. But I do not use it to download anything.   Yes.   I dont have a mobile handset.   What is J2ME?            Current Results              
+     
+    

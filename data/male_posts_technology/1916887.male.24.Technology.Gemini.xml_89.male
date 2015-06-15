@@ -1,0 +1,8 @@
+
+
+
+       
+      You have a shortcut to explorer.exe but everytime you click it opens in My Documents.  To save you time by getting it to open in My Computer instead just open the properties of the explorer.exe shortcut link, and paste  explorer.exe /e,::{20D04FE0-3AEA-1069-A2D8-08002B30309D}  into the target.
+     
+
+    

@@ -1,0 +1,6 @@
+
+
+    
+       Simon Keogh, Director of Product Management for  urlLink Tira Wireless , wrote an article on "Avoid the 9 Common Flaws of Unportable Mobile Java Apps"  urlLink here .  The key points are:  1) Avoid Hard-coding for Screen Sizes within applications 2) Avoid Hard-coding of Sound Elements (Store them in separate files) 3) Make Provisions for Incoming Calls or Messages. The application should "pause" and "resume" appropriately when a phone call or sms is recieved. 4) Store any constants needed in a central location such as a config file or class file in the JAR. 5) Take into account the MIDP Spec and Global Operator OTA Environment, especially the settings in manifest and JAD files as these can vary for operators.  6) Taking Localization Issues(multiple languages) into account from the start of the development. 7) Proprietary API's : Use judiciously - Avoid using them as it hampers portability. 8) Keep the application size below 64KB. More popular devices have an upper limit of 64KB. 9) Take care of industry De-facto standards for UI. Provide Main Menu; buttons like Help, About, Exit; and use menus and hotkeys in standard ways.  Account for portability from the beginning of development and not when the application is complete.   
+    
+    

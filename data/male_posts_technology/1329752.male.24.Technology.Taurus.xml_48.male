@@ -1,0 +1,6 @@
+
+
+     
+      I.   If the file is usually accessed sequentially and if the file is relatively small, then contiguous allocation should be used. If the file is usually accessed sequentially or randomly and is large, indexed allocation should be used. If the file is usually accessed sequentially and not randomly and the fiel is large, link allocation should be used.  II.  Cache improves performance by powering space or time locality of the application   or system that is being used. Creating a small cache will considerably improve the performance but the hit rate grows slower and slower as the size increases. Additional, file buffer cache competes with virtual machines. The decrease of the amount of memory available for processes is the result of increasing the file buffer cache.   III.  A RAM (Reformed Armed-Forces Movement) is a file system that completely resides in memory. With this, buffering of files is much faster. RAM disk is also a user programmable disk cache and classified as a complete temporary storage. RAM disk also allows programs to write applications using their familiar file I/O and memory controls. One good example is mounting a bootstrap file system in RAM disk while installing the OS. 
+     
+    

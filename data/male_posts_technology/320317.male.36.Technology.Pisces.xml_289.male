@@ -1,0 +1,6 @@
+
+
+    
+       "Although the idea behind Extensible Stylesheet Language for Transformations (XSLT) is simple, putting it into practice can be difficult, in part due to the number of attendant abbreviations and acronyms: XSL, XPath, etc. Furthermore, the available introductory material on XSLT suffers from the same weakness as introductory XML material in general in assuming that the reader is intimately familiar with analogous HTML technologies."
+
+ I admit I was thoroughly confused about XSL, XSLT, XPath, CSS, XHTML, and XML when it first came out. What is really important to understand is XSL (same as XSLT) takes XML and "Transforms" it into the user interface XHTML (HTML). That's it basically, so don't try to over analyze all the acronyms.

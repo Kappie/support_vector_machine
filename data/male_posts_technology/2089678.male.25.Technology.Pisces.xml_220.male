@@ -1,0 +1,6 @@
+
+
+     
+      Java applications face a problem today: The only containment vessel available to them is the Java virtual machine (JVM) process itself. Multiple JVMs are required to isolate Java applications from each other, and this has two major negative impacts. The first is the start up time involved for each JVM invocation; the second is the memory footprint required by each JVM. Given these costs, and the inability to isolate applications within the JVM, it is clear that something fundamental needs to be done to resolve these issues. The answer? Shared classes. In this article, IBM Java Technology Center Development Team members Lakshmi Shankar, Simon Burns, and Roshan Nichani discuss the concepts behind shared classes in JVMs, how they work, and how this technology could potentially be exploited by users. They also discuss some of the current implementations of this technology and how it may be further exploited in the future.  [Resource-Type: Article; Category: Java/J2SE; Level: ADV; XRating: 3]
+     
+    

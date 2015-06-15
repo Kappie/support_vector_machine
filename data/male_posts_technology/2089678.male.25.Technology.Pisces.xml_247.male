@@ -1,0 +1,6 @@
+
+
+     
+      Object caching is an important aspect in the design and development of Web portals. In a typical Web portal application, we need the frequently accessed data in a JVM's memory, but, at the same time, we want the ability to automatically clear the data from memory when it's stale and refresh it with new data. Currently many open source implementations provide object caching in J2EE Web applications. This article describes a reusable object-caching framework created to cache data objects in a Web portal application. This framework can be seamlessly integrated into any Web application. Author Srini Penchikala discusses implementing object caching using three open source caching frameworks: Java Caching System, OSCache, and Java Object Cache. He presents these frameworks' installation and configuration details. Finally, he presents a performance comparison to show the effectiveness of caching objects.   [Resource-Type: Article; Category: Java/J2EE; XRating: 3] 
+     
+    

@@ -1,0 +1,6 @@
+
+
+    
+       What’s the best practice in porting an unknown (code written by an unknown party) project in to a new language? What’s the order of components in which we should study and port the project from UI, Business Logic, and other supporting components like data access and logging? My gut feeling is that we should study UI, then BL and supporting components last. And when porting, we should start from supporting components and move to UI through business logic. In that way we know how exactly our code would be used and what could we expect… Comments please…  
+    
+    

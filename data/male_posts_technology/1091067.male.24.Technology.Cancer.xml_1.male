@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Irssi Users List Archives (05/2003) - : DCC, ip_conntrack_irc.c and file names   I always thought that it was a bug in irssi that prevented me from dcc-sending files with spaced filenames--until one day, I noticed a few lines in dmesg:   Forged DCC command from x.x.x.x: 0.0.0.0:0 Forged DCC command from x.x.x.x: 0.0.0.0:0 Forged DCC command from x.x.x.x: 0.0.0.0:0   After some googling I found that the conntrack module chokes on spaced filenames... So far, my only workaroound is to rename the files so that spaces are replaced with underscore using the following one-liner:   for file in *; do mv "$file" `echo "$file" | tr ' ' '_'`; done   
+     
+
+    

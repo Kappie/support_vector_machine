@@ -1,0 +1,8 @@
+
+
+
+       
+       urlLink Download details: Critical Update for Microsoft Data Access Components - Disable ADODB.Stream object from Internet Explorer (KB870669) : "Adodb.stream provides a method for reading and writing files on a hard drive. This by-design functionality is sometimes used by web applications. However, when combined with known security vulnerabilities in Microsoft Internet Explorer, it could allow an internet web site to execute script from the Local Machine Zone (LMZ). This occurs because the ADODB.Stream object allows access to the hard drive when hosted within Internet Explorer."   urlLink 870669 - How to disable the ADODB.Stream object from Internet Explorer 
+     
+
+    
