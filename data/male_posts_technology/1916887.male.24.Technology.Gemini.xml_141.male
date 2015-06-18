@@ -1,8 +1,0 @@
-
-
-
-       
-      I've run into issues with this in the past: a user thinks they're cute and sets up a background but for some reason it always shows up as the default.  Here's the reg entries to remove it:   urlLink Here's how to change which bitmap displays on the desktop before Windows NT log in : "With a simple registry change, you can change the default bitmap that displays behind the logon prompt in Windows NT 4.0.  You will need to have the bitmap you want to use in the Winnt directory, with an 8.3 naming convention name. Hive: HKEY_USERS Key: Default\Control Panel\Desktop Name: Wallpaper Data Type: REG_SZ Value: Full path to the bitmap There are also other Values that apply: Name: TileWallpaper Data Type: REG_SZ Value: 0 for tiling, 1 for no tiling Name: WallpaperStyle Data Type: REG_SZ Value: 0 for normal, 2 for full-screen"
-     
-
-    

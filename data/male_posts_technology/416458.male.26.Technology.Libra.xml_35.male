@@ -1,7 +1,0 @@
-
-
-	 
-      Web services stacks  I've been following the Apache Web Services mailing lists of late and there is interesting talk of them release a Web Services Pack, as an alternative to Sun's.  This is great news, I think. However what we need is some nice independant group to do interoperability testing for these. Which I think should be part of the WS-I remit. Surely it would be easy for them to set up their Basic and Security profile tests using each of the stacks and cross-test them.  Personally for completness sake I would like this to extend to other languages, such as PHP, C/++ etc. As a developer I want to know which specifications I can use without cutting off people using other languages, for example which languages and implementation stacks have WS-ReliableMessaging implementations and are they compatible.  I'd really like to see a set of flexed aggregations of Web Service implementation stacks pulled together that implemented as much of the standards stack as they could across  all  implementations. This should be cross-tested, WS-I tested and offered in two variants, server and minimal client (so for example the server Reliable Messaging layer would use a RDBMS and the client would have an in-memory embedded db) to keep client application distributions small.  Well this is the web service nirvana that I dream of, what do you think.
-     
-
-    

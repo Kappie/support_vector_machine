@@ -1,8 +1,0 @@
-
-
-
-       
-      North and South Bridge explained....  The North Bridge manages all data transfers between the CPU, main memory and the Accelerated Graphics Port (AGP). Things like I/O-ports (serial, parallel), USB, keyboard controller, AC97 sound, floppy controller and IDE controllers are part of the South Bridge.   VT8363 is a North bridge.. and other chip is the south bridge.. North and south bridge communicate via PCI bus.   
-     
-
-    

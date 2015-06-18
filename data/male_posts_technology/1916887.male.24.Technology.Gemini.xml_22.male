@@ -1,8 +1,0 @@
-
-
-
-       
-      "Late last week, Microsoft released a fix that addressed a way the flaw could be exploited but didn't fix the ADODB.Stream object itself, iDefense said in its advisory. 'I would not be surprised to see another wave of quiet, yet dangerous, Trojan attacks in light of this new exploit code,' Ken Dunham, iDefense's director of malicious code, said in the advisory.  Reston, Va.-based iDefense recommends users set a kill bit in the Windows registry to prevent the attack. Here is the key:   HKEY_LOCAL_MACHINESOFTWAREMicrosoftInternet ExplorerActiveX Compatibility{00000566-0000-0010-8000-00AA006D2EA4}  Then users would need to create a dword value called 'Compatibility Flags' with the value '400.' "  Read more about this in this  urlLink Search Security Article . 
-     
-
-    

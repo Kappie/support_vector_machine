@@ -1,6 +1,0 @@
-
-
-    
-       The more I think about it I am convinced that we need to more tightly integrate our Smart Client apps with the web based ones. In other words I think our  Shell  should host the IE web browser control in an Tabbed MDI fashion (like VS.NET). I believe this will provide for a more cohesive solution in terms of the user experience,   and   in terms of controlling the applications security context.  Here are some links that I have found helpful:    urlLink Web Browser/Content in a C# Application     urlLink JoHer     urlLink Code Project     More later. 
-    
-    

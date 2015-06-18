@@ -1,6 +1,0 @@
-
-
-     
-      If you have ever read the Java VM Specs and the  urlLink class file format  specifically, you know what I am talking about.   For others, they must have, atleast once in their lifetime, have come across the mighty error  "The Magic Numbers Did Not Match" .  Each class file in Java, has a related Structure(C programming lang.) internally. The first field of this Structure is a MAGIC NUMBER which defaults to 0xCAFEBABE.    The purpose of a magic number is to help tools quickly differentiate likely class files from non class files.   Those who are wondering, why the default CAFEBABE, may link to resource for some insight from the community members.  [Resource-Type: Weblink; Category: Java/VM; XRating: 4]
-     
-    

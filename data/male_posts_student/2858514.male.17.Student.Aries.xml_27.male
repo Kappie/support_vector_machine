@@ -1,8 +1,0 @@
-
-
-
-           
-       Today I still had nothing to do, so I decided to write a polling web page using ASP.NET. I read an article from MSDN talking about creating a simple polling system. After I understood how the database should be structured, I started to create a web user control that show options for polling. The coding process was very successful, and also I learned how to write stored procedures for Microsoft SQL Server.  After two hours of development, My voting control was finally finished. But during testing, it could not show the title of the poll. At first I thought it was the problem was the stored procedure. So I amended the stored procedure and even the database tables but it didn't help. I failed to figure out what the error was after spending a few hours.  I returned to track the program after lunch. I found that the value of SqlParameter object for the poll title is empty all the time and I did not know why. Then I read through the documentation about SqlCommand and some examples. And at last I found the error! It was a mistake to get the value for an output SqlParameter before the SqlDataReader was closed. The value of it is set after closing the SqlDataReader. So I corrected this mistake and test the web page and it worked fine!  This is the first time I write something useful. From the process I discovered the fun of programming and the difficulties of debugging. Also, I found that I'm not very familiar with ASP.NET. I think I need work harder to learn it. Tomorrow I hope I will be able to finish the whole polling system. 
-     
-
-        

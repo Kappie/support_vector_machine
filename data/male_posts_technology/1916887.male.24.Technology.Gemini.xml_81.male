@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Google Search: VIEW ACTIVE DIRECTORY ROLES : " a.. Active Directory Schema for the schema master.   b.. Active Directory Domains and Trusts for the domain naming master.   c.. Active Directory Users and Computers for per-domain roles."   Additionally, you can use the Active Directory snap-ins to view the actual roles that a domain controller owns. To accomplish this, you would choose one of the Active Directory snap-ins, right-click the root node of the snap-in in the consoler tree, and select Operations Master. The Operations dialog box displays the name of the domain controller that is the current focus and its status. 
-     
-
-    

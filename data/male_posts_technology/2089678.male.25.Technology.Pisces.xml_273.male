@@ -1,6 +1,0 @@
-
-
-     
-      J2EE developers often package their EJBs into JAR files and WEB modules (jsp/servlet/html) into WAR files. Another level of packaging is to create an EAR file that consist of JAR and/or WAR files. For creating such a file, you need to issue the following command   jar cvf file_name.ear ejb_file1.jar ejb_filen.jar web_file.war META-INF/   The META-INF directory contains a file named application.xml The application.xml file is the deployment descriptor for Enterprise Application Archives.   Link to resource is a page from the BEA docs that neatly describes various elements of this file and their usage.  [Resource-Type: Tip: Category: Java/J2EE; XRating: 3]
-     
-    

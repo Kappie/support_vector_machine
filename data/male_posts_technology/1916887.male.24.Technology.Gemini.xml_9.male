@@ -1,8 +1,0 @@
-
-
-
-       
-      Here's a good hint:   Enable Account Management Auditing   Sometimes you want to know what is going on w/ your Active Directory at all times (who wouldn't right?). User lockouts, creations, deletions, etc. To get these events into your event logs, you must enable the Audit account management policy for both success and failure. Here's how:   1. Log into your domain controller.  2. Select Domain Controller Security Policy under Administrative Tools in the start menu.  3. Find your way through security settings, local policies, audit policy.  4. Enable Audit Account Management for success and failure.  5. Done.   Look out for these events in your event logs (or use a filter program, such as EventSentry).   624 - user account creation  642 - user account changed  630 - user account deleted  628 - user account password set  627 - user account password attempt  644 - user account locked out  642 - user account changed: account disabled  645 - computer account created  647 - computer account deleted  635 - local group created  639 - local group changed  638 - local group deleted  631 - global group created  641 - global group changed  634 - global group deleted   Many thanks to  urlLink Windows  .Net Magazine  for publishing such a great article on this. If you don't regularly read this magazine, then you're no SysAdmin (well, in the Windows world at least).
-     
-
-    

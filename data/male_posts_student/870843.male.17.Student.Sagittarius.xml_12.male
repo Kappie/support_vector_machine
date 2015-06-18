@@ -1,6 +1,0 @@
-
-
-     
-      : "I'm tired of HD failures. I've suffered through a few of them. Even with backups, they are still a pain to recover from. I've got all fairly inexpensive but reliable hardware picked out, but I'm just not sure which RAID level to implement. My goals are to build a file server that can live through a drive failure with no loss of data, and will be easy to rebuild. Ideally, in the event of a failure, I'd just like to remove the bad hard drive and install a new one and be done with it. Is this possible? How many drives to I need to get this done, 2,4 or 5? What size should they be? I know when you implementddddd RAID, your usable drive space is N% of the total drive space depending on the RAID level."
-     
-    

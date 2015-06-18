@@ -1,8 +1,0 @@
-
-
-
-       
-      Now, this is something that I am facing at my workplace. There are a few queries that are timing out (yes, it's a web app). The problem is there is a large database and updation is happening big time on all records. Does updation happen in batches. Suppose at the end of it...we wish to rollback? The same process reversed...gosh...!! (Assume that we have not given commit in the procedure).  The suggestion that has come around here has been to create more indexes. Well, indexes do help undoubtedly. But, aren't indexes an overhead if used extensively specially with the "extent" usage varying based on type of indices?  I got ideas from Tom (asktom.oracle fame), which suggests creating a new table from the existing one and then dropping the old table...and then renaming the new table to the actual name...Viz.,   A needs to be updated create table B as A Delete A Rename B to A  It's an awesome solution....I thought.  Btw, In general I want to know which all fields are to be indexed in a table for best use of indexes. Of course apart from the unique and primary keys. What are the things that are to kept in mind before creating an index.  Among Databases, Oracle is the dearest to me...but I am not against any others. This one is on SQL Server. Creating indexes...hmm...just want to know what fellow db users feel?
-     
-
-    

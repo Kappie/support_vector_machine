@@ -1,5 +1,0 @@
-
-
-	 
-      I've recently been playing with the Jabber modules available for Perl via CPAN.  It's really easy to write a quick and dirty client for Jabber, and looks to be pretty easy to write a similar server.  I wrote a little ping tool that uses Jabber to notify you of changes to the target server's status, which turned out to be a lot easier than I'd thought it'd be.  I'm thinking about writing a little message board program using a Jabber server for user authentication and identification, just as an experiment.  Any ideas on what kinds of cool features that could enable?  I've also recently been using Jabber for all my IM needs, which is why my profile doesn't have an IM entry in it.  No option for Jabber.  Shame shame.    Darkmyst
-    

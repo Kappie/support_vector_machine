@@ -1,6 +1,0 @@
-
-
-    
-       I changed the name of this blog to chmod 311 because I think it suites the blog and my life in general well.  For those of you who have never had to change file permissions on a Unix-based system,  chmod  is a command that alters read/write/execute permissions of a file according to the user, group, and the rest of the world.  The basic system for changing permissions is based on numbers.   1  represents read permissions,  2  represents write permissions, and  4  represents execute permissions.    The basic file permissions chart:       user  group  everyone     read   1    1    1      write   2   2  3     execute  4  4  4     Most of the files I deal with, including many of the files on my harddrive can be read and written by me and can be seen by the whole world.  In this way I can share many different files and allow others to use them yet keep people from changing those files on my computer.  (This is how it works on most p2p clients) 
-    
-    

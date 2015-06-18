@@ -1,6 +1,0 @@
-
-
-    
-       You can add a description about a service and displayed in Description column in Services Console (MMC) by adding the following codes after created a service (CreateService()) successfully:         #define SZDESCRIPTION               "A description about the service"        LPSERVICE_DESCRIPTION lpInfo;        // change service's description       lpInfo = (LPSERVICE_DESCRIPTION)malloc(sizeof(SERVICE_DESCRIPTION));       lpInfo->lpDescription = (LPTSTR)malloc(256);       strcpy((char*)lpInfo->lpDescription, (char*)SZDESCRIPTION);       if (!ChangeServiceConfig2(schService, SERVICE_CONFIG_DESCRIPTION,           lpInfo))          _tprintf(TEXT("Can't change service description.\n"));       free(lpInfo->lpDescription); lpInfo->lpDescription = NULL;       free(lpInfo); lpInfo = NULL;   If you want to start a service automatically after installing it, add the following codes after created a service (CreateService()) successfully:         // Start Service       if (!StartService(schService, 0, NULL))          _tprintf(TEXT("Can't start service automatically.\n"));   
-    
-    

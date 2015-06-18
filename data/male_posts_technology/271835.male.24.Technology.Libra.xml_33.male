@@ -1,5 +1,0 @@
-
-
-
-       
-       function getIconElementByID(ElementID){var Element;if (document.getElementById)Element = document.getElementById(ElementID);   else if(document.layers)Element = eval('document.'+ElementID);else if (document.all)Element = eval('document.all.'+ElementID);return Element;} function clicked(img){str=" ";var p = getIconElementByID("preview");    existing = p.innerHTML; result=existing+str;    p.innerHTML=result; var t = getIconElementByID("imghtml");t.value = result;}      Click to add to selection                                       ... " style="float:left;" height="64" width="64" />                                                              Selected:       

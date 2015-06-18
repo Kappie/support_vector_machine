@@ -1,6 +1,0 @@
-
-
-     
-      The Mobile Media API (MMAPI) is an optional package that supports multimedia applications on J2ME-enabled devices. This standard Java specification, defined by the Java Community Process (JCP) in JSR 135, is highly flexible. It has been designed to run with any protocol and format; for example, it doesn't specify that the implementation must support particular transport protocols such as HTTP or Real-Time Transport Protocol (RTP), or media formats such as MP3, MIDI, or MPEG-4   This article provides a technical overview of MMAPI's architecture and APIs, followed by a tutorial in which sample code demonstrates how MMAPI can be used to build multimedia-rich wireless Java applications. A complete media player is developed, and steps for testing it are provided.   [Resource-Type: Article; Category: J2ME/MMAPI, Level: IMD, XRating: 4]
-     
-    

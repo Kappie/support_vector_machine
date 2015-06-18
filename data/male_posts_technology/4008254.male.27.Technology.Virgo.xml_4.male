@@ -1,6 +1,0 @@
-
-
-	 
-       package com.UE.Lesson1;  public class Dog extends Animal {     public Dog(){          }      public String getname(){        return getName("Dog !!");    }        public static void main(String args[])    {        Dog d = new Dog();        System.out.println(d.getname());        d=null;    }   }   
-     
-    

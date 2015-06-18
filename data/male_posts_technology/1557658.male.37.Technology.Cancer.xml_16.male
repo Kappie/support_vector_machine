@@ -1,7 +1,0 @@
-
-
-	 
-      Note to self. To populate a VB.NET DataGrid from a DataSet, you first have to Fill the dataset at runtime.  Thusly:  SqlDataAdapter1.Fill(DataSet1) Took me waay to long to figure that out!  
-     
-
-    

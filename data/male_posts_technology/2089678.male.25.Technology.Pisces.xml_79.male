@@ -1,6 +1,0 @@
-
-
-     
-      Sun has released JFluid 1.3.1*, a profiler for Java that can profile "an arbitrary subset of a program that can be changed on-the-fly, while the program is running. This is a capability not available in any other profiling tool for Java at this time." JFluid relies on a unique dynamic bytecode instrumentation mechanism and thus only can run on a specially modified HotSpot VM.   [Resource-Type: News/Release; Category: Java/Profiling; Level: ADV; XRating: 4]  *Explore this API with  urlLink JACK  -Java All Class reference Kit and develop your programs faster.
-     
-    

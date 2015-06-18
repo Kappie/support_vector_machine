@@ -1,6 +1,0 @@
-
-
-    
-       I finally got packages for libgpg-error, libtasn1, libgcrypt, and gnutls that compile and run happily on my fink box. I'm using the 10.2-gcc3.3 distribution.  I've had a report from a friend that these info files do not work on a 10.2 box.  I'm not sure if that has something to do with 10.2, or if it means that I forgot a dependency somewhere.  These packages work well enough for me to build and link gaim with them, and login to MSN without a segfault.  That's my acid test of most of my fink packages.  It's pretty disturbing, actually, just how much packaging I do just to get an extra feature or two  If anybody is interested, here are the links to the info and patch files:  urlLink libgpg-error   urlLink libtasn1   urlLink libgcrypt   urlLink gnutls   Hopefully these packages will get the blessing of the fink Core Developers (note the reverence) soon. 
-    
-    

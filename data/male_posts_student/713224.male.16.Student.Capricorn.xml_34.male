@@ -1,8 +1,0 @@
-
-
-
-	 
-
-      A new blogger script that I wrote so that I could have a "read" counter on each of my posts. I'm not gunna use it.  "#counter by David Tansley modified for blogger by Jon Bettinger of jonbetter.com # function to increment counter using a file function counter() { $counter_file =  "hit- .txt"; if (file_exists($counter_file)) { $file_op = fopen($counter_file, "r+"); flock($file_op,2); $count = fgets($file_op,4); $count++; rewind($file_op); fputs($file_op,$count,4); flock($file_op,3); fclose($file_op); echo "$count"; } else # file does not exist so create a new one { $file_op = fopen($counter_file, "w"); $count =  "1"; flock($file_op,2); fputs($file_op,$count,4); flock($file_op,3); fclose($file_op); echo $count; } } " it automatically creates the counter file for you, so no need to create a new one every time you post. horay!
-
-    

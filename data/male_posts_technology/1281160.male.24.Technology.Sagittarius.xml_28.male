@@ -1,6 +1,0 @@
-
-
-     
-      My PL was on travel last week. He's supposed to get back today. Waiting for him... I can't proceed until he gets back and helps me out with the BizTalk Server thing... I'm not able to make head or tails out of it. Meanwhile, I'm continuing to do some work with the other part of my application - reading some measurements (without BizTalk) of response time for a message from a 'send' to a 'receive' ... its throwing up some interesting results in fact... a 11 byte message takes on an avg of 300-340 ms while messages of 1K, 2K and 3K take less than 100 ms ... that is pretty consistent on different loads of 60,120,240,480 and 560 messages/minute...  Got to study this a bit more... but I need to check the results with BizTalk too and waiting for my PL for that...  Kicha  
-     
-    

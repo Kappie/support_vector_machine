@@ -1,8 +1,0 @@
-
-
-
-       
-      Start the Registry Editor  Go to HKEY_CURRENT_USER \ Software \ Microsoft \ Windows \ CurrentVersion \ Policies \ Explorer \  Right-click an empty space in the right pane and select New > DWORD Value  Name the new value NoSharedDocuments  Double-click this new value, and enter 1 as its Value data  Close the registry editor  Log off, or restart Windows for the changes to take effect  To reverse this process, change the Value data to 0, or delete the NoSharedDocuments Value.  
-     
-
-    

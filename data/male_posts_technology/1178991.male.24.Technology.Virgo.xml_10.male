@@ -1,6 +1,0 @@
-
-
-    
-       Here are a couple of interesting projects aimed at PHP5 :    urlLink Propel  is a PHP object persistance project, like an ORM package.  Havent used it yet, but it looks pretty interesting - I remember John and I played around with something similar, but it didnt work out in the end.  I am interested in seeing if this one is a cleaner model.    urlLink Creole  is a subproject of Propel that provides a DB abstraction layer, like PEAR::DB, or my own DBI modules.  It looks pretty clean, but probably should be transparent behind Propel.  Also, there is nothing here yet, but the idea is pretty cool, I'm going to keep watching it :   urlLink http://www.sebastian-bergmann.de/AOP/  
-    
-    

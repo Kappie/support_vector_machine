@@ -1,8 +1,0 @@
-
-
-	 
-       Two things I discovered recently that rock my socks:
- - urlLink jigdo .  In order to keep busy without actually doing anything productive, I'm going to install Debian stable on my machine where Redhat 8.0 currently resides, and I used jigdo (short for "jigsaw download") to download the CD images.  What it does is instead of actually downloading a large binary CD image file, it takes a specified .jigdo file, which tells it all the files that will be on the finished CD, runs around grabbing these files, then assembles them on the fly into an exact copy of the original image (okay, that's a half-assed explanation, but if you want a better one go to their  urlLink website ).  So not only are you not waiting forever for one monolithic download to complete, if you want to download a newer version of an image, it can grab only the modified files, and use the unchanged old ones already on your computer.   urlLink Apparently  in the future jigdo will be the main way of distributing Debian images, so this is probably old news but I still thought it was cool.  
- - urlLink MUDDA  (via  urlLink BoingBoing )   Brian Eno and Peter Gabriel have formed the Magnificent Union of Digitally Downloading Artists, a group of artists that seeks to "help transform the music business in such a way that artists are on level terms with record companies, receive fair payments and have new opportunities to be their own retailer when they choose."  I think this is what most consumers want: a way to compensate the artists they appreciate, without lining the pockets of record executives and propping up an outmoded distribution system.  It's promising to see things moving in this direction.  
-     
-    

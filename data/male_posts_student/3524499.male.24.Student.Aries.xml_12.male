@@ -1,8 +1,0 @@
-
-
-    
-       
-      This is a quick version of that meeting.   Time  Location: 7pm  Quad@UCL Participants: Kyle, Cecile, Sheen   Issues:  1. discussion about the procedures involved; intial policy, setup VPN, routing policy.  2. several assumptions:  1)participating hosts all known to all initially (ip address); 2)topology decided beforehand and configured manually;  3. possibly use RIP.  4. AKENTI and PolicyD for references.  5. Security issue still ambiguous.   Tasks:  1. Sheen - Interface; 2. Kyle - Security, authentication; 3. Cecile - XML  Policy.
-       
-    
-    

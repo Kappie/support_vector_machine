@@ -1,6 +1,0 @@
-
-
-     
-           In the same week I came across this question from 2 different people. One from the mailing list I subscribed to and the other one from a long time friend (Calling himself J2EE 'Veteran').  Question : Does Java methods use pass by value or pass by reference ?  The answer is :        "Java does manipulate objects by reference, and all object variables are references. However, Java doesn't pass method arguments by reference; it passes them by value."  Here is an excellent article explains this in a very simple way.  http://www.javaworld.com/javaworld/javaqa/2000-05/03-qa-0526-pass.html
-     
-    

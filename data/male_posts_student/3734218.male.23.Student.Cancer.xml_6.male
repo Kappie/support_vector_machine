@@ -1,8 +1,0 @@
-
-
-
-       
-      It is possible!  After struggling (and giving up) with a professors during the semester, I moved him back to Panther.  Everything was good for a while, but, long story short, I think the system freaked out because I left the "Previous System" there, and it started using some of the Applications and System files from there.  So we decided to try to get the machine working satisfactorily under Panther.  (Shame on Microtek for not fixing the Panther issues with Panther after so long!)  Imagine my surprise when I got it to work.  Here are steps I took:  1.  Download the *newest* Scanwizard 5 (which you can find linked to from VersionTracker ( urlLink here ).  This doesn't install the support bundle for the X12 USL, so move on to step two.  2.  Download  urlLink this  (ftp.microtek.com) and install it.  Now we're almost done, already!  3.  (I'm not at the computer right now, and I don't quite trust myself to get everything *exactly* right, but it's pretty close.)  Go to /Library/Application Support/ScanWizard 5 V/Support Bundles/Scanner_Driver folder.  Delete *all* the folders/files within except the one that corresponds to the X12USL USB.  It'll be something like "SM-12USL USB 1.0.0.se".  You may have to turn the printer off, then on, then reset the computer before it works, but it should work.  If not, leave a comment and I'll be more explicit.  I did leave out a step that I don't think mattered.
-     
-
-    

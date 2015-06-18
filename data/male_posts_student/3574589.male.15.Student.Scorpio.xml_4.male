@@ -1,6 +1,0 @@
-
-
-	 
-      *********************************************************************************************  How To Display The Registered Computer Owners Name   Private Declare Function RegOpenKey Lib "advapi32.dll" Alias "RegOpenKeyA" (ByVal hKey As Long, ByVal lpSubKey As String, phkResult As Long) As Long   Private Declare Function RegQueryValueEx Lib "advapi32.dll" Alias "RegQueryValueExA" (ByVal hKey As Long, ByVal lpValueName As String, ByVal lpReserved As Long, lpType As Long, ByVal lpData As String, lpcbData As Long) As Long     Private Const REG_SZ = 1     Private Const LOCALMACHINE =      '***** To use this function use Call GET     '     REGOWNERNAME, then use it as a variable.     '     EX - MsgBox GETREGOWNERNAME   Private Function GETREGOWNERNAME() As String     Dim nBufferKey As Long     Dim nBufferName As String     nBufferName = Space(256)     RegOpenKey LOCALMACHINE, "SOFTWARE\Microsoft\Windows\CurrentVersion", nBufferKey     RegQueryValueEx nBufferKey, "RegisteredOwner", 0, REG_SZ, nBufferName, Len(nBufferName)     GETREGOWNERNAME = nBufferName End Function ********************************************************************************************
-     
-    

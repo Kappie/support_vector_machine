@@ -1,6 +1,0 @@
-
-
-     
-      In order to set up Microsoft IIS Web server to serve Java Server Pages (JSP) and servlets, you need to install the Jakarta isapi redirector. After a successful install, IIS will work as normal, except when a JSP or servlet is encountered, it will pass it along to Tomcat, which will process and send the results back to IIS.  Setting up the redirector is quite not trivial, this installer tool can really simplify your work.  [Resource-Type: Download/Weblink, Category: J2EE, XRating: 4.5]    
-     
-    

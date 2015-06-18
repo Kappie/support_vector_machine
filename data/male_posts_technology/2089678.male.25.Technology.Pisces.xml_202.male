@@ -1,6 +1,0 @@
-
-
-     
-      Tag files are one of the most important new additions to JavaServer Pages (JSP) technology, allowing Web developers to build libraries of custom tags with the JSP syntax. The JSP tag files are translated into Java code automatically by the JSP container through the same process that transparently produces Java Servlets from JSP pages. We could say that tag files hide the complexity of building custom JSP tag libraries. While such libraries can be reused across Web applications, they offer significant benefits even when designed for a specific application because custom tags improve the maintainability of the Web pages. After reading this article, you'll know how to create and use tag files and how to transform existing page fragments into tag files.   Use tags wisely in your programs, they can prove to be a performance overhead.  [Resouce-Type: Article; Category: Java/J2EE/JSP; Level: IMD; XRating: 4]   
-     
-    

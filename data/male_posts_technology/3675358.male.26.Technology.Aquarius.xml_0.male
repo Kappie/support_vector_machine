@@ -1,6 +1,0 @@
-
-
-    
-        [gcc, egcs] use options :  -O3 -s  when compile your code to optimize object code (intermediate files) and strip all unnecessary comments  [LINUX] Also you can type in shell :  strip -g -s EXE_FILE  will give you the same effect as add options describe above 
-    
-    

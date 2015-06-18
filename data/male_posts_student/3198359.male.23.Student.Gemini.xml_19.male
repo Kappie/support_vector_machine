@@ -1,7 +1,0 @@
-
-
-	 
-       urlLink FreeBSD: March-April 2004 Status Report    2004 continues on with wonderful progress. Work continues on locking down the network stack, ACPI made more great strides, an ARM port appeared in the tree, and the FreeBSD 4.10 release cycle wrapped up. Once 4.10 is released, the next big focus will be FreeBSD 5.3. We expect this is be the start of the 5-STABLE branch, meaning that not only will it be stable for production use, it will also be largely feature complete and stable from an internal API standpoint. We expect to release 5.3 in mid-summer, and we encourage everyone to download the latest snapshots from for a preview.  Thanks,  Scott Long   It seems that FreeBSD is making much progress, however, I still have my doubts on whether they can deliver on their promise considering what DragonflyBSD have to offer in regards to their alternative way of scaling *BSD.  
-     
-
-    

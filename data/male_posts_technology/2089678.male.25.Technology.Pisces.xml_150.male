@@ -1,6 +1,0 @@
-
-
-     
-      If your J2ME applications store or transmit sensitive or confidential data, you can make them more secure using data encryption. Devices that support the Mobile Information Device Profile (MIDP), for example, are only required (in version 1.0) to support HTTP, not the secure HTTP protocol, HTTPS. The security of your data therefore depends on the security of the network. Even applications that don't transmit confidential data can benefit from data encryption. When run on a Palm OS-based device, for example, the record stores used by a MIDP application are actually Palm OS record databases. The MIDP runtime system controls access to the underlying record databases so that only applications running the same MIDlet suite can see each other's data. However, it's a trivial matter for an experienced Palm OS user to view and copy the contents of those databases independently from the MIDP runtime system. Encrypting the contents of a record store can defeat all but the most determined attackers.   This article explains how you can encrypt data to be transmitted or stored in an RMS for your J2ME application.  [Resource-Type: Article; Category: Java/J2ME; Level: ADV; XRating: 5]
-     
-    

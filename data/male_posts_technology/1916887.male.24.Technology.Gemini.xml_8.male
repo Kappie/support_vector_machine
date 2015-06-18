@@ -1,8 +1,0 @@
-
-
-
-       
-      Here's a quick and easy way to gather information from Active Directory and import it into a spreadsheet:  Run Active Directory Users and Computers.  Select View -> Add/Remove Columns, and add the columns you want to display and export (e-mail address, last name, etc.).  Select the Users container or another organizational unit (OU) within your Active Directory hierarchy.  Right click on this same container/OU, select Export List and provide a path/filename.  Open up the exported text file with Microsoft Excel or another spreadsheet application.  You now have the information you need in spreadsheet format.  
-     
-
-    

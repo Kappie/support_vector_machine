@@ -1,6 +1,0 @@
-
-
-	 
-      As I've been working on Tipue the .NET app I've had a few ideas on improving the  urlLink Tipue scripts  and I've decided to put down C# for a few days and work on the next version. The main aim is to add a proper page ranking system while still keeping the script size in single figures, which means I have 3Kb to play with.  Another problem is retaining the existing data file format; if I can it'll be a 1.6 release and if not I'll signal the change by naming the new version 2.0. If it's the latter I'll probably get a few trenchant emails about where I've gone wrong.
-     
-    

@@ -1,7 +1,0 @@
-
-
-	 
-      The return of the DateField...again!  So the date field has a fatal flaw. You might remember my description of the component that I create including a restriction that for each date block, year or month etc, the intended input must match the length of the format. For example for months the format should be MM and it will expect 2 digits.  The unexpected problem is that in a project we are doing for a museum we have dates going back to 50,000 BC....bugger. 
-     
-
-    

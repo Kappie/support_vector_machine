@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Slipstreaming and Boot CDs   urlLink JSI Tip 4253. A quick guide to presinstalling Windows 2000 and Windows XP.   urlLink How to create a custom bootable unattended Windows 2000 CD with integrated service pack and automated application installation  -  urlLink (.Doc version)  - This is the  BEST  resource I found for creating my CDs.    urlLink Winnt.sif Creator - I do all the work, so you don't have to!  - Very nice little free Creator.. even includes reg tweaks. - although you could always use the setupmgr.exe file inside the deploy.cab file on the Windows2000 CD in the \support\tools folder.  urlLink Unattended Windows 2003 CD - Reference  - A  great  site for creating an unattended install cd - covers auto installing apps, drivers, tweaks, etc, and contains a great explaination of each option in winnt.sif.  
-     
-
-    

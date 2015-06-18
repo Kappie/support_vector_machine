@@ -1,6 +1,0 @@
-
-
-     
-      Met with Pasha today, he's been here all day, so we got pretty far in the research...first things first, minor details: You can now look at each metric individually (and, getting sick of having to make 1000 changes to my program every time I wanted to add in one metric, or metric-viewing feature, I completely overhauled my method of transferring data to the results window, in the process cutting the size of that file by about 12 KB, more than half), and I worked on my paper. Now for the important stuff...I met with Mike Sosonkin, part of Poly's DOJ (Design Obfuscator for Java) project, to discuss obfuscation so I can get some preliminary results for tomorrow. Pointless as it may be, the program wants results, so whatever, I'll get them something...he showed me how to use DOJ, and how to get the data he's collected already--namely the runtimes for obfuscated and unobfuscated programs. That's about half of my experiment right there, so the results should be easier to get now. I just need to repeat the EXACT obfuscation Mike used for each specific set of results. Anyway, I have to hurry to make the train--shalom!
-     
-    

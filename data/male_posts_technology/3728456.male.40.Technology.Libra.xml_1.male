@@ -1,8 +1,0 @@
-
-
-
-       
-      Here are some useful Apt-Get commands that I've found.   apt-get install rdate  This will install the rdate program once it's installed then you can decide which time server to set your clock against.  The two time servers I've found are the National Research Council, Ottawa, Canada or the NIST Laboratories, Boulder, CO.  The respective commands to be used are either  rdate time.nrc.ca  or  rdate time.nist.gov    apt-get install makepasswd  This will install the makepasswd utility for randomly generated passwords.  The command after the makepasswd utility is installed is  makepasswd --count=10  this would generate 10 passwords of various lengths.     apt-get -s (command) (package name)  The -s option tells apt-get to simulate the events that would occur if the command were actually ran.  Simulate prints out a series of lines representing the command action, but does not actually change the system.
-     
-
-    

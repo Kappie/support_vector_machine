@@ -1,6 +1,0 @@
-
-
-     
-      SWT was created to solve the problems existing in AWT (lack of functionality) and Swing (inconsistency with the native look and feel, and poor performance). This has been achieved by using a solution that lies between the two extreme approaches represented by AWT (using the smallest set of common features) and Swing (emulating everything). Like Swing, SWT provides a rich collection of widgets with all the functionality required by a modern UI -- but like AWT, SWT also makes use of the native widgets and libraries of the underlying platform.  SWT (the Standard Widget Toolkit) is an alternative toolkit that was created by IBM and has become popular due to its use in the Eclipse platform. SWT has now been donated to the open source community along with the rest of the Eclipse platform.  Read this exclusive tutorial from IBM developerworks and get your hands and apps on SWT.  Happy Coding...  [Resrouce-Type: Tutorial, Category: Java/GUI, Level: IMD/ADV, XRating: 4]
-     
-    

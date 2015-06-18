@@ -1,6 +1,0 @@
-
-
-    
-       Ah, how I love that Microsoft sells such quality software.  Around three weeks ago security researchers discovered a problem with the way Windows 2000 and Windows XP handle RPC (Remote Procedure Calls). Today the first virus to exploit this problem started to spread.  You can read about it at a number of places:  Information Week -  urlLink Newly Discovered Worm Attacks Vulnerable Systems  BBC News -  urlLink Worm Blasts Across the Web  The Register -  urlLink Blaster Worm Spreading Rapidly  Security Focus -  urlLink RPC DCOM Worm Hits the Net  Also useful is  urlLink Black Viper's Blaster FAQ .  Cnet even has an analysis of the worm's structure:  urlLink 'MSBlast' worm a piecemeal monster .  People are even starting to throw blame around:  urlLink  Worm Exploits Weak Link: PC Users  (Of course they're going to blame the users, if they blamed the programmers, they might have to admit that programmers make mistakes).  Researchers found that the MSBlast.exe program contains the following text:  billy gates why do you make this possible? Stop making money and fix your software!! . 
-    
-    

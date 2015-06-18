@@ -1,7 +1,0 @@
-
-
-	 
-      Today at work I got an error message while testing our software:  Incorrect visit Id format found.  Error Code: 2002    I don't think I've been so happy to get an error message.  The clinics have had this phantom error that pops up several times a day, but I can never reproduce it.  And end users are oh so helpful..."it won't save" is all I get.  But today, after a conversation with my boss I got a brainwave about how to try to reproduce the problem.  And what do you know...it worked!  Now I can actually fix this problem and get it off my list.
-     
-
-    

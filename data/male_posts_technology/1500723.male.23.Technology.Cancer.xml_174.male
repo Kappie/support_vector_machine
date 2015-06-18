@@ -1,8 +1,0 @@
-
-
-
-       
-       Tip for Linux Programmer   For god's sake avoid using Static libraries in Linux It doesn't provide the basic stuff of hiding the symbols or controlling the symbols exported.. All the non static functions and symbols gets exported..  you can use  urlLink version scripts  to control the symbols exported in dynamic libraries.  
-     
-
-    

@@ -1,6 +1,0 @@
-
-
-     
-      He should have been the Lockup Man in Tihar because he knows better ways to lock and unlock the system....   Here is a nice trick to lock your system as I found it in  urlLink Hashims Blogs ..Liked it alot...    If CTRL-ALT-DELETE seems like too much of a hassle, try this instead:    1. Right click an empty spot on the desktop, point to New and clickShortcut.    2. In the Create Shortcut dialog box, type the following into the Type thelocation of the item text box:" rundll32 user32.dll,LockWorkStation " // remove quotes while typing    3. Click Next.    4. In the Select a Title for the Program dialog box, type "Lock Desktop" inthe Type a name for this shortcut text box.    5. Click Finish.    
-     
-    

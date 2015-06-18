@@ -1,7 +1,0 @@
-
-
-	 
-      JDesktop Integration Components (JDIC)...  I was over the moon when Java.net launched the  urlLink JDIC (JDesktop Integration Components)  project.  Our administration appilcation acts in some ways like a remote file explorer, and so is required to open files in the appropriate application.  Well I've bodged this in Windows by calling:   Runtime.getRuntime().exec( "rundll32 url.dll,FileProtocolHandler file:/" + filePath;   Luckily we don't have a drastic call to make the app cross-platform, but then this is Java so it basically offends my sensibilities that it isn't. JDIC seemed like just the ticket, except for one thing.....  ...the one  other  platform that is of importance to us is Mac OSX, which is the one major platform that JDIC doesn't cover. I've been trying to think about why this is the case. The only answer that I've managed to come up with so far is that Sun started the project, and the covered platforms match up with those that Sun directly offers for Java, Apple producing the Mac OSX version of Java.  Anyway, these guys are desparately in need of all the contributors they can get, so I'm putting a plee out there for Mac people to contribute. To tell you the truth I wouldn't be surprised if Apple put some people behind this. I'm definately going to prompt the Mac fan in our office.  If you think you can help, please do.
-     
-
-    

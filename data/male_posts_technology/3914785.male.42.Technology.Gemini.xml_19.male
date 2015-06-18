@@ -1,8 +1,0 @@
-
-
-
-       
-      Yesterday I learned a new programming language,  urlLink Groovy . Well, I wrote  urlLink a simple program  in Groovy. I need to do much more with it before I learn to "think in Groovy."  This is important. There's a huge benefit to learning a new programming language, so much so that  urlLink The Programatic Programmers  recommend learning a new language every year. Learning a new programming language can be difficult.  Let's be precise: learning to write working programs in a new language is relatively easy, but the first impulse is to think in the style of the languages you already know and write programs using the syntax of the new language. Learning to think in the new language, to write programs in the style of the new language, now that's hard.  If we were talking about human languages, we would be talking about learning to speak a new language  idiomatically . It's the idioms you want to learn, not the syntax.  As it is, Groovy has some features that make idioms I already know much, much easier. First-class closures alone make Groovy  more expressive than Java (I was going to say "more powerful than," but I want to avoid controversy).  That being said, I want more than just convenience out of a new programming language. I already can compile Lisp programs into bytecodes for the JVM, and I can write my own macros for any Groovy feature I like. What I want are the new idioms.  For example,  urlLink GPath  isn't a feature, it's a way of using closures and Groovy's flexible syntax to make collection expressions that look remarkably declarative (GPath was inspired by XPath, of course). I'm hoping that as I learn Groovy, I learn new idioms. 
-     
-
-    

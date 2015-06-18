@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Ultr@VNC - Remote Control Software  - If I'm not mistaken, I've blogged about this before, but check out this tip:  If you want to get maximum refresh rate, responsivness and performances, you can try to completely disable "Hardware Acceleration" on the machines that run WinVNC. It can be done in "Display Properties" Panel - "Settings" Tab - "Advanced..." Button - "Troubleshooting" Tab - "Harware Acceleration" Tab set to "None". This makes a BIG difference, especially over LAN connections and even with others VNC distributions.WARNING: Turning off hardware acceleration with some ATI cards with result in BSODs under windows 2000. When you can turn it off however, the results are impressive. WARNING: This trick is pointless if the Video Hook Driver (W2000/XP) is used on the server.   Seriously, this tip works great.  I am dead-heading a test machine and I was finding the refresh to be extremely sluggish.  Now it seems quicker than if I was sitting at the machine itself!  Also, today's Black Tuesday (MS patch day).  They don't have the patches up on Technet yet, but expect some Direct X issues.. (rss is good).
-     
-
-    

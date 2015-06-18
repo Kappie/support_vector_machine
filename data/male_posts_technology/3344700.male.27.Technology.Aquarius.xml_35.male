@@ -1,6 +1,0 @@
-
-
-						
-						   I have been asked this question by many of my friends and co-developers. So I thought of mentioning the main differences of these 2 controls out here.  We are triggered to create either web user control or web custom control of our own, If none of the existing ASP.NET server controls meet the specific requirements of our applications and these controls would encapsulate the functionality that is needed.  If the needed control has a lot of static layout, creating a user control is the best choice. Or else if the control is mostly dynamically generated Â for e.g. rows of a data-bound table, nodes of a tree view, or tabs of a tab control, in this case a custom control would be a better choice.  Overall, the main difference between the two types of controls are,   Web user controls:    - easier to create - limited support for users who use a visual design tool - aseparatee copy of the control is required in each application - cannot be added to a Toolbox in Visual Studio - good for static layout   Web custom controls:  - harder to create - full support for visual design tool users - only a single copy of the control is required, in the global assembly cache - can be added to Toolbox in Visual Studio - good for dynamic layout  
-
-						

@@ -1,8 +1,0 @@
-
-
-
-       
-      This next section will cover when to use compression and when to not use compression with SSH connections.    The two biggest reasons to use compression are when you are connecting through a slow connection, similar to a dial-up or when you have to move a large amount of data form one machine to another machine and the compression will make the data transfer move faster.    There are some reasons not to use compression also, any time one of the systems has a slow processor you want to avoid compression due to the time spent uncompressing or compressing the data. Also if the data is already compressed, using compression will only add the time to compress and uncompress to the process.     SSH uses GNU ZLIB (LZ777) for compression. By default compression is turned off in the  urlLink /etc/ssh/ssh_config  file, but can be turned on at the command line with the command  ssh +C username@hostname . additionally the user can request a compression level at the command line from anywhere 1 to 9, with 1 being the fastest and 6 is the default.    Two good sites for SSH compression are the  urlLink ssh.com  site and the  urlLink University of Cambridge  site.  I know this is a short piece this time but this pretty much covers the compression discussion, remember to look at your environment and what is actually happening before you enable cmpression due to the fact that it doesn't save time all the time.    To return to the  urlLink main directory for the SSH tutorials . 
-     
-
-    

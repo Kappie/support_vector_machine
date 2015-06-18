@@ -1,5 +1,0 @@
-
-
-	 
-      I like to keep up with what everyone is doing through their blogs, but I hate clicking through to each site twice a day to check for new posts. Since I don't wanna pay for  urlLink Newsgator  like money-bags  urlLink Matt , I thought I would whip up something simple that lets me view everyone's posts from one place.   urlLink Here  is my first try.  (The link is now in the sidebar as Everyone)  Most of the code was provided by  urlLink FeedOnFeeds  which uses an old version of  urlLink MagPie  that unfortunately does not support Atom feeds.  Luckily there is an  urlLink Atom to RSS converter  out there to massage the feed before FeedOnFeeds gets it.   Still,  some of the formatting appears to be lost.   Update   For whatever reason the dates are not being retrieved from Matt and Ming's feeds so their posts show up at the bottom. 
-    

@@ -1,8 +1,0 @@
-
-
-
-       
-      This will be the final piece on this subject for the time being.  In my look at the initial things to look at when securing a Linux box.    This post is going to follow-up on the find command which searched for setuid  setgid permissions.  Vulnerabilities in the setuid/setgid binaries can often lead to root compromise, so they should only be used when necessary.  Once again after running the  find / -perm +6000 -type f ls  command we will be given a list of the different files which are ran with root priveleges.  The  urlLink US-CERT site  covers this topic as well as looking at the ncheck command.  The root privileges should be removed from unnecessary binaries with the chmod command using the -s flag.   Which permissions to remove this from are dependent on if your system has untrusted local users and which applications are required to run with system privileges from non-root users.   In a future post I'll try and look at the different files which are given root privileges by default and wether they actually need the priviliges or not.   
-     
-
-    

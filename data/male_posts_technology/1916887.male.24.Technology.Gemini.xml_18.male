@@ -1,8 +1,0 @@
-
-
-
-       
-      This is awesome!  SpamBayes is a free, open-source spam-killing plugin for Outlook and Outlook Express.  Using the superior Bayesian mathematical method and a self-training method, this program can achieve 99% spam blocking functionality within a week of use.  This is my spam solution, and it's worth a try.  A TechTV write-up on SpamBayes:  urlLink TechTV | SpamBayes: Spam Prevention With Smarts   Download the plugin here:   urlLink SpamBayes Outlook Addin   or here:   urlLink SpamBayes: Bayesian anti-spam classifier written in Python.   Quote from  urlLink spambayes.sourceforge.net :  SpamBayes will attempt to classify incoming email messages as 'spam', 'ham' (good, non-spam email) or 'unsure'. This means you can have spam or unsure messages automatically filed away in a different mail folder, where it won't interrupt your email reading. First SpamBayes must be trained by each user to identify spam and ham. Essentially, you show SpamBayes a pile of email that you like (ham) and a pile you don't like (spam). SpamBayes will then analyze the piles for clues as to what makes the spam and ham different. For example; different words, differences in the mailer headers and content style. The system then uses these clues to examine new messages.
-     
-
-    

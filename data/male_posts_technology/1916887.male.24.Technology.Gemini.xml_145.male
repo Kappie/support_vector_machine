@@ -1,8 +1,0 @@
-
-
-
-       
-      Take a look at "addusers.exe" and "usrtogrp.exe" in the W2K Admin Kit. Batchfile setusers.bat:  addusers /c c:\apps\addusers.txt /p:ce usrtogrp c:\apps\usrtogrp.txt regedit /s autologon.reg exit  addusers.txt:  [Users] (username),(full name),(password),   usrtogrp.txt:  DOMAIN:localmachine LOCALGROUP:Administrators (username)  autologon.reg:  REGEDIT4 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon] "DefaultUserName"="(username)" "DefaultPassword"="" "AutoAdminLogon"="1"   Resources:  urlLink autologon   urlLink Batch files - Use REGEDIT to add, read, or delete registry values   urlLink Windows 2000 Resource Kit - MS website 
-     
-
-    

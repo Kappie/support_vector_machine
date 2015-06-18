@@ -1,5 +1,0 @@
-
-
-	 
-       PIA:  If you have the pictures one on top of the other (as you do on your blog), it looks nicer when the widths are the same.  If you have the pictures along a horizontal line, it looks nicer when the heights are uniform.  Here's the lazy way to achieve this:    If the pictures are of different sizes, you can just specify the width (or height) and the browser will do the rest.    It's actually better if you specify both sizes, but if you don't specify the sizes correctly you end up paying the price in picture quality.  At any rate, when you resize your pictures in a photo editor, keep them under 500 pixels.
-    

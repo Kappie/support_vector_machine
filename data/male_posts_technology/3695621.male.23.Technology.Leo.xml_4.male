@@ -1,8 +1,0 @@
-
-
-
-       
-      Lately, I've been pondering the idea of writing a global favorites system.  Lately, I've been coming across so many resources in my day to day reading.  Since I'm also a trainer some of the time, I really would love to share these with my students.  I would also love to have people submit links.  I think I would need two interfaces to this at a minimum.     1) IE Favorites (Anyone could have read access, but only I have write access) probably via a plugin.    2) Web Interface (for my personal site) with the capability of allowing people to submit links for approval)  I also would need the ability to keep everything in sync between IE and the Favorites database.  Before I write this, I just want to make sure I'm not re-inventing the wheel.  I've done very little searching so far, but haven't found anything that completely meets my needs yet.    I think the back end really should be an XML Web Service.  At this point, these are just thoughts for further investigation though...  Have you already seen such a system?  Leave me a comment!
-     
-
-    

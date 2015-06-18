@@ -1,6 +1,0 @@
-
-
-    
-       "What has changed is how I think about CSS, and the underlying structure of (X)HTML to which it is applied. For example, I find that most pages on the web contain a menu of links in a navigation area. These are often marked up as a string of links, often in separate DIVs or paragraphs. Structurally, however, they are a list of links, and should be marked up as such."
-
- I have always avoided using "lists" (ol/ul/li), because of the lack of control in the spacing. I always used tables because it was what I knew, and I had more control over the "white space". As this article explains, with the power of CSS you have much more control of these "lists" than you ever had with HTML tables.

@@ -1,8 +1,0 @@
-
-
-
-       
-      For those of you that need to schedule defrag on Windows2000, take a look at  urlLink MorphaSys AutoDeFrag .  AutoDeFrag is a launcher for the standard defragmenter built into Windows 2000. The standard defragmenter does not support the ability to be scheduled, and therefore must be manually launched when required, once for each fixed disk in your system.  AutoDeFrag works around this limitation and allows the Windows 2000 Task Scheduler to be used to schedule the defragmenter.  AutoDeFrag is a tiny (~50k) Win32 console application that does not require any user input.  Just copy the .exe into a folder (like in \winnt) and schedule, or use the at command via command prompt. 
-     
-
-    

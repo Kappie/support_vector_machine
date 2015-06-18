@@ -1,6 +1,0 @@
-
-
-    
-       Some browsers such as MSIE opening a document automatically without asking to save or open the document. Some people including me it is very annoying. So how to make an application which acts to send a document to a web client such as web browser always download the document rather open it?  There is a simple way to do that by using   content-type: application/octet-stream   HTTP header instead of using proper MIME-TYPE content-type for a web document to be sent. Most web browsers will downloaded a web document with this content-type including MSIE.  
-    
-    

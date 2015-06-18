@@ -1,8 +1,0 @@
-
-
-
-       
-      If you are using Mozilla mail over IMAP and have wondered that it is not  Highlighting New Messages on the folders and subfolders of IMAP except  INBOX, then here is thing you got to do.  * Go to each Folder - Right Click- Properties and Select the Option  Check for New Messages in the folder.  There is a Bug Open  urlLink 18266    for this kind of behaviour and a patch supplied.  Not tried with the Patch yet. But hope that this feature/features  discussed in the bug becomes available with future Mozilla releases as  default.   Hey, its very much possible for a user to expect that new mails will  be checked in all folders and subfolders of IMAP and he should say so  explicitly.     
-     
-
-    

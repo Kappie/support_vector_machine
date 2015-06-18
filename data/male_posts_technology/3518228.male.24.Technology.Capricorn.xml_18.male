@@ -1,6 +1,0 @@
-
-
-    
-         One of my stupid new-years/birthday resolutions was to not let my weblog go un-updated so long.  It makes me look like I've got something to do on weekends when I don't update it, and we all know that isn't true *wink*.    Inspired by Joey Hess's  urlLink CVS Homedir   I merged together all the files from home directories on my various machines and put the resulting mishmash into CVS.  After a bit of re-writing for .bashrc and the like, I'm very pleased with the result.  I'm using the  urlLink CS Department  machines for my CVS repository.  They back those up like mad, which makes me feel better about not actually backing up my machines in several months.    I can foresee this being very nice for when I start school again.  Not needing any special voodoo to synchronize the various papers I'm working on between calvin (my laptop) and hobbes (my desktop) will be delicious. 
-    
-    

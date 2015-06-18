@@ -1,8 +1,0 @@
-
-
-
-       
-      	Work was exciting today.  One of my servers has been acting up lately, running really slowly, having trouble keeping up with it's work load, etc.  Initially I was afraid that it had gotten hacked and was doing bad things, but as I examined it, I realized that it was just getting flooded by a constant deluge of spam!  The poor old server was so busy bouncing all of this spam back that it didn't have much time for processing other things.  Each piece of email that comes in has to pass through a huge list of filters which try to deny any email that looks suspicious.  There are thousands of entries to parse through for each email, so when a spammer dumps a huge load of spam on the server it has to do a lot of processing.   Luckily we had a spare system sitting around in case of emergency, so now we've upgraded from 450mhz of spam blocking power to 1.9ghz.  Hopefully that will be enough for now, but I imagine that I'll have to look into more potent anti-spam measures in the future.  Apparently black-lists are all the rage.
-     
-
-    

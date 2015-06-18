@@ -1,6 +1,0 @@
-
-
-     
-      This article will introduce techniques for making a JDBC connection through a HTTPS proxy server.  The IDS JDBC Driver is the only JDBC driver in the market that offers this firewall access capability.  However, some of the topics discussed here are also useful to other Java applet developers who have to deal with client-side firewall issues. The focus of this discussion is how a downloaded applet can make a JDBC connection to an IDS Server across the client-side firewall.   A Java applet on a public Web site can be downloaded and run by client computers inside their own firewall protected networks.  The only way for an applet to create a network connection to a server on the open Internet is by going through the client-side proxy server.  The difficulty here is that the client can be anonymous, so the applet has no prior knowledge of the client-side firewall and its proxy server.  Link to resource to view the whole article. [Resource-Type: Article; Category: Java/J2SE; XRating: 4] 
-     
-    

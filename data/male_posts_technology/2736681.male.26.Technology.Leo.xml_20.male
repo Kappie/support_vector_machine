@@ -1,6 +1,0 @@
-
-
-     
-      All week, Franck and I have been hacking up a MOF in Ruby. The language supports closures, or iterators, or whatever you want to call them and, after a week of using them pretty heavily, I never want to go back to a language without them (I'm talking to you, Java).  We chose to use EMOF largely because its smaller, and there's only one product (EMF) with which to manage interoperability. Its really cute, actually. We did a minimal reflective model (just Class, Object and Property), used that to parse in the XMI file into a basic object model, then used code generation to generate the actual implementation. The codegen step allows us to throw away the first bootstrap, which lets us "close the loop", of M3 reflecting to M3. This is done with static code, basically by "unparameterizing" the generic implementations of the necessary methods.
-     
-    

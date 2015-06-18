@@ -1,6 +1,0 @@
-
-
-     
-      To convert the format of a Date Time String transformation   1. On the Transformations tab of the Transform Data Task Properties or Data Driven Query Task Properties dialog box, click the Source column containing the date or time to be modified, and then click the Destination column where you want the modified string to be placed.   2. Do one of the following:   --If there is a mapping arrow connecting the two columns, click Delete, and then click New. --If there is no mapping arrow, click New.   3. In the Create New Transformation dialog box, click DateTime String.  4. Click the General tab, and then click Properties.  5. In the Date Format list, select the format you want.   6. Click Naming to display the Calendar Names dialog box, where you can select long or short day or month names and the A.M. and P.M. designators you want.  7. In the Language list, select the language you want, and then click Set Language Defaults.  
-     
-    

@@ -1,6 +1,0 @@
-
-
-    
-       Haven't been able to download Crystal Space and compile it yet, so I've been playing around with Irrlicht for now. Spent some time researching various standard C++ functions I'd forgotten, but I guess that's a part of the game when you haven't programmed in that language for almost ten years.  What I've accomplished so far: Loaded a random .bsp file with textures, rendering it and using a built-in Irrlicht camera to zoom around the map with. A basic UI featuring a fps-counter in the top left corner is also implemented.  Now I'll try to access the various entities within the .bsp file and research fog/particle effects for the engine.  
-    
-    

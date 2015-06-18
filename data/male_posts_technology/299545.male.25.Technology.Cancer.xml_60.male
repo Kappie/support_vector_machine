@@ -1,6 +1,0 @@
-
-
-	 
-       Chess Intelligence    The original chess-playing algorithm, proposed more than 50 years ago by Claude Shannon, the electrical engineer who founded information theory, begins with the search function, which generates all possible move sequences to a certain depth, set by the computer's speed and memory. Then each end position is graded, numerically, by an evaluation function that assigns value to such aspects of chess knowledge as material (pawn = 1 point, knight = 3 points, rook = 5 points, queen = 9 points), king safety (good), piece mobility (good), doubled pawns (bad, usually), and so forth. The computer then selects the move that, given the perfect play by the opponent, leads to the position having the highest score.   I've always liked playing chess, and been curious about how computer chess programs work. The quote above from  urlLink IEEE Spectrum  gives a great simple description of how they work in the most basic sense.    
-     
-    

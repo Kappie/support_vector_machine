@@ -1,8 +1,0 @@
-
-
-
-       
-      Now, this was stupid. I had not figured out how to do copy-paste in vim editor. At last now, I got it. Thanks to google and  urlLink Linux Novice  HOWTO Copy and Paste in VIM Editor. These Steps Assume you are in the Command Mode. Step 1: Move your Cursor to the Starting Point of the text tobe Copied . Step 2: Press  v . The Mode changes to Visual. Step 3: Move your Cursor now to the Ending point of the text tobe Copied. Step 4: Press  y   This will copy the text in the buffer and lead to the starting point again. Step 5: Move your Cursor to the position where you want to paste the text. Step 6: Press  p     YO!  
-     
-
-    

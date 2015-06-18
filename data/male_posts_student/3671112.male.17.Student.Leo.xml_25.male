@@ -1,5 +1,0 @@
-
-
-	 
-      i now have a  urlLink Friend of a Friend  (FOAF) file on my site. you can either use this handy link right here:  urlLink foaf.rdf  ..or you could look at the footer at the very bottom of the page for it along with a contact and atom.xml link. hopefully dashboard will parse both foaf.rdf's and atom.xml's soon! maybe i'll take a look at the rss.xml parsing code for some hints on how to implement parsing of both.
-    

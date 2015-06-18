@@ -1,8 +1,0 @@
-
-
-
-           
-      I don't know if it's a glitch but there seems to exist some problem in running the Tomcat administration tool with NetBeans 3.6. Anyhow, there are things you should know. The password for the managing is generated randomly on start and it's written in your home directory, under WindowsXP it's \\Documents and Settings\Your account name\ .netbeans\ 3.6\ jakarta-tomcat-5.0.19_base\ conf\ tomcat-users.xml I don't know why, but I was getting strange error messages not letting me display the administration util so I compared the same file with the one shipping with the stand alone Tomcat and as it was missing the admin role, I added it  <role rolename="admin"/> <user username="admin" password="your_password" roles="admin,manager"/>   Works fine now...
-     
-
-        

@@ -1,8 +1,0 @@
-
-
-
-       
-      ------------ From:	Denis Howe   Sent:	Sunday, July 11, 2004 5:22 AM To:	OR, Senthil Subject:	FOLDOC entry to edit: new definition]  ------- Start of forwarded message ------- From: Matt  To: Denis Howe  Subject: new definition X-Host: user-24-214-169-13.knology.net X-Url: editing X-Browser: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1) Sender: Denis Howe   Date: Mon, 05 Jan 2004 20:20:24 +0000  new definition  Linux Loader (or Lilo)  I have found a new definition. http://www.acm.uiuc.edu/workshops/linux_install/lilo.html   LILO - The Linux Loader >From the LILO README:  LILO is a versatile boot loader for Linux.  It does not depend on a specific file system, can boot Linux kernel images from floppy disks and hard disks, and can even boot other operating systems.  One of up to sixteen differernt images can be selected at boot time.  Various parameters, such as the root device, can be set indepenantly for each kernel.  LILO can even be used as the master boot record.  ------- End of forwarded message -------
-     
-
-    

@@ -1,5 +1,0 @@
-
-
-	 
-      System Data Flow Diagram allow users to understand the System DFD due to their previous expriences.  -------------------------------------------------------  Implementing Initial Prototypes  Consists Of 1)input form  documents 2)output reports 3)dialogue between user  computer  -------------------------------------------------------  Implementing a Prototype  4 Basic Activities - discussing with the user - building the prototype - exercising the prototype - obtaining agreement on its acceptances  -------------------------------------------------------  Logical Path Analysis  2 Reasons - To check the validity of entity model - To provide detail information on access requirement for the physical database design process  -------------------------------------------------------  Analysing Data Usage  - started before the detailed design of the computer process - uses the entity model  relational model - need information on overall data usage 
-    

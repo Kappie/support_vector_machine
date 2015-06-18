@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Eliminating Domain Browsing Errors   - UltraTechÂ® Knowledgebase - See any errors like this on you W2K AD network?: The master browser has received a server announcement from the computer SMITH that believes that it is the master browser for the domain on transport NetBT_Tcpip_{00E6B950-C066-4E9E-9EA. The master browser is stopping or an election is being forced.  This is the result of the (unneeded) Computer Browser service.  ASB has a great little article on the UltraTech KB about how to disable this and other unnecessary services, which can result in lower network traffic, more cpu and memory free on the computers, and less headaches in the Event Logs when something goes wrong.
-     
-
-    

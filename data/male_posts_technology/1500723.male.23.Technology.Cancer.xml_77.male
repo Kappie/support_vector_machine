@@ -1,8 +1,0 @@
-
-
-
-       
-      Was n training today, was surprised to hear that the process would be in waiting state immediately after it calls the interrupt for the specific system call...  And when interrupts that occur when the state is in kernel space, Linux takes care that kernel space stuff continues to run from where it left off when the ISR returns..   I have downloaded intel x86 spec long ago.. But couldn't spend much time on it.. Learnt that there are 4 security levels in Intel and Linux uses only two of them and OS/2 uses all four of them.. and the instruction you can execute depends on the security level u are running...  ISR's doesn't have any process context and it should assume any stuff and read user address space.. I still donno what this stuff means as System calls are implemented as ISR's I suppose...  kernel getting tainted.. is there any way related to GPLisation of kernel modules.. let us see
-     
-
-    

@@ -1,8 +1,0 @@
-
-
-
-       
-      Now this one is interesting:  urlLink Secunia - Advisories - Internet Explorer File Download Extension Spoofing    Description:  http-equiv has identified a vulnerability in Internet Explorer, allowing malicious web sites to spoof the file extension of downloadable files.  The problem is that Internet Explorer can be tricked into opening a file, with a different application than indicated by the file extension. This can be done by embedding a CLSID in the file name. This could be exploited to trick users into opening "trusted" file types which are in fact malicious files.
-     
-
-    

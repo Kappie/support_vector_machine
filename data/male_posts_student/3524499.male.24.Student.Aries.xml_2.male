@@ -1,8 +1,0 @@
-
-
-    
-       
-      Time  Location: 7pm  Nero Cafe Participants: Kyle, Cecile, Oliver, Sheen   Issues:  1. Threat analysis - olly has done a good job!  2. Alternative of initial policy distribution - hosts send request of initial policy instead of central host distribute it directly; advantages  disadvantages;  3. Interface  module structure done by sheen;  4. Discussion about policy representation: 1) initial policy - vpn establishment information, topology information (graph, neighbours, table); 2) routing policy - security issues, routing information (RIP); 3) all xml format - extensible, ready-to-use parser;   Tasks:  Oliver - Threat analysis, security parts of routing policy; Kyle - Design overview, assistant SSL test; Sheen - Interface, function structure; Cecile - Policy representation.   Next meeting: Tuesday afternoon (22th)
-       
-    
-    

@@ -1,5 +1,0 @@
-
-
-	 
-      i finished an atom backend and Kevin Godby and i decided there should be a single blog backend. so, i created a BlogBackend.cs (later renamed to FeedBackend.cs). it uses  urlLink Atom.NET  and  urlLink RSS.NET . kevin is working on the makefile stuff for it right now and i think we need to change something in the cluechainer to make links to atom feeds work when they come from things like  urlLink Gaim  and  urlLink X-Chat . but i honestly don't know about all that. anyway, it's looking good. hopefully it'll be in cvs by this weekend. turns out i really like making backends for dashboard. hopefully i'll make some more soon.
-    

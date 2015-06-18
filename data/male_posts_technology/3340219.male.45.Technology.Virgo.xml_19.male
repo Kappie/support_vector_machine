@@ -1,7 +1,0 @@
-
-
-	 
-      Zauwaza sie trend taki, ze aplikacja nie korzysta z komponentow zainstalowanych na sprzecie na ktorym pracuje np. DLL, COM, ActiveX. Raczej polega na wlasnym srodowisku uruchomieniowym (run-time). Jest to dobre z uwagi na to, ze nie wszystko ponizej warstwy aplikacyjnej (tj. system operacyjny) chodzi "jak w zegarku". Takie uniezaleznienie od warstw posrednich zainstalowanych na sprzeecie pozwala niezawodnie realizowac zamierzone funkcje aplikacji. Trend taki reprezentuja np. wirtualna maszyna Javy nie korzystajaca wcale z bibliotek Widnowsow, MS .NET Framework czy Twisted Pythona.
-     
-
-    

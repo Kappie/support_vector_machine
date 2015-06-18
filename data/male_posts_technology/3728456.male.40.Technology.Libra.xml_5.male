@@ -1,8 +1,0 @@
-
-
-
-       
-      Today I'm going to go back to the netstat command that I talked about a couple of days ago.  Essentially it will show you all the sockets that are in the LISTEN state and the programs that are listening on each port. The big issue here is what services should this particular Linux box be listening for.  If this box is being used as a Web server should there be a printer hooked up  should the box be running an lpd daemon in the back ground -- NO!!  This is why it is important to only have essential services and daemons running on a Linux box.  There is a good article at the Techrepublic web site titled " urlLink Improve your Linux security: Stop unnecessary services ".  Which talks about the same issues.  A sample of the  urlLink /etc/initd.conf  file can be found at the userlocal.com web site.  some other good sites with a good overview of the security implications are found on the  urlLink Redhat site ,  urlLink YoLinux.com  site, and the  urlLink resnet.ubc.ca  site. 
-     
-
-    

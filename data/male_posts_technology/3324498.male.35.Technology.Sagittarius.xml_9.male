@@ -1,8 +1,0 @@
-
-
-
-       
-      I've been working on IMFAM during my spare time to address the feedback I've been getting.  I believe the Beta is now ready, but as fate would have it, GotDotNet appears to be having problems.  So for now you will just have to salivate over what is going to be in it as opposed to trying it out:  Delete Key mapped to Delete Button for those that are mouse imparied (like myself).  Several rendering bug fixes for particular (corrupt?!?) messages.  Automatic Refresh time exposed in the xml configuration file.  In addition, Automatic refresh no longer reloads the message pane, so if you are editing a message, you won't loose your changes.  NEW VIEW!  I've added the ability to switch from the original tree view to a new list view.  The new list view allows column reordering, column sorting, and multiselect.  Multiselect actions are limited to delete at this point.  Better loading experience.  For both the old view and the new view I added a Application.DoEvents() in the loop that populates the views.  This will allow you to start working without waiting for everything to reload.  One additional feature for the ListView is the entire list is not reset during automatic refresh, just new items are added.  
-     
-
-    

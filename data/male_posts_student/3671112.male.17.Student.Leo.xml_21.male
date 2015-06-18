@@ -1,5 +1,0 @@
-
-
-	 
-      i started making an atom backend for dashboard that uses the rss renderer. it's a really simple task, yeah, but with the exception of  one  atom i've tried, some uri exception is always thrown. a parse error. that means there's an invalid uri somewhere in the atom feed. but i don't know what it could be. right now i'm playing with  urlLink Chris Schmidt's Atom , because it doesn't cause the uri exception to be thrown (i almost typed throughn, that's how sleepy i am right now). but he says he hasn't touched atom before. and there i was thinking he was just really good with standards. oh well, i'll work on it tomorrow after i get some sleep, with a clear head.
-    

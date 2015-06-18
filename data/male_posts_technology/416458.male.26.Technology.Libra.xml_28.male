@@ -1,7 +1,0 @@
-
-
-	 
-       urlLink javaperformancetuning.com review of Borland Optimizeit.   So it's been a few days of performance tuning for the development team here. We're still a bit reactionary with this, and the latest bout was triggered by the 15 minutes it took to load a collection of resources in the administration client, there were only 726 resources and all we wanted was basically a directory listing.  So we started looking into it, I fixed a stupid part of the client application which made an extra call to the server for every resource listed. The call was safely moved to an as needed call rather than being preemptively made. The rest of the team started looking in the server code. For this they were using Optimizeit. Now I'm not one for recommending commercial products much, only when I find them to be of excellent quality and usefullness.  Very quickly serveral bottle necks were located in the code, mostly through massive object creation and garbage collection. We've now got the server and client screaming through that very collection load at a healthy   Lesson to be learned, make sure you look at your running code for possible optimisations. There may be more than you think, and there's no better feeling than seeing your code fly.
-     
-
-    

@@ -1,6 +1,0 @@
-
-
-	 
-      I have been listening for mock objects since I started .NET programming. And I found out that there are frameworks like  urlLink nMock  and  urlLink .NET EasyMock  to enhance and make easy mocks usage. But what is a mock and what is not? This great article  urlLink Mocks Aren't Stubs  by  urlLink Martin Fowler  answers the question. And if you don't know what a stub is used for, then your profit from reading the article doubles :)   So, mocks are used for automated testing. And as Martin Fowler makes it clear: Mocks enable interaction-based testing (vs. state-based testing). The explanation of the two approaches is quite interesting. If you read this article (or you may start with  urlLink the original mock objects paper ) you will probably get hooked up. I've always wondered how to write isolated tests that involve interaction with a heavy components that has complex behaviour. Now I see that there are good enough answers...
-     
-    

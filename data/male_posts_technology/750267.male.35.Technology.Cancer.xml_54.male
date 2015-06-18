@@ -1,8 +1,0 @@
-
-
-    
-       
-      I've had  urlLink an idea similar to this  for years. SMTP should be changed to require some form of source authentication. Headers should not be forgable. Scrap the protocol if need be, who cares if some applications break or need upgrading. The insecure way of sending emails should no longer be supported - period.  The article suggests some form of secure digital certificate should be required as a prerequisite to sending email. And servers should enforce send limits. Those are good ideas, and I support them.  I think even a simpler approach would work. Basically, all email should be tracable to a particular source IP address on the Internet. No exceptions. How hard is that to do? My email client could then be configured to ignore all email from that source. In fact, ISP's can set filters upstream to ignore those emails for me.  Let's assume that most spam is sent by big honking servers located outside North America.  Block those addresses upstream, and blam. The amount of spam (and the amount of network bandwidth spent sending spam) are instantly reduced. How could spammers possibly get around this? Send spam from their own PC's. Blam. Those are blocked too and the spammer can't send any email, even legitimate. Hack into other people's servers (open SMTP relays), then Blam. Unsecure servers are blocked until the admins properly secure them. There is no way around such a system.  
-       
-    
-    

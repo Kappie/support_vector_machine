@@ -1,6 +1,0 @@
-
-
-     
-      This tip addresses the question "when are two Strings equal?" Because they are objects, you can always compare the values of two Strings using the equals() method. If s1 and s2 are two Strings with the same value, then s1.equals(s2) is true. The tricky part comes when you try to use == to compare s1 and s2. In this tip you will see when s1 == s2 should return true.   A must read for all java beginners.  [Resource-Type: Tips; Category: Java/J2SE; Level: Beginner; XRating: 3]
-     
-    

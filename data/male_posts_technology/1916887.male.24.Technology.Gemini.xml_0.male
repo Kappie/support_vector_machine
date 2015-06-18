@@ -1,8 +1,0 @@
-
-
-
-       
-      We're testing different Disaster Recovery techniques in the event that one of our domain controllers (the only one in the domain at the time) is destroyed and we can not find similar hardware to restore to.  Here's some of the Microsoft articles to help in this process:   urlLink 263532 - How to Perform a Disaster Recovery Restoration of Active Directory on Dissimilar Hardware    urlLink 237556 - How to Troubleshoot Windows 2000 Hardware Abstraction Layer Issues    urlLink 229716 - Description of the Windows 2000 Recovery Console    urlLink 255504 - Using Ntdsutil.exe to Seize or Transfer FSMO Roles to a Domain Controller    urlLink 249694 - How to Move a Windows 2000 Installation to Different Hardware    urlLink 292175 - How to Perform an In-Place Upgrade of Windows 2000    urlLink 306952 - What an In-Place Windows 2000 Upgrade Changes and What It Does Not Change 
-     
-
-    

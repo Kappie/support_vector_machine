@@ -1,6 +1,0 @@
-
-
-    
-        An update to my previous post on  urlLink NUnit Testfixture refactoring   , it seems the way other developers do it is through inheriting from a base class.        See  urlLink  10 Ways to Make Your Code More Testable           Though I wish i didn't have to create derived classes for monolithic TestFixtures, it does make sense.     
-    
-    

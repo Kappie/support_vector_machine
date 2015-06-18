@@ -1,6 +1,0 @@
-
-
-    
-       Right now, I'm trying to set up a confortable environment in my laptop.   I've been looking for some "tips and tricks" to boost OS performance. I'm amazed about how many resources are wasted in some services I never used (ctfmon.exe and such).  I found  urlLink these tweaks  quite useful. By the way, I just realized today that there is a tool name  urlLink msconfig.exe  where you can configure most of the windows .ini file's settings and startup behavior.  If you also want to tweak what processes are created at startup time, you should try  urlLink Mike Lin's startup control pannel applet . It's a user friendly UI around the registry keys (HKCU\Run, HKLM\Run, etc.).   
-    
-    

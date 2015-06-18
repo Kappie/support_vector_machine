@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Computing.Net - Outlook 2003->Outlook 2000 Contacts : "I had the problem of importing a .pst file to outlook 2000 that has been exported using outlook 2003. I installed Office Resource Kit . In Resource Kit Programs run 'Custom Maintenance Wizard'. In the next step put the 2003 CD in the drive and specify the location of the files. Following this you can create a new CMW file . Click next till you get the dialogue 'Change Office User Settings'. Click on Microsoft Office Outlook 2003. Click on miscellaneous and then PST settings. Change the preffered PST mode to ' Enforce ANSI PST '.Finally copy the MaintWiz.exe to c:\ and in the command prompt change the drive letter to c:\> . Run the command  MaintWiz.eze /c 'Documents and Settings\Administrator\My Documents\New Maintenance Data File.CMW ' /qb-"
-     
-
-    

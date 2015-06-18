@@ -1,6 +1,0 @@
-
-
-	 
-      IP subnetting is fun (did i ever mention i'm a geek?). Its kindof like math, but then actually interesting. How many C-class subnets do I need for 2200 total network hosts with no more than 275 hosts on any one subnet. one subnet as you all know can only hold 256 hosts (including gateway etc) so you're going to have to supernet. You tie 2 c-class subnets together with a wider mask such as 255.255.254.0 Now you have 2 c-class subnets in one superclass. so for 2200 hosts on 8 subnets you need 16 C-class subnets.  This is what i'm doing on a sunday moring...  *ahem*
-     
-    

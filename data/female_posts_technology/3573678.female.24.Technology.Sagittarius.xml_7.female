@@ -1,6 +1,0 @@
-
-
-    
-          Validate Request attribute is yet another feature that Dot Net Fx 1.1 offers, to build secure enterprise applications. By default for all the ASPX pages that we design, this attribute is set to true. You can find this setting in the machine level configuration file ( /Framework/V /CONFIG/Machine.config file), under the pages element. This would be set to true. Once this is set to true, ASP.NET scans / checks all the inputs posted back from the page / cookies / query strings for potentially malicious input. This featured can be turned off at page level by setting this attribute to false, if the application demands some kinds of inputs be allowed. Dot Net Fx 1.0 does not provide a similar feature. But the IIS URLScan ISAPI Filter does a similar job. Basically both these features help to mitigate the threat of XSS (Cross-site scripting) by rejecting potentially malicious input. 
-    
-    

@@ -1,8 +1,0 @@
-
-
-
-       
-       Unix-Filedescriptor to FileName Mapping.   from the file descriptor, there is no way to get the filename ... No standard way that is... For linux, /proc/ /fd has fd-filename pair (do an ls -l /proc/pid/fd) Alternatively, you will have to search through all inodes, which is a lot of work   It can be done on a Linux system, using fstat()  This function returns a complete description of the file, albeit without the file's name. If you know how to work the Linux filesystem, and you have sufficient rights to descend the whole tree and to read the on-disk filingsystem, then you can locate the inode and find its name. There used to be (Unix V6 and V7) calls like ncheck and dcheck, to check a filesystem. I don't know if there is a standard tool to find a name for an inode. Must be. If all else fails, try "ls -i" on Linux, it will give you the inode numbers of every file. If you know that the file is created in the /tmp-directory, you can also perform a low-level search in that directory to find the inode you're looking for.   But beware, in a Linux system there can be more filenames that have the same inode! These are called links. See "man ln" for more info. When the last link to an inode is deleted, the file itself is deleted. Opening a file increases the number of links to a file with 1, so you can create a new file and immediately remove it. As long as the file is open, the content won't be destroyed. That's why you don't see the temp-dir's on Linux stuffed with old temp-files, like on Windows.  Inference :- Don't try to get the mapping from file descriptor to filenames.. Do it on your own... 
-     
-
-    

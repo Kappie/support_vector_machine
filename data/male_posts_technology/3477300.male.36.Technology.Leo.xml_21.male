@@ -1,6 +1,0 @@
-
-
-    
-       Someone had a problem with his  strnicmp()    as - seemingly -  it's not portable (not ANSI).     I told him to make a macro like the following, he was only checking one character anyway:      #define TOUPPER(c) ( c  ~('a' ^ 'A') )   He said it was too cryptic!   Too cryptic!!   I thought that was the point of C!    Besides, that's not cryptic.  I think people just don't know how to code these days.     c@software   
-    
-    

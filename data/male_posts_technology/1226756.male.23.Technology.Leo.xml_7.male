@@ -1,6 +1,0 @@
-
-
-	 
-      OK. I did a small and simple test this friday, but that wasn't very successfull. I tried building the SimpleBUG robot from ( urlLink endtas.com/robot/ ). I didn't have photodiodes lying around, so I used normal LED's as sensors, and my electronics skills obviously needs work, because it didn't work. The motor turned, but at the same speed no matter what I did. (It's cheap to use used parts, but the result may be other than expected.) When I get home today, I'll try building a simple H-Bridge using 4 transistors and 4 resistors. This will drive one motor up to 50mA, and is more than enough for me. If I get that working, I'll try different things for interfacing a sensor, and thereby hopefully get a motor that turns faster if light hits the sensor. Some of you might say: "That's so simple. Can't believe he's having problems with that." Well, I have no education on the field of electronics, so the things I do know, I have taught myself. Will write tomorrow informing you of the result after tonights test.
-     
-    

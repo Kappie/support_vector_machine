@@ -1,6 +1,0 @@
-
-
-	 
-      I was browsing  urlLink freshmeat  earlier today when I saw  urlLink fbnews .  It looked neat, but I didn't want the headlines in a menu: I just wanted 'em placed right onto the desktop.  Time for a quick hack, eh?  I first opened up the script and ripped it apart.  I changed it so it writes to several different files (feedtitle.txt), instead of just one.  This is so I could place the feeds all over my desktop.  I considered adding some of the post in as well, but it just looked a little goofy.  Headlines are good enough.  The hard part being done, I only had to use root-tail to position the files wherever.  You can view the result  urlLink here .
-     
-    

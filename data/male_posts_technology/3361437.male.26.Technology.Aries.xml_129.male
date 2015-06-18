@@ -1,9 +1,0 @@
-
-
-       
-       urlLink Get (free) XSLT intellisense in VS.NET : "Get (free) XSLT intellisense in VS.NET 
-This is not really a new trick, I must say up-front. In order to have intellisense on XSLT documents you must copy this XSLT schema file into the folder C:\Program Files\Microsoft Visual Studio .NET 2003\Common7\Packages\schemas\xml.
-Restart the IDE and you're done. Enjoy!
-Credits: FeserSoft, who developed the schema. "
-       
-    

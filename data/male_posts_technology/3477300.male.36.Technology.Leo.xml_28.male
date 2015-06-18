@@ -1,6 +1,0 @@
-
-
-    
-        urlLink ZapTheDingbat : "Cross site scripting and script injection"   MasterCard ... seem to have missed some all too basic gaps in their own security.  Along with ... an almost endless list of further high profile sites, MasterCard have still left chinks in the armour of their own site.  The oversight of some basic security flaws allows hackers to send a user to the site while displaying any content and functionality of the hacker’s choice.   You see, the trouble is, no one's hand crafting HTML anymore! They're all using these wizzy tools to create webpages and they have no idea what all the JS (BS) is doing under the hood.  Rik's tips:      If you're providing log-in credentials in a page.  Make sure you typed the URL in the browser yourself - not following a link.     Periodically check your hosts file to make sure it's not been hacked.     Use a  urlLink reliable browser      
-    
-    

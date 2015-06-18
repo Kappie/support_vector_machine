@@ -1,6 +1,0 @@
-
-
-     
-      I guess today was a bit of a milestone day in the project...I finally got to (well, had to) take my program out of the box and run some experiments with it. The morning was pretty much completely spent learning how to obfuscate with DOJ, with Mike both through e-mail and in person. A little bit after lunch, I got the obfuscator working, and was ready to go. Obfuscation itself took a while, probably half of the time. The rest was simply running the obfuscated program through mine and gathering data. I took data for the HTMLParser program, the original and 6 obfuscations for both the class coalescing and the type hiding complications. I'll probably have to do this all over again eventually, with plenty more metrics, but for now this is necessary, as the program is over in two days and we have to make poster boards for tomorrow and they want results. Shalom!
-     
-    

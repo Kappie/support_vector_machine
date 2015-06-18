@@ -1,6 +1,0 @@
-
-
-    
-       A little head start on the password protected Exun Members Only download area. All download URL's that require to be password protected can be stored in the directory "downloads" in the "logexun" directory on the FTP server.  I understand not everyone has access to the FTP server. But indirectly (through blogger) you guys can upload material into the directory. Just make sure, it's "logexun/downloads" in Blogger.  For example  urlLink http://logexun.exunclan.com/downloads/MYFILE.DOC  (yeah, logexun.exunclan.com works just like exunclan.com/logexun) is not accessible without the password, but after you've supplied a correct password, you're on your way to downloading the file.  A PHP solution to this password protected thing is  urlLink  http://logexun.exunclan.com/download.php?url=http://logexun.exunclan.com/downloads/MYFILE.DOC    For those interested, the  urlLink PHP source  is also available.  Hail to the Power of PHP.  
-    
-    

@@ -1,8 +1,0 @@
-
-
-
-           
-      A. Frequently, a driver or application leaks registry handles, which means the driver or application opens the registry but doesn't close it. The open registry isn't a problem until you log off, when the profile of the logged-on user tries to unload the user's registry but fails because it's still in use. An open registry connection is a major problem if you use roaming profiles; because the system can't unload your profile, Windows can't copy it back to the profile storage server. If the system doesn't unload your profile, when you log on the next day you'll receive an error stating that your local profile is newer than your remote profile. Typically, with this problem an administrator will see event ID 1517, 1524, or 1500 in the event logs.  Microsoft provides a service called UPHClean, which checks for leaked connections to the registry and cleans them up, thereby letting a user's profile unload cleanly so Windows can copy it back to the remote profile storage area.    Your best option is to download file UPHClean-Setup.msi, which you can then deploy through Group Policy or--if you need to deploy UPHClean on a large scale--Systems Management Server (SMS). You need Administrator privileges to install UPHClean interactively. I've used UPHClean many times, and it has always fixed the profile-locking problems. 
-     
-
-        

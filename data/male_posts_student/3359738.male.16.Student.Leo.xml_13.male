@@ -1,6 +1,0 @@
-
-
-    
-       I'm working on a web-based CLI (CommandLine Interface) for myself. It requires a lot of JavaScript, and I'm not a guru at it, so it's pretty hard, but I'm slowly managing. I spent all of yesterday going nuts over a stupid function to scroll a "div" (with "overflow:auto;") to the bottom, and in the end it turned out to be the stupidest thing imaginable... I had forgotten to set an id attribute on the div. When I did, it started working.  A few minutes ago I got the XML stuff out of the way. (I refuse to refresh the page for new content as I want a buffer-like textbox that keeps filling up until I decide to close the window, so I'm using JavaScript's ways of loading external xml files to load php-generated xml that is the output for the command sent.) Now, the last thing I want that involves JS is that my OK button shows a small one-character animation while the request is being sent to the server.  The bright side of all this hassle is that I'm learning JS to a higher extent than before.  Oh, and God bless Google's search engine. (It always finds me snippets that I can work from, hehe.) 
-    
-    

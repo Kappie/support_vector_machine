@@ -1,6 +1,0 @@
-
-
-     
-      In this first of a two-part series of excerpts from Chapter 17 of Java Examples in a Nutshell, 3rd Edition, David Flanagan illustrates some of Java's sound capabilities. In the first section, he covers how to play simple audio clips with the java.applet.AudioClip class. In the second section, he shows how to use the javax.sound.sampled and javax.sound.midi packages to load and play sound clips, how to monitor and change the playback position within a clip, and how to set audio parameters such as volume, balance, and tempo.  [Resource-Type: Article; Category: Java/J2SE; Level: IMD; XRating: 4]
-     
-    

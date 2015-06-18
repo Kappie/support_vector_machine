@@ -1,8 +1,0 @@
-
-
-
-       
-      Thunder memory problem appears to be related to the AMD errata 101. Having BIOS Node interleave and ECC memory scrubbing turned on simultaniously on MP machine will result in memory problems. I turned memory interleaving off and machine seems to be much more stable.    
-     
-
-    

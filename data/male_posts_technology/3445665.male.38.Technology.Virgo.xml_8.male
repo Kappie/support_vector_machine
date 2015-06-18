@@ -1,7 +1,0 @@
-
-
-	 
-      I got to work around 1:15 today, made good time, despite heavy traffic.  I am drinking water from my little water cooler that is on my desk.  It is so nice to have fresh cool water so readily available.  Continuing to work on the new tcp port.  I need to add in code to handle binary verse text, append mode, text mode handling and code to turn on callbacks to report Errors, Progress, Tx Data, Rx Data and Messages.  Car pool day today, so I will be out of here a few minutes before 8pm.  I have to check out the code to do a build again on the mac side, so I don't mess up the work I am in the process of doing.  Tomorrow I work at home. I will continue to work on tcpport until it is finished, then merge all my changes in at the same time.    
-     
-
-    

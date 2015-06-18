@@ -1,8 +1,0 @@
-
-
-
-       
-      For added security you should always clear the page file upon shutting down your computer.  Windows uses this file as extra RAM.  So whatever you opened up is then stored on the pagefile for quick access.   THIS IS NOT ENABLED BY DEFAULT  so you must do the registry work yourself.  They say it may increase the shut down time of your PC but I don't notice it too much.  » Start Regedit (Start > Run > "regedit") » Navigate to: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management » Select  ClearPageFileAtShutdown  from the list on the right. » Right on it and select  Modify . » Change the value to 1 to enable. » Reboot your computer.   ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤   There is another cool program called  urlLink Eraser .  This program "shreds" your files as well as unused disk space.  Why is this so important?  When you normally erase a file it still exists on your hard drive.  Windows justs writes some code before the file so the operating system knows it can just overwrite that file if need be.  This software will actually just write random data over your file so you can be sure it cannot be recovered.  From the website: "Eraser is a secure data removal tool, which allows you to remove sensitive data from your hard drive by overwriting it with carefully selected patterns."
-     
-
-    

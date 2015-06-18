@@ -1,6 +1,0 @@
-
-
-						
-						   Worried about any Bad code in .Net Application..FxCop is here to prevent.   urlLink FxCop , is a code analysis tool that checks managed code assemblies for conformance to Microsoft .NET Framework design guidelines. FxCop team has just released a new version, 1.30, that has many nice improvements and is considerably faster at analyzing large applications.  Here, I want to mention one thing..I was playing a role as white-box tester in one of my earlier project on .Net (Its a tough job!!). Code-Review analysis and reporting is one of the key task for a white-box tester, by making use of earlier FxCop version I managed to complete my task easily and more efficiently. Thanks to  urlLink Gotdotnet  where we got the FxCop tool.  Here in today's blog I am just going to list out the mail improvements and features in the new  version of FxCop.  	- Perform analysis through Introspection 	- Faster code analysis and supports multithreaded analysis 	- Ability to resolve missing dependencies 	- Powerful dataflow analysis 	- Many UI Improvements 	- More rules, rule topics and rule fixes 	 To know more on FxCop 1.30, zap to the  urlLink MSDN Magazine June 2004 issue .  For a complete list of new features visit  urlLink FxCop Team Blog  
-
-						

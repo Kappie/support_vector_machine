@@ -1,8 +1,0 @@
-
-
-
-       
-      You come in and a machine is at a black screen telling you the Ntoskrnl.exe is missing or corrupt.  Before you panic, take a look at this:  urlLink JSI Tip 2745. Windows NT could not start, Ntoskrnl.exe is missing or corrupt?  I dealt with the ntoskrnl.exe issue w/ a laptop just this morning.  Basically what you're looking at is a corrupt/missing boot.ini file.    What I ended up doing was taking out the laptop's hdd, attaching it to an laptop hdd to ide adapter, then to a ide to usb adapter.  Hooked it up to my workstation, and copied over a copy of the boot.ini file from another like-modeled laptop.  Within 20 minutes (including backing up the user's profile and researching the issue) the laptop was back in the user's hands.
-     
-
-    

@@ -1,6 +1,0 @@
-
-
-     
-            dothis = new Date()  month = dothis.getMonth()  month = (month * 1) + 1  day = dothis.getDate()  year = dothis.getFullYear()  document.write("Today is ",month,"-",day,"-",year," ")            
-     
-    

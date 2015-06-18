@@ -1,7 +1,0 @@
-
-
-	 
-      Date entry, the never ending story...   urlLink DateFormat (Java 2 Platform SE v1.4.2)   So I'm starting a little mini project today, rebuilding the date entry field for our swing application. I think this is the fourth time I've rebuilt this one. First there was the simple text field with post entry validation. Then a 3rd party date widget with the calendar view. Then the Java 1.4.3 formatted text field.  None of these have appeared to meet all of our requirements. There's always something someone doesn't like about a calendar view, even with large number that we've tried, plus they don't always fit in well with the layout. The formatted text field does have many problems for people, it's not very intuitive and many look and feels still haven't got it implemented correctly.  This time I'm starting from scratch, gethering requirements, good examples of what people want.  It's strange that this is the one part of the interface that has faced so many problems, you'd think it would be simple. It has been a bit of a case of problem avoidence, thinking that this must be a problem that someone else has solved in a way that works for us.  This is way time estimations can be thrown so far out of whack. Would you have seen this as being a major problem? Oh well, it could be worse, I could be implementing one of my collegues ideas for date entry based on concentric circles!
-     
-
-    

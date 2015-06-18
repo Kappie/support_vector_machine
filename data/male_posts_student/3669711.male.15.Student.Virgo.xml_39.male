@@ -1,6 +1,0 @@
-
-
-	 
-      Well, my linux system is officially borked for now. I can't believe this, so many computer problems in one single day.    To start it off, i upgraded my linux kernel today, from 2.4.26 to 2.6.7.  That sounds all good and dandy, but its really not.  With the new kernel, i have access to sound, using ALSA.  But i don't have access to fluxbox, my desktop envrionment, because the xserver will not start up.  Why it won't start up is that my nvidia videocard driver's aren't their to start it.  They won't load...  I've had trouble with this all day.    And just to spite me, after all this problemage with *nix, my laptop gets all funky.  Windows XP is totally gone, it won't even start.  So, now i have to use the handy dandy Compaq System Restore Disks.  It takes so long tooooooo.  I hate those CD's.    Well, here i am, waiting for a reply on the Gentoo forums about my problem.  Hopefully the answer will be uncovered.    Lates
-     
-    

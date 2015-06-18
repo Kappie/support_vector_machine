@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Tab-completion in Windows 2000 (Anders Jacobsen's blog) :  I might be the last one in the world to discover this W2K tweak, but just in case others are interested; here's how to get 'tab completion' (famous from the unix world and also (I hear) now default in Windows XP command prompts) in Windows 2000: Hit the 'Start' button  Select 'Run'  enter 'regedit', hit OK  Expand 'My computer' (by clicking the little [+] beside it)  Expand HKEY_LOCAL_MACHINE  Expand SOFTWARE  Expand Microsoft  Expand Command Processor  Double-click 'CompletionChar'  Replace the value that's there with 9 (which is the ASCII equivalent of the TAB key)  Click OK"
-     
-
-    

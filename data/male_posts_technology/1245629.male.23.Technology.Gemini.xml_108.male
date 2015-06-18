@@ -1,8 +1,0 @@
-
-
-
-       
-      In the misc section:  Sending binary data files in ASCII-armored format without encryption or signature (using pgp command line package.)      pgp -a      This command instructs PGP to produce an ASCII-armored file called filename.asc . The recipient uses the -p option to unwrap the message and restore the sender s original filename.pgp -p filename.asc You can then store the files in a email message or database table in text format.  http://unixtips.org/index.php3?catList=8 ---  This is Incorrect.  This does not work with GPG version 1.2.1 For gpg command to act, it requires an option as well as a command. -a is an option and no command is being given.  Kindly remove this tip.   Regards, Senthil --   ( I have included the Original Author of tips Id, If I am wrong in understanding kindly let me know, but this tip failed in my box)  --  ~~~                                                                               ~~~ If you think before you speak, the other guy gets his joke in first. ~~~                                                                               ~~~ 
-     
-
-    

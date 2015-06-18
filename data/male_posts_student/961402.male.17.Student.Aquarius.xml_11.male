@@ -1,6 +1,0 @@
-
-
-     
-      What kind of moron would use their blog to learn Javascript?  :-D      document.write (" This Is Red Text  ") document.write (" This is blue text.  ") RightNow = new Date();  document.write("Today's date is " +  (RightNow.getMonth()+1)+ "-" + RightNow.getDate() + "-" + RightNow.getFullYear() + ".You entered this Web Page at exactly: " + RightNow.getHours() +":" + RightNow.getMinutes()  + " and " + RightNow.getSeconds() +" seconds")    
-     
-    

@@ -1,6 +1,0 @@
-
-
-     
-      Useful tips  tricks      Breaking lines after /  Source: David Carlisle   Q: [the document text extended into the right margin]  .... sport/utility  A: if you used sport\slash utility you would allow \TeX to break the line after the /       ------------------------------------------------------------  MY IDEA: I adapt it for use in breaking lines after url such as    urlLink  http://genome-www.stanford.edu/sutech/download/nci60   ->  http:\slash\slash genome-www.stanford.edu\slash sutech\slash download\slash nci60    ------------------------------------------------------------   actually i want to use url package but i have to try on dice machine first    
-     
-    

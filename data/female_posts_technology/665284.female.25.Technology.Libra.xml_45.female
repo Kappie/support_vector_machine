@@ -1,6 +1,0 @@
-
-
-	 
-        HOW TO ADD A DEDICATED PRINTER   OS: Windows 2000 Printer is dedicated to one PC (A).  Two other PCs (B  C) will share access.  Share printer.  Allow printer management to profile Everyone in properties of printer  PC using network domain: - Add printer using "Network printer." - Input share name of printer in this format: \\ip adress\share name - Test print  PC using local domain: - Add log-in username as new user in PC (A) - Allow printer management to new profile except if Everyone is allowed - Run PC name of owner using format: \\pc name - A window for said PC will appear.  Double click on the shared printer. - Test print   GSC Quotable Quotes   San ka tumatawag?  Gusto ba namin yan?  - Tina on Marlowe's order at Yellow Cab   Isa pa non.  14 inches lang.  - Marlowe ordering at Yellow Cab   January 10, 2003 Friday.  Sir Harry Soriano's birthday.   HAPPY BIRTHDAY, SIR!  
-     
-    

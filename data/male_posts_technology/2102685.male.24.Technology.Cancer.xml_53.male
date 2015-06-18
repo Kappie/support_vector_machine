@@ -1,8 +1,0 @@
-
-
-
-    
-
-       
-
-      Just read an article called  urlLink Multithreading in .Net , where the author shows how easy and useful it is to use multithreading via the Threadpool in .Net. Now, I totally agree with him on these issues, but the implementations leaves a bit to be desired. For instance is he using AutoResetEvent, but it doesn't really do anything in the code... He says that he is using it to tell the UI thread when the threadpool thread is done, but this information us totally and utterly useless in his scenario! And he is not using the QueueUserWorkItem method as it should anyway, IMO. You can use it to either fire a method with no input or a method with state information. The AutoResetEvent should not be passed in as an argument like he does... And as a reader comments, you should not change the buttons visibility on a non-ui thread, bad habit!  But the article has its ups anyway, it promotes to use of asyncronous programming, which is always (almost!) a good thing! :)  [Listening to: At Loss For Words -  urlLink Dark Tranquillity  - Haven (0:-1)]

@@ -1,8 +1,0 @@
-
-
-
-       
-      So, Alan mentioned to me yesterday that he'd found and fixed a bug in the ISIS GPS code, dating from when I originally wrote it, nearly two years ago now. It caused all latitude/longitude measurements to be off by around 20 miles. It was probably caused by a combination of coding error on my part and/or my sketchy understanding of the NMEA protocol and/or the sketchy documentation for said protocol.  Normally, this sort of thing would really bother me; I'm supposed to be a professional and all, which means being methodical and testing your work thoroughly. But in this instance, I just have to laugh. I find it fucking  hilarious  that not a single developer or user, some of whom are much smarter than I am, noticed such a huge problem in a system that's been in heavy production for over a year. It's just... wow. 
-     
-
-    

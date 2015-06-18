@@ -1,6 +1,0 @@
-
-
-     
-      Rini, the reason why  IE  throws up an error is: The "Recent Posts" index uses  JavaScript  to get the titles of the posts. if you can recall our JavaScript classes (which I don't), the single quote mark is a delimiter character. When a single quote is being used in a post like "Rini's blog", the script generates an error, which is what you can see in your browser.  Moral of the Story:   Never, ever use a single quote in the title of your post.    As for Johann Sebastian Bach (1685-1750), I like his  motets  very much. Bach also wrote some of most beautiful pieces of music for a wide range of instruments. Most of his work were religious in nature, but his compositions were all easy to learn. Bach came from a musical family.  Rini, what compositions of Bach have you bought?
-     
-    

@@ -1,8 +1,0 @@
-
-
-
-           
-      i came into work this morning only to find out that we had a power outage over the weekend. in most companies this would be a minor inconvenience but in my company, its a catastrophe. we are in the data delivery business and, for that reason, we advertise guaranteed uninterrupted uptime as a major selling point. we actually have power generation facilities on the premises that give us at least two weeks of full service with no external power. what happened over the weekend was that the failover to the back-up power system was being tested and obviously didn't work properly. the result was a total systems outage. most, if not all, of the servers recover automatically on their own. unfortunately, if the sequencing of restoration gets quirky then databases don't get filled properly, feeds don't turn on in order, etc.   needless to say, there were countless headaches resulting from this. the web server that i am responsible failed an integrity check on boot (due to improperly unmounted partitions), so it had to be massaged into service. of course, this took time and a few customers noticed. oh well, at least we had decent response time.
-     
-
-        

@@ -1,6 +1,0 @@
-
-
-     
-      Pretty productive day today. Met with Pasha, we just went over some basic stuff, future research, the Chidamber paper, etc. I implemented the RFC metric, and that about completes the Chidamber suite--the final metric, LCOM, is very difficult to implement, and not a very good indicator of complexity in Java, anyway (the paper was written for C++/Smalltalk), so I'll just discuss that in my paper briefly. I'm meeting again with Pasha hopefully Thursday to discuss a few more metrics to implement, and in the meantime I'm just working on minor program changes...the major feature here will be a reworking of the way the results are displayed, they are now (almost) sortable by both class and metric (before, they were only sorted by class). Although, having so many different display options for the results, the process of printing results to the screen has now become very repetive and space-consuming, so tomorrow I plan on making a method that can do all this much more easily. Also, when the program is complete, I'll probably dedicate my website (on the sidebar, currently unused for anything important except for "SHALOM COACH K" flying around on the screen) to the project--source code, etc.
-     
-    

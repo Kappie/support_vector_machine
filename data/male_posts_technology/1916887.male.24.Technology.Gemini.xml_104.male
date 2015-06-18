@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink IE security patch nixes some apps | CNET News.com Some Web developers are complaining that an Internet Explorer patch that's meant to foil Net scams is disabling some applications that didn't put a premium on security. Microsoft last week announced that a modification to its IE browser would stop the insecure practice of including sensitive information in links. The update, which was released Monday, had some Web site programmers up in arms Wednesday due to complaints from Web users that they could no longer log in to sites that secure entry through credentials included in the URL. "Microsoft may have legitimate reasons for addressing the issue, but the way they addressed it--an across-the-board kill of an industry standard--is troublesome," said James Rosko, a software engineer for a data-processing service on the Web. He and other programmers spent Tuesday night making changes to the programs that process login requests for his company's Web site, which he requested not be named.  --- This *could* be a problem for some users who have to log into bank websites to do business.  Make sure you test this with your users before deploying.
-     
-
-    

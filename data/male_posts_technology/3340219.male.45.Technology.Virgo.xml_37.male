@@ -1,7 +1,0 @@
-
-
-	 
-      IBM Tosses Embedded Database to Apache LinuxWorld: Big Blue will continue to develop Cloudscape separately but remain true toitsopen source version.  urlLink http://nl.internet.com/ct.html?rtr=ons=1,11rj,1,m701,ajsr,48gk,84du  Na uwagę zasługuje dodanie do Apache możliwosci przechowywania danych w bazie np. stanu sesji z uzytkownikiem co ma piekielnie wazne znaczenie w przypadku bezstanowego protokolu HTTP. Wazne jest teraz jak mozna to wykozystac w samym serwerze np w postaci modulu mod_cloudscape? Sama mozliwosc jeszcze nic nie daje, trzeba jeszcze to dorobic interfejs bazy z serwerem internetowym. Jest jeszcze jedno pytanie: jaki cel przeswiecal firmie IBM? 1) Utrzec nosa MS SQL Server i MySQL (polowa instalcji baz danych open source to MySQL)? 2) spopularyzowac Jave poza Sun-em? 3) zwiekszenie funkcjonalnosci serwera Apache? 
-     
-
-    

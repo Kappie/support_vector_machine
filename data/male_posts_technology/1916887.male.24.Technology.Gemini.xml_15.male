@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink Microsoft Security Bulletin MS03-043  hole.  I suggest disabling the {useless} Messenging Service on all of your Windows devices to ward off this vuln and any future holes that may be found.  The easiest way to do this in an AD environment is to use Group Policy.  Here's the article:   urlLink Son of MSBlast on the way? | CNET News.com : "Released on a security mailing list earlier this week, the program takes advantage of a flaw in Microsoft's Messenger Service to cause Windows-based computers to crash. The vulnerability affects almost every current Microsoft Windows system, leaving security experts concerned that independent hackers will quickly find a way to take control of a large number of computers by exploiting the flaw. "  "I think we are going to see a repeat of the (MSBlast worm)," said Vincent Weafer, senior director of Symantec's antivirus research center, referring to the program that spread across the Internet in August. The program used a similarly widespread Windows flaw to break through computers' security. "It took three weeks (for hackers) to figure out a working worm in that case."   From  urlLink CNET News.com -- Technology news and business reports 
-     
-
-    

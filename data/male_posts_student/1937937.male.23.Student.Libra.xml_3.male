@@ -1,6 +1,0 @@
-
-
-    
-         Continuity       [10/13.1]    Let (X, d ) and (Y, d 1  ) be metric spaces.  Let  f  : X  ®  Y be a constant function.  That is  $  a  y 0    Î  Y  '  for all  x   Î  X,  f(x) = y 0  .  Show  f  is continuous.   Since | f(x) - f(x o ) | = | y - y 0  | = 0  "  x 0    Î  X,  d 1 (f(x),f(x 0 ))  = 0  e      [10/13.2]    The identity function  f(x) = x  is continuous because:   | f(x) - f(x 0 ) | = | x - x 0  |  d   e      [10/13.3]    Let (R, d ), with R the real numbers and  d(a,b)  = | a  -  b |.  Now, we define  f  by  f  : R  ®  R by:   f(a)  = {0 if  a  is rational,  a  if  a  is irrational}  We show that  f  is not continuous at any point  r ,  r   ¹  0.   If  r  is irrational and  x 0    Î  Q, then | f(r) - f(x 0 ) | = | r  - 0| =  r .  Thus,  e  1  >  r  and | r  -  x 0  |  d  1 .  However, we know that there is an arbitrarily small distance between  r  and  r 0    Î  Q, with | f(r 0 )  -  f(x 0 ) | = 0.  But if | r 0   -  x 0  | > | r  -  x 0  |, then  e  2  >  e  1 , but | r 0   -  x 0  | > | r  -  x 0  | implies that  d  1   d  2 , and this is a contradiction.  Therefore,  f  is not continuous at any point  r   ¹  0. 
-    
-    

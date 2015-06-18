@@ -18,18 +18,9 @@ from multiprocessing import Pool
 
 
 BASE_DIR = "data"
-#DIRECTORIES = ["fragmented_4096_csv", "fragmented_4096_jpg"]
-#DIRECTORIES = ["fragmented_gz", "fragmented_jpg"]
 DIRECTORIES = [
-	#"male_blogs",
-	#"female_blogs"
-        #"fragmented_csv",
-        "male_posts_technology",
-        #"fragmented_txt",
-        "female_posts_technology",
-        #"fragmented_xml",
-        #"fragmented_html",
-        #"fragmented_csv"
+        "blogs_male_student_cleaned",
+        "blogs_female_student_cleaned"
 ]
 
 ANCHORS_PER_TYPE = 60
@@ -75,6 +66,15 @@ def partition(directory):
 
     return [anchors, training_samples, test_samples]
 
+#def partition(directory):
+    #"""
+    #To be used with the male/female authorship attribution. This function partitions the blogs first, then
+    #select anchors, training and test data from different blogs, to prevent authorship attribution to mingle
+    #with gender attribution.
+    #"""
+        
+
+
 def compress_file(file_name):
    return [file_name, Z( contents[file_name] )] 
 
@@ -116,7 +116,7 @@ def generate_classifier(training_items):
 
     tuned_parameters = [
         #{'kernel': ['rbf'], 'gamma': [2 ** n for n in numpy.arange(-8, 2, 1)], 'C': [2 ** n for n in numpy.arange(-8, 2, 1)] }
-        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-7, 0, 1) ], 'C': [ 2 ** n for n in numpy.arange(0, 6, 1) ] } ,
+        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-9, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } ,
         #{'kernel': ['linear'], 'C': [ 2 ** n for n in numpy.arange(-10, 10, 1) ]}
         #{'kernel': ['poly'], 'degree': [1, 2, 3, 4, 5], 'coef0': [1, 5, 25, 125], 'C': [1, 10, 100]}
         

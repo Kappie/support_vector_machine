@@ -1,6 +1,0 @@
-
-
-    
-       I finally switched to Linux.  I installed Fedora Core 2 last friday night and I loaded all of my music, family photos, and other important documents onto Fedora by Sunday.  I am using an 80gb hard drive which is sufficient for now even though I had almost a completely full 120gb one for Windows.  The games and programs for Linux tend to take up less space and I don't need as many of them.  I have a Microsoft Wireless Natural Multimedia keyboard.  It is a nice keyboard besides the fact that it has an "F Lock" key that has to be pressed "on" before the function keys (F1 - F12) can be used.  I used to use a Windows regsitry hack that fixed this by changing all of the keycodes of the new and useless functions of the F keys (like print, reply, save) to act as if they were the normal F keys.  Now that I am using Linux I had to get used to pressing that dumb "F Lock" key again.  I got sick of it so I made a shell script that fixes the problem.  The script is available and licensed under the  urlLink GPL .  The script is:  urlLink f_lock_fix  
-    
-    

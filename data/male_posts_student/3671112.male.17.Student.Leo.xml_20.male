@@ -1,5 +1,0 @@
-
-
-	 
-      by the way, if you want to play around with beagle and dashboard, they're on gnome cvs. just do this to get get them.  $ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login $ (just hit enter when it asks for password) $ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co beagle  and then just do the same, replacing "beagle" with "dashboard." hopefully my sleepiness didn't fuck that up.
-    

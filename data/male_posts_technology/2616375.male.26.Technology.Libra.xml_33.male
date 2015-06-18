@@ -1,6 +1,0 @@
-
-
-    
-       Tim Rains, PSS Security Team has developed a tool called Port Reporter that logs TCP and UDP port activity on Windows Systems. In his own words, this is the way that Port Reporter works: "When your system binds a new UDP port or accepts connections on a TCP port, it logs this activity in a text file.  It runs as a service on Windows Server 2003, Windows XP, Windows 2000, and Windows NT 4.0.  On our newer OSes (W2K3 and XP), this service logs what process is using each port, if the process is running as a service, and what modules (.dll, .drv, etc) the process has loaded.  This information will help you determine if your system has been sending suspicious outbound packets or accepting traffic that you were unaware of." You can download the same from: http://support.microsoft.com/?id=837243 or        ------------------------------------------------------------------------------- This posting is provided "AS IS" with no warranties, and confers no rights.  
-    
-    

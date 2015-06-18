@@ -1,6 +1,0 @@
-
-
-    
-       I was wondering, how to find out the actual control, that caused a Page submit (postback).  We can actually use the hidden __EVENTTARGET field, in the Pages request object to find out the control, that caused a post back. The following code will help...  private string GetControlThatPostedBack() 		{ 			if(Page.IsPostBack) 			{ 				//try to find the name of the postback control in the hidden __EVENTTARGET field 				string  controlName = Page.Request.Form["__EVENTTARGET"]; 				// if the string is not null, return the control with that name 				if(controlName != null  controlName.Trim().Length > 0) 				{ 					return Page.FindControl(controlName).ID; 				}                                                           			}  			//the above logic does not work for PostBack events fired by standard buttons. 			//Still, we can find out the control, by looping through the Form's control collection 			//and retrieving the control that submitted the page 			foreach(string keyName in Page.Request.Form) 			{ 				Control formControl = Page.FindControl(keyName);				 				if(formControl != null) 				{ 					return formControl.ID; 				} 			} 			return ""; 		} 
-    
-    

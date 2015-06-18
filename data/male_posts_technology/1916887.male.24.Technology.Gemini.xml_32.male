@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink WinXPcentral - Speed up  Browse Windows 2000 faster. : A fix to speed up Browsing remote shares by not scanning for Scheduled Tasks.  Open up the Registry and go to : HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/Current Version/Explorer/RemoteComputer/NameSpace Under that branch, select the key : {D6277990-4C6A-11CF-8D87-00AA0060F5BF} - and delete it.  
-     
-
-    

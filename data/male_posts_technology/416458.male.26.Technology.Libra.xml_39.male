@@ -1,7 +1,0 @@
-
-
-	 
-      Date field saga ends...I think.  I've finally completed the Date field, well to what I think is complete. My boss comes back off of holiday tomorrow so he'll have the final say about it.  I'd like to thank all of those people who posted comments about it, they were all very helpful.  I wish I could say that I was totally happy with it, but I'm not. It has restrictions. I'm using the SimpleDateFormat format strings to tell it how to display, but there are restrictions. It will only accept format strings that are eauals in length to the input data (e.g. must be 'yyyy' not 'yyy' or 'yyyyy' which the SimpleDataFormat class will accept as a 4 digit year). It will only work with numerical representations of dates, so no 'Jan' or 'January' or 'Monday' etc.  I know how all of this could be done, but I'm just out of allocated time on this mini project which is annoying. But hey ho, that's the way it goes I suppose.  So I'm now implementing it through out our applications, replacing my last attempt at a date selector. Then it's back onto the Development Process document that I was working on.  Thanks again to all those who helped.
-     
-
-    

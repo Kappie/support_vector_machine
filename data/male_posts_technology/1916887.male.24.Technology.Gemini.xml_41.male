@@ -1,8 +1,0 @@
-
-
-
-       
-      This should help with all of those patches:   urlLink JSI Tip 3709. QChain.exe is a safe way of installing multiple hotfixes with a single reboot.    urlLink 296861 - How to Install Multiple Windows Updates or Hotfixes with Only One Reboot    urlLink Download details: Windows 2000  NT4.0 Reskit Utility: QChain.exe   Make a batch file such as:  @echo off setlocal set PATHTOFIXES={some path} %PATHTOFIXES%\{patch name}.exe /Z /M %PATHTOFIXES%\{patch name}.exe /Z /M %PATHTOFIXES%\{patch name}.exe /Z /M %PATHTOFIXES%\qchain.exe c:\hotfix.log  and enjoy the fun!
-     
-
-    

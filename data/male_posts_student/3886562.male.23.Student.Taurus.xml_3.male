@@ -1,8 +1,0 @@
-
-
-
-       
-      最好的架phpBB的免費空間  網址: http://www.freesites.ws 15 MB 空間 支援 PHP 支援 PERL 支援 SSI 1 MySQL FTP 上傳ftp.freesites.ws 無廣告  1. 首頁中找 - Click Here to Signup! - 並按入。  2. 看完一堆字之後在下面按 Accept。  3. 以下是填表的方法 First Name: 姓名 Last Name: 名字 Email Address: E-mail (正確與否也可) Address: 有數字跟英文就可 City: Hong Kong / Tai Wan State/Province: 亂填數字 Postal Code: 亂填數字 Country: Hong Kong / Tai Wan Phone: 亂填數字  4. 帳號填表 Account Username: 帳號名 Account Password: 帳號密碼 Domain: 域名  5. 之後就完成第一步的註冊, 等到網頁載入後會有以下的句子: Please be patient while your signup is processed. This process may take up to 1 minute. [ Customer accountID test successfully added ] Congratulations on your new account! Please check your email for your login information.  6. 之後在左面登入, 會去到 CPenal, 輸入正確的帳號與密碼。  7. 進入之後在上會有 Please update your contact information here 按入和更新你正確的 E-Mail.  8. 全部完成, 以下是架 phpBBX_SP 的教學。   架 phpBBX_SP 的教學  1. 先開一個 MySQL Account, 在 Cpenal 上按入 MySQL Databases.  2. 看 Databases: , 在下面有一個 Db: 的輸入欄, 輸入你的資料庫名稱, 之後按 ADD Db.  3. Users: 中輸入帳號與密碼。  3. 下面是安裝 phpBBX SP 的輸入資料. 資料庫伺服器主機名稱: localhost 您的資料庫名稱: 你的帳號_剛剛輸入 Db 的名稱 資料庫使用者帳號: CPenal 的帳號 資料庫密碼: CPenal 的密碼  CPenal 的帳號: php CPenal 的密碼: 123 Db: 是 test  就如以下填: 資料庫網址: localhost 資料庫名稱: php_test 帳號: php 密碼: 123  
-     
-
-    

@@ -1,8 +1,0 @@
-
-
-    
-       
-        with our own group  1.	Why IPSec Tunnel mode is Nor good for VPN  as Dynamic; A.	Forwarding issues B.	Source address  2.	About the report A.	Router Design and implementation i.	XML; one regarding the policies distribution through an out of band channel ii.	Authentication; one regarding the traffic analysis, inspection and routing B.	Design C.	Implementation i.	Should be in “c” ii.	Libraries; libxml for XML, OpenSSL for securing policy iii.	In each router, policy is stored in file  3.	For whole idea, we need to think about; A.	Why we need B.	What is the whole picture? C.	Every hosts send request to the master and the master controls the request -> Centralized failure D.	So the master’s job with demon needs to be spreaded E.	In nomadic way F.	Key distribution G.	Administrator only needs to set up. In each host, the policy is generated automatically H.	In static, policy management. Policy configuration I.	In dynamic, policy distribution automatically J.	How to find a master? K.	Who asks request to set VPN? L.	Hash chain is used to find a master. So hosts(slaves) know the master, but master doesn’t M.	How to join? i.	Either, VPN is fixed ii.	Tunnel is peer to peer  4.	Conclusion A.	Read the document B.	Learn more about VPN, RFC, Link exchange 
-       
-    
-    

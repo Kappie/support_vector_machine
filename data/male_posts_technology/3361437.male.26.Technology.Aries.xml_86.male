@@ -1,9 +1,0 @@
-
-
-       
-       urlLink Smart Client Application Model and the .NET Framework 1.1 : "Smart Client Application Model and the .NET Framework 1.1
-Introduction
-For the past five years, software developers targeting the corporate environment have faced a difficult tradeoff when deciding between the browser-based, thin client application model and its rich client counterpart.
-The browser-based application is easy to install and maintain, can target many desktops, and has no impact on the state of the client computer. Yet in spite of these advantages, the browser-based model is far from perfect. Rich client applications provide a richer user interface (UI) along with access to the local disk and local application programming interfaces (APIs), further empowering the developer and resulting in a more productive user experience. Because they run locally on the client computer, rich client applications also make for more efficient use of available resources, eliminate the issue of network latency, and enable the user to work offline."
-       
-    

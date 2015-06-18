@@ -1,6 +1,0 @@
-
-
-     
-      I came across this very simple java program.     class test{         public static void main(String args[]){             for (int i = 0;i                 System.out.println("File " + i + ":" + args[i]);             }            if (args.length               System.out.println("No files!");             }        }      }  Now what will be the out put if i write -> java test  *  guess.... Scroll down for answer...       List of all files in the current directory. If you are using *nix OS it includes hidden files also. 
-     
-    

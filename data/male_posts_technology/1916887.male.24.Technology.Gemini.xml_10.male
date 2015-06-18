@@ -1,8 +1,0 @@
-
-
-
-       
-      Hey kids.  INSTALL THE MS03-039 PATCH NOW!!!  This is no bloody joke.  Yesterday afternoon Microsoft had the nerve to disrupt my already busy day by releasing  urlLink Microsoft TechNet Security Bulletin MS03-039  which is yet ANOTHER hole in the RPC service.  Every single Windows NT kernel-based computer is affected (2k, NT, 2k3, XP).  Blaster 2 is only a matter of tweaking the original Blaster worm, so patch now.  I've been watching the lists and newsgroups closely (as well as my own installations) and haven't seen any issues with this patch as of yet.  It may also be of interest to grab the free Eeye RPC scanner  urlLink here  to get a good look at what's vulnerable on your networks.   Remember : Now that you know, it's up to you whether you spend a few hours and some reboots to patch now or spend a ton of time cleaning viruses later.
-     
-
-    

@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink How do I install applications for use with Terminal Server? : "There are two modes in terminal server, Execute and Install. By default all users are logged on in Execute mode and this means they can run programs etc. When you want to install an Application for use by everyone the Administrator should change to Install mode. The best way to install software is to use the Add/Remove programs control panel applet as this will automatically set the mode to Install during the installation and then back to Execute at the end. Alternatively you can manually change your mode to install by typing C:\> change user /install To change back to execute use C:\> change user /execute And to check you current mode use C:\> change user /query"
-     
-
-    

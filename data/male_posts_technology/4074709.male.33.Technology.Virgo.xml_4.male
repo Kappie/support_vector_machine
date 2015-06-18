@@ -1,8 +1,0 @@
-
-
-
-       
-      Well, I've been pulling out my hair lately.  Not that I had any to begin with.  I had an email server runnin W2k3 and Exchange 2003.  I did not close my relay agent on the server, so I became a spam relay machine.  Being new to exchange, I was seeing some performance issues with my server, and some errors in my application event log.  I finally determined that I was relaying spam.  I was turning off, and turning on all kinds of parameters in my software.  Not tracking any of my steps.  Very bad to do.  But then all of a sudden I was unable to send or receive any email at all.  I received an email from my ISP stating basicaily that I was a relay agent, and that I needed to fix my server.  Well, now it's the weekend.  I decided to just scrap my server and start from scratach.  I have now totally rebuilt my server from scratch.  But I can't test it because my ISP has blocked port 25 on my IP address.  I called the help desk, but of course, it's the weekend and they really can't help me.  I will have to call the VP of internet security on Monday and see if they can open up the port.  Then maybe I can get my email back up.  Oh, I have also created forms on my website (bbengs.com) that rely on me sending out email.   So now that doesn't work also. 
-     
-
-    

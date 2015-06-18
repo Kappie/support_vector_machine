@@ -1,8 +1,0 @@
-
-
-
-       
-      Here's some interesting news:   urlLink Microsoft's SUS Website:  Software Update Services now provides Windows service packs (SPs), in addition to critical and security updates. SUS will deliver Windows XP SP1, Windows 2000 SP4, and all future service packs for Windows 2000, Windows XP, and the Windows Server™ 2003 family of products.  This will sure save some wear and tear on the shoes but trying to use this to deploy on a large number of hosts will not.  Some suggest to set up several SUS servers or to use GPO to control deployments.  For those of you who do not know about SUS, go here:  urlLink Software Update Services .  It is a free and easy way to provide critical updates and (now) service packs to your client pcs/servers instead of manually doing them or having your users go to Windows Update to patch themselves.  You also have the power to approve which updates are installed.  This website  urlLink SUSserver.com  is a great resource for SUS.
-     
-
-    

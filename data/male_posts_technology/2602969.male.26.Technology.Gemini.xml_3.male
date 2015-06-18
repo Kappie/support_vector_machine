@@ -1,5 +1,0 @@
-
-
-	 
-      Since Mobile communicate with their base stations, the Mobile Service provides knows exactly where the mobile user, it called traingulation ( I picked this off some movie ) by which I assume they get the exact location using 3 base stations and getting the exact location of the mobile phone.  Why dont they send this information to the mobile phone and probally provide acess to this data using some API.  For j2me the answere is Location API ( I think )   I wonder if I could integrate MobiMap with the location based information if that is possible the user can use MobiMap and ask questions like 'Where am I right now?' and it can use location based API and MobiMap services to show the exact location of the mobile user.  I guess I will have to look at the JSP for Location API for j2me devices and if they (sun) have a reference implementation out use it to write the program. I know I will not be able to use the program using Location based API on my phone, but then too I would be something interesting to try. 
-    

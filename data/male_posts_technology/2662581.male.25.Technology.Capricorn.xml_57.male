@@ -1,6 +1,0 @@
-
-
-	 
-      A good article from a fellow MVP.  This is just a small little thought, which I thought, can be shared... Whenwe try to access data from a table in DataSet many a times we have to usethe name of the columns... We have multiple Datagrids bound to each tableand many other controls of your page also access data from these tables...Now, just in case your column name changes in the table you would want tohave minimum impact on the stuff that you have to change...As a solution to this you can have DataDefinition class... This class canjust return back the name of the columns as properties, you can define theselight weight classes if you have less number of tables to be accessed... Inany case if you do not follow this approach then it is always advisable tohave constants declared at a common location and store your column names inthere....You can later use either these constants or light weight classes to get thecolumn names...PS: Do note that by introducing such things you can make your design moremaintainable but sometimes loose on performance... Take decisions on thebasis of what is ideal for your situation... Don't sue a poor fella like mefor suggesting, you anyways won't get much... :-) Vishal JoshiMicrosoft MVP .Net 
-     
-    

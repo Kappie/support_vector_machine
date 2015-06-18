@@ -1,5 +1,0 @@
-
-
-	 
-       "the beagle indexer seems to bug out with beagle-index-files though from ~/ ..it'll go through the first directory it finds, then it'll try to index /home/charlie/charlie/thatdirectory, then /home/charlie/charlie/charlie etc.."  - me    i found a symlink to /home/charlie in /home/charlie called "charlie"  :x
-    

@@ -1,5 +1,0 @@
-
-
-	 
-      the past week has been completely devoted to non-stop development of the Tactx game that i'm working on. in a week the map editor went from  urlLink this  to  urlLink this . and the latter was taken two days ago i believe. currently i'm working on a nasty bug in the map editor that causes a segfault on my machine (linux) and a rather large memory leak on windows which causes the system to freeze.    you can check out the site at  urlLink http://dextrocardia.net/tactx  but if the latest version is 0.1.2, i wouldn't download it. but other than this bug it's really nice. with Szymon Labunski's textures it looks really realistic and the map editor pretty much lets you do anything you want. once we (Szymon Labunski and i) think the map editor is bug-free, we'll start work on the multiplayer client and server. the site has up-to-date information if you're interested.  
-    

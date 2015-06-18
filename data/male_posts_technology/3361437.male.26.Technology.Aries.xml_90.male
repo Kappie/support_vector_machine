@@ -1,8 +1,0 @@
-
-
-       
-       urlLink 100% Managed Wizard Framework from Patterns  Practices : "100% Managed Wizard Framework from Patterns  Practices 
-The Shadowfax Visual Studio Wizards are built on top of a managed framework for constructing wizards automatically from configuration files. When the source code for the wizards is released, you'll see that there's minimum code in them, mostly for those parts of the wizard that actually need to modify information on the current solution, called Commands. The whole wizard UI is built from the configuration file. 
-So let's see this XML format to see what's possible with the framework."
-       
-    

@@ -1,8 +1,0 @@
-
-
-
-           
-      If you've played with Server 2003, no doubt you've come across the "Why do you want to shutdown?" question. To stop the madness, you can Disable the Shutdown Event Tracker here: Open Group Policy. Navigate to the Display Shutdown Event Tracker policy, and double-click it. (Local Computer Policy, Computer Configuration, Administrative Templates, System) On the Setting tab, click Not Configured, Enabled, or Disabled. Click OK.  You can also control shutdown from a batch file or command line here: Go to a command prompt and type SHUTDOWN /? (XP and Win2K3) For options, click the link.
-     
-
-        

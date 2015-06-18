@@ -1,8 +1,0 @@
-
-
-    
-        This article introduces the first working Xgrid agent for Linux and other Unix systems that can be integrated in any XGrid cluster (managed by OS X). The agent will compile and work on Linux (at least Debian and RedHat), Solaris (minimal testing) and Darwin (tested). You still need an OS X machine for the controller and for using the actual XGrid (with XGrid.app). Also, the user currently needs to 'be aware' that the cluster is multi-architecture (since the XGrid controller actually does not know). Examples are provided to show you how to deal with this.   This sounds like a fantastic tool that could make XGrid the standard for scientific clustering applications.  Ease of use for the consumers, and utilizing existing resources.  Sounds like Apple might not be happy (they're trying to use XGrid to sell more Macs) but that it could be good for them in the long run.  After all, you still need a Mac to run the thing, and it's a lot easier to get funding for one new computer than 50.  And once one's in the shop... 
-
-        urlLink link  
-    
-    

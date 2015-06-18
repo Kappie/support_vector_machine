@@ -1,8 +1,0 @@
-
-
-
-       
-      I've seen several tips on freeing up CPU cycles by enacting this minor tweak.  Here's the how-to:  This excerpt from  urlLink Windows-Help.NET :   "To disable the Indexing service, open Computer Management from Administrative Tools (on the Start menu if you enabled this, or from the Control Panel), select Services and Applications, double click Services, and find the Indexing Service. Double click to bring up the Properties window, and click Stop to let Windows stop the service. Then from the Status type drop down box select Disabled. "
-     
-
-    

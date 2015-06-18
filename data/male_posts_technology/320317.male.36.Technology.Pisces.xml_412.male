@@ -1,8 +1,0 @@
-
-
-    
-       "Tiny text tyrannizes users by dramatically reducing task throughput. IE4 had a great design that let users easily change font sizes; let's get this design back in the next generation of browsers."
-
- I used to think that giving the user this ability wasn't that important, especially realizing the damage users could do to your design if they changed the font size from within IE. But that is really a selfish point of view, and shows that you care more about the design than you do your users. If someone has trouble with your fonts, allow them to enlarge them so it's easier to read. You'll also need to make your layout "scalable" or "liquid" enough to handle this. Yet another reason to write standard compliant HTML.
-
- Note:  Unfortunately this site design doesn't follow this line of thinking. OK, so I need to update my site.

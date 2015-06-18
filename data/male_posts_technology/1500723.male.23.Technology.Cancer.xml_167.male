@@ -1,8 +1,0 @@
-
-
-
-       
-       More Mischiefs   Continuing the previous post.. I just remembered the mischiefs that I used to do..  1. Sending proxy mails using the hole in the SMTP and I wrote an SMTP client to simplify this process instead of telnetting to the SMTP server, But the main problem I faced here was the Unix machines were not connected to the internet So we couldnot send proxy mails to their most commonly used mail accounts (Vayu server) but only to their unix acccounts which ppl checked rarely..  2. cat *big source file* > *others unix terminals* : There was a security hole in our Linux servers all the users were given permissions to access all the terminals.. and I used to dump some arbit shit to others terminals.. It was fun when some one sitting next to me was having no idea of what's happening in his terminal... He was thinking he was getting hacked.. :))....  3. net send * "some arbit"  4. Transfer of files during the lab exams was much more thrilling... I Used my HTTP server for this...  5. I also remember ppl used to play with a chat client. I guess its called pop.. I am sorry If iam wrong I don't exactly remember the name... 
-     
-
-    

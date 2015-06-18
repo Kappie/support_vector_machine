@@ -1,8 +1,0 @@
-
-
-
-       
-       urlLink TweakXP.com - Remove Windows Messenger : Start - Run - then type: RunDll32 advpack.dll,LaunchINFSection %windir%\INF\msmsgs.inf,BLC.Remove  Yeah you're supposed to be able to remove Messenger via Add/Remove Windows Components, but it never worked for me.  THE DAMN THING WOULDN'T GO AWAY!!
-     
-
-    

@@ -1,5 +1,0 @@
-
-
-	 
-      some reflection from today's GGF  urlLink WSRF  update session.  it seems that the aim of WSRF is to provide a formal model for states in (WS focused) distributed systems. Porviding a formal model is definately a good thing, however the WSRF spec is kind of noisy, consists of 6 sub spec and some of them seems unrelated to the aim. e.g. fault handling, service group. what are they to do with a formal state model??  during  urlLink David Snelling 's presentation he gave 3 examples of how we could use WSRF, but all of the examples can be implemented by other specs, so as ppl in the session duely pointed out, WHAT IS THE POINT??  
-    

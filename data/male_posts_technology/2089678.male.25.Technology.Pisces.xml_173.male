@@ -1,6 +1,0 @@
-
-
-     
-      This tutorial assists developers with building DB2 Everyplace mobile applications using J2ME DB2 Everyplace MIDP ISync APIs and deploying the application in the J2ME environment using J2ME Toolkit.   Part one of this two-part tutorial uses the DB2Everyplace J2ME MIDP ISync Client APIs to create a Sample Address Book database on a J2ME Emulator/Device from a remote DB2 database. The Address Book database on the J2ME Emulator/Device is stored using J2ME Record Store Management System.   Part two builds an address book application that accesses the Address book database, performs updates to it and then synchronizes it with the remote DB2 Address database.   [Resource-Type: Tutorial; Category: Java/J2ME, IBM/DB2; Level: ADV, XRating: 4]
-     
-    

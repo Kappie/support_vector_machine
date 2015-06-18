@@ -1,8 +1,0 @@
-
-
-
-       
-      Well, I'm just doing this for myself, basically, I'm bored with what I'm doing on C2 code right now, which consists of turning stuff that looks like this:  send_to_char("Only numeric values are allowed\r\n", ch);  into this:  co2900_send_to_char(ch, "Only numeric values are allowed\r\n");  or this:  bzero (buf, sizeof(buf)); sprintf(buf,"%s has a %d gold\r\n", GET_REAL_NAME(vict), GET_GOLD(vict)); send_to_char(ch, buf);  into this:  co2900_send_to_char(ch, "%s has a %d gold\r\n", GET_REAL_NAME(vict), GET_GOLD(vict));  About 4 or 5 thousand times.  Fun stuff.  Not.  Anyway, my new project is a from scratch mud server in Cocoa.  So far, it's good fun!  All I have is a couple classes that constitute a very simple multiplexing and non-blocking telnet server that does nothing.  Well, it parses through the input and puts it into an array to use later, but that's about it.  Just laying the ground work!
-     
-
-    

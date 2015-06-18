@@ -1,8 +1,0 @@
-
-
-
-       
-      I get tons of complaints about NumLock's behavior.. such as it turns on during boot-up when the user doesn't want it to, or it doesn't turn on during boot-up, etc.  Here's the solution:   urlLink Annoyances.org - Force NumLock to Behave   Solution #3 (Windows 2000/XP only):   Run the Registry Editor (REGEDIT.EXE).  Open HKEY_CURRENT_USER\Control Panel\Keyboard (If the Keyboard key isn't there, add it.)  Double-click the InitialKeyboardIndicators value on the right. (If it's not there, select New from the Edit menu, then String Value, and type InitialKeyboardIndicators for the name of the new value.)  Change the value to any of the following:  0 - all indicators off  1 - Caps Lock on  2 - Num Lock on  4 - Scroll Lock on  Or, combine them by adding the corresponding values:  3 - Caps Lock and Num Lock on  5 - Caps Lock and Scroll Lock on  6 - Num Lock and Scroll Lock on  7 - Caps Lock, Num Lock, and Scroll Lock on  Close the Registry Editor when you're done; the change should take effect the next time you start Windows. 
-     
-
-    

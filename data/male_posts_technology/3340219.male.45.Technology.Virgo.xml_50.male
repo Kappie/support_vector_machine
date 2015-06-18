@@ -1,7 +1,0 @@
-
-
-	 
-      Warstwa komputerowa jest poszerzona o kolejna warstwe, warstwe identyfikacji. Do tej pory jest warstawa sprzetu, systemu operacyjnego, aplikacji. Pozniej doszla warstwa posredniczaca miedzy aplikacjami i systemem (middleware) a takze warstwa abstrakcji sprzetowej i sterownikow. Teraz doszla warstwa identyfikacji uzytkownika zasobu. O niej mowilo sie na poczatku lat 90, gdy wprowadzono uslugi LDAP. Uslugi LDAP wraz z uslugami zabezpieczenia (security services) utworzyly  obszar (strefe) identyfikacji tzw. identity area. Powszechnie mowi sie o powstaniu nowej warstwy "identity management". Uslugi katalogowe rozbudowane do warstwy identity magmt staja sie powszechne (commodities) i na nich bazuje kolejna usluga web services
-     
-
-    
