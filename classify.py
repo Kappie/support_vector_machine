@@ -21,8 +21,8 @@ from sklearn import pipeline
 
 BASE_DIR = "data"
 DIRECTORIES = [
-        "blogs_male_cleaned",
-        "blogs_female_cleaned"
+        "fragmented_csv",
+        "fragmented_jpg"
 ]
 
 #DIRECTORIES = [
@@ -30,8 +30,8 @@ DIRECTORIES = [
     #"fragmented_jpg"
 #]
 
-ITEMS_PER_CLASS = 5000
-ANCHORS_PER_CLASS = 100
+ITEMS_PER_CLASS = 3000
+ANCHORS_PER_CLASS = 10
 GRID_SEARCH_CV = 3
 CV = 5
 
