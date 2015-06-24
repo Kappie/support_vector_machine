@@ -9,6 +9,7 @@ import pdb
 import pickle
 import random
 import multiprocessing
+import datetime
 from multiprocessing import Pool
 
 from sklearn import svm
@@ -20,12 +21,19 @@ from sklearn import pipeline
 
 BASE_DIR = "data"
 DIRECTORIES = [
-        "fragmented_csv",
-        "fragmented_jpg"
+        "blogs_male_cleaned",
+        "blogs_female_cleaned"
 ]
 
-ITEMS_PER_CLASS = 100
-ANCHORS_PER_CLASS = 10
+#DIRECTORIES = [
+    #"fragmented_csv",
+    #"fragmented_jpg"
+#]
+
+ITEMS_PER_CLASS = 5000
+ANCHORS_PER_CLASS = 100
+GRID_SEARCH_CV = 3
+CV = 5
 
 contents = {}
 compressed_sizes = {}
@@ -65,7 +73,9 @@ def prepare_data():
     compressed_sizes.update(sizes)
     print("Done compressing all files.")
      
+    print("Extracting features with ncd. Might take a while...")
     data_items = extract_features_and_labels(items, anchors)
+    print("Done extracting features.")
 
     feature_vectors = numpy.asarray( [ item[0] for item in data_items ] )
     labels          = numpy.asarray( [ item[1] for item in data_items ] )
@@ -105,11 +115,21 @@ def main():
         {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-9, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } ,
     ]
 
-    support_vector_machine = grid_search.GridSearchCV(svm.SVC(), param_grid, cv = 3)
+    print("Gonna go out and classify. Wish me luck.")
+    support_vector_machine = grid_search.GridSearchCV(svm.SVC(), param_grid, cv = GRID_SEARCH_CV)
     classifier = pipeline.make_pipeline(preprocessing.StandardScaler(), support_vector_machine)
 
-    predicted_labels = cross_validation.cross_val_predict(classifier, vectors, labels, cv = 5)
+    predicted_labels = cross_validation.cross_val_predict(classifier, vectors, labels, cv = CV)
 
-    print metrics.classification_report(labels, predicted_labels)
+    file_string = "-".join( DIRECTORIES + [str(ANCHORS_PER_CLASS) + "anchors", str(ITEMS_PER_CLASS) + "items"] ) + ".txt"
+    with open( os.path.join("reports", file_string), "w") as f:
+        date = "date: " + str(datetime.datetime.now())
+        anchors = "anchors per class: " + str(ANCHORS_PER_CLASS)
+        grid_search_cv = "grid search cv: " + str(GRID_SEARCH_CV)
+        cv = "cv: " + str(CV)
+        report = metrics.classification_report(labels, predicted_labels, digits=4)
+        print report
+
+        f.writelines("\n".join([date, anchors, grid_search_cv, cv, report]))
 
 main()

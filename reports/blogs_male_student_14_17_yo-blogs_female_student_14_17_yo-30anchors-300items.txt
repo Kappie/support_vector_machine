@@ -1,0 +1,10 @@
+date: 2015-06-19 10:39:40.815857
+anchors per class: 30
+grid search cv: 3
+cv: 5
+             precision    recall  f1-score   support
+
+    .female     0.6486    0.6400    0.6443       300
+      .male     0.6447    0.6533    0.6490       300
+
+avg / total     0.6467    0.6467    0.6467       600
