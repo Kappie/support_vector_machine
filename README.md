@@ -41,7 +41,9 @@ avg / total     0.9950    0.9950    0.9950      2000
 
 `CV` specifies the number of folds used in cross validation.
 `GRID_SEARCH_CV` specifies the number of folds used in cross validation
-for estimating the fitness of the model parameters.
+for estimating the fitness of the model parameters. For each training
+partition of the data set, the best parameters within the specified space
+are found, and are used to predict the test partition.
 
 You can specify the parameter space as follows:
 
