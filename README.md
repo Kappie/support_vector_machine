@@ -54,6 +54,16 @@ PARAM_GRID = [
     ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] }
 ] 
 
-```
+``` 
+
+### References 
+
+[scikit-learn](http://scikit-learn.org/stable/modules/svm.html) 
+
+[A Practical Guide to Support Vector
+Classification](http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf)
+
+
+
 
 
