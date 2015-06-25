@@ -30,10 +30,16 @@ DIRECTORIES = [
     #"fragmented_jpg"
 #]
 
-ITEMS_PER_CLASS = 3000
+ITEMS_PER_CLASS = 1000
 ANCHORS_PER_CLASS = 10
 GRID_SEARCH_CV = 3
 CV = 5
+
+
+PARAM_GRID = [
+    {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-9, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } ,
+]
+
 
 contents = {}
 compressed_sizes = {}
@@ -111,12 +117,8 @@ def Z(contents):
 def main():
     vectors, labels = prepare_data()
 
-    param_grid = [
-        {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-9, 2, 1) ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } ,
-    ]
-
     print("Gonna go out and classify. Wish me luck.")
-    support_vector_machine = grid_search.GridSearchCV(svm.SVC(), param_grid, cv = GRID_SEARCH_CV)
+    support_vector_machine = grid_search.GridSearchCV(svm.SVC(), PARAM_GRID, cv = GRID_SEARCH_CV)
     classifier = pipeline.make_pipeline(preprocessing.StandardScaler(), support_vector_machine)
 
     predicted_labels = cross_validation.cross_val_predict(classifier, vectors, labels, cv = CV)

@@ -18,11 +18,39 @@ DIRECTORIES = [
 
 The files for each class should be in their own directory. The class label is the file extension.
 
-Then, select the number of anchors per class and the number of items per class:
+Select the number of anchors per class and the number of items per class:
 
 ```python
 ITEMS_PER_CLASS = 1000
 ANCHORS_PER_CLASS = 10
 ```
 
-Then run `python classify.py`. A report is automatically written to `reports/` and a shorter version to stdout.
+Then run `python classify.py`. A report is automatically written to
+`reports/` and to stdout. For parameters mentioned above:
+
+```
+precision    recall  f1-score   support
+
+.csv     0.9950    0.9950    0.9950      1000
+.jpg     0.9950    0.9950    0.9950      1000
+
+avg / total     0.9950    0.9950    0.9950      2000
+
+```
+
+
+`CV` specifies the number of folds used in cross validation.
+`GRID_SEARCH_CV` specifies the number of folds used in cross validation
+for estimating the fitness of the model parameters.
+
+You can specify the parameter space as follows:
+
+```python
+
+PARAM_GRID = [
+    {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-9, 2, 1)
+    ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } , ] 
+
+```
+
+
