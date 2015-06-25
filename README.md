@@ -51,7 +51,8 @@ You can specify the parameter space as follows:
 
 PARAM_GRID = [
     {'kernel': ['rbf'], 'gamma': [ 2 ** n for n in numpy.arange(-9, 2, 1)
-    ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] } , ] 
+    ], 'C': [ 2 ** n for n in numpy.arange(-2, 9, 1) ] }
+] 
 
 ```
 
