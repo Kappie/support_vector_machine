@@ -30,8 +30,8 @@ DIRECTORIES = [
     #"fragmented_jpg"
 #]
 
-ITEMS_PER_CLASS = 1000
-ANCHORS_PER_CLASS = 10
+ITEMS_PER_CLASS = 3000
+ANCHORS_PER_CLASS = 5
 GRID_SEARCH_CV = 3
 CV = 5
 
@@ -123,7 +123,7 @@ def main():
 
     predicted_labels = cross_validation.cross_val_predict(classifier, vectors, labels, cv = CV)
 
-    file_string = "-".join( DIRECTORIES + [str(ANCHORS_PER_CLASS) + "anchors", str(ITEMS_PER_CLASS) + "items"] ) + ".txt"
+    file_string = str(datetime.datetime.today()) + "-" + "-".join( DIRECTORIES + [str(ANCHORS_PER_CLASS) + "anchors", str(ITEMS_PER_CLASS) + "items"] ) + ".txt"
     with open( os.path.join("reports", file_string), "w") as f:
         date = "date: " + str(datetime.datetime.now())
         anchors = "anchors per class: " + str(ANCHORS_PER_CLASS)

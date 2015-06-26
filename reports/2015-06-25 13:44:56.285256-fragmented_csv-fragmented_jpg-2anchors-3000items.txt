@@ -1,0 +1,10 @@
+date: 2015-06-25 13:44:56.285434
+anchors per class: 2
+grid search cv: 3
+cv: 5
+             precision    recall  f1-score   support
+
+       .csv     0.9911    0.9973    0.9942      3000
+       .jpg     0.9973    0.9910    0.9941      3000
+
+avg / total     0.9942    0.9942    0.9942      6000
