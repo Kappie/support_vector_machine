@@ -1,0 +1,20 @@
+date: 2015-06-30 14:40:53.701329
+[{'dict_size': 500000000,
+  'id': 33L,
+  'lc': 3,
+  'lp': 0,
+  'mf': 20L,
+  'mode': 2L,
+  'nice_len': 273,
+  'pb': 2,
+  'preset': 6}]
+indication of time spent: 9.143091
+anchors per class: 2
+grid search cv: 3
+cv: 5
+             precision    recall  f1-score   support
+
+       .csv     0.9970    0.9980    0.9975      1000
+       .jpg     0.9980    0.9970    0.9975      1000
+
+avg / total     0.9975    0.9975    0.9975      2000

@@ -1,0 +1,21 @@
+date: 2015-07-02 17:14:27.910085
+[{'dict_size': 500000000,
+  'id': 33L,
+  'lc': 3,
+  'lp': 0,
+  'mf': 20L,
+  'mode': 2L,
+  'nice_len': 273,
+  'pb': 2,
+  'preset': 2147483657L}]
+indication of time spent: 415.439762
+anchors per class: 40
+Used preloaded anchors: True
+grid search cv: 3
+cv: 5
+             precision    recall  f1-score   support
+
+    .female     0.6657    0.6830    0.6742      1000
+      .male     0.6745    0.6570    0.6657      1000
+
+avg / total     0.6701    0.6700    0.6699      2000
