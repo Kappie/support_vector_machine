@@ -1,0 +1,22 @@
+date: 2015-07-15 13:39:04.598509
+[{'dict_size': 500000000,
+  'id': 33L,
+  'lc': 3,
+  'lp': 0,
+  'mf': 20L,
+  'mode': 2L,
+  'nice_len': 273,
+  'pb': 2,
+  'preset': 2147483657L}]
+anchors used: ['243983_43.jpg', '171799_8.jpg', '903406_17.gz', '941009_72.gz']
+indication of time spent: 1650.489363
+anchors per class: 2
+Used preloaded anchors: False
+grid search cv: 3
+cv: 5
+             precision    recall  f1-score   support
+
+        .gz     0.8333    0.3750    0.5172      3000
+       .jpg     0.5968    0.9250    0.7255      3000
+
+avg / total     0.7151    0.6500    0.6214      6000

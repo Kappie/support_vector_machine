@@ -22,21 +22,24 @@ from sklearn import pipeline
 
 
 BASE_DIR = "data"
+# DIRECTORIES = [
+#     "blogs_male_cleaned",
+#     "blogs_female_cleaned"
+# ]
+
 DIRECTORIES = [
-    "blogs_male_cleaned",
-    "blogs_female_cleaned"
+    "fragmented_csv",
+    "fragmented_html",
+    "fragmented_jpg",
+    "fragmented_log"
 ]
 
-#DIRECTORIES = [
-    #"fragmented_csv",
-    #"fragmented_jpg"
-#]
 
-ITEMS_PER_CLASS = 1000
-ANCHORS_PER_CLASS = 40
+ITEMS_PER_CLASS = 3000
+ANCHORS_PER_CLASS = 10
 GRID_SEARCH_CV = 3
 CV = 5
-USE_REPRESENTATIVE_ANCHORS = True
+USE_REPRESENTATIVE_ANCHORS = False
 ANCHORS_DIR = "representative_anchors"
 
 PARAM_GRID = [
@@ -51,7 +54,7 @@ lzma_filters = my_filters = [
     {
         "id": lzma.FILTER_LZMA2,
         "preset": 9 | lzma.PRESET_EXTREME,
-        "dict_size": 500000000,  # 50 MB, should be large enough.
+        "dict_size": 500000,  # 50 MB, should be large enough.
         "lc": 3, # literal context (lc = 4 actually makes distance matrix worse!, lc = 2 or lc = 3 doesn't matter at all.)
         "lp": 0,
         "pb": 2, #default = 2, set to 0 if you assume ascii
@@ -97,7 +100,7 @@ def prepare_data():
     feature_vectors = numpy.asarray( [ item[0] for item in data_items ] )
     labels          = numpy.asarray( [ item[1] for item in data_items ] )
 
-    return [feature_vectors, labels]
+    return [feature_vectors, labels, anchors]
 
 def compress_file(file_name):
    return [file_name, Z( contents[file_name] )]
@@ -131,7 +134,7 @@ def pretty_print(obj):
 def main():
     start_time = time.clock()
 
-    vectors, labels = prepare_data()
+    vectors, labels, anchors = prepare_data()
 
     print("Gonna go out and classify. Wish me luck.")
     support_vector_machine = grid_search.GridSearchCV(svm.SVC(), PARAM_GRID, cv = GRID_SEARCH_CV)
@@ -145,6 +148,7 @@ def main():
     with open( os.path.join("reports", file_string), "w") as f:
         date = "date: " + str(datetime.datetime.now())
         compressor_filters = pretty_print(lzma_filters)
+        anchors_used = "anchors used: " + pretty_print(anchors)
         time_indication = "indication of time spent: " + str(end_time - start_time)
         anchors = "anchors per class: " + str(ANCHORS_PER_CLASS)
         preloaded_anchors = "Used preloaded anchors: " + str(USE_REPRESENTATIVE_ANCHORS)
@@ -154,6 +158,6 @@ def main():
         print report + "\n"
         print time_indication
 
-        f.writelines("\n".join([date, compressor_filters, time_indication, anchors, preloaded_anchors, grid_search_cv, cv, report]))
+        f.writelines("\n".join([date, compressor_filters, anchors_used, time_indication, anchors, preloaded_anchors, grid_search_cv, cv, report]))
 
 main()

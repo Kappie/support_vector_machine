@@ -1,0 +1,31 @@
+date: 2015-07-03 14:49:59.052168
+[{'dict_size': 500000000,
+  'id': 33L,
+  'lc': 3,
+  'lp': 0,
+  'mf': 20L,
+  'mode': 2L,
+  'nice_len': 273,
+  'pb': 2,
+  'preset': 2147483657L}]
+anchors used: ['469079_786.csv',
+ '995812_37.csv',
+ '260727_64.html',
+ '771767_79.html',
+ '198970_7.jpg',
+ '719457_166.jpg',
+ '344805_1382.log',
+ '689645_3.log']
+indication of time spent: 1386.103517
+anchors per class: 2
+Used preloaded anchors: False
+grid search cv: 3
+cv: 5
+             precision    recall  f1-score   support
+
+       .csv     0.9527    0.9527    0.9527      3000
+      .html     0.8822    0.9263    0.9037      3000
+       .jpg     0.9973    0.9893    0.9933      3000
+       .log     0.9054    0.8673    0.8859      3000
+
+avg / total     0.9344    0.9339    0.9339     12000
